@@ -1,0 +1,108 @@
+﻿<monster name="Crazed Summer Vanguard" nameDescription="a crazed summer vanguard" experience="5000" speed="390" manacost="0">
+	<health now="5500" max="5500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="50" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-30" />
+		<element holyPercent="20" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-450" />
+	</attacks>
+	<defenses armor="77" defense="77" />
+	<voices interval="5000" chance="10">
+		<voice sentence="I see colours, all colours! Or are these just illusions?" yell="false" />
+		<voice sentence="La di da di doo!!" yell="false" />
+	</voices>
+	<loot>
+		<item id="platinum coin" chance="84869" countmax="13" />
+		<item id="elven astral observer" chance="29450" />
+		<item id="belted cape" chance="8980" />
+		<item id="dream essence egg" chance="8966" />
+		<item id="seeds" chance="8342" />
+		<item id="two handed sword" chance="7544" />
+		<item id="dragon necklace" chance="7413" />
+		<item id="scimitar" chance="6731" />
+		<item id="knife" chance="6572" />
+		<item id="magma amulet" chance="5484" />
+		<item id="wand of dragonbreath" chance="4729" />
+		<item id="wand of draconia" chance="4715" />
+		<item id="magma boots" chance="3003" />
+		<item id="sun fruit" chance="943" />
+		<item id="bullseye potion" chance="290" />
+		<item id="platinum coin" chance="160" countmax="13" />
+		<item id="elven astral observer" chance="87" />
+		<item id="belted cape" chance="44" />
+		<item id="dream essence egg" chance="29" />
+		<item id="knife" chance="15" />
+		<item id="magma amulet" chance="15" />
+		<item id="wand of draconia" chance="15" />
+		<item id="wand of dragonbreath" chance="15" />
+		<item id="platinum coin" chance="87973" countmax="13" />
+		<item id="elven astral observer" chance="30538" />
+		<item id="belted cape" chance="9589" />
+		<item id="dream essence egg" chance="9328" />
+		<item id="seeds" chance="8269" />
+		<item id="two handed sword" chance="7921" />
+		<item id="scimitar" chance="7500" />
+		<item id="dragon necklace" chance="6644" />
+		<item id="knife" chance="6296" />
+		<item id="magma amulet" chance="5252" />
+		<item id="wand of dragonbreath" chance="4976" />
+		<item id="wand of draconia" chance="4657" />
+		<item id="magma boots" chance="3366" />
+		<item id="sun fruit" chance="769" />
+		<item id="bullseye potion" chance="261" />
+		<item id="platinum coin" chance="2481" countmax="13" />
+		<item id="elven astral observer" chance="972" />
+		<item id="dark armor" chance="725" />
+		<item id="belted cape" chance="493" />
+		<item id="dagger" chance="348" />
+		<item id="sabre" chance="348" />
+		<item id="seeds" chance="276" />
+		<item id="knife" chance="247" />
+		<item id="magma boots" chance="247" />
+		<item id="sword" chance="232" />
+		<item id="wand of dragonbreath" chance="232" />
+		<item id="two handed sword" chance="218" />
+		<item id="dragon necklace" chance="203" />
+		<item id="magma amulet" chance="174" />
+		<item id="dream essence egg" chance="145" />
+		<item id="scimitar" chance="145" />
+		<item id="wand of draconia" chance="145" />
+		<item id="bullseye potion" chance="15" />
+		<item id="sun fruit" chance="15" />
+	</loot>
+</monster>

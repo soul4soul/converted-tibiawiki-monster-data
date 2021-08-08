@@ -1,0 +1,73 @@
+﻿<monster name="Faceless Bane" nameDescription="" experience="14000" speed="0" manacost="0">
+	<health now="17000" max="17000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="20" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="-20" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="50" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="platinum coin" chance="44444" countmax="10" />
+		<item id="dagger" chance="23457" />
+		<item id="small sapphire" chance="13580" countmax="3" />
+		<item id="cyan crystal fragment" chance="12346" />
+		<item id="red crystal fragment" chance="8642" />
+		<item id="red gem" chance="8642" countmax="2" />
+		<item id="gold ingot" chance="6173" />
+		<item id="life crystal" chance="6173" />
+		<item id="spear" chance="6173" countmax="3" />
+		<item id="terra rod" chance="6173" />
+		<item id="crowbar" chance="4938" />
+		<item id="underworld rod" chance="4938" />
+		<item id="blue gem" chance="3704" />
+		<item id="green crystal shard" chance="3704" />
+		<item id="hailstorm rod" chance="3704" />
+		<item id="ice rapier" chance="3704" />
+		<item id="knife" chance="3704" />
+		<item id="twin hooks" chance="3704" />
+		<item id="violet crystal shard" chance="3704" />
+		<item id="giant shimmering pearl" chance="2469" />
+		<item id="snakebite rod" chance="2469" />
+		<item id="lightning pendant" chance="1235" />
+		<item id="moonlight rod" chance="1235" />
+		<item id="necrotic rod" chance="1235" />
+		<item id="violet gem" chance="1235" />
+		<item id="yellow gem" chance="1235" />
+	</loot>
+</monster>

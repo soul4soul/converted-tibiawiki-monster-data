@@ -1,0 +1,101 @@
+﻿<monster name="The Last Lore Keeper" nameDescription="" experience="45000" speed="0" manacost="0">
+	<health now="0" max="0" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="25" />
+		<element EnergyPercent="15" />
+		<element earthPercent="20" />
+		<element firePercent="15" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="35" />
+		<element holyPercent="0" />
+		<element deathPercent="60" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-1000" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<voices interval="5000" chance="10">
+		<voice sentence="You shall not pass!" yell="false" />
+		<voice sentence="You are not worthy!" yell="false" />
+		<voice sentence="This knowledge is forbidden!" yell="false" />
+	</voices>
+	<loot>
+		<item id="ancient stone" chance="100000" />
+		<item id="gold coin" chance="100000" countmax="200" />
+		<item id="onyx chip" chance="100000" />
+		<item id="gold token" chance="99550" countmax="3" />
+		<item id="iron ore" chance="99550" />
+		<item id="piece of royal steel" chance="99550" />
+		<item id="platinum coin" chance="99550" countmax="35" />
+		<item id="silver token" chance="99550" countmax="4" />
+		<item id="blue crystal shard" chance="73423" countmax="6" />
+		<item id="violet crystal shard" chance="68919" countmax="10" />
+		<item id="green crystal shard" chance="63063" countmax="3" />
+		<item id="great mana potion" chance="57658" countmax="10" />
+		<item id="ultimate health potion" chance="55856" countmax="10" />
+		<item id="great spirit potion" chance="53604" countmax="10" />
+		<item id="small sapphire" chance="28378" countmax="20" />
+		<item id="red gem" chance="27928" />
+		<item id="yellow gem" chance="26126" />
+		<item id="gold ingot" chance="22523" />
+		<item id="small emerald" chance="20721" countmax="20" />
+		<item id="blue gem" chance="18919" />
+		<item id="mystical hourglass" chance="18468" />
+		<item id="opal" chance="16216" countmax="2" />
+		<item id="green gem" chance="15766" />
+		<item id="small topaz" chance="15766" countmax="20" />
+		<item id="white piece of cloth" chance="15766" countmax="4" />
+		<item id="small ruby" chance="14414" countmax="20" />
+		<item id="magic sulphur" chance="13514" />
+		<item id="giant shimmering pearl" chance="13063" />
+		<item id="small amethyst" chance="12613" countmax="20" />
+		<item id="ring of red plasma" chance="12162" />
+		<item id="enchanted chicken wing" chance="11712" />
+		<item id="skull staff" chance="11261" />
+		<item id="violet gem" chance="10811" />
+		<item id="sapphire hammer" chance="9910" />
+		<item id="part of a rune" chance="5856" />
+		<item id="silkweaver bow" chance="4054" />
+		<item id="voltage armor" chance="2703" />
+		<item id="bonelord helmet" chance="2252" />
+		<item id="spellscroll of prophecies" chance="1802" />
+		<item id="golden armor" chance="1351" />
+		<item id="heavy mace" chance="1351" />
+		<item id="astral source" chance="901" />
+		<item id="forbidden tome" chance="901" />
+		<item id="key to knowledge" chance="901" />
+		<item id="nightmare blade" chance="901" />
+		<item id="astral glyph" chance="450" />
+		<item id="crystalline sword" chance="450" />
+		<item id="soul stone" chance="450" />
+		<item id="umbral hammer" chance="450" />
+	</loot>
+</monster>

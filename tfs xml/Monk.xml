@@ -1,0 +1,67 @@
+﻿<monster name="Monk" nameDescription="a monk" experience="200" speed="240" manacost="600">
+	<health now="240" max="240" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-5" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="50" />
+		<element deathPercent="50" />
+	</elements>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="20" min="30" max="50" />
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Repent Heretic!" yell="false" />
+		<voice sentence="A prayer to the almighty one!" yell="false" />
+		<voice sentence="I will punish the sinners!" yell="false" />
+	</voices>
+	<loot>
+		<item id="bread" chance="20056" />
+		<item id="gold coin" chance="15251" countmax="18" />
+		<item id="book of prayers" chance="4871" />
+		<item id="rope belt" chance="3123" />
+		<item id="ankh" chance="2334" />
+		<item id="scroll" chance="1832" />
+		<item id="safety pin" chance="1056" />
+		<item id="life crystal" chance="1037" />
+		<item id="brown flask" chance="861" />
+		<item id="lamp" chance="809" />
+		<item id="sandals" chance="659" />
+		<item id="staff" chance="456" />
+		<item id="power ring" chance="78" />
+	</loot>
+</monster>

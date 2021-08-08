@@ -1,0 +1,63 @@
+﻿<monster name="Undead Prospector" nameDescription="an undead prospector" experience="85" speed="144" manacost="440">
+	<health now="100" max="100" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="30" />
+		<element earthPercent="20" />
+		<element firePercent="0" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="10" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-50" />
+	</attacks>
+	<defenses armor="8" defense="8">
+		<defense name="healing" interval="2000" chance="20" min="10" max="25" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Our mine... leave us alone." yell="false" />
+		<voice sentence="Turn back..." yell="false" />
+		<voice sentence="These mine is ours... you shall not pass." yell="false" />
+	</voices>
+	<loot>
+		<item id="worm" chance="81858" countmax="6" />
+		<item id="gold coin" chance="71263" countmax="30" />
+		<item id="torch" chance="63280" />
+		<item id="brass helmet" chance="18142" />
+		<item id="knife" chance="15094" />
+		<item id="viking helmet" chance="4790" />
+		<item id="skull" chance="2467" />
+		<item id="scale armor" chance="2177" />
+		<item id="brown piece of cloth" chance="726" />
+	</loot>
+</monster>

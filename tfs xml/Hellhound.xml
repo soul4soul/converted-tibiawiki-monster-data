@@ -1,0 +1,190 @@
+﻿<monster name="Hellhound" nameDescription="a hellhound" experience="5440" speed="360" manacost="0">
+	<health now="7500" max="7500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="10" />
+		<element earthPercent="20" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="-5" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-508" />
+	</attacks>
+	<defenses armor="60" defense="60">
+		<defense name="healing" interval="2000" chance="20" min="250" max="450" />
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="GROOOOWL!" yell="false" />
+	</voices>
+	<loot>
+		<item id="platinum coin" chance="100000" countmax="7" />
+		<item id="ham" chance="30516" />
+		<item id="great mana potion" chance="28847" countmax="3" />
+		<item id="assassin star" chance="25248" countmax="10" />
+		<item id="demonic essence" chance="21701" />
+		<item id="hellhound slobber" chance="20709" />
+		<item id="flask of demonic blood" chance="20188" />
+		<item id="soul orb" chance="19823" />
+		<item id="great spirit potion" chance="19614" />
+		<item id="ultimate health potion" chance="15858" />
+		<item id="blazing bone" chance="13302" />
+		<item id="small emerald" chance="10746" countmax="3" />
+		<item id="small topaz" chance="10589" countmax="3" />
+		<item id="hardened bone" chance="10016" />
+		<item id="fiery heart" chance="9755" />
+		<item id="small ruby" chance="9494" countmax="3" />
+		<item id="black pearl" chance="9077" countmax="4" />
+		<item id="wand of inferno" chance="8555" />
+		<item id="knight axe" chance="7460" />
+		<item id="fire sword" chance="6468" />
+		<item id="yellow piece of cloth" chance="6208" />
+		<item id="green piece of cloth" chance="5269" />
+		<item id="red gem" chance="4695" />
+		<item id="yellow gem" chance="4173" />
+		<item id="gold ingot" chance="3026" />
+		<item id="red piece of cloth" chance="2660" />
+		<item id="magma amulet" chance="2243" />
+		<item id="amber staff" chance="1982" />
+		<item id="magma boots" chance="1304" />
+		<item id="magma legs" chance="1148" />
+		<item id="magma monocle" chance="991" />
+		<item id="giant sword" chance="939" />
+		<item id="big bone" chance="887" />
+		<item id="green gem" chance="887" />
+		<item id="magma coat" chance="887" />
+		<item id="onyx flail" chance="887" />
+		<item id="ruthless axe" chance="887" />
+		<item id="explorer brooch" chance="313" />
+		<item id="platinum coin" chance="100000" countmax="7" />
+		<item id="great mana potion" chance="100000" countmax="3" />
+		<item id="ham" chance="100000" />
+		<item id="assassin star" chance="100000" countmax="10" />
+		<item id="great spirit potion" chance="82368" />
+		<item id="demonic essence" chance="82212" />
+		<item id="soul orb" chance="80282" />
+		<item id="hellhound slobber" chance="77882" />
+		<item id="flask of demonic blood" chance="76369" />
+		<item id="ultimate health potion" chance="62859" />
+		<item id="blazing bone" chance="51695" countmax="2" />
+		<item id="small emerald" chance="42045" countmax="3" />
+		<item id="small topaz" chance="41941" countmax="3" />
+		<item id="small ruby" chance="40010" countmax="3" />
+		<item id="fiery heart" chance="39958" />
+		<item id="hardened bone" chance="39645" />
+		<item id="black pearl" chance="38758" countmax="4" />
+		<item id="knight axe" chance="30151" />
+		<item id="wand of inferno" chance="29108" />
+		<item id="fire sword" chance="26187" />
+		<item id="yellow piece of cloth" chance="23631" />
+		<item id="green piece of cloth" chance="21388" />
+		<item id="red gem" chance="20292" />
+		<item id="yellow gem" chance="17736" />
+		<item id="red piece of cloth" chance="13615" />
+		<item id="magma amulet" chance="11215" />
+		<item id="amber staff" chance="8764" />
+		<item id="gold ingot" chance="8242" />
+		<item id="magma boots" chance="6051" />
+		<item id="magma legs" chance="4643" />
+		<item id="green gem" chance="4486" />
+		<item id="magma monocle" chance="4121" />
+		<item id="onyx flail" chance="3860" />
+		<item id="big bone" chance="3808" />
+		<item id="ruthless axe" chance="3495" />
+		<item id="giant sword" chance="3182" />
+		<item id="magma coat" chance="3182" />
+		<item id="explorer brooch" chance="1408" />
+		<item id="gold coin" chance="49765" countmax="100" />
+		<item id="platinum coin" chance="49765" countmax="7" />
+		<item id="soul orb" chance="26448" />
+		<item id="assassin star" chance="18884" countmax="10" />
+		<item id="flask of demonic blood" chance="15649" />
+		<item id="ham" chance="15389" />
+		<item id="hellhound slobber" chance="9025" />
+		<item id="demonic essence" chance="8712" />
+		<item id="spike sword" chance="8242" />
+		<item id="great mana potion" chance="7564" countmax="3" />
+		<item id="great health potion" chance="7460" countmax="2" />
+		<item id="knight axe" chance="5373" />
+		<item id="black pearl" chance="4695" countmax="4" />
+		<item id="wand of inferno" chance="4538" />
+		<item id="fire sword" chance="3443" />
+		<item id="rusty armor" chance="2347" />
+		<item id="gold ingot" chance="730" />
+		<item id="magma legs" chance="626" />
+		<item id="big bone" chance="574" />
+		<item id="magma monocle" chance="574" />
+		<item id="giant sword" chance="469" />
+		<item id="gold coin" chance="22900" countmax="100" />
+		<item id="platinum coin" chance="22848" countmax="7" />
+		<item id="soul orb" chance="11998" />
+		<item id="assassin star" chance="8451" countmax="8" />
+		<item id="flask of demonic blood" chance="6521" />
+		<item id="ham" chance="6468" />
+		<item id="demonic essence" chance="4330" />
+		<item id="hellhound slobber" chance="3339" />
+		<item id="black pearl" chance="2869" countmax="4" />
+		<item id="spike sword" chance="2869" />
+		<item id="knight axe" chance="2139" />
+		<item id="great mana potion" chance="1617" countmax="2" />
+		<item id="wand of inferno" chance="1617" />
+		<item id="great health potion" chance="1148" countmax="2" />
+		<item id="fire sword" chance="1095" />
+		<item id="rusty armor" chance="887" />
+		<item id="big bone" chance="209" />
+		<item id="gold ingot" chance="156" />
+		<item id="ruthless axe" chance="156" />
+		<item id="giant sword" chance="104" />
+		<item id="explorer brooch" chance="52" />
+		<item id="magma legs" chance="52" />
+		<item id="platinum coin" chance="23005" countmax="5" />
+		<item id="gold coin" chance="19927" countmax="100" />
+		<item id="ham" chance="8138" />
+		<item id="flask of demonic blood" chance="7877" />
+		<item id="demonic essence" chance="4643" />
+		<item id="soul orb" chance="4591" />
+		<item id="hellhound slobber" chance="2504" />
+		<item id="black pearl" chance="1930" countmax="4" />
+		<item id="knight axe" chance="1774" />
+		<item id="rusty armor" chance="1304" />
+		<item id="spike sword" chance="1200" />
+		<item id="great mana potion" chance="1095" />
+		<item id="ruthless axe" chance="209" />
+		<item id="big bone" chance="104" />
+		<item id="gold ingot" chance="104" />
+		<item id="explorer brooch" chance="52" />
+	</loot>
+</monster>

@@ -1,0 +1,93 @@
+﻿<monster name="Golgordan" nameDescription="" experience="10000" speed="390" manacost="0">
+	<health now="40000" max="40000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="1" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="-1" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-1" />
+		<element holyPercent="1" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Latrivan, you fool!" yell="false" />
+		<voice sentence="We are the right hand and the left hand of the seven!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="262" />
+		<item id="great health potion" chance="37799" countmax="2" />
+		<item id="ring of healing" chance="29187" />
+		<item id="magic light wand" chance="26316" />
+		<item id="double axe" chance="20096" />
+		<item id="small amethyst" chance="18660" countmax="20" />
+		<item id="gold ring" chance="17225" />
+		<item id="stealth ring" chance="17225" />
+		<item id="small sapphire" chance="16746" countmax="10" />
+		<item id="silver dagger" chance="16268" />
+		<item id="energy ring" chance="15789" />
+		<item id="black pearl" chance="15311" countmax="15" />
+		<item id="silver amulet" chance="14354" />
+		<item id="small emerald" chance="13876" countmax="10" />
+		<item id="stone skin amulet" chance="11005" />
+		<item id="devil helmet" chance="10526" />
+		<item id="fire axe" chance="9569" />
+		<item id="demon shield" chance="8134" />
+		<item id="onyx arrow" chance="8134" countmax="8" />
+		<item id="small diamond" chance="8134" countmax="5" />
+		<item id="white pearl" chance="8134" countmax="15" />
+		<item id="demonic essence" chance="7656" />
+		<item id="giant sword" chance="7177" />
+		<item id="ice rapier" chance="7177" />
+		<item id="gold ingot" chance="6220" />
+		<item id="death ring" chance="5742" />
+		<item id="skull staff" chance="5742" />
+		<item id="protection amulet" chance="5263" />
+		<item id="mind stone" chance="4785" />
+		<item id="moonlight rod" chance="3828" />
+		<item id="might ring" chance="3349" />
+		<item id="boots of haste" chance="1914" />
+		<item id="snakebite rod" chance="1914" />
+		<item id="blue gem" chance="1435" />
+		<item id="crystal ball" chance="1435" />
+		<item id="wand of decay" chance="1435" />
+		<item id="necrotic rod" chance="957" />
+		<item id="assassin star" chance="478" countmax="6" />
+		<item id="golden legs" chance="478" />
+		<item id="golden sickle" chance="478" />
+		<item id="green gem" chance="478" />
+		<item id="mastermind shield" chance="478" />
+	</loot>
+</monster>

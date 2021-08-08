@@ -1,0 +1,72 @@
+﻿<monster name="Putrid Mummy" nameDescription="a putrid mummy" experience="900" speed="170" manacost="0">
+	<health now="1500" max="1500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-20" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
+	</attacks>
+	<defenses armor="40" defense="40">
+		<defense name="healing" interval="2000" chance="20" min="150" max="200" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="We will make you one of us!" yell="false" />
+		<voice sentence="Come to mummy!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="62091" countmax="64" />
+		<item id="little bowl of myrrh" chance="13687" />
+		<item id="green bandage" chance="11125" />
+		<item id="single human eye" chance="9559" />
+		<item id="broken flask" chance="9498" />
+		<item id="scarab coin" chance="8827" countmax="3" />
+		<item id="pharaoh banner" chance="2156" />
+		<item id="green gem" chance="1830" />
+		<item id="black pearl" chance="1098" />
+		<item id="poison dagger" chance="630" />
+		<item id="gold coin" chance="1566" countmax="60" />
+		<item id="scarab coin" chance="224" countmax="3" />
+		<item id="single human eye" chance="203" />
+		<item id="little bowl of myrrh" chance="183" />
+		<item id="green bandage" chance="142" />
+		<item id="broken flask" chance="102" />
+		<item id="pharaoh banner" chance="81" />
+		<item id="green gem" chance="41" />
+		<item id="black pearl" chance="20" />
+	</loot>
+</monster>

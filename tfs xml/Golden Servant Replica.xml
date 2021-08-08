@@ -1,0 +1,57 @@
+﻿<monster name="Golden Servant Replica" nameDescription="a golden servant replica" experience="450" speed="210" manacost="0">
+	<health now="2000" max="2000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="25" />
+		<element earthPercent="80" />
+		<element firePercent="15" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="100" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
+	</attacks>
+	<defenses armor="29" defense="29" />
+	<loot>
+		<item id="gold coin" chance="85411" countmax="137" />
+		<item id="mana potion" chance="5217" />
+		<item id="health potion" chance="4686" />
+		<item id="halberd" chance="2367" />
+		<item id="green mushroom" chance="1546" />
+		<item id="gear wheel" chance="1014" />
+		<item id="spellbook of enlightenment" chance="386" />
+		<item id="stealth ring" chance="338" />
+		<item id="slime mould" chance="242" />
+		<item id="golden can of oil" chance="48" />
+	</loot>
+</monster>

@@ -1,0 +1,67 @@
+﻿<monster name="Grand Canon Dominus" nameDescription="" experience="11000" speed="0" manacost="0">
+	<health now="15000" max="15000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="60" />
+		<element EnergyPercent="50" />
+		<element earthPercent="50" />
+		<element firePercent="50" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="50" />
+		<element holyPercent="0" />
+		<element deathPercent="50" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-600" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="platinum coin" chance="81967" countmax="5" />
+		<item id="great health potion" chance="30492" countmax="3" />
+		<item id="great mana potion" chance="28197" countmax="3" />
+		<item id="assassin star" chance="23279" countmax="10" />
+		<item id="small ruby" chance="21967" countmax="2" />
+		<item id="small diamond" chance="20328" countmax="2" />
+		<item id="small topaz" chance="19016" countmax="2" />
+		<item id="small emerald" chance="17705" countmax="2" />
+		<item id="onyx arrow" chance="15410" countmax="15" />
+		<item id="small amethyst" chance="14098" countmax="2" />
+		<item id="small enchanted amethyst" chance="6885" />
+		<item id="red gem" chance="2951" />
+		<item id="violet gem" chance="1967" />
+		<item id="falcon crest" chance="1639" />
+		<item id="giant shimmering pearl" chance="1639" />
+		<item id="damaged armor plates" chance="1311" />
+		<item id="green gem" chance="656" />
+		<item id="mastermind shield" chance="656" />
+		<item id="patch of fine cloth" chance="328" />
+		<item id="small enchanted amethyst" chance="34754" />
+	</loot>
+</monster>

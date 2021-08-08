@@ -1,0 +1,63 @@
+﻿<monster name="Boreth" nameDescription="" experience="1800" speed="0" manacost="0">
+	<health now="1400" max="1400" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-1" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="140" max="350" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="I'll water my plants with your blood!" yell="false" />
+	</voices>
+	<summons maxSummons="4">
+		<voice name="vampire" interval="2000" chance="15" max="1" />
+	</summons>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="100" />
+		<item id="blood preservation" chance="84615" />
+		<item id="strong health potion" chance="17308" />
+		<item id="platinum coin" chance="9615" countmax="5" />
+		<item id="ring of healing" chance="9615" />
+		<item id="vampire shield" chance="1923" />
+		<item id="black pearl" chance="962" />
+		<item id="hibiscus dress" chance="962" />
+	</loot>
+</monster>

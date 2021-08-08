@@ -1,0 +1,71 @@
+﻿<monster name="Nightstalker" nameDescription="" experience="500" speed="260" manacost="0">
+	<health now="700" max="700" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-5" />
+		<element EnergyPercent="-5" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="20" />
+		<element deathPercent="-5" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-90" />
+	</attacks>
+	<defenses armor="40" defense="40">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="healing" interval="2000" chance="20" min="70" max="130" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="The sunlight is so depressing." yell="false" />
+		<voice sentence="Come with me, my child." yell="false" />
+		<voice sentence="I've been in the shadow under your bed last night." yell="false" />
+		<voice sentence="You never know what hides in the night." yell="false" />
+		<voice sentence="I remember your face - and I know where you sleep." yell="false" />
+		<voice sentence="Only the sweetest and cruelest dreams for you, my love." yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="89951" countmax="110" />
+		<item id="shadow herb" chance="4765" />
+		<item id="strong mana potion" chance="1530" />
+		<item id="crystal ring" chance="968" />
+		<item id="protection amulet" chance="894" />
+		<item id="spirit cloak" chance="503" />
+		<item id="haunted blade" chance="327" />
+		<item id="platinum amulet" chance="166" />
+		<item id="boots of haste" chance="122" />
+		<item id="crystal of balance" chance="122" />
+		<item id="chaos mace" chance="103" />
+	</loot>
+</monster>

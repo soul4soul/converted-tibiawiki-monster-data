@@ -1,0 +1,80 @@
+﻿<monster name="Lord Azaram" nameDescription="" experience="55000" speed="0" manacost="0">
+	<health now="0" max="0" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="5" />
+		<element earthPercent="-160" />
+		<element firePercent="-10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-1000" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="platinum coin" chance="100000" countmax="5" />
+		<item id="silver token" chance="100000" countmax="2" />
+		<item id="ultimate spirit potion" chance="62500" countmax="20" />
+		<item id="ultimate mana potion" chance="60000" countmax="20" />
+		<item id="supreme health potion" chance="45000" countmax="20" />
+		<item id="bullseye potion" chance="40000" countmax="10" />
+		<item id="red gem" chance="35000" />
+		<item id="piece of hell steel" chance="27500" countmax="4" />
+		<item id="green gem" chance="25000" countmax="2" />
+		<item id="knight armor" chance="25000" />
+		<item id="yellow gem" chance="25000" />
+		<item id="blue gem" chance="22500" />
+		<item id="collar of green plasma" chance="17500" />
+		<item id="crystal coin" chance="17500" countmax="3" />
+		<item id="lightning headband" chance="17500" />
+		<item id="berserk potion" chance="12500" countmax="10" />
+		<item id="collar of red plasma" chance="12500" />
+		<item id="gold ingot" chance="12500" />
+		<item id="haunted blade" chance="12500" />
+		<item id="mastermind potion" chance="12500" countmax="10" />
+		<item id="ring of red plasma" chance="12500" />
+		<item id="ancient liche bone" chance="7500" />
+		<item id="huge chunk of crude iron" chance="7500" />
+		<item id="ring of green plasma" chance="7500" />
+		<item id="ring of blue plasma" chance="5000" />
+		<item id="violet gem" chance="5000" />
+		<item id="bear skin" chance="2500" />
+		<item id="collar of blue plasma" chance="2500" />
+		<item id="giant emerald" chance="2500" />
+		<item id="giant ruby" chance="2500" />
+		<item id="giant sapphire" chance="2500" />
+		<item id="rotten heart" chance="2500" />
+		<item id="young lich worm" chance="2500" />
+	</loot>
+</monster>

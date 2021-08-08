@@ -1,0 +1,94 @@
+﻿<monster name="Werewolf" nameDescription="a werewolf" experience="1900" speed="280" manacost="0">
+	<health now="1955" max="1955" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="15" />
+		<element earthPercent="75" />
+		<element firePercent="-5" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="-5" />
+		<element deathPercent="55" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
+	</attacks>
+	<defenses armor="36" defense="36">
+		<defense name="healing" interval="2000" chance="20" min="195" max="488" />
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="GRRR" yell="false" />
+		<voice sentence="GRROARR" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="98723" countmax="301" />
+		<item id="werewolf fangs" chance="14729" />
+		<item id="werewolf fur" chance="9817" />
+		<item id="plate shield" chance="9591" countmax="2" />
+		<item id="rusted armor" chance="7994" />
+		<item id="brown mushroom" chance="6842" />
+		<item id="wolf paw" chance="5244" />
+		<item id="strong health potion" chance="5173" countmax="2" />
+		<item id="troll green" chance="5030" />
+		<item id="halberd" chance="3070" />
+		<item id="ultimate health potion" chance="1984" />
+		<item id="berserk potion" chance="926" />
+		<item id="stone skin amulet" chance="909" />
+		<item id="platinum amulet" chance="790" />
+		<item id="moonlight crystals" chance="707" />
+		<item id="time ring" chance="606" />
+		<item id="epee" chance="481" />
+		<item id="relic sword" chance="368" />
+		<item id="bonebreaker" chance="279" />
+		<item id="dreaded cleaver" chance="113" />
+		<item id="gold coin" chance="57596" countmax="224" />
+		<item id="werewolf fur" chance="6111" />
+		<item id="plate shield" chance="5915" />
+		<item id="rusted armor" chance="4525" />
+		<item id="brown mushroom" chance="4110" />
+		<item id="strong health potion" chance="2969" />
+		<item id="troll green" chance="2898" />
+		<item id="wolf paw" chance="2619" />
+		<item id="halberd" chance="1758" />
+		<item id="ultimate health potion" chance="1111" />
+		<item id="berserk potion" chance="671" />
+		<item id="stone skin amulet" chance="576" />
+		<item id="platinum amulet" chance="481" />
+		<item id="time ring" chance="445" />
+		<item id="epee" chance="327" />
+		<item id="relic sword" chance="291" />
+		<item id="bonebreaker" chance="243" />
+		<item id="dreaded cleaver" chance="83" />
+	</loot>
+</monster>

@@ -1,0 +1,67 @@
+﻿<monster name="Grand Commander Soeren" nameDescription="" experience="10" speed="0" manacost="0">
+	<health now="17" max="17" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="60" />
+		<element EnergyPercent="50" />
+		<element earthPercent="40" />
+		<element firePercent="50" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="50" />
+		<element holyPercent="-25" />
+		<element deathPercent="50" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-1200" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="platinum coin" chance="65119" countmax="5" />
+		<item id="small enchanted amethyst" chance="25368" />
+		<item id="great mana potion" chance="25255" countmax="3" />
+		<item id="great health potion" chance="25028" countmax="3" />
+		<item id="assassin star" chance="18233" countmax="10" />
+		<item id="small topaz" chance="16195" countmax="2" />
+		<item id="small diamond" chance="15176" countmax="2" />
+		<item id="small amethyst" chance="14270" countmax="2" />
+		<item id="small ruby" chance="14270" countmax="2" />
+		<item id="small emerald" chance="14043" countmax="2" />
+		<item id="onyx arrow" chance="11099" countmax="15" />
+		<item id="red gem" chance="2152" />
+		<item id="giant shimmering pearl" chance="1699" />
+		<item id="falcon crest" chance="1246" />
+		<item id="green gem" chance="906" />
+		<item id="violet gem" chance="793" />
+		<item id="patch of fine cloth" chance="680" />
+		<item id="damaged armor plates" chance="453" />
+		<item id="golden armor" chance="113" />
+		<item id="small enchanted amethyst" chance="2152" />
+	</loot>
+</monster>

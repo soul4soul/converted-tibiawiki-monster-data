@@ -1,0 +1,100 @@
+﻿<monster name="King Zelos" nameDescription="" experience="0" speed="0" manacost="0">
+	<health now="400000" max="400000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-1000" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Mine is the power of death! You can't defeat me!" yell="false" />
+		<voice sentence="I will rule again and my realm of death will span the world!" yell="false" />
+		<voice sentence="My lich-knights will conquer this world for me!" yell="false" />
+	</voices>
+	<loot>
+		<item id="crystal coin" chance="100000" countmax="8" />
+		<item id="silver token" chance="99552" countmax="4" />
+		<item id="gold token" chance="75336" countmax="3" />
+		<item id="supreme health potion" chance="59193" countmax="20" />
+		<item id="ultimate mana potion" chance="56502" countmax="20" />
+		<item id="ultimate spirit potion" chance="54709" countmax="20" />
+		<item id="red gem" chance="25561" countmax="2" />
+		<item id="yellow gem" chance="24664" countmax="2" />
+		<item id="berserk potion" chance="17040" countmax="10" />
+		<item id="bullseye potion" chance="17040" countmax="10" />
+		<item id="mastermind potion" chance="16592" countmax="10" />
+		<item id="crown armor" chance="13901" />
+		<item id="blue gem" chance="10762" />
+		<item id="collar of green plasma" chance="10762" />
+		<item id="collar of red plasma" chance="10762" />
+		<item id="gold ingot" chance="10762" />
+		<item id="green gem" chance="10762" />
+		<item id="terra mantle" chance="9865" />
+		<item id="ring of green plasma" chance="9417" />
+		<item id="collar of blue plasma" chance="8969" />
+		<item id="lightning robe" chance="8969" />
+		<item id="red tome" chance="8969" />
+		<item id="magma coat" chance="8520" />
+		<item id="ring of red plasma" chance="8072" />
+		<item id="glacier robe" chance="6726" />
+		<item id="violet gem" chance="6726" countmax="2" />
+		<item id="ring of blue plasma" chance="6278" />
+		<item id="young lich worm" chance="5830" />
+		<item id="rotten heart" chance="4933" />
+		<item id="ancient liche bone" chance="4484" />
+		<item id="flask of warrior's sweat" chance="3139" />
+		<item id="magic sulphur" chance="3139" />
+		<item id="giant emerald" chance="2691" />
+		<item id="giant sapphire" chance="2691" />
+		<item id="white piece of cloth" chance="2242" countmax="4" />
+		<item id="boots of haste" chance="1794" />
+		<item id="huge chunk of crude iron" chance="1794" />
+		<item id="bow of cataclysm" chance="1345" />
+		<item id="galea mortis" chance="1345" />
+		<item id="mortal mace" chance="1345" />
+		<item id="shadow cowl" chance="1345" />
+		<item id="abyss hammer" chance="897" />
+		<item id="bar of gold" chance="897" />
+		<item id="golden hyaena pendant" chance="897" />
+		<item id="ornate locket" chance="897" />
+		<item id="toga mortis" chance="897" />
+		<item id="giant ruby" chance="448" />
+		<item id="spirit container" chance="448" />
+	</loot>
+</monster>

@@ -1,0 +1,81 @@
+﻿<monster name="Warlock" nameDescription="a warlock" experience="4000" speed="230" manacost="0">
+	<health now="3500" max="3500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-5" />
+		<element EnergyPercent="100" />
+		<element earthPercent="95" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="-8" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-130" />
+	</attacks>
+	<defenses armor="33" defense="33">
+		<defense name="healing" interval="2000" chance="20" min="100" max="225" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Even a rat is a better mage than you!" yell="false" />
+		<voice sentence="Learn the secret of our magic! YOUR death!" yell="false" />
+		<voice sentence="We don't like intruders!" yell="false" />
+	</voices>
+	<summons maxSummons="1">
+		<voice name="stone golem" interval="2000" chance="15" max="1" />
+	</summons>
+	<loot>
+		<item id="gold coin" chance="29968" countmax="80" />
+		<item id="cherry" chance="19701" countmax="4" />
+		<item id="bread" chance="8954" />
+		<item id="poison dagger" chance="7722" />
+		<item id="skull staff" chance="6023" />
+		<item id="great health potion" chance="5164" />
+		<item id="great mana potion" chance="4961" />
+		<item id="assassin star" chance="3316" countmax="4" />
+		<item id="dark mushroom" chance="2937" />
+		<item id="mind stone" chance="2125" />
+		<item id="energy ring" chance="1996" />
+		<item id="candlestick" chance="1577" />
+		<item id="blue robe" chance="1563" />
+		<item id="small sapphire" chance="1279" />
+		<item id="talon" chance="1069" />
+		<item id="lightning robe" chance="981" />
+		<item id="inkwell" chance="920" />
+		<item id="crystal ring" chance="751" />
+		<item id="luminous orb" chance="487" />
+		<item id="ring of the sky" chance="393" />
+		<item id="stone skin amulet" chance="345" />
+		<item id="red tome" chance="237" />
+		<item id="golden armor" chance="217" />
+		<item id="piggy bank" chance="74" />
+	</loot>
+</monster>

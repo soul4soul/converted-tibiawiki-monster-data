@@ -1,0 +1,74 @@
+﻿<monster name="Chakoya Toolshaper" nameDescription="a chakoya toolshaper" experience="40" speed="136" manacost="0">
+	<health now="80" max="80" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="-15" />
+		<element earthPercent="0" />
+		<element firePercent="40" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="10" />
+		<element deathPercent="-5" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-35" />
+	</attacks>
+	<defenses armor="7" defense="7" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Chikuva!" yell="false" />
+		<voice sentence="Jinuma jamjam!" yell="false" />
+		<voice sentence="Suvituka siq chuqua!" yell="false" />
+		<voice sentence="Kiyosa sipaju!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="78276" countmax="20" />
+		<item id="fish" chance="24995" countmax="2" />
+		<item id="mace" chance="5084" />
+		<item id="pick" chance="1033" />
+		<item id="bone shield" chance="841" />
+		<item id="fireproof horn" chance="476" />
+		<item id="ice cube" chance="395" />
+		<item id="mammoth whopper" chance="182" />
+		<item id="rainbow trout" chance="122" />
+		<item id="green perch" chance="71" />
+		<item id="northern pike" chance="61" />
+		<item id="gold coin" chance="26403" countmax="20" />
+		<item id="fish" chance="10239" countmax="2" />
+		<item id="mace" chance="1641" />
+		<item id="pick" chance="385" />
+		<item id="bone shield" chance="354" />
+		<item id="ice cube" chance="192" />
+		<item id="rainbow trout" chance="71" />
+		<item id="mammoth whopper" chance="61" />
+		<item id="northern pike" chance="51" />
+		<item id="green perch" chance="41" />
+	</loot>
+</monster>

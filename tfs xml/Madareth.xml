@@ -1,0 +1,97 @@
+﻿<monster name="Madareth" nameDescription="" experience="10000" speed="330" manacost="0">
+	<health now="75000" max="75000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="99" />
+		<element earthPercent="0" />
+		<element firePercent="-1" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="1" />
+		<element holyPercent="0" />
+		<element deathPercent="95" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-2000" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="7500" max="18750" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="I am going to play with yourself!" yell="false" />
+		<voice sentence="Feel my wrath!" yell="false" />
+		<voice sentence="No one matches my battle prowess!" yell="false" />
+		<voice sentence="You will all die!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="100" />
+		<item id="slightly rusted legs" chance="57143" />
+		<item id="slightly rusted armor" chance="42857" />
+		<item id="bullseye potion" chance="32653" />
+		<item id="great health potion" chance="30612" />
+		<item id="great spirit potion" chance="28571" />
+		<item id="mastermind potion" chance="28571" />
+		<item id="berserk potion" chance="26531" />
+		<item id="death ring" chance="22449" />
+		<item id="great mana potion" chance="20408" />
+		<item id="ultimate health potion" chance="20408" />
+		<item id="lute" chance="18367" />
+		<item id="platinum coin" chance="18367" countmax="26" />
+		<item id="two handed sword" chance="18367" />
+		<item id="assassin dagger" chance="16327" />
+		<item id="hailstorm rod" chance="16327" />
+		<item id="springsprout rod" chance="16327" />
+		<item id="axe ring" chance="14286" />
+		<item id="haunted blade" chance="14286" />
+		<item id="lyre" chance="14286" />
+		<item id="ring of healing" chance="14286" />
+		<item id="underworld rod" chance="14286" />
+		<item id="wand of voodoo" chance="14286" />
+		<item id="bloody edge" chance="12245" />
+		<item id="club ring" chance="12245" />
+		<item id="demonic essence" chance="12245" />
+		<item id="nightmare blade" chance="12245" />
+		<item id="wand of inferno" chance="12245" />
+		<item id="war drum" chance="12245" />
+		<item id="crystal sword" chance="10204" />
+		<item id="life ring" chance="8163" />
+		<item id="wand of starstorm" chance="8163" />
+		<item id="war horn" chance="8163" />
+		<item id="demon horn" chance="6122" countmax="2" />
+		<item id="didgeridoo" chance="6122" />
+		<item id="mercenary sword" chance="6122" />
+		<item id="relic sword" chance="6122" />
+		<item id="time ring" chance="6122" />
+		<item id="wooden flute" chance="6122" />
+		<item id="dwarven ring" chance="4082" />
+		<item id="ice rapier" chance="4082" />
+		<item id="sword ring" chance="4082" />
+	</loot>
+</monster>

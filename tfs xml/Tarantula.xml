@@ -1,0 +1,65 @@
+﻿<monster name="Tarantula" nameDescription="a tarantula" experience="120" speed="214" manacost="485">
+	<health now="225" max="225" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-15" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-90" />
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<loot>
+		<item id="gold coin" chance="79125" countmax="40" />
+		<item id="tarantula egg" chance="9942" />
+		<item id="spider fangs" chance="4801" />
+		<item id="brass legs" chance="3002" />
+		<item id="plate shield" chance="1970" />
+		<item id="steel helmet" chance="923" />
+		<item id="time ring" chance="116" />
+		<item id="gold coin" chance="25072" countmax="40" />
+		<item id="tarantula egg" chance="3305" />
+		<item id="brass legs" chance="894" />
+		<item id="plate shield" chance="626" />
+		<item id="steel helmet" chance="308" />
+		<item id="time ring" chance="50" />
+		<item id="spider fangs" chance="14" />
+	</loot>
+</monster>

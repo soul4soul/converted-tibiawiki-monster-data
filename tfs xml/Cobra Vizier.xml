@@ -1,0 +1,107 @@
+﻿<monster name="Cobra Vizier" nameDescription="a cobra vizier" experience="7650" speed="320" manacost="0">
+	<health now="8500" max="8500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="10" />
+		<element EnergyPercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="-10" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
+	</attacks>
+	<defenses armor="82" defense="82" />
+	<voices interval="5000" chance="10">
+		<voice sentence="COMBINE FORCES MY BRETHEN!" yell="false" />
+		<voice sentence="Feel the cobras wrath!" yell="false" />
+		<voice sentence="OH NO, YOU WON'T!" yell="false" />
+	</voices>
+	<loot>
+		<item id="platinum coin" chance="70755" countmax="4" />
+		<item id="terra rod" chance="30103" />
+		<item id="cobra crest" chance="14580" />
+		<item id="terra boots" chance="13979" />
+		<item id="terra hood" chance="13808" />
+		<item id="snakebite rod" chance="12607" />
+		<item id="cyan crystal fragment" chance="10549" />
+		<item id="red gem" chance="7976" />
+		<item id="giant shimmering pearl (brown)" chance="6261" />
+		<item id="green crystal fragment" chance="5832" />
+		<item id="gemmed figurine" chance="4717" />
+		<item id="green gem" chance="3345" />
+		<item id="red crystal fragment" chance="3345" />
+		<item id="violet crystal shard" chance="3345" />
+		<item id="emerald bangle" chance="3087" />
+		<item id="serpent sword" chance="2230" />
+		<item id="onyx chip" chance="686" countmax="3" />
+		<item id="platinum coin" chance="52659" countmax="4" />
+		<item id="terra rod" chance="24528" />
+		<item id="terra boots" chance="11407" />
+		<item id="cobra crest" chance="10463" />
+		<item id="terra hood" chance="9691" />
+		<item id="snakebite rod" chance="8834" />
+		<item id="cyan crystal fragment" chance="7890" />
+		<item id="red gem" chance="5918" />
+		<item id="giant shimmering pearl (brown)" chance="5575" />
+		<item id="emerald bangle" chance="2744" />
+		<item id="green crystal fragment" chance="2744" />
+		<item id="violet crystal shard" chance="2744" />
+		<item id="gemmed figurine" chance="2573" />
+		<item id="serpent sword" chance="1887" />
+		<item id="red crystal fragment" chance="1630" />
+		<item id="green gem" chance="1544" />
+		<item id="onyx chip" chance="772" countmax="3" />
+		<item id="platinum coin" chance="26072" countmax="4" />
+		<item id="terra rod" chance="9091" />
+		<item id="snakebite rod" chance="4631" />
+		<item id="terra boots" chance="4288" />
+		<item id="cobra crest" chance="4117" />
+		<item id="terra hood" chance="3259" />
+		<item id="cyan crystal fragment" chance="2316" />
+		<item id="green crystal fragment" chance="1372" />
+		<item id="giant shimmering pearl (brown)" chance="1286" />
+		<item id="green gem" chance="1286" />
+		<item id="emerald bangle" chance="943" />
+		<item id="red gem" chance="772" />
+		<item id="violet crystal shard" chance="772" />
+		<item id="serpent sword" chance="686" />
+		<item id="gemmed figurine" chance="515" />
+		<item id="onyx chip" chance="172" />
+		<item id="red crystal fragment" chance="172" />
+		<item id="platinum coin" chance="1201" />
+		<item id="terra rod" chance="257" />
+		<item id="terra boots" chance="172" />
+		<item id="snakebite rod" chance="86" />
+	</loot>
+</monster>

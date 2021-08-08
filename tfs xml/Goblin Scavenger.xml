@@ -1,0 +1,73 @@
+﻿<monster name="Goblin Scavenger" nameDescription="a goblin scavenger" experience="37" speed="132" manacost="0">
+	<health now="60" max="60" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="20" />
+		<element earthPercent="-10" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="20" />
+		<element deathPercent="-10" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-15" />
+		<attack name="physical" interval="2000" chance="100" min="0" max="-30" range="7">
+			<attribute key="shootEffect" value="spear" />
+		</attack>
+	</attacks>
+	<defenses armor="7" defense="7">
+		<defense name="healing" interval="2000" chance="20" min="10" max="16" />
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Shiny, shiny!" yell="false" />
+		<voice sentence="You mean!" yell="false" />
+		<voice sentence="All mine!" yell="false" />
+		<voice sentence="Uhh!" yell="false" />
+		<voice sentence="Gimme gimme!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="50059" countmax="9" />
+		<item id="small stone" chance="25044" countmax="2" />
+		<item id="dagger" chance="18278" />
+		<item id="fish" chance="12961" />
+		<item id="bone" chance="12685" />
+		<item id="leather helmet" chance="9755" />
+		<item id="small axe" chance="9479" />
+		<item id="short sword" chance="8986" />
+		<item id="leather armor" chance="7753" />
+		<item id="mouldy cheese" chance="7033" />
+		<item id="bone club" chance="5080" />
+	</loot>
+</monster>

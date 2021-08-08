@@ -1,0 +1,92 @@
+﻿<monster name="Werebear" nameDescription="a werebear" experience="2100" speed="220" manacost="0">
+	<health now="2400" max="2400" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="5" />
+		<element EnergyPercent="15" />
+		<element earthPercent="50" />
+		<element firePercent="-5" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="-5" />
+		<element deathPercent="45" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
+	</attacks>
+	<defenses armor="38" defense="38" />
+	<voices interval="5000" chance="10">
+		<voice sentence="GROOOWL" yell="false" />
+		<voice sentence="GRRR" yell="false" />
+	</voices>
+	<loot>
+		<item id="platinum coin" chance="100000" countmax="3" />
+		<item id="gold coin" chance="80878" countmax="100" />
+		<item id="werebear fur" chance="14814" />
+		<item id="werebear skull" chance="14397" />
+		<item id="ham" chance="12034" />
+		<item id="great health potion" chance="5225" />
+		<item id="bear paw" chance="3335" />
+		<item id="honeycomb" chance="2807" />
+		<item id="ultimate health potion" chance="1890" />
+		<item id="small enchanted sapphire" chance="1556" countmax="2" />
+		<item id="werewolf amulet" chance="1251" />
+		<item id="furry club" chance="1195" />
+		<item id="stone skin amulet" chance="1056" />
+		<item id="moonlight crystals" chance="889" />
+		<item id="berserk potion" chance="806" />
+		<item id="fur armor" chance="639" />
+		<item id="relic sword" chance="584" />
+		<item id="spiked squelcher" chance="556" />
+		<item id="time ring" chance="556" />
+		<item id="werebear trophy" chance="139" />
+		<item id="dreaded cleaver" chance="111" />
+		<item id="platinum coin" chance="100000" countmax="3" />
+		<item id="gold coin" chance="100000" countmax="100" />
+		<item id="werebear skull" chance="36215" />
+		<item id="werebear fur" chance="35353" />
+		<item id="ham" chance="28321" />
+		<item id="great health potion" chance="10089" />
+		<item id="bear paw" chance="6504" />
+		<item id="honeycomb" chance="5781" />
+		<item id="ultimate health potion" chance="5142" />
+		<item id="werewolf amulet" chance="2529" />
+		<item id="stone skin amulet" chance="2362" />
+		<item id="furry club" chance="2112" />
+		<item id="berserk potion" chance="2029" />
+		<item id="time ring" chance="1556" />
+		<item id="spiked squelcher" chance="1362" />
+		<item id="relic sword" chance="1306" />
+		<item id="fur armor" chance="1278" />
+		<item id="moonlight crystals" chance="1028" />
+		<item id="werebear trophy" chance="417" />
+		<item id="dreaded cleaver" chance="334" />
+	</loot>
+</monster>

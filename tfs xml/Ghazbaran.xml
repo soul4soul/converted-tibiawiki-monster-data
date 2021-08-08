@@ -1,0 +1,146 @@
+﻿<monster name="Ghazbaran" nameDescription="" experience="15000" speed="0" manacost="0">
+	<health now="60000" max="60000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="30" />
+		<element EnergyPercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="-5" />
+		<element deathPercent="1" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-3000" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="400" max="6046" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="COME AND GIVE ME SOME AMUSEMENT" yell="false" />
+		<voice sentence="IS THAT THE BEST YOU HAVE TO OFFER, TIBIANS?" yell="false" />
+		<voice sentence="I AM GHAZBARAN OF THE TRIANGLE... AND I AM HERE TO CHALLENGE YOU ALL." yell="false" />
+		<voice sentence="FLAWLESS VICTORY!" yell="false" />
+	</voices>
+	<summons maxSummons="4">
+		<voice name="deathslicer" interval="2000" chance="15" max="1" />
+	</summons>
+	<loot>
+		<item id="demonic essence" chance="100000" />
+		<item id="platinum coin" chance="100000" countmax="69" />
+		<item id="demon horn" chance="32609" countmax="2" />
+		<item id="small diamond" chance="30435" countmax="5" />
+		<item id="death ring" chance="28261" />
+		<item id="great health potion" chance="26087" />
+		<item id="great spirit potion" chance="26087" />
+		<item id="spellscroll of prophecies" chance="26087" />
+		<item id="ultimate health potion" chance="26087" />
+		<item id="white pearl" chance="26087" countmax="15" />
+		<item id="mind stone" chance="23913" />
+		<item id="ring of healing" chance="23913" />
+		<item id="small amethyst" chance="23913" countmax="17" />
+		<item id="small emerald" chance="23913" countmax="10" />
+		<item id="blue tome" chance="21739" />
+		<item id="great mana potion" chance="21739" />
+		<item id="green gem" chance="21739" />
+		<item id="orb" chance="21739" />
+		<item id="small sapphire" chance="21739" countmax="10" />
+		<item id="spellbook of dark mysteries" chance="21739" />
+		<item id="spellbook of warding" chance="21739" />
+		<item id="gold ring" chance="19565" />
+		<item id="havoc blade" chance="17391" />
+		<item id="oceanborn leviathan armor" chance="17391" />
+		<item id="spellbook of lost souls" chance="17391" />
+		<item id="assassin star" chance="15217" countmax="44" />
+		<item id="blue gem" chance="15217" />
+		<item id="ravenwing" chance="15217" />
+		<item id="ruthless axe" chance="15217" />
+		<item id="teddy bear" chance="15217" />
+		<item id="demon shield" chance="13043" />
+		<item id="life crystal" chance="13043" />
+		<item id="might ring" chance="13043" />
+		<item id="stealth ring" chance="13043" />
+		<item id="talon" chance="13043" countmax="7" />
+		<item id="black pearl" chance="10870" countmax="14" />
+		<item id="crystal ring" chance="10870" />
+		<item id="glacier kilt" chance="10870" />
+		<item id="spellbook of mind control" chance="10870" />
+		<item id="strange symbol" chance="10870" />
+		<item id="twin axe" chance="10870" />
+		<item id="frozen plate" chance="8696" />
+		<item id="golden armor" chance="8696" />
+		<item id="golden boots" chance="8696" />
+		<item id="magic plate armor" chance="8696" />
+		<item id="robe of the ice queen" chance="8696" />
+		<item id="bonebreaker" chance="6522" />
+		<item id="crystalline armor" chance="6522" />
+		<item id="glorious axe" chance="6522" />
+		<item id="gold ingot" chance="6522" />
+		<item id="golden legs" chance="6522" />
+		<item id="golden mug" chance="6522" />
+		<item id="magic light wand" chance="6522" />
+		<item id="mythril axe" chance="6522" />
+		<item id="crystal ball" chance="4348" />
+		<item id="energy ring" chance="4348" />
+		<item id="giant sword" chance="4348" />
+		<item id="ring of the sky" chance="4348" />
+		<item id="mastermind shield" chance="2174" />
+		<item id="onyx arrow" chance="2174" countmax="30" />
+		<item id="platinum coin" chance="10870" countmax="11" />
+		<item id="gold coin" chance="6522" countmax="100" />
+		<item id="onyx arrow" chance="6522" countmax="50" />
+		<item id="demonic essence" chance="4348" />
+		<item id="energy ring" chance="4348" />
+		<item id="great health potion" chance="4348" countmax="4" />
+		<item id="might ring" chance="4348" />
+		<item id="ring of healing" chance="4348" />
+		<item id="shiver arrow" chance="4348" countmax="50" />
+		<item id="talon" chance="4348" countmax="7" />
+		<item id="blue gem" chance="2174" />
+		<item id="crystal ring" chance="2174" />
+		<item id="crystalline armor" chance="2174" />
+		<item id="demon shield" chance="2174" />
+		<item id="flash arrow" chance="2174" countmax="50" />
+		<item id="glorious axe" chance="2174" />
+		<item id="gold ingot" chance="2174" />
+		<item id="golden armor" chance="2174" />
+		<item id="golden mug" chance="2174" />
+		<item id="great mana potion" chance="2174" countmax="5" />
+		<item id="great spirit potion" chance="2174" countmax="4" />
+		<item id="mind stone" chance="2174" />
+		<item id="small emerald" chance="2174" countmax="5" />
+		<item id="spellbook of dark mysteries" chance="2174" />
+		<item id="spellbook of lost souls" chance="2174" />
+		<item id="spellbook of warding" chance="2174" />
+		<item id="strange symbol" chance="2174" />
+		<item id="white pearl" chance="2174" countmax="5" />
+	</loot>
+</monster>

@@ -1,0 +1,69 @@
+﻿<monster name="Stone Devourer" nameDescription="a stone devourer" experience="2900" speed="300" manacost="0">
+	<health now="4200" max="4200" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="10" />
+		<element EnergyPercent="30" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="30" />
+		<element holyPercent="30" />
+		<element deathPercent="30" />
+	</elements>
+	<defenses armor="75" defense="75" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Rumble!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="100" />
+		<item id="platinum coin" chance="91171" countmax="7" />
+		<item id="stone nose" chance="19075" />
+		<item id="crystalline spikes" chance="16619" />
+		<item id="mana potion" chance="15439" countmax="2" />
+		<item id="great mana potion" chance="15392" countmax="2" />
+		<item id="ultimate health potion" chance="15061" />
+		<item id="strong mana potion" chance="14212" countmax="2" />
+		<item id="strong health potion" chance="14023" countmax="2" />
+		<item id="ancient stone" chance="12276" />
+		<item id="coal" chance="11615" />
+		<item id="crystalline arrow" chance="9679" countmax="10" />
+		<item id="green crystal splinter" chance="6799" />
+		<item id="cyan crystal fragment" chance="6610" />
+		<item id="dwarven ring" chance="2833" />
+		<item id="glorious axe" chance="2833" />
+		<item id="stone skin amulet" chance="2172" />
+		<item id="spiked squelcher" chance="1416" />
+		<item id="sapphire hammer" chance="1369" />
+		<item id="war axe" chance="944" />
+		<item id="crystal mace" chance="755" />
+		<item id="giant sword" chance="472" />
+	</loot>
+</monster>

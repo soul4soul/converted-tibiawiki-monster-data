@@ -1,0 +1,84 @@
+﻿<monster name="Hydra" nameDescription="a hydra" experience="2100" speed="206" manacost="0">
+	<health now="2350" max="2350" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-5" />
+		<element EnergyPercent="-10" />
+		<element earthPercent="100" />
+		<element firePercent="0" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="50" />
+		<element holyPercent="30" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-270" />
+	</attacks>
+	<defenses armor="27" defense="27">
+		<defense name="healing" interval="2000" chance="20" min="260" max="407" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="FCHHHHH" yell="false" />
+		<voice sentence="HISSSS" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="87752" countmax="246" />
+		<item id="ham" chance="60187" />
+		<item id="platinum coin" chance="49502" countmax="3" />
+		<item id="hydra head" chance="10155" />
+		<item id="small sapphire" chance="4983" />
+		<item id="cucumber" chance="4918" />
+		<item id="ring of healing" chance="1214" />
+		<item id="knight armor" chance="1116" />
+		<item id="hydra egg" chance="938" />
+		<item id="stone skin amulet" chance="903" />
+		<item id="warrior helmet" chance="825" />
+		<item id="life crystal" chance="511" />
+		<item id="strong mana potion" chance="461" />
+		<item id="royal helmet" chance="222" />
+		<item id="medusa shield" chance="218" />
+		<item id="boots of haste" chance="94" />
+		<item id="gold coin" chance="68939" countmax="244" />
+		<item id="ham" chance="47095" />
+		<item id="hydra head" chance="7912" />
+		<item id="small sapphire" chance="4002" />
+		<item id="cucumber" chance="3791" />
+		<item id="ring of healing" chance="929" />
+		<item id="knight armor" chance="785" />
+		<item id="stone skin amulet" chance="718" />
+		<item id="hydra egg" chance="690" />
+		<item id="warrior helmet" chance="662" />
+		<item id="life crystal" chance="439" />
+		<item id="strong mana potion" chance="331" />
+		<item id="royal helmet" chance="181" />
+		<item id="medusa shield" chance="154" />
+		<item id="boots of haste" chance="94" />
+	</loot>
+</monster>

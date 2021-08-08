@@ -1,0 +1,60 @@
+﻿<monster name="Glooth Battery" nameDescription="a glooth battery" experience="3000" speed="0" manacost="0">
+	<health now="8000" max="8000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="25" />
+		<element earthPercent="1" />
+		<element firePercent="25" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="25" />
+		<element holyPercent="25" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="133" max="454" />
+	</defenses>
+	<loot>
+		<item id="platinum coin" chance="77083" countmax="5" />
+		<item id="great mana potion" chance="12500" />
+		<item id="flask of rust remover" chance="10417" />
+		<item id="great health potion" chance="10417" />
+		<item id="gearwheel chain" chance="8333" />
+		<item id="steel boots" chance="4167" />
+		<item id="crystal pedestal" chance="2083" />
+		<item id="gear wheel" chance="2083" />
+		<item id="iron ore" chance="2083" />
+		<item id="mastermind potion" chance="2083" />
+		<item id="metal spats" chance="2083" />
+	</loot>
+</monster>

@@ -1,0 +1,74 @@
+﻿<monster name="Kongra" nameDescription="a kongra" experience="115" speed="184" manacost="0">
+	<health now="340" max="340" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="5" />
+		<element earthPercent="10" />
+		<element firePercent="20" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-15" />
+		<element holyPercent="0" />
+		<element deathPercent="-5" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-60" />
+	</attacks>
+	<defenses armor="18" defense="18">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Ungh! Ungh!" yell="false" />
+		<voice sentence="Hugah!" yell="false" />
+		<voice sentence="Huaauaauaauaa!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="87998" countmax="40" />
+		<item id="banana" chance="30808" countmax="12" />
+		<item id="kongra's shoulderpad" chance="9353" />
+		<item id="protection amulet" chance="1013" />
+		<item id="plate armor" chance="1007" />
+		<item id="ape fur" chance="969" />
+		<item id="health potion" chance="508" />
+		<item id="power ring" chance="310" />
+		<item id="club ring" chance="196" />
+		<item id="gold coin" chance="35507" countmax="40" />
+		<item id="banana" chance="12282" countmax="12" />
+		<item id="kongra's shoulderpad" chance="1992" />
+		<item id="ape fur" chance="394" />
+		<item id="protection amulet" chance="394" />
+		<item id="plate armor" chance="387" />
+		<item id="health potion" chance="219" />
+		<item id="power ring" chance="116" />
+		<item id="club ring" chance="89" />
+	</loot>
+</monster>

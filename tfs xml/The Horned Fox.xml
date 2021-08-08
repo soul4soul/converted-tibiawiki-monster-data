@@ -1,0 +1,68 @@
+﻿<monster name="The Horned Fox" nameDescription="" experience="300" speed="0" manacost="0">
+	<health now="265" max="265" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-1" />
+		<element holyPercent="0" />
+		<element deathPercent="-1" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
+	</attacks>
+	<defenses armor="16" defense="16">
+		<defense name="healing" interval="2000" chance="20" min="26" max="66" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="I'll be back!" yell="false" />
+		<voice sentence="Catch me, if you can!" yell="false" />
+		<voice sentence="You will never get me!" yell="false" />
+		<voice sentence="Help me, Boys!" yell="false" />
+	</voices>
+	<loot>
+		<item id="nose ring" chance="100000" />
+		<item id="gold coin" chance="96875" countmax="99" />
+		<item id="minotaur leather" chance="96875" />
+		<item id="minotaur horn" chance="93750" countmax="2" />
+		<item id="piece of warrior armor" chance="81250" />
+		<item id="piercing bolt" chance="46875" countmax="14" />
+		<item id="brass armor" chance="28125" />
+		<item id="meat" chance="15625" />
+		<item id="battle shield" chance="12500" />
+		<item id="dwarven helmet" chance="9375" />
+		<item id="strong health potion" chance="9375" />
+		<item id="fishing rod" chance="6250" />
+		<item id="double axe" chance="3125" />
+	</loot>
+</monster>

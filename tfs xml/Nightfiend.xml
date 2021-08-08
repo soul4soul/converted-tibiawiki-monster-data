@@ -1,0 +1,61 @@
+﻿<monster name="Nightfiend" nameDescription="a nightfiend" experience="2100" speed="224" manacost="0">
+	<health now="2700" max="2700" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="10" />
+		<element EnergyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-5" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-8" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
+	</attacks>
+	<defenses armor="46" defense="46">
+		<defense name="healing" interval="2000" chance="20" min="270" max="675" />
+	</defenses>
+	<loot>
+		<item id="gold coin" chance="98507" countmax="148" />
+		<item id="platinum coin" chance="33433" />
+		<item id="vampire teeth" chance="10746" />
+		<item id="small ruby" chance="8657" countmax="3" />
+		<item id="strong mana potion" chance="8060" />
+		<item id="tooth file" chance="7164" />
+		<item id="blood preservation" chance="5970" />
+		<item id="strong health potion" chance="5970" />
+		<item id="ring of healing" chance="3284" />
+		<item id="emerald bangle" chance="1194" />
+		<item id="red gem" chance="896" />
+		<item id="vampire shield" chance="299" />
+	</loot>
+</monster>

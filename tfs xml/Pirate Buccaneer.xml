@@ -1,0 +1,72 @@
+﻿<monster name="Pirate Buccaneer" nameDescription="a pirate buccaneer" experience="250" speed="218" manacost="0">
+	<health now="425" max="425" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-5" />
+		<element EnergyPercent="-5" />
+		<element earthPercent="10" />
+		<element firePercent="-5" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="10" />
+		<element deathPercent="-5" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-160" />
+		<attack name="physical" interval="2000" chance="100" min="0" max="-100" range="7">
+			<attribute key="shootEffect" value="throwingknife" />
+		</attack>
+	</attacks>
+	<defenses armor="16" defense="16" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Give up!" yell="false" />
+		<voice sentence="Hiyaa" yell="false" />
+		<voice sentence="Plundeeeeer!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="67811" countmax="60" />
+		<item id="torch" chance="10002" />
+		<item id="sabre" chance="9950" />
+		<item id="worn leather boots" chance="9883" />
+		<item id="compass" chance="9815" />
+		<item id="throwing knife" chance="8872" countmax="5" />
+		<item id="battle shield" chance="4018" />
+		<item id="pirate shirt" chance="1130" />
+		<item id="treasure map (pirate)" chance="1068" />
+		<item id="plate armor" chance="1011" />
+		<item id="strong health potion" chance="736" />
+		<item id="peg leg" chance="482" />
+		<item id="pirate backpack" chance="477" />
+		<item id="hook" chance="467" />
+		<item id="eye patch" chance="436" />
+		<item id="rum flask" chance="145" />
+		<item id="die" chance="57" />
+	</loot>
+</monster>

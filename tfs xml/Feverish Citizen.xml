@@ -1,0 +1,68 @@
+﻿<monster name="Feverish Citizen" nameDescription="a feverish citizen" experience="30" speed="146" manacost="0">
+	<health now="125" max="125" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-15" />
+		<element EnergyPercent="-10" />
+		<element earthPercent="10" />
+		<element firePercent="-15" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="75" />
+		<element deathPercent="10" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-19" />
+	</attacks>
+	<defenses armor="14" defense="14" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Arrrgh!" yell="false" />
+		<voice sentence="I am the king of the world!" yell="false" />
+		<voice sentence="Die Ferumbras!" yell="false" />
+		<voice sentence="Tigerblood is running through my veins!" yell="false" />
+		<voice sentence="You! It's you again!" yell="false" />
+		<voice sentence="Stand still you tasty morsel!" yell="false" />
+		<voice sentence="&lt;giggle&gt;" yell="false" />
+		<voice sentence="Burn heretic! Burn!" yell="false" />
+		<voice sentence="Harrr!" yell="false" />
+		<voice sentence="This is Venore!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="29874" countmax="35" />
+		<item id="worm" chance="24821" countmax="3" />
+		<item id="bone" chance="4991" />
+		<item id="voluminous piece of cloth" chance="2187" />
+		<item id="luminous piece of cloth" chance="1940" />
+		<item id="obvious piece of cloth" chance="1940" />
+		<item id="ominous piece of cloth" chance="1866" />
+		<item id="ludicrous piece of cloth" chance="1853" />
+		<item id="dubious piece of cloth" chance="1668" />
+	</loot>
+</monster>

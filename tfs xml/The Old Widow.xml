@@ -1,0 +1,81 @@
+﻿<monster name="The Old Widow" nameDescription="" experience="4200" speed="0" manacost="0">
+	<health now="3200" max="3200" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="20" />
+		<element EnergyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="20" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-700" />
+	</attacks>
+	<defenses armor="45" defense="45">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="healing" interval="2000" chance="20" min="230" max="270" />
+	</defenses>
+	<loot>
+		<item id="gold coin" chance="99476" countmax="100" />
+		<item id="platinum coin" chance="98953" countmax="10" />
+		<item id="spider silk" chance="87435" />
+		<item id="steel helmet" chance="76963" />
+		<item id="great health potion" chance="65969" countmax="4" />
+		<item id="knight armor" chance="44503" />
+		<item id="energy ring" chance="32984" />
+		<item id="time ring" chance="32984" />
+		<item id="stealth ring" chance="31937" />
+		<item id="knight legs" chance="25131" />
+		<item id="sweet smelling bait" chance="21466" />
+		<item id="platinum amulet" chance="20942" />
+		<item id="spool of yarn" chance="9948" />
+		<item id="dreaded cleaver" chance="2618" />
+		<item id="bloody edge" chance="1047" />
+		<item id="gold coin" chance="18325" countmax="95" />
+		<item id="spider silk" chance="18325" />
+		<item id="platinum coin" chance="17277" countmax="10" />
+		<item id="steel helmet" chance="12042" />
+		<item id="great health potion" chance="9424" countmax="4" />
+		<item id="knight armor" chance="8901" />
+		<item id="energy ring" chance="8377" />
+		<item id="platinum amulet" chance="5759" />
+		<item id="stealth ring" chance="5236" />
+		<item id="time ring" chance="4712" />
+		<item id="knight legs" chance="2618" />
+		<item id="sweet smelling bait" chance="2618" />
+		<item id="dreaded cleaver" chance="1571" />
+		<item id="bloody edge" chance="524" />
+	</loot>
+</monster>

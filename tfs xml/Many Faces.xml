@@ -1,0 +1,68 @@
+﻿<monster name="Many Faces" nameDescription="" experience="18870" speed="430" manacost="0">
+	<health now="30000" max="30000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="-5" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="30" />
+		<element holyPercent="50" />
+		<element deathPercent="-30" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
+	</attacks>
+	<defenses armor="105" defense="105" />
+	<voices interval="5000" chance="10">
+		<voice sentence="I have a head start." yell="false" />
+		<voice sentence="Look into my eyes! No, the other ones!" yell="false" />
+		<voice sentence="The mirrors can't contain the night!" yell="false" />
+	</voices>
+	<loot>
+		<item id="crystal coin" chance="75247" />
+		<item id="ultimate health potion" chance="14792" countmax="7" />
+		<item id="apron" chance="7836" />
+		<item id="hailstorm rod" chance="6526" />
+		<item id="green gem" chance="5754" />
+		<item id="sacred tree amulet" chance="5432" />
+		<item id="violet gem" chance="5303" />
+		<item id="northwind rod" chance="4895" />
+		<item id="blue gem" chance="4787" />
+		<item id="ring of red plasma" chance="4530" />
+		<item id="stone skin amulet" chance="4208" />
+		<item id="head (many faces)" chance="3864" />
+		<item id="glacier shoes" chance="2598" />
+		<item id="glacier robe" chance="1846" />
+		<item id="glacial rod" chance="1073" />
+		<item id="gruesome fan" chance="880" />
+	</loot>
+</monster>

@@ -1,0 +1,73 @@
+﻿<monster name="Orclops Ravager" nameDescription="an orclops ravager" experience="1100" speed="260" manacost="0">
+	<health now="1200" max="1200" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="-10" />
+		<element earthPercent="100" />
+		<element firePercent="20" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="50" />
+		<element deathPercent="10" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-132" />
+	</attacks>
+	<defenses armor="35" defense="35">
+		<defense name="healing" interval="2000" chance="20" min="0" max="119" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Crushing! Smashing! Ripping! Yeah!!" yell="false" />
+		<voice sentence="It's clobberin time!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="120" />
+		<item id="platinum coin" chance="59630" />
+		<item id="bug meat" chance="18993" />
+		<item id="beetle carapace" chance="18486" />
+		<item id="bone toothpick" chance="18207" />
+		<item id="strong health potion" chance="16381" />
+		<item id="reinvigorating seeds" chance="10257" />
+		<item id="orcish axe" chance="8165" />
+		<item id="red mushroom" chance="7924" countmax="3" />
+		<item id="mysterious fetish" chance="6314" />
+		<item id="small topaz" chance="3715" countmax="2" />
+		<item id="onion" chance="3220" countmax="2" />
+		<item id="small ruby" chance="3182" countmax="3" />
+		<item id="black pearl" chance="2853" countmax="2" />
+		<item id="brown crystal splinter" chance="2574" countmax="2" />
+		<item id="spiked squelcher" chance="1547" />
+		<item id="pair of iron fists" chance="1268" />
+		<item id="war drum" chance="1065" />
+		<item id="berserk potion" chance="888" />
+		<item id="dreaded cleaver" chance="13" />
+	</loot>
+</monster>

@@ -1,0 +1,61 @@
+﻿<monster name="Fleshcrawler" nameDescription="" experience="1000" speed="0" manacost="0">
+	<health now="1450" max="1450" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="-15" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="-10" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-330" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="scarab pincers" chance="100000" />
+		<item id="platinum coin" chance="99138" countmax="15" />
+		<item id="scarab coin" chance="99138" countmax="2" />
+		<item id="small emerald" chance="89224" countmax="3" />
+		<item id="small amethyst" chance="88362" countmax="4" />
+		<item id="springsprout rod" chance="75431" />
+		<item id="scarab amulet" chance="50862" />
+		<item id="ancient amulet" chance="48707" />
+		<item id="scarab shield" chance="45690" />
+		<item id="strong health potion" chance="43534" />
+		<item id="knight armor" chance="41810" />
+		<item id="amber staff" chance="29741" />
+		<item id="ornamented brooch" chance="13362" />
+		<item id="terra mantle" chance="10345" />
+	</loot>
+</monster>

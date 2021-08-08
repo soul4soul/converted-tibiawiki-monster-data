@@ -1,0 +1,134 @@
+﻿<monster name="Ferumbras" nameDescription="" experience="35000" speed="0" manacost="0">
+	<health now="90000" max="90000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="10" />
+		<element EnergyPercent="90" />
+		<element earthPercent="100" />
+		<element firePercent="90" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="20" />
+		<element deathPercent="5" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<voices interval="5000" chance="10">
+		<voice sentence="NO ONE WILL STOP ME THIS TIME!" yell="false" />
+		<voice sentence="THE POWER IS MINE!" yell="false" />
+		<voice sentence="I returned from death and you dream about defeating me?" yell="false" />
+		<voice sentence="Witness the first seconds of my eternal world domination!" yell="false" />
+		<voice sentence="Even in my weakened state I will crush you all!" yell="false" />
+	</voices>
+	<loot>
+		<item id="ferumbras' hat" chance="100000" />
+		<item id="gold coin" chance="97959" countmax="184" />
+		<item id="gold ingot" chance="75510" countmax="2" />
+		<item id="great shield" chance="26531" />
+		<item id="spellbook of lost souls" chance="26531" />
+		<item id="golden armor" chance="24490" />
+		<item id="golden legs" chance="22449" />
+		<item id="spellbook of mind control" chance="22449" />
+		<item id="velvet mantle" chance="22449" />
+		<item id="demon shield" chance="20408" />
+		<item id="divine plate" chance="20408" />
+		<item id="magma legs" chance="20408" />
+		<item id="tempest shield" chance="20408" />
+		<item id="emerald bangle" chance="18367" />
+		<item id="glacier kilt" chance="18367" />
+		<item id="lightning legs" chance="18367" />
+		<item id="phoenix shield" chance="18367" />
+		<item id="spellbook of dark mysteries" chance="18367" />
+		<item id="terra legs" chance="18367" />
+		<item id="emerald sword" chance="16327" />
+		<item id="havoc blade" chance="16327" />
+		<item id="shadow sceptre" chance="16327" />
+		<item id="small emerald" chance="16327" countmax="100" />
+		<item id="giant shimmering pearl" chance="14286" countmax="10" />
+		<item id="magic plate armor" chance="14286" />
+		<item id="mastermind shield" chance="14286" />
+		<item id="runed sword" chance="14286" />
+		<item id="spellscroll of prophecies" chance="14286" />
+		<item id="chaos mace" chance="12245" />
+		<item id="demonwing axe" chance="12245" />
+		<item id="greenwood coat" chance="12245" />
+		<item id="small sapphire" chance="12245" countmax="98" />
+		<item id="white pearl" chance="12245" countmax="88" />
+		<item id="haunted blade" chance="10204" />
+		<item id="hellforged axe" chance="10204" />
+		<item id="obsidian truncheon" chance="10204" />
+		<item id="ornamented axe" chance="10204" />
+		<item id="queen's sceptre" chance="10204" />
+		<item id="small amethyst" chance="10204" countmax="54" />
+		<item id="small topaz" chance="10204" countmax="87" />
+		<item id="demonrage sword" chance="8163" />
+		<item id="jade hammer" chance="8163" />
+		<item id="platinum coin" chance="8163" countmax="58" />
+		<item id="skullcrusher" chance="8163" />
+		<item id="soul orb" chance="8163" countmax="9" />
+		<item id="vile axe" chance="8163" />
+		<item id="abyss hammer" chance="6122" />
+		<item id="berserker" chance="6122" />
+		<item id="black pearl" chance="6122" countmax="83" />
+		<item id="bloody edge" chance="6122" />
+		<item id="nightmare blade" chance="6122" />
+		<item id="great axe" chance="4082" />
+		<item id="impaler" chance="4082" />
+		<item id="red tome" chance="4082" />
+		<item id="small diamond" chance="4082" countmax="82" />
+		<item id="small ruby" chance="4082" countmax="92" />
+		<item id="gold coin" chance="10204" countmax="100" />
+		<item id="soul orb" chance="8163" />
+		<item id="giant shimmering pearl" chance="6122" />
+		<item id="blue gem" chance="4082" />
+		<item id="emerald bangle" chance="4082" />
+		<item id="red gem" chance="4082" />
+		<item id="shadow sceptre" chance="4082" />
+		<item id="small emerald" chance="4082" countmax="10" />
+		<item id="small sapphire" chance="4082" countmax="10" />
+		<item id="white pearl" chance="4082" countmax="5" />
+		<item id="berserker" chance="2041" />
+		<item id="black pearl" chance="2041" countmax="5" />
+		<item id="demonwing axe" chance="2041" />
+		<item id="ferumbras' hat" chance="2041" />
+		<item id="gold ingot" chance="2041" />
+		<item id="golden armor" chance="2041" />
+		<item id="green gem" chance="2041" />
+		<item id="haunted blade" chance="2041" />
+		<item id="lightning legs" chance="2041" />
+		<item id="magma legs" chance="2041" />
+		<item id="runed sword" chance="2041" />
+		<item id="small amethyst" chance="2041" countmax="10" />
+		<item id="small topaz" chance="2041" countmax="10" />
+		<item id="spellbook of lost souls" chance="2041" />
+	</loot>
+</monster>

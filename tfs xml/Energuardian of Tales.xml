@@ -1,0 +1,59 @@
+﻿<monster name="Energuardian Of Tales" nameDescription="an energuardian of tales" experience="11361" speed="420" manacost="0">
+	<health now="14000" max="14000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="100" />
+		<element earthPercent="-12" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="77" defense="77" />
+	<loot>
+		<item id="book page" chance="58674" countmax="6" />
+		<item id="small amethyst" chance="55786" countmax="10" />
+		<item id="glowing rune" chance="20315" countmax="4" />
+		<item id="ultimate health potion" chance="13165" />
+		<item id="ultimate mana potion" chance="9321" />
+		<item id="spellbook of warding" chance="9122" />
+		<item id="lightning legs" chance="7668" />
+		<item id="flash arrow" chance="7429" countmax="15" />
+		<item id="wand of starstorm" chance="7230" />
+		<item id="lightning pendant" chance="3983" countmax="2" />
+		<item id="might ring" chance="2529" />
+		<item id="platinum amulet" chance="2310" />
+		<item id="wand of defiance" chance="1295" />
+		<item id="spellweaver's robe" chance="876" />
+		<item id="shockwave amulet" chance="677" />
+	</loot>
+</monster>

@@ -1,0 +1,101 @@
+﻿<monster name="Vampire" nameDescription="a vampire" experience="305" speed="238" manacost="0">
+	<health now="475" max="475" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="25" />
+		<element EnergyPercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="0" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
+	</attacks>
+	<defenses armor="28" defense="28">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="healing" interval="2000" chance="20" min="15" max="25" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="BLOOD!" yell="false" />
+		<voice sentence="Let me kiss your neck" yell="false" />
+		<voice sentence="I smell warm blood!" yell="false" />
+		<voice sentence="I call you, my bats! Come!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="90021" countmax="60" />
+		<item id="vampire teeth" chance="7732" />
+		<item id="blood preservation" chance="5097" />
+		<item id="grave flower" chance="1924" />
+		<item id="black pearl" chance="1784" />
+		<item id="strong health potion" chance="1503" />
+		<item id="katana" chance="1465" />
+		<item id="skull" chance="1019" />
+		<item id="spike sword" chance="1012" />
+		<item id="ice rapier" chance="468" />
+		<item id="strange helmet" chance="408" />
+		<item id="bronze amulet" chance="234" />
+		<item id="emerald bangle" chance="209" />
+		<item id="vampire shield" chance="196" />
+		<item id="gold coin" chance="30167" countmax="60" />
+		<item id="vampire teeth" chance="3006" />
+		<item id="grave flower" chance="908" />
+		<item id="black pearl" chance="737" />
+		<item id="katana" chance="734" />
+		<item id="skull" chance="525" />
+		<item id="spike sword" chance="494" />
+		<item id="blood preservation" chance="471" />
+		<item id="strong health potion" chance="294" />
+		<item id="strange helmet" chance="256" />
+		<item id="ice rapier" chance="184" />
+		<item id="emerald bangle" chance="98" />
+		<item id="bronze amulet" chance="82" />
+		<item id="vampire shield" chance="66" />
+		<item id="gold coin" chance="5758" countmax="50" />
+		<item id="vampire teeth" chance="1737" />
+		<item id="grave flower" chance="671" />
+		<item id="katana" chance="576" />
+		<item id="black pearl" chance="551" />
+		<item id="spike sword" chance="399" />
+		<item id="skull" chance="395" />
+		<item id="blood preservation" chance="358" />
+		<item id="strong health potion" chance="199" />
+		<item id="ice rapier" chance="149" />
+		<item id="strange helmet" chance="123" />
+		<item id="bronze amulet" chance="89" />
+		<item id="emerald bangle" chance="51" />
+		<item id="vampire shield" chance="38" />
+		<item id="bowl" chance="32" />
+	</loot>
+</monster>

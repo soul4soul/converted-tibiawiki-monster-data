@@ -1,0 +1,74 @@
+﻿<monster name="Afflicted Strider" nameDescription="an afflicted strider" experience="5700" speed="270" manacost="0">
+	<health now="10000" max="10000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="5" />
+		<element EnergyPercent="0" />
+		<element earthPercent="10" />
+		<element firePercent="-10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="15" />
+	</elements>
+	<attacks>
+		<attack name="death" interval="2000" chance="15" min="-650" max="-800">
+			<attribute key="areaEffect" value="groundshaker" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="-550" max="-650" range="2">
+			<attribute key="shootEffect" value="poison" />
+		</attack>
+	</attacks>
+	<defenses armor="68" defense="68" />
+	<loot>
+		<item id="platinum coin" chance="100000" countmax="12" />
+		<item id="afflicted strider worms" chance="8917" />
+		<item id="guardian halberd" chance="6794" />
+		<item id="violet gem" chance="5520" />
+		<item id="green crystal shard" chance="5096" />
+		<item id="belted cape" chance="4883" />
+		<item id="violet crystal shard" chance="4459" />
+		<item id="crystal sword" chance="4246" />
+		<item id="doublet" chance="4246" />
+		<item id="afflicted strider head" chance="3822" />
+		<item id="magma coat" chance="2760" />
+		<item id="spirit cloak" chance="2760" />
+		<item id="knight armor" chance="2548" />
+		<item id="machete" chance="2335" />
+		<item id="serpent sword" chance="2335" />
+		<item id="focus cape" chance="1699" />
+		<item id="ice rapier" chance="1699" />
+		<item id="broadsword" chance="1274" />
+		<item id="titan axe" chance="1274" />
+		<item id="haunted blade" chance="1062" />
+		<item id="mercenary sword" chance="1062" />
+		<item id="knight axe" chance="849" />
+	</loot>
+</monster>

@@ -1,0 +1,116 @@
+﻿<monster name="Crystal Spider" nameDescription="a crystal spider" experience="900" speed="230" manacost="0">
+	<health now="1250" max="1250" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="-20" />
+		<element earthPercent="20" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-250" />
+	</attacks>
+	<defenses armor="43" defense="43">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Screeech!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="197" />
+		<item id="strong mana potion" chance="14966" />
+		<item id="plate armor" chance="9960" />
+		<item id="sniper arrow" chance="5837" countmax="6" />
+		<item id="steel helmet" chance="5159" />
+		<item id="ice cube" chance="4912" />
+		<item id="crystal sword" chance="2520" />
+		<item id="spider silk" chance="1991" />
+		<item id="crystal necklace" chance="1628" />
+		<item id="crystal ring" chance="1587" />
+		<item id="time ring" chance="1486" />
+		<item id="knight legs" chance="750" />
+		<item id="shard" chance="717" />
+		<item id="glacier mask" chance="670" />
+		<item id="knight armor" chance="555" />
+		<item id="sapphire hammer" chance="142" />
+		<item id="platinum amulet" chance="125" />
+		<item id="jewelled backpack" chance="82" />
+		<item id="gold coin" chance="10630" countmax="175" />
+		<item id="strong mana potion" chance="1519" />
+		<item id="plate armor" chance="1063" />
+		<item id="brass legs" chance="912" />
+		<item id="sniper arrow" chance="666" countmax="6" />
+		<item id="ice cube" chance="532" />
+		<item id="steel helmet" chance="518" />
+		<item id="crystal sword" chance="304" />
+		<item id="spider silk" chance="240" />
+		<item id="time ring" chance="169" />
+		<item id="shard" chance="101" />
+		<item id="knight legs" chance="74" />
+		<item id="knight armor" chance="53" />
+		<item id="platinum amulet" chance="19" />
+		<item id="glacier mask" chance="18" />
+		<item id="sapphire hammer" chance="12" />
+		<item id="jewelled backpack" chance="6" />
+		<item id="gold coin" chance="20998" countmax="97" />
+		<item id="plate armor" chance="2105" />
+		<item id="brass legs" chance="1574" />
+		<item id="sniper arrow" chance="1348" countmax="6" />
+		<item id="ice cube" chance="1102" />
+		<item id="steel helmet" chance="1100" />
+		<item id="spider silk" chance="323" />
+		<item id="shard" chance="169" />
+		<item id="time ring" chance="130" />
+		<item id="crystal sword" chance="125" />
+		<item id="strong mana potion" chance="115" />
+		<item id="knight legs" chance="90" />
+		<item id="glacier mask" chance="76" />
+		<item id="knight armor" chance="56" />
+		<item id="sapphire hammer" chance="33" />
+		<item id="jewelled backpack" chance="21" />
+		<item id="platinum amulet" chance="21" />
+		<item id="ice cube" chance="16" />
+		<item id="gold coin" chance="129" countmax="68" />
+		<item id="plate armor" chance="12" />
+		<item id="sniper arrow" chance="12" countmax="2" />
+		<item id="brass legs" chance="8" />
+		<item id="steel helmet" chance="8" />
+		<item id="strong mana potion" chance="8" />
+		<item id="glacier mask" chance="4" />
+		<item id="shard" chance="4" />
+		<item id="spider silk" chance="4" />
+	</loot>
+</monster>

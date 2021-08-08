@@ -1,0 +1,73 @@
+﻿<monster name="Dragon Lord" nameDescription="a dragon lord" experience="2100" speed="200" manacost="0">
+	<health now="1900" max="1900" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="20" />
+		<element earthPercent="80" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-230" />
+	</attacks>
+	<defenses armor="34" defense="34">
+		<defense name="healing" interval="2000" chance="20" min="57" max="93" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="YOU WILL BURN!" yell="false" />
+		<voice sentence="ZCHHHHHHH" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="95289" countmax="246" />
+		<item id="dragon ham" chance="79754" />
+		<item id="green mushroom" chance="12115" />
+		<item id="royal spear" chance="9131" countmax="3" />
+		<item id="book (gemmed)" chance="9047" />
+		<item id="power bolt" chance="6577" countmax="7" />
+		<item id="energy ring" chance="5094" />
+		<item id="small sapphire" chance="5010" />
+		<item id="golden mug" chance="3070" />
+		<item id="red dragon scale" chance="1974" />
+		<item id="red dragon leather" chance="1022" />
+		<item id="strong health potion" chance="981" />
+		<item id="life crystal" chance="628" />
+		<item id="strange helmet" chance="377" />
+		<item id="fire sword" chance="285" />
+		<item id="tower shield" chance="266" />
+		<item id="royal helmet" chance="233" />
+		<item id="dragon scale mail" chance="134" />
+		<item id="dragon slayer" chance="108" />
+		<item id="dragon lord trophy" chance="94" />
+	</loot>
+</monster>

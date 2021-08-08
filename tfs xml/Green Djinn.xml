@@ -1,0 +1,75 @@
+﻿<monster name="Green Djinn" nameDescription="a green djinn" experience="215" speed="220" manacost="0">
+	<health now="330" max="330" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="20" />
+		<element EnergyPercent="50" />
+		<element earthPercent="0" />
+		<element firePercent="80" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="-13" />
+		<element deathPercent="20" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
+	</attacks>
+	<defenses armor="20" defense="20" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Good wishes are for fairytales" yell="false" />
+		<voice sentence="I wish you a merry trip to hell!" yell="false" />
+		<voice sentence="Muhahahaha!" yell="false" />
+		<voice sentence="I grant you a deathwish!" yell="false" />
+		<voice sentence="Tell me your last wish!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="88084" countmax="115" />
+		<item id="cheese" chance="24406" />
+		<item id="royal spear" chance="4961" countmax="2" />
+		<item id="small emerald" chance="2939" countmax="4" />
+		<item id="book (green)" chance="2339" />
+		<item id="dirty turban" chance="2136" />
+		<item id="green piece of cloth" chance="2030" />
+		<item id="grave flower" chance="971" />
+		<item id="small oil lamp" chance="892" />
+		<item id="mana potion" chance="477" />
+		<item id="mystic turban" chance="115" />
+		<item id="gold coin" chance="3072" countmax="109" />
+		<item id="cheese" chance="847" />
+		<item id="grave flower" chance="380" />
+		<item id="small oil lamp" chance="265" />
+		<item id="small emerald" chance="177" countmax="4" />
+		<item id="royal spear" chance="159" countmax="2" />
+		<item id="book (green)" chance="124" />
+		<item id="green piece of cloth" chance="71" />
+		<item id="mana potion" chance="9" />
+		<item id="mystic turban" chance="9" />
+	</loot>
+</monster>

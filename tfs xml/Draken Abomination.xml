@@ -1,0 +1,96 @@
+﻿<monster name="Draken Abomination" nameDescription="a draken abomination" experience="3800" speed="270" manacost="0">
+	<health now="6250" max="6250" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="-5" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="5" />
+		<element holyPercent="-5" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-420" />
+	</attacks>
+	<defenses armor="45" defense="45">
+		<defense name="healing" interval="2000" chance="20" min="0" max="100" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Uhhhg!" yell="false" />
+		<voice sentence="Gll" yell="false" />
+		<voice sentence="Hmmnn!" yell="false" />
+		<voice sentence="Aaag!" yell="false" />
+	</voices>
+	<summons maxSummons="2">
+		<voice name="death blob" interval="2000" chance="15" max="1" />
+	</summons>
+	<loot>
+		<item id="gold coin" chance="97110" countmax="199" />
+		<item id="meat" chance="50291" />
+		<item id="platinum coin" chance="50018" countmax="8" />
+		<item id="eye of corruption" chance="12052" />
+		<item id="scale of corruption" chance="10966" />
+		<item id="ultimate health potion" chance="9238" countmax="3" />
+		<item id="great mana potion" chance="9118" countmax="3" />
+		<item id="terra hood" chance="8400" />
+		<item id="tail of corruption" chance="6207" />
+		<item id="great spirit potion" chance="4894" countmax="3" />
+		<item id="small topaz" chance="2811" countmax="4" />
+		<item id="wand of voodoo" chance="1018" />
+		<item id="zaoan legs" chance="821" />
+		<item id="zaoan armor" chance="739" />
+		<item id="zaoan helmet" chance="609" />
+		<item id="draken boots" chance="559" />
+		<item id="bamboo leaves" chance="315" />
+		<item id="shield of corruption" chance="15" />
+		<item id="snake god's wristguard" chance="12" />
+		<item id="gold coin" chance="16172" countmax="199" />
+		<item id="platinum coin" chance="8217" countmax="8" />
+		<item id="meat" chance="8149" />
+		<item id="eye of corruption" chance="2037" />
+		<item id="great mana potion" chance="1645" countmax="3" />
+		<item id="scale of corruption" chance="1633" />
+		<item id="ultimate health potion" chance="1569" countmax="3" />
+		<item id="terra hood" chance="1448" />
+		<item id="tail of corruption" chance="959" />
+		<item id="great spirit potion" chance="801" countmax="3" />
+		<item id="small topaz" chance="494" countmax="4" />
+		<item id="wand of voodoo" chance="188" />
+		<item id="zaoan legs" chance="182" />
+		<item id="zaoan armor" chance="150" />
+		<item id="zaoan helmet" chance="74" />
+		<item id="draken boots" chance="56" />
+		<item id="bamboo leaves" chance="6" />
+		<item id="shield of corruption" chance="3" />
+		<item id="snake god's wristguard" chance="3" />
+	</loot>
+</monster>

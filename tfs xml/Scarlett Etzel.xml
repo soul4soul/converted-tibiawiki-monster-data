@@ -1,0 +1,107 @@
+﻿<monster name="Scarlett Etzel" nameDescription="" experience="550" speed="0" manacost="0">
+	<health now="30000" max="30000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-1150" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="green gem" chance="99944" countmax="3" />
+		<item id="energy bar" chance="99887" />
+		<item id="platinum coin" chance="99887" countmax="5" />
+		<item id="ultimate mana potion" chance="56215" countmax="20" />
+		<item id="supreme health potion" chance="53390" countmax="20" />
+		<item id="red gem" chance="38418" countmax="2" />
+		<item id="yellow gem" chance="34068" countmax="2" />
+		<item id="ultimate spirit potion" chance="33955" countmax="6" />
+		<item id="royal star" chance="29435" countmax="100" />
+		<item id="bullseye potion" chance="21695" countmax="10" />
+		<item id="mastermind potion" chance="19605" countmax="10" />
+		<item id="berserk potion" chance="18814" countmax="10" />
+		<item id="blue gem" chance="18362" countmax="2" />
+		<item id="magma coat" chance="15311" />
+		<item id="giant shimmering pearl" chance="15028" />
+		<item id="gold ingot" chance="14011" />
+		<item id="terra rod" chance="12316" />
+		<item id="magma monocle" chance="11412" />
+		<item id="magma amulet" chance="10960" />
+		<item id="silver token" chance="10508" countmax="6" />
+		<item id="violet gem" chance="9492" countmax="2" />
+		<item id="crystal coin" chance="9040" />
+		<item id="terra mantle" chance="8136" />
+		<item id="terra legs" chance="7514" />
+		<item id="giant sapphire" chance="6780" />
+		<item id="terra hood" chance="6102" />
+		<item id="giant ruby" chance="4689" />
+		<item id="terra amulet" chance="3785" />
+		<item id="cobra club" chance="282" />
+		<item id="cobra crossbow" chance="169" />
+		<item id="cobra axe" chance="56" />
+		<item id="cobra hood" chance="56" />
+		<item id="cobra rod" chance="56" />
+		<item id="cobra sword" chance="56" />
+		<item id="energy bar" chance="1186" />
+		<item id="platinum coin" chance="1186" countmax="5" />
+		<item id="supreme health potion" chance="621" countmax="20" />
+		<item id="ultimate spirit potion" chance="621" countmax="6" />
+		<item id="green gem" chance="565" />
+		<item id="blue gem" chance="508" countmax="2" />
+		<item id="ultimate mana potion" chance="452" countmax="20" />
+		<item id="yellow gem" chance="395" countmax="2" />
+		<item id="terra rod" chance="339" />
+		<item id="bullseye potion" chance="282" countmax="10" />
+		<item id="giant shimmering pearl" chance="282" />
+		<item id="mastermind potion" chance="282" countmax="10" />
+		<item id="red gem" chance="282" />
+		<item id="berserk potion" chance="226" countmax="10" />
+		<item id="magma coat" chance="226" />
+		<item id="magma amulet" chance="169" />
+		<item id="royal star" chance="169" countmax="100" />
+		<item id="silver token" chance="169" countmax="3" />
+		<item id="crystal coin" chance="113" />
+		<item id="gold ingot" chance="113" />
+		<item id="terra hood" chance="113" />
+		<item id="violet gem" chance="113" />
+		<item id="magma monocle" chance="56" />
+		<item id="terra amulet" chance="56" />
+		<item id="terra legs" chance="56" />
+		<item id="terra mantle" chance="56" />
+	</loot>
+</monster>

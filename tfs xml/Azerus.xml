@@ -1,0 +1,60 @@
+﻿<monster name="Azerus" nameDescription="" experience="6000" speed="286" manacost="0">
+	<health now="26000" max="26000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="15" />
+		<element earthPercent="15" />
+		<element firePercent="15" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="15" />
+		<element holyPercent="15" />
+		<element deathPercent="15" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-900" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="0" max="499" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="The ultimate will finally consume this unworthy existence!" yell="false" />
+		<voice sentence="My masters and I will tear down barriers and join the ultimate in its realm!" yell="false" />
+		<voice sentence="The power of the Yalahari will all be mine!" yell="false" />
+		<voice sentence="We will open the rift for a new time to come!" yell="false" />
+		<voice sentence="He who has returned from beyond has taught me secrets you can't even grasp!" yell="false" />
+		<voice sentence="The end of times has come!" yell="false" />
+		<voice sentence="The great machinator will make his entrance soon!" yell="false" />
+		<voice sentence="You might scratch my shields but they will never break!" yell="false" />
+		<voice sentence="You can't hope to penetrate my shields!" yell="false" />
+		<voice sentence="Do you really think you could beat me?" yell="false" />
+	</voices>
+	<loot />
+</monster>

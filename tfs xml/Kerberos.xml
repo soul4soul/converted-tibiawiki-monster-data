@@ -1,0 +1,75 @@
+﻿<monster name="Kerberos" nameDescription="" experience="10000" speed="0" manacost="0">
+	<health now="11000" max="11000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="10" />
+		<element earthPercent="20" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="-25" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-508" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="flask of demonic blood" chance="100000" />
+		<item id="gold ingot" chance="100000" countmax="5" />
+		<item id="hellhound slobber" chance="100000" />
+		<item id="platinum coin" chance="100000" countmax="19" />
+		<item id="black pearl" chance="97619" countmax="5" />
+		<item id="great mana potion" chance="97619" countmax="3" />
+		<item id="magma amulet" chance="97619" />
+		<item id="knight axe" chance="71429" />
+		<item id="demonic essence" chance="69048" />
+		<item id="explorer brooch" chance="66667" />
+		<item id="fire sword" chance="52381" />
+		<item id="green gem" chance="45238" />
+		<item id="golden armor" chance="28571" />
+		<item id="ruthless axe" chance="7143" />
+		<item id="executioner" chance="2381" />
+		<item id="hellhound slobber" chance="100000" />
+		<item id="platinum coin" chance="100000" countmax="12" />
+		<item id="flask of demonic blood" chance="100000" />
+		<item id="black pearl" chance="100000" countmax="4" />
+		<item id="gold ingot" chance="100000" countmax="3" />
+		<item id="great mana potion" chance="100000" countmax="3" />
+		<item id="demonic essence" chance="76190" />
+		<item id="knight axe" chance="71429" />
+		<item id="golden armor" chance="42857" />
+		<item id="green gem" chance="40476" />
+		<item id="explorer brooch" chance="19048" />
+		<item id="fire sword" chance="9524" />
+		<item id="ruthless axe" chance="7143" />
+	</loot>
+</monster>

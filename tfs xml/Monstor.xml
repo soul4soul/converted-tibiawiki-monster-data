@@ -1,0 +1,59 @@
+﻿<monster name="Monstor" nameDescription="" experience="575" speed="0" manacost="0">
+	<health now="960" max="960" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="20" />
+		<element EnergyPercent="-7" />
+		<element earthPercent="30" />
+		<element firePercent="50" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="-3" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-167" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="96" max="240" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="NO ARMY ME STOPPING! GRARR!" yell="false" />
+		<voice sentence="ME DESTROY CITY! GROAR!" yell="false" />
+		<voice sentence="WHARR! MUST ... KIDNAP WOMEN!" yell="false" />
+	</voices>
+	<summons maxSummons="3">
+		<voice name="acid blob" interval="2000" chance="15" max="1" />
+	</summons>
+	<loot>
+		<item id="helmet of ultimate terror" chance="80000" />
+		<item id="incredible mumpiz slayer" chance="20000" />
+	</loot>
+</monster>

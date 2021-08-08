@@ -1,0 +1,65 @@
+﻿<monster name="Dwarf Soldier" nameDescription="a dwarf soldier" experience="70" speed="176" manacost="360">
+	<health now="135" max="135" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="10" />
+		<element firePercent="-5" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="-5" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-70" />
+		<attack name="physical" interval="2000" chance="100" min="0" max="-60" range="7">
+			<attribute key="shootEffect" value="bolt" />
+		</attack>
+	</attacks>
+	<defenses armor="9" defense="9" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Hail Durin!" yell="false" />
+	</voices>
+	<loot>
+		<item id="white mushroom" chance="39891" countmax="2" />
+		<item id="bolt" chance="37823" countmax="7" />
+		<item id="gold coin" chance="28340" countmax="12" />
+		<item id="soldier helmet" chance="11794" />
+		<item id="shovel" chance="10022" />
+		<item id="chain armor" chance="7509" />
+		<item id="piercing bolt" chance="3821" countmax="3" />
+		<item id="dwarven shield" chance="3060" />
+		<item id="crossbow" chance="3037" />
+		<item id="battle axe" chance="2478" />
+		<item id="iron ore" chance="304" />
+		<item id="axe ring" chance="122" />
+	</loot>
+</monster>

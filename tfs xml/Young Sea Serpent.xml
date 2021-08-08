@@ -1,0 +1,78 @@
+﻿<monster name="Young Sea Serpent" nameDescription="a young sea serpent" experience="1000" speed="480" manacost="0">
+	<health now="1050" max="1050" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-20" />
+		<element EnergyPercent="-10" />
+		<element earthPercent="100" />
+		<element firePercent="30" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
+		<element holyPercent="0" />
+		<element deathPercent="-15" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="HISSSS" yell="false" />
+		<voice sentence="CHHHRRRR" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="98019" countmax="174" />
+		<item id="morning star" chance="40244" />
+		<item id="battle axe" chance="7878" />
+		<item id="heavily rusted armor" chance="7510" />
+		<item id="strong health potion" chance="4999" />
+		<item id="battle hammer" chance="4792" />
+		<item id="sea serpent scale" chance="4745" />
+		<item id="strong mana potion" chance="4630" />
+		<item id="small sapphire" chance="1866" countmax="2" />
+		<item id="stealth ring" chance="898" />
+		<item id="rusted armor" chance="829" />
+		<item id="life crystal" chance="161" />
+		<item id="gold coin" chance="100000" countmax="174" />
+		<item id="morning star" chance="100000" />
+		<item id="battle axe" chance="100000" />
+		<item id="rusty armor" chance="100000" countmax="2" />
+		<item id="strong health potion" chance="83552" />
+		<item id="sea serpent scale" chance="83460" />
+		<item id="battle hammer" chance="81801" />
+		<item id="strong mana potion" chance="65215" />
+		<item id="small sapphire" chance="32619" countmax="2" />
+		<item id="stealth ring" chance="16517" />
+		<item id="life crystal" chance="4331" />
+	</loot>
+</monster>

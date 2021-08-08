@@ -1,0 +1,92 @@
+﻿<monster name="Angry Demon" nameDescription="an angry demon" experience="6000" speed="256" manacost="0">
+	<health now="8200" max="8200" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="25" />
+		<element EnergyPercent="50" />
+		<element earthPercent="40" />
+		<element firePercent="100" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="-12" />
+		<element holyPercent="-12" />
+		<element deathPercent="20" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
+	</attacks>
+	<defenses armor="40" defense="40">
+		<defense name="healing" interval="2000" chance="20" min="80" max="250" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Your soul will be mine!" yell="false" />
+		<voice sentence="CHAMEK ATH UTHUL ARAK!" yell="false" />
+		<voice sentence="I SMELL FEEEEAAAAAR!" yell="false" />
+		<voice sentence="Your resistance is futile!" yell="false" />
+		<voice sentence="MUHAHAHA" yell="false" />
+	</voices>
+	<summons maxSummons="1">
+		<voice name="fire elemental" interval="2000" chance="15" max="1" />
+	</summons>
+	<loot>
+		<item id="Gold Coin" chance="35000" countmax="100" />
+		<item id="Platinum Coin" chance="35000" countmax="6" />
+		<item id="Great Mana Potion" chance="35000" countmax="3" />
+		<item id="Great Spirit Potion" chance="35000" countmax="3" />
+		<item id="Demonic Essence" chance="15000" />
+		<item id="Ultimate Health Potion" chance="15000" countmax="3" />
+		<item id="Demon Horn" chance="15000" />
+		<item id="Fire Mushroom" chance="15000" countmax="6" />
+		<item id="Assassin Star" chance="15000" countmax="10" />
+		<item id="Small Topaz" chance="15000" countmax="5" />
+		<item id="Small Ruby" chance="15000" countmax="5" />
+		<item id="Small Amethyst" chance="15000" countmax="5" />
+		<item id="Small Emerald" chance="15000" countmax="5" />
+		<item id="Talon" chance="2500" />
+		<item id="Orb" chance="2500" />
+		<item id="Fire Axe" chance="2500" />
+		<item id="Stealth Ring" chance="2500" />
+		<item id="Red Gem" chance="2500" />
+		<item id="Ring of Healing" chance="2500" />
+		<item id="Might Ring" chance="2500" />
+		<item id="Giant Sword" chance="2500" />
+		<item id="Ice Rapier" chance="2500" />
+		<item id="Golden Sickle" chance="2500" />
+		<item id="Purple Tome" chance="2500" />
+		<item id="Devil Helmet" chance="2500" />
+		<item id="Gold Ring" chance="2500" />
+		<item id="Demon Shield" chance="7500" />
+		<item id="Platinum Amulet" chance="7500" />
+		<item id="Mastermind Shield" chance="7500" />
+		<item id="Golden Legs" chance="4000" />
+		<item id="Magic Plate Armor" chance="4000" />
+		<item id="Demon Trophy" chance="4000" />
+		<item id="Demonrage Sword" chance="4000" />
+	</loot>
+</monster>

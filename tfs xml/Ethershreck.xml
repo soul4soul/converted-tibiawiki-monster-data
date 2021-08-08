@@ -1,0 +1,94 @@
+﻿<monster name="Ethershreck" nameDescription="" experience="5600" speed="0" manacost="0">
+	<health now="9500" max="9500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-10" />
+		<element EnergyPercent="-10" />
+		<element earthPercent="100" />
+		<element firePercent="10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="50" />
+		<element holyPercent="-15" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<voices interval="5000" chance="10">
+		<voice sentence="EMBRACE MY GIFTS!" yell="false" />
+	</voices>
+	<loot>
+		<item id="demonic essence" chance="100000" />
+		<item id="ghastly dragon head" chance="100000" />
+		<item id="giant shimmering pearl" chance="100000" />
+		<item id="gold coin" chance="100000" countmax="198" />
+		<item id="platinum coin" chance="100000" countmax="15" />
+		<item id="small topaz" chance="100000" countmax="10" />
+		<item id="undead heart" chance="100000" />
+		<item id="zaoan halberd" chance="76636" />
+		<item id="ultimate health potion" chance="57944" />
+		<item id="jade hat" chance="46729" />
+		<item id="shiny stone" chance="45171" />
+		<item id="great mana potion" chance="33956" countmax="3" />
+		<item id="great spirit potion" chance="29595" countmax="3" />
+		<item id="great health potion" chance="29283" countmax="3" />
+		<item id="zaoan shoes" chance="29283" />
+		<item id="spellweaver's robe" chance="15576" />
+		<item id="zaoan armor" chance="15576" />
+		<item id="zaoan legs" chance="14330" />
+		<item id="drakinata" chance="11215" />
+		<item id="zaoan helmet" chance="9346" />
+		<item id="sai" chance="8100" />
+		<item id="guardian boots" chance="3427" />
+		<item id="zaoan sword" chance="2181" />
+		<item id="golden can of oil" chance="1246" />
+		<item id="ghastly dragon head" chance="9969" />
+		<item id="gold coin" chance="9969" countmax="227" />
+		<item id="ultimate health potion" chance="9969" />
+		<item id="small topaz" chance="8100" countmax="6" />
+		<item id="undead heart" chance="8100" />
+		<item id="demonic essence" chance="6854" />
+		<item id="platinum coin" chance="6854" countmax="2" />
+		<item id="shiny stone" chance="5296" />
+		<item id="jade hat" chance="4984" />
+		<item id="great health potion" chance="4050" />
+		<item id="great mana potion" chance="3427" />
+		<item id="great spirit potion" chance="2492" />
+		<item id="zaoan helmet" chance="2181" />
+		<item id="zaoan legs" chance="1869" />
+		<item id="zaoan halberd" chance="1558" />
+		<item id="guardian boots" chance="1246" />
+		<item id="zaoan shoes" chance="935" />
+		<item id="spellweaver's robe" chance="623" />
+		<item id="sais" chance="312" />
+		<item id="zaoan armor" chance="312" />
+	</loot>
+</monster>

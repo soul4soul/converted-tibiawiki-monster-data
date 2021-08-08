@@ -1,0 +1,87 @@
+﻿<monster name="The Enraged Thorn Knight" nameDescription="" experience="30000" speed="0" manacost="0">
+	<health now="0" max="0" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="-900" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="gold coin" chance="100000" countmax="100" />
+		<item id="knight axe" chance="100000" />
+		<item id="platinum coin" chance="100000" countmax="35" />
+		<item id="ring of healing" chance="100000" />
+		<item id="green crystal shard" chance="74000" countmax="3" />
+		<item id="violet crystal shard" chance="70000" countmax="3" />
+		<item id="blue crystal shard" chance="66000" countmax="3" />
+		<item id="great spirit potion" chance="66000" countmax="10" />
+		<item id="berserk potion" chance="52000" />
+		<item id="ultimate health potion" chance="52000" countmax="10" />
+		<item id="bullseye potion" chance="48000" />
+		<item id="great mana potion" chance="48000" countmax="10" />
+		<item id="trapped bad dream monster" chance="36000" />
+		<item id="red gem" chance="34000" />
+		<item id="sacred tree amulet" chance="34000" />
+		<item id="small emerald" chance="32000" countmax="10" />
+		<item id="gold token" chance="28000" />
+		<item id="giant shimmering pearl" chance="26000" />
+		<item id="demonic essence" chance="22000" />
+		<item id="rusted armor" chance="22000" />
+		<item id="small amethyst" chance="22000" countmax="10" />
+		<item id="green piece of cloth" chance="20000" countmax="3" />
+		<item id="silver token" chance="16000" />
+		<item id="small diamond" chance="16000" countmax="10" />
+		<item id="small topaz" chance="16000" countmax="10" />
+		<item id="blue gem" chance="14000" />
+		<item id="green gem" chance="14000" />
+		<item id="medusa shield" chance="12000" />
+		<item id="small ruby" chance="12000" countmax="10" />
+		<item id="spiked squelcher" chance="12000" />
+		<item id="spirit container" chance="12000" />
+		<item id="yellow gem" chance="10000" />
+		<item id="haunted blade" chance="8000" />
+		<item id="royal helmet" chance="6000" />
+		<item id="flask of warrior's sweat" chance="4000" />
+		<item id="part of a rune (one)" chance="4000" />
+		<item id="mandrake" chance="2000" />
+		<item id="piece of royal steel" chance="2000" countmax="2" />
+		<item id="swamplair armor" chance="2000" />
+		<item id="thorn seed" chance="2000" />
+	</loot>
+</monster>

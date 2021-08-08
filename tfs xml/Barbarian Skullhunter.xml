@@ -1,0 +1,65 @@
+﻿<monster name="Barbarian Skullhunter" nameDescription="a barbarian skullhunter" experience="85" speed="168" manacost="0">
+	<health now="135" max="135" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="10" />
+		<element EnergyPercent="20" />
+		<element earthPercent="-10" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="50" />
+		<element holyPercent="10" />
+		<element deathPercent="-5" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-65" />
+	</attacks>
+	<defenses armor="8" defense="8" />
+	<voices interval="5000" chance="10">
+		<voice sentence="You will become my trophy." yell="false" />
+		<voice sentence="Fight harder, coward." yell="false" />
+		<voice sentence="Show that you are a worthy opponent." yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="74392" countmax="30" />
+		<item id="torch" chance="60298" />
+		<item id="brass helmet" chance="19950" />
+		<item id="knife" chance="15059" />
+		<item id="viking helmet" chance="7878" />
+		<item id="scale armor" chance="4002" />
+		<item id="skull" chance="3016" />
+		<item id="health potion" chance="923" />
+		<item id="brown piece of cloth" chance="520" />
+		<item id="life ring" chance="231" />
+		<item id="fur boots" chance="101" />
+		<item id="ragnir helmet" chance="96" />
+		<item id="crystal sword" chance="84" />
+	</loot>
+</monster>

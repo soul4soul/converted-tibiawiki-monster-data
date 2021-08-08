@@ -1,0 +1,60 @@
+﻿<monster name="Lizard Magistratus" nameDescription="a lizard magistratus" experience="2000" speed="256" manacost="0">
+	<health now="6250" max="6250" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="85" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-60" />
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="20" min="625" max="1562" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Shhhhhhhh." yell="false" />
+		<voice sentence="I can't work wizh zuch dizturbancez!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="77880" countmax="50" />
+		<item id="platinum coin" chance="14593" countmax="20" />
+		<item id="small ruby" chance="10292" countmax="5" />
+		<item id="strong mana potion" chance="6912" />
+		<item id="great mana potion" chance="4608" />
+		<item id="lizard leather" chance="1382" />
+		<item id="lizard scale" chance="461" />
+	</loot>
+</monster>

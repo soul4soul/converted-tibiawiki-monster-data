@@ -1,0 +1,66 @@
+﻿<monster name="Nightmare Scion" nameDescription="a nightmare scion" experience="1350" speed="440" manacost="0">
+	<health now="1400" max="1400" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="20" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-140" />
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="20" min="60" max="95" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Weeeheeheee!" yell="false" />
+		<voice sentence="Pffffrrrrrrrrrrrr." yell="false" />
+		<voice sentence="Peak a boo, I killed you!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="97034" countmax="155" />
+		<item id="meat" chance="50490" />
+		<item id="essence of a bad dream" chance="8086" />
+		<item id="scythe leg" chance="4937" />
+		<item id="platinum coin" chance="1057" countmax="3" />
+		<item id="crown helmet" chance="725" />
+		<item id="diamond sceptre" chance="365" />
+		<item id="focus cape" chance="315" />
+		<item id="death ring" chance="271" />
+		<item id="shadow sceptre" chance="255" />
+		<item id="bar of chocolate" chance="232" />
+		<item id="crystal of focus" chance="116" />
+	</loot>
+</monster>

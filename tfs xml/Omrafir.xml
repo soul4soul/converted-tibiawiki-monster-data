@@ -1,0 +1,116 @@
+﻿<monster name="Omrafir" nameDescription="" experience="0" speed="0" manacost="0">
+	<health now="322000" max="322000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="50" />
+		<element EnergyPercent="50" />
+		<element earthPercent="50" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="50" />
+		<element holyPercent="50" />
+		<element deathPercent="50" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-8000" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="32200" max="80500" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="FIRST I'LL OBLITERATE YOU THEN I BURN THIS PRISON DOWN!!" yell="false" />
+		<voice sentence="I'M TOO HOT FOR YOU TO HANDLE!" yell="false" />
+		<voice sentence="FREEDOM FOR PRINCESS" yell="false" />
+		<voice sentence="OMRAFIR INHALES DEEPLY!" yell="false" />
+		<voice sentence="OMRAFIR BREATHES INFERNAL FIRE" yell="false" />
+		<voice sentence="THE POWER OF HIS INTERNAL FIRE RENEWS OMRAFIR!" yell="false" />
+		<voice sentence="I WILL RULE WHEN THE NEW ORDER IS ESTABLISHED!" yell="false" />
+	</voices>
+	<loot>
+		<item id="platinum coin" chance="93750" countmax="20" />
+		<item id="demonic essence" chance="81250" />
+		<item id="dream matter" chance="81250" countmax="2" />
+		<item id="unrealized dream" chance="81250" countmax="3" />
+		<item id="cluster of solace" chance="62500" countmax="4" />
+		<item id="great spirit potion" chance="56250" countmax="8" />
+		<item id="cyan crystal fragment" chance="43750" countmax="3" />
+		<item id="giant shimmering pearl" chance="43750" />
+		<item id="blue crystal shard" chance="37500" countmax="5" />
+		<item id="green crystal fragment" chance="37500" countmax="3" />
+		<item id="ultimate health potion" chance="31250" countmax="8" />
+		<item id="demon horn" chance="18750" />
+		<item id="gold coin" chance="18750" countmax="100" />
+		<item id="green crystal shard" chance="18750" countmax="5" />
+		<item id="green gem" chance="18750" />
+		<item id="lightning robe" chance="18750" />
+		<item id="violet crystal shard" chance="18750" countmax="5" />
+		<item id="lightning boots" chance="12500" />
+		<item id="nightmare hook" chance="12500" />
+		<item id="noble axe" chance="12500" countmax="2" />
+		<item id="crystalline armor" chance="6250" />
+		<item id="demonic tapestry" chance="6250" />
+		<item id="dream warden mask" chance="6250" />
+		<item id="great mana potion" chance="6250" countmax="8" />
+		<item id="nightmare horn" chance="6250" />
+		<item id="psychedelic tapestry" chance="6250" />
+		<item id="red crystal fragment" chance="6250" countmax="3" />
+		<item id="ring of healing" chance="6250" />
+		<item id="skull helmet" chance="6250" />
+		<item id="steel boots" chance="6250" />
+		<item id="clusters of solace" chance="56250" countmax="4" />
+		<item id="demonic essence" chance="56250" />
+		<item id="dream matter" chance="56250" />
+		<item id="platinum coin" chance="56250" countmax="20" />
+		<item id="unrealized dream" chance="56250" countmax="3" />
+		<item id="green crystal fragment" chance="31250" countmax="3" />
+		<item id="demon horn" chance="25000" />
+		<item id="green crystal shard" chance="25000" countmax="5" />
+		<item id="ultimate health potion" chance="25000" countmax="8" />
+		<item id="great mana potion" chance="18750" countmax="8" />
+		<item id="green gem" chance="18750" />
+		<item id="violet crystal shard" chance="18750" countmax="5" />
+		<item id="blue crystal shard" chance="12500" countmax="5" />
+		<item id="cyan crystal fragment" chance="12500" countmax="3" />
+		<item id="eye pod" chance="12500" />
+		<item id="giant shimmering pearl" chance="12500" />
+		<item id="gold coin" chance="12500" countmax="100" />
+		<item id="great spirit potion" chance="12500" countmax="8" />
+		<item id="lightning boots" chance="12500" />
+		<item id="red crystal fragment" chance="12500" countmax="3" />
+		<item id="demonic tapestry" chance="6250" />
+		<item id="dream warden mask" chance="6250" />
+		<item id="lightning robe" chance="6250" />
+		<item id="nightmare hook" chance="6250" />
+		<item id="nightmare horn" chance="6250" />
+		<item id="noble axe" chance="6250" />
+		<item id="ring of healing" chance="6250" />
+		<item id="skull helmet" chance="6250" />
+	</loot>
+</monster>

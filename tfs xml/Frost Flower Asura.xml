@@ -1,0 +1,74 @@
+﻿<monster name="Frost Flower Asura" nameDescription="a frost flower asura" experience="4200" speed="220" manacost="0">
+	<health now="3500" max="3500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-5" />
+		<element EnergyPercent="0" />
+		<element earthPercent="-10" />
+		<element firePercent="-15" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="30" />
+		<element deathPercent="20" />
+	</elements>
+	<defenses armor="56" defense="56" />
+	<loot>
+		<item id="gold coin" chance="100000" countmax="100" />
+		<item id="platinum coin" chance="100000" countmax="6" />
+		<item id="golden lotus brooch" chance="20267" />
+		<item id="flask of demonic blood" chance="19717" />
+		<item id="soul orb" chance="18617" />
+		<item id="peacock feather fan" chance="17675" />
+		<item id="demonic essence" chance="16968" />
+		<item id="great health potion" chance="12333" countmax="2" />
+		<item id="assassin star" chance="9976" countmax="5" />
+		<item id="small diamond" chance="8248" countmax="3" />
+		<item id="small sapphire" chance="7698" countmax="3" />
+		<item id="white pearl" chance="7227" countmax="2" />
+		<item id="black pearl" chance="5342" countmax="2" />
+		<item id="silver brooch" chance="5027" />
+		<item id="small ruby" chance="4713" countmax="2" />
+		<item id="small emerald" chance="4085" countmax="2" />
+		<item id="small topaz" chance="3928" countmax="2" />
+		<item id="northwind rod" chance="3221" />
+		<item id="tribal mask" chance="3064" />
+		<item id="yellow gem" chance="1964" />
+		<item id="hailstorm rod" chance="1257" />
+		<item id="silver amulet" chance="943" />
+		<item id="blue robe" chance="864" />
+		<item id="assassin dagger" chance="707" />
+		<item id="gold ingot" chance="471" />
+		<item id="blue gem" chance="314" />
+		<item id="skullcracker armor" chance="314" />
+		<item id="spellbook of mind control" chance="314" />
+		<item id="oriental shoes" chance="236" />
+		<item id="crystal ring" chance="79" />
+	</loot>
+</monster>

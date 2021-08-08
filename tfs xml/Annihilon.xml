@@ -1,0 +1,91 @@
+﻿<monster name="Annihilon" nameDescription="" experience="15000" speed="132" manacost="0">
+	<health now="46500" max="46500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="95" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-5" />
+		<element deathPercent="95" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-2000" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Flee as long as you can!" yell="false" />
+		<voice sentence="Annihilon's might will crush you all!" yell="false" />
+		<voice sentence="I am coming for you!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="100" />
+		<item id="slightly rusted armor" chance="61475" />
+		<item id="giant shimmering pearl" chance="38115" countmax="2" />
+		<item id="heavy mace" chance="28689" />
+		<item id="assassin star" chance="24180" countmax="50" />
+		<item id="blue gem" chance="22951" />
+		<item id="emerald bangle" chance="22131" />
+		<item id="guardian halberd" chance="22131" />
+		<item id="yellow gem" chance="22131" />
+		<item id="red gem" chance="21311" />
+		<item id="infernal bolt" chance="20902" countmax="46" />
+		<item id="gold ingot" chance="20492" />
+		<item id="berserk potion" chance="20082" />
+		<item id="platinum coin" chance="20082" countmax="30" />
+		<item id="halberd" chance="19672" />
+		<item id="flaming arrow" chance="19262" countmax="96" />
+		<item id="power bolt" chance="19262" countmax="99" />
+		<item id="soul orb" chance="19262" countmax="5" />
+		<item id="violet gem" chance="17213" />
+		<item id="green gem" chance="16393" />
+		<item id="viper star" chance="16393" countmax="70" />
+		<item id="mastermind potion" chance="15574" />
+		<item id="great health potion" chance="14754" />
+		<item id="onyx flail" chance="13934" />
+		<item id="ultimate health potion" chance="13115" />
+		<item id="crown shield" chance="12705" />
+		<item id="great mana potion" chance="12705" />
+		<item id="great spirit potion" chance="12295" />
+		<item id="demon horn" chance="11885" countmax="2" />
+		<item id="paladin armor" chance="10656" />
+		<item id="tower shield" chance="9836" />
+		<item id="guardian shield" chance="7787" />
+		<item id="diamond sceptre" chance="6967" />
+		<item id="demon shield" chance="4098" />
+		<item id="mastermind shield" chance="3689" />
+		<item id="demonbone" chance="1639" />
+		<item id="lavos armor" chance="1230" />
+		<item id="obsidian truncheon" chance="1230" />
+		<item id="the stomper" chance="410" />
+	</loot>
+</monster>

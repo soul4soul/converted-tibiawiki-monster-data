@@ -1,0 +1,76 @@
+﻿<monster name="Elder Bonelord" nameDescription="an elder bonelord" experience="280" speed="170" manacost="0">
+	<health now="500" max="500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="30" />
+		<element holyPercent="0" />
+		<element deathPercent="30" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-50" />
+	</attacks>
+	<defenses armor="13" defense="13" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Inferior creatures, bow before my power!" yell="false" />
+		<voice sentence="Let me take a look at you!" yell="false" />
+		<voice sentence="659978 54764!" yell="false" />
+		<voice sentence="653768764!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="99299" countmax="90" />
+		<item id="elder bonelord tentacle" chance="20028" />
+		<item id="small flask of eyedrops" chance="9693" />
+		<item id="sniper arrow" chance="8783" countmax="4" />
+		<item id="two handed sword" chance="2970" />
+		<item id="steel shield" chance="2035" />
+		<item id="bonelord eye" chance="1929" />
+		<item id="spellbook" chance="1018" />
+		<item id="strong mana potion" chance="838" />
+		<item id="giant eye" chance="454" />
+		<item id="bonelord shield" chance="86" />
+		<item id="bonelord helmet" chance="84" />
+		<item id="gold coin" chance="11020" countmax="87" />
+		<item id="elder bonelord tentacle" chance="2332" />
+		<item id="small flask of eyedrops" chance="1133" />
+		<item id="sniper arrow" chance="974" countmax="4" />
+		<item id="two handed sword" chance="304" />
+		<item id="steel shield" chance="260" />
+		<item id="strong mana potion" chance="101" />
+		<item id="giant eye" chance="90" />
+		<item id="spellbook" chance="90" />
+		<item id="bonelord helmet" chance="18" />
+		<item id="bonelord shield" chance="11" />
+	</loot>
+</monster>

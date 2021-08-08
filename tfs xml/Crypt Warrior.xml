@@ -1,0 +1,55 @@
+﻿<monster name="Crypt Warrior" nameDescription="a crypt warrior" experience="4200" speed="310" manacost="0">
+	<health now="7800" max="7800" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="-5" />
+		<element earthPercent="5" />
+		<element firePercent="-5" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
+	</elements>
+	<defenses armor="70" defense="70" />
+	<loot>
+		<item id="platinum coin" chance="78473" countmax="25" />
+		<item id="bone" chance="59835" />
+		<item id="soul orb" chance="31499" />
+		<item id="white mushroom" chance="20358" countmax="2" />
+		<item id="pelvis bone" chance="19601" />
+		<item id="unholy bone" chance="12448" />
+		<item id="brown mushroom" chance="5983" />
+		<item id="sword" chance="4539" />
+		<item id="mace" chance="2751" />
+		<item id="mammoth whopper" chance="1444" />
+		<item id="ruthless axe" chance="481" />
+	</loot>
+</monster>

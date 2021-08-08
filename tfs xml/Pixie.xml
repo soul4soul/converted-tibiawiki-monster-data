@@ -1,0 +1,73 @@
+﻿<monster name="Pixie" nameDescription="a pixie" experience="700" speed="240" manacost="0">
+	<health now="770" max="770" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-5" />
+		<element EnergyPercent="0" />
+		<element earthPercent="60" />
+		<element firePercent="-10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="60" />
+		<element deathPercent="30" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
+		<attack name="melee" interval="2000" chance="100" />
+	</attacks>
+	<defenses armor="52" defense="52">
+		<defense name="healing" interval="2000" chance="20" min="45" max="75" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Sweet dreams!" yell="false" />
+		<voice sentence="Let's try a step or two!" yell="false" />
+		<voice sentence="Glamour, glitter, glistering things! Do you have any of those?" yell="false" />
+		<voice sentence="You might be a threat! I'm sorry but I can't allow you to linger here." yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="60478" countmax="166" />
+		<item id="wild flowers" chance="17643" />
+		<item id="dandelion seeds" chance="14700" />
+		<item id="fresh fruit" chance="10037" />
+		<item id="colourful snail shell" chance="9710" />
+		<item id="leaf star" chance="9212" countmax="5" />
+		<item id="star herb" chance="5232" />
+		<item id="magic light wand" chance="4734" />
+		<item id="great mana potion" chance="3554" />
+		<item id="red rose" chance="3185" />
+		<item id="rainbow quartz" chance="2858" countmax="3" />
+		<item id="small enchanted amethyst" chance="2445" countmax="2" />
+		<item id="green mushroom" chance="1777" />
+		<item id="strong mana potion" chance="953" />
+		<item id="dream blossom staff" chance="540" />
+		<item id="butterfly ring" chance="526" />
+		<item id="wooden spellbook" chance="284" />
+	</loot>
+</monster>

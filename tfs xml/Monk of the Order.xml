@@ -1,0 +1,55 @@
+﻿<monster name="Monk Of The Order" nameDescription="a monk of the order" experience="200" speed="0" manacost="0">
+	<health now="240" max="240" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-1" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="1" />
+		<element deathPercent="1" />
+	</elements>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="bread" chance="22754" />
+		<item id="gold coin" chance="12575" countmax="16" />
+		<item id="book of prayers" chance="6587" />
+		<item id="rope belt" chance="1796" />
+		<item id="safety pin" chance="1796" />
+		<item id="ankh" chance="1198" />
+		<item id="brown flask" chance="1198" />
+		<item id="scroll" chance="1198" />
+		<item id="staff" chance="1198" />
+		<item id="lamp" chance="599" />
+		<item id="sandals" chance="599" />
+	</loot>
+</monster>

@@ -1,0 +1,104 @@
+﻿<monster name="Dawnfire Asura" nameDescription="a dawnfire asura" experience="4100" speed="280" manacost="0">
+	<health now="2900" max="2900" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-10" />
+		<element EnergyPercent="-5" />
+		<element earthPercent="0" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="-10" />
+		<element deathPercent="20" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-252" />
+	</attacks>
+	<defenses armor="48" defense="48">
+		<defense name="healing" interval="2000" chance="20" min="80" max="119" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="May the flames consume you!" yell="false" />
+		<voice sentence="Encounter the flames of destiny!" yell="false" />
+		<voice sentence="Fire and destruction!" yell="false" />
+	</voices>
+	<loot>
+		<item id="platinum coin" chance="84052" countmax="9" />
+		<item id="gold coin" chance="69891" countmax="100" />
+		<item id="flask of demonic blood" chance="20960" />
+		<item id="soul orb" chance="14616" />
+		<item id="golden lotus brooch" chance="11777" />
+		<item id="peacock feather fan" chance="11111" />
+		<item id="demonic essence" chance="10235" />
+		<item id="great mana potion" chance="9078" countmax="2" />
+		<item id="small ruby" chance="6064" countmax="3" />
+		<item id="small amethyst" chance="3435" countmax="2" />
+		<item id="small emerald" chance="3295" countmax="2" />
+		<item id="small topaz" chance="2944" countmax="2" />
+		<item id="small diamond" chance="2874" countmax="2" />
+		<item id="red piece of cloth" chance="2454" />
+		<item id="mystic turban" chance="2173" />
+		<item id="wand of inferno" chance="1332" />
+		<item id="mysterious fetish" chance="1052" />
+		<item id="red gem" chance="911" />
+		<item id="ruby necklace" chance="771" />
+		<item id="focus cape" chance="736" />
+		<item id="magma coat" chance="421" />
+		<item id="blue gem" chance="315" />
+		<item id="death ring" chance="245" />
+		<item id="oriental shoes" chance="140" />
+		<item id="spellbook of mind control" chance="35" />
+		<item id="gold coin" chance="100000" countmax="100" />
+		<item id="platinum coin" chance="100000" countmax="9" />
+		<item id="flask of demonic blood" chance="100000" />
+		<item id="soul orb" chance="66071" />
+		<item id="golden lotus brooch" chance="60217" />
+		<item id="peacock feather fan" chance="56572" />
+		<item id="demonic essence" chance="53347" />
+		<item id="great mana potion" chance="40694" countmax="2" />
+		<item id="small ruby" chance="27936" countmax="3" />
+		<item id="small diamond" chance="16544" countmax="2" />
+		<item id="small topaz" chance="15422" countmax="2" />
+		<item id="small amethyst" chance="15212" countmax="2" />
+		<item id="small emerald" chance="15177" countmax="2" />
+		<item id="red piece of cloth" chance="9604" />
+		<item id="mystic turban" chance="9569" />
+		<item id="wand of inferno" chance="5503" />
+		<item id="mysterious fetish" chance="4592" />
+		<item id="red gem" chance="4522" />
+		<item id="focus cape" chance="4487" />
+		<item id="magma coat" chance="3049" />
+		<item id="ruby necklace" chance="3014" />
+		<item id="death ring" chance="1928" />
+		<item id="oriental shoes" chance="1332" />
+		<item id="blue gem" chance="1157" />
+		<item id="spellbook of mind control" chance="841" />
+	</loot>
+</monster>

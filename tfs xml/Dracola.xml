@@ -1,0 +1,69 @@
+﻿<monster name="Dracola" nameDescription="" experience="11000" speed="370" manacost="0">
+	<health now="16200" max="16200" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-700" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="1620" max="4050" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="DEATH CAN'T STOP MY HUNGER!" yell="false" />
+		<voice sentence="Your new name is breakfast." yell="false" />
+		<voice sentence="I'm bad to the bone." yell="false" />
+	</voices>
+	<loot>
+		<item id="dracola's eye" chance="100000" />
+		<item id="gold coin" chance="100000" countmax="144" />
+		<item id="soul orb" chance="100000" />
+		<item id="demonic essence" chance="94118" />
+		<item id="life crystal" chance="70588" />
+		<item id="platinum coin" chance="41176" countmax="4" />
+		<item id="dark armor" chance="29412" />
+		<item id="great health potion" chance="17647" />
+		<item id="reaper's axe" chance="17647" />
+		<item id="small sapphire" chance="17647" countmax="4" />
+		<item id="death ring" chance="11765" />
+		<item id="great mana potion" chance="11765" />
+		<item id="hardened bone" chance="11765" />
+		<item id="ring of healing" chance="5882" />
+		<item id="skull helmet" chance="5882" />
+	</loot>
+</monster>

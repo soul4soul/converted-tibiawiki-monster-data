@@ -1,0 +1,120 @@
+﻿<monster name="Dark Torturer" nameDescription="a dark torturer" experience="4650" speed="370" manacost="0">
+	<health now="7350" max="7350" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="30" />
+		<element earthPercent="90" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="-10" />
+		<element deathPercent="10" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-513" />
+	</attacks>
+	<defenses armor="45" defense="45">
+		<defense name="healing" interval="2000" chance="20" min="735" max="1837" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="You like it, don't you?" yell="false" />
+		<voice sentence="IahaEhheAie!" yell="false" />
+		<voice sentence="It's party time!" yell="false" />
+		<voice sentence="Harrr, Harrr!" yell="false" />
+		<voice sentence="The torturer is in!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="199" />
+		<item id="ham" chance="65810" />
+		<item id="platinum coin" chance="56752" countmax="8" />
+		<item id="flask of demonic blood" chance="34557" />
+		<item id="soul orb" chance="23990" />
+		<item id="great mana potion" chance="15749" countmax="2" />
+		<item id="great health potion" chance="9833" countmax="2" />
+		<item id="demonic essence" chance="9058" />
+		<item id="saw" chance="5100" />
+		<item id="steel boots" chance="4529" />
+		<item id="gold ingot" chance="3182" />
+		<item id="orichalcum pearl" chance="2856" countmax="2" />
+		<item id="cat's paw" chance="2203" />
+		<item id="death ring" chance="1999" />
+		<item id="assassin star" chance="1714" countmax="5" />
+		<item id="butcher's axe" chance="816" />
+		<item id="jewelled backpack" chance="734" />
+		<item id="vile axe" chance="571" />
+		<item id="golden legs" chance="122" />
+		<item id="flask of demonic blood" chance="204" />
+		<item id="gold coin" chance="204" countmax="64" />
+		<item id="platinum coin" chance="122" countmax="7" />
+		<item id="ham" chance="82" />
+		<item id="assassin star" chance="41" countmax="3" />
+		<item id="demonic essence" chance="41" />
+		<item id="great health potion" chance="41" countmax="2" />
+		<item id="saw" chance="41" />
+		<item id="gold coin" chance="100000" countmax="200" />
+		<item id="ham" chance="100000" />
+		<item id="platinum coin" chance="100000" countmax="8" />
+		<item id="flask of demonic blood" chance="100000" />
+		<item id="soul orb" chance="100000" countmax="2" />
+		<item id="great mana potion" chance="100000" countmax="2" />
+		<item id="great health potion" chance="100000" countmax="2" />
+		<item id="demonic essence" chance="100000" />
+		<item id="steel boots" chance="81518" />
+		<item id="saw" chance="79559" />
+		<item id="gold ingot" chance="45410" />
+		<item id="orichalcum pearl" chance="42228" countmax="2" />
+		<item id="cat's paw" chance="31212" />
+		<item id="assassin star" chance="30763" countmax="5" />
+		<item id="death ring" chance="30641" />
+		<item id="jewelled backpack" chance="13913" />
+		<item id="butcher's axe" chance="10363" />
+		<item id="vile axe" chance="6242" />
+		<item id="golden legs" chance="1061" />
+		<item id="gold coin" chance="100000" countmax="256" />
+		<item id="ham" chance="75071" />
+		<item id="flask of demonic blood" chance="39127" />
+		<item id="soul orb" chance="13831" />
+		<item id="platinum coin" chance="11995" countmax="6" />
+		<item id="great health potion" chance="11261" />
+		<item id="demonic essence" chance="7589" />
+		<item id="steel boots" chance="6120" />
+		<item id="assassin star" chance="2285" countmax="2" />
+		<item id="death ring" chance="2244" />
+		<item id="saw" chance="1632" />
+		<item id="orichalcum pearl" chance="1061" countmax="2" />
+		<item id="cat's paw" chance="979" />
+		<item id="jewelled backpack" chance="816" />
+		<item id="butcher's axe" chance="775" />
+		<item id="vile axe" chance="367" />
+		<item id="gold ingot" chance="82" />
+		<item id="golden legs" chance="82" />
+	</loot>
+</monster>

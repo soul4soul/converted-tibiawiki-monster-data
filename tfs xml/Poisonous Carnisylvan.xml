@@ -1,0 +1,63 @@
+﻿<monster name="Poisonous Carnisylvan" nameDescription="a poisonous carnisylvan" experience="3900" speed="210" manacost="0">
+	<health now="8000" max="8000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="25" />
+		<element firePercent="-15" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="0" />
+		<element deathPercent="5" />
+	</elements>
+	<defenses armor="37" defense="37" />
+	<loot>
+		<item id="platinum coin" chance="81009" countmax="17" />
+		<item id="carnisylvan bark" chance="10806" />
+		<item id="mushroom pie" chance="7728" />
+		<item id="carnisylvan finger" chance="7466" />
+		<item id="emerald bangle" chance="7400" />
+		<item id="wooden trash" chance="7204" />
+		<item id="great spirit potion" chance="7138" />
+		<item id="guardian halberd" chance="5632" />
+		<item id="collar of blue plasma" chance="4650" />
+		<item id="knight axe" chance="4257" />
+		<item id="underworld rod" chance="4126" />
+		<item id="fire mushroom" chance="3929" countmax="3" />
+		<item id="terra rod" chance="3798" />
+		<item id="diamond sceptre" chance="3471" />
+		<item id="wand of starstorm" chance="2554" />
+		<item id="sacred tree amulet" chance="2030" />
+		<item id="giant shimmering pearl (green)" chance="1506" />
+		<item id="gemmed figurine" chance="851" />
+		<item id="human teeth" chance="262" />
+	</loot>
+</monster>

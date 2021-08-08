@@ -1,0 +1,63 @@
+﻿<monster name="Nomad" nameDescription="a nomad" experience="60" speed="190" manacost="0">
+	<health now="160" max="160" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-10" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="20" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="20" />
+		<element deathPercent="-10" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-80" />
+	</attacks>
+	<defenses armor="6" defense="6" />
+	<voices interval="5000" chance="10">
+		<voice sentence="I will leave your remains to the vultures!" yell="false" />
+		<voice sentence="We are the true daughters of the desert!" yell="false" />
+		<voice sentence="We are the true sons of the desert!" yell="false" />
+		<voice sentence="Your riches will be mine!" yell="false" />
+	</voices>
+	<loot>
+		<item id="Gold Coin" chance="20000" countmax="40" />
+		<item id="Rope Belt" chance="15000" />
+		<item id="Axe" chance="2500" />
+		<item id="Brass Armor" chance="2500" />
+		<item id="Dirty Turban" chance="2500" />
+		<item id="Mace" chance="2500" />
+		<item id="Potato" chance="2500" countmax="3" />
+		<item id="Iron Helmet" chance="7500" />
+		<item id="Steel Shield" chance="7500" />
+		<item id="Nomad Parchment" chance="4000" />
+	</loot>
+</monster>

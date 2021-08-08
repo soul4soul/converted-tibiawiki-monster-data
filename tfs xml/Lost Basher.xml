@@ -1,0 +1,81 @@
+﻿<monster name="Lost Basher" nameDescription="a lost basher" experience="1800" speed="260" manacost="0">
+	<health now="2600" max="2600" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="5" />
+		<element earthPercent="100" />
+		<element firePercent="25" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="0" />
+		<element deathPercent="15" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
+	</attacks>
+	<defenses armor="57" defense="57">
+		<defense name="healing" interval="2000" chance="20" min="250" max="500" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Yhouuuu!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="99992" countmax="100" />
+		<item id="platinum coin" chance="69760" />
+		<item id="coal" chance="20185" />
+		<item id="bloody dwarven beard" chance="17370" />
+		<item id="lost basher's spike" chance="15188" />
+		<item id="brown mushroom" chance="14817" countmax="2" />
+		<item id="great mana potion" chance="12111" />
+		<item id="red hair dye" chance="11951" />
+		<item id="wimp tooth chain" chance="11892" />
+		<item id="basalt figurine" chance="10249" />
+		<item id="small topaz" chance="10164" />
+		<item id="bonecarving knife" chance="9971" />
+		<item id="ultimate health potion" chance="9692" />
+		<item id="basalt fetish" chance="8192" />
+		<item id="bone fetish" chance="7476" />
+		<item id="iron ore" chance="4930" />
+		<item id="piggy bank" chance="3869" />
+		<item id="black shield" chance="3430" />
+		<item id="dwarven ring" chance="2436" />
+		<item id="pair of iron fists" chance="1509" />
+		<item id="blue crystal shard" chance="1408" />
+		<item id="buckle" chance="1163" />
+		<item id="knight axe" chance="910" />
+		<item id="terra boots" chance="801" />
+		<item id="knight legs" chance="548" />
+		<item id="spiked squelcher" chance="362" />
+		<item id="fire axe" chance="287" />
+		<item id="chaos mace" chance="211" />
+		<item id="war axe" chance="67" />
+	</loot>
+</monster>

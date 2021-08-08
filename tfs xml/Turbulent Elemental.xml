@@ -1,0 +1,60 @@
+﻿<monster name="Turbulent Elemental" nameDescription="a turbulent elemental" experience="19360" speed="360" manacost="0">
+	<health now="28000" max="28000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="10" />
+		<element EnergyPercent="-10" />
+		<element earthPercent="40" />
+		<element firePercent="-20" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="30" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="105" defense="105" />
+	<loot>
+		<item id="Crystal Coin" chance="35000" />
+		<item id="Ultimate Health Potion" chance="15000" />
+		<item id="Gold Ingot" chance="15000" />
+		<item id="Glacier Amulet" chance="2500" />
+		<item id="Glacier Robe" chance="2500" />
+		<item id="Violet Gem" chance="2500" />
+		<item id="Blue Gem" chance="2500" />
+		<item id="Wood Cape" chance="2500" />
+		<item id="Northwind Rod" chance="2500" />
+		<item id="Springsprout Rod" chance="2500" />
+		<item id="Sacred Tree Amulet" chance="2500" />
+		<item id="Stone Skin Amulet" chance="7500" />
+		<item id="Rubber Cap" chance="7500" />
+		<item id="Fur Armor" chance="7500" />
+		<item id="Crystalline Armor" chance="4000" />
+		<item id="Bag You Desire" chance="4000" />
+	</loot>
+</monster>

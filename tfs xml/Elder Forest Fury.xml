@@ -1,0 +1,59 @@
+﻿<monster name="Elder Forest Fury" nameDescription="an elder forest fury" experience="330" speed="240" manacost="0">
+	<health now="670" max="670" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="-5" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="40" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-53" />
+	</attacks>
+	<defenses armor="25" defense="25" />
+	<loot>
+		<item id="gold coin" chance="90625" countmax="68" />
+		<item id="bolt" chance="45433" countmax="15" />
+		<item id="meat" chance="20192" />
+		<item id="venison" chance="19952" />
+		<item id="piercing bolt" chance="16587" countmax="5" />
+		<item id="elven hoof" chance="12019" />
+		<item id="hunting spear" chance="9375" countmax="2" />
+		<item id="crossbow" chance="3365" />
+		<item id="small emerald" chance="3365" />
+		<item id="raspberry" chance="721" countmax="3" />
+		<item id="bullseye potion" chance="481" />
+		<item id="terra rod" chance="240" />
+	</loot>
+</monster>

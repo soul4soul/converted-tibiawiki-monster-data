@@ -1,0 +1,68 @@
+﻿<monster name="Tentugly's Head" nameDescription="" experience="40000" speed="80" manacost="0">
+	<health now="0" max="0" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="30" />
+		<element earthPercent="-30" />
+		<element firePercent="-20" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="crystal coin" chance="65000" countmax="2" />
+		<item id="ultimate health potion" chance="60000" countmax="20" />
+		<item id="ultimate mana potion" chance="57000" countmax="20" />
+		<item id="cheesy key" chance="37000" />
+		<item id="platinum coin" chance="25000" countmax="10" />
+		<item id="ultimate spirit potion" chance="25000" countmax="10" />
+		<item id="mastermind potion" chance="20000" countmax="5" />
+		<item id="berserk potion" chance="18000" countmax="5" />
+		<item id="bullseye potion" chance="16000" countmax="5" />
+		<item id="pirate coin" chance="15000" countmax="50" />
+		<item id="small treasure chest" chance="8000" />
+		<item id="golden dustbin" chance="6000" />
+		<item id="giant amethyst" chance="5000" />
+		<item id="giant ruby" chance="5000" />
+		<item id="tentugly's eye" chance="4000" />
+		<item id="tiara" chance="4000" />
+		<item id="giant topaz" chance="3000" />
+		<item id="golden skull" chance="3000" />
+		<item id="golden cheese wedge" chance="2000" />
+		<item id="tentacle of tentugly" chance="2000" />
+		<item id="plushie of tentugly" chance="1000" />
+	</loot>
+</monster>

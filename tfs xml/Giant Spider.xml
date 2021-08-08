@@ -1,0 +1,77 @@
+﻿<monster name="Giant Spider" nameDescription="a giant spider" experience="900" speed="240" manacost="0">
+	<health now="1300" max="1300" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<loot>
+		<item id="gold coin" chance="99984" countmax="196" />
+		<item id="poison arrow" chance="11968" countmax="12" />
+		<item id="plate armor" chance="10005" />
+		<item id="plate legs" chance="7874" />
+		<item id="two handed sword" chance="5055" />
+		<item id="steel helmet" chance="4923" />
+		<item id="strong health potion" chance="3565" />
+		<item id="spider silk" chance="1982" />
+		<item id="knight legs" chance="844" />
+		<item id="time ring" chance="712" />
+		<item id="knight armor" chance="490" />
+		<item id="platinum amulet" chance="271" />
+		<item id="lightning headband" chance="264" />
+		<item id="spider fangs" chance="1" />
+		<item id="gold coin" chance="17991" countmax="96" />
+		<item id="poison arrow" chance="2156" countmax="12" />
+		<item id="plate armor" chance="1832" />
+		<item id="brass legs" chance="1499" />
+		<item id="steel helmet" chance="943" />
+		<item id="spider silk" chance="345" />
+		<item id="strong health potion" chance="143" />
+		<item id="time ring" chance="142" />
+		<item id="knight legs" chance="65" />
+		<item id="knight armor" chance="57" />
+		<item id="platinum amulet" chance="37" />
+		<item id="lightning headband" chance="20" />
+	</loot>
+</monster>

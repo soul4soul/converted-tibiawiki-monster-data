@@ -1,0 +1,76 @@
+﻿<monster name="Blemished Spawn" nameDescription="a blemished spawn" experience="5300" speed="280" manacost="0">
+	<health now="9000" max="9000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="10" />
+		<element firePercent="-15" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="10" />
+	</elements>
+	<attacks>
+		<attack name="earth" interval="2000" chance="15" min="-510" max="-610" radius="1" target="1">
+			<attribute key="shootEffect" value="poison" />
+			<attribute key="areaEffect" value="greenspark" />
+		</attack>
+		<attack name="earth" interval="2000" chance="15" min="-700" max="-750">
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+	</attacks>
+	<defenses armor="61" defense="61" />
+	<loot>
+		<item id="platinum coin" chance="100000" countmax="18" />
+		<item id="terra rod" chance="22743" />
+		<item id="blemished spawn abdomen" chance="8092" />
+		<item id="cyan crystal fragment" chance="6303" />
+		<item id="violet crystal shard" chance="6218" />
+		<item id="dragonbone staff" chance="4600" />
+		<item id="hailstorm rod" chance="4429" />
+		<item id="blue crystal shard" chance="4344" />
+		<item id="violet gem" chance="4259" />
+		<item id="knight axe" chance="4003" />
+		<item id="northwind rod" chance="3833" />
+		<item id="yellow gem" chance="3748" />
+		<item id="blemished spawn head" chance="3578" />
+		<item id="ice rapier" chance="3492" />
+		<item id="sacred tree amulet" chance="3492" />
+		<item id="diamond sceptre" chance="3407" />
+		<item id="giant shimmering pearl (green)" chance="3322" />
+		<item id="wand of starstorm" chance="3237" />
+		<item id="springsprout rod" chance="3066" />
+		<item id="wand of cosmic energy" chance="2981" />
+		<item id="staff" chance="2811" />
+		<item id="blemished spawn tail" chance="2641" />
+		<item id="fur armor" chance="1448" />
+	</loot>
+</monster>

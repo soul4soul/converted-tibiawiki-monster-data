@@ -1,0 +1,80 @@
+﻿<monster name="Cloak Of Terror" nameDescription="a cloak of terror" experience="19700" speed="500" manacost="0">
+	<health now="28000" max="28000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="60" />
+		<element earthPercent="-5" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="40" />
+		<element deathPercent="-20" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-650" />
+	</attacks>
+	<defenses armor="107" defense="107" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Power up!" yell="false" />
+		<voice sentence="Shocked to meet you." yell="false" />
+		<voice sentence="You should be more positive!" yell="false" />
+	</voices>
+	<loot>
+		<item id="crystal coin" chance="63619" />
+		<item id="ultimate health potion" chance="16948" countmax="6" />
+		<item id="gold ingot" chance="12411" />
+		<item id="telescope eye" chance="6032" />
+		<item id="violet gem" chance="5388" />
+		<item id="wand of starstorm" chance="5319" />
+		<item id="wand of inferno" chance="4102" />
+		<item id="green gem" chance="3702" />
+		<item id="crown (plant)" chance="3424" />
+		<item id="wand of voodoo" chance="3320" />
+		<item id="wand of defiance" chance="3285" />
+		<item id="blue gem" chance="2746" />
+		<item id="lightning headband" chance="1165" />
+		<item id="brooch of embracement" chance="765" />
+		<item id="crystal coin" chance="100000" />
+		<item id="ultimate health potion" chance="32696" countmax="6" />
+		<item id="gold ingot" chance="24578" />
+		<item id="telescope eye" chance="11455" />
+		<item id="wand of starstorm" chance="10273" />
+		<item id="violet gem" chance="8900" />
+		<item id="wand of inferno" chance="7370" />
+		<item id="wand of defiance" chance="6727" />
+		<item id="crown (plant)" chance="6588" />
+		<item id="green gem" chance="6501" />
+		<item id="wand of voodoo" chance="5858" />
+		<item id="blue gem" chance="5267" />
+		<item id="lightning headband" chance="3546" />
+		<item id="brooch of embracement" chance="1373" />
+	</loot>
+</monster>

@@ -1,0 +1,75 @@
+﻿<monster name="Waspoid" nameDescription="" experience="830" speed="310" manacost="0">
+	<health now="1100" max="1100" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-2" />
+		<element EnergyPercent="25" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="-7" />
+		<element deathPercent="5" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-250" />
+	</attacks>
+	<defenses armor="36" defense="36">
+		<defense name="healing" interval="2000" chance="20" min="110" max="275" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Peeex!" yell="false" />
+		<voice sentence="Bzzzzzzzrrrrzzzzzzrrrrr!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="99721" countmax="135" />
+		<item id="platinum coin" chance="60419" />
+		<item id="waspoid wing" chance="13983" />
+		<item id="compound eye" chance="13723" />
+		<item id="waspoid claw" chance="9767" />
+		<item id="black pearl" chance="4594" />
+		<item id="emerald bangle" chance="2055" />
+		<item id="yellow gem" chance="1017" />
+		<item id="hive scythe" chance="372" />
+		<item id="grasshopper legs" chance="166" />
+		<item id="carapace shield" chance="153" />
+		<item id="gold coin" chance="100000" countmax="135" />
+		<item id="platinum coin" chance="100000" />
+		<item id="waspoid wing" chance="35392" />
+		<item id="waspoid claw" chance="25977" />
+		<item id="compound eye" chance="15891" />
+		<item id="black pearl" chance="11097" />
+		<item id="emerald bangle" chance="5452" />
+		<item id="yellow gem" chance="2680" />
+		<item id="hive scythe" chance="831" />
+		<item id="grasshopper legs" chance="605" />
+		<item id="carapace shield" chance="266" />
+	</loot>
+</monster>

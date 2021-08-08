@@ -1,0 +1,93 @@
+﻿<monster name="Lumbering Carnivor" nameDescription="a lumbering carnivor" experience="1452" speed="400" manacost="0">
+	<health now="2600" max="2600" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="20" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="-40" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
+	</attacks>
+	<defenses armor="65" defense="65" />
+	<loot>
+		<item id="platinum coin" chance="64716" countmax="3" />
+		<item id="blue glass plate" chance="21048" countmax="3" />
+		<item id="axe" chance="15371" />
+		<item id="ice rapier" chance="6900" />
+		<item id="sword" chance="4803" />
+		<item id="giant shimmering pearl (brown)" chance="1921" />
+		<item id="green gem" chance="1921" />
+		<item id="two handed sword" chance="1834" />
+		<item id="glorious axe" chance="1747" />
+		<item id="violet gem" chance="1397" />
+		<item id="blue gem" chance="1135" />
+		<item id="green crystal shard" chance="961" />
+		<item id="fur armor" chance="786" />
+		<item id="blue robe" chance="437" />
+		<item id="focus cape" chance="87" />
+		<item id="platinum coin" chance="100000" countmax="3" />
+		<item id="blue glass plate" chance="100000" countmax="3" />
+		<item id="axe" chance="100000" />
+		<item id="ice rapier" chance="53275" />
+		<item id="sword" chance="37904" />
+		<item id="giant shimmering pearl (brown)" chance="14410" />
+		<item id="green gem" chance="13624" />
+		<item id="glorious axe" chance="12576" />
+		<item id="green crystal shard" chance="10131" />
+		<item id="two handed sword" chance="8908" />
+		<item id="violet gem" chance="8734" />
+		<item id="blue gem" chance="6201" />
+		<item id="fur armor" chance="5852" />
+		<item id="blue robe" chance="4891" />
+		<item id="focus cape" chance="1135" />
+		<item id="platinum coin" chance="9694" countmax="3" />
+		<item id="dagger" chance="5852" />
+		<item id="blue glass plate" chance="4367" countmax="3" />
+		<item id="morning star" chance="3231" />
+		<item id="ice rapier" chance="2358" />
+		<item id="axe" chance="2183" />
+		<item id="sword" chance="1135" />
+		<item id="battle hammer" chance="1048" />
+		<item id="violet gem" chance="611" />
+		<item id="blue gem" chance="349" />
+		<item id="green gem" chance="262" />
+		<item id="blue robe" chance="175" />
+		<item id="glorious axe" chance="175" />
+		<item id="giant shimmering pearl (brown)" chance="87" />
+		<item id="green crystal shard" chance="87" />
+		<item id="two handed sword" chance="87" />
+	</loot>
+</monster>

@@ -1,0 +1,68 @@
+﻿<monster name="Moohtant" nameDescription="a moohtant" experience="2600" speed="260" manacost="0">
+	<health now="3200" max="3200" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="15" />
+		<element earthPercent="100" />
+		<element firePercent="5" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="15" />
+		<element holyPercent="0" />
+		<element deathPercent="10" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-290" />
+	</attacks>
+	<defenses armor="42" defense="42">
+		<defense name="healing" interval="2000" chance="20" min="50" max="145" />
+	</defenses>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="200" />
+		<item id="platinum coin" chance="55619" countmax="2" />
+		<item id="moohtant horn" chance="15377" countmax="2" />
+		<item id="giant pacifier" chance="11188" />
+		<item id="great health potion" chance="9068" countmax="3" />
+		<item id="great mana potion" chance="8580" countmax="3" />
+		<item id="meat" chance="7487" />
+		<item id="small ruby" chance="5047" countmax="2" />
+		<item id="small diamond" chance="4963" countmax="2" />
+		<item id="minotaur leather" chance="4812" />
+		<item id="ring of healing" chance="2557" />
+		<item id="red piece of cloth" chance="2439" />
+		<item id="moohtant cudgel" chance="976" />
+		<item id="red gem" chance="841" />
+		<item id="spiked squelcher" chance="774" />
+		<item id="yellow gem" chance="673" />
+		<item id="gold ingot" chance="488" />
+		<item id="chaos mace" chance="437" />
+		<item id="minotaur trophy" chance="353" />
+	</loot>
+</monster>

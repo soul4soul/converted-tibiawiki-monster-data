@@ -1,0 +1,66 @@
+﻿<monster name="Askarak Demon" nameDescription="an askarak demon" experience="900" speed="230" manacost="0">
+	<health now="1500" max="1500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="60" />
+		<element earthPercent="100" />
+		<element firePercent="-25" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="60" />
+		<element holyPercent="0" />
+		<element deathPercent="-5" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="-20" max="-140" />
+	</attacks>
+	<defenses armor="35" defense="35" />
+	<voices interval="5000" chance="10">
+		<voice sentence="DEATH TO THE SHABURAK!" yell="false" />
+		<voice sentence="GREEN WILL RULE!" yell="false" />
+		<voice sentence="ONLY WE ARE TRUE DEMONS!" yell="false" />
+		<voice sentence="RED IS MAD!" yell="false" />
+		<voice sentence="WE RULE!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="94653" countmax="244" />
+		<item id="small emerald" chance="6093" countmax="4" />
+		<item id="strong health potion" chance="5308" />
+		<item id="strong mana potion" chance="5098" />
+		<item id="assassin star" chance="4881" countmax="5" />
+		<item id="brown mushroom" chance="3847" countmax="5" />
+		<item id="piggy bank" chance="1091" />
+		<item id="energy ring" chance="1008" />
+		<item id="mastermind potion" chance="485" />
+		<item id="springsprout rod" chance="479" />
+		<item id="terra legs" chance="128" />
+		<item id="magic sulphur" chance="102" />
+	</loot>
+</monster>

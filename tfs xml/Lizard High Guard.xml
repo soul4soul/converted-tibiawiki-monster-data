@@ -1,0 +1,70 @@
+﻿<monster name="Lizard High Guard" nameDescription="a lizard high guard" experience="1450" speed="238" manacost="0">
+	<health now="1800" max="1800" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="45" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-261" />
+	</attacks>
+	<defenses armor="40" defense="40">
+		<defense name="healing" interval="2000" chance="20" min="180" max="450" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Hizzzzzzz!" yell="false" />
+		<voice sentence="To armzzzz!" yell="false" />
+		<voice sentence="Engage zze aggrezzor!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="96084" countmax="281" />
+		<item id="strong health potion" chance="11954" />
+		<item id="high guard shoulderplates" chance="8101" />
+		<item id="great health potion" chance="7065" />
+		<item id="spiked iron ball" chance="6978" />
+		<item id="bunch of ripe rice" chance="4934" />
+		<item id="platinum coin" chance="4918" countmax="2" />
+		<item id="high guard flag" chance="3008" />
+		<item id="small emerald" chance="2477" countmax="4" />
+		<item id="red lantern" chance="1210" />
+		<item id="tower shield" chance="1034" />
+		<item id="lizard leather" chance="995" />
+		<item id="lizard scale" chance="956" />
+		<item id="zaoan legs" chance="735" />
+		<item id="zaoan shoes" chance="689" />
+		<item id="zaoan armor" chance="76" />
+	</loot>
+</monster>

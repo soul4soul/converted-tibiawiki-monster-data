@@ -1,0 +1,73 @@
+﻿<monster name="Swan Maiden" nameDescription="a swan maiden" experience="700" speed="234" manacost="0">
+	<health now="800" max="800" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-10" />
+		<element EnergyPercent="0" />
+		<element earthPercent="30" />
+		<element firePercent="-10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="30" />
+		<element deathPercent="50" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-160" />
+	</attacks>
+	<defenses armor="54" defense="54">
+		<defense name="healing" interval="2000" chance="20" min="62" max="78" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Nightmarish monster! This dream is not meant for you!" yell="false" />
+		<voice sentence="You won't steal my robe! Back off!" yell="false" />
+		<voice sentence="You are not allowed to lay eyes on me in this shape!" yell="false" />
+		<voice sentence="Are you stalking me? You will bitterly regret this!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="59986" countmax="90" />
+		<item id="wild flowers" chance="20319" />
+		<item id="colourful snail shell" chance="15395" />
+		<item id="powder herb" chance="5132" />
+		<item id="great mana potion" chance="3294" />
+		<item id="silver brooch" chance="2809" />
+		<item id="small enchanted emerald" chance="2497" countmax="2" />
+		<item id="opal" chance="1803" countmax="2" />
+		<item id="white pearl" chance="1768" countmax="2" />
+		<item id="coral brooch" chance="1734" />
+		<item id="green mushroom" chance="1387" />
+		<item id="clerical mace" chance="1318" />
+		<item id="boots of haste" chance="902" />
+		<item id="butterfly ring" chance="832" />
+		<item id="strong mana potion" chance="555" />
+		<item id="summer dress" chance="520" />
+		<item id="diamond sceptre" chance="347" />
+		<item id="flower wreath" chance="312" />
+	</loot>
+</monster>

@@ -1,0 +1,66 @@
+﻿<monster name="Mad Scientist" nameDescription="a mad scientist" experience="205" speed="180" manacost="0">
+	<health now="325" max="325" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="20" />
+		<element earthPercent="20" />
+		<element firePercent="10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="10" />
+		<element holyPercent="20" />
+		<element deathPercent="-5" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-35" />
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="healing" interval="2000" chance="20" min="32" max="81" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Die in the name of Science!" yell="false" />
+		<voice sentence="You will regret interrupting my studies!" yell="false" />
+		<voice sentence="Let me test this!" yell="false" />
+		<voice sentence="I will study your corpse!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="59959" countmax="115" />
+		<item id="health potion" chance="19914" />
+		<item id="mana potion" chance="19650" />
+		<item id="white mushroom" chance="7998" countmax="3" />
+		<item id="powder herb" chance="6111" />
+		<item id="magic light wand" chance="2034" />
+		<item id="life crystal" chance="2020" />
+		<item id="cookie" chance="1209" countmax="5" />
+		<item id="cream cake" chance="805" />
+		<item id="small enchanted amethyst" chance="501" />
+		<item id="mastermind potion" chance="120" />
+	</loot>
+</monster>

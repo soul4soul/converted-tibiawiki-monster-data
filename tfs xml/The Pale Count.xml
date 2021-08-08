@@ -1,0 +1,100 @@
+﻿<monster name="The Pale Count" nameDescription="" experience="28000" speed="0" manacost="0">
+	<health now="50000" max="50000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="30" />
+		<element earthPercent="0" />
+		<element firePercent="15" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="30" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="5000" max="12500" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Feel the hungry kiss of death!" yell="false" />
+		<voice sentence="The monsters in the mirror will come eat your dreams." yell="false" />
+		<voice sentence="Your pitiful life has come to an end!" yell="false" />
+		<voice sentence="I will squish you like a maggot and suck you dry!" yell="false" />
+		<voice sentence="Yield to the inevitable!" yell="false" />
+		<voice sentence="Some day I shall see my beautiful face in a mirror again." yell="false" />
+	</voices>
+	<summons maxSummons="1">
+		<voice name="nightfiend" interval="2000" chance="15" max="1" />
+	</summons>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="200" />
+		<item id="vampire lord token" chance="100000" />
+		<item id="vampire's cape chain" chance="100000" />
+		<item id="strong health potion" chance="86667" countmax="3" />
+		<item id="strong mana potion" chance="66667" countmax="3" />
+		<item id="platinum coin" chance="46667" countmax="5" />
+		<item id="vampire teeth" chance="46667" />
+		<item id="white piece of cloth" chance="40000" />
+		<item id="blood preservation" chance="33333" />
+		<item id="small topaz" chance="33333" countmax="5" />
+		<item id="stealth ring" chance="33333" />
+		<item id="blue piece of cloth" chance="26667" />
+		<item id="small sapphire" chance="26667" countmax="5" />
+		<item id="vampire shield" chance="26667" />
+		<item id="red piece of cloth" chance="20000" />
+		<item id="ring of healing" chance="20000" />
+		<item id="small diamond" chance="13333" countmax="5" />
+		<item id="small ruby" chance="13333" countmax="5" />
+		<item id="chaos mace" chance="6667" />
+		<item id="epee" chance="6667" />
+		<item id="small amethyst" chance="6667" countmax="5" />
+		<item id="small emerald" chance="6667" countmax="5" />
+		<item id="the vampire count's medal" chance="6667" />
+		<item id="violet gem" chance="6667" />
+		<item id="gold coin" chance="26667" countmax="100" />
+		<item id="strong mana potion" chance="26667" countmax="3" />
+		<item id="vampire's cape chain" chance="26667" />
+		<item id="vampire teeth" chance="20000" />
+		<item id="vampire lord token" chance="20000" />
+		<item id="blood preservation" chance="13333" />
+		<item id="blue piece of cloth" chance="13333" />
+		<item id="epee" chance="6667" />
+		<item id="platinum coin" chance="6667" countmax="5" />
+		<item id="ring of healing" chance="6667" />
+		<item id="small amethyst" chance="6667" countmax="5" />
+		<item id="small diamond" chance="6667" countmax="5" />
+		<item id="stealth ring" chance="6667" />
+		<item id="strong health potion" chance="6667" countmax="3" />
+		<item id="the vampire count's medal" chance="6667" />
+		<item id="vampire shield" chance="6667" />
+	</loot>
+</monster>

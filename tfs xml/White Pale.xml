@@ -1,0 +1,58 @@
+﻿<monster name="White Pale" nameDescription="" experience="390" speed="0" manacost="0">
+	<health now="500" max="500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="0" max="400" />
+	</defenses>
+	<loot>
+		<item id="carrion worm fang" chance="100000" countmax="2" />
+		<item id="gold coin" chance="100000" countmax="70" />
+		<item id="horn (ring)" chance="50000" />
+		<item id="meat" chance="50000" countmax="2" />
+		<item id="lump of dirt" chance="100000" countmax="2" />
+		<item id="silver raid token" chance="50000" />
+		<item id="gold coin" chance="100000" countmax="70" />
+		<item id="meat" chance="100000" countmax="2" />
+		<item id="lump of dirt" chance="100000" />
+		<item id="carrion worm fang" chance="100000" />
+		<item id="life ring" chance="100000" />
+		<item id="horn (ring)" chance="100000" />
+	</loot>
+</monster>

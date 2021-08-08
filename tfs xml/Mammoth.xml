@@ -1,0 +1,75 @@
+﻿<monster name="Mammoth" nameDescription="a mammoth" experience="160" speed="190" manacost="0">
+	<health now="320" max="320" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="10" />
+		<element EnergyPercent="0" />
+		<element earthPercent="20" />
+		<element firePercent="-10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
+	</attacks>
+	<defenses armor="20" defense="20" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Troooooot!" yell="false" />
+		<voice sentence="Hooooot-Toooooot!" yell="false" />
+		<voice sentence="Tooooot." yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="89815" countmax="40" />
+		<item id="meat" chance="40206" />
+		<item id="ham" chance="29984" />
+		<item id="thick fur" chance="7734" />
+		<item id="mammoth tusk" chance="7407" countmax="2" />
+		<item id="mammoth whopper" chance="2534" />
+		<item id="furry club" chance="500" />
+		<item id="tusk shield" chance="496" />
+		<item id="gold coin" chance="12925" countmax="40" />
+		<item id="meat" chance="5850" />
+		<item id="ham" chance="4213" />
+		<item id="thick fur" chance="1057" />
+		<item id="mammoth tusk" chance="1029" countmax="2" />
+		<item id="mammoth whopper" chance="346" />
+		<item id="tusk shield" chance="84" />
+		<item id="furry club" chance="56" />
+		<item id="meat" chance="13243" />
+		<item id="ham" chance="9946" />
+		<item id="gold coin" chance="9932" countmax="20" />
+		<item id="mammoth tusk" chance="1800" countmax="2" />
+		<item id="thick fur" chance="725" />
+		<item id="furry club" chance="168" />
+		<item id="tusk shield" chance="33" />
+	</loot>
+</monster>

@@ -1,0 +1,63 @@
+﻿<monster name="Firestarter" nameDescription="a firestarter" experience="80" speed="200" manacost="0">
+	<health now="180" max="180" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="20" />
+		<element EnergyPercent="0" />
+		<element earthPercent="5" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="20" />
+		<element deathPercent="-5" />
+	</elements>
+	<defenses armor="15" defense="15" />
+	<voices interval="5000" chance="10">
+		<voice sentence="FIRE!" yell="false" />
+		<voice sentence="BURN!" yell="false" />
+		<voice sentence="DEATH to the FALSE GOD!!" yell="false" />
+		<voice sentence="You shall burn in the thornfires!!" yell="false" />
+		<voice sentence="DOWN with the followers of the bog!!" yell="false" />
+		<voice sentence="Hey, what's that burnt stench... isn't that... YOU?" yell="false" />
+		<voice sentence="Set everything on fire!!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="78529" countmax="35" />
+		<item id="flaming arrow" chance="29555" countmax="12" />
+		<item id="grapes" chance="19923" />
+		<item id="coal" chance="15305" />
+		<item id="longsword" chance="6037" />
+		<item id="elvish talisman" chance="5005" />
+		<item id="bow" chance="3886" />
+		<item id="heaven blossom" chance="908" />
+		<item id="flintstone" chance="355" />
+		<item id="elvish bow" chance="110" />
+	</loot>
+</monster>

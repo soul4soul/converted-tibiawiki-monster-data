@@ -1,0 +1,66 @@
+﻿<monster name="Lizard Snakecharmer" nameDescription="a lizard snakecharmer" experience="210" speed="184" manacost="0">
+	<health now="325" max="325" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-10" />
+		<element EnergyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
+	</attacks>
+	<defenses armor="22" defense="22">
+		<defense name="healing" interval="2000" chance="20" min="32" max="81" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="I smeeeel warm blood!" yell="false" />
+		<voice sentence="Shhhhhhh" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="83268" countmax="54" />
+		<item id="dead snake" chance="45151" />
+		<item id="cape" chance="8680" />
+		<item id="life crystal" chance="1287" />
+		<item id="lizard leather" chance="1137" />
+		<item id="lizard scale" chance="1018" />
+		<item id="terra rod" chance="943" />
+		<item id="mana potion" chance="658" />
+		<item id="small amethyst" chance="389" />
+		<item id="life ring" chance="180" />
+		<item id="snakebite rod" chance="135" />
+		<item id="charmer's tiara" chance="105" />
+		<item id="yellow gem" chance="30" />
+	</loot>
+</monster>

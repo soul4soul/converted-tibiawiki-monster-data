@@ -1,0 +1,55 @@
+﻿<monster name="Carniphila" nameDescription="a carniphila" experience="150" speed="110" manacost="0">
+	<health now="255" max="255" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-20" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
+	</attacks>
+	<defenses armor="22" defense="22" />
+	<loot>
+		<item id="gold coin" chance="87936" countmax="40" />
+		<item id="dark mushroom" chance="7961" />
+		<item id="carniphila seeds" chance="4018" />
+		<item id="shadow herb" chance="1001" />
+		<item id="corncob" chance="982" />
+		<item id="seeds" chance="509" />
+		<item id="sling herb" chance="503" countmax="2" />
+		<item id="carrot on a stick" chance="105" />
+	</loot>
+</monster>

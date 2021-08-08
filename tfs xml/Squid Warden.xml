@@ -1,0 +1,86 @@
+﻿<monster name="Squid Warden" nameDescription="a squid warden" experience="15300" speed="430" manacost="0">
+	<health now="16500" max="16500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="-15" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="ice" interval="2000" chance="15" min="-600" max="-900" range="2">
+			<attribute key="shootEffect" value="ice" />
+		</attack>
+		<attack name="ice" interval="2000" chance="15" min="-600" max="-900" radius="3" target="0">
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+		<attack name="ice" interval="2000" chance="15" min="-500" max="-700" radius="1" target="1">
+			<attribute key="shootEffect" value="snowball" />
+			<attribute key="areaEffect" value="groundshaker" />
+		</attack>
+		<attack name="ice" interval="2000" chance="15" min="-500" max="-700" length="5" spread="1">
+			<attribute key="areaEffect" value="bluenote" />
+		</attack>
+	</attacks>
+	<defenses armor="78" defense="78" />
+	<loot>
+		<item id="small sapphire" chance="67934" countmax="3" />
+		<item id="platinum coin" chance="50186" countmax="50" />
+		<item id="glowing rune" chance="35433" countmax="6" />
+		<item id="frosty heart" chance="22975" />
+		<item id="ultimate mana potion" chance="17251" />
+		<item id="inkwell (black)" chance="15653" />
+		<item id="ultimate health potion" chance="15157" />
+		<item id="ice cube" chance="13900" />
+		<item id="glacier mask" chance="7571" />
+		<item id="ice rapier" chance="5259" />
+		<item id="crystal mace" chance="4856" />
+		<item id="slime heart" chance="4421" />
+		<item id="crystal sword" chance="4328" />
+		<item id="piece of dead brain" chance="4065" />
+		<item id="diamond sceptre" chance="3909" />
+		<item id="glacier kilt" chance="2746" />
+		<item id="glacier robe" chance="2296" />
+		<item id="sapphire hammer" chance="760" />
+		<item id="crystalline armor" chance="745" />
+		<item id="glacial rod" chance="683" />
+		<item id="leviathan's amulet" chance="295" />
+		<item id="small sapphire" chance="47" countmax="5" />
+		<item id="frosty heart" chance="31" />
+		<item id="crystal sword" chance="16" />
+		<item id="ice cube" chance="16" />
+		<item id="platinum coin" chance="16" countmax="35" />
+		<item id="shard" chance="16" />
+	</loot>
+</monster>

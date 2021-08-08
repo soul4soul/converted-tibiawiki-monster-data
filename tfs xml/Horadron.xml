@@ -1,0 +1,90 @@
+﻿<monster name="Horadron" nameDescription="" experience="18000" speed="0" manacost="0">
+	<health now="30000" max="30000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="10" />
+		<element EnergyPercent="30" />
+		<element earthPercent="30" />
+		<element firePercent="30" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="30" />
+		<element holyPercent="-40" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-600" />
+	</attacks>
+	<defenses armor="72" defense="72">
+		<defense name="healing" interval="2000" chance="20" min="400" max="700" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Even I fear the wrath of the princes. And the cold touch of those whom they serve! You are not prepared!" yell="false" />
+		<voice sentence="You foolish mortals with you medding you brought the end upon your world!" yell="false" />
+		<voice sentence="After all those aeons I smell freedom at last!" yell="false" />
+	</voices>
+	<summons maxSummons="2">
+		<voice name="defiler" interval="2000" chance="15" max="1" />
+	</summons>
+	<loot>
+		<item id="cluster of solace" chance="100000" />
+		<item id="demon horn" chance="100000" />
+		<item id="demonic essence" chance="100000" />
+		<item id="gold coin" chance="100000" countmax="197" />
+		<item id="platinum coin" chance="100000" countmax="50" />
+		<item id="unrealized dream" chance="100000" />
+		<item id="dream matter" chance="49338" />
+		<item id="beastslayer axe" chance="35596" />
+		<item id="spellbook of warding" chance="29801" />
+		<item id="small sapphire" chance="18377" countmax="25" />
+		<item id="blue robe" chance="17881" />
+		<item id="small topaz" chance="17219" countmax="25" />
+		<item id="crown armor" chance="16391" />
+		<item id="small amethyst" chance="15894" countmax="25" />
+		<item id="small ruby" chance="15728" countmax="25" />
+		<item id="knight legs" chance="15563" />
+		<item id="small emerald" chance="14901" countmax="25" />
+		<item id="small diamond" chance="14238" countmax="25" />
+		<item id="lightning legs" chance="13742" />
+		<item id="steel boots" chance="12914" />
+		<item id="noble axe" chance="12417" />
+		<item id="crown legs" chance="11424" />
+		<item id="dream warden mask" chance="11424" />
+		<item id="spellbook of mind control" chance="9603" />
+		<item id="spellbook of lost souls" chance="9437" />
+		<item id="golden armor" chance="8940" />
+		<item id="butcher's axe" chance="2152" />
+		<item id="vile axe" chance="1821" />
+		<item id="golden legs" chance="1490" />
+		<item id="spellscroll of prophecies" chance="1325" />
+		<item id="executioner" chance="662" />
+		<item id="great axe" chance="166" />
+		<item id="spellbook of dark mysteries" chance="166" />
+	</loot>
+</monster>

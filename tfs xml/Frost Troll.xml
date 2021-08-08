@@ -1,0 +1,59 @@
+﻿<monster name="Frost Troll" nameDescription="a frost troll" experience="23" speed="140" manacost="300">
+	<health now="55" max="55" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="-15" />
+		<element earthPercent="-10" />
+		<element firePercent="40" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-20" />
+	</attacks>
+	<defenses armor="6" defense="6" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Brrr" yell="false" />
+		<voice sentence="Broar!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="50378" countmax="12" />
+		<item id="spear" chance="20376" />
+		<item id="fish" chance="18156" />
+		<item id="rapier" chance="15552" />
+		<item id="wooden shield" chance="15480" />
+		<item id="twigs" chance="8185" />
+		<item id="frosty ear of a troll" chance="2014" />
+		<item id="coat" chance="1135" />
+	</loot>
+</monster>

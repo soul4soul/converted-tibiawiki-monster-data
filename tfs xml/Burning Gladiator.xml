@@ -1,0 +1,98 @@
+﻿<monster name="Burning Gladiator" nameDescription="a burning gladiator" experience="7350" speed="290" manacost="0">
+	<health now="10000" max="10000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="20" />
+		<element EnergyPercent="20" />
+		<element earthPercent="0" />
+		<element firePercent="30" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-20" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-550" />
+	</attacks>
+	<defenses armor="89" defense="89" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Burn, infidel!" yell="false" />
+		<voice sentence="Only the Wild Sun shall shine down on this world!" yell="false" />
+		<voice sentence="Praised be Fafnar, the Smiter!" yell="false" />
+	</voices>
+	<loot>
+		<item id="platinum coin" chance="100000" countmax="4" />
+		<item id="fafnar symbol" chance="9994" />
+		<item id="secret instruction" chance="6816" />
+		<item id="dragon necklace" chance="6214" />
+		<item id="strange talisman" chance="4926" />
+		<item id="lightning pendant" chance="4696" />
+		<item id="magma amulet" chance="4267" />
+		<item id="magma boots" chance="4267" />
+		<item id="lightning headband" chance="4152" />
+		<item id="lightning legs" chance="4095" />
+		<item id="empty honey glass" chance="2721" />
+		<item id="elven amulet" chance="2520" />
+		<item id="lightning boots" chance="1489" />
+		<item id="spellweaver's robe" chance="1060" />
+		<item id="golden mask" chance="859" />
+		<item id="sea horse figurine" chance="573" />
+		<item id="platinum coin" chance="100000" countmax="3" />
+		<item id="fafnar symbol" chance="15378" />
+		<item id="secret instruction" chance="11569" />
+		<item id="strange talisman" chance="8706" />
+		<item id="dragon necklace" chance="7875" />
+		<item id="magma boots" chance="7073" />
+		<item id="magma amulet" chance="6014" />
+		<item id="lightning headband" chance="5756" />
+		<item id="lightning pendant" chance="5384" />
+		<item id="lightning legs" chance="4897" />
+		<item id="empty honey glass" chance="4267" />
+		<item id="elven amulet" chance="3351" />
+		<item id="lightning boots" chance="2377" />
+		<item id="spellweaver's robe" chance="2234" />
+		<item id="golden mask" chance="1088" />
+		<item id="sea horse figurine" chance="802" />
+		<item id="platinum coin" chance="3809" countmax="3" />
+		<item id="secret instruction" chance="286" />
+		<item id="fafnar symbol" chance="258" />
+		<item id="magma amulet" chance="229" />
+		<item id="magma boots" chance="229" />
+		<item id="dragon necklace" chance="172" />
+		<item id="lightning headband" chance="143" />
+		<item id="elven amulet" chance="115" />
+		<item id="strange talisman" chance="115" />
+		<item id="empty honey glass" chance="86" />
+		<item id="lightning legs" chance="86" />
+		<item id="golden mask" chance="57" />
+		<item id="lightning pendant" chance="57" />
+		<item id="lightning boots" chance="29" />
+	</loot>
+</monster>

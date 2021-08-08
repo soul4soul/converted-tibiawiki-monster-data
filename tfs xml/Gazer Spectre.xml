@@ -1,0 +1,112 @@
+﻿<monster name="Gazer Spectre" nameDescription="a gazer spectre" experience="4200" speed="390" manacost="0">
+	<health now="4500" max="4500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="85" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="70" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-30" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
+	</attacks>
+	<defenses armor="68" defense="68" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Deathhh... is... a.... doooor!!" yell="false" />
+		<voice sentence="Tiiimeee... is... a... windowww!" yell="false" />
+	</voices>
+	<loot>
+		<item id="platinum coin" chance="74503" countmax="5" />
+		<item id="small diamond" chance="13395" />
+		<item id="brown crystal splinter" chance="10862" />
+		<item id="red gem" chance="10315" />
+		<item id="small sapphire" chance="10279" />
+		<item id="red crystal fragment" chance="7964" />
+		<item id="small enchanted ruby" chance="5212" />
+		<item id="golden idol of tukh" chance="5085" />
+		<item id="yellow gem" chance="4465" />
+		<item id="wand of draconia" chance="3135" />
+		<item id="wand of inferno" chance="2497" />
+		<item id="red ectoplasm" chance="2387" />
+		<item id="prismatic quartz" chance="1567" />
+		<item id="magma coat" chance="1294" />
+		<item id="onyx chip" chance="1276" countmax="2" />
+		<item id="small enchanted emerald" chance="1075" countmax="3" />
+		<item id="hexagonal ruby" chance="784" />
+		<item id="platinum coin" chance="100000" countmax="5" />
+		<item id="small diamond" chance="28558" />
+		<item id="brown crystal splinter" chance="22982" />
+		<item id="small sapphire" chance="22635" />
+		<item id="red gem" chance="20904" />
+		<item id="red crystal fragment" chance="15856" />
+		<item id="small enchanted ruby" chance="11737" />
+		<item id="yellow gem" chance="9295" />
+		<item id="golden idol of tukh" chance="7545" />
+		<item id="wand of draconia" chance="6853" />
+		<item id="wand of inferno" chance="4629" />
+		<item id="magma coat" chance="3408" />
+		<item id="red ectoplasm" chance="3116" />
+		<item id="prismatic quartz" chance="2916" />
+		<item id="small enchanted emerald" chance="2898" countmax="3" />
+		<item id="onyx chip" chance="2460" countmax="2" />
+		<item id="hexagonal ruby" chance="1731" />
+		<item id="platinum coin" chance="6233" countmax="5" />
+		<item id="small diamond" chance="5631" />
+		<item id="small sapphire" chance="1713" countmax="2" />
+		<item id="crystalline arrow" chance="1239" countmax="30" />
+		<item id="cyan crystal fragment" chance="1221" />
+		<item id="drill bolt" chance="1203" countmax="17" />
+		<item id="red gem" chance="1112" countmax="2" />
+		<item id="brown crystal splinter" chance="838" />
+		<item id="crossbow" chance="838" />
+		<item id="small stone" chance="820" countmax="5" />
+		<item id="bow" chance="747" />
+		<item id="red crystal fragment" chance="656" />
+		<item id="small enchanted ruby" chance="565" />
+		<item id="blue crystal shard" chance="510" />
+		<item id="yellow gem" chance="456" />
+		<item id="prismatic bolt" chance="401" countmax="5" />
+		<item id="violet crystal shard" chance="364" />
+		<item id="golden idol of tukh" chance="328" />
+		<item id="red ectoplasm" chance="219" />
+		<item id="prismatic quartz" chance="146" />
+		<item id="small enchanted emerald" chance="146" countmax="2" />
+		<item id="hexagonal ruby" chance="128" />
+		<item id="envenomed arrow" chance="91" countmax="4" />
+		<item id="tarsal arrow" chance="91" />
+		<item id="onyx chip" chance="55" countmax="2" />
+		<item id="ring of blue plasma" chance="55" />
+		<item id="ornate crossbow" chance="36" />
+	</loot>
+</monster>

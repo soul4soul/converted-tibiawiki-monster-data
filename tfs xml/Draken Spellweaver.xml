@@ -1,0 +1,105 @@
+﻿<monster name="Draken Spellweaver" nameDescription="a draken spellweaver" experience="3100" speed="336" manacost="0">
+	<health now="5000" max="5000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="-10" />
+		<element EnergyPercent="-10" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="-5" />
+		<element deathPercent="80" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-250" />
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="20" min="370" max="530" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Zzzzzooom!" yell="false" />
+		<voice sentence="Fissziss!" yell="false" />
+		<voice sentence="Kazzzzzzuuum!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="99997" countmax="200" />
+		<item id="meat" chance="29906" />
+		<item id="platinum coin" chance="25018" countmax="5" />
+		<item id="weaver's wandtip" chance="20013" />
+		<item id="small ruby" chance="7018" countmax="5" />
+		<item id="great mana potion" chance="5031" />
+		<item id="draken sulphur" chance="3940" />
+		<item id="luminous orb" chance="2023" />
+		<item id="zaoan shoes" chance="1995" />
+		<item id="wand of inferno" chance="1593" />
+		<item id="focus cape" chance="1481" />
+		<item id="green gem" chance="1004" />
+		<item id="zaoan legs" chance="900" />
+		<item id="zaoan robe" chance="803" />
+		<item id="spellweaver's robe" chance="665" />
+		<item id="ring of the sky" chance="382" />
+		<item id="bamboo leaves" chance="215" />
+		<item id="harness" chance="25" />
+		<item id="draken trophy" chance="10" />
+		<item id="gold coin" chance="3926" countmax="197" />
+		<item id="meat" chance="1246" />
+		<item id="weaver's wandtip" chance="594" />
+		<item id="platinum coin" chance="393" countmax="5" />
+		<item id="zaoan shoes" chance="84" />
+		<item id="great mana potion" chance="82" />
+		<item id="small ruby" chance="73" countmax="5" />
+		<item id="wand of inferno" chance="63" />
+		<item id="zaoan legs" chance="39" />
+		<item id="zaoan robe" chance="34" />
+		<item id="focus cape" chance="30" />
+		<item id="spellweaver's robe" chance="27" />
+		<item id="ring of the sky" chance="19" />
+		<item id="bamboo leaves" chance="7" />
+		<item id="harness" chance="2" />
+		<item id="draken trophy" chance="2" />
+		<item id="gold coin" chance="3749" countmax="200" />
+		<item id="meat" chance="1140" />
+		<item id="weaver's wandtip" chance="574" />
+		<item id="platinum coin" chance="387" countmax="5" />
+		<item id="zaoan shoes" chance="85" />
+		<item id="great mana potion" chance="77" />
+		<item id="small ruby" chance="77" countmax="5" />
+		<item id="wand of inferno" chance="65" />
+		<item id="focus cape" chance="33" />
+		<item id="spellweaver's robe" chance="32" />
+		<item id="zaoan legs" chance="30" />
+		<item id="zaoan robe" chance="30" />
+		<item id="ring of the sky" chance="13" />
+		<item id="bamboo leaves" chance="1" />
+		<item id="draken trophy" chance="0" />
+		<item id="harness" chance="0" />
+	</loot>
+</monster>

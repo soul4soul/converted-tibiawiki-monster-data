@@ -1,0 +1,67 @@
+﻿<monster name="Kollos" nameDescription="a kollos" experience="2400" speed="230" manacost="0">
+	<health now="3800" max="3800" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="30" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-7" />
+		<element holyPercent="0" />
+		<element deathPercent="-5" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-353" />
+	</attacks>
+	<defenses armor="52" defense="52" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Kropp!" yell="false" />
+		<voice sentence="Flzlzlzlzlzlzlz!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="99991" countmax="200" />
+		<item id="platinum coin" chance="66024" countmax="3" />
+		<item id="compound eye" chance="15724" />
+		<item id="kollos shell" chance="15242" />
+		<item id="tarsal arrow" chance="10201" countmax="5" />
+		<item id="great mana potion" chance="8942" countmax="4" />
+		<item id="small ruby" chance="8264" countmax="2" />
+		<item id="gold ingot" chance="5205" />
+		<item id="ultimate health potion" chance="3832" countmax="3" />
+		<item id="ring of healing" chance="3182" />
+		<item id="giant shimmering pearl (brown)" chance="2482" />
+		<item id="hive scythe" chance="786" />
+		<item id="buggy backpack" chance="436" />
+		<item id="calopteryx cape" chance="382" />
+		<item id="carapace shield" chance="277" />
+		<item id="steel boots" chance="127" />
+	</loot>
+</monster>

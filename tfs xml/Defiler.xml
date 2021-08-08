@@ -1,0 +1,87 @@
+﻿<monster name="Defiler" nameDescription="a defiler" experience="3700" speed="160" manacost="0">
+	<health now="3650" max="3650" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-25" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-240" />
+	</attacks>
+	<defenses armor="60" defense="60">
+		<defense name="healing" interval="2000" chance="20" min="0" max="350" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Blubb" yell="false" />
+		<voice sentence="Blubb Blubb" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="272" />
+		<item id="platinum coin" chance="96700" countmax="6" />
+		<item id="demonic essence" chance="19647" />
+		<item id="soul orb" chance="19647" />
+		<item id="glob of acid slime" chance="11612" />
+		<item id="glob of tar" chance="11335" />
+		<item id="small emerald" chance="5768" countmax="3" />
+		<item id="talon" chance="4332" />
+		<item id="small ruby" chance="3350" countmax="2" />
+		<item id="death ring" chance="2720" />
+		<item id="small diamond" chance="2645" countmax="2" />
+		<item id="yellow gem" chance="1637" />
+		<item id="red gem" chance="1209" />
+		<item id="blue gem" chance="907" />
+		<item id="green gem" chance="756" />
+		<item id="gold coin" chance="26146" countmax="304" />
+		<item id="platinum coin" chance="7557" countmax="4" />
+		<item id="soul orb" chance="5718" />
+		<item id="demonic essence" chance="5290" />
+		<item id="glob of tar" chance="3098" />
+		<item id="glob of acid slime" chance="2771" />
+		<item id="small emerald" chance="1285" countmax="3" />
+		<item id="small ruby" chance="453" countmax="2" />
+		<item id="talon" chance="428" />
+		<item id="blue gem" chance="202" />
+		<item id="red gem" chance="202" />
+		<item id="yellow gem" chance="202" />
+		<item id="small diamond" chance="176" />
+		<item id="death ring" chance="151" />
+		<item id="green gem" chance="101" />
+		<item id="gold coin" chance="76" countmax="224" />
+		<item id="platinum coin" chance="50" countmax="2" />
+		<item id="demonic essence" chance="25" />
+		<item id="glob of acid slime" chance="25" />
+	</loot>
+</monster>

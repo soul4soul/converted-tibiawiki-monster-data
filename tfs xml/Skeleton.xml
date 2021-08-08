@@ -1,0 +1,67 @@
+﻿<monster name="Skeleton" nameDescription="a skeleton" experience="35" speed="154" manacost="300">
+	<health now="50" max="50" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="0" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-17" />
+	</attacks>
+	<defenses armor="2" defense="2" />
+	<loot>
+		<item id="bone" chance="50648" />
+		<item id="gold coin" chance="44884" countmax="10" />
+		<item id="torch" chance="10362" />
+		<item id="pelvis bone" chance="10030" />
+		<item id="viking helmet" chance="7415" />
+		<item id="hatchet" chance="5383" />
+		<item id="mace" chance="4670" />
+		<item id="heavy old tome" chance="2127" />
+		<item id="sword" chance="2032" />
+		<item id="brass shield" chance="963" />
+		<item id="bone" chance="100000" />
+		<item id="gold coin" chance="100000" countmax="10" />
+		<item id="pelvis bone" chance="100000" />
+		<item id="torch" chance="100000" />
+		<item id="viking helmet" chance="91242" />
+		<item id="mace" chance="57695" />
+		<item id="hatchet" chance="57219" />
+		<item id="sword" chance="23791" />
+		<item id="brass shield" chance="15140" />
+		<item id="heavy old tome" chance="2662" />
+	</loot>
+</monster>

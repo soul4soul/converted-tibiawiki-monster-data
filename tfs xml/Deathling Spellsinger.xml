@@ -1,0 +1,103 @@
+﻿<monster name="Deathling Spellsinger" nameDescription="a deathling spellsinger" experience="6400" speed="310" manacost="0">
+	<health now="7200" max="7200" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="-10" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="0" />
+		<element deathPercent="10" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
+	</attacks>
+	<defenses armor="72" defense="72" />
+	<voices interval="5000" chance="10">
+		<voice sentence="BOQOL&quot;°" yell="false" />
+		<voice sentence="QOL&quot; VBOXCL°" yell="false" />
+	</voices>
+	<loot>
+		<item id="platinum coin" chance="85916" countmax="14" />
+		<item id="crystalline arrow" chance="25887" countmax="25" />
+		<item id="small emerald" chance="13975" countmax="14" />
+		<item id="deeptags" chance="12708" />
+		<item id="deepling filet" chance="12491" />
+		<item id="deepling ridge" chance="9305" />
+		<item id="great health potion" chance="9196" />
+		<item id="great mana potion" chance="8436" />
+		<item id="deepling warts" chance="8255" />
+		<item id="vortex bolt" chance="6046" countmax="25" />
+		<item id="eye of a deepling" chance="4598" />
+		<item id="heavy trident" chance="3657" />
+		<item id="warrior's shield" chance="3295" />
+		<item id="fish fin" chance="3114" />
+		<item id="warrior's axe" chance="3114" />
+		<item id="small enchanted sapphire" chance="2317" countmax="4" />
+		<item id="life ring" chance="1955" />
+		<item id="necklace of the deep" chance="290" />
+		<item id="platinum coin" chance="100000" countmax="14" />
+		<item id="crystalline arrow" chance="90406" countmax="25" />
+		<item id="small emerald" chance="46923" countmax="14" />
+		<item id="deepling filet" chance="45909" />
+		<item id="deeptags" chance="44533" />
+		<item id="deepling ridge" chance="34540" />
+		<item id="great mana potion" chance="31245" />
+		<item id="deepling warts" chance="30159" />
+		<item id="great health potion" chance="29833" />
+		<item id="vortex bolt" chance="19660" countmax="25" />
+		<item id="eye of a deepling" chance="18211" />
+		<item id="heavy trident" chance="13469" />
+		<item id="warrior's shield" chance="13106" />
+		<item id="warrior's axe" chance="11296" />
+		<item id="fish fin" chance="11151" />
+		<item id="life ring" chance="9305" />
+		<item id="small enchanted sapphire" chance="7060" countmax="4" />
+		<item id="necklace of the deep" chance="978" />
+		<item id="gold coin" chance="3946" countmax="169" />
+		<item id="crystalline arrow" chance="1014" countmax="24" />
+		<item id="deepling filet" chance="615" />
+		<item id="deeptags" chance="615" />
+		<item id="great health potion" chance="543" />
+		<item id="great mana potion" chance="471" />
+		<item id="deepling ridge" chance="398" />
+		<item id="small emerald" chance="398" countmax="14" />
+		<item id="vortex bolt" chance="362" countmax="22" />
+		<item id="deepling warts" chance="181" />
+		<item id="warrior's shield" chance="181" />
+		<item id="small enchanted sapphire" chance="145" countmax="3" />
+		<item id="eye of a deepling" chance="109" />
+		<item id="warrior's axe" chance="109" />
+		<item id="heavy trident" chance="72" />
+		<item id="life ring" chance="72" />
+	</loot>
+</monster>

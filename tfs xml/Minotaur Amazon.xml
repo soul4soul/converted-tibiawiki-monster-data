@@ -1,0 +1,74 @@
+﻿<monster name="Minotaur Amazon" nameDescription="a minotaur amazon" experience="2200" speed="250" manacost="0">
+	<health now="2600" max="2600" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="-10" />
+		<element earthPercent="0" />
+		<element firePercent="-5" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="5" />
+		<element holyPercent="10" />
+		<element deathPercent="10" />
+	</elements>
+	<defenses armor="37" defense="37" />
+	<voices interval="5000" chance="10">
+		<voice sentence="I'll protect the herd!" yell="false" />
+		<voice sentence="Never surrender!" yell="false" />
+		<voice sentence="You won't hurt us!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="199" />
+		<item id="platinum coin" chance="65438" countmax="3" />
+		<item id="ham" chance="59474" />
+		<item id="cowbell" chance="19798" />
+		<item id="minotaur leather" chance="16560" />
+		<item id="great mana potion" chance="7182" />
+		<item id="meat" chance="6733" />
+		<item id="great health potion" chance="6557" />
+		<item id="minotaur horn" chance="5194" countmax="2" />
+		<item id="small ruby" chance="5114" countmax="2" />
+		<item id="small topaz" chance="5114" countmax="2" />
+		<item id="small amethyst" chance="4857" countmax="2" />
+		<item id="small emerald" chance="4408" countmax="2" />
+		<item id="mino shield" chance="3735" />
+		<item id="assassin star" chance="3142" countmax="5" />
+		<item id="ring of healing" chance="2405" />
+		<item id="mino lance" chance="1603" />
+		<item id="stone skin amulet" chance="882" />
+		<item id="bullseye potion" chance="850" />
+		<item id="warrior helmet" chance="737" />
+		<item id="yellow gem" chance="609" />
+		<item id="gold ingot" chance="561" />
+		<item id="red piece of cloth" chance="561" />
+		<item id="red gem" chance="449" />
+		<item id="minotaur trophy" chance="256" />
+	</loot>
+</monster>

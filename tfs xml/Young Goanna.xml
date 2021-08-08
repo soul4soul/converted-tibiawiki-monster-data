@@ -1,0 +1,93 @@
+﻿<monster name="Young Goanna" nameDescription="a young goanna" experience="6100" speed="380" manacost="0">
+	<health now="6200" max="6200" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="-20" />
+		<element earthPercent="20" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-229" />
+	</attacks>
+	<defenses armor="78" defense="78">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<loot>
+		<item id="platinum coin" chance="100000" countmax="3" />
+		<item id="envenomed arrow" chance="67942" countmax="35" />
+		<item id="goanna meat" chance="10100" />
+		<item id="snakebite rod" chance="9686" />
+		<item id="terra rod" chance="9514" />
+		<item id="blue crystal shard" chance="8962" />
+		<item id="blue goanna scale" chance="7790" />
+		<item id="leaf star" chance="4412" countmax="3" />
+		<item id="serpent sword" chance="3930" />
+		<item id="goanna claw" chance="3861" />
+		<item id="onyx chip" chance="3861" />
+		<item id="small enchanted emerald" chance="3688" />
+		<item id="green crystal shard" chance="3033" />
+		<item id="yellow gem" chance="2999" />
+		<item id="springsprout rod" chance="2792" />
+		<item id="violet gem" chance="2654" />
+		<item id="rainbow quartz" chance="2585" countmax="3" />
+		<item id="scared frog" chance="2206" />
+		<item id="silver amulet" chance="1861" />
+		<item id="blue gem" chance="1103" />
+		<item id="lizard heart" chance="1103" />
+		<item id="small tortoise" chance="1000" />
+		<item id="terra amulet" chance="931" />
+		<item id="sacred tree amulet" chance="758" />
+		<item id="blue crystal splinter" chance="655" />
+		<item id="terra hood" chance="586" />
+		<item id="wooden spellbook" chance="345" />
+		<item id="fur armor" chance="138" />
+		<item id="platinum coin" chance="1724" countmax="3" />
+		<item id="envenomed arrow" chance="1138" countmax="35" />
+		<item id="goanna claw" chance="172" />
+		<item id="snakebite rod" chance="103" />
+		<item id="goanna meat" chance="69" />
+		<item id="poison dagger" chance="69" />
+		<item id="scared frog" chance="69" />
+		<item id="small tortoise" chance="69" />
+		<item id="terra rod" chance="69" />
+		<item id="leaf star" chance="34" countmax="3" />
+		<item id="lizard heart" chance="34" />
+		<item id="silver amulet" chance="34" />
+		<item id="springsprout rod" chance="34" />
+		<item id="wooden spellbook" chance="34" />
+	</loot>
+</monster>

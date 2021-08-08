@@ -1,0 +1,74 @@
+﻿<monster name="Minotaur Hunter" nameDescription="a minotaur hunter" experience="1700" speed="230" manacost="0">
+	<health now="1400" max="1400" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="10" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="36" defense="36">
+		<defense name="healing" interval="2000" chance="20" min="0" max="244" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="You are marked for death!" yell="false" />
+		<voice sentence="This time the prey is you!" yell="false" />
+		<voice sentence="You are hunted!" yell="false" />
+		<voice sentence="You'll make a fine trophy!" yell="false" />
+		<voice sentence="Bullseye!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="99465" countmax="200" />
+		<item id="platinum coin" chance="35031" countmax="3" />
+		<item id="hunting spear" chance="15014" countmax="5" />
+		<item id="blank rune" chance="14980" countmax="2" />
+		<item id="royal spear" chance="11763" countmax="5" />
+		<item id="strong mana potion" chance="10136" countmax="2" />
+		<item id="strong health potion" chance="9907" countmax="2" />
+		<item id="soul orb" chance="7028" />
+		<item id="minotaur horn" chance="5041" countmax="2" />
+		<item id="minotaur leather" chance="4846" />
+		<item id="small ruby" chance="2550" countmax="3" />
+		<item id="small amethyst" chance="2450" countmax="3" />
+		<item id="stealth ring" chance="2401" />
+		<item id="green piece of cloth" chance="1541" />
+		<item id="blue piece of cloth" chance="1499" />
+		<item id="red piece of cloth" chance="1483" />
+		<item id="mino shield" chance="747" />
+		<item id="yellow gem" chance="555" />
+		<item id="red gem" chance="530" />
+		<item id="minotaur trophy" chance="161" />
+		<item id="mooh'tah plate" chance="103" />
+	</loot>
+</monster>

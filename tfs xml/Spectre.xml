@@ -1,0 +1,90 @@
+﻿<monster name="Spectre" nameDescription="a spectre" experience="2100" speed="280" manacost="0">
+	<health now="1350" max="1350" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="90" />
+		<element EnergyPercent="-8" />
+		<element earthPercent="100" />
+		<element firePercent="-8" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="1" />
+		<element holyPercent="0" />
+		<element deathPercent="100" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-305" />
+	</attacks>
+	<defenses armor="40" defense="40">
+		<defense name="healing" interval="2000" chance="20" min="100" max="250" />
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Revenge ... is so ... sweet." yell="false" />
+		<voice sentence="Life...force! Feed me your... lifeforce" yell="false" />
+		<voice sentence="Mor... tals!" yell="false" />
+		<voice sentence="Buuuuuh" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="99810" countmax="270" />
+		<item id="blank rune" chance="29442" countmax="2" />
+		<item id="lyre" chance="10660" />
+		<item id="wand of cosmic energy" chance="10406" />
+		<item id="soul orb" chance="7107" />
+		<item id="demonic essence" chance="6980" />
+		<item id="platinum coin" chance="3363" countmax="7" />
+		<item id="white piece of cloth" chance="3236" />
+		<item id="great mana potion" chance="1079" />
+		<item id="silver brooch" chance="825" />
+		<item id="shiny stone" chance="698" />
+		<item id="relic sword" chance="635" />
+		<item id="death ring" chance="317" />
+		<item id="demonbone amulet" chance="254" />
+		<item id="stealth ring" chance="254" />
+		<item id="shadow sceptre" chance="63" />
+		<item id="gold coin" chance="100000" countmax="301" />
+		<item id="blank rune" chance="100000" countmax="2" />
+		<item id="wand of cosmic energy" chance="100000" />
+		<item id="lyre" chance="100000" />
+		<item id="demonic essence" chance="70876" />
+		<item id="soul orb" chance="69416" />
+		<item id="white piece of cloth" chance="42259" />
+		<item id="platinum coin" chance="40292" countmax="7" />
+		<item id="shiny stone" chance="11041" />
+		<item id="great mana potion" chance="10787" />
+		<item id="silver brooch" chance="9454" />
+		<item id="relic sword" chance="8566" />
+		<item id="death ring" chance="3363" />
+		<item id="stealth ring" chance="2475" />
+		<item id="demonbone amulet" chance="1396" />
+		<item id="shadow sceptre" chance="1206" />
+	</loot>
+</monster>

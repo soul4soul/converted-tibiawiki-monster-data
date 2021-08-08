@@ -1,0 +1,119 @@
+﻿<monster name="Choking Fear" nameDescription="a choking fear" experience="4700" speed="380" manacost="0">
+	<health now="5800" max="5800" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="10" />
+		<element EnergyPercent="15" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="0" />
+		<element deathPercent="55" />
+	</elements>
+	<defenses armor="65" defense="65">
+		<defense name="healing" interval="2000" chance="20" min="80" max="150" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Ah, sweet air... don't you miss it?" yell="false" />
+		<voice sentence="Murr tat muuza!" yell="false" />
+		<voice sentence="kchh" yell="false" />
+		<voice sentence="hsssss" yell="false" />
+	</voices>
+	<loot>
+		<item id="platinum coin" chance="90385" countmax="8" />
+		<item id="gold coin" chance="80769" countmax="99" />
+		<item id="brown crystal splinter" chance="33654" countmax="2" />
+		<item id="great mana potion" chance="15385" countmax="3" />
+		<item id="ultimate health potion" chance="14423" countmax="3" />
+		<item id="blue crystal splinter" chance="13462" countmax="3" />
+		<item id="great spirit potion" chance="12500" countmax="3" />
+		<item id="dead weight" chance="10577" />
+		<item id="hemp rope" chance="10577" />
+		<item id="brown piece of cloth" chance="7692" />
+		<item id="beastslayer axe" chance="3846" />
+		<item id="energy ring" chance="3846" />
+		<item id="ring of healing" chance="2885" />
+		<item id="green crystal shard" chance="1923" />
+		<item id="underworld rod" chance="1923" />
+		<item id="life ring" chance="962" />
+		<item id="red piece of cloth" chance="962" />
+		<item id="sai" chance="962" />
+		<item id="gold coin" chance="100000" countmax="100" />
+		<item id="platinum coin" chance="100000" countmax="8" />
+		<item id="brown crystal splinter" chance="100000" countmax="2" />
+		<item id="great mana potion" chance="100000" countmax="3" />
+		<item id="great spirit potion" chance="100000" countmax="3" />
+		<item id="ultimate health potion" chance="100000" countmax="3" />
+		<item id="hemp rope" chance="100000" />
+		<item id="dead weight" chance="100000" />
+		<item id="blue crystal splinter" chance="100000" countmax="3" />
+		<item id="life ring" chance="100000" />
+		<item id="brown piece of cloth" chance="100000" />
+		<item id="ring of healing" chance="100000" />
+		<item id="beastslayer axe" chance="100000" />
+		<item id="energy ring" chance="100000" />
+		<item id="yellow piece of cloth" chance="100000" />
+		<item id="green crystal shard" chance="100000" />
+		<item id="guardian shield" chance="100000" />
+		<item id="red piece of cloth" chance="88462" />
+		<item id="shadow sceptre" chance="84615" />
+		<item id="sai" chance="73077" />
+		<item id="underworld rod" chance="53846" />
+		<item id="spellbook of mind control" chance="50962" />
+		<item id="springsprout rod" chance="45192" />
+		<item id="terra mantle" chance="45192" />
+		<item id="terra boots" chance="38462" />
+		<item id="cluster of solace" chance="26923" />
+		<item id="gold coin" chance="100000" countmax="100" />
+		<item id="platinum coin" chance="100000" countmax="8" />
+		<item id="brown crystal splinter" chance="100000" countmax="2" />
+		<item id="great mana potion" chance="100000" countmax="3" />
+		<item id="great spirit potion" chance="100000" countmax="3" />
+		<item id="ultimate health potion" chance="100000" countmax="3" />
+		<item id="hemp rope" chance="100000" />
+		<item id="dead weight" chance="100000" />
+		<item id="blue crystal splinter" chance="100000" countmax="3" />
+		<item id="brown piece of cloth" chance="100000" />
+		<item id="life ring" chance="100000" />
+		<item id="ring of healing" chance="100000" />
+		<item id="beastslayer axe" chance="100000" />
+		<item id="energy ring" chance="100000" />
+		<item id="yellow piece of cloth" chance="100000" />
+		<item id="green crystal shard" chance="77885" />
+		<item id="guardian shield" chance="75962" />
+		<item id="red piece of cloth" chance="49038" />
+		<item id="spellbook of mind control" chance="39423" />
+		<item id="underworld rod" chance="34615" />
+		<item id="springsprout rod" chance="33654" />
+		<item id="terra boots" chance="25962" />
+		<item id="cluster of solace" chance="24038" />
+	</loot>
+</monster>

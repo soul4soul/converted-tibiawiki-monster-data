@@ -1,0 +1,69 @@
+﻿<monster name="Percht" nameDescription="a percht" experience="600" speed="270" manacost="0">
+	<health now="620" max="620" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="1" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="-20" />
+		<element holyPercent="10" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" />
+	</attacks>
+	<defenses armor="40" defense="40" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Krikik krikik!" yell="false" />
+		<voice sentence="Shzzzp shzzzp shzzp!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="100000" countmax="60" />
+		<item id="fireworks capsule" chance="12449" />
+		<item id="percht horns" chance="10216" />
+		<item id="grainy fireworks powder" chance="5855" />
+		<item id="broken bell" chance="5236" />
+		<item id="versicolour fireworks powder" chance="4135" />
+		<item id="blue fireworks powder" chance="3139" />
+		<item id="dark bell" chance="2927" />
+		<item id="green fireworks powder" chance="2716" />
+		<item id="purple fireworks powder" chance="2113" />
+		<item id="turquoise fireworks powder" chance="2113" />
+		<item id="yellow fireworks powder" chance="1871" />
+		<item id="orange fireworks powder" chance="1841" />
+		<item id="red fireworks powder" chance="1811" />
+		<item id="magma amulet" chance="1509" />
+		<item id="magma coat" chance="1252" />
+		<item id="magma monocle" chance="996" />
+		<item id="magma legs" chance="558" />
+	</loot>
+</monster>

@@ -1,0 +1,62 @@
+﻿<monster name="The Handmaiden" nameDescription="" experience="7500" speed="0" manacost="0">
+	<health now="19500" max="19500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="15" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="15" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
+	</elements>
+	<defenses armor="10" defense="5">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="450" maxspeedchange="450" duration="4000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<loot>
+		<item id="demonic essence" chance="100000" />
+		<item id="gold coin" chance="100000" countmax="123" />
+		<item id="soul orb" chance="100000" />
+		<item id="the handmaiden's protector" chance="100000" />
+		<item id="piece of iron" chance="72727" />
+		<item id="platinum coin" chance="54545" countmax="5" />
+		<item id="steel boots" chance="36364" />
+		<item id="big bone" chance="27273" />
+		<item id="death ring" chance="18182" />
+		<item id="blue robe" chance="9091" />
+		<item id="dark shield" chance="9091" />
+		<item id="energy ring" chance="9091" />
+		<item id="power ring" chance="9091" />
+		<item id="stealth ring" chance="9091" />
+	</loot>
+</monster>

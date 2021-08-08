@@ -1,0 +1,87 @@
+﻿<monster name="Silencer" nameDescription="a silencer" experience="5100" speed="470" manacost="0">
+	<health now="5400" max="5400" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="0" />
+		<flag canWalkOnPoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="5" />
+		<element EnergyPercent="15" />
+		<element earthPercent="100" />
+		<element firePercent="30" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="15" />
+		<element holyPercent="-25" />
+		<element deathPercent="65" />
+	</elements>
+	<defenses armor="71" defense="71">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="450" maxspeedchange="450" duration="4000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="healing" interval="2000" chance="20" min="540" max="1350" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Prrrroooaaaah!!! PRROAAAH!!" yell="false" />
+		<voice sentence="PRRRROOOOOAAAAAHHHH!!!" yell="false" />
+		<voice sentence="HUUUSSSSSSSSH!!" yell="false" />
+		<voice sentence="Hussssssh!!" yell="false" />
+	</voices>
+	<loot>
+		<item id="platinum coin" chance="99708" countmax="8" />
+		<item id="gold coin" chance="99416" countmax="100" />
+		<item id="silencer claws" chance="15766" />
+		<item id="silencer resonating chamber" chance="9781" />
+		<item id="assassin star" chance="9635" countmax="10" />
+		<item id="titan axe" chance="2920" />
+		<item id="glorious axe" chance="2774" />
+		<item id="haunted blade" chance="1606" />
+		<item id="dark shield" chance="1460" />
+		<item id="diamond sceptre" chance="1460" />
+		<item id="stealth ring" chance="1314" />
+		<item id="shadow sceptre" chance="730" />
+		<item id="terra boots" chance="730" />
+		<item id="cluster of solace" chance="584" />
+		<item id="terra legs" chance="438" />
+		<item id="boots of haste" chance="292" />
+		<item id="gold coin" chance="100000" countmax="100" />
+		<item id="platinum coin" chance="100000" countmax="8" />
+		<item id="silencer claws" chance="100000" />
+		<item id="silencer resonating chamber" chance="100000" />
+		<item id="assassin star" chance="100000" countmax="10" />
+		<item id="glorious axe" chance="100000" />
+		<item id="haunted blade" chance="100000" />
+		<item id="titan axe" chance="100000" />
+		<item id="dark shield" chance="100000" />
+		<item id="stealth ring" chance="100000" />
+		<item id="diamond sceptre" chance="81460" />
+		<item id="terra boots" chance="75912" />
+		<item id="terra legs" chance="69781" />
+		<item id="shadow sceptre" chance="62336" />
+		<item id="cluster of solace" chance="39562" />
+		<item id="boots of haste" chance="38102" />
+	</loot>
+</monster>

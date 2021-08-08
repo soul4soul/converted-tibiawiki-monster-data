@@ -1,0 +1,75 @@
+﻿<monster name="Quara Mantassin Scout" nameDescription="a quara mantassin scout" experience="100" speed="140" manacost="0">
+	<health now="220" max="220" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthHidden="0" />
+		<flag canWalkOnEnergy="0" />
+		<flag canWalkOnFire="1" />
+		<flag canWalkOnPoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element EnergyPercent="-10" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
+	</attacks>
+	<defenses armor="7" defense="7" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Shrrrr" yell="false" />
+		<voice sentence="Zuerk Pachak!" yell="false" />
+	</voices>
+	<loot>
+		<item id="gold coin" chance="93986" countmax="30" />
+		<item id="mantassin tail" chance="7890" />
+		<item id="chain armor" chance="5003" />
+		<item id="small sapphire" chance="995" />
+		<item id="skull" chance="980" />
+		<item id="two handed sword" chance="805" />
+		<item id="stealth ring" chance="709" />
+		<item id="fish fin" chance="366" />
+		<item id="gold coin" chance="1433" countmax="30" />
+		<item id="mantassin tail" chance="111" />
+		<item id="chain armor" chance="75" />
+		<item id="skull" chance="17" />
+		<item id="two handed sword" chance="10" />
+		<item id="small sapphire" chance="9" />
+		<item id="fish fin" chance="6" />
+		<item id="stealth ring" chance="1" />
+		<item id="gold coin" chance="9092" countmax="30" />
+		<item id="chain armor" chance="581" />
+		<item id="mantassin tail" chance="169" />
+		<item id="skull" chance="101" />
+		<item id="two handed sword" chance="84" />
+		<item id="fish fin" chance="38" />
+		<item id="stealth ring" chance="36" />
+		<item id="small sapphire" chance="19" />
+	</loot>
+</monster>
