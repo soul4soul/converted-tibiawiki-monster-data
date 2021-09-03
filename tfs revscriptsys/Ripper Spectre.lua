@@ -5,11 +5,11 @@ monster.name = "Ripper Spectre"
 monster.description = "a ripper spectre"
 monster.experience = 3500
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 1122,
+	lookHead = 81,
+	lookBody = 78,
+	lookLegs = 61,
+	lookFeet = 94,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,36 +88,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 74719, maxCount = 4},
-	{id = "great spirit potion", chance = 23412, maxCount = 2},
-	{id = "two handed sword", chance = 13083},
-	{id = "terra rod", chance = 6270},
-	{id = "emerald bangle", chance = 3537},
-	{id = "silver brooch", chance = 3517},
-	{id = "twin hooks", chance = 3236},
-	{id = "springsprout rod", chance = 2572},
-	{id = "green ectoplasm", chance = 1748},
-	{id = "coral brooch", chance = 1166},
-	{id = "serpent sword", chance = 1166},
-	{id = "assassin dagger", chance = 985},
-	{id = "hexagonal ruby", chance = 904},
-	{id = "spike sword", chance = 322},
-	{id = "wyvern fang", chance = 221},
-	{id = "platinum coin", chance = 89108, maxCount = 4},
-	{id = "great spirit potion", chance = 27432, maxCount = 2},
-	{id = "two handed sword", chance = 14369},
-	{id = "terra rod", chance = 7496},
-	{id = "silver brooch", chance = 4361},
-	{id = "emerald bangle", chance = 4321},
-	{id = "twin hooks", chance = 4039},
-	{id = "springsprout rod", chance = 3055},
-	{id = "green ectoplasm", chance = 1588},
-	{id = "coral brooch", chance = 1226},
-	{id = "serpent sword", chance = 1166},
-	{id = "assassin dagger", chance = 945},
-	{id = "hexagonal ruby", chance = 884},
-	{id = "spike sword", chance = 502},
-	{id = "wyvern fang", chance = 141}
+	{id = "platinum coin", chance = 74527, maxCount = 4},
+	{id = "great spirit potion", chance = 23267, maxCount = 2},
+	{id = "two handed sword", chance = 13070},
+	{id = "terra rod", chance = 6211},
+	{id = "emerald bangle", chance = 3652},
+	{id = "silver brooch", chance = 3522},
+	{id = "twin hooks", chance = 3226},
+	{id = "springsprout rod", chance = 2670},
+	{id = "green ectoplasm", chance = 1798},
+	{id = "coral brooch", chance = 1205},
+	{id = "serpent sword", chance = 1168},
+	{id = "assassin dagger", chance = 983},
+	{id = "hexagonal ruby", chance = 890},
+	{id = "spike sword", chance = 352},
+	{id = "wyvern fang", chance = 222}
 }
 
 mType:register(monster)

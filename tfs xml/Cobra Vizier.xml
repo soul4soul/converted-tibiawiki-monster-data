@@ -1,6 +1,7 @@
-﻿<monster name="Cobra Vizier" nameDescription="a cobra vizier" experience="7650" speed="320" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Cobra Vizier" nameDescription="a cobra vizier" experience="7650" speed="320" manacost="0">
 	<health now="8500" max="8500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1217" head="19" body="19" legs="67" feet="78" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,60 +50,22 @@
 		<voice sentence="OH NO, YOU WON'T!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="70755" countmax="4" />
-		<item id="terra rod" chance="30103" />
-		<item id="cobra crest" chance="14580" />
-		<item id="terra boots" chance="13979" />
-		<item id="terra hood" chance="13808" />
-		<item id="snakebite rod" chance="12607" />
-		<item id="cyan crystal fragment" chance="10549" />
-		<item id="red gem" chance="7976" />
-		<item id="giant shimmering pearl (brown)" chance="6261" />
-		<item id="green crystal fragment" chance="5832" />
-		<item id="gemmed figurine" chance="4717" />
-		<item id="green gem" chance="3345" />
-		<item id="red crystal fragment" chance="3345" />
-		<item id="violet crystal shard" chance="3345" />
-		<item id="emerald bangle" chance="3087" />
-		<item id="serpent sword" chance="2230" />
-		<item id="onyx chip" chance="686" countmax="3" />
-		<item id="platinum coin" chance="52659" countmax="4" />
-		<item id="terra rod" chance="24528" />
-		<item id="terra boots" chance="11407" />
-		<item id="cobra crest" chance="10463" />
-		<item id="terra hood" chance="9691" />
-		<item id="snakebite rod" chance="8834" />
-		<item id="cyan crystal fragment" chance="7890" />
-		<item id="red gem" chance="5918" />
-		<item id="giant shimmering pearl (brown)" chance="5575" />
-		<item id="emerald bangle" chance="2744" />
-		<item id="green crystal fragment" chance="2744" />
-		<item id="violet crystal shard" chance="2744" />
-		<item id="gemmed figurine" chance="2573" />
-		<item id="serpent sword" chance="1887" />
-		<item id="red crystal fragment" chance="1630" />
-		<item id="green gem" chance="1544" />
-		<item id="onyx chip" chance="772" countmax="3" />
-		<item id="platinum coin" chance="26072" countmax="4" />
-		<item id="terra rod" chance="9091" />
-		<item id="snakebite rod" chance="4631" />
-		<item id="terra boots" chance="4288" />
-		<item id="cobra crest" chance="4117" />
-		<item id="terra hood" chance="3259" />
-		<item id="cyan crystal fragment" chance="2316" />
-		<item id="green crystal fragment" chance="1372" />
-		<item id="giant shimmering pearl (brown)" chance="1286" />
-		<item id="green gem" chance="1286" />
-		<item id="emerald bangle" chance="943" />
-		<item id="red gem" chance="772" />
-		<item id="violet crystal shard" chance="772" />
-		<item id="serpent sword" chance="686" />
-		<item id="gemmed figurine" chance="515" />
-		<item id="onyx chip" chance="172" />
-		<item id="red crystal fragment" chance="172" />
-		<item id="platinum coin" chance="1201" />
-		<item id="terra rod" chance="257" />
-		<item id="terra boots" chance="172" />
-		<item id="snakebite rod" chance="86" />
+		<item name="platinum coin" chance="71006" countmax="4" />
+		<item name="terra rod" chance="31732" />
+		<item name="cobra crest" chance="14335" />
+		<item name="terra boots" chance="14011" />
+		<item name="terra hood" chance="13037" />
+		<item name="snakebite rod" chance="12490" />
+		<item name="cyan crystal fragment" chance="11334" />
+		<item name="red gem" chance="7178" />
+		<item name="giant shimmering pearl (brown)" chance="6569" />
+		<item name="green crystal fragment" chance="4927" />
+		<item name="gemmed figurine" chance="4521" />
+		<item name="violet crystal shard" chance="3609" />
+		<item name="emerald bangle" chance="3366" />
+		<item name="green gem" chance="3163" />
+		<item name="red crystal fragment" chance="3001" />
+		<item name="serpent sword" chance="2676" />
+		<item name="onyx chip" chance="831" countmax="3" />
 	</loot>
 </monster>

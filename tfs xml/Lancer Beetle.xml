@@ -1,6 +1,7 @@
-﻿<monster name="Lancer Beetle" nameDescription="a lancer beetle" experience="275" speed="266" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lancer Beetle" nameDescription="a lancer beetle" experience="275" speed="266" manacost="0">
 	<health now="400" max="400" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="348" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
@@ -46,11 +48,11 @@
 		<voice sentence="Crump!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="82765" countmax="130" />
-		<item id="lancer beetle shell" chance="14685" />
-		<item id="poisonous slime" chance="8181" />
-		<item id="lump of dirt" chance="3844" />
-		<item id="beetle necklace" chance="868" />
-		<item id="small amethyst" chance="301" />
+		<item name="gold coin" chance="82766" countmax="130" />
+		<item name="lancer beetle shell" chance="14684" />
+		<item name="poisonous slime" chance="8181" />
+		<item name="lump of dirt" chance="3844" />
+		<item name="beetle necklace" chance="868" />
+		<item name="small amethyst" chance="301" />
 	</loot>
 </monster>

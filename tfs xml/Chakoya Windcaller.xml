@@ -1,6 +1,7 @@
-﻿<monster name="Chakoya Windcaller" nameDescription="a chakoya windcaller" experience="48" speed="142" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Chakoya Windcaller" nameDescription="a chakoya windcaller" experience="48" speed="142" manacost="0">
 	<health now="84" max="84" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="260" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-15" />
+		<element energyPercent="-15" />
 		<element earthPercent="0" />
 		<element firePercent="50" />
 		<element lifedrainPercent="0" />
@@ -49,20 +51,13 @@
 		<voice sentence="Quatu nguraka!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="72009" countmax="27" />
-		<item id="fish" chance="29788" countmax="3" />
-		<item id="brass helmet" chance="4581" />
-		<item id="bone shield" chance="1042" />
-		<item id="fireproof horn" chance="449" />
-		<item id="green perch" chance="90" />
-		<item id="northern pike" chance="54" />
-		<item id="rainbow trout" chance="36" />
-		<item id="gold coin" chance="20194" countmax="26" />
-		<item id="fish" chance="9055" countmax="3" />
-		<item id="brass helmet" chance="988" />
-		<item id="bone shield" chance="287" />
-		<item id="green perch" chance="18" />
-		<item id="northern pike" chance="18" />
-		<item id="rainbow trout" chance="18" />
+		<item name="gold coin" chance="72009" countmax="27" />
+		<item name="fish" chance="29788" countmax="3" />
+		<item name="brass helmet" chance="4581" />
+		<item name="bone shield" chance="1042" />
+		<item name="fireproof horn" chance="449" />
+		<item name="green perch" chance="90" />
+		<item name="northern pike" chance="54" />
+		<item name="rainbow trout" chance="36" />
 	</loot>
 </monster>

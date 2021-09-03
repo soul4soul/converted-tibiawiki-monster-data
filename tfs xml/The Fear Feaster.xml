@@ -1,4 +1,5 @@
-﻿<monster name="The Fear Feaster" nameDescription="" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Fear Feaster" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="20" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -43,31 +45,31 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="crystal coin" chance="98450" countmax="2" />
-		<item id="white gem" chance="61240" countmax="2" />
-		<item id="moonstone" chance="46512" countmax="2" />
-		<item id="ultimate mana potion" chance="37209" countmax="6" />
-		<item id="supreme health potion" chance="31008" countmax="6" />
-		<item id="ultimate spirit potion" chance="30233" countmax="6" />
-		<item id="bullseye potion" chance="25581" countmax="10" />
-		<item id="silver hand mirror" chance="24031" />
-		<item id="berserk potion" chance="18605" countmax="10" />
-		<item id="mastermind potion" chance="18605" countmax="10" />
-		<item id="diamond" chance="15504" />
-		<item id="death toll" chance="13178" countmax="2" />
-		<item id="ivory comb" chance="13178" />
-		<item id="soulforged lantern" chance="11628" />
-		<item id="cursed bone" chance="10853" />
-		<item id="angel figurine" chance="9302" />
-		<item id="amber (item)" chance="3876" />
-		<item id="amber with a dragonfly" chance="2326" countmax="2" />
-		<item id="grimace" chance="2326" />
-		<item id="ghost claw" chance="1550" />
-		<item id="amber with a bug" chance="775" />
-		<item id="bloody tears" chance="775" />
-		<item id="ghost chestplate" chance="775" />
-		<item id="giant amethyst" chance="775" />
-		<item id="giant topaz" chance="775" />
-		<item id="spooky hood" chance="775" />
+		<item name="crystal coin" chance="98507" countmax="2" />
+		<item name="white gem" chance="60448" countmax="2" />
+		<item name="moonstone" chance="45522" countmax="2" />
+		<item name="ultimate mana potion" chance="37313" countmax="6" />
+		<item name="supreme health potion" chance="32090" countmax="6" />
+		<item name="ultimate spirit potion" chance="29104" countmax="6" />
+		<item name="bullseye potion" chance="26119" countmax="10" />
+		<item name="silver hand mirror" chance="24627" />
+		<item name="berserk potion" chance="18657" countmax="10" />
+		<item name="mastermind potion" chance="18657" countmax="10" />
+		<item name="diamond" chance="15672" />
+		<item name="death toll" chance="13433" countmax="2" />
+		<item name="ivory comb" chance="12687" />
+		<item name="cursed bone" chance="11940" />
+		<item name="soulforged lantern" chance="11194" />
+		<item name="angel figurine" chance="9701" />
+		<item name="amber (item)" chance="4478" />
+		<item name="amber with a dragonfly" chance="2239" countmax="2" />
+		<item name="grimace" chance="2239" />
+		<item name="ghost claw" chance="1493" />
+		<item name="spooky hood" chance="1493" />
+		<item name="amber with a bug" chance="746" />
+		<item name="bloody tears" chance="746" />
+		<item name="ghost chestplate" chance="746" />
+		<item name="giant amethyst" chance="746" />
+		<item name="giant topaz" chance="746" />
 	</loot>
 </monster>

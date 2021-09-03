@@ -1,6 +1,7 @@
-﻿<monster name="Wereboar" nameDescription="a wereboar" experience="2000" speed="300" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Wereboar" nameDescription="a wereboar" experience="2000" speed="300" manacost="0">
 	<health now="2200" max="2200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="721" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="50" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -43,38 +45,22 @@
 		<voice sentence="GRUNT" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="3" />
-		<item id="gold coin" chance="79105" countmax="75" />
-		<item id="wereboar hooves" chance="15495" />
-		<item id="wereboar tusks" chance="15495" />
-		<item id="brown mushroom" chance="7113" countmax="2" />
-		<item id="strong health potion" chance="5057" />
-		<item id="ultimate health potion" chance="2075" />
-		<item id="moonlight crystals" chance="1874" />
-		<item id="wereboar loincloth" chance="1713" />
-		<item id="small enchanted ruby" chance="1269" countmax="2" />
-		<item id="stone skin amulet" chance="1229" />
-		<item id="berserk potion" chance="967" />
-		<item id="werewolf amulet" chance="766" />
-		<item id="furry club" chance="645" />
-		<item id="fur armor" chance="423" />
-		<item id="wereboar trophy" chance="161" />
-		<item id="dreaded cleaver" chance="81" />
-		<item id="platinum coin" chance="100000" countmax="3" />
-		<item id="gold coin" chance="100000" countmax="75" />
-		<item id="wereboar tusks" chance="21781" />
-		<item id="wereboar hooves" chance="21237" />
-		<item id="brown mushroom" chance="10518" countmax="2" />
-		<item id="strong health potion" chance="6911" />
-		<item id="ultimate health potion" chance="2740" />
-		<item id="wereboar loincloth" chance="2357" />
-		<item id="berserk potion" chance="1370" />
-		<item id="werewolf amulet" chance="1007" />
-		<item id="furry club" chance="987" />
-		<item id="stone skin amulet" chance="967" />
-		<item id="moonlight crystals" chance="705" />
-		<item id="fur armor" chance="423" />
-		<item id="wereboar trophy" chance="201" />
-		<item id="dreaded cleaver" chance="181" />
+		<item name="platinum coin" chance="100000" countmax="3" />
+		<item name="gold coin" chance="79149" countmax="75" />
+		<item name="wereboar hooves" chance="15573" />
+		<item name="wereboar tusks" chance="15493" />
+		<item name="brown mushroom" chance="7144" countmax="2" />
+		<item name="strong health potion" chance="5037" />
+		<item name="ultimate health potion" chance="2087" />
+		<item name="moonlight crystals" chance="1886" />
+		<item name="wereboar loincloth" chance="1726" />
+		<item name="small enchanted ruby" chance="1264" countmax="2" />
+		<item name="stone skin amulet" chance="1264" />
+		<item name="berserk potion" chance="963" />
+		<item name="werewolf amulet" chance="763" />
+		<item name="furry club" chance="642" />
+		<item name="fur armor" chance="421" />
+		<item name="wereboar trophy" chance="161" />
+		<item name="dreaded cleaver" chance="80" />
 	</loot>
 </monster>

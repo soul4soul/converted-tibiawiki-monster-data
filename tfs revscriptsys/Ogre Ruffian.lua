@@ -5,7 +5,7 @@ monster.name = "Ogre Ruffian"
 monster.description = "an ogre ruffian"
 monster.experience = 5000
 monster.outfit = {
-	lookType = 0,
+	lookType = 1212,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -105,8 +106,7 @@ monster.loot = {
 	{id = "yellow gem", chance = 926},
 	{id = "green crystal splinter", chance = 309},
 	{id = "ogre klubba", chance = 309},
-	{id = "small enchanted emerald", chance = 309},
-	{id = "platinum coin", chance = 309}
+	{id = "small enchanted emerald", chance = 309}
 }
 
 mType:register(monster)

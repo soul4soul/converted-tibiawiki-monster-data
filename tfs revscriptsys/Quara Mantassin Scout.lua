@@ -5,7 +5,7 @@ monster.name = "Quara Mantassin Scout"
 monster.description = "a quara mantassin scout"
 monster.experience = 100
 monster.outfit = {
-	lookType = 0,
+	lookType = 72,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,30 +89,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 93986, maxCount = 30},
+	{id = "gold coin", chance = 93988, maxCount = 30},
 	{id = "mantassin tail", chance = 7890},
-	{id = "chain armor", chance = 5003},
-	{id = "small sapphire", chance = 995},
-	{id = "skull", chance = 980},
-	{id = "two handed sword", chance = 805},
+	{id = "chain armor", chance = 5001},
+	{id = "small sapphire", chance = 998},
+	{id = "skull", chance = 979},
+	{id = "two handed sword", chance = 803},
 	{id = "stealth ring", chance = 709},
-	{id = "fish fin", chance = 366},
-	{id = "gold coin", chance = 1433, maxCount = 30},
-	{id = "mantassin tail", chance = 111},
-	{id = "chain armor", chance = 75},
-	{id = "skull", chance = 17},
-	{id = "two handed sword", chance = 10},
-	{id = "small sapphire", chance = 9},
-	{id = "fish fin", chance = 6},
-	{id = "stealth ring", chance = 1},
-	{id = "gold coin", chance = 9092, maxCount = 30},
-	{id = "chain armor", chance = 581},
-	{id = "mantassin tail", chance = 169},
-	{id = "skull", chance = 101},
-	{id = "two handed sword", chance = 84},
-	{id = "fish fin", chance = 38},
-	{id = "stealth ring", chance = 36},
-	{id = "small sapphire", chance = 19}
+	{id = "fish fin", chance = 367}
 }
 
 mType:register(monster)

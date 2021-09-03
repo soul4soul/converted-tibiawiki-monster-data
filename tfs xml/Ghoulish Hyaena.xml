@@ -1,6 +1,7 @@
-﻿<monster name="Ghoulish Hyaena" nameDescription="a ghoulish hyaena" experience="195" speed="204" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ghoulish Hyaena" nameDescription="a ghoulish hyaena" experience="195" speed="204" manacost="0">
 	<health now="400" max="400" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="94" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="60" />
 		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
@@ -47,10 +49,10 @@
 		<voice sentence="Hoouu!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="88644" countmax="40" />
-		<item id="worm" chance="65621" countmax="7" />
-		<item id="meat" chance="51487" />
-		<item id="health potion" chance="19837" />
-		<item id="small ruby" chance="2794" countmax="2" />
+		<item name="gold coin" chance="88641" countmax="40" />
+		<item name="worm" chance="65631" countmax="7" />
+		<item name="meat" chance="51375" />
+		<item name="health potion" chance="19837" />
+		<item name="small ruby" chance="2783" countmax="2" />
 	</loot>
 </monster>

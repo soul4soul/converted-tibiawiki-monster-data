@@ -1,6 +1,7 @@
-﻿<monster name="Draptor" nameDescription="a draptor" experience="2400" speed="680" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Draptor" nameDescription="a draptor" experience="2400" speed="680" manacost="0">
 	<health now="3000" max="3000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="382" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-20" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="-20" />
 		<element firePercent="50" />
 		<element lifedrainPercent="0" />
@@ -53,9 +55,9 @@
 		<voice sentence="GRRR" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="98810" countmax="214" />
-		<item id="strong health potion" chance="20635" />
-		<item id="strong mana potion" chance="14286" />
-		<item id="draptor scales" chance="7540" />
+		<item name="gold coin" chance="98810" countmax="214" />
+		<item name="strong health potion" chance="20635" />
+		<item name="strong mana potion" chance="14286" />
+		<item name="draptor scales" chance="7540" />
 	</loot>
 </monster>

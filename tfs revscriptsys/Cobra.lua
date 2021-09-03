@@ -5,7 +5,7 @@ monster.name = "Cobra"
 monster.description = "a cobra"
 monster.experience = 30
 monster.outfit = {
-	lookType = 0,
+	lookType = 81,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,7 +89,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "cobra tongue", chance = 5089}
+	{id = "cobra tongue", chance = 5084}
 }
 
 mType:register(monster)

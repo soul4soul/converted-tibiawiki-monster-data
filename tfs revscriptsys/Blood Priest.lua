@@ -5,7 +5,7 @@ monster.name = "Blood Priest"
 monster.description = "a blood priest"
 monster.experience = 900
 monster.outfit = {
-	lookType = 0,
+	lookType = 553,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,23 +91,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99980, maxCount = 180},
-	{id = "book of necromantic rituals", chance = 15179},
-	{id = "lancet", chance = 14663},
-	{id = "incantation notes", chance = 14484},
-	{id = "blood tincture in a vial", chance = 14008},
-	{id = "horoscope", chance = 9881},
-	{id = "pieces of magic chalk", chance = 7579},
-	{id = "strong mana potion", chance = 6071},
-	{id = "small ruby", chance = 3214, maxCount = 2},
-	{id = "white piece of cloth", chance = 2956},
-	{id = "mystic turban", chance = 2718},
-	{id = "red gem", chance = 813},
-	{id = "red piece of cloth", chance = 734},
-	{id = "underworld rod", chance = 357},
-	{id = "spellbook of mind control", chance = 298},
-	{id = "spellbook of warding", chance = 258},
-	{id = "boots of haste", chance = 179},
-	{id = "skull staff", chance = 179},
+	{id = "book of necromantic rituals", chance = 15176},
+	{id = "lancet", chance = 14662},
+	{id = "incantation notes", chance = 14464},
+	{id = "blood tincture in a vial", chance = 13989},
+	{id = "horoscope", chance = 9873},
+	{id = "pieces of magic chalk", chance = 7558},
+	{id = "strong mana potion", chance = 6094},
+	{id = "small ruby", chance = 3245, maxCount = 2},
+	{id = "white piece of cloth", chance = 2948},
+	{id = "mystic turban", chance = 2711},
+	{id = "red gem", chance = 811},
+	{id = "red piece of cloth", chance = 732},
+	{id = "underworld rod", chance = 356},
+	{id = "spellbook of mind control", chance = 297},
+	{id = "spellbook of warding", chance = 257},
+	{id = "boots of haste", chance = 178},
+	{id = "skull staff", chance = 178},
 	{id = "noble axe", chance = 40}
 }
 

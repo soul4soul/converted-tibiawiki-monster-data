@@ -1,6 +1,7 @@
-﻿<monster name="Damaged Worker Golem" nameDescription="a damaged worker golem" experience="95" speed="150" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Damaged Worker Golem" nameDescription="a damaged worker golem" experience="95" speed="150" manacost="0">
 	<health now="260" max="260" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="304" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="50" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -55,11 +57,11 @@
 		<voice sentence="Aw... chhhrrr orders." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="68318" countmax="89" />
-		<item id="heavily rusted armor" chance="9958" />
-		<item id="nail" chance="1255" />
-		<item id="sword ring" chance="502" />
-		<item id="iron ore" chance="402" />
-		<item id="gear crystal" chance="218" />
+		<item name="gold coin" chance="68396" countmax="89" />
+		<item name="heavily rusted armor" chance="10045" />
+		<item name="nail" chance="1256" />
+		<item name="sword ring" chance="496" />
+		<item name="iron ore" chance="413" />
+		<item name="gear crystal" chance="215" />
 	</loot>
 </monster>

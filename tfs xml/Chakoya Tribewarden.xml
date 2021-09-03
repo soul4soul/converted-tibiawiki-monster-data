@@ -1,6 +1,7 @@
-﻿<monster name="Chakoya Tribewarden" nameDescription="a chakoya tribewarden" experience="40" speed="124" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Chakoya Tribewarden" nameDescription="a chakoya tribewarden" experience="40" speed="124" manacost="0">
 	<health now="68" max="68" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="249" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-15" />
+		<element energyPercent="-15" />
 		<element earthPercent="0" />
 		<element firePercent="25" />
 		<element lifedrainPercent="0" />
@@ -49,22 +51,14 @@
 		<voice sentence="Si ji jusipa!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="79858" countmax="20" />
-		<item id="fish" chance="19931" />
-		<item id="short sword" chance="4930" />
-		<item id="bone shield" chance="1046" />
-		<item id="fireproof horn" chance="466" />
-		<item id="mammoth whopper" chance="132" />
-		<item id="rainbow trout" chance="97" />
-		<item id="green perch" chance="79" />
-		<item id="northern pike" chance="53" />
-		<item id="gold coin" chance="26408" countmax="20" />
-		<item id="fish" chance="8788" />
-		<item id="short sword" chance="1916" />
-		<item id="bone shield" chance="413" />
-		<item id="mammoth whopper" chance="123" />
-		<item id="green perch" chance="79" />
-		<item id="rainbow trout" chance="53" />
-		<item id="northern pike" chance="35" />
+		<item name="gold coin" chance="79861" countmax="20" />
+		<item name="fish" chance="19928" />
+		<item name="short sword" chance="4929" />
+		<item name="bone shield" chance="1046" />
+		<item name="fireproof horn" chance="466" />
+		<item name="mammoth whopper" chance="132" />
+		<item name="rainbow trout" chance="97" />
+		<item name="green perch" chance="79" />
+		<item name="northern pike" chance="53" />
 	</loot>
 </monster>

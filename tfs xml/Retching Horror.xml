@@ -1,6 +1,7 @@
-﻿<monster name="Retching Horror" nameDescription="a retching horror" experience="4100" speed="360" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Retching Horror" nameDescription="a retching horror" experience="4100" speed="360" manacost="0">
 	<health now="5300" max="5300" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="588" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="85" />
 		<element lifedrainPercent="0" />
@@ -47,55 +49,18 @@
 		<voice sentence="My little beetles, go forth, eat, feast!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="84270" countmax="99" />
-		<item id="platinum coin" chance="79775" countmax="9" />
-		<item id="great mana potion" chance="19101" />
-		<item id="goosebump leather" chance="16854" />
-		<item id="brown mushroom" chance="11236" countmax="2" />
-		<item id="great health potion" chance="10112" />
-		<item id="pool of chitinous glue" chance="7865" />
-		<item id="beastslayer axe" chance="5618" />
-		<item id="spiked squelcher" chance="4494" />
-		<item id="mercenary sword" chance="2247" />
-		<item id="broken dream" chance="1124" />
-		<item id="butcher's axe" chance="1124" />
-		<item id="fire sword" chance="1124" />
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="platinum coin" chance="100000" countmax="9" />
-		<item id="pool of chitinous glue" chance="100000" />
-		<item id="brown mushroom" chance="100000" countmax="2" />
-		<item id="goosebump leather" chance="100000" />
-		<item id="great mana potion" chance="100000" />
-		<item id="great health potion" chance="100000" />
-		<item id="broken dream" chance="100000" />
-		<item id="beastslayer axe" chance="100000" />
-		<item id="mercenary sword" chance="100000" />
-		<item id="wand of starstorm" chance="100000" />
-		<item id="crown shield" chance="100000" />
-		<item id="underworld rod" chance="100000" />
-		<item id="spiked squelcher" chance="98876" />
-		<item id="fire sword" chance="91011" />
-		<item id="tower shield" chance="71910" />
-		<item id="butcher's axe" chance="49438" />
-		<item id="onyx flail" chance="41573" />
-		<item id="cluster of solace" chance="31461" />
-		<item id="steel boots" chance="11236" />
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="platinum coin" chance="100000" countmax="9" />
-		<item id="goosebump leather" chance="100000" />
-		<item id="pool of chitinous glue" chance="100000" />
-		<item id="brown mushroom" chance="100000" countmax="2" />
-		<item id="great health potion" chance="100000" />
-		<item id="great mana potion" chance="100000" />
-		<item id="broken dream" chance="100000" />
-		<item id="beastslayer axe" chance="100000" />
-		<item id="mercenary sword" chance="77528" />
-		<item id="underworld rod" chance="58427" />
-		<item id="fire sword" chance="40449" />
-		<item id="wand of starstorm" chance="40449" />
-		<item id="crown shield" chance="34831" />
-		<item id="tower shield" chance="30337" />
-		<item id="cluster of solace" chance="21348" />
-		<item id="spiked squelcher" chance="16854" />
+		<item name="gold coin" chance="84270" countmax="99" />
+		<item name="platinum coin" chance="79775" countmax="9" />
+		<item name="great mana potion" chance="19101" />
+		<item name="goosebump leather" chance="16854" />
+		<item name="brown mushroom" chance="11236" countmax="2" />
+		<item name="great health potion" chance="10112" />
+		<item name="pool of chitinous glue" chance="7865" />
+		<item name="beastslayer axe" chance="5618" />
+		<item name="spiked squelcher" chance="4494" />
+		<item name="mercenary sword" chance="2247" />
+		<item name="broken dream" chance="1124" />
+		<item name="butcher's axe" chance="1124" />
+		<item name="fire sword" chance="1124" />
 	</loot>
 </monster>

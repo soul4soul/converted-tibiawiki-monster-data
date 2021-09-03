@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -93,18 +94,7 @@ monster.loot = {
 	{id = "hatchet", chance = 9677},
 	{id = "mace", chance = 7527},
 	{id = "longsword", chance = 3226},
-	{id = "rope", chance = 3226},
-	{id = "gold coin", chance = 100000, maxCount = 10},
-	{id = "meat", chance = 100000},
-	{id = "fish", chance = 100000, maxCount = 2},
-	{id = "worm", chance = 100000, maxCount = 2},
-	{id = "marsh stalker feather", chance = 100000},
-	{id = "mace", chance = 100000},
-	{id = "longsword", chance = 100000},
-	{id = "hatchet", chance = 100000},
-	{id = "marsh stalker beak", chance = 100000},
-	{id = "rope", chance = 100000},
-	{id = "seeds", chance = 11828}
+	{id = "rope", chance = 3226}
 }
 
 mType:register(monster)

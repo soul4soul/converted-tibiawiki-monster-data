@@ -1,6 +1,7 @@
-﻿<monster name="Demon" nameDescription="a demon" experience="6000" speed="256" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Demon" nameDescription="a demon" experience="6000" speed="256" manacost="0">
 	<health now="8200" max="8200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="35" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="25" />
-		<element EnergyPercent="50" />
+		<element energyPercent="50" />
 		<element earthPercent="40" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -62,72 +64,38 @@
 		<voice name="fire elemental" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="gold coin" chance="99491" countmax="200" />
-		<item id="platinum coin" chance="99485" countmax="8" />
-		<item id="great mana potion" chance="25088" countmax="3" />
-		<item id="great spirit potion" chance="24830" countmax="3" />
-		<item id="demon horn" chance="20166" />
-		<item id="ultimate health potion" chance="19756" countmax="3" />
-		<item id="fire mushroom" chance="19742" countmax="6" />
-		<item id="demonic essence" chance="19696" />
-		<item id="assassin star" chance="15478" countmax="10" />
-		<item id="small topaz" chance="10138" countmax="5" />
-		<item id="small ruby" chance="10004" countmax="5" />
-		<item id="small emerald" chance="9856" countmax="5" />
-		<item id="small amethyst" chance="9823" countmax="5" />
-		<item id="fire axe" chance="4018" />
-		<item id="talon" chance="3350" />
-		<item id="red gem" chance="2994" />
-		<item id="orb" chance="2904" />
-		<item id="ring of healing" chance="2652" />
-		<item id="might ring" chance="2491" />
-		<item id="stealth ring" chance="2414" />
-		<item id="giant sword" chance="1965" />
-		<item id="ice rapier" chance="1905" />
-		<item id="golden sickle" chance="1366" />
-		<item id="purple tome" chance="1240" />
-		<item id="devil helmet" chance="1226" />
-		<item id="gold ring" chance="1029" />
-		<item id="demon shield" chance="764" />
-		<item id="platinum amulet" chance="701" />
-		<item id="mastermind shield" chance="468" />
-		<item id="golden legs" chance="408" />
-		<item id="demon trophy" chance="88" />
-		<item id="magic plate armor" chance="88" />
-		<item id="demonrage sword" chance="55" />
-		<item id="gold coin" chance="64531" countmax="199" />
-		<item id="platinum coin" chance="39509" />
-		<item id="fire mushroom" chance="13800" countmax="6" />
-		<item id="ultimate health potion" chance="13015" countmax="3" />
-		<item id="double axe" chance="10932" />
-		<item id="great mana potion" chance="9862" countmax="3" />
-		<item id="small emerald" chance="6402" />
-		<item id="assassin star" chance="3421" countmax="5" />
-		<item id="fire axe" chance="2554" />
-		<item id="talon" chance="2368" />
-		<item id="orb" chance="1883" />
-		<item id="giant sword" chance="1388" />
-		<item id="golden sickle" chance="991" />
-		<item id="stealth ring" chance="920" />
-		<item id="purple tome" chance="854" />
-		<item id="devil helmet" chance="805" />
-		<item id="gold ring" chance="703" />
-		<item id="platinum amulet" chance="493" />
-		<item id="ice rapier" chance="463" />
-		<item id="demon shield" chance="446" />
-		<item id="demon horn" chance="339" />
-		<item id="ring of healing" chance="317" />
-		<item id="golden legs" chance="282" />
-		<item id="mastermind shield" chance="274" />
-		<item id="might ring" chance="104" />
-		<item id="demon trophy" chance="68" />
-		<item id="demonrage sword" chance="55" />
-		<item id="magic plate armor" chance="49" />
-		<item id="gold coin" chance="11" countmax="150" />
-		<item id="platinum coin" chance="8" />
-		<item id="ultimate health potion" chance="5" />
-		<item id="double axe" chance="3" />
-		<item id="fire mushroom" chance="3" countmax="6" />
-		<item id="orb" chance="3" />
+		<item name="gold coin" chance="99491" countmax="200" />
+		<item name="platinum coin" chance="99486" countmax="8" />
+		<item name="great mana potion" chance="25087" countmax="3" />
+		<item name="great spirit potion" chance="24830" countmax="3" />
+		<item name="demon horn" chance="20163" />
+		<item name="ultimate health potion" chance="19749" countmax="3" />
+		<item name="fire mushroom" chance="19738" countmax="6" />
+		<item name="demonic essence" chance="19689" />
+		<item name="assassin star" chance="15482" countmax="10" />
+		<item name="small topaz" chance="10133" countmax="5" />
+		<item name="small ruby" chance="10005" countmax="5" />
+		<item name="small emerald" chance="9851" countmax="5" />
+		<item name="small amethyst" chance="9821" countmax="5" />
+		<item name="fire axe" chance="4022" />
+		<item name="talon" chance="3351" />
+		<item name="red gem" chance="3001" />
+		<item name="orb" chance="2903" />
+		<item name="ring of healing" chance="2654" />
+		<item name="might ring" chance="2492" />
+		<item name="stealth ring" chance="2413" />
+		<item name="giant sword" chance="1964" />
+		<item name="ice rapier" chance="1904" />
+		<item name="golden sickle" chance="1365" />
+		<item name="purple tome" chance="1239" />
+		<item name="devil helmet" chance="1226" />
+		<item name="gold ring" chance="1029" />
+		<item name="demon shield" chance="766" />
+		<item name="platinum amulet" chance="700" />
+		<item name="mastermind shield" chance="468" />
+		<item name="golden legs" chance="408" />
+		<item name="demon trophy" chance="88" />
+		<item name="magic plate armor" chance="88" />
+		<item name="demonrage sword" chance="55" />
 	</loot>
 </monster>

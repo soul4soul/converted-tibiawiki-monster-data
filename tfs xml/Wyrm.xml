@@ -1,6 +1,7 @@
-﻿<monster name="Wyrm" nameDescription="a wyrm" experience="1550" speed="280" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Wyrm" nameDescription="a wyrm" experience="1550" speed="280" manacost="0">
 	<health now="1825" max="1825" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="291" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="75" />
 		<element firePercent="20" />
 		<element lifedrainPercent="100" />
@@ -49,21 +51,21 @@
 		<voice sentence="GRRR" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="96894" countmax="232" />
-		<item id="dragon ham" chance="34838" />
-		<item id="strong health potion" chance="20241" />
-		<item id="strong mana potion" chance="15244" />
-		<item id="wyrm scale" chance="14939" />
-		<item id="burst arrow" chance="7958" countmax="10" />
-		<item id="crossbow" chance="6067" />
-		<item id="focus cape" chance="1214" />
-		<item id="wand of draconia" chance="1014" />
-		<item id="small diamond" chance="917" countmax="3" />
-		<item id="lightning pendant" chance="753" />
-		<item id="wand of starstorm" chance="471" />
-		<item id="hibiscus dress" chance="314" />
-		<item id="composite hornbow" chance="106" />
-		<item id="dragonbone staff" chance="93" />
-		<item id="shockwave amulet" chance="83" />
+		<item name="gold coin" chance="96880" countmax="232" />
+		<item name="dragon ham" chance="34829" />
+		<item name="strong health potion" chance="20218" />
+		<item name="strong mana potion" chance="15241" />
+		<item name="wyrm scale" chance="14924" />
+		<item name="burst arrow" chance="7958" countmax="10" />
+		<item name="crossbow" chance="6072" />
+		<item name="focus cape" chance="1218" />
+		<item name="wand of draconia" chance="1018" />
+		<item name="small diamond" chance="923" countmax="3" />
+		<item name="lightning pendant" chance="754" />
+		<item name="wand of starstorm" chance="471" />
+		<item name="hibiscus dress" chance="312" />
+		<item name="composite hornbow" chance="105" />
+		<item name="dragonbone staff" chance="93" />
+		<item name="shockwave amulet" chance="82" />
 	</loot>
 </monster>

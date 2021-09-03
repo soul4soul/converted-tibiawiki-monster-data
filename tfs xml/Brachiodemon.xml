@@ -1,4 +1,5 @@
-﻿<monster name="Brachiodemon" nameDescription="a brachiodemon" experience="14080" speed="440" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Brachiodemon" nameDescription="a brachiodemon" experience="14080" speed="440" manacost="0">
 	<health now="25000" max="25000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -45,25 +47,25 @@
 		<voice sentence="I can give you a hand... or two." yell="false" />
 	</voices>
 	<loot>
-		<item id="crystal coin" chance="74455" />
-		<item id="ultimate health potion" chance="35514" countmax="4" />
-		<item id="hand" chance="7321" />
-		<item id="epee" chance="5140" />
-		<item id="head (brachiodemon)" chance="4050" />
-		<item id="crystal mace" chance="2804" />
-		<item id="noble axe" chance="1713" />
-		<item id="assassin dagger" chance="1090" />
-		<item id="skull staff" chance="1090" />
-		<item id="spellbook of mind control" chance="935" />
-		<item id="butcher's axe" chance="779" />
-		<item id="fire axe" chance="779" />
-		<item id="ring of green plasma" chance="623" />
-		<item id="royal helmet" chance="623" />
-		<item id="alloy legs" chance="467" />
-		<item id="crystalline sword" chance="467" />
-		<item id="jade hammer" chance="467" />
-		<item id="mastermind shield" chance="467" />
-		<item id="metal bat" chance="467" />
-		<item id="diabolic skull" chance="156" />
+		<item name="crystal coin" chance="74455" />
+		<item name="ultimate health potion" chance="35514" countmax="4" />
+		<item name="hand" chance="7321" />
+		<item name="epee" chance="5140" />
+		<item name="head (brachiodemon)" chance="4050" />
+		<item name="crystal mace" chance="2804" />
+		<item name="noble axe" chance="1713" />
+		<item name="assassin dagger" chance="1090" />
+		<item name="skull staff" chance="1090" />
+		<item name="spellbook of mind control" chance="935" />
+		<item name="butcher's axe" chance="779" />
+		<item name="fire axe" chance="779" />
+		<item name="ring of green plasma" chance="623" />
+		<item name="royal helmet" chance="623" />
+		<item name="alloy legs" chance="467" />
+		<item name="crystalline sword" chance="467" />
+		<item name="jade hammer" chance="467" />
+		<item name="mastermind shield" chance="467" />
+		<item name="metal bat" chance="467" />
+		<item name="diabolic skull" chance="156" />
 	</loot>
 </monster>

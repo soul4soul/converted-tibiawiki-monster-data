@@ -1,4 +1,5 @@
-﻿<monster name="Dipthrah" nameDescription="" experience="2900" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dipthrah" nameDescription="" experience="2900" speed="0" manacost="0">
 	<health now="4200" max="4200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="100" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
@@ -54,16 +56,16 @@
 		<voice name="priestess" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="ornamented ankh" chance="100000" />
-		<item id="gold coin" chance="90968" countmax="226" />
-		<item id="small sapphire" chance="9819" countmax="3" />
-		<item id="great mana potion" chance="8939" />
-		<item id="energy ring" chance="4863" />
-		<item id="mind stone" chance="926" />
-		<item id="blue gem" chance="834" />
-		<item id="ankh" chance="602" />
-		<item id="skull staff" chance="556" />
-		<item id="mini mummy" chance="93" />
-		<item id="pharaoh sword" chance="93" />
+		<item name="ornamented ankh" chance="100000" />
+		<item name="gold coin" chance="90968" countmax="226" />
+		<item name="small sapphire" chance="9819" countmax="3" />
+		<item name="great mana potion" chance="8939" />
+		<item name="energy ring" chance="4863" />
+		<item name="mind stone" chance="926" />
+		<item name="blue gem" chance="834" />
+		<item name="ankh" chance="602" />
+		<item name="skull staff" chance="556" />
+		<item name="mini mummy" chance="93" />
+		<item name="pharaoh sword" chance="93" />
 	</loot>
 </monster>

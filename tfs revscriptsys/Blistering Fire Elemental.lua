@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,12 +93,7 @@ monster.loot = {
 	{id = "glimmering soil", chance = 9032},
 	{id = "small ruby", chance = 5376, maxCount = 2},
 	{id = "wand of draconia", chance = 645},
-	{id = "coal", chance = 430},
-	{id = "gold coin", chance = 49892, maxCount = 176},
-	{id = "fiery heart", chance = 6882},
-	{id = "glimmering soil", chance = 4516},
-	{id = "small ruby", chance = 3011, maxCount = 2},
-	{id = "wand of draconia", chance = 215}
+	{id = "coal", chance = 430}
 }
 
 mType:register(monster)

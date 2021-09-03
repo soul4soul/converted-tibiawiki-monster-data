@@ -1,6 +1,7 @@
-﻿<monster name="Ice Golem" nameDescription="an ice golem" experience="295" speed="190" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ice Golem" nameDescription="an ice golem" experience="295" speed="190" manacost="0">
 	<health now="385" max="385" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="261" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="-20" />
+		<element energyPercent="-20" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -54,42 +56,18 @@
 		<voice sentence="Gnarr." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="120" />
-		<item id="frosty heart" chance="14238" />
-		<item id="ice cube" chance="5108" />
-		<item id="strong mana potion" chance="3046" />
-		<item id="strong health potion" chance="2455" />
-		<item id="black pearl" chance="1489" />
-		<item id="small diamond" chance="730" />
-		<item id="crystal sword" chance="570" />
-		<item id="small sapphire" chance="570" />
-		<item id="strange helmet" chance="355" />
-		<item id="ice rapier" chance="315" />
-		<item id="shard" chance="203" />
-		<item id="glacier mask" chance="194" />
-		<item id="gold coin" chance="11567" countmax="108" />
-		<item id="frosty heart" chance="1413" />
-		<item id="ice cube" chance="627" />
-		<item id="black pearl" chance="178" />
-		<item id="small sapphire" chance="68" />
-		<item id="strong health potion" chance="59" />
-		<item id="ice rapier" chance="43" />
-		<item id="strange helmet" chance="37" />
-		<item id="shard" chance="30" />
-		<item id="crystal sword" chance="29" />
-		<item id="small diamond" chance="12" />
-		<item id="glacier mask" chance="9" />
-		<item id="gold coin" chance="7065" countmax="58" />
-		<item id="ice cube" chance="1219" />
-		<item id="frosty heart" chance="1160" />
-		<item id="black pearl" chance="330" />
-		<item id="small sapphire" chance="112" />
-		<item id="strong health potion" chance="103" />
-		<item id="strange helmet" chance="80" />
-		<item id="crystal sword" chance="59" />
-		<item id="ice rapier" chance="55" />
-		<item id="shard" chance="43" />
-		<item id="glacier mask" chance="21" />
-		<item id="small diamond" chance="7" />
+		<item name="gold coin" chance="100000" countmax="120" />
+		<item name="frosty heart" chance="14240" />
+		<item name="ice cube" chance="5108" />
+		<item name="strong mana potion" chance="3047" />
+		<item name="strong health potion" chance="2463" />
+		<item name="black pearl" chance="1501" />
+		<item name="small diamond" chance="734" />
+		<item name="crystal sword" chance="569" />
+		<item name="small sapphire" chance="567" />
+		<item name="strange helmet" chance="354" />
+		<item name="ice rapier" chance="315" />
+		<item name="shard" chance="202" />
+		<item name="glacier mask" chance="195" />
 	</loot>
 </monster>

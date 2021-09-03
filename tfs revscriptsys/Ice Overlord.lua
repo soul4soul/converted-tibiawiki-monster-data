@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,10 +88,7 @@ monster.defenses = {
 monster.loot = {
 	{id = "flawless ice crystal", chance = 100000},
 	{id = "gold coin", chance = 80000, maxCount = 38},
-	{id = "platinum coin", chance = 80000, maxCount = 3},
-	{id = "flawless ice crystal", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 75},
-	{id = "platinum coin", chance = 100000, maxCount = 3}
+	{id = "platinum coin", chance = 80000, maxCount = 3}
 }
 
 mType:register(monster)

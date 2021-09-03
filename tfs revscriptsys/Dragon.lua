@@ -5,7 +5,7 @@ monster.name = "Dragon"
 monster.description = "a dragon"
 monster.experience = 700
 monster.outfit = {
-	lookType = 0,
+	lookType = 34,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -91,26 +92,26 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 90091, maxCount = 105},
-	{id = "dragon ham", chance = 65128},
-	{id = "steel shield", chance = 14884},
-	{id = "crossbow", chance = 10096},
-	{id = "dragon's tail", chance = 9878},
-	{id = "burst arrow", chance = 7973, maxCount = 10},
-	{id = "longsword", chance = 4034},
-	{id = "steel helmet", chance = 2997},
-	{id = "broadsword", chance = 1993},
-	{id = "plate legs", chance = 1909},
-	{id = "wand of inferno", chance = 1055},
-	{id = "strong health potion", chance = 1049},
-	{id = "green dragon scale", chance = 1037},
-	{id = "green dragon leather", chance = 1028},
+	{id = "gold coin", chance = 90101, maxCount = 105},
+	{id = "dragon ham", chance = 65119},
+	{id = "steel shield", chance = 14878},
+	{id = "crossbow", chance = 10088},
+	{id = "dragon's tail", chance = 9877},
+	{id = "burst arrow", chance = 7972, maxCount = 10},
+	{id = "longsword", chance = 4038},
+	{id = "steel helmet", chance = 3004},
+	{id = "broadsword", chance = 1995},
+	{id = "plate legs", chance = 1906},
+	{id = "wand of inferno", chance = 1054},
+	{id = "strong health potion", chance = 1053},
+	{id = "green dragon scale", chance = 1039},
+	{id = "green dragon leather", chance = 1025},
 	{id = "double axe", chance = 1006},
-	{id = "dragon hammer", chance = 521},
-	{id = "serpent sword", chance = 506},
+	{id = "dragon hammer", chance = 520},
+	{id = "serpent sword", chance = 505},
 	{id = "small diamond", chance = 380},
-	{id = "dragon shield", chance = 302},
-	{id = "life crystal", chance = 112},
+	{id = "dragon shield", chance = 300},
+	{id = "life crystal", chance = 113},
 	{id = "dragonbone staff", chance = 104}
 }
 

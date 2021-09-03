@@ -1,6 +1,7 @@
-﻿<monster name="Renegade Quara Pincher" nameDescription="a renegade quara pincher" experience="2200" speed="396" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Renegade Quara Pincher" nameDescription="a renegade quara pincher" experience="2200" speed="396" manacost="0">
 	<health now="2800" max="2800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="77" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-25" />
+		<element energyPercent="-25" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -43,24 +45,24 @@
 	</attacks>
 	<defenses armor="85" defense="85" />
 	<loot>
-		<item id="platinum coin" chance="80516" countmax="5" />
-		<item id="quara pincers" chance="18545" />
-		<item id="great mana potion" chance="10329" countmax="2" />
-		<item id="great health potion" chance="9311" countmax="2" />
-		<item id="small ruby" chance="8529" countmax="2" />
-		<item id="small diamond" chance="7433" countmax="2" />
-		<item id="mind stone" chance="6025" />
-		<item id="red gem" chance="5321" />
-		<item id="shrimp" chance="4695" />
-		<item id="vortex bolt" chance="3678" countmax="5" />
-		<item id="warrior helmet" chance="1487" />
-		<item id="fish fin" chance="1252" />
-		<item id="giant shimmering pearl (brown)" chance="1174" />
-		<item id="crown armor" chance="469" />
-		<item id="time ring" chance="469" />
-		<item id="talon" chance="391" />
-		<item id="glacier robe" chance="235" />
-		<item id="giant shrimp" chance="78" />
-		<item id="twiceslicer" chance="78" />
+		<item name="platinum coin" chance="80466" countmax="5" />
+		<item name="quara pincers" chance="18711" />
+		<item name="great mana potion" chance="10212" countmax="2" />
+		<item name="great health potion" chance="9184" countmax="2" />
+		<item name="small ruby" chance="8636" countmax="2" />
+		<item name="small diamond" chance="7471" countmax="2" />
+		<item name="mind stone" chance="5963" />
+		<item name="red gem" chance="5346" />
+		<item name="shrimp" chance="4798" />
+		<item name="vortex bolt" chance="3907" countmax="5" />
+		<item name="warrior helmet" chance="1576" />
+		<item name="fish fin" chance="1508" />
+		<item name="giant shimmering pearl (brown)" chance="1439" />
+		<item name="crown armor" chance="480" />
+		<item name="time ring" chance="480" />
+		<item name="talon" chance="343" />
+		<item name="glacier robe" chance="206" />
+		<item name="giant shrimp" chance="69" />
+		<item name="twiceslicer" chance="69" />
 	</loot>
 </monster>

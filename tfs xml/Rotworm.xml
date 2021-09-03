@@ -1,6 +1,7 @@
-﻿<monster name="Rotworm" nameDescription="a rotworm" experience="40" speed="116" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Rotworm" nameDescription="a rotworm" experience="40" speed="116" manacost="0">
 	<health now="65" max="65" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="26" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,12 +45,12 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
-		<item id="gold coin" chance="71808" countmax="17" />
-		<item id="ham" chance="20124" />
-		<item id="meat" chance="20018" />
-		<item id="lump of dirt" chance="9997" />
-		<item id="mace" chance="4441" />
-		<item id="worm" chance="3059" countmax="3" />
-		<item id="sword" chance="3041" />
+		<item name="gold coin" chance="71809" countmax="17" />
+		<item name="ham" chance="20124" />
+		<item name="meat" chance="20017" />
+		<item name="lump of dirt" chance="9998" />
+		<item name="mace" chance="4441" />
+		<item name="worm" chance="3060" countmax="3" />
+		<item name="sword" chance="3041" />
 	</loot>
 </monster>

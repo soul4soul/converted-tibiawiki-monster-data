@@ -5,12 +5,12 @@ monster.name = "Guardian Of Tales"
 monster.description = "a guardian of tales"
 monster.experience = 9204
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
+	lookType = 1063,
+	lookHead = 92,
+	lookBody = 52,
 	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookFeet = 79,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,

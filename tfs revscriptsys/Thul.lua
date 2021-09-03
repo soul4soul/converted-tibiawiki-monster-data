@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -101,17 +102,7 @@ monster.loot = {
 	{id = "small amethyst", chance = 39000, maxCount = 4},
 	{id = "relic sword", chance = 33000},
 	{id = "crusader helmet", chance = 18000},
-	{id = "crown armor", chance = 8000},
-	{id = "fish fin", chance = 11000},
-	{id = "platinum coin", chance = 5000, maxCount = 8},
-	{id = "gold coin", chance = 3000, maxCount = 77},
-	{id = "great mana potion", chance = 3000},
-	{id = "marlin", chance = 3000},
-	{id = "relic sword", chance = 3000},
-	{id = "small amethyst", chance = 3000},
-	{id = "brass helmet", chance = 1000},
-	{id = "crusader helmet", chance = 1000},
-	{id = "shrimp", chance = 1000}
+	{id = "crown armor", chance = 8000}
 }
 
 mType:register(monster)

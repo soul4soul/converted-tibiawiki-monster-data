@@ -1,4 +1,5 @@
-﻿<monster name="The Shatterer" nameDescription="" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Shatterer" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -45,12 +47,12 @@
 		<voice sentence="YOU WILL TREMBLE! YOU WILL BREAK! YOU WILL SHATTER INTO PIECES!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="great mana potion" chance="100000" countmax="10" />
-		<item id="great spirit potion" chance="100000" countmax="10" />
-		<item id="platinum coin" chance="100000" countmax="10" />
-		<item id="small diamond" chance="100000" countmax="10" />
-		<item id="small ruby" chance="100000" countmax="12" />
-		<item id="ultimate health potion" chance="100000" countmax="10" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="great mana potion" chance="100000" countmax="10" />
+		<item name="great spirit potion" chance="100000" countmax="10" />
+		<item name="platinum coin" chance="100000" countmax="10" />
+		<item name="small diamond" chance="100000" countmax="10" />
+		<item name="small ruby" chance="100000" countmax="12" />
+		<item name="ultimate health potion" chance="100000" countmax="10" />
 	</loot>
 </monster>

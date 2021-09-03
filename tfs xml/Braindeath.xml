@@ -1,6 +1,7 @@
-﻿<monster name="Braindeath" nameDescription="a braindeath" experience="985" speed="218" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Braindeath" nameDescription="a braindeath" experience="985" speed="218" manacost="0">
 	<health now="1225" max="1225" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="256" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="15" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
@@ -54,17 +56,17 @@
 		<voice sentence="You will be punished!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99442" countmax="90" />
-		<item id="bone sword" chance="15024" />
-		<item id="sniper arrow" chance="9580" countmax="4" />
-		<item id="steel shield" chance="5945" />
-		<item id="piece of dead brain" chance="5039" />
-		<item id="bonelord eye" chance="2974" />
-		<item id="clerical mace" chance="1957" />
-		<item id="haunted blade" chance="1447" />
-		<item id="spellbook" chance="948" />
-		<item id="spiked squelcher" chance="183" />
-		<item id="bonelord helmet" chance="99" />
-		<item id="bonelord shield" chance="96" />
+		<item name="gold coin" chance="99442" countmax="90" />
+		<item name="bone sword" chance="15027" />
+		<item name="sniper arrow" chance="9581" countmax="4" />
+		<item name="steel shield" chance="5944" />
+		<item name="piece of dead brain" chance="5038" />
+		<item name="bonelord eye" chance="2974" />
+		<item name="clerical mace" chance="1956" />
+		<item name="haunted blade" chance="1446" />
+		<item name="spellbook" chance="948" />
+		<item name="spiked squelcher" chance="183" />
+		<item name="bonelord helmet" chance="99" />
+		<item name="bonelord shield" chance="96" />
 	</loot>
 </monster>

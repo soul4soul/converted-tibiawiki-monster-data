@@ -1,6 +1,7 @@
-﻿<monster name="Frost Troll" nameDescription="a frost troll" experience="23" speed="140" manacost="300">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Frost Troll" nameDescription="a frost troll" experience="23" speed="140" manacost="300">
 	<health now="55" max="55" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="53" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-15" />
+		<element energyPercent="-15" />
 		<element earthPercent="-10" />
 		<element firePercent="40" />
 		<element lifedrainPercent="0" />
@@ -47,13 +49,13 @@
 		<voice sentence="Broar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="50378" countmax="12" />
-		<item id="spear" chance="20376" />
-		<item id="fish" chance="18156" />
-		<item id="rapier" chance="15552" />
-		<item id="wooden shield" chance="15480" />
-		<item id="twigs" chance="8185" />
-		<item id="frosty ear of a troll" chance="2014" />
-		<item id="coat" chance="1135" />
+		<item name="gold coin" chance="50387" countmax="12" />
+		<item name="spear" chance="20379" />
+		<item name="fish" chance="18155" />
+		<item name="rapier" chance="15557" />
+		<item name="wooden shield" chance="15485" />
+		<item name="twigs" chance="8182" />
+		<item name="frosty ear of a troll" chance="2013" />
+		<item name="coat" chance="1135" />
 	</loot>
 </monster>

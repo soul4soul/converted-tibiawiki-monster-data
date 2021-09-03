@@ -1,6 +1,7 @@
-﻿<monster name="Death Priest" nameDescription="a death priest" experience="750" speed="204" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Death Priest" nameDescription="a death priest" experience="750" speed="204" manacost="0">
 	<health now="800" max="800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="99" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="80" />
+		<element energyPercent="80" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -45,14 +47,14 @@
 		<defense name="healing" interval="2000" chance="20" min="80" max="200" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="69852" countmax="152" />
-		<item id="hieroglyph banner" chance="26293" />
-		<item id="mana potion" chance="16236" />
-		<item id="health potion" chance="14751" />
-		<item id="scarab coin" chance="9363" countmax="3" />
-		<item id="orichalcum pearl" chance="6226" countmax="4" />
-		<item id="spellbook" chance="5532" />
-		<item id="white pearl" chance="2754" />
-		<item id="ring of healing" chance="1102" />
+		<item name="gold coin" chance="69852" countmax="152" />
+		<item name="hieroglyph banner" chance="26293" />
+		<item name="mana potion" chance="16236" />
+		<item name="health potion" chance="14751" />
+		<item name="scarab coin" chance="9363" countmax="3" />
+		<item name="orichalcum pearl" chance="6226" countmax="4" />
+		<item name="spellbook" chance="5532" />
+		<item name="white pearl" chance="2754" />
+		<item name="ring of healing" chance="1102" />
 	</loot>
 </monster>

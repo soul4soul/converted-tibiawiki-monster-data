@@ -1,4 +1,5 @@
-﻿<monster name="Tentugly's Head" nameDescription="" experience="40000" speed="80" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tentugly's Head" nameDescription="" experience="40000" speed="80" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="-30" />
 		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
@@ -43,26 +45,26 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="crystal coin" chance="65000" countmax="2" />
-		<item id="ultimate health potion" chance="60000" countmax="20" />
-		<item id="ultimate mana potion" chance="57000" countmax="20" />
-		<item id="cheesy key" chance="37000" />
-		<item id="platinum coin" chance="25000" countmax="10" />
-		<item id="ultimate spirit potion" chance="25000" countmax="10" />
-		<item id="mastermind potion" chance="20000" countmax="5" />
-		<item id="berserk potion" chance="18000" countmax="5" />
-		<item id="bullseye potion" chance="16000" countmax="5" />
-		<item id="pirate coin" chance="15000" countmax="50" />
-		<item id="small treasure chest" chance="8000" />
-		<item id="golden dustbin" chance="6000" />
-		<item id="giant amethyst" chance="5000" />
-		<item id="giant ruby" chance="5000" />
-		<item id="tentugly's eye" chance="4000" />
-		<item id="tiara" chance="4000" />
-		<item id="giant topaz" chance="3000" />
-		<item id="golden skull" chance="3000" />
-		<item id="golden cheese wedge" chance="2000" />
-		<item id="tentacle of tentugly" chance="2000" />
-		<item id="plushie of tentugly" chance="1000" />
+		<item name="crystal coin" chance="64286" countmax="2" />
+		<item name="ultimate health potion" chance="60714" countmax="20" />
+		<item name="ultimate mana potion" chance="58036" countmax="20" />
+		<item name="cheesy key" chance="38393" />
+		<item name="platinum coin" chance="25893" countmax="10" />
+		<item name="ultimate spirit potion" chance="25000" countmax="10" />
+		<item name="mastermind potion" chance="20536" countmax="5" />
+		<item name="berserk potion" chance="17857" countmax="5" />
+		<item name="pirate coin" chance="15179" countmax="50" />
+		<item name="bullseye potion" chance="14286" countmax="5" />
+		<item name="small treasure chest" chance="8929" />
+		<item name="giant amethyst" chance="5357" />
+		<item name="golden dustbin" chance="5357" />
+		<item name="giant ruby" chance="4464" />
+		<item name="tentugly's eye" chance="4464" />
+		<item name="tiara" chance="3571" />
+		<item name="giant topaz" chance="2679" />
+		<item name="golden skull" chance="2679" />
+		<item name="tentacle of tentugly" chance="2679" />
+		<item name="golden cheese wedge" chance="1786" />
+		<item name="plushie of tentugly" chance="893" />
 	</loot>
 </monster>

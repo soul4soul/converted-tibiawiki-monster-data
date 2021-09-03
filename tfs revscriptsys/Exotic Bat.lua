@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,12 +88,12 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 4},
-	{id = "great mana potion", chance = 29582},
-	{id = "dark mushroom", chance = 14906, maxCount = 6},
-	{id = "green mushroom", chance = 10530, maxCount = 5},
-	{id = "terra amulet", chance = 5627},
-	{id = "garlic necklace", chance = 5199},
-	{id = "bat wing", chance = 4755, maxCount = 2}
+	{id = "great mana potion", chance = 29371},
+	{id = "dark mushroom", chance = 14873, maxCount = 6},
+	{id = "green mushroom", chance = 10603, maxCount = 5},
+	{id = "terra amulet", chance = 5886},
+	{id = "garlic necklace", chance = 5294},
+	{id = "bat wing", chance = 4761, maxCount = 2}
 }
 
 mType:register(monster)

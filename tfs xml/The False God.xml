@@ -1,4 +1,5 @@
-﻿<monster name="The False God" nameDescription="" experience="50000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The False God" nameDescription="" experience="50000" speed="0" manacost="0">
 	<health now="300000" max="300000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -43,36 +45,36 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="iron ore" chance="100000" />
-		<item id="mysterious remains" chance="100000" />
-		<item id="necromantic rust" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="35" />
-		<item id="energy bar" chance="96296" countmax="5" />
-		<item id="great mana potion" chance="74074" countmax="10" />
-		<item id="piece of hell steel" chance="74074" countmax="9" />
-		<item id="great spirit potion" chance="48148" countmax="10" />
-		<item id="red piece of cloth" chance="40741" countmax="6" />
-		<item id="ultimate health potion" chance="40741" countmax="10" />
-		<item id="gold token" chance="37037" />
-		<item id="magic sulphur" chance="37037" />
-		<item id="blue gem" chance="25926" />
-		<item id="pair of iron fists" chance="25926" />
-		<item id="red gem" chance="25926" />
-		<item id="small diamond" chance="25926" countmax="10" />
-		<item id="small emerald" chance="25926" countmax="10" />
-		<item id="yellow gem" chance="25926" />
-		<item id="piece of royal steel" chance="22222" />
-		<item id="small amethyst" chance="22222" countmax="10" />
-		<item id="underworld rod" chance="22222" />
-		<item id="silver token" chance="18519" />
-		<item id="huge chunk of crude iron" chance="14815" />
-		<item id="small sapphire" chance="14815" countmax="10" />
-		<item id="giant shimmering pearl" chance="11111" />
-		<item id="green gem" chance="11111" />
-		<item id="small topaz" chance="11111" countmax="10" />
-		<item id="giant sword" chance="7407" />
-		<item id="piece of draconian steel" chance="7407" countmax="2" />
-		<item id="war axe" chance="3704" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="iron ore" chance="100000" />
+		<item name="mysterious remains" chance="100000" />
+		<item name="necromantic rust" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="35" />
+		<item name="energy bar" chance="96296" countmax="5" />
+		<item name="great mana potion" chance="74074" countmax="10" />
+		<item name="piece of hell steel" chance="74074" countmax="9" />
+		<item name="great spirit potion" chance="48148" countmax="10" />
+		<item name="red piece of cloth" chance="40741" countmax="6" />
+		<item name="ultimate health potion" chance="40741" countmax="10" />
+		<item name="gold token" chance="37037" />
+		<item name="magic sulphur" chance="37037" />
+		<item name="blue gem" chance="25926" />
+		<item name="pair of iron fists" chance="25926" />
+		<item name="red gem" chance="25926" />
+		<item name="small diamond" chance="25926" countmax="10" />
+		<item name="small emerald" chance="25926" countmax="10" />
+		<item name="yellow gem" chance="25926" />
+		<item name="piece of royal steel" chance="22222" />
+		<item name="small amethyst" chance="22222" countmax="10" />
+		<item name="underworld rod" chance="22222" />
+		<item name="silver token" chance="18519" />
+		<item name="huge chunk of crude iron" chance="14815" />
+		<item name="small sapphire" chance="14815" countmax="10" />
+		<item name="giant shimmering pearl" chance="11111" />
+		<item name="green gem" chance="11111" />
+		<item name="small topaz" chance="11111" countmax="10" />
+		<item name="giant sword" chance="7407" />
+		<item name="piece of draconian steel" chance="7407" countmax="2" />
+		<item name="war axe" chance="3704" />
 	</loot>
 </monster>

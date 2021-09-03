@@ -5,7 +5,7 @@ monster.name = "Wailing Widow"
 monster.description = "a wailing widow"
 monster.experience = 450
 monster.outfit = {
-	lookType = 0,
+	lookType = 347,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -96,15 +97,7 @@ monster.loot = {
 	{id = "plate shield", chance = 3134},
 	{id = "green mushroom", chance = 3074},
 	{id = "zaoan halberd", chance = 2248},
-	{id = "wailing widow's necklace", chance = 675},
-	{id = "gold coin", chance = 38672, maxCount = 138},
-	{id = "widow's mandibles", chance = 2862},
-	{id = "health potion", chance = 2288},
-	{id = "plate shield", chance = 1250},
-	{id = "mana potion", chance = 998},
-	{id = "green mushroom", chance = 655},
-	{id = "zaoan halberd", chance = 443},
-	{id = "wailing widow's necklace", chance = 292}
+	{id = "wailing widow's necklace", chance = 675}
 }
 
 mType:register(monster)

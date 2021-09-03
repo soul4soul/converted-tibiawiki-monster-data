@@ -1,6 +1,7 @@
-﻿<monster name="Dire Penguin" nameDescription="a dire penguin" experience="119" speed="174" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dire Penguin" nameDescription="a dire penguin" experience="119" speed="174" manacost="0">
 	<health now="173" max="173" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="250" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="50" />
 		<element firePercent="50" />
 		<element lifedrainPercent="0" />
@@ -50,7 +52,7 @@
 		<voice sentence="Grrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="65714" countmax="10" />
-		<item id="fish" chance="11429" countmax="2" />
+		<item name="gold coin" chance="66667" countmax="10" />
+		<item name="fish" chance="11111" countmax="2" />
 	</loot>
 </monster>

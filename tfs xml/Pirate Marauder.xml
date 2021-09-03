@@ -1,6 +1,7 @@
-﻿<monster name="Pirate Marauder" nameDescription="a pirate marauder" experience="125" speed="210" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Pirate Marauder" nameDescription="a pirate marauder" experience="125" speed="210" manacost="0">
 	<health now="210" max="210" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="93" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-3" />
+		<element energyPercent="-3" />
 		<element earthPercent="10" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -51,20 +53,20 @@
 		<voice sentence="Give up!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="77620" countmax="40" />
-		<item id="torch" chance="9870" />
-		<item id="compass" chance="9676" />
-		<item id="spear" chance="5065" countmax="2" />
-		<item id="plate shield" chance="5014" />
-		<item id="chain armor" chance="3061" />
-		<item id="treasure map (pirate)" chance="941" />
-		<item id="bandana" chance="928" />
-		<item id="eye patch" chance="534" />
-		<item id="hook" chance="512" />
-		<item id="peg leg" chance="499" />
-		<item id="pirate bag" chance="454" />
-		<item id="rum flask" chance="105" />
-		<item id="die" chance="100" />
-		<item id="empty goldfish bowl" chance="82" />
+		<item name="gold coin" chance="77624" countmax="40" />
+		<item name="torch" chance="9871" />
+		<item name="compass" chance="9673" />
+		<item name="spear" chance="5066" countmax="2" />
+		<item name="plate shield" chance="5012" />
+		<item name="chain armor" chance="3060" />
+		<item name="treasure map (pirate)" chance="941" />
+		<item name="bandana" chance="928" />
+		<item name="eye patch" chance="534" />
+		<item name="hook" chance="512" />
+		<item name="peg leg" chance="499" />
+		<item name="pirate bag" chance="454" />
+		<item name="rum flask" chance="105" />
+		<item name="die" chance="100" />
+		<item name="empty goldfish bowl" chance="82" />
 	</loot>
 </monster>

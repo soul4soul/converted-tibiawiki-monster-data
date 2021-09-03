@@ -5,12 +5,12 @@ monster.name = "Poacher"
 monster.description = "a poacher"
 monster.experience = 70
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 129,
+	lookHead = 60,
+	lookBody = 118,
+	lookLegs = 118,
+	lookFeet = 116,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,14 +90,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "arrow", chance = 47040, maxCount = 18},
-	{id = "leather helmet", chance = 31074},
-	{id = "leather legs", chance = 27624},
-	{id = "bow", chance = 15034},
-	{id = "roll", chance = 11088, maxCount = 2},
-	{id = "torch", chance = 4866},
-	{id = "poison arrow", chance = 2590, maxCount = 3},
-	{id = "closed trap", chance = 1005}
+	{id = "arrow", chance = 47026, maxCount = 18},
+	{id = "leather helmet", chance = 31179},
+	{id = "leather legs", chance = 27598},
+	{id = "bow", chance = 15055},
+	{id = "roll", chance = 11054, maxCount = 2},
+	{id = "torch", chance = 4854},
+	{id = "poison arrow", chance = 2583, maxCount = 3},
+	{id = "closed trap", chance = 1021}
 }
 
 mType:register(monster)

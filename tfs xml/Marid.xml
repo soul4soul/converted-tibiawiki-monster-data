@@ -1,6 +1,7 @@
-﻿<monster name="Marid" nameDescription="a marid" experience="410" speed="234" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Marid" nameDescription="a marid" experience="410" speed="234" manacost="0">
 	<health now="550" max="550" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="104" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="60" />
+		<element energyPercent="60" />
 		<element earthPercent="10" />
 		<element firePercent="90" />
 		<element lifedrainPercent="0" />
@@ -54,22 +56,22 @@
 		<voice name="blue djinn" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="gold coin" chance="97102" countmax="130" />
-		<item id="blueberry" chance="25813" countmax="25" />
-		<item id="royal spear" chance="15588" countmax="3" />
-		<item id="strong mana potion" chance="9710" />
-		<item id="jewelled belt" chance="7746" />
-		<item id="small sapphire" chance="6433" />
-		<item id="heavy machete" chance="4930" />
-		<item id="blue piece of cloth" chance="3332" />
-		<item id="seeds" chance="2668" />
-		<item id="blue tapestry" chance="2573" />
-		<item id="hailstorm rod" chance="623" />
-		<item id="noble turban" chance="542" />
-		<item id="wooden flute" chance="379" />
-		<item id="magma monocle" chance="339" />
-		<item id="mystic turban" chance="230" />
-		<item id="small oil lamp" chance="217" />
-		<item id="blue gem" chance="122" />
+		<item name="gold coin" chance="97102" countmax="130" />
+		<item name="blueberry" chance="25813" countmax="25" />
+		<item name="royal spear" chance="15588" countmax="3" />
+		<item name="strong mana potion" chance="9710" />
+		<item name="jewelled belt" chance="7746" />
+		<item name="small sapphire" chance="6433" />
+		<item name="heavy machete" chance="4930" />
+		<item name="blue piece of cloth" chance="3332" />
+		<item name="seeds" chance="2668" />
+		<item name="blue tapestry" chance="2573" />
+		<item name="hailstorm rod" chance="623" />
+		<item name="noble turban" chance="542" />
+		<item name="wooden flute" chance="379" />
+		<item name="magma monocle" chance="339" />
+		<item name="mystic turban" chance="230" />
+		<item name="small oil lamp" chance="217" />
+		<item name="blue gem" chance="122" />
 	</loot>
 </monster>

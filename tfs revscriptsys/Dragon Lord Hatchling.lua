@@ -5,7 +5,7 @@ monster.name = "Dragon Lord Hatchling"
 monster.description = "a dragon lord hatchling"
 monster.experience = 645
 monster.outfit = {
-	lookType = 0,
+	lookType = 272,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,10 +90,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "dragon ham", chance = 79696},
-	{id = "gold coin", chance = 75128, maxCount = 169},
+	{id = "dragon ham", chance = 79699},
+	{id = "gold coin", chance = 75092, maxCount = 169},
 	{id = "green mushroom", chance = 498},
-	{id = "mana potion", chance = 413},
+	{id = "mana potion", chance = 412},
 	{id = "magma boots", chance = 85}
 }
 

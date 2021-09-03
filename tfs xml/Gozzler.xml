@@ -1,6 +1,7 @@
-﻿<monster name="Gozzler" nameDescription="a gozzler" experience="180" speed="240" manacost="800">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Gozzler" nameDescription="a gozzler" experience="180" speed="240" manacost="800">
 	<health now="240" max="240" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="313" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -55,15 +57,15 @@
 		<voice sentence="Nyarnyarnyarnyar." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="82181" countmax="70" />
-		<item id="plate shield" chance="10022" />
-		<item id="brown flask" chance="9041" />
-		<item id="sabre" chance="8144" />
-		<item id="morning star" chance="5122" />
-		<item id="battle axe" chance="3090" />
-		<item id="clerical mace" chance="780" />
-		<item id="small sapphire" chance="392" />
-		<item id="serpent sword" chance="304" />
-		<item id="dwarven ring" chance="205" />
+		<item name="gold coin" chance="82181" countmax="70" />
+		<item name="plate shield" chance="10021" />
+		<item name="brown flask" chance="9041" />
+		<item name="sabre" chance="8146" />
+		<item name="morning star" chance="5123" />
+		<item name="battle axe" chance="3090" />
+		<item name="clerical mace" chance="780" />
+		<item name="small sapphire" chance="392" />
+		<item name="serpent sword" chance="304" />
+		<item name="dwarven ring" chance="205" />
 	</loot>
 </monster>

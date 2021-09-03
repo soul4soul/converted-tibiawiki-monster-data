@@ -5,7 +5,7 @@ monster.name = "Minotaur Guard"
 monster.description = "a minotaur guard"
 monster.experience = 160
 monster.outfit = {
-	lookType = 0,
+	lookType = 29,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,17 +89,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 59671, maxCount = 20},
-	{id = "minotaur horn", chance = 8165, maxCount = 2},
-	{id = "piece of warrior armor", chance = 4989},
+	{id = "gold coin", chance = 59673, maxCount = 20},
+	{id = "minotaur horn", chance = 8163, maxCount = 2},
+	{id = "piece of warrior armor", chance = 4986},
 	{id = "brass armor", chance = 4127},
-	{id = "chain armor", chance = 2974},
-	{id = "battle shield", chance = 2066},
-	{id = "minotaur leather", chance = 954},
-	{id = "fishing rod", chance = 486},
-	{id = "double axe", chance = 438},
-	{id = "health potion", chance = 416},
-	{id = "minotaur trophy", chance = 90}
+	{id = "chain armor", chance = 2975},
+	{id = "battle shield", chance = 2070},
+	{id = "minotaur leather", chance = 953},
+	{id = "fishing rod", chance = 487},
+	{id = "double axe", chance = 439},
+	{id = "health potion", chance = 415},
+	{id = "minotaur trophy", chance = 92}
 }
 
 mType:register(monster)

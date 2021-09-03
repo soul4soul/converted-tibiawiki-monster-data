@@ -1,6 +1,7 @@
-﻿<monster name="Hand Of Cursed Fate" nameDescription="a hand of cursed fate" experience="5000" speed="260" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Hand Of Cursed Fate" nameDescription="a hand of cursed fate" experience="5000" speed="260" manacost="0">
 	<health now="7500" max="7500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="230" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -48,74 +50,33 @@
 		<defense name="healing" interval="2000" chance="20" min="750" max="1875" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="267" />
-		<item id="platinum coin" chance="98150" countmax="7" />
-		<item id="soul orb" chance="30644" />
-		<item id="flask of demonic blood" chance="30022" />
-		<item id="great mana potion" chance="19482" countmax="2" />
-		<item id="ultimate health potion" chance="18890" />
-		<item id="mind stone" chance="15588" />
-		<item id="assassin star" chance="15366" countmax="5" />
-		<item id="small sapphire" chance="14301" countmax="4" />
-		<item id="demonic essence" chance="11784" />
-		<item id="protection amulet" chance="10052" />
-		<item id="yellow gem" chance="5625" />
-		<item id="emerald bangle" chance="5344" />
-		<item id="wand of inferno" chance="4870" />
-		<item id="sudden death rune" chance="4249" countmax="8" />
-		<item id="knight armor" chance="3819" />
-		<item id="energy ring" chance="2132" />
-		<item id="blue gem" chance="1762" />
-		<item id="death ring" chance="1303" />
-		<item id="platinum amulet" chance="1007" />
-		<item id="skull staff" chance="977" />
-		<item id="violet gem" chance="977" />
-		<item id="crown armor" chance="933" />
-		<item id="book (orange)" chance="844" />
-		<item id="gold ingot" chance="548" />
-		<item id="boots of haste" chance="118" />
-		<item id="mysterious voodoo skull" chance="104" />
-		<item id="abyss hammer" chance="44" />
-		<item id="gold coin" chance="3597" countmax="267" />
-		<item id="platinum coin" chance="3316" countmax="7" />
-		<item id="flask of demonic blood" chance="1170" />
-		<item id="soul orb" chance="755" />
-		<item id="ultimate health potion" chance="814" />
-		<item id="great mana potion" chance="740" countmax="2" />
-		<item id="small sapphire" chance="592" countmax="4" />
-		<item id="mind stone" chance="474" />
-		<item id="demonic essence" chance="385" />
-		<item id="assassin star" chance="592" countmax="5" />
-		<item id="emerald bangle" chance="163" />
-		<item id="wand of inferno" chance="163" />
-		<item id="protection amulet" chance="178" />
-		<item id="knight armor" chance="133" />
-		<item id="death ring" chance="89" />
-		<item id="crown armor" chance="59" />
-		<item id="energy ring" chance="59" />
-		<item id="gold ingot" chance="30" />
-		<item id="platinum amulet" chance="30" />
-		<item id="abyss hammer" chance="15" />
-		<item id="book (orange)" chance="30" />
-		<item id="skull staff" chance="15" />
-		<item id="violet gem" chance="15" />
-		<item id="gold coin" chance="3272" countmax="267" />
-		<item id="flask of demonic blood" chance="962" />
-		<item id="onyx arrow" chance="518" countmax="3" />
-		<item id="demonic essence" chance="311" />
-		<item id="platinum coin" chance="281" countmax="5" />
-		<item id="mind stone" chance="237" />
-		<item id="emerald bangle" chance="178" />
-		<item id="soul orb" chance="178" />
-		<item id="small sapphire" chance="148" countmax="4" />
-		<item id="wand of inferno" chance="74" />
-		<item id="knight armor" chance="59" />
-		<item id="protection amulet" chance="44" />
-		<item id="crown armor" chance="30" />
-		<item id="death ring" chance="30" />
-		<item id="abyss hammer" chance="15" />
-		<item id="energy ring" chance="15" />
-		<item id="gold ingot" chance="15" />
-		<item id="platinum amulet" chance="15" />
+		<item name="gold coin" chance="100000" countmax="267" />
+		<item name="platinum coin" chance="98152" countmax="7" />
+		<item name="soul orb" chance="30662" />
+		<item name="flask of demonic blood" chance="30041" />
+		<item name="great mana potion" chance="19471" countmax="2" />
+		<item name="ultimate health potion" chance="18909" />
+		<item name="mind stone" chance="15582" />
+		<item name="assassin star" chance="15346" countmax="5" />
+		<item name="small sapphire" chance="14311" countmax="4" />
+		<item name="demonic essence" chance="11813" />
+		<item name="protection amulet" chance="10068" />
+		<item name="yellow gem" chance="5618" />
+		<item name="emerald bangle" chance="5337" />
+		<item name="wand of inferno" chance="4879" />
+		<item name="sudden death rune" chance="4243" countmax="8" />
+		<item name="knight armor" chance="3814" />
+		<item name="energy ring" chance="2129" />
+		<item name="blue gem" chance="1759" />
+		<item name="death ring" chance="1301" />
+		<item name="platinum amulet" chance="1005" />
+		<item name="skull staff" chance="976" />
+		<item name="violet gem" chance="976" />
+		<item name="crown armor" chance="931" />
+		<item name="book (orange)" chance="843" />
+		<item name="gold ingot" chance="547" />
+		<item name="boots of haste" chance="118" />
+		<item name="mysterious voodoo skull" chance="103" />
+		<item name="abyss hammer" chance="44" />
 	</loot>
 </monster>

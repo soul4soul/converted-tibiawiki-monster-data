@@ -1,6 +1,7 @@
-﻿<monster name="Barbarian Brutetamer" nameDescription="a barbarian brutetamer" experience="90" speed="178" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Barbarian Brutetamer" nameDescription="a barbarian brutetamer" experience="90" speed="178" manacost="0">
 	<health now="145" max="145" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="264" head="78" body="97" legs="95" feet="121" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
@@ -50,17 +52,17 @@
 		<voice sentence="Feel the power of the beast!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="90178" countmax="15" />
-		<item id="corncob" chance="11009" countmax="2" />
-		<item id="chain armor" chance="9132" />
-		<item id="fur bag" chance="7634" />
-		<item id="staff" chance="6506" />
-		<item id="hunting spear" chance="5304" />
-		<item id="book (grey)" chance="4666" />
-		<item id="mana potion" chance="616" />
-		<item id="brutetamer's staff" chance="304" />
-		<item id="fur boots" chance="156" />
-		<item id="mammoth fur cape" chance="134" />
-		<item id="mammoth fur shorts" chance="89" />
+		<item name="gold coin" chance="90174" countmax="15" />
+		<item name="corncob" chance="11012" countmax="2" />
+		<item name="chain armor" chance="9129" />
+		<item name="fur bag" chance="7646" />
+		<item name="staff" chance="6504" />
+		<item name="hunting spear" chance="5302" />
+		<item name="book (grey)" chance="4664" />
+		<item name="mana potion" chance="615" />
+		<item name="brutetamer's staff" chance="304" />
+		<item name="fur boots" chance="156" />
+		<item name="mammoth fur cape" chance="133" />
+		<item name="mammoth fur shorts" chance="89" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Quara Pincher" nameDescription="a quara pincher" experience="1200" speed="396" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Quara Pincher" nameDescription="a quara pincher" experience="1200" speed="396" manacost="0">
 	<health now="1800" max="1800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="77" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="-25" />
+		<element energyPercent="-25" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -48,28 +50,17 @@
 		<voice sentence="Crrrk! Crrrk!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="150" />
-		<item id="platinum coin" chance="40554" />
-		<item id="quara pincers" chance="14679" />
-		<item id="great health potion" chance="10358" />
-		<item id="small ruby" chance="7547" countmax="2" />
-		<item id="halberd" chance="6923" />
-		<item id="shrimp" chance="4951" />
-		<item id="fish fin" chance="1650" />
-		<item id="warrior helmet" chance="1462" />
-		<item id="crown armor" chance="282" />
-		<item id="glacier robe" chance="121" />
-		<item id="giant shrimp" chance="40" />
-		<item id="gold coin" chance="50315" countmax="129" />
-		<item id="quara pincers" chance="9721" />
-		<item id="shrimp" chance="3193" />
-		<item id="halberd" chance="3173" />
-		<item id="small ruby" chance="3079" countmax="2" />
-		<item id="fish fin" chance="966" />
-		<item id="warrior helmet" chance="725" />
-		<item id="great health potion" chance="651" />
-		<item id="crown armor" chance="161" />
-		<item id="glacier robe" chance="60" />
-		<item id="giant shrimp" chance="40" />
+		<item name="gold coin" chance="100000" countmax="150" />
+		<item name="platinum coin" chance="40551" />
+		<item name="quara pincers" chance="14670" />
+		<item name="great health potion" chance="10367" />
+		<item name="small ruby" chance="7546" countmax="2" />
+		<item name="halberd" chance="6916" />
+		<item name="shrimp" chance="4946" />
+		<item name="fish fin" chance="1649" />
+		<item name="warrior helmet" chance="1468" />
+		<item name="crown armor" chance="281" />
+		<item name="glacier robe" chance="121" />
+		<item name="giant shrimp" chance="40" />
 	</loot>
 </monster>

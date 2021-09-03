@@ -1,6 +1,7 @@
-﻿<monster name="Crazed Summer Rearguard" nameDescription="a crazed summer rearguard" experience="4700" speed="400" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Crazed Summer Rearguard" nameDescription="a crazed summer rearguard" experience="4700" speed="400" manacost="0">
 	<health now="5300" max="5300" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1136" head="114" body="94" legs="3" feet="121" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="40" />
 		<element lifedrainPercent="0" />
@@ -47,68 +49,21 @@
 		<voice sentence="Weeeuuu weeeuuu!!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="84728" countmax="11" />
-		<item id="heaven blossom" chance="10460" />
-		<item id="dream essence egg" chance="8021" />
-		<item id="elvish talisman" chance="6960" />
-		<item id="small enchanted ruby" chance="5992" />
-		<item id="violet crystal shard" chance="4587" />
-		<item id="red crystal fragment" chance="4468" />
-		<item id="leaf star" chance="4136" countmax="8" />
-		<item id="ring of blue plasma" chance="2572" />
-		<item id="wood cape" chance="1392" />
-		<item id="yellow gem" chance="1034" />
-		<item id="collar of blue plasma" chance="968" />
-		<item id="sun fruit" chance="835" />
-		<item id="small enchanted sapphire" chance="769" countmax="2" />
-		<item id="small diamond" chance="570" />
-		<item id="crystal crossbow" chance="477" />
-		<item id="platinum coin" chance="133" countmax="10" />
-		<item id="violet crystal shard" chance="27" />
-		<item id="collar of blue plasma" chance="13" />
-		<item id="dream essence egg" chance="13" />
-		<item id="leaf star" chance="13" countmax="4" />
-		<item id="red crystal fragment" chance="13" />
-		<item id="ring of blue plasma" chance="13" />
-		<item id="yellow gem" chance="13" />
-		<item id="platinum coin" chance="77993" countmax="11" />
-		<item id="heaven blossom" chance="9506" />
-		<item id="dream essence egg" chance="7795" />
-		<item id="elvish talisman" chance="6165" />
-		<item id="small enchanted ruby" chance="5051" />
-		<item id="leaf star" chance="4163" countmax="8" />
-		<item id="violet crystal shard" chance="4136" />
-		<item id="red crystal fragment" chance="3924" />
-		<item id="ring of blue plasma" chance="2532" />
-		<item id="wood cape" chance="1326" />
-		<item id="sun fruit" chance="928" />
-		<item id="collar of blue plasma" chance="875" />
-		<item id="yellow gem" chance="782" />
-		<item id="small enchanted sapphire" chance="716" countmax="2" />
-		<item id="small diamond" chance="623" />
-		<item id="crystal crossbow" chance="411" />
-		<item id="platinum coin" chance="1763" countmax="11" />
-		<item id="power bolt" chance="583" countmax="4" />
-		<item id="small stone" chance="477" countmax="9" />
-		<item id="vortex bolt" chance="411" countmax="10" />
-		<item id="cyan crystal fragment" chance="239" />
-		<item id="heaven blossom" chance="225" />
-		<item id="dream essence egg" chance="212" />
-		<item id="crossbow" chance="186" />
-		<item id="royal spear" chance="172" countmax="6" />
-		<item id="violet crystal shard" chance="159" />
-		<item id="small enchanted ruby" chance="119" />
-		<item id="elvish talisman" chance="93" />
-		<item id="leaf star" chance="93" countmax="8" />
-		<item id="red crystal fragment" chance="80" />
-		<item id="throwing knife" chance="80" countmax="4" />
-		<item id="spear" chance="40" countmax="2" />
-		<item id="bow" chance="27" />
-		<item id="viper star" chance="27" />
-		<item id="collar of blue plasma" chance="13" />
-		<item id="ring of blue plasma" chance="13" />
-		<item id="small enchanted sapphire" chance="13" countmax="2" />
-		<item id="sun fruit" chance="13" />
-		<item id="yellow gem" chance="13" />
+		<item name="platinum coin" chance="84691" countmax="11" />
+		<item name="heaven blossom" chance="10443" />
+		<item name="dream essence egg" chance="8029" />
+		<item name="elvish talisman" chance="7013" />
+		<item name="small enchanted ruby" chance="5959" />
+		<item name="violet crystal shard" chance="4599" />
+		<item name="red crystal fragment" chance="4472" />
+		<item name="leaf star" chance="4205" countmax="8" />
+		<item name="ring of blue plasma" chance="2566" />
+		<item name="wood cape" chance="1436" />
+		<item name="yellow gem" chance="1029" />
+		<item name="collar of blue plasma" chance="966" />
+		<item name="sun fruit" chance="839" />
+		<item name="small enchanted sapphire" chance="788" countmax="2" />
+		<item name="small diamond" chance="572" />
+		<item name="crystal crossbow" chance="457" />
 	</loot>
 </monster>

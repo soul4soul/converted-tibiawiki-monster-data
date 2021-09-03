@@ -5,7 +5,7 @@ monster.name = "Quara Hydromancer"
 monster.description = "a quara hydromancer"
 monster.experience = 800
 monster.outfit = {
-	lookType = 0,
+	lookType = 47,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -93,27 +94,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 90425, maxCount = 110},
-	{id = "quara eye", chance = 15532},
-	{id = "white pearl", chance = 5045},
-	{id = "small emerald", chance = 4976, maxCount = 2},
-	{id = "shrimp", chance = 4629},
-	{id = "black pearl", chance = 3152},
-	{id = "great mana potion", chance = 2874},
-	{id = "fish fin", chance = 1437},
-	{id = "ring of healing", chance = 1219},
-	{id = "wand of cosmic energy", chance = 971},
-	{id = "knight armor", chance = 228},
-	{id = "gold coin", chance = 34453, maxCount = 89},
-	{id = "quara eye", chance = 6225},
-	{id = "shrimp", chance = 2894},
-	{id = "black pearl", chance = 1298},
-	{id = "white pearl", chance = 1150},
-	{id = "wand of cosmic energy", chance = 644},
-	{id = "small emerald", chance = 605, maxCount = 2},
-	{id = "great mana potion", chance = 595},
-	{id = "fish fin", chance = 545},
-	{id = "ring of healing", chance = 317},
+	{id = "gold coin", chance = 90413, maxCount = 110},
+	{id = "quara eye", chance = 15514},
+	{id = "white pearl", chance = 5036},
+	{id = "small emerald", chance = 4977, maxCount = 2},
+	{id = "shrimp", chance = 4640},
+	{id = "black pearl", chance = 3156},
+	{id = "great mana potion", chance = 2869},
+	{id = "fish fin", chance = 1435},
+	{id = "ring of healing", chance = 1217},
+	{id = "wand of cosmic energy", chance = 970},
 	{id = "knight armor", chance = 228}
 }
 

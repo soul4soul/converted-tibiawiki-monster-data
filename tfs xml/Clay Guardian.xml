@@ -1,6 +1,7 @@
-﻿<monster name="Clay Guardian" nameDescription="a clay guardian" experience="400" speed="230" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Clay Guardian" nameDescription="a clay guardian" experience="400" speed="230" manacost="0">
 	<health now="625" max="625" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="333" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="25" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -45,12 +47,12 @@
 		<defense name="healing" interval="2000" chance="20" min="40" max="130" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="97667" countmax="164" />
-		<item id="blank rune" chance="25581" />
-		<item id="lump of earth" chance="25018" />
-		<item id="small stone" chance="10327" countmax="10" />
-		<item id="earth arrow" chance="5229" countmax="8" />
-		<item id="clay lump" chance="975" />
-		<item id="small topaz" chance="442" />
+		<item name="gold coin" chance="97660" countmax="164" />
+		<item name="blank rune" chance="25570" />
+		<item name="lump of earth" chance="24997" />
+		<item name="small stone" chance="10314" countmax="10" />
+		<item name="earth arrow" chance="5222" countmax="8" />
+		<item name="clay lump" chance="974" />
+		<item name="small topaz" chance="442" />
 	</loot>
 </monster>

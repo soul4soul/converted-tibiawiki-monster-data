@@ -1,4 +1,5 @@
-﻿<monster name="Sacred Snake" nameDescription="a sacred snake" experience="0" speed="120" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Sacred Snake" nameDescription="a sacred snake" experience="0" speed="120" manacost="0">
 	<health now="10" max="10" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="40" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -40,6 +42,6 @@
 	</elements>
 	<defenses armor="0" defense="0" />
 	<loot>
-		<item id="eggs of a sacred snake" chance="100000" />
+		<item name="eggs of a sacred snake" chance="100000" />
 	</loot>
 </monster>

@@ -5,12 +5,12 @@ monster.name = "Dark Apprentice"
 monster.description = "a dark apprentice"
 monster.experience = 100
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 133,
+	lookHead = 78,
+	lookBody = 57,
+	lookLegs = 95,
+	lookFeet = 115,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,12 +93,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 75041, maxCount = 45},
-	{id = "dead frog", chance = 11903},
-	{id = "blank rune", chance = 8035, maxCount = 3},
-	{id = "mana potion", chance = 2995},
-	{id = "health potion", chance = 2887},
-	{id = "wand of dragonbreath", chance = 2004},
+	{id = "gold coin", chance = 75050, maxCount = 45},
+	{id = "dead frog", chance = 11917},
+	{id = "blank rune", chance = 8036, maxCount = 3},
+	{id = "mana potion", chance = 2992},
+	{id = "health potion", chance = 2884},
+	{id = "wand of dragonbreath", chance = 2002},
 	{id = "wand of decay", chance = 107},
 	{id = "reins", chance = 7}
 }

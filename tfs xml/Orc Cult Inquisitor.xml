@@ -1,6 +1,7 @@
-﻿<monster name="Orc Cult Inquisitor" nameDescription="an orc cult inquisitor" experience="1150" speed="250" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Orc Cult Inquisitor" nameDescription="an orc cult inquisitor" experience="1150" speed="250" manacost="0">
 	<health now="1500" max="1500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="8" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -50,20 +52,20 @@
 		<voice sentence="You unorcish scum will die!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="227" />
-		<item id="bug meat" chance="19504" />
-		<item id="strong health potion" chance="17514" />
-		<item id="orcish gear" chance="16289" />
-		<item id="halberd" chance="11206" />
-		<item id="cultish robe" chance="10043" />
-		<item id="ham" chance="9859" />
-		<item id="orc leather" chance="9002" />
-		<item id="orcish axe" chance="8420" />
-		<item id="red mushroom" chance="7930" countmax="3" />
-		<item id="black pearl" chance="6461" countmax="2" />
-		<item id="battle axe" chance="6307" />
-		<item id="orc tooth" chance="6277" />
-		<item id="small ruby" chance="5297" countmax="5" />
-		<item id="berserk potion" chance="3429" />
+		<item name="gold coin" chance="100000" countmax="228" />
+		<item name="bug meat" chance="19691" />
+		<item name="strong health potion" chance="17855" />
+		<item name="orcish gear" chance="16410" />
+		<item name="halberd" chance="11536" />
+		<item name="ham" chance="10238" />
+		<item name="cultish robe" chance="10091" />
+		<item name="orc leather" chance="9380" />
+		<item name="orcish axe" chance="8376" />
+		<item name="red mushroom" chance="8156" countmax="3" />
+		<item name="black pearl" chance="6368" countmax="2" />
+		<item name="battle axe" chance="6319" />
+		<item name="orc tooth" chance="6270" />
+		<item name="small ruby" chance="5168" countmax="5" />
+		<item name="berserk potion" chance="3135" />
 	</loot>
 </monster>

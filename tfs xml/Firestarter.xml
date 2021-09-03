@@ -1,6 +1,7 @@
-﻿<monster name="Firestarter" nameDescription="a firestarter" experience="80" speed="200" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Firestarter" nameDescription="a firestarter" experience="80" speed="200" manacost="0">
 	<health now="180" max="180" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="159" head="94" body="77" legs="78" feet="79" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="5" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -49,15 +51,15 @@
 		<voice sentence="Set everything on fire!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="78529" countmax="35" />
-		<item id="flaming arrow" chance="29555" countmax="12" />
-		<item id="grapes" chance="19923" />
-		<item id="coal" chance="15305" />
-		<item id="longsword" chance="6037" />
-		<item id="elvish talisman" chance="5005" />
-		<item id="bow" chance="3886" />
-		<item id="heaven blossom" chance="908" />
-		<item id="flintstone" chance="355" />
-		<item id="elvish bow" chance="110" />
+		<item name="gold coin" chance="78466" countmax="35" />
+		<item name="flaming arrow" chance="29573" countmax="12" />
+		<item name="grapes" chance="19937" />
+		<item name="coal" chance="15291" />
+		<item name="longsword" chance="6018" />
+		<item name="elvish talisman" chance="5012" />
+		<item name="bow" chance="3890" />
+		<item name="heaven blossom" chance="908" />
+		<item name="flintstone" chance="357" />
+		<item name="elvish bow" chance="109" />
 	</loot>
 </monster>

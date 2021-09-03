@@ -5,7 +5,7 @@ monster.name = "Tunnel Tyrant"
 monster.description = "a tunnel tyrant"
 monster.experience = 3400
 monster.outfit = {
-	lookType = 0,
+	lookType = 1035,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -96,31 +97,7 @@ monster.loot = {
 	{id = "suspicious device", chance = 2283},
 	{id = "energy vein", chance = 1826},
 	{id = "blue gem", chance = 913},
-	{id = "crystal mace", chance = 913},
-	{id = "tunnel tyrant shell", chance = 100000},
-	{id = "tunnel tyrant head", chance = 100000},
-	{id = "lump of dirt", chance = 99087},
-	{id = "small enchanted sapphire", chance = 99087},
-	{id = "small enchanted ruby", chance = 66210},
-	{id = "violet gem", chance = 63014},
-	{id = "blue gem", chance = 30137},
-	{id = "energy vein", chance = 24658},
-	{id = "crystal mace", chance = 21005},
-	{id = "green gem", chance = 18265},
-	{id = "suspicious device", chance = 13699},
-	{id = "crystalline armor", chance = 5023},
-	{id = "tunnel tyrant shell", chance = 100000},
-	{id = "tunnel tyrant head", chance = 55708},
-	{id = "small enchanted sapphire", chance = 55251},
-	{id = "lump of dirt", chance = 47489},
-	{id = "small enchanted ruby", chance = 42009},
-	{id = "violet gem", chance = 31507},
-	{id = "blue gem", chance = 13242},
-	{id = "energy vein", chance = 12329},
-	{id = "green gem", chance = 10046},
-	{id = "crystal mace", chance = 5479},
-	{id = "suspicious device", chance = 4566},
-	{id = "crystalline armor", chance = 4110}
+	{id = "crystal mace", chance = 913}
 }
 
 mType:register(monster)

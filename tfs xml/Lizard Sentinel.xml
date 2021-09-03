@@ -1,6 +1,7 @@
-﻿<monster name="Lizard Sentinel" nameDescription="a lizard sentinel" experience="110" speed="180" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lizard Sentinel" nameDescription="a lizard sentinel" experience="110" speed="180" manacost="0">
 	<health now="265" max="265" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="114" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -46,29 +48,17 @@
 		<voice sentence="Tssss!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="86470" countmax="54" />
-		<item id="spear" chance="10084" countmax="3" />
-		<item id="chain armor" chance="9202" />
-		<item id="scale armor" chance="8020" />
-		<item id="hunting spear" chance="4428" />
-		<item id="lizard leather" chance="2242" />
-		<item id="lizard scale" chance="2041" />
-		<item id="halberd" chance="1506" />
-		<item id="obsidian lance" chance="1327" />
-		<item id="health potion" chance="1205" />
-		<item id="sentinel shield" chance="368" />
-		<item id="small diamond" chance="89" />
-		<item id="gold coin" chance="66135" countmax="80" />
-		<item id="spear" chance="6603" countmax="3" />
-		<item id="chain armor" chance="6280" />
-		<item id="scale armor" chance="5722" />
-		<item id="hunting spear" chance="3525" />
-		<item id="obsidian lance" chance="848" />
-		<item id="lizard leather" chance="747" />
-		<item id="lizard scale" chance="747" />
-		<item id="health potion" chance="446" />
-		<item id="halberd" chance="379" />
-		<item id="sentinel shield" chance="245" />
-		<item id="small diamond" chance="145" />
+		<item name="gold coin" chance="86470" countmax="54" />
+		<item name="spear" chance="10084" countmax="3" />
+		<item name="chain armor" chance="9202" />
+		<item name="scale armor" chance="8020" />
+		<item name="hunting spear" chance="4428" />
+		<item name="lizard leather" chance="2242" />
+		<item name="lizard scale" chance="2041" />
+		<item name="halberd" chance="1506" />
+		<item name="obsidian lance" chance="1327" />
+		<item name="health potion" chance="1205" />
+		<item name="sentinel shield" chance="368" />
+		<item name="small diamond" chance="89" />
 	</loot>
 </monster>

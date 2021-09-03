@@ -5,7 +5,7 @@ monster.name = "Animated Snowman"
 monster.description = "an animated snowman"
 monster.experience = 400
 monster.outfit = {
-	lookType = 0,
+	lookType = 1159,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -94,16 +95,7 @@ monster.loot = {
 	{id = "hailstorm rod", chance = 3101},
 	{id = "glacier mask", chance = 2907},
 	{id = "moonlight rod", chance = 2132},
-	{id = "glacier kilt", chance = 969},
-	{id = "gold coin", chance = 100000, maxCount = 50},
-	{id = "twig arms", chance = 97287},
-	{id = "shiver arrow", chance = 7752, maxCount = 5},
-	{id = "ice rapier", chance = 5039},
-	{id = "glacier mask", chance = 4845},
-	{id = "hailstorm rod", chance = 3682},
-	{id = "glacier amulet", chance = 3488},
-	{id = "moonlight rod", chance = 1938},
-	{id = "glacier kilt", chance = 1163}
+	{id = "glacier kilt", chance = 969}
 }
 
 mType:register(monster)

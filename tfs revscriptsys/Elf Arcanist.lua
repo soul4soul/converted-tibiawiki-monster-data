@@ -5,7 +5,7 @@ monster.name = "Elf Arcanist"
 monster.description = "an elf arcanist"
 monster.experience = 175
 monster.outfit = {
-	lookType = 0,
+	lookType = 63,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,27 +93,27 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 37138, maxCount = 49},
-	{id = "scroll", chance = 30407},
-	{id = "melon", chance = 21835},
-	{id = "blank rune", chance = 17865},
-	{id = "bread", chance = 13919},
-	{id = "elvish talisman", chance = 10086},
-	{id = "elven astral observer", chance = 7791},
-	{id = "green tunic", chance = 7295},
-	{id = "arrow", chance = 6147, maxCount = 3},
-	{id = "sling herb", chance = 4835},
-	{id = "health potion", chance = 4019},
-	{id = "strong mana potion", chance = 3032},
-	{id = "candlestick", chance = 2166},
-	{id = "elven amulet", chance = 2055},
+	{id = "gold coin", chance = 37153, maxCount = 49},
+	{id = "scroll", chance = 30433},
+	{id = "melon", chance = 21813},
+	{id = "blank rune", chance = 17899},
+	{id = "bread", chance = 13931},
+	{id = "elvish talisman", chance = 10097},
+	{id = "elven astral observer", chance = 7806},
+	{id = "green tunic", chance = 7314},
+	{id = "arrow", chance = 6137, maxCount = 3},
+	{id = "sling herb", chance = 4857},
+	{id = "health potion", chance = 4028},
+	{id = "strong mana potion", chance = 3013},
+	{id = "candlestick", chance = 2181},
+	{id = "elven amulet", chance = 2056},
 	{id = "holy orchid", chance = 2052},
-	{id = "wand of cosmic energy", chance = 1133},
-	{id = "life crystal", chance = 1056},
-	{id = "sandals", chance = 980},
-	{id = "inkwell", chance = 946},
-	{id = "grave flower", chance = 805},
-	{id = "yellow gem", chance = 46}
+	{id = "wand of cosmic energy", chance = 1132},
+	{id = "life crystal", chance = 1052},
+	{id = "sandals", chance = 973},
+	{id = "inkwell", chance = 943},
+	{id = "grave flower", chance = 810},
+	{id = "yellow gem", chance = 45}
 }
 
 mType:register(monster)

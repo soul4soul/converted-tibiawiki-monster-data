@@ -1,4 +1,5 @@
-﻿<monster name="Glooth Bomb" nameDescription="a glooth bomb" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Glooth Bomb" nameDescription="a glooth bomb" experience="0" speed="0" manacost="0">
 	<health now="250000" max="250000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="85" />
-		<element EnergyPercent="85" />
+		<element energyPercent="85" />
 		<element earthPercent="85" />
 		<element firePercent="85" />
 		<element lifedrainPercent="85" />
@@ -45,30 +47,17 @@
 		<defense name="healing" interval="2000" chance="20" min="25000" max="62500" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="60000" countmax="86" />
-		<item id="great health potion" chance="40000" countmax="13" />
-		<item id="great mana potion" chance="40000" countmax="13" />
-		<item id="great spirit potion" chance="40000" countmax="11" />
-		<item id="platinum coin" chance="40000" countmax="27" />
-		<item id="moohtant horn" chance="33333" countmax="2" />
-		<item id="small ruby" chance="20000" />
-		<item id="yellow gem" chance="13333" />
-		<item id="red piece of cloth" chance="6667" />
-		<item id="ring of healing" chance="6667" />
-		<item id="small diamond" chance="6667" countmax="5" />
-		<item id="small topaz" chance="6667" countmax="3" />
-		<item id="great health potion" chance="46667" countmax="13" />
-		<item id="great mana potion" chance="46667" countmax="13" />
-		<item id="great spirit potion" chance="46667" countmax="11" />
-		<item id="platinum coin" chance="46667" countmax="27" />
-		<item id="moohtant horn" chance="40000" countmax="2" />
-		<item id="red piece of cloth" chance="20000" />
-		<item id="small topaz" chance="20000" countmax="3" />
-		<item id="ring of healing" chance="13333" />
-		<item id="small diamond" chance="13333" countmax="5" />
-		<item id="small ruby" chance="13333" />
-		<item id="glooth glider gear wheel" chance="6667" />
-		<item id="gold ingot" chance="6667" />
-		<item id="yellow gem" chance="6667" />
+		<item name="gold coin" chance="60000" countmax="86" />
+		<item name="great health potion" chance="40000" countmax="13" />
+		<item name="great mana potion" chance="40000" countmax="13" />
+		<item name="great spirit potion" chance="40000" countmax="11" />
+		<item name="platinum coin" chance="40000" countmax="27" />
+		<item name="moohtant horn" chance="33333" countmax="2" />
+		<item name="small ruby" chance="20000" />
+		<item name="yellow gem" chance="13333" />
+		<item name="red piece of cloth" chance="6667" />
+		<item name="ring of healing" chance="6667" />
+		<item name="small diamond" chance="6667" countmax="5" />
+		<item name="small topaz" chance="6667" countmax="3" />
 	</loot>
 </monster>

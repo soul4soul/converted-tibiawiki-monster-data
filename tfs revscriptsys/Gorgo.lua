@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -97,18 +98,7 @@ monster.loot = {
 	{id = "terra amulet", chance = 48571},
 	{id = "titan axe", chance = 42857},
 	{id = "terra mantle", chance = 34286},
-	{id = "terra legs", chance = 28571},
-	{id = "medusa shield", chance = 82857},
-	{id = "strand of medusa hair", chance = 82857},
-	{id = "platinum coin", chance = 80000, maxCount = 16},
-	{id = "great mana potion", chance = 54286, maxCount = 2},
-	{id = "titan axe", chance = 51429},
-	{id = "sacred tree amulet", chance = 40000},
-	{id = "small emerald", chance = 40000, maxCount = 4},
-	{id = "ultimate health potion", chance = 40000, maxCount = 2},
-	{id = "terra amulet", chance = 34286},
-	{id = "terra mantle", chance = 34286},
-	{id = "terra legs", chance = 31429}
+	{id = "terra legs", chance = 28571}
 }
 
 mType:register(monster)

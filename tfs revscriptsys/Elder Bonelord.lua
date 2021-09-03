@@ -5,7 +5,7 @@ monster.name = "Elder Bonelord"
 monster.description = "an elder bonelord"
 monster.experience = 280
 monster.outfit = {
-	lookType = 0,
+	lookType = 108,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -101,18 +102,7 @@ monster.loot = {
 	{id = "strong mana potion", chance = 838},
 	{id = "giant eye", chance = 454},
 	{id = "bonelord shield", chance = 86},
-	{id = "bonelord helmet", chance = 84},
-	{id = "gold coin", chance = 11020, maxCount = 87},
-	{id = "elder bonelord tentacle", chance = 2332},
-	{id = "small flask of eyedrops", chance = 1133},
-	{id = "sniper arrow", chance = 974, maxCount = 4},
-	{id = "two handed sword", chance = 304},
-	{id = "steel shield", chance = 260},
-	{id = "strong mana potion", chance = 101},
-	{id = "giant eye", chance = 90},
-	{id = "spellbook", chance = 90},
-	{id = "bonelord helmet", chance = 18},
-	{id = "bonelord shield", chance = 11}
+	{id = "bonelord helmet", chance = 84}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Seacrest Serpent" nameDescription="a seacrest serpent" experience="2600" speed="500" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Seacrest Serpent" nameDescription="a seacrest serpent" experience="2600" speed="500" manacost="0">
 	<health now="3000" max="3000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="675" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="10" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -49,25 +51,25 @@
 		<voice sentence="THE DARK TIDE WILL SWALLOW YOU..." yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="seacrest scale" chance="16742" />
-		<item id="dragon ham" chance="14551" />
-		<item id="seacrest hair" chance="11281" />
-		<item id="shiver arrow" chance="8401" countmax="19" />
-		<item id="strong mana potion" chance="8101" countmax="2" />
-		<item id="seacrest pearl" chance="6901" />
-		<item id="strong health potion" chance="6841" countmax="2" />
-		<item id="small diamond" chance="4560" countmax="3" />
-		<item id="soul orb" chance="3420" />
-		<item id="glacier kilt" chance="2430" />
-		<item id="white pearl" chance="2370" countmax="2" />
-		<item id="glacier mask" chance="2100" />
-		<item id="black pearl" chance="1830" countmax="3" />
-		<item id="glacier shoes" chance="1680" />
-		<item id="giant shimmering pearl (green)" chance="1560" />
-		<item id="wand of draconia" chance="990" />
-		<item id="crest of the deep seas" chance="930" />
-		<item id="glacier amulet" chance="840" />
-		<item id="wand of defiance" chance="270" />
+		<item name="platinum coin" chance="100000" countmax="5" />
+		<item name="seacrest scale" chance="17002" />
+		<item name="dragon ham" chance="14470" />
+		<item name="seacrest hair" chance="11566" />
+		<item name="shiver arrow" chance="8513" countmax="19" />
+		<item name="strong mana potion" chance="7918" countmax="2" />
+		<item name="strong health potion" chance="7247" countmax="2" />
+		<item name="seacrest pearl" chance="6776" />
+		<item name="small diamond" chance="4443" countmax="3" />
+		<item name="soul orb" chance="3649" />
+		<item name="glacier kilt" chance="2432" />
+		<item name="white pearl" chance="2333" countmax="2" />
+		<item name="black pearl" chance="2035" countmax="3" />
+		<item name="glacier mask" chance="1961" />
+		<item name="glacier shoes" chance="1688" />
+		<item name="giant shimmering pearl (green)" chance="1440" />
+		<item name="crest of the deep seas" chance="968" />
+		<item name="wand of draconia" chance="943" />
+		<item name="glacier amulet" chance="869" />
+		<item name="wand of defiance" chance="223" />
 	</loot>
 </monster>

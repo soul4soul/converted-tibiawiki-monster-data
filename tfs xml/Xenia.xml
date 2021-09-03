@@ -1,4 +1,5 @@
-﻿<monster name="Xenia" nameDescription="" experience="255" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Xenia" nameDescription="" experience="255" speed="0" manacost="0">
 	<health now="200" max="200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -47,9 +49,9 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="skull" chance="100000" countmax="2" />
-		<item id="gold coin" chance="66667" countmax="34" />
-		<item id="sabre" chance="33333" />
-		<item id="studded shield" chance="33333" />
+		<item name="skull" chance="100000" countmax="2" />
+		<item name="gold coin" chance="66667" countmax="34" />
+		<item name="sabre" chance="33333" />
+		<item name="studded shield" chance="33333" />
 	</loot>
 </monster>

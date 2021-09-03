@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -85,9 +86,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 90909, maxCount = 680},
-	{id = "fir cone", chance = 45455, maxCount = 3},
-	{id = "dowser", chance = 36364, maxCount = 2}
+	{id = "gold coin", chance = 85714, maxCount = 680},
+	{id = "fir cone", chance = 42857, maxCount = 3},
+	{id = "dowser", chance = 35714, maxCount = 2}
 }
 
 mType:register(monster)

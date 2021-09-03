@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -104,20 +105,7 @@ monster.loot = {
 	{id = "spellbook of mind control", chance = 16438},
 	{id = "life ring", chance = 12329},
 	{id = "royal helmet", chance = 2740},
-	{id = "swamplair armor", chance = 2740},
-	{id = "great mana potion", chance = 16438, maxCount = 4},
-	{id = "platinum coin", chance = 15068, maxCount = 5},
-	{id = "power bolt", chance = 10959, maxCount = 30},
-	{id = "mercenary sword", chance = 9589},
-	{id = "noble axe", chance = 9589},
-	{id = "assassin star", chance = 8219, maxCount = 99},
-	{id = "claw of 'the noxious spawn'", chance = 6849},
-	{id = "life ring", chance = 6849},
-	{id = "snake skin", chance = 2740},
-	{id = "tower shield", chance = 2740},
-	{id = "winged tail", chance = 2740},
-	{id = "golden mug", chance = 1370},
-	{id = "green mushroom", chance = 1370}
+	{id = "swamplair armor", chance = 2740}
 }
 
 mType:register(monster)

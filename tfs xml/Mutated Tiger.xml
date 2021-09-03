@@ -1,6 +1,7 @@
-﻿<monster name="Mutated Tiger" nameDescription="a mutated tiger" experience="750" speed="200" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mutated Tiger" nameDescription="a mutated tiger" experience="750" speed="200" manacost="0">
 	<health now="1100" max="1100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="318" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="80" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -49,25 +51,15 @@
 		<voice sentence="CHHHHHHHHHHH" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="176" />
-		<item id="meat" chance="29791" />
-		<item id="striped fur" chance="20629" />
-		<item id="sabretooth" chance="11255" />
-		<item id="strong health potion" chance="6017" countmax="2" />
-		<item id="life ring" chance="5996" countmax="2" />
-		<item id="glorious axe" chance="1042" />
-		<item id="silky tapestry" chance="928" />
-		<item id="guardian shield" chance="474" />
-		<item id="angelic axe" chance="412" />
-		<item id="gold coin" chance="22088" countmax="105" />
-		<item id="meat" chance="6723" />
-		<item id="striped fur" chance="2104" />
-		<item id="life ring" chance="1289" />
-		<item id="sabretooth" chance="572" />
-		<item id="glorious axe" chance="232" />
-		<item id="strong health potion" chance="211" />
-		<item id="silky tapestry" chance="186" />
-		<item id="guardian shield" chance="150" />
-		<item id="angelic axe" chance="119" />
+		<item name="gold coin" chance="100000" countmax="176" />
+		<item name="meat" chance="29801" />
+		<item name="striped fur" chance="20645" />
+		<item name="sabretooth" chance="11208" />
+		<item name="strong health potion" chance="6009" countmax="2" />
+		<item name="life ring" chance="5973" countmax="2" />
+		<item name="glorious axe" chance="1039" />
+		<item name="silky tapestry" chance="937" />
+		<item name="guardian shield" chance="469" />
+		<item name="angelic axe" chance="412" />
 	</loot>
 </monster>

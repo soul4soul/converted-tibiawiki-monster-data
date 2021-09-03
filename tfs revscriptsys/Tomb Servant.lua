@@ -5,7 +5,7 @@ monster.name = "Tomb Servant"
 monster.description = "a tomb servant"
 monster.experience = 215
 monster.outfit = {
-	lookType = 0,
+	lookType = 100,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,14 +89,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 82236, maxCount = 109},
-	{id = "bone", chance = 50272},
-	{id = "worm", chance = 24724, maxCount = 12},
-	{id = "scarab coin", chance = 7993},
-	{id = "longsword", chance = 6463},
+	{id = "gold coin", chance = 82226, maxCount = 109},
+	{id = "bone", chance = 50263},
+	{id = "worm", chance = 24721, maxCount = 12},
+	{id = "scarab coin", chance = 7977},
+	{id = "longsword", chance = 6460},
 	{id = "bone shield", chance = 5198},
-	{id = "rotten meat", chance = 1738},
-	{id = "fist on a stick", chance = 184}
+	{id = "rotten meat", chance = 1741},
+	{id = "fist on a stick", chance = 192}
 }
 
 mType:register(monster)

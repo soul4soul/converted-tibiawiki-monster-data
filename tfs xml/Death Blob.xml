@@ -1,6 +1,7 @@
-﻿<monster name="Death Blob" nameDescription="a death blob" experience="300" speed="160" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Death Blob" nameDescription="a death blob" experience="300" speed="160" manacost="0">
 	<health now="320" max="320" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="315" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
@@ -51,6 +53,6 @@
 		<voice name="death blob" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="glob of tar" chance="18580" />
+		<item name="glob of tar" chance="18651" />
 	</loot>
 </monster>

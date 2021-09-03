@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,14 +87,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "great mana potion", chance = 10885},
-	{id = "wand of inferno", chance = 7913},
-	{id = "grappling hook", chance = 7212},
-	{id = "pirate coin", chance = 6477, maxCount = 10},
-	{id = "pirat's tail", chance = 4775},
-	{id = "wand of starstorm", chance = 4574},
-	{id = "springsprout rod", chance = 3907},
-	{id = "wand of voodoo", chance = 2938}
+	{id = "great mana potion", chance = 10795},
+	{id = "wand of inferno", chance = 8009},
+	{id = "grappling hook", chance = 7217},
+	{id = "pirate coin", chance = 6426, maxCount = 10},
+	{id = "pirat's tail", chance = 5002},
+	{id = "wand of starstorm", chance = 4558},
+	{id = "springsprout rod", chance = 3862},
+	{id = "wand of voodoo", chance = 2912}
 }
 
 mType:register(monster)

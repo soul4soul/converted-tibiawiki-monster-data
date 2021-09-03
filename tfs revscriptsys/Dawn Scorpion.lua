@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,7 +87,6 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 4},
 	{id = "gold coin", chance = 100000, maxCount = 4}
 }
 

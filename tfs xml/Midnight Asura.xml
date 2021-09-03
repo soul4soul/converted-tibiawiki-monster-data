@@ -1,6 +1,7 @@
-﻿<monster name="Midnight Asura" nameDescription="a midnight asura" experience="4100" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Midnight Asura" nameDescription="a midnight asura" experience="4100" speed="240" manacost="0">
 	<health now="3100" max="3100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="150" head="0" body="114" legs="90" feet="90" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="-10" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -50,65 +52,35 @@
 		<voice sentence="May night fall upon you!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="80569" countmax="6" />
-		<item id="gold coin" chance="70296" countmax="100" />
-		<item id="flask of demonic blood" chance="14775" />
-		<item id="soul orb" chance="13698" />
-		<item id="golden lotus brooch" chance="12774" />
-		<item id="demonic essence" chance="10543" />
-		<item id="peacock feather fan" chance="10196" />
-		<item id="great health potion" chance="8119" countmax="2" />
-		<item id="small diamond" chance="6541" countmax="3" />
-		<item id="white pearl" chance="5925" countmax="2" />
-		<item id="assassin star" chance="5848" countmax="5" />
-		<item id="small sapphire" chance="4886" countmax="3" />
-		<item id="silver brooch" chance="3848" />
-		<item id="black pearl" chance="3809" countmax="2" />
-		<item id="small ruby" chance="3540" countmax="2" />
-		<item id="small emerald" chance="2963" countmax="2" />
-		<item id="small topaz" chance="2770" countmax="2" />
-		<item id="necrotic rod" chance="2578" />
-		<item id="tribal mask" chance="2078" />
-		<item id="yellow gem" chance="1039" />
-		<item id="silver amulet" chance="1000" />
-		<item id="underworld rod" chance="539" />
-		<item id="crystal ring" chance="500" />
-		<item id="blue robe" chance="385" />
-		<item id="oriental shoes" chance="385" />
-		<item id="blue gem" chance="346" />
-		<item id="assassin dagger" chance="192" />
-		<item id="gold ingot" chance="192" />
-		<item id="skullcracker armor" chance="192" />
-		<item id="spellbook of mind control" chance="154" />
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="platinum coin" chance="100000" countmax="6" />
-		<item id="flask of demonic blood" chance="87380" />
-		<item id="soul orb" chance="86918" />
-		<item id="golden lotus brooch" chance="79261" />
-		<item id="peacock feather fan" chance="69488" />
-		<item id="demonic essence" chance="65602" />
-		<item id="great health potion" chance="52559" countmax="2" />
-		<item id="assassin star" chance="42863" countmax="5" />
-		<item id="white pearl" chance="37168" countmax="2" />
-		<item id="small diamond" chance="34706" countmax="3" />
-		<item id="small sapphire" chance="34052" countmax="3" />
-		<item id="silver brooch" chance="22239" />
-		<item id="black pearl" chance="20431" countmax="2" />
-		<item id="small topaz" chance="19738" countmax="2" />
-		<item id="small emerald" chance="19123" countmax="2" />
-		<item id="small ruby" chance="19046" countmax="2" />
-		<item id="necrotic rod" chance="16275" />
-		<item id="tribal mask" chance="12582" />
-		<item id="silver amulet" chance="7541" />
-		<item id="yellow gem" chance="5040" />
-		<item id="underworld rod" chance="4848" />
-		<item id="blue robe" chance="3540" />
-		<item id="assassin dagger" chance="2616" />
-		<item id="oriental shoes" chance="2501" />
-		<item id="crystal ring" chance="2116" />
-		<item id="blue gem" chance="1424" />
-		<item id="skullcracker armor" chance="1154" />
-		<item id="gold ingot" chance="962" />
-		<item id="spellbook of mind control" chance="731" />
+		<item name="platinum coin" chance="80584" countmax="6" />
+		<item name="gold coin" chance="70231" countmax="100" />
+		<item name="flask of demonic blood" chance="14941" />
+		<item name="soul orb" chance="13690" />
+		<item name="golden lotus brooch" chance="12856" />
+		<item name="demonic essence" chance="10429" />
+		<item name="peacock feather fan" chance="10087" />
+		<item name="great health potion" chance="8191" countmax="2" />
+		<item name="small diamond" chance="6485" countmax="3" />
+		<item name="white pearl" chance="5992" countmax="2" />
+		<item name="assassin star" chance="5916" countmax="5" />
+		<item name="small sapphire" chance="4854" countmax="3" />
+		<item name="silver brooch" chance="3830" />
+		<item name="black pearl" chance="3792" countmax="2" />
+		<item name="small ruby" chance="3641" countmax="2" />
+		<item name="small emerald" chance="2958" countmax="2" />
+		<item name="small topaz" chance="2806" countmax="2" />
+		<item name="necrotic rod" chance="2579" />
+		<item name="tribal mask" chance="2086" />
+		<item name="yellow gem" chance="1062" />
+		<item name="silver amulet" chance="986" />
+		<item name="crystal ring" chance="531" />
+		<item name="underworld rod" chance="531" />
+		<item name="blue robe" chance="417" />
+		<item name="oriental shoes" chance="417" />
+		<item name="blue gem" chance="341" />
+		<item name="assassin dagger" chance="190" />
+		<item name="gold ingot" chance="190" />
+		<item name="skullcracker armor" chance="190" />
+		<item name="spellbook of mind control" chance="152" />
 	</loot>
 </monster>

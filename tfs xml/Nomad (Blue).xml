@@ -1,6 +1,7 @@
-﻿<monster name="Nomad" nameDescription="a nomad" experience="60" speed="190" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Nomad" nameDescription="a nomad" experience="60" speed="190" manacost="0">
 	<health now="160" max="160" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="146" head="104" body="48" legs="49" feet="3" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -43,15 +45,15 @@
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<loot>
-		<item id="Gold Coin" chance="35000" countmax="40" />
-		<item id="Rope Belt" chance="15000" />
-		<item id="Axe" chance="2500" />
-		<item id="Mace" chance="2500" />
-		<item id="Brass Armor" chance="2500" />
-		<item id="Potato" chance="2500" countmax="3" />
-		<item id="Dirty Turban" chance="2500" />
-		<item id="Iron Helmet" chance="7500" />
-		<item id="Steel Shield" chance="7500" />
-		<item id="Nomad Parchment" chance="4000" />
+		<item name="Gold Coin" chance="35000" countmax="40" />
+		<item name="Rope Belt" chance="15000" />
+		<item name="Axe" chance="2500" />
+		<item name="Mace" chance="2500" />
+		<item name="Brass Armor" chance="2500" />
+		<item name="Potato" chance="2500" countmax="3" />
+		<item name="Dirty Turban" chance="2500" />
+		<item name="Iron Helmet" chance="7500" />
+		<item name="Steel Shield" chance="7500" />
+		<item name="Nomad Parchment" chance="4000" />
 	</loot>
 </monster>

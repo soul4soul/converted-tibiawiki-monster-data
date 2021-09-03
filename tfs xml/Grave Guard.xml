@@ -1,6 +1,7 @@
-﻿<monster name="Grave Guard" nameDescription="a grave guard" experience="485" speed="200" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grave Guard" nameDescription="a grave guard" experience="485" speed="200" manacost="0">
 	<health now="720" max="720" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="234" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="90" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -43,12 +45,12 @@
 	</attacks>
 	<defenses armor="35" defense="35" />
 	<loot>
-		<item id="gold coin" chance="95509" countmax="129" />
-		<item id="grave flower" chance="70005" />
-		<item id="mana potion" chance="20467" />
-		<item id="health potion" chance="19906" />
-		<item id="scarab coin" chance="4764" />
-		<item id="death ring" chance="2276" />
-		<item id="daramian waraxe" chance="956" />
+		<item name="gold coin" chance="95509" countmax="129" />
+		<item name="grave flower" chance="70005" />
+		<item name="mana potion" chance="20467" />
+		<item name="health potion" chance="19906" />
+		<item name="scarab coin" chance="4764" />
+		<item name="death ring" chance="2276" />
+		<item name="daramian waraxe" chance="956" />
 	</loot>
 </monster>

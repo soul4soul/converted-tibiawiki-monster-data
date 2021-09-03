@@ -1,4 +1,5 @@
-﻿<monster name="The Brainstealer" nameDescription="" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Brainstealer" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -50,24 +52,26 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="crystal coin" chance="100000" countmax="2" />
-		<item id="moonstone" chance="44828" />
-		<item id="ultimate mana potion" chance="44828" countmax="6" />
-		<item id="supreme health potion" chance="34483" countmax="6" />
-		<item id="white gem" chance="34483" />
-		<item id="great mana potion" chance="20690" countmax="10" />
-		<item id="ultimate health potion" chance="20690" countmax="5" />
-		<item id="ultimate spirit potion" chance="20690" countmax="6" />
-		<item id="bullseye potion" chance="17241" countmax="10" />
-		<item id="platinum coin" chance="17241" countmax="15" />
-		<item id="berserk potion" chance="13793" countmax="10" />
-		<item id="brainstealer's tissue" chance="13793" />
-		<item id="mastermind potion" chance="10345" countmax="10" />
-		<item id="violet gem" chance="10345" />
-		<item id="eldritch claymore" chance="6897" />
-		<item id="eldritch crystal" chance="6897" />
-		<item id="eldritch breeches" chance="3448" />
-		<item id="eldritch cowl" chance="3448" />
-		<item id="giant sapphire" chance="3448" />
+		<item name="crystal coin" chance="100000" countmax="2" />
+		<item name="ultimate mana potion" chance="48077" countmax="6" />
+		<item name="white gem" chance="44231" />
+		<item name="ultimate health potion" chance="40385" countmax="5" />
+		<item name="moonstone" chance="36538" />
+		<item name="platinum coin" chance="32692" countmax="15" />
+		<item name="supreme health potion" chance="30769" countmax="6" />
+		<item name="great mana potion" chance="21154" countmax="10" />
+		<item name="mastermind potion" chance="21154" countmax="10" />
+		<item name="ultimate spirit potion" chance="21154" countmax="6" />
+		<item name="berserk potion" chance="19231" countmax="10" />
+		<item name="bullseye potion" chance="15385" countmax="10" />
+		<item name="brainstealer's tissue" chance="13462" />
+		<item name="violet gem" chance="9615" />
+		<item name="great health potion" chance="5769" countmax="10" />
+		<item name="eldritch claymore" chance="3846" />
+		<item name="eldritch crystal" chance="3846" />
+		<item name="diabolic skull" chance="1923" />
+		<item name="eldritch breeches" chance="1923" />
+		<item name="eldritch cowl" chance="1923" />
+		<item name="giant sapphire" chance="1923" />
 	</loot>
 </monster>

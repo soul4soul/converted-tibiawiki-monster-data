@@ -1,6 +1,7 @@
-﻿<monster name="Deepling Worker" nameDescription="a deepling worker" experience="130" speed="130" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Deepling Worker" nameDescription="a deepling worker" experience="130" speed="130" manacost="0">
 	<health now="190" max="190" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="470" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -46,12 +48,12 @@
 		<voice sentence="Qjell afar gou jey!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="75530" countmax="25" />
-		<item id="fish" chance="11896" countmax="3" />
-		<item id="deepling scales" chance="6889" />
-		<item id="heavy trident" chance="496" />
-		<item id="fish fin" chance="333" />
-		<item id="eye of a deepling" chance="291" />
-		<item id="small emerald" chance="121" />
+		<item name="gold coin" chance="75548" countmax="25" />
+		<item name="fish" chance="11910" countmax="3" />
+		<item name="deepling scales" chance="6902" />
+		<item name="heavy trident" chance="495" />
+		<item name="fish fin" chance="332" />
+		<item name="eye of a deepling" chance="302" />
+		<item name="small emerald" chance="121" />
 	</loot>
 </monster>

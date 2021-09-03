@@ -5,7 +5,7 @@ monster.name = "Kongra"
 monster.description = "a kongra"
 monster.experience = 115
 monster.outfit = {
-	lookType = 0,
+	lookType = 116,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -98,16 +99,7 @@ monster.loot = {
 	{id = "ape fur", chance = 969},
 	{id = "health potion", chance = 508},
 	{id = "power ring", chance = 310},
-	{id = "club ring", chance = 196},
-	{id = "gold coin", chance = 35507, maxCount = 40},
-	{id = "banana", chance = 12282, maxCount = 12},
-	{id = "kongra's shoulderpad", chance = 1992},
-	{id = "ape fur", chance = 394},
-	{id = "protection amulet", chance = 394},
-	{id = "plate armor", chance = 387},
-	{id = "health potion", chance = 219},
-	{id = "power ring", chance = 116},
-	{id = "club ring", chance = 89}
+	{id = "club ring", chance = 196}
 }
 
 mType:register(monster)

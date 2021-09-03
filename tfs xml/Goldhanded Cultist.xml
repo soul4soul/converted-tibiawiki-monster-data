@@ -1,6 +1,7 @@
-﻿<monster name="Goldhanded Cultist" nameDescription="a goldhanded cultist" experience="2000" speed="300" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Goldhanded Cultist" nameDescription="a goldhanded cultist" experience="2000" speed="300" manacost="0">
 	<health now="3000" max="3000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="132" head="114" body="79" legs="62" feet="94" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="17" />
+		<element energyPercent="17" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -47,15 +49,15 @@
 		<voice sentence="You can't ever be rich enough!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="49486" countmax="250" />
-		<item id="golden brush" chance="23354" />
-		<item id="tiger eye" chance="16358" />
-		<item id="opal" chance="11317" />
-		<item id="yellow gem" chance="5556" />
-		<item id="green gem" chance="4938" />
-		<item id="golden bag" chance="2881" />
-		<item id="golden backpack" chance="2778" />
-		<item id="gold ingot" chance="1337" />
-		<item id="platinum coin" chance="823" countmax="10" />
+		<item name="gold coin" chance="50087" countmax="250" />
+		<item name="golden brush" chance="22609" />
+		<item name="tiger eye" chance="16435" />
+		<item name="opal" chance="10522" />
+		<item name="yellow gem" chance="5565" />
+		<item name="green gem" chance="4870" />
+		<item name="golden backpack" chance="2957" />
+		<item name="golden bag" chance="2870" />
+		<item name="gold ingot" chance="1478" />
+		<item name="platinum coin" chance="783" countmax="10" />
 	</loot>
 </monster>

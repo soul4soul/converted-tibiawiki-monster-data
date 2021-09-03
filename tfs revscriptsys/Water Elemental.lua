@@ -5,7 +5,7 @@ monster.name = "Water Elemental"
 monster.description = "a water elemental"
 monster.experience = 650
 monster.outfit = {
-	lookType = 0,
+	lookType = 286,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,28 +90,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99202, maxCount = 100},
-	{id = "platinum coin", chance = 24518},
-	{id = "fish", chance = 20294},
-	{id = "strong health potion", chance = 9995},
-	{id = "strong mana potion", chance = 9791},
-	{id = "small diamond", chance = 2634},
-	{id = "small emerald", chance = 2548, maxCount = 2},
-	{id = "energy ring", chance = 1033},
-	{id = "rainbow trout", chance = 1006},
-	{id = "life ring", chance = 974},
-	{id = "green perch", chance = 948},
-	{id = "gold coin", chance = 91365, maxCount = 100},
-	{id = "fish", chance = 36354},
-	{id = "strong health potion", chance = 18517},
-	{id = "strong mana potion", chance = 18223},
-	{id = "platinum coin", chance = 17832},
-	{id = "small emerald", chance = 1986, maxCount = 2},
-	{id = "green perch", chance = 1879},
-	{id = "energy ring", chance = 1815},
-	{id = "small diamond", chance = 1809},
-	{id = "rainbow trout", chance = 1718},
-	{id = "life ring", chance = 1692}
+	{id = "gold coin", chance = 99250, maxCount = 100},
+	{id = "platinum coin", chance = 24573},
+	{id = "fish", chance = 20202},
+	{id = "strong health potion", chance = 9990},
+	{id = "strong mana potion", chance = 9769},
+	{id = "small diamond", chance = 2588},
+	{id = "small emerald", chance = 2568, maxCount = 2},
+	{id = "energy ring", chance = 1068},
+	{id = "rainbow trout", chance = 1007},
+	{id = "green perch", chance = 997},
+	{id = "life ring", chance = 977}
 }
 
 mType:register(monster)

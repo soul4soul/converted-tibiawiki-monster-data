@@ -5,7 +5,7 @@ monster.name = "Silver Rabbit"
 monster.description = "a silver rabbit"
 monster.experience = 0
 monster.outfit = {
-	lookType = 0,
+	lookType = 262,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,9 +87,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 85918},
-	{id = "silky fur", chance = 30031},
-	{id = "carrot", chance = 10140}
+	{id = "meat", chance = 85969},
+	{id = "silky fur", chance = 29974},
+	{id = "carrot", chance = 10129}
 }
 
 mType:register(monster)

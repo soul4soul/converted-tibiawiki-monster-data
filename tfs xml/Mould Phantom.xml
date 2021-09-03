@@ -1,4 +1,5 @@
-﻿<monster name="Mould Phantom" nameDescription="a mould phantom" experience="19500" speed="480" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mould Phantom" nameDescription="a mould phantom" experience="19500" speed="480" manacost="0">
 	<health now="28000" max="28000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="50" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -45,47 +47,19 @@
 		<voice sentence="The earth will take you back." yell="false" />
 	</voices>
 	<loot>
-		<item id="crystal coin" chance="58395" />
-		<item id="gold ingot" chance="11598" />
-		<item id="wand of starstorm" chance="4161" />
-		<item id="mould heart" chance="4013" />
-		<item id="green gem" chance="3976" />
-		<item id="wand of defiance" chance="3277" />
-		<item id="violet gem" chance="2946" />
-		<item id="blue gem" chance="2393" />
-		<item id="mould robe" chance="2283" />
-		<item id="wand of voodoo" chance="1951" />
-		<item id="collar of blue plasma" chance="1289" />
-		<item id="ornate crossbow" chance="773" />
-		<item id="ring of blue plasma" chance="700" />
-		<item id="crystal crossbow" chance="552" />
-		<item id="crystal coin" chance="48049" />
-		<item id="gold ingot" chance="10052" />
-		<item id="mould heart" chance="3866" />
-		<item id="green gem" chance="3498" />
-		<item id="wand of starstorm" chance="3498" />
-		<item id="wand of defiance" chance="2909" />
-		<item id="violet gem" chance="2320" />
-		<item id="blue gem" chance="2062" />
-		<item id="mould robe" chance="1878" />
-		<item id="wand of voodoo" chance="1620" />
-		<item id="collar of blue plasma" chance="1178" />
-		<item id="crystal crossbow" chance="663" />
-		<item id="ring of blue plasma" chance="663" />
-		<item id="ornate crossbow" chance="442" />
-		<item id="crystal coin" chance="18225" />
-		<item id="gold ingot" chance="3940" />
-		<item id="green gem" chance="1289" />
-		<item id="mould heart" chance="1105" />
-		<item id="wand of starstorm" chance="920" />
-		<item id="wand of defiance" chance="810" />
-		<item id="violet gem" chance="773" />
-		<item id="blue gem" chance="663" />
-		<item id="wand of voodoo" chance="589" />
-		<item id="mould robe" chance="479" />
-		<item id="crystal crossbow" chance="405" />
-		<item id="ornate crossbow" chance="258" />
-		<item id="collar of blue plasma" chance="221" />
-		<item id="ring of blue plasma" chance="221" />
+		<item name="crystal coin" chance="58758" />
+		<item name="gold ingot" chance="11886" />
+		<item name="mould heart" chance="4171" />
+		<item name="green gem" chance="4078" />
+		<item name="wand of starstorm" chance="4055" />
+		<item name="wand of defiance" chance="3128" />
+		<item name="violet gem" chance="2989" />
+		<item name="mould robe" chance="2317" />
+		<item name="blue gem" chance="2178" />
+		<item name="wand of voodoo" chance="2132" />
+		<item name="collar of blue plasma" chance="1158" />
+		<item name="ring of blue plasma" chance="834" />
+		<item name="ornate crossbow" chance="741" />
+		<item name="crystal crossbow" chance="626" />
 	</loot>
 </monster>

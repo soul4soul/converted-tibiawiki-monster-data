@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -98,18 +99,7 @@ monster.loot = {
 	{id = "halberd", chance = 28205},
 	{id = "epee", chance = 25641},
 	{id = "terra mantle", chance = 10256},
-	{id = "stone herb", chance = 5128},
-	{id = "gold coin", chance = 88462, maxCount = 148},
-	{id = "mutated rat tail", chance = 88462},
-	{id = "platinum coin", chance = 88462, maxCount = 4},
-	{id = "ring of healing", chance = 88462},
-	{id = "knight armor", chance = 39744},
-	{id = "tower shield", chance = 35897},
-	{id = "halberd", chance = 25641},
-	{id = "epee", chance = 14103},
-	{id = "stone herb", chance = 7692},
-	{id = "small ruby", chance = 3846, maxCount = 2},
-	{id = "terra mantle", chance = 3846}
+	{id = "stone herb", chance = 5128}
 }
 
 mType:register(monster)

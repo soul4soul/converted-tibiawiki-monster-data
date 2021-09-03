@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,20 +88,20 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 18},
-	{id = "gold ingot", chance = 21235},
-	{id = "violet crystal shard", chance = 11605},
-	{id = "lavaworm spike roots", chance = 6914},
-	{id = "violet gem", chance = 4938},
-	{id = "green gem", chance = 3951},
-	{id = "lavaworm spikes", chance = 3457},
-	{id = "blue crystal shard", chance = 2716},
-	{id = "butterfly ring", chance = 2469},
-	{id = "underworld rod", chance = 2222},
-	{id = "lavaworm jaws", chance = 1975},
-	{id = "warrior helmet", chance = 1975},
-	{id = "wand of voodoo", chance = 1728},
-	{id = "strange helmet", chance = 741},
-	{id = "crusader helmet", chance = 494}
+	{id = "gold ingot", chance = 20394},
+	{id = "violet crystal shard", chance = 10912},
+	{id = "lavaworm spike roots", chance = 6798},
+	{id = "violet gem", chance = 5546},
+	{id = "lavaworm spikes", chance = 4651},
+	{id = "green gem", chance = 3757},
+	{id = "butterfly ring", chance = 2862},
+	{id = "underworld rod", chance = 2862},
+	{id = "blue crystal shard", chance = 2326},
+	{id = "lavaworm jaws", chance = 2147},
+	{id = "warrior helmet", chance = 1789},
+	{id = "wand of voodoo", chance = 1252},
+	{id = "crusader helmet", chance = 894},
+	{id = "strange helmet", chance = 537}
 }
 
 mType:register(monster)

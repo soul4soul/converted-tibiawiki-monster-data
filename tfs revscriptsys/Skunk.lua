@@ -5,7 +5,7 @@ monster.name = "Skunk"
 monster.description = "a skunk"
 monster.experience = 3
 monster.outfit = {
-	lookType = 0,
+	lookType = 106,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,8 +88,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bulb of garlic", chance = 4464},
-	{id = "skunk tail", chance = 886}
+	{id = "bulb of garlic", chance = 4455},
+	{id = "skunk tail", chance = 884}
 }
 
 mType:register(monster)

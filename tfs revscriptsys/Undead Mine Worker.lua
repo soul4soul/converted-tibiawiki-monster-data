@@ -5,7 +5,7 @@ monster.name = "Undead Mine Worker"
 monster.description = "an undead mine worker"
 monster.experience = 45
 monster.outfit = {
-	lookType = 0,
+	lookType = 33,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,12 +90,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bone", chance = 50156},
-	{id = "gold coin", chance = 43672, maxCount = 10},
-	{id = "mace", chance = 19531},
-	{id = "white mushroom", chance = 17109, maxCount = 3},
-	{id = "brown mushroom", chance = 4063},
-	{id = "sword", chance = 2109}
+	{id = "bone", chance = 50480},
+	{id = "gold coin", chance = 44238, maxCount = 10},
+	{id = "mace", chance = 19448},
+	{id = "white mushroom", chance = 17287, maxCount = 3},
+	{id = "brown mushroom", chance = 4922},
+	{id = "sword", chance = 1861}
 }
 
 mType:register(monster)

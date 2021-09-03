@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -93,13 +94,7 @@ monster.loot = {
 	{id = "some leaves", chance = 19140},
 	{id = "natural soil", chance = 3995},
 	{id = "clay lump", chance = 834},
-	{id = "coal", chance = 439},
-	{id = "gold coin", chance = 47454, maxCount = 128},
-	{id = "small stone", chance = 24363, maxCount = 5},
-	{id = "some leaves", chance = 12072},
-	{id = "lump of earth", chance = 12028},
-	{id = "natural soil", chance = 2414},
-	{id = "clay lump", chance = 702}
+	{id = "coal", chance = 439}
 }
 
 mType:register(monster)

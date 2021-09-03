@@ -5,7 +5,7 @@ monster.name = "Ghastly Dragon"
 monster.description = "a ghastly dragon"
 monster.experience = 4600
 monster.outfit = {
-	lookType = 0,
+	lookType = 351,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -114,29 +115,7 @@ monster.loot = {
 	{id = "spellweaver's robe", chance = 722},
 	{id = "guardian boots", chance = 216},
 	{id = "zaoan helmet", chance = 177},
-	{id = "zaoan sword", chance = 88},
-	{id = "gold coin", chance = 11271, maxCount = 264},
-	{id = "platinum coin", chance = 3346, maxCount = 2},
-	{id = "undead heart", chance = 2270},
-	{id = "soul orb", chance = 1405},
-	{id = "great health potion", chance = 1189},
-	{id = "demonic essence", chance = 1115},
-	{id = "zaoan halberd", chance = 929},
-	{id = "ghastly dragon head", chance = 791},
-	{id = "ultimate health potion", chance = 555},
-	{id = "twin hooks", chance = 491},
-	{id = "great spirit potion", chance = 472},
-	{id = "slightly rusted armor", chance = 295},
-	{id = "zaoan shoes", chance = 152},
-	{id = "zaoan legs", chance = 128},
-	{id = "shiny stone", chance = 118},
-	{id = "zaoan armor", chance = 93},
-	{id = "spellweaver's robe", chance = 88},
-	{id = "jade hat", chance = 74},
-	{id = "drakinata", chance = 64},
-	{id = "guardian boots", chance = 34},
-	{id = "zaoan helmet", chance = 10},
-	{id = "zaoan sword", chance = 5}
+	{id = "zaoan sword", chance = 88}
 }
 
 mType:register(monster)

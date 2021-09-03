@@ -5,12 +5,12 @@ monster.name = "Cult Believer"
 monster.description = "a cult believer"
 monster.experience = 850
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 132,
+	lookHead = 98,
+	lookBody = 96,
+	lookLegs = 39,
+	lookFeet = 38,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,13 +90,13 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 70},
-	{id = "meat", chance = 12887},
-	{id = "great health potion", chance = 6065},
-	{id = "cultish robe", chance = 4431},
-	{id = "small diamond", chance = 2544},
-	{id = "small amethyst", chance = 2460},
-	{id = "small emerald", chance = 2401},
-	{id = "scarf", chance = 1019},
+	{id = "meat", chance = 12872},
+	{id = "great health potion", chance = 6083},
+	{id = "cultish robe", chance = 4419},
+	{id = "small diamond", chance = 2546},
+	{id = "small amethyst", chance = 2462},
+	{id = "small emerald", chance = 2395},
+	{id = "scarf", chance = 1017},
 	{id = "might ring", chance = 168},
 	{id = "piggy bank", chance = 84}
 }

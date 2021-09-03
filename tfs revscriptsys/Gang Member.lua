@@ -5,11 +5,11 @@ monster.name = "Gang Member"
 monster.description = "a gang member"
 monster.experience = 70
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 151,
+	lookHead = 114,
+	lookBody = 19,
+	lookLegs = 23,
+	lookFeet = 40,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -91,12 +92,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 48699, maxCount = 30},
-	{id = "leather legs", chance = 15732},
-	{id = "mace", chance = 8849},
-	{id = "brown bread", chance = 5379},
-	{id = "studded legs", chance = 5003},
-	{id = "club ring", chance = 1041}
+	{id = "gold coin", chance = 48869, maxCount = 30},
+	{id = "leather legs", chance = 15692},
+	{id = "mace", chance = 9046},
+	{id = "brown bread", chance = 5295},
+	{id = "studded legs", chance = 5130},
+	{id = "club ring", chance = 1020}
 }
 
 mType:register(monster)

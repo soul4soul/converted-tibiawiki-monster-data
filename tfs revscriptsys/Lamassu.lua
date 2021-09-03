@@ -5,11 +5,11 @@ monster.name = "Lamassu"
 monster.description = "a lamassu"
 monster.experience = 9000
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
+	lookType = 1190,
+	lookHead = 50,
+	lookBody = 2,
 	lookLegs = 0,
-	lookFeet = 0,
+	lookFeet = 76,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,30 +88,25 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000},
-	{id = "lamassu horn", chance = 13838},
-	{id = "red gem", chance = 13701, maxCount = 2},
-	{id = "red crystal fragment", chance = 10566},
-	{id = "blue crystal shard", chance = 10429, maxCount = 2},
-	{id = "violet crystal shard", chance = 8998, maxCount = 2},
-	{id = "terra amulet", chance = 7771},
-	{id = "lamassu hoof", chance = 7362},
-	{id = "terra hood", chance = 6885},
-	{id = "small emerald", chance = 4908},
-	{id = "opal", chance = 4567},
-	{id = "onyx chip", chance = 3272},
-	{id = "rainbow quartz", chance = 2931, maxCount = 2},
-	{id = "green crystal splinter", chance = 2386},
-	{id = "elven amulet", chance = 1977},
-	{id = "green crystal fragment", chance = 1977},
-	{id = "sacred tree amulet", chance = 1840},
-	{id = "violet gem", chance = 1840},
-	{id = "blue gem", chance = 1500},
-	{id = "green crystal shard", chance = 750},
-	{id = "platinum coin", chance = 204},
-	{id = "lamassu hoof", chance = 68},
-	{id = "lamassu horn", chance = 68},
-	{id = "terra amulet", chance = 68},
-	{id = "violet crystal shard", chance = 68}
+	{id = "lamassu horn", chance = 13932},
+	{id = "red gem", chance = 13798, maxCount = 2},
+	{id = "red crystal fragment", chance = 10516},
+	{id = "blue crystal shard", chance = 10248, maxCount = 2},
+	{id = "violet crystal shard", chance = 9042, maxCount = 2},
+	{id = "terra amulet", chance = 7837},
+	{id = "lamassu hoof", chance = 7368},
+	{id = "terra hood", chance = 6765},
+	{id = "small emerald", chance = 4956},
+	{id = "opal", chance = 4689},
+	{id = "onyx chip", chance = 3349},
+	{id = "rainbow quartz", chance = 2947, maxCount = 2},
+	{id = "green crystal splinter", chance = 2344},
+	{id = "green crystal fragment", chance = 2009},
+	{id = "elven amulet", chance = 1942},
+	{id = "sacred tree amulet", chance = 1942},
+	{id = "violet gem", chance = 1808},
+	{id = "blue gem", chance = 1541},
+	{id = "green crystal shard", chance = 737}
 }
 
 mType:register(monster)

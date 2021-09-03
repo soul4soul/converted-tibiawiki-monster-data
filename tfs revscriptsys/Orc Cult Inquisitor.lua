@@ -5,7 +5,7 @@ monster.name = "Orc Cult Inquisitor"
 monster.description = "an orc cult inquisitor"
 monster.experience = 1150
 monster.outfit = {
-	lookType = 0,
+	lookType = 8,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,21 +89,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 227},
-	{id = "bug meat", chance = 19504},
-	{id = "strong health potion", chance = 17514},
-	{id = "orcish gear", chance = 16289},
-	{id = "halberd", chance = 11206},
-	{id = "cultish robe", chance = 10043},
-	{id = "ham", chance = 9859},
-	{id = "orc leather", chance = 9002},
-	{id = "orcish axe", chance = 8420},
-	{id = "red mushroom", chance = 7930, maxCount = 3},
-	{id = "black pearl", chance = 6461, maxCount = 2},
-	{id = "battle axe", chance = 6307},
-	{id = "orc tooth", chance = 6277},
-	{id = "small ruby", chance = 5297, maxCount = 5},
-	{id = "berserk potion", chance = 3429}
+	{id = "gold coin", chance = 100000, maxCount = 228},
+	{id = "bug meat", chance = 19691},
+	{id = "strong health potion", chance = 17855},
+	{id = "orcish gear", chance = 16410},
+	{id = "halberd", chance = 11536},
+	{id = "ham", chance = 10238},
+	{id = "cultish robe", chance = 10091},
+	{id = "orc leather", chance = 9380},
+	{id = "orcish axe", chance = 8376},
+	{id = "red mushroom", chance = 8156, maxCount = 3},
+	{id = "black pearl", chance = 6368, maxCount = 2},
+	{id = "battle axe", chance = 6319},
+	{id = "orc tooth", chance = 6270},
+	{id = "small ruby", chance = 5168, maxCount = 5},
+	{id = "berserk potion", chance = 3135}
 }
 
 mType:register(monster)

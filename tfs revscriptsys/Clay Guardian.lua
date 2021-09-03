@@ -5,7 +5,7 @@ monster.name = "Clay Guardian"
 monster.description = "a clay guardian"
 monster.experience = 400
 monster.outfit = {
-	lookType = 0,
+	lookType = 333,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,12 +88,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 97667, maxCount = 164},
-	{id = "blank rune", chance = 25581},
-	{id = "lump of earth", chance = 25018},
-	{id = "small stone", chance = 10327, maxCount = 10},
-	{id = "earth arrow", chance = 5229, maxCount = 8},
-	{id = "clay lump", chance = 975},
+	{id = "gold coin", chance = 97660, maxCount = 164},
+	{id = "blank rune", chance = 25570},
+	{id = "lump of earth", chance = 24997},
+	{id = "small stone", chance = 10314, maxCount = 10},
+	{id = "earth arrow", chance = 5222, maxCount = 8},
+	{id = "clay lump", chance = 974},
 	{id = "small topaz", chance = 442}
 }
 

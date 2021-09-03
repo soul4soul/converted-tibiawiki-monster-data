@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,16 +91,7 @@ monster.loot = {
 	{id = "carrot", chance = 42857, maxCount = 4},
 	{id = "swampling club", chance = 10714},
 	{id = "torch", chance = 10714},
-	{id = "leather helmet", chance = 7143},
-	{id = "gold coin", chance = 100000, maxCount = 22},
-	{id = "carrot", chance = 96429, maxCount = 4},
-	{id = "swampling club", chance = 39286},
-	{id = "leather legs", chance = 25000},
-	{id = "minotaur horn", chance = 21429},
-	{id = "leather helmet", chance = 7143},
-	{id = "mana potion", chance = 7143},
-	{id = "torch", chance = 7143},
-	{id = "purple robe", chance = 3571}
+	{id = "leather helmet", chance = 7143}
 }
 
 mType:register(monster)

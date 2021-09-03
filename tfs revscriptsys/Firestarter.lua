@@ -5,11 +5,11 @@ monster.name = "Firestarter"
 monster.description = "a firestarter"
 monster.experience = 80
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 159,
+	lookHead = 94,
+	lookBody = 77,
+	lookLegs = 78,
+	lookFeet = 79,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,16 +93,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 78529, maxCount = 35},
-	{id = "flaming arrow", chance = 29555, maxCount = 12},
-	{id = "grapes", chance = 19923},
-	{id = "coal", chance = 15305},
-	{id = "longsword", chance = 6037},
-	{id = "elvish talisman", chance = 5005},
-	{id = "bow", chance = 3886},
+	{id = "gold coin", chance = 78466, maxCount = 35},
+	{id = "flaming arrow", chance = 29573, maxCount = 12},
+	{id = "grapes", chance = 19937},
+	{id = "coal", chance = 15291},
+	{id = "longsword", chance = 6018},
+	{id = "elvish talisman", chance = 5012},
+	{id = "bow", chance = 3890},
 	{id = "heaven blossom", chance = 908},
-	{id = "flintstone", chance = 355},
-	{id = "elvish bow", chance = 110}
+	{id = "flintstone", chance = 357},
+	{id = "elvish bow", chance = 109}
 }
 
 mType:register(monster)

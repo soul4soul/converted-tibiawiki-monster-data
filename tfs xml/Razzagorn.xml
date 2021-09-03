@@ -1,4 +1,5 @@
-﻿<monster name="Razzagorn" nameDescription="" experience="50000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Razzagorn" nameDescription="" experience="50000" speed="0" manacost="0">
 	<health now="290000" max="290000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="40" />
 		<element lifedrainPercent="0" />
@@ -45,23 +47,23 @@
 		<defense name="healing" interval="2000" chance="20" min="0" max="0" />
 	</defenses>
 	<loot>
-		<item id="demonic essence" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="great mana potion" chance="100000" countmax="5" />
-		<item id="onyx chip" chance="100000" countmax="5" />
-		<item id="opal" chance="100000" countmax="5" />
-		<item id="platinum coin" chance="100000" countmax="30" />
-		<item id="silver token" chance="100000" />
-		<item id="flask of demonic blood" chance="66667" />
-		<item id="ultimate health potion" chance="66667" countmax="5" />
-		<item id="blue gem" chance="33333" />
-		<item id="great spirit potion" chance="33333" countmax="5" />
-		<item id="orichalcum pearl" chance="33333" countmax="5" />
-		<item id="red gem" chance="33333" />
-		<item id="rift crossbow" chance="33333" />
-		<item id="small diamond" chance="33333" countmax="5" />
-		<item id="small emerald" chance="33333" countmax="5" />
-		<item id="small ruby" chance="33333" countmax="5" />
-		<item id="violet gem" chance="33333" />
+		<item name="demonic essence" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="great mana potion" chance="100000" countmax="5" />
+		<item name="onyx chip" chance="100000" countmax="5" />
+		<item name="opal" chance="100000" countmax="5" />
+		<item name="platinum coin" chance="100000" countmax="30" />
+		<item name="silver token" chance="100000" />
+		<item name="flask of demonic blood" chance="66667" />
+		<item name="ultimate health potion" chance="66667" countmax="5" />
+		<item name="blue gem" chance="33333" />
+		<item name="great spirit potion" chance="33333" countmax="5" />
+		<item name="orichalcum pearl" chance="33333" countmax="5" />
+		<item name="red gem" chance="33333" />
+		<item name="rift crossbow" chance="33333" />
+		<item name="small diamond" chance="33333" countmax="5" />
+		<item name="small emerald" chance="33333" countmax="5" />
+		<item name="small ruby" chance="33333" countmax="5" />
+		<item name="violet gem" chance="33333" />
 	</loot>
 </monster>

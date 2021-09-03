@@ -1,4 +1,5 @@
-﻿<monster name="Streaked Devourer" nameDescription="a streaked devourer" experience="6300" speed="250" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Streaked Devourer" nameDescription="a streaked devourer" experience="6300" speed="250" manacost="0">
 	<health now="7000" max="7000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -43,21 +45,21 @@
 	</attacks>
 	<defenses armor="62" defense="62" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="24" />
-		<item id="gold ingot" chance="15438" />
-		<item id="streaked devourer maw" chance="13825" />
-		<item id="streaked devourer eyes" chance="8756" />
-		<item id="red gem" chance="5760" />
-		<item id="streaked devourer legs" chance="5530" />
-		<item id="yellow gem" chance="2995" />
-		<item id="mercenary sword" chance="1613" />
-		<item id="relic sword" chance="1613" />
-		<item id="noble axe" chance="1152" />
-		<item id="war axe" chance="1152" />
-		<item id="warrior's axe" chance="1152" />
-		<item id="guardian halberd" chance="922" />
-		<item id="ornate crossbow" chance="922" />
-		<item id="crystal mace" chance="691" />
-		<item id="giant sword" chance="691" />
+		<item name="platinum coin" chance="100000" countmax="24" />
+		<item name="gold ingot" chance="14052" />
+		<item name="streaked devourer maw" chance="12582" />
+		<item name="streaked devourer eyes" chance="8824" />
+		<item name="red gem" chance="6046" />
+		<item name="streaked devourer legs" chance="5065" />
+		<item name="yellow gem" chance="3431" />
+		<item name="mercenary sword" chance="1797" />
+		<item name="ornate crossbow" chance="1307" />
+		<item name="crystal mace" chance="1144" />
+		<item name="noble axe" chance="1144" />
+		<item name="relic sword" chance="1144" />
+		<item name="warrior's axe" chance="1144" />
+		<item name="giant sword" chance="980" />
+		<item name="war axe" chance="817" />
+		<item name="guardian halberd" chance="654" />
 	</loot>
 </monster>

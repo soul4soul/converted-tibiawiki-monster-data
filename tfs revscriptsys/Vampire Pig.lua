@@ -5,7 +5,7 @@ monster.name = "Vampire Pig"
 monster.description = "a vampire pig"
 monster.experience = 165
 monster.outfit = {
-	lookType = 0,
+	lookType = 60,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,7 +89,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 90116, maxCount = 40}
+	{id = "gold coin", chance = 89517, maxCount = 40}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Dragon Hatchling" nameDescription="a dragon hatchling" experience="185" speed="146" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dragon Hatchling" nameDescription="a dragon hatchling" experience="185" speed="146" manacost="0">
 	<health now="380" max="380" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="271" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="75" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -49,9 +51,9 @@
 		<voice sentence="Rooawwrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="81586" countmax="55" />
-		<item id="dragon ham" chance="74070" />
-		<item id="dragon's tail" chance="4630" />
-		<item id="health potion" chance="466" />
+		<item name="gold coin" chance="81597" countmax="55" />
+		<item name="dragon ham" chance="74093" />
+		<item name="dragon's tail" chance="4625" />
+		<item name="health potion" chance="465" />
 	</loot>
 </monster>

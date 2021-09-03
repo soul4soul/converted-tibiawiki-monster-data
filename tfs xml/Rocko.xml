@@ -1,4 +1,5 @@
-﻿<monster name="Rocko" nameDescription="" experience="3400" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Rocko" nameDescription="" experience="3400" speed="0" manacost="0">
 	<health now="10000" max="10000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="15" />
-		<element EnergyPercent="25" />
+		<element energyPercent="25" />
 		<element earthPercent="100" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />

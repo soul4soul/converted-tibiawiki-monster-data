@@ -1,4 +1,5 @@
-﻿<monster name="Tarbaz" nameDescription="a Tarbaz" experience="55000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tarbaz" nameDescription="a Tarbaz" experience="55000" speed="0" manacost="0">
 	<health now="290000" max="290000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,20 +45,20 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="flask of demonic blood" chance="100000" />
-		<item id="energy ring" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="great mana potion" chance="100000" countmax="5" />
-		<item id="green crystal shard" chance="100000" countmax="3" />
-		<item id="platinum coin" chance="100000" countmax="25" />
-		<item id="silver token" chance="100000" />
-		<item id="small topaz" chance="100000" countmax="5" />
-		<item id="ultimate health potion" chance="100000" countmax="5" />
-		<item id="yellow gem" chance="100000" />
-		<item id="blue crystal shard" chance="50000" countmax="3" />
-		<item id="chaos mace" chance="50000" />
-		<item id="demonic essence" chance="50000" />
-		<item id="rift shield" chance="50000" />
-		<item id="underworld rod" chance="50000" />
+		<item name="flask of demonic blood" chance="100000" />
+		<item name="energy ring" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="great mana potion" chance="100000" countmax="5" />
+		<item name="green crystal shard" chance="100000" countmax="3" />
+		<item name="platinum coin" chance="100000" countmax="25" />
+		<item name="silver token" chance="100000" />
+		<item name="small topaz" chance="100000" countmax="5" />
+		<item name="ultimate health potion" chance="100000" countmax="5" />
+		<item name="yellow gem" chance="100000" />
+		<item name="blue crystal shard" chance="50000" countmax="3" />
+		<item name="chaos mace" chance="50000" />
+		<item name="demonic essence" chance="50000" />
+		<item name="rift shield" chance="50000" />
+		<item name="underworld rod" chance="50000" />
 	</loot>
 </monster>

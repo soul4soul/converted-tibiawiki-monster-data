@@ -5,7 +5,7 @@ monster.name = "Chicken"
 monster.description = "a chicken"
 monster.experience = 0
 monster.outfit = {
-	lookType = 0,
+	lookType = 111,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,7 +88,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "chicken feather", chance = 19647},
+	{id = "chicken feather", chance = 19646},
 	{id = "worm", chance = 9626},
 	{id = "meat", chance = 1996},
 	{id = "egg", chance = 964}

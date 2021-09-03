@@ -1,4 +1,5 @@
-﻿<monster name="Bony Sea Devil" nameDescription="a bony sea devil" experience="19470" speed="440" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Bony Sea Devil" nameDescription="a bony sea devil" experience="19470" speed="440" manacost="0">
 	<health now="24000" max="24000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="40" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -44,25 +46,25 @@
 		<voice sentence="Clank." yell="false" />
 	</voices>
 	<loot>
-		<item id="Crystal Coin" chance="35000" />
-		<item id="Ultimate Health Potion" chance="15000" />
-		<item id="Giant Shimmering Pearl (Brown)" chance="15000" />
-		<item id="Gold Ingot" chance="15000" />
-		<item id="Giant Shimmering Pearl (Green)" chance="2500" />
-		<item id="Glacier Kilt" chance="2500" />
-		<item id="Violet Gem" chance="2500" />
-		<item id="Hailstorm Rod" chance="2500" />
-		<item id="Underworld Rod" chance="2500" />
-		<item id="Northwind Rod" chance="2500" />
-		<item id="Wand of Voodoo" chance="2500" />
-		<item id="Green Crystal Fragment" chance="2500" />
-		<item id="Onyx Chip" chance="2500" />
-		<item id="Rainbow Quartz" chance="2500" />
-		<item id="Rod (Creature Product)" chance="2500" />
-		<item id="Jaws" chance="2500" />
-		<item id="Glacial Rod" chance="7500" />
-		<item id="Skullcracker Armor" chance="7500" />
-		<item id="Goblet of Gloom" chance="7500" />
-		<item id="Bag You Desire" chance="4000" />
+		<item name="Crystal Coin" chance="35000" />
+		<item name="Ultimate Health Potion" chance="15000" />
+		<item name="Giant Shimmering Pearl (Brown)" chance="15000" />
+		<item name="Gold Ingot" chance="15000" />
+		<item name="Giant Shimmering Pearl (Green)" chance="2500" />
+		<item name="Glacier Kilt" chance="2500" />
+		<item name="Violet Gem" chance="2500" />
+		<item name="Hailstorm Rod" chance="2500" />
+		<item name="Underworld Rod" chance="2500" />
+		<item name="Northwind Rod" chance="2500" />
+		<item name="Wand of Voodoo" chance="2500" />
+		<item name="Green Crystal Fragment" chance="2500" />
+		<item name="Onyx Chip" chance="2500" />
+		<item name="Rainbow Quartz" chance="2500" />
+		<item name="Rod (Creature Product)" chance="2500" />
+		<item name="Jaws" chance="2500" />
+		<item name="Glacial Rod" chance="7500" />
+		<item name="Skullcracker Armor" chance="7500" />
+		<item name="Goblet of Gloom" chance="7500" />
+		<item name="Bag You Desire" chance="4000" />
 	</loot>
 </monster>

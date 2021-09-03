@@ -1,6 +1,7 @@
-﻿<monster name="Dwarf Soldier" nameDescription="a dwarf soldier" experience="70" speed="176" manacost="360">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dwarf Soldier" nameDescription="a dwarf soldier" experience="70" speed="176" manacost="360">
 	<health now="135" max="135" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="71" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="10" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -49,17 +51,17 @@
 		<voice sentence="Hail Durin!" yell="false" />
 	</voices>
 	<loot>
-		<item id="white mushroom" chance="39891" countmax="2" />
-		<item id="bolt" chance="37823" countmax="7" />
-		<item id="gold coin" chance="28340" countmax="12" />
-		<item id="soldier helmet" chance="11794" />
-		<item id="shovel" chance="10022" />
-		<item id="chain armor" chance="7509" />
-		<item id="piercing bolt" chance="3821" countmax="3" />
-		<item id="dwarven shield" chance="3060" />
-		<item id="crossbow" chance="3037" />
-		<item id="battle axe" chance="2478" />
-		<item id="iron ore" chance="304" />
-		<item id="axe ring" chance="122" />
+		<item name="white mushroom" chance="39889" countmax="2" />
+		<item name="bolt" chance="37823" countmax="7" />
+		<item name="gold coin" chance="28340" countmax="12" />
+		<item name="soldier helmet" chance="11795" />
+		<item name="shovel" chance="10021" />
+		<item name="chain armor" chance="7508" />
+		<item name="piercing bolt" chance="3820" countmax="3" />
+		<item name="dwarven shield" chance="3059" />
+		<item name="crossbow" chance="3037" />
+		<item name="battle axe" chance="2478" />
+		<item name="iron ore" chance="304" />
+		<item name="axe ring" chance="122" />
 	</loot>
 </monster>

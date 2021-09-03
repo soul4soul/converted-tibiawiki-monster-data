@@ -1,6 +1,7 @@
-﻿<monster name="Necromancer" nameDescription="a necromancer" experience="580" speed="188" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Necromancer" nameDescription="a necromancer" experience="580" speed="188" manacost="0">
 	<health now="580" max="580" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="9" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="100" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -49,17 +51,17 @@
 		<voice sentence="Your corpse will be mine." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="30006" countmax="90" />
-		<item id="poison arrow" chance="14947" countmax="5" />
-		<item id="book of necromantic rituals" chance="10089" />
-		<item id="green mushroom" chance="1484" />
-		<item id="necromantic robe" chance="1036" />
-		<item id="mystic turban" chance="495" />
-		<item id="clerical mace" chance="376" />
-		<item id="strong mana potion" chance="340" />
-		<item id="boots of haste" chance="198" />
-		<item id="spellbook of warding" chance="106" />
-		<item id="skull staff" chance="105" />
-		<item id="noble axe" chance="8" />
+		<item name="gold coin" chance="30001" countmax="90" />
+		<item name="poison arrow" chance="14948" countmax="5" />
+		<item name="book of necromantic rituals" chance="10086" />
+		<item name="green mushroom" chance="1481" />
+		<item name="necromantic robe" chance="1034" />
+		<item name="mystic turban" chance="495" />
+		<item name="clerical mace" chance="375" />
+		<item name="strong mana potion" chance="341" />
+		<item name="boots of haste" chance="198" />
+		<item name="spellbook of warding" chance="106" />
+		<item name="skull staff" chance="104" />
+		<item name="noble axe" chance="8" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Efreet" nameDescription="an efreet" experience="410" speed="234" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Efreet" nameDescription="an efreet" experience="410" speed="234" manacost="0">
 	<health now="550" max="550" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="103" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="60" />
+		<element energyPercent="60" />
 		<element earthPercent="10" />
 		<element firePercent="90" />
 		<element lifedrainPercent="0" />
@@ -52,31 +54,20 @@
 		<voice sentence="Tell me your last wish!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="97616" countmax="129" />
-		<item id="royal spear" chance="14967" countmax="3" />
-		<item id="strong mana potion" chance="10540" />
-		<item id="pear" chance="9536" countmax="5" />
-		<item id="jewelled belt" chance="7654" />
-		<item id="small emerald" chance="7206" />
-		<item id="heavy machete" chance="4840" />
-		<item id="green piece of cloth" chance="2707" />
-		<item id="green tapestry" chance="2097" />
-		<item id="noble turban" chance="1022" />
-		<item id="magma monocle" chance="394" />
-		<item id="wand of inferno" chance="341" />
-		<item id="mystic turban" chance="233" />
-		<item id="small oil lamp" chance="197" />
-		<item id="green gem" chance="125" />
-		<item id="gold coin" chance="3226" countmax="120" />
-		<item id="heavy machete" chance="735" />
-		<item id="small oil lamp" chance="556" />
-		<item id="royal spear" chance="376" countmax="3" />
-		<item id="pear" chance="323" countmax="5" />
-		<item id="strong mana potion" chance="287" />
-		<item id="small emerald" chance="179" countmax="2" />
-		<item id="green piece of cloth" chance="125" />
-		<item id="green tapestry" chance="108" />
-		<item id="wand of inferno" chance="36" />
-		<item id="magma monocle" chance="18" />
+		<item name="gold coin" chance="97617" countmax="129" />
+		<item name="royal spear" chance="14959" countmax="3" />
+		<item name="strong mana potion" chance="10534" />
+		<item name="pear" chance="9549" countmax="5" />
+		<item name="jewelled belt" chance="7668" />
+		<item name="small emerald" chance="7220" />
+		<item name="heavy machete" chance="4837" />
+		<item name="green piece of cloth" chance="2705" />
+		<item name="green tapestry" chance="2096" />
+		<item name="noble turban" chance="1021" />
+		<item name="magma monocle" chance="394" />
+		<item name="wand of inferno" chance="340" />
+		<item name="mystic turban" chance="233" />
+		<item name="small oil lamp" chance="197" />
+		<item name="green gem" chance="125" />
 	</loot>
 </monster>

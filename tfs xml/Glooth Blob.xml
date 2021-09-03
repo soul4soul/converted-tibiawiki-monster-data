@@ -1,6 +1,7 @@
-﻿<monster name="Glooth Blob" nameDescription="a glooth blob" experience="700" speed="160" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Glooth Blob" nameDescription="a glooth blob" experience="700" speed="160" manacost="0">
 	<health now="750" max="750" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="614" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -46,13 +48,13 @@
 		<voice name="glooth blob" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="70" />
-		<item id="glob of glooth" chance="14503" />
-		<item id="small sapphire" chance="3176" countmax="2" />
-		<item id="small topaz" chance="2839" countmax="2" />
-		<item id="glooth axe" chance="623" />
-		<item id="glooth club" chance="584" />
-		<item id="glooth blade" chance="524" />
-		<item id="glooth amulet" chance="505" />
+		<item name="gold coin" chance="100000" countmax="70" />
+		<item name="glob of glooth" chance="14519" />
+		<item name="small sapphire" chance="3170" countmax="2" />
+		<item name="small topaz" chance="2825" countmax="2" />
+		<item name="glooth axe" chance="620" />
+		<item name="glooth club" chance="581" />
+		<item name="glooth blade" chance="522" />
+		<item name="glooth amulet" chance="502" />
 	</loot>
 </monster>

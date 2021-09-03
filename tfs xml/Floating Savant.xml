@@ -1,6 +1,7 @@
-﻿<monster name="Floating Savant" nameDescription="a floating savant" experience="8000" speed="330" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Floating Savant" nameDescription="a floating savant" experience="8000" speed="330" manacost="0">
 	<health now="8000" max="8000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1063" head="113" body="94" legs="78" feet="78" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -50,15 +52,15 @@
 		<voice name="lava lurker attendant" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="red gem" chance="71934" countmax="4" />
-		<item id="red piece of cloth" chance="30653" countmax="3" />
-		<item id="demonic essence" chance="23579" />
-		<item id="small enchanted ruby" chance="20676" countmax="14" />
-		<item id="book of necromantic rituals" chance="19655" />
-		<item id="red crystal fragment" chance="19426" countmax="8" />
-		<item id="flask of demonic blood" chance="15379" />
-		<item id="pick" chance="5103" />
-		<item id="black skull" chance="246" />
-		<item id="sample of monster blood" chance="70" />
+		<item name="red gem" chance="71934" countmax="4" />
+		<item name="red piece of cloth" chance="30653" countmax="3" />
+		<item name="demonic essence" chance="23579" />
+		<item name="small enchanted ruby" chance="20676" countmax="14" />
+		<item name="book of necromantic rituals" chance="19655" />
+		<item name="red crystal fragment" chance="19426" countmax="8" />
+		<item name="flask of demonic blood" chance="15379" />
+		<item name="pick" chance="5103" />
+		<item name="black skull" chance="246" />
+		<item name="sample of monster blood" chance="70" />
 	</loot>
 </monster>

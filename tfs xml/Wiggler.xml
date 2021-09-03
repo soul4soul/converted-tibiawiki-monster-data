@@ -1,6 +1,7 @@
-﻿<monster name="Wiggler" nameDescription="a wiggler" experience="900" speed="360" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Wiggler" nameDescription="a wiggler" experience="900" speed="360" manacost="0">
 	<health now="1200" max="1200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="510" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="5" />
+		<element energyPercent="5" />
 		<element earthPercent="100" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -52,34 +54,20 @@
 		<voice sentence="Crick! Crick!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="crystalline arrow" chance="14825" countmax="5" />
-		<item id="drill bolt" chance="14636" countmax="5" />
-		<item id="platinum coin" chance="14164" />
-		<item id="white mushroom" chance="7177" countmax="5" />
-		<item id="strong health potion" chance="5382" />
-		<item id="strong mana potion" chance="4910" />
-		<item id="green crystal splinter" chance="4533" />
-		<item id="green crystal fragment" chance="1889" />
-		<item id="serpent sword" chance="1605" />
-		<item id="blue piece of cloth" chance="1511" />
-		<item id="yellow piece of cloth" chance="1322" />
-		<item id="black shield" chance="944" />
-		<item id="terra rod" chance="755" />
-		<item id="green piece of cloth" chance="472" />
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="crystalline arrow" chance="100000" countmax="5" />
-		<item id="drill bolt" chance="100000" countmax="5" />
-		<item id="platinum coin" chance="100000" />
-		<item id="white mushroom" chance="100000" countmax="5" />
-		<item id="strong mana potion" chance="77998" />
-		<item id="strong health potion" chance="72427" />
-		<item id="green crystal splinter" chance="55619" />
-		<item id="yellow piece of cloth" chance="31917" />
-		<item id="blue piece of cloth" chance="30312" />
-		<item id="green crystal fragment" chance="29556" />
-		<item id="serpent sword" chance="20774" />
-		<item id="black shield" chance="19169" />
-		<item id="terra rod" chance="11615" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="crystalline arrow" chance="14825" countmax="5" />
+		<item name="drill bolt" chance="14636" countmax="5" />
+		<item name="platinum coin" chance="14164" />
+		<item name="white mushroom" chance="7177" countmax="5" />
+		<item name="strong health potion" chance="5382" />
+		<item name="strong mana potion" chance="4910" />
+		<item name="green crystal splinter" chance="4533" />
+		<item name="green crystal fragment" chance="1889" />
+		<item name="serpent sword" chance="1605" />
+		<item name="blue piece of cloth" chance="1511" />
+		<item name="yellow piece of cloth" chance="1322" />
+		<item name="black shield" chance="944" />
+		<item name="terra rod" chance="755" />
+		<item name="green piece of cloth" chance="472" />
 	</loot>
 </monster>

@@ -5,11 +5,11 @@ monster.name = "Bandit"
 monster.description = "a bandit"
 monster.experience = 65
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 129,
+	lookHead = 58,
+	lookBody = 40,
+	lookLegs = 24,
+	lookFeet = 95,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,14 +89,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 48979, maxCount = 30},
-	{id = "axe", chance = 29972},
-	{id = "brass shield", chance = 16768},
-	{id = "leather legs", chance = 14974},
-	{id = "mace", chance = 10326},
-	{id = "tomato", chance = 7702, maxCount = 2},
-	{id = "chain helmet", chance = 4953},
-	{id = "brass armor", chance = 2376},
+	{id = "gold coin", chance = 48973, maxCount = 30},
+	{id = "axe", chance = 29974},
+	{id = "brass shield", chance = 16782},
+	{id = "leather legs", chance = 14970},
+	{id = "mace", chance = 10322},
+	{id = "tomato", chance = 7695, maxCount = 2},
+	{id = "chain helmet", chance = 4958},
+	{id = "brass armor", chance = 2374},
 	{id = "iron helmet", chance = 539}
 }
 

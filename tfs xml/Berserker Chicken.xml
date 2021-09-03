@@ -1,6 +1,7 @@
-﻿<monster name="Berserker Chicken" nameDescription="a berserker chicken" experience="220" speed="166" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Berserker Chicken" nameDescription="a berserker chicken" experience="220" speed="166" manacost="0">
 	<health now="465" max="465" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="111" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="10" />
 		<element firePercent="10" />
 		<element lifedrainPercent="100" />
@@ -52,6 +54,6 @@
 		<voice sentence="I will fill MY cushion with YOUR hair! CLUCK!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="66557" countmax="75" />
+		<item name="gold coin" chance="66717" countmax="75" />
 	</loot>
 </monster>

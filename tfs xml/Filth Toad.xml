@@ -1,6 +1,7 @@
-﻿<monster name="Filth Toad" nameDescription="a filth toad" experience="90" speed="210" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Filth Toad" nameDescription="a filth toad" experience="90" speed="210" manacost="0">
 	<health now="185" max="185" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="222" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -47,9 +49,9 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="77535" countmax="24" />
-		<item id="fish" chance="21544" countmax="2" />
-		<item id="poisonous slime" chance="4032" />
-		<item id="mace" chance="2189" />
+		<item name="gold coin" chance="77716" countmax="24" />
+		<item name="fish" chance="21389" countmax="2" />
+		<item name="poisonous slime" chance="4031" />
+		<item name="mace" chance="2240" />
 	</loot>
 </monster>

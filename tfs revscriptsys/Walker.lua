@@ -5,7 +5,7 @@ monster.name = "Walker"
 monster.description = "a walker"
 monster.experience = 2200
 monster.outfit = {
-	lookType = 0,
+	lookType = 605,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,17 +90,17 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "platinum coin", chance = 52273, maxCount = 3},
-	{id = "metal toe", chance = 21098},
-	{id = "small topaz", chance = 10377, maxCount = 6},
-	{id = "great health potion", chance = 8148},
-	{id = "great spirit potion", chance = 7419},
-	{id = "small amethyst", chance = 4974, maxCount = 3},
-	{id = "small emerald", chance = 4374, maxCount = 3},
-	{id = "metal spats", chance = 3516},
-	{id = "gearwheel chain", chance = 2058},
-	{id = "crystal mace", chance = 600},
-	{id = "steel boots", chance = 515}
+	{id = "platinum coin", chance = 52289, maxCount = 3},
+	{id = "metal toe", chance = 21053},
+	{id = "small topaz", chance = 10355, maxCount = 6},
+	{id = "great health potion", chance = 8130},
+	{id = "great spirit potion", chance = 7403},
+	{id = "small amethyst", chance = 5006, maxCount = 3},
+	{id = "small emerald", chance = 4365, maxCount = 3},
+	{id = "metal spats", chance = 3509},
+	{id = "gearwheel chain", chance = 2054},
+	{id = "crystal mace", chance = 599},
+	{id = "steel boots", chance = 513}
 }
 
 mType:register(monster)

@@ -5,7 +5,7 @@ monster.name = "Gargoyle"
 monster.description = "a gargoyle"
 monster.experience = 150
 monster.outfit = {
-	lookType = 0,
+	lookType = 95,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,32 +93,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87729, maxCount = 30},
-	{id = "small stone", chance = 15228, maxCount = 10},
-	{id = "stone wing", chance = 11740},
-	{id = "potato", chance = 9804, maxCount = 2},
-	{id = "strawberry", chance = 2030, maxCount = 5},
-	{id = "morning star", chance = 1504},
-	{id = "battle shield", chance = 1358},
-	{id = "wolf tooth chain", chance = 1104},
-	{id = "steel helmet", chance = 837},
-	{id = "piece of marble rock", chance = 442},
-	{id = "dark armor", chance = 282},
+	{id = "gold coin", chance = 87720, maxCount = 30},
+	{id = "small stone", chance = 15204, maxCount = 10},
+	{id = "stone wing", chance = 11770},
+	{id = "potato", chance = 9788, maxCount = 2},
+	{id = "strawberry", chance = 2024, maxCount = 5},
+	{id = "morning star", chance = 1509},
+	{id = "battle shield", chance = 1354},
+	{id = "wolf tooth chain", chance = 1106},
+	{id = "steel helmet", chance = 834},
+	{id = "piece of marble rock", chance = 440},
+	{id = "dark armor", chance = 281},
 	{id = "club ring", chance = 211},
-	{id = "shiny stone", chance = 183},
-	{id = "gold coin", chance = 48649, maxCount = 30},
-	{id = "small stone", chance = 9076, maxCount = 10},
-	{id = "stone wing", chance = 5837},
-	{id = "potato", chance = 2740, maxCount = 2},
-	{id = "battle shield", chance = 837},
-	{id = "morning star", chance = 681},
-	{id = "strawberry", chance = 531, maxCount = 5},
-	{id = "piece of marble rock", chance = 291},
-	{id = "dark armor", chance = 117},
-	{id = "steel helmet", chance = 99},
-	{id = "shiny stone", chance = 94},
-	{id = "wolf tooth chain", chance = 89},
-	{id = "club ring", chance = 75}
+	{id = "shiny stone", chance = 183}
 }
 
 mType:register(monster)

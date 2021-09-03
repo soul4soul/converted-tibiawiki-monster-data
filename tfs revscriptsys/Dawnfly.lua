@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,15 +92,7 @@ monster.loot = {
 	{id = "poison arrow", chance = 12500, maxCount = 8},
 	{id = "doublet", chance = 5208},
 	{id = "health potion", chance = 3125},
-	{id = "mana potion", chance = 3125},
-	{id = "gold coin", chance = 100000, maxCount = 12},
-	{id = "simple arrow", chance = 100000, maxCount = 16},
-	{id = "poison arrow", chance = 100000, maxCount = 8},
-	{id = "damselfly wing", chance = 100000},
-	{id = "damselfly eye", chance = 100000},
-	{id = "doublet", chance = 100000},
-	{id = "mana potion", chance = 100000},
-	{id = "health potion", chance = 100000}
+	{id = "mana potion", chance = 3125}
 }
 
 mType:register(monster)

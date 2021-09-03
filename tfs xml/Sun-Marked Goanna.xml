@@ -1,4 +1,5 @@
-﻿<monster name="Sun-Marked Goanna" nameDescription="a sun-marked goanna" experience="7600" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Sun-Marked Goanna" nameDescription="a sun-marked goanna" experience="7600" speed="0" manacost="0">
 	<health now="7800" max="7800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="1" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,17 +45,12 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="3" />
-		<item id="goanna hide with sun symbol" chance="75000" />
-		<item id="envenomed arrow" chance="50000" />
-		<item id="earth arrow" chance="25000" countmax="14" />
-		<item id="goanna hide with sun symbol" chance="25000" />
-		<item id="terra hood" chance="25000" />
-		<item id="terra rod" chance="25000" />
-		<item id="goanna hide with sun symbol" chance="50000" />
-		<item id="platinum coin" chance="50000" />
-		<item id="envenomed arrow" chance="25000" />
-		<item id="poison dagger" chance="25000" />
-		<item id="scared frog" chance="25000" />
+		<item name="platinum coin" chance="100000" countmax="3" />
+		<item name="goanna hide with sun symbol" chance="75000" />
+		<item name="envenomed arrow" chance="50000" />
+		<item name="earth arrow" chance="25000" countmax="14" />
+		<item name="goanna hide with sun symbol" chance="25000" />
+		<item name="terra hood" chance="25000" />
+		<item name="terra rod" chance="25000" />
 	</loot>
 </monster>

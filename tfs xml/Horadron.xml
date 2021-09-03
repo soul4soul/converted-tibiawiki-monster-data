@@ -1,4 +1,5 @@
-﻿<monster name="Horadron" nameDescription="" experience="18000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Horadron" nameDescription="" experience="18000" speed="0" manacost="0">
 	<health now="30000" max="30000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="30" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -53,38 +55,38 @@
 		<voice name="defiler" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="cluster of solace" chance="100000" />
-		<item id="demon horn" chance="100000" />
-		<item id="demonic essence" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="197" />
-		<item id="platinum coin" chance="100000" countmax="50" />
-		<item id="unrealized dream" chance="100000" />
-		<item id="dream matter" chance="49338" />
-		<item id="beastslayer axe" chance="35596" />
-		<item id="spellbook of warding" chance="29801" />
-		<item id="small sapphire" chance="18377" countmax="25" />
-		<item id="blue robe" chance="17881" />
-		<item id="small topaz" chance="17219" countmax="25" />
-		<item id="crown armor" chance="16391" />
-		<item id="small amethyst" chance="15894" countmax="25" />
-		<item id="small ruby" chance="15728" countmax="25" />
-		<item id="knight legs" chance="15563" />
-		<item id="small emerald" chance="14901" countmax="25" />
-		<item id="small diamond" chance="14238" countmax="25" />
-		<item id="lightning legs" chance="13742" />
-		<item id="steel boots" chance="12914" />
-		<item id="noble axe" chance="12417" />
-		<item id="crown legs" chance="11424" />
-		<item id="dream warden mask" chance="11424" />
-		<item id="spellbook of mind control" chance="9603" />
-		<item id="spellbook of lost souls" chance="9437" />
-		<item id="golden armor" chance="8940" />
-		<item id="butcher's axe" chance="2152" />
-		<item id="vile axe" chance="1821" />
-		<item id="golden legs" chance="1490" />
-		<item id="spellscroll of prophecies" chance="1325" />
-		<item id="executioner" chance="662" />
-		<item id="great axe" chance="166" />
-		<item id="spellbook of dark mysteries" chance="166" />
+		<item name="cluster of solace" chance="100000" />
+		<item name="demon horn" chance="100000" />
+		<item name="demonic essence" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="197" />
+		<item name="platinum coin" chance="100000" countmax="50" />
+		<item name="unrealized dream" chance="100000" />
+		<item name="dream matter" chance="49338" />
+		<item name="beastslayer axe" chance="35596" />
+		<item name="spellbook of warding" chance="29801" />
+		<item name="small sapphire" chance="18377" countmax="25" />
+		<item name="blue robe" chance="17881" />
+		<item name="small topaz" chance="17219" countmax="25" />
+		<item name="crown armor" chance="16391" />
+		<item name="small amethyst" chance="15894" countmax="25" />
+		<item name="small ruby" chance="15728" countmax="25" />
+		<item name="knight legs" chance="15563" />
+		<item name="small emerald" chance="14901" countmax="25" />
+		<item name="small diamond" chance="14238" countmax="25" />
+		<item name="lightning legs" chance="13742" />
+		<item name="steel boots" chance="12914" />
+		<item name="noble axe" chance="12417" />
+		<item name="crown legs" chance="11424" />
+		<item name="dream warden mask" chance="11424" />
+		<item name="spellbook of mind control" chance="9603" />
+		<item name="spellbook of lost souls" chance="9437" />
+		<item name="golden armor" chance="8940" />
+		<item name="butcher's axe" chance="2152" />
+		<item name="vile axe" chance="1821" />
+		<item name="golden legs" chance="1490" />
+		<item name="spellscroll of prophecies" chance="1325" />
+		<item name="executioner" chance="662" />
+		<item name="great axe" chance="166" />
+		<item name="spellbook of dark mysteries" chance="166" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Lizard High Guard" nameDescription="a lizard high guard" experience="1450" speed="238" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lizard High Guard" nameDescription="a lizard high guard" experience="1450" speed="238" manacost="0">
 	<health now="1800" max="1800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="337" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="45" />
 		<element lifedrainPercent="0" />
@@ -50,21 +52,21 @@
 		<voice sentence="Engage zze aggrezzor!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="96084" countmax="281" />
-		<item id="strong health potion" chance="11954" />
-		<item id="high guard shoulderplates" chance="8101" />
-		<item id="great health potion" chance="7065" />
-		<item id="spiked iron ball" chance="6978" />
-		<item id="bunch of ripe rice" chance="4934" />
-		<item id="platinum coin" chance="4918" countmax="2" />
-		<item id="high guard flag" chance="3008" />
-		<item id="small emerald" chance="2477" countmax="4" />
-		<item id="red lantern" chance="1210" />
-		<item id="tower shield" chance="1034" />
-		<item id="lizard leather" chance="995" />
-		<item id="lizard scale" chance="956" />
-		<item id="zaoan legs" chance="735" />
-		<item id="zaoan shoes" chance="689" />
-		<item id="zaoan armor" chance="76" />
+		<item name="gold coin" chance="96085" countmax="281" />
+		<item name="strong health potion" chance="11957" />
+		<item name="high guard shoulderplates" chance="8099" />
+		<item name="great health potion" chance="7065" />
+		<item name="spiked iron ball" chance="6980" />
+		<item name="bunch of ripe rice" chance="4935" />
+		<item name="platinum coin" chance="4918" countmax="2" />
+		<item name="high guard flag" chance="3010" />
+		<item name="small emerald" chance="2477" countmax="4" />
+		<item name="red lantern" chance="1211" />
+		<item name="tower shield" chance="1032" />
+		<item name="lizard leather" chance="995" />
+		<item name="lizard scale" chance="956" />
+		<item name="zaoan legs" chance="736" />
+		<item name="zaoan shoes" chance="689" />
+		<item name="zaoan armor" chance="76" />
 	</loot>
 </monster>

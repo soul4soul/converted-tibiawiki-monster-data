@@ -1,6 +1,7 @@
-﻿<monster name="Orc Warlord" nameDescription="an orc warlord" experience="670" speed="234" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Orc Warlord" nameDescription="an orc warlord" experience="670" speed="234" manacost="0">
 	<health now="950" max="950" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="2" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="80" />
 		<element lifedrainPercent="0" />
@@ -50,27 +52,27 @@
 		<voice sentence="Fetchi Maruk Buta" yell="false" />
 	</voices>
 	<loot>
-		<item id="broken helmet" chance="25000" />
-		<item id="orc leather" chance="20518" />
-		<item id="gold coin" chance="19135" countmax="45" />
-		<item id="throwing star" chance="14497" countmax="18" />
-		<item id="fish" chance="10327" countmax="2" />
-		<item id="orc tooth" chance="9704" />
-		<item id="orcish axe" chance="5475" />
-		<item id="plate armor" chance="5398" />
-		<item id="skull belt" chance="5086" />
-		<item id="hunting spear" chance="4793" />
-		<item id="plate legs" chance="3936" />
-		<item id="scimitar" chance="3176" />
-		<item id="protection amulet" chance="1851" />
-		<item id="two handed sword" chance="1812" />
-		<item id="dark helmet" chance="1267" />
-		<item id="brass armor" chance="877" />
-		<item id="health potion" chance="409" />
-		<item id="crusader helmet" chance="351" />
-		<item id="magma boots" chance="214" />
-		<item id="dragon hammer" chance="195" />
-		<item id="orc trophy" chance="156" />
-		<item id="stealth ring" chance="117" />
+		<item name="broken helmet" chance="25318" />
+		<item name="orc leather" chance="20433" />
+		<item name="gold coin" chance="18954" countmax="45" />
+		<item name="throwing star" chance="14706" countmax="18" />
+		<item name="fish" chance="10423" countmax="2" />
+		<item name="orc tooth" chance="10114" />
+		<item name="plate armor" chance="5452" />
+		<item name="orcish axe" chance="5366" />
+		<item name="skull belt" chance="5005" />
+		<item name="hunting spear" chance="4816" />
+		<item name="plate legs" chance="3922" />
+		<item name="scimitar" chance="2976" />
+		<item name="two handed sword" chance="1944" />
+		<item name="protection amulet" chance="1858" />
+		<item name="dark helmet" chance="1273" />
+		<item name="brass armor" chance="912" />
+		<item name="health potion" chance="378" />
+		<item name="crusader helmet" chance="310" />
+		<item name="dragon hammer" chance="206" />
+		<item name="magma boots" chance="189" />
+		<item name="orc trophy" chance="138" />
+		<item name="stealth ring" chance="120" />
 	</loot>
 </monster>

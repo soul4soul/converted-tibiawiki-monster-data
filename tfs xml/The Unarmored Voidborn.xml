@@ -1,4 +1,5 @@
-﻿<monster name="The Unarmored Voidborn" nameDescription="" experience="15000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Unarmored Voidborn" nameDescription="" experience="15000" speed="0" manacost="0">
 	<health now="250000" max="250000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-300" />
-		<element EnergyPercent="-300" />
+		<element energyPercent="-300" />
 		<element earthPercent="-300" />
 		<element firePercent="-300" />
 		<element lifedrainPercent="0" />
@@ -43,31 +45,33 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="energy bar" chance="100000" countmax="5" />
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="mysterious remains" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="30" />
-		<item id="skull fetish" chance="100000" />
-		<item id="great mana potion" chance="85714" countmax="10" />
-		<item id="magic sulphur" chance="85714" />
-		<item id="collar of red plasma" chance="57143" />
-		<item id="great spirit potion" chance="57143" countmax="5" />
-		<item id="silver token" chance="57143" />
-		<item id="gold ingot" chance="42857" />
-		<item id="small emerald" chance="42857" countmax="10" />
-		<item id="bonebreaker" chance="28571" />
-		<item id="giant shimmering pearl" chance="28571" />
-		<item id="metal bat" chance="28571" />
-		<item id="piece of royal steel" chance="28571" />
-		<item id="red gem" chance="28571" />
-		<item id="small amethyst" chance="28571" countmax="10" />
-		<item id="small sapphire" chance="28571" countmax="10" />
-		<item id="terra hood" chance="28571" />
-		<item id="ultimate health potion" chance="28571" countmax="5" />
-		<item id="yellow gem" chance="28571" />
-		<item id="collar of green plasma" chance="14286" />
-		<item id="green gem" chance="14286" />
-		<item id="ring of blue plasma" chance="14286" />
-		<item id="terra legs" chance="14286" />
+		<item name="energy bar" chance="100000" countmax="5" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="mysterious remains" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="30" />
+		<item name="skull fetish" chance="100000" />
+		<item name="magic sulphur" chance="87500" />
+		<item name="great mana potion" chance="75000" countmax="10" />
+		<item name="great spirit potion" chance="62500" countmax="10" />
+		<item name="collar of red plasma" chance="50000" />
+		<item name="gold ingot" chance="50000" />
+		<item name="silver token" chance="50000" />
+		<item name="small emerald" chance="50000" countmax="10" />
+		<item name="bonebreaker" chance="25000" />
+		<item name="giant shimmering pearl" chance="25000" />
+		<item name="metal bat" chance="25000" />
+		<item name="piece of royal steel" chance="25000" />
+		<item name="red gem" chance="25000" />
+		<item name="small amethyst" chance="25000" countmax="10" />
+		<item name="small sapphire" chance="25000" countmax="10" />
+		<item name="terra hood" chance="25000" />
+		<item name="ultimate health potion" chance="25000" countmax="5" />
+		<item name="yellow gem" chance="25000" />
+		<item name="blue gem" chance="12500" />
+		<item name="collar of green plasma" chance="12500" />
+		<item name="green gem" chance="12500" />
+		<item name="ring of blue plasma" chance="12500" />
+		<item name="terra legs" chance="12500" />
+		<item name="vile axe" chance="12500" />
 	</loot>
 </monster>

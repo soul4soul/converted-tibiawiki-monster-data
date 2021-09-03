@@ -1,6 +1,7 @@
-﻿<monster name="Insectoid Scout" nameDescription="an insectoid scout" experience="150" speed="202" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Insectoid Scout" nameDescription="an insectoid scout" experience="150" speed="202" manacost="0">
 	<health now="230" max="230" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="403" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="20" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -47,9 +49,9 @@
 		<voice sentence="Chrrr! Chrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="81244" countmax="78" />
-		<item id="ripper lance" chance="408" />
-		<item id="health potion" chance="204" />
-		<item id="club ring" chance="102" />
+		<item name="gold coin" chance="81370" countmax="78" />
+		<item name="ripper lance" chance="403" />
+		<item name="health potion" chance="201" />
+		<item name="club ring" chance="101" />
 	</loot>
 </monster>

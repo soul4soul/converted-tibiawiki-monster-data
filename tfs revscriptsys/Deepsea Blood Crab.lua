@@ -5,7 +5,7 @@ monster.name = "Deepsea Blood Crab"
 monster.description = "a deepsea blood crab"
 monster.experience = 180
 monster.outfit = {
-	lookType = 0,
+	lookType = 200,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,12 +87,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 86903, maxCount = 20},
-	{id = "fish", chance = 10472},
-	{id = "bloody pincers", chance = 6637},
-	{id = "chain armor", chance = 5103},
-	{id = "brass legs", chance = 2743},
-	{id = "white pearl", chance = 590}
+	{id = "gold coin", chance = 87162, maxCount = 20},
+	{id = "fish", chance = 10629},
+	{id = "bloody pincers", chance = 6764},
+	{id = "chain armor", chance = 5025},
+	{id = "brass legs", chance = 2733},
+	{id = "white pearl", chance = 607}
 }
 
 mType:register(monster)

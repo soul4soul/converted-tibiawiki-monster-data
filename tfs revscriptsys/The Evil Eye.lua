@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,14 +92,14 @@ monster.loot = {
 	{id = "bonelord eye", chance = 100000},
 	{id = "gold coin", chance = 100000, maxCount = 229},
 	{id = "small flask of eyedrops", chance = 100000},
-	{id = "morning star", chance = 50000},
-	{id = "steel shield", chance = 46429},
-	{id = "two handed sword", chance = 32143},
-	{id = "longsword", chance = 25000},
-	{id = "spellbook", chance = 21429},
-	{id = "great mana potion", chance = 14286},
-	{id = "bonelord shield", chance = 10714},
-	{id = "terra mantle", chance = 10714}
+	{id = "morning star", chance = 51724},
+	{id = "steel shield", chance = 44828},
+	{id = "two handed sword", chance = 31034},
+	{id = "longsword", chance = 24138},
+	{id = "spellbook", chance = 24138},
+	{id = "great mana potion", chance = 17241},
+	{id = "bonelord shield", chance = 10345},
+	{id = "terra mantle", chance = 10345}
 }
 
 mType:register(monster)

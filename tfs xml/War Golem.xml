@@ -1,6 +1,7 @@
-﻿<monster name="War Golem" nameDescription="a war golem" experience="2310" speed="320" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="War Golem" nameDescription="a war golem" experience="2310" speed="320" manacost="0">
 	<health now="4300" max="4300" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="326" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="5" />
+		<element energyPercent="5" />
 		<element earthPercent="50" />
 		<element firePercent="15" />
 		<element lifedrainPercent="0" />
@@ -60,52 +62,28 @@
 		<voice sentence="Eliminated" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99541" countmax="248" />
-		<item id="ultimate health potion" chance="10193" />
-		<item id="plate shield" chance="9091" />
-		<item id="morning star" chance="8907" />
-		<item id="great mana potion" chance="8815" />
-		<item id="war crystal" chance="7897" />
-		<item id="epee" chance="6979" />
-		<item id="battle shield" chance="5510" />
-		<item id="two handed sword" chance="4959" />
-		<item id="nail" chance="4867" countmax="5" />
-		<item id="rusted armor" chance="3581" />
-		<item id="iron ore" chance="2296" />
-		<item id="dwarven ring" chance="1010" />
-		<item id="crystal pedestal" chance="918" />
-		<item id="life crystal" chance="918" />
-		<item id="berserk potion" chance="735" />
-		<item id="steel boots" chance="643" />
-		<item id="bonebreaker" chance="551" />
-		<item id="club ring" chance="551" />
-		<item id="crystal of power" chance="184" />
-		<item id="jade hammer" chance="184" />
-		<item id="lightning boots" chance="184" />
-		<item id="berserker" chance="92" />
-		<item id="gold coin" chance="100000" countmax="264" />
-		<item id="ultimate health potion" chance="100000" />
-		<item id="plate shield" chance="100000" />
-		<item id="great mana potion" chance="100000" />
-		<item id="war crystal" chance="100000" />
-		<item id="morning star" chance="100000" />
-		<item id="epee" chance="100000" />
-		<item id="nail" chance="95776" countmax="5" />
-		<item id="battle shield" chance="88981" />
-		<item id="two handed sword" chance="88522" />
-		<item id="rusted armor" chance="53444" />
-		<item id="iron ore" chance="32231" />
-		<item id="dwarven ring" chance="21763" />
-		<item id="crystal pedestal" chance="19927" />
-		<item id="life crystal" chance="19008" />
-		<item id="berserk potion" chance="17723" />
-		<item id="club ring" chance="15794" />
-		<item id="bonebreaker" chance="13407" />
-		<item id="steel boots" chance="10009" />
-		<item id="crystal of power" chance="2112" />
-		<item id="jade hammer" chance="2112" />
-		<item id="lightning boots" chance="1286" />
-		<item id="berserker" chance="643" />
-		<item id="tin key" chance="184" />
+		<item name="gold coin" chance="99598" countmax="252" />
+		<item name="ultimate health potion" chance="10054" />
+		<item name="morning star" chance="9584" />
+		<item name="great mana potion" chance="9115" />
+		<item name="plate shield" chance="8914" />
+		<item name="war crystal" chance="8043" />
+		<item name="epee" chance="6836" />
+		<item name="battle shield" chance="5496" />
+		<item name="nail" chance="5161" countmax="5" />
+		<item name="two handed sword" chance="4893" />
+		<item name="rusted armor" chance="3887" />
+		<item name="iron ore" chance="2078" />
+		<item name="crystal pedestal" chance="1005" />
+		<item name="life crystal" chance="1005" />
+		<item name="berserk potion" chance="938" />
+		<item name="dwarven ring" chance="938" />
+		<item name="club ring" chance="670" />
+		<item name="bonebreaker" chance="603" />
+		<item name="steel boots" chance="603" />
+		<item name="lightning boots" chance="268" />
+		<item name="jade hammer" chance="201" />
+		<item name="crystal of power" chance="134" />
+		<item name="berserker" chance="67" />
 	</loot>
 </monster>

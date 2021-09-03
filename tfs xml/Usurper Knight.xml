@@ -1,4 +1,5 @@
-﻿<monster name="Usurper Knight" nameDescription="a usurper knight" experience="6900" speed="260" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Usurper Knight" nameDescription="a usurper knight" experience="6900" speed="260" manacost="0">
 	<health now="8200" max="8200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="35" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -50,17 +52,17 @@
 		<voice sentence="You don't deserve Bounac!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="91134" countmax="5" />
-		<item id="leather legs" chance="27225" />
-		<item id="meat" chance="16777" />
-		<item id="lion cloak patch" chance="10349" />
-		<item id="lion crest" chance="6625" />
-		<item id="knight legs" chance="5801" />
-		<item id="violet gem" chance="5768" />
-		<item id="gold ingot" chance="5307" />
-		<item id="blue gem" chance="4021" />
-		<item id="great mana potion" chance="4021" />
-		<item id="green gem" chance="2538" />
-		<item id="magma legs" chance="923" />
+		<item name="platinum coin" chance="91187" countmax="5" />
+		<item name="leather legs" chance="27290" />
+		<item name="meat" chance="16651" />
+		<item name="lion cloak patch" chance="10545" />
+		<item name="lion crest" chance="6610" />
+		<item name="knight legs" chance="5729" />
+		<item name="violet gem" chance="5571" />
+		<item name="gold ingot" chance="5225" />
+		<item name="blue gem" chance="3997" />
+		<item name="great mana potion" chance="3997" />
+		<item name="green gem" chance="2581" />
+		<item name="magma legs" chance="881" />
 	</loot>
 </monster>

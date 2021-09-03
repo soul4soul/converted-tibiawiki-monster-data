@@ -1,6 +1,7 @@
-﻿<monster name="Infected Weeper" nameDescription="an infected weeper" experience="1200" speed="340" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Infected Weeper" nameDescription="an infected weeper" experience="1200" speed="340" manacost="0">
 	<health now="3000" max="3000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="489" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="25" />
+		<element energyPercent="25" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -46,8 +48,8 @@
 		<voice sentence="Moooaaan" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="198" />
-		<item id="platinum coin" chance="100000" countmax="7" />
-		<item id="coal" chance="1186" />
+		<item name="gold coin" chance="100000" countmax="198" />
+		<item name="platinum coin" chance="100000" countmax="7" />
+		<item name="coal" chance="1221" />
 	</loot>
 </monster>

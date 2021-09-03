@@ -5,11 +5,11 @@ monster.name = "Faun"
 monster.description = "a faun"
 monster.experience = 800
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 980,
+	lookHead = 61,
+	lookBody = 96,
+	lookLegs = 95,
+	lookFeet = 62,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,23 +92,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 191},
-	{id = "dandelion seeds", chance = 15470},
-	{id = "strong health potion", chance = 12041, maxCount = 2},
-	{id = "shimmering beetles", chance = 9609},
-	{id = "fresh fruit", chance = 9151},
-	{id = "leaf star", chance = 7875, maxCount = 7},
-	{id = "goat grass", chance = 7855},
-	{id = "cookie", chance = 5981, maxCount = 5},
-	{id = "rainbow quartz", chance = 5861, maxCount = 3},
-	{id = "panpipes", chance = 5662},
-	{id = "small stone", chance = 5562, maxCount = 5},
-	{id = "grapes", chance = 5223},
-	{id = "great health potion", chance = 3668, maxCount = 2},
-	{id = "small enchanted sapphire", chance = 2392, maxCount = 2},
-	{id = "wood cape", chance = 2333},
-	{id = "leaf legs", chance = 618},
-	{id = "wooden spellbook", chance = 399},
-	{id = "die", chance = 100},
+	{id = "dandelion seeds", chance = 15492},
+	{id = "strong health potion", chance = 12016, maxCount = 2},
+	{id = "shimmering beetles", chance = 9613},
+	{id = "fresh fruit", chance = 9156},
+	{id = "leaf star", chance = 7885, maxCount = 7},
+	{id = "goat grass", chance = 7865},
+	{id = "cookie", chance = 5978, maxCount = 5},
+	{id = "rainbow quartz", chance = 5859, maxCount = 3},
+	{id = "panpipes", chance = 5660},
+	{id = "small stone", chance = 5541, maxCount = 5},
+	{id = "grapes", chance = 5204},
+	{id = "great health potion", chance = 3654, maxCount = 2},
+	{id = "small enchanted sapphire", chance = 2403, maxCount = 2},
+	{id = "wood cape", chance = 2324},
+	{id = "leaf legs", chance = 636},
+	{id = "wooden spellbook", chance = 397},
+	{id = "die", chance = 99},
 	{id = "mandrake", chance = 20}
 }
 

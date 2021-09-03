@@ -1,6 +1,7 @@
-﻿<monster name="Calamary" nameDescription="a calamary" experience="0" speed="200" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Calamary" nameDescription="a calamary" experience="0" speed="200" manacost="0">
 	<health now="75" max="75" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="451" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -44,6 +46,6 @@
 		<voice sentence="Bobble!" yell="false" />
 	</voices>
 	<loot>
-		<item id="shrimp" chance="11027" />
+		<item name="shrimp" chance="10752" />
 	</loot>
 </monster>

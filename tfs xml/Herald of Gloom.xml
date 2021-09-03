@@ -1,6 +1,7 @@
-﻿<monster name="Herald Of Gloom" nameDescription="a herald of gloom" experience="450" speed="170" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Herald Of Gloom" nameDescription="a herald of gloom" experience="450" speed="170" manacost="0">
 	<health now="340" max="340" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="320" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="70" />
 		<element firePercent="40" />
 		<element lifedrainPercent="0" />
@@ -48,6 +50,6 @@
 		<voice sentence="The shadows will engulf the world." yell="false" />
 	</voices>
 	<loot>
-		<item id="midnight shard" chance="5092" />
+		<item name="midnight shard" chance="5092" />
 	</loot>
 </monster>

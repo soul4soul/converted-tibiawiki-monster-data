@@ -1,6 +1,7 @@
-﻿<monster name="Haunted Treeling" nameDescription="a haunted treeling" experience="310" speed="230" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Haunted Treeling" nameDescription="a haunted treeling" experience="310" speed="230" manacost="0">
 	<health now="450" max="450" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="310" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -48,16 +50,16 @@
 		<voice sentence="Knorrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="92138" countmax="95" />
-		<item id="wooden trash" chance="29084" />
-		<item id="red mushroom" chance="7800" />
-		<item id="health potion" chance="5063" />
-		<item id="white mushroom" chance="5049" countmax="2" />
-		<item id="haunted piece of wood" chance="4978" />
-		<item id="orange mushroom" chance="1790" />
-		<item id="strong health potion" chance="1075" />
-		<item id="dwarven ring" chance="658" />
-		<item id="small emerald" chance="635" />
-		<item id="bullseye potion" chance="95" />
+		<item name="gold coin" chance="92130" countmax="95" />
+		<item name="wooden trash" chance="29095" />
+		<item name="red mushroom" chance="7809" />
+		<item name="health potion" chance="5102" />
+		<item name="white mushroom" chance="5041" countmax="2" />
+		<item name="haunted piece of wood" chance="4947" />
+		<item name="orange mushroom" chance="1796" />
+		<item name="strong health potion" chance="1076" />
+		<item name="dwarven ring" chance="659" />
+		<item name="small emerald" chance="636" />
+		<item name="bullseye potion" chance="98" />
 	</loot>
 </monster>

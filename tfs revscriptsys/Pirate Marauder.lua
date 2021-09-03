@@ -5,7 +5,7 @@ monster.name = "Pirate Marauder"
 monster.description = "a pirate marauder"
 monster.experience = 125
 monster.outfit = {
-	lookType = 0,
+	lookType = 93,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,12 +91,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 77620, maxCount = 40},
-	{id = "torch", chance = 9870},
-	{id = "compass", chance = 9676},
-	{id = "spear", chance = 5065, maxCount = 2},
-	{id = "plate shield", chance = 5014},
-	{id = "chain armor", chance = 3061},
+	{id = "gold coin", chance = 77624, maxCount = 40},
+	{id = "torch", chance = 9871},
+	{id = "compass", chance = 9673},
+	{id = "spear", chance = 5066, maxCount = 2},
+	{id = "plate shield", chance = 5012},
+	{id = "chain armor", chance = 3060},
 	{id = "treasure map (pirate)", chance = 941},
 	{id = "bandana", chance = 928},
 	{id = "eye patch", chance = 534},

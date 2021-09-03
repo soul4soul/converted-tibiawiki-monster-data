@@ -1,4 +1,5 @@
-﻿<monster name="The Dread Maiden" nameDescription="" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Dread Maiden" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -43,31 +45,31 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="crystal coin" chance="99200" countmax="2" />
-		<item id="moonstone" chance="48800" countmax="2" />
-		<item id="white gem" chance="44000" countmax="2" />
-		<item id="ultimate spirit potion" chance="43200" countmax="6" />
-		<item id="diamond" chance="40000" />
-		<item id="supreme health potion" chance="34400" countmax="6" />
-		<item id="ultimate mana potion" chance="21600" countmax="6" />
-		<item id="berserk potion" chance="20800" countmax="10" />
-		<item id="mastermind potion" chance="19200" countmax="10" />
-		<item id="bullseye potion" chance="17600" countmax="10" />
-		<item id="soulforged lantern" chance="16000" />
-		<item id="ivory comb" chance="13600" />
-		<item id="death toll" chance="12000" countmax="2" />
-		<item id="silver hand mirror" chance="9600" />
-		<item id="angel figurine" chance="8800" />
-		<item id="cursed bone" chance="8800" />
-		<item id="jagged sickle" chance="5600" />
-		<item id="amber (item)" chance="4800" />
-		<item id="spooky hood" chance="4800" />
-		<item id="amber with a dragonfly" chance="3200" />
-		<item id="giant amethyst" chance="3200" />
-		<item id="giant topaz" chance="3200" />
-		<item id="ghost claw" chance="2400" />
-		<item id="amber with a bug" chance="1600" />
-		<item id="dark bell (silver)" chance="1600" />
-		<item id="pair of nightmare boots" chance="800" />
+		<item name="crystal coin" chance="99200" countmax="2" />
+		<item name="moonstone" chance="48800" countmax="2" />
+		<item name="white gem" chance="44000" countmax="2" />
+		<item name="ultimate spirit potion" chance="43200" countmax="6" />
+		<item name="diamond" chance="40000" />
+		<item name="supreme health potion" chance="34400" countmax="6" />
+		<item name="ultimate mana potion" chance="21600" countmax="6" />
+		<item name="berserk potion" chance="20800" countmax="10" />
+		<item name="mastermind potion" chance="19200" countmax="10" />
+		<item name="bullseye potion" chance="17600" countmax="10" />
+		<item name="soulforged lantern" chance="16000" />
+		<item name="ivory comb" chance="13600" />
+		<item name="death toll" chance="12000" countmax="2" />
+		<item name="silver hand mirror" chance="9600" />
+		<item name="angel figurine" chance="8800" />
+		<item name="cursed bone" chance="8800" />
+		<item name="jagged sickle" chance="5600" />
+		<item name="amber (item)" chance="4800" />
+		<item name="spooky hood" chance="4800" />
+		<item name="amber with a dragonfly" chance="3200" />
+		<item name="giant amethyst" chance="3200" />
+		<item name="giant topaz" chance="3200" />
+		<item name="ghost claw" chance="2400" />
+		<item name="amber with a bug" chance="1600" />
+		<item name="dark bell (silver)" chance="1600" />
+		<item name="pair of nightmare boots" chance="800" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Wolf"
 monster.description = "a wolf"
 monster.experience = 18
 monster.outfit = {
-	lookType = 0,
+	lookType = 27,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,8 +89,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 70237},
-	{id = "wolf paw", chance = 1022},
+	{id = "meat", chance = 70243},
+	{id = "wolf paw", chance = 1023},
 	{id = "old rag", chance = 2}
 }
 

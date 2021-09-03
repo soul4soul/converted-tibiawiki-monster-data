@@ -1,6 +1,7 @@
-﻿<monster name="Twisted Pooka" nameDescription="a twisted pooka" experience="600" speed="230" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Twisted Pooka" nameDescription="a twisted pooka" experience="600" speed="230" manacost="0">
 	<health now="700" max="700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="978" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="40" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -50,19 +52,19 @@
 		<voice sentence="I'll gnaw away your toes!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="125" />
-		<item id="carrot" chance="20739" countmax="2" />
-		<item id="strong health potion" chance="12640" />
-		<item id="shimmering beetles" chance="9765" />
-		<item id="fairy wings" chance="8989" />
-		<item id="stone herb" chance="7164" />
-		<item id="small stone" chance="5111" countmax="5" />
-		<item id="cookie" chance="4449" countmax="5" />
-		<item id="orange mushroom" chance="3285" />
-		<item id="small enchanted ruby" chance="3263" countmax="2" />
-		<item id="prismatic quartz" chance="2624" />
-		<item id="stealth ring" chance="867" />
-		<item id="carrot on a stick" chance="137" />
-		<item id="crystal of focus" chance="68" />
+		<item name="gold coin" chance="100000" countmax="125" />
+		<item name="carrot" chance="20825" countmax="2" />
+		<item name="strong health potion" chance="12575" />
+		<item name="shimmering beetles" chance="9736" />
+		<item name="fairy wings" chance="9159" />
+		<item name="stone herb" chance="7252" />
+		<item name="small stone" chance="5101" countmax="5" />
+		<item name="cookie" chance="4436" countmax="5" />
+		<item name="small enchanted ruby" chance="3349" countmax="2" />
+		<item name="orange mushroom" chance="3282" />
+		<item name="prismatic quartz" chance="2550" />
+		<item name="stealth ring" chance="887" />
+		<item name="carrot on a stick" chance="133" />
+		<item name="crystal of focus" chance="67" />
 	</loot>
 </monster>

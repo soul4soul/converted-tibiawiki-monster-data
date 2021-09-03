@@ -5,12 +5,12 @@ monster.name = "Assassin"
 monster.description = "an assassin"
 monster.experience = 105
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 152,
+	lookHead = 95,
+	lookBody = 95,
+	lookLegs = 95,
+	lookFeet = 95,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,14 +90,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 83042, maxCount = 50},
-	{id = "torch", chance = 30078, maxCount = 2},
-	{id = "knife", chance = 9871},
-	{id = "throwing star", chance = 7023, maxCount = 14},
+	{id = "gold coin", chance = 83044, maxCount = 50},
+	{id = "torch", chance = 30080, maxCount = 2},
+	{id = "knife", chance = 9870},
+	{id = "throwing star", chance = 7022, maxCount = 14},
 	{id = "viper star", chance = 4175, maxCount = 7},
-	{id = "combat knife", chance = 4017},
+	{id = "combat knife", chance = 4016},
 	{id = "steel helmet", chance = 3051},
-	{id = "plate shield", chance = 1937},
+	{id = "plate shield", chance = 1936},
 	{id = "battle shield", chance = 1639},
 	{id = "steel shield", chance = 976},
 	{id = "leopard armor", chance = 475},

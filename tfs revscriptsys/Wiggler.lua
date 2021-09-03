@@ -5,7 +5,7 @@ monster.name = "Wiggler"
 monster.description = "a wiggler"
 monster.experience = 900
 monster.outfit = {
-	lookType = 0,
+	lookType = 510,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -104,21 +105,7 @@ monster.loot = {
 	{id = "yellow piece of cloth", chance = 1322},
 	{id = "black shield", chance = 944},
 	{id = "terra rod", chance = 755},
-	{id = "green piece of cloth", chance = 472},
-	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "crystalline arrow", chance = 100000, maxCount = 5},
-	{id = "drill bolt", chance = 100000, maxCount = 5},
-	{id = "platinum coin", chance = 100000},
-	{id = "white mushroom", chance = 100000, maxCount = 5},
-	{id = "strong mana potion", chance = 77998},
-	{id = "strong health potion", chance = 72427},
-	{id = "green crystal splinter", chance = 55619},
-	{id = "yellow piece of cloth", chance = 31917},
-	{id = "blue piece of cloth", chance = 30312},
-	{id = "green crystal fragment", chance = 29556},
-	{id = "serpent sword", chance = 20774},
-	{id = "black shield", chance = 19169},
-	{id = "terra rod", chance = 11615}
+	{id = "green piece of cloth", chance = 472}
 }
 
 mType:register(monster)

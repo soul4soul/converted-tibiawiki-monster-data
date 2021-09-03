@@ -5,7 +5,7 @@ monster.name = "Ghoulish Hyaena"
 monster.description = "a ghoulish hyaena"
 monster.experience = 195
 monster.outfit = {
-	lookType = 0,
+	lookType = 94,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,11 +89,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 88644, maxCount = 40},
-	{id = "worm", chance = 65621, maxCount = 7},
-	{id = "meat", chance = 51487},
+	{id = "gold coin", chance = 88641, maxCount = 40},
+	{id = "worm", chance = 65631, maxCount = 7},
+	{id = "meat", chance = 51375},
 	{id = "health potion", chance = 19837},
-	{id = "small ruby", chance = 2794, maxCount = 2}
+	{id = "small ruby", chance = 2783, maxCount = 2}
 }
 
 mType:register(monster)

@@ -5,7 +5,7 @@ monster.name = "Bat"
 monster.description = "a bat"
 monster.experience = 10
 monster.outfit = {
-	lookType = 0,
+	lookType = 122,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,7 +88,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bat wing", chance = 1095}
+	{id = "bat wing", chance = 1089}
 }
 
 mType:register(monster)

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,13 +93,13 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "minotaur leather", chance = 100000},
-	{id = "magic light wand", chance = 75000},
-	{id = "gold coin", chance = 55000, maxCount = 8},
-	{id = "torch", chance = 30000, maxCount = 2},
-	{id = "leather legs", chance = 15000},
-	{id = "knife", chance = 10000},
-	{id = "leather helmet", chance = 10000},
-	{id = "carrot", chance = 5000, maxCount = 2}
+	{id = "magic light wand", chance = 76667},
+	{id = "gold coin", chance = 66667, maxCount = 9},
+	{id = "torch", chance = 23333, maxCount = 2},
+	{id = "leather legs", chance = 10000},
+	{id = "carrot", chance = 6667, maxCount = 7},
+	{id = "knife", chance = 6667},
+	{id = "leather helmet", chance = 6667}
 }
 
 mType:register(monster)

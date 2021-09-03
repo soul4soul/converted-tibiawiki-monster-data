@@ -5,7 +5,7 @@ monster.name = "Glooth Blob"
 monster.description = "a glooth blob"
 monster.experience = 700
 monster.outfit = {
-	lookType = 0,
+	lookType = 614,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,13 +93,13 @@ monster.summons = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 70},
-	{id = "glob of glooth", chance = 14503},
-	{id = "small sapphire", chance = 3176, maxCount = 2},
-	{id = "small topaz", chance = 2839, maxCount = 2},
-	{id = "glooth axe", chance = 623},
-	{id = "glooth club", chance = 584},
-	{id = "glooth blade", chance = 524},
-	{id = "glooth amulet", chance = 505}
+	{id = "glob of glooth", chance = 14519},
+	{id = "small sapphire", chance = 3170, maxCount = 2},
+	{id = "small topaz", chance = 2825, maxCount = 2},
+	{id = "glooth axe", chance = 620},
+	{id = "glooth club", chance = 581},
+	{id = "glooth blade", chance = 522},
+	{id = "glooth amulet", chance = 502}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Acolyte Of Darkness" nameDescription="an acolyte of darkness" experience="200" speed="180" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Acolyte Of Darkness" nameDescription="an acolyte of darkness" experience="200" speed="180" manacost="0">
 	<health now="325" max="325" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="9" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -50,6 +52,6 @@
 		<voice sentence="The power of darkness is with me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="midnight shard" chance="1467" />
+		<item name="midnight shard" chance="1467" />
 	</loot>
 </monster>

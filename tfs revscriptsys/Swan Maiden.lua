@@ -5,11 +5,11 @@ monster.name = "Swan Maiden"
 monster.description = "a swan maiden"
 monster.experience = 700
 monster.outfit = {
-	lookType = 0,
+	lookType = 138,
 	lookHead = 0,
 	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookLegs = 114,
+	lookFeet = 78,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,24 +92,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 59986, maxCount = 90},
-	{id = "wild flowers", chance = 20319},
-	{id = "colourful snail shell", chance = 15395},
-	{id = "powder herb", chance = 5132},
-	{id = "great mana potion", chance = 3294},
-	{id = "silver brooch", chance = 2809},
-	{id = "small enchanted emerald", chance = 2497, maxCount = 2},
-	{id = "opal", chance = 1803, maxCount = 2},
-	{id = "white pearl", chance = 1768, maxCount = 2},
-	{id = "coral brooch", chance = 1734},
-	{id = "green mushroom", chance = 1387},
-	{id = "clerical mace", chance = 1318},
-	{id = "boots of haste", chance = 902},
-	{id = "butterfly ring", chance = 832},
-	{id = "strong mana potion", chance = 555},
-	{id = "summer dress", chance = 520},
-	{id = "diamond sceptre", chance = 347},
-	{id = "flower wreath", chance = 312}
+	{id = "gold coin", chance = 60033, maxCount = 90},
+	{id = "wild flowers", chance = 20361},
+	{id = "colourful snail shell", chance = 15140},
+	{id = "powder herb", chance = 5353},
+	{id = "great mana potion", chance = 3317},
+	{id = "silver brooch", chance = 2759},
+	{id = "small enchanted emerald", chance = 2496, maxCount = 2},
+	{id = "opal", chance = 1905, maxCount = 2},
+	{id = "coral brooch", chance = 1708},
+	{id = "white pearl", chance = 1708, maxCount = 2},
+	{id = "green mushroom", chance = 1445},
+	{id = "clerical mace", chance = 1314},
+	{id = "boots of haste", chance = 920},
+	{id = "butterfly ring", chance = 788},
+	{id = "strong mana potion", chance = 525},
+	{id = "summer dress", chance = 493},
+	{id = "diamond sceptre", chance = 427},
+	{id = "flower wreath", chance = 296}
 }
 
 mType:register(monster)

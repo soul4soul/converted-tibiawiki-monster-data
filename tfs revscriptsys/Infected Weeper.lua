@@ -5,7 +5,7 @@ monster.name = "Infected Weeper"
 monster.description = "an infected weeper"
 monster.experience = 1200
 monster.outfit = {
-	lookType = 0,
+	lookType = 489,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,7 +90,7 @@ monster.defenses = {
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 198},
 	{id = "platinum coin", chance = 100000, maxCount = 7},
-	{id = "coal", chance = 1186}
+	{id = "coal", chance = 1221}
 }
 
 mType:register(monster)

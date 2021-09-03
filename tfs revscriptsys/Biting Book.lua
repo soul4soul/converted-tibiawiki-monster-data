@@ -5,7 +5,7 @@ monster.name = "Biting Book"
 monster.description = "a biting book"
 monster.experience = 9350
 monster.outfit = {
-	lookType = 0,
+	lookType = 1066,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,20 +87,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 75363, maxCount = 55},
-	{id = "book page", chance = 61538, maxCount = 6},
-	{id = "glowing rune", chance = 41313, maxCount = 9},
-	{id = "silken bookmark", chance = 29532},
-	{id = "big bone", chance = 8015, maxCount = 2},
-	{id = "meat", chance = 3389},
-	{id = "ruby necklace", chance = 1990},
-	{id = "platinum coin", chance = 646, maxCount = 53},
-	{id = "book page", chance = 592, maxCount = 6},
-	{id = "glowing rune", chance = 484, maxCount = 9},
-	{id = "silken bookmark", chance = 377},
-	{id = "big bone", chance = 108, maxCount = 2},
-	{id = "meat", chance = 54},
-	{id = "ruby necklace", chance = 54}
+	{id = "platinum coin", chance = 74925, maxCount = 55},
+	{id = "book page", chance = 62111, maxCount = 6},
+	{id = "glowing rune", chance = 40905, maxCount = 9},
+	{id = "silken bookmark", chance = 29648},
+	{id = "big bone", chance = 7940, maxCount = 2},
+	{id = "meat", chance = 3417},
+	{id = "ruby necklace", chance = 1910}
 }
 
 mType:register(monster)

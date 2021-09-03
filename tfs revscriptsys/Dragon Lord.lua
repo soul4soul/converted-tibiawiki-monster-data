@@ -5,7 +5,7 @@ monster.name = "Dragon Lord"
 monster.description = "a dragon lord"
 monster.experience = 2100
 monster.outfit = {
-	lookType = 0,
+	lookType = 39,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,26 +90,26 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 95289, maxCount = 246},
-	{id = "dragon ham", chance = 79754},
-	{id = "green mushroom", chance = 12115},
-	{id = "royal spear", chance = 9131, maxCount = 3},
-	{id = "book (gemmed)", chance = 9047},
-	{id = "power bolt", chance = 6577, maxCount = 7},
-	{id = "energy ring", chance = 5094},
-	{id = "small sapphire", chance = 5010},
+	{id = "gold coin", chance = 95287, maxCount = 246},
+	{id = "dragon ham", chance = 79742},
+	{id = "green mushroom", chance = 12118},
+	{id = "royal spear", chance = 9130, maxCount = 3},
+	{id = "book (gemmed)", chance = 9051},
+	{id = "power bolt", chance = 6575, maxCount = 7},
+	{id = "energy ring", chance = 5090},
+	{id = "small sapphire", chance = 5006},
 	{id = "golden mug", chance = 3070},
-	{id = "red dragon scale", chance = 1974},
-	{id = "red dragon leather", chance = 1022},
-	{id = "strong health potion", chance = 981},
+	{id = "red dragon scale", chance = 1972},
+	{id = "red dragon leather", chance = 1023},
+	{id = "strong health potion", chance = 982},
 	{id = "life crystal", chance = 628},
-	{id = "strange helmet", chance = 377},
+	{id = "strange helmet", chance = 376},
 	{id = "fire sword", chance = 285},
 	{id = "tower shield", chance = 266},
-	{id = "royal helmet", chance = 233},
+	{id = "royal helmet", chance = 232},
 	{id = "dragon scale mail", chance = 134},
 	{id = "dragon slayer", chance = 108},
-	{id = "dragon lord trophy", chance = 94}
+	{id = "dragon lord trophy", chance = 93}
 }
 
 mType:register(monster)

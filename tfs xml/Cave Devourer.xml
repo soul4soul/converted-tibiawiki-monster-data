@@ -1,6 +1,7 @@
-﻿<monster name="Cave Devourer" nameDescription="a cave devourer" experience="2380" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Cave Devourer" nameDescription="a cave devourer" experience="2380" speed="240" manacost="0">
 	<health now="4500" max="4500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1036" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
@@ -40,44 +42,18 @@
 	</elements>
 	<defenses armor="40" defense="40" />
 	<loot>
-		<item id="cave devourer eyes" chance="20134" />
-		<item id="cave devourer maw" chance="16779" />
-		<item id="slime heart" chance="14765" countmax="4" />
-		<item id="crystalline arrow" chance="11409" countmax="40" />
-		<item id="small enchanted ruby" chance="11409" />
-		<item id="cave devourer legs" chance="9396" />
-		<item id="green crystal shard" chance="7383" />
-		<item id="blue crystal shard" chance="5369" />
-		<item id="cyan crystal fragment" chance="4698" />
-		<item id="small enchanted sapphire" chance="4698" />
-		<item id="violet crystal shard" chance="4698" />
-		<item id="stealth ring" chance="1342" />
-		<item id="suspicious device" chance="1342" />
-		<item id="cave devourer maw" chance="100000" />
-		<item id="cave devourer eyes" chance="100000" />
-		<item id="cave devourer legs" chance="100000" />
-		<item id="crystalline arrow" chance="100000" countmax="40" />
-		<item id="slime heart" chance="100000" countmax="4" />
-		<item id="green crystal shard" chance="85235" />
-		<item id="small enchanted sapphire" chance="82550" />
-		<item id="blue crystal shard" chance="74497" />
-		<item id="small enchanted ruby" chance="69799" />
-		<item id="cyan crystal fragment" chance="67114" />
-		<item id="violet crystal shard" chance="57718" />
-		<item id="stealth ring" chance="29530" />
-		<item id="suspicious device" chance="16779" />
-		<item id="cave devourer maw" chance="100000" />
-		<item id="cave devourer eyes" chance="100000" />
-		<item id="crystalline arrow" chance="96644" countmax="40" />
-		<item id="cave devourer legs" chance="78523" />
-		<item id="slime heart" chance="61745" countmax="4" />
-		<item id="blue crystal shard" chance="40940" />
-		<item id="small enchanted sapphire" chance="38926" />
-		<item id="green crystal shard" chance="38255" />
-		<item id="violet crystal shard" chance="31544" />
-		<item id="cyan crystal fragment" chance="28859" />
-		<item id="small enchanted ruby" chance="27517" />
-		<item id="stealth ring" chance="12752" />
-		<item id="suspicious device" chance="2013" />
+		<item name="cave devourer eyes" chance="20134" />
+		<item name="cave devourer maw" chance="16779" />
+		<item name="slime heart" chance="14765" countmax="4" />
+		<item name="crystalline arrow" chance="11409" countmax="40" />
+		<item name="small enchanted ruby" chance="11409" />
+		<item name="cave devourer legs" chance="9396" />
+		<item name="green crystal shard" chance="7383" />
+		<item name="blue crystal shard" chance="5369" />
+		<item name="cyan crystal fragment" chance="4698" />
+		<item name="small enchanted sapphire" chance="4698" />
+		<item name="violet crystal shard" chance="4698" />
+		<item name="stealth ring" chance="1342" />
+		<item name="suspicious device" chance="1342" />
 	</loot>
 </monster>

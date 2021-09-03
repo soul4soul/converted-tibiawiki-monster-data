@@ -5,7 +5,7 @@ monster.name = "Dwarf Soldier"
 monster.description = "a dwarf soldier"
 monster.experience = 70
 monster.outfit = {
-	lookType = 0,
+	lookType = 71,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,14 +89,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "white mushroom", chance = 39891, maxCount = 2},
+	{id = "white mushroom", chance = 39889, maxCount = 2},
 	{id = "bolt", chance = 37823, maxCount = 7},
 	{id = "gold coin", chance = 28340, maxCount = 12},
-	{id = "soldier helmet", chance = 11794},
-	{id = "shovel", chance = 10022},
-	{id = "chain armor", chance = 7509},
-	{id = "piercing bolt", chance = 3821, maxCount = 3},
-	{id = "dwarven shield", chance = 3060},
+	{id = "soldier helmet", chance = 11795},
+	{id = "shovel", chance = 10021},
+	{id = "chain armor", chance = 7508},
+	{id = "piercing bolt", chance = 3820, maxCount = 3},
+	{id = "dwarven shield", chance = 3059},
 	{id = "crossbow", chance = 3037},
 	{id = "battle axe", chance = 2478},
 	{id = "iron ore", chance = 304},

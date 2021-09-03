@@ -1,4 +1,5 @@
-﻿<monster name="Mozradek" nameDescription="" experience="21000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mozradek" nameDescription="" experience="21000" speed="0" manacost="0">
 	<health now="28000" max="28000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -43,10 +45,10 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="red gem" chance="87097" />
-		<item id="golden mask" chance="8065" />
-		<item id="enchanted theurgic amulet" chance="1613" />
-		<item id="sea horse figurine" chance="1613" />
-		<item id="winged boots" chance="1613" />
+		<item name="red gem" chance="87500" />
+		<item name="golden mask" chance="7812" />
+		<item name="enchanted theurgic amulet" chance="1562" />
+		<item name="sea horse figurine" chance="1562" />
+		<item name="winged boots" chance="1562" />
 	</loot>
 </monster>

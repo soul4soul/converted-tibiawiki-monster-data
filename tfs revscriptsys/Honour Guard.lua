@@ -5,7 +5,7 @@ monster.name = "Honour Guard"
 monster.description = "an honour guard"
 monster.experience = 55
 monster.outfit = {
-	lookType = 0,
+	lookType = 298,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,12 +91,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 49543, maxCount = 15},
-	{id = "pelvis bone", chance = 8929},
-	{id = "brown mushroom", chance = 6000, maxCount = 2},
-	{id = "mace", chance = 3622},
-	{id = "scarab coin", chance = 2661},
-	{id = "scimitar", chance = 1339}
+	{id = "gold coin", chance = 49586, maxCount = 15},
+	{id = "pelvis bone", chance = 8926},
+	{id = "brown mushroom", chance = 6018, maxCount = 2},
+	{id = "mace", chance = 3627},
+	{id = "scarab coin", chance = 2657},
+	{id = "scimitar", chance = 1360}
 }
 
 mType:register(monster)

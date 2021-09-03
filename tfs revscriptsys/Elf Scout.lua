@@ -5,7 +5,7 @@ monster.name = "Elf Scout"
 monster.description = "an elf scout"
 monster.experience = 75
 monster.outfit = {
-	lookType = 0,
+	lookType = 64,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,17 +93,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 75019, maxCount = 25},
-	{id = "arrow", chance = 30513, maxCount = 12},
-	{id = "grapes", chance = 17799},
-	{id = "poison arrow", chance = 15126, maxCount = 4},
-	{id = "elven scouting glass", chance = 10076},
-	{id = "elvish talisman", chance = 5144},
-	{id = "bow", chance = 4053},
-	{id = "waterskin", chance = 1262},
-	{id = "sandals", chance = 1118},
-	{id = "heaven blossom", chance = 1100},
-	{id = "elvish bow", chance = 140}
+	{id = "gold coin", chance = 75040, maxCount = 25},
+	{id = "arrow", chance = 30573, maxCount = 12},
+	{id = "grapes", chance = 17817},
+	{id = "poison arrow", chance = 15118, maxCount = 4},
+	{id = "elven scouting glass", chance = 10061},
+	{id = "elvish talisman", chance = 5134},
+	{id = "bow", chance = 4044},
+	{id = "waterskin", chance = 1255},
+	{id = "sandals", chance = 1121},
+	{id = "heaven blossom", chance = 1098},
+	{id = "elvish bow", chance = 139}
 }
 
 mType:register(monster)

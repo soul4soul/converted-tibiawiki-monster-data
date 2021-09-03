@@ -5,7 +5,7 @@ monster.name = "Vampire Bride"
 monster.description = "a vampire bride"
 monster.experience = 1050
 monster.outfit = {
-	lookType = 0,
+	lookType = 312,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -93,23 +94,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 93594, maxCount = 149},
-	{id = "strong mana potion", chance = 10332},
-	{id = "vampire teeth", chance = 10051},
-	{id = "platinum coin", chance = 10015},
-	{id = "moonlight rod", chance = 5166},
-	{id = "blood preservation", chance = 5020},
-	{id = "strong health potion", chance = 4860},
-	{id = "emerald bangle", chance = 1035},
-	{id = "rusted armor", chance = 1035},
-	{id = "small diamond", chance = 1028, maxCount = 2},
-	{id = "velvet tapestry", chance = 1021},
-	{id = "hibiscus dress", chance = 970},
-	{id = "boots of haste", chance = 193},
-	{id = "flower bouquet", chance = 182},
-	{id = "mysterious voodoo skull", chance = 153},
-	{id = "blood goblet", chance = 95},
-	{id = "leather whip", chance = 33}
+	{id = "gold coin", chance = 93579, maxCount = 149},
+	{id = "strong mana potion", chance = 10347},
+	{id = "vampire teeth", chance = 10053},
+	{id = "platinum coin", chance = 10006},
+	{id = "moonlight rod", chance = 5184},
+	{id = "blood preservation", chance = 5051},
+	{id = "strong health potion", chance = 4847},
+	{id = "emerald bangle", chance = 1029},
+	{id = "rusted armor", chance = 1029},
+	{id = "velvet tapestry", chance = 1025},
+	{id = "small diamond", chance = 1015, maxCount = 2},
+	{id = "hibiscus dress", chance = 968},
+	{id = "boots of haste", chance = 197},
+	{id = "flower bouquet", chance = 179},
+	{id = "mysterious voodoo skull", chance = 151},
+	{id = "blood goblet", chance = 93},
+	{id = "leather whip", chance = 32}
 }
 
 mType:register(monster)

@@ -5,7 +5,7 @@ monster.name = "Spider"
 monster.description = "a spider"
 monster.experience = 12
 monster.outfit = {
-	lookType = 0,
+	lookType = 30,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,10 +87,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 65434, maxCount = 5},
-	{id = "spider fangs", chance = 976},
-	{id = "gold coin", chance = 55683, maxCount = 5},
-	{id = "spider fangs", chance = 1640}
+	{id = "gold coin", chance = 65430, maxCount = 5},
+	{id = "spider fangs", chance = 979}
 }
 
 mType:register(monster)

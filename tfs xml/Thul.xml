@@ -1,4 +1,5 @@
-﻿<monster name="Thul" nameDescription="" experience="2700" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Thul" nameDescription="" experience="2700" speed="0" manacost="0">
 	<health now="2950" max="2950" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-15" />
+		<element energyPercent="-15" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
@@ -52,23 +54,13 @@
 		<voice name="massive water elemental" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="fish fin" chance="100000" />
-		<item id="platinum coin" chance="89000" countmax="10" />
-		<item id="marlin" chance="67000" />
-		<item id="great mana potion" chance="43000" />
-		<item id="small amethyst" chance="39000" countmax="4" />
-		<item id="relic sword" chance="33000" />
-		<item id="crusader helmet" chance="18000" />
-		<item id="crown armor" chance="8000" />
-		<item id="fish fin" chance="11000" />
-		<item id="platinum coin" chance="5000" countmax="8" />
-		<item id="gold coin" chance="3000" countmax="77" />
-		<item id="great mana potion" chance="3000" />
-		<item id="marlin" chance="3000" />
-		<item id="relic sword" chance="3000" />
-		<item id="small amethyst" chance="3000" />
-		<item id="brass helmet" chance="1000" />
-		<item id="crusader helmet" chance="1000" />
-		<item id="shrimp" chance="1000" />
+		<item name="fish fin" chance="100000" />
+		<item name="platinum coin" chance="89000" countmax="10" />
+		<item name="marlin" chance="67000" />
+		<item name="great mana potion" chance="43000" />
+		<item name="small amethyst" chance="39000" countmax="4" />
+		<item name="relic sword" chance="33000" />
+		<item name="crusader helmet" chance="18000" />
+		<item name="crown armor" chance="8000" />
 	</loot>
 </monster>

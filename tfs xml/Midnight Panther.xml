@@ -1,6 +1,7 @@
-﻿<monster name="Midnight Panther" nameDescription="a midnight panther" experience="900" speed="580" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Midnight Panther" nameDescription="a midnight panther" experience="900" speed="580" manacost="0">
 	<health now="1200" max="1200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="385" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -54,11 +56,12 @@
 		<voice sentence="Purrrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="panther paw" chance="100000" />
-		<item id="gold coin" chance="95833" countmax="86" />
-		<item id="meat" chance="25000" />
-		<item id="panther head" chance="16667" />
-		<item id="life ring" chance="4167" />
-		<item id="sabretooth" chance="4167" />
+		<item name="panther paw" chance="100000" />
+		<item name="gold coin" chance="96000" countmax="86" />
+		<item name="meat" chance="28000" />
+		<item name="panther head" chance="16000" />
+		<item name="life ring" chance="4000" />
+		<item name="sabretooth" chance="4000" />
+		<item name="strong health potion" chance="4000" />
 	</loot>
 </monster>

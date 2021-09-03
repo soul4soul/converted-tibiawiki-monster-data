@@ -1,6 +1,7 @@
-﻿<monster name="Falcon Paladin" nameDescription="a falcon paladin" experience="6544" speed="220" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Falcon Paladin" nameDescription="a falcon paladin" experience="6544" speed="220" manacost="0">
 	<health now="8500" max="8500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1071" head="57" body="96" legs="38" feet="105" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -46,70 +48,22 @@
 		<voice sentence="Uuunngh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="93519" countmax="6" />
-		<item id="small amethyst" chance="54630" countmax="2" />
-		<item id="small diamond" chance="51852" countmax="2" />
-		<item id="great spirit potion" chance="50926" countmax="2" />
-		<item id="small emerald" chance="41667" countmax="2" />
-		<item id="assassin star" chance="29630" countmax="10" />
-		<item id="small topaz" chance="25000" countmax="2" />
-		<item id="onyx arrow" chance="21296" countmax="15" />
-		<item id="small ruby" chance="21296" countmax="2" />
-		<item id="green gem" chance="10185" />
-		<item id="violet gem" chance="5556" />
-		<item id="red gem" chance="4630" />
-		<item id="giant shimmering pearl (green)" chance="3704" />
-		<item id="damaged armor plates" chance="926" />
-		<item id="platinum coin" chance="100000" countmax="6" />
-		<item id="great spirit potion" chance="100000" countmax="2" />
-		<item id="small amethyst" chance="100000" countmax="2" />
-		<item id="small emerald" chance="100000" countmax="2" />
-		<item id="small diamond" chance="100000" countmax="2" />
-		<item id="assassin star" chance="100000" countmax="10" />
-		<item id="small topaz" chance="100000" countmax="2" />
-		<item id="small ruby" chance="100000" countmax="2" />
-		<item id="onyx arrow" chance="100000" countmax="15" />
-		<item id="red gem" chance="100000" />
-		<item id="green gem" chance="100000" />
-		<item id="violet gem" chance="100000" />
-		<item id="giant shimmering pearl (green)" chance="61111" />
-		<item id="damaged armor plates" chance="28704" />
-		<item id="falcon crest" chance="27778" />
-		<item id="golden armor" chance="11111" />
-		<item id="mastermind shield" chance="10185" />
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="small diamond" chance="100000" countmax="2" />
-		<item id="great spirit potion" chance="100000" countmax="2" />
-		<item id="small emerald" chance="100000" countmax="2" />
-		<item id="small amethyst" chance="100000" countmax="2" />
-		<item id="assassin star" chance="100000" countmax="10" />
-		<item id="small topaz" chance="100000" countmax="2" />
-		<item id="small ruby" chance="100000" countmax="2" />
-		<item id="onyx arrow" chance="100000" countmax="15" />
-		<item id="red gem" chance="100000" />
-		<item id="green gem" chance="100000" />
-		<item id="violet gem" chance="100000" />
-		<item id="giant shimmering pearl (green)" chance="96296" />
-		<item id="damaged armor plates" chance="44444" />
-		<item id="falcon crest" chance="33333" />
-		<item id="mastermind shield" chance="14815" />
-		<item id="golden armor" chance="12963" />
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="small emerald" chance="100000" countmax="2" />
-		<item id="small diamond" chance="100000" countmax="2" />
-		<item id="small amethyst" chance="100000" countmax="2" />
-		<item id="great mana potion" chance="96296" countmax="3" />
-		<item id="great health potion" chance="87037" countmax="3" />
-		<item id="assassin star" chance="66667" countmax="10" />
-		<item id="small ruby" chance="56481" countmax="2" />
-		<item id="small topaz" chance="52778" countmax="2" />
-		<item id="onyx arrow" chance="47222" countmax="15" />
-		<item id="red gem" chance="8333" />
-		<item id="violet gem" chance="5556" />
-		<item id="giant shimmering pearl (green)" chance="5556" />
-		<item id="green gem" chance="3704" />
-		<item id="falcon crest" chance="1852" />
-		<item id="golden armor" chance="1852" />
-		<item id="damaged armor plates" chance="926" />
+		<item name="platinum coin" chance="89659" countmax="6" />
+		<item name="small amethyst" chance="48188" countmax="2" />
+		<item name="great spirit potion" chance="47015" countmax="2" />
+		<item name="small diamond" chance="46482" countmax="2" />
+		<item name="small emerald" chance="46162" countmax="2" />
+		<item name="assassin star" chance="29424" countmax="10" />
+		<item name="small topaz" chance="24414" countmax="2" />
+		<item name="small ruby" chance="22921" countmax="2" />
+		<item name="onyx arrow" chance="17591" countmax="15" />
+		<item name="red gem" chance="8635" />
+		<item name="green gem" chance="6397" />
+		<item name="violet gem" chance="4584" />
+		<item name="giant shimmering pearl (green)" chance="1599" />
+		<item name="damaged armor plates" chance="1493" />
+		<item name="falcon crest" chance="1279" />
+		<item name="mastermind shield" chance="640" />
+		<item name="golden armor" chance="320" />
 	</loot>
 </monster>

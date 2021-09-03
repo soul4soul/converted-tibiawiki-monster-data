@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,18 +91,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 91134, maxCount = 5},
-	{id = "leather legs", chance = 27225},
-	{id = "meat", chance = 16777},
-	{id = "lion cloak patch", chance = 10349},
-	{id = "lion crest", chance = 6625},
-	{id = "knight legs", chance = 5801},
-	{id = "violet gem", chance = 5768},
-	{id = "gold ingot", chance = 5307},
-	{id = "blue gem", chance = 4021},
-	{id = "great mana potion", chance = 4021},
-	{id = "green gem", chance = 2538},
-	{id = "magma legs", chance = 923}
+	{id = "platinum coin", chance = 91187, maxCount = 5},
+	{id = "leather legs", chance = 27290},
+	{id = "meat", chance = 16651},
+	{id = "lion cloak patch", chance = 10545},
+	{id = "lion crest", chance = 6610},
+	{id = "knight legs", chance = 5729},
+	{id = "violet gem", chance = 5571},
+	{id = "gold ingot", chance = 5225},
+	{id = "blue gem", chance = 3997},
+	{id = "great mana potion", chance = 3997},
+	{id = "green gem", chance = 2581},
+	{id = "magma legs", chance = 881}
 }
 
 mType:register(monster)

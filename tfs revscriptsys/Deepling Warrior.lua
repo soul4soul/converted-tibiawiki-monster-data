@@ -5,7 +5,7 @@ monster.name = "Deepling Warrior"
 monster.description = "a deepling warrior"
 monster.experience = 1500
 monster.outfit = {
-	lookType = 0,
+	lookType = 441,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,18 +90,18 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 180},
-	{id = "deepling filet", chance = 15227},
-	{id = "deeptags", chance = 14971},
-	{id = "deepling ridge", chance = 11021},
-	{id = "great mana potion", chance = 10207},
-	{id = "deepling warts", chance = 10057},
-	{id = "great health potion", chance = 10028},
-	{id = "vortex bolt", chance = 3434, maxCount = 5},
-	{id = "small emerald", chance = 3101},
-	{id = "life ring", chance = 3002},
-	{id = "heavy trident", chance = 988},
-	{id = "fish fin", chance = 880},
-	{id = "eye of a deepling", chance = 611},
+	{id = "deepling filet", chance = 15225},
+	{id = "deeptags", chance = 14966},
+	{id = "deepling ridge", chance = 11015},
+	{id = "great mana potion", chance = 10199},
+	{id = "deepling warts", chance = 10051},
+	{id = "great health potion", chance = 10043},
+	{id = "vortex bolt", chance = 3431, maxCount = 5},
+	{id = "small emerald", chance = 3100},
+	{id = "life ring", chance = 3008},
+	{id = "heavy trident", chance = 990},
+	{id = "fish fin", chance = 877},
+	{id = "eye of a deepling", chance = 608},
 	{id = "warrior's shield", chance = 607},
 	{id = "warrior's axe", chance = 511}
 }

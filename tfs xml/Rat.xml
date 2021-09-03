@@ -1,6 +1,7 @@
-﻿<monster name="Rat" nameDescription="a rat" experience="5" speed="134" manacost="200">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Rat" nameDescription="a rat" experience="5" speed="134" manacost="200">
 	<health now="20" max="20" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="21" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -46,9 +48,7 @@
 		<voice sentence="Meep!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="91676" countmax="4" />
-		<item id="cheese" chance="36328" />
-		<item id="gold coin" chance="31349" countmax="4" />
-		<item id="cheese" chance="18078" />
+		<item name="gold coin" chance="89551" countmax="4" />
+		<item name="cheese" chance="35497" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Orc Cult Priest"
 monster.description = "an orc cult priest"
 monster.experience = 1000
 monster.outfit = {
-	lookType = 0,
+	lookType = 6,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,19 +89,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 181},
-	{id = "strong health potion", chance = 15637},
-	{id = "shamanic hood", chance = 14754},
-	{id = "small ruby", chance = 11791, maxCount = 6},
-	{id = "green piece of cloth", chance = 11223},
-	{id = "cultish robe", chance = 11034},
-	{id = "mysterious fetish", chance = 9142},
-	{id = "orc leather", chance = 8638},
-	{id = "broken shamanic staff", chance = 8575},
-	{id = "orc tooth", chance = 5549},
-	{id = "black pearl", chance = 2963, maxCount = 2},
-	{id = "heavy old tome", chance = 2018},
-	{id = "berserk potion", chance = 1009},
-	{id = "wand of decay", chance = 820}
+	{id = "strong health potion", chance = 15903},
+	{id = "shamanic hood", chance = 14328},
+	{id = "small ruby", chance = 12408, maxCount = 6},
+	{id = "cultish robe", chance = 11029},
+	{id = "green piece of cloth", chance = 10832},
+	{id = "broken shamanic staff", chance = 9060},
+	{id = "mysterious fetish", chance = 9060},
+	{id = "orc leather", chance = 8419},
+	{id = "orc tooth", chance = 5465},
+	{id = "black pearl", chance = 2856, maxCount = 2},
+	{id = "heavy old tome", chance = 1871},
+	{id = "wand of decay", chance = 1034},
+	{id = "berserk potion", chance = 886}
 }
 
 mType:register(monster)

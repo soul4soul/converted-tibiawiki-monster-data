@@ -5,7 +5,7 @@ monster.name = "Boogy"
 monster.description = "a boogy"
 monster.experience = 950
 monster.outfit = {
-	lookType = 0,
+	lookType = 981,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,22 +91,22 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 193},
-	{id = "shimmering beetles", chance = 17088},
-	{id = "strong health potion", chance = 15571},
-	{id = "fairy wings", chance = 15065},
-	{id = "leaf star", chance = 8404, maxCount = 7},
-	{id = "wood mushroom", chance = 4666},
-	{id = "red crystal fragment", chance = 3288, maxCount = 2},
-	{id = "sling herb", chance = 3260},
-	{id = "prismatic quartz", chance = 3176, maxCount = 2},
-	{id = "terra amulet", chance = 2951},
-	{id = "ancient coin", chance = 2923, maxCount = 3},
-	{id = "small enchanted emerald", chance = 2501, maxCount = 3},
-	{id = "berserk potion", chance = 1124},
-	{id = "golden sickle", chance = 871},
-	{id = "wooden spellbook", chance = 534},
-	{id = "mandrake", chance = 112},
-	{id = "crystal of power", chance = 84}
+	{id = "shimmering beetles", chance = 17165},
+	{id = "strong health potion", chance = 15512},
+	{id = "fairy wings", chance = 15039},
+	{id = "leaf star", chance = 8373, maxCount = 7},
+	{id = "wood mushroom", chance = 4593},
+	{id = "red crystal fragment", chance = 3412, maxCount = 2},
+	{id = "sling herb", chance = 3307},
+	{id = "prismatic quartz", chance = 3228, maxCount = 2},
+	{id = "terra amulet", chance = 2992},
+	{id = "ancient coin", chance = 2913, maxCount = 3},
+	{id = "small enchanted emerald", chance = 2388, maxCount = 3},
+	{id = "berserk potion", chance = 1129},
+	{id = "golden sickle", chance = 814},
+	{id = "wooden spellbook", chance = 525},
+	{id = "crystal of power", chance = 184},
+	{id = "mandrake", chance = 131}
 }
 
 mType:register(monster)

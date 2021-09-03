@@ -5,11 +5,11 @@ monster.name = "Crimson Frog"
 monster.description = "a crimson frog"
 monster.experience = 20
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 226,
+	lookHead = 94,
+	lookBody = 78,
+	lookLegs = 77,
+	lookFeet = 112,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,8 +89,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 75336, maxCount = 10},
-	{id = "worm", chance = 9970}
+	{id = "gold coin", chance = 75178, maxCount = 10},
+	{id = "worm", chance = 9903}
 }
 
 mType:register(monster)

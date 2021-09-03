@@ -1,6 +1,7 @@
-﻿<monster name="Devourer" nameDescription="a devourer" experience="1755" speed="200" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Devourer" nameDescription="a devourer" experience="1755" speed="200" manacost="0">
 	<health now="1900" max="1900" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="617" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -50,64 +52,25 @@
 		<voice sentence="*omnnommm nomm*" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99517" countmax="165" />
-		<item id="platinum coin" chance="56035" countmax="2" />
-		<item id="glob of glooth" chance="13093" />
-		<item id="small emerald" chance="5737" countmax="3" />
-		<item id="small ruby" chance="5652" countmax="3" />
-		<item id="small amethyst" chance="5567" countmax="3" />
-		<item id="small topaz" chance="5510" countmax="3" />
-		<item id="small diamond" chance="5226" countmax="3" />
-		<item id="small sapphire" chance="5084" countmax="3" />
-		<item id="glooth club" chance="3323" />
-		<item id="glooth axe" chance="2812" />
-		<item id="glooth blade" chance="2499" />
-		<item id="talon" chance="2414" />
-		<item id="yellow gem" chance="1562" />
-		<item id="glooth spear" chance="1448" />
-		<item id="springsprout rod" chance="937" />
-		<item id="terra rod" chance="596" />
-		<item id="glooth amulet" chance="568" />
-		<item id="glooth cape" chance="57" />
-		<item id="green gem" chance="28" />
-		<item id="gold coin" chance="100000" countmax="165" />
-		<item id="platinum coin" chance="100000" countmax="2" />
-		<item id="glob of glooth" chance="100000" />
-		<item id="small emerald" chance="100000" countmax="3" />
-		<item id="small sapphire" chance="100000" countmax="3" />
-		<item id="small ruby" chance="100000" countmax="3" />
-		<item id="small topaz" chance="100000" countmax="3" />
-		<item id="small diamond" chance="100000" countmax="3" />
-		<item id="small amethyst" chance="100000" countmax="3" />
-		<item id="glooth axe" chance="100000" />
-		<item id="glooth club" chance="100000" />
-		<item id="glooth blade" chance="100000" />
-		<item id="talon" chance="100000" />
-		<item id="glooth spear" chance="100000" />
-		<item id="yellow gem" chance="100000" countmax="2" />
-		<item id="springsprout rod" chance="78671" />
-		<item id="glooth amulet" chance="63618" />
-		<item id="terra rod" chance="45527" />
-		<item id="glooth cape" chance="15450" />
-		<item id="green gem" chance="6788" />
-		<item id="gold coin" chance="38711" countmax="161" />
-		<item id="platinum coin" chance="15791" countmax="2" />
-		<item id="glob of glooth" chance="5453" />
-		<item id="small diamond" chance="2073" countmax="2" />
-		<item id="small topaz" chance="2016" />
-		<item id="small sapphire" chance="1931" />
-		<item id="small ruby" chance="1874" countmax="2" />
-		<item id="small amethyst" chance="1846" countmax="2" />
-		<item id="small emerald" chance="1676" countmax="2" />
-		<item id="glooth club" chance="1278" />
-		<item id="glooth blade" chance="1221" />
-		<item id="glooth axe" chance="1164" />
-		<item id="talon" chance="880" />
-		<item id="glooth spear" chance="795" />
-		<item id="springsprout rod" chance="625" />
-		<item id="glooth amulet" chance="596" />
-		<item id="yellow gem" chance="483" />
-		<item id="glooth cape" chance="85" />
-		<item id="green gem" chance="28" />
+		<item name="gold coin" chance="99449" countmax="165" />
+		<item name="platinum coin" chance="56061" countmax="2" />
+		<item name="glob of glooth" chance="13003" />
+		<item name="small emerald" chance="5840" countmax="3" />
+		<item name="small ruby" chance="5592" countmax="3" />
+		<item name="small amethyst" chance="5537" countmax="3" />
+		<item name="small topaz" chance="5537" countmax="3" />
+		<item name="small diamond" chance="5262" countmax="3" />
+		<item name="small sapphire" chance="5069" countmax="3" />
+		<item name="glooth club" chance="3223" />
+		<item name="glooth axe" chance="2837" />
+		<item name="glooth blade" chance="2562" />
+		<item name="talon" chance="2397" />
+		<item name="yellow gem" chance="1543" />
+		<item name="glooth spear" chance="1515" />
+		<item name="springsprout rod" chance="909" />
+		<item name="terra rod" chance="579" />
+		<item name="glooth amulet" chance="551" />
+		<item name="glooth cape" chance="55" />
+		<item name="green gem" chance="28" />
 	</loot>
 </monster>

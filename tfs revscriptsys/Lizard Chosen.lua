@@ -5,7 +5,7 @@ monster.name = "Lizard Chosen"
 monster.description = "a lizard chosen"
 monster.experience = 2200
 monster.outfit = {
-	lookType = 0,
+	lookType = 344,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -97,7 +98,7 @@ monster.loot = {
 	{id = "platinum coin", chance = 2997, maxCount = 5},
 	{id = "scale of corruption", chance = 2983},
 	{id = "corrupted flag", chance = 2977},
-	{id = "small diamond", chance = 2537, maxCount = 5},
+	{id = "small diamond", chance = 2536, maxCount = 5},
 	{id = "lizard leather", chance = 2002},
 	{id = "tower shield", chance = 1120},
 	{id = "lizard scale", chance = 1030},

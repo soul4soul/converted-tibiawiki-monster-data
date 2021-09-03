@@ -5,7 +5,7 @@ monster.name = "Renegade Quara Hydromancer"
 monster.description = "a renegade quara hydromancer"
 monster.experience = 1800
 monster.outfit = {
-	lookType = 0,
+	lookType = 47,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -85,25 +86,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 79149, maxCount = 4},
-	{id = "quara eye", chance = 19099},
-	{id = "mind stone", chance = 10425},
-	{id = "small emerald", chance = 7506, maxCount = 2},
-	{id = "shrimp", chance = 7339},
-	{id = "small topaz", chance = 6505, maxCount = 2},
-	{id = "great mana potion", chance = 6005, maxCount = 2},
-	{id = "great health potion", chance = 5421, maxCount = 2},
-	{id = "spirit cloak", chance = 5338},
-	{id = "green crystal shard", chance = 2919},
-	{id = "green piece of cloth", chance = 2836},
-	{id = "yellow piece of cloth", chance = 2836},
-	{id = "life ring", chance = 2085},
-	{id = "fish fin", chance = 1334},
-	{id = "wand of cosmic energy", chance = 1168},
-	{id = "giant shimmering pearl (green)", chance = 1001},
-	{id = "knight armor", chance = 751},
-	{id = "green gem", chance = 667},
-	{id = "giant shimmering pearl", chance = 83}
+	{id = "platinum coin", chance = 79623, maxCount = 4},
+	{id = "quara eye", chance = 18709},
+	{id = "mind stone", chance = 11313},
+	{id = "shrimp", chance = 7252},
+	{id = "small emerald", chance = 7179, maxCount = 2},
+	{id = "small topaz", chance = 6599, maxCount = 2},
+	{id = "great mana potion", chance = 5729, maxCount = 2},
+	{id = "great health potion", chance = 5511, maxCount = 2},
+	{id = "spirit cloak", chance = 5149},
+	{id = "green crystal shard", chance = 2973},
+	{id = "green piece of cloth", chance = 2901},
+	{id = "yellow piece of cloth", chance = 2611},
+	{id = "life ring", chance = 1958},
+	{id = "fish fin", chance = 1305},
+	{id = "giant shimmering pearl (green)", chance = 1160},
+	{id = "wand of cosmic energy", chance = 1088},
+	{id = "knight armor", chance = 653},
+	{id = "green gem", chance = 580},
+	{id = "giant shimmering pearl", chance = 73}
 }
 
 mType:register(monster)

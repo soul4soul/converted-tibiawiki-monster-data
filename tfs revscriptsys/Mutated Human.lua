@@ -5,7 +5,7 @@ monster.name = "Mutated Human"
 monster.description = "a mutated human"
 monster.experience = 150
 monster.outfit = {
-	lookType = 0,
+	lookType = 323,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -93,17 +94,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 88189, maxCount = 130},
+	{id = "gold coin", chance = 88197, maxCount = 130},
 	{id = "mutated flesh", chance = 19943},
-	{id = "fishbone", chance = 10050},
-	{id = "cheese", chance = 8070},
+	{id = "fishbone", chance = 10047},
+	{id = "cheese", chance = 8073},
 	{id = "scale armor", chance = 7834},
-	{id = "worm", chance = 7084, maxCount = 2},
-	{id = "sword", chance = 5083},
-	{id = "strange talisman", chance = 4944},
+	{id = "worm", chance = 7087, maxCount = 2},
+	{id = "sword", chance = 5076},
+	{id = "strange talisman", chance = 4945},
 	{id = "heavily rusted armor", chance = 2013},
-	{id = "peanut", chance = 535},
-	{id = "fern", chance = 420},
+	{id = "peanut", chance = 537},
+	{id = "fern", chance = 419},
 	{id = "silver amulet", chance = 102}
 }
 

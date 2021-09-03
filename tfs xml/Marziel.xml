@@ -1,4 +1,5 @@
-﻿<monster name="Marziel" nameDescription="" experience="3000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Marziel" nameDescription="" experience="3000" speed="0" manacost="0">
 	<health now="1900" max="1900" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="43" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="100" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -50,9 +52,9 @@
 		<voice sentence="I... want... your... blood!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="80" />
-		<item id="platinum coin" chance="18182" countmax="5" />
-		<item id="ring of healing" chance="9091" />
-		<item id="strong health potion" chance="9091" />
+		<item name="gold coin" chance="100000" countmax="80" />
+		<item name="platinum coin" chance="18182" countmax="5" />
+		<item name="ring of healing" chance="9091" />
+		<item name="strong health potion" chance="9091" />
 	</loot>
 </monster>

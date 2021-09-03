@@ -1,6 +1,7 @@
-﻿<monster name="Island Troll" nameDescription="an island troll" experience="20" speed="126" manacost="290">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Island Troll" nameDescription="an island troll" experience="20" speed="126" manacost="290">
 	<health now="50" max="50" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="282" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -50,17 +52,17 @@
 		<voice sentence="Gruntz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="59665" countmax="10" />
-		<item id="wood" chance="30832" />
-		<item id="spear" chance="19983" />
-		<item id="hand axe" chance="17576" />
-		<item id="wooden shield" chance="15293" />
-		<item id="leather boots" chance="9996" />
-		<item id="leather helmet" chance="9589" />
-		<item id="rope" chance="7883" />
-		<item id="studded club" chance="5202" />
-		<item id="mango" chance="5079" />
-		<item id="marlin" chance="76" />
-		<item id="silver amulet" chance="57" />
+		<item name="gold coin" chance="59774" countmax="10" />
+		<item name="wood" chance="30720" />
+		<item name="spear" chance="19993" />
+		<item name="hand axe" chance="17586" />
+		<item name="wooden shield" chance="15272" />
+		<item name="leather boots" chance="9904" />
+		<item name="leather helmet" chance="9654" />
+		<item name="rope" chance="7886" />
+		<item name="studded club" chance="5211" />
+		<item name="mango" chance="5072" />
+		<item name="marlin" chance="74" />
+		<item name="silver amulet" chance="65" />
 	</loot>
 </monster>

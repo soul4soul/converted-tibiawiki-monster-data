@@ -1,6 +1,7 @@
-﻿<monster name="Plaguesmith" nameDescription="a plaguesmith" experience="3555" speed="320" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Plaguesmith" nameDescription="a plaguesmith" experience="3555" speed="320" manacost="0">
 	<health now="8250" max="8250" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="247" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="100" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -54,102 +56,32 @@
 		<voice sentence="Cough Cough" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="96019" countmax="263" />
-		<item id="dirty cape" chance="49534" />
-		<item id="mouldy cheese" chance="40316" />
-		<item id="morning star" chance="23960" />
-		<item id="piece of iron" chance="17539" />
-		<item id="steel shield" chance="16786" />
-		<item id="battle hammer" chance="16284" />
-		<item id="two handed sword" chance="14813" />
-		<item id="soul orb" chance="10402" />
-		<item id="great health potion" chance="7891" />
-		<item id="onyx arrow" chance="7281" countmax="4" />
-		<item id="demonic essence" chance="6887" />
-		<item id="knight legs" chance="6062" />
-		<item id="platinum coin" chance="5990" countmax="2" />
-		<item id="slightly rusted armor" chance="5739" />
-		<item id="axe ring" chance="4125" />
-		<item id="small amethyst" chance="4089" countmax="3" />
-		<item id="club ring" chance="3479" />
-		<item id="war hammer" chance="1901" />
-		<item id="steel boots" chance="1506" />
-		<item id="silver brooch" chance="1076" />
-		<item id="piece of hell steel" chance="968" />
-		<item id="hammer of wrath" chance="753" />
-		<item id="piece of draconian steel" chance="753" />
-		<item id="piece of royal steel" chance="681" />
-		<item id="emerald bangle" chance="287" />
-		<item id="war horn" chance="72" />
-		<item id="gold coin" chance="1937" countmax="161" />
-		<item id="dirty cape" chance="646" />
-		<item id="mouldy cheese" chance="646" />
-		<item id="piece of iron" chance="430" />
-		<item id="morning star" chance="395" />
-		<item id="battle hammer" chance="359" />
-		<item id="steel shield" chance="323" />
-		<item id="demonic essence" chance="215" />
-		<item id="great health potion" chance="215" />
-		<item id="two handed sword" chance="179" />
-		<item id="platinum coin" chance="143" countmax="2" />
-		<item id="onyx arrow" chance="108" countmax="3" />
-		<item id="slightly rusted armor" chance="108" />
-		<item id="soul orb" chance="108" />
-		<item id="small amethyst" chance="72" countmax="3" />
-		<item id="club ring" chance="36" />
-		<item id="knight legs" chance="36" />
-		<item id="piece of royal steel" chance="36" />
-		<item id="gold coin" chance="100000" countmax="287" />
-		<item id="dirty cape" chance="100000" countmax="2" />
-		<item id="mouldy cheese" chance="100000" countmax="2" />
-		<item id="morning star" chance="100000" />
-		<item id="two handed sword" chance="100000" />
-		<item id="piece of iron" chance="100000" countmax="2" />
-		<item id="battle hammer" chance="100000" />
-		<item id="steel shield" chance="100000" />
-		<item id="soul orb" chance="100000" />
-		<item id="great health potion" chance="100000" />
-		<item id="demonic essence" chance="100000" />
-		<item id="platinum coin" chance="94154" countmax="2" />
-		<item id="onyx arrow" chance="93329" countmax="4" />
-		<item id="slightly rusted armor" chance="92647" />
-		<item id="knight legs" chance="80380" />
-		<item id="club ring" chance="59182" />
-		<item id="small amethyst" chance="57496" countmax="3" />
-		<item id="axe ring" chance="56420" />
-		<item id="silver brooch" chance="23494" />
-		<item id="war hammer" chance="23422" />
-		<item id="steel boots" chance="14096" />
-		<item id="piece of royal steel" chance="11406" />
-		<item id="piece of hell steel" chance="11334" />
-		<item id="piece of draconian steel" chance="11263" />
-		<item id="hammer of wrath" chance="9828" />
-		<item id="emerald bangle" chance="4340" />
-		<item id="war horn" chance="1184" />
-		<item id="gold coin" chance="2367" countmax="254" />
-		<item id="dirty cape" chance="1435" />
-		<item id="moldy cheese" chance="1076" />
-		<item id="two handed sword" chance="681" />
-		<item id="morning star" chance="610" />
-		<item id="piece of iron" chance="502" />
-		<item id="steel shield" chance="502" />
-		<item id="soul orb" chance="430" />
-		<item id="battle hammer" chance="323" />
-		<item id="great health potion" chance="323" />
-		<item id="platinum coin" chance="251" countmax="2" />
-		<item id="slightly rusted armor" chance="251" />
-		<item id="onyx arrow" chance="215" countmax="4" />
-		<item id="demonic essence" chance="143" />
-		<item id="knight legs" chance="143" />
-		<item id="small amethyst" chance="108" countmax="3" />
-		<item id="axe ring" chance="72" />
-		<item id="club ring" chance="72" />
-		<item id="piece of draconian steel" chance="72" />
-		<item id="piece of royal steel" chance="72" />
-		<item id="silver brooch" chance="72" />
-		<item id="war hammer" chance="72" />
-		<item id="hammer of wrath" chance="36" />
-		<item id="piece of hell steel" chance="36" />
-		<item id="war horn" chance="36" />
+		<item name="gold coin" chance="96033" countmax="263" />
+		<item name="dirty cape" chance="49465" />
+		<item name="mouldy cheese" chance="40462" />
+		<item name="morning star" chance="23939" />
+		<item name="piece of iron" chance="17420" />
+		<item name="steel shield" chance="16695" />
+		<item name="battle hammer" chance="16385" />
+		<item name="two handed sword" chance="14695" />
+		<item name="soul orb" chance="10314" />
+		<item name="great health potion" chance="7899" />
+		<item name="onyx arrow" chance="7209" countmax="4" />
+		<item name="demonic essence" chance="6933" />
+		<item name="platinum coin" chance="6106" countmax="2" />
+		<item name="knight legs" chance="6037" />
+		<item name="slightly rusted armor" chance="5657" />
+		<item name="axe ring" chance="4070" />
+		<item name="small amethyst" chance="4070" countmax="3" />
+		<item name="club ring" chance="3518" />
+		<item name="war hammer" chance="1863" />
+		<item name="steel boots" chance="1518" />
+		<item name="silver brooch" chance="1069" />
+		<item name="piece of hell steel" chance="931" />
+		<item name="piece of draconian steel" chance="759" />
+		<item name="hammer of wrath" chance="724" />
+		<item name="piece of royal steel" chance="655" />
+		<item name="emerald bangle" chance="276" />
+		<item name="war horn" chance="69" />
 	</loot>
 </monster>

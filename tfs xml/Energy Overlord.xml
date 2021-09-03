@@ -1,4 +1,5 @@
-﻿<monster name="Energy Overlord" nameDescription="an Energy Overlord" experience="2800" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Energy Overlord" nameDescription="an Energy Overlord" experience="2800" speed="0" manacost="0">
 	<health now="4000" max="4000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="0" />
 		<element firePercent="-1" />
 		<element lifedrainPercent="0" />
@@ -43,9 +45,9 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="pure energy" chance="100000" />
-		<item id="gold coin" chance="69821" countmax="75" />
-		<item id="platinum coin" chance="48338" countmax="3" />
-		<item id="voltage armor" chance="767" />
+		<item name="pure energy" chance="100000" />
+		<item name="gold coin" chance="69821" countmax="75" />
+		<item name="platinum coin" chance="48338" countmax="3" />
+		<item name="voltage armor" chance="767" />
 	</loot>
 </monster>

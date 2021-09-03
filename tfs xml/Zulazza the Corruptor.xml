@@ -1,4 +1,5 @@
-﻿<monster name="Zulazza The Corruptor" nameDescription="" experience="10000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Zulazza The Corruptor" nameDescription="" experience="10000" speed="0" manacost="0">
 	<health now="46500" max="46500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="70" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -51,46 +53,29 @@
 		<voice sentence="Behind zze Great Gate liezz your doom!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="platinum coin" chance="73964" countmax="30" />
-		<item id="slightly rusted armor" chance="62722" />
-		<item id="gold ingot" chance="60947" countmax="4" />
-		<item id="giant shimmering pearl" chance="42012" countmax="2" />
-		<item id="red gem" chance="23077" />
-		<item id="yellow gem" chance="22485" />
-		<item id="viper star" chance="21893" countmax="69" />
-		<item id="violet gem" chance="20710" />
-		<item id="emerald bangle" chance="18343" />
-		<item id="blue gem" chance="17160" />
-		<item id="green gem" chance="16568" />
-		<item id="soul orb" chance="16568" countmax="5" />
-		<item id="great health potion" chance="15976" />
-		<item id="mastermind potion" chance="15976" />
-		<item id="ultimate health potion" chance="15385" />
-		<item id="great mana potion" chance="13018" />
-		<item id="great spirit potion" chance="13018" />
-		<item id="guardian shield" chance="11243" />
-		<item id="paladin armor" chance="10059" />
-		<item id="mastermind shield" chance="8284" />
-		<item id="tower shield" chance="8284" />
-		<item id="dragon scale boots" chance="1775" />
-		<item id="earthborn titan armor" chance="1183" />
-		<item id="gold coin" chance="4734" countmax="55" />
-		<item id="platinum coin" chance="2959" countmax="4" />
-		<item id="emerald bangle" chance="1775" />
-		<item id="giant shimmering pearl" chance="1775" />
-		<item id="great mana potion" chance="1775" countmax="5" />
-		<item id="great health potion" chance="1183" countmax="5" />
-		<item id="mastermind potion" chance="1183" />
-		<item id="slightly rusted armor" chance="1183" />
-		<item id="viper star" chance="1183" countmax="50" />
-		<item id="blue gem" chance="592" />
-		<item id="gold ingot" chance="592" />
-		<item id="great spirit potion" chance="592" countmax="5" />
-		<item id="green gem" chance="592" />
-		<item id="red gem" chance="592" />
-		<item id="soul orb" chance="592" />
-		<item id="violet gem" chance="592" />
-		<item id="yellow gem" chance="592" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="platinum coin" chance="73964" countmax="30" />
+		<item name="slightly rusted armor" chance="62722" />
+		<item name="gold ingot" chance="60947" countmax="4" />
+		<item name="giant shimmering pearl" chance="42012" countmax="2" />
+		<item name="red gem" chance="23077" />
+		<item name="yellow gem" chance="22485" />
+		<item name="viper star" chance="21893" countmax="69" />
+		<item name="violet gem" chance="20710" />
+		<item name="emerald bangle" chance="18343" />
+		<item name="blue gem" chance="17160" />
+		<item name="green gem" chance="16568" />
+		<item name="soul orb" chance="16568" countmax="5" />
+		<item name="great health potion" chance="15976" />
+		<item name="mastermind potion" chance="15976" />
+		<item name="ultimate health potion" chance="15385" />
+		<item name="great mana potion" chance="13018" />
+		<item name="great spirit potion" chance="13018" />
+		<item name="guardian shield" chance="11243" />
+		<item name="paladin armor" chance="10059" />
+		<item name="mastermind shield" chance="8284" />
+		<item name="tower shield" chance="8284" />
+		<item name="dragon scale boots" chance="1775" />
+		<item name="earthborn titan armor" chance="1183" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Dire Penguin"
 monster.description = "a dire penguin"
 monster.experience = 119
 monster.outfit = {
-	lookType = 0,
+	lookType = 250,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,8 +89,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 65714, maxCount = 10},
-	{id = "fish", chance = 11429, maxCount = 2}
+	{id = "gold coin", chance = 66667, maxCount = 10},
+	{id = "fish", chance = 11111, maxCount = 2}
 }
 
 mType:register(monster)

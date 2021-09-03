@@ -5,12 +5,12 @@ monster.name = "Feverish Citizen"
 monster.description = "a feverish citizen"
 monster.experience = 30
 monster.outfit = {
-	lookType = 0,
+	lookType = 425,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
-	lookAddons = 0,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -96,15 +97,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 29874, maxCount = 35},
+	{id = "gold coin", chance = 29897, maxCount = 35},
 	{id = "worm", chance = 24821, maxCount = 3},
-	{id = "bone", chance = 4991},
-	{id = "voluminous piece of cloth", chance = 2187},
-	{id = "luminous piece of cloth", chance = 1940},
-	{id = "obvious piece of cloth", chance = 1940},
-	{id = "ominous piece of cloth", chance = 1866},
-	{id = "ludicrous piece of cloth", chance = 1853},
-	{id = "dubious piece of cloth", chance = 1668}
+	{id = "bone", chance = 4989},
+	{id = "voluminous piece of cloth", chance = 2193},
+	{id = "obvious piece of cloth", chance = 1946},
+	{id = "luminous piece of cloth", chance = 1934},
+	{id = "ominous piece of cloth", chance = 1860},
+	{id = "ludicrous piece of cloth", chance = 1848},
+	{id = "dubious piece of cloth", chance = 1663}
 }
 
 mType:register(monster)

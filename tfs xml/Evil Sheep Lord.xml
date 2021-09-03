@@ -1,6 +1,7 @@
-﻿<monster name="Evil Sheep Lord" nameDescription="an evil sheep lord" experience="340" speed="178" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Evil Sheep Lord" nameDescription="an evil sheep lord" experience="340" speed="178" manacost="0">
 	<health now="400" max="400" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="13" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -50,6 +52,6 @@
 		<voice sentence="I feel you're getting sleepy! Maeh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="76111" countmax="60" />
+		<item name="gold coin" chance="75573" countmax="60" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Crimson Frog" nameDescription="a crimson frog" experience="20" speed="320" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Crimson Frog" nameDescription="a crimson frog" experience="20" speed="320" manacost="0">
 	<health now="60" max="60" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="226" head="94" body="78" legs="77" feet="112" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -47,7 +49,7 @@
 		<voice sentence="Ribbit! Ribbit!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="75336" countmax="10" />
-		<item id="worm" chance="9970" />
+		<item name="gold coin" chance="75178" countmax="10" />
+		<item name="worm" chance="9903" />
 	</loot>
 </monster>

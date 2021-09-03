@@ -1,4 +1,5 @@
-﻿<monster name="Ashmunrah" nameDescription="" experience="3100" speed="430" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ashmunrah" nameDescription="" experience="3100" speed="430" manacost="0">
 	<health now="5000" max="5000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="25" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="100" />
@@ -58,13 +60,13 @@
 		<voice name="ancient scarab" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="gold coin" chance="93846" countmax="304" />
-		<item id="great mana potion" chance="12071" />
-		<item id="might ring" chance="4615" />
-		<item id="silver brooch" chance="4083" />
-		<item id="crown armor" chance="473" />
-		<item id="mini mummy" chance="178" />
-		<item id="hammer of wrath" chance="118" />
-		<item id="holy scarab" chance="118" />
+		<item name="gold coin" chance="93846" countmax="304" />
+		<item name="great mana potion" chance="12071" />
+		<item name="might ring" chance="4615" />
+		<item name="silver brooch" chance="4083" />
+		<item name="crown armor" chance="473" />
+		<item name="mini mummy" chance="178" />
+		<item name="hammer of wrath" chance="118" />
+		<item name="holy scarab" chance="118" />
 	</loot>
 </monster>

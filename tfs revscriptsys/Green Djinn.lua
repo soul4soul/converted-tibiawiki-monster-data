@@ -5,7 +5,7 @@ monster.name = "Green Djinn"
 monster.description = "a green djinn"
 monster.experience = 215
 monster.outfit = {
-	lookType = 0,
+	lookType = 51,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -101,17 +102,7 @@ monster.loot = {
 	{id = "grave flower", chance = 971},
 	{id = "small oil lamp", chance = 892},
 	{id = "mana potion", chance = 477},
-	{id = "mystic turban", chance = 115},
-	{id = "gold coin", chance = 3072, maxCount = 109},
-	{id = "cheese", chance = 847},
-	{id = "grave flower", chance = 380},
-	{id = "small oil lamp", chance = 265},
-	{id = "small emerald", chance = 177, maxCount = 4},
-	{id = "royal spear", chance = 159, maxCount = 2},
-	{id = "book (green)", chance = 124},
-	{id = "green piece of cloth", chance = 71},
-	{id = "mana potion", chance = 9},
-	{id = "mystic turban", chance = 9}
+	{id = "mystic turban", chance = 115}
 }
 
 mType:register(monster)

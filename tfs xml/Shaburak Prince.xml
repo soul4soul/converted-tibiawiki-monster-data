@@ -1,6 +1,7 @@
-﻿<monster name="Shaburak Prince" nameDescription="a shaburak prince" experience="1700" speed="250" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shaburak Prince" nameDescription="a shaburak prince" experience="1700" speed="250" manacost="0">
 	<health now="2600" max="2600" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="418" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="70" />
+		<element energyPercent="70" />
 		<element earthPercent="-15" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -52,19 +54,19 @@
 		<voice sentence="ONLY WE ARE TRUE DEMONS!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="95736" countmax="178" />
-		<item id="platinum coin" chance="33555" countmax="4" />
-		<item id="strong mana potion" chance="16445" />
-		<item id="strong health potion" chance="15227" />
-		<item id="small ruby" chance="12514" countmax="5" />
-		<item id="brown mushroom" chance="4983" />
-		<item id="stealth ring" chance="4651" />
-		<item id="wand of inferno" chance="831" />
-		<item id="bullseye potion" chance="609" />
-		<item id="magma coat" chance="609" />
-		<item id="magic sulphur" chance="498" />
-		<item id="butcher's axe" chance="277" />
-		<item id="demonic finger" chance="111" />
-		<item id="steel boots" chance="111" />
+		<item name="gold coin" chance="95736" countmax="178" />
+		<item name="platinum coin" chance="33555" countmax="4" />
+		<item name="strong mana potion" chance="16445" />
+		<item name="strong health potion" chance="15227" />
+		<item name="small ruby" chance="12514" countmax="5" />
+		<item name="brown mushroom" chance="4983" />
+		<item name="stealth ring" chance="4651" />
+		<item name="wand of inferno" chance="831" />
+		<item name="bullseye potion" chance="609" />
+		<item name="magma coat" chance="609" />
+		<item name="magic sulphur" chance="498" />
+		<item name="butcher's axe" chance="277" />
+		<item name="demonic finger" chance="111" />
+		<item name="steel boots" chance="111" />
 	</loot>
 </monster>

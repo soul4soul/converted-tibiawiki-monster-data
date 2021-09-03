@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -85,7 +86,6 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "violet gem", chance = 100000},
 	{id = "violet gem", chance = 100000}
 }
 

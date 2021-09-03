@@ -5,11 +5,11 @@ monster.name = "Evil Prospector"
 monster.description = "an evil prospector"
 monster.experience = 9000
 monster.outfit = {
-	lookType = 0,
+	lookType = 1268,
 	lookHead = 0,
-	lookBody = 0,
+	lookBody = 14,
 	lookLegs = 0,
-	lookFeet = 0,
+	lookFeet = 34,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,13 +88,13 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "spectral silver nugget", chance = 10832},
-	{id = "wand of starstorm", chance = 8225},
-	{id = "emerald bangle", chance = 5115},
-	{id = "lightning pendant", chance = 4714},
-	{id = "strange talisman", chance = 3210},
-	{id = "lightning headband", chance = 3009},
-	{id = "wand of defiance", chance = 1705}
+	{id = "spectral silver nugget", chance = 10725},
+	{id = "wand of starstorm", chance = 8143},
+	{id = "emerald bangle", chance = 5164},
+	{id = "lightning pendant", chance = 4667},
+	{id = "strange talisman", chance = 3277},
+	{id = "lightning headband", chance = 2979},
+	{id = "wand of defiance", chance = 1688}
 }
 
 mType:register(monster)

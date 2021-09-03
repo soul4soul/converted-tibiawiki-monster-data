@@ -5,12 +5,12 @@ monster.name = "Soul-Broken Harbinger"
 monster.description = "a soul-broken harbinger"
 monster.experience = 5800
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1137,
+	lookHead = 85,
+	lookBody = 10,
+	lookLegs = 16,
+	lookFeet = 83,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,23 +87,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 12},
-	{id = "ice flower (item)", chance = 15197, maxCount = 3},
-	{id = "dream essence egg", chance = 12639},
-	{id = "elvish talisman", chance = 9456},
-	{id = "ice rapier", chance = 4816},
-	{id = "glacier kilt", chance = 3265},
-	{id = "glacier shoes", chance = 3116},
-	{id = "ring of blue plasma", chance = 2599},
-	{id = "knight legs", chance = 2395},
-	{id = "tower shield", chance = 1796},
-	{id = "wood cape", chance = 1347},
-	{id = "crown shield", chance = 1279},
+	{id = "ice flower (item)", chance = 15203, maxCount = 3},
+	{id = "dream essence egg", chance = 12660},
+	{id = "elvish talisman", chance = 9451},
+	{id = "ice rapier", chance = 4814},
+	{id = "glacier kilt", chance = 3277},
+	{id = "glacier shoes", chance = 3114},
+	{id = "ring of blue plasma", chance = 2597},
+	{id = "knight legs", chance = 2393},
+	{id = "tower shield", chance = 1795},
+	{id = "wood cape", chance = 1360},
+	{id = "crown shield", chance = 1278},
 	{id = "spellbook of mind control", chance = 1129},
-	{id = "collar of green plasma", chance = 1007},
-	{id = "platinum coin", chance = 136, maxCount = 15},
-	{id = "ice flower (item)", chance = 54, maxCount = 3},
-	{id = "dream essence egg", chance = 41},
-	{id = "crown shield", chance = 14}
+	{id = "collar of green plasma", chance = 1020}
 }
 
 mType:register(monster)

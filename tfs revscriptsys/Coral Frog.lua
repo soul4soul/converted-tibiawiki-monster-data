@@ -5,11 +5,11 @@ monster.name = "Coral Frog"
 monster.description = "a coral frog"
 monster.experience = 20
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 226,
+	lookHead = 114,
+	lookBody = 79,
+	lookLegs = 78,
+	lookFeet = 114,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,8 +89,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 76255, maxCount = 10},
-	{id = "worm", chance = 11124}
+	{id = "gold coin", chance = 76185, maxCount = 10},
+	{id = "worm", chance = 11037}
 }
 
 mType:register(monster)

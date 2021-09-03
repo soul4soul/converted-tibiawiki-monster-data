@@ -1,6 +1,7 @@
-﻿<monster name="Deepsea Blood Crab" nameDescription="a deepsea blood crab" experience="180" speed="380" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Deepsea Blood Crab" nameDescription="a deepsea blood crab" experience="180" speed="380" manacost="0">
 	<health now="320" max="320" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="200" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -43,11 +45,11 @@
 	</attacks>
 	<defenses armor="28" defense="28" />
 	<loot>
-		<item id="gold coin" chance="86903" countmax="20" />
-		<item id="fish" chance="10472" />
-		<item id="bloody pincers" chance="6637" />
-		<item id="chain armor" chance="5103" />
-		<item id="brass legs" chance="2743" />
-		<item id="white pearl" chance="590" />
+		<item name="gold coin" chance="87162" countmax="20" />
+		<item name="fish" chance="10629" />
+		<item name="bloody pincers" chance="6764" />
+		<item name="chain armor" chance="5025" />
+		<item name="brass legs" chance="2733" />
+		<item name="white pearl" chance="607" />
 	</loot>
 </monster>

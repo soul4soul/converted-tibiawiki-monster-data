@@ -5,7 +5,7 @@ monster.name = "Massive Fire Elemental"
 monster.description = "a massive fire elemental"
 monster.experience = 1400
 monster.outfit = {
-	lookType = 0,
+	lookType = 242,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,14 +88,14 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99988, maxCount = 217},
-	{id = "platinum coin", chance = 15170},
-	{id = "rusted armor", chance = 8005},
-	{id = "small ruby", chance = 7043, maxCount = 2},
-	{id = "wand of inferno", chance = 2437},
-	{id = "magma amulet", chance = 987},
-	{id = "magma boots", chance = 621},
-	{id = "fire sword", chance = 402},
-	{id = "magma legs", chance = 207}
+	{id = "platinum coin", chance = 15084},
+	{id = "rusted armor", chance = 7949},
+	{id = "small ruby", chance = 7039, maxCount = 2},
+	{id = "wand of inferno", chance = 2418},
+	{id = "magma amulet", chance = 1006},
+	{id = "magma boots", chance = 611},
+	{id = "fire sword", chance = 407},
+	{id = "magma legs", chance = 204}
 }
 
 mType:register(monster)

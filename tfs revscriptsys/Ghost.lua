@@ -5,7 +5,7 @@ monster.name = "Ghost"
 monster.description = "a ghost"
 monster.experience = 120
 monster.outfit = {
-	lookType = 0,
+	lookType = 48,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,15 +90,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "shadow herb", chance = 14634},
-	{id = "morning star", chance = 10714},
-	{id = "cape", chance = 9005},
-	{id = "combat knife", chance = 7039},
-	{id = "white piece of cloth", chance = 1944},
-	{id = "ghostly tissue", chance = 1855},
-	{id = "book (orange)", chance = 1410},
-	{id = "ancient shield", chance = 805},
-	{id = "stealth ring", chance = 181}
+	{id = "shadow herb", chance = 14630},
+	{id = "morning star", chance = 10701},
+	{id = "cape", chance = 9003},
+	{id = "combat knife", chance = 7045},
+	{id = "white piece of cloth", chance = 1941},
+	{id = "ghostly tissue", chance = 1852},
+	{id = "book (orange)", chance = 1406},
+	{id = "ancient shield", chance = 802},
+	{id = "stealth ring", chance = 180}
 }
 
 mType:register(monster)

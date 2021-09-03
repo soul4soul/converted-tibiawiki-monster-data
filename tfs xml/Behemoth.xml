@@ -1,6 +1,7 @@
-﻿<monster name="Behemoth" nameDescription="a behemoth" experience="2500" speed="340" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Behemoth" nameDescription="a behemoth" experience="2500" speed="340" manacost="0">
 	<health now="4000" max="4000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="55" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="80" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -52,98 +54,29 @@
 		<voice sentence="Human flesh -  delicious!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="platinum coin" chance="60301" countmax="5" />
-		<item id="meat" chance="29755" />
-		<item id="battle stone" chance="14985" />
-		<item id="double axe" chance="10038" />
-		<item id="assassin star" chance="9999" countmax="5" />
-		<item id="small amethyst" chance="6089" countmax="5" />
-		<item id="two handed sword" chance="6023" />
-		<item id="great health potion" chance="5078" />
-		<item id="dark armor" chance="4187" />
-		<item id="plate armor" chance="4100" />
-		<item id="crystal necklace" chance="2537" />
-		<item id="perfect behemoth fang" chance="992" />
-		<item id="giant sword" chance="960" />
-		<item id="strange symbol" chance="832" />
-		<item id="big bone" chance="706" />
-		<item id="pick" chance="626" />
-		<item id="behemoth claw" chance="461" />
-		<item id="steel boots" chance="435" />
-		<item id="crowbar" chance="128" />
-		<item id="behemoth trophy" chance="117" />
-		<item id="amphora" chance="101" />
-		<item id="titan axe" chance="78" />
-		<item id="war axe" chance="71" />
-		<item id="gold coin" chance="6772" countmax="133" />
-		<item id="platinum coin" chance="3222" countmax="4" />
-		<item id="meat" chance="2493" />
-		<item id="assassin star" chance="827" countmax="2" />
-		<item id="double axe" chance="406" />
-		<item id="battle stone" chance="403" />
-		<item id="small amethyst" chance="335" countmax="2" />
-		<item id="two handed sword" chance="323" />
-		<item id="dark armor" chance="206" />
-		<item id="plate armor" chance="133" />
-		<item id="perfect behemoth fang" chance="112" />
-		<item id="giant sword" chance="94" />
-		<item id="strange symbol" chance="78" />
-		<item id="great health potion" chance="69" />
-		<item id="crystal necklace" chance="41" />
-		<item id="pick" chance="41" />
-		<item id="steel boots" chance="37" />
-		<item id="big bone" chance="34" />
-		<item id="behemoth claw" chance="32" />
-		<item id="crowbar" chance="16" />
-		<item id="amphora" chance="11" />
-		<item id="war axe" chance="2" />
-		<item id="gold coin" chance="2271" countmax="120" />
-		<item id="platinum coin" chance="1166" countmax="4" />
-		<item id="meat" chance="921" />
-		<item id="assassin star" chance="282" countmax="2" />
-		<item id="double axe" chance="160" />
-		<item id="battle stone" chance="135" />
-		<item id="small amethyst" chance="101" countmax="2" />
-		<item id="two handed sword" chance="99" />
-		<item id="plate armor" chance="96" />
-		<item id="dark armor" chance="78" />
-		<item id="giant sword" chance="34" />
-		<item id="perfect behemoth fang" chance="30" />
-		<item id="great health potion" chance="28" />
-		<item id="strange symbol" chance="28" />
-		<item id="pick" chance="21" />
-		<item id="crystal necklace" chance="16" />
-		<item id="big bone" chance="14" />
-		<item id="behemoth claw" chance="11" />
-		<item id="steel boots" chance="11" />
-		<item id="crowbar" chance="9" />
-		<item id="behemoth trophy" chance="7" />
-		<item id="titan axe" chance="7" />
-		<item id="amphora" chance="2" />
-		<item id="gold coin" chance="30163" countmax="140" />
-		<item id="meat" chance="11209" />
-		<item id="assassin star" chance="3440" countmax="2" />
-		<item id="double axe" chance="2088" />
-		<item id="battle stone" chance="1524" />
-		<item id="two handed sword" chance="1391" />
-		<item id="small amethyst" chance="1386" countmax="2" />
-		<item id="dark armor" chance="1125" />
-		<item id="crowbar" chance="724" />
-		<item id="plate armor" chance="724" />
-		<item id="amphora" chance="532" />
-		<item id="big bone" chance="493" />
-		<item id="pick" chance="474" />
-		<item id="platinum coin" chance="371" countmax="4" />
-		<item id="giant sword" chance="369" />
-		<item id="perfect behemoth fang" chance="360" />
-		<item id="great health potion" chance="275" />
-		<item id="strange symbol" chance="275" />
-		<item id="behemoth claw" chance="186" />
-		<item id="steel boots" chance="160" />
-		<item id="crystal necklace" chance="99" />
-		<item id="titan axe" chance="34" />
-		<item id="war axe" chance="30" />
-		<item id="behemoth trophy" chance="25" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="platinum coin" chance="60283" countmax="5" />
+		<item name="meat" chance="29749" />
+		<item name="battle stone" chance="14995" />
+		<item name="double axe" chance="10034" />
+		<item name="assassin star" chance="10005" countmax="5" />
+		<item name="small amethyst" chance="6095" countmax="5" />
+		<item name="two handed sword" chance="6011" />
+		<item name="great health potion" chance="5080" />
+		<item name="dark armor" chance="4185" />
+		<item name="plate armor" chance="4099" />
+		<item name="crystal necklace" chance="2549" />
+		<item name="perfect behemoth fang" chance="993" />
+		<item name="giant sword" chance="961" />
+		<item name="strange symbol" chance="828" />
+		<item name="big bone" chance="707" />
+		<item name="pick" chance="628" />
+		<item name="behemoth claw" chance="463" />
+		<item name="steel boots" chance="434" />
+		<item name="crowbar" chance="128" />
+		<item name="behemoth trophy" chance="119" />
+		<item name="amphora" chance="100" />
+		<item name="titan axe" chance="78" />
+		<item name="war axe" chance="71" />
 	</loot>
 </monster>

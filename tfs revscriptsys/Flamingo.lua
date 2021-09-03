@@ -5,7 +5,7 @@ monster.name = "Flamingo"
 monster.description = "a flamingo"
 monster.experience = 0
 monster.outfit = {
-	lookType = 0,
+	lookType = 212,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -85,7 +86,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "downy feather", chance = 1121}
+	{id = "downy feather", chance = 1119}
 }
 
 mType:register(monster)

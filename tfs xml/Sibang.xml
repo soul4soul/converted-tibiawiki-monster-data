@@ -1,6 +1,7 @@
-﻿<monster name="Sibang" nameDescription="a sibang" experience="105" speed="214" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Sibang" nameDescription="a sibang" experience="105" speed="214" manacost="0">
 	<health now="225" max="225" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="118" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="25" />
 		<element lifedrainPercent="0" />
@@ -55,13 +57,13 @@
 		<voice sentence="Ahhuuaaa!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="88771" countmax="35" />
-		<item id="banana" chance="30455" countmax="12" />
-		<item id="small stone" chance="29964" countmax="3" />
-		<item id="orange" chance="19971" countmax="5" />
-		<item id="banana sash" chance="4949" />
-		<item id="coconut" chance="1967" countmax="3" />
-		<item id="melon" chance="1000" />
-		<item id="ape fur" chance="988" />
+		<item name="gold coin" chance="88771" countmax="35" />
+		<item name="banana" chance="30455" countmax="12" />
+		<item name="small stone" chance="29964" countmax="3" />
+		<item name="orange" chance="19971" countmax="5" />
+		<item name="banana sash" chance="4949" />
+		<item name="coconut" chance="1967" countmax="3" />
+		<item name="melon" chance="1000" />
+		<item name="ape fur" chance="988" />
 	</loot>
 </monster>

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,10 +91,7 @@ monster.defenses = {
 monster.loot = {
 	{id = "depth ocrea", chance = 52214},
 	{id = "ornate mace", chance = 26107},
-	{id = "ornate shield", chance = 21678},
-	{id = "ornate mace", chance = 1632},
-	{id = "depth ocrea", chance = 932},
-	{id = "ornate shield", chance = 466}
+	{id = "ornate shield", chance = 21678}
 }
 
 mType:register(monster)

@@ -5,7 +5,7 @@ monster.name = "Ogre Rowdy"
 monster.description = "an ogre rowdy"
 monster.experience = 4200
 monster.outfit = {
-	lookType = 0,
+	lookType = 1213,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -103,11 +104,7 @@ monster.loot = {
 	{id = "wand of everblazing", chance = 1171},
 	{id = "giant shimmering pearl", chance = 703},
 	{id = "opal", chance = 703},
-	{id = "ogre choppa", chance = 468},
-	{id = "platinum coin", chance = 703},
-	{id = "jalapeno pepper", chance = 234},
-	{id = "ogre choppa", chance = 234},
-	{id = "ogre ear stud", chance = 234}
+	{id = "ogre choppa", chance = 468}
 }
 
 mType:register(monster)

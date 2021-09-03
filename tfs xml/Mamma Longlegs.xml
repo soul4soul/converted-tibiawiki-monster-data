@@ -1,4 +1,5 @@
-﻿<monster name="Mamma Longlegs" nameDescription="" experience="2200" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mamma Longlegs" nameDescription="" experience="2200" speed="0" manacost="0">
 	<health now="1800" max="1800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="100" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -45,18 +47,18 @@
 		<defense name="healing" interval="2000" chance="20" min="150" max="200" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="platinum coin" chance="100000" countmax="10" />
-		<item id="spider silk" chance="75893" />
-		<item id="great health potion" chance="55804" countmax="4" />
-		<item id="time ring" chance="37946" />
-		<item id="stealth ring" chance="31250" />
-		<item id="energy ring" chance="29464" />
-		<item id="steel helmet" chance="12946" />
-		<item id="platinum amulet" chance="8929" />
-		<item id="knight legs" chance="8036" />
-		<item id="knight armor" chance="4911" />
-		<item id="spool of yarn" chance="1339" />
-		<item id="bloody edge" chance="446" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="platinum coin" chance="100000" countmax="10" />
+		<item name="spider silk" chance="75893" />
+		<item name="great health potion" chance="55804" countmax="4" />
+		<item name="time ring" chance="37946" />
+		<item name="stealth ring" chance="31250" />
+		<item name="energy ring" chance="29464" />
+		<item name="steel helmet" chance="12946" />
+		<item name="platinum amulet" chance="8929" />
+		<item name="knight legs" chance="8036" />
+		<item name="knight armor" chance="4911" />
+		<item name="spool of yarn" chance="1339" />
+		<item name="bloody edge" chance="446" />
 	</loot>
 </monster>

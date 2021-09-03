@@ -5,7 +5,7 @@ monster.name = "Cyclops"
 monster.description = "a cyclops"
 monster.experience = 150
 monster.outfit = {
-	lookType = 0,
+	lookType = 22,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,32 +93,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 82228, maxCount = 47},
-	{id = "meat", chance = 29017},
-	{id = "short sword", chance = 7939},
-	{id = "cyclops toe", chance = 5149},
-	{id = "plate shield", chance = 2618},
-	{id = "heavy old tome", chance = 2153},
-	{id = "battle shield", chance = 1481},
-	{id = "halberd", chance = 878},
-	{id = "old rag", chance = 379},
-	{id = "wolf tooth chain", chance = 310},
+	{id = "meat", chance = 29031},
+	{id = "short sword", chance = 7958},
+	{id = "cyclops toe", chance = 5156},
+	{id = "plate shield", chance = 2613},
+	{id = "heavy old tome", chance = 2149},
+	{id = "battle shield", chance = 1478},
+	{id = "halberd", chance = 877},
+	{id = "old rag", chance = 378},
+	{id = "wolf tooth chain", chance = 309},
 	{id = "dark helmet", chance = 241},
-	{id = "cyclops trophy", chance = 121},
+	{id = "cyclops trophy", chance = 120},
 	{id = "health potion", chance = 103},
-	{id = "club ring", chance = 52},
-	{id = "gold coin", chance = 100000, maxCount = 47},
-	{id = "meat", chance = 100000},
-	{id = "short sword", chance = 100000},
-	{id = "cyclops toe", chance = 72998},
-	{id = "plate shield", chance = 38058},
-	{id = "battle shield", chance = 20785},
-	{id = "halberd", chance = 14362},
-	{id = "dark helmet", chance = 2979},
-	{id = "health potion", chance = 2945},
-	{id = "wolf tooth chain", chance = 2893},
-	{id = "club ring", chance = 1326},
-	{id = "cyclops trophy", chance = 1240},
-	{id = "heavy old tome", chance = 310}
+	{id = "club ring", chance = 52}
 }
 
 mType:register(monster)

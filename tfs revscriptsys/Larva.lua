@@ -5,7 +5,7 @@ monster.name = "Larva"
 monster.description = "a larva"
 monster.experience = 44
 monster.outfit = {
-	lookType = 0,
+	lookType = 82,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,7 +88,7 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 64714, maxCount = 15},
-	{id = "meat", chance = 14920}
+	{id = "meat", chance = 14918}
 }
 
 mType:register(monster)

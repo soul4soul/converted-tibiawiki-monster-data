@@ -1,6 +1,7 @@
-﻿<monster name="Sphinx" nameDescription="a sphinx" experience="7500" speed="290" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Sphinx" nameDescription="a sphinx" experience="7500" speed="290" manacost="0">
 	<health now="8500" max="8500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1188" head="0" body="39" legs="0" feet="3" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -43,29 +45,19 @@
 	</attacks>
 	<defenses armor="82" defense="82" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="3" />
-		<item id="sphinx feather" chance="7239" />
-		<item id="sphinx tiara" chance="6194" />
-		<item id="magma amulet" chance="6011" />
-		<item id="green gem" chance="4835" />
-		<item id="blue gem" chance="3789" />
-		<item id="magma boots" chance="3606" />
-		<item id="white pearl" chance="3031" />
-		<item id="lightning headband" chance="2953" />
-		<item id="lightning pendant" chance="2391" />
-		<item id="wand of starstorm" chance="2117" />
-		<item id="wand of defiance" chance="2104" />
-		<item id="magma monocle" chance="1908" />
-		<item id="magma legs" chance="1228" />
-		<item id="platinum coin" chance="1372" countmax="3" />
-		<item id="magma amulet" chance="144" />
-		<item id="sphinx feather" chance="105" />
-		<item id="magma boots" chance="91" />
-		<item id="magma monocle" chance="52" />
-		<item id="wand of defiance" chance="39" />
-		<item id="lightning headband" chance="26" />
-		<item id="sphinx tiara" chance="26" />
-		<item id="wand of starstorm" chance="26" />
-		<item id="lightning pendant" chance="13" />
+		<item name="platinum coin" chance="100000" countmax="3" />
+		<item name="sphinx feather" chance="7271" />
+		<item name="sphinx tiara" chance="6165" />
+		<item name="magma amulet" chance="6022" />
+		<item name="green gem" chance="4839" />
+		<item name="blue gem" chance="3772" />
+		<item name="magma boots" chance="3603" />
+		<item name="white pearl" chance="3057" />
+		<item name="lightning headband" chance="2966" />
+		<item name="lightning pendant" chance="2406" />
+		<item name="wand of starstorm" chance="2133" />
+		<item name="wand of defiance" chance="2094" />
+		<item name="magma monocle" chance="1925" />
+		<item name="magma legs" chance="1223" />
 	</loot>
 </monster>

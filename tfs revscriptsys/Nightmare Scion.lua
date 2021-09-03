@@ -5,7 +5,7 @@ monster.name = "Nightmare Scion"
 monster.description = "a nightmare scion"
 monster.experience = 1350
 monster.outfit = {
-	lookType = 0,
+	lookType = 321,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,16 +91,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 97034, maxCount = 155},
-	{id = "meat", chance = 50490},
-	{id = "essence of a bad dream", chance = 8086},
-	{id = "scythe leg", chance = 4937},
+	{id = "gold coin", chance = 97024, maxCount = 155},
+	{id = "meat", chance = 50495},
+	{id = "essence of a bad dream", chance = 8088},
+	{id = "scythe leg", chance = 4934},
 	{id = "platinum coin", chance = 1057, maxCount = 3},
 	{id = "crown helmet", chance = 725},
 	{id = "diamond sceptre", chance = 365},
 	{id = "focus cape", chance = 315},
 	{id = "death ring", chance = 271},
-	{id = "shadow sceptre", chance = 255},
+	{id = "shadow sceptre", chance = 254},
 	{id = "bar of chocolate", chance = 232},
 	{id = "crystal of focus", chance = 116}
 }

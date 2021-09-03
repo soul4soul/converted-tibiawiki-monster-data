@@ -1,6 +1,7 @@
-﻿<monster name="Centipede" nameDescription="a centipede" experience="34" speed="166" manacost="335">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Centipede" nameDescription="a centipede" experience="34" speed="166" manacost="335">
 	<health now="70" max="70" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="124" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
@@ -43,7 +45,7 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
-		<item id="gold coin" chance="80124" countmax="15" />
-		<item id="centipede leg" chance="10159" />
+		<item name="gold coin" chance="80119" countmax="15" />
+		<item name="centipede leg" chance="10158" />
 	</loot>
 </monster>

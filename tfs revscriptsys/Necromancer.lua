@@ -5,7 +5,7 @@ monster.name = "Necromancer"
 monster.description = "a necromancer"
 monster.experience = 580
 monster.outfit = {
-	lookType = 0,
+	lookType = 9,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,17 +90,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 30006, maxCount = 90},
-	{id = "poison arrow", chance = 14947, maxCount = 5},
-	{id = "book of necromantic rituals", chance = 10089},
-	{id = "green mushroom", chance = 1484},
-	{id = "necromantic robe", chance = 1036},
+	{id = "gold coin", chance = 30001, maxCount = 90},
+	{id = "poison arrow", chance = 14948, maxCount = 5},
+	{id = "book of necromantic rituals", chance = 10086},
+	{id = "green mushroom", chance = 1481},
+	{id = "necromantic robe", chance = 1034},
 	{id = "mystic turban", chance = 495},
-	{id = "clerical mace", chance = 376},
-	{id = "strong mana potion", chance = 340},
+	{id = "clerical mace", chance = 375},
+	{id = "strong mana potion", chance = 341},
 	{id = "boots of haste", chance = 198},
 	{id = "spellbook of warding", chance = 106},
-	{id = "skull staff", chance = 105},
+	{id = "skull staff", chance = 104},
 	{id = "noble axe", chance = 8}
 }
 

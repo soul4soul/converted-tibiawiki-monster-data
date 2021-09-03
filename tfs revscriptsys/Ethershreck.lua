@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -110,27 +111,7 @@ monster.loot = {
 	{id = "sai", chance = 8100},
 	{id = "guardian boots", chance = 3427},
 	{id = "zaoan sword", chance = 2181},
-	{id = "golden can of oil", chance = 1246},
-	{id = "ghastly dragon head", chance = 9969},
-	{id = "gold coin", chance = 9969, maxCount = 227},
-	{id = "ultimate health potion", chance = 9969},
-	{id = "small topaz", chance = 8100, maxCount = 6},
-	{id = "undead heart", chance = 8100},
-	{id = "demonic essence", chance = 6854},
-	{id = "platinum coin", chance = 6854, maxCount = 2},
-	{id = "shiny stone", chance = 5296},
-	{id = "jade hat", chance = 4984},
-	{id = "great health potion", chance = 4050},
-	{id = "great mana potion", chance = 3427},
-	{id = "great spirit potion", chance = 2492},
-	{id = "zaoan helmet", chance = 2181},
-	{id = "zaoan legs", chance = 1869},
-	{id = "zaoan halberd", chance = 1558},
-	{id = "guardian boots", chance = 1246},
-	{id = "zaoan shoes", chance = 935},
-	{id = "spellweaver's robe", chance = 623},
-	{id = "sais", chance = 312},
-	{id = "zaoan armor", chance = 312}
+	{id = "golden can of oil", chance = 1246}
 }
 
 mType:register(monster)

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -97,16 +98,7 @@ monster.loot = {
 	{id = "seeds", chance = 2184},
 	{id = "clay lump", chance = 1133},
 	{id = "coal", chance = 485},
-	{id = "iron ore", chance = 324},
-	{id = "gold coin", chance = 51294, maxCount = 175},
-	{id = "lump of earth", chance = 29450},
-	{id = "small stone", chance = 14320, maxCount = 10},
-	{id = "twigs", chance = 12460},
-	{id = "natural soil", chance = 5421},
-	{id = "small emerald", chance = 3155, maxCount = 2},
-	{id = "seeds", chance = 1294},
-	{id = "clay lump", chance = 485},
-	{id = "iron ore", chance = 162}
+	{id = "iron ore", chance = 324}
 }
 
 mType:register(monster)

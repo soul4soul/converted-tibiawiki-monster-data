@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -95,15 +96,7 @@ monster.loot = {
 	{id = "ice cube", chance = 50980, maxCount = 2},
 	{id = "shard", chance = 33333},
 	{id = "black pearl", chance = 1961},
-	{id = "glacier mask", chance = 980},
-	{id = "gold coin", chance = 15686, maxCount = 146},
-	{id = "ice cube", chance = 11765, maxCount = 2},
-	{id = "strong health potion", chance = 7843},
-	{id = "frosty heart", chance = 6863},
-	{id = "platinum coin", chance = 5882, maxCount = 5},
-	{id = "small diamond", chance = 5882, maxCount = 4},
-	{id = "small sapphire", chance = 2941, maxCount = 4},
-	{id = "shard", chance = 1961}
+	{id = "glacier mask", chance = 980}
 }
 
 mType:register(monster)

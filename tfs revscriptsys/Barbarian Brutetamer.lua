@@ -5,11 +5,11 @@ monster.name = "Barbarian Brutetamer"
 monster.description = "a barbarian brutetamer"
 monster.experience = 90
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 264,
+	lookHead = 78,
+	lookBody = 97,
+	lookLegs = 95,
+	lookFeet = 121,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,17 +91,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 90178, maxCount = 15},
-	{id = "corncob", chance = 11009, maxCount = 2},
-	{id = "chain armor", chance = 9132},
-	{id = "fur bag", chance = 7634},
-	{id = "staff", chance = 6506},
-	{id = "hunting spear", chance = 5304},
-	{id = "book (grey)", chance = 4666},
-	{id = "mana potion", chance = 616},
+	{id = "gold coin", chance = 90174, maxCount = 15},
+	{id = "corncob", chance = 11012, maxCount = 2},
+	{id = "chain armor", chance = 9129},
+	{id = "fur bag", chance = 7646},
+	{id = "staff", chance = 6504},
+	{id = "hunting spear", chance = 5302},
+	{id = "book (grey)", chance = 4664},
+	{id = "mana potion", chance = 615},
 	{id = "brutetamer's staff", chance = 304},
 	{id = "fur boots", chance = 156},
-	{id = "mammoth fur cape", chance = 134},
+	{id = "mammoth fur cape", chance = 133},
 	{id = "mammoth fur shorts", chance = 89}
 }
 

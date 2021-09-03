@@ -1,4 +1,5 @@
-﻿<monster name="Girtablilu Warrior" nameDescription="a girtablilu warrior" experience="5800" speed="360" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Girtablilu Warrior" nameDescription="a girtablilu warrior" experience="5800" speed="360" manacost="0">
 	<health now="8500" max="8500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-15" />
+		<element energyPercent="-15" />
 		<element earthPercent="10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,33 +42,11 @@
 	</elements>
 	<defenses armor="76" defense="76" />
 	<loot>
-		<item id="platinum coin" chance="89615" countmax="16" />
-		<item id="ultimate health potion" chance="19615" countmax="4" />
-		<item id="gold ingot" chance="17308" />
-		<item id="green crystal shard" chance="5769" />
-		<item id="girtablilu warrior carapace" chance="5000" />
-		<item id="ice rapier" chance="5000" />
-		<item id="green gem" chance="4615" />
-		<item id="red crystal fragment" chance="4615" />
-		<item id="cyan crystal fragment" chance="4231" />
-		<item id="red gem" chance="3846" />
-		<item id="scorpion charm" chance="3846" />
-		<item id="yellow gem" chance="3846" />
-		<item id="blue crystal shard" chance="3077" />
-		<item id="crowbar" chance="3077" />
-		<item id="magma coat" chance="2692" />
-		<item id="blue gem" chance="2308" />
-		<item id="glacier robe" chance="2308" />
-		<item id="beastslayer axe" chance="1923" />
-		<item id="diamond sceptre" chance="1923" />
-		<item id="dragonbone staff" chance="1923" />
-		<item id="epee" chance="1538" />
-		<item id="violet crystal shard" chance="1538" />
-		<item id="violet gem" chance="1538" />
-		<item id="focus cape" chance="1154" />
-		<item id="green crystal fragment" chance="1154" />
-		<item id="knight axe" chance="1154" />
-		<item id="blue robe" chance="769" />
-		<item id="fur armor" chance="769" />
+		<item name="platinum coin" chance="100000" countmax="14" />
+		<item name="ultimate health potion" chance="40000" countmax="4" />
+		<item name="blue gem" chance="20000" />
+		<item name="focus cape" chance="20000" />
+		<item name="gold ingot" chance="20000" />
+		<item name="red crystal fragment" chance="20000" />
 	</loot>
 </monster>

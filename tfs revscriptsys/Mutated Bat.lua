@@ -5,7 +5,7 @@ monster.name = "Mutated Bat"
 monster.description = "a mutated bat"
 monster.experience = 615
 monster.outfit = {
-	lookType = 0,
+	lookType = 307,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,33 +89,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 92639, maxCount = 130},
-	{id = "heavily rusted armor", chance = 12216},
-	{id = "battle shield", chance = 8338},
-	{id = "obsidian lance", chance = 6095},
-	{id = "mutated bat ear", chance = 5119},
-	{id = "bat wing", chance = 5066, maxCount = 2},
-	{id = "star herb", chance = 4749},
-	{id = "black pearl", chance = 1003, maxCount = 3},
-	{id = "energy ring", chance = 976},
-	{id = "small amethyst", chance = 580, maxCount = 2},
-	{id = "rusted armor", chance = 554},
-	{id = "batwing hat", chance = 185},
-	{id = "black shield", chance = 106},
-	{id = "mercenary sword", chance = 106},
-	{id = "gold coin", chance = 100000, maxCount = 130},
-	{id = "rusty armor", chance = 100000, maxCount = 2},
-	{id = "battle shield", chance = 100000},
-	{id = "obsidian lance", chance = 100000},
-	{id = "bat wing", chance = 83879, maxCount = 2},
-	{id = "star herb", chance = 82955},
-	{id = "mutated bat ear", chance = 82269},
-	{id = "energy ring", chance = 15066},
-	{id = "black pearl", chance = 12955, maxCount = 3},
-	{id = "small amethyst", chance = 8179, maxCount = 2},
-	{id = "mercenary sword", chance = 1926},
-	{id = "black shield", chance = 1794},
-	{id = "batwing hat", chance = 1715}
+	{id = "gold coin", chance = 92646, maxCount = 130},
+	{id = "heavily rusted armor", chance = 12318},
+	{id = "battle shield", chance = 8316},
+	{id = "obsidian lance", chance = 6133},
+	{id = "mutated bat ear", chance = 5120},
+	{id = "bat wing", chance = 5016, maxCount = 2},
+	{id = "star herb", chance = 4704},
+	{id = "black pearl", chance = 988, maxCount = 3},
+	{id = "energy ring", chance = 962},
+	{id = "small amethyst", chance = 572, maxCount = 2},
+	{id = "rusted armor", chance = 546},
+	{id = "batwing hat", chance = 182},
+	{id = "black shield", chance = 104},
+	{id = "mercenary sword", chance = 104}
 }
 
 mType:register(monster)

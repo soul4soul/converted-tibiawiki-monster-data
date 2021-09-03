@@ -1,4 +1,5 @@
-﻿<monster name="The Handmaiden" nameDescription="" experience="7500" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Handmaiden" nameDescription="" experience="7500" speed="0" manacost="0">
 	<health now="19500" max="19500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -44,19 +46,19 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="demonic essence" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="123" />
-		<item id="soul orb" chance="100000" />
-		<item id="the handmaiden's protector" chance="100000" />
-		<item id="piece of iron" chance="72727" />
-		<item id="platinum coin" chance="54545" countmax="5" />
-		<item id="steel boots" chance="36364" />
-		<item id="big bone" chance="27273" />
-		<item id="death ring" chance="18182" />
-		<item id="blue robe" chance="9091" />
-		<item id="dark shield" chance="9091" />
-		<item id="energy ring" chance="9091" />
-		<item id="power ring" chance="9091" />
-		<item id="stealth ring" chance="9091" />
+		<item name="demonic essence" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="123" />
+		<item name="soul orb" chance="100000" />
+		<item name="the handmaiden's protector" chance="100000" />
+		<item name="piece of iron" chance="72727" />
+		<item name="platinum coin" chance="54545" countmax="5" />
+		<item name="steel boots" chance="36364" />
+		<item name="big bone" chance="27273" />
+		<item name="death ring" chance="18182" />
+		<item name="blue robe" chance="9091" />
+		<item name="dark shield" chance="9091" />
+		<item name="energy ring" chance="9091" />
+		<item name="power ring" chance="9091" />
+		<item name="stealth ring" chance="9091" />
 	</loot>
 </monster>

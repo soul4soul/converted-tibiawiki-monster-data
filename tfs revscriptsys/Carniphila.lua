@@ -5,7 +5,7 @@ monster.name = "Carniphila"
 monster.description = "a carniphila"
 monster.experience = 150
 monster.outfit = {
-	lookType = 0,
+	lookType = 120,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,13 +87,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87936, maxCount = 40},
+	{id = "gold coin", chance = 87938, maxCount = 40},
 	{id = "dark mushroom", chance = 7961},
 	{id = "carniphila seeds", chance = 4018},
-	{id = "shadow herb", chance = 1001},
+	{id = "shadow herb", chance = 1000},
 	{id = "corncob", chance = 982},
-	{id = "seeds", chance = 509},
-	{id = "sling herb", chance = 503, maxCount = 2},
+	{id = "seeds", chance = 508},
+	{id = "sling herb", chance = 502, maxCount = 2},
 	{id = "carrot on a stick", chance = 105}
 }
 

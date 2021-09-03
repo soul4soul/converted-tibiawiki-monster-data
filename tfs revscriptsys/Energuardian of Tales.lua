@@ -5,12 +5,12 @@ monster.name = "Energuardian Of Tales"
 monster.description = "an energuardian of tales"
 monster.experience = 11361
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1063,
+	lookHead = 86,
+	lookBody = 85,
+	lookLegs = 82,
+	lookFeet = 93,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -85,21 +86,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "book page", chance = 58674, maxCount = 6},
-	{id = "small amethyst", chance = 55786, maxCount = 10},
-	{id = "glowing rune", chance = 20315, maxCount = 4},
-	{id = "ultimate health potion", chance = 13165},
-	{id = "ultimate mana potion", chance = 9321},
-	{id = "spellbook of warding", chance = 9122},
-	{id = "lightning legs", chance = 7668},
-	{id = "flash arrow", chance = 7429, maxCount = 15},
-	{id = "wand of starstorm", chance = 7230},
-	{id = "lightning pendant", chance = 3983, maxCount = 2},
-	{id = "might ring", chance = 2529},
-	{id = "platinum amulet", chance = 2310},
-	{id = "wand of defiance", chance = 1295},
-	{id = "spellweaver's robe", chance = 876},
-	{id = "shockwave amulet", chance = 677}
+	{id = "book page", chance = 58564, maxCount = 6},
+	{id = "small amethyst", chance = 55907, maxCount = 10},
+	{id = "glowing rune", chance = 20341, maxCount = 4},
+	{id = "ultimate health potion", chance = 13142},
+	{id = "ultimate mana potion", chance = 9282},
+	{id = "spellbook of warding", chance = 9120},
+	{id = "lightning legs", chance = 7612},
+	{id = "flash arrow", chance = 7522, maxCount = 15},
+	{id = "wand of starstorm", chance = 7092},
+	{id = "lightning pendant", chance = 4111, maxCount = 2},
+	{id = "might ring", chance = 2549},
+	{id = "platinum amulet", chance = 2262},
+	{id = "wand of defiance", chance = 1221},
+	{id = "spellweaver's robe", chance = 898},
+	{id = "shockwave amulet", chance = 664}
 }
 
 mType:register(monster)

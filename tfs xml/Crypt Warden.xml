@@ -1,6 +1,7 @@
-﻿<monster name="Crypt Warden" nameDescription="a crypt warden" experience="8400" speed="290" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Crypt Warden" nameDescription="a crypt warden" experience="8400" speed="290" manacost="0">
 	<health now="8300" max="8300" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1190" head="41" body="38" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,31 +45,14 @@
 	</attacks>
 	<defenses armor="84" defense="84" />
 	<loot>
-		<item id="platinum coin" chance="89867" countmax="6" />
-		<item id="cyan crystal fragment" chance="20550" />
-		<item id="lamassu horn" chance="17268" />
-		<item id="lamassu hoof" chance="10928" />
-		<item id="small amethyst" chance="9215" />
-		<item id="gold ingot" chance="5607" />
-		<item id="green crystal fragment" chance="3792" />
-		<item id="green gem" chance="3445" />
-		<item id="elven amulet" chance="856" />
-		<item id="platinum coin" chance="13965" countmax="3" />
-		<item id="cyan crystal fragment" chance="1916" />
-		<item id="lamassu horn" chance="1427" />
-		<item id="small amethyst" chance="1244" />
-		<item id="lamassu hoof" chance="958" />
-		<item id="gold ingot" chance="652" />
-		<item id="green crystal fragment" chance="224" />
-		<item id="green gem" chance="204" />
-		<item id="elven amulet" chance="122" />
-		<item id="platinum coin" chance="1855" countmax="3" />
-		<item id="lamassu horn" chance="224" />
-		<item id="cyan crystal fragment" chance="204" />
-		<item id="lamassu hoof" chance="143" />
-		<item id="gold ingot" chance="122" />
-		<item id="small amethyst" chance="122" />
-		<item id="green crystal fragment" chance="61" />
-		<item id="green gem" chance="41" />
+		<item name="platinum coin" chance="89872" countmax="6" />
+		<item name="cyan crystal fragment" chance="20540" />
+		<item name="lamassu horn" chance="17292" />
+		<item name="lamassu hoof" chance="10879" />
+		<item name="small amethyst" chance="9275" />
+		<item name="gold ingot" chance="5602" />
+		<item name="green crystal fragment" chance="3775" />
+		<item name="green gem" chance="3491" />
+		<item name="elven amulet" chance="852" />
 	</loot>
 </monster>

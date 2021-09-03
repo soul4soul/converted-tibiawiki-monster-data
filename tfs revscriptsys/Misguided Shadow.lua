@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,10 +89,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "strong mana potion", chance = 7317},
-	{id = "onyx chip", chance = 2439},
-	{id = "red gem", chance = 2439},
-	{id = "strong health potion", chance = 2439}
+	{id = "strong mana potion", chance = 6522},
+	{id = "onyx chip", chance = 4348},
+	{id = "red gem", chance = 2174},
+	{id = "strong health potion", chance = 2174}
 }
 
 mType:register(monster)

@@ -5,7 +5,7 @@ monster.name = "Gnarlhound"
 monster.description = "a gnarlhound"
 monster.experience = 60
 monster.outfit = {
-	lookType = 0,
+	lookType = 341,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,13 +89,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 49559, maxCount = 30},
-	{id = "worm", chance = 49061, maxCount = 3},
-	{id = "meat", chance = 40046},
-	{id = "shaggy tail", chance = 24071},
-	{id = "worm", chance = 15107, maxCount = 3},
-	{id = "meat", chance = 12744},
-	{id = "shaggy tail", chance = 6921}
+	{id = "gold coin", chance = 49522, maxCount = 30},
+	{id = "worm", chance = 49170, maxCount = 3},
+	{id = "meat", chance = 39980},
+	{id = "shaggy tail", chance = 24126}
 }
 
 mType:register(monster)

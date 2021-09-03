@@ -5,7 +5,7 @@ monster.name = "Mammoth"
 monster.description = "a mammoth"
 monster.experience = 160
 monster.outfit = {
-	lookType = 0,
+	lookType = 199,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,29 +90,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 89815, maxCount = 40},
-	{id = "meat", chance = 40206},
-	{id = "ham", chance = 29984},
-	{id = "thick fur", chance = 7734},
-	{id = "mammoth tusk", chance = 7407, maxCount = 2},
-	{id = "mammoth whopper", chance = 2534},
-	{id = "furry club", chance = 500},
-	{id = "tusk shield", chance = 496},
-	{id = "gold coin", chance = 12925, maxCount = 40},
-	{id = "meat", chance = 5850},
-	{id = "ham", chance = 4213},
-	{id = "thick fur", chance = 1057},
-	{id = "mammoth tusk", chance = 1029, maxCount = 2},
-	{id = "mammoth whopper", chance = 346},
-	{id = "tusk shield", chance = 84},
-	{id = "furry club", chance = 56},
-	{id = "meat", chance = 13243},
-	{id = "ham", chance = 9946},
-	{id = "gold coin", chance = 9932, maxCount = 20},
-	{id = "mammoth tusk", chance = 1800, maxCount = 2},
-	{id = "thick fur", chance = 725},
-	{id = "furry club", chance = 168},
-	{id = "tusk shield", chance = 33}
+	{id = "gold coin", chance = 89833, maxCount = 40},
+	{id = "meat", chance = 40249},
+	{id = "ham", chance = 29985},
+	{id = "thick fur", chance = 7733},
+	{id = "mammoth tusk", chance = 7426, maxCount = 2},
+	{id = "mammoth whopper", chance = 2536},
+	{id = "furry club", chance = 503},
+	{id = "tusk shield", chance = 493}
 }
 
 mType:register(monster)

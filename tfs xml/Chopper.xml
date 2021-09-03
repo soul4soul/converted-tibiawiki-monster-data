@@ -1,4 +1,5 @@
-﻿<monster name="Chopper" nameDescription="" experience="5400" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Chopper" nameDescription="" experience="5400" speed="0" manacost="0">
 	<health now="7200" max="7200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -45,17 +47,17 @@
 		<defense name="healing" interval="2000" chance="20" min="5" max="20" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="207" />
-		<item id="waspoid claw" chance="100000" />
-		<item id="platinum coin" chance="94118" countmax="4" />
-		<item id="compound eye" chance="82353" />
-		<item id="waspoid wing" chance="80392" />
-		<item id="dung ball (quest)" chance="72549" countmax="2" />
-		<item id="small topaz" chance="56863" countmax="2" />
-		<item id="great health potion" chance="45098" countmax="2" />
-		<item id="black pearl" chance="29412" />
-		<item id="great mana potion" chance="29412" countmax="2" />
-		<item id="yellow gem" chance="13725" />
-		<item id="emerald bangle" chance="9804" />
+		<item name="gold coin" chance="100000" countmax="207" />
+		<item name="waspoid claw" chance="100000" />
+		<item name="platinum coin" chance="94118" countmax="4" />
+		<item name="compound eye" chance="82353" />
+		<item name="waspoid wing" chance="80392" />
+		<item name="dung ball (quest)" chance="72549" countmax="2" />
+		<item name="small topaz" chance="56863" countmax="2" />
+		<item name="great health potion" chance="45098" countmax="2" />
+		<item name="black pearl" chance="29412" />
+		<item name="great mana potion" chance="29412" countmax="2" />
+		<item name="yellow gem" chance="13725" />
+		<item name="emerald bangle" chance="9804" />
 	</loot>
 </monster>

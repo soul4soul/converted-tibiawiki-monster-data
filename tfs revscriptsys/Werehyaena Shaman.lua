@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,22 +88,22 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 3},
-	{id = "great mana potion", chance = 20537},
-	{id = "werehyaena nose", chance = 15223},
-	{id = "small amethyst", chance = 11126, maxCount = 2},
-	{id = "green crystal splinter", chance = 9106},
-	{id = "hailstorm rod", chance = 6421},
-	{id = "wand of starstorm", chance = 5369},
-	{id = "doublet", chance = 5176},
-	{id = "brown crystal splinter", chance = 5093},
-	{id = "small enchanted emerald", chance = 4678, maxCount = 5},
-	{id = "sword ring", chance = 4152},
-	{id = "wand of voodoo", chance = 3847},
-	{id = "protection amulet", chance = 2546},
-	{id = "black shield", chance = 2353},
-	{id = "werehyaena talisman", chance = 692},
-	{id = "moonlight crystals", chance = 498},
-	{id = "werehyaena trophy", chance = 194}
+	{id = "great mana potion", chance = 20410},
+	{id = "werehyaena nose", chance = 15335},
+	{id = "small amethyst", chance = 11150, maxCount = 2},
+	{id = "green crystal splinter", chance = 9206},
+	{id = "hailstorm rod", chance = 6479},
+	{id = "wand of starstorm", chance = 5400},
+	{id = "brown crystal splinter", chance = 5076},
+	{id = "doublet", chance = 5076},
+	{id = "small enchanted emerald", chance = 4590, maxCount = 5},
+	{id = "sword ring", chance = 4077},
+	{id = "wand of voodoo", chance = 3780},
+	{id = "protection amulet", chance = 2565},
+	{id = "black shield", chance = 2295},
+	{id = "werehyaena talisman", chance = 675},
+	{id = "moonlight crystals", chance = 486},
+	{id = "werehyaena trophy", chance = 189}
 }
 
 mType:register(monster)

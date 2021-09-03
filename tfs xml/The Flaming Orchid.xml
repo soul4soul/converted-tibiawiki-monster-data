@@ -1,4 +1,5 @@
-﻿<monster name="The Flaming Orchid" nameDescription="" experience="8500" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Flaming Orchid" nameDescription="" experience="8500" speed="0" manacost="0">
 	<health now="4000" max="4000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -44,26 +46,26 @@
 		<voice sentence="*SNIFF* *SNIFF* BLOOD! I CAN SMELL YOU, MORTAL!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="246" />
-		<item id="golden lotus brooch" chance="100000" />
-		<item id="peacock feather fan" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="10" />
-		<item id="assassin star" chance="48980" countmax="15" />
-		<item id="flask of demonic blood" chance="36735" />
-		<item id="small amethyst" chance="28571" countmax="3" />
-		<item id="demonic essence" chance="24490" />
-		<item id="soul orb" chance="22449" />
-		<item id="ultimate health potion" chance="20408" countmax="4" />
-		<item id="great mana potion" chance="18367" countmax="5" />
-		<item id="crystal ring" chance="16327" />
-		<item id="great spirit potion" chance="8163" countmax="5" />
-		<item id="moonlight rod" chance="8163" />
-		<item id="red gem" chance="8163" />
-		<item id="gold ingot" chance="4082" />
-		<item id="green gem" chance="4082" />
-		<item id="oriental shoes" chance="4082" />
-		<item id="assassin dagger" chance="2041" />
-		<item id="death ring" chance="2041" />
-		<item id="necrotic rod" chance="2041" />
+		<item name="gold coin" chance="100000" countmax="246" />
+		<item name="golden lotus brooch" chance="100000" />
+		<item name="peacock feather fan" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="10" />
+		<item name="assassin star" chance="48000" countmax="15" />
+		<item name="flask of demonic blood" chance="38000" />
+		<item name="small amethyst" chance="28000" countmax="3" />
+		<item name="demonic essence" chance="24000" />
+		<item name="soul orb" chance="22000" />
+		<item name="ultimate health potion" chance="20000" countmax="4" />
+		<item name="great mana potion" chance="18000" countmax="5" />
+		<item name="crystal ring" chance="16000" />
+		<item name="great spirit potion" chance="10000" countmax="5" />
+		<item name="moonlight rod" chance="10000" />
+		<item name="red gem" chance="8000" />
+		<item name="gold ingot" chance="4000" />
+		<item name="green gem" chance="4000" />
+		<item name="oriental shoes" chance="4000" />
+		<item name="assassin dagger" chance="2000" />
+		<item name="death ring" chance="2000" />
+		<item name="necrotic rod" chance="2000" />
 	</loot>
 </monster>

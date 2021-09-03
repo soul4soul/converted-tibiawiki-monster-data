@@ -1,4 +1,5 @@
-﻿<monster name="General Murius" nameDescription="" experience="450" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="General Murius" nameDescription="" experience="450" speed="0" manacost="0">
 	<health now="550" max="550" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -54,19 +56,19 @@
 		<voice sentence="Guards!" yell="false" />
 	</voices>
 	<loot>
-		<item id="minotaur horn" chance="100000" countmax="2" />
-		<item id="minotaur leather" chance="100000" />
-		<item id="gold coin" chance="93333" countmax="97" />
-		<item id="platinum coin" chance="93333" countmax="3" />
-		<item id="double axe" chance="80000" />
-		<item id="brass armor" chance="66667" />
-		<item id="battle shield" chance="33333" />
-		<item id="piercing bolt" chance="33333" countmax="11" />
-		<item id="meat" chance="26667" />
-		<item id="chain legs" chance="20000" />
-		<item id="minotaur trophy" chance="20000" />
-		<item id="power bolt" chance="20000" countmax="7" />
-		<item id="fishing rod" chance="6667" />
-		<item id="strong health potion" chance="6667" />
+		<item name="minotaur horn" chance="100000" countmax="2" />
+		<item name="minotaur leather" chance="100000" />
+		<item name="gold coin" chance="93333" countmax="97" />
+		<item name="platinum coin" chance="93333" countmax="3" />
+		<item name="double axe" chance="80000" />
+		<item name="brass armor" chance="66667" />
+		<item name="battle shield" chance="33333" />
+		<item name="piercing bolt" chance="33333" countmax="11" />
+		<item name="meat" chance="26667" />
+		<item name="chain legs" chance="20000" />
+		<item name="minotaur trophy" chance="20000" />
+		<item name="power bolt" chance="20000" countmax="7" />
+		<item name="fishing rod" chance="6667" />
+		<item name="strong health potion" chance="6667" />
 	</loot>
 </monster>

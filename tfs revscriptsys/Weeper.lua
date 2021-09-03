@@ -5,7 +5,7 @@ monster.name = "Weeper"
 monster.description = "a weeper"
 monster.experience = 4800
 monster.outfit = {
-	lookType = 0,
+	lookType = 489,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,23 +90,23 @@ monster.defenses = {
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 199},
 	{id = "platinum coin", chance = 100000, maxCount = 7},
-	{id = "eye of a weeper", chance = 15528},
+	{id = "eye of a weeper", chance = 15527},
 	{id = "ultimate health potion", chance = 15218, maxCount = 2},
-	{id = "small ruby", chance = 15077, maxCount = 3},
-	{id = "blazing bone", chance = 15035},
-	{id = "great mana potion", chance = 14682, maxCount = 2},
-	{id = "fiery heart", chance = 13175},
-	{id = "magma clump", chance = 12780},
-	{id = "brown crystal splinter", chance = 11935, maxCount = 2},
-	{id = "prismatic bolt", chance = 11357, maxCount = 5},
-	{id = "red crystal fragment", chance = 8947},
-	{id = "violet crystal shard", chance = 5397},
-	{id = "fire sword", chance = 3311},
-	{id = "fire axe", chance = 2254},
-	{id = "wand of everblazing", chance = 1465},
-	{id = "coal", chance = 1310},
-	{id = "magma legs", chance = 803},
-	{id = "magma coat", chance = 719}
+	{id = "small ruby", chance = 15078, maxCount = 3},
+	{id = "blazing bone", chance = 15036},
+	{id = "great mana potion", chance = 14713, maxCount = 2},
+	{id = "fiery heart", chance = 13197},
+	{id = "magma clump", chance = 12818},
+	{id = "brown crystal splinter", chance = 11905, maxCount = 2},
+	{id = "prismatic bolt", chance = 11386, maxCount = 5},
+	{id = "red crystal fragment", chance = 8985},
+	{id = "violet crystal shard", chance = 5391},
+	{id = "fire sword", chance = 3313},
+	{id = "fire axe", chance = 2246},
+	{id = "wand of everblazing", chance = 1460},
+	{id = "coal", chance = 1306},
+	{id = "magma legs", chance = 800},
+	{id = "magma coat", chance = 716}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Mushroom Sniffer" nameDescription="a mushroom sniffer" experience="0" speed="110" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mushroom Sniffer" nameDescription="a mushroom sniffer" experience="0" speed="110" manacost="0">
 	<health now="250" max="250" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="60" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="90" />
-		<element EnergyPercent="90" />
+		<element energyPercent="90" />
 		<element earthPercent="90" />
 		<element firePercent="90" />
 		<element lifedrainPercent="0" />

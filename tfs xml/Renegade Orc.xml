@@ -1,4 +1,5 @@
-﻿<monster name="Renegade Orc" nameDescription="a renegade orc" experience="270" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Renegade Orc" nameDescription="a renegade orc" experience="270" speed="0" manacost="0">
 	<health now="450" max="450" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -46,17 +48,17 @@
 		<voice sentence="Harga puchak muhmak!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="35484" countmax="35" />
-		<item id="fish" chance="29032" />
-		<item id="plate shield" chance="9677" />
-		<item id="scimitar" chance="9677" />
-		<item id="brown mushroom" chance="6452" />
-		<item id="plate legs" chance="6452" />
-		<item id="longsword" chance="3226" />
-		<item id="orc tooth" chance="3226" />
-		<item id="royal spear" chance="3226" />
-		<item id="sword ring" chance="3226" />
-		<item id="throwing knife" chance="3226" countmax="2" />
-		<item id="warrior helmet" chance="3226" />
+		<item name="gold coin" chance="35484" countmax="35" />
+		<item name="fish" chance="29032" />
+		<item name="plate shield" chance="9677" />
+		<item name="scimitar" chance="9677" />
+		<item name="brown mushroom" chance="6452" />
+		<item name="plate legs" chance="6452" />
+		<item name="longsword" chance="3226" />
+		<item name="orc tooth" chance="3226" />
+		<item name="royal spear" chance="3226" />
+		<item name="sword ring" chance="3226" />
+		<item name="throwing knife" chance="3226" countmax="2" />
+		<item name="warrior helmet" chance="3226" />
 	</loot>
 </monster>

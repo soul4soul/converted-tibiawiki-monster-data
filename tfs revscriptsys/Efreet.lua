@@ -5,7 +5,7 @@ monster.name = "Efreet"
 monster.description = "an efreet"
 monster.experience = 410
 monster.outfit = {
-	lookType = 0,
+	lookType = 103,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,32 +93,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 97616, maxCount = 129},
-	{id = "royal spear", chance = 14967, maxCount = 3},
-	{id = "strong mana potion", chance = 10540},
-	{id = "pear", chance = 9536, maxCount = 5},
-	{id = "jewelled belt", chance = 7654},
-	{id = "small emerald", chance = 7206},
-	{id = "heavy machete", chance = 4840},
-	{id = "green piece of cloth", chance = 2707},
-	{id = "green tapestry", chance = 2097},
-	{id = "noble turban", chance = 1022},
+	{id = "gold coin", chance = 97617, maxCount = 129},
+	{id = "royal spear", chance = 14959, maxCount = 3},
+	{id = "strong mana potion", chance = 10534},
+	{id = "pear", chance = 9549, maxCount = 5},
+	{id = "jewelled belt", chance = 7668},
+	{id = "small emerald", chance = 7220},
+	{id = "heavy machete", chance = 4837},
+	{id = "green piece of cloth", chance = 2705},
+	{id = "green tapestry", chance = 2096},
+	{id = "noble turban", chance = 1021},
 	{id = "magma monocle", chance = 394},
-	{id = "wand of inferno", chance = 341},
+	{id = "wand of inferno", chance = 340},
 	{id = "mystic turban", chance = 233},
 	{id = "small oil lamp", chance = 197},
-	{id = "green gem", chance = 125},
-	{id = "gold coin", chance = 3226, maxCount = 120},
-	{id = "heavy machete", chance = 735},
-	{id = "small oil lamp", chance = 556},
-	{id = "royal spear", chance = 376, maxCount = 3},
-	{id = "pear", chance = 323, maxCount = 5},
-	{id = "strong mana potion", chance = 287},
-	{id = "small emerald", chance = 179, maxCount = 2},
-	{id = "green piece of cloth", chance = 125},
-	{id = "green tapestry", chance = 108},
-	{id = "wand of inferno", chance = 36},
-	{id = "magma monocle", chance = 18}
+	{id = "green gem", chance = 125}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Corym Charlatan" nameDescription="a corym charlatan" experience="150" speed="190" manacost="490">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Corym Charlatan" nameDescription="a corym charlatan" experience="150" speed="190" manacost="490">
 	<health now="250" max="250" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="532" head="0" body="78" legs="59" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="25" />
+		<element energyPercent="25" />
 		<element earthPercent="25" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -47,30 +49,18 @@
 		<voice sentence="Beware! Me hexing you!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="81453" countmax="35" />
-		<item id="rat cheese" chance="14790" />
-		<item id="soft cheese" chance="12478" />
-		<item id="cheese" chance="9641" />
-		<item id="bola" chance="7833" />
-		<item id="earflap" chance="7258" />
-		<item id="cheese cutter" chance="6502" />
-		<item id="ratana" chance="652" />
-		<item id="life preserver" chance="608" />
-		<item id="cheesy figurine" chance="531" />
-		<item id="leather harness" chance="460" />
-		<item id="spike shield" chance="427" />
-		<item id="rat god doll" chance="5" />
-		<item id="gold coin" chance="100000" countmax="35" />
-		<item id="rat cheese" chance="28139" />
-		<item id="soft cheese" chance="23932" />
-		<item id="cheese" chance="19259" />
-		<item id="bola" chance="15414" />
-		<item id="earflap" chance="13754" />
-		<item id="cheese cutter" chance="11536" />
-		<item id="ratana" chance="1808" />
-		<item id="life preserver" chance="1632" />
-		<item id="spike shield" chance="986" />
-		<item id="leather harness" chance="975" />
-		<item id="cheesy figurine" chance="964" />
+		<item name="gold coin" chance="81455" countmax="35" />
+		<item name="rat cheese" chance="14783" />
+		<item name="soft cheese" chance="12487" />
+		<item name="cheese" chance="9650" />
+		<item name="bola" chance="7834" />
+		<item name="earflap" chance="7255" />
+		<item name="cheese cutter" chance="6495" />
+		<item name="ratana" chance="651" />
+		<item name="life preserver" chance="607" />
+		<item name="cheesy figurine" chance="536" />
+		<item name="leather harness" chance="459" />
+		<item name="spike shield" chance="426" />
+		<item name="rat god doll" chance="5" />
 	</loot>
 </monster>

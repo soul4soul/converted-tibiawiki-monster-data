@@ -5,7 +5,7 @@ monster.name = "Wyvern"
 monster.description = "a wyvern"
 monster.experience = 515
 monster.outfit = {
-	lookType = 0,
+	lookType = 239,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,23 +91,14 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99981, maxCount = 90},
-	{id = "dragon ham", chance = 60214},
-	{id = "wyvern talisman", chance = 11996},
-	{id = "small sapphire", chance = 4928},
+	{id = "dragon ham", chance = 60229},
+	{id = "wyvern talisman", chance = 11982},
+	{id = "small sapphire", chance = 4932},
 	{id = "power bolt", chance = 3378},
-	{id = "strong health potion", chance = 2458},
-	{id = "wand of inferno", chance = 791},
-	{id = "emerald bangle", chance = 588},
-	{id = "wyvern fang", chance = 454},
-	{id = "gold coin", chance = 3070, maxCount = 64},
-	{id = "dragon ham", chance = 2769},
-	{id = "wyvern talisman", chance = 184},
-	{id = "power bolt", chance = 180},
-	{id = "wand of inferno", chance = 48},
-	{id = "strong health potion", chance = 42},
-	{id = "small sapphire", chance = 32},
-	{id = "wyvern fang", chance = 16},
-	{id = "emerald bangle", chance = 15}
+	{id = "strong health potion", chance = 2461},
+	{id = "wand of inferno", chance = 787},
+	{id = "emerald bangle", chance = 589},
+	{id = "wyvern fang", chance = 456}
 }
 
 mType:register(monster)

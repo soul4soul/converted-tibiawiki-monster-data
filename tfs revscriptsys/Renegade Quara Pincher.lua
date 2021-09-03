@@ -5,7 +5,7 @@ monster.name = "Renegade Quara Pincher"
 monster.description = "a renegade quara pincher"
 monster.experience = 2200
 monster.outfit = {
-	lookType = 0,
+	lookType = 77,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,25 +87,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 80516, maxCount = 5},
-	{id = "quara pincers", chance = 18545},
-	{id = "great mana potion", chance = 10329, maxCount = 2},
-	{id = "great health potion", chance = 9311, maxCount = 2},
-	{id = "small ruby", chance = 8529, maxCount = 2},
-	{id = "small diamond", chance = 7433, maxCount = 2},
-	{id = "mind stone", chance = 6025},
-	{id = "red gem", chance = 5321},
-	{id = "shrimp", chance = 4695},
-	{id = "vortex bolt", chance = 3678, maxCount = 5},
-	{id = "warrior helmet", chance = 1487},
-	{id = "fish fin", chance = 1252},
-	{id = "giant shimmering pearl (brown)", chance = 1174},
-	{id = "crown armor", chance = 469},
-	{id = "time ring", chance = 469},
-	{id = "talon", chance = 391},
-	{id = "glacier robe", chance = 235},
-	{id = "giant shrimp", chance = 78},
-	{id = "twiceslicer", chance = 78}
+	{id = "platinum coin", chance = 80466, maxCount = 5},
+	{id = "quara pincers", chance = 18711},
+	{id = "great mana potion", chance = 10212, maxCount = 2},
+	{id = "great health potion", chance = 9184, maxCount = 2},
+	{id = "small ruby", chance = 8636, maxCount = 2},
+	{id = "small diamond", chance = 7471, maxCount = 2},
+	{id = "mind stone", chance = 5963},
+	{id = "red gem", chance = 5346},
+	{id = "shrimp", chance = 4798},
+	{id = "vortex bolt", chance = 3907, maxCount = 5},
+	{id = "warrior helmet", chance = 1576},
+	{id = "fish fin", chance = 1508},
+	{id = "giant shimmering pearl (brown)", chance = 1439},
+	{id = "crown armor", chance = 480},
+	{id = "time ring", chance = 480},
+	{id = "talon", chance = 343},
+	{id = "glacier robe", chance = 206},
+	{id = "giant shrimp", chance = 69},
+	{id = "twiceslicer", chance = 69}
 }
 
 mType:register(monster)

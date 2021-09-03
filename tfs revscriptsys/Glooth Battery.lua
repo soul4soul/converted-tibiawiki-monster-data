@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,17 +88,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 77083, maxCount = 5},
-	{id = "great mana potion", chance = 12500},
-	{id = "flask of rust remover", chance = 10417},
-	{id = "great health potion", chance = 10417},
-	{id = "gearwheel chain", chance = 8333},
-	{id = "steel boots", chance = 4167},
-	{id = "crystal pedestal", chance = 2083},
-	{id = "gear wheel", chance = 2083},
-	{id = "iron ore", chance = 2083},
-	{id = "mastermind potion", chance = 2083},
-	{id = "metal spats", chance = 2083}
+	{id = "platinum coin", chance = 75510, maxCount = 5},
+	{id = "great mana potion", chance = 14286},
+	{id = "flask of rust remover", chance = 10204},
+	{id = "great health potion", chance = 10204},
+	{id = "gearwheel chain", chance = 8163},
+	{id = "gear wheel", chance = 4082},
+	{id = "steel boots", chance = 4082},
+	{id = "crystal pedestal", chance = 2041},
+	{id = "iron ore", chance = 2041},
+	{id = "mastermind potion", chance = 2041},
+	{id = "metal spats", chance = 2041}
 }
 
 mType:register(monster)

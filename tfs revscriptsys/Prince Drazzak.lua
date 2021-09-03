@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -133,24 +134,7 @@ monster.loot = {
 	{id = "runed sword", chance = 6250},
 	{id = "abyss hammer", chance = 3125},
 	{id = "crystalline armor", chance = 3125},
-	{id = "demonbone amulet", chance = 3125},
-	{id = "demonic essence", chance = 9375},
-	{id = "green gem", chance = 9375},
-	{id = "platinum coin", chance = 9375, maxCount = 20},
-	{id = "unrealized dream", chance = 9375, maxCount = 3},
-	{id = "clusters of solace", chance = 6250, maxCount = 2},
-	{id = "cyan crystal fragment", chance = 6250, maxCount = 3},
-	{id = "great spirit potion", chance = 6250, maxCount = 8},
-	{id = "green crystal shard", chance = 6250, maxCount = 5},
-	{id = "cluster of solace", chance = 3125},
-	{id = "crystalline armor", chance = 3125},
-	{id = "great mana potion", chance = 3125, maxCount = 8},
-	{id = "lightning robe", chance = 3125},
-	{id = "noble axe", chance = 3125},
-	{id = "red crystal fragment", chance = 3125, maxCount = 3},
-	{id = "ring of healing", chance = 3125},
-	{id = "steel boots", chance = 3125},
-	{id = "violet crystal shard", chance = 3125, maxCount = 5}
+	{id = "demonbone amulet", chance = 3125}
 }
 
 mType:register(monster)

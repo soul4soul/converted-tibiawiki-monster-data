@@ -5,7 +5,7 @@ monster.name = "Shadow Pupil"
 monster.description = "a shadow pupil"
 monster.experience = 410
 monster.outfit = {
-	lookType = 0,
+	lookType = 551,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -91,15 +92,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 65},
-	{id = "horoscope", chance = 14639},
-	{id = "incantation notes", chance = 9187},
-	{id = "book of necromantic rituals", chance = 7521},
-	{id = "pieces of magic chalk", chance = 4745},
-	{id = "brown mushroom", chance = 4695},
-	{id = "mystic turban", chance = 606},
-	{id = "strong mana potion", chance = 454},
-	{id = "clerical mace", chance = 278},
-	{id = "spellbook of enlightenment", chance = 227},
+	{id = "horoscope", chance = 14651},
+	{id = "incantation notes", chance = 9262},
+	{id = "book of necromantic rituals", chance = 7499},
+	{id = "brown mushroom", chance = 4668},
+	{id = "pieces of magic chalk", chance = 4668},
+	{id = "mystic turban", chance = 596},
+	{id = "strong mana potion", chance = 472},
+	{id = "clerical mace", chance = 273},
+	{id = "spellbook of enlightenment", chance = 223},
 	{id = "boots of haste", chance = 25}
 }
 

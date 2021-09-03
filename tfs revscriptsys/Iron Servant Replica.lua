@@ -5,7 +5,7 @@ monster.name = "Iron Servant Replica"
 monster.description = "an iron servant replica"
 monster.experience = 210
 monster.outfit = {
-	lookType = 0,
+	lookType = 395,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,12 +87,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 82569, maxCount = 55},
-	{id = "gear wheel", chance = 5359},
-	{id = "health potion", chance = 2376},
-	{id = "halberd", chance = 994},
-	{id = "heavily rusted armor", chance = 497},
-	{id = "slime mould", chance = 276}
+	{id = "gold coin", chance = 82538, maxCount = 55},
+	{id = "gear wheel", chance = 5311},
+	{id = "health potion", chance = 2414},
+	{id = "halberd", chance = 966},
+	{id = "heavily rusted armor", chance = 483},
+	{id = "slime mould", chance = 268}
 }
 
 mType:register(monster)

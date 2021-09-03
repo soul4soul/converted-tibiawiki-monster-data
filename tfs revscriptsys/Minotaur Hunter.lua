@@ -5,7 +5,7 @@ monster.name = "Minotaur Hunter"
 monster.description = "a minotaur hunter"
 monster.experience = 1700
 monster.outfit = {
-	lookType = 0,
+	lookType = 612,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,17 +93,17 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99465, maxCount = 200},
-	{id = "platinum coin", chance = 35031, maxCount = 3},
+	{id = "platinum coin", chance = 35030, maxCount = 3},
 	{id = "hunting spear", chance = 15014, maxCount = 5},
-	{id = "blank rune", chance = 14980, maxCount = 2},
-	{id = "royal spear", chance = 11763, maxCount = 5},
+	{id = "blank rune", chance = 14981, maxCount = 2},
+	{id = "royal spear", chance = 11764, maxCount = 5},
 	{id = "strong mana potion", chance = 10136, maxCount = 2},
 	{id = "strong health potion", chance = 9907, maxCount = 2},
 	{id = "soul orb", chance = 7028},
 	{id = "minotaur horn", chance = 5041, maxCount = 2},
 	{id = "minotaur leather", chance = 4846},
 	{id = "small ruby", chance = 2550, maxCount = 3},
-	{id = "small amethyst", chance = 2450, maxCount = 3},
+	{id = "small amethyst", chance = 2449, maxCount = 3},
 	{id = "stealth ring", chance = 2401},
 	{id = "green piece of cloth", chance = 1541},
 	{id = "blue piece of cloth", chance = 1499},

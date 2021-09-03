@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,12 +89,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 85714, maxCount = 115},
-	{id = "ring of healing", chance = 28571},
-	{id = "spellbook", chance = 21429},
-	{id = "black pearl", chance = 7143},
-	{id = "spellscroll of prophecies", chance = 7143},
-	{id = "white pearl", chance = 7143}
+	{id = "gold coin", chance = 86667, maxCount = 115},
+	{id = "ring of healing", chance = 26667},
+	{id = "spellbook", chance = 20000},
+	{id = "spellscroll of prophecies", chance = 13333},
+	{id = "white pearl", chance = 13333},
+	{id = "black pearl", chance = 6667}
 }
 
 mType:register(monster)

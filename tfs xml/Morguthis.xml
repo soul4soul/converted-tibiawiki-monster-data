@@ -1,4 +1,5 @@
-﻿<monster name="Morguthis" nameDescription="" experience="3000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Morguthis" nameDescription="" experience="3000" speed="0" manacost="0">
 	<health now="4800" max="4800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -59,14 +61,14 @@
 		<voice name="hero" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="sword hilt" chance="100000" />
-		<item id="gold coin" chance="91528" countmax="221" />
-		<item id="black pearl" chance="10694" />
-		<item id="assassin star" chance="9722" countmax="3" />
-		<item id="great health potion" chance="9444" />
-		<item id="knight axe" chance="5972" />
-		<item id="stone skin amulet" chance="5139" />
-		<item id="mini mummy" chance="139" />
-		<item id="steel boots" chance="139" />
+		<item name="sword hilt" chance="100000" />
+		<item name="gold coin" chance="91528" countmax="221" />
+		<item name="black pearl" chance="10694" />
+		<item name="assassin star" chance="9722" countmax="3" />
+		<item name="great health potion" chance="9444" />
+		<item name="knight axe" chance="5972" />
+		<item name="stone skin amulet" chance="5139" />
+		<item name="mini mummy" chance="139" />
+		<item name="steel boots" chance="139" />
 	</loot>
 </monster>

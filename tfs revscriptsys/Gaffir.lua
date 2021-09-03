@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,12 +87,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "small emerald", chance = 18627},
-	{id = "small sapphire", chance = 17647},
-	{id = "small amethyst", chance = 17647},
-	{id = "small diamond", chance = 17647},
-	{id = "small ruby", chance = 15686},
-	{id = "small topaz", chance = 12745}
+	{id = "small topaz", chance = 19828},
+	{id = "small sapphire", chance = 19540},
+	{id = "small diamond", chance = 17816},
+	{id = "small emerald", chance = 14655},
+	{id = "small amethyst", chance = 14080},
+	{id = "small ruby", chance = 14080}
 }
 
 mType:register(monster)

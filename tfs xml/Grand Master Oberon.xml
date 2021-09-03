@@ -1,4 +1,5 @@
-﻿<monster name="Grand Master Oberon" nameDescription="" experience="20000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grand Master Oberon" nameDescription="" experience="20000" speed="0" manacost="0">
 	<health now="30000" max="30000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,19 +45,15 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="bone" chance="54060" />
-		<item id="gold coin" chance="43376" countmax="10" />
-		<item id="pelvis bone" chance="9615" />
-		<item id="torch" chance="8547" />
-		<item id="viking helmet" chance="7479" />
-		<item id="hatchet" chance="5342" />
-		<item id="mace" chance="3205" />
-		<item id="sword" chance="2778" />
-		<item id="heavy old tome" chance="1709" />
-		<item id="brass shield" chance="1068" />
-		<item id="the spatial warp almanac" chance="68376" />
-		<item id="falcon plate" chance="427" />
-		<item id="falcon battleaxe" chance="214" />
-		<item id="falcon circlet" chance="214" />
+		<item name="bone" chance="52907" />
+		<item name="gold coin" chance="43411" countmax="10" />
+		<item name="pelvis bone" chance="10465" />
+		<item name="torch" chance="8140" />
+		<item name="viking helmet" chance="7752" />
+		<item name="hatchet" chance="5039" />
+		<item name="mace" chance="3101" />
+		<item name="sword" chance="2713" />
+		<item name="heavy old tome" chance="1744" />
+		<item name="brass shield" chance="969" />
 	</loot>
 </monster>

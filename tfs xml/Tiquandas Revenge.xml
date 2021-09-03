@@ -1,4 +1,5 @@
-﻿<monster name="Tiquandas Revenge" nameDescription="" experience="2635" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tiquandas Revenge" nameDescription="" experience="2635" speed="0" manacost="0">
 	<health now="1800" max="1800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="1" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="-1" />
 		<element lifedrainPercent="0" />
@@ -44,12 +46,12 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="mandrake" chance="100000" />
-		<item id="seeds" chance="100000" />
-		<item id="gold coin" chance="86667" countmax="118" />
-		<item id="meat" chance="73333" />
-		<item id="ham" chance="40000" />
-		<item id="dark mushroom" chance="22222" countmax="5" />
-		<item id="carrot on a stick" chance="13333" />
+		<item name="mandrake" chance="100000" />
+		<item name="seeds" chance="100000" />
+		<item name="gold coin" chance="86667" countmax="118" />
+		<item name="meat" chance="73333" />
+		<item name="ham" chance="40000" />
+		<item name="dark mushroom" chance="22222" countmax="5" />
+		<item name="carrot on a stick" chance="13333" />
 	</loot>
 </monster>

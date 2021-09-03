@@ -5,7 +5,7 @@ monster.name = "Lancer Beetle"
 monster.description = "a lancer beetle"
 monster.experience = 275
 monster.outfit = {
-	lookType = 0,
+	lookType = 348,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,8 +88,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 82765, maxCount = 130},
-	{id = "lancer beetle shell", chance = 14685},
+	{id = "gold coin", chance = 82766, maxCount = 130},
+	{id = "lancer beetle shell", chance = 14684},
 	{id = "poisonous slime", chance = 8181},
 	{id = "lump of dirt", chance = 3844},
 	{id = "beetle necklace", chance = 868},

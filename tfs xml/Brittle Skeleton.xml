@@ -1,4 +1,5 @@
-﻿<monster name="Brittle Skeleton" nameDescription="a brittle skeleton" experience="35" speed="146" manacost="300">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Brittle Skeleton" nameDescription="a brittle skeleton" experience="35" speed="146" manacost="300">
 	<health now="50" max="50" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,23 +45,13 @@
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="5" />
-		<item id="torch" chance="8320" />
-		<item id="viking helmet" chance="5495" />
-		<item id="sword" chance="5338" />
-		<item id="mace" chance="4867" />
-		<item id="hatchet" chance="4396" />
-		<item id="brass shield" chance="4082" />
-		<item id="studded armor" chance="2355" />
-		<item id="gold coin" chance="68603" countmax="5" />
-		<item id="bone" chance="29513" />
-		<item id="torch" chance="7221" />
-		<item id="pelvis bone" chance="5495" />
-		<item id="mace" chance="3611" />
-		<item id="sword" chance="3611" />
-		<item id="hatchet" chance="3297" />
-		<item id="viking helmet" chance="2983" />
-		<item id="brass shield" chance="2041" />
-		<item id="studded armor" chance="1727" />
+		<item name="gold coin" chance="100000" countmax="5" />
+		<item name="torch" chance="8320" />
+		<item name="viking helmet" chance="5495" />
+		<item name="sword" chance="5338" />
+		<item name="mace" chance="4867" />
+		<item name="hatchet" chance="4396" />
+		<item name="brass shield" chance="4082" />
+		<item name="studded armor" chance="2355" />
 	</loot>
 </monster>

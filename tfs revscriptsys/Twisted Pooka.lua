@@ -5,7 +5,7 @@ monster.name = "Twisted Pooka"
 monster.description = "a twisted pooka"
 monster.experience = 600
 monster.outfit = {
-	lookType = 0,
+	lookType = 978,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,19 +92,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 125},
-	{id = "carrot", chance = 20739, maxCount = 2},
-	{id = "strong health potion", chance = 12640},
-	{id = "shimmering beetles", chance = 9765},
-	{id = "fairy wings", chance = 8989},
-	{id = "stone herb", chance = 7164},
-	{id = "small stone", chance = 5111, maxCount = 5},
-	{id = "cookie", chance = 4449, maxCount = 5},
-	{id = "orange mushroom", chance = 3285},
-	{id = "small enchanted ruby", chance = 3263, maxCount = 2},
-	{id = "prismatic quartz", chance = 2624},
-	{id = "stealth ring", chance = 867},
-	{id = "carrot on a stick", chance = 137},
-	{id = "crystal of focus", chance = 68}
+	{id = "carrot", chance = 20825, maxCount = 2},
+	{id = "strong health potion", chance = 12575},
+	{id = "shimmering beetles", chance = 9736},
+	{id = "fairy wings", chance = 9159},
+	{id = "stone herb", chance = 7252},
+	{id = "small stone", chance = 5101, maxCount = 5},
+	{id = "cookie", chance = 4436, maxCount = 5},
+	{id = "small enchanted ruby", chance = 3349, maxCount = 2},
+	{id = "orange mushroom", chance = 3282},
+	{id = "prismatic quartz", chance = 2550},
+	{id = "stealth ring", chance = 887},
+	{id = "carrot on a stick", chance = 133},
+	{id = "crystal of focus", chance = 67}
 }
 
 mType:register(monster)

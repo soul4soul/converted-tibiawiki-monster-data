@@ -5,7 +5,7 @@ monster.name = "Sandcrawler"
 monster.description = "a sandcrawler"
 monster.experience = 20
 monster.outfit = {
-	lookType = 0,
+	lookType = 350,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,8 +88,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 34926, maxCount = 6},
-	{id = "sandcrawler shell", chance = 2045}
+	{id = "gold coin", chance = 34927, maxCount = 6},
+	{id = "sandcrawler shell", chance = 2052}
 }
 
 mType:register(monster)

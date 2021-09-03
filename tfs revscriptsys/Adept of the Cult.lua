@@ -5,11 +5,11 @@ monster.name = "Adept Of The Cult"
 monster.description = "an adept of the cult"
 monster.experience = 400
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 194,
+	lookHead = 95,
+	lookBody = 94,
+	lookLegs = 94,
+	lookFeet = 19,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,13 +91,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 65628, maxCount = 60},
-	{id = "cultish robe", chance = 10381},
-	{id = "rope belt", chance = 9856},
-	{id = "pirate voodoo doll", chance = 1501},
+	{id = "gold coin", chance = 65613, maxCount = 60},
+	{id = "cultish robe", chance = 10378},
+	{id = "rope belt", chance = 9854},
+	{id = "pirate voodoo doll", chance = 1500},
 	{id = "silver amulet", chance = 1017},
 	{id = "clerical mace", chance = 1003},
-	{id = "book (orange)", chance = 908},
+	{id = "book (orange)", chance = 907},
 	{id = "music sheet (third verse)", chance = 629},
 	{id = "amber staff", chance = 579},
 	{id = "time ring", chance = 483},

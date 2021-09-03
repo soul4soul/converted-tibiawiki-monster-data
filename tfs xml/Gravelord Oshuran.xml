@@ -1,4 +1,5 @@
-﻿<monster name="Gravelord Oshuran" nameDescription="" experience="2400" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Gravelord Oshuran" nameDescription="" experience="2400" speed="0" manacost="0">
 	<health now="3100" max="3100" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="80" />
+		<element energyPercent="80" />
 		<element earthPercent="100" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -48,11 +50,11 @@
 		<voice sentence="Your mortality is disgusting!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="85714" countmax="115" />
-		<item id="ring of healing" chance="28571" />
-		<item id="spellbook" chance="21429" />
-		<item id="black pearl" chance="7143" />
-		<item id="spellscroll of prophecies" chance="7143" />
-		<item id="white pearl" chance="7143" />
+		<item name="gold coin" chance="86667" countmax="115" />
+		<item name="ring of healing" chance="26667" />
+		<item name="spellbook" chance="20000" />
+		<item name="spellscroll of prophecies" chance="13333" />
+		<item name="white pearl" chance="13333" />
+		<item name="black pearl" chance="6667" />
 	</loot>
 </monster>

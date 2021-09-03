@@ -5,11 +5,11 @@ monster.name = "Valkyrie"
 monster.description = "a valkyrie"
 monster.experience = 85
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 139,
+	lookHead = 113,
+	lookBody = 38,
+	lookLegs = 76,
+	lookFeet = 96,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,17 +93,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "spear", chance = 55320, maxCount = 3},
-	{id = "gold coin", chance = 32713, maxCount = 12},
-	{id = "meat", chance = 30077},
-	{id = "chain armor", chance = 10124},
-	{id = "red apple", chance = 7596, maxCount = 2},
+	{id = "spear", chance = 55327, maxCount = 3},
+	{id = "gold coin", chance = 32705, maxCount = 12},
+	{id = "meat", chance = 30090},
+	{id = "chain armor", chance = 10126},
+	{id = "red apple", chance = 7588, maxCount = 2},
 	{id = "girlish hair decoration", chance = 5951},
-	{id = "hunting spear", chance = 5044},
-	{id = "protective charm", chance = 3194},
-	{id = "protection amulet", chance = 1093},
-	{id = "plate armor", chance = 817},
-	{id = "skull", chance = 739},
+	{id = "hunting spear", chance = 5045},
+	{id = "protective charm", chance = 3197},
+	{id = "protection amulet", chance = 1092},
+	{id = "plate armor", chance = 822},
+	{id = "skull", chance = 738},
 	{id = "health potion", chance = 474},
 	{id = "double axe", chance = 402},
 	{id = "small diamond", chance = 114}

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -98,20 +99,7 @@ monster.loot = {
 	{id = "red piece of cloth", chance = 6667},
 	{id = "ring of healing", chance = 6667},
 	{id = "small diamond", chance = 6667, maxCount = 5},
-	{id = "small topaz", chance = 6667, maxCount = 3},
-	{id = "great health potion", chance = 46667, maxCount = 13},
-	{id = "great mana potion", chance = 46667, maxCount = 13},
-	{id = "great spirit potion", chance = 46667, maxCount = 11},
-	{id = "platinum coin", chance = 46667, maxCount = 27},
-	{id = "moohtant horn", chance = 40000, maxCount = 2},
-	{id = "red piece of cloth", chance = 20000},
-	{id = "small topaz", chance = 20000, maxCount = 3},
-	{id = "ring of healing", chance = 13333},
-	{id = "small diamond", chance = 13333, maxCount = 5},
-	{id = "small ruby", chance = 13333},
-	{id = "glooth glider gear wheel", chance = 6667},
-	{id = "gold ingot", chance = 6667},
-	{id = "yellow gem", chance = 6667}
+	{id = "small topaz", chance = 6667, maxCount = 3}
 }
 
 mType:register(monster)

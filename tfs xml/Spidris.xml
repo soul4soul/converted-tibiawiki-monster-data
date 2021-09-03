@@ -1,6 +1,7 @@
-﻿<monster name="Spidris" nameDescription="a spidris" experience="2600" speed="390" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Spidris" nameDescription="a spidris" experience="2600" speed="390" manacost="0">
 	<health now="3700" max="3700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="457" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="100" />
 		<element firePercent="15" />
 		<element lifedrainPercent="0" />
@@ -52,19 +54,19 @@
 		<voice sentence="Iiiiieeeeeeh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="platinum coin" chance="45132" countmax="4" />
-		<item id="spidris mandible" chance="14833" />
-		<item id="compound eye" chance="12311" />
-		<item id="small ruby" chance="12153" countmax="5" />
-		<item id="great mana potion" chance="11569" countmax="2" />
-		<item id="ultimate health potion" chance="6226" countmax="2" />
-		<item id="death ring" chance="2566" />
-		<item id="giant shimmering pearl (green)" chance="1665" />
-		<item id="titan axe" chance="892" />
-		<item id="hive scythe" chance="743" />
-		<item id="violet gem" chance="743" />
-		<item id="carapace shield" chance="628" />
-		<item id="calopteryx cape" chance="343" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="platinum coin" chance="45132" countmax="4" />
+		<item name="spidris mandible" chance="14833" />
+		<item name="compound eye" chance="12311" />
+		<item name="small ruby" chance="12153" countmax="5" />
+		<item name="great mana potion" chance="11569" countmax="2" />
+		<item name="ultimate health potion" chance="6226" countmax="2" />
+		<item name="death ring" chance="2566" />
+		<item name="giant shimmering pearl (green)" chance="1665" />
+		<item name="titan axe" chance="892" />
+		<item name="hive scythe" chance="743" />
+		<item name="violet gem" chance="743" />
+		<item name="carapace shield" chance="628" />
+		<item name="calopteryx cape" chance="343" />
 	</loot>
 </monster>

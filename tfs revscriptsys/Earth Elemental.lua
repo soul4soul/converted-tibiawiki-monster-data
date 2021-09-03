@@ -5,7 +5,7 @@ monster.name = "Earth Elemental"
 monster.description = "an earth elemental"
 monster.experience = 450
 monster.outfit = {
-	lookType = 0,
+	lookType = 301,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,25 +90,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 92956, maxCount = 130},
-	{id = "earth arrow", chance = 20143, maxCount = 30},
-	{id = "lump of earth", chance = 19962},
-	{id = "small stone", chance = 10096, maxCount = 10},
+	{id = "earth arrow", chance = 20140, maxCount = 30},
+	{id = "lump of earth", chance = 19963},
+	{id = "small stone", chance = 10099, maxCount = 10},
 	{id = "blank rune", chance = 9788},
 	{id = "heavily rusted armor", chance = 5126},
-	{id = "strong mana potion", chance = 1995},
+	{id = "strong mana potion", chance = 1994},
 	{id = "clay lump", chance = 611},
 	{id = "coal", chance = 484},
-	{id = "small topaz", chance = 472},
-	{id = "gold coin", chance = 32909, maxCount = 130},
-	{id = "lump of earth", chance = 7089},
-	{id = "earth arrow", chance = 7014, maxCount = 30},
-	{id = "blank rune", chance = 3509},
-	{id = "small stone", chance = 3394, maxCount = 10},
-	{id = "heavily rusted armor", chance = 1751},
-	{id = "strong mana potion", chance = 691},
-	{id = "clay lump", chance = 214},
-	{id = "small topaz", chance = 177},
-	{id = "coal", chance = 4}
+	{id = "small topaz", chance = 472}
 }
 
 mType:register(monster)

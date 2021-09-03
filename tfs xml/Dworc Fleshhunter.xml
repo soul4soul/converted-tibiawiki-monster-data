@@ -1,6 +1,7 @@
-﻿<monster name="Dworc Fleshhunter" nameDescription="a dworc fleshhunter" experience="40" speed="148" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dworc Fleshhunter" nameDescription="a dworc fleshhunter" experience="40" speed="148" manacost="0">
 	<health now="85" max="85" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="215" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="-8" />
 		<element lifedrainPercent="0" />
@@ -51,15 +53,15 @@
 		<voice sentence="Prek tars, dekklep zurk." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="74877" countmax="13" />
-		<item id="leather armor" chance="10816" />
-		<item id="cleaver" chance="9000" />
-		<item id="torch" chance="5553" />
-		<item id="skull" chance="3026" countmax="3" />
-		<item id="poison dagger" chance="2060" />
-		<item id="hunting spear" chance="1950" />
-		<item id="bone shield" chance="1036" />
-		<item id="tribal mask" chance="479" />
-		<item id="ripper lance" chance="98" />
+		<item name="gold coin" chance="74878" countmax="13" />
+		<item name="leather armor" chance="10820" />
+		<item name="cleaver" chance="9002" />
+		<item name="torch" chance="5555" />
+		<item name="skull" chance="3026" countmax="3" />
+		<item name="poison dagger" chance="2059" />
+		<item name="hunting spear" chance="1950" />
+		<item name="bone shield" chance="1036" />
+		<item name="tribal mask" chance="481" />
+		<item name="ripper lance" chance="98" />
 	</loot>
 </monster>

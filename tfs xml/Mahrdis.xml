@@ -1,4 +1,5 @@
-﻿<monster name="Mahrdis" nameDescription="" experience="3050" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mahrdis" nameDescription="" experience="3050" speed="0" manacost="0">
 	<health now="3900" max="3900" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="20" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -55,15 +57,15 @@
 		<voice sentence="This is why I'm hot." yell="false" />
 	</voices>
 	<loot>
-		<item id="burning heart" chance="100000" />
-		<item id="gold coin" chance="88725" countmax="230" />
-		<item id="small ruby" chance="12241" countmax="3" />
-		<item id="great health potion" chance="10196" />
-		<item id="life ring" chance="6759" />
-		<item id="fire axe" chance="937" />
-		<item id="red gem" chance="625" />
-		<item id="holy falcon" chance="142" />
-		<item id="mini mummy" chance="114" />
-		<item id="phoenix shield" chance="114" />
+		<item name="burning heart" chance="100000" />
+		<item name="gold coin" chance="88725" countmax="230" />
+		<item name="small ruby" chance="12241" countmax="3" />
+		<item name="great health potion" chance="10196" />
+		<item name="life ring" chance="6759" />
+		<item name="fire axe" chance="937" />
+		<item name="red gem" chance="625" />
+		<item name="holy falcon" chance="142" />
+		<item name="mini mummy" chance="114" />
+		<item name="phoenix shield" chance="114" />
 	</loot>
 </monster>

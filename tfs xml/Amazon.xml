@@ -1,6 +1,7 @@
-﻿<monster name="Amazon" nameDescription="an amazon" experience="60" speed="172" manacost="390">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Amazon" nameDescription="an amazon" experience="60" speed="172" manacost="390">
 	<health now="110" max="110" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="137" head="113" body="120" legs="95" feet="115" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -51,15 +53,15 @@
 		<voice sentence="Yeeee ha!" yell="false" />
 	</voices>
 	<loot>
-		<item id="skull" chance="80087" countmax="2" />
-		<item id="dagger" chance="80013" />
-		<item id="gold coin" chance="40085" countmax="20" />
-		<item id="brown bread" chance="29507" />
-		<item id="sabre" chance="23244" />
-		<item id="girlish hair decoration" chance="9858" />
-		<item id="protective charm" chance="5246" />
-		<item id="torch" chance="1008" />
-		<item id="crystal necklace" chance="244" />
-		<item id="small ruby" chance="134" />
+		<item name="skull" chance="80090" countmax="2" />
+		<item name="dagger" chance="80012" />
+		<item name="gold coin" chance="40083" countmax="20" />
+		<item name="brown bread" chance="29506" />
+		<item name="sabre" chance="23242" />
+		<item name="girlish hair decoration" chance="9864" />
+		<item name="protective charm" chance="5249" />
+		<item name="torch" chance="1007" />
+		<item name="crystal necklace" chance="244" />
+		<item name="small ruby" chance="134" />
 	</loot>
 </monster>

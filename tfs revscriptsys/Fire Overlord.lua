@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,11 +91,7 @@ monster.loot = {
 	{id = "fiery heart", chance = 100000},
 	{id = "gold coin", chance = 71271, maxCount = 75},
 	{id = "platinum coin", chance = 51381, maxCount = 3},
-	{id = "magma coat", chance = 552},
-	{id = "eternal flames", chance = 8840},
-	{id = "fiery heart", chance = 8840},
-	{id = "gold coin", chance = 6077, maxCount = 68},
-	{id = "platinum coin", chance = 3315, maxCount = 3}
+	{id = "magma coat", chance = 552}
 }
 
 mType:register(monster)

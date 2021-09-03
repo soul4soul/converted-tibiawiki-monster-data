@@ -5,7 +5,7 @@ monster.name = "Moohtant"
 monster.description = "a moohtant"
 monster.experience = 2600
 monster.outfit = {
-	lookType = 0,
+	lookType = 607,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,24 +89,24 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "platinum coin", chance = 55619, maxCount = 2},
-	{id = "moohtant horn", chance = 15377, maxCount = 2},
-	{id = "giant pacifier", chance = 11188},
-	{id = "great health potion", chance = 9068, maxCount = 3},
-	{id = "great mana potion", chance = 8580, maxCount = 3},
-	{id = "meat", chance = 7487},
-	{id = "small ruby", chance = 5047, maxCount = 2},
-	{id = "small diamond", chance = 4963, maxCount = 2},
-	{id = "minotaur leather", chance = 4812},
-	{id = "ring of healing", chance = 2557},
-	{id = "red piece of cloth", chance = 2439},
-	{id = "moohtant cudgel", chance = 976},
-	{id = "red gem", chance = 841},
-	{id = "spiked squelcher", chance = 774},
-	{id = "yellow gem", chance = 673},
-	{id = "gold ingot", chance = 488},
-	{id = "chaos mace", chance = 437},
-	{id = "minotaur trophy", chance = 353}
+	{id = "platinum coin", chance = 55298, maxCount = 2},
+	{id = "moohtant horn", chance = 15073, maxCount = 2},
+	{id = "giant pacifier", chance = 11248},
+	{id = "great health potion", chance = 9032, maxCount = 3},
+	{id = "great mana potion", chance = 8652, maxCount = 3},
+	{id = "meat", chance = 7377},
+	{id = "small ruby", chance = 5055, maxCount = 2},
+	{id = "small diamond", chance = 5024, maxCount = 2},
+	{id = "minotaur leather", chance = 4766},
+	{id = "ring of healing", chance = 2505},
+	{id = "red piece of cloth", chance = 2459},
+	{id = "moohtant cudgel", chance = 971},
+	{id = "red gem", chance = 865},
+	{id = "spiked squelcher", chance = 759},
+	{id = "yellow gem", chance = 729},
+	{id = "gold ingot", chance = 486},
+	{id = "chaos mace", chance = 425},
+	{id = "minotaur trophy", chance = 319}
 }
 
 mType:register(monster)

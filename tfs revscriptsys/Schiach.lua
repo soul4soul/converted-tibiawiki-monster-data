@@ -5,12 +5,12 @@ monster.name = "Schiach"
 monster.description = "a schiach"
 monster.experience = 580
 monster.outfit = {
-	lookType = 0,
+	lookType = 1162,
 	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookBody = 10,
+	lookLegs = 38,
+	lookFeet = 57,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,

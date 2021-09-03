@@ -5,7 +5,7 @@ monster.name = "Swampling"
 monster.description = "a swampling"
 monster.experience = 45
 monster.outfit = {
-	lookType = 0,
+	lookType = 535,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,11 +88,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 84946, maxCount = 12},
-	{id = "swampling moss", chance = 19935},
-	{id = "piece of swampling wood", chance = 14907},
-	{id = "white mushroom", chance = 10232},
-	{id = "swampling club", chance = 7425},
+	{id = "gold coin", chance = 84945, maxCount = 12},
+	{id = "swampling moss", chance = 19933},
+	{id = "piece of swampling wood", chance = 14906},
+	{id = "white mushroom", chance = 10233},
+	{id = "swampling club", chance = 7424},
 	{id = "rope", chance = 5085}
 }
 

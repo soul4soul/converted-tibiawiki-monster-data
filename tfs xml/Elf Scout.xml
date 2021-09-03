@@ -1,6 +1,7 @@
-﻿<monster name="Elf Scout" nameDescription="an elf scout" experience="75" speed="220" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Elf Scout" nameDescription="an elf scout" experience="75" speed="220" manacost="0">
 	<health now="160" max="160" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="64" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -53,16 +55,16 @@
 		<voice sentence="Thy blood will quench the soil's thirst!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="75019" countmax="25" />
-		<item id="arrow" chance="30513" countmax="12" />
-		<item id="grapes" chance="17799" />
-		<item id="poison arrow" chance="15126" countmax="4" />
-		<item id="elven scouting glass" chance="10076" />
-		<item id="elvish talisman" chance="5144" />
-		<item id="bow" chance="4053" />
-		<item id="waterskin" chance="1262" />
-		<item id="sandals" chance="1118" />
-		<item id="heaven blossom" chance="1100" />
-		<item id="elvish bow" chance="140" />
+		<item name="gold coin" chance="75040" countmax="25" />
+		<item name="arrow" chance="30573" countmax="12" />
+		<item name="grapes" chance="17817" />
+		<item name="poison arrow" chance="15118" countmax="4" />
+		<item name="elven scouting glass" chance="10061" />
+		<item name="elvish talisman" chance="5134" />
+		<item name="bow" chance="4044" />
+		<item name="waterskin" chance="1255" />
+		<item name="sandals" chance="1121" />
+		<item name="heaven blossom" chance="1098" />
+		<item name="elvish bow" chance="139" />
 	</loot>
 </monster>

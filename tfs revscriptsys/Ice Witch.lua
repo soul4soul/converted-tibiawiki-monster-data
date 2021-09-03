@@ -5,11 +5,11 @@ monster.name = "Ice Witch"
 monster.description = ""
 monster.experience = 580
 monster.outfit = {
-	lookType = 0,
+	lookType = 149,
 	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookBody = 9,
+	lookLegs = 86,
+	lookFeet = 86,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,17 +91,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 29918, maxCount = 90},
-	{id = "ice cube", chance = 10028},
-	{id = "green mushroom", chance = 1293},
-	{id = "clerical mace", chance = 1041},
-	{id = "strong mana potion", chance = 856},
-	{id = "shard", chance = 628},
-	{id = "mystic turban", chance = 423},
-	{id = "crystal sword", chance = 390},
-	{id = "glacier shoes", chance = 314},
-	{id = "diamond sceptre", chance = 309},
-	{id = "pair of earmuffs", chance = 86}
+	{id = "gold coin", chance = 29908, maxCount = 90},
+	{id = "ice cube", chance = 9991},
+	{id = "green mushroom", chance = 1301},
+	{id = "clerical mace", chance = 1045},
+	{id = "strong mana potion", chance = 872},
+	{id = "shard", chance = 634},
+	{id = "mystic turban", chance = 424},
+	{id = "crystal sword", chance = 392},
+	{id = "glacier shoes", chance = 322},
+	{id = "diamond sceptre", chance = 313},
+	{id = "pair of earmuffs", chance = 84}
 }
 
 mType:register(monster)

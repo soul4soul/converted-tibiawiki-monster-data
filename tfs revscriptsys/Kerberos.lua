@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -100,20 +101,7 @@ monster.loot = {
 	{id = "green gem", chance = 45238},
 	{id = "golden armor", chance = 28571},
 	{id = "ruthless axe", chance = 7143},
-	{id = "executioner", chance = 2381},
-	{id = "hellhound slobber", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 12},
-	{id = "flask of demonic blood", chance = 100000},
-	{id = "black pearl", chance = 100000, maxCount = 4},
-	{id = "gold ingot", chance = 100000, maxCount = 3},
-	{id = "great mana potion", chance = 100000, maxCount = 3},
-	{id = "demonic essence", chance = 76190},
-	{id = "knight axe", chance = 71429},
-	{id = "golden armor", chance = 42857},
-	{id = "green gem", chance = 40476},
-	{id = "explorer brooch", chance = 19048},
-	{id = "fire sword", chance = 9524},
-	{id = "ruthless axe", chance = 7143}
+	{id = "executioner", chance = 2381}
 }
 
 mType:register(monster)

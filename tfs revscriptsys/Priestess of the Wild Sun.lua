@@ -5,11 +5,11 @@ monster.name = "Priestess Of The Wild Sun"
 monster.description = "a priestess of the wild sun"
 monster.experience = 6400
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 1199,
+	lookHead = 95,
+	lookBody = 78,
+	lookLegs = 94,
+	lookFeet = 3,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,36 +91,16 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 3},
-	{id = "fafnar symbol", chance = 8828},
-	{id = "secret instruction", chance = 6932},
-	{id = "empty honey glass", chance = 2922},
-	{id = "war axe", chance = 2798},
-	{id = "wand of decay", chance = 2580},
-	{id = "golden sickle", chance = 1958},
-	{id = "relic sword", chance = 1554},
-	{id = "wand of everblazing", chance = 1181},
-	{id = "golden mask", chance = 591},
-	{id = "sea horse figurine", chance = 497},
-	{id = "platinum coin", chance = 100000, maxCount = 2},
-	{id = "fafnar symbol", chance = 12807},
-	{id = "secret instruction", chance = 10911},
-	{id = "empty honey glass", chance = 4196},
-	{id = "war axe", chance = 3202},
-	{id = "wand of decay", chance = 3015},
-	{id = "golden sickle", chance = 2425},
-	{id = "wand of everblazing", chance = 2145},
-	{id = "relic sword", chance = 1927},
-	{id = "golden mask", chance = 1243},
-	{id = "sea horse figurine", chance = 1119},
-	{id = "platinum coin", chance = 4165, maxCount = 2},
-	{id = "fafnar symbol", chance = 404},
-	{id = "secret instruction", chance = 155},
-	{id = "golden sickle", chance = 93},
-	{id = "rapier", chance = 93},
-	{id = "wand of decay", chance = 93},
-	{id = "war axe", chance = 93},
-	{id = "empty honey glass", chance = 62},
-	{id = "glacial rod", chance = 31}
+	{id = "fafnar symbol", chance = 8809},
+	{id = "secret instruction", chance = 6987},
+	{id = "empty honey glass", chance = 2886},
+	{id = "war axe", chance = 2795},
+	{id = "wand of decay", chance = 2521},
+	{id = "golden sickle", chance = 1944},
+	{id = "relic sword", chance = 1549},
+	{id = "wand of everblazing", chance = 1185},
+	{id = "golden mask", chance = 577},
+	{id = "sea horse figurine", chance = 486}
 }
 
 mType:register(monster)

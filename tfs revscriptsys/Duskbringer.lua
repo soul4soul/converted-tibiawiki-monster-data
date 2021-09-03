@@ -5,12 +5,12 @@ monster.name = "Duskbringer"
 monster.description = "a duskbringer"
 monster.experience = 2600
 monster.outfit = {
-	lookType = 0,
+	lookType = 300,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
-	lookAddons = 0,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,

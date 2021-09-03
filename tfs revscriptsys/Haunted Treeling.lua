@@ -5,7 +5,7 @@ monster.name = "Haunted Treeling"
 monster.description = "a haunted treeling"
 monster.experience = 310
 monster.outfit = {
-	lookType = 0,
+	lookType = 310,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,17 +90,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 92138, maxCount = 95},
-	{id = "wooden trash", chance = 29084},
-	{id = "red mushroom", chance = 7800},
-	{id = "health potion", chance = 5063},
-	{id = "white mushroom", chance = 5049, maxCount = 2},
-	{id = "haunted piece of wood", chance = 4978},
-	{id = "orange mushroom", chance = 1790},
-	{id = "strong health potion", chance = 1075},
-	{id = "dwarven ring", chance = 658},
-	{id = "small emerald", chance = 635},
-	{id = "bullseye potion", chance = 95}
+	{id = "gold coin", chance = 92130, maxCount = 95},
+	{id = "wooden trash", chance = 29095},
+	{id = "red mushroom", chance = 7809},
+	{id = "health potion", chance = 5102},
+	{id = "white mushroom", chance = 5041, maxCount = 2},
+	{id = "haunted piece of wood", chance = 4947},
+	{id = "orange mushroom", chance = 1796},
+	{id = "strong health potion", chance = 1076},
+	{id = "dwarven ring", chance = 659},
+	{id = "small emerald", chance = 636},
+	{id = "bullseye potion", chance = 98}
 }
 
 mType:register(monster)

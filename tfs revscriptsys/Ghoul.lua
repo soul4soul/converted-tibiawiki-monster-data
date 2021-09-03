@@ -5,7 +5,7 @@ monster.name = "Ghoul"
 monster.description = "a ghoul"
 monster.experience = 85
 monster.outfit = {
-	lookType = 0,
+	lookType = 18,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,30 +88,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 69868, maxCount = 30},
-	{id = "rotten piece of cloth", chance = 14646},
-	{id = "worm", chance = 9676, maxCount = 2},
-	{id = "torch", chance = 5274},
-	{id = "ghoul snack", chance = 5112},
+	{id = "gold coin", chance = 69853, maxCount = 30},
+	{id = "rotten piece of cloth", chance = 14666},
+	{id = "worm", chance = 9687, maxCount = 2},
+	{id = "torch", chance = 5261},
+	{id = "ghoul snack", chance = 5113},
 	{id = "heavy old tome", chance = 2101},
 	{id = "pile of grave earth", chance = 1021},
-	{id = "brown piece of cloth", chance = 1008},
+	{id = "brown piece of cloth", chance = 1002},
 	{id = "viking helmet", chance = 1002},
-	{id = "scale armor", chance = 976},
-	{id = "skull", chance = 304},
-	{id = "life ring", chance = 181},
-	{id = "gold coin", chance = 100000, maxCount = 30},
-	{id = "rotten piece of cloth", chance = 100000},
-	{id = "worm", chance = 100000, maxCount = 2},
-	{id = "ghoul snack", chance = 82659},
-	{id = "torch", chance = 81761},
-	{id = "scale armor", chance = 16662},
-	{id = "viking helmet", chance = 16533},
-	{id = "brown piece of cloth", chance = 16462},
-	{id = "pile of grave earth", chance = 15945},
-	{id = "skull", chance = 4977},
-	{id = "life ring", chance = 3257, maxCount = 2},
-	{id = "heavy old tome", chance = 3199}
+	{id = "scale armor", chance = 970},
+	{id = "skull", chance = 302},
+	{id = "life ring", chance = 180}
 }
 
 mType:register(monster)

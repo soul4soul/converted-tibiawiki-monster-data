@@ -1,6 +1,7 @@
-﻿<monster name="Fire Devil" nameDescription="a fire devil" experience="145" speed="180" manacost="530">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Fire Devil" nameDescription="a fire devil" experience="145" speed="180" manacost="530">
 	<health now="200" max="200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="40" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="20" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -47,14 +49,14 @@
 		<voice sentence="Hell, oh, hell!" yell="false" />
 	</voices>
 	<loot>
-		<item id="small pitchfork" chance="19472" />
-		<item id="blank rune" chance="11041" />
-		<item id="scimitar" chance="3039" />
-		<item id="torch" chance="1384" countmax="2" />
-		<item id="double axe" chance="1341" />
-		<item id="cleaver" chance="913" />
-		<item id="necrotic rod" chance="464" />
-		<item id="small amethyst" chance="271" />
-		<item id="guardian shield" chance="200" />
+		<item name="small pitchfork" chance="19468" />
+		<item name="blank rune" chance="11050" />
+		<item name="scimitar" chance="3028" />
+		<item name="torch" chance="1383" countmax="2" />
+		<item name="double axe" chance="1355" />
+		<item name="cleaver" chance="915" />
+		<item name="necrotic rod" chance="461" />
+		<item name="small amethyst" chance="270" />
+		<item name="guardian shield" chance="199" />
 	</loot>
 </monster>

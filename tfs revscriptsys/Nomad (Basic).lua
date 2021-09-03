@@ -5,12 +5,12 @@ monster.name = "Nomad"
 monster.description = "a nomad"
 monster.experience = 60
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 146,
+	lookHead = 97,
+	lookBody = 39,
+	lookLegs = 40,
+	lookFeet = 3,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,16 +91,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 56143, maxCount = 40},
-	{id = "rope belt", chance = 6437},
-	{id = "potato", chance = 4776, maxCount = 3},
-	{id = "axe", chance = 2840},
-	{id = "brass armor", chance = 2438},
-	{id = "mace", chance = 2046},
-	{id = "dirty turban", chance = 2036},
-	{id = "steel shield", chance = 949},
-	{id = "iron helmet", chance = 595},
-	{id = "nomad parchment", chance = 210}
+	{id = "gold coin", chance = 56114, maxCount = 40},
+	{id = "rope belt", chance = 6447},
+	{id = "potato", chance = 4782, maxCount = 3},
+	{id = "axe", chance = 2853},
+	{id = "brass armor", chance = 2450},
+	{id = "mace", chance = 2044},
+	{id = "dirty turban", chance = 2027},
+	{id = "steel shield", chance = 951},
+	{id = "iron helmet", chance = 589},
+	{id = "nomad parchment", chance = 206}
 }
 
 mType:register(monster)

@@ -1,4 +1,5 @@
-﻿<monster name="Deadeye Devious" nameDescription="" experience="750" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Deadeye Devious" nameDescription="" experience="750" speed="0" manacost="0">
 	<health now="1450" max="1450" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -52,17 +54,17 @@
 		<voice sentence="You won't get me alive!" yell="false" />
 	</voices>
 	<loot>
-		<item id="deadeye devious' eye patch" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="121" />
-		<item id="plate armor" chance="81250" />
-		<item id="skull" chance="81250" countmax="2" />
-		<item id="meat" chance="43750" />
-		<item id="dagger" chance="25000" />
-		<item id="knight armor" chance="25000" />
-		<item id="small diamond" chance="18750" />
-		<item id="double axe" chance="6250" />
-		<item id="great health potion" chance="6250" />
-		<item id="pirate backpack" chance="6250" />
-		<item id="very old piece of paper" chance="6250" />
+		<item name="deadeye devious' eye patch" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="121" />
+		<item name="plate armor" chance="81250" />
+		<item name="skull" chance="81250" countmax="2" />
+		<item name="meat" chance="43750" />
+		<item name="dagger" chance="25000" />
+		<item name="knight armor" chance="25000" />
+		<item name="small diamond" chance="18750" />
+		<item name="double axe" chance="6250" />
+		<item name="great health potion" chance="6250" />
+		<item name="pirate backpack" chance="6250" />
+		<item name="very old piece of paper" chance="6250" />
 	</loot>
 </monster>

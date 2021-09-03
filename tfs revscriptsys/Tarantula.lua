@@ -5,7 +5,7 @@ monster.name = "Tarantula"
 monster.description = "a tarantula"
 monster.experience = 120
 monster.outfit = {
-	lookType = 0,
+	lookType = 219,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,20 +88,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 79125, maxCount = 40},
-	{id = "tarantula egg", chance = 9942},
-	{id = "spider fangs", chance = 4801},
-	{id = "brass legs", chance = 3002},
+	{id = "gold coin", chance = 79127, maxCount = 40},
+	{id = "tarantula egg", chance = 9939},
+	{id = "spider fangs", chance = 4800},
+	{id = "brass legs", chance = 3003},
 	{id = "plate shield", chance = 1970},
-	{id = "steel helmet", chance = 923},
-	{id = "time ring", chance = 116},
-	{id = "gold coin", chance = 25072, maxCount = 40},
-	{id = "tarantula egg", chance = 3305},
-	{id = "brass legs", chance = 894},
-	{id = "plate shield", chance = 626},
-	{id = "steel helmet", chance = 308},
-	{id = "time ring", chance = 50},
-	{id = "spider fangs", chance = 14}
+	{id = "steel helmet", chance = 921},
+	{id = "time ring", chance = 116}
 }
 
 mType:register(monster)

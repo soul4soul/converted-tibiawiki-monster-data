@@ -1,4 +1,5 @@
-﻿<monster name="Tyrn" nameDescription="" experience="6900" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tyrn" nameDescription="" experience="6900" speed="0" manacost="0">
 	<health now="12000" max="12000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -49,37 +51,18 @@
 		<voice sentence="GRROARR" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="50" />
-		<item id="platinum coin" chance="100000" countmax="8" />
-		<item id="wyrm scale" chance="100000" />
-		<item id="dragon ham" chance="66667" />
-		<item id="strong mana potion" chance="66667" countmax="5" />
-		<item id="sudden death rune" chance="66667" countmax="5" />
-		<item id="assassin star" chance="33333" countmax="5" />
-		<item id="silver raid token" chance="33333" />
-		<item id="small emerald" chance="33333" countmax="5" />
-		<item id="small ruby" chance="33333" countmax="5" />
-		<item id="small topaz" chance="33333" countmax="5" />
-		<item id="strong health potion" chance="33333" countmax="5" />
-		<item id="yellow gem" chance="33333" />
-		<item id="gold coin" chance="100000" countmax="50" />
-		<item id="platinum coin" chance="100000" countmax="8" />
-		<item id="dragon ham" chance="100000" />
-		<item id="assassin star" chance="100000" countmax="5" />
-		<item id="strong health potion" chance="100000" countmax="5" />
-		<item id="strong mana potion" chance="100000" countmax="5" />
-		<item id="sudden death rune" chance="100000" countmax="5" />
-		<item id="wyrm scale" chance="100000" />
-		<item id="red gem" chance="100000" />
-		<item id="small diamond" chance="100000" countmax="5" />
-		<item id="small sapphire" chance="100000" countmax="5" />
-		<item id="lightning headband" chance="66667" />
-		<item id="small emerald" chance="66667" countmax="5" />
-		<item id="small topaz" chance="66667" countmax="5" />
-		<item id="yellow gem" chance="66667" />
-		<item id="lightning robe" chance="33333" />
-		<item id="silver raid token" chance="33333" />
-		<item id="small ruby" chance="33333" countmax="5" />
-		<item id="wand of starstorm" chance="33333" />
+		<item name="gold coin" chance="100000" countmax="50" />
+		<item name="platinum coin" chance="100000" countmax="8" />
+		<item name="wyrm scale" chance="100000" />
+		<item name="dragon ham" chance="66667" />
+		<item name="strong mana potion" chance="66667" countmax="5" />
+		<item name="sudden death rune" chance="66667" countmax="5" />
+		<item name="assassin star" chance="33333" countmax="5" />
+		<item name="silver raid token" chance="33333" />
+		<item name="small emerald" chance="33333" countmax="5" />
+		<item name="small ruby" chance="33333" countmax="5" />
+		<item name="small topaz" chance="33333" countmax="5" />
+		<item name="strong health potion" chance="33333" countmax="5" />
+		<item name="yellow gem" chance="33333" />
 	</loot>
 </monster>

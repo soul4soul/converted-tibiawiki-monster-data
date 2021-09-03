@@ -1,6 +1,7 @@
-﻿<monster name="Lamassu" nameDescription="a lamassu" experience="9000" speed="320" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lamassu" nameDescription="a lamassu" experience="9000" speed="320" manacost="0">
 	<health now="8700" max="8700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1190" head="50" body="2" legs="0" feet="76" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,30 +45,25 @@
 	</attacks>
 	<defenses armor="82" defense="82" />
 	<loot>
-		<item id="platinum coin" chance="100000" />
-		<item id="lamassu horn" chance="13838" />
-		<item id="red gem" chance="13701" countmax="2" />
-		<item id="red crystal fragment" chance="10566" />
-		<item id="blue crystal shard" chance="10429" countmax="2" />
-		<item id="violet crystal shard" chance="8998" countmax="2" />
-		<item id="terra amulet" chance="7771" />
-		<item id="lamassu hoof" chance="7362" />
-		<item id="terra hood" chance="6885" />
-		<item id="small emerald" chance="4908" />
-		<item id="opal" chance="4567" />
-		<item id="onyx chip" chance="3272" />
-		<item id="rainbow quartz" chance="2931" countmax="2" />
-		<item id="green crystal splinter" chance="2386" />
-		<item id="elven amulet" chance="1977" />
-		<item id="green crystal fragment" chance="1977" />
-		<item id="sacred tree amulet" chance="1840" />
-		<item id="violet gem" chance="1840" />
-		<item id="blue gem" chance="1500" />
-		<item id="green crystal shard" chance="750" />
-		<item id="platinum coin" chance="204" />
-		<item id="lamassu hoof" chance="68" />
-		<item id="lamassu horn" chance="68" />
-		<item id="terra amulet" chance="68" />
-		<item id="violet crystal shard" chance="68" />
+		<item name="platinum coin" chance="100000" />
+		<item name="lamassu horn" chance="13932" />
+		<item name="red gem" chance="13798" countmax="2" />
+		<item name="red crystal fragment" chance="10516" />
+		<item name="blue crystal shard" chance="10248" countmax="2" />
+		<item name="violet crystal shard" chance="9042" countmax="2" />
+		<item name="terra amulet" chance="7837" />
+		<item name="lamassu hoof" chance="7368" />
+		<item name="terra hood" chance="6765" />
+		<item name="small emerald" chance="4956" />
+		<item name="opal" chance="4689" />
+		<item name="onyx chip" chance="3349" />
+		<item name="rainbow quartz" chance="2947" countmax="2" />
+		<item name="green crystal splinter" chance="2344" />
+		<item name="green crystal fragment" chance="2009" />
+		<item name="elven amulet" chance="1942" />
+		<item name="sacred tree amulet" chance="1942" />
+		<item name="violet gem" chance="1808" />
+		<item name="blue gem" chance="1541" />
+		<item name="green crystal shard" chance="737" />
 	</loot>
 </monster>

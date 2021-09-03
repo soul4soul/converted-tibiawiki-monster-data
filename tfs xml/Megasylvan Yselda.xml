@@ -1,4 +1,5 @@
-﻿<monster name="Megasylvan Yselda" nameDescription="" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Megasylvan Yselda" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="85" />
-		<element EnergyPercent="80" />
+		<element energyPercent="80" />
 		<element earthPercent="90" />
 		<element firePercent="60" />
 		<element lifedrainPercent="0" />
@@ -43,28 +45,29 @@
 		<voice sentence="What are you... doing!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="potato" chance="100000" countmax="3" />
-		<item id="ultimate mana potion" chance="69231" countmax="20" />
-		<item id="supreme health potion" chance="52308" countmax="22" />
-		<item id="ultimate spirit potion" chance="32308" countmax="6" />
-		<item id="berserk potion" chance="30769" countmax="9" />
-		<item id="bar of gold" chance="18462" />
-		<item id="violet gem" chance="16923" />
-		<item id="yellow gem" chance="16923" />
-		<item id="blue gem" chance="15385" />
-		<item id="mastermind potion" chance="15385" countmax="11" />
-		<item id="green gem" chance="13846" />
-		<item id="red gem" chance="13846" />
-		<item id="bullseye potion" chance="9231" countmax="10" />
-		<item id="curl of hair" chance="6154" />
-		<item id="crystal coin" chance="4615" countmax="3" />
-		<item id="giant emerald" chance="4615" />
-		<item id="giant topaz" chance="3077" />
-		<item id="terra amulet" chance="3077" />
-		<item id="terra legs" chance="3077" />
-		<item id="megasylvan sapling" chance="1538" />
-		<item id="terra mantle" chance="1538" />
-		<item id="terra rod" chance="1538" />
+		<item name="platinum coin" chance="100000" countmax="5" />
+		<item name="potato" chance="100000" countmax="3" />
+		<item name="ultimate mana potion" chance="63636" countmax="20" />
+		<item name="supreme health potion" chance="51136" countmax="22" />
+		<item name="ultimate spirit potion" chance="36364" countmax="6" />
+		<item name="berserk potion" chance="26136" countmax="9" />
+		<item name="mastermind potion" chance="18182" countmax="11" />
+		<item name="violet gem" chance="18182" />
+		<item name="green gem" chance="15909" />
+		<item name="yellow gem" chance="15909" />
+		<item name="red gem" chance="14773" countmax="2" />
+		<item name="bar of gold" chance="13636" />
+		<item name="blue gem" chance="13636" />
+		<item name="bullseye potion" chance="10227" countmax="10" />
+		<item name="crystal coin" chance="6818" countmax="3" />
+		<item name="curl of hair" chance="5682" />
+		<item name="old royal diary" chance="5682" />
+		<item name="giant emerald" chance="3409" />
+		<item name="giant topaz" chance="3409" />
+		<item name="terra amulet" chance="2273" />
+		<item name="terra legs" chance="2273" />
+		<item name="megasylvan sapling" chance="1136" />
+		<item name="terra mantle" chance="1136" />
+		<item name="terra rod" chance="1136" />
 	</loot>
 </monster>

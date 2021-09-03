@@ -5,7 +5,7 @@ monster.name = "Toad"
 monster.description = "a toad"
 monster.experience = 60
 monster.outfit = {
-	lookType = 0,
+	lookType = 222,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,11 +90,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 82249, maxCount = 20},
-	{id = "fish", chance = 19454},
-	{id = "poisonous slime", chance = 5024},
-	{id = "mace", chance = 2906},
-	{id = "war hammer", chance = 136}
+	{id = "gold coin", chance = 82224, maxCount = 20},
+	{id = "fish", chance = 19471},
+	{id = "poisonous slime", chance = 5031},
+	{id = "mace", chance = 2916},
+	{id = "war hammer", chance = 142}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Wilting Leaf Golem" nameDescription="a wilting leaf golem" experience="145" speed="148" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Wilting Leaf Golem" nameDescription="a wilting leaf golem" experience="145" speed="148" manacost="0">
 	<health now="380" max="380" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="573" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="40" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -47,11 +49,11 @@
 		<voice sentence="*swwwwishhhh*" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="97541" countmax="45" />
-		<item id="fir cone" chance="14961" />
-		<item id="dowser" chance="11917" />
-		<item id="white mushroom" chance="5025" countmax="3" />
-		<item id="swampling club" chance="4884" />
-		<item id="small emerald" chance="1042" />
+		<item name="gold coin" chance="97541" countmax="45" />
+		<item name="fir cone" chance="14961" />
+		<item name="dowser" chance="11917" />
+		<item name="white mushroom" chance="5025" countmax="3" />
+		<item name="swampling club" chance="4884" />
+		<item name="small emerald" chance="1042" />
 	</loot>
 </monster>

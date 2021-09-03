@@ -5,7 +5,7 @@ monster.name = "Lizard Sentinel"
 monster.description = "a lizard sentinel"
 monster.experience = 110
 monster.outfit = {
-	lookType = 0,
+	lookType = 114,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -98,19 +99,7 @@ monster.loot = {
 	{id = "obsidian lance", chance = 1327},
 	{id = "health potion", chance = 1205},
 	{id = "sentinel shield", chance = 368},
-	{id = "small diamond", chance = 89},
-	{id = "gold coin", chance = 66135, maxCount = 80},
-	{id = "spear", chance = 6603, maxCount = 3},
-	{id = "chain armor", chance = 6280},
-	{id = "scale armor", chance = 5722},
-	{id = "hunting spear", chance = 3525},
-	{id = "obsidian lance", chance = 848},
-	{id = "lizard leather", chance = 747},
-	{id = "lizard scale", chance = 747},
-	{id = "health potion", chance = 446},
-	{id = "halberd", chance = 379},
-	{id = "sentinel shield", chance = 245},
-	{id = "small diamond", chance = 145}
+	{id = "small diamond", chance = 89}
 }
 
 mType:register(monster)

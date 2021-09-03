@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,12 +93,7 @@ monster.loot = {
 	{id = "earth arrow", chance = 25000, maxCount = 14},
 	{id = "goanna hide with sun symbol", chance = 25000},
 	{id = "terra hood", chance = 25000},
-	{id = "terra rod", chance = 25000},
-	{id = "goanna hide with sun symbol", chance = 50000},
-	{id = "platinum coin", chance = 50000},
-	{id = "envenomed arrow", chance = 25000},
-	{id = "poison dagger", chance = 25000},
-	{id = "scared frog", chance = 25000}
+	{id = "terra rod", chance = 25000}
 }
 
 mType:register(monster)

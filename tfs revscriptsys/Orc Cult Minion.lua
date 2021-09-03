@@ -5,7 +5,7 @@ monster.name = "Orc Cult Minion"
 monster.description = "an orc cult minion"
 monster.experience = 850
 monster.outfit = {
-	lookType = 0,
+	lookType = 50,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,13 +89,13 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 195},
-	{id = "cultish robe", chance = 20257},
-	{id = "strong health potion", chance = 16438},
-	{id = "small topaz", chance = 13902, maxCount = 3},
-	{id = "orcish axe", chance = 8249},
-	{id = "red mushroom", chance = 7608, maxCount = 3},
-	{id = "meat", chance = 5286},
-	{id = "berserk potion", chance = 1039, maxCount = 2}
+	{id = "cultish robe", chance = 20387},
+	{id = "strong health potion", chance = 16344},
+	{id = "small topaz", chance = 13683, maxCount = 3},
+	{id = "orcish axe", chance = 8361},
+	{id = "red mushroom", chance = 8059, maxCount = 3},
+	{id = "meat", chance = 5247},
+	{id = "berserk potion", chance = 1155, maxCount = 2}
 }
 
 mType:register(monster)

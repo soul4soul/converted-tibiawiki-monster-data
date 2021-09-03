@@ -1,4 +1,5 @@
-﻿<monster name="Mazzinor" nameDescription="" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mazzinor" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="5" />
+		<element energyPercent="5" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,26 +42,26 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="crystal coin" chance="100000" countmax="12" />
-		<item id="demon horn" chance="100000" />
-		<item id="dreaded cleaver" chance="100000" />
-		<item id="gold token" chance="100000" countmax="4" />
-		<item id="platinum coin" chance="100000" countmax="39" />
-		<item id="small diamond" chance="100000" countmax="12" />
-		<item id="stone skin amulet" chance="100000" />
-		<item id="supreme health potion" chance="100000" countmax="4" />
-		<item id="wand of starstorm" chance="100000" />
-		<item id="berserk potion" chance="50000" />
-		<item id="bullseye potion" chance="50000" />
-		<item id="epaulette" chance="50000" />
-		<item id="frozen lightning" chance="50000" />
-		<item id="giant shimmering pearl" chance="50000" />
-		<item id="green gem" chance="50000" />
-		<item id="knowledgeable book" chance="50000" />
-		<item id="lightning boots" chance="50000" />
-		<item id="ominous book" chance="50000" />
-		<item id="onyx chip" chance="50000" countmax="12" />
-		<item id="ultimate mana potion" chance="50000" countmax="8" />
-		<item id="ultimate spirit potion" chance="50000" countmax="8" />
+		<item name="crystal coin" chance="100000" countmax="12" />
+		<item name="demon horn" chance="100000" />
+		<item name="dreaded cleaver" chance="100000" />
+		<item name="gold token" chance="100000" countmax="4" />
+		<item name="platinum coin" chance="100000" countmax="39" />
+		<item name="small diamond" chance="100000" countmax="12" />
+		<item name="stone skin amulet" chance="100000" />
+		<item name="supreme health potion" chance="100000" countmax="4" />
+		<item name="wand of starstorm" chance="100000" />
+		<item name="berserk potion" chance="50000" />
+		<item name="bullseye potion" chance="50000" />
+		<item name="epaulette" chance="50000" />
+		<item name="frozen lightning" chance="50000" />
+		<item name="giant shimmering pearl" chance="50000" />
+		<item name="green gem" chance="50000" />
+		<item name="knowledgeable book" chance="50000" />
+		<item name="lightning boots" chance="50000" />
+		<item name="ominous book" chance="50000" />
+		<item name="onyx chip" chance="50000" countmax="12" />
+		<item name="ultimate mana potion" chance="50000" countmax="8" />
+		<item name="ultimate spirit potion" chance="50000" countmax="8" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Quara Constrictor Scout"
 monster.description = "a quara constrictor scout"
 monster.experience = 200
 monster.outfit = {
-	lookType = 0,
+	lookType = 46,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -96,19 +97,7 @@ monster.loot = {
 	{id = "longsword", chance = 8053},
 	{id = "brass armor", chance = 5070},
 	{id = "small amethyst", chance = 4000},
-	{id = "fish fin", chance = 508},
-	{id = "gold coin", chance = 568, maxCount = 40},
-	{id = "quara tentacle", chance = 137},
-	{id = "longsword", chance = 79},
-	{id = "brass armor", chance = 21},
-	{id = "small amethyst", chance = 8},
-	{id = "fish fin", chance = 6},
-	{id = "gold coin", chance = 3682, maxCount = 40},
-	{id = "quara tentacle", chance = 493},
-	{id = "longsword", chance = 400},
-	{id = "brass armor", chance = 137},
-	{id = "fish fin", chance = 41},
-	{id = "small amethyst", chance = 19}
+	{id = "fish fin", chance = 508}
 }
 
 mType:register(monster)

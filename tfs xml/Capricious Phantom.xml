@@ -1,4 +1,5 @@
-﻿<monster name="Capricious Phantom" nameDescription="a capricious phantom" experience="19360" speed="480" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Capricious Phantom" nameDescription="a capricious phantom" experience="19360" speed="480" manacost="0">
 	<health now="30000" max="30000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="50" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -46,19 +48,19 @@
 		<voice sentence="You will leak blood." yell="false" />
 	</voices>
 	<loot>
-		<item id="Crystal Coin" chance="35000" />
-		<item id="Great Spirit Potion" chance="35000" />
-		<item id="Blue Gem" chance="15000" />
-		<item id="Gold Ingot" chance="15000" />
-		<item id="Violet Gem" chance="2500" />
-		<item id="Wood Cape" chance="2500" />
-		<item id="Ring of Blue Plasma" chance="2500" />
-		<item id="Capricious Heart" chance="2500" />
-		<item id="Capricious Robe" chance="2500" />
-		<item id="Ornate Crossbow" chance="7500" />
-		<item id="Glacial Rod" chance="7500" />
-		<item id="Fur Armor" chance="7500" />
-		<item id="Collar of Blue Plasma" chance="7500" />
-		<item id="Bag You Desire" chance="4000" />
+		<item name="Crystal Coin" chance="35000" />
+		<item name="Great Spirit Potion" chance="35000" />
+		<item name="Blue Gem" chance="15000" />
+		<item name="Gold Ingot" chance="15000" />
+		<item name="Violet Gem" chance="2500" />
+		<item name="Wood Cape" chance="2500" />
+		<item name="Ring of Blue Plasma" chance="2500" />
+		<item name="Capricious Heart" chance="2500" />
+		<item name="Capricious Robe" chance="2500" />
+		<item name="Ornate Crossbow" chance="7500" />
+		<item name="Glacial Rod" chance="7500" />
+		<item name="Fur Armor" chance="7500" />
+		<item name="Collar of Blue Plasma" chance="7500" />
+		<item name="Bag You Desire" chance="4000" />
 	</loot>
 </monster>

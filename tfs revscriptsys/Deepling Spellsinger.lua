@@ -5,7 +5,7 @@ monster.name = "Deepling Spellsinger"
 monster.description = "a deepling spellsinger"
 monster.experience = 1000
 monster.outfit = {
-	lookType = 0,
+	lookType = 443,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,19 +89,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 80122},
-	{id = "gold coin", chance = 75111, maxCount = 60},
-	{id = "spellsinger's seal", chance = 15177},
+	{id = "platinum coin", chance = 80098},
+	{id = "gold coin", chance = 75108, maxCount = 60},
+	{id = "spellsinger's seal", chance = 15186},
 	{id = "deepling filet", chance = 14958},
-	{id = "key to the drowned library", chance = 10772},
-	{id = "fish", chance = 3516},
-	{id = "small sapphire", chance = 2931},
-	{id = "eye of a deepling", chance = 2538},
-	{id = "life ring", chance = 2450},
-	{id = "deepling staff", chance = 2022},
-	{id = "necklace of the deep", chance = 785},
-	{id = "fish fin", chance = 513},
-	{id = "ornate crossbow", chance = 207}
+	{id = "key to the drowned library", chance = 10755},
+	{id = "fish", chance = 3524},
+	{id = "small sapphire", chance = 2936},
+	{id = "eye of a deepling", chance = 2534},
+	{id = "life ring", chance = 2447},
+	{id = "deepling staff", chance = 2020},
+	{id = "necklace of the deep", chance = 786},
+	{id = "fish fin", chance = 511},
+	{id = "ornate crossbow", chance = 208}
 }
 
 mType:register(monster)

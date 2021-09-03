@@ -5,7 +5,7 @@ monster.name = "Carrion Worm"
 monster.description = "a carrion worm"
 monster.experience = 70
 monster.outfit = {
-	lookType = 0,
+	lookType = 192,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,11 +91,7 @@ monster.loot = {
 	{id = "carrion worm fang", chance = 10005},
 	{id = "meat", chance = 9619},
 	{id = "worm", chance = 2024, maxCount = 2},
-	{id = "coal", chance = 231},
-	{id = "gold coin", chance = 13192, maxCount = 45},
-	{id = "meat", chance = 2448},
-	{id = "carrion worm fang", chance = 2360},
-	{id = "worm", chance = 399, maxCount = 2}
+	{id = "coal", chance = 231}
 }
 
 mType:register(monster)

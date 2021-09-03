@@ -1,6 +1,7 @@
-﻿<monster name="Blood Beast" nameDescription="a blood beast" experience="1000" speed="220" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Blood Beast" nameDescription="a blood beast" experience="1000" speed="220" manacost="0">
 	<health now="1600" max="1600" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="602" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -48,17 +50,17 @@
 		<voice sentence="Roarr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="150" />
-		<item id="slime heart" chance="19173" />
-		<item id="poisoned fang" chance="16765" />
-		<item id="viper star" chance="7992" countmax="5" />
-		<item id="strong health potion" chance="7404" />
-		<item id="poisonous slime" chance="4938" />
-		<item id="glooth steak" chance="3537" />
-		<item id="glooth axe" chance="951" />
-		<item id="glooth amulet" chance="870" />
-		<item id="glooth club" chance="822" />
-		<item id="glooth spear" chance="814" />
-		<item id="glooth blade" chance="773" />
+		<item name="gold coin" chance="100000" countmax="150" />
+		<item name="slime heart" chance="19182" />
+		<item name="poisoned fang" chance="16764" />
+		<item name="viper star" chance="8001" countmax="5" />
+		<item name="strong health potion" chance="7414" />
+		<item name="poisonous slime" chance="4932" />
+		<item name="glooth steak" chance="3534" />
+		<item name="glooth axe" chance="956" />
+		<item name="glooth amulet" chance="884" />
+		<item name="glooth club" chance="819" />
+		<item name="glooth spear" chance="811" />
+		<item name="glooth blade" chance="771" />
 	</loot>
 </monster>

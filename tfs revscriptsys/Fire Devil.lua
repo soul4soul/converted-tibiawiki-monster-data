@@ -5,7 +5,7 @@ monster.name = "Fire Devil"
 monster.description = "a fire devil"
 monster.experience = 145
 monster.outfit = {
-	lookType = 0,
+	lookType = 40,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,15 +89,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "small pitchfork", chance = 19472},
-	{id = "blank rune", chance = 11041},
-	{id = "scimitar", chance = 3039},
-	{id = "torch", chance = 1384, maxCount = 2},
-	{id = "double axe", chance = 1341},
-	{id = "cleaver", chance = 913},
-	{id = "necrotic rod", chance = 464},
-	{id = "small amethyst", chance = 271},
-	{id = "guardian shield", chance = 200}
+	{id = "small pitchfork", chance = 19468},
+	{id = "blank rune", chance = 11050},
+	{id = "scimitar", chance = 3028},
+	{id = "torch", chance = 1383, maxCount = 2},
+	{id = "double axe", chance = 1355},
+	{id = "cleaver", chance = 915},
+	{id = "necrotic rod", chance = 461},
+	{id = "small amethyst", chance = 270},
+	{id = "guardian shield", chance = 199}
 }
 
 mType:register(monster)

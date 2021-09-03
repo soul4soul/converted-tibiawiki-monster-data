@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,15 +87,7 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 16},
-	{id = "spear", chance = 62500},
-	{id = "gold coin", chance = 100000, maxCount = 17},
-	{id = "spear", chance = 100000},
-	{id = "corncob", chance = 37500, maxCount = 2},
-	{id = "orc tooth", chance = 37500},
-	{id = "studded legs", chance = 37500},
-	{id = "broken shamanic staff", chance = 12500},
-	{id = "shamanic hood", chance = 12500},
-	{id = "studded armor", chance = 12500}
+	{id = "spear", chance = 62500}
 }
 
 mType:register(monster)

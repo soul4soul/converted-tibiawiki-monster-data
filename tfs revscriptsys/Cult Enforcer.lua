@@ -5,12 +5,12 @@ monster.name = "Cult Enforcer"
 monster.description = "a cult enforcer"
 monster.experience = 1000
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 134,
+	lookHead = 95,
+	lookBody = 19,
+	lookLegs = 57,
+	lookFeet = 76,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,17 +90,17 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 70},
-	{id = "meat", chance = 11008},
-	{id = "great health potion", chance = 6397},
-	{id = "cultish robe", chance = 4947},
-	{id = "halberd", chance = 2979},
-	{id = "small diamond", chance = 2797},
-	{id = "small emerald", chance = 2771},
-	{id = "small amethyst", chance = 2098},
-	{id = "war hammer", chance = 725},
-	{id = "might ring", chance = 596},
-	{id = "scarf", chance = 492},
-	{id = "guardian shield", chance = 414},
+	{id = "meat", chance = 11051},
+	{id = "great health potion", chance = 6403},
+	{id = "cultish robe", chance = 4932},
+	{id = "halberd", chance = 2969},
+	{id = "small diamond", chance = 2789},
+	{id = "small emerald", chance = 2763},
+	{id = "small amethyst", chance = 2091},
+	{id = "war hammer", chance = 723},
+	{id = "might ring", chance = 594},
+	{id = "scarf", chance = 491},
+	{id = "guardian shield", chance = 413},
 	{id = "knight legs", chance = 181},
 	{id = "warrior helmet", chance = 181},
 	{id = "piggy bank", chance = 52}

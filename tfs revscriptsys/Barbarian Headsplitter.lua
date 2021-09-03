@@ -5,11 +5,11 @@ monster.name = "Barbarian Headsplitter"
 monster.description = "a barbarian headsplitter"
 monster.experience = 85
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 253,
+	lookHead = 115,
+	lookBody = 86,
+	lookLegs = 119,
+	lookFeet = 113,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,15 +91,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 75195, maxCount = 30},
-	{id = "torch", chance = 59838},
-	{id = "brass helmet", chance = 20182},
-	{id = "knife", chance = 14921},
-	{id = "viking helmet", chance = 4964},
-	{id = "scale armor", chance = 4047},
-	{id = "skull", chance = 3190},
-	{id = "brown piece of cloth", chance = 968},
-	{id = "health potion", chance = 532},
+	{id = "gold coin", chance = 75193, maxCount = 30},
+	{id = "torch", chance = 59834},
+	{id = "brass helmet", chance = 20189},
+	{id = "knife", chance = 14934},
+	{id = "viking helmet", chance = 4966},
+	{id = "scale armor", chance = 4050},
+	{id = "skull", chance = 3188},
+	{id = "brown piece of cloth", chance = 971},
+	{id = "health potion", chance = 531},
 	{id = "life ring", chance = 220},
 	{id = "krimhorn helmet", chance = 114},
 	{id = "fur boots", chance = 88}

@@ -1,6 +1,7 @@
-﻿<monster name="Cyclops Smith" nameDescription="a cyclops smith" experience="255" speed="204" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Cyclops Smith" nameDescription="a cyclops smith" experience="255" speed="204" manacost="0">
 	<health now="435" max="435" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="277" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -48,19 +50,19 @@
 		<voice sentence="Ai humy phary ty kaynon" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="82755" countmax="70" />
-		<item id="meat" chance="50302" />
-		<item id="cyclops toe" chance="9998" />
-		<item id="battle shield" chance="6213" />
-		<item id="battle axe" chance="5159" />
-		<item id="battle hammer" chance="5123" />
-		<item id="plate shield" chance="2088" />
-		<item id="heavy machete" chance="2062" />
-		<item id="double axe" chance="966" />
-		<item id="strong health potion" chance="516" />
-		<item id="dark helmet" chance="196" />
-		<item id="spiked squelcher" chance="134" />
-		<item id="cyclops trophy" chance="124" />
-		<item id="club ring" chance="88" />
+		<item name="gold coin" chance="82755" countmax="70" />
+		<item name="meat" chance="50302" />
+		<item name="cyclops toe" chance="9998" />
+		<item name="battle shield" chance="6213" />
+		<item name="battle axe" chance="5159" />
+		<item name="battle hammer" chance="5123" />
+		<item name="plate shield" chance="2088" />
+		<item name="heavy machete" chance="2062" />
+		<item name="double axe" chance="966" />
+		<item name="strong health potion" chance="516" />
+		<item name="dark helmet" chance="196" />
+		<item name="spiked squelcher" chance="134" />
+		<item name="cyclops trophy" chance="124" />
+		<item name="club ring" chance="88" />
 	</loot>
 </monster>

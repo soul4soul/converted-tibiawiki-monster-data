@@ -1,6 +1,7 @@
-﻿<monster name="Squid Warden" nameDescription="a squid warden" experience="15300" speed="430" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Squid Warden" nameDescription="a squid warden" experience="15300" speed="430" manacost="0">
 	<health now="16500" max="16500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1059" head="9" body="21" legs="3" feet="57" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
@@ -55,32 +57,26 @@
 	</attacks>
 	<defenses armor="78" defense="78" />
 	<loot>
-		<item id="small sapphire" chance="67934" countmax="3" />
-		<item id="platinum coin" chance="50186" countmax="50" />
-		<item id="glowing rune" chance="35433" countmax="6" />
-		<item id="frosty heart" chance="22975" />
-		<item id="ultimate mana potion" chance="17251" />
-		<item id="inkwell (black)" chance="15653" />
-		<item id="ultimate health potion" chance="15157" />
-		<item id="ice cube" chance="13900" />
-		<item id="glacier mask" chance="7571" />
-		<item id="ice rapier" chance="5259" />
-		<item id="crystal mace" chance="4856" />
-		<item id="slime heart" chance="4421" />
-		<item id="crystal sword" chance="4328" />
-		<item id="piece of dead brain" chance="4065" />
-		<item id="diamond sceptre" chance="3909" />
-		<item id="glacier kilt" chance="2746" />
-		<item id="glacier robe" chance="2296" />
-		<item id="sapphire hammer" chance="760" />
-		<item id="crystalline armor" chance="745" />
-		<item id="glacial rod" chance="683" />
-		<item id="leviathan's amulet" chance="295" />
-		<item id="small sapphire" chance="47" countmax="5" />
-		<item id="frosty heart" chance="31" />
-		<item id="crystal sword" chance="16" />
-		<item id="ice cube" chance="16" />
-		<item id="platinum coin" chance="16" countmax="35" />
-		<item id="shard" chance="16" />
+		<item name="small sapphire" chance="67921" countmax="3" />
+		<item name="platinum coin" chance="50194" countmax="50" />
+		<item name="glowing rune" chance="35470" countmax="6" />
+		<item name="frosty heart" chance="22976" />
+		<item name="ultimate mana potion" chance="17263" />
+		<item name="inkwell (black)" chance="15653" />
+		<item name="ultimate health potion" chance="15173" />
+		<item name="ice cube" chance="13888" />
+		<item name="glacier mask" chance="7602" />
+		<item name="ice rapier" chance="5248" />
+		<item name="crystal mace" chance="4846" />
+		<item name="slime heart" chance="4412" />
+		<item name="crystal sword" chance="4320" />
+		<item name="piece of dead brain" chance="4056" />
+		<item name="diamond sceptre" chance="3917" />
+		<item name="glacier kilt" chance="2740" />
+		<item name="glacier robe" chance="2291" />
+		<item name="sapphire hammer" chance="759" />
+		<item name="crystalline armor" chance="743" />
+		<item name="glacial rod" chance="681" />
+		<item name="leviathan's amulet" chance="294" />
 	</loot>
 </monster>

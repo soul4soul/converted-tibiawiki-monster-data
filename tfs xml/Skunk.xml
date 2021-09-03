@@ -1,6 +1,7 @@
-﻿<monster name="Skunk" nameDescription="a skunk" experience="3" speed="136" manacost="200">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Skunk" nameDescription="a skunk" experience="3" speed="136" manacost="200">
 	<health now="20" max="20" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="106" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -45,7 +47,7 @@
 		<defense name="healing" interval="2000" chance="20" min="2" max="5" />
 	</defenses>
 	<loot>
-		<item id="bulb of garlic" chance="4464" />
-		<item id="skunk tail" chance="886" />
+		<item name="bulb of garlic" chance="4455" />
+		<item name="skunk tail" chance="884" />
 	</loot>
 </monster>

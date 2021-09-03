@@ -1,4 +1,5 @@
-﻿<monster name="Oodok Witchmaster" nameDescription="" experience="550" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Oodok Witchmaster" nameDescription="" experience="550" speed="0" manacost="0">
 	<health now="450" max="450" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -48,19 +50,19 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="98" />
-		<item id="platinum coin" chance="90909" countmax="2" />
-		<item id="health potion" chance="52273" countmax="3" />
-		<item id="mana potion" chance="47727" countmax="3" />
-		<item id="black pearl" chance="13636" countmax="2" />
-		<item id="green piece of cloth" chance="11364" />
-		<item id="strange symbol" chance="6818" />
-		<item id="leather armor" chance="4545" />
-		<item id="poison dagger" chance="4545" />
-		<item id="terra rod" chance="4545" />
-		<item id="big bone" chance="2273" />
-		<item id="bone" chance="2273" />
-		<item id="mastermind potion" chance="2273" />
-		<item id="tribal mask" chance="2273" />
+		<item name="gold coin" chance="100000" countmax="98" />
+		<item name="platinum coin" chance="90909" countmax="2" />
+		<item name="health potion" chance="52273" countmax="3" />
+		<item name="mana potion" chance="47727" countmax="3" />
+		<item name="black pearl" chance="13636" countmax="2" />
+		<item name="green piece of cloth" chance="11364" />
+		<item name="strange symbol" chance="6818" />
+		<item name="leather armor" chance="4545" />
+		<item name="poison dagger" chance="4545" />
+		<item name="terra rod" chance="4545" />
+		<item name="big bone" chance="2273" />
+		<item name="bone" chance="2273" />
+		<item name="mastermind potion" chance="2273" />
+		<item name="tribal mask" chance="2273" />
 	</loot>
 </monster>

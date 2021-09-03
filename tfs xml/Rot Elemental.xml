@@ -1,6 +1,7 @@
-﻿<monster name="Rot Elemental" nameDescription="a rot elemental" experience="750" speed="230" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Rot Elemental" nameDescription="a rot elemental" experience="750" speed="230" manacost="0">
 	<health now="850" max="850" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="615" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -49,18 +51,18 @@
 		<voice sentence="*glibb*" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="140" />
-		<item id="glob of glooth" chance="14043" countmax="2" />
-		<item id="platinum coin" chance="10130" />
-		<item id="strong mana potion" chance="10061" />
-		<item id="strong health potion" chance="10001" />
-		<item id="small sapphire" chance="5048" />
-		<item id="small emerald" chance="5015" countmax="4" />
-		<item id="small topaz" chance="4945" countmax="2" />
-		<item id="glooth spear" chance="4877" />
-		<item id="life ring" chance="1487" />
-		<item id="glooth axe" chance="103" />
-		<item id="green gem" chance="99" />
-		<item id="glooth amulet" chance="96" />
+		<item name="gold coin" chance="100000" countmax="140" />
+		<item name="glob of glooth" chance="14040" countmax="2" />
+		<item name="platinum coin" chance="10128" />
+		<item name="strong mana potion" chance="10058" />
+		<item name="strong health potion" chance="10004" />
+		<item name="small sapphire" chance="5048" />
+		<item name="small emerald" chance="5014" countmax="4" />
+		<item name="small topaz" chance="4947" countmax="2" />
+		<item name="glooth spear" chance="4876" />
+		<item name="life ring" chance="1485" />
+		<item name="glooth axe" chance="103" />
+		<item name="green gem" chance="99" />
+		<item name="glooth amulet" chance="96" />
 	</loot>
 </monster>

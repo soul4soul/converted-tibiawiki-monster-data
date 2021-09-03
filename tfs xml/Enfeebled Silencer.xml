@@ -1,6 +1,7 @@
-﻿<monster name="Enfeebled Silencer" nameDescription="an enfeebled silencer" experience="1100" speed="330" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Enfeebled Silencer" nameDescription="an enfeebled silencer" experience="1100" speed="330" manacost="0">
 	<health now="1100" max="1100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="585" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="60" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -54,31 +56,18 @@
 		<voice sentence="Hussssssh!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="platinum coin" chance="39861" />
-		<item id="fairy wings" chance="11719" />
-		<item id="assassin star" chance="7042" countmax="10" />
-		<item id="silencer claws" chance="3843" />
-		<item id="haunted blade" chance="1485" />
-		<item id="stealth ring" chance="1271" />
-		<item id="terra boots" chance="917" />
-		<item id="glorious axe" chance="898" />
-		<item id="shadow sceptre" chance="885" />
-		<item id="terra legs" chance="847" />
-		<item id="diamond sceptre" chance="689" />
-		<item id="boots of haste" chance="499" />
-		<item id="gold coin" chance="4627" countmax="100" />
-		<item id="platinum coin" chance="1713" />
-		<item id="silencer claws" chance="683" />
-		<item id="fairy wings" chance="607" />
-		<item id="assassin star" chance="411" countmax="10" />
-		<item id="haunted blade" chance="126" />
-		<item id="stealth ring" chance="76" />
-		<item id="diamond sceptre" chance="70" />
-		<item id="terra boots" chance="57" />
-		<item id="terra legs" chance="38" />
-		<item id="glorious axe" chance="32" />
-		<item id="shadow sceptre" chance="32" />
-		<item id="boots of haste" chance="19" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="platinum coin" chance="39883" />
+		<item name="fairy wings" chance="11773" />
+		<item name="assassin star" chance="7079" countmax="10" />
+		<item name="silencer claws" chance="3841" />
+		<item name="haunted blade" chance="1494" />
+		<item name="stealth ring" chance="1283" />
+		<item name="terra boots" chance="921" />
+		<item name="glorious axe" chance="897" />
+		<item name="shadow sceptre" chance="884" />
+		<item name="terra legs" chance="847" />
+		<item name="diamond sceptre" chance="716" />
+		<item name="boots of haste" chance="498" />
 	</loot>
 </monster>

@@ -1,4 +1,5 @@
-﻿<monster name="Monstor" nameDescription="" experience="575" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Monstor" nameDescription="" experience="575" speed="0" manacost="0">
 	<health now="960" max="960" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="-7" />
+		<element energyPercent="-7" />
 		<element earthPercent="30" />
 		<element firePercent="50" />
 		<element lifedrainPercent="100" />
@@ -53,7 +55,7 @@
 		<voice name="acid blob" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="helmet of ultimate terror" chance="80000" />
-		<item id="incredible mumpiz slayer" chance="20000" />
+		<item name="helmet of ultimate terror" chance="80000" />
+		<item name="incredible mumpiz slayer" chance="20000" />
 	</loot>
 </monster>

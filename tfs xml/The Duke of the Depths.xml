@@ -1,4 +1,5 @@
-﻿<monster name="The Duke Of The Depths" nameDescription="" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Duke Of The Depths" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -39,50 +41,5 @@
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="10" defense="5" />
-	<loot>
-		<item id="heavy crystal fragment" chance="100000" />
-		<item id="mastermind potion" chance="100000" countmax="2" />
-		<item id="platinum coin" chance="100000" countmax="63" />
-		<item id="stone skin amulet" chance="100000" />
-		<item id="wand of inferno" chance="100000" />
-		<item id="fire axe" chance="100000" />
-		<item id="blue crystal shard" chance="100000" countmax="4" />
-		<item id="fire sword" chance="100000" />
-		<item id="great mana potion" chance="100000" countmax="18" />
-		<item id="great spirit potion" chance="100000" countmax="18" />
-		<item id="ultimate health potion" chance="100000" countmax="18" />
-		<item id="luminous orb" chance="100000" />
-		<item id="blue gem" chance="100000" />
-		<item id="gold token" chance="100000" countmax="2" />
-		<item id="green gem" chance="100000" />
-		<item id="slightly rusted shield" chance="100000" />
-		<item id="small diamond" chance="100000" countmax="12" />
-		<item id="huge chunk of crude iron" chance="100000" countmax="4" />
-		<item id="small ruby" chance="100000" countmax="12" />
-		<item id="magic sulphur" chance="100000" />
-		<item id="small topaz" chance="100000" countmax="12" />
-		<item id="small amethyst" chance="100000" countmax="12" />
-		<item id="slightly rusted helmet" chance="100000" />
-		<item id="yellow gem" chance="100000" />
-		<item id="small emerald" chance="100000" countmax="12" />
-		<item id="giant tentacle" chance="100000" />
-		<item id="damaged worm head" chance="100000" />
-		<item id="red gem" chance="100000" />
-		<item id="giant shimmering pearl" chance="100000" />
-		<item id="silver token" chance="100000" countmax="2" />
-		<item id="crystal coin" chance="100000" />
-		<item id="muck rod" chance="100000" />
-		<item id="pristine worm head" chance="92000" />
-		<item id="violet gem" chance="72000" />
-		<item id="terra mantle" chance="60000" />
-		<item id="gnome sword" chance="48000" />
-		<item id="gnome shield" chance="36000" />
-		<item id="crystalline armor" chance="32000" />
-		<item id="magma coat" chance="24000" />
-		<item id="gnome legs" chance="16000" />
-		<item id="spellweaver's robe" chance="16000" />
-		<item id="mallet pommel" chance="8000" />
-		<item id="candle stump" chance="4000" />
-		<item id="crude wood planks" chance="4000" />
-	</loot>
+	<loot />
 </monster>

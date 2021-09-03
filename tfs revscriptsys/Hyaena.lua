@@ -5,7 +5,7 @@ monster.name = "Hyaena"
 monster.description = "a hyaena"
 monster.experience = 20
 monster.outfit = {
-	lookType = 0,
+	lookType = 94,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,8 +89,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "worm", chance = 50436, maxCount = 3},
-	{id = "meat", chance = 30702}
+	{id = "worm", chance = 50423, maxCount = 3},
+	{id = "meat", chance = 30659}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Clomp" nameDescription="a clomp" experience="475" speed="430" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Clomp" nameDescription="a clomp" experience="475" speed="430" manacost="0">
 	<health now="900" max="900" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="860" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,10 +50,10 @@
 		<voice sentence="Snarl!" yell="false" />
 	</voices>
 	<loot>
-		<item id="raw meat" chance="17896" />
-		<item id="hardened bone" chance="7186" />
-		<item id="thick fur" chance="6635" />
-		<item id="tusk shield" chance="551" />
-		<item id="furry club" chance="468" />
+		<item name="raw meat" chance="17896" />
+		<item name="hardened bone" chance="7186" />
+		<item name="thick fur" chance="6635" />
+		<item name="tusk shield" chance="551" />
+		<item name="furry club" chance="468" />
 	</loot>
 </monster>

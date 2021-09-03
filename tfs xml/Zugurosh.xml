@@ -1,4 +1,5 @@
-﻿<monster name="Zugurosh" nameDescription="" experience="10000" speed="330" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Zugurosh" nameDescription="" experience="10000" speed="330" manacost="0">
 	<health now="90500" max="90500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="30" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -52,30 +54,30 @@
 		<voice sentence="Your fear will make you prone to mistakes!" yell="false" />
 	</voices>
 	<loot>
-		<item id="demonic essence" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="195" />
-		<item id="slightly rusted legs" chance="52199" />
-		<item id="slightly rusted armor" chance="47801" />
-		<item id="great mana potion" chance="25806" />
-		<item id="great spirit potion" chance="25660" />
-		<item id="great health potion" chance="24707" />
-		<item id="ultimate health potion" chance="23827" />
-		<item id="platinum coin" chance="21041" countmax="30" />
-		<item id="soul orb" chance="20821" countmax="10" />
-		<item id="jewel case" chance="20674" />
-		<item id="gold ingot" chance="20161" />
-		<item id="silver brooch" chance="19648" />
-		<item id="talon" chance="18768" countmax="30" />
-		<item id="red piece of cloth" chance="17375" countmax="10" />
-		<item id="blue piece of cloth" chance="15616" countmax="10" />
-		<item id="white piece of cloth" chance="15103" countmax="10" />
-		<item id="brown piece of cloth" chance="14150" countmax="10" />
-		<item id="green piece of cloth" chance="13783" countmax="10" />
-		<item id="yellow piece of cloth" chance="13783" countmax="10" />
-		<item id="demon horn" chance="9238" countmax="2" />
-		<item id="boots of haste" chance="9018" />
-		<item id="amulet of loss" chance="4912" />
-		<item id="steel boots" chance="4912" />
-		<item id="golden boots" chance="1320" />
+		<item name="demonic essence" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="195" />
+		<item name="slightly rusted legs" chance="52234" />
+		<item name="slightly rusted armor" chance="47766" />
+		<item name="great mana potion" chance="25861" />
+		<item name="great spirit potion" chance="25641" />
+		<item name="great health potion" chance="24689" />
+		<item name="ultimate health potion" chance="23810" />
+		<item name="platinum coin" chance="21026" countmax="30" />
+		<item name="soul orb" chance="20806" countmax="10" />
+		<item name="jewel case" chance="20659" />
+		<item name="gold ingot" chance="20220" />
+		<item name="silver brooch" chance="19634" />
+		<item name="talon" chance="18755" countmax="30" />
+		<item name="red piece of cloth" chance="17436" countmax="10" />
+		<item name="blue piece of cloth" chance="15604" countmax="10" />
+		<item name="white piece of cloth" chance="15092" countmax="10" />
+		<item name="brown piece of cloth" chance="14139" countmax="10" />
+		<item name="green piece of cloth" chance="13773" countmax="10" />
+		<item name="yellow piece of cloth" chance="13773" countmax="10" />
+		<item name="demon horn" chance="9231" countmax="2" />
+		<item name="boots of haste" chance="9011" />
+		<item name="amulet of loss" chance="4908" />
+		<item name="steel boots" chance="4908" />
+		<item name="golden boots" chance="1319" />
 	</loot>
 </monster>

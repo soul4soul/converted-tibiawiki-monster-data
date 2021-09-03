@@ -1,4 +1,5 @@
-﻿<monster name="Evil Mastermind" nameDescription="" experience="675" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Evil Mastermind" nameDescription="" experience="675" speed="0" manacost="0">
 	<health now="1295" max="1295" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="90" />
+		<element energyPercent="90" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -54,6 +56,6 @@
 		<voice sentence="Beware! My evil monolog is coming!" yell="false" />
 	</voices>
 	<loot>
-		<item id="Fan Club Membership Card" chance="20000" />
+		<item name="Fan Club Membership Card" chance="20000" />
 	</loot>
 </monster>

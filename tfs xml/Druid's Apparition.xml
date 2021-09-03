@@ -1,4 +1,5 @@
-﻿<monster name="Druid's Apparition" nameDescription="a druid's apparition" experience="18870" speed="470" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Druid's Apparition" nameDescription="a druid's apparition" experience="18870" speed="470" manacost="0">
 	<health now="25000" max="25000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-20" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
@@ -44,18 +46,18 @@
 		<voice sentence="I'll take your place when you are gone." yell="false" />
 	</voices>
 	<loot>
-		<item id="crystal coin" chance="80476" />
-		<item id="terra rod" chance="21252" />
-		<item id="great mana potion" chance="14339" countmax="3" />
-		<item id="green gem" chance="9528" />
-		<item id="blue gem" chance="9248" />
-		<item id="stone skin amulet" chance="4904" />
-		<item id="sacred tree amulet" chance="4250" />
-		<item id="glacier amulet" chance="4017" />
-		<item id="underworld rod" chance="2616" />
-		<item id="springsprout rod" chance="2522" />
-		<item id="collar of red plasma" chance="1822" />
-		<item id="platinum amulet" chance="1355" />
-		<item id="glacier robe" chance="1028" />
+		<item name="crystal coin" chance="80476" />
+		<item name="terra rod" chance="21252" />
+		<item name="great mana potion" chance="14339" countmax="3" />
+		<item name="green gem" chance="9528" />
+		<item name="blue gem" chance="9248" />
+		<item name="stone skin amulet" chance="4904" />
+		<item name="sacred tree amulet" chance="4250" />
+		<item name="glacier amulet" chance="4017" />
+		<item name="underworld rod" chance="2616" />
+		<item name="springsprout rod" chance="2522" />
+		<item name="collar of red plasma" chance="1822" />
+		<item name="platinum amulet" chance="1355" />
+		<item name="glacier robe" chance="1028" />
 	</loot>
 </monster>

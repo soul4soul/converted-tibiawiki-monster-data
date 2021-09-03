@@ -5,7 +5,7 @@ monster.name = "Draken Abomination"
 monster.description = "a draken abomination"
 monster.experience = 3800
 monster.outfit = {
-	lookType = 0,
+	lookType = 357,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -98,15 +99,15 @@ monster.summons = {
 monster.loot = {
 	{id = "gold coin", chance = 97110, maxCount = 199},
 	{id = "meat", chance = 50291},
-	{id = "platinum coin", chance = 50018, maxCount = 8},
-	{id = "eye of corruption", chance = 12052},
-	{id = "scale of corruption", chance = 10966},
-	{id = "ultimate health potion", chance = 9238, maxCount = 3},
-	{id = "great mana potion", chance = 9118, maxCount = 3},
-	{id = "terra hood", chance = 8400},
-	{id = "tail of corruption", chance = 6207},
+	{id = "platinum coin", chance = 50021, maxCount = 8},
+	{id = "eye of corruption", chance = 12056},
+	{id = "scale of corruption", chance = 10965},
+	{id = "ultimate health potion", chance = 9237, maxCount = 3},
+	{id = "great mana potion", chance = 9120, maxCount = 3},
+	{id = "terra hood", chance = 8402},
+	{id = "tail of corruption", chance = 6209},
 	{id = "great spirit potion", chance = 4894, maxCount = 3},
-	{id = "small topaz", chance = 2811, maxCount = 4},
+	{id = "small topaz", chance = 2810, maxCount = 4},
 	{id = "wand of voodoo", chance = 1018},
 	{id = "zaoan legs", chance = 821},
 	{id = "zaoan armor", chance = 739},
@@ -114,26 +115,7 @@ monster.loot = {
 	{id = "draken boots", chance = 559},
 	{id = "bamboo leaves", chance = 315},
 	{id = "shield of corruption", chance = 15},
-	{id = "snake god's wristguard", chance = 12},
-	{id = "gold coin", chance = 16172, maxCount = 199},
-	{id = "platinum coin", chance = 8217, maxCount = 8},
-	{id = "meat", chance = 8149},
-	{id = "eye of corruption", chance = 2037},
-	{id = "great mana potion", chance = 1645, maxCount = 3},
-	{id = "scale of corruption", chance = 1633},
-	{id = "ultimate health potion", chance = 1569, maxCount = 3},
-	{id = "terra hood", chance = 1448},
-	{id = "tail of corruption", chance = 959},
-	{id = "great spirit potion", chance = 801, maxCount = 3},
-	{id = "small topaz", chance = 494, maxCount = 4},
-	{id = "wand of voodoo", chance = 188},
-	{id = "zaoan legs", chance = 182},
-	{id = "zaoan armor", chance = 150},
-	{id = "zaoan helmet", chance = 74},
-	{id = "draken boots", chance = 56},
-	{id = "bamboo leaves", chance = 6},
-	{id = "shield of corruption", chance = 3},
-	{id = "snake god's wristguard", chance = 3}
+	{id = "snake god's wristguard", chance = 12}
 }
 
 mType:register(monster)

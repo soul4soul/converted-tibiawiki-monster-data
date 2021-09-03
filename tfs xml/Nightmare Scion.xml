@@ -1,6 +1,7 @@
-﻿<monster name="Nightmare Scion" nameDescription="a nightmare scion" experience="1350" speed="440" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Nightmare Scion" nameDescription="a nightmare scion" experience="1350" speed="440" manacost="0">
 	<health now="1400" max="1400" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="321" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="100" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -50,17 +52,17 @@
 		<voice sentence="Peak a boo, I killed you!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="97034" countmax="155" />
-		<item id="meat" chance="50490" />
-		<item id="essence of a bad dream" chance="8086" />
-		<item id="scythe leg" chance="4937" />
-		<item id="platinum coin" chance="1057" countmax="3" />
-		<item id="crown helmet" chance="725" />
-		<item id="diamond sceptre" chance="365" />
-		<item id="focus cape" chance="315" />
-		<item id="death ring" chance="271" />
-		<item id="shadow sceptre" chance="255" />
-		<item id="bar of chocolate" chance="232" />
-		<item id="crystal of focus" chance="116" />
+		<item name="gold coin" chance="97024" countmax="155" />
+		<item name="meat" chance="50495" />
+		<item name="essence of a bad dream" chance="8088" />
+		<item name="scythe leg" chance="4934" />
+		<item name="platinum coin" chance="1057" countmax="3" />
+		<item name="crown helmet" chance="725" />
+		<item name="diamond sceptre" chance="365" />
+		<item name="focus cape" chance="315" />
+		<item name="death ring" chance="271" />
+		<item name="shadow sceptre" chance="254" />
+		<item name="bar of chocolate" chance="232" />
+		<item name="crystal of focus" chance="116" />
 	</loot>
 </monster>

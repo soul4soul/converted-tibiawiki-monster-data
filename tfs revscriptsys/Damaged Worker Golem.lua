@@ -5,7 +5,7 @@ monster.name = "Damaged Worker Golem"
 monster.description = "a damaged worker golem"
 monster.experience = 95
 monster.outfit = {
-	lookType = 0,
+	lookType = 304,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -95,12 +96,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 68318, maxCount = 89},
-	{id = "heavily rusted armor", chance = 9958},
-	{id = "nail", chance = 1255},
-	{id = "sword ring", chance = 502},
-	{id = "iron ore", chance = 402},
-	{id = "gear crystal", chance = 218}
+	{id = "gold coin", chance = 68396, maxCount = 89},
+	{id = "heavily rusted armor", chance = 10045},
+	{id = "nail", chance = 1256},
+	{id = "sword ring", chance = 496},
+	{id = "iron ore", chance = 413},
+	{id = "gear crystal", chance = 215}
 }
 
 mType:register(monster)

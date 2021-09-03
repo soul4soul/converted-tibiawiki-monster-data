@@ -1,4 +1,5 @@
-﻿<monster name="Irgix The Flimsy" nameDescription="" experience="18000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Irgix The Flimsy" nameDescription="" experience="18000" speed="0" manacost="0">
 	<health now="24000" max="24000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -42,15 +44,5 @@
 		<attack name="melee" interval="2000" chance="100" />
 	</attacks>
 	<defenses armor="10" defense="5" />
-	<loot>
-		<item id="platinum coin" chance="36667" countmax="8" />
-		<item id="skull coin" chance="20000" />
-		<item id="diamond" chance="18333" />
-		<item id="silver hand mirror" chance="18333" />
-		<item id="white gem" chance="11667" />
-		<item id="terra rod" chance="6667" />
-		<item id="death toll" chance="3333" />
-		<item id="necklace of the deep" chance="3333" />
-		<item id="wand of cosmic energy" chance="1667" />
-	</loot>
+	<loot />
 </monster>

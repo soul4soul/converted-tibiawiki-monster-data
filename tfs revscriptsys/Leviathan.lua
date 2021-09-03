@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -97,17 +98,7 @@ monster.loot = {
 	{id = "strong mana potion", chance = 50376},
 	{id = "small sapphire", chance = 49624, maxCount = 5},
 	{id = "moon backpack", chance = 15789},
-	{id = "frozen plate", chance = 752},
-	{id = "leviathan's amulet", chance = 80451},
-	{id = "sea serpent trophy", chance = 80451},
-	{id = "platinum coin", chance = 70677, maxCount = 7},
-	{id = "rusted legs", chance = 65414},
-	{id = "rusted armor", chance = 63910},
-	{id = "small sapphire", chance = 40602, maxCount = 5},
-	{id = "bonebreaker", chance = 39098},
-	{id = "strong mana potion", chance = 39098},
-	{id = "moon backpack", chance = 10526},
-	{id = "frozen plate", chance = 1504}
+	{id = "frozen plate", chance = 752}
 }
 
 mType:register(monster)

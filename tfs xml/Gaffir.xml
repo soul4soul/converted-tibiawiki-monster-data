@@ -1,4 +1,5 @@
-﻿<monster name="Gaffir" nameDescription="" experience="25000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Gaffir" nameDescription="" experience="25000" speed="0" manacost="0">
 	<health now="48500" max="48500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -43,11 +45,11 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="small emerald" chance="18627" />
-		<item id="small sapphire" chance="17647" />
-		<item id="small amethyst" chance="17647" />
-		<item id="small diamond" chance="17647" />
-		<item id="small ruby" chance="15686" />
-		<item id="small topaz" chance="12745" />
+		<item name="small topaz" chance="19828" />
+		<item name="small sapphire" chance="19540" />
+		<item name="small diamond" chance="17816" />
+		<item name="small emerald" chance="14655" />
+		<item name="small amethyst" chance="14080" />
+		<item name="small ruby" chance="14080" />
 	</loot>
 </monster>

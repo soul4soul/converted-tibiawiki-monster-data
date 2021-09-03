@@ -5,7 +5,7 @@ monster.name = "Mummy"
 monster.description = "a mummy"
 monster.experience = 150
 monster.outfit = {
-	lookType = 0,
+	lookType = 65,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,16 +93,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 39566, maxCount = 80},
+	{id = "gold coin", chance = 39570, maxCount = 80},
 	{id = "worm", chance = 19843, maxCount = 3},
-	{id = "flask of embalming fluid", chance = 12115},
-	{id = "gauze bandage", chance = 10002},
-	{id = "magic light wand", chance = 6047},
-	{id = "strange talisman", chance = 4992},
+	{id = "flask of embalming fluid", chance = 12116},
+	{id = "gauze bandage", chance = 10005},
+	{id = "magic light wand", chance = 6049},
+	{id = "strange talisman", chance = 4990},
 	{id = "silver brooch", chance = 3948},
 	{id = "crystal ring", chance = 1499},
 	{id = "black pearl", chance = 997},
-	{id = "yellow piece of cloth", chance = 948},
+	{id = "yellow piece of cloth", chance = 950},
 	{id = "poison dagger", chance = 507},
 	{id = "black shield", chance = 183},
 	{id = "silver amulet", chance = 91},

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,10 +88,6 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "the true book of death", chance = 52941},
-	{id = "platinum coin", chance = 35294, maxCount = 5},
-	{id = "broccoli", chance = 5882},
-	{id = "small diamond", chance = 5882}
 }
 
 mType:register(monster)

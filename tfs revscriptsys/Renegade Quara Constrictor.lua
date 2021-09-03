@@ -5,7 +5,7 @@ monster.name = "Renegade Quara Constrictor"
 monster.description = "a renegade quara constrictor"
 monster.experience = 1250
 monster.outfit = {
-	lookType = 0,
+	lookType = 46,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -85,20 +86,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 80000, maxCount = 3},
-	{id = "quara tentacle", chance = 14676},
-	{id = "mind stone", chance = 6621},
-	{id = "great mana potion", chance = 6143},
-	{id = "ring of healing", chance = 5666},
-	{id = "small amethyst", chance = 4846, maxCount = 2},
-	{id = "shrimp", chance = 4778},
-	{id = "assassin star", chance = 4642, maxCount = 7},
-	{id = "small ruby", chance = 4437, maxCount = 2},
-	{id = "vortex bolt", chance = 3618, maxCount = 10},
-	{id = "violet crystal shard", chance = 1160},
-	{id = "northwind rod", chance = 751},
-	{id = "fish fin", chance = 410},
-	{id = "piggy bank", chance = 205}
+	{id = "platinum coin", chance = 80222, maxCount = 3},
+	{id = "quara tentacle", chance = 14771},
+	{id = "mind stone", chance = 6860},
+	{id = "great mana potion", chance = 6551},
+	{id = "ring of healing", chance = 5377},
+	{id = "small amethyst", chance = 5006, maxCount = 2},
+	{id = "shrimp", chance = 4883},
+	{id = "assassin star", chance = 4697, maxCount = 7},
+	{id = "small ruby", chance = 4512, maxCount = 2},
+	{id = "vortex bolt", chance = 3461, maxCount = 10},
+	{id = "violet crystal shard", chance = 1112},
+	{id = "northwind rod", chance = 865},
+	{id = "fish fin", chance = 371},
+	{id = "piggy bank", chance = 309}
 }
 
 mType:register(monster)

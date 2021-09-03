@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -106,11 +107,7 @@ monster.loot = {
 	{id = "green crystal shard", chance = 7767, maxCount = 3},
 	{id = "nightmare blade", chance = 7767},
 	{id = "assassin dagger", chance = 3883},
-	{id = "haunted blade", chance = 3883},
-	{id = "brown crystal splinter", chance = 971, maxCount = 5},
-	{id = "frazzle tongue", chance = 971},
-	{id = "gold coin", chance = 971, maxCount = 101},
-	{id = "platinum coin", chance = 971, maxCount = 10}
+	{id = "haunted blade", chance = 3883}
 }
 
 mType:register(monster)

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,12 +88,12 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000},
-	{id = "poison arrow", chance = 14791, maxCount = 15},
-	{id = "great health potion", chance = 10179},
-	{id = "terra boots", chance = 4493},
-	{id = "silver amulet", chance = 4294},
-	{id = "spider silk", chance = 2584},
-	{id = "terra mantle", chance = 835}
+	{id = "poison arrow", chance = 15418, maxCount = 15},
+	{id = "great health potion", chance = 9739},
+	{id = "silver amulet", chance = 4193},
+	{id = "terra boots", chance = 4193},
+	{id = "spider silk", chance = 2905},
+	{id = "terra mantle", chance = 858}
 }
 
 mType:register(monster)

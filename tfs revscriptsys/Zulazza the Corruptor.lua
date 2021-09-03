@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -114,24 +115,7 @@ monster.loot = {
 	{id = "mastermind shield", chance = 8284},
 	{id = "tower shield", chance = 8284},
 	{id = "dragon scale boots", chance = 1775},
-	{id = "earthborn titan armor", chance = 1183},
-	{id = "gold coin", chance = 4734, maxCount = 55},
-	{id = "platinum coin", chance = 2959, maxCount = 4},
-	{id = "emerald bangle", chance = 1775},
-	{id = "giant shimmering pearl", chance = 1775},
-	{id = "great mana potion", chance = 1775, maxCount = 5},
-	{id = "great health potion", chance = 1183, maxCount = 5},
-	{id = "mastermind potion", chance = 1183},
-	{id = "slightly rusted armor", chance = 1183},
-	{id = "viper star", chance = 1183, maxCount = 50},
-	{id = "blue gem", chance = 592},
-	{id = "gold ingot", chance = 592},
-	{id = "great spirit potion", chance = 592, maxCount = 5},
-	{id = "green gem", chance = 592},
-	{id = "red gem", chance = 592},
-	{id = "soul orb", chance = 592},
-	{id = "violet gem", chance = 592},
-	{id = "yellow gem", chance = 592}
+	{id = "earthborn titan armor", chance = 1183}
 }
 
 mType:register(monster)

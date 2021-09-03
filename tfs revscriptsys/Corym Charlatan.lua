@@ -5,10 +5,10 @@ monster.name = "Corym Charlatan"
 monster.description = "a corym charlatan"
 monster.experience = 150
 monster.outfit = {
-	lookType = 0,
+	lookType = 532,
 	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
+	lookBody = 78,
+	lookLegs = 59,
 	lookFeet = 0,
 	lookAddons = 0,
 	lookMount = 0
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,31 +89,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 81453, maxCount = 35},
-	{id = "rat cheese", chance = 14790},
-	{id = "soft cheese", chance = 12478},
-	{id = "cheese", chance = 9641},
-	{id = "bola", chance = 7833},
-	{id = "earflap", chance = 7258},
-	{id = "cheese cutter", chance = 6502},
-	{id = "ratana", chance = 652},
-	{id = "life preserver", chance = 608},
-	{id = "cheesy figurine", chance = 531},
-	{id = "leather harness", chance = 460},
-	{id = "spike shield", chance = 427},
-	{id = "rat god doll", chance = 5},
-	{id = "gold coin", chance = 100000, maxCount = 35},
-	{id = "rat cheese", chance = 28139},
-	{id = "soft cheese", chance = 23932},
-	{id = "cheese", chance = 19259},
-	{id = "bola", chance = 15414},
-	{id = "earflap", chance = 13754},
-	{id = "cheese cutter", chance = 11536},
-	{id = "ratana", chance = 1808},
-	{id = "life preserver", chance = 1632},
-	{id = "spike shield", chance = 986},
-	{id = "leather harness", chance = 975},
-	{id = "cheesy figurine", chance = 964}
+	{id = "gold coin", chance = 81455, maxCount = 35},
+	{id = "rat cheese", chance = 14783},
+	{id = "soft cheese", chance = 12487},
+	{id = "cheese", chance = 9650},
+	{id = "bola", chance = 7834},
+	{id = "earflap", chance = 7255},
+	{id = "cheese cutter", chance = 6495},
+	{id = "ratana", chance = 651},
+	{id = "life preserver", chance = 607},
+	{id = "cheesy figurine", chance = 536},
+	{id = "leather harness", chance = 459},
+	{id = "spike shield", chance = 426},
+	{id = "rat god doll", chance = 5}
 }
 
 mType:register(monster)

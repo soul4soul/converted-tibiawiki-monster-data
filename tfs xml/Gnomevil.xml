@@ -1,4 +1,5 @@
-﻿<monster name="Gnomevil" nameDescription="" experience="45000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Gnomevil" nameDescription="" experience="45000" speed="0" manacost="0">
 	<health now="250000" max="250000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="100" />
 		<element firePercent="50" />
 		<element lifedrainPercent="0" />
@@ -55,13 +57,13 @@
 		<voice sentence="Taste the power of the dark side!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gnomevil's hat" chance="100000" />
-		<item id="crystalline sword" chance="12741" />
-		<item id="mycological bow" chance="10811" />
-		<item id="crystal crossbow" chance="10232" />
-		<item id="shiny blade" chance="9846" />
-		<item id="mycological mace" chance="9073" />
-		<item id="crystalline axe" chance="8687" />
-		<item id="decorative ribbon" chance="1931" />
+		<item name="gnomevil's hat" chance="100000" />
+		<item name="crystalline sword" chance="12741" />
+		<item name="mycological bow" chance="10811" />
+		<item name="crystal crossbow" chance="10232" />
+		<item name="shiny blade" chance="9846" />
+		<item name="mycological mace" chance="9073" />
+		<item name="crystalline axe" chance="8687" />
+		<item name="decorative ribbon" chance="1931" />
 	</loot>
 </monster>

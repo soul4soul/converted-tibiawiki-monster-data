@@ -5,12 +5,12 @@ monster.name = "Twisted Shaper"
 monster.description = "a twisted shaper"
 monster.experience = 1750
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
+	lookType = 932,
+	lookHead = 105,
 	lookBody = 0,
 	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookFeet = 94,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,25 +90,25 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 175},
-	{id = "platinum coin", chance = 74896, maxCount = 2},
-	{id = "cave turnip", chance = 20387, maxCount = 2},
-	{id = "ancient belt buckle", chance = 19258},
-	{id = "cracked alabaster vase", chance = 17602},
-	{id = "tarnished rhino figurine", chance = 14540},
-	{id = "meat", chance = 10039},
-	{id = "energy ring", chance = 7579},
-	{id = "great health potion", chance = 7254},
-	{id = "ancient coin", chance = 5599},
-	{id = "small ruby", chance = 5476},
-	{id = "brown mushroom", chance = 5336, maxCount = 3},
-	{id = "orichalcum pearl", chance = 5228, maxCount = 5},
-	{id = "vortex bolt", chance = 5058, maxCount = 4},
-	{id = "onyx chip", chance = 5043},
-	{id = "wand of cosmic energy", chance = 3650},
-	{id = "gemmed figurine", chance = 944},
-	{id = "platinum amulet", chance = 340},
-	{id = "piggy bank", chance = 201},
-	{id = "piece of marble rock", chance = 62}
+	{id = "platinum coin", chance = 74963, maxCount = 2},
+	{id = "cave turnip", chance = 20285, maxCount = 2},
+	{id = "ancient belt buckle", chance = 19053},
+	{id = "cracked alabaster vase", chance = 17556},
+	{id = "tarnished rhino figurine", chance = 14462},
+	{id = "meat", chance = 10179},
+	{id = "energy ring", chance = 7642},
+	{id = "great health potion", chance = 7202},
+	{id = "ancient coin", chance = 5559},
+	{id = "small ruby", chance = 5485},
+	{id = "brown mushroom", chance = 5236, maxCount = 3},
+	{id = "orichalcum pearl", chance = 5163, maxCount = 5},
+	{id = "vortex bolt", chance = 5031, maxCount = 4},
+	{id = "onyx chip", chance = 4972},
+	{id = "wand of cosmic energy", chance = 3608},
+	{id = "gemmed figurine", chance = 939},
+	{id = "platinum amulet", chance = 367},
+	{id = "piggy bank", chance = 191},
+	{id = "piece of marble rock", chance = 59}
 }
 
 mType:register(monster)

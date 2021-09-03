@@ -5,11 +5,11 @@ monster.name = "Novice Of The Cult"
 monster.description = "a novice of the cult"
 monster.experience = 100
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 133,
+	lookHead = 114,
+	lookBody = 114,
+	lookLegs = 76,
+	lookFeet = 114,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,17 +91,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 43475, maxCount = 40},
-	{id = "rope belt", chance = 5869},
-	{id = "scarf", chance = 2909},
-	{id = "music sheet (first verse)", chance = 1068},
-	{id = "cultish robe", chance = 1028},
-	{id = "book (orange)", chance = 712},
+	{id = "gold coin", chance = 43493, maxCount = 40},
+	{id = "rope belt", chance = 5889},
+	{id = "scarf", chance = 2900},
+	{id = "music sheet (first verse)", chance = 1067},
+	{id = "cultish robe", chance = 1023},
+	{id = "book (orange)", chance = 704},
 	{id = "dwarven ring", chance = 525},
-	{id = "pirate voodoo doll", chance = 486},
+	{id = "pirate voodoo doll", chance = 492},
 	{id = "wand of vortex", chance = 441},
-	{id = "garlic necklace", chance = 418},
-	{id = "small diamond", chance = 192}
+	{id = "garlic necklace", chance = 430},
+	{id = "small diamond", chance = 190}
 }
 
 mType:register(monster)

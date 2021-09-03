@@ -1,6 +1,7 @@
-﻿<monster name="Cave Rat" nameDescription="a cave rat" experience="10" speed="150" manacost="250">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Cave Rat" nameDescription="a cave rat" experience="10" speed="150" manacost="250">
 	<health now="30" max="30" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="56" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -47,9 +49,9 @@
 		<voice sentence="Meeeeep!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="85122" countmax="2" />
-		<item id="cheese" chance="29977" />
-		<item id="worm" chance="10013" countmax="2" />
-		<item id="cookie" chance="927" />
+		<item name="gold coin" chance="85109" countmax="2" />
+		<item name="cheese" chance="29983" />
+		<item name="worm" chance="10010" countmax="2" />
+		<item name="cookie" chance="927" />
 	</loot>
 </monster>

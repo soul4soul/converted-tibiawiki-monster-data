@@ -5,7 +5,7 @@ monster.name = "Orc Rider"
 monster.description = "an orc rider"
 monster.experience = 110
 monster.outfit = {
-	lookType = 0,
+	lookType = 4,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,17 +90,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 48159, maxCount = 81},
-	{id = "meat", chance = 24070},
-	{id = "wolf tooth chain", chance = 10103},
-	{id = "orc leather", chance = 10039},
-	{id = "warwolf fur", chance = 9699},
-	{id = "orcish axe", chance = 7063, maxCount = 2},
-	{id = "orc tooth", chance = 2082},
-	{id = "battle shield", chance = 1015},
-	{id = "obsidian lance", chance = 1003},
-	{id = "torch", chance = 990},
-	{id = "scale armor", chance = 611}
+	{id = "gold coin", chance = 48138, maxCount = 81},
+	{id = "meat", chance = 24196},
+	{id = "wolf tooth chain", chance = 10170},
+	{id = "orc leather", chance = 10011},
+	{id = "warwolf fur", chance = 9720},
+	{id = "orcish axe", chance = 7054, maxCount = 2},
+	{id = "orc tooth", chance = 2083},
+	{id = "battle shield", chance = 1020},
+	{id = "obsidian lance", chance = 1001},
+	{id = "torch", chance = 988},
+	{id = "scale armor", chance = 621}
 }
 
 mType:register(monster)

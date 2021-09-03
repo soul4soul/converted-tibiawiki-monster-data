@@ -5,7 +5,7 @@ monster.name = "Diabolic Imp"
 monster.description = "a diabolic imp"
 monster.experience = 2900
 monster.outfit = {
-	lookType = 0,
+	lookType = 237,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,22 +91,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99364, maxCount = 200},
-	{id = "pitchfork", chance = 50517},
-	{id = "flask of demonic blood", chance = 24606},
-	{id = "blank rune", chance = 15015, maxCount = 2},
-	{id = "cleaver", chance = 8860},
-	{id = "guardian shield", chance = 8239},
-	{id = "demonic essence", chance = 7857},
-	{id = "soul orb", chance = 7094},
-	{id = "scimitar", chance = 5519},
-	{id = "platinum coin", chance = 3372, maxCount = 7},
-	{id = "stealth ring", chance = 2736},
-	{id = "small amethyst", chance = 2624, maxCount = 3},
-	{id = "double axe", chance = 1797},
-	{id = "necrotic rod", chance = 795},
-	{id = "magma monocle", chance = 493},
-	{id = "magma coat", chance = 350},
+	{id = "gold coin", chance = 99365, maxCount = 200},
+	{id = "pitchfork", chance = 50532},
+	{id = "flask of demonic blood", chance = 24575},
+	{id = "blank rune", chance = 15012, maxCount = 2},
+	{id = "cleaver", chance = 8864},
+	{id = "guardian shield", chance = 8276},
+	{id = "demonic essence", chance = 7847},
+	{id = "soul orb", chance = 7085},
+	{id = "scimitar", chance = 5512},
+	{id = "platinum coin", chance = 3368, maxCount = 7},
+	{id = "stealth ring", chance = 2748},
+	{id = "small amethyst", chance = 2621, maxCount = 3},
+	{id = "double axe", chance = 1795},
+	{id = "necrotic rod", chance = 794},
+	{id = "magma monocle", chance = 492},
+	{id = "magma coat", chance = 349},
 	{id = "death ring", chance = 95}
 }
 

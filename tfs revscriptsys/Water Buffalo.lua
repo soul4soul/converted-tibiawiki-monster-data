@@ -5,12 +5,12 @@ monster.name = "Water Buffalo"
 monster.description = "a water buffalo"
 monster.experience = 20
 monster.outfit = {
-	lookType = 0,
+	lookType = 523,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
-	lookAddons = 0,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,8 +92,8 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 20},
-	{id = "meat", chance = 33806},
-	{id = "ham", chance = 33570}
+	{id = "meat", chance = 33566},
+	{id = "ham", chance = 33333}
 }
 
 mType:register(monster)

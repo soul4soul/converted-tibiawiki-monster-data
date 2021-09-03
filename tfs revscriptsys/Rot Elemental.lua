@@ -5,7 +5,7 @@ monster.name = "Rot Elemental"
 monster.description = "a rot elemental"
 monster.experience = 750
 monster.outfit = {
-	lookType = 0,
+	lookType = 615,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,15 +91,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 140},
-	{id = "glob of glooth", chance = 14043, maxCount = 2},
-	{id = "platinum coin", chance = 10130},
-	{id = "strong mana potion", chance = 10061},
-	{id = "strong health potion", chance = 10001},
+	{id = "glob of glooth", chance = 14040, maxCount = 2},
+	{id = "platinum coin", chance = 10128},
+	{id = "strong mana potion", chance = 10058},
+	{id = "strong health potion", chance = 10004},
 	{id = "small sapphire", chance = 5048},
-	{id = "small emerald", chance = 5015, maxCount = 4},
-	{id = "small topaz", chance = 4945, maxCount = 2},
-	{id = "glooth spear", chance = 4877},
-	{id = "life ring", chance = 1487},
+	{id = "small emerald", chance = 5014, maxCount = 4},
+	{id = "small topaz", chance = 4947, maxCount = 2},
+	{id = "glooth spear", chance = 4876},
+	{id = "life ring", chance = 1485},
 	{id = "glooth axe", chance = 103},
 	{id = "green gem", chance = 99},
 	{id = "glooth amulet", chance = 96}

@@ -1,4 +1,5 @@
-﻿<monster name="Diseased Fred" nameDescription="a diseased Fred" experience="300" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Diseased Fred" nameDescription="a diseased Fred" experience="300" speed="0" manacost="0">
 	<health now="1100" max="1100" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="15" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="100" />
 		<element firePercent="15" />
 		<element lifedrainPercent="0" />
@@ -51,6 +53,6 @@
 		<voice sentence="The plague will get you!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="42857" countmax="24" />
+		<item name="gold coin" chance="42857" countmax="24" />
 	</loot>
 </monster>

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,16 +87,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "great health potion", chance = 19710, maxCount = 4},
-	{id = "ice rapier", chance = 13569},
-	{id = "crystal sword", chance = 8130},
-	{id = "pirate coin", chance = 6872, maxCount = 10},
-	{id = "knight axe", chance = 4971},
-	{id = "pirat's tail", chance = 4898},
-	{id = "crowbar", chance = 4884},
-	{id = "shark fins", chance = 4080},
-	{id = "knight armor", chance = 2720},
-	{id = "focus cape", chance = 2062}
+	{id = "great health potion", chance = 19645, maxCount = 4},
+	{id = "ice rapier", chance = 13538},
+	{id = "crystal sword", chance = 8247},
+	{id = "pirate coin", chance = 6882, maxCount = 10},
+	{id = "knight axe", chance = 4925},
+	{id = "pirat's tail", chance = 4911},
+	{id = "crowbar", chance = 4855},
+	{id = "shark fins", chance = 4194},
+	{id = "knight armor", chance = 2786},
+	{id = "focus cape", chance = 2026}
 }
 
 mType:register(monster)

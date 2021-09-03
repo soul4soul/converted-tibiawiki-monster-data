@@ -5,7 +5,7 @@ monster.name = "Putrid Mummy"
 monster.description = "a putrid mummy"
 monster.experience = 900
 monster.outfit = {
-	lookType = 0,
+	lookType = 976,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,25 +90,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 62091, maxCount = 64},
-	{id = "little bowl of myrrh", chance = 13687},
-	{id = "green bandage", chance = 11125},
-	{id = "single human eye", chance = 9559},
-	{id = "broken flask", chance = 9498},
-	{id = "scarab coin", chance = 8827, maxCount = 3},
-	{id = "pharaoh banner", chance = 2156},
-	{id = "green gem", chance = 1830},
-	{id = "black pearl", chance = 1098},
-	{id = "poison dagger", chance = 630},
-	{id = "gold coin", chance = 1566, maxCount = 60},
-	{id = "scarab coin", chance = 224, maxCount = 3},
-	{id = "single human eye", chance = 203},
-	{id = "little bowl of myrrh", chance = 183},
-	{id = "green bandage", chance = 142},
-	{id = "broken flask", chance = 102},
-	{id = "pharaoh banner", chance = 81},
-	{id = "green gem", chance = 41},
-	{id = "black pearl", chance = 20}
+	{id = "gold coin", chance = 61885, maxCount = 64},
+	{id = "little bowl of myrrh", chance = 13708},
+	{id = "green bandage", chance = 11078},
+	{id = "single human eye", chance = 9623},
+	{id = "broken flask", chance = 9564},
+	{id = "scarab coin", chance = 8826, maxCount = 3},
+	{id = "pharaoh banner", chance = 2112},
+	{id = "green gem", chance = 1793},
+	{id = "black pearl", chance = 1096},
+	{id = "poison dagger", chance = 618}
 }
 
 mType:register(monster)

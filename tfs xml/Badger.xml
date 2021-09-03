@@ -1,6 +1,7 @@
-﻿<monster name="Badger" nameDescription="a badger" experience="5" speed="140" manacost="200">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Badger" nameDescription="a badger" experience="5" speed="140" manacost="200">
 	<health now="23" max="23" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="105" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,8 +45,8 @@
 	</attacks>
 	<defenses armor="1" defense="1" />
 	<loot>
-		<item id="beetroot" chance="40441" />
-		<item id="badger fur" chance="10004" />
-		<item id="acorn" chance="5038" />
+		<item name="beetroot" chance="40383" />
+		<item name="badger fur" chance="10015" />
+		<item name="acorn" chance="5049" />
 	</loot>
 </monster>

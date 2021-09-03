@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -99,13 +100,7 @@ monster.loot = {
 	{id = "pumpkin", chance = 100000, maxCount = 5},
 	{id = "yummy gummy worm", chance = 100000, maxCount = 10},
 	{id = "bat decoration", chance = 21429},
-	{id = "toy spider", chance = 14286},
-	{id = "yummy gummy worm", chance = 57143, maxCount = 20},
-	{id = "candy cane", chance = 14286, maxCount = 50},
-	{id = "bat decoration", chance = 21429},
-	{id = "pumpkinhead", chance = 7143},
-	{id = "spiderwebs", chance = 7143},
-	{id = "skeleton decoration", chance = 7143}
+	{id = "toy spider", chance = 14286}
 }
 
 mType:register(monster)

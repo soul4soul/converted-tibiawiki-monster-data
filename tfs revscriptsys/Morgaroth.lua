@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -145,24 +146,7 @@ monster.loot = {
 	{id = "great health potion", chance = 4545},
 	{id = "mastermind shield", chance = 4545},
 	{id = "molten plate", chance = 4545},
-	{id = "small diamond", chance = 4545, maxCount = 5},
-	{id = "platinum coin", chance = 18182, maxCount = 21},
-	{id = "great spirit potion", chance = 13636, maxCount = 5},
-	{id = "stealth ring", chance = 13636},
-	{id = "gold coin", chance = 9091, maxCount = 100},
-	{id = "gold ring", chance = 9091},
-	{id = "magma coat", chance = 9091},
-	{id = "white pearl", chance = 9091, maxCount = 5},
-	{id = "assassin star", chance = 4545, maxCount = 15},
-	{id = "crystal ring", chance = 4545},
-	{id = "energy ring", chance = 4545},
-	{id = "life crystal", chance = 4545},
-	{id = "onyx flail", chance = 4545},
-	{id = "small amethyst", chance = 4545, maxCount = 5},
-	{id = "small diamond", chance = 4545, maxCount = 5},
-	{id = "strange symbol", chance = 4545},
-	{id = "talon", chance = 4545, maxCount = 2},
-	{id = "ultimate health potion", chance = 4545, maxCount = 5}
+	{id = "small diamond", chance = 4545, maxCount = 5}
 }
 
 mType:register(monster)

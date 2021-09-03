@@ -1,4 +1,5 @@
-﻿<monster name="Paiz The Pauperizer" nameDescription="" experience="6300" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Paiz The Pauperizer" nameDescription="" experience="6300" speed="0" manacost="0">
 	<health now="8500" max="8500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="40" />
+		<element energyPercent="40" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -49,30 +51,30 @@
 		<voice sentence="For ze emperor!" yell="false" />
 	</voices>
 	<loot>
-		<item id="broken draken mail" chance="100000" />
-		<item id="broken slicer" chance="100000" />
-		<item id="draken sulphur" chance="100000" />
-		<item id="draken wristbands" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="99" />
-		<item id="lizard scale" chance="100000" />
-		<item id="meat" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="10" />
-		<item id="magic sulphur" chance="44068" />
-		<item id="yellow gem" chance="40678" />
-		<item id="great mana potion" chance="35593" countmax="3" />
-		<item id="great spirit potion" chance="33898" countmax="3" />
-		<item id="great health potion" chance="30508" countmax="3" />
-		<item id="red gem" chance="25424" />
-		<item id="sai" chance="23729" />
-		<item id="green gem" chance="20339" />
-		<item id="zaoan armor" chance="16949" />
-		<item id="zaoan sword" chance="16949" />
-		<item id="swamplair armor" chance="13559" />
-		<item id="dragon scale mail" chance="11864" />
-		<item id="twiceslicer" chance="11864" />
-		<item id="blue gem" chance="6780" />
-		<item id="elite draken mail" chance="6780" />
-		<item id="small emerald" chance="6780" countmax="8" />
-		<item id="harness" chance="3390" />
+		<item name="broken draken mail" chance="100000" />
+		<item name="broken slicer" chance="100000" />
+		<item name="draken sulphur" chance="100000" />
+		<item name="draken wristbands" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="99" />
+		<item name="lizard scale" chance="100000" />
+		<item name="meat" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="10" />
+		<item name="magic sulphur" chance="42623" />
+		<item name="yellow gem" chance="40984" />
+		<item name="great mana potion" chance="36066" countmax="3" />
+		<item name="great spirit potion" chance="32787" countmax="3" />
+		<item name="great health potion" chance="31148" countmax="3" />
+		<item name="red gem" chance="26230" />
+		<item name="sai" chance="24590" />
+		<item name="green gem" chance="19672" />
+		<item name="zaoan armor" chance="18033" />
+		<item name="zaoan sword" chance="16393" />
+		<item name="swamplair armor" chance="14754" />
+		<item name="dragon scale mail" chance="11475" />
+		<item name="twiceslicer" chance="11475" />
+		<item name="blue gem" chance="6557" />
+		<item name="elite draken mail" chance="6557" />
+		<item name="small emerald" chance="6557" countmax="8" />
+		<item name="harness" chance="3279" />
 	</loot>
 </monster>

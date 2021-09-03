@@ -5,12 +5,12 @@ monster.name = "Goldhanded Cultist"
 monster.description = "a goldhanded cultist"
 monster.experience = 2000
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 132,
+	lookHead = 114,
+	lookBody = 79,
+	lookLegs = 62,
+	lookFeet = 94,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,16 +89,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 49486, maxCount = 250},
-	{id = "golden brush", chance = 23354},
-	{id = "tiger eye", chance = 16358},
-	{id = "opal", chance = 11317},
-	{id = "yellow gem", chance = 5556},
-	{id = "green gem", chance = 4938},
-	{id = "golden bag", chance = 2881},
-	{id = "golden backpack", chance = 2778},
-	{id = "gold ingot", chance = 1337},
-	{id = "platinum coin", chance = 823, maxCount = 10}
+	{id = "gold coin", chance = 50087, maxCount = 250},
+	{id = "golden brush", chance = 22609},
+	{id = "tiger eye", chance = 16435},
+	{id = "opal", chance = 10522},
+	{id = "yellow gem", chance = 5565},
+	{id = "green gem", chance = 4870},
+	{id = "golden backpack", chance = 2957},
+	{id = "golden bag", chance = 2870},
+	{id = "gold ingot", chance = 1478},
+	{id = "platinum coin", chance = 783, maxCount = 10}
 }
 
 mType:register(monster)

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -85,25 +86,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 81009, maxCount = 17},
-	{id = "carnisylvan bark", chance = 10806},
-	{id = "mushroom pie", chance = 7728},
-	{id = "carnisylvan finger", chance = 7466},
-	{id = "emerald bangle", chance = 7400},
-	{id = "wooden trash", chance = 7204},
-	{id = "great spirit potion", chance = 7138},
-	{id = "guardian halberd", chance = 5632},
-	{id = "collar of blue plasma", chance = 4650},
-	{id = "knight axe", chance = 4257},
-	{id = "underworld rod", chance = 4126},
-	{id = "fire mushroom", chance = 3929, maxCount = 3},
-	{id = "terra rod", chance = 3798},
-	{id = "diamond sceptre", chance = 3471},
-	{id = "wand of starstorm", chance = 2554},
-	{id = "sacred tree amulet", chance = 2030},
-	{id = "giant shimmering pearl (green)", chance = 1506},
-	{id = "gemmed figurine", chance = 851},
-	{id = "human teeth", chance = 262}
+	{id = "platinum coin", chance = 80955, maxCount = 17},
+	{id = "carnisylvan bark", chance = 10641},
+	{id = "mushroom pie", chance = 7860},
+	{id = "carnisylvan finger", chance = 7376},
+	{id = "great spirit potion", chance = 7376},
+	{id = "wooden trash", chance = 7376},
+	{id = "emerald bangle", chance = 7316},
+	{id = "guardian halberd", chance = 5744},
+	{id = "collar of blue plasma", chance = 4716},
+	{id = "knight axe", chance = 4111},
+	{id = "underworld rod", chance = 4051},
+	{id = "terra rod", chance = 3869},
+	{id = "fire mushroom", chance = 3748, maxCount = 3},
+	{id = "diamond sceptre", chance = 3386},
+	{id = "wand of starstorm", chance = 2721},
+	{id = "sacred tree amulet", chance = 2177},
+	{id = "giant shimmering pearl (green)", chance = 1451},
+	{id = "gemmed figurine", chance = 846},
+	{id = "human teeth", chance = 302}
 }
 
 mType:register(monster)

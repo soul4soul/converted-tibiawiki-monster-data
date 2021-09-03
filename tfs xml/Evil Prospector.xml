@@ -1,6 +1,7 @@
-﻿<monster name="Evil Prospector" nameDescription="an evil prospector" experience="9000" speed="440" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Evil Prospector" nameDescription="an evil prospector" experience="9000" speed="440" manacost="0">
 	<health now="8500" max="8500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1268" head="0" body="14" legs="0" feet="34" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="65" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,13 +45,13 @@
 	</attacks>
 	<defenses armor="100" defense="100" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="spectral silver nugget" chance="10832" />
-		<item id="wand of starstorm" chance="8225" />
-		<item id="emerald bangle" chance="5115" />
-		<item id="lightning pendant" chance="4714" />
-		<item id="strange talisman" chance="3210" />
-		<item id="lightning headband" chance="3009" />
-		<item id="wand of defiance" chance="1705" />
+		<item name="platinum coin" chance="100000" countmax="5" />
+		<item name="spectral silver nugget" chance="10725" />
+		<item name="wand of starstorm" chance="8143" />
+		<item name="emerald bangle" chance="5164" />
+		<item name="lightning pendant" chance="4667" />
+		<item name="strange talisman" chance="3277" />
+		<item name="lightning headband" chance="2979" />
+		<item name="wand of defiance" chance="1688" />
 	</loot>
 </monster>

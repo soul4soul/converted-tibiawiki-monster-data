@@ -1,6 +1,7 @@
-﻿<monster name="Gladiator" nameDescription="a gladiator" experience="90" speed="196" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Gladiator" nameDescription="a gladiator" experience="90" speed="196" manacost="0">
 	<health now="185" max="185" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="131" head="78" body="3" legs="79" feet="114" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -53,15 +55,15 @@
 		<voice sentence="Take this!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="50078" countmax="30" />
-		<item id="meat" chance="18948" />
-		<item id="sword" chance="12395" />
-		<item id="plate shield" chance="10211" />
-		<item id="mace" chance="10197" />
-		<item id="chain helmet" chance="5049" />
-		<item id="brass armor" chance="2680" />
-		<item id="steel shield" chance="893" />
-		<item id="iron helmet" chance="525" />
-		<item id="belted cape" chance="411" />
+		<item name="gold coin" chance="50078" countmax="30" />
+		<item name="meat" chance="18948" />
+		<item name="sword" chance="12395" />
+		<item name="plate shield" chance="10211" />
+		<item name="mace" chance="10197" />
+		<item name="chain helmet" chance="5049" />
+		<item name="brass armor" chance="2680" />
+		<item name="steel shield" chance="893" />
+		<item name="iron helmet" chance="525" />
+		<item name="belted cape" chance="411" />
 	</loot>
 </monster>

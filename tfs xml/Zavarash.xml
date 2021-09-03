@@ -1,4 +1,5 @@
-﻿<monster name="Zavarash" nameDescription="" experience="21000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Zavarash" nameDescription="" experience="21000" speed="0" manacost="0">
 	<health now="35000" max="35000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="40" />
+		<element energyPercent="40" />
 		<element earthPercent="40" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -48,61 +50,36 @@
 		<voice sentence="Harrr, Harrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="cluster of solace" chance="100000" />
-		<item id="demon horn" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="197" />
-		<item id="platinum coin" chance="100000" countmax="50" />
-		<item id="demonic essence" chance="59091" />
-		<item id="unrealized dream" chance="59091" />
-		<item id="giant shimmering pearl" chance="42832" />
-		<item id="violet crystal shard" chance="38287" countmax="8" />
-		<item id="great mana potion" chance="34790" countmax="10" />
-		<item id="great spirit potion" chance="33042" countmax="10" />
-		<item id="ultimate health potion" chance="32168" countmax="10" />
-		<item id="blue crystal shard" chance="31643" countmax="8" />
-		<item id="green crystal shard" chance="30070" countmax="8" />
-		<item id="green gem" chance="20455" />
-		<item id="guardian halberd" chance="15909" />
-		<item id="guardian shield" chance="15909" />
-		<item id="blue gem" chance="15559" />
-		<item id="gold ingot" chance="15385" />
-		<item id="bonebreaker" chance="15035" />
-		<item id="heavy mace" chance="12937" />
-		<item id="crown shield" chance="11538" />
-		<item id="dream warden mask" chance="10490" />
-		<item id="paladin armor" chance="9615" />
-		<item id="diamond sceptre" chance="8392" />
-		<item id="demon shield" chance="6294" />
-		<item id="onyx flail" chance="4021" />
-		<item id="mastermind shield" chance="1399" />
-		<item id="demonbone" chance="699" />
-		<item id="skullcracker armor" chance="524" />
-		<item id="lavos armor" chance="350" />
-		<item id="obsidian truncheon" chance="175" />
-		<item id="cluster of solace" chance="9266" />
-		<item id="demon horn" chance="9266" />
-		<item id="gold coin" chance="9266" countmax="183" />
-		<item id="platinum coin" chance="9266" countmax="49" />
-		<item id="giant shimmering pearl" chance="4895" />
-		<item id="blue crystal shard" chance="3671" countmax="8" />
-		<item id="great spirit potion" chance="3671" countmax="10" />
-		<item id="ultimate health potion" chance="3322" countmax="10" />
-		<item id="violet crystal shard" chance="3322" countmax="8" />
-		<item id="great mana potion" chance="2273" countmax="10" />
-		<item id="green crystal shard" chance="2273" countmax="8" />
-		<item id="guardian shield" chance="1923" />
-		<item id="blue gem" chance="1748" />
-		<item id="dream warden mask" chance="1748" />
-		<item id="green gem" chance="1573" />
-		<item id="guardian halberd" chance="1573" />
-		<item id="bonebreaker" chance="1224" />
-		<item id="heavy mace" chance="1049" />
-		<item id="demon shield" chance="699" />
-		<item id="onyx flail" chance="699" />
-		<item id="gold ingot" chance="524" />
-		<item id="crown shield" chance="350" />
-		<item id="diamond sceptre" chance="350" />
-		<item id="paladin armor" chance="350" />
-		<item id="obsidian truncheon" chance="175" />
+		<item name="cluster of solace" chance="100000" />
+		<item name="demon horn" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="197" />
+		<item name="platinum coin" chance="100000" countmax="50" />
+		<item name="demonic essence" chance="59091" />
+		<item name="unrealized dream" chance="59091" />
+		<item name="giant shimmering pearl" chance="42832" />
+		<item name="violet crystal shard" chance="38287" countmax="8" />
+		<item name="great mana potion" chance="34790" countmax="10" />
+		<item name="great spirit potion" chance="33042" countmax="10" />
+		<item name="ultimate health potion" chance="32168" countmax="10" />
+		<item name="blue crystal shard" chance="31643" countmax="8" />
+		<item name="green crystal shard" chance="30070" countmax="8" />
+		<item name="green gem" chance="20455" />
+		<item name="guardian halberd" chance="15909" />
+		<item name="guardian shield" chance="15909" />
+		<item name="blue gem" chance="15559" />
+		<item name="gold ingot" chance="15385" />
+		<item name="bonebreaker" chance="15035" />
+		<item name="heavy mace" chance="12937" />
+		<item name="crown shield" chance="11538" />
+		<item name="dream warden mask" chance="10490" />
+		<item name="paladin armor" chance="9615" />
+		<item name="diamond sceptre" chance="8392" />
+		<item name="demon shield" chance="6294" />
+		<item name="onyx flail" chance="4021" />
+		<item name="mastermind shield" chance="1399" />
+		<item name="demonbone" chance="699" />
+		<item name="skullcracker armor" chance="524" />
+		<item name="lavos armor" chance="350" />
+		<item name="obsidian truncheon" chance="175" />
 	</loot>
 </monster>

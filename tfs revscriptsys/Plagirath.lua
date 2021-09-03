@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -97,24 +98,7 @@ monster.loot = {
 	{id = "great mana potion", chance = 50000, maxCount = 5},
 	{id = "red crystal fragment", chance = 50000, maxCount = 6},
 	{id = "terra mantle", chance = 50000},
-	{id = "ultimate health potion", chance = 50000, maxCount = 5},
-	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "great spirit potion", chance = 100000, maxCount = 5},
-	{id = "green crystal fragment", chance = 100000, maxCount = 6},
-	{id = "platinum coin", chance = 100000, maxCount = 30},
-	{id = "silver token", chance = 100000},
-	{id = "ultimate health potion", chance = 100000, maxCount = 5},
-	{id = "cyan crystal fragment", chance = 100000, maxCount = 6},
-	{id = "demonic essence", chance = 100000},
-	{id = "red crystal fragment", chance = 100000, maxCount = 6},
-	{id = "small emerald", chance = 100000, maxCount = 5},
-	{id = "giant shimmering pearl", chance = 50000},
-	{id = "green gem", chance = 50000},
-	{id = "muck rod", chance = 50000},
-	{id = "red gem", chance = 50000},
-	{id = "ring of healing", chance = 50000},
-	{id = "small amethyst", chance = 50000, maxCount = 5},
-	{id = "terra legs", chance = 50000}
+	{id = "ultimate health potion", chance = 50000, maxCount = 5}
 }
 
 mType:register(monster)

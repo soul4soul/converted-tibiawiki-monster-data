@@ -5,7 +5,7 @@ monster.name = "Minotaur Invader"
 monster.description = "a minotaur invader"
 monster.experience = 1600
 monster.outfit = {
-	lookType = 0,
+	lookType = 29,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,23 +90,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "platinum coin", chance = 49202, maxCount = 4},
-	{id = "piece of warrior armor", chance = 14811},
-	{id = "small topaz", chance = 10282, maxCount = 2},
-	{id = "minotaur horn", chance = 8315, maxCount = 2},
-	{id = "minotaur leather", chance = 5605},
-	{id = "small amethyst", chance = 5141},
-	{id = "small ruby", chance = 4566},
-	{id = "mooh'tah plate", chance = 965},
-	{id = "red gem", chance = 817},
-	{id = "blue piece of cloth", chance = 798},
-	{id = "guardian shield", chance = 742},
-	{id = "knight axe", chance = 724},
-	{id = "red piece of cloth", chance = 687},
-	{id = "warrior helmet", chance = 650},
-	{id = "minotaur trophy", chance = 204},
-	{id = "titan axe", chance = 204},
-	{id = "blue gem", chance = 186}
+	{id = "platinum coin", chance = 49196, maxCount = 4},
+	{id = "piece of warrior armor", chance = 14748},
+	{id = "small topaz", chance = 10307, maxCount = 2},
+	{id = "minotaur horn", chance = 8279, maxCount = 2},
+	{id = "minotaur leather", chance = 5592},
+	{id = "small amethyst", chance = 5154},
+	{id = "small ruby", chance = 4587},
+	{id = "mooh'tah plate", chance = 969},
+	{id = "red gem", chance = 804},
+	{id = "blue piece of cloth", chance = 786},
+	{id = "knight axe", chance = 749},
+	{id = "guardian shield", chance = 731},
+	{id = "red piece of cloth", chance = 676},
+	{id = "warrior helmet", chance = 640},
+	{id = "minotaur trophy", chance = 201},
+	{id = "titan axe", chance = 201},
+	{id = "blue gem", chance = 183}
 }
 
 mType:register(monster)

@@ -5,7 +5,7 @@ monster.name = "Scorpion"
 monster.description = "a scorpion"
 monster.experience = 45
 monster.outfit = {
-	lookType = 0,
+	lookType = 43,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,7 +87,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "scorpion tail", chance = 5057}
+	{id = "scorpion tail", chance = 5058}
 }
 
 mType:register(monster)

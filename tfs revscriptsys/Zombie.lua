@@ -5,7 +5,7 @@ monster.name = "Zombie"
 monster.description = "a zombie"
 monster.experience = 280
 monster.outfit = {
-	lookType = 0,
+	lookType = 311,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,16 +91,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 82081, maxCount = 65},
-	{id = "brass helmet", chance = 9726},
-	{id = "mace", chance = 7793},
-	{id = "battle hammer", chance = 6841},
-	{id = "heavily rusted armor", chance = 5843},
-	{id = "steel helmet", chance = 4857},
-	{id = "halberd", chance = 3832},
-	{id = "life ring", chance = 975},
+	{id = "gold coin", chance = 82061, maxCount = 65},
+	{id = "brass helmet", chance = 9732},
+	{id = "mace", chance = 7795},
+	{id = "battle hammer", chance = 6838},
+	{id = "heavily rusted armor", chance = 5852},
+	{id = "steel helmet", chance = 4855},
+	{id = "halberd", chance = 3830},
+	{id = "life ring", chance = 974},
 	{id = "mana potion", chance = 772},
-	{id = "simple dress", chance = 547}
+	{id = "simple dress", chance = 546}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Swamp Troll" nameDescription="a swamp troll" experience="25" speed="128" manacost="320">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Swamp Troll" nameDescription="a swamp troll" experience="25" speed="128" manacost="320">
 	<health now="55" max="55" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="76" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="15" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -48,34 +50,16 @@
 		<voice sentence="Grrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="fish" chance="59953" />
-		<item id="gold coin" chance="49951" countmax="5" />
-		<item id="torch" chance="15216" />
-		<item id="spear" chance="13053" />
-		<item id="mouldy cheese" chance="10118" />
-		<item id="leather boots" chance="9847" />
-		<item id="swamp grass" chance="3087" />
-		<item id="medicine pouch" chance="2411" />
-		<item id="wood" chance="2078" />
-		<item id="troll green" chance="1070" />
-		<item id="fishing rod" chance="77" />
-		<item id="fish" chance="41565" />
-		<item id="gold coin" chance="34681" countmax="5" />
-		<item id="torch" chance="10260" />
-		<item id="spear" chance="9253" />
-		<item id="leather boots" chance="7025" />
-		<item id="swamp grass" chance="2157" />
-		<item id="medicine pouch" chance="1738" />
-		<item id="wood" chance="1260" />
-		<item id="troll green" chance="785" />
-		<item id="fishing rod" chance="65" />
-		<item id="fish" chance="1935" />
-		<item id="gold coin" chance="1551" countmax="5" />
-		<item id="torch" chance="478" />
-		<item id="spear" chance="397" />
-		<item id="leather boots" chance="319" />
-		<item id="swamp grass" chance="85" />
-		<item id="troll green" chance="31" />
-		<item id="fishing rod" chance="4" />
+		<item name="fish" chance="59928" />
+		<item name="gold coin" chance="49966" countmax="5" />
+		<item name="torch" chance="15221" />
+		<item name="spear" chance="13045" />
+		<item name="mouldy cheese" chance="10127" />
+		<item name="leather boots" chance="9839" />
+		<item name="swamp grass" chance="3083" />
+		<item name="medicine pouch" chance="2415" />
+		<item name="wood" chance="2067" />
+		<item name="troll green" chance="1072" />
+		<item name="fishing rod" chance="78" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Dworc Voodoomaster" nameDescription="a dworc voodoomaster" experience="55" speed="150" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dworc Voodoomaster" nameDescription="a dworc voodoomaster" experience="55" speed="150" manacost="0">
 	<health now="80" max="80" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="214" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
@@ -53,16 +55,16 @@
 		<voice sentence="Prek tars, dekklep zurk." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="74844" countmax="17" />
-		<item id="leather armor" chance="10083" />
-		<item id="bone" chance="5811" />
-		<item id="torch" chance="5552" />
-		<item id="big bone" chance="3090" />
-		<item id="skull" chance="1963" countmax="3" />
-		<item id="poison dagger" chance="1017" />
-		<item id="health potion" chance="593" />
-		<item id="strange symbol" chance="504" />
-		<item id="tribal mask" chance="478" />
-		<item id="voodoo doll" chance="122" />
+		<item name="gold coin" chance="74844" countmax="17" />
+		<item name="leather armor" chance="10082" />
+		<item name="bone" chance="5813" />
+		<item name="torch" chance="5551" />
+		<item name="big bone" chance="3089" />
+		<item name="skull" chance="1963" countmax="3" />
+		<item name="poison dagger" chance="1017" />
+		<item name="health potion" chance="592" />
+		<item name="strange symbol" chance="503" />
+		<item name="tribal mask" chance="478" />
+		<item name="voodoo doll" chance="122" />
 	</loot>
 </monster>

@@ -1,4 +1,5 @@
-﻿<monster name="Cublarc The Plunderer" nameDescription="" experience="400" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Cublarc The Plunderer" nameDescription="" experience="400" speed="0" manacost="0">
 	<health now="400" max="400" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -46,14 +48,14 @@
 		<voice sentence="Orc arga Huummmak!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="54135" countmax="85" />
-		<item id="meat" chance="24812" />
-		<item id="orcish axe" chance="18045" />
-		<item id="shaggy tail" chance="12782" />
-		<item id="bow" chance="4511" />
-		<item id="disgusting trophy" chance="4511" />
-		<item id="orc tooth" chance="2256" />
-		<item id="silkweaver bow" chance="2256" />
-		<item id="crossbow" chance="1504" />
+		<item name="gold coin" chance="54135" countmax="85" />
+		<item name="meat" chance="24812" />
+		<item name="orcish axe" chance="18045" />
+		<item name="shaggy tail" chance="12782" />
+		<item name="bow" chance="4511" />
+		<item name="disgusting trophy" chance="4511" />
+		<item name="orc tooth" chance="2256" />
+		<item name="silkweaver bow" chance="2256" />
+		<item name="crossbow" chance="1504" />
 	</loot>
 </monster>

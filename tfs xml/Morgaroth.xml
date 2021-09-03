@@ -1,4 +1,5 @@
-﻿<monster name="Morgaroth" nameDescription="" experience="15000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Morgaroth" nameDescription="" experience="15000" speed="0" manacost="0">
 	<health now="55000" max="55000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="80" />
+		<element energyPercent="80" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -55,75 +57,58 @@
 		<voice sentence="THE TRIANGLE OF TERROR WILL RISE!" yell="false" />
 	</voices>
 	<loot>
-		<item id="demonic essence" chance="95455" />
-		<item id="platinum coin" chance="95455" countmax="74" />
-		<item id="green gem" chance="50000" />
-		<item id="great mana potion" chance="45455" />
-		<item id="small amethyst" chance="36364" countmax="18" />
-		<item id="the devileye" chance="36364" />
-		<item id="red tome" chance="27273" />
-		<item id="small emerald" chance="27273" countmax="6" />
-		<item id="small sapphire" chance="27273" countmax="8" />
-		<item id="ultimate health potion" chance="27273" />
-		<item id="chain bolter" chance="22727" />
-		<item id="dark lord's cape" chance="22727" />
-		<item id="death ring" chance="22727" />
-		<item id="demon horn" chance="22727" countmax="2" />
-		<item id="ring of healing" chance="22727" />
-		<item id="talon" chance="22727" countmax="7" />
-		<item id="the ironworker" chance="22727" />
-		<item id="double axe" chance="18182" />
-		<item id="fireborn giant armor" chance="18182" />
-		<item id="great spirit potion" chance="18182" />
-		<item id="magic plate armor" chance="18182" />
-		<item id="might ring" chance="18182" />
-		<item id="mind stone" chance="18182" />
-		<item id="royal crossbow" chance="18182" />
-		<item id="stealth ring" chance="18182" />
-		<item id="teddy bear" chance="18182" />
-		<item id="assassin star" chance="13636" countmax="28" />
-		<item id="black pearl" chance="13636" countmax="15" />
-		<item id="demonbone" chance="13636" />
-		<item id="golden mug" chance="13636" />
-		<item id="morgaroth's heart" chance="13636" />
-		<item id="obsidian truncheon" chance="13636" />
-		<item id="the stomper" chance="13636" />
-		<item id="white pearl" chance="13636" countmax="13" />
-		<item id="blue gem" chance="9091" />
-		<item id="demon shield" chance="9091" />
-		<item id="energy ring" chance="9091" />
-		<item id="giant sword" chance="9091" />
-		<item id="gold ring" chance="9091" />
-		<item id="golden legs" chance="9091" />
-		<item id="life crystal" chance="9091" />
-		<item id="magic light wand" chance="9091" />
-		<item id="orb" chance="9091" />
-		<item id="steel boots" chance="9091" />
-		<item id="strange symbol" chance="9091" />
-		<item id="thunder hammer" chance="9091" />
-		<item id="crystal ring" chance="4545" />
-		<item id="dragon robe" chance="4545" />
-		<item id="fire axe" chance="4545" />
-		<item id="great health potion" chance="4545" />
-		<item id="mastermind shield" chance="4545" />
-		<item id="molten plate" chance="4545" />
-		<item id="small diamond" chance="4545" countmax="5" />
-		<item id="platinum coin" chance="18182" countmax="21" />
-		<item id="great spirit potion" chance="13636" countmax="5" />
-		<item id="stealth ring" chance="13636" />
-		<item id="gold coin" chance="9091" countmax="100" />
-		<item id="gold ring" chance="9091" />
-		<item id="magma coat" chance="9091" />
-		<item id="white pearl" chance="9091" countmax="5" />
-		<item id="assassin star" chance="4545" countmax="15" />
-		<item id="crystal ring" chance="4545" />
-		<item id="energy ring" chance="4545" />
-		<item id="life crystal" chance="4545" />
-		<item id="onyx flail" chance="4545" />
-		<item id="small amethyst" chance="4545" countmax="5" />
-		<item id="small diamond" chance="4545" countmax="5" />
-		<item id="strange symbol" chance="4545" />
-		<item id="talon" chance="4545" countmax="2" />
-		<item id="ultimate health potion" chance="4545" countmax="5" />
+		<item name="demonic essence" chance="95455" />
+		<item name="platinum coin" chance="95455" countmax="74" />
+		<item name="green gem" chance="50000" />
+		<item name="great mana potion" chance="45455" />
+		<item name="small amethyst" chance="36364" countmax="18" />
+		<item name="the devileye" chance="36364" />
+		<item name="red tome" chance="27273" />
+		<item name="small emerald" chance="27273" countmax="6" />
+		<item name="small sapphire" chance="27273" countmax="8" />
+		<item name="ultimate health potion" chance="27273" />
+		<item name="chain bolter" chance="22727" />
+		<item name="dark lord's cape" chance="22727" />
+		<item name="death ring" chance="22727" />
+		<item name="demon horn" chance="22727" countmax="2" />
+		<item name="ring of healing" chance="22727" />
+		<item name="talon" chance="22727" countmax="7" />
+		<item name="the ironworker" chance="22727" />
+		<item name="double axe" chance="18182" />
+		<item name="fireborn giant armor" chance="18182" />
+		<item name="great spirit potion" chance="18182" />
+		<item name="magic plate armor" chance="18182" />
+		<item name="might ring" chance="18182" />
+		<item name="mind stone" chance="18182" />
+		<item name="royal crossbow" chance="18182" />
+		<item name="stealth ring" chance="18182" />
+		<item name="teddy bear" chance="18182" />
+		<item name="assassin star" chance="13636" countmax="28" />
+		<item name="black pearl" chance="13636" countmax="15" />
+		<item name="demonbone" chance="13636" />
+		<item name="golden mug" chance="13636" />
+		<item name="morgaroth's heart" chance="13636" />
+		<item name="obsidian truncheon" chance="13636" />
+		<item name="the stomper" chance="13636" />
+		<item name="white pearl" chance="13636" countmax="13" />
+		<item name="blue gem" chance="9091" />
+		<item name="demon shield" chance="9091" />
+		<item name="energy ring" chance="9091" />
+		<item name="giant sword" chance="9091" />
+		<item name="gold ring" chance="9091" />
+		<item name="golden legs" chance="9091" />
+		<item name="life crystal" chance="9091" />
+		<item name="magic light wand" chance="9091" />
+		<item name="orb" chance="9091" />
+		<item name="steel boots" chance="9091" />
+		<item name="strange symbol" chance="9091" />
+		<item name="thunder hammer" chance="9091" />
+		<item name="crystal ring" chance="4545" />
+		<item name="dragon robe" chance="4545" />
+		<item name="fire axe" chance="4545" />
+		<item name="great health potion" chance="4545" />
+		<item name="mastermind shield" chance="4545" />
+		<item name="molten plate" chance="4545" />
+		<item name="small diamond" chance="4545" countmax="5" />
 	</loot>
 </monster>

@@ -1,4 +1,5 @@
-﻿<monster name="Infernal Demon" nameDescription="an infernal demon" experience="15560" speed="400" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Infernal Demon" nameDescription="an infernal demon" experience="15560" speed="400" manacost="0">
 	<health now="32000" max="32000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="30" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="40" />
 		<element lifedrainPercent="0" />
@@ -48,14 +50,5 @@
 		<voice sentence="The smell of fear follows you." yell="false" />
 		<voice sentence="Your soul will burn." yell="false" />
 	</voices>
-	<loot>
-		<item id="crystal coin" chance="100000" />
-		<item id="ultimate health potion" chance="100000" countmax="4" />
-		<item id="small diamond" chance="100000" />
-		<item id="cyan crystal fragment" chance="100000" />
-		<item id="giant sword" chance="100000" />
-		<item id="gold ingot" chance="100000" />
-		<item id="onyx chip" chance="100000" />
-		<item id="red crystal fragment" chance="100000" />
-	</loot>
+	<loot />
 </monster>

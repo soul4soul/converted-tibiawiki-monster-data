@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -110,16 +111,7 @@ monster.loot = {
 	{id = "boots of haste", chance = 592},
 	{id = "crystal of power", chance = 592},
 	{id = "skull helmet", chance = 592},
-	{id = "spellbook of mind control", chance = 592},
-	{id = "gold coin", chance = 2367, maxCount = 250},
-	{id = "great health potion", chance = 1775, maxCount = 5},
-	{id = "piggy bank", chance = 1775},
-	{id = "platinum coin", chance = 1775, maxCount = 9},
-	{id = "red piece of cloth", chance = 1183},
-	{id = "assassin star", chance = 592, maxCount = 10},
-	{id = "bullseye potion", chance = 592},
-	{id = "elemental spikes", chance = 592},
-	{id = "small sapphire", chance = 592, maxCount = 5}
+	{id = "spellbook of mind control", chance = 592}
 }
 
 mType:register(monster)

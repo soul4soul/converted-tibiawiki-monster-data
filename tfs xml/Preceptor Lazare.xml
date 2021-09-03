@@ -1,4 +1,5 @@
-﻿<monster name="Preceptor Lazare" nameDescription="" experience="9" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Preceptor Lazare" nameDescription="" experience="9" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="25" />
-		<element EnergyPercent="50" />
+		<element energyPercent="50" />
 		<element earthPercent="50" />
 		<element firePercent="50" />
 		<element lifedrainPercent="0" />
@@ -46,34 +48,31 @@
 		<voice sentence="There is nothing here for you and you will die alone." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="91753" countmax="200" />
-		<item id="platinum coin" chance="91753" countmax="15" />
-		<item id="ham" chance="68557" />
-		<item id="demonic essence" chance="46392" />
-		<item id="great health potion" chance="35052" countmax="3" />
-		<item id="soul orb" chance="28351" />
-		<item id="flask of demonic blood" chance="25773" />
-		<item id="great mana potion" chance="24227" countmax="3" />
-		<item id="assassin star" chance="21649" countmax="10" />
-		<item id="small diamond" chance="20103" countmax="5" />
-		<item id="small ruby" chance="20103" countmax="5" />
-		<item id="small topaz" chance="18557" countmax="5" />
-		<item id="small emerald" chance="17010" countmax="5" />
-		<item id="small amethyst" chance="15979" countmax="5" />
-		<item id="onyx arrow" chance="11856" countmax="15" />
-		<item id="red gem" chance="10825" />
-		<item id="small enchanted amethyst" chance="8247" />
-		<item id="giant shimmering pearl" chance="6701" />
-		<item id="gold ingot" chance="6701" countmax="2" />
-		<item id="titan axe" chance="6701" />
-		<item id="spiked squelcher" chance="5670" />
-		<item id="knight armor" chance="5155" />
-		<item id="green gem" chance="3093" />
-		<item id="violet gem" chance="3093" />
-		<item id="war axe" chance="2062" />
-		<item id="golden armor" chance="1031" />
-		<item id="small enchanted amethyst" chance="17526" />
-		<item id="falcon rod" chance="515" />
-		<item id="patch of fine cloth" chance="515" />
+		<item name="gold coin" chance="93701" countmax="200" />
+		<item name="platinum coin" chance="93701" countmax="15" />
+		<item name="ham" chance="69291" />
+		<item name="demonic essence" chance="48425" />
+		<item name="great health potion" chance="37402" countmax="3" />
+		<item name="soul orb" chance="32677" />
+		<item name="flask of demonic blood" chance="25197" />
+		<item name="great mana potion" chance="24803" countmax="3" />
+		<item name="assassin star" chance="23228" countmax="10" />
+		<item name="small diamond" chance="22835" countmax="5" />
+		<item name="small topaz" chance="18898" countmax="5" />
+		<item name="small ruby" chance="18504" countmax="5" />
+		<item name="small emerald" chance="17717" countmax="5" />
+		<item name="small amethyst" chance="15748" countmax="5" />
+		<item name="onyx arrow" chance="12992" countmax="15" />
+		<item name="red gem" chance="12992" />
+		<item name="giant shimmering pearl" chance="7480" />
+		<item name="gold ingot" chance="7087" countmax="2" />
+		<item name="titan axe" chance="6693" />
+		<item name="small enchanted amethyst" chance="6299" />
+		<item name="spiked squelcher" chance="5906" />
+		<item name="knight armor" chance="4724" />
+		<item name="violet gem" chance="3543" />
+		<item name="war axe" chance="3150" />
+		<item name="green gem" chance="2362" />
+		<item name="golden armor" chance="787" />
 	</loot>
 </monster>

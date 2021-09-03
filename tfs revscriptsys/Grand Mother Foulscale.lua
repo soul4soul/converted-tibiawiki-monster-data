@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,17 +91,17 @@ monster.defenses = {
 monster.loot = {
 	{id = "green dragon leather", chance = 100000},
 	{id = "green dragon scale", chance = 100000},
-	{id = "gold coin", chance = 87879, maxCount = 97},
-	{id = "dragon ham", chance = 33333},
-	{id = "plate legs", chance = 18182},
-	{id = "double axe", chance = 15152},
-	{id = "dragon hammer", chance = 12121},
-	{id = "crossbow", chance = 9091},
-	{id = "burst arrow", chance = 6061, maxCount = 7},
-	{id = "dragon shield", chance = 6061},
-	{id = "steel helmet", chance = 6061},
-	{id = "broadsword", chance = 3030},
-	{id = "dragonbone staff", chance = 3030}
+	{id = "gold coin", chance = 88235, maxCount = 97},
+	{id = "dragon ham", chance = 32353},
+	{id = "plate legs", chance = 17647},
+	{id = "double axe", chance = 14706},
+	{id = "dragon hammer", chance = 11765},
+	{id = "crossbow", chance = 8824},
+	{id = "burst arrow", chance = 5882, maxCount = 7},
+	{id = "dragon shield", chance = 5882},
+	{id = "steel helmet", chance = 5882},
+	{id = "broadsword", chance = 2941},
+	{id = "dragonbone staff", chance = 2941}
 }
 
 mType:register(monster)

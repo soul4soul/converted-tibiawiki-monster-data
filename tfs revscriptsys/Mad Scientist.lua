@@ -5,12 +5,12 @@ monster.name = "Mad Scientist"
 monster.description = "a mad scientist"
 monster.experience = 205
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
+	lookType = 133,
+	lookHead = 39,
 	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookLegs = 19,
+	lookFeet = 20,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -91,16 +92,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 59959, maxCount = 115},
-	{id = "health potion", chance = 19914},
-	{id = "mana potion", chance = 19650},
-	{id = "white mushroom", chance = 7998, maxCount = 3},
-	{id = "powder herb", chance = 6111},
-	{id = "magic light wand", chance = 2034},
-	{id = "life crystal", chance = 2020},
-	{id = "cookie", chance = 1209, maxCount = 5},
-	{id = "cream cake", chance = 805},
-	{id = "small enchanted amethyst", chance = 501},
+	{id = "gold coin", chance = 59979, maxCount = 115},
+	{id = "health potion", chance = 19929},
+	{id = "mana potion", chance = 19646},
+	{id = "white mushroom", chance = 8009, maxCount = 3},
+	{id = "powder herb", chance = 6105},
+	{id = "magic light wand", chance = 2032},
+	{id = "life crystal", chance = 2015},
+	{id = "cookie", chance = 1206, maxCount = 5},
+	{id = "cream cake", chance = 806},
+	{id = "small enchanted amethyst", chance = 500},
 	{id = "mastermind potion", chance = 120}
 }
 

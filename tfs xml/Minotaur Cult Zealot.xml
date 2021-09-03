@@ -1,6 +1,7 @@
-﻿<monster name="Minotaur Cult Zealot" nameDescription="a minotaur cult zealot" experience="1350" speed="250" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Minotaur Cult Zealot" nameDescription="a minotaur cult zealot" experience="1350" speed="250" manacost="0">
 	<health now="1800" max="1800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="29" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -43,24 +45,24 @@
 	</attacks>
 	<defenses armor="35" defense="35" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="150" />
-		<item id="platinum coin" chance="39307" countmax="3" />
-		<item id="purple robe" chance="16560" />
-		<item id="snakebite rod" chance="12169" />
-		<item id="strong mana potion" chance="11707" countmax="3" />
-		<item id="cultish robe" chance="9756" />
-		<item id="taurus mace" chance="6470" />
-		<item id="minotaur leather" chance="5109" />
-		<item id="small amethyst" chance="2978" countmax="2" />
-		<item id="small emerald" chance="2721" countmax="2" />
-		<item id="minotaur horn" chance="2644" countmax="2" />
-		<item id="small sapphire" chance="2644" countmax="2" />
-		<item id="small diamond" chance="2388" countmax="2" />
-		<item id="small topaz" chance="2311" countmax="2" />
-		<item id="small ruby" chance="2157" countmax="2" />
-		<item id="red piece of cloth" chance="2080" />
-		<item id="red gem" chance="513" />
-		<item id="yellow gem" chance="436" />
-		<item id="minotaur trophy" chance="103" />
+		<item name="gold coin" chance="100000" countmax="150" />
+		<item name="platinum coin" chance="39307" countmax="3" />
+		<item name="purple robe" chance="16560" />
+		<item name="snakebite rod" chance="12169" />
+		<item name="strong mana potion" chance="11707" countmax="3" />
+		<item name="cultish robe" chance="9756" />
+		<item name="taurus mace" chance="6470" />
+		<item name="minotaur leather" chance="5109" />
+		<item name="small amethyst" chance="2978" countmax="2" />
+		<item name="small emerald" chance="2721" countmax="2" />
+		<item name="minotaur horn" chance="2644" countmax="2" />
+		<item name="small sapphire" chance="2644" countmax="2" />
+		<item name="small diamond" chance="2388" countmax="2" />
+		<item name="small topaz" chance="2311" countmax="2" />
+		<item name="small ruby" chance="2157" countmax="2" />
+		<item name="red piece of cloth" chance="2080" />
+		<item name="red gem" chance="513" />
+		<item name="yellow gem" chance="436" />
+		<item name="minotaur trophy" chance="103" />
 	</loot>
 </monster>

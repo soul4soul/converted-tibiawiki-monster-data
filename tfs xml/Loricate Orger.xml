@@ -1,6 +1,7 @@
-﻿<monster name="Loricate Orger" nameDescription="a loricate orger" experience="570" speed="230" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Loricate Orger" nameDescription="a loricate orger" experience="570" speed="230" manacost="0">
 	<health now="750" max="750" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1255" head="79" body="6" legs="94" feet="2" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,17 +42,17 @@
 	</elements>
 	<defenses armor="37" defense="37" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="3" />
-		<item id="brass helmet" chance="9699" />
-		<item id="plate armor" chance="9079" />
-		<item id="copper shield" chance="6997" />
-		<item id="soldier helmet" chance="6510" />
-		<item id="brass armor" chance="4429" />
-		<item id="studded shield" chance="3986" />
-		<item id="death ring" chance="3676" />
-		<item id="bone shield" chance="3543" />
-		<item id="crowbar" chance="3100" />
-		<item id="studded armor" chance="2613" />
-		<item id="viking helmet" chance="2613" />
+		<item name="platinum coin" chance="100000" countmax="3" />
+		<item name="brass helmet" chance="9699" />
+		<item name="plate armor" chance="9079" />
+		<item name="copper shield" chance="6997" />
+		<item name="soldier helmet" chance="6510" />
+		<item name="brass armor" chance="4429" />
+		<item name="studded shield" chance="3986" />
+		<item name="death ring" chance="3676" />
+		<item name="bone shield" chance="3543" />
+		<item name="crowbar" chance="3100" />
+		<item name="studded armor" chance="2613" />
+		<item name="viking helmet" chance="2613" />
 	</loot>
 </monster>

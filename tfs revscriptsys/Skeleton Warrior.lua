@@ -5,7 +5,7 @@ monster.name = "Skeleton Warrior"
 monster.description = "a skeleton warrior"
 monster.experience = 45
 monster.outfit = {
-	lookType = 0,
+	lookType = 298,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,13 +87,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bone", chance = 50537},
+	{id = "bone", chance = 50550},
 	{id = "gold coin", chance = 44145, maxCount = 10},
-	{id = "white mushroom", chance = 24979},
-	{id = "pelvis bone", chance = 10255},
-	{id = "mace", chance = 1969},
-	{id = "sword", chance = 1848},
-	{id = "brown mushroom", chance = 1782}
+	{id = "white mushroom", chance = 25005},
+	{id = "pelvis bone", chance = 10246},
+	{id = "mace", chance = 1967},
+	{id = "sword", chance = 1846},
+	{id = "brown mushroom", chance = 1781}
 }
 
 mType:register(monster)

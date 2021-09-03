@@ -1,6 +1,7 @@
-﻿<monster name="Barbarian Headsplitter" nameDescription="a barbarian headsplitter" experience="85" speed="168" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Barbarian Headsplitter" nameDescription="a barbarian headsplitter" experience="85" speed="168" manacost="0">
 	<health now="100" max="100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="253" head="115" body="86" legs="119" feet="113" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -49,17 +51,17 @@
 		<voice sentence="Die! Die! Die!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="75195" countmax="30" />
-		<item id="torch" chance="59838" />
-		<item id="brass helmet" chance="20182" />
-		<item id="knife" chance="14921" />
-		<item id="viking helmet" chance="4964" />
-		<item id="scale armor" chance="4047" />
-		<item id="skull" chance="3190" />
-		<item id="brown piece of cloth" chance="968" />
-		<item id="health potion" chance="532" />
-		<item id="life ring" chance="220" />
-		<item id="krimhorn helmet" chance="114" />
-		<item id="fur boots" chance="88" />
+		<item name="gold coin" chance="75193" countmax="30" />
+		<item name="torch" chance="59834" />
+		<item name="brass helmet" chance="20189" />
+		<item name="knife" chance="14934" />
+		<item name="viking helmet" chance="4966" />
+		<item name="scale armor" chance="4050" />
+		<item name="skull" chance="3188" />
+		<item name="brown piece of cloth" chance="971" />
+		<item name="health potion" chance="531" />
+		<item name="life ring" chance="220" />
+		<item name="krimhorn helmet" chance="114" />
+		<item name="fur boots" chance="88" />
 	</loot>
 </monster>

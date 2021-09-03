@@ -5,7 +5,7 @@ monster.name = "Swarmer"
 monster.description = "a swarmer"
 monster.experience = 350
 monster.outfit = {
-	lookType = 0,
+	lookType = 460,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,10 +91,10 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99998, maxCount = 75},
-	{id = "swarmer antenna", chance = 15284},
-	{id = "compound eye", chance = 11967},
+	{id = "swarmer antenna", chance = 15288},
+	{id = "compound eye", chance = 11955},
 	{id = "small emerald", chance = 977},
-	{id = "epee", chance = 431}
+	{id = "epee", chance = 432}
 }
 
 mType:register(monster)

@@ -1,4 +1,5 @@
-﻿<monster name="Grand Commander Soeren" nameDescription="" experience="10" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grand Commander Soeren" nameDescription="" experience="10" speed="0" manacost="0">
 	<health now="17" max="17" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="60" />
-		<element EnergyPercent="50" />
+		<element energyPercent="50" />
 		<element earthPercent="40" />
 		<element firePercent="50" />
 		<element lifedrainPercent="0" />
@@ -43,25 +45,24 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="platinum coin" chance="65119" countmax="5" />
-		<item id="small enchanted amethyst" chance="25368" />
-		<item id="great mana potion" chance="25255" countmax="3" />
-		<item id="great health potion" chance="25028" countmax="3" />
-		<item id="assassin star" chance="18233" countmax="10" />
-		<item id="small topaz" chance="16195" countmax="2" />
-		<item id="small diamond" chance="15176" countmax="2" />
-		<item id="small amethyst" chance="14270" countmax="2" />
-		<item id="small ruby" chance="14270" countmax="2" />
-		<item id="small emerald" chance="14043" countmax="2" />
-		<item id="onyx arrow" chance="11099" countmax="15" />
-		<item id="red gem" chance="2152" />
-		<item id="giant shimmering pearl" chance="1699" />
-		<item id="falcon crest" chance="1246" />
-		<item id="green gem" chance="906" />
-		<item id="violet gem" chance="793" />
-		<item id="patch of fine cloth" chance="680" />
-		<item id="damaged armor plates" chance="453" />
-		<item id="golden armor" chance="113" />
-		<item id="small enchanted amethyst" chance="2152" />
+		<item name="platinum coin" chance="66844" countmax="5" />
+		<item name="great health potion" chance="26461" countmax="3" />
+		<item name="great mana potion" chance="25505" countmax="3" />
+		<item name="small enchanted amethyst" chance="23804" />
+		<item name="assassin star" chance="18597" countmax="10" />
+		<item name="small topaz" chance="16366" countmax="2" />
+		<item name="small diamond" chance="15622" countmax="2" />
+		<item name="small ruby" chance="14772" countmax="2" />
+		<item name="small amethyst" chance="14665" countmax="2" />
+		<item name="small emerald" chance="14134" countmax="2" />
+		<item name="onyx arrow" chance="11690" countmax="15" />
+		<item name="red gem" chance="2232" />
+		<item name="giant shimmering pearl" chance="1594" />
+		<item name="falcon crest" chance="1169" />
+		<item name="green gem" chance="850" />
+		<item name="violet gem" chance="744" />
+		<item name="patch of fine cloth" chance="638" />
+		<item name="damaged armor plates" chance="425" />
+		<item name="golden armor" chance="106" />
 	</loot>
 </monster>

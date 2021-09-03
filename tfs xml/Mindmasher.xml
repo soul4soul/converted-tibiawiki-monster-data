@@ -1,4 +1,5 @@
-﻿<monster name="Mindmasher" nameDescription="" experience="6000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mindmasher" nameDescription="" experience="6000" speed="0" manacost="0">
 	<health now="9500" max="9500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -45,21 +47,21 @@
 		<voice sentence="Chrrr! Chrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="compound eye" chance="100000" countmax="2" />
-		<item id="dung ball (quest)" chance="100000" countmax="3" />
-		<item id="gold coin" chance="100000" countmax="233" />
-		<item id="platinum coin" chance="68182" countmax="4" />
-		<item id="great mana potion" chance="54545" countmax="2" />
-		<item id="great health potion" chance="45455" countmax="2" />
-		<item id="small emerald" chance="45455" countmax="2" />
-		<item id="ripper lance" chance="40909" />
-		<item id="small sapphire" chance="27273" countmax="2" />
-		<item id="yellow gem" chance="22727" />
-		<item id="dwarven ring" chance="13636" />
-		<item id="twin hooks" chance="13636" />
-		<item id="epee" chance="9091" />
-		<item id="spike sword" chance="9091" />
-		<item id="carapace shield" chance="4545" />
-		<item id="giant shimmering pearl" chance="4545" />
+		<item name="compound eye" chance="100000" countmax="2" />
+		<item name="dung ball (quest)" chance="100000" countmax="3" />
+		<item name="gold coin" chance="100000" countmax="233" />
+		<item name="platinum coin" chance="68182" countmax="4" />
+		<item name="great mana potion" chance="54545" countmax="2" />
+		<item name="great health potion" chance="45455" countmax="2" />
+		<item name="small emerald" chance="45455" countmax="2" />
+		<item name="ripper lance" chance="40909" />
+		<item name="small sapphire" chance="27273" countmax="2" />
+		<item name="yellow gem" chance="22727" />
+		<item name="dwarven ring" chance="13636" />
+		<item name="twin hooks" chance="13636" />
+		<item name="epee" chance="9091" />
+		<item name="spike sword" chance="9091" />
+		<item name="carapace shield" chance="4545" />
+		<item name="giant shimmering pearl" chance="4545" />
 	</loot>
 </monster>

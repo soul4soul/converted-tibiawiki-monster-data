@@ -1,6 +1,7 @@
-﻿<monster name="Penguin" nameDescription="a penguin" experience="1" speed="116" manacost="290">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Penguin" nameDescription="a penguin" experience="1" speed="116" manacost="290">
 	<health now="33" max="33" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="250" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,8 +45,8 @@
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="fish" chance="7809" countmax="2" />
-		<item id="green perch" chance="138" />
-		<item id="rainbow trout" chance="64" />
+		<item name="fish" chance="7792" countmax="2" />
+		<item name="green perch" chance="142" />
+		<item name="rainbow trout" chance="63" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Lizard Dragon Priest" nameDescription="a lizard dragon priest" experience="1320" speed="256" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lizard Dragon Priest" nameDescription="a lizard dragon priest" experience="1320" speed="256" manacost="0">
 	<health now="1450" max="1450" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="339" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="85" />
 		<element lifedrainPercent="0" />
@@ -48,21 +50,21 @@
 		<voice sentence="I ssssmell warm blood!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="93903" countmax="190" />
-		<item id="strong mana potion" chance="12108" />
-		<item id="dragon priest's wandtip" chance="9963" />
-		<item id="great mana potion" chance="8017" />
-		<item id="small amethyst" chance="4828" countmax="3" />
-		<item id="platinum coin" chance="4030" countmax="2" />
-		<item id="wand of inferno" chance="1552" />
-		<item id="lizard scale" chance="1088" />
-		<item id="lizard leather" chance="1062" />
-		<item id="terra rod" chance="1000" />
-		<item id="yellow gem" chance="981" />
-		<item id="bunch of ripe rice" chance="973" />
-		<item id="life ring" chance="790" />
-		<item id="focus cape" chance="674" />
-		<item id="zaoan shoes" chance="421" />
-		<item id="zaoan robe" chance="286" />
+		<item name="gold coin" chance="93901" countmax="190" />
+		<item name="strong mana potion" chance="12101" />
+		<item name="dragon priest's wandtip" chance="9959" />
+		<item name="great mana potion" chance="8011" />
+		<item name="small amethyst" chance="4832" countmax="3" />
+		<item name="platinum coin" chance="4025" countmax="2" />
+		<item name="wand of inferno" chance="1555" />
+		<item name="lizard scale" chance="1088" />
+		<item name="lizard leather" chance="1059" />
+		<item name="terra rod" chance="999" />
+		<item name="yellow gem" chance="982" />
+		<item name="bunch of ripe rice" chance="970" />
+		<item name="life ring" chance="790" />
+		<item name="focus cape" chance="672" />
+		<item name="zaoan shoes" chance="424" />
+		<item name="zaoan robe" chance="285" />
 	</loot>
 </monster>

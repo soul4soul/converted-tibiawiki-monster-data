@@ -1,6 +1,7 @@
-﻿<monster name="Orc Cultist" nameDescription="an orc cultist" experience="950" speed="190" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Orc Cultist" nameDescription="an orc cultist" experience="950" speed="190" manacost="0">
 	<health now="1350" max="1350" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="7" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,15 +42,15 @@
 	</elements>
 	<defenses armor="30" defense="30" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="215" />
-		<item id="strong health potion" chance="17425" />
-		<item id="orcish axe" chance="9161" />
-		<item id="ham" chance="8520" />
-		<item id="green piece of cloth" chance="5894" />
-		<item id="small topaz" chance="4356" countmax="2" />
-		<item id="cultish robe" chance="3459" />
-		<item id="brown crystal splinter" chance="1986" countmax="2" />
-		<item id="orc tusk" chance="1281" />
-		<item id="berserk potion" chance="641" />
+		<item name="gold coin" chance="100000" countmax="215" />
+		<item name="strong health potion" chance="17450" />
+		<item name="orcish axe" chance="8900" />
+		<item name="ham" chance="8750" />
+		<item name="green piece of cloth" chance="5600" />
+		<item name="small topaz" chance="4500" countmax="2" />
+		<item name="cultish robe" chance="3400" />
+		<item name="brown crystal splinter" chance="2200" countmax="2" />
+		<item name="orc tusk" chance="1000" />
+		<item name="berserk potion" chance="650" />
 	</loot>
 </monster>

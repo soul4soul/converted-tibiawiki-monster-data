@@ -1,4 +1,5 @@
-﻿<monster name="Zanakeph" nameDescription="" experience="9900" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Zanakeph" nameDescription="" experience="9900" speed="0" manacost="0">
 	<health now="13000" max="13000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -44,28 +46,28 @@
 		<voice sentence="FEEEED MY ETERNAL HUNGER!" yell="false" />
 	</voices>
 	<loot>
-		<item id="death ring" chance="100000" />
-		<item id="dragonbone staff" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="golden mug" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="10" />
-		<item id="unholy bone" chance="100000" countmax="3" />
-		<item id="gold ingot" chance="77647" />
-		<item id="demonic essence" chance="52941" />
-		<item id="knight armor" chance="47059" />
-		<item id="crown helmet" chance="43529" />
-		<item id="great health potion" chance="40000" countmax="4" />
-		<item id="small emerald" chance="38824" countmax="5" />
-		<item id="great spirit potion" chance="35294" countmax="3" />
-		<item id="slightly rusted armor" chance="35294" />
-		<item id="hardened bone" chance="32941" countmax="5" />
-		<item id="small sapphire" chance="31765" countmax="5" />
-		<item id="jade hat" chance="30588" />
-		<item id="great mana potion" chance="25882" countmax="3" />
-		<item id="golden armor" chance="14118" />
-		<item id="royal helmet" chance="5882" />
-		<item id="maxilla maximus" chance="4706" />
-		<item id="skull helmet" chance="4706" />
-		<item id="divine plate" chance="3529" />
+		<item name="death ring" chance="100000" />
+		<item name="dragonbone staff" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="golden mug" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="10" />
+		<item name="unholy bone" chance="100000" countmax="3" />
+		<item name="gold ingot" chance="77647" />
+		<item name="demonic essence" chance="52941" />
+		<item name="knight armor" chance="47059" />
+		<item name="crown helmet" chance="43529" />
+		<item name="great health potion" chance="40000" countmax="4" />
+		<item name="small emerald" chance="38824" countmax="5" />
+		<item name="great spirit potion" chance="35294" countmax="3" />
+		<item name="slightly rusted armor" chance="35294" />
+		<item name="hardened bone" chance="32941" countmax="5" />
+		<item name="small sapphire" chance="31765" countmax="5" />
+		<item name="jade hat" chance="30588" />
+		<item name="great mana potion" chance="25882" countmax="3" />
+		<item name="golden armor" chance="14118" />
+		<item name="royal helmet" chance="5882" />
+		<item name="maxilla maximus" chance="4706" />
+		<item name="skull helmet" chance="4706" />
+		<item name="divine plate" chance="3529" />
 	</loot>
 </monster>

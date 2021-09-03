@@ -1,4 +1,5 @@
-﻿<monster name="Many Faces" nameDescription="" experience="18870" speed="430" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Many Faces" nameDescription="" experience="18870" speed="430" manacost="0">
 	<health now="30000" max="30000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -48,21 +50,21 @@
 		<voice sentence="The mirrors can't contain the night!" yell="false" />
 	</voices>
 	<loot>
-		<item id="crystal coin" chance="75247" />
-		<item id="ultimate health potion" chance="14792" countmax="7" />
-		<item id="apron" chance="7836" />
-		<item id="hailstorm rod" chance="6526" />
-		<item id="green gem" chance="5754" />
-		<item id="sacred tree amulet" chance="5432" />
-		<item id="violet gem" chance="5303" />
-		<item id="northwind rod" chance="4895" />
-		<item id="blue gem" chance="4787" />
-		<item id="ring of red plasma" chance="4530" />
-		<item id="stone skin amulet" chance="4208" />
-		<item id="head (many faces)" chance="3864" />
-		<item id="glacier shoes" chance="2598" />
-		<item id="glacier robe" chance="1846" />
-		<item id="glacial rod" chance="1073" />
-		<item id="gruesome fan" chance="880" />
+		<item name="crystal coin" chance="75247" />
+		<item name="ultimate health potion" chance="14792" countmax="7" />
+		<item name="apron" chance="7836" />
+		<item name="hailstorm rod" chance="6526" />
+		<item name="green gem" chance="5754" />
+		<item name="sacred tree amulet" chance="5432" />
+		<item name="violet gem" chance="5303" />
+		<item name="northwind rod" chance="4895" />
+		<item name="blue gem" chance="4787" />
+		<item name="ring of red plasma" chance="4530" />
+		<item name="stone skin amulet" chance="4208" />
+		<item name="head (many faces)" chance="3864" />
+		<item name="glacier shoes" chance="2598" />
+		<item name="glacier robe" chance="1846" />
+		<item name="glacial rod" chance="1073" />
+		<item name="gruesome fan" chance="880" />
 	</loot>
 </monster>

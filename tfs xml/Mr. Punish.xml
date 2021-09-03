@@ -1,4 +1,5 @@
-﻿<monster name="Mr. Punish" nameDescription="" experience="9000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mr. Punish" nameDescription="" experience="9000" speed="0" manacost="0">
 	<health now="22000" max="22000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="-5" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -50,20 +52,20 @@
 		<voice sentence="Scream for me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="129" />
-		<item id="mr. punish's handcuffs" chance="100000" />
-		<item id="demonic essence" chance="92308" />
-		<item id="soul orb" chance="92308" />
-		<item id="double axe" chance="23077" />
-		<item id="jewelled backpack" chance="23077" />
-		<item id="assassin star" chance="15385" countmax="3" />
-		<item id="gold ingot" chance="15385" />
-		<item id="great health potion" chance="15385" />
-		<item id="platinum coin" chance="15385" countmax="2" />
-		<item id="bat decoration" chance="7692" />
-		<item id="cat's paw" chance="7692" />
-		<item id="great mana potion" chance="7692" />
-		<item id="ravager's axe" chance="7692" />
-		<item id="small diamond" chance="7692" />
+		<item name="gold coin" chance="100000" countmax="129" />
+		<item name="mr. punish's handcuffs" chance="100000" />
+		<item name="demonic essence" chance="92308" />
+		<item name="soul orb" chance="92308" />
+		<item name="double axe" chance="23077" />
+		<item name="jewelled backpack" chance="23077" />
+		<item name="assassin star" chance="15385" countmax="3" />
+		<item name="gold ingot" chance="15385" />
+		<item name="great health potion" chance="15385" />
+		<item name="platinum coin" chance="15385" countmax="2" />
+		<item name="bat decoration" chance="7692" />
+		<item name="cat's paw" chance="7692" />
+		<item name="great mana potion" chance="7692" />
+		<item name="ravager's axe" chance="7692" />
+		<item name="small diamond" chance="7692" />
 	</loot>
 </monster>

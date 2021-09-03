@@ -5,7 +5,7 @@ monster.name = "Elephant"
 monster.description = "an elephant"
 monster.experience = 160
 monster.outfit = {
-	lookType = 0,
+	lookType = 211,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,10 +90,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 40290},
-	{id = "ham", chance = 29532},
-	{id = "tusk", chance = 1077, maxCount = 2},
-	{id = "tusk shield", chance = 156}
+	{id = "meat", chance = 40336},
+	{id = "ham", chance = 29492},
+	{id = "tusk", chance = 1084, maxCount = 2},
+	{id = "tusk shield", chance = 155}
 }
 
 mType:register(monster)

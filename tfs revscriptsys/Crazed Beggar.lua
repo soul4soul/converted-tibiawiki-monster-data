@@ -5,12 +5,12 @@ monster.name = "Crazed Beggar"
 monster.description = "a crazed beggar"
 monster.experience = 35
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 153,
+	lookHead = 40,
+	lookBody = 19,
+	lookLegs = 21,
+	lookFeet = 97,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -93,20 +94,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99458, maxCount = 9},
-	{id = "dirty cape", chance = 60325},
-	{id = "roll", chance = 18961},
-	{id = "meat", chance = 9720},
-	{id = "wooden spoon", chance = 9592},
-	{id = "wooden hammer", chance = 6660},
-	{id = "rolling pin", chance = 4939},
-	{id = "red rose", chance = 4908},
-	{id = "sling herb", chance = 669},
-	{id = "small blue pillow", chance = 669},
-	{id = "rum flask", chance = 510},
-	{id = "heavily rusted armor", chance = 319},
-	{id = "lute", chance = 319},
-	{id = "dwarven ring", chance = 127}
+	{id = "gold coin", chance = 99398, maxCount = 9},
+	{id = "dirty cape", chance = 60391},
+	{id = "roll", chance = 19278},
+	{id = "meat", chance = 9594},
+	{id = "wooden spoon", chance = 9534},
+	{id = "wooden hammer", chance = 6767},
+	{id = "red rose", chance = 4992},
+	{id = "rolling pin", chance = 4782},
+	{id = "sling herb", chance = 632},
+	{id = "small blue pillow", chance = 632},
+	{id = "rum flask", chance = 511},
+	{id = "lute", chance = 361},
+	{id = "heavily rusted armor", chance = 301},
+	{id = "dwarven ring", chance = 150}
 }
 
 mType:register(monster)

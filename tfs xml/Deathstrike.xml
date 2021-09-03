@@ -1,4 +1,5 @@
-﻿<monster name="Deathstrike" nameDescription="" experience="40000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Deathstrike" nameDescription="" experience="40000" speed="0" manacost="0">
 	<health now="200000" max="200000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="25" />
-		<element EnergyPercent="40" />
+		<element energyPercent="40" />
 		<element earthPercent="100" />
 		<element firePercent="50" />
 		<element lifedrainPercent="10" />
@@ -53,13 +55,13 @@
 		<voice sentence="Taaake... this!" yell="false" />
 	</voices>
 	<loot>
-		<item id="deathstrike's snippet" chance="100000" />
-		<item id="crystal crossbow" chance="14737" />
-		<item id="crystalline axe" chance="12632" />
-		<item id="mycological bow" chance="9474" />
-		<item id="shiny blade" chance="9474" />
-		<item id="crystalline sword" chance="7895" />
-		<item id="mycological mace" chance="6316" />
-		<item id="decorative ribbon" chance="2105" />
+		<item name="deathstrike's snippet" chance="100000" />
+		<item name="crystal crossbow" chance="14737" />
+		<item name="crystalline axe" chance="12632" />
+		<item name="mycological bow" chance="9474" />
+		<item name="shiny blade" chance="9474" />
+		<item name="crystalline sword" chance="7895" />
+		<item name="mycological mace" chance="6316" />
+		<item name="decorative ribbon" chance="2105" />
 	</loot>
 </monster>

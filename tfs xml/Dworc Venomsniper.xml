@@ -1,6 +1,7 @@
-﻿<monster name="Dworc Venomsniper" nameDescription="a dworc venomsniper" experience="35" speed="152" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dworc Venomsniper" nameDescription="a dworc venomsniper" experience="35" speed="152" manacost="0">
 	<health now="80" max="80" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="216" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="-13" />
 		<element lifedrainPercent="0" />
@@ -48,16 +50,16 @@
 		<voice sentence="Prek tars, dekklep zurk." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="74980" countmax="13" />
-		<item id="leather armor" chance="10054" />
-		<item id="throwing knife" chance="7911" countmax="2" />
-		<item id="torch" chance="5475" />
-		<item id="poison arrow" chance="4961" countmax="3" />
-		<item id="poison dagger" chance="1501" />
-		<item id="skull" chance="983" countmax="2" />
-		<item id="tribal mask" chance="503" />
-		<item id="seeds" chance="191" />
-		<item id="bast skirt" chance="100" />
-		<item id="bronze amulet" chance="97" />
+		<item name="gold coin" chance="74979" countmax="13" />
+		<item name="leather armor" chance="10052" />
+		<item name="throwing knife" chance="7913" countmax="2" />
+		<item name="torch" chance="5474" />
+		<item name="poison arrow" chance="4959" countmax="3" />
+		<item name="poison dagger" chance="1500" />
+		<item name="skull" chance="982" countmax="2" />
+		<item name="tribal mask" chance="503" />
+		<item name="seeds" chance="191" />
+		<item name="bast skirt" chance="100" />
+		<item name="bronze amulet" chance="97" />
 	</loot>
 </monster>

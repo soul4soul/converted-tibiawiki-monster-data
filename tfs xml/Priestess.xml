@@ -1,6 +1,7 @@
-﻿<monster name="Priestess" nameDescription="a priestess" experience="420" speed="170" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Priestess" nameDescription="a priestess" experience="420" speed="170" manacost="0">
 	<health now="390" max="390" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="58" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="70" />
 		<element firePercent="40" />
 		<element lifedrainPercent="0" />
@@ -50,23 +52,23 @@
 		<voice sentence="Throw the soul on the altar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="sling herb" chance="13492" />
-		<item id="goat grass" chance="12060" />
-		<item id="dark rosary" chance="9823" />
-		<item id="red apple" chance="7369" countmax="2" />
-		<item id="powder herb" chance="6153" />
-		<item id="black hood" chance="5052" />
-		<item id="wood mushroom" chance="3353" />
-		<item id="cultish robe" chance="1805" />
-		<item id="clerical mace" chance="1498" />
-		<item id="wooden flute" chance="1408" />
-		<item id="crystal ball" chance="1121" />
-		<item id="hailstorm rod" chance="1061" />
-		<item id="book (orange)" chance="945" />
-		<item id="mana potion" chance="920" />
-		<item id="talon" chance="719" />
-		<item id="crystal necklace" chance="618" />
-		<item id="black shield" chance="206" />
-		<item id="piggy bank" chance="70" />
+		<item name="sling herb" chance="13489" />
+		<item name="goat grass" chance="12088" />
+		<item name="dark rosary" chance="9805" />
+		<item name="red apple" chance="7403" countmax="2" />
+		<item name="powder herb" chance="6166" />
+		<item name="black hood" chance="5060" />
+		<item name="wood mushroom" chance="3344" />
+		<item name="cultish robe" chance="1807" />
+		<item name="clerical mace" chance="1492" />
+		<item name="wooden flute" chance="1406" />
+		<item name="crystal ball" chance="1116" />
+		<item name="hailstorm rod" chance="1061" />
+		<item name="book (orange)" chance="941" />
+		<item name="mana potion" chance="916" />
+		<item name="talon" chance="716" />
+		<item name="crystal necklace" chance="621" />
+		<item name="black shield" chance="205" />
+		<item name="piggy bank" chance="70" />
 	</loot>
 </monster>

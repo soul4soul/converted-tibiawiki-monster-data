@@ -1,4 +1,5 @@
-﻿<monster name="Knight's Apparition" nameDescription="a knight's apparition" experience="18870" speed="470" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Knight's Apparition" nameDescription="a knight's apparition" experience="18870" speed="470" manacost="0">
 	<health now="25000" max="25000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
@@ -43,16 +45,16 @@
 		<voice sentence="I am you. Just better!" yell="false" />
 	</voices>
 	<loot>
-		<item id="crystal coin" chance="79890" />
-		<item id="ultimate health potion" chance="9419" />
-		<item id="epee" chance="7043" />
-		<item id="green gem" chance="6364" />
-		<item id="violet gem" chance="3734" />
-		<item id="crystal mace" chance="3055" />
-		<item id="glacier amulet" chance="2843" />
-		<item id="giant sword" chance="2461" />
-		<item id="crown shield" chance="1485" />
-		<item id="stone skin amulet" chance="1273" />
-		<item id="jade hammer" chance="1061" />
+		<item name="crystal coin" chance="79890" />
+		<item name="ultimate health potion" chance="9419" />
+		<item name="epee" chance="7043" />
+		<item name="green gem" chance="6364" />
+		<item name="violet gem" chance="3734" />
+		<item name="crystal mace" chance="3055" />
+		<item name="glacier amulet" chance="2843" />
+		<item name="giant sword" chance="2461" />
+		<item name="crown shield" chance="1485" />
+		<item name="stone skin amulet" chance="1273" />
+		<item name="jade hammer" chance="1061" />
 	</loot>
 </monster>

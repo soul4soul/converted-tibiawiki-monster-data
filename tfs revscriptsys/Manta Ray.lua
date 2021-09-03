@@ -5,7 +5,7 @@ monster.name = "Manta Ray"
 monster.description = "a manta ray"
 monster.experience = 125
 monster.outfit = {
-	lookType = 0,
+	lookType = 449,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,7 +88,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 63328, maxCount = 39}
+	{id = "gold coin", chance = 65224, maxCount = 39}
 }
 
 mType:register(monster)

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,19 +91,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 19},
-	{id = "bone", chance = 23239},
-	{id = "great health potion", chance = 12726, maxCount = 2},
-	{id = "carnisylvan bark", chance = 12072},
-	{id = "carnisylvan finger", chance = 9004},
-	{id = "terra hood", chance = 5986},
-	{id = "terra boots", chance = 5332},
-	{id = "knight axe", chance = 4074},
-	{id = "lightning headband", chance = 3722},
+	{id = "bone", chance = 23271},
+	{id = "great health potion", chance = 12542, maxCount = 2},
+	{id = "carnisylvan bark", chance = 12017},
+	{id = "carnisylvan finger", chance = 9013},
+	{id = "terra hood", chance = 5913},
+	{id = "terra boots", chance = 5198},
+	{id = "knight axe", chance = 4101},
+	{id = "lightning headband", chance = 3767},
 	{id = "diamond sceptre", chance = 3672},
-	{id = "epee", chance = 3018},
-	{id = "dragonbone staff", chance = 2918},
-	{id = "war hammer", chance = 2515},
-	{id = "human teeth", chance = 553}
+	{id = "epee", chance = 3004},
+	{id = "dragonbone staff", chance = 2814},
+	{id = "war hammer", chance = 2718},
+	{id = "human teeth", chance = 525}
 }
 
 mType:register(monster)

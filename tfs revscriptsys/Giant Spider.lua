@@ -5,7 +5,7 @@ monster.name = "Giant Spider"
 monster.description = "a giant spider"
 monster.experience = 900
 monster.outfit = {
-	lookType = 0,
+	lookType = 38,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,31 +89,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99984, maxCount = 196},
-	{id = "poison arrow", chance = 11968, maxCount = 12},
-	{id = "plate armor", chance = 10005},
-	{id = "plate legs", chance = 7874},
-	{id = "two handed sword", chance = 5055},
-	{id = "steel helmet", chance = 4923},
-	{id = "strong health potion", chance = 3565},
-	{id = "spider silk", chance = 1982},
+	{id = "poison arrow", chance = 11967, maxCount = 12},
+	{id = "plate armor", chance = 10004},
+	{id = "plate legs", chance = 7876},
+	{id = "two handed sword", chance = 5054},
+	{id = "steel helmet", chance = 4924},
+	{id = "strong health potion", chance = 3567},
+	{id = "spider silk", chance = 1983},
 	{id = "knight legs", chance = 844},
 	{id = "time ring", chance = 712},
 	{id = "knight armor", chance = 490},
 	{id = "platinum amulet", chance = 271},
 	{id = "lightning headband", chance = 264},
-	{id = "spider fangs", chance = 1},
-	{id = "gold coin", chance = 17991, maxCount = 96},
-	{id = "poison arrow", chance = 2156, maxCount = 12},
-	{id = "plate armor", chance = 1832},
-	{id = "brass legs", chance = 1499},
-	{id = "steel helmet", chance = 943},
-	{id = "spider silk", chance = 345},
-	{id = "strong health potion", chance = 143},
-	{id = "time ring", chance = 142},
-	{id = "knight legs", chance = 65},
-	{id = "knight armor", chance = 57},
-	{id = "platinum amulet", chance = 37},
-	{id = "lightning headband", chance = 20}
+	{id = "spider fangs", chance = 1}
 }
 
 mType:register(monster)

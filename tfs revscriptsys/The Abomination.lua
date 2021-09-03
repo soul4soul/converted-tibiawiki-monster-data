@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -103,14 +104,18 @@ monster.defenses = {
 monster.loot = {
 	{id = "crystal coin", chance = 100000, maxCount = 20},
 	{id = "gold coin", chance = 100000},
-	{id = "ultimate mana potion", chance = 100000, maxCount = 6},
-	{id = "berserk potion", chance = 33333, maxCount = 10},
-	{id = "abomination's eye", chance = 16667},
-	{id = "amber with a bug", chance = 16667},
-	{id = "amber with a dragonfly", chance = 16667},
-	{id = "bullseye potion", chance = 16667, maxCount = 10},
-	{id = "fiery horseshoe", chance = 16667},
-	{id = "violet gem", chance = 16667}
+	{id = "ultimate mana potion", chance = 60000, maxCount = 6},
+	{id = "berserk potion", chance = 30000, maxCount = 10},
+	{id = "bullseye potion", chance = 20000, maxCount = 10},
+	{id = "supreme health potion", chance = 20000, maxCount = 6},
+	{id = "ultimate spirit potion", chance = 20000, maxCount = 6},
+	{id = "abomination's eye", chance = 10000},
+	{id = "amber with a bug", chance = 10000},
+	{id = "amber with a dragonfly", chance = 10000},
+	{id = "fiery horseshoe", chance = 10000},
+	{id = "giant emerald", chance = 10000},
+	{id = "mastermind potion", chance = 10000, maxCount = 10},
+	{id = "violet gem", chance = 10000}
 }
 
 mType:register(monster)

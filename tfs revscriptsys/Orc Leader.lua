@@ -5,7 +5,7 @@ monster.name = "Orc Leader"
 monster.description = "an orc leader"
 monster.experience = 270
 monster.outfit = {
-	lookType = 0,
+	lookType = 59,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,24 +88,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "fish", chance = 30073},
-	{id = "gold coin", chance = 28251, maxCount = 35},
+	{id = "fish", chance = 30111},
+	{id = "gold coin", chance = 28231, maxCount = 35},
 	{id = "orc leather", chance = 19736},
-	{id = "plate shield", chance = 10159},
-	{id = "throwing knife", chance = 9990, maxCount = 4},
-	{id = "brown mushroom", chance = 9807},
-	{id = "sword ring", chance = 3793},
-	{id = "longsword", chance = 2950},
-	{id = "royal spear", chance = 2634},
-	{id = "brass legs", chance = 2459},
-	{id = "scimitar", chance = 2193},
+	{id = "plate shield", chance = 10151},
+	{id = "throwing knife", chance = 9976, maxCount = 4},
+	{id = "brown mushroom", chance = 9815},
+	{id = "sword ring", chance = 3774},
+	{id = "longsword", chance = 2957},
+	{id = "royal spear", chance = 2643},
+	{id = "brass legs", chance = 2438},
+	{id = "scimitar", chance = 2189},
 	{id = "skull belt", chance = 2110},
-	{id = "plate armor", chance = 1583},
-	{id = "orc tooth", chance = 1031},
-	{id = "broadsword", chance = 760},
+	{id = "plate armor", chance = 1593},
+	{id = "orc tooth", chance = 1022},
+	{id = "broadsword", chance = 754},
 	{id = "health potion", chance = 579},
-	{id = "plate legs", chance = 396},
-	{id = "warrior helmet", chance = 114}
+	{id = "plate legs", chance = 399},
+	{id = "warrior helmet", chance = 115}
 }
 
 mType:register(monster)

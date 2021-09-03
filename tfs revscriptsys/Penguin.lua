@@ -5,7 +5,7 @@ monster.name = "Penguin"
 monster.description = "a penguin"
 monster.experience = 1
 monster.outfit = {
-	lookType = 0,
+	lookType = 250,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,9 +87,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "fish", chance = 7809, maxCount = 2},
-	{id = "green perch", chance = 138},
-	{id = "rainbow trout", chance = 64}
+	{id = "fish", chance = 7792, maxCount = 2},
+	{id = "green perch", chance = 142},
+	{id = "rainbow trout", chance = 63}
 }
 
 mType:register(monster)

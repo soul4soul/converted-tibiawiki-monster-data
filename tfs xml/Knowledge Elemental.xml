@@ -1,6 +1,7 @@
-﻿<monster name="Knowledge Elemental" nameDescription="a knowledge elemental" experience="10603" speed="460" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Knowledge Elemental" nameDescription="a knowledge elemental" experience="10603" speed="460" manacost="0">
 	<health now="10500" max="10500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1065" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,27 +42,27 @@
 	</elements>
 	<defenses armor="76" defense="76" />
 	<loot>
-		<item id="small amethyst" chance="74491" countmax="6" />
-		<item id="platinum coin" chance="67725" countmax="15" />
-		<item id="book page" chance="37640" countmax="5" />
-		<item id="glowing rune" chance="33041" countmax="10" />
-		<item id="silken bookmark" chance="26713" />
-		<item id="quill" chance="22400" />
-		<item id="ultimate mana potion" chance="15086" />
-		<item id="flash arrow" chance="15065" countmax="15" />
-		<item id="ultimate health potion" chance="11320" countmax="2" />
-		<item id="guardian shield" chance="9897" />
-		<item id="mana potion" chance="8890" />
-		<item id="throwing star" chance="7072" countmax="15" />
-		<item id="energy ring" chance="6854" />
-		<item id="wand of cosmic energy" chance="4905" />
-		<item id="crystal sword" chance="4423" />
-		<item id="obsidian lance" chance="2693" />
-		<item id="silver amulet" chance="2387" />
-		<item id="lightning pendant" chance="1817" />
-		<item id="might ring" chance="1795" />
-		<item id="wand of defiance" chance="1292" />
-		<item id="crystal ring" chance="1204" />
-		<item id="spellweaver's robe" chance="350" />
+		<item name="small amethyst" chance="74656" countmax="6" />
+		<item name="platinum coin" chance="67903" countmax="15" />
+		<item name="book page" chance="37770" countmax="5" />
+		<item name="glowing rune" chance="33019" countmax="10" />
+		<item name="silken bookmark" chance="26678" />
+		<item name="quill" chance="22634" />
+		<item name="ultimate mana potion" chance="15391" />
+		<item name="flash arrow" chance="15194" countmax="15" />
+		<item name="ultimate health potion" chance="11268" countmax="2" />
+		<item name="guardian shield" chance="9717" />
+		<item name="mana potion" chance="8971" />
+		<item name="energy ring" chance="6930" />
+		<item name="throwing star" chance="6930" countmax="15" />
+		<item name="wand of cosmic energy" chance="4868" />
+		<item name="crystal sword" chance="4437" />
+		<item name="obsidian lance" chance="2709" />
+		<item name="silver amulet" chance="2395" />
+		<item name="lightning pendant" chance="1826" />
+		<item name="might ring" chance="1786" />
+		<item name="crystal ring" chance="1237" />
+		<item name="wand of defiance" chance="1237" />
+		<item name="spellweaver's robe" chance="393" />
 	</loot>
 </monster>

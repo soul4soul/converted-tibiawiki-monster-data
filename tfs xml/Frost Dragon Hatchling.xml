@@ -1,6 +1,7 @@
-﻿<monster name="Frost Dragon Hatchling" nameDescription="a frost dragon hatchling" experience="745" speed="172" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Frost Dragon Hatchling" nameDescription="a frost dragon hatchling" experience="745" speed="172" manacost="0">
 	<health now="800" max="800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="283" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -49,10 +51,10 @@
 		<voice sentence="Fchu?" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="87358" countmax="55" />
-		<item id="dragon ham" chance="79955" />
-		<item id="frosty heart" chance="5063" />
-		<item id="health potion" chance="558" />
-		<item id="spellbook of enlightenment" chance="497" />
+		<item name="gold coin" chance="87358" countmax="55" />
+		<item name="dragon ham" chance="79955" />
+		<item name="frosty heart" chance="5063" />
+		<item name="health potion" chance="558" />
+		<item name="spellbook of enlightenment" chance="497" />
 	</loot>
 </monster>

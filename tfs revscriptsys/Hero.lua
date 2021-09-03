@@ -5,7 +5,7 @@ monster.name = "Hero"
 monster.description = "a hero"
 monster.experience = 1200
 monster.outfit = {
-	lookType = 0,
+	lookType = 73,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -91,16 +92,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 60239, maxCount = 100},
-	{id = "scroll", chance = 45135},
-	{id = "arrow", chance = 27078, maxCount = 13},
-	{id = "red rose", chance = 20389},
+	{id = "gold coin", chance = 60237, maxCount = 100},
+	{id = "scroll", chance = 45133},
+	{id = "arrow", chance = 27077, maxCount = 13},
+	{id = "red rose", chance = 20388},
 	{id = "grapes", chance = 20140},
 	{id = "bow", chance = 13028},
-	{id = "sniper arrow", chance = 11595, maxCount = 4},
+	{id = "sniper arrow", chance = 11594, maxCount = 4},
 	{id = "meat", chance = 8575},
 	{id = "green tunic", chance = 7985},
-	{id = "wedding ring", chance = 5159},
+	{id = "wedding ring", chance = 5158},
 	{id = "scroll of heroic deeds", chance = 5051},
 	{id = "rope", chance = 2113},
 	{id = "red piece of cloth", chance = 1991},
@@ -111,7 +112,7 @@ monster.loot = {
 	{id = "war hammer", chance = 947},
 	{id = "great health potion", chance = 746},
 	{id = "crown armor", chance = 628},
-	{id = "crown legs", chance = 591},
+	{id = "crown legs", chance = 590},
 	{id = "might ring", chance = 505},
 	{id = "fire sword", chance = 483},
 	{id = "crown helmet", chance = 446},

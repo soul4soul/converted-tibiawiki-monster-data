@@ -5,11 +5,11 @@ monster.name = "Acolyte Of The Cult"
 monster.description = "an acolyte of the cult"
 monster.experience = 300
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 194,
+	lookHead = 95,
+	lookBody = 100,
+	lookLegs = 100,
+	lookFeet = 19,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,16 +91,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 65920, maxCount = 40},
-	{id = "rope belt", chance = 10257},
-	{id = "cultish robe", chance = 8028},
-	{id = "morning star", chance = 4897},
+	{id = "gold coin", chance = 65925, maxCount = 40},
+	{id = "rope belt", chance = 10254},
+	{id = "cultish robe", chance = 8026},
+	{id = "morning star", chance = 4901},
 	{id = "pirate voodoo doll", chance = 1099},
-	{id = "dragon necklace", chance = 1066},
+	{id = "dragon necklace", chance = 1065},
 	{id = "book (orange)", chance = 794},
-	{id = "life ring", chance = 540},
-	{id = "small emerald", chance = 520},
-	{id = "music sheet (second verse)", chance = 453},
+	{id = "life ring", chance = 539},
+	{id = "small emerald", chance = 519},
+	{id = "music sheet (second verse)", chance = 452},
 	{id = "terra rod", chance = 204},
 	{id = "cultish symbol", chance = 74},
 	{id = "broken key ring", chance = 57}

@@ -5,7 +5,7 @@ monster.name = "Shock Head"
 monster.description = "a shock head"
 monster.experience = 2300
 monster.outfit = {
-	lookType = 0,
+	lookType = 579,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,8 +90,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 91980, maxCount = 200},
-	{id = "small sapphire", chance = 5040},
+	{id = "gold coin", chance = 91983, maxCount = 200},
+	{id = "small sapphire", chance = 5038},
 	{id = "royal helmet", chance = 174}
 }
 

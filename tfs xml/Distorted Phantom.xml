@@ -1,4 +1,5 @@
-﻿<monster name="Distorted Phantom" nameDescription="a distorted phantom" experience="18870" speed="480" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Distorted Phantom" nameDescription="a distorted phantom" experience="18870" speed="480" manacost="0">
 	<health now="26000" max="26000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="50" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -45,18 +47,18 @@
 		<voice sentence="Too late... No turning back now." yell="false" />
 	</voices>
 	<loot>
-		<item id="crystal coin" chance="79829" />
-		<item id="great spirit potion" chance="25201" countmax="5" />
-		<item id="distorted heart" chance="4955" />
-		<item id="gold ingot" chance="4829" />
-		<item id="underworld rod" chance="4603" />
-		<item id="spellbook of warding" chance="3898" />
-		<item id="violet gem" chance="3320" />
-		<item id="distorted robe" chance="2817" />
-		<item id="springsprout rod" chance="2817" />
-		<item id="ring of red plasma" chance="2641" />
-		<item id="ring of green plasma" chance="2540" />
-		<item id="glacial rod" chance="2314" />
-		<item id="ring of blue plasma" chance="2062" />
+		<item name="crystal coin" chance="79829" />
+		<item name="great spirit potion" chance="25201" countmax="5" />
+		<item name="distorted heart" chance="4955" />
+		<item name="gold ingot" chance="4829" />
+		<item name="underworld rod" chance="4603" />
+		<item name="spellbook of warding" chance="3898" />
+		<item name="violet gem" chance="3320" />
+		<item name="distorted robe" chance="2817" />
+		<item name="springsprout rod" chance="2817" />
+		<item name="ring of red plasma" chance="2641" />
+		<item name="ring of green plasma" chance="2540" />
+		<item name="glacial rod" chance="2314" />
+		<item name="ring of blue plasma" chance="2062" />
 	</loot>
 </monster>

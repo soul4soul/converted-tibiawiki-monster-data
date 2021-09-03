@@ -1,6 +1,7 @@
-﻿<monster name="Stalker" nameDescription="a stalker" experience="90" speed="260" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Stalker" nameDescription="a stalker" experience="90" speed="260" manacost="0">
 	<health now="120" max="120" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="128" head="97" body="116" legs="95" feet="95" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
@@ -43,13 +45,13 @@
 	</attacks>
 	<defenses armor="14" defense="14" />
 	<loot>
-		<item id="gold coin" chance="13123" countmax="8" />
-		<item id="throwing knife" chance="11114" countmax="2" />
-		<item id="blank rune" chance="8805" />
-		<item id="brass shield" chance="5627" />
-		<item id="brass legs" chance="3540" />
-		<item id="miraculum" chance="1554" />
-		<item id="obsidian lance" chance="1205" />
-		<item id="katana" chance="523" />
+		<item name="gold coin" chance="13129" countmax="8" />
+		<item name="throwing knife" chance="11107" countmax="2" />
+		<item name="blank rune" chance="8806" />
+		<item name="brass shield" chance="5633" />
+		<item name="brass legs" chance="3541" />
+		<item name="miraculum" chance="1553" />
+		<item name="obsidian lance" chance="1207" />
+		<item name="katana" chance="522" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Squirrel"
 monster.description = "a squirrel"
 monster.experience = 0
 monster.outfit = {
-	lookType = 0,
+	lookType = 274,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,9 +87,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "acorn", chance = 35786},
-	{id = "peanut", chance = 591},
-	{id = "walnut", chance = 473}
+	{id = "acorn", chance = 35971},
+	{id = "peanut", chance = 584},
+	{id = "walnut", chance = 467}
 }
 
 mType:register(monster)

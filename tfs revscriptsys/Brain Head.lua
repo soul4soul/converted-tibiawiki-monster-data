@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,25 +87,6 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "crystal coin", chance = 66667, maxCount = 2},
-	{id = "supreme health potion", chance = 45833, maxCount = 6},
-	{id = "white gem", chance = 45833, maxCount = 2},
-	{id = "diamond", chance = 37500},
-	{id = "mastermind potion", chance = 16667, maxCount = 10},
-	{id = "berserk potion", chance = 12500, maxCount = 10},
-	{id = "bullseye potion", chance = 12500, maxCount = 10},
-	{id = "death toll", chance = 12500},
-	{id = "moonstone", chance = 12500},
-	{id = "ultimate mana potion", chance = 12500, maxCount = 6},
-	{id = "ultimate spirit potion", chance = 12500, maxCount = 6},
-	{id = "cursed bone", chance = 8333},
-	{id = "ivory comb", chance = 8333},
-	{id = "silver hand mirror", chance = 8333},
-	{id = "angel figurine", chance = 4167},
-	{id = "ghost claw", chance = 4167},
-	{id = "giant amethyst", chance = 4167},
-	{id = "giant topaz", chance = 4167},
-	{id = "spooky hood", chance = 4167}
 }
 
 mType:register(monster)

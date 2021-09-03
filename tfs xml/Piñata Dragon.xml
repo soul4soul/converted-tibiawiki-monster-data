@@ -1,4 +1,5 @@
-﻿<monster name="Piñata Dragon" nameDescription="a Piñata Dragon" experience="50" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Piñata Dragon" nameDescription="a Piñata Dragon" experience="50" speed="0" manacost="0">
 	<health now="10000" max="10000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-30" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -50,33 +52,21 @@
 		<voice sentence="Bring it on!" yell="false" />
 	</voices>
 	<loot>
-		<item id="candy" chance="100000" countmax="3" />
-		<item id="surprise bag" chance="52201" countmax="2" />
-		<item id="cookie" chance="50440" countmax="5" />
-		<item id="winterberry liquor" chance="13775" />
-		<item id="meringue cake" chance="10979" />
-		<item id="bar of chocolate" chance="6784" />
-		<item id="pinata" chance="6577" />
-		<item id="party cake" chance="6422" />
-		<item id="costume bag (retro)" chance="5075" />
-		<item id="festive backpack" chance="4143" />
-		<item id="chocolatey dragon scale legs" chance="2900" />
-		<item id="ferumbras' candy hat" chance="2330" />
-		<item id="doll" chance="1554" />
-		<item id="toy mouse" chance="259" />
-		<item id="ferumbras puppet" chance="207" />
-		<item id="stuffed dragon" chance="207" />
-		<item id="candy" chance="6163" countmax="3" />
-		<item id="surprise bag" chance="3314" countmax="2" />
-		<item id="cookie" chance="2796" countmax="5" />
-		<item id="bottle of tibian wine" chance="1088" />
-		<item id="birthday cake" chance="880" />
-		<item id="party cake" chance="466" />
-		<item id="birthday backpack" chance="414" />
-		<item id="chocolatey dragon scale legs" chance="363" />
-		<item id="bar of chocolate" chance="207" />
-		<item id="costume bag (retro)" chance="155" />
-		<item id="ferumbras' candy hat" chance="52" />
-		<item id="toy mouse" chance="52" />
+		<item name="candy" chance="100000" countmax="3" />
+		<item name="surprise bag" chance="52201" countmax="2" />
+		<item name="cookie" chance="50440" countmax="5" />
+		<item name="winterberry liquor" chance="13775" />
+		<item name="meringue cake" chance="10979" />
+		<item name="bar of chocolate" chance="6784" />
+		<item name="pinata" chance="6577" />
+		<item name="party cake" chance="6422" />
+		<item name="costume bag (retro)" chance="5075" />
+		<item name="festive backpack" chance="4143" />
+		<item name="chocolatey dragon scale legs" chance="2900" />
+		<item name="ferumbras' candy hat" chance="2330" />
+		<item name="doll" chance="1554" />
+		<item name="toy mouse" chance="259" />
+		<item name="ferumbras puppet" chance="207" />
+		<item name="stuffed dragon" chance="207" />
 	</loot>
 </monster>

@@ -5,11 +5,11 @@ monster.name = "Stalker"
 monster.description = "a stalker"
 monster.experience = 90
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 128,
+	lookHead = 97,
+	lookBody = 116,
+	lookLegs = 95,
+	lookFeet = 95,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,14 +87,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 13123, maxCount = 8},
-	{id = "throwing knife", chance = 11114, maxCount = 2},
-	{id = "blank rune", chance = 8805},
-	{id = "brass shield", chance = 5627},
-	{id = "brass legs", chance = 3540},
-	{id = "miraculum", chance = 1554},
-	{id = "obsidian lance", chance = 1205},
-	{id = "katana", chance = 523}
+	{id = "gold coin", chance = 13129, maxCount = 8},
+	{id = "throwing knife", chance = 11107, maxCount = 2},
+	{id = "blank rune", chance = 8806},
+	{id = "brass shield", chance = 5633},
+	{id = "brass legs", chance = 3541},
+	{id = "miraculum", chance = 1553},
+	{id = "obsidian lance", chance = 1207},
+	{id = "katana", chance = 522}
 }
 
 mType:register(monster)

@@ -5,12 +5,12 @@ monster.name = "Infernalist"
 monster.description = "an infernalist"
 monster.experience = 4000
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 130,
+	lookHead = 78,
+	lookBody = 76,
+	lookLegs = 94,
+	lookFeet = 39,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,

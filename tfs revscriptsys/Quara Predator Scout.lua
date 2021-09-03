@@ -5,7 +5,7 @@ monster.name = "Quara Predator Scout"
 monster.description = "a quara predator scout"
 monster.experience = 400
 monster.outfit = {
-	lookType = 0,
+	lookType = 20,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,26 +92,14 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 98959, maxCount = 132},
-	{id = "quara bone", chance = 10115},
+	{id = "quara bone", chance = 10117},
 	{id = "scale armor", chance = 8967},
 	{id = "double axe", chance = 5761},
 	{id = "shrimp", chance = 5057},
-	{id = "small diamond", chance = 5015, maxCount = 2},
+	{id = "small diamond", chance = 5014, maxCount = 2},
 	{id = "two handed sword", chance = 3013},
 	{id = "fish fin", chance = 1075},
-	{id = "northwind rod", chance = 952},
-	{id = "gold coin", chance = 781, maxCount = 129},
-	{id = "quara bone", chance = 60},
-	{id = "small diamond", chance = 39, maxCount = 2},
-	{id = "double axe", chance = 30},
-	{id = "scale armor", chance = 18},
-	{id = "fish fin", chance = 14},
-	{id = "gold coin", chance = 5118, maxCount = 111},
-	{id = "quara bone", chance = 256},
-	{id = "double axe", chance = 72},
-	{id = "scale armor", chance = 63},
-	{id = "small diamond", chance = 61},
-	{id = "fish fin", chance = 51}
+	{id = "northwind rod", chance = 952}
 }
 
 mType:register(monster)

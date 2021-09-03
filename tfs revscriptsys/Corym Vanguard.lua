@@ -5,10 +5,10 @@ monster.name = "Corym Vanguard"
 monster.description = "a corym vanguard"
 monster.experience = 490
 monster.outfit = {
-	lookType = 0,
+	lookType = 534,
 	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
+	lookBody = 19,
+	lookLegs = 121,
 	lookFeet = 0,
 	lookAddons = 0,
 	lookMount = 0
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,33 +90,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 90},
-	{id = "soft cheese", chance = 14924},
-	{id = "cheese", chance = 14799},
-	{id = "rat cheese", chance = 14628},
-	{id = "cheese cutter", chance = 11773},
-	{id = "bola", chance = 9669},
-	{id = "earflap", chance = 8944},
-	{id = "spiky club", chance = 2256},
-	{id = "cheesy figurine", chance = 2211},
-	{id = "ratana", chance = 2202},
-	{id = "spike shield", chance = 2167},
-	{id = "life preserver", chance = 1880},
-	{id = "leather harness", chance = 1477},
-	{id = "rat god doll", chance = 18},
-	{id = "gold coin", chance = 100000, maxCount = 120},
-	{id = "cheese", chance = 35524},
-	{id = "cheese cutter", chance = 29194},
-	{id = "soft cheese", chance = 26840},
-	{id = "rat cheese", chance = 25470},
-	{id = "earflap", chance = 20824},
-	{id = "bola", chance = 17475},
-	{id = "ratana", chance = 8890},
-	{id = "life preserver", chance = 8782},
-	{id = "spike shield", chance = 8568},
-	{id = "cheesy figurine", chance = 6965},
-	{id = "spiky club", chance = 5828},
-	{id = "leather harness", chance = 2829},
-	{id = "rat god doll", chance = 27}
+	{id = "soft cheese", chance = 14910},
+	{id = "cheese", chance = 14803},
+	{id = "rat cheese", chance = 14651},
+	{id = "cheese cutter", chance = 11783},
+	{id = "bola", chance = 9693},
+	{id = "earflap", chance = 8951},
+	{id = "spiky club", chance = 2251},
+	{id = "cheesy figurine", chance = 2207},
+	{id = "ratana", chance = 2198},
+	{id = "spike shield", chance = 2171},
+	{id = "life preserver", chance = 1876},
+	{id = "leather harness", chance = 1474},
+	{id = "rat god doll", chance = 18}
 }
 
 mType:register(monster)

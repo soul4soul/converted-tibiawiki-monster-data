@@ -5,7 +5,7 @@ monster.name = "High Voltage Elemental"
 monster.description = "a high voltage elemental"
 monster.experience = 1500
 monster.outfit = {
-	lookType = 0,
+	lookType = 293,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,33 +88,21 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 199},
-	{id = "flash arrow", chance = 19027, maxCount = 20},
-	{id = "crystal sword", chance = 6748},
-	{id = "mana potion", chance = 5033},
-	{id = "small amethyst", chance = 4369, maxCount = 3},
-	{id = "crystal ring", chance = 4148},
-	{id = "obsidian lance", chance = 4093},
-	{id = "strong mana potion", chance = 3872},
-	{id = "energy ring", chance = 2600},
-	{id = "spellbook of warding", chance = 774},
-	{id = "lightning pendant", chance = 608},
-	{id = "wand of cosmic energy", chance = 553},
+	{id = "flash arrow", chance = 19105, maxCount = 20},
+	{id = "crystal sword", chance = 6792},
+	{id = "mana potion", chance = 5025},
+	{id = "small amethyst", chance = 4362, maxCount = 3},
+	{id = "crystal ring", chance = 4141},
+	{id = "obsidian lance", chance = 4086},
+	{id = "strong mana potion", chance = 3865},
+	{id = "energy ring", chance = 2595},
+	{id = "spellbook of warding", chance = 773},
+	{id = "lightning pendant", chance = 607},
+	{id = "wand of cosmic energy", chance = 552},
 	{id = "lightning headband", chance = 221},
 	{id = "lightning robe", chance = 166},
 	{id = "shockwave amulet", chance = 166},
-	{id = "lightning legs", chance = 111},
-	{id = "gold coin", chance = 19524, maxCount = 189},
-	{id = "flash arrow", chance = 4148, maxCount = 20},
-	{id = "mana potion", chance = 1217},
-	{id = "crystal sword", chance = 1162},
-	{id = "obsidian lance", chance = 830},
-	{id = "small amethyst", chance = 830, maxCount = 3},
-	{id = "crystal ring", chance = 774},
-	{id = "energy ring", chance = 664},
-	{id = "strong mana potion", chance = 553},
-	{id = "lightning pendant", chance = 166},
-	{id = "spellbook of warding", chance = 166},
-	{id = "wand of cosmic energy", chance = 166}
+	{id = "lightning legs", chance = 110}
 }
 
 mType:register(monster)

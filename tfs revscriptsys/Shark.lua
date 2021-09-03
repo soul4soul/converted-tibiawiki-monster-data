@@ -5,7 +5,7 @@ monster.name = "Shark"
 monster.description = "a shark"
 monster.experience = 700
 monster.outfit = {
-	lookType = 0,
+	lookType = 453,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,13 +89,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 91638, maxCount = 138},
-	{id = "fish", chance = 25467, maxCount = 4},
-	{id = "deepling scales", chance = 9685},
-	{id = "eye of a deepling", chance = 1146},
-	{id = "small sapphire", chance = 1064},
-	{id = "giant shimmering pearl (brown)", chance = 382},
-	{id = "fish fin", chance = 150}
+	{id = "gold coin", chance = 91600, maxCount = 138},
+	{id = "fish", chance = 25253, maxCount = 4},
+	{id = "deepling scales", chance = 9660},
+	{id = "eye of a deepling", chance = 1117},
+	{id = "small sapphire", chance = 1052},
+	{id = "giant shimmering pearl (brown)", chance = 415},
+	{id = "fish fin", chance = 156}
 }
 
 mType:register(monster)

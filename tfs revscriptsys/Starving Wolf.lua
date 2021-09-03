@@ -5,7 +5,7 @@ monster.name = "Starving Wolf"
 monster.description = "a starving wolf"
 monster.experience = 65
 monster.outfit = {
-	lookType = 0,
+	lookType = 27,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,9 +90,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "dirty fur", chance = 65442},
-	{id = "meat", chance = 5174},
-	{id = "wolf paw", chance = 1461}
+	{id = "dirty fur", chance = 65345},
+	{id = "meat", chance = 5181},
+	{id = "wolf paw", chance = 1452}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Black Sphinx Acolyte" nameDescription="a black sphinx acolyte" experience="7200" speed="310" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Black Sphinx Acolyte" nameDescription="a black sphinx acolyte" experience="7200" speed="310" manacost="0">
 	<health now="8100" max="8100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1200" head="95" body="95" legs="94" feet="95" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,32 +50,14 @@
 		<voice sentence="The Black Sphinx will prevail!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="7" />
-		<item id="snakebite rod" chance="6980" />
-		<item id="underworld rod" chance="6443" />
-		<item id="blue crystal shard" chance="6309" />
-		<item id="opal" chance="3535" countmax="2" />
-		<item id="violet gem" chance="3221" />
-		<item id="empty honey glass" chance="2640" />
-		<item id="small enchanted emerald" chance="2371" countmax="3" />
-		<item id="wand of voodoo" chance="2148" />
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="snakebite rod" chance="10738" />
-		<item id="blue crystal shard" chance="9128" />
-		<item id="underworld rod" chance="8277" />
-		<item id="violet gem" chance="4832" />
-		<item id="opal" chance="4743" countmax="2" />
-		<item id="wand of voodoo" chance="4251" />
-		<item id="empty honey glass" chance="3624" />
-		<item id="small enchanted emerald" chance="3535" countmax="3" />
-		<item id="platinum coin" chance="6264" countmax="5" />
-		<item id="blue crystal shard" chance="358" />
-		<item id="snakebite rod" chance="358" />
-		<item id="violet gem" chance="313" />
-		<item id="small enchanted emerald" chance="179" countmax="3" />
-		<item id="opal" chance="134" countmax="2" />
-		<item id="underworld rod" chance="89" />
-		<item id="empty honey glass" chance="45" />
-		<item id="wand of voodoo" chance="45" />
+		<item name="platinum coin" chance="100000" countmax="7" />
+		<item name="snakebite rod" chance="7046" />
+		<item name="underworld rod" chance="6477" />
+		<item name="blue crystal shard" chance="6302" />
+		<item name="opal" chance="3457" countmax="2" />
+		<item name="violet gem" chance="3239" />
+		<item name="empty honey glass" chance="2582" />
+		<item name="small enchanted emerald" chance="2363" countmax="3" />
+		<item name="wand of voodoo" chance="2188" />
 	</loot>
 </monster>

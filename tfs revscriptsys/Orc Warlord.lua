@@ -5,7 +5,7 @@ monster.name = "Orc Warlord"
 monster.description = "an orc warlord"
 monster.experience = 670
 monster.outfit = {
-	lookType = 0,
+	lookType = 2,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -91,28 +92,28 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "broken helmet", chance = 25000},
-	{id = "orc leather", chance = 20518},
-	{id = "gold coin", chance = 19135, maxCount = 45},
-	{id = "throwing star", chance = 14497, maxCount = 18},
-	{id = "fish", chance = 10327, maxCount = 2},
-	{id = "orc tooth", chance = 9704},
-	{id = "orcish axe", chance = 5475},
-	{id = "plate armor", chance = 5398},
-	{id = "skull belt", chance = 5086},
-	{id = "hunting spear", chance = 4793},
-	{id = "plate legs", chance = 3936},
-	{id = "scimitar", chance = 3176},
-	{id = "protection amulet", chance = 1851},
-	{id = "two handed sword", chance = 1812},
-	{id = "dark helmet", chance = 1267},
-	{id = "brass armor", chance = 877},
-	{id = "health potion", chance = 409},
-	{id = "crusader helmet", chance = 351},
-	{id = "magma boots", chance = 214},
-	{id = "dragon hammer", chance = 195},
-	{id = "orc trophy", chance = 156},
-	{id = "stealth ring", chance = 117}
+	{id = "broken helmet", chance = 25318},
+	{id = "orc leather", chance = 20433},
+	{id = "gold coin", chance = 18954, maxCount = 45},
+	{id = "throwing star", chance = 14706, maxCount = 18},
+	{id = "fish", chance = 10423, maxCount = 2},
+	{id = "orc tooth", chance = 10114},
+	{id = "plate armor", chance = 5452},
+	{id = "orcish axe", chance = 5366},
+	{id = "skull belt", chance = 5005},
+	{id = "hunting spear", chance = 4816},
+	{id = "plate legs", chance = 3922},
+	{id = "scimitar", chance = 2976},
+	{id = "two handed sword", chance = 1944},
+	{id = "protection amulet", chance = 1858},
+	{id = "dark helmet", chance = 1273},
+	{id = "brass armor", chance = 912},
+	{id = "health potion", chance = 378},
+	{id = "crusader helmet", chance = 310},
+	{id = "dragon hammer", chance = 206},
+	{id = "magma boots", chance = 189},
+	{id = "orc trophy", chance = 138},
+	{id = "stealth ring", chance = 120}
 }
 
 mType:register(monster)

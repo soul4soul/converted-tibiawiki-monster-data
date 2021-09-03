@@ -5,7 +5,7 @@ monster.name = "Armadile"
 monster.description = "an armadile"
 monster.experience = 2900
 monster.outfit = {
-	lookType = 0,
+	lookType = 487,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,25 +89,25 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 198},
-	{id = "platinum coin", chance = 95210, maxCount = 7},
-	{id = "great health potion", chance = 15443, maxCount = 2},
-	{id = "great mana potion", chance = 15398, maxCount = 2},
-	{id = "strong health potion", chance = 15040, maxCount = 2},
-	{id = "mana potion", chance = 14906, maxCount = 3},
-	{id = "strong mana potion", chance = 14906, maxCount = 2},
-	{id = "crystalline spikes", chance = 14548},
-	{id = "battle stone", chance = 12623},
-	{id = "envenomed arrow", chance = 11012, maxCount = 10},
-	{id = "drill bolt", chance = 7968, maxCount = 5},
-	{id = "coal", chance = 6267},
-	{id = "green crystal fragment", chance = 5909, maxCount = 2},
-	{id = "green crystal splinter", chance = 4297, maxCount = 2},
-	{id = "terra boots", chance = 2641},
-	{id = "titan axe", chance = 1522},
-	{id = "time ring", chance = 1253},
-	{id = "bonebreaker", chance = 1074},
-	{id = "tower shield", chance = 627},
-	{id = "crystalline armor", chance = 224}
+	{id = "platinum coin", chance = 95183, maxCount = 7},
+	{id = "great health potion", chance = 15477, maxCount = 2},
+	{id = "great mana potion", chance = 15388, maxCount = 2},
+	{id = "strong health potion", chance = 15031, maxCount = 2},
+	{id = "strong mana potion", chance = 14942, maxCount = 2},
+	{id = "mana potion", chance = 14853, maxCount = 3},
+	{id = "crystalline spikes", chance = 14585},
+	{id = "battle stone", chance = 12712},
+	{id = "envenomed arrow", chance = 11017, maxCount = 10},
+	{id = "drill bolt", chance = 7939, maxCount = 5},
+	{id = "coal", chance = 6334},
+	{id = "green crystal fragment", chance = 5977, maxCount = 2},
+	{id = "green crystal splinter", chance = 4282, maxCount = 2},
+	{id = "terra boots", chance = 2632},
+	{id = "titan axe", chance = 1517},
+	{id = "time ring", chance = 1249},
+	{id = "bonebreaker", chance = 1070},
+	{id = "tower shield", chance = 624},
+	{id = "crystalline armor", chance = 223}
 }
 
 mType:register(monster)

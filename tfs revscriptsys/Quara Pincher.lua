@@ -5,7 +5,7 @@ monster.name = "Quara Pincher"
 monster.description = "a quara pincher"
 monster.experience = 1200
 monster.outfit = {
-	lookType = 0,
+	lookType = 77,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,27 +91,16 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 150},
-	{id = "platinum coin", chance = 40554},
-	{id = "quara pincers", chance = 14679},
-	{id = "great health potion", chance = 10358},
-	{id = "small ruby", chance = 7547, maxCount = 2},
-	{id = "halberd", chance = 6923},
-	{id = "shrimp", chance = 4951},
-	{id = "fish fin", chance = 1650},
-	{id = "warrior helmet", chance = 1462},
-	{id = "crown armor", chance = 282},
+	{id = "platinum coin", chance = 40551},
+	{id = "quara pincers", chance = 14670},
+	{id = "great health potion", chance = 10367},
+	{id = "small ruby", chance = 7546, maxCount = 2},
+	{id = "halberd", chance = 6916},
+	{id = "shrimp", chance = 4946},
+	{id = "fish fin", chance = 1649},
+	{id = "warrior helmet", chance = 1468},
+	{id = "crown armor", chance = 281},
 	{id = "glacier robe", chance = 121},
-	{id = "giant shrimp", chance = 40},
-	{id = "gold coin", chance = 50315, maxCount = 129},
-	{id = "quara pincers", chance = 9721},
-	{id = "shrimp", chance = 3193},
-	{id = "halberd", chance = 3173},
-	{id = "small ruby", chance = 3079, maxCount = 2},
-	{id = "fish fin", chance = 966},
-	{id = "warrior helmet", chance = 725},
-	{id = "great health potion", chance = 651},
-	{id = "crown armor", chance = 161},
-	{id = "glacier robe", chance = 60},
 	{id = "giant shrimp", chance = 40}
 }
 

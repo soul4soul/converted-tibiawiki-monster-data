@@ -5,7 +5,7 @@ monster.name = "Pirate Buccaneer"
 monster.description = "a pirate buccaneer"
 monster.experience = 250
 monster.outfit = {
-	lookType = 0,
+	lookType = 97,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,21 +91,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 67811, maxCount = 60},
-	{id = "torch", chance = 10002},
-	{id = "sabre", chance = 9950},
-	{id = "worn leather boots", chance = 9883},
-	{id = "compass", chance = 9815},
-	{id = "throwing knife", chance = 8872, maxCount = 5},
-	{id = "battle shield", chance = 4018},
+	{id = "gold coin", chance = 67809, maxCount = 60},
+	{id = "torch", chance = 9998},
+	{id = "sabre", chance = 9951},
+	{id = "worn leather boots", chance = 9884},
+	{id = "compass", chance = 9817},
+	{id = "throwing knife", chance = 8868, maxCount = 5},
+	{id = "battle shield", chance = 4017},
 	{id = "pirate shirt", chance = 1130},
 	{id = "treasure map (pirate)", chance = 1068},
-	{id = "plate armor", chance = 1011},
+	{id = "plate armor", chance = 1016},
 	{id = "strong health potion", chance = 736},
 	{id = "peg leg", chance = 482},
 	{id = "pirate backpack", chance = 477},
-	{id = "hook", chance = 467},
-	{id = "eye patch", chance = 436},
+	{id = "hook", chance = 466},
+	{id = "eye patch", chance = 435},
 	{id = "rum flask", chance = 145},
 	{id = "die", chance = 57}
 }

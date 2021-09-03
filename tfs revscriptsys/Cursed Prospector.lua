@@ -5,11 +5,11 @@ monster.name = "Cursed Prospector"
 monster.description = "a cursed prospector"
 monster.experience = 5250
 monster.outfit = {
-	lookType = 0,
+	lookType = 1268,
 	lookHead = 0,
-	lookBody = 0,
+	lookBody = 19,
 	lookLegs = 0,
-	lookFeet = 0,
+	lookFeet = 38,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,17 +88,17 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "flash arrow", chance = 19276, maxCount = 20},
-	{id = "great spirit potion", chance = 17401, maxCount = 2},
-	{id = "spectral silver nugget", chance = 9474},
+	{id = "flash arrow", chance = 19346, maxCount = 20},
+	{id = "great spirit potion", chance = 17320, maxCount = 2},
+	{id = "spectral silver nugget", chance = 9477},
 	{id = "spectral gold nugget", chance = 5033},
-	{id = "emerald bangle", chance = 1743},
-	{id = "lightning legs", chance = 1151},
-	{id = "diamond", chance = 1118},
-	{id = "lightning boots", chance = 987},
-	{id = "elven amulet", chance = 921},
-	{id = "lightning robe", chance = 724},
-	{id = "shockwave amulet", chance = 724}
+	{id = "emerald bangle", chance = 1732},
+	{id = "lightning legs", chance = 1144},
+	{id = "diamond", chance = 1111},
+	{id = "lightning boots", chance = 980},
+	{id = "elven amulet", chance = 915},
+	{id = "lightning robe", chance = 719},
+	{id = "shockwave amulet", chance = 719}
 }
 
 mType:register(monster)

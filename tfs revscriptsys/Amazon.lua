@@ -5,11 +5,11 @@ monster.name = "Amazon"
 monster.description = "an amazon"
 monster.experience = 60
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 137,
+	lookHead = 113,
+	lookBody = 120,
+	lookLegs = 95,
+	lookFeet = 115,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,14 +91,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "skull", chance = 80087, maxCount = 2},
-	{id = "dagger", chance = 80013},
-	{id = "gold coin", chance = 40085, maxCount = 20},
-	{id = "brown bread", chance = 29507},
-	{id = "sabre", chance = 23244},
-	{id = "girlish hair decoration", chance = 9858},
-	{id = "protective charm", chance = 5246},
-	{id = "torch", chance = 1008},
+	{id = "skull", chance = 80090, maxCount = 2},
+	{id = "dagger", chance = 80012},
+	{id = "gold coin", chance = 40083, maxCount = 20},
+	{id = "brown bread", chance = 29506},
+	{id = "sabre", chance = 23242},
+	{id = "girlish hair decoration", chance = 9864},
+	{id = "protective charm", chance = 5249},
+	{id = "torch", chance = 1007},
 	{id = "crystal necklace", chance = 244},
 	{id = "small ruby", chance = 134}
 }

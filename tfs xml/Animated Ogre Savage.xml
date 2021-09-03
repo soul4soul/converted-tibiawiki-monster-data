@@ -1,4 +1,5 @@
-﻿<monster name="Animated Ogre Savage" nameDescription="an animated ogre savage" experience="950" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Animated Ogre Savage" nameDescription="an animated ogre savage" experience="950" speed="0" manacost="0">
 	<health now="1400" max="1400" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -47,12 +49,12 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="116" />
-		<item id="ogre ear stud" chance="26667" />
-		<item id="mysterious fetish" chance="13333" />
-		<item id="ogre nose ring" chance="13333" />
-		<item id="strong health potion" chance="13333" />
-		<item id="jalapeno pepper" chance="6667" countmax="2" />
-		<item id="onyx chip" chance="6667" />
+		<item name="gold coin" chance="100000" countmax="116" />
+		<item name="ogre ear stud" chance="26667" />
+		<item name="mysterious fetish" chance="13333" />
+		<item name="ogre nose ring" chance="13333" />
+		<item name="strong health potion" chance="13333" />
+		<item name="jalapeno pepper" chance="6667" countmax="2" />
+		<item name="onyx chip" chance="6667" />
 	</loot>
 </monster>

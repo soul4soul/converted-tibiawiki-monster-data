@@ -1,6 +1,7 @@
-﻿<monster name="Grave Robber" nameDescription="a grave robber" experience="65" speed="190" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grave Robber" nameDescription="a grave robber" experience="65" speed="190" manacost="0">
 	<health now="165" max="165" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="146" head="57" body="95" legs="57" feet="19" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -43,15 +45,15 @@
 	</attacks>
 	<defenses armor="7" defense="7" />
 	<loot>
-		<item id="gold coin" chance="55866" countmax="38" />
-		<item id="rope belt" chance="6284" />
-		<item id="potato" chance="5302" countmax="3" />
-		<item id="axe" chance="2847" />
-		<item id="dirty turban" chance="1964" />
-		<item id="brass armor" chance="1767" />
-		<item id="mace" chance="1424" />
-		<item id="steel shield" chance="785" />
-		<item id="iron helmet" chance="638" />
-		<item id="nomad parchment" chance="344" />
+		<item name="gold coin" chance="55866" countmax="38" />
+		<item name="rope belt" chance="6284" />
+		<item name="potato" chance="5302" countmax="3" />
+		<item name="axe" chance="2847" />
+		<item name="dirty turban" chance="1964" />
+		<item name="brass armor" chance="1767" />
+		<item name="mace" chance="1424" />
+		<item name="steel shield" chance="785" />
+		<item name="iron helmet" chance="638" />
+		<item name="nomad parchment" chance="344" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Tortoise" nameDescription="a tortoise" experience="90" speed="130" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tortoise" nameDescription="a tortoise" experience="90" speed="130" manacost="0">
 	<health now="185" max="185" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="197" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -43,19 +45,12 @@
 	</attacks>
 	<defenses armor="22" defense="22" />
 	<loot>
-		<item id="gold coin" chance="60124" countmax="30" />
-		<item id="fish" chance="5006" />
-		<item id="plate shield" chance="2918" />
-		<item id="tortoise egg" chance="1096" countmax="2" />
-		<item id="battle hammer" chance="852" />
-		<item id="turtle shell" chance="806" />
-		<item id="tortoise shield" chance="157" />
-		<item id="gold coin" chance="32500" countmax="30" />
-		<item id="fish" chance="2838" />
-		<item id="plate shield" chance="1477" />
-		<item id="tortoise egg" chance="646" countmax="2" />
-		<item id="turtle shell" chance="573" />
-		<item id="battle hammer" chance="405" />
-		<item id="tortoise shield" chance="105" />
+		<item name="gold coin" chance="60134" countmax="30" />
+		<item name="fish" chance="5022" />
+		<item name="plate shield" chance="2918" />
+		<item name="tortoise egg" chance="1099" countmax="2" />
+		<item name="battle hammer" chance="855" />
+		<item name="turtle shell" chance="807" />
+		<item name="tortoise shield" chance="156" />
 	</loot>
 </monster>

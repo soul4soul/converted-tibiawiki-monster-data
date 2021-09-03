@@ -1,6 +1,7 @@
-﻿<monster name="Scarab" nameDescription="a scarab" experience="120" speed="160" manacost="395">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Scarab" nameDescription="a scarab" experience="120" speed="160" manacost="395">
 	<health now="320" max="320" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="83" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="1" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="-18" />
 		<element lifedrainPercent="0" />
@@ -47,12 +49,12 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="87318" countmax="52" />
-		<item id="meat" chance="39933" />
-		<item id="piece of scarab shell" chance="5034" />
-		<item id="scarab coin" chance="1112" />
-		<item id="small amethyst" chance="512" />
-		<item id="small emerald" chance="344" />
-		<item id="daramian mace" chance="304" />
+		<item name="gold coin" chance="87316" countmax="52" />
+		<item name="meat" chance="39931" />
+		<item name="piece of scarab shell" chance="5033" />
+		<item name="scarab coin" chance="1111" />
+		<item name="small amethyst" chance="512" />
+		<item name="small emerald" chance="344" />
+		<item name="daramian mace" chance="304" />
 	</loot>
 </monster>

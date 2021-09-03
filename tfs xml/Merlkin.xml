@@ -1,6 +1,7 @@
-﻿<monster name="Merlkin" nameDescription="a merlkin" experience="145" speed="194" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Merlkin" nameDescription="a merlkin" experience="145" speed="194" manacost="0">
 	<health now="235" max="235" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="117" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -50,15 +52,15 @@
 		<voice sentence="Chakka! Chakka!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="82943" countmax="45" />
-		<item id="banana" chance="30434" countmax="12" />
-		<item id="magic light wand" chance="3018" />
-		<item id="banana sash" chance="1917" />
-		<item id="ape fur" chance="1014" />
-		<item id="orange" chance="1011" countmax="5" />
-		<item id="wand of decay" chance="979" />
-		<item id="mana potion" chance="693" />
-		<item id="small amethyst" chance="310" />
-		<item id="banana staff" chance="102" />
+		<item name="gold coin" chance="82943" countmax="45" />
+		<item name="banana" chance="30434" countmax="12" />
+		<item name="magic light wand" chance="3018" />
+		<item name="banana sash" chance="1917" />
+		<item name="ape fur" chance="1014" />
+		<item name="orange" chance="1011" countmax="5" />
+		<item name="wand of decay" chance="979" />
+		<item name="mana potion" chance="693" />
+		<item name="small amethyst" chance="310" />
+		<item name="banana staff" chance="102" />
 	</loot>
 </monster>

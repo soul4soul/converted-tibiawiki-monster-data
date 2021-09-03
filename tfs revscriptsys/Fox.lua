@@ -5,7 +5,7 @@ monster.name = "Fox"
 monster.description = "a fox"
 monster.experience = 15
 monster.outfit = {
-	lookType = 0,
+	lookType = 1029,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,8 +89,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 48274},
-	{id = "fox paw", chance = 1368}
+	{id = "meat", chance = 48181},
+	{id = "fox paw", chance = 1404}
 }
 
 mType:register(monster)

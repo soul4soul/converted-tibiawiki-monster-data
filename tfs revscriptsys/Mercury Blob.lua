@@ -5,7 +5,7 @@ monster.name = "Mercury Blob"
 monster.description = "a mercury blob"
 monster.experience = 180
 monster.outfit = {
-	lookType = 0,
+	lookType = 316,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -93,7 +94,7 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = "glob of mercury", chance = 18760}
+	{id = "glob of mercury", chance = 18741}
 }
 
 mType:register(monster)

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,23 +88,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "fur shred", chance = 15881},
-	{id = "axe", chance = 15219},
-	{id = "lion cloak patch", chance = 9429},
-	{id = "lion crest", chance = 8933},
-	{id = "gold ingot", chance = 8850},
-	{id = "giant shimmering pearl (brown)", chance = 8768},
-	{id = "bow", chance = 8519},
-	{id = "spellbook of warding", chance = 5459},
-	{id = "wand of voodoo", chance = 4632},
-	{id = "springsprout rod", chance = 3557},
-	{id = "green gem", chance = 3060},
-	{id = "ring of red plasma", chance = 2316},
-	{id = "violet gem", chance = 2233},
-	{id = "blue crystal shard", chance = 1737},
-	{id = "ring of blue plasma", chance = 1489},
-	{id = "giant shimmering pearl", chance = 331},
-	{id = "bullseye potion", chance = 248}
+	{id = "fur shred", chance = 15767},
+	{id = "axe", chance = 15487},
+	{id = "lion cloak patch", chance = 9460},
+	{id = "lion crest", chance = 8970},
+	{id = "giant shimmering pearl (brown)", chance = 8690},
+	{id = "gold ingot", chance = 8690},
+	{id = "bow", chance = 8549},
+	{id = "spellbook of warding", chance = 5396},
+	{id = "wand of voodoo", chance = 4415},
+	{id = "springsprout rod", chance = 3574},
+	{id = "green gem", chance = 2873},
+	{id = "ring of red plasma", chance = 2172},
+	{id = "violet gem", chance = 2172},
+	{id = "ring of blue plasma", chance = 1752},
+	{id = "blue crystal shard", chance = 1682},
+	{id = "bullseye potion", chance = 280},
+	{id = "giant shimmering pearl", chance = 280}
 }
 
 mType:register(monster)

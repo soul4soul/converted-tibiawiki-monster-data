@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -96,18 +97,7 @@ monster.loot = {
 	{id = "violet memory shard", chance = 3645},
 	{id = "blue memory shard", chance = 3189},
 	{id = "sacred tree amulet", chance = 2278},
-	{id = "worm", chance = 911, maxCount = 3},
-	{id = "platinum coin", chance = 57403},
-	{id = "envenomed arrow", chance = 34852, maxCount = 47},
-	{id = "lump of dirt", chance = 5695},
-	{id = "green memory shard", chance = 2733},
-	{id = "terra amulet", chance = 2278},
-	{id = "terra hood", chance = 2050},
-	{id = "blue memory shard", chance = 1822},
-	{id = "sacred tree amulet", chance = 1595},
-	{id = "violet memory shard", chance = 1595},
-	{id = "earth arrow", chance = 1367, maxCount = 21},
-	{id = "worm", chance = 1367, maxCount = 3}
+	{id = "worm", chance = 911, maxCount = 3}
 }
 
 mType:register(monster)

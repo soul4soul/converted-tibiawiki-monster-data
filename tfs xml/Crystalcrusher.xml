@@ -1,6 +1,7 @@
-﻿<monster name="Crystalcrusher" nameDescription="a crystalcrusher" experience="500" speed="390" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Crystalcrusher" nameDescription="a crystalcrusher" experience="500" speed="390" manacost="0">
 	<health now="570" max="570" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="511" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="100" />
 		<element firePercent="15" />
 		<element lifedrainPercent="0" />
@@ -50,11 +52,11 @@
 		<voice sentence="Crackle!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="84656" countmax="90" />
-		<item id="brown crystal splinter" chance="5143" />
-		<item id="green crystal splinter" chance="4991" />
-		<item id="crystalline arrow" chance="4962" countmax="3" />
-		<item id="blue crystal splinter" chance="4953" />
-		<item id="crystalline spikes" chance="3661" />
+		<item name="gold coin" chance="84656" countmax="90" />
+		<item name="brown crystal splinter" chance="5143" />
+		<item name="green crystal splinter" chance="4991" />
+		<item name="crystalline arrow" chance="4962" countmax="3" />
+		<item name="blue crystal splinter" chance="4953" />
+		<item name="crystalline spikes" chance="3661" />
 	</loot>
 </monster>

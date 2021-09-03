@@ -5,7 +5,7 @@ monster.name = "Stabilizing Reality Reaver"
 monster.description = "a stabilizing reality reaver"
 monster.experience = 1950
 monster.outfit = {
-	lookType = 0,
+	lookType = 879,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,24 +89,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 97298, maxCount = 100},
-	{id = "platinum coin", chance = 97298, maxCount = 4},
-	{id = "great spirit potion", chance = 14409},
-	{id = "great health potion", chance = 13996},
-	{id = "great mana potion", chance = 13696},
-	{id = "condensed energy", chance = 10769},
-	{id = "energy drink", chance = 9644},
-	{id = "energy bar", chance = 9493},
-	{id = "small energy ball", chance = 9081},
-	{id = "plasma pearls", chance = 8705},
-	{id = "red crystal fragment", chance = 3865},
-	{id = "violet crystal shard", chance = 3452},
-	{id = "blue crystal splinter", chance = 3415, maxCount = 2},
-	{id = "blue crystal shard", chance = 1651},
-	{id = "red gem", chance = 1463},
-	{id = "wand of starstorm", chance = 1313},
-	{id = "lightning headband", chance = 225},
-	{id = "focus cape", chance = 75}
+	{id = "gold coin", chance = 97458, maxCount = 100},
+	{id = "platinum coin", chance = 97458, maxCount = 4},
+	{id = "great spirit potion", chance = 14407},
+	{id = "great health potion", chance = 13948},
+	{id = "great mana potion", chance = 13736},
+	{id = "condensed energy", chance = 10593},
+	{id = "energy bar", chance = 9499},
+	{id = "energy drink", chance = 9499},
+	{id = "small energy ball", chance = 9145},
+	{id = "plasma pearls", chance = 8828},
+	{id = "red crystal fragment", chance = 3919},
+	{id = "violet crystal shard", chance = 3531},
+	{id = "blue crystal splinter", chance = 3390, maxCount = 2},
+	{id = "blue crystal shard", chance = 1660},
+	{id = "red gem", chance = 1412},
+	{id = "wand of starstorm", chance = 1271},
+	{id = "lightning headband", chance = 212},
+	{id = "focus cape", chance = 71}
 }
 
 mType:register(monster)

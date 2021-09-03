@@ -5,7 +5,7 @@ monster.name = "Spitter"
 monster.description = "a spitter"
 monster.experience = 1100
 monster.outfit = {
-	lookType = 0,
+	lookType = 461,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,15 +90,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 190},
-	{id = "platinum coin", chance = 75136},
-	{id = "spitter nose", chance = 18202},
-	{id = "compound eye", chance = 15098},
-	{id = "small amethyst", chance = 8174, maxCount = 2},
-	{id = "great mana potion", chance = 8027},
-	{id = "brown mushroom", chance = 7405, maxCount = 3},
+	{id = "platinum coin", chance = 75131},
+	{id = "spitter nose", chance = 18201},
+	{id = "compound eye", chance = 15099},
+	{id = "small amethyst", chance = 8178, maxCount = 2},
+	{id = "great mana potion", chance = 8026},
+	{id = "brown mushroom", chance = 7407, maxCount = 3},
 	{id = "great health potion", chance = 4948},
 	{id = "time ring", chance = 2307},
-	{id = "crystal sword", chance = 2013},
+	{id = "crystal sword", chance = 2015},
 	{id = "mastermind potion", chance = 318},
 	{id = "calopteryx cape", chance = 241},
 	{id = "platinum amulet", chance = 231},

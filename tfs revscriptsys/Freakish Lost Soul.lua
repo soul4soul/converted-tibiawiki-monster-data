@@ -5,11 +5,11 @@ monster.name = "Freakish Lost Soul"
 monster.description = "a freakish lost soul"
 monster.experience = 7020
 monster.outfit = {
-	lookType = 0,
+	lookType = 1268,
 	lookHead = 0,
-	lookBody = 0,
+	lookBody = 74,
 	lookLegs = 0,
-	lookFeet = 0,
+	lookFeet = 83,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,15 +88,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "lost soul (item)", chance = 46074},
-	{id = "emerald bangle", chance = 7730},
-	{id = "death toll", chance = 5521},
-	{id = "gemmed figurine", chance = 4724},
-	{id = "ensouled essence", chance = 3129},
-	{id = "ring of blue plasma", chance = 1840},
-	{id = "silver hand mirror", chance = 1166},
-	{id = "ornate crossbow", chance = 1043},
-	{id = "crystal crossbow", chance = 798}
+	{id = "lost soul (item)", chance = 45896},
+	{id = "emerald bangle", chance = 7729},
+	{id = "death toll", chance = 5572},
+	{id = "gemmed figurine", chance = 4614},
+	{id = "ensouled essence", chance = 3176},
+	{id = "ring of blue plasma", chance = 1917},
+	{id = "silver hand mirror", chance = 1138},
+	{id = "ornate crossbow", chance = 1019},
+	{id = "crystal crossbow", chance = 779}
 }
 
 mType:register(monster)

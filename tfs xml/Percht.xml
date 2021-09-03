@@ -1,6 +1,7 @@
-﻿<monster name="Percht" nameDescription="a percht" experience="600" speed="270" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Percht" nameDescription="a percht" experience="600" speed="270" manacost="0">
 	<health now="620" max="620" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1161" head="95" body="42" legs="21" feet="20" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -47,23 +49,23 @@
 		<voice sentence="Shzzzp shzzzp shzzp!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="60" />
-		<item id="fireworks capsule" chance="12449" />
-		<item id="percht horns" chance="10216" />
-		<item id="grainy fireworks powder" chance="5855" />
-		<item id="broken bell" chance="5236" />
-		<item id="versicolour fireworks powder" chance="4135" />
-		<item id="blue fireworks powder" chance="3139" />
-		<item id="dark bell" chance="2927" />
-		<item id="green fireworks powder" chance="2716" />
-		<item id="purple fireworks powder" chance="2113" />
-		<item id="turquoise fireworks powder" chance="2113" />
-		<item id="yellow fireworks powder" chance="1871" />
-		<item id="orange fireworks powder" chance="1841" />
-		<item id="red fireworks powder" chance="1811" />
-		<item id="magma amulet" chance="1509" />
-		<item id="magma coat" chance="1252" />
-		<item id="magma monocle" chance="996" />
-		<item id="magma legs" chance="558" />
+		<item name="gold coin" chance="100000" countmax="60" />
+		<item name="fireworks capsule" chance="12449" />
+		<item name="percht horns" chance="10216" />
+		<item name="grainy fireworks powder" chance="5855" />
+		<item name="broken bell" chance="5236" />
+		<item name="versicolour fireworks powder" chance="4135" />
+		<item name="blue fireworks powder" chance="3139" />
+		<item name="dark bell" chance="2927" />
+		<item name="green fireworks powder" chance="2716" />
+		<item name="purple fireworks powder" chance="2113" />
+		<item name="turquoise fireworks powder" chance="2113" />
+		<item name="yellow fireworks powder" chance="1871" />
+		<item name="orange fireworks powder" chance="1841" />
+		<item name="red fireworks powder" chance="1811" />
+		<item name="magma amulet" chance="1509" />
+		<item name="magma coat" chance="1252" />
+		<item name="magma monocle" chance="996" />
+		<item name="magma legs" chance="558" />
 	</loot>
 </monster>

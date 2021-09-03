@@ -5,7 +5,7 @@ monster.name = "Bug"
 monster.description = "a bug"
 monster.experience = 18
 monster.outfit = {
-	lookType = 0,
+	lookType = 45,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,10 +87,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 49936, maxCount = 6},
-	{id = "cherry", chance = 3039, maxCount = 3},
-	{id = "gold coin", chance = 31704, maxCount = 6},
-	{id = "cherry", chance = 2757, maxCount = 3}
+	{id = "gold coin", chance = 49929, maxCount = 6},
+	{id = "cherry", chance = 3058, maxCount = 3}
 }
 
 mType:register(monster)

@@ -1,4 +1,5 @@
-﻿<monster name="Tanjis" nameDescription="" experience="15000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tanjis" nameDescription="" experience="15000" speed="0" manacost="0">
 	<health now="30000" max="30000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-1" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="-5" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -48,11 +50,8 @@
 		<voice sentence="JAU QJELL, JAKHN JEH KENH!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="depth ocrea" chance="52214" />
-		<item id="ornate mace" chance="26107" />
-		<item id="ornate shield" chance="21678" />
-		<item id="ornate mace" chance="1632" />
-		<item id="depth ocrea" chance="932" />
-		<item id="ornate shield" chance="466" />
+		<item name="depth ocrea" chance="52214" />
+		<item name="ornate mace" chance="26107" />
+		<item name="ornate shield" chance="21678" />
 	</loot>
 </monster>

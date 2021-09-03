@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -85,13 +86,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bone", chance = 49669},
-	{id = "gold coin", chance = 42384, maxCount = 10},
-	{id = "white mushroom", chance = 22517},
-	{id = "pelvis bone", chance = 10596},
-	{id = "sword", chance = 3974},
-	{id = "brown mushroom", chance = 1987},
-	{id = "mace", chance = 1325}
+	{id = "bone", chance = 47531},
+	{id = "gold coin", chance = 42593, maxCount = 10},
+	{id = "white mushroom", chance = 22840},
+	{id = "pelvis bone", chance = 11111},
+	{id = "sword", chance = 3704},
+	{id = "brown mushroom", chance = 1852},
+	{id = "mace", chance = 1235}
 }
 
 mType:register(monster)

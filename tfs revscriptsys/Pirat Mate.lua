@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,21 +87,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "cyan crystal fragment", chance = 15768},
-	{id = "small diamond", chance = 12794},
-	{id = "pirate coin", chance = 11480, maxCount = 10},
-	{id = "red crystal fragment", chance = 10028},
-	{id = "mouldy powder", chance = 9129},
-	{id = "pirat's tail", chance = 7538},
-	{id = "red gem", chance = 6708},
-	{id = "fire sword", chance = 6155},
-	{id = "small emerald", chance = 5533},
-	{id = "onyx chip", chance = 4564},
-	{id = "shark fins", chance = 3942},
-	{id = "yellow gem", chance = 3665},
-	{id = "ice rapier", chance = 3181},
-	{id = "green crystal shard", chance = 2835},
-	{id = "small treasure chest", chance = 2144}
+	{id = "cyan crystal fragment", chance = 15676},
+	{id = "small diamond", chance = 12635},
+	{id = "pirate coin", chance = 11622, maxCount = 10},
+	{id = "red crystal fragment", chance = 10068},
+	{id = "mouldy powder", chance = 8986},
+	{id = "pirat's tail", chance = 7703},
+	{id = "red gem", chance = 6757},
+	{id = "fire sword", chance = 6351},
+	{id = "small emerald", chance = 5541},
+	{id = "onyx chip", chance = 4662},
+	{id = "shark fins", chance = 3919},
+	{id = "yellow gem", chance = 3716},
+	{id = "ice rapier", chance = 3108},
+	{id = "green crystal shard", chance = 2838},
+	{id = "small treasure chest", chance = 2162}
 }
 
 mType:register(monster)

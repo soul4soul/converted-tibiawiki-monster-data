@@ -1,6 +1,7 @@
-﻿<monster name="Lizard Zaogun" nameDescription="a lizard zaogun" experience="1700" speed="276" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lizard Zaogun" nameDescription="a lizard zaogun" experience="1700" speed="276" manacost="0">
 	<health now="2955" max="2955" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="343" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="100" />
 		<element firePercent="45" />
 		<element lifedrainPercent="0" />
@@ -51,33 +53,19 @@
 		<voice sentence="Zztand and fight!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="94216" countmax="268" />
-		<item id="platinum coin" chance="49576" countmax="2" />
-		<item id="zaogun shoulderplates" chance="15019" />
-		<item id="lizard leather" chance="14677" />
-		<item id="lizard scale" chance="12099" />
-		<item id="zaogun flag" chance="8342" />
-		<item id="great health potion" chance="7177" countmax="3" />
-		<item id="small emerald" chance="4981" countmax="5" />
-		<item id="red lantern" chance="2141" />
-		<item id="strong health potion" chance="1918" />
-		<item id="zaoan shoes" chance="1115" />
-		<item id="tower shield" chance="1031" />
-		<item id="zaoan legs" chance="927" />
-		<item id="zaoan armor" chance="525" />
-		<item id="gold coin" chance="31341" countmax="294" />
-		<item id="zaogun shoulderplates" chance="3990" />
-		<item id="great health potion" chance="2290" countmax="3" />
-		<item id="lizard scale" chance="2250" />
-		<item id="zaogun flag" chance="1725" />
-		<item id="platinum coin" chance="1576" countmax="2" />
-		<item id="small emerald" chance="892" countmax="5" />
-		<item id="strong health potion" chance="788" />
-		<item id="red lantern" chance="734" />
-		<item id="tower shield" chance="347" />
-		<item id="zaoan shoes" chance="307" />
-		<item id="zaoan legs" chance="292" />
-		<item id="lizard leather" chance="268" />
-		<item id="zaoan armor" chance="109" />
+		<item name="gold coin" chance="94212" countmax="268" />
+		<item name="platinum coin" chance="49576" countmax="2" />
+		<item name="zaogun shoulderplates" chance="15014" />
+		<item name="lizard leather" chance="14677" />
+		<item name="lizard scale" chance="12096" />
+		<item name="zaogun flag" chance="8340" />
+		<item name="great health potion" chance="7175" countmax="3" />
+		<item name="small emerald" chance="4980" countmax="5" />
+		<item name="red lantern" chance="2141" />
+		<item name="strong health potion" chance="1923" />
+		<item name="zaoan shoes" chance="1115" />
+		<item name="tower shield" chance="1031" />
+		<item name="zaoan legs" chance="927" />
+		<item name="zaoan armor" chance="525" />
 	</loot>
 </monster>

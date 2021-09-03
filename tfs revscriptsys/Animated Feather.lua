@@ -5,7 +5,7 @@ monster.name = "Animated Feather"
 monster.description = "an animated feather"
 monster.experience = 9860
 monster.outfit = {
-	lookType = 0,
+	lookType = 1058,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,24 +90,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "glowing rune", chance = 77768, maxCount = 5},
-	{id = "platinum coin", chance = 77370, maxCount = 21},
-	{id = "small sapphire", chance = 39702, maxCount = 12},
-	{id = "ultimate mana potion", chance = 17426, maxCount = 2},
-	{id = "ice cube", chance = 14109},
-	{id = "energy ring", chance = 13888},
-	{id = "quill", chance = 13092},
-	{id = "glacier mask", chance = 7298},
-	{id = "diamond sceptre", chance = 4747},
-	{id = "small diamond", chance = 4747, maxCount = 12},
-	{id = "life crystal", chance = 3450},
-	{id = "glacier amulet", chance = 3052},
-	{id = "crystal mace", chance = 2816},
-	{id = "golden mug", chance = 2550},
-	{id = "hailstorm rod", chance = 2388},
-	{id = "glacial rod", chance = 944},
-	{id = "sapphire hammer", chance = 855},
-	{id = "leviathan's amulet", chance = 472},
+	{id = "glowing rune", chance = 77784, maxCount = 5},
+	{id = "platinum coin", chance = 77372, maxCount = 21},
+	{id = "small sapphire", chance = 39688, maxCount = 12},
+	{id = "ultimate mana potion", chance = 17428, maxCount = 2},
+	{id = "ice cube", chance = 14098},
+	{id = "energy ring", chance = 13907},
+	{id = "quill", chance = 13082},
+	{id = "glacier mask", chance = 7307},
+	{id = "diamond sceptre", chance = 4744},
+	{id = "small diamond", chance = 4744, maxCount = 12},
+	{id = "life crystal", chance = 3462},
+	{id = "glacier amulet", chance = 3049},
+	{id = "crystal mace", chance = 2814},
+	{id = "golden mug", chance = 2549},
+	{id = "hailstorm rod", chance = 2387},
+	{id = "glacial rod", chance = 943},
+	{id = "sapphire hammer", chance = 854},
+	{id = "leviathan's amulet", chance = 486},
 	{id = "crystalline armor", chance = 177}
 }
 

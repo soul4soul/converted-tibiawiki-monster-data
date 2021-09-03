@@ -5,7 +5,7 @@ monster.name = "Mutated Rat"
 monster.description = "a mutated rat"
 monster.experience = 450
 monster.outfit = {
-	lookType = 0,
+	lookType = 305,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,15 +90,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 78716, maxCount = 130},
-	{id = "skull", chance = 20291},
-	{id = "stone herb", chance = 4866},
-	{id = "mutated rat tail", chance = 3824},
-	{id = "plate shield", chance = 3783},
-	{id = "halberd", chance = 2983},
+	{id = "gold coin", chance = 78718, maxCount = 130},
+	{id = "skull", chance = 20294},
+	{id = "stone herb", chance = 4865},
+	{id = "mutated rat tail", chance = 3826},
+	{id = "plate shield", chance = 3782},
+	{id = "halberd", chance = 2982},
 	{id = "green mushroom", chance = 1370},
-	{id = "mouldy cheese", chance = 952},
-	{id = "stealth ring", chance = 550},
+	{id = "mouldy cheese", chance = 954},
+	{id = "stealth ring", chance = 549},
 	{id = "health potion", chance = 506},
 	{id = "spellbook of enlightenment", chance = 304},
 	{id = "tower shield", chance = 52}

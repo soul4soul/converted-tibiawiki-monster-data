@@ -5,7 +5,7 @@ monster.name = "Cave Devourer"
 monster.description = "a cave devourer"
 monster.experience = 2380
 monster.outfit = {
-	lookType = 0,
+	lookType = 1036,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -97,33 +98,7 @@ monster.loot = {
 	{id = "small enchanted sapphire", chance = 4698},
 	{id = "violet crystal shard", chance = 4698},
 	{id = "stealth ring", chance = 1342},
-	{id = "suspicious device", chance = 1342},
-	{id = "cave devourer maw", chance = 100000},
-	{id = "cave devourer eyes", chance = 100000},
-	{id = "cave devourer legs", chance = 100000},
-	{id = "crystalline arrow", chance = 100000, maxCount = 40},
-	{id = "slime heart", chance = 100000, maxCount = 4},
-	{id = "green crystal shard", chance = 85235},
-	{id = "small enchanted sapphire", chance = 82550},
-	{id = "blue crystal shard", chance = 74497},
-	{id = "small enchanted ruby", chance = 69799},
-	{id = "cyan crystal fragment", chance = 67114},
-	{id = "violet crystal shard", chance = 57718},
-	{id = "stealth ring", chance = 29530},
-	{id = "suspicious device", chance = 16779},
-	{id = "cave devourer maw", chance = 100000},
-	{id = "cave devourer eyes", chance = 100000},
-	{id = "crystalline arrow", chance = 96644, maxCount = 40},
-	{id = "cave devourer legs", chance = 78523},
-	{id = "slime heart", chance = 61745, maxCount = 4},
-	{id = "blue crystal shard", chance = 40940},
-	{id = "small enchanted sapphire", chance = 38926},
-	{id = "green crystal shard", chance = 38255},
-	{id = "violet crystal shard", chance = 31544},
-	{id = "cyan crystal fragment", chance = 28859},
-	{id = "small enchanted ruby", chance = 27517},
-	{id = "stealth ring", chance = 12752},
-	{id = "suspicious device", chance = 2013}
+	{id = "suspicious device", chance = 1342}
 }
 
 mType:register(monster)

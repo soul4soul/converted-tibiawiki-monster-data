@@ -1,6 +1,7 @@
-﻿<monster name="Fox" nameDescription="a fox" experience="15" speed="170" manacost="255">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Fox" nameDescription="a fox" experience="15" speed="170" manacost="255">
 	<health now="22" max="22" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1029" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="5" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -47,7 +49,7 @@
 		<voice sentence="Yip! Yip!" yell="false" />
 	</voices>
 	<loot>
-		<item id="meat" chance="48274" />
-		<item id="fox paw" chance="1368" />
+		<item name="meat" chance="48181" />
+		<item name="fox paw" chance="1404" />
 	</loot>
 </monster>

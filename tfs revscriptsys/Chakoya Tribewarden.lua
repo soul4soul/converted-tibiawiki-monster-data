@@ -5,7 +5,7 @@ monster.name = "Chakoya Tribewarden"
 monster.description = "a chakoya tribewarden"
 monster.experience = 40
 monster.outfit = {
-	lookType = 0,
+	lookType = 249,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,23 +91,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 79858, maxCount = 20},
-	{id = "fish", chance = 19931},
-	{id = "short sword", chance = 4930},
+	{id = "gold coin", chance = 79861, maxCount = 20},
+	{id = "fish", chance = 19928},
+	{id = "short sword", chance = 4929},
 	{id = "bone shield", chance = 1046},
 	{id = "fireproof horn", chance = 466},
 	{id = "mammoth whopper", chance = 132},
 	{id = "rainbow trout", chance = 97},
 	{id = "green perch", chance = 79},
-	{id = "northern pike", chance = 53},
-	{id = "gold coin", chance = 26408, maxCount = 20},
-	{id = "fish", chance = 8788},
-	{id = "short sword", chance = 1916},
-	{id = "bone shield", chance = 413},
-	{id = "mammoth whopper", chance = 123},
-	{id = "green perch", chance = 79},
-	{id = "rainbow trout", chance = 53},
-	{id = "northern pike", chance = 35}
+	{id = "northern pike", chance = 53}
 }
 
 mType:register(monster)

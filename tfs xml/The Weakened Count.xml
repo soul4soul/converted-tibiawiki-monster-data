@@ -1,4 +1,5 @@
-﻿<monster name="The Weakened Count" nameDescription="" experience="450" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Weakened Count" nameDescription="" experience="450" speed="0" manacost="0">
 	<health now="740" max="740" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="1" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="-1" />
 		<element lifedrainPercent="100" />
@@ -51,7 +53,7 @@
 		<voice sentence="1... 2... 2... Uh, can't concentrate." yell="false" />
 	</voices>
 	<loot>
-		<item id="the ring of the count" chance="100000" />
-		<item id="gold coin" chance="71429" countmax="98" />
+		<item name="the ring of the count" chance="100000" />
+		<item name="gold coin" chance="71429" countmax="98" />
 	</loot>
 </monster>

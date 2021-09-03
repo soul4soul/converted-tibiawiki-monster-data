@@ -1,4 +1,5 @@
-﻿<monster name="Vashresamun" nameDescription="" experience="2950" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Vashresamun" nameDescription="" experience="2950" speed="0" manacost="0">
 	<health now="4000" max="4000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="20" />
 		<element firePercent="20" />
 		<element lifedrainPercent="100" />
@@ -52,16 +54,16 @@
 		<voice sentence="Heheheheee!" yell="false" />
 	</voices>
 	<loot>
-		<item id="blue note" chance="100000" />
-		<item id="gold coin" chance="91396" />
-		<item id="white pearl" chance="9903" />
-		<item id="lute" chance="9172" />
-		<item id="great mana potion" chance="7955" />
-		<item id="blue robe" chance="1136" />
-		<item id="crystal mace" chance="974" />
-		<item id="crystal ring" chance="974" />
-		<item id="panpipes" chance="325" />
-		<item id="ancient tiara" chance="162" />
-		<item id="mini mummy" chance="162" />
+		<item name="blue note" chance="100000" />
+		<item name="gold coin" chance="91396" />
+		<item name="white pearl" chance="9903" />
+		<item name="lute" chance="9172" />
+		<item name="great mana potion" chance="7955" />
+		<item name="blue robe" chance="1136" />
+		<item name="crystal mace" chance="974" />
+		<item name="crystal ring" chance="974" />
+		<item name="panpipes" chance="325" />
+		<item name="ancient tiara" chance="162" />
+		<item name="mini mummy" chance="162" />
 	</loot>
 </monster>

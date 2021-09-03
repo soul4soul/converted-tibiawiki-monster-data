@@ -1,6 +1,7 @@
-﻿<monster name="Dragon" nameDescription="a dragon" experience="700" speed="172" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dragon" nameDescription="a dragon" experience="700" speed="172" manacost="0">
 	<health now="1000" max="1000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="34" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="80" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -56,26 +58,26 @@
 		<voice sentence="GROOAAARRR" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="90091" countmax="105" />
-		<item id="dragon ham" chance="65128" />
-		<item id="steel shield" chance="14884" />
-		<item id="crossbow" chance="10096" />
-		<item id="dragon's tail" chance="9878" />
-		<item id="burst arrow" chance="7973" countmax="10" />
-		<item id="longsword" chance="4034" />
-		<item id="steel helmet" chance="2997" />
-		<item id="broadsword" chance="1993" />
-		<item id="plate legs" chance="1909" />
-		<item id="wand of inferno" chance="1055" />
-		<item id="strong health potion" chance="1049" />
-		<item id="green dragon scale" chance="1037" />
-		<item id="green dragon leather" chance="1028" />
-		<item id="double axe" chance="1006" />
-		<item id="dragon hammer" chance="521" />
-		<item id="serpent sword" chance="506" />
-		<item id="small diamond" chance="380" />
-		<item id="dragon shield" chance="302" />
-		<item id="life crystal" chance="112" />
-		<item id="dragonbone staff" chance="104" />
+		<item name="gold coin" chance="90101" countmax="105" />
+		<item name="dragon ham" chance="65119" />
+		<item name="steel shield" chance="14878" />
+		<item name="crossbow" chance="10088" />
+		<item name="dragon's tail" chance="9877" />
+		<item name="burst arrow" chance="7972" countmax="10" />
+		<item name="longsword" chance="4038" />
+		<item name="steel helmet" chance="3004" />
+		<item name="broadsword" chance="1995" />
+		<item name="plate legs" chance="1906" />
+		<item name="wand of inferno" chance="1054" />
+		<item name="strong health potion" chance="1053" />
+		<item name="green dragon scale" chance="1039" />
+		<item name="green dragon leather" chance="1025" />
+		<item name="double axe" chance="1006" />
+		<item name="dragon hammer" chance="520" />
+		<item name="serpent sword" chance="505" />
+		<item name="small diamond" chance="380" />
+		<item name="dragon shield" chance="300" />
+		<item name="life crystal" chance="113" />
+		<item name="dragonbone staff" chance="104" />
 	</loot>
 </monster>

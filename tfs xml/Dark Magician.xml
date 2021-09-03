@@ -1,6 +1,7 @@
-﻿<monster name="Dark Magician" nameDescription="a dark magician" experience="185" speed="180" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dark Magician" nameDescription="a dark magician" experience="185" speed="180" manacost="0">
 	<health now="325" max="325" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="133" head="58" body="95" legs="51" feet="131" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="20" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -54,14 +56,14 @@
 		<voice sentence="Stand still!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="74988" countmax="55" />
-		<item id="health potion" chance="11997" />
-		<item id="mana potion" chance="11930" />
-		<item id="blank rune" chance="9961" />
-		<item id="strong health potion" chance="2951" />
-		<item id="strong mana potion" chance="2892" />
-		<item id="small enchanted amethyst" chance="518" />
-		<item id="necrotic rod" chance="287" />
-		<item id="reins" chance="22" />
+		<item name="gold coin" chance="74985" countmax="55" />
+		<item name="health potion" chance="12002" />
+		<item name="mana potion" chance="11929" />
+		<item name="blank rune" chance="9955" />
+		<item name="strong health potion" chance="2950" />
+		<item name="strong mana potion" chance="2895" />
+		<item name="small enchanted amethyst" chance="519" />
+		<item name="necrotic rod" chance="287" />
+		<item name="reins" chance="22" />
 	</loot>
 </monster>

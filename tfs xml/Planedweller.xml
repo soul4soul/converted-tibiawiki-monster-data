@@ -1,4 +1,5 @@
-﻿<monster name="Planedweller" nameDescription="a planedweller" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Planedweller" nameDescription="a planedweller" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="50" />
+		<element energyPercent="50" />
 		<element earthPercent="95" />
 		<element firePercent="40" />
 		<element lifedrainPercent="0" />
@@ -53,15 +55,15 @@
 		<voice sentence="Who are you...? Show yourself!" yell="false" />
 	</voices>
 	<loot>
-		<item id="Blue Marble" chance="20000" />
-		<item id="Green Marble" chance="20000" />
-		<item id="Red Marble" chance="20000" />
-		<item id="Onyx Marble" chance="20000" />
-		<item id="Versicoloured Marble" chance="20000" />
-		<item id="Turquoise Marble" chance="20000" />
-		<item id="Golden Marble" chance="20000" />
-		<item id="Orange Marble" chance="20000" />
-		<item id="Psychedelic Marble" chance="20000" />
-		<item id="Withered Pauldrons" chance="20000" />
+		<item name="Blue Marble" chance="20000" />
+		<item name="Green Marble" chance="20000" />
+		<item name="Red Marble" chance="20000" />
+		<item name="Onyx Marble" chance="20000" />
+		<item name="Versicoloured Marble" chance="20000" />
+		<item name="Turquoise Marble" chance="20000" />
+		<item name="Golden Marble" chance="20000" />
+		<item name="Orange Marble" chance="20000" />
+		<item name="Psychedelic Marble" chance="20000" />
+		<item name="Withered Pauldrons" chance="20000" />
 	</loot>
 </monster>

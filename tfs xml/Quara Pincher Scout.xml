@@ -1,6 +1,7 @@
-﻿<monster name="Quara Pincher Scout" nameDescription="a quara pincher scout" experience="600" speed="156" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Quara Pincher Scout" nameDescription="a quara pincher scout" experience="600" speed="156" manacost="0">
 	<health now="775" max="775" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="77" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -48,19 +50,12 @@
 		<voice sentence="Crrrk! Crrrk!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="89921" countmax="129" />
-		<item id="quara pincers" chance="9888" />
-		<item id="plate armor" chance="4954" />
-		<item id="small ruby" chance="3858" countmax="2" />
-		<item id="halberd" chance="2056" />
-		<item id="fish fin" chance="807" />
-		<item id="life crystal" chance="783" />
-		<item id="gold coin" chance="5174" countmax="147" />
-		<item id="quara pincers" chance="617" />
-		<item id="plate armor" chance="283" />
-		<item id="small ruby" chance="115" countmax="2" />
-		<item id="halberd" chance="113" />
-		<item id="fish fin" chance="45" />
-		<item id="life crystal" chance="32" />
+		<item name="gold coin" chance="89921" countmax="129" />
+		<item name="quara pincers" chance="9887" />
+		<item name="plate armor" chance="4954" />
+		<item name="small ruby" chance="3858" countmax="2" />
+		<item name="halberd" chance="2056" />
+		<item name="fish fin" chance="807" />
+		<item name="life crystal" chance="783" />
 	</loot>
 </monster>

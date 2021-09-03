@@ -1,6 +1,7 @@
-﻿<monster name="Menacing Carnivor" nameDescription="a menacing carnivor" experience="2112" speed="340" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Menacing Carnivor" nameDescription="a menacing carnivor" experience="2112" speed="340" manacost="0">
 	<health now="3500" max="3500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1138" head="86" body="51" legs="83" feet="91" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,49 +45,27 @@
 	</attacks>
 	<defenses armor="68" defense="68" />
 	<loot>
-		<item id="platinum coin" chance="66223" countmax="8" />
-		<item id="morning star" chance="16622" />
-		<item id="ultimate mana potion" chance="10372" />
-		<item id="violet glass plate" chance="5984" />
-		<item id="terra rod" chance="5452" />
-		<item id="crystal sword" chance="5186" />
-		<item id="small ruby" chance="4521" />
-		<item id="green crystal fragment" chance="3590" />
-		<item id="terra legs" chance="2394" />
-		<item id="onyx chip" chance="1995" />
-		<item id="wand of voodoo" chance="1995" />
-		<item id="heavy machete" chance="1596" />
-		<item id="small enchanted ruby" chance="1463" />
-		<item id="tiger eye" chance="1197" />
-		<item id="knight legs" chance="1064" />
-		<item id="machete" chance="1064" />
-		<item id="wand of starstorm" chance="1064" />
-		<item id="iron helmet" chance="798" />
-		<item id="wand of dragonbreath" chance="798" />
-		<item id="serpent sword" chance="665" />
-		<item id="opal" chance="399" />
-		<item id="wand of decay" chance="399" />
-		<item id="platinum coin" chance="100000" countmax="8" />
-		<item id="morning star" chance="100000" />
-		<item id="ultimate mana potion" chance="90957" />
-		<item id="violet glass plate" chance="61968" />
-		<item id="crystal sword" chance="47739" />
-		<item id="terra rod" chance="41090" />
-		<item id="small ruby" chance="34840" />
-		<item id="green crystal fragment" chance="29255" />
-		<item id="onyx chip" chance="28989" />
-		<item id="small enchanted ruby" chance="20612" />
-		<item id="knight legs" chance="19415" />
-		<item id="wand of voodoo" chance="17420" />
-		<item id="terra legs" chance="17287" />
-		<item id="wand of starstorm" chance="17154" />
-		<item id="tiger eye" chance="12766" />
-		<item id="heavy machete" chance="12500" />
-		<item id="machete" chance="12500" />
-		<item id="serpent sword" chance="11835" />
-		<item id="opal" chance="8644" />
-		<item id="iron helmet" chance="7447" />
-		<item id="wand of dragonbreath" chance="6250" />
-		<item id="wand of decay" chance="4787" />
+		<item name="platinum coin" chance="66223" countmax="8" />
+		<item name="morning star" chance="16622" />
+		<item name="ultimate mana potion" chance="10372" />
+		<item name="violet glass plate" chance="5984" />
+		<item name="terra rod" chance="5452" />
+		<item name="crystal sword" chance="5186" />
+		<item name="small ruby" chance="4521" />
+		<item name="green crystal fragment" chance="3590" />
+		<item name="terra legs" chance="2394" />
+		<item name="onyx chip" chance="1995" />
+		<item name="wand of voodoo" chance="1995" />
+		<item name="heavy machete" chance="1596" />
+		<item name="small enchanted ruby" chance="1463" />
+		<item name="tiger eye" chance="1197" />
+		<item name="knight legs" chance="1064" />
+		<item name="machete" chance="1064" />
+		<item name="wand of starstorm" chance="1064" />
+		<item name="iron helmet" chance="798" />
+		<item name="wand of dragonbreath" chance="798" />
+		<item name="serpent sword" chance="665" />
+		<item name="opal" chance="399" />
+		<item name="wand of decay" chance="399" />
 	</loot>
 </monster>

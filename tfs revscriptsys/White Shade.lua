@@ -5,7 +5,7 @@ monster.name = "White Shade"
 monster.description = "a white shade"
 monster.experience = 120
 monster.outfit = {
-	lookType = 0,
+	lookType = 560,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,7 +90,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "white piece of cloth", chance = 3033}
+	{id = "white piece of cloth", chance = 3153}
 }
 
 mType:register(monster)

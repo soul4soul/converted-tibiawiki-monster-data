@@ -1,6 +1,7 @@
-﻿<monster name="Frazzlemaw" nameDescription="a frazzlemaw" experience="3740" speed="400" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Frazzlemaw" nameDescription="a frazzlemaw" experience="3740" speed="400" manacost="0">
 	<health now="4100" max="4100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="594" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="20" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -51,64 +53,34 @@
 		<voice sentence="Mmmwhamwhamwhah, mwaaah!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="88889" countmax="7" />
-		<item id="gold coin" chance="76842" countmax="100" />
-		<item id="frazzle tongue" chance="14971" />
-		<item id="brown crystal splinter" chance="13450" />
-		<item id="great mana potion" chance="12398" countmax="3" />
-		<item id="frazzle skin" chance="11930" />
-		<item id="skull" chance="11111" />
-		<item id="great health potion" chance="10643" countmax="2" />
-		<item id="fishbone" chance="9123" />
-		<item id="fish tail" chance="7953" />
-		<item id="crystal rubbish" chance="7836" />
-		<item id="banana skin" chance="7602" />
-		<item id="bone" chance="7251" />
-		<item id="piece of iron" chance="7135" />
-		<item id="remains of a fish" chance="7018" />
-		<item id="ham" chance="4561" />
-		<item id="fish" chance="4327" countmax="3" />
-		<item id="fish fin" chance="4327" />
-		<item id="hardened bone" chance="3743" />
-		<item id="iron ore" chance="3509" />
-		<item id="red crystal fragment" chance="3392" />
-		<item id="two handed sword" chance="3041" />
-		<item id="big bone" chance="2690" />
-		<item id="gold ingot" chance="1871" />
-		<item id="haunted blade" chance="1637" />
-		<item id="violet crystal shard" chance="1287" />
-		<item id="sai" chance="819" />
-		<item id="assassin dagger" chance="585" />
-		<item id="nightmare blade" chance="468" />
-		<item id="gold coin" chance="100000" countmax="155" />
-		<item id="platinum coin" chance="100000" countmax="12" />
-		<item id="frazzle tongue" chance="100000" />
-		<item id="frazzle skin" chance="100000" />
-		<item id="brown crystal splinter" chance="100000" />
-		<item id="great mana potion" chance="100000" countmax="3" />
-		<item id="great health potion" chance="100000" countmax="2" />
-		<item id="skull" chance="100000" countmax="2" />
-		<item id="fish tail" chance="100000" />
-		<item id="remains of a fish" chance="100000" />
-		<item id="banana skin" chance="100000" />
-		<item id="bone" chance="100000" />
-		<item id="fishbone" chance="100000" />
-		<item id="crystal rubbish" chance="100000" />
-		<item id="piece of iron" chance="100000" />
-		<item id="fish" chance="100000" countmax="3" />
-		<item id="ham" chance="100000" />
-		<item id="hardened bone" chance="100000" />
-		<item id="big bone" chance="100000" />
-		<item id="fish fin" chance="100000" />
-		<item id="red crystal fragment" chance="100000" />
-		<item id="violet crystal shard" chance="100000" />
-		<item id="iron ore" chance="100000" />
-		<item id="two handed sword" chance="100000" />
-		<item id="gold ingot" chance="100000" />
-		<item id="haunted blade" chance="100000" />
-		<item id="sai" chance="100000" />
-		<item id="assassin dagger" chance="100000" />
-		<item id="nightmare blade" chance="87251" />
-		<item id="cluster of solace" chance="56491" />
+		<item name="platinum coin" chance="89111" countmax="7" />
+		<item name="gold coin" chance="77000" countmax="100" />
+		<item name="frazzle tongue" chance="14889" />
+		<item name="brown crystal splinter" chance="13111" />
+		<item name="great mana potion" chance="12556" countmax="3" />
+		<item name="frazzle skin" chance="11778" />
+		<item name="skull" chance="11000" />
+		<item name="great health potion" chance="10778" countmax="2" />
+		<item name="fishbone" chance="9556" />
+		<item name="fish tail" chance="8111" />
+		<item name="crystal rubbish" chance="7778" />
+		<item name="banana skin" chance="7444" />
+		<item name="piece of iron" chance="7444" />
+		<item name="bone" chance="7000" />
+		<item name="remains of a fish" chance="7000" />
+		<item name="ham" chance="4556" />
+		<item name="fish" chance="4333" countmax="3" />
+		<item name="fish fin" chance="4222" />
+		<item name="hardened bone" chance="3889" />
+		<item name="iron ore" chance="3444" />
+		<item name="red crystal fragment" chance="3444" />
+		<item name="big bone" chance="2889" />
+		<item name="two handed sword" chance="2889" />
+		<item name="gold ingot" chance="1778" />
+		<item name="haunted blade" chance="1556" />
+		<item name="violet crystal shard" chance="1444" />
+		<item name="sai" chance="778" />
+		<item name="assassin dagger" chance="556" />
+		<item name="nightmare blade" chance="444" />
 	</loot>
 </monster>

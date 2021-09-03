@@ -1,6 +1,7 @@
-﻿<monster name="Elder Forest Fury" nameDescription="an elder forest fury" experience="330" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Elder Forest Fury" nameDescription="an elder forest fury" experience="330" speed="240" manacost="0">
 	<health now="670" max="670" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="569" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -43,17 +45,17 @@
 	</attacks>
 	<defenses armor="25" defense="25" />
 	<loot>
-		<item id="gold coin" chance="90625" countmax="68" />
-		<item id="bolt" chance="45433" countmax="15" />
-		<item id="meat" chance="20192" />
-		<item id="venison" chance="19952" />
-		<item id="piercing bolt" chance="16587" countmax="5" />
-		<item id="elven hoof" chance="12019" />
-		<item id="hunting spear" chance="9375" countmax="2" />
-		<item id="crossbow" chance="3365" />
-		<item id="small emerald" chance="3365" />
-		<item id="raspberry" chance="721" countmax="3" />
-		<item id="bullseye potion" chance="481" />
-		<item id="terra rod" chance="240" />
+		<item name="gold coin" chance="90625" countmax="68" />
+		<item name="bolt" chance="45433" countmax="15" />
+		<item name="meat" chance="20192" />
+		<item name="venison" chance="19952" />
+		<item name="piercing bolt" chance="16587" countmax="5" />
+		<item name="elven hoof" chance="12019" />
+		<item name="hunting spear" chance="9375" countmax="2" />
+		<item name="crossbow" chance="3365" />
+		<item name="small emerald" chance="3365" />
+		<item name="raspberry" chance="721" countmax="3" />
+		<item name="bullseye potion" chance="481" />
+		<item name="terra rod" chance="240" />
 	</loot>
 </monster>

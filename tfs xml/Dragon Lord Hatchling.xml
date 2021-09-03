@@ -1,6 +1,7 @@
-﻿<monster name="Dragon Lord Hatchling" nameDescription="a dragon lord hatchling" experience="645" speed="168" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dragon Lord Hatchling" nameDescription="a dragon lord hatchling" experience="645" speed="168" manacost="0">
 	<health now="750" max="750" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="272" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="75" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -49,10 +51,10 @@
 		<voice sentence="Rooawwrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="dragon ham" chance="79696" />
-		<item id="gold coin" chance="75128" countmax="169" />
-		<item id="green mushroom" chance="498" />
-		<item id="mana potion" chance="413" />
-		<item id="magma boots" chance="85" />
+		<item name="dragon ham" chance="79699" />
+		<item name="gold coin" chance="75092" countmax="169" />
+		<item name="green mushroom" chance="498" />
+		<item name="mana potion" chance="412" />
+		<item name="magma boots" chance="85" />
 	</loot>
 </monster>

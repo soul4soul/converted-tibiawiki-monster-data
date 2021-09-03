@@ -1,6 +1,7 @@
-﻿<monster name="Schiach" nameDescription="a schiach" experience="580" speed="280" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Schiach" nameDescription="a schiach" experience="580" speed="280" manacost="0">
 	<health now="600" max="600" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1162" head="0" body="10" legs="38" feet="57" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
@@ -47,23 +49,23 @@
 		<voice sentence="Psh psh psh!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="50" />
-		<item id="fireworks capsule" chance="14166" />
-		<item id="broken bell" chance="10105" />
-		<item id="grainy fireworks powder" chance="7858" />
-		<item id="versicolour fireworks powder" chance="4944" />
-		<item id="percht horns" chance="4712" />
-		<item id="rainbow quartz" chance="4231" countmax="2" />
-		<item id="blue fireworks powder" chance="3472" />
-		<item id="bright bell" chance="2821" />
-		<item id="purple fireworks powder" chance="2526" />
-		<item id="yellow fireworks powder" chance="2526" />
-		<item id="green fireworks powder" chance="2418" />
-		<item id="orange fireworks powder" chance="2402" />
-		<item id="turquoise fireworks powder" chance="2387" />
-		<item id="red fireworks powder" chance="2077" />
-		<item id="glacier kilt" chance="1178" />
-		<item id="glacier robe" chance="666" />
-		<item id="glacial rod" chance="434" />
+		<item name="gold coin" chance="100000" countmax="50" />
+		<item name="fireworks capsule" chance="14166" />
+		<item name="broken bell" chance="10105" />
+		<item name="grainy fireworks powder" chance="7858" />
+		<item name="versicolour fireworks powder" chance="4944" />
+		<item name="percht horns" chance="4712" />
+		<item name="rainbow quartz" chance="4231" countmax="2" />
+		<item name="blue fireworks powder" chance="3472" />
+		<item name="bright bell" chance="2821" />
+		<item name="purple fireworks powder" chance="2526" />
+		<item name="yellow fireworks powder" chance="2526" />
+		<item name="green fireworks powder" chance="2418" />
+		<item name="orange fireworks powder" chance="2402" />
+		<item name="turquoise fireworks powder" chance="2387" />
+		<item name="red fireworks powder" chance="2077" />
+		<item name="glacier kilt" chance="1178" />
+		<item name="glacier robe" chance="666" />
+		<item name="glacial rod" chance="434" />
 	</loot>
 </monster>

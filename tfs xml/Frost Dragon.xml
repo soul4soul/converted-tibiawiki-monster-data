@@ -1,6 +1,7 @@
-﻿<monster name="Frost Dragon" nameDescription="a frost dragon" experience="2100" speed="212" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Frost Dragon" nameDescription="a frost dragon" experience="2100" speed="212" manacost="0">
 	<health now="1800" max="1800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="248" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -54,22 +56,22 @@
 		<voice sentence="Chill out!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="95014" countmax="243" />
-		<item id="dragon ham" chance="79867" />
-		<item id="green mushroom" chance="12135" />
-		<item id="book (gemmed)" chance="8830" />
-		<item id="power bolt" chance="5887" countmax="6" />
-		<item id="small sapphire" chance="5096" />
-		<item id="energy ring" chance="4948" />
-		<item id="ice cube" chance="4082" />
-		<item id="golden mug" chance="3084" />
-		<item id="life crystal" chance="611" />
-		<item id="shard" chance="525" />
-		<item id="strange helmet" chance="448" />
-		<item id="ice rapier" chance="341" />
-		<item id="tower shield" chance="292" />
-		<item id="royal helmet" chance="207" />
-		<item id="dragon scale mail" chance="112" />
-		<item id="dragon slayer" chance="97" />
+		<item name="gold coin" chance="95014" countmax="243" />
+		<item name="dragon ham" chance="79867" />
+		<item name="green mushroom" chance="12135" />
+		<item name="book (gemmed)" chance="8830" />
+		<item name="power bolt" chance="5887" countmax="6" />
+		<item name="small sapphire" chance="5096" />
+		<item name="energy ring" chance="4948" />
+		<item name="ice cube" chance="4082" />
+		<item name="golden mug" chance="3084" />
+		<item name="life crystal" chance="611" />
+		<item name="shard" chance="525" />
+		<item name="strange helmet" chance="448" />
+		<item name="ice rapier" chance="341" />
+		<item name="tower shield" chance="292" />
+		<item name="royal helmet" chance="207" />
+		<item name="dragon scale mail" chance="112" />
+		<item name="dragon slayer" chance="97" />
 	</loot>
 </monster>

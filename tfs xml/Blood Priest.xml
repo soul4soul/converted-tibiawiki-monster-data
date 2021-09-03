@@ -1,6 +1,7 @@
-﻿<monster name="Blood Priest" nameDescription="a blood priest" experience="900" speed="198" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Blood Priest" nameDescription="a blood priest" experience="900" speed="198" manacost="0">
 	<health now="820" max="820" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="553" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-8" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="100" />
 		<element firePercent="-8" />
 		<element lifedrainPercent="0" />
@@ -49,24 +51,24 @@
 		<voice sentence="Give your blood to the Dark God!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99980" countmax="180" />
-		<item id="book of necromantic rituals" chance="15179" />
-		<item id="lancet" chance="14663" />
-		<item id="incantation notes" chance="14484" />
-		<item id="blood tincture in a vial" chance="14008" />
-		<item id="horoscope" chance="9881" />
-		<item id="pieces of magic chalk" chance="7579" />
-		<item id="strong mana potion" chance="6071" />
-		<item id="small ruby" chance="3214" countmax="2" />
-		<item id="white piece of cloth" chance="2956" />
-		<item id="mystic turban" chance="2718" />
-		<item id="red gem" chance="813" />
-		<item id="red piece of cloth" chance="734" />
-		<item id="underworld rod" chance="357" />
-		<item id="spellbook of mind control" chance="298" />
-		<item id="spellbook of warding" chance="258" />
-		<item id="boots of haste" chance="179" />
-		<item id="skull staff" chance="179" />
-		<item id="noble axe" chance="40" />
+		<item name="gold coin" chance="99980" countmax="180" />
+		<item name="book of necromantic rituals" chance="15176" />
+		<item name="lancet" chance="14662" />
+		<item name="incantation notes" chance="14464" />
+		<item name="blood tincture in a vial" chance="13989" />
+		<item name="horoscope" chance="9873" />
+		<item name="pieces of magic chalk" chance="7558" />
+		<item name="strong mana potion" chance="6094" />
+		<item name="small ruby" chance="3245" countmax="2" />
+		<item name="white piece of cloth" chance="2948" />
+		<item name="mystic turban" chance="2711" />
+		<item name="red gem" chance="811" />
+		<item name="red piece of cloth" chance="732" />
+		<item name="underworld rod" chance="356" />
+		<item name="spellbook of mind control" chance="297" />
+		<item name="spellbook of warding" chance="257" />
+		<item name="boots of haste" chance="178" />
+		<item name="skull staff" chance="178" />
+		<item name="noble axe" chance="40" />
 	</loot>
 </monster>

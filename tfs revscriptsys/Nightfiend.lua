@@ -5,12 +5,12 @@ monster.name = "Nightfiend"
 monster.description = "a nightfiend"
 monster.experience = 2100
 monster.outfit = {
-	lookType = 0,
+	lookType = 556,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
-	lookAddons = 0,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,18 +88,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 98507, maxCount = 148},
-	{id = "platinum coin", chance = 33433},
-	{id = "vampire teeth", chance = 10746},
-	{id = "small ruby", chance = 8657, maxCount = 3},
-	{id = "strong mana potion", chance = 8060},
-	{id = "tooth file", chance = 7164},
-	{id = "blood preservation", chance = 5970},
-	{id = "strong health potion", chance = 5970},
-	{id = "ring of healing", chance = 3284},
-	{id = "emerald bangle", chance = 1194},
-	{id = "red gem", chance = 896},
-	{id = "vampire shield", chance = 299}
+	{id = "gold coin", chance = 98534, maxCount = 148},
+	{id = "platinum coin", chance = 33431},
+	{id = "vampire teeth", chance = 10557},
+	{id = "small ruby", chance = 8504, maxCount = 3},
+	{id = "strong mana potion", chance = 8504},
+	{id = "tooth file", chance = 7331},
+	{id = "blood preservation", chance = 6158},
+	{id = "strong health potion", chance = 5865},
+	{id = "ring of healing", chance = 3226},
+	{id = "emerald bangle", chance = 1173},
+	{id = "red gem", chance = 880},
+	{id = "vampire shield", chance = 293}
 }
 
 mType:register(monster)

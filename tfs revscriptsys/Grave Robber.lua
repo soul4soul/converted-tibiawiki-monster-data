@@ -5,12 +5,12 @@ monster.name = "Grave Robber"
 monster.description = "a grave robber"
 monster.experience = 65
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 146,
+	lookHead = 57,
+	lookBody = 95,
+	lookLegs = 57,
+	lookFeet = 19,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,

@@ -1,4 +1,5 @@
-﻿<monster name="Hellgorak" nameDescription="" experience="10000" speed="330" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Hellgorak" nameDescription="" experience="10000" speed="330" manacost="0">
 	<health now="25850" max="25850" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="98" />
-		<element EnergyPercent="98" />
+		<element energyPercent="98" />
 		<element earthPercent="98" />
 		<element firePercent="98" />
 		<element lifedrainPercent="100" />
@@ -53,51 +55,51 @@
 		<voice sentence="Delicious!" yell="false" />
 	</voices>
 	<loot>
-		<item id="demonic essence" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="198" />
-		<item id="slightly rusted legs" chance="51372" />
-		<item id="ultimate health potion" chance="42550" countmax="2" />
-		<item id="slightly rusted armor" chance="32544" />
-		<item id="spellbook of warding" chance="30500" />
-		<item id="beastslayer axe" chance="29909" />
-		<item id="great spirit potion" chance="21140" />
-		<item id="platinum coin" chance="20549" countmax="30" />
-		<item id="crown armor" chance="18451" />
-		<item id="great health potion" chance="18343" />
-		<item id="great mana potion" chance="17859" />
-		<item id="crystal necklace" chance="14363" />
-		<item id="black pearl" chance="14147" countmax="25" />
-		<item id="small ruby" chance="13179" countmax="25" />
-		<item id="white pearl" chance="13125" countmax="25" />
-		<item id="small diamond" chance="12803" countmax="25" />
-		<item id="noble axe" chance="12211" />
-		<item id="small amethyst" chance="11996" countmax="25" />
-		<item id="small emerald" chance="11727" countmax="25" />
-		<item id="small sapphire" chance="11619" countmax="25" />
-		<item id="small topaz" chance="11350" countmax="25" />
-		<item id="magma legs" chance="11081" />
-		<item id="spirit cloak" chance="10382" />
-		<item id="ruby necklace" chance="10167" />
-		<item id="spellbook of mind control" chance="10005" />
-		<item id="crown legs" chance="9952" />
-		<item id="stone skin amulet" chance="9736" />
-		<item id="golden amulet" chance="9683" />
-		<item id="steel boots" chance="9575" />
-		<item id="demon horn" chance="9521" countmax="2" />
-		<item id="focus cape" chance="9467" />
-		<item id="spellbook of lost souls" chance="8876" />
-		<item id="knight legs" chance="8822" />
-		<item id="blue robe" chance="8015" />
-		<item id="butcher's axe" chance="2313" />
-		<item id="golden armor" chance="2044" />
-		<item id="vile axe" chance="1183" />
-		<item id="spellscroll of prophecies" chance="1022" />
-		<item id="executioner" chance="807" />
-		<item id="golden legs" chance="646" />
-		<item id="demonbone amulet" chance="592" />
-		<item id="voltage armor" chance="377" />
-		<item id="demonwing axe" chance="323" />
-		<item id="great axe" chance="269" />
-		<item id="spellbook of dark mysteries" chance="161" />
+		<item name="demonic essence" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="198" />
+		<item name="slightly rusted legs" chance="51372" />
+		<item name="ultimate health potion" chance="42550" countmax="2" />
+		<item name="slightly rusted armor" chance="32544" />
+		<item name="spellbook of warding" chance="30500" />
+		<item name="beastslayer axe" chance="29909" />
+		<item name="great spirit potion" chance="21140" />
+		<item name="platinum coin" chance="20549" countmax="30" />
+		<item name="crown armor" chance="18451" />
+		<item name="great health potion" chance="18343" />
+		<item name="great mana potion" chance="17859" />
+		<item name="crystal necklace" chance="14363" />
+		<item name="black pearl" chance="14147" countmax="25" />
+		<item name="small ruby" chance="13179" countmax="25" />
+		<item name="white pearl" chance="13125" countmax="25" />
+		<item name="small diamond" chance="12803" countmax="25" />
+		<item name="noble axe" chance="12211" />
+		<item name="small amethyst" chance="11996" countmax="25" />
+		<item name="small emerald" chance="11727" countmax="25" />
+		<item name="small sapphire" chance="11619" countmax="25" />
+		<item name="small topaz" chance="11350" countmax="25" />
+		<item name="magma legs" chance="11081" />
+		<item name="spirit cloak" chance="10382" />
+		<item name="ruby necklace" chance="10167" />
+		<item name="spellbook of mind control" chance="10005" />
+		<item name="crown legs" chance="9952" />
+		<item name="stone skin amulet" chance="9736" />
+		<item name="golden amulet" chance="9683" />
+		<item name="steel boots" chance="9575" />
+		<item name="demon horn" chance="9521" countmax="2" />
+		<item name="focus cape" chance="9467" />
+		<item name="spellbook of lost souls" chance="8876" />
+		<item name="knight legs" chance="8822" />
+		<item name="blue robe" chance="8015" />
+		<item name="butcher's axe" chance="2313" />
+		<item name="golden armor" chance="2044" />
+		<item name="vile axe" chance="1183" />
+		<item name="spellscroll of prophecies" chance="1022" />
+		<item name="executioner" chance="807" />
+		<item name="golden legs" chance="646" />
+		<item name="demonbone amulet" chance="592" />
+		<item name="voltage armor" chance="377" />
+		<item name="demonwing axe" chance="323" />
+		<item name="great axe" chance="269" />
+		<item name="spellbook of dark mysteries" chance="161" />
 	</loot>
 </monster>

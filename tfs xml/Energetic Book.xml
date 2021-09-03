@@ -1,6 +1,7 @@
-﻿<monster name="Energetic Book" nameDescription="an energetic book" experience="12034" speed="440" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Energetic Book" nameDescription="an energetic book" experience="12034" speed="440" manacost="0">
 	<health now="18500" max="18500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1061" head="15" body="91" legs="85" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,25 +42,20 @@
 	</elements>
 	<defenses armor="82" defense="82" />
 	<loot>
-		<item id="platinum coin" chance="75042" countmax="35" />
-		<item id="glowing rune" chance="60000" countmax="6" />
-		<item id="book page" chance="45155" countmax="8" />
-		<item id="ultimate mana potion" chance="15087" />
-		<item id="silken bookmark" chance="12676" />
-		<item id="ultimate health potion" chance="11312" />
-		<item id="energy ball" chance="11008" />
-		<item id="lightning headband" chance="3093" />
-		<item id="lightning pendant" chance="2714" />
-		<item id="lightning legs" chance="1759" />
-		<item id="wand of defiance" chance="1713" />
-		<item id="might ring" chance="1653" />
-		<item id="lightning boots" chance="1456" />
-		<item id="spellweaver's robe" chance="910" />
-		<item id="haunted blade" chance="637" />
-		<item id="glowing rune" chance="30" countmax="8" />
-		<item id="platinum coin" chance="30" countmax="30" />
-		<item id="book page" chance="15" countmax="5" />
-		<item id="energy ball" chance="15" />
-		<item id="silken bookmark" chance="15" />
+		<item name="platinum coin" chance="75117" countmax="35" />
+		<item name="glowing rune" chance="60198" countmax="6" />
+		<item name="book page" chance="45252" countmax="8" />
+		<item name="ultimate mana potion" chance="15153" />
+		<item name="silken bookmark" chance="12731" />
+		<item name="ultimate health potion" chance="11382" />
+		<item name="energy ball" chance="11079" />
+		<item name="lightning headband" chance="3097" />
+		<item name="lightning pendant" chance="2711" />
+		<item name="wand of defiance" chance="1734" />
+		<item name="lightning legs" chance="1693" />
+		<item name="might ring" chance="1638" />
+		<item name="lightning boots" chance="1555" />
+		<item name="spellweaver's robe" chance="922" />
+		<item name="haunted blade" chance="606" />
 	</loot>
 </monster>

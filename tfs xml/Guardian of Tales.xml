@@ -1,6 +1,7 @@
-﻿<monster name="Guardian Of Tales" nameDescription="a guardian of tales" experience="9204" speed="420" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Guardian Of Tales" nameDescription="a guardian of tales" experience="9204" speed="420" manacost="0">
 	<health now="15000" max="15000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1063" head="92" body="52" legs="0" feet="79" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -40,19 +42,19 @@
 	</elements>
 	<defenses armor="77" defense="77" />
 	<loot>
-		<item id="platinum coin" chance="85220" countmax="32" />
-		<item id="small diamond" chance="58019" countmax="5" />
-		<item id="book page" chance="43920" countmax="4" />
-		<item id="burnt scroll" chance="38103" />
-		<item id="glowing rune" chance="38050" countmax="8" />
-		<item id="soul orb" chance="10273" />
-		<item id="wand of inferno" chance="9277" />
-		<item id="spellbook of warding" chance="5398" />
-		<item id="piece of hellfire armor" chance="5136" />
-		<item id="fire axe" chance="3669" />
-		<item id="fire sword" chance="1415" />
-		<item id="magma legs" chance="996" />
-		<item id="magma coat" chance="891" />
-		<item id="coal" chance="314" />
+		<item name="platinum coin" chance="85220" countmax="32" />
+		<item name="small diamond" chance="58019" countmax="5" />
+		<item name="book page" chance="43920" countmax="4" />
+		<item name="burnt scroll" chance="38103" />
+		<item name="glowing rune" chance="38050" countmax="8" />
+		<item name="soul orb" chance="10273" />
+		<item name="wand of inferno" chance="9277" />
+		<item name="spellbook of warding" chance="5398" />
+		<item name="piece of hellfire armor" chance="5136" />
+		<item name="fire axe" chance="3669" />
+		<item name="fire sword" chance="1415" />
+		<item name="magma legs" chance="996" />
+		<item name="magma coat" chance="891" />
+		<item name="coal" chance="314" />
 	</loot>
 </monster>

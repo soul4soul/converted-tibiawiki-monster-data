@@ -1,4 +1,5 @@
-﻿<monster name="Feroxa" nameDescription="" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Feroxa" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,54 +45,22 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="blue gem" chance="100000" />
-		<item id="great health potion" chance="100000" countmax="5" />
-		<item id="great mana potion" chance="100000" countmax="6" />
-		<item id="moonlight crystals" chance="100000" countmax="6" />
-		<item id="red gem" chance="100000" />
-		<item id="small diamond" chance="100000" countmax="3" />
-		<item id="small ruby" chance="100000" countmax="3" />
-		<item id="ultimate health potion" chance="100000" />
-		<item id="trophy of feroxa" chance="62500" />
-		<item id="violet crystal shard" chance="62500" />
-		<item id="dreaded cleaver" chance="25000" />
-		<item id="platinum coin" chance="25000" countmax="10" />
-		<item id="red crystal fragment" chance="25000" />
-		<item id="skullcracker armor" chance="25000" />
-		<item id="wolf backpack" chance="25000" />
-		<item id="boots of haste" chance="12500" />
-		<item id="werewolf helmet" chance="12500" />
-		<item id="moonlight crystals" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="20" />
-		<item id="great mana potion" chance="100000" countmax="6" />
-		<item id="small diamond" chance="100000" countmax="5" />
-		<item id="small ruby" chance="100000" countmax="5" />
-		<item id="ultimate health potion" chance="100000" countmax="5" />
-		<item id="violet crystal shard" chance="100000" countmax="5" />
-		<item id="blue gem" chance="100000" />
-		<item id="great health potion" chance="100000" countmax="5" />
-		<item id="red crystal fragment" chance="100000" />
-		<item id="red gem" chance="100000" />
-		<item id="blue crystal splinter" chance="75000" countmax="5" />
-		<item id="trophy of feroxa" chance="75000" />
-		<item id="blue crystal shard" chance="50000" countmax="5" />
-		<item id="great spirit potion" chance="50000" countmax="5" />
-		<item id="small sapphire" chance="50000" countmax="5" />
-		<item id="badger boots" chance="37500" />
-		<item id="gold coin" chance="37500" countmax="200" />
-		<item id="green crystal shard" chance="37500" countmax="5" />
-		<item id="brown crystal splinter" chance="25000" countmax="5" />
-		<item id="green crystal splinter" chance="25000" countmax="5" />
-		<item id="moonlight rod" chance="25000" />
-		<item id="small amethyst" chance="25000" countmax="5" />
-		<item id="underworld rod" chance="25000" />
-		<item id="wereboar loincloth" chance="25000" />
-		<item id="angelic axe" chance="12500" />
-		<item id="bonebreaker" chance="12500" />
-		<item id="dreaded cleaver" chance="12500" />
-		<item id="epee" chance="12500" />
-		<item id="fur armor" chance="12500" />
-		<item id="wand of voodoo" chance="12500" />
-		<item id="werewolf amulet" chance="12500" />
+		<item name="blue gem" chance="100000" />
+		<item name="great health potion" chance="100000" countmax="5" />
+		<item name="great mana potion" chance="100000" countmax="6" />
+		<item name="moonlight crystals" chance="100000" countmax="6" />
+		<item name="red gem" chance="100000" />
+		<item name="small diamond" chance="100000" countmax="3" />
+		<item name="small ruby" chance="100000" countmax="3" />
+		<item name="ultimate health potion" chance="100000" />
+		<item name="trophy of feroxa" chance="62500" />
+		<item name="violet crystal shard" chance="62500" />
+		<item name="dreaded cleaver" chance="25000" />
+		<item name="platinum coin" chance="25000" countmax="10" />
+		<item name="red crystal fragment" chance="25000" />
+		<item name="skullcracker armor" chance="25000" />
+		<item name="wolf backpack" chance="25000" />
+		<item name="boots of haste" chance="12500" />
+		<item name="werewolf helmet" chance="12500" />
 	</loot>
 </monster>

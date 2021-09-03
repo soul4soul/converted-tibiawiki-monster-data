@@ -5,7 +5,7 @@ monster.name = "Askarak Prince"
 monster.description = "an askarak prince"
 monster.experience = 1700
 monster.outfit = {
-	lookType = 0,
+	lookType = 419,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,19 +93,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 95035, maxCount = 186},
-	{id = "platinum coin", chance = 34673, maxCount = 4},
-	{id = "strong mana potion", chance = 15288},
-	{id = "strong health potion", chance = 14263},
-	{id = "small emerald", chance = 11978, maxCount = 5},
-	{id = "brown mushroom", chance = 6541, maxCount = 4},
-	{id = "stealth ring", chance = 5043},
-	{id = "mastermind potion", chance = 1340},
-	{id = "springsprout rod", chance = 946},
-	{id = "magic sulphur", chance = 867},
-	{id = "terra mantle", chance = 788},
-	{id = "demonic finger", chance = 394},
-	{id = "giant sword", chance = 236}
+	{id = "gold coin", chance = 95154, maxCount = 186},
+	{id = "platinum coin", chance = 34385, maxCount = 4},
+	{id = "strong mana potion", chance = 15077},
+	{id = "strong health potion", chance = 14154},
+	{id = "small emerald", chance = 11923, maxCount = 5},
+	{id = "brown mushroom", chance = 6615, maxCount = 4},
+	{id = "stealth ring", chance = 5000},
+	{id = "mastermind potion", chance = 1462},
+	{id = "springsprout rod", chance = 923},
+	{id = "magic sulphur", chance = 846},
+	{id = "terra mantle", chance = 769},
+	{id = "demonic finger", chance = 462},
+	{id = "giant sword", chance = 308}
 }
 
 mType:register(monster)

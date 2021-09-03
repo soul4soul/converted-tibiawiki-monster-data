@@ -5,12 +5,12 @@ monster.name = "Vicious Squire"
 monster.description = "a vicious squire"
 monster.experience = 900
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 131,
+	lookHead = 97,
+	lookBody = 24,
+	lookLegs = 73,
+	lookFeet = 116,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,18 +93,18 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 70},
-	{id = "bolt", chance = 19993, maxCount = 10},
+	{id = "bolt", chance = 19988, maxCount = 10},
 	{id = "crossbow", chance = 12942},
-	{id = "meat", chance = 10710},
-	{id = "great health potion", chance = 5872},
-	{id = "small amethyst", chance = 2562},
-	{id = "halberd", chance = 2489},
-	{id = "small diamond", chance = 2420},
-	{id = "small emerald", chance = 2348},
-	{id = "war hammer", chance = 771},
+	{id = "meat", chance = 10726},
+	{id = "great health potion", chance = 5871},
+	{id = "small amethyst", chance = 2560},
+	{id = "halberd", chance = 2487},
+	{id = "small diamond", chance = 2422},
+	{id = "small emerald", chance = 2350},
+	{id = "war hammer", chance = 774},
 	{id = "scarf", chance = 644},
 	{id = "might ring", chance = 427},
-	{id = "knight legs", chance = 344},
+	{id = "knight legs", chance = 343},
 	{id = "guardian shield", chance = 322},
 	{id = "warrior helmet", chance = 221},
 	{id = "piggy bank", chance = 47}

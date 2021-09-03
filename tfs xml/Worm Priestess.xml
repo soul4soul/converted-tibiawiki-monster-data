@@ -1,6 +1,7 @@
-﻿<monster name="Worm Priestess" nameDescription="a worm priestess" experience="1500" speed="198" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Worm Priestess" nameDescription="a worm priestess" experience="1500" speed="198" manacost="0">
 	<health now="1100" max="1100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="613" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -45,27 +47,27 @@
 		<voice sentence="From the earthy depths he comes and brings freedom!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="150" />
-		<item id="platinum coin" chance="39878" countmax="3" />
-		<item id="purple robe" chance="15987" />
-		<item id="strong mana potion" chance="12279" countmax="3" />
-		<item id="snakebite rod" chance="11899" />
-		<item id="taurus mace" chance="5086" />
-		<item id="torch" chance="4968" />
-		<item id="minotaur leather" chance="4959" />
-		<item id="minotaur horn" chance="2885" countmax="2" />
-		<item id="small amethyst" chance="2615" countmax="2" />
-		<item id="small topaz" chance="2481" countmax="2" />
-		<item id="small emerald" chance="2455" countmax="2" />
-		<item id="small ruby" chance="2421" countmax="2" />
-		<item id="small diamond" chance="2404" countmax="2" />
-		<item id="small sapphire" chance="2401" countmax="2" />
-		<item id="blue piece of cloth" chance="1561" />
-		<item id="underworld rod" chance="1534" />
-		<item id="red piece of cloth" chance="1491" />
-		<item id="green piece of cloth" chance="1466" />
-		<item id="yellow gem" chance="516" />
-		<item id="red gem" chance="476" />
-		<item id="minotaur trophy" chance="142" />
+		<item name="gold coin" chance="100000" countmax="150" />
+		<item name="platinum coin" chance="39878" countmax="3" />
+		<item name="purple robe" chance="15991" />
+		<item name="strong mana potion" chance="12282" countmax="3" />
+		<item name="snakebite rod" chance="11899" />
+		<item name="taurus mace" chance="5086" />
+		<item name="torch" chance="4967" />
+		<item name="minotaur leather" chance="4960" />
+		<item name="minotaur horn" chance="2884" countmax="2" />
+		<item name="small amethyst" chance="2614" countmax="2" />
+		<item name="small topaz" chance="2480" countmax="2" />
+		<item name="small emerald" chance="2454" countmax="2" />
+		<item name="small ruby" chance="2422" countmax="2" />
+		<item name="small diamond" chance="2405" countmax="2" />
+		<item name="small sapphire" chance="2402" countmax="2" />
+		<item name="blue piece of cloth" chance="1560" />
+		<item name="underworld rod" chance="1536" />
+		<item name="red piece of cloth" chance="1491" />
+		<item name="green piece of cloth" chance="1465" />
+		<item name="yellow gem" chance="517" />
+		<item name="red gem" chance="476" />
+		<item name="minotaur trophy" chance="142" />
 	</loot>
 </monster>

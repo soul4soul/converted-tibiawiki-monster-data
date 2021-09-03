@@ -5,7 +5,7 @@ monster.name = "Midnight Panther"
 monster.description = "a midnight panther"
 monster.experience = 900
 monster.outfit = {
-	lookType = 0,
+	lookType = 385,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -93,11 +94,12 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "panther paw", chance = 100000},
-	{id = "gold coin", chance = 95833, maxCount = 86},
-	{id = "meat", chance = 25000},
-	{id = "panther head", chance = 16667},
-	{id = "life ring", chance = 4167},
-	{id = "sabretooth", chance = 4167}
+	{id = "gold coin", chance = 96000, maxCount = 86},
+	{id = "meat", chance = 28000},
+	{id = "panther head", chance = 16000},
+	{id = "life ring", chance = 4000},
+	{id = "sabretooth", chance = 4000},
+	{id = "strong health potion", chance = 4000}
 }
 
 mType:register(monster)

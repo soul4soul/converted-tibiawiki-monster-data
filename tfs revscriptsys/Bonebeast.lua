@@ -5,7 +5,7 @@ monster.name = "Bonebeast"
 monster.description = "a bonebeast"
 monster.experience = 580
 monster.outfit = {
-	lookType = 0,
+	lookType = 101,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,14 +90,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bone", chance = 49666},
-	{id = "gold coin", chance = 29787, maxCount = 90},
-	{id = "skull", chance = 19944},
-	{id = "bony tail", chance = 9939},
-	{id = "plate armor", chance = 7960},
+	{id = "bone", chance = 49664},
+	{id = "gold coin", chance = 29786, maxCount = 90},
+	{id = "skull", chance = 19947},
+	{id = "bony tail", chance = 9941},
+	{id = "plate armor", chance = 7963},
 	{id = "bone club", chance = 4962},
 	{id = "bone shield", chance = 2065},
-	{id = "green mushroom", chance = 1429},
+	{id = "green mushroom", chance = 1428},
 	{id = "hardened bone", chance = 1015},
 	{id = "health potion", chance = 513},
 	{id = "bonebeast trophy", chance = 100}

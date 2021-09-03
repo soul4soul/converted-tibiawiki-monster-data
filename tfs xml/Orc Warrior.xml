@@ -1,6 +1,7 @@
-﻿<monster name="Orc Warrior" nameDescription="an orc warrior" experience="50" speed="190" manacost="360">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Orc Warrior" nameDescription="an orc warrior" experience="50" speed="190" manacost="360">
 	<health now="125" max="125" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="7" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,25 +50,15 @@
 		<voice sentence="Grow truk grrrr." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="64287" countmax="15" />
-		<item id="meat" chance="15158" />
-		<item id="broken helmet" chance="9711" />
-		<item id="chain armor" chance="7586" />
-		<item id="orc leather" chance="3704" />
-		<item id="heavy old tome" chance="1756" />
-		<item id="skull belt" chance="929" />
-		<item id="orc tooth" chance="624" />
-		<item id="copper shield" chance="471" />
-		<item id="poison dagger" chance="51" />
-		<item id="gold coin" chance="100000" countmax="15" />
-		<item id="meat" chance="100000" />
-		<item id="broken helmet" chance="100000" />
-		<item id="chain armor" chance="100000" />
-		<item id="orc leather" chance="100000" />
-		<item id="skull belt" chance="30941" />
-		<item id="orc tooth" chance="24844" />
-		<item id="copper shield" chance="15502" />
-		<item id="poison dagger" chance="3615" />
-		<item id="heavy old tome" chance="89" />
+		<item name="gold coin" chance="64336" countmax="15" />
+		<item name="meat" chance="15183" />
+		<item name="broken helmet" chance="9735" />
+		<item name="chain armor" chance="7598" />
+		<item name="orc leather" chance="3679" />
+		<item name="heavy old tome" chance="1757" />
+		<item name="skull belt" chance="923" />
+		<item name="orc tooth" chance="619" />
+		<item name="copper shield" chance="468" />
+		<item name="poison dagger" chance="51" />
 	</loot>
 </monster>

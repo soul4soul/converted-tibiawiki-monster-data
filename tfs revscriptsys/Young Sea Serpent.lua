@@ -5,7 +5,7 @@ monster.name = "Young Sea Serpent"
 monster.description = "a young sea serpent"
 monster.experience = 1000
 monster.outfit = {
-	lookType = 0,
+	lookType = 317,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,29 +90,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 98019, maxCount = 174},
-	{id = "morning star", chance = 40244},
-	{id = "battle axe", chance = 7878},
-	{id = "heavily rusted armor", chance = 7510},
-	{id = "strong health potion", chance = 4999},
-	{id = "battle hammer", chance = 4792},
-	{id = "sea serpent scale", chance = 4745},
-	{id = "strong mana potion", chance = 4630},
-	{id = "small sapphire", chance = 1866, maxCount = 2},
-	{id = "stealth ring", chance = 898},
-	{id = "rusted armor", chance = 829},
-	{id = "life crystal", chance = 161},
-	{id = "gold coin", chance = 100000, maxCount = 174},
-	{id = "morning star", chance = 100000},
-	{id = "battle axe", chance = 100000},
-	{id = "rusty armor", chance = 100000, maxCount = 2},
-	{id = "strong health potion", chance = 83552},
-	{id = "sea serpent scale", chance = 83460},
-	{id = "battle hammer", chance = 81801},
-	{id = "strong mana potion", chance = 65215},
-	{id = "small sapphire", chance = 32619, maxCount = 2},
-	{id = "stealth ring", chance = 16517},
-	{id = "life crystal", chance = 4331}
+	{id = "gold coin", chance = 98029, maxCount = 174},
+	{id = "morning star", chance = 40307},
+	{id = "battle axe", chance = 7860},
+	{id = "heavily rusted armor", chance = 7470},
+	{id = "strong health potion", chance = 4995},
+	{id = "battle hammer", chance = 4789},
+	{id = "sea serpent scale", chance = 4766},
+	{id = "strong mana potion", chance = 4629},
+	{id = "small sapphire", chance = 1856, maxCount = 2},
+	{id = "stealth ring", chance = 894},
+	{id = "rusted armor", chance = 848},
+	{id = "life crystal", chance = 160}
 }
 
 mType:register(monster)

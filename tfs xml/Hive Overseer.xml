@@ -1,6 +1,7 @@
-﻿<monster name="Hive Overseer" nameDescription="a hive overseer" experience="5500" speed="230" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Hive Overseer" nameDescription="a hive overseer" experience="5500" speed="230" manacost="0">
 	<health now="7500" max="7500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="458" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="30" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="100" />
 		<element firePercent="40" />
 		<element lifedrainPercent="0" />
@@ -50,20 +52,20 @@
 		<voice sentence="Kropp!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="98309" countmax="199" />
-		<item id="platinum coin" chance="84408" countmax="6" />
-		<item id="kollos shell" chance="28719" />
-		<item id="gold ingot" chance="28117" />
-		<item id="compound eye" chance="18315" />
-		<item id="great mana potion" chance="18028" />
-		<item id="small ruby" chance="16337" countmax="2" />
-		<item id="gooey mass" chance="13041" countmax="2" />
-		<item id="ultimate health potion" chance="12324" />
-		<item id="giant shimmering pearl (brown)" chance="6134" />
-		<item id="hive scythe" chance="1490" />
-		<item id="calopteryx cape" chance="1462" />
-		<item id="carapace shield" chance="831" />
-		<item id="hive bow" chance="659" />
-		<item id="steel boots" chance="487" />
+		<item name="gold coin" chance="98309" countmax="199" />
+		<item name="platinum coin" chance="84408" countmax="6" />
+		<item name="kollos shell" chance="28719" />
+		<item name="gold ingot" chance="28117" />
+		<item name="compound eye" chance="18315" />
+		<item name="great mana potion" chance="18028" />
+		<item name="small ruby" chance="16337" countmax="2" />
+		<item name="gooey mass" chance="13041" countmax="2" />
+		<item name="ultimate health potion" chance="12324" />
+		<item name="giant shimmering pearl (brown)" chance="6134" />
+		<item name="hive scythe" chance="1490" />
+		<item name="calopteryx cape" chance="1462" />
+		<item name="carapace shield" chance="831" />
+		<item name="hive bow" chance="659" />
+		<item name="steel boots" chance="487" />
 	</loot>
 </monster>

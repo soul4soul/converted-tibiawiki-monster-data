@@ -5,7 +5,7 @@ monster.name = "Killer Caiman"
 monster.description = "a killer caiman"
 monster.experience = 900
 monster.outfit = {
-	lookType = 0,
+	lookType = 358,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,20 +88,13 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99997, maxCount = 180},
-	{id = "ham", chance = 39795},
-	{id = "piece of crocodile leather", chance = 24972, maxCount = 2},
-	{id = "small emerald", chance = 9982, maxCount = 5},
-	{id = "obsidian lance", chance = 4980},
-	{id = "bunch of ripe rice", chance = 4840, maxCount = 2},
+	{id = "ham", chance = 39800},
+	{id = "piece of crocodile leather", chance = 24957, maxCount = 2},
+	{id = "small emerald", chance = 9975, maxCount = 5},
+	{id = "obsidian lance", chance = 4992},
+	{id = "bunch of ripe rice", chance = 4817, maxCount = 2},
 	{id = "giant shimmering pearl (green)", chance = 966},
-	{id = "crocodile boots", chance = 486},
-	{id = "gold coin", chance = 5678, maxCount = 180},
-	{id = "ham", chance = 3559},
-	{id = "piece of crocodile leather", chance = 903},
-	{id = "bunch of ripe rice", chance = 483, maxCount = 2},
-	{id = "small emerald", chance = 91},
-	{id = "giant shimmering pearl (green)", chance = 54},
-	{id = "crocodile boots", chance = 20}
+	{id = "crocodile boots", chance = 483}
 }
 
 mType:register(monster)

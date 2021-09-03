@@ -5,7 +5,7 @@ monster.name = "Minotaur Archer"
 monster.description = "a minotaur archer"
 monster.experience = 65
 monster.outfit = {
-	lookType = 0,
+	lookType = 24,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,16 +89,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bolt", chance = 90090, maxCount = 20},
-	{id = "gold coin", chance = 75053, maxCount = 30},
-	{id = "broken crossbow", chance = 15368},
+	{id = "bolt", chance = 90085, maxCount = 20},
+	{id = "gold coin", chance = 75057, maxCount = 30},
+	{id = "broken crossbow", chance = 15363},
 	{id = "piercing bolt", chance = 12192, maxCount = 4},
-	{id = "piece of archer armor", chance = 8016},
-	{id = "meat", chance = 4948},
-	{id = "minotaur horn", chance = 1985, maxCount = 2},
-	{id = "minotaur leather", chance = 1918},
-	{id = "crossbow", chance = 877},
-	{id = "scale armor", chance = 535},
+	{id = "piece of archer armor", chance = 8019},
+	{id = "meat", chance = 4949},
+	{id = "minotaur horn", chance = 1984, maxCount = 2},
+	{id = "minotaur leather", chance = 1921},
+	{id = "crossbow", chance = 880},
+	{id = "scale armor", chance = 534},
 	{id = "brass armor", chance = 517}
 }
 

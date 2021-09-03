@@ -1,4 +1,5 @@
-﻿<monster name="Drume" nameDescription="" experience="25000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Drume" nameDescription="" experience="25000" speed="0" manacost="0">
 	<health now="35000" max="35000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="-20" />
+		<element energyPercent="-20" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,41 +45,41 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="energy bar" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="supreme health potion" chance="56495" countmax="20" />
-		<item id="ultimate mana potion" chance="54573" countmax="20" />
-		<item id="red gem" chance="35511" countmax="2" />
-		<item id="yellow gem" chance="34281" countmax="2" />
-		<item id="ultimate spirit potion" chance="33743" countmax="6" />
-		<item id="royal star" chance="31668" countmax="100" />
-		<item id="berserk potion" chance="21445" countmax="10" />
-		<item id="bullseye potion" chance="19523" countmax="10" />
-		<item id="mastermind potion" chance="19523" countmax="10" />
-		<item id="blue gem" chance="18678" countmax="2" />
-		<item id="green gem" chance="16987" countmax="2" />
-		<item id="giant shimmering pearl" chance="16449" />
-		<item id="gold ingot" chance="13374" />
-		<item id="terra rod" chance="12913" />
-		<item id="silver token" chance="10992" countmax="5" />
-		<item id="stone skin amulet" chance="9915" />
-		<item id="crystal coin" chance="9454" />
-		<item id="terra legs" chance="9224" />
-		<item id="violet gem" chance="8378" countmax="2" />
-		<item id="terra mantle" chance="6918" />
-		<item id="terra hood" chance="5842" />
-		<item id="wand of voodoo" chance="4842" />
-		<item id="terra amulet" chance="4458" />
-		<item id="giant sapphire" chance="3997" />
-		<item id="raw watermelon tourmaline" chance="3843" />
-		<item id="giant ruby" chance="2844" />
-		<item id="underworld rod" chance="2613" />
-		<item id="lion axe" chance="154" />
-		<item id="lion hammer" chance="154" />
-		<item id="lion spellbook" chance="154" />
-		<item id="lion amulet" chance="77" />
-		<item id="lion longbow" chance="77" />
-		<item id="lion longsword" chance="77" />
-		<item id="lion wand" chance="77" />
+		<item name="energy bar" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="5" />
+		<item name="supreme health potion" chance="56282" countmax="20" />
+		<item name="ultimate mana potion" chance="54684" countmax="20" />
+		<item name="red gem" chance="35875" countmax="2" />
+		<item name="yellow gem" chance="34568" countmax="2" />
+		<item name="ultimate spirit potion" chance="33769" countmax="6" />
+		<item name="royal star" chance="31300" countmax="100" />
+		<item name="berserk potion" chance="21133" countmax="10" />
+		<item name="bullseye potion" chance="19753" countmax="10" />
+		<item name="mastermind potion" chance="19463" countmax="10" />
+		<item name="blue gem" chance="18373" countmax="2" />
+		<item name="green gem" chance="16703" countmax="2" />
+		<item name="giant shimmering pearl" chance="16049" />
+		<item name="gold ingot" chance="13435" />
+		<item name="terra rod" chance="12927" />
+		<item name="silver token" chance="11256" countmax="5" />
+		<item name="stone skin amulet" chance="9949" />
+		<item name="crystal coin" chance="9659" />
+		<item name="terra legs" chance="9150" />
+		<item name="violet gem" chance="8642" countmax="2" />
+		<item name="terra mantle" chance="7044" />
+		<item name="terra hood" chance="5664" />
+		<item name="wand of voodoo" chance="4720" />
+		<item name="giant sapphire" chance="4357" />
+		<item name="terra amulet" chance="4212" />
+		<item name="raw watermelon tourmaline" chance="3994" />
+		<item name="giant ruby" chance="2760" />
+		<item name="underworld rod" chance="2614" />
+		<item name="lion axe" chance="145" />
+		<item name="lion hammer" chance="145" />
+		<item name="lion spellbook" chance="145" />
+		<item name="lion wand" chance="145" />
+		<item name="lion amulet" chance="73" />
+		<item name="lion longbow" chance="73" />
+		<item name="lion longsword" chance="73" />
 	</loot>
 </monster>

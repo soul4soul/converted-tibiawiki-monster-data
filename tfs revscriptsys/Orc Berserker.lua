@@ -5,7 +5,7 @@ monster.name = "Orc Berserker"
 monster.description = "an orc berserker"
 monster.experience = 195
 monster.outfit = {
-	lookType = 0,
+	lookType = 8,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,26 +89,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 54880, maxCount = 25},
-	{id = "orcish gear", chance = 10446},
-	{id = "ham", chance = 9803},
-	{id = "halberd", chance = 6979},
+	{id = "gold coin", chance = 54916, maxCount = 25},
+	{id = "orcish gear", chance = 10405},
+	{id = "ham", chance = 9820},
+	{id = "halberd", chance = 6945},
 	{id = "battle axe", chance = 5733},
-	{id = "hunting spear", chance = 4970},
-	{id = "orc leather", chance = 4147},
-	{id = "orc tooth", chance = 2789},
-	{id = "chain armor", chance = 981},
-	{id = "lamp", chance = 861},
-	{id = "gold coin", chance = 100000, maxCount = 14},
-	{id = "ham", chance = 58638},
-	{id = "orcish gear", chance = 57421},
-	{id = "halberd", chance = 40608},
-	{id = "battle axe", chance = 35484},
-	{id = "hunting spear", chance = 28612},
-	{id = "orc leather", chance = 23556},
-	{id = "orc tooth", chance = 17806},
-	{id = "chain armor", chance = 5506},
-	{id = "lamp", chance = 4777}
+	{id = "hunting spear", chance = 4967},
+	{id = "orc leather", chance = 4108},
+	{id = "orc tooth", chance = 2765},
+	{id = "chain armor", chance = 977},
+	{id = "lamp", chance = 854}
 }
 
 mType:register(monster)

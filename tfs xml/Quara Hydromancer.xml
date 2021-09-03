@@ -1,6 +1,7 @@
-﻿<monster name="Quara Hydromancer" nameDescription="a quara hydromancer" experience="800" speed="490" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Quara Hydromancer" nameDescription="a quara hydromancer" experience="800" speed="490" manacost="0">
 	<health now="1100" max="1100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="47" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-25" />
+		<element energyPercent="-25" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -53,27 +55,16 @@
 		<voice sentence="Blup." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="90425" countmax="110" />
-		<item id="quara eye" chance="15532" />
-		<item id="white pearl" chance="5045" />
-		<item id="small emerald" chance="4976" countmax="2" />
-		<item id="shrimp" chance="4629" />
-		<item id="black pearl" chance="3152" />
-		<item id="great mana potion" chance="2874" />
-		<item id="fish fin" chance="1437" />
-		<item id="ring of healing" chance="1219" />
-		<item id="wand of cosmic energy" chance="971" />
-		<item id="knight armor" chance="228" />
-		<item id="gold coin" chance="34453" countmax="89" />
-		<item id="quara eye" chance="6225" />
-		<item id="shrimp" chance="2894" />
-		<item id="black pearl" chance="1298" />
-		<item id="white pearl" chance="1150" />
-		<item id="wand of cosmic energy" chance="644" />
-		<item id="small emerald" chance="605" countmax="2" />
-		<item id="great mana potion" chance="595" />
-		<item id="fish fin" chance="545" />
-		<item id="ring of healing" chance="317" />
-		<item id="knight armor" chance="228" />
+		<item name="gold coin" chance="90413" countmax="110" />
+		<item name="quara eye" chance="15514" />
+		<item name="white pearl" chance="5036" />
+		<item name="small emerald" chance="4977" countmax="2" />
+		<item name="shrimp" chance="4640" />
+		<item name="black pearl" chance="3156" />
+		<item name="great mana potion" chance="2869" />
+		<item name="fish fin" chance="1435" />
+		<item name="ring of healing" chance="1217" />
+		<item name="wand of cosmic energy" chance="970" />
+		<item name="knight armor" chance="228" />
 	</loot>
 </monster>

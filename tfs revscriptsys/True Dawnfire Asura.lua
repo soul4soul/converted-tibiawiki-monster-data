@@ -5,12 +5,12 @@ monster.name = "True Dawnfire Asura"
 monster.description = "a true dawnfire asura"
 monster.experience = 7475
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1068,
+	lookHead = 114,
+	lookBody = 94,
+	lookLegs = 79,
+	lookFeet = 121,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -112,35 +113,7 @@ monster.loot = {
 	{id = "magma coat", chance = 2062},
 	{id = "wand of inferno", chance = 1320},
 	{id = "spellbook of mind control", chance = 1072},
-	{id = "death ring", chance = 948},
-	{id = "gold coin", chance = 21361, maxCount = 180},
-	{id = "platinum coin", chance = 21361, maxCount = 12},
-	{id = "flask of demonic blood", chance = 6351},
-	{id = "demonic essence", chance = 5155},
-	{id = "peacock feather fan", chance = 4825},
-	{id = "golden lotus brooch", chance = 4454},
-	{id = "great mana potion", chance = 3711, maxCount = 2},
-	{id = "soul orb", chance = 3093},
-	{id = "small enchanted ruby", chance = 2433, maxCount = 3},
-	{id = "small ruby", chance = 2309, maxCount = 3},
-	{id = "small diamond", chance = 2144, maxCount = 2},
-	{id = "small emerald", chance = 1897, maxCount = 2},
-	{id = "small topaz", chance = 1856, maxCount = 2},
-	{id = "small amethyst", chance = 1155, maxCount = 2},
-	{id = "crystal coin", chance = 866},
-	{id = "red gem", chance = 866},
-	{id = "ruby necklace", chance = 866},
-	{id = "royal star", chance = 701, maxCount = 3},
-	{id = "blue gem", chance = 660},
-	{id = "mystic turban", chance = 660},
-	{id = "red piece of cloth", chance = 660},
-	{id = "mysterious fetish", chance = 577},
-	{id = "focus cape", chance = 412},
-	{id = "oriental shoes", chance = 371},
-	{id = "wand of inferno", chance = 371},
-	{id = "magma coat", chance = 330},
-	{id = "death ring", chance = 247},
-	{id = "spellbook of mind control", chance = 165}
+	{id = "death ring", chance = 948}
 }
 
 mType:register(monster)

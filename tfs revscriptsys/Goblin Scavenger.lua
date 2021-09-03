@@ -5,7 +5,7 @@ monster.name = "Goblin Scavenger"
 monster.description = "a goblin scavenger"
 monster.experience = 37
 monster.outfit = {
-	lookType = 0,
+	lookType = 297,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -94,17 +95,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 50059, maxCount = 9},
-	{id = "small stone", chance = 25044, maxCount = 2},
-	{id = "dagger", chance = 18278},
-	{id = "fish", chance = 12961},
-	{id = "bone", chance = 12685},
-	{id = "leather helmet", chance = 9755},
-	{id = "small axe", chance = 9479},
-	{id = "short sword", chance = 8986},
-	{id = "leather armor", chance = 7753},
+	{id = "gold coin", chance = 50064, maxCount = 9},
+	{id = "small stone", chance = 25007, maxCount = 2},
+	{id = "dagger", chance = 18229},
+	{id = "fish", chance = 12989},
+	{id = "bone", chance = 12656},
+	{id = "leather helmet", chance = 9776},
+	{id = "small axe", chance = 9492},
+	{id = "short sword", chance = 8992},
+	{id = "leather armor", chance = 7719},
 	{id = "mouldy cheese", chance = 7033},
-	{id = "bone club", chance = 5080}
+	{id = "bone club", chance = 5074}
 }
 
 mType:register(monster)

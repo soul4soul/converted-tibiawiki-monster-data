@@ -1,4 +1,5 @@
-﻿<monster name="Dark Carnisylvan" nameDescription="a dark carnisylvan" experience="3900" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dark Carnisylvan" nameDescription="a dark carnisylvan" experience="3900" speed="240" manacost="0">
 	<health now="7500" max="7500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="10" />
 		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
@@ -40,19 +42,19 @@
 	</elements>
 	<defenses armor="41" defense="41" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="19" />
-		<item id="bone" chance="30565" />
-		<item id="carnisylvan finger" chance="10323" />
-		<item id="carnisylvan bark" chance="9285" />
-		<item id="great mana potion" chance="8651" />
-		<item id="wand of starstorm" chance="3749" />
-		<item id="underworld rod" chance="3576" />
-		<item id="spellbook" chance="3114" />
-		<item id="hailstorm rod" chance="2826" />
-		<item id="springsprout rod" chance="2537" />
-		<item id="spellbook of warding" chance="1961" />
-		<item id="gold ring" chance="692" />
-		<item id="human teeth" chance="634" />
-		<item id="butterfly ring" chance="461" />
+		<item name="platinum coin" chance="100000" countmax="19" />
+		<item name="bone" chance="30147" />
+		<item name="carnisylvan finger" chance="10650" />
+		<item name="carnisylvan bark" chance="9612" />
+		<item name="great mana potion" chance="8629" />
+		<item name="underworld rod" chance="3823" />
+		<item name="wand of starstorm" chance="3823" />
+		<item name="spellbook" chance="3058" />
+		<item name="hailstorm rod" chance="2840" />
+		<item name="springsprout rod" chance="2676" />
+		<item name="spellbook of warding" chance="1857" />
+		<item name="gold ring" chance="710" />
+		<item name="human teeth" chance="601" />
+		<item name="butterfly ring" chance="492" />
 	</loot>
 </monster>

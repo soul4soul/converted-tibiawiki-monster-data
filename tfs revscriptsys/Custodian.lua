@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,8 +88,7 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 23},
-	{id = "cobra crest", chance = 9091},
-	{id = "small sapphire", chance = 18182}
+	{id = "cobra crest", chance = 7692}
 }
 
 mType:register(monster)

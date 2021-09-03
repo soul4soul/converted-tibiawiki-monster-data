@@ -1,4 +1,5 @@
-﻿<monster name="Dracola" nameDescription="" experience="11000" speed="370" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dracola" nameDescription="" experience="11000" speed="370" manacost="0">
 	<health now="16200" max="16200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -50,20 +52,20 @@
 		<voice sentence="I'm bad to the bone." yell="false" />
 	</voices>
 	<loot>
-		<item id="dracola's eye" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="144" />
-		<item id="soul orb" chance="100000" />
-		<item id="demonic essence" chance="94118" />
-		<item id="life crystal" chance="70588" />
-		<item id="platinum coin" chance="41176" countmax="4" />
-		<item id="dark armor" chance="29412" />
-		<item id="great health potion" chance="17647" />
-		<item id="reaper's axe" chance="17647" />
-		<item id="small sapphire" chance="17647" countmax="4" />
-		<item id="death ring" chance="11765" />
-		<item id="great mana potion" chance="11765" />
-		<item id="hardened bone" chance="11765" />
-		<item id="ring of healing" chance="5882" />
-		<item id="skull helmet" chance="5882" />
+		<item name="dracola's eye" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="144" />
+		<item name="soul orb" chance="100000" />
+		<item name="demonic essence" chance="94118" />
+		<item name="life crystal" chance="70588" />
+		<item name="platinum coin" chance="41176" countmax="4" />
+		<item name="dark armor" chance="29412" />
+		<item name="great health potion" chance="17647" />
+		<item name="reaper's axe" chance="17647" />
+		<item name="small sapphire" chance="17647" countmax="4" />
+		<item name="death ring" chance="11765" />
+		<item name="great mana potion" chance="11765" />
+		<item name="hardened bone" chance="11765" />
+		<item name="ring of healing" chance="5882" />
+		<item name="skull helmet" chance="5882" />
 	</loot>
 </monster>

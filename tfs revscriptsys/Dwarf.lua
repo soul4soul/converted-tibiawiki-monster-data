@@ -5,7 +5,7 @@ monster.name = "Dwarf"
 monster.description = "a dwarf"
 monster.experience = 45
 monster.outfit = {
-	lookType = 0,
+	lookType = 69,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,15 +88,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "white mushroom", chance = 50138},
+	{id = "white mushroom", chance = 50136},
 	{id = "gold coin", chance = 35348, maxCount = 8},
-	{id = "hatchet", chance = 24787},
-	{id = "axe", chance = 14602},
-	{id = "pick", chance = 10153},
-	{id = "copper shield", chance = 10100},
-	{id = "leather legs", chance = 9677},
-	{id = "studded armor", chance = 8010},
-	{id = "letter", chance = 7932},
+	{id = "hatchet", chance = 24781},
+	{id = "axe", chance = 14604},
+	{id = "pick", chance = 10155},
+	{id = "copper shield", chance = 10099},
+	{id = "leather legs", chance = 9681},
+	{id = "studded armor", chance = 8008},
+	{id = "letter", chance = 7935},
 	{id = "dwarven ring", chance = 96},
 	{id = "iron ore", chance = 83}
 }

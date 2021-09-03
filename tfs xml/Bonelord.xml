@@ -1,6 +1,7 @@
-﻿<monster name="Bonelord" nameDescription="a bonelord" experience="170" speed="150" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Bonelord" nameDescription="a bonelord" experience="170" speed="150" manacost="0">
 	<health now="260" max="260" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="17" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
@@ -53,16 +55,16 @@
 		<voice name="skeleton" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="gold coin" chance="99400" countmax="48" />
-		<item id="longsword" chance="9079" />
-		<item id="morning star" chance="7022" />
-		<item id="small flask of eyedrops" chance="5060" />
-		<item id="spellbook" chance="4996" />
-		<item id="steel shield" chance="3991" />
-		<item id="two handed sword" chance="3952" />
-		<item id="bonelord eye" chance="1007" />
-		<item id="terra rod" chance="511" />
-		<item id="mana potion" chance="296" />
-		<item id="bonelord shield" chance="108" />
+		<item name="gold coin" chance="99400" countmax="48" />
+		<item name="longsword" chance="9079" />
+		<item name="morning star" chance="7022" />
+		<item name="small flask of eyedrops" chance="5059" />
+		<item name="spellbook" chance="4996" />
+		<item name="steel shield" chance="3991" />
+		<item name="two handed sword" chance="3951" />
+		<item name="bonelord eye" chance="1008" />
+		<item name="terra rod" chance="511" />
+		<item name="mana potion" chance="296" />
+		<item name="bonelord shield" chance="107" />
 	</loot>
 </monster>

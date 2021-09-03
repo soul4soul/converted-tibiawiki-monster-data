@@ -5,12 +5,12 @@ monster.name = "Dark Magician"
 monster.description = "a dark magician"
 monster.experience = 185
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 133,
+	lookHead = 58,
+	lookBody = 95,
+	lookLegs = 51,
+	lookFeet = 131,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,13 +93,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 74988, maxCount = 55},
-	{id = "health potion", chance = 11997},
-	{id = "mana potion", chance = 11930},
-	{id = "blank rune", chance = 9961},
-	{id = "strong health potion", chance = 2951},
-	{id = "strong mana potion", chance = 2892},
-	{id = "small enchanted amethyst", chance = 518},
+	{id = "gold coin", chance = 74985, maxCount = 55},
+	{id = "health potion", chance = 12002},
+	{id = "mana potion", chance = 11929},
+	{id = "blank rune", chance = 9955},
+	{id = "strong health potion", chance = 2950},
+	{id = "strong mana potion", chance = 2895},
+	{id = "small enchanted amethyst", chance = 519},
 	{id = "necrotic rod", chance = 287},
 	{id = "reins", chance = 22}
 }

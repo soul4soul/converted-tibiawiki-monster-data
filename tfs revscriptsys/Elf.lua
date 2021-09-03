@@ -5,7 +5,7 @@ monster.name = "Elf"
 monster.description = "an elf"
 monster.experience = 42
 monster.outfit = {
-	lookType = 0,
+	lookType = 62,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,16 +93,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 44659, maxCount = 30},
-	{id = "plum", chance = 19985, maxCount = 2},
-	{id = "studded helmet", chance = 15071},
-	{id = "leather boots", chance = 11117},
-	{id = "longsword", chance = 10927},
-	{id = "studded armor", chance = 8997},
-	{id = "plate shield", chance = 8926},
+	{id = "gold coin", chance = 44651, maxCount = 30},
+	{id = "plum", chance = 19996, maxCount = 2},
+	{id = "studded helmet", chance = 15074},
+	{id = "leather boots", chance = 11121},
+	{id = "longsword", chance = 10921},
+	{id = "studded armor", chance = 9009},
+	{id = "plate shield", chance = 8933},
 	{id = "arrow", chance = 7024, maxCount = 3},
-	{id = "elvish talisman", chance = 1988},
-	{id = "heaven blossom", chance = 1002}
+	{id = "elvish talisman", chance = 1990},
+	{id = "heaven blossom", chance = 1008}
 }
 
 mType:register(monster)

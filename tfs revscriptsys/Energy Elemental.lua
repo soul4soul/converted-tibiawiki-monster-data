@@ -5,7 +5,7 @@ monster.name = "Energy Elemental"
 monster.description = "an energy elemental"
 monster.experience = 550
 monster.outfit = {
-	lookType = 0,
+	lookType = 293,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,17 +88,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 98037, maxCount = 170},
-	{id = "mana potion", chance = 11967},
-	{id = "flash arrow", chance = 10162, maxCount = 10},
-	{id = "throwing star", chance = 9988, maxCount = 5},
-	{id = "strong mana potion", chance = 7958},
-	{id = "crystal sword", chance = 5984},
-	{id = "small amethyst", chance = 5041, maxCount = 2},
-	{id = "obsidian lance", chance = 3645},
-	{id = "crystal ring", chance = 2058},
-	{id = "silver amulet", chance = 1094},
-	{id = "energy ring", chance = 920},
+	{id = "gold coin", chance = 98038, maxCount = 170},
+	{id = "mana potion", chance = 11972},
+	{id = "flash arrow", chance = 10161, maxCount = 10},
+	{id = "throwing star", chance = 9993, maxCount = 5},
+	{id = "strong mana potion", chance = 7953},
+	{id = "crystal sword", chance = 5980},
+	{id = "small amethyst", chance = 5044, maxCount = 2},
+	{id = "obsidian lance", chance = 3643},
+	{id = "crystal ring", chance = 2057},
+	{id = "silver amulet", chance = 1093},
+	{id = "energy ring", chance = 919},
 	{id = "wand of cosmic energy", chance = 583},
 	{id = "guardian shield", chance = 269}
 }

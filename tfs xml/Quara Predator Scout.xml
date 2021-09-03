@@ -1,6 +1,7 @@
-﻿<monster name="Quara Predator Scout" nameDescription="a quara predator scout" experience="400" speed="170" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Quara Predator Scout" nameDescription="a quara predator scout" experience="400" speed="170" manacost="0">
 	<health now="890" max="890" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="20" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -49,26 +51,14 @@
 		<voice sentence="Rraaar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="98959" countmax="132" />
-		<item id="quara bone" chance="10115" />
-		<item id="scale armor" chance="8967" />
-		<item id="double axe" chance="5761" />
-		<item id="shrimp" chance="5057" />
-		<item id="small diamond" chance="5015" countmax="2" />
-		<item id="two handed sword" chance="3013" />
-		<item id="fish fin" chance="1075" />
-		<item id="northwind rod" chance="952" />
-		<item id="gold coin" chance="781" countmax="129" />
-		<item id="quara bone" chance="60" />
-		<item id="small diamond" chance="39" countmax="2" />
-		<item id="double axe" chance="30" />
-		<item id="scale armor" chance="18" />
-		<item id="fish fin" chance="14" />
-		<item id="gold coin" chance="5118" countmax="111" />
-		<item id="quara bone" chance="256" />
-		<item id="double axe" chance="72" />
-		<item id="scale armor" chance="63" />
-		<item id="small diamond" chance="61" />
-		<item id="fish fin" chance="51" />
+		<item name="gold coin" chance="98959" countmax="132" />
+		<item name="quara bone" chance="10117" />
+		<item name="scale armor" chance="8967" />
+		<item name="double axe" chance="5761" />
+		<item name="shrimp" chance="5057" />
+		<item name="small diamond" chance="5014" countmax="2" />
+		<item name="two handed sword" chance="3013" />
+		<item name="fish fin" chance="1075" />
+		<item name="northwind rod" chance="952" />
 	</loot>
 </monster>

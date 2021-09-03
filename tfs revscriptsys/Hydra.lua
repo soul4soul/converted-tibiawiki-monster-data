@@ -5,7 +5,7 @@ monster.name = "Hydra"
 monster.description = "a hydra"
 monster.experience = 2100
 monster.outfit = {
-	lookType = 0,
+	lookType = 121,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,37 +90,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87752, maxCount = 246},
-	{id = "ham", chance = 60187},
-	{id = "platinum coin", chance = 49502, maxCount = 3},
+	{id = "gold coin", chance = 87748, maxCount = 246},
+	{id = "ham", chance = 60194},
+	{id = "platinum coin", chance = 49494, maxCount = 3},
 	{id = "hydra head", chance = 10155},
 	{id = "small sapphire", chance = 4983},
-	{id = "cucumber", chance = 4918},
-	{id = "ring of healing", chance = 1214},
-	{id = "knight armor", chance = 1116},
-	{id = "hydra egg", chance = 938},
-	{id = "stone skin amulet", chance = 903},
-	{id = "warrior helmet", chance = 825},
-	{id = "life crystal", chance = 511},
-	{id = "strong mana potion", chance = 461},
-	{id = "royal helmet", chance = 222},
+	{id = "cucumber", chance = 4922},
+	{id = "ring of healing", chance = 1213},
+	{id = "knight armor", chance = 1113},
+	{id = "hydra egg", chance = 939},
+	{id = "stone skin amulet", chance = 901},
+	{id = "warrior helmet", chance = 827},
+	{id = "life crystal", chance = 513},
+	{id = "strong mana potion", chance = 463},
+	{id = "royal helmet", chance = 221},
 	{id = "medusa shield", chance = 218},
-	{id = "boots of haste", chance = 94},
-	{id = "gold coin", chance = 68939, maxCount = 244},
-	{id = "ham", chance = 47095},
-	{id = "hydra head", chance = 7912},
-	{id = "small sapphire", chance = 4002},
-	{id = "cucumber", chance = 3791},
-	{id = "ring of healing", chance = 929},
-	{id = "knight armor", chance = 785},
-	{id = "stone skin amulet", chance = 718},
-	{id = "hydra egg", chance = 690},
-	{id = "warrior helmet", chance = 662},
-	{id = "life crystal", chance = 439},
-	{id = "strong mana potion", chance = 331},
-	{id = "royal helmet", chance = 181},
-	{id = "medusa shield", chance = 154},
-	{id = "boots of haste", chance = 94}
+	{id = "boots of haste", chance = 96}
 }
 
 mType:register(monster)

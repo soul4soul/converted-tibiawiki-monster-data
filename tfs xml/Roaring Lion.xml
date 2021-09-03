@@ -1,6 +1,7 @@
-﻿<monster name="Roaring Lion" nameDescription="a roaring lion" experience="800" speed="210" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Roaring Lion" nameDescription="a roaring lion" experience="800" speed="210" manacost="0">
 	<health now="1000" max="1000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="570" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -47,17 +49,17 @@
 		<voice sentence="Growl!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="115" />
-		<item id="meat" chance="25349" />
-		<item id="ham" chance="24810" />
-		<item id="lion's mane" chance="20103" />
-		<item id="platinum coin" chance="10036" />
-		<item id="small sapphire" chance="7119" />
-		<item id="small topaz" chance="6959" />
-		<item id="small ruby" chance="6855" />
-		<item id="small amethyst" chance="6683" />
-		<item id="ankh" chance="2852" />
-		<item id="might ring" chance="723" />
-		<item id="crown helmet" chance="566" />
+		<item name="gold coin" chance="100000" countmax="115" />
+		<item name="meat" chance="25351" />
+		<item name="ham" chance="24812" />
+		<item name="lion's mane" chance="20106" />
+		<item name="platinum coin" chance="10034" />
+		<item name="small sapphire" chance="7117" />
+		<item name="small topaz" chance="6957" />
+		<item name="small ruby" chance="6854" />
+		<item name="small amethyst" chance="6686" />
+		<item name="ankh" chance="2852" />
+		<item name="might ring" chance="726" />
+		<item name="crown helmet" chance="566" />
 	</loot>
 </monster>

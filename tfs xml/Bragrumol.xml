@@ -1,4 +1,5 @@
-﻿<monster name="Bragrumol" nameDescription="" experience="18000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Bragrumol" nameDescription="" experience="18000" speed="0" manacost="0">
 	<health now="38000" max="38000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="70" />
 		<element lifedrainPercent="0" />
@@ -43,10 +45,8 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="red gem" chance="84800" />
-		<item id="sea horse figurine" chance="11200" />
-		<item id="golden mask" chance="4000" />
-		<item id="red gem" chance="800" />
-		<item id="sea horse figurine" chance="800" />
+		<item name="red gem" chance="85039" />
+		<item name="sea horse figurine" chance="11024" />
+		<item name="golden mask" chance="3937" />
 	</loot>
 </monster>

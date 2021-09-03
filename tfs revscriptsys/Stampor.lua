@@ -5,7 +5,7 @@ monster.name = "Stampor"
 monster.description = "a stampor"
 monster.experience = 780
 monster.outfit = {
-	lookType = 0,
+	lookType = 381,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,17 +89,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 94604, maxCount = 242},
-	{id = "platinum coin", chance = 10018, maxCount = 2},
-	{id = "stampor talons", chance = 9809},
-	{id = "small topaz", chance = 7905, maxCount = 2},
-	{id = "strong mana potion", chance = 5055, maxCount = 2},
-	{id = "stampor horn", chance = 4958},
+	{id = "gold coin", chance = 94601, maxCount = 242},
+	{id = "platinum coin", chance = 10008, maxCount = 2},
+	{id = "stampor talons", chance = 9800},
+	{id = "small topaz", chance = 7886, maxCount = 2},
+	{id = "strong mana potion", chance = 5049, maxCount = 2},
+	{id = "stampor horn", chance = 4953},
 	{id = "strong health potion", chance = 4877, maxCount = 2},
 	{id = "hollow stampor hoof", chance = 3064},
-	{id = "war hammer", chance = 1028},
-	{id = "knight armor", chance = 840},
-	{id = "spiked squelcher", chance = 193}
+	{id = "war hammer", chance = 1033},
+	{id = "knight armor", chance = 836},
+	{id = "spiked squelcher", chance = 192}
 }
 
 mType:register(monster)

@@ -1,4 +1,5 @@
-﻿<monster name="Zamulosh" nameDescription="" experience="50000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Zamulosh" nameDescription="" experience="50000" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="-1" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,18 +42,18 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="blue crystal splinter" chance="100000" countmax="6" />
-		<item id="brown crystal splinter" chance="100000" countmax="6" />
-		<item id="demonic essence" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="101" />
-		<item id="great mana potion" chance="100000" countmax="5" />
-		<item id="great spirit potion" chance="100000" countmax="5" />
-		<item id="platinum coin" chance="100000" countmax="25" />
-		<item id="silver token" chance="100000" />
-		<item id="stealth ring" chance="100000" />
-		<item id="time ring" chance="100000" />
-		<item id="green crystal splinter" chance="50000" countmax="6" />
-		<item id="small amethyst" chance="50000" countmax="5" />
-		<item id="yellow gem" chance="50000" />
+		<item name="blue crystal splinter" chance="100000" countmax="6" />
+		<item name="brown crystal splinter" chance="100000" countmax="6" />
+		<item name="demonic essence" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="101" />
+		<item name="great mana potion" chance="100000" countmax="5" />
+		<item name="great spirit potion" chance="100000" countmax="5" />
+		<item name="platinum coin" chance="100000" countmax="25" />
+		<item name="silver token" chance="100000" />
+		<item name="stealth ring" chance="100000" />
+		<item name="time ring" chance="100000" />
+		<item name="green crystal splinter" chance="50000" countmax="6" />
+		<item name="small amethyst" chance="50000" countmax="5" />
+		<item name="yellow gem" chance="50000" />
 	</loot>
 </monster>

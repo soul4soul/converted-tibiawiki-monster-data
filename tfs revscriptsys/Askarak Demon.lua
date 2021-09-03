@@ -5,7 +5,7 @@ monster.name = "Askarak Demon"
 monster.description = "an askarak demon"
 monster.experience = 900
 monster.outfit = {
-	lookType = 0,
+	lookType = 420,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -91,18 +92,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 94653, maxCount = 244},
-	{id = "small emerald", chance = 6093, maxCount = 4},
-	{id = "strong health potion", chance = 5308},
-	{id = "strong mana potion", chance = 5098},
-	{id = "assassin star", chance = 4881, maxCount = 5},
-	{id = "brown mushroom", chance = 3847, maxCount = 5},
-	{id = "piggy bank", chance = 1091},
-	{id = "energy ring", chance = 1008},
-	{id = "mastermind potion", chance = 485},
-	{id = "springsprout rod", chance = 479},
-	{id = "terra legs", chance = 128},
-	{id = "magic sulphur", chance = 102}
+	{id = "gold coin", chance = 94649, maxCount = 244},
+	{id = "small emerald", chance = 6091, maxCount = 4},
+	{id = "strong health potion", chance = 5275},
+	{id = "strong mana potion", chance = 5079},
+	{id = "assassin star", chance = 4864, maxCount = 5},
+	{id = "brown mushroom", chance = 3839, maxCount = 5},
+	{id = "piggy bank", chance = 1101},
+	{id = "energy ring", chance = 1006},
+	{id = "mastermind potion", chance = 481},
+	{id = "springsprout rod", chance = 474},
+	{id = "terra legs", chance = 127},
+	{id = "magic sulphur", chance = 101}
 }
 
 mType:register(monster)

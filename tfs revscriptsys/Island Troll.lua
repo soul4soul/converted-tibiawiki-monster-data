@@ -5,7 +5,7 @@ monster.name = "Island Troll"
 monster.description = "an island troll"
 monster.experience = 20
 monster.outfit = {
-	lookType = 0,
+	lookType = 282,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,18 +92,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 59665, maxCount = 10},
-	{id = "wood", chance = 30832},
-	{id = "spear", chance = 19983},
-	{id = "hand axe", chance = 17576},
-	{id = "wooden shield", chance = 15293},
-	{id = "leather boots", chance = 9996},
-	{id = "leather helmet", chance = 9589},
-	{id = "rope", chance = 7883},
-	{id = "studded club", chance = 5202},
-	{id = "mango", chance = 5079},
-	{id = "marlin", chance = 76},
-	{id = "silver amulet", chance = 57}
+	{id = "gold coin", chance = 59774, maxCount = 10},
+	{id = "wood", chance = 30720},
+	{id = "spear", chance = 19993},
+	{id = "hand axe", chance = 17586},
+	{id = "wooden shield", chance = 15272},
+	{id = "leather boots", chance = 9904},
+	{id = "leather helmet", chance = 9654},
+	{id = "rope", chance = 7886},
+	{id = "studded club", chance = 5211},
+	{id = "mango", chance = 5072},
+	{id = "marlin", chance = 74},
+	{id = "silver amulet", chance = 65}
 }
 
 mType:register(monster)

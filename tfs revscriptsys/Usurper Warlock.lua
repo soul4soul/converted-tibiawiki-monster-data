@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,22 +87,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 78328, maxCount = 4},
-	{id = "gold ingot", chance = 10808},
-	{id = "lion crest", chance = 7907},
-	{id = "lion cloak patch", chance = 7509},
-	{id = "black pearl", chance = 6030},
-	{id = "terra hood", chance = 5233},
-	{id = "giant shimmering pearl (green)", chance = 4949},
-	{id = "green gem", chance = 3925},
+	{id = "platinum coin", chance = 78691, maxCount = 4},
+	{id = "gold ingot", chance = 10817},
+	{id = "lion crest", chance = 7842},
+	{id = "lion cloak patch", chance = 7518},
+	{id = "black pearl", chance = 6274},
+	{id = "terra hood", chance = 5300},
+	{id = "giant shimmering pearl (green)", chance = 4867},
+	{id = "green gem", chance = 4002},
 	{id = "lightning headband", chance = 3299},
-	{id = "springsprout rod", chance = 3242},
-	{id = "ham", chance = 3072},
-	{id = "knight legs", chance = 2105},
-	{id = "magma monocle", chance = 2105},
-	{id = "wand of cosmic energy", chance = 1763},
-	{id = "underworld rod", chance = 1536},
-	{id = "wand of starstorm", chance = 1422}
+	{id = "springsprout rod", chance = 3191},
+	{id = "ham", chance = 3137},
+	{id = "knight legs", chance = 2055},
+	{id = "magma monocle", chance = 2055},
+	{id = "wand of cosmic energy", chance = 1893},
+	{id = "underworld rod", chance = 1622},
+	{id = "wand of starstorm", chance = 1352}
 }
 
 mType:register(monster)

@@ -5,11 +5,11 @@ monster.name = "Lumbering Carnivor"
 monster.description = "a lumbering carnivor"
 monster.experience = 1452
 monster.outfit = {
-	lookType = 0,
+	lookType = 1133,
 	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookBody = 59,
+	lookLegs = 67,
+	lookFeet = 85,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -100,38 +101,7 @@ monster.loot = {
 	{id = "green crystal shard", chance = 961},
 	{id = "fur armor", chance = 786},
 	{id = "blue robe", chance = 437},
-	{id = "focus cape", chance = 87},
-	{id = "platinum coin", chance = 100000, maxCount = 3},
-	{id = "blue glass plate", chance = 100000, maxCount = 3},
-	{id = "axe", chance = 100000},
-	{id = "ice rapier", chance = 53275},
-	{id = "sword", chance = 37904},
-	{id = "giant shimmering pearl (brown)", chance = 14410},
-	{id = "green gem", chance = 13624},
-	{id = "glorious axe", chance = 12576},
-	{id = "green crystal shard", chance = 10131},
-	{id = "two handed sword", chance = 8908},
-	{id = "violet gem", chance = 8734},
-	{id = "blue gem", chance = 6201},
-	{id = "fur armor", chance = 5852},
-	{id = "blue robe", chance = 4891},
-	{id = "focus cape", chance = 1135},
-	{id = "platinum coin", chance = 9694, maxCount = 3},
-	{id = "dagger", chance = 5852},
-	{id = "blue glass plate", chance = 4367, maxCount = 3},
-	{id = "morning star", chance = 3231},
-	{id = "ice rapier", chance = 2358},
-	{id = "axe", chance = 2183},
-	{id = "sword", chance = 1135},
-	{id = "battle hammer", chance = 1048},
-	{id = "violet gem", chance = 611},
-	{id = "blue gem", chance = 349},
-	{id = "green gem", chance = 262},
-	{id = "blue robe", chance = 175},
-	{id = "glorious axe", chance = 175},
-	{id = "giant shimmering pearl (brown)", chance = 87},
-	{id = "green crystal shard", chance = 87},
-	{id = "two handed sword", chance = 87}
+	{id = "focus cape", chance = 87}
 }
 
 mType:register(monster)

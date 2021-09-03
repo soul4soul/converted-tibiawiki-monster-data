@@ -1,6 +1,7 @@
-﻿<monster name="Goblin Leader" nameDescription="a goblin leader" experience="75" speed="120" manacost="290">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Goblin Leader" nameDescription="a goblin leader" experience="75" speed="120" manacost="290">
 	<health now="50" max="50" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="61" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -52,15 +54,15 @@
 		<voice sentence="Goblinkiller! Catch him !!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="49369" countmax="9" />
-		<item id="dagger" chance="17498" />
-		<item id="fish" chance="12989" />
-		<item id="bone" chance="11545" />
-		<item id="small axe" chance="10704" />
-		<item id="leather helmet" chance="9862" />
-		<item id="short sword" chance="9862" />
-		<item id="leather armor" chance="7456" />
-		<item id="mouldy cheese" chance="7276" />
-		<item id="bone club" chance="4871" />
+		<item name="gold coin" chance="49369" countmax="9" />
+		<item name="dagger" chance="17498" />
+		<item name="fish" chance="12989" />
+		<item name="bone" chance="11545" />
+		<item name="small axe" chance="10704" />
+		<item name="leather helmet" chance="9862" />
+		<item name="short sword" chance="9862" />
+		<item name="leather armor" chance="7456" />
+		<item name="mouldy cheese" chance="7276" />
+		<item name="bone club" chance="4871" />
 	</loot>
 </monster>

@@ -5,11 +5,11 @@ monster.name = "Smuggler"
 monster.description = "a smuggler"
 monster.experience = 48
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
+	lookType = 134,
+	lookHead = 95,
 	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookLegs = 113,
+	lookFeet = 115,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,16 +89,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 79829, maxCount = 10},
-	{id = "torch", chance = 30213, maxCount = 2},
+	{id = "gold coin", chance = 79838, maxCount = 10},
+	{id = "torch", chance = 30216, maxCount = 2},
 	{id = "leather legs", chance = 14790},
-	{id = "ham", chance = 10187},
+	{id = "ham", chance = 10191},
 	{id = "short sword", chance = 10049},
-	{id = "leather helmet", chance = 10037},
-	{id = "knife", chance = 10005},
-	{id = "sword", chance = 5023},
-	{id = "raspberry", chance = 4906, maxCount = 5},
-	{id = "combat knife", chance = 4037},
+	{id = "leather helmet", chance = 10032},
+	{id = "knife", chance = 9997},
+	{id = "sword", chance = 5027},
+	{id = "raspberry", chance = 4913, maxCount = 5},
+	{id = "combat knife", chance = 4039},
 	{id = "deer trophy", chance = 113}
 }
 

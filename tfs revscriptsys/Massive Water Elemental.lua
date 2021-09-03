@@ -5,7 +5,7 @@ monster.name = "Massive Water Elemental"
 monster.description = "a massive water elemental"
 monster.experience = 1100
 monster.outfit = {
-	lookType = 0,
+	lookType = 11,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -97,18 +98,7 @@ monster.loot = {
 	{id = "green perch", chance = 1044},
 	{id = "energy ring", chance = 979},
 	{id = "rainbow trout", chance = 979},
-	{id = "life ring", chance = 783},
-	{id = "gold coin", chance = 86031, maxCount = 100},
-	{id = "fish", chance = 68114, maxCount = 2},
-	{id = "platinum coin", chance = 34302, maxCount = 2},
-	{id = "great mana potion", chance = 17493},
-	{id = "great health potion", chance = 16449},
-	{id = "small emerald", chance = 3198, maxCount = 2},
-	{id = "small diamond", chance = 3068, maxCount = 2},
-	{id = "green perch", chance = 2546},
-	{id = "rainbow trout", chance = 2219},
-	{id = "life ring", chance = 1697},
-	{id = "energy ring", chance = 1501}
+	{id = "life ring", chance = 783}
 }
 
 mType:register(monster)

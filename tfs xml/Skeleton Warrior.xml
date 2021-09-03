@@ -1,6 +1,7 @@
-﻿<monster name="Skeleton Warrior" nameDescription="a skeleton warrior" experience="45" speed="154" manacost="350">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Skeleton Warrior" nameDescription="a skeleton warrior" experience="45" speed="154" manacost="350">
 	<health now="65" max="65" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="298" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,12 +45,12 @@
 	</attacks>
 	<defenses armor="5" defense="5" />
 	<loot>
-		<item id="bone" chance="50537" />
-		<item id="gold coin" chance="44145" countmax="10" />
-		<item id="white mushroom" chance="24979" />
-		<item id="pelvis bone" chance="10255" />
-		<item id="mace" chance="1969" />
-		<item id="sword" chance="1848" />
-		<item id="brown mushroom" chance="1782" />
+		<item name="bone" chance="50550" />
+		<item name="gold coin" chance="44145" countmax="10" />
+		<item name="white mushroom" chance="25005" />
+		<item name="pelvis bone" chance="10246" />
+		<item name="mace" chance="1967" />
+		<item name="sword" chance="1846" />
+		<item name="brown mushroom" chance="1781" />
 	</loot>
 </monster>

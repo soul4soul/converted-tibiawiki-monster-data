@@ -1,6 +1,7 @@
-﻿<monster name="Feverish Citizen" nameDescription="a feverish citizen" experience="30" speed="146" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Feverish Citizen" nameDescription="a feverish citizen" experience="30" speed="146" manacost="0">
 	<health now="125" max="125" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="425" head="0" body="0" legs="0" feet="0" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-15" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="10" />
 		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
@@ -55,14 +57,14 @@
 		<voice sentence="This is Venore!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="29874" countmax="35" />
-		<item id="worm" chance="24821" countmax="3" />
-		<item id="bone" chance="4991" />
-		<item id="voluminous piece of cloth" chance="2187" />
-		<item id="luminous piece of cloth" chance="1940" />
-		<item id="obvious piece of cloth" chance="1940" />
-		<item id="ominous piece of cloth" chance="1866" />
-		<item id="ludicrous piece of cloth" chance="1853" />
-		<item id="dubious piece of cloth" chance="1668" />
+		<item name="gold coin" chance="29897" countmax="35" />
+		<item name="worm" chance="24821" countmax="3" />
+		<item name="bone" chance="4989" />
+		<item name="voluminous piece of cloth" chance="2193" />
+		<item name="obvious piece of cloth" chance="1946" />
+		<item name="luminous piece of cloth" chance="1934" />
+		<item name="ominous piece of cloth" chance="1860" />
+		<item name="ludicrous piece of cloth" chance="1848" />
+		<item name="dubious piece of cloth" chance="1663" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Ancient Scarab"
 monster.description = "an ancient scarab"
 monster.experience = 720
 monster.outfit = {
-	lookType = 0,
+	lookType = 79,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -100,33 +101,7 @@ monster.loot = {
 	{id = "springsprout rod", chance = 981},
 	{id = "scarab shield", chance = 503},
 	{id = "terra hood", chance = 429},
-	{id = "daramian waraxe", chance = 280},
-	{id = "gold coin", chance = 73185, maxCount = 187},
-	{id = "magic light wand", chance = 8171},
-	{id = "plate armor", chance = 7362},
-	{id = "scarab coin", chance = 6023, maxCount = 2},
-	{id = "small amethyst", chance = 3700, maxCount = 4},
-	{id = "small emerald", chance = 3528, maxCount = 3},
-	{id = "scarab pincers", chance = 2797},
-	{id = "scarab amulet", chance = 2495},
-	{id = "ancient amulet", chance = 1816},
-	{id = "strong health potion", chance = 556},
-	{id = "scarab shield", chance = 369},
-	{id = "terra hood", chance = 358},
-	{id = "daramian waraxe", chance = 280},
-	{id = "gold coin", chance = 20098, maxCount = 183},
-	{id = "magic light wand", chance = 2197},
-	{id = "plate armor", chance = 2066},
-	{id = "scarab coin", chance = 970, maxCount = 2},
-	{id = "scarab pincers", chance = 779},
-	{id = "small amethyst", chance = 216, maxCount = 4},
-	{id = "ancient amulet", chance = 175},
-	{id = "small emerald", chance = 153, maxCount = 3},
-	{id = "scarab amulet", chance = 127},
-	{id = "scarab shield", chance = 119},
-	{id = "strong health potion", chance = 104},
-	{id = "terra hood", chance = 86},
-	{id = "daramian waraxe", chance = 75}
+	{id = "daramian waraxe", chance = 280}
 }
 
 mType:register(monster)

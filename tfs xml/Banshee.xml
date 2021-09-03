@@ -1,6 +1,7 @@
-﻿<monster name="Banshee" nameDescription="a banshee" experience="900" speed="220" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Banshee" nameDescription="a banshee" experience="900" speed="220" manacost="0">
 	<health now="1000" max="1000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="78" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -54,27 +56,27 @@
 		<voice sentence="IIIIEEEeeeeeehhhHHHH!" yell="false" />
 	</voices>
 	<loot>
-		<item id="candlestick" chance="72850" />
-		<item id="gold coin" chance="30943" countmax="80" />
-		<item id="silver amulet" chance="9413" />
-		<item id="simple dress" chance="6314" />
-		<item id="hair of a banshee" chance="4970" />
-		<item id="petrified scream" chance="4283" />
-		<item id="black pearl" chance="2169" />
-		<item id="silver brooch" chance="1540" />
-		<item id="poison dagger" chance="1517" />
-		<item id="white pearl" chance="1129" />
-		<item id="lyre" chance="968" />
-		<item id="stone skin amulet" chance="821" />
-		<item id="strong mana potion" chance="765" />
-		<item id="ring of healing" chance="750" />
-		<item id="blue robe" chance="663" />
-		<item id="wedding ring" chance="559" />
-		<item id="spellbook" chance="510" />
-		<item id="terra mantle" chance="339" />
-		<item id="crystal ring" chance="186" />
-		<item id="red robe" chance="104" />
-		<item id="life crystal" chance="102" />
-		<item id="sweet smelling bait" chance="30" />
+		<item name="candlestick" chance="72824" />
+		<item name="gold coin" chance="30931" countmax="80" />
+		<item name="silver amulet" chance="9406" />
+		<item name="simple dress" chance="6305" />
+		<item name="hair of a banshee" chance="4973" />
+		<item name="petrified scream" chance="4287" />
+		<item name="black pearl" chance="2166" />
+		<item name="silver brooch" chance="1538" />
+		<item name="poison dagger" chance="1515" />
+		<item name="white pearl" chance="1130" />
+		<item name="lyre" chance="971" />
+		<item name="stone skin amulet" chance="826" />
+		<item name="strong mana potion" chance="770" />
+		<item name="ring of healing" chance="749" />
+		<item name="blue robe" chance="663" />
+		<item name="wedding ring" chance="559" />
+		<item name="spellbook" chance="509" />
+		<item name="terra mantle" chance="337" />
+		<item name="crystal ring" chance="190" />
+		<item name="red robe" chance="103" />
+		<item name="life crystal" chance="102" />
+		<item name="sweet smelling bait" chance="29" />
 	</loot>
 </monster>

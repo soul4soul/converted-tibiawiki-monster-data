@@ -1,6 +1,7 @@
-﻿<monster name="Boar" nameDescription="a boar" experience="60" speed="410" manacost="465">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Boar" nameDescription="a boar" experience="60" speed="410" manacost="465">
 	<health now="198" max="198" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="380" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -47,7 +49,7 @@
 		<voice sentence="Grunt" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="25113" countmax="20" />
-		<item id="haunch of boar" chance="20090" countmax="2" />
+		<item name="gold coin" chance="25042" countmax="20" />
+		<item name="haunch of boar" chance="20084" countmax="2" />
 	</loot>
 </monster>

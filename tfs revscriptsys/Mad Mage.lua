@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -106,19 +107,7 @@ monster.loot = {
 	{id = "crystal of focus", chance = 671},
 	{id = "lightning robe", chance = 336},
 	{id = "ring of the sky", chance = 336},
-	{id = "spellbook of warding", chance = 336},
-	{id = "gold coin", chance = 6376, maxCount = 140},
-	{id = "platinum coin", chance = 4027, maxCount = 5},
-	{id = "strong mana potion", chance = 3356, maxCount = 5},
-	{id = "strong health potion", chance = 3020, maxCount = 5},
-	{id = "small amethyst", chance = 1342, maxCount = 2},
-	{id = "luminous orb", chance = 671},
-	{id = "red piece of cloth", chance = 671},
-	{id = "assassin star", chance = 336, maxCount = 5},
-	{id = "bullseye potion", chance = 336},
-	{id = "crystal of focus", chance = 336},
-	{id = "dark mushroom", chance = 336},
-	{id = "lightning robe", chance = 336}
+	{id = "spellbook of warding", chance = 336}
 }
 
 mType:register(monster)

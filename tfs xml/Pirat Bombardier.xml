@@ -1,4 +1,5 @@
-﻿<monster name="Pirat Bombardier" nameDescription="a pirat bombardier" experience="1700" speed="370" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Pirat Bombardier" nameDescription="a pirat bombardier" experience="1700" speed="370" manacost="0">
 	<health now="2300" max="2300" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="-20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,14 +45,14 @@
 	</attacks>
 	<defenses armor="65" defense="65" />
 	<loot>
-		<item id="great mana potion" chance="34993" countmax="2" />
-		<item id="pirate coin" chance="7587" countmax="10" />
-		<item id="terra boots" chance="6183" />
-		<item id="pirat's tail" chance="4779" />
-		<item id="mouldy powder" chance="4111" />
-		<item id="magma boots" chance="3543" />
-		<item id="ring of blue plasma" chance="2172" />
-		<item id="lightning boots" chance="1671" />
-		<item id="wood cape" chance="1471" />
+		<item name="great mana potion" chance="35285" countmax="2" />
+		<item name="pirate coin" chance="7545" countmax="10" />
+		<item name="terra boots" chance="6211" />
+		<item name="pirat's tail" chance="4813" />
+		<item name="mouldy powder" chance="4098" />
+		<item name="magma boots" chance="3577" />
+		<item name="ring of blue plasma" chance="2146" />
+		<item name="lightning boots" chance="1659" />
+		<item name="wood cape" chance="1496" />
 	</loot>
 </monster>

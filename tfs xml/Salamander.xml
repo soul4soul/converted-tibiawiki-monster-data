@@ -1,6 +1,7 @@
-﻿<monster name="Salamander" nameDescription="a salamander" experience="25" speed="120" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Salamander" nameDescription="a salamander" experience="25" speed="120" manacost="0">
 	<health now="70" max="70" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="529" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,14 +50,14 @@
 		<voice sentence="Chrrch!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="71932" countmax="15" />
-		<item id="insectoid eggs" chance="34927" />
-		<item id="arrow" chance="7985" countmax="3" />
-		<item id="rope" chance="5076" />
-		<item id="mace" chance="3978" />
-		<item id="brass helmet" chance="1977" />
-		<item id="health potion" chance="1481" />
-		<item id="bow" chance="739" />
-		<item id="scimitar" chance="486" />
+		<item name="gold coin" chance="71933" countmax="15" />
+		<item name="insectoid eggs" chance="34927" />
+		<item name="arrow" chance="7985" countmax="3" />
+		<item name="rope" chance="5076" />
+		<item name="mace" chance="3978" />
+		<item name="brass helmet" chance="1977" />
+		<item name="health potion" chance="1481" />
+		<item name="bow" chance="739" />
+		<item name="scimitar" chance="487" />
 	</loot>
 </monster>

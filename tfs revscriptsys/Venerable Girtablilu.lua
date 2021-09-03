@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -85,30 +86,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 100000, maxCount = 19},
-	{id = "gold ingot", chance = 13675},
-	{id = "cyan crystal fragment", chance = 7692},
-	{id = "violet gem", chance = 7692},
-	{id = "blue gem", chance = 5983},
-	{id = "northwind rod", chance = 5983},
-	{id = "green crystal fragment", chance = 3419},
-	{id = "old girtablilu carapace", chance = 3419},
-	{id = "scorpion charm", chance = 3419},
-	{id = "small diamond", chance = 3419},
-	{id = "wand of defiance", chance = 3419},
-	{id = "yellow gem", chance = 3419},
-	{id = "red crystal fragment", chance = 2564},
-	{id = "red gem", chance = 2564},
-	{id = "ring of blue plasma", chance = 2564},
-	{id = "violet crystal shard", chance = 2564},
-	{id = "wand of cosmic energy", chance = 2564},
-	{id = "wand of voodoo", chance = 2564},
-	{id = "green crystal shard", chance = 1709},
-	{id = "necrotic rod", chance = 1709},
-	{id = "underworld rod", chance = 1709},
-	{id = "wand of decay", chance = 1709},
-	{id = "wood cape", chance = 1709},
-	{id = "springsprout rod", chance = 855}
+	{id = "platinum coin", chance = 100000, maxCount = 11},
+	{id = "wand of cosmic energy", chance = 100000}
 }
 
 mType:register(monster)

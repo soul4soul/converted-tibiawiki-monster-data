@@ -5,7 +5,7 @@ monster.name = "Acid Blob"
 monster.description = "an acid blob"
 monster.experience = 250
 monster.outfit = {
-	lookType = 0,
+	lookType = 314,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,7 +93,7 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = "glob of acid slime", chance = 18757}
+	{id = "glob of acid slime", chance = 18947}
 }
 
 mType:register(monster)

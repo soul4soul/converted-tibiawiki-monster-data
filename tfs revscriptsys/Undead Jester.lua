@@ -5,12 +5,12 @@ monster.name = "Undead Jester"
 monster.description = "an undead jester"
 monster.experience = 5
 monster.outfit = {
-	lookType = 0,
+	lookType = 273,
 	lookHead = 0,
 	lookBody = 0,
-	lookLegs = 0,
+	lookLegs = 114,
 	lookFeet = 0,
-	lookAddons = 0,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,

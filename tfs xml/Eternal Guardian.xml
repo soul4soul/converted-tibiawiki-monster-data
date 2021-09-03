@@ -1,6 +1,7 @@
-﻿<monster name="Eternal Guardian" nameDescription="an eternal guardian" experience="1800" speed="204" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Eternal Guardian" nameDescription="an eternal guardian" experience="1800" speed="204" manacost="0">
 	<health now="2500" max="2500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="345" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="70" />
 		<element lifedrainPercent="0" />
@@ -47,32 +49,19 @@
 		<voice sentence="&lt;crackle&gt;" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99953" countmax="100" />
-		<item id="platinum coin" chance="99695" countmax="4" />
-		<item id="small stone" chance="30299" countmax="10" />
-		<item id="ancient stone" chance="20067" />
-		<item id="spiked iron ball" chance="10016" />
-		<item id="zaoan halberd" chance="1993" />
-		<item id="iron ore" chance="1664" />
-		<item id="shiny stone" chance="820" />
-		<item id="tower shield" chance="797" />
-		<item id="clay lump" chance="744" />
-		<item id="guardian halberd" chance="568" />
-		<item id="piece of marble rock" chance="486" />
-		<item id="coal" chance="457" />
-		<item id="zaoan sword" chance="100" />
-		<item id="gold coin" chance="11721" countmax="59" />
-		<item id="small stone" chance="4114" countmax="10" />
-		<item id="ancient stone" chance="610" />
-		<item id="shiny stone" chance="123" />
-		<item id="clay lump" chance="105" />
-		<item id="coal" chance="70" />
-		<item id="piece of marble rock" chance="53" />
-		<item id="gold coin" chance="4765" countmax="55" />
-		<item id="small stone" chance="1711" countmax="10" />
-		<item id="ancient stone" chance="258" />
-		<item id="piece of marble rock" chance="64" />
-		<item id="shiny stone" chance="35" />
-		<item id="clay lump" chance="29" />
+		<item name="gold coin" chance="99953" countmax="100" />
+		<item name="platinum coin" chance="99696" countmax="4" />
+		<item name="small stone" chance="30284" countmax="10" />
+		<item name="ancient stone" chance="20067" />
+		<item name="spiked iron ball" chance="10013" />
+		<item name="zaoan halberd" chance="2000" />
+		<item name="iron ore" chance="1661" />
+		<item name="shiny stone" chance="819" />
+		<item name="tower shield" chance="795" />
+		<item name="clay lump" chance="743" />
+		<item name="guardian halberd" chance="567" />
+		<item name="piece of marble rock" chance="485" />
+		<item name="coal" chance="456" />
+		<item name="zaoan sword" chance="99" />
 	</loot>
 </monster>

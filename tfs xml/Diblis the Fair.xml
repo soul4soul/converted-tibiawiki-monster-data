@@ -1,4 +1,5 @@
-﻿<monster name="Diblis The Fair" nameDescription="" experience="1800" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Diblis The Fair" nameDescription="" experience="1800" speed="0" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="40" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
@@ -54,14 +56,14 @@
 		<voice name="banshee" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="98" />
-		<item id="vampire lord token" chance="100000" />
-		<item id="blood preservation" chance="91379" />
-		<item id="vampire shield" chance="20690" />
-		<item id="strong health potion" chance="17241" />
-		<item id="ring of healing" chance="13793" />
-		<item id="platinum coin" chance="12069" countmax="5" />
-		<item id="skull" chance="12069" />
-		<item id="spellbook of lost souls" chance="1724" />
+		<item name="gold coin" chance="100000" countmax="98" />
+		<item name="vampire lord token" chance="100000" />
+		<item name="blood preservation" chance="89831" />
+		<item name="vampire shield" chance="22034" />
+		<item name="strong health potion" chance="16949" />
+		<item name="ring of healing" chance="13559" />
+		<item name="platinum coin" chance="11864" countmax="5" />
+		<item name="skull" chance="11864" />
+		<item name="spellbook of lost souls" chance="1695" />
 	</loot>
 </monster>

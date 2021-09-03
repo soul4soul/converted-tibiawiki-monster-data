@@ -5,7 +5,7 @@ monster.name = "Lizard Zaogun"
 monster.description = "a lizard zaogun"
 monster.experience = 1700
 monster.outfit = {
-	lookType = 0,
+	lookType = 343,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,34 +92,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 94216, maxCount = 268},
+	{id = "gold coin", chance = 94212, maxCount = 268},
 	{id = "platinum coin", chance = 49576, maxCount = 2},
-	{id = "zaogun shoulderplates", chance = 15019},
+	{id = "zaogun shoulderplates", chance = 15014},
 	{id = "lizard leather", chance = 14677},
-	{id = "lizard scale", chance = 12099},
-	{id = "zaogun flag", chance = 8342},
-	{id = "great health potion", chance = 7177, maxCount = 3},
-	{id = "small emerald", chance = 4981, maxCount = 5},
+	{id = "lizard scale", chance = 12096},
+	{id = "zaogun flag", chance = 8340},
+	{id = "great health potion", chance = 7175, maxCount = 3},
+	{id = "small emerald", chance = 4980, maxCount = 5},
 	{id = "red lantern", chance = 2141},
-	{id = "strong health potion", chance = 1918},
+	{id = "strong health potion", chance = 1923},
 	{id = "zaoan shoes", chance = 1115},
 	{id = "tower shield", chance = 1031},
 	{id = "zaoan legs", chance = 927},
-	{id = "zaoan armor", chance = 525},
-	{id = "gold coin", chance = 31341, maxCount = 294},
-	{id = "zaogun shoulderplates", chance = 3990},
-	{id = "great health potion", chance = 2290, maxCount = 3},
-	{id = "lizard scale", chance = 2250},
-	{id = "zaogun flag", chance = 1725},
-	{id = "platinum coin", chance = 1576, maxCount = 2},
-	{id = "small emerald", chance = 892, maxCount = 5},
-	{id = "strong health potion", chance = 788},
-	{id = "red lantern", chance = 734},
-	{id = "tower shield", chance = 347},
-	{id = "zaoan shoes", chance = 307},
-	{id = "zaoan legs", chance = 292},
-	{id = "lizard leather", chance = 268},
-	{id = "zaoan armor", chance = 109}
+	{id = "zaoan armor", chance = 525}
 }
 
 mType:register(monster)

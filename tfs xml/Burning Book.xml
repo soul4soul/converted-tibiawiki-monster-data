@@ -1,6 +1,7 @@
-﻿<monster name="Burning Book" nameDescription="a burning book" experience="11934" speed="440" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Burning Book" nameDescription="a burning book" experience="11934" speed="440" manacost="0">
 	<health now="18000" max="18000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1061" head="79" body="113" legs="78" feet="112" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -48,20 +50,20 @@
 	</attacks>
 	<defenses armor="82" defense="82" />
 	<loot>
-		<item id="platinum coin" chance="61055" countmax="35" />
-		<item id="book page" chance="49060" countmax="4" />
-		<item id="flask of demonic blood" chance="42220" />
-		<item id="silken bookmark" chance="19163" />
-		<item id="demonic essence" chance="18822" />
-		<item id="magma coat" chance="11495" />
-		<item id="guardian shield" chance="8378" />
-		<item id="small amethyst" chance="5629" countmax="7" />
-		<item id="soul orb" chance="5182" />
-		<item id="scimitar" chance="4564" />
-		<item id="necrotic rod" chance="3788" />
-		<item id="death ring" chance="2473" />
-		<item id="magma monocle" chance="1447" />
-		<item id="stealth ring" chance="697" />
-		<item id="shadow sceptre" chance="329" />
+		<item name="platinum coin" chance="61055" countmax="35" />
+		<item name="book page" chance="49060" countmax="4" />
+		<item name="flask of demonic blood" chance="42220" />
+		<item name="silken bookmark" chance="19163" />
+		<item name="demonic essence" chance="18822" />
+		<item name="magma coat" chance="11495" />
+		<item name="guardian shield" chance="8378" />
+		<item name="small amethyst" chance="5629" countmax="7" />
+		<item name="soul orb" chance="5182" />
+		<item name="scimitar" chance="4564" />
+		<item name="necrotic rod" chance="3788" />
+		<item name="death ring" chance="2473" />
+		<item name="magma monocle" chance="1447" />
+		<item name="stealth ring" chance="697" />
+		<item name="shadow sceptre" chance="329" />
 	</loot>
 </monster>

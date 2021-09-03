@@ -5,7 +5,7 @@ monster.name = "Deepling Brawler"
 monster.description = "a deepling brawler"
 monster.experience = 260
 monster.outfit = {
-	lookType = 0,
+	lookType = 470,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,13 +87,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 97388, maxCount = 44},
-	{id = "fish", chance = 17537, maxCount = 3},
-	{id = "deepling scales", chance = 14179},
-	{id = "eye of a deepling", chance = 6716},
-	{id = "heavy trident", chance = 2239},
-	{id = "fish fin", chance = 746},
-	{id = "small emerald", chance = 373}
+	{id = "gold coin", chance = 97436, maxCount = 44},
+	{id = "fish", chance = 17582, maxCount = 3},
+	{id = "deepling scales", chance = 13919},
+	{id = "eye of a deepling", chance = 6593},
+	{id = "heavy trident", chance = 2198},
+	{id = "fish fin", chance = 733},
+	{id = "small emerald", chance = 366}
 }
 
 mType:register(monster)

@@ -1,4 +1,5 @@
-﻿<monster name="Plagirath" nameDescription="" experience="50000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Plagirath" nameDescription="" experience="50000" speed="0" manacost="0">
 	<health now="290000" max="290000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="100" />
 		<element firePercent="-25" />
 		<element lifedrainPercent="0" />
@@ -45,33 +47,16 @@
 		<defense name="healing" interval="2000" chance="20" min="150" max="600" />
 	</defenses>
 	<loot>
-		<item id="demonic essence" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="great spirit potion" chance="100000" countmax="5" />
-		<item id="green gem" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="25" />
-		<item id="small diamond" chance="100000" countmax="5" />
-		<item id="cyan crystal fragment" chance="50000" countmax="6" />
-		<item id="great mana potion" chance="50000" countmax="5" />
-		<item id="red crystal fragment" chance="50000" countmax="6" />
-		<item id="terra mantle" chance="50000" />
-		<item id="ultimate health potion" chance="50000" countmax="5" />
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="great spirit potion" chance="100000" countmax="5" />
-		<item id="green crystal fragment" chance="100000" countmax="6" />
-		<item id="platinum coin" chance="100000" countmax="30" />
-		<item id="silver token" chance="100000" />
-		<item id="ultimate health potion" chance="100000" countmax="5" />
-		<item id="cyan crystal fragment" chance="100000" countmax="6" />
-		<item id="demonic essence" chance="100000" />
-		<item id="red crystal fragment" chance="100000" countmax="6" />
-		<item id="small emerald" chance="100000" countmax="5" />
-		<item id="giant shimmering pearl" chance="50000" />
-		<item id="green gem" chance="50000" />
-		<item id="muck rod" chance="50000" />
-		<item id="red gem" chance="50000" />
-		<item id="ring of healing" chance="50000" />
-		<item id="small amethyst" chance="50000" countmax="5" />
-		<item id="terra legs" chance="50000" />
+		<item name="demonic essence" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="great spirit potion" chance="100000" countmax="5" />
+		<item name="green gem" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="25" />
+		<item name="small diamond" chance="100000" countmax="5" />
+		<item name="cyan crystal fragment" chance="50000" countmax="6" />
+		<item name="great mana potion" chance="50000" countmax="5" />
+		<item name="red crystal fragment" chance="50000" countmax="6" />
+		<item name="terra mantle" chance="50000" />
+		<item name="ultimate health potion" chance="50000" countmax="5" />
 	</loot>
 </monster>

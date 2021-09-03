@@ -1,4 +1,5 @@
-﻿<monster name="Rahemos" nameDescription="" experience="3100" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Rahemos" nameDescription="" experience="3100" speed="0" manacost="0">
 	<health now="3700" max="3700" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-40" />
-		<element EnergyPercent="95" />
+		<element energyPercent="95" />
 		<element earthPercent="100" />
 		<element firePercent="95" />
 		<element lifedrainPercent="0" />
@@ -53,16 +55,16 @@
 		<voice sentence="Nothing hidden in my wrappings." yell="false" />
 	</voices>
 	<loot>
-		<item id="ancient rune" chance="100000" />
-		<item id="gold coin" chance="89798" countmax="242" />
-		<item id="great mana potion" chance="9081" />
-		<item id="small amethyst" chance="8072" countmax="3" />
-		<item id="ring of healing" chance="4036" />
-		<item id="magician hat" chance="1682" />
-		<item id="violet gem" chance="1177" />
-		<item id="orb" chance="280" />
-		<item id="twin axe" chance="168" />
-		<item id="crystal wand" chance="112" />
-		<item id="mini mummy" chance="112" />
+		<item name="ancient rune" chance="100000" />
+		<item name="gold coin" chance="89798" countmax="242" />
+		<item name="great mana potion" chance="9081" />
+		<item name="small amethyst" chance="8072" countmax="3" />
+		<item name="ring of healing" chance="4036" />
+		<item name="magician hat" chance="1682" />
+		<item name="violet gem" chance="1177" />
+		<item name="orb" chance="280" />
+		<item name="twin axe" chance="168" />
+		<item name="crystal wand" chance="112" />
+		<item name="mini mummy" chance="112" />
 	</loot>
 </monster>

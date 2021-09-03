@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -85,34 +86,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 89615, maxCount = 16},
-	{id = "ultimate health potion", chance = 19615, maxCount = 4},
-	{id = "gold ingot", chance = 17308},
-	{id = "green crystal shard", chance = 5769},
-	{id = "girtablilu warrior carapace", chance = 5000},
-	{id = "ice rapier", chance = 5000},
-	{id = "green gem", chance = 4615},
-	{id = "red crystal fragment", chance = 4615},
-	{id = "cyan crystal fragment", chance = 4231},
-	{id = "red gem", chance = 3846},
-	{id = "scorpion charm", chance = 3846},
-	{id = "yellow gem", chance = 3846},
-	{id = "blue crystal shard", chance = 3077},
-	{id = "crowbar", chance = 3077},
-	{id = "magma coat", chance = 2692},
-	{id = "blue gem", chance = 2308},
-	{id = "glacier robe", chance = 2308},
-	{id = "beastslayer axe", chance = 1923},
-	{id = "diamond sceptre", chance = 1923},
-	{id = "dragonbone staff", chance = 1923},
-	{id = "epee", chance = 1538},
-	{id = "violet crystal shard", chance = 1538},
-	{id = "violet gem", chance = 1538},
-	{id = "focus cape", chance = 1154},
-	{id = "green crystal fragment", chance = 1154},
-	{id = "knight axe", chance = 1154},
-	{id = "blue robe", chance = 769},
-	{id = "fur armor", chance = 769}
+	{id = "platinum coin", chance = 100000, maxCount = 14},
+	{id = "ultimate health potion", chance = 40000, maxCount = 4},
+	{id = "blue gem", chance = 20000},
+	{id = "focus cape", chance = 20000},
+	{id = "gold ingot", chance = 20000},
+	{id = "red crystal fragment", chance = 20000}
 }
 
 mType:register(monster)

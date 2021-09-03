@@ -5,7 +5,7 @@ monster.name = "Seacrest Serpent"
 monster.description = "a seacrest serpent"
 monster.experience = 2600
 monster.outfit = {
-	lookType = 0,
+	lookType = 675,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,25 +91,25 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "seacrest scale", chance = 16742},
-	{id = "dragon ham", chance = 14551},
-	{id = "seacrest hair", chance = 11281},
-	{id = "shiver arrow", chance = 8401, maxCount = 19},
-	{id = "strong mana potion", chance = 8101, maxCount = 2},
-	{id = "seacrest pearl", chance = 6901},
-	{id = "strong health potion", chance = 6841, maxCount = 2},
-	{id = "small diamond", chance = 4560, maxCount = 3},
-	{id = "soul orb", chance = 3420},
-	{id = "glacier kilt", chance = 2430},
-	{id = "white pearl", chance = 2370, maxCount = 2},
-	{id = "glacier mask", chance = 2100},
-	{id = "black pearl", chance = 1830, maxCount = 3},
-	{id = "glacier shoes", chance = 1680},
-	{id = "giant shimmering pearl (green)", chance = 1560},
-	{id = "wand of draconia", chance = 990},
-	{id = "crest of the deep seas", chance = 930},
-	{id = "glacier amulet", chance = 840},
-	{id = "wand of defiance", chance = 270}
+	{id = "seacrest scale", chance = 17002},
+	{id = "dragon ham", chance = 14470},
+	{id = "seacrest hair", chance = 11566},
+	{id = "shiver arrow", chance = 8513, maxCount = 19},
+	{id = "strong mana potion", chance = 7918, maxCount = 2},
+	{id = "strong health potion", chance = 7247, maxCount = 2},
+	{id = "seacrest pearl", chance = 6776},
+	{id = "small diamond", chance = 4443, maxCount = 3},
+	{id = "soul orb", chance = 3649},
+	{id = "glacier kilt", chance = 2432},
+	{id = "white pearl", chance = 2333, maxCount = 2},
+	{id = "black pearl", chance = 2035, maxCount = 3},
+	{id = "glacier mask", chance = 1961},
+	{id = "glacier shoes", chance = 1688},
+	{id = "giant shimmering pearl (green)", chance = 1440},
+	{id = "crest of the deep seas", chance = 968},
+	{id = "wand of draconia", chance = 943},
+	{id = "glacier amulet", chance = 869},
+	{id = "wand of defiance", chance = 223}
 }
 
 mType:register(monster)

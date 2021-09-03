@@ -1,6 +1,7 @@
-﻿<monster name="Sacred Spider" nameDescription="a sacred spider" experience="330" speed="244" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Sacred Spider" nameDescription="a sacred spider" experience="330" speed="244" manacost="0">
 	<health now="550" max="550" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="219" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -43,10 +45,10 @@
 	</attacks>
 	<defenses armor="27" defense="27" />
 	<loot>
-		<item id="gold coin" chance="89646" countmax="119" />
-		<item id="spider fangs" chance="25274" />
-		<item id="scarab coin" chance="6775" countmax="4" />
-		<item id="plate armor" chance="4882" />
-		<item id="gold ingot" chance="55" />
+		<item name="gold coin" chance="89667" countmax="119" />
+		<item name="spider fangs" chance="25250" />
+		<item name="scarab coin" chance="6788" countmax="4" />
+		<item name="plate armor" chance="4872" />
+		<item name="gold ingot" chance="55" />
 	</loot>
 </monster>

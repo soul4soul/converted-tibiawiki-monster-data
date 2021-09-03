@@ -1,6 +1,7 @@
-﻿<monster name="Sea Serpent" nameDescription="a sea serpent" experience="2300" speed="480" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Sea Serpent" nameDescription="a sea serpent" experience="2300" speed="480" manacost="0">
 	<health now="1950" max="1950" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="275" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -51,42 +53,24 @@
 		<voice sentence="HISSSS" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="98287" countmax="236" />
-		<item id="dragon ham" chance="60479" />
-		<item id="platinum coin" chance="26689" countmax="3" />
-		<item id="sea serpent scale" chance="10127" />
-		<item id="plate legs" chance="7095" />
-		<item id="small sapphire" chance="5887" countmax="3" />
-		<item id="strong health potion" chance="5020" />
-		<item id="serpent sword" chance="4071" />
-		<item id="strong mana potion" chance="3950" />
-		<item id="spirit cloak" chance="2896" />
-		<item id="ring of healing" chance="1138" />
-		<item id="northwind rod" chance="1017" />
-		<item id="great mana potion" chance="936" />
-		<item id="glacier amulet" chance="880" />
-		<item id="glacier kilt" chance="446" />
-		<item id="focus cape" chance="416" />
-		<item id="stealth ring" chance="414" />
-		<item id="leviathan's amulet" chance="114" />
-		<item id="crystalline armor" chance="88" />
-		<item id="gold coin" chance="42649" countmax="243" />
-		<item id="dragon ham" chance="26354" />
-		<item id="sea serpent scale" chance="4296" />
-		<item id="plate legs" chance="3196" />
-		<item id="strong health potion" chance="2179" />
-		<item id="serpent sword" chance="1781" />
-		<item id="strong mana potion" chance="1776" />
-		<item id="small sapphire" chance="1730" countmax="3" />
-		<item id="spirit cloak" chance="1299" />
-		<item id="ring of healing" chance="568" />
-		<item id="northwind rod" chance="462" />
-		<item id="great mana potion" chance="446" />
-		<item id="glacier amulet" chance="421" />
-		<item id="glacier kilt" chance="199" />
-		<item id="stealth ring" chance="194" />
-		<item id="focus cape" chance="159" />
-		<item id="leviathan's amulet" chance="61" />
-		<item id="crystalline armor" chance="40" />
+		<item name="gold coin" chance="98297" countmax="236" />
+		<item name="dragon ham" chance="60497" />
+		<item name="platinum coin" chance="26745" countmax="3" />
+		<item name="sea serpent scale" chance="10135" />
+		<item name="plate legs" chance="7095" />
+		<item name="small sapphire" chance="5891" countmax="3" />
+		<item name="strong health potion" chance="5023" />
+		<item name="serpent sword" chance="4070" />
+		<item name="strong mana potion" chance="3960" />
+		<item name="spirit cloak" chance="2892" />
+		<item name="ring of healing" chance="1141" />
+		<item name="northwind rod" chance="1016" />
+		<item name="great mana potion" chance="935" />
+		<item name="glacier amulet" chance="883" />
+		<item name="glacier kilt" chance="444" />
+		<item name="focus cape" chance="414" />
+		<item name="stealth ring" chance="411" />
+		<item name="leviathan's amulet" chance="113" />
+		<item name="crystalline armor" chance="90" />
 	</loot>
 </monster>

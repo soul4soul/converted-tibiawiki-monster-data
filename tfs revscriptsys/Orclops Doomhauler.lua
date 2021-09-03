@@ -5,7 +5,7 @@ monster.name = "Orclops Doomhauler"
 monster.description = "an orclops doomhauler"
 monster.experience = 1200
 monster.outfit = {
-	lookType = 0,
+	lookType = 934,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -91,23 +92,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 184},
-	{id = "bug meat", chance = 20362},
-	{id = "bone toothpick", chance = 19697},
-	{id = "strong health potion", chance = 16756},
-	{id = "beetle carapace", chance = 14866},
-	{id = "red mushroom", chance = 8121, maxCount = 3},
-	{id = "orcish axe", chance = 7876},
-	{id = "mysterious fetish", chance = 5939},
-	{id = "small ruby", chance = 3221, maxCount = 3},
-	{id = "black pearl", chance = 3104, maxCount = 2},
-	{id = "small topaz", chance = 2987, maxCount = 2},
-	{id = "onion", chance = 2975, maxCount = 2},
-	{id = "brown crystal splinter", chance = 2427, maxCount = 2},
-	{id = "spiked squelcher", chance = 1412},
-	{id = "pair of iron fists", chance = 1365},
-	{id = "berserk potion", chance = 1027},
-	{id = "beetle necklace", chance = 992},
-	{id = "war drum", chance = 910}
+	{id = "bug meat", chance = 20273},
+	{id = "bone toothpick", chance = 19825},
+	{id = "strong health potion", chance = 16613},
+	{id = "beetle carapace", chance = 14978},
+	{id = "red mushroom", chance = 8172, maxCount = 3},
+	{id = "orcish axe", chance = 7892},
+	{id = "mysterious fetish", chance = 5922},
+	{id = "small ruby", chance = 3213, maxCount = 3},
+	{id = "black pearl", chance = 3078, maxCount = 2},
+	{id = "small topaz", chance = 2989, maxCount = 2},
+	{id = "onion", chance = 2933, maxCount = 2},
+	{id = "brown crystal splinter", chance = 2440, maxCount = 2},
+	{id = "spiked squelcher", chance = 1411},
+	{id = "pair of iron fists", chance = 1366},
+	{id = "berserk potion", chance = 1030},
+	{id = "beetle necklace", chance = 996},
+	{id = "war drum", chance = 940}
 }
 
 mType:register(monster)

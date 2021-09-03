@@ -1,6 +1,7 @@
-﻿<monster name="Undead Jester" nameDescription="an undead jester" experience="5" speed="224" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Undead Jester" nameDescription="an undead jester" experience="5" speed="224" manacost="0">
 	<health now="355" max="355" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="273" head="0" body="0" legs="114" feet="0" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="20" />
 		<element lifedrainPercent="100" />
@@ -63,19 +65,19 @@
 		<voice sentence="Did I do that?" yell="false" />
 	</voices>
 	<loot>
-		<item id="fish" chance="59343" />
-		<item id="suspicious surprise bag" chance="40303" />
-		<item id="part of a jester doll" chance="3838" />
-		<item id="white piece of cloth" chance="1364" />
-		<item id="brown piece of cloth" chance="1162" />
-		<item id="rainbow trout" chance="1061" />
-		<item id="green piece of cloth" chance="1010" />
-		<item id="the torso of a jester doll" chance="1010" />
-		<item id="blue piece of cloth" chance="859" />
-		<item id="green perch" chance="859" />
-		<item id="yellow piece of cloth" chance="758" />
-		<item id="red piece of cloth" chance="455" />
-		<item id="the head of a jester doll" chance="354" />
-		<item id="marlin" chance="202" />
+		<item name="fish" chance="59343" />
+		<item name="suspicious surprise bag" chance="40303" />
+		<item name="part of a jester doll" chance="3838" />
+		<item name="white piece of cloth" chance="1364" />
+		<item name="brown piece of cloth" chance="1162" />
+		<item name="rainbow trout" chance="1061" />
+		<item name="green piece of cloth" chance="1010" />
+		<item name="the torso of a jester doll" chance="1010" />
+		<item name="blue piece of cloth" chance="859" />
+		<item name="green perch" chance="859" />
+		<item name="yellow piece of cloth" chance="758" />
+		<item name="red piece of cloth" chance="455" />
+		<item name="the head of a jester doll" chance="354" />
+		<item name="marlin" chance="202" />
 	</loot>
 </monster>

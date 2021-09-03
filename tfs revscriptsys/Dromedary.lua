@@ -5,7 +5,7 @@ monster.name = "Dromedary"
 monster.description = "a dromedary"
 monster.experience = 0
 monster.outfit = {
-	lookType = 0,
+	lookType = 404,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,7 +89,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 34500}
+	{id = "meat", chance = 34730}
 }
 
 mType:register(monster)

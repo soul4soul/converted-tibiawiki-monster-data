@@ -1,6 +1,7 @@
-﻿<monster name="Quara Constrictor Scout" nameDescription="a quara constrictor scout" experience="200" speed="150" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Quara Constrictor Scout" nameDescription="a quara constrictor scout" experience="200" speed="150" manacost="0">
 	<health now="450" max="450" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="46" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -49,24 +51,12 @@
 		<voice sentence="Boohaa!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99952" countmax="50" />
-		<item id="quara tentacle" chance="15132" />
-		<item id="shrimp" chance="10034" />
-		<item id="longsword" chance="8053" />
-		<item id="brass armor" chance="5070" />
-		<item id="small amethyst" chance="4000" />
-		<item id="fish fin" chance="508" />
-		<item id="gold coin" chance="568" countmax="40" />
-		<item id="quara tentacle" chance="137" />
-		<item id="longsword" chance="79" />
-		<item id="brass armor" chance="21" />
-		<item id="small amethyst" chance="8" />
-		<item id="fish fin" chance="6" />
-		<item id="gold coin" chance="3682" countmax="40" />
-		<item id="quara tentacle" chance="493" />
-		<item id="longsword" chance="400" />
-		<item id="brass armor" chance="137" />
-		<item id="fish fin" chance="41" />
-		<item id="small amethyst" chance="19" />
+		<item name="gold coin" chance="99952" countmax="50" />
+		<item name="quara tentacle" chance="15132" />
+		<item name="shrimp" chance="10034" />
+		<item name="longsword" chance="8053" />
+		<item name="brass armor" chance="5070" />
+		<item name="small amethyst" chance="4000" />
+		<item name="fish fin" chance="508" />
 	</loot>
 </monster>

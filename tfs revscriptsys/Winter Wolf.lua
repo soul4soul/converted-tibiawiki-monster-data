@@ -5,7 +5,7 @@ monster.name = "Winter Wolf"
 monster.description = "a winter wolf"
 monster.experience = 20
 monster.outfit = {
-	lookType = 0,
+	lookType = 52,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,8 +88,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 30112},
-	{id = "winter wolf fur", chance = 10110}
+	{id = "meat", chance = 30099},
+	{id = "winter wolf fur", chance = 10124}
 }
 
 mType:register(monster)

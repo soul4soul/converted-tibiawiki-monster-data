@@ -5,7 +5,7 @@ monster.name = "Tarnished Spirit"
 monster.description = "a tarnished spirit"
 monster.experience = 120
 monster.outfit = {
-	lookType = 0,
+	lookType = 566,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,15 +88,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "shadow herb", chance = 14448},
-	{id = "morning star", chance = 10802},
-	{id = "cape", chance = 10483},
-	{id = "combat knife", chance = 7110},
-	{id = "white piece of cloth", chance = 2507},
-	{id = "ghostly tissue", chance = 1960},
-	{id = "book (orange)", chance = 1778},
-	{id = "ancient shield", chance = 501},
-	{id = "stealth ring", chance = 182}
+	{id = "shadow herb", chance = 14427},
+	{id = "morning star", chance = 10742},
+	{id = "cape", chance = 10472},
+	{id = "combat knife", chance = 7101},
+	{id = "white piece of cloth", chance = 2472},
+	{id = "ghostly tissue", chance = 1933},
+	{id = "book (orange)", chance = 1753},
+	{id = "ancient shield", chance = 494},
+	{id = "stealth ring", chance = 180}
 }
 
 mType:register(monster)

@@ -5,7 +5,7 @@ monster.name = "Hot Dog"
 monster.description = "a hot dog"
 monster.experience = 190
 monster.outfit = {
-	lookType = 0,
+	lookType = 32,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,7 +90,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 74009, maxCount = 75}
+	{id = "gold coin", chance = 73890, maxCount = 75}
 }
 
 mType:register(monster)

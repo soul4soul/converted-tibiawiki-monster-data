@@ -1,6 +1,7 @@
-﻿<monster name="Crazed Summer Vanguard" nameDescription="a crazed summer vanguard" experience="5000" speed="390" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Crazed Summer Vanguard" nameDescription="a crazed summer vanguard" experience="5000" speed="390" manacost="0">
 	<health now="5500" max="5500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1137" head="114" body="93" legs="3" feet="83" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="50" />
 		<element lifedrainPercent="0" />
@@ -47,62 +49,20 @@
 		<voice sentence="La di da di doo!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="84869" countmax="13" />
-		<item id="elven astral observer" chance="29450" />
-		<item id="belted cape" chance="8980" />
-		<item id="dream essence egg" chance="8966" />
-		<item id="seeds" chance="8342" />
-		<item id="two handed sword" chance="7544" />
-		<item id="dragon necklace" chance="7413" />
-		<item id="scimitar" chance="6731" />
-		<item id="knife" chance="6572" />
-		<item id="magma amulet" chance="5484" />
-		<item id="wand of dragonbreath" chance="4729" />
-		<item id="wand of draconia" chance="4715" />
-		<item id="magma boots" chance="3003" />
-		<item id="sun fruit" chance="943" />
-		<item id="bullseye potion" chance="290" />
-		<item id="platinum coin" chance="160" countmax="13" />
-		<item id="elven astral observer" chance="87" />
-		<item id="belted cape" chance="44" />
-		<item id="dream essence egg" chance="29" />
-		<item id="knife" chance="15" />
-		<item id="magma amulet" chance="15" />
-		<item id="wand of draconia" chance="15" />
-		<item id="wand of dragonbreath" chance="15" />
-		<item id="platinum coin" chance="87973" countmax="13" />
-		<item id="elven astral observer" chance="30538" />
-		<item id="belted cape" chance="9589" />
-		<item id="dream essence egg" chance="9328" />
-		<item id="seeds" chance="8269" />
-		<item id="two handed sword" chance="7921" />
-		<item id="scimitar" chance="7500" />
-		<item id="dragon necklace" chance="6644" />
-		<item id="knife" chance="6296" />
-		<item id="magma amulet" chance="5252" />
-		<item id="wand of dragonbreath" chance="4976" />
-		<item id="wand of draconia" chance="4657" />
-		<item id="magma boots" chance="3366" />
-		<item id="sun fruit" chance="769" />
-		<item id="bullseye potion" chance="261" />
-		<item id="platinum coin" chance="2481" countmax="13" />
-		<item id="elven astral observer" chance="972" />
-		<item id="dark armor" chance="725" />
-		<item id="belted cape" chance="493" />
-		<item id="dagger" chance="348" />
-		<item id="sabre" chance="348" />
-		<item id="seeds" chance="276" />
-		<item id="knife" chance="247" />
-		<item id="magma boots" chance="247" />
-		<item id="sword" chance="232" />
-		<item id="wand of dragonbreath" chance="232" />
-		<item id="two handed sword" chance="218" />
-		<item id="dragon necklace" chance="203" />
-		<item id="magma amulet" chance="174" />
-		<item id="dream essence egg" chance="145" />
-		<item id="scimitar" chance="145" />
-		<item id="wand of draconia" chance="145" />
-		<item id="bullseye potion" chance="15" />
-		<item id="sun fruit" chance="15" />
+		<item name="platinum coin" chance="85029" countmax="13" />
+		<item name="elven astral observer" chance="29412" />
+		<item name="belted cape" chance="9005" />
+		<item name="dream essence egg" chance="8921" />
+		<item name="seeds" chance="8419" />
+		<item name="two handed sword" chance="7499" />
+		<item name="dragon necklace" chance="7346" />
+		<item name="scimitar" chance="6747" />
+		<item name="knife" chance="6565" />
+		<item name="magma amulet" chance="5464" />
+		<item name="wand of draconia" chance="4684" />
+		<item name="wand of dragonbreath" chance="4670" />
+		<item name="magma boots" chance="2955" />
+		<item name="sun fruit" chance="920" />
+		<item name="bullseye potion" chance="321" />
 	</loot>
 </monster>

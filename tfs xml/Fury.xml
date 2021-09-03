@@ -1,6 +1,7 @@
-﻿<monster name="Fury" nameDescription="a fury" experience="3600" speed="400" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Fury" nameDescription="a fury" experience="3600" speed="400" manacost="0">
 	<health now="4100" max="4100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="149" head="94" body="77" legs="78" feet="79" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -53,44 +55,25 @@
 		<voice sentence="Dieee!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="98862" countmax="264" />
-		<item id="flask of demonic blood" chance="33932" />
-		<item id="jalapeno pepper" chance="31305" countmax="4" />
-		<item id="demonic essence" chance="23336" />
-		<item id="terra rod" chance="21016" />
-		<item id="soul orb" chance="20184" />
-		<item id="great health potion" chance="11165" />
-		<item id="small amethyst" chance="8625" countmax="3" />
-		<item id="slightly rusted legs" chance="7837" />
-		<item id="red piece of cloth" chance="4116" />
-		<item id="platinum coin" chance="2539" countmax="4" />
-		<item id="orichalcum pearl" chance="1620" countmax="4" />
-		<item id="rusty legs" chance="1576" />
-		<item id="noble axe" chance="1445" />
-		<item id="assassin dagger" chance="876" />
-		<item id="crystal ring" chance="306" />
-		<item id="steel boots" chance="306" />
-		<item id="assassin star" chance="131" />
-		<item id="death ring" chance="88" />
-		<item id="golden legs" chance="44" />
-		<item id="gold coin" chance="100000" countmax="273" />
-		<item id="flask of demonic blood" chance="100000" />
-		<item id="jalapeno pepper" chance="100000" countmax="4" />
-		<item id="demonic essence" chance="100000" />
-		<item id="terra rod" chance="100000" />
-		<item id="soul orb" chance="100000" />
-		<item id="slightly rusted legs" chance="100000" />
-		<item id="great health potion" chance="100000" />
-		<item id="small amethyst" chance="100000" countmax="3" />
-		<item id="red piece of cloth" chance="66156" />
-		<item id="platinum coin" chance="41550" countmax="4" />
-		<item id="noble axe" chance="33581" />
-		<item id="orichalcum pearl" chance="22680" countmax="4" />
-		<item id="assassin dagger" chance="13441" />
-		<item id="steel boots" chance="12916" />
-		<item id="crystal ring" chance="7399" />
-		<item id="golden legs" chance="1708" />
-		<item id="assassin star" chance="1664" />
-		<item id="death ring" chance="1401" />
+		<item name="gold coin" chance="98836" countmax="264" />
+		<item name="flask of demonic blood" chance="33922" />
+		<item name="jalapeno pepper" chance="31164" countmax="4" />
+		<item name="demonic essence" chance="23405" />
+		<item name="terra rod" chance="21164" />
+		<item name="soul orb" chance="20129" />
+		<item name="great health potion" chance="11164" />
+		<item name="small amethyst" chance="8578" countmax="3" />
+		<item name="slightly rusted legs" chance="7845" />
+		<item name="red piece of cloth" chance="4095" />
+		<item name="platinum coin" chance="2500" countmax="4" />
+		<item name="orichalcum pearl" chance="1638" countmax="4" />
+		<item name="rusty legs" chance="1552" />
+		<item name="noble axe" chance="1466" />
+		<item name="assassin dagger" chance="862" />
+		<item name="crystal ring" chance="302" />
+		<item name="steel boots" chance="302" />
+		<item name="assassin star" chance="129" />
+		<item name="death ring" chance="86" />
+		<item name="golden legs" chance="43" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Undead Cavebear"
 monster.description = "an undead cavebear"
 monster.experience = 600
 monster.outfit = {
-	lookType = 0,
+	lookType = 384,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,10 +89,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 30000, maxCount = 89},
-	{id = "maxilla", chance = 14118},
-	{id = "cavebear skull", chance = 2353},
-	{id = "health potion", chance = 1176}
+	{id = "gold coin", chance = 29651, maxCount = 89},
+	{id = "maxilla", chance = 13953},
+	{id = "cavebear skull", chance = 2326},
+	{id = "health potion", chance = 1163}
 }
 
 mType:register(monster)

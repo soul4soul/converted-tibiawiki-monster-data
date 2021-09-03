@@ -1,6 +1,7 @@
-﻿<monster name="Vampire Viscount" nameDescription="a vampire viscount" experience="800" speed="220" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Vampire Viscount" nameDescription="a vampire viscount" experience="800" speed="220" manacost="0">
 	<health now="1200" max="1200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="555" head="0" body="0" legs="0" feet="0" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -53,18 +55,18 @@
 		<voice sentence="Bloody good thing you came!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="84886" countmax="50" />
-		<item id="vampire teeth" chance="7883" />
-		<item id="strong mana potion" chance="7576" />
-		<item id="strong health potion" chance="5928" />
-		<item id="tooth file" chance="5149" />
-		<item id="vampire's cape chain" chance="3820" />
-		<item id="small ruby" chance="3437" countmax="2" />
-		<item id="blood preservation" chance="2875" />
-		<item id="black pearl" chance="2721" />
-		<item id="ice rapier" chance="792" />
-		<item id="red gem" chance="396" />
-		<item id="red piece of cloth" chance="256" />
-		<item id="vampire shield" chance="179" />
+		<item name="gold coin" chance="84864" countmax="50" />
+		<item name="vampire teeth" chance="7881" />
+		<item name="strong mana potion" chance="7500" />
+		<item name="strong health potion" chance="5963" />
+		<item name="tooth file" chance="5152" />
+		<item name="vampire's cape chain" chance="3799" />
+		<item name="small ruby" chance="3406" countmax="2" />
+		<item name="blood preservation" chance="2889" />
+		<item name="black pearl" chance="2680" />
+		<item name="ice rapier" chance="799" />
+		<item name="red gem" chance="381" />
+		<item name="red piece of cloth" chance="246" />
+		<item name="vampire shield" chance="197" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Skeleton"
 monster.description = "a skeleton"
 monster.experience = 35
 monster.outfit = {
-	lookType = 0,
+	lookType = 33,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,26 +87,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bone", chance = 50648},
-	{id = "gold coin", chance = 44884, maxCount = 10},
-	{id = "torch", chance = 10362},
-	{id = "pelvis bone", chance = 10030},
-	{id = "viking helmet", chance = 7415},
-	{id = "hatchet", chance = 5383},
-	{id = "mace", chance = 4670},
-	{id = "heavy old tome", chance = 2127},
-	{id = "sword", chance = 2032},
-	{id = "brass shield", chance = 963},
-	{id = "bone", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 10},
-	{id = "pelvis bone", chance = 100000},
-	{id = "torch", chance = 100000},
-	{id = "viking helmet", chance = 91242},
-	{id = "mace", chance = 57695},
-	{id = "hatchet", chance = 57219},
-	{id = "sword", chance = 23791},
-	{id = "brass shield", chance = 15140},
-	{id = "heavy old tome", chance = 2662}
+	{id = "bone", chance = 50715},
+	{id = "gold coin", chance = 44947, maxCount = 10},
+	{id = "torch", chance = 10363},
+	{id = "pelvis bone", chance = 10070},
+	{id = "viking helmet", chance = 7397},
+	{id = "hatchet", chance = 5358},
+	{id = "mace", chance = 4678},
+	{id = "heavy old tome", chance = 2134},
+	{id = "sword", chance = 2028},
+	{id = "brass shield", chance = 973}
 }
 
 mType:register(monster)

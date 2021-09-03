@@ -5,7 +5,7 @@ monster.name = "Insectoid Worker"
 monster.description = "an insectoid worker"
 monster.experience = 650
 monster.outfit = {
-	lookType = 0,
+	lookType = 403,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,11 +88,11 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 90},
-	{id = "compound eye", chance = 15010},
-	{id = "dung ball", chance = 14563},
-	{id = "health potion", chance = 4897},
-	{id = "small emerald", chance = 2854},
-	{id = "epee", chance = 566}
+	{id = "compound eye", chance = 15003},
+	{id = "dung ball", chance = 14560},
+	{id = "health potion", chance = 4893},
+	{id = "small emerald", chance = 2853},
+	{id = "epee", chance = 568}
 }
 
 mType:register(monster)

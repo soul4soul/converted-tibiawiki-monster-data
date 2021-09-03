@@ -5,11 +5,11 @@ monster.name = "Hunter"
 monster.description = "a hunter"
 monster.experience = 150
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 129,
+	lookHead = 95,
+	lookBody = 116,
+	lookLegs = 120,
+	lookFeet = 115,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -91,20 +92,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "arrow", chance = 82421, maxCount = 22},
-	{id = "orange", chance = 20175, maxCount = 2},
-	{id = "roll", chance = 11132, maxCount = 2},
+	{id = "arrow", chance = 82415, maxCount = 22},
+	{id = "orange", chance = 20177, maxCount = 2},
+	{id = "roll", chance = 11119, maxCount = 2},
 	{id = "hunter's quiver", chance = 10175},
-	{id = "bow", chance = 5817},
+	{id = "bow", chance = 5829},
 	{id = "burst arrow", chance = 5162, maxCount = 3},
-	{id = "brass armor", chance = 5145},
-	{id = "brass helmet", chance = 4992},
-	{id = "poison arrow", chance = 4358, maxCount = 4},
-	{id = "dragon necklace", chance = 3102},
-	{id = "torch", chance = 3077},
-	{id = "sniper gloves", chance = 545},
-	{id = "deer trophy", chance = 468},
-	{id = "small ruby", chance = 179},
+	{id = "brass armor", chance = 5137},
+	{id = "brass helmet", chance = 5005},
+	{id = "poison arrow", chance = 4355, maxCount = 4},
+	{id = "dragon necklace", chance = 3106},
+	{id = "torch", chance = 3080},
+	{id = "sniper gloves", chance = 544},
+	{id = "deer trophy", chance = 467},
+	{id = "small ruby", chance = 178},
 	{id = "lion trophy", chance = 132},
 	{id = "wolf trophy", chance = 119},
 	{id = "slingshot", chance = 115}

@@ -5,7 +5,7 @@ monster.name = "Drillworm"
 monster.description = "a drillworm"
 monster.experience = 858
 monster.outfit = {
-	lookType = 0,
+	lookType = 527,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,21 +89,21 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 150},
-	{id = "lump of earth", chance = 15012},
-	{id = "coal", chance = 12152},
-	{id = "brown crystal splinter", chance = 10112},
-	{id = "green crystal splinter", chance = 10047},
-	{id = "blue crystal splinter", chance = 9961},
-	{id = "vein of ore", chance = 7345},
-	{id = "pulverized ore", chance = 5154},
+	{id = "lump of earth", chance = 15016},
+	{id = "coal", chance = 12151},
+	{id = "brown crystal splinter", chance = 10104},
+	{id = "green crystal splinter", chance = 10041},
+	{id = "blue crystal splinter", chance = 9966},
+	{id = "vein of ore", chance = 7340},
+	{id = "pulverized ore", chance = 5149},
 	{id = "pick", chance = 5073},
-	{id = "worm", chance = 5003, maxCount = 5},
-	{id = "drill bolt", chance = 4975, maxCount = 2},
-	{id = "terra amulet", chance = 2590},
-	{id = "dwarven ring", chance = 2385},
-	{id = "iron ore", chance = 1553},
-	{id = "clay lump", chance = 747},
-	{id = "spiked squelcher", chance = 511}
+	{id = "worm", chance = 5000, maxCount = 5},
+	{id = "drill bolt", chance = 4974, maxCount = 2},
+	{id = "terra amulet", chance = 2586},
+	{id = "dwarven ring", chance = 2388},
+	{id = "iron ore", chance = 1554},
+	{id = "clay lump", chance = 746},
+	{id = "spiked squelcher", chance = 510}
 }
 
 mType:register(monster)

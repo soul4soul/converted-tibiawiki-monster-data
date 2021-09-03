@@ -5,7 +5,7 @@ monster.name = "Lizard Legionnaire"
 monster.description = "a lizard legionnaire"
 monster.experience = 1100
 monster.outfit = {
-	lookType = 0,
+	lookType = 338,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,16 +88,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 94064, maxCount = 165},
-	{id = "broken halberd", chance = 14931},
-	{id = "strong health potion", chance = 3897},
-	{id = "bunch of ripe rice", chance = 1931},
-	{id = "legionnaire flags", chance = 1926},
-	{id = "lizard scale", chance = 974},
-	{id = "small diamond", chance = 969, maxCount = 2},
+	{id = "gold coin", chance = 94063, maxCount = 165},
+	{id = "broken halberd", chance = 14929},
+	{id = "strong health potion", chance = 3899},
+	{id = "bunch of ripe rice", chance = 1935},
+	{id = "legionnaire flags", chance = 1925},
+	{id = "lizard scale", chance = 975},
 	{id = "lizard leather", chance = 968},
-	{id = "zaoan halberd", chance = 954},
-	{id = "drakinata", chance = 721},
+	{id = "small diamond", chance = 968, maxCount = 2},
+	{id = "zaoan halberd", chance = 953},
+	{id = "drakinata", chance = 723},
 	{id = "red lantern", chance = 508},
 	{id = "zaoan shoes", chance = 435},
 	{id = "zaoan armor", chance = 67},

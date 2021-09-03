@@ -5,11 +5,11 @@ monster.name = "Crazed Winter Rearguard"
 monster.description = "a crazed winter rearguard"
 monster.experience = 4700
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
+	lookType = 1136,
+	lookHead = 47,
+	lookBody = 7,
 	lookLegs = 0,
-	lookFeet = 0,
+	lookFeet = 85,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -103,42 +104,7 @@ monster.loot = {
 	{id = "cyan crystal fragment", chance = 1967},
 	{id = "glacier robe", chance = 1925},
 	{id = "elven amulet", chance = 1161},
-	{id = "blue gem", chance = 335},
-	{id = "platinum coin", chance = 40188, maxCount = 5},
-	{id = "ultimate health potion", chance = 8107},
-	{id = "ice rapier", chance = 7950},
-	{id = "great spirit potion", chance = 6841},
-	{id = "ice flower (item)", chance = 4425, maxCount = 2},
-	{id = "dream essence egg", chance = 3787},
-	{id = "life crystal", chance = 3661},
-	{id = "elven astral observer", chance = 3630},
-	{id = "glacier mask", chance = 2772},
-	{id = "moonlight rod", chance = 2322},
-	{id = "small enchanted sapphire", chance = 2165, maxCount = 7},
-	{id = "hailstorm rod", chance = 1245},
-	{id = "glacier amulet", chance = 1224},
-	{id = "cyan crystal fragment", chance = 1036},
-	{id = "northwind rod", chance = 1015},
-	{id = "glacier robe", chance = 858},
-	{id = "elven amulet", chance = 554},
-	{id = "blue gem", chance = 230},
-	{id = "platinum coin", chance = 345, maxCount = 5},
-	{id = "ice rapier", chance = 105},
-	{id = "cyan crystal fragment", chance = 84},
-	{id = "great spirit potion", chance = 84},
-	{id = "ultimate health potion", chance = 63},
-	{id = "glacier mask", chance = 52},
-	{id = "egg with dream essence", chance = 42},
-	{id = "elven astral observer", chance = 31},
-	{id = "ice flower (item)", chance = 31, maxCount = 2},
-	{id = "moonlight rod", chance = 31},
-	{id = "red crystal fragment", chance = 31},
-	{id = "red gem", chance = 31},
-	{id = "hailstorm rod", chance = 21},
-	{id = "life crystal", chance = 21},
-	{id = "elven amulet", chance = 10},
-	{id = "glacier robe", chance = 10},
-	{id = "small enchanted sapphire", chance = 10, maxCount = 4}
+	{id = "blue gem", chance = 335}
 }
 
 mType:register(monster)

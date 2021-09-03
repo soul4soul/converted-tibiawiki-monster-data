@@ -1,6 +1,7 @@
-﻿<monster name="Lost Husher" nameDescription="a lost husher" experience="1800" speed="250" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lost Husher" nameDescription="a lost husher" experience="1800" speed="250" manacost="0">
 	<health now="1600" max="1600" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="537" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="25" />
 		<element lifedrainPercent="0" />
@@ -48,32 +50,32 @@
 		<voice sentence="Arr far zwar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="platinum coin" chance="59687" countmax="2" />
-		<item id="red hair dye" chance="15300" />
-		<item id="brown mushroom" chance="15191" countmax="2" />
-		<item id="wimp tooth chain" chance="12068" />
-		<item id="coal" chance="11850" />
-		<item id="holy ash" chance="11615" />
-		<item id="strong health potion" chance="10492" countmax="3" />
-		<item id="great mana potion" chance="10375" countmax="2" />
-		<item id="small topaz" chance="9705" />
-		<item id="lost husher's staff" chance="9198" />
-		<item id="skull shatterer" chance="9008" />
-		<item id="bonecarving knife" chance="8401" />
-		<item id="basalt figurine" chance="7749" />
-		<item id="bone fetish" chance="7686" />
-		<item id="basalt fetish" chance="5984" />
-		<item id="dwarven ring" chance="2643" />
-		<item id="guardian shield" chance="978" />
-		<item id="clay lump" chance="896" />
-		<item id="buckle" chance="733" />
-		<item id="knight axe" chance="733" />
-		<item id="terra boots" chance="625" />
-		<item id="skull staff" chance="462" />
-		<item id="spiked squelcher" chance="281" />
-		<item id="fire axe" chance="272" />
-		<item id="terra legs" chance="217" />
-		<item id="tower shield" chance="199" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="platinum coin" chance="59636" countmax="2" />
+		<item name="red hair dye" chance="15341" />
+		<item name="brown mushroom" chance="15101" countmax="2" />
+		<item name="wimp tooth chain" chance="12043" />
+		<item name="coal" chance="11820" />
+		<item name="holy ash" chance="11589" />
+		<item name="strong health potion" chance="10439" countmax="3" />
+		<item name="great mana potion" chance="10385" countmax="2" />
+		<item name="small topaz" chance="9725" />
+		<item name="lost husher's staff" chance="9253" />
+		<item name="skull shatterer" chance="9012" />
+		<item name="bonecarving knife" chance="8460" />
+		<item name="basalt figurine" chance="7738" />
+		<item name="bone fetish" chance="7648" />
+		<item name="basalt fetish" chance="5964" />
+		<item name="dwarven ring" chance="2648" />
+		<item name="guardian shield" chance="972" />
+		<item name="clay lump" chance="891" />
+		<item name="knight axe" chance="749" />
+		<item name="buckle" chance="731" />
+		<item name="terra boots" chance="624" />
+		<item name="skull staff" chance="464" />
+		<item name="spiked squelcher" chance="285" />
+		<item name="fire axe" chance="267" />
+		<item name="terra legs" chance="214" />
+		<item name="tower shield" chance="196" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Quara Mantassin" nameDescription="a quara mantassin" experience="400" speed="590" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Quara Mantassin" nameDescription="a quara mantassin" experience="400" speed="590" manacost="0">
 	<health now="800" max="800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="72" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-25" />
+		<element energyPercent="-25" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -51,27 +53,16 @@
 		<voice sentence="Zuerk Pachak!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="79767" countmax="130" />
-		<item id="mantassin tail" chance="12725" />
-		<item id="shrimp" chance="5132" />
-		<item id="halberd" chance="4992" />
-		<item id="small sapphire" chance="1118" />
-		<item id="stealth ring" chance="1087" />
-		<item id="cape" chance="1071" />
-		<item id="two handed sword" chance="1009" />
-		<item id="fish fin" chance="629" />
-		<item id="strange helmet" chance="93" />
-		<item id="blue robe" chance="78" />
-		<item id="gold coin" chance="38564" countmax="128" />
-		<item id="mantassin tail" chance="5326" />
-		<item id="shrimp" chance="2710" />
-		<item id="halberd" chance="2112" />
-		<item id="cape" chance="536" />
-		<item id="two handed sword" chance="512" />
-		<item id="small sapphire" chance="450" />
-		<item id="stealth ring" chance="443" />
-		<item id="fish fin" chance="342" />
-		<item id="strange helmet" chance="70" />
-		<item id="blue robe" chance="62" />
+		<item name="gold coin" chance="79764" countmax="130" />
+		<item name="mantassin tail" chance="12730" />
+		<item name="shrimp" chance="5131" />
+		<item name="halberd" chance="4991" />
+		<item name="small sapphire" chance="1118" />
+		<item name="stealth ring" chance="1087" />
+		<item name="cape" chance="1071" />
+		<item name="two handed sword" chance="1009" />
+		<item name="fish fin" chance="629" />
+		<item name="strange helmet" chance="93" />
+		<item name="blue robe" chance="78" />
 	</loot>
 </monster>

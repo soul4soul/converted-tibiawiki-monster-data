@@ -5,7 +5,7 @@ monster.name = "Chakoya Windcaller"
 monster.description = "a chakoya windcaller"
 monster.experience = 48
 monster.outfit = {
-	lookType = 0,
+	lookType = 260,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -97,14 +98,7 @@ monster.loot = {
 	{id = "fireproof horn", chance = 449},
 	{id = "green perch", chance = 90},
 	{id = "northern pike", chance = 54},
-	{id = "rainbow trout", chance = 36},
-	{id = "gold coin", chance = 20194, maxCount = 26},
-	{id = "fish", chance = 9055, maxCount = 3},
-	{id = "brass helmet", chance = 988},
-	{id = "bone shield", chance = 287},
-	{id = "green perch", chance = 18},
-	{id = "northern pike", chance = 18},
-	{id = "rainbow trout", chance = 18}
+	{id = "rainbow trout", chance = 36}
 }
 
 mType:register(monster)

@@ -5,11 +5,11 @@ monster.name = "Arctic Faun"
 monster.description = "an arctic faun"
 monster.experience = 300
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
+	lookType = 980,
+	lookHead = 85,
 	lookBody = 0,
 	lookLegs = 0,
-	lookFeet = 0,
+	lookFeet = 85,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,22 +90,22 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 105},
-	{id = "dandelion seeds", chance = 15328},
-	{id = "strong health potion", chance = 11398},
-	{id = "fresh fruit", chance = 9933},
-	{id = "shimmering beetles", chance = 9716},
-	{id = "leaf star", chance = 8251, maxCount = 3},
-	{id = "goat grass", chance = 7758},
-	{id = "cookie", chance = 6105, maxCount = 5},
-	{id = "rainbow quartz", chance = 5220, maxCount = 2},
-	{id = "grapes", chance = 5133},
-	{id = "panpipes", chance = 5075},
-	{id = "small stone", chance = 5046, maxCount = 2},
-	{id = "great health potion", chance = 3611},
-	{id = "wood cape", chance = 972},
-	{id = "leaf legs", chance = 348},
-	{id = "die", chance = 218},
-	{id = "wooden spellbook", chance = 189}
+	{id = "dandelion seeds", chance = 15098},
+	{id = "strong health potion", chance = 11474},
+	{id = "fresh fruit", chance = 9976},
+	{id = "shimmering beetles", chance = 9735},
+	{id = "leaf star", chance = 8318, maxCount = 3},
+	{id = "goat grass", chance = 8010},
+	{id = "cookie", chance = 6125, maxCount = 5},
+	{id = "grapes", chance = 5215},
+	{id = "panpipes", chance = 5108},
+	{id = "rainbow quartz", chance = 4961, maxCount = 2},
+	{id = "small stone", chance = 4881, maxCount = 2},
+	{id = "great health potion", chance = 3570},
+	{id = "wood cape", chance = 1030},
+	{id = "leaf legs", chance = 334},
+	{id = "die", chance = 214},
+	{id = "wooden spellbook", chance = 187}
 }
 
 mType:register(monster)

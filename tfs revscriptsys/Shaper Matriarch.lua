@@ -5,7 +5,7 @@ monster.name = "Shaper Matriarch"
 monster.description = "a shaper matriarch"
 monster.experience = 1650
 monster.outfit = {
-	lookType = 0,
+	lookType = 933,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,25 +90,25 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 138},
-	{id = "platinum coin", chance = 80709, maxCount = 2},
-	{id = "rhino horn carving", chance = 20134},
-	{id = "cave turnip", chance = 17720, maxCount = 2},
-	{id = "tarnished rhino figurine", chance = 15077},
-	{id = "cracked alabaster vase", chance = 15057},
-	{id = "strong mana potion", chance = 14751},
-	{id = "skull", chance = 9885},
-	{id = "dark mushroom", chance = 6839},
-	{id = "ancient coin", chance = 6015},
-	{id = "gemmed figurine", chance = 4368},
-	{id = "rusted helmet", chance = 4368},
-	{id = "small ruby", chance = 3812},
-	{id = "prismatic quartz", chance = 3027},
-	{id = "black pearl", chance = 2356},
-	{id = "waterskin", chance = 2069},
-	{id = "wand of decay", chance = 1648},
-	{id = "stone skin amulet", chance = 1533},
-	{id = "ring of healing", chance = 1264},
-	{id = "wand of voodoo", chance = 785}
+	{id = "platinum coin", chance = 80715, maxCount = 2},
+	{id = "rhino horn carving", chance = 20301},
+	{id = "cave turnip", chance = 17668, maxCount = 2},
+	{id = "tarnished rhino figurine", chance = 15181},
+	{id = "cracked alabaster vase", chance = 15163},
+	{id = "strong mana potion", chance = 14545},
+	{id = "skull", chance = 9824},
+	{id = "dark mushroom", chance = 6737},
+	{id = "ancient coin", chance = 5974},
+	{id = "rusted helmet", chance = 4413},
+	{id = "gemmed figurine", chance = 4285},
+	{id = "small ruby", chance = 3777},
+	{id = "prismatic quartz", chance = 3087},
+	{id = "black pearl", chance = 2415},
+	{id = "waterskin", chance = 2088},
+	{id = "wand of decay", chance = 1616},
+	{id = "stone skin amulet", chance = 1543},
+	{id = "ring of healing", chance = 1253},
+	{id = "wand of voodoo", chance = 781}
 }
 
 mType:register(monster)

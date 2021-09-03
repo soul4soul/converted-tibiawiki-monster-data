@@ -1,4 +1,5 @@
-﻿<monster name="Black Knight" nameDescription="a black knight" experience="1600" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Black Knight" nameDescription="a black knight" experience="1600" speed="0" manacost="0">
 	<health now="1800" max="1800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="80" />
+		<element energyPercent="80" />
 		<element earthPercent="100" />
 		<element firePercent="95" />
 		<element lifedrainPercent="0" />
@@ -53,37 +55,26 @@
 		<voice sentence="MINE!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="48628" countmax="143" />
-		<item id="spear" chance="29413" countmax="3" />
-		<item id="brown bread" chance="20630" countmax="2" />
-		<item id="rope" chance="14447" />
-		<item id="brass legs" chance="13089" />
-		<item id="halberd" chance="12540" />
-		<item id="plate armor" chance="10951" />
-		<item id="steel helmet" chance="10517" />
-		<item id="two handed sword" chance="9621" />
-		<item id="battle hammer" chance="6906" />
-		<item id="warrior helmet" chance="4710" />
-		<item id="knight axe" chance="2658" />
-		<item id="dark helmet" chance="2427" />
-		<item id="dark armor" chance="2023" />
-		<item id="knight legs" chance="1040" />
-		<item id="knight armor" chance="751" />
-		<item id="ruby necklace" chance="751" />
-		<item id="lightning legs" chance="578" />
-		<item id="boots of haste" chance="405" />
-		<item id="dragon lance" chance="289" />
-		<item id="piggy bank" chance="116" />
-		<item id="gold coin" chance="173" countmax="138" />
-		<item id="spear" chance="173" countmax="3" />
-		<item id="two handed sword" chance="144" />
-		<item id="brass legs" chance="87" />
-		<item id="brown bread" chance="87" />
-		<item id="battle hammer" chance="58" />
-		<item id="rope" chance="58" />
-		<item id="dark armor" chance="29" />
-		<item id="halberd" chance="29" />
-		<item id="plate armor" chance="29" />
-		<item id="steel helmet" chance="29" />
+		<item name="gold coin" chance="48614" countmax="143" />
+		<item name="spear" chance="29434" countmax="3" />
+		<item name="brown bread" chance="20624" countmax="2" />
+		<item name="rope" chance="14443" />
+		<item name="brass legs" chance="13085" />
+		<item name="halberd" chance="12536" />
+		<item name="plate armor" chance="10947" />
+		<item name="steel helmet" chance="10514" />
+		<item name="two handed sword" chance="9619" />
+		<item name="battle hammer" chance="6904" />
+		<item name="warrior helmet" chance="4708" />
+		<item name="knight axe" chance="2657" />
+		<item name="dark helmet" chance="2426" />
+		<item name="dark armor" chance="2022" />
+		<item name="knight legs" chance="1040" />
+		<item name="knight armor" chance="751" />
+		<item name="ruby necklace" chance="751" />
+		<item name="lightning legs" chance="578" />
+		<item name="boots of haste" chance="404" />
+		<item name="dragon lance" chance="289" />
+		<item name="piggy bank" chance="116" />
 	</loot>
 </monster>

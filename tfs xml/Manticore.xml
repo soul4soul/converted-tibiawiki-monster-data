@@ -1,6 +1,7 @@
-﻿<monster name="Manticore" nameDescription="a manticore" experience="5100" speed="300" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Manticore" nameDescription="a manticore" experience="5100" speed="300" manacost="0">
 	<health now="6700" max="6700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1189" head="116" body="97" legs="113" feet="20" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -43,28 +45,22 @@
 		<voice sentence="I'm spotting my next meal" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="3" />
-		<item id="manticore tail" chance="9520" />
-		<item id="manticore ear" chance="7616" />
-		<item id="small emerald" chance="5103" />
-		<item id="flaming arrow" chance="4341" countmax="9" />
-		<item id="green crystal fragment" chance="4341" />
-		<item id="magma coat" chance="2970" />
-		<item id="prismatic quartz" chance="2666" />
-		<item id="rainbow quartz" chance="2589" countmax="3" />
-		<item id="violet gem" chance="2437" />
-		<item id="magma boots" chance="1904" />
-		<item id="wand of dragonbreath" chance="1828" />
-		<item id="magma monocle" chance="1676" />
-		<item id="magma legs" chance="1219" />
-		<item id="royal star" chance="1219" countmax="3" />
-		<item id="wand of everblazing" chance="838" />
-		<item id="wand of draconia" chance="762" />
-		<item id="platinum coin" chance="1828" countmax="3" />
-		<item id="manticore tail" chance="305" />
-		<item id="magma boots" chance="76" />
-		<item id="magma legs" chance="76" />
-		<item id="magma monocle" chance="76" />
-		<item id="manticore ear" chance="76" />
+		<item name="platinum coin" chance="100000" countmax="3" />
+		<item name="manticore tail" chance="9555" />
+		<item name="manticore ear" chance="7440" />
+		<item name="small emerald" chance="5398" />
+		<item name="green crystal fragment" chance="4376" />
+		<item name="flaming arrow" chance="4230" countmax="9" />
+		<item name="magma coat" chance="2991" />
+		<item name="rainbow quartz" chance="2626" countmax="3" />
+		<item name="prismatic quartz" chance="2553" />
+		<item name="violet gem" chance="2407" />
+		<item name="magma boots" chance="1896" />
+		<item name="wand of dragonbreath" chance="1751" />
+		<item name="magma monocle" chance="1678" />
+		<item name="magma legs" chance="1167" />
+		<item name="royal star" chance="1167" countmax="3" />
+		<item name="wand of everblazing" chance="802" />
+		<item name="wand of draconia" chance="729" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Undead Prospector" nameDescription="an undead prospector" experience="85" speed="144" manacost="440">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Undead Prospector" nameDescription="an undead prospector" experience="85" speed="144" manacost="440">
 	<health now="100" max="100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="18" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
@@ -50,14 +52,15 @@
 		<voice sentence="These mine is ours... you shall not pass." yell="false" />
 	</voices>
 	<loot>
-		<item id="worm" chance="81858" countmax="6" />
-		<item id="gold coin" chance="71263" countmax="30" />
-		<item id="torch" chance="63280" />
-		<item id="brass helmet" chance="18142" />
-		<item id="knife" chance="15094" />
-		<item id="viking helmet" chance="4790" />
-		<item id="skull" chance="2467" />
-		<item id="scale armor" chance="2177" />
-		<item id="brown piece of cloth" chance="726" />
+		<item name="worm" chance="80878" countmax="6" />
+		<item name="gold coin" chance="70814" countmax="30" />
+		<item name="torch" chance="61208" />
+		<item name="brass helmet" chance="18481" />
+		<item name="knife" chance="15005" />
+		<item name="viking helmet" chance="5306" />
+		<item name="scale armor" chance="2745" />
+		<item name="skull" chance="2653" />
+		<item name="brown piece of cloth" chance="732" />
+		<item name="life ring" chance="91" />
 	</loot>
 </monster>

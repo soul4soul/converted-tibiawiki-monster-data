@@ -5,7 +5,7 @@ monster.name = "Pirate Cutthroat"
 monster.description = "a pirate cutthroat"
 monster.experience = 175
 monster.outfit = {
-	lookType = 0,
+	lookType = 96,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,19 +90,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 77584, maxCount = 50},
-	{id = "compass", chance = 10092},
+	{id = "gold coin", chance = 77581, maxCount = 50},
+	{id = "compass", chance = 10091},
 	{id = "scale armor", chance = 3090},
 	{id = "steel shield", chance = 2876},
 	{id = "light shovel", chance = 1974},
 	{id = "treasure map (pirate)", chance = 1095},
 	{id = "pirate knee breeches", chance = 1029},
-	{id = "pirate bag", chance = 992},
+	{id = "pirate bag", chance = 991},
 	{id = "hook", chance = 529},
 	{id = "peg leg", chance = 505},
 	{id = "eye patch", chance = 468},
 	{id = "die", chance = 96},
-	{id = "rum flask", chance = 82}
+	{id = "rum flask", chance = 85}
 }
 
 mType:register(monster)

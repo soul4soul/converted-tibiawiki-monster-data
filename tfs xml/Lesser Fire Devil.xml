@@ -1,4 +1,5 @@
-﻿<monster name="Lesser Fire Devil" nameDescription="a lesser fire devil" experience="110" speed="150" manacost="530">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lesser Fire Devil" nameDescription="a lesser fire devil" experience="110" speed="150" manacost="530">
 	<health now="175" max="175" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="0" />
 		<element firePercent="35" />
 		<element lifedrainPercent="0" />
@@ -43,12 +45,8 @@
 	</attacks>
 	<defenses armor="9" defense="9" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="10" />
-		<item id="blank rune" chance="21053" />
-		<item id="torch" chance="2632" countmax="2" />
-		<item id="gold coin" chance="26316" countmax="10" />
-		<item id="blank rune" chance="5702" />
-		<item id="small pitchfork" chance="5702" />
-		<item id="torch" chance="439" countmax="2" />
+		<item name="gold coin" chance="100000" countmax="10" />
+		<item name="blank rune" chance="21053" />
+		<item name="torch" chance="2632" countmax="2" />
 	</loot>
 </monster>

@@ -1,4 +1,5 @@
-﻿<monster name="Raxias" nameDescription="" experience="900" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Raxias" nameDescription="" experience="900" speed="0" manacost="0">
 	<health now="1100" max="1100" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -50,19 +52,19 @@
 		<voice sentence="Blood, fight and rage!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="139" />
-		<item id="fairy wings" chance="15625" />
-		<item id="dark mushroom" chance="12500" countmax="2" />
-		<item id="goat grass" chance="12500" />
-		<item id="leaf star" chance="12500" countmax="6" />
-		<item id="cave turnip" chance="9375" countmax="2" />
-		<item id="shimmering beetles" chance="9375" />
-		<item id="strong health potion" chance="9375" countmax="2" />
-		<item id="small stone" chance="6250" countmax="4" />
-		<item id="great health potion" chance="3125" countmax="2" />
-		<item id="panpipes" chance="3125" />
-		<item id="prismatic quartz" chance="3125" />
-		<item id="small enchanted sapphire" chance="3125" />
-		<item id="wood cape" chance="3125" />
+		<item name="gold coin" chance="100000" countmax="139" />
+		<item name="fairy wings" chance="15625" />
+		<item name="dark mushroom" chance="12500" countmax="2" />
+		<item name="goat grass" chance="12500" />
+		<item name="leaf star" chance="12500" countmax="6" />
+		<item name="cave turnip" chance="9375" countmax="2" />
+		<item name="shimmering beetles" chance="9375" />
+		<item name="strong health potion" chance="9375" countmax="2" />
+		<item name="small stone" chance="6250" countmax="4" />
+		<item name="great health potion" chance="3125" countmax="2" />
+		<item name="panpipes" chance="3125" />
+		<item name="prismatic quartz" chance="3125" />
+		<item name="small enchanted sapphire" chance="3125" />
+		<item name="wood cape" chance="3125" />
 	</loot>
 </monster>

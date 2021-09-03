@@ -5,7 +5,7 @@ monster.name = "Spit Nettle"
 monster.description = "a spit nettle"
 monster.experience = 20
 monster.outfit = {
-	lookType = 0,
+	lookType = 221,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,12 +87,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "shadow herb", chance = 11066},
-	{id = "gold coin", chance = 10681, maxCount = 5},
-	{id = "nettle spit", chance = 9846},
-	{id = "sling herb", chance = 5622, maxCount = 2},
-	{id = "grave flower", chance = 996},
-	{id = "nettle blossom", chance = 932},
+	{id = "shadow herb", chance = 11059},
+	{id = "gold coin", chance = 10690, maxCount = 5},
+	{id = "nettle spit", chance = 9872},
+	{id = "sling herb", chance = 5618, maxCount = 2},
+	{id = "grave flower", chance = 995},
+	{id = "nettle blossom", chance = 931},
 	{id = "seeds", chance = 369}
 }
 

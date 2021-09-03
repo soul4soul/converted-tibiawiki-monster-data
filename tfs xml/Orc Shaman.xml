@@ -1,6 +1,7 @@
-﻿<monster name="Orc Shaman" nameDescription="an orc shaman" experience="110" speed="140" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Orc Shaman" nameDescription="an orc shaman" experience="110" speed="140" manacost="0">
 	<health now="115" max="115" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="6" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="50" />
+		<element energyPercent="50" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -52,26 +54,16 @@
 		<voice name="snake" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="gold coin" chance="89817" countmax="5" />
-		<item id="corncob" chance="10895" countmax="2" />
-		<item id="broken shamanic staff" chance="10356" />
-		<item id="chain armor" chance="8673" />
-		<item id="shamanic hood" chance="7573" />
-		<item id="spear" chance="5156" />
-		<item id="orc leather" chance="3603" />
-		<item id="heavy old tome" chance="2416" />
-		<item id="orc tooth" chance="2114" />
-		<item id="wand of decay" chance="863" />
-		<item id="book (grey)" chance="518" />
-		<item id="gold coin" chance="100000" countmax="5" />
-		<item id="corncob" chance="100000" countmax="2" />
-		<item id="broken shamanic staff" chance="100000" />
-		<item id="chain armor" chance="100000" />
-		<item id="shamanic hood" chance="100000" />
-		<item id="spear" chance="80734" />
-		<item id="orc leather" chance="65264" />
-		<item id="orc tooth" chance="33204" />
-		<item id="wand of decay" chance="16224" />
-		<item id="book (grey)" chance="7681" />
+		<item name="gold coin" chance="89723" countmax="5" />
+		<item name="corncob" chance="10874" countmax="2" />
+		<item name="broken shamanic staff" chance="10277" />
+		<item name="chain armor" chance="8633" />
+		<item name="shamanic hood" chance="7646" />
+		<item name="spear" chance="5283" />
+		<item name="orc leather" chance="3577" />
+		<item name="heavy old tome" chance="2343" />
+		<item name="orc tooth" chance="2117" />
+		<item name="wand of decay" chance="884" />
+		<item name="book (grey)" chance="514" />
 	</loot>
 </monster>

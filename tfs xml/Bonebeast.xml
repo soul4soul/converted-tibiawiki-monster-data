@@ -1,6 +1,7 @@
-﻿<monster name="Bonebeast" nameDescription="a bonebeast" experience="580" speed="218" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Bonebeast" nameDescription="a bonebeast" experience="580" speed="218" manacost="0">
 	<health now="515" max="515" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="101" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
@@ -49,16 +51,16 @@
 		<voice sentence="Cccchhhhhhhhh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="bone" chance="49666" />
-		<item id="gold coin" chance="29787" countmax="90" />
-		<item id="skull" chance="19944" />
-		<item id="bony tail" chance="9939" />
-		<item id="plate armor" chance="7960" />
-		<item id="bone club" chance="4962" />
-		<item id="bone shield" chance="2065" />
-		<item id="green mushroom" chance="1429" />
-		<item id="hardened bone" chance="1015" />
-		<item id="health potion" chance="513" />
-		<item id="bonebeast trophy" chance="100" />
+		<item name="bone" chance="49664" />
+		<item name="gold coin" chance="29786" countmax="90" />
+		<item name="skull" chance="19947" />
+		<item name="bony tail" chance="9941" />
+		<item name="plate armor" chance="7963" />
+		<item name="bone club" chance="4962" />
+		<item name="bone shield" chance="2065" />
+		<item name="green mushroom" chance="1428" />
+		<item name="hardened bone" chance="1015" />
+		<item name="health potion" chance="513" />
+		<item name="bonebeast trophy" chance="100" />
 	</loot>
 </monster>

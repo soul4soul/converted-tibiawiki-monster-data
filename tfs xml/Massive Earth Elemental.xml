@@ -1,6 +1,7 @@
-﻿<monster name="Massive Earth Elemental" nameDescription="a massive earth elemental" experience="950" speed="370" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Massive Earth Elemental" nameDescription="a massive earth elemental" experience="950" speed="370" manacost="0">
 	<health now="1330" max="1330" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="285" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="90" />
+		<element energyPercent="90" />
 		<element earthPercent="100" />
 		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
@@ -45,18 +47,18 @@
 		<defense name="healing" interval="2000" chance="20" min="133" max="332" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="94013" countmax="241" />
-		<item id="lump of earth" chance="40093" />
-		<item id="small stone" chance="24835" countmax="10" />
-		<item id="rusted armor" chance="5022" />
-		<item id="small topaz" chance="4925" countmax="2" />
-		<item id="small diamond" chance="4539" countmax="2" />
-		<item id="dwarven ring" chance="2929" />
-		<item id="protection amulet" chance="1851" />
-		<item id="stone skin amulet" chance="950" />
-		<item id="terra amulet" chance="531" />
-		<item id="clay lump" chance="451" />
-		<item id="coal" chance="451" />
-		<item id="diamond sceptre" chance="177" />
+		<item name="gold coin" chance="94013" countmax="241" />
+		<item name="lump of earth" chance="40093" />
+		<item name="small stone" chance="24835" countmax="10" />
+		<item name="rusted armor" chance="5022" />
+		<item name="small topaz" chance="4925" countmax="2" />
+		<item name="small diamond" chance="4539" countmax="2" />
+		<item name="dwarven ring" chance="2929" />
+		<item name="protection amulet" chance="1851" />
+		<item name="stone skin amulet" chance="950" />
+		<item name="terra amulet" chance="531" />
+		<item name="clay lump" chance="451" />
+		<item name="coal" chance="451" />
+		<item name="diamond sceptre" chance="177" />
 	</loot>
 </monster>

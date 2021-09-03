@@ -1,4 +1,5 @@
-﻿<monster name="Neferi The Spy" nameDescription="" experience="19650" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Neferi The Spy" nameDescription="" experience="19650" speed="0" manacost="0">
 	<health now="28000" max="28000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,24 +45,27 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="crystal coin" chance="47826" />
-		<item id="dagger" chance="18841" />
-		<item id="terra rod" chance="18841" />
-		<item id="gold ingot" chance="11594" />
-		<item id="great spirit potion" chance="11594" countmax="2" />
-		<item id="ultimate health potion" chance="8696" countmax="4" />
-		<item id="lightning headband" chance="5797" />
-		<item id="lightning legs" chance="5797" />
-		<item id="fire sword" chance="4348" />
-		<item id="knight armor" chance="4348" />
-		<item id="knight axe" chance="4348" />
-		<item id="terra boots" chance="4348" />
-		<item id="hailstorm rod" chance="2899" />
-		<item id="sea horse figurine" chance="2899" />
-		<item id="stealth ring" chance="2899" />
-		<item id="terra hood" chance="2899" />
-		<item id="violet crystal shard" chance="2899" />
-		<item id="violet gem" chance="2899" />
-		<item id="ring of red plasma" chance="1449" />
+		<item name="crystal coin" chance="43704" />
+		<item name="dagger" chance="20741" />
+		<item name="terra rod" chance="20741" />
+		<item name="gold ingot" chance="12593" />
+		<item name="ultimate health potion" chance="11111" countmax="4" />
+		<item name="great spirit potion" chance="7407" countmax="2" />
+		<item name="fire sword" chance="5926" />
+		<item name="hailstorm rod" chance="5185" />
+		<item name="lightning headband" chance="4444" />
+		<item name="lightning legs" chance="3704" />
+		<item name="terra boots" chance="3704" />
+		<item name="terra hood" chance="3704" />
+		<item name="knight axe" chance="2963" />
+		<item name="spellbook of warding" chance="2963" />
+		<item name="glacier shoes" chance="2222" />
+		<item name="knight armor" chance="2222" />
+		<item name="ring of red plasma" chance="2222" />
+		<item name="sea horse figurine" chance="2222" />
+		<item name="stealth ring" chance="2222" />
+		<item name="violet crystal shard" chance="2222" />
+		<item name="violet gem" chance="2222" />
+		<item name="glacier mask" chance="1481" />
 	</loot>
 </monster>

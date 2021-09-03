@@ -5,12 +5,12 @@ monster.name = "Spiky Carnivor"
 monster.description = "a spiky carnivor"
 monster.experience = 1650
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1139,
+	lookHead = 79,
+	lookBody = 121,
+	lookLegs = 23,
+	lookFeet = 86,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -103,40 +104,7 @@ monster.loot = {
 	{id = "doublet", chance = 265},
 	{id = "buckle", chance = 176},
 	{id = "shockwave amulet", chance = 176},
-	{id = "terra mantle", chance = 176},
-	{id = "platinum coin", chance = 100000, maxCount = 6},
-	{id = "dark armor", chance = 100000},
-	{id = "green glass plate", chance = 85273, maxCount = 2},
-	{id = "blue crystal splinter", chance = 60582},
-	{id = "brown crystal splinter", chance = 54409},
-	{id = "guardian shield", chance = 39242},
-	{id = "warrior helmet", chance = 26455},
-	{id = "rainbow quartz", chance = 19489, maxCount = 2},
-	{id = "talon", chance = 15697},
-	{id = "glacier amulet", chance = 13668},
-	{id = "terra amulet", chance = 13668},
-	{id = "prismatic quartz", chance = 11905},
-	{id = "blue robe", chance = 10229},
-	{id = "lightning pendant", chance = 6173},
-	{id = "terra mantle", chance = 4497},
-	{id = "shockwave amulet", chance = 4409},
-	{id = "doublet", chance = 2646},
-	{id = "buckle", chance = 2381},
-	{id = "platinum coin", chance = 5379, maxCount = 6},
-	{id = "green glass plate", chance = 1499, maxCount = 2},
-	{id = "dark armor", chance = 1323},
-	{id = "guardian shield", chance = 1323},
-	{id = "leather boots", chance = 1323},
-	{id = "blue crystal splinter", chance = 617},
-	{id = "brown crystal splinter", chance = 617},
-	{id = "rainbow quartz", chance = 441, maxCount = 2},
-	{id = "prismatic quartz", chance = 265},
-	{id = "ring of red plasma", chance = 265},
-	{id = "bow", chance = 176},
-	{id = "crossbow", chance = 176},
-	{id = "terra amulet", chance = 176},
-	{id = "warrior helmet", chance = 176},
-	{id = "buckle", chance = 88}
+	{id = "terra mantle", chance = 176}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Ogre Shaman" nameDescription="an ogre shaman" experience="625" speed="210" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ogre Shaman" nameDescription="an ogre shaman" experience="625" speed="210" manacost="0">
 	<health now="800" max="800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="859" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="100" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -49,26 +51,26 @@
 		<voice sentence="A sacrifice for Great Hunger!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="90" />
-		<item id="strong mana potion" chance="15580" />
-		<item id="ogre ear stud" chance="13988" />
-		<item id="skull fetish" chance="10879" />
-		<item id="shamanic talisman" chance="10349" />
-		<item id="ogre nose ring" chance="10045" />
-		<item id="skull" chance="9629" />
-		<item id="prickly pear" chance="9212" countmax="2" />
-		<item id="broken shamanic staff" chance="6710" />
-		<item id="bone fetish" chance="5042" />
-		<item id="small ruby" chance="3146" />
-		<item id="necrotic rod" chance="2616" />
-		<item id="black pearl" chance="2578" />
-		<item id="wand of decay" chance="2312" />
-		<item id="waterskin" chance="2047" />
-		<item id="opal" chance="1668" countmax="2" />
-		<item id="onyx chip" chance="1327" countmax="2" />
-		<item id="shamanic mask" chance="872" />
-		<item id="ogre scepta" chance="493" />
-		<item id="didgeridoo" chance="455" />
-		<item id="voodoo doll" chance="38" />
+		<item name="gold coin" chance="100000" countmax="90" />
+		<item name="strong mana potion" chance="15580" />
+		<item name="ogre ear stud" chance="13988" />
+		<item name="skull fetish" chance="10879" />
+		<item name="shamanic talisman" chance="10349" />
+		<item name="ogre nose ring" chance="10045" />
+		<item name="skull" chance="9629" />
+		<item name="prickly pear" chance="9212" countmax="2" />
+		<item name="broken shamanic staff" chance="6710" />
+		<item name="bone fetish" chance="5042" />
+		<item name="small ruby" chance="3146" />
+		<item name="necrotic rod" chance="2616" />
+		<item name="black pearl" chance="2578" />
+		<item name="wand of decay" chance="2312" />
+		<item name="waterskin" chance="2047" />
+		<item name="opal" chance="1668" countmax="2" />
+		<item name="onyx chip" chance="1327" countmax="2" />
+		<item name="shamanic mask" chance="872" />
+		<item name="ogre scepta" chance="493" />
+		<item name="didgeridoo" chance="455" />
+		<item name="voodoo doll" chance="38" />
 	</loot>
 </monster>

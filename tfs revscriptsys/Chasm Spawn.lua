@@ -5,7 +5,7 @@ monster.name = "Chasm Spawn"
 monster.description = "a chasm spawn"
 monster.experience = 2700
 monster.outfit = {
-	lookType = 0,
+	lookType = 1037,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -98,20 +99,7 @@ monster.loot = {
 	{id = "green crystal shard", chance = 7290},
 	{id = "violet crystal shard", chance = 4786},
 	{id = "suspicious device", chance = 1362},
-	{id = "mushroom backpack", chance = 460},
-	{id = "chasm spawn tail", chance = 92066},
-	{id = "chasm spawn head", chance = 47331},
-	{id = "wood mushroom", chance = 38954, maxCount = 4},
-	{id = "chasm spawn abdomen", chance = 35088},
-	{id = "brown mushroom", chance = 27706, maxCount = 5},
-	{id = "orange mushroom", chance = 21742, maxCount = 3},
-	{id = "small enchanted emerald", chance = 15648},
-	{id = "small enchanted amethyst", chance = 11745, maxCount = 3},
-	{id = "blue crystal shard", chance = 11175},
-	{id = "green crystal shard", chance = 11082},
-	{id = "violet crystal shard", chance = 6591},
-	{id = "mushroom backpack", chance = 847},
-	{id = "suspicious device", chance = 700}
+	{id = "mushroom backpack", chance = 460}
 }
 
 mType:register(monster)

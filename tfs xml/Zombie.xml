@@ -1,6 +1,7 @@
-﻿<monster name="Zombie" nameDescription="a zombie" experience="280" speed="180" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Zombie" nameDescription="a zombie" experience="280" speed="180" manacost="0">
 	<health now="500" max="500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="311" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="100" />
 		<element firePercent="50" />
 		<element lifedrainPercent="100" />
@@ -49,15 +51,15 @@
 		<voice sentence="Httt.... hmnnsss..." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="82081" countmax="65" />
-		<item id="brass helmet" chance="9726" />
-		<item id="mace" chance="7793" />
-		<item id="battle hammer" chance="6841" />
-		<item id="heavily rusted armor" chance="5843" />
-		<item id="steel helmet" chance="4857" />
-		<item id="halberd" chance="3832" />
-		<item id="life ring" chance="975" />
-		<item id="mana potion" chance="772" />
-		<item id="simple dress" chance="547" />
+		<item name="gold coin" chance="82061" countmax="65" />
+		<item name="brass helmet" chance="9732" />
+		<item name="mace" chance="7795" />
+		<item name="battle hammer" chance="6838" />
+		<item name="heavily rusted armor" chance="5852" />
+		<item name="steel helmet" chance="4855" />
+		<item name="halberd" chance="3830" />
+		<item name="life ring" chance="974" />
+		<item name="mana potion" chance="772" />
+		<item name="simple dress" chance="546" />
 	</loot>
 </monster>

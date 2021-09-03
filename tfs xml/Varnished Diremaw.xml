@@ -1,4 +1,5 @@
-﻿<monster name="Varnished Diremaw" nameDescription="a varnished diremaw" experience="5900" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Varnished Diremaw" nameDescription="a varnished diremaw" experience="5900" speed="240" manacost="0">
 	<health now="9000" max="9000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="-5" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,30 +45,30 @@
 	</attacks>
 	<defenses armor="50" defense="50" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="9" />
-		<item id="terra rod" chance="29992" />
-		<item id="emerald bangle" chance="11963" />
-		<item id="brown crystal splinter" chance="9857" />
-		<item id="red gem" chance="8762" />
-		<item id="small diamond" chance="8425" />
-		<item id="green crystal splinter" chance="7751" />
-		<item id="varnished diremaw legs" chance="7161" />
-		<item id="cyan crystal fragment" chance="7077" />
-		<item id="violet crystal shard" chance="6487" />
-		<item id="green gem" chance="5476" />
-		<item id="small emerald" chance="5476" />
-		<item id="green crystal shard" chance="5139" />
-		<item id="hailstorm rod" chance="4971" />
-		<item id="diamond sceptre" chance="4549" />
-		<item id="varnished diremaw brainpan" chance="4212" />
-		<item id="wand of starstorm" chance="3623" />
-		<item id="springsprout rod" chance="2949" />
-		<item id="spellbook of warding" chance="2864" />
-		<item id="haunted blade" chance="1516" />
-		<item id="fur armor" chance="1432" />
-		<item id="crown shield" chance="1348" />
-		<item id="glacier shoes" chance="1348" />
-		<item id="wood cape" chance="1179" />
-		<item id="glacier kilt" chance="1011" />
+		<item name="platinum coin" chance="100000" countmax="9" />
+		<item name="terra rod" chance="28837" />
+		<item name="emerald bangle" chance="11809" />
+		<item name="brown crystal splinter" chance="9730" />
+		<item name="red gem" chance="8138" />
+		<item name="green crystal splinter" chance="7828" />
+		<item name="small diamond" chance="7740" />
+		<item name="varnished diremaw legs" chance="7253" />
+		<item name="cyan crystal fragment" chance="6369" />
+		<item name="green gem" chance="6236" />
+		<item name="violet crystal shard" chance="6148" />
+		<item name="green crystal shard" chance="5750" />
+		<item name="small emerald" chance="5573" />
+		<item name="varnished diremaw brainpan" chance="5086" />
+		<item name="hailstorm rod" chance="4556" />
+		<item name="diamond sceptre" chance="3981" />
+		<item name="wand of starstorm" chance="3538" />
+		<item name="springsprout rod" chance="2786" />
+		<item name="spellbook of warding" chance="2300" />
+		<item name="glacier shoes" chance="1813" />
+		<item name="haunted blade" chance="1636" />
+		<item name="fur armor" chance="1548" />
+		<item name="wood cape" chance="1504" />
+		<item name="crown shield" chance="1327" />
+		<item name="glacier kilt" chance="1150" />
 	</loot>
 </monster>

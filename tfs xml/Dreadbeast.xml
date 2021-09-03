@@ -1,4 +1,5 @@
-﻿<monster name="Dreadbeast" nameDescription="a dreadbeast" experience="250" speed="136" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dreadbeast" nameDescription="a dreadbeast" experience="250" speed="136" manacost="0">
 	<health now="800" max="800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="30" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="100" />
 		<element firePercent="55" />
 		<element lifedrainPercent="100" />
@@ -45,15 +47,15 @@
 		<defense name="healing" interval="2000" chance="20" min="35" max="65" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="12524" countmax="88" />
-		<item id="bone" chance="10057" />
-		<item id="plate armor" chance="3416" />
-		<item id="skull" chance="3036" />
-		<item id="big bone" chance="2087" />
-		<item id="bone club" chance="2087" />
-		<item id="bone shield" chance="1328" />
-		<item id="green mushroom" chance="1139" />
-		<item id="hardened bone" chance="759" />
-		<item id="health potion" chance="759" />
+		<item name="gold coin" chance="12524" countmax="88" />
+		<item name="bone" chance="10057" />
+		<item name="plate armor" chance="3416" />
+		<item name="skull" chance="3036" />
+		<item name="big bone" chance="2087" />
+		<item name="bone club" chance="2087" />
+		<item name="bone shield" chance="1328" />
+		<item name="green mushroom" chance="1139" />
+		<item name="hardened bone" chance="759" />
+		<item name="health potion" chance="759" />
 	</loot>
 </monster>

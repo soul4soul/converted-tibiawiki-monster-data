@@ -1,6 +1,7 @@
-﻿<monster name="Haunted Dragon" nameDescription="a haunted dragon" experience="6500" speed="280" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Haunted Dragon" nameDescription="a haunted dragon" experience="6500" speed="280" manacost="0">
 	<health now="6500" max="6500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="231" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -43,28 +45,28 @@
 	</attacks>
 	<defenses armor="58" defense="58" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="184" />
-		<item id="platinum coin" chance="35005" countmax="2" />
-		<item id="unholy bone" chance="33727" />
-		<item id="ancient coin" chance="29007" countmax="2" />
-		<item id="black pearl" chance="25565" countmax="2" />
-		<item id="great health potion" chance="24484" countmax="2" />
-		<item id="small sapphire" chance="24090" countmax="2" />
-		<item id="assassin star" chance="23107" countmax="5" />
-		<item id="great mana potion" chance="20747" countmax="2" />
-		<item id="hardened bone" chance="15929" />
-		<item id="demonic essence" chance="14848" />
-		<item id="mind stone" chance="8260" />
-		<item id="dragon necklace" chance="5998" />
-		<item id="red gem" chance="5408" />
-		<item id="dark armor" chance="4818" />
-		<item id="dark shield" chance="4523" />
-		<item id="dragonbone staff" chance="3343" />
-		<item id="gold ingot" chance="2655" />
-		<item id="death ring" chance="1770" />
-		<item id="life crystal" chance="1180" />
-		<item id="spellweaver's robe" chance="688" />
-		<item id="dragon slayer" chance="590" />
-		<item id="skullcracker armor" chance="98" />
+		<item name="gold coin" chance="100000" countmax="184" />
+		<item name="platinum coin" chance="35005" countmax="2" />
+		<item name="unholy bone" chance="33727" />
+		<item name="ancient coin" chance="29007" countmax="2" />
+		<item name="black pearl" chance="25565" countmax="2" />
+		<item name="great health potion" chance="24484" countmax="2" />
+		<item name="small sapphire" chance="24090" countmax="2" />
+		<item name="assassin star" chance="23107" countmax="5" />
+		<item name="great mana potion" chance="20747" countmax="2" />
+		<item name="hardened bone" chance="15929" />
+		<item name="demonic essence" chance="14848" />
+		<item name="mind stone" chance="8260" />
+		<item name="dragon necklace" chance="5998" />
+		<item name="red gem" chance="5408" />
+		<item name="dark armor" chance="4818" />
+		<item name="dark shield" chance="4523" />
+		<item name="dragonbone staff" chance="3343" />
+		<item name="gold ingot" chance="2655" />
+		<item name="death ring" chance="1770" />
+		<item name="life crystal" chance="1180" />
+		<item name="spellweaver's robe" chance="688" />
+		<item name="dragon slayer" chance="590" />
+		<item name="skullcracker armor" chance="98" />
 	</loot>
 </monster>

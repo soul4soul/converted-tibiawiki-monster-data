@@ -1,6 +1,7 @@
-﻿<monster name="Rustheap Golem" nameDescription="a rustheap golem" experience="2100" speed="250" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Rustheap Golem" nameDescription="a rustheap golem" experience="2100" speed="250" manacost="0">
 	<health now="2800" max="2800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="603" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
 		<element firePercent="70" />
 		<element lifedrainPercent="0" />
@@ -50,55 +52,22 @@
 		<voice sentence="*frzzp*" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99929" countmax="290" />
-		<item id="platinum coin" chance="56778" countmax="3" />
-		<item id="necromantic rust" chance="14620" />
-		<item id="strong health potion" chance="6033" countmax="2" />
-		<item id="strong mana potion" chance="6033" countmax="2" />
-		<item id="flask of rust remover" chance="3762" />
-		<item id="slightly rusted armor" chance="3407" />
-		<item id="gearwheel chain" chance="2839" />
-		<item id="slightly rusted legs" chance="2839" />
-		<item id="nail" chance="2555" />
-		<item id="bronze gear wheel" chance="2058" />
-		<item id="war hammer" chance="1987" />
-		<item id="black pearl" chance="1632" />
-		<item id="white pearl" chance="1278" />
-		<item id="iron ore" chance="1136" />
-		<item id="metal bat" chance="284" />
-		<item id="spiked squelcher" chance="142" />
-		<item id="gold coin" chance="100000" countmax="300" />
-		<item id="platinum coin" chance="100000" countmax="3" />
-		<item id="necromantic rust" chance="100000" />
-		<item id="strong mana potion" chance="100000" countmax="2" />
-		<item id="strong health potion" chance="100000" countmax="2" />
-		<item id="flask of rust remover" chance="100000" />
-		<item id="gearwheel chain" chance="100000" />
-		<item id="slightly rusted armor" chance="100000" />
-		<item id="slightly rusted legs" chance="100000" />
-		<item id="bronze gear wheel" chance="100000" />
-		<item id="nail" chance="100000" />
-		<item id="war hammer" chance="100000" />
-		<item id="black pearl" chance="100000" />
-		<item id="white pearl" chance="100000" />
-		<item id="iron ore" chance="100000" />
-		<item id="metal bat" chance="100000" />
-		<item id="spiked squelcher" chance="89425" />
-		<item id="gold coin" chance="49823" countmax="288" />
-		<item id="platinum coin" chance="30802" countmax="3" />
-		<item id="necromantic rust" chance="9084" />
-		<item id="strong health potion" chance="3265" />
-		<item id="strong mana potion" chance="2555" />
-		<item id="flask of rust remover" chance="2484" />
-		<item id="slightly rusted armor" chance="2271" />
-		<item id="gearwheel chain" chance="1632" />
-		<item id="nail" chance="994" />
-		<item id="slightly rusted legs" chance="994" />
-		<item id="iron ore" chance="923" />
-		<item id="war hammer" chance="923" />
-		<item id="white pearl" chance="781" />
-		<item id="metal bat" chance="426" />
-		<item id="black pearl" chance="355" />
-		<item id="spiked squelcher" chance="213" />
+		<item name="gold coin" chance="99508" countmax="280" />
+		<item name="platinum coin" chance="54098" countmax="3" />
+		<item name="necromantic rust" chance="14262" />
+		<item name="strong health potion" chance="7213" countmax="2" />
+		<item name="strong mana potion" chance="6393" countmax="2" />
+		<item name="gearwheel chain" chance="4426" />
+		<item name="nail" chance="4262" />
+		<item name="flask of rust remover" chance="3443" />
+		<item name="bronze gear wheel" chance="3279" />
+		<item name="slightly rusted legs" chance="3115" />
+		<item name="slightly rusted armor" chance="2623" />
+		<item name="white pearl" chance="2459" />
+		<item name="iron ore" chance="1639" />
+		<item name="black pearl" chance="1475" />
+		<item name="war hammer" chance="1148" />
+		<item name="spiked squelcher" chance="656" />
+		<item name="metal bat" chance="328" />
 	</loot>
 </monster>

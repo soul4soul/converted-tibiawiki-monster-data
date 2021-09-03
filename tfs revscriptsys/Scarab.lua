@@ -5,7 +5,7 @@ monster.name = "Scarab"
 monster.description = "a scarab"
 monster.experience = 120
 monster.outfit = {
-	lookType = 0,
+	lookType = 83,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,10 +88,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87318, maxCount = 52},
-	{id = "meat", chance = 39933},
-	{id = "piece of scarab shell", chance = 5034},
-	{id = "scarab coin", chance = 1112},
+	{id = "gold coin", chance = 87316, maxCount = 52},
+	{id = "meat", chance = 39931},
+	{id = "piece of scarab shell", chance = 5033},
+	{id = "scarab coin", chance = 1111},
 	{id = "small amethyst", chance = 512},
 	{id = "small emerald", chance = 344},
 	{id = "daramian mace", chance = 304}

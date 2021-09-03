@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,13 +92,7 @@ monster.loot = {
 	{id = "horn (ring)", chance = 50000},
 	{id = "meat", chance = 50000, maxCount = 2},
 	{id = "lump of dirt", chance = 100000, maxCount = 2},
-	{id = "silver raid token", chance = 50000},
-	{id = "gold coin", chance = 100000, maxCount = 70},
-	{id = "meat", chance = 100000, maxCount = 2},
-	{id = "lump of dirt", chance = 100000},
-	{id = "carrion worm fang", chance = 100000},
-	{id = "life ring", chance = 100000},
-	{id = "horn (ring)", chance = 100000}
+	{id = "silver raid token", chance = 50000}
 }
 
 mType:register(monster)

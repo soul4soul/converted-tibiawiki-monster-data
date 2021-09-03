@@ -1,6 +1,7 @@
-﻿<monster name="Roast Pork" nameDescription="a roast pork" experience="280" speed="180" manacost="300">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Roast Pork" nameDescription="a roast pork" experience="280" speed="180" manacost="300">
 	<health now="420" max="420" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1256" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -43,10 +45,10 @@
 	</attacks>
 	<defenses armor="28" defense="28" />
 	<loot>
-		<item id="meat" chance="15823" />
-		<item id="ham" chance="9290" />
-		<item id="roasted meat" chance="5211" />
-		<item id="beer tap" chance="1662" />
-		<item id="leberkassemmel" chance="76" />
+		<item name="meat" chance="15823" />
+		<item name="ham" chance="9290" />
+		<item name="roasted meat" chance="5211" />
+		<item name="beer tap" chance="1662" />
+		<item name="leberkassemmel" chance="76" />
 	</loot>
 </monster>

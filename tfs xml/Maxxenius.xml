@@ -1,4 +1,5 @@
-﻿<monster name="Maxxenius" nameDescription="" experience="55000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Maxxenius" nameDescription="" experience="55000" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="-500" />
+		<element energyPercent="-500" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,44 +45,44 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="energy bar" chance="100000" />
-		<item id="mysterious remains" chance="100000" />
-		<item id="piggy bank" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="silver token" chance="100000" countmax="3" />
-		<item id="gold token" chance="69697" countmax="2" />
-		<item id="ultimate mana potion" chance="63636" countmax="20" />
-		<item id="ultimate spirit potion" chance="54545" countmax="20" />
-		<item id="royal star" chance="53030" countmax="100" />
-		<item id="supreme health potion" chance="50000" countmax="20" />
-		<item id="yellow gem" chance="43939" countmax="2" />
-		<item id="red gem" chance="33333" countmax="2" />
-		<item id="pomegranate" chance="27273" />
-		<item id="gold ingot" chance="22727" />
-		<item id="green gem" chance="21212" />
-		<item id="huge chunk of crude iron" chance="21212" />
-		<item id="mastermind potion" chance="21212" countmax="10" />
-		<item id="berserk potion" chance="19697" countmax="10" />
-		<item id="collar of blue plasma" chance="19697" />
-		<item id="bullseye potion" chance="18182" countmax="10" />
-		<item id="giant shimmering pearl" chance="16667" />
-		<item id="magic sulphur" chance="15152" />
-		<item id="collar of green plasma" chance="13636" />
-		<item id="collar of red plasma" chance="13636" />
-		<item id="crystal coin" chance="13636" countmax="3" />
-		<item id="ring of green plasma" chance="12121" />
-		<item id="skull staff" chance="10606" />
-		<item id="violet gem" chance="7576" />
-		<item id="blue gem" chance="6061" />
-		<item id="chaos mace" chance="6061" />
-		<item id="energized limb" chance="6061" />
-		<item id="soul stone" chance="6061" />
-		<item id="abyss hammer" chance="4545" />
-		<item id="brain in a jar" chance="4545" />
-		<item id="giant ruby" chance="4545" />
-		<item id="ring of the sky" chance="4545" />
-		<item id="ring of blue plasma" chance="3030" />
-		<item id="ornate locket" chance="1515" />
-		<item id="ring of red plasma" chance="1515" />
+		<item name="energy bar" chance="100000" />
+		<item name="mysterious remains" chance="100000" />
+		<item name="piggy bank" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="5" />
+		<item name="silver token" chance="100000" countmax="3" />
+		<item name="gold token" chance="68657" countmax="2" />
+		<item name="ultimate mana potion" chance="62687" countmax="20" />
+		<item name="ultimate spirit potion" chance="55224" countmax="20" />
+		<item name="royal star" chance="52239" countmax="100" />
+		<item name="supreme health potion" chance="50746" countmax="20" />
+		<item name="yellow gem" chance="44776" countmax="2" />
+		<item name="red gem" chance="34328" countmax="2" />
+		<item name="pomegranate" chance="26866" />
+		<item name="gold ingot" chance="22388" />
+		<item name="huge chunk of crude iron" chance="22388" />
+		<item name="berserk potion" chance="20896" countmax="10" />
+		<item name="green gem" chance="20896" />
+		<item name="mastermind potion" chance="20896" countmax="10" />
+		<item name="collar of blue plasma" chance="19403" />
+		<item name="bullseye potion" chance="17910" countmax="10" />
+		<item name="giant shimmering pearl" chance="16418" />
+		<item name="crystal coin" chance="14925" countmax="3" />
+		<item name="magic sulphur" chance="14925" />
+		<item name="collar of green plasma" chance="13433" />
+		<item name="collar of red plasma" chance="13433" />
+		<item name="ring of green plasma" chance="11940" />
+		<item name="skull staff" chance="10448" />
+		<item name="violet gem" chance="7463" />
+		<item name="blue gem" chance="5970" />
+		<item name="chaos mace" chance="5970" />
+		<item name="energized limb" chance="5970" />
+		<item name="ring of the sky" chance="5970" />
+		<item name="soul stone" chance="5970" />
+		<item name="abyss hammer" chance="4478" />
+		<item name="brain in a jar" chance="4478" />
+		<item name="giant ruby" chance="4478" />
+		<item name="ring of blue plasma" chance="2985" />
+		<item name="ornate locket" chance="1493" />
+		<item name="ring of red plasma" chance="1493" />
 	</loot>
 </monster>

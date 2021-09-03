@@ -5,12 +5,12 @@ monster.name = "Vicious Manbat"
 monster.description = "a vicious manbat"
 monster.experience = 1200
 monster.outfit = {
-	lookType = 0,
+	lookType = 554,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
-	lookAddons = 0,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,16 +89,16 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 163},
-	{id = "tooth file", chance = 11905},
-	{id = "strong mana potion", chance = 10317},
-	{id = "blood preservation", chance = 7937},
-	{id = "vampire teeth", chance = 7937},
-	{id = "small ruby", chance = 7143, maxCount = 3},
-	{id = "strong health potion", chance = 7143},
-	{id = "bat wing", chance = 4762},
-	{id = "emerald bangle", chance = 2381},
-	{id = "vampire shield", chance = 1587},
-	{id = "red gem", chance = 794}
+	{id = "tooth file", chance = 11538},
+	{id = "strong mana potion", chance = 10000},
+	{id = "vampire teeth", chance = 8462},
+	{id = "blood preservation", chance = 7692},
+	{id = "small ruby", chance = 6923, maxCount = 3},
+	{id = "strong health potion", chance = 6923},
+	{id = "bat wing", chance = 4615},
+	{id = "emerald bangle", chance = 2308},
+	{id = "vampire shield", chance = 1538},
+	{id = "red gem", chance = 769}
 }
 
 mType:register(monster)

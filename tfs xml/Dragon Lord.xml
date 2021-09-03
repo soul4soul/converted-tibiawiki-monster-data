@@ -1,6 +1,7 @@
-﻿<monster name="Dragon Lord" nameDescription="a dragon lord" experience="2100" speed="200" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dragon Lord" nameDescription="a dragon lord" experience="2100" speed="200" manacost="0">
 	<health now="1900" max="1900" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="39" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="80" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -49,25 +51,25 @@
 		<voice sentence="ZCHHHHHHH" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="95289" countmax="246" />
-		<item id="dragon ham" chance="79754" />
-		<item id="green mushroom" chance="12115" />
-		<item id="royal spear" chance="9131" countmax="3" />
-		<item id="book (gemmed)" chance="9047" />
-		<item id="power bolt" chance="6577" countmax="7" />
-		<item id="energy ring" chance="5094" />
-		<item id="small sapphire" chance="5010" />
-		<item id="golden mug" chance="3070" />
-		<item id="red dragon scale" chance="1974" />
-		<item id="red dragon leather" chance="1022" />
-		<item id="strong health potion" chance="981" />
-		<item id="life crystal" chance="628" />
-		<item id="strange helmet" chance="377" />
-		<item id="fire sword" chance="285" />
-		<item id="tower shield" chance="266" />
-		<item id="royal helmet" chance="233" />
-		<item id="dragon scale mail" chance="134" />
-		<item id="dragon slayer" chance="108" />
-		<item id="dragon lord trophy" chance="94" />
+		<item name="gold coin" chance="95287" countmax="246" />
+		<item name="dragon ham" chance="79742" />
+		<item name="green mushroom" chance="12118" />
+		<item name="royal spear" chance="9130" countmax="3" />
+		<item name="book (gemmed)" chance="9051" />
+		<item name="power bolt" chance="6575" countmax="7" />
+		<item name="energy ring" chance="5090" />
+		<item name="small sapphire" chance="5006" />
+		<item name="golden mug" chance="3070" />
+		<item name="red dragon scale" chance="1972" />
+		<item name="red dragon leather" chance="1023" />
+		<item name="strong health potion" chance="982" />
+		<item name="life crystal" chance="628" />
+		<item name="strange helmet" chance="376" />
+		<item name="fire sword" chance="285" />
+		<item name="tower shield" chance="266" />
+		<item name="royal helmet" chance="232" />
+		<item name="dragon scale mail" chance="134" />
+		<item name="dragon slayer" chance="108" />
+		<item name="dragon lord trophy" chance="93" />
 	</loot>
 </monster>

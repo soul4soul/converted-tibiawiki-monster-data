@@ -5,7 +5,7 @@ monster.name = "Lizard Magistratus"
 monster.description = "a lizard magistratus"
 monster.experience = 2000
 monster.outfit = {
-	lookType = 0,
+	lookType = 115,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,13 +90,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 77880, maxCount = 50},
-	{id = "platinum coin", chance = 14593, maxCount = 20},
-	{id = "small ruby", chance = 10292, maxCount = 5},
-	{id = "strong mana potion", chance = 6912},
-	{id = "great mana potion", chance = 4608},
-	{id = "lizard leather", chance = 1382},
-	{id = "lizard scale", chance = 461}
+	{id = "gold coin", chance = 77889, maxCount = 50},
+	{id = "platinum coin", chance = 15264, maxCount = 20},
+	{id = "small ruby", chance = 10128, maxCount = 5},
+	{id = "strong mana potion", chance = 7275},
+	{id = "great mana potion", chance = 5136},
+	{id = "lizard leather", chance = 1284},
+	{id = "lizard scale", chance = 571}
 }
 
 mType:register(monster)

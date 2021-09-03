@@ -1,6 +1,7 @@
-﻿<monster name="Forest Fury" nameDescription="a forest fury" experience="235" speed="220" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Forest Fury" nameDescription="a forest fury" experience="235" speed="220" manacost="0">
 	<health now="480" max="480" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="569" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -48,14 +50,14 @@
 		<voice sentence="By the power of Greenskull!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="87779" countmax="55" />
-		<item id="bolt" chance="50567" countmax="15" />
-		<item id="meat" chance="24942" />
-		<item id="piercing bolt" chance="14869" countmax="5" />
-		<item id="venison" chance="12039" />
-		<item id="elven hoof" chance="7436" />
-		<item id="crossbow" chance="2578" />
-		<item id="small topaz" chance="480" />
-		<item id="elvish bow" chance="80" />
+		<item name="gold coin" chance="87779" countmax="55" />
+		<item name="bolt" chance="50567" countmax="15" />
+		<item name="meat" chance="24942" />
+		<item name="piercing bolt" chance="14869" countmax="5" />
+		<item name="venison" chance="12039" />
+		<item name="elven hoof" chance="7436" />
+		<item name="crossbow" chance="2578" />
+		<item name="small topaz" chance="480" />
+		<item name="elvish bow" chance="80" />
 	</loot>
 </monster>

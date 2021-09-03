@@ -5,7 +5,7 @@ monster.name = "Terror Bird"
 monster.description = "a terror bird"
 monster.experience = 150
 monster.outfit = {
-	lookType = 0,
+	lookType = 218,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,14 +90,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 82492, maxCount = 30},
-	{id = "meat", chance = 48554},
-	{id = "terrorbird beak", chance = 10282},
-	{id = "worm", chance = 9568},
-	{id = "colourful feather", chance = 3018},
-	{id = "health potion", chance = 714},
-	{id = "seeds", chance = 288},
-	{id = "feather headdress", chance = 113}
+	{id = "gold coin", chance = 82493, maxCount = 30},
+	{id = "meat", chance = 48540},
+	{id = "terrorbird beak", chance = 10257},
+	{id = "worm", chance = 9558},
+	{id = "colourful feather", chance = 3007},
+	{id = "health potion", chance = 711},
+	{id = "seeds", chance = 287},
+	{id = "feather headdress", chance = 112}
 }
 
 mType:register(monster)

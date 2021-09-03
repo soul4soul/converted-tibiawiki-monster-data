@@ -5,7 +5,7 @@ monster.name = "Kollos"
 monster.description = "a kollos"
 monster.experience = 2400
 monster.outfit = {
-	lookType = 0,
+	lookType = 458,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,14 +90,14 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99991, maxCount = 200},
-	{id = "platinum coin", chance = 66024, maxCount = 3},
-	{id = "compound eye", chance = 15724},
-	{id = "kollos shell", chance = 15242},
-	{id = "tarsal arrow", chance = 10201, maxCount = 5},
-	{id = "great mana potion", chance = 8942, maxCount = 4},
-	{id = "small ruby", chance = 8264, maxCount = 2},
+	{id = "platinum coin", chance = 66027, maxCount = 3},
+	{id = "compound eye", chance = 15723},
+	{id = "kollos shell", chance = 15241},
+	{id = "tarsal arrow", chance = 10200, maxCount = 5},
+	{id = "great mana potion", chance = 8941, maxCount = 4},
+	{id = "small ruby", chance = 8268, maxCount = 2},
 	{id = "gold ingot", chance = 5205},
-	{id = "ultimate health potion", chance = 3832, maxCount = 3},
+	{id = "ultimate health potion", chance = 3836, maxCount = 3},
 	{id = "ring of healing", chance = 3182},
 	{id = "giant shimmering pearl (brown)", chance = 2482},
 	{id = "hive scythe", chance = 786},

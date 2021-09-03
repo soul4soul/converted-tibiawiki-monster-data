@@ -1,6 +1,7 @@
-﻿<monster name="Toad" nameDescription="a toad" experience="60" speed="210" manacost="400">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Toad" nameDescription="a toad" experience="60" speed="210" manacost="400">
 	<health now="135" max="135" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="222" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -51,10 +53,10 @@
 		<voice sentence="Ribbit!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="82249" countmax="20" />
-		<item id="fish" chance="19454" />
-		<item id="poisonous slime" chance="5024" />
-		<item id="mace" chance="2906" />
-		<item id="war hammer" chance="136" />
+		<item name="gold coin" chance="82224" countmax="20" />
+		<item name="fish" chance="19471" />
+		<item name="poisonous slime" chance="5031" />
+		<item name="mace" chance="2916" />
+		<item name="war hammer" chance="142" />
 	</loot>
 </monster>

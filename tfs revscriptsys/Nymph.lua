@@ -5,7 +5,7 @@ monster.name = "Nymph"
 monster.description = "a nymph"
 monster.experience = 850
 monster.outfit = {
-	lookType = 0,
+	lookType = 989,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,23 +91,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 64921, maxCount = 110},
-	{id = "wild flowers", chance = 21795},
-	{id = "fresh fruit", chance = 15073},
-	{id = "colourful snail shell", chance = 12033},
-	{id = "dandelion seeds", chance = 11931},
-	{id = "great mana potion", chance = 3230},
-	{id = "small topaz", chance = 2386, maxCount = 2},
-	{id = "small enchanted amethyst", chance = 1906, maxCount = 2},
-	{id = "emerald bangle", chance = 1848},
-	{id = "sacred tree amulet", chance = 1149},
-	{id = "butterfly ring", chance = 975},
-	{id = "strong mana potion", chance = 902},
-	{id = "dream blossom staff", chance = 698},
-	{id = "blue rose", chance = 597},
-	{id = "flower wreath", chance = 597},
-	{id = "hibiscus dress", chance = 553},
-	{id = "boots of haste", chance = 306}
+	{id = "gold coin", chance = 64926, maxCount = 110},
+	{id = "wild flowers", chance = 21767},
+	{id = "fresh fruit", chance = 15042},
+	{id = "colourful snail shell", chance = 12062},
+	{id = "dandelion seeds", chance = 11903},
+	{id = "great mana potion", chance = 3240},
+	{id = "small topaz", chance = 2401, maxCount = 2},
+	{id = "small enchanted amethyst", chance = 1895, maxCount = 2},
+	{id = "emerald bangle", chance = 1851},
+	{id = "sacred tree amulet", chance = 1143},
+	{id = "butterfly ring", chance = 969},
+	{id = "strong mana potion", chance = 897},
+	{id = "dream blossom staff", chance = 694},
+	{id = "blue rose", chance = 593},
+	{id = "flower wreath", chance = 593},
+	{id = "hibiscus dress", chance = 550},
+	{id = "boots of haste", chance = 304}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Shaper Matriarch" nameDescription="a shaper matriarch" experience="1650" speed="260" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shaper Matriarch" nameDescription="a shaper matriarch" experience="1650" speed="260" manacost="0">
 	<health now="2000" max="2000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="933" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="40" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,25 +50,25 @@
 		<voice sentence="Tar Marra Zik Tazz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="138" />
-		<item id="platinum coin" chance="80709" countmax="2" />
-		<item id="rhino horn carving" chance="20134" />
-		<item id="cave turnip" chance="17720" countmax="2" />
-		<item id="tarnished rhino figurine" chance="15077" />
-		<item id="cracked alabaster vase" chance="15057" />
-		<item id="strong mana potion" chance="14751" />
-		<item id="skull" chance="9885" />
-		<item id="dark mushroom" chance="6839" />
-		<item id="ancient coin" chance="6015" />
-		<item id="gemmed figurine" chance="4368" />
-		<item id="rusted helmet" chance="4368" />
-		<item id="small ruby" chance="3812" />
-		<item id="prismatic quartz" chance="3027" />
-		<item id="black pearl" chance="2356" />
-		<item id="waterskin" chance="2069" />
-		<item id="wand of decay" chance="1648" />
-		<item id="stone skin amulet" chance="1533" />
-		<item id="ring of healing" chance="1264" />
-		<item id="wand of voodoo" chance="785" />
+		<item name="gold coin" chance="100000" countmax="138" />
+		<item name="platinum coin" chance="80715" countmax="2" />
+		<item name="rhino horn carving" chance="20301" />
+		<item name="cave turnip" chance="17668" countmax="2" />
+		<item name="tarnished rhino figurine" chance="15181" />
+		<item name="cracked alabaster vase" chance="15163" />
+		<item name="strong mana potion" chance="14545" />
+		<item name="skull" chance="9824" />
+		<item name="dark mushroom" chance="6737" />
+		<item name="ancient coin" chance="5974" />
+		<item name="rusted helmet" chance="4413" />
+		<item name="gemmed figurine" chance="4285" />
+		<item name="small ruby" chance="3777" />
+		<item name="prismatic quartz" chance="3087" />
+		<item name="black pearl" chance="2415" />
+		<item name="waterskin" chance="2088" />
+		<item name="wand of decay" chance="1616" />
+		<item name="stone skin amulet" chance="1543" />
+		<item name="ring of healing" chance="1253" />
+		<item name="wand of voodoo" chance="781" />
 	</loot>
 </monster>

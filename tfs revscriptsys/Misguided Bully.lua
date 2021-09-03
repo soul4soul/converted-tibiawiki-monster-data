@@ -5,11 +5,11 @@ monster.name = "Misguided Bully"
 monster.description = "a misguided bully"
 monster.experience = 1200
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 159,
+	lookHead = 58,
+	lookBody = 21,
+	lookLegs = 41,
+	lookFeet = 76,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,11 +88,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 81761, maxCount = 173},
-	{id = "meat", chance = 45912},
-	{id = "rubbish amulet", chance = 6027},
-	{id = "gold ingot", chance = 4822},
-	{id = "blue gem", chance = 734}
+	{id = "gold coin", chance = 81856, maxCount = 173},
+	{id = "meat", chance = 45670},
+	{id = "rubbish amulet", chance = 6031},
+	{id = "gold ingot", chance = 4742},
+	{id = "blue gem", chance = 722}
 }
 
 mType:register(monster)

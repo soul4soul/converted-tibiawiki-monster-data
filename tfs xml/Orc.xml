@@ -1,6 +1,7 @@
-﻿<monster name="Orc" nameDescription="an orc" experience="25" speed="150" manacost="300">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Orc" nameDescription="an orc" experience="25" speed="150" manacost="300">
 	<health now="70" max="70" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="5" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,25 +50,15 @@
 		<voice sentence="Grak brrretz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="85382" countmax="14" />
-		<item id="meat" chance="10144" />
-		<item id="studded armor" chance="8418" />
-		<item id="studded shield" chance="6587" />
-		<item id="sabre" chance="5847" />
-		<item id="axe" chance="5565" />
-		<item id="studded helmet" chance="2783" />
-		<item id="heavy old tome" chance="2430" />
-		<item id="orc leather" chance="423" />
-		<item id="orc tooth" chance="70" />
-		<item id="gold coin" chance="100000" countmax="17" />
-		<item id="meat" chance="100000" />
-		<item id="studded armor" chance="100000" />
-		<item id="studded shield" chance="100000" />
-		<item id="sabre" chance="100000" />
-		<item id="axe" chance="100000" />
-		<item id="studded helmet" chance="79923" />
-		<item id="orc leather" chance="13561" />
-		<item id="orc tooth" chance="2325" />
-		<item id="heavy old tome" chance="70" />
+		<item name="gold coin" chance="85222" countmax="14" />
+		<item name="meat" chance="10139" />
+		<item name="studded armor" chance="8284" />
+		<item name="studded shield" chance="6561" />
+		<item name="sabre" chance="5732" />
+		<item name="axe" chance="5600" />
+		<item name="studded helmet" chance="2750" />
+		<item name="heavy old tome" chance="2353" />
+		<item name="orc leather" chance="398" />
+		<item name="orc tooth" chance="66" />
 	</loot>
 </monster>

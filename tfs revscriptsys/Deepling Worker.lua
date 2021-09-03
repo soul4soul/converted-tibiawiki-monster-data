@@ -5,7 +5,7 @@ monster.name = "Deepling Worker"
 monster.description = "a deepling worker"
 monster.experience = 130
 monster.outfit = {
-	lookType = 0,
+	lookType = 470,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,12 +88,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 75530, maxCount = 25},
-	{id = "fish", chance = 11896, maxCount = 3},
-	{id = "deepling scales", chance = 6889},
-	{id = "heavy trident", chance = 496},
-	{id = "fish fin", chance = 333},
-	{id = "eye of a deepling", chance = 291},
+	{id = "gold coin", chance = 75548, maxCount = 25},
+	{id = "fish", chance = 11910, maxCount = 3},
+	{id = "deepling scales", chance = 6902},
+	{id = "heavy trident", chance = 495},
+	{id = "fish fin", chance = 332},
+	{id = "eye of a deepling", chance = 302},
 	{id = "small emerald", chance = 121}
 }
 

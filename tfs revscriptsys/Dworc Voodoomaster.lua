@@ -5,7 +5,7 @@ monster.name = "Dworc Voodoomaster"
 monster.description = "a dworc voodoomaster"
 monster.experience = 55
 monster.outfit = {
-	lookType = 0,
+	lookType = 214,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,14 +93,14 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 74844, maxCount = 17},
-	{id = "leather armor", chance = 10083},
-	{id = "bone", chance = 5811},
-	{id = "torch", chance = 5552},
-	{id = "big bone", chance = 3090},
+	{id = "leather armor", chance = 10082},
+	{id = "bone", chance = 5813},
+	{id = "torch", chance = 5551},
+	{id = "big bone", chance = 3089},
 	{id = "skull", chance = 1963, maxCount = 3},
 	{id = "poison dagger", chance = 1017},
-	{id = "health potion", chance = 593},
-	{id = "strange symbol", chance = 504},
+	{id = "health potion", chance = 592},
+	{id = "strange symbol", chance = 503},
 	{id = "tribal mask", chance = 478},
 	{id = "voodoo doll", chance = 122}
 }

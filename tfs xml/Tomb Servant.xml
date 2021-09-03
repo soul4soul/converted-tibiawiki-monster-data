@@ -1,6 +1,7 @@
-﻿<monster name="Tomb Servant" nameDescription="a tomb servant" experience="215" speed="156" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tomb Servant" nameDescription="a tomb servant" experience="215" speed="156" manacost="0">
 	<health now="475" max="475" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="100" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -47,13 +49,13 @@
 		<voice sentence="Ngl..Nglll...Gll" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="82236" countmax="109" />
-		<item id="bone" chance="50272" />
-		<item id="worm" chance="24724" countmax="12" />
-		<item id="scarab coin" chance="7993" />
-		<item id="longsword" chance="6463" />
-		<item id="bone shield" chance="5198" />
-		<item id="rotten meat" chance="1738" />
-		<item id="fist on a stick" chance="184" />
+		<item name="gold coin" chance="82226" countmax="109" />
+		<item name="bone" chance="50263" />
+		<item name="worm" chance="24721" countmax="12" />
+		<item name="scarab coin" chance="7977" />
+		<item name="longsword" chance="6460" />
+		<item name="bone shield" chance="5198" />
+		<item name="rotten meat" chance="1741" />
+		<item name="fist on a stick" chance="192" />
 	</loot>
 </monster>

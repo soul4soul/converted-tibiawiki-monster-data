@@ -5,7 +5,7 @@ monster.name = "Dwarf Guard"
 monster.description = "a dwarf guard"
 monster.experience = 165
 monster.outfit = {
-	lookType = 0,
+	lookType = 70,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,32 +88,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "white mushroom", chance = 55259, maxCount = 2},
+	{id = "white mushroom", chance = 55257, maxCount = 2},
 	{id = "leather boots", chance = 40053},
 	{id = "gold coin", chance = 39986, maxCount = 30},
-	{id = "scale armor", chance = 9015},
-	{id = "battle shield", chance = 6020},
+	{id = "scale armor", chance = 9016},
+	{id = "battle shield", chance = 6019},
 	{id = "battle hammer", chance = 3852},
-	{id = "steel helmet", chance = 1546},
+	{id = "steel helmet", chance = 1545},
 	{id = "double axe", chance = 592},
 	{id = "iron ore", chance = 483},
 	{id = "health potion", chance = 395},
 	{id = "axe ring", chance = 199},
 	{id = "coal", chance = 193},
-	{id = "small amethyst", chance = 121},
-	{id = "white mushroom", chance = 11720, maxCount = 2},
-	{id = "gold coin", chance = 8634, maxCount = 30},
-	{id = "leather boots", chance = 8474},
-	{id = "scale armor", chance = 2002},
-	{id = "battle shield", chance = 1307},
-	{id = "battle hammer", chance = 863},
-	{id = "steel helmet", chance = 317},
-	{id = "double axe", chance = 118},
-	{id = "iron ore", chance = 118},
-	{id = "health potion", chance = 103},
-	{id = "axe ring", chance = 60},
-	{id = "small amethyst", chance = 9},
-	{id = "coal", chance = 3}
+	{id = "small amethyst", chance = 121}
 }
 
 mType:register(monster)

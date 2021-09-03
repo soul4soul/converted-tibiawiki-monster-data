@@ -5,11 +5,11 @@ monster.name = "Misguided Thief"
 monster.description = "a misguided thief"
 monster.experience = 1200
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 684,
+	lookHead = 58,
+	lookBody = 40,
+	lookLegs = 60,
+	lookFeet = 116,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,17 +88,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 74812, maxCount = 80},
-	{id = "ham", chance = 56037},
-	{id = "meat", chance = 44887},
-	{id = "red gem", chance = 7163},
-	{id = "rubbish amulet", chance = 6701},
-	{id = "strong mana potion", chance = 6528},
-	{id = "strong health potion", chance = 6008},
-	{id = "yellow gem", chance = 5777},
-	{id = "blue crystal splinter", chance = 867},
-	{id = "stone skin amulet", chance = 578},
-	{id = "gold ring", chance = 347}
+	{id = "gold coin", chance = 74787, maxCount = 80},
+	{id = "ham", chance = 56104},
+	{id = "meat", chance = 44691},
+	{id = "red gem", chance = 7041},
+	{id = "strong mana potion", chance = 6701},
+	{id = "rubbish amulet", chance = 6644},
+	{id = "strong health potion", chance = 6019},
+	{id = "yellow gem", chance = 5792},
+	{id = "blue crystal splinter", chance = 852},
+	{id = "stone skin amulet", chance = 625},
+	{id = "gold ring", chance = 341}
 }
 
 mType:register(monster)

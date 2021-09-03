@@ -1,4 +1,5 @@
-﻿<monster name="The Evil Eye" nameDescription="" experience="750" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Evil Eye" nameDescription="" experience="750" speed="0" manacost="0">
 	<health now="1200" max="1200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -46,16 +48,16 @@
 		<voice sentence="653768764!" yell="false" />
 	</voices>
 	<loot>
-		<item id="bonelord eye" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="229" />
-		<item id="small flask of eyedrops" chance="100000" />
-		<item id="morning star" chance="50000" />
-		<item id="steel shield" chance="46429" />
-		<item id="two handed sword" chance="32143" />
-		<item id="longsword" chance="25000" />
-		<item id="spellbook" chance="21429" />
-		<item id="great mana potion" chance="14286" />
-		<item id="bonelord shield" chance="10714" />
-		<item id="terra mantle" chance="10714" />
+		<item name="bonelord eye" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="229" />
+		<item name="small flask of eyedrops" chance="100000" />
+		<item name="morning star" chance="51724" />
+		<item name="steel shield" chance="44828" />
+		<item name="two handed sword" chance="31034" />
+		<item name="longsword" chance="24138" />
+		<item name="spellbook" chance="24138" />
+		<item name="great mana potion" chance="17241" />
+		<item name="bonelord shield" chance="10345" />
+		<item name="terra mantle" chance="10345" />
 	</loot>
 </monster>

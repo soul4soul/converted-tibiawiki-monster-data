@@ -1,4 +1,5 @@
-﻿<monster name="Ratmiral Blackwhiskers" nameDescription="" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ratmiral Blackwhiskers" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -42,28 +44,5 @@
 		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
 	</attacks>
 	<defenses armor="10" defense="5" />
-	<loot>
-		<item id="crystal coin" chance="100000" countmax="2" />
-		<item id="platinum coin" chance="100000" countmax="20" />
-		<item id="ultimate health potion" chance="100000" countmax="10" />
-		<item id="great spirit potion" chance="100000" countmax="10" />
-		<item id="great mana potion" chance="82609" countmax="10" />
-		<item id="great health potion" chance="78261" countmax="10" />
-		<item id="ultimate mana potion" chance="78261" countmax="10" />
-		<item id="mastermind potion" chance="43478" countmax="5" />
-		<item id="berserk potion" chance="39130" countmax="5" />
-		<item id="bullseye potion" chance="34783" countmax="5" />
-		<item id="pirate coin" chance="30435" countmax="55" />
-		<item id="small treasure chest" chance="21739" />
-		<item id="golden dustbin" chance="17391" />
-		<item id="ratmiral's hat" chance="17391" />
-		<item id="cheesy membership card" chance="8696" />
-		<item id="golden cheese wedge" chance="8696" />
-		<item id="soap" chance="8696" />
-		<item id="tiara" chance="8696" />
-		<item id="amber (item)" chance="4348" />
-		<item id="exotic amulet" chance="4348" />
-		<item id="scrubbing brush" chance="4348" />
-		<item id="throwing axe" chance="4348" />
-	</loot>
+	<loot />
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Deepling Tyrant"
 monster.description = "a deepling tyrant"
 monster.experience = 4200
 monster.outfit = {
-	lookType = 0,
+	lookType = 442,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,19 +89,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "platinum coin", chance = 70396, maxCount = 4},
-	{id = "deepling breaktime snack", chance = 35538},
-	{id = "great health potion", chance = 32695, maxCount = 3},
-	{id = "great mana potion", chance = 32478, maxCount = 3},
-	{id = "deepling claw", chance = 29728},
-	{id = "eye of a deepling", chance = 29481},
-	{id = "deepling guard belt buckle", chance = 23640},
-	{id = "small sapphire", chance = 9425, maxCount = 5},
-	{id = "heavy trident", chance = 3523},
-	{id = "deepling squelcher", chance = 1452},
-	{id = "guardian axe", chance = 1360},
-	{id = "ornate crossbow", chance = 1174},
-	{id = "deepling backpack", chance = 433},
+	{id = "platinum coin", chance = 70471, maxCount = 4},
+	{id = "deepling breaktime snack", chance = 35404},
+	{id = "great health potion", chance = 32636, maxCount = 3},
+	{id = "great mana potion", chance = 32452, maxCount = 3},
+	{id = "deepling claw", chance = 29775},
+	{id = "eye of a deepling", chance = 29468},
+	{id = "deepling guard belt buckle", chance = 23624},
+	{id = "small sapphire", chance = 9382, maxCount = 5},
+	{id = "heavy trident", chance = 3568},
+	{id = "deepling squelcher", chance = 1476},
+	{id = "guardian axe", chance = 1353},
+	{id = "ornate crossbow", chance = 1169},
+	{id = "deepling backpack", chance = 431},
 	{id = "foxtail", chance = 31}
 }
 

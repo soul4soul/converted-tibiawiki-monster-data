@@ -1,6 +1,7 @@
-﻿<monster name="Deepling Warrior" nameDescription="a deepling warrior" experience="1500" speed="290" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Deepling Warrior" nameDescription="a deepling warrior" experience="1500" speed="290" manacost="0">
 	<health now="1600" max="1600" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="441" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -48,20 +50,20 @@
 		<voice sentence="Jou wjil ajll djie!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="180" />
-		<item id="deepling filet" chance="15227" />
-		<item id="deeptags" chance="14971" />
-		<item id="deepling ridge" chance="11021" />
-		<item id="great mana potion" chance="10207" />
-		<item id="deepling warts" chance="10057" />
-		<item id="great health potion" chance="10028" />
-		<item id="vortex bolt" chance="3434" countmax="5" />
-		<item id="small emerald" chance="3101" />
-		<item id="life ring" chance="3002" />
-		<item id="heavy trident" chance="988" />
-		<item id="fish fin" chance="880" />
-		<item id="eye of a deepling" chance="611" />
-		<item id="warrior's shield" chance="607" />
-		<item id="warrior's axe" chance="511" />
+		<item name="gold coin" chance="100000" countmax="180" />
+		<item name="deepling filet" chance="15225" />
+		<item name="deeptags" chance="14966" />
+		<item name="deepling ridge" chance="11015" />
+		<item name="great mana potion" chance="10199" />
+		<item name="deepling warts" chance="10051" />
+		<item name="great health potion" chance="10043" />
+		<item name="vortex bolt" chance="3431" countmax="5" />
+		<item name="small emerald" chance="3100" />
+		<item name="life ring" chance="3008" />
+		<item name="heavy trident" chance="990" />
+		<item name="fish fin" chance="877" />
+		<item name="eye of a deepling" chance="608" />
+		<item name="warrior's shield" chance="607" />
+		<item name="warrior's axe" chance="511" />
 	</loot>
 </monster>

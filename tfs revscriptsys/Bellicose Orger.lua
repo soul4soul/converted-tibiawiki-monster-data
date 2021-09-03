@@ -5,12 +5,12 @@ monster.name = "Bellicose Orger"
 monster.description = "a bellicose orger"
 monster.experience = 500
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1255,
+	lookHead = 79,
+	lookBody = 6,
+	lookLegs = 94,
+	lookFeet = 2,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -96,17 +97,7 @@ monster.loot = {
 	{id = "metal spats", chance = 1054},
 	{id = "battle axe", chance = 498},
 	{id = "decorative blue sheet", chance = 28},
-	{id = "decorative green sheet", chance = 14},
-	{id = "platinum coin", chance = 26146},
-	{id = "leather helmet", chance = 7533},
-	{id = "leather legs", chance = 5184},
-	{id = "energy ring", chance = 2264},
-	{id = "dark armor", chance = 1752},
-	{id = "cape", chance = 797},
-	{id = "metal spats", chance = 655},
-	{id = "dark shield", chance = 641},
-	{id = "glorious axe", chance = 612},
-	{id = "battle axe", chance = 356}
+	{id = "decorative green sheet", chance = 14}
 }
 
 mType:register(monster)

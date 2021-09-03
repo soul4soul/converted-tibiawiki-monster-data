@@ -5,7 +5,7 @@ monster.name = "Eternal Guardian"
 monster.description = "an eternal guardian"
 monster.experience = 1800
 monster.outfit = {
-	lookType = 0,
+	lookType = 345,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,32 +90,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99953, maxCount = 100},
-	{id = "platinum coin", chance = 99695, maxCount = 4},
-	{id = "small stone", chance = 30299, maxCount = 10},
+	{id = "platinum coin", chance = 99696, maxCount = 4},
+	{id = "small stone", chance = 30284, maxCount = 10},
 	{id = "ancient stone", chance = 20067},
-	{id = "spiked iron ball", chance = 10016},
-	{id = "zaoan halberd", chance = 1993},
-	{id = "iron ore", chance = 1664},
-	{id = "shiny stone", chance = 820},
-	{id = "tower shield", chance = 797},
-	{id = "clay lump", chance = 744},
-	{id = "guardian halberd", chance = 568},
-	{id = "piece of marble rock", chance = 486},
-	{id = "coal", chance = 457},
-	{id = "zaoan sword", chance = 100},
-	{id = "gold coin", chance = 11721, maxCount = 59},
-	{id = "small stone", chance = 4114, maxCount = 10},
-	{id = "ancient stone", chance = 610},
-	{id = "shiny stone", chance = 123},
-	{id = "clay lump", chance = 105},
-	{id = "coal", chance = 70},
-	{id = "piece of marble rock", chance = 53},
-	{id = "gold coin", chance = 4765, maxCount = 55},
-	{id = "small stone", chance = 1711, maxCount = 10},
-	{id = "ancient stone", chance = 258},
-	{id = "piece of marble rock", chance = 64},
-	{id = "shiny stone", chance = 35},
-	{id = "clay lump", chance = 29}
+	{id = "spiked iron ball", chance = 10013},
+	{id = "zaoan halberd", chance = 2000},
+	{id = "iron ore", chance = 1661},
+	{id = "shiny stone", chance = 819},
+	{id = "tower shield", chance = 795},
+	{id = "clay lump", chance = 743},
+	{id = "guardian halberd", chance = 567},
+	{id = "piece of marble rock", chance = 485},
+	{id = "coal", chance = 456},
+	{id = "zaoan sword", chance = 99}
 }
 
 mType:register(monster)

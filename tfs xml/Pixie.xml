@@ -1,6 +1,7 @@
-﻿<monster name="Pixie" nameDescription="a pixie" experience="700" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Pixie" nameDescription="a pixie" experience="700" speed="240" manacost="0">
 	<health now="770" max="770" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="982" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="60" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -52,22 +54,22 @@
 		<voice sentence="You might be a threat! I'm sorry but I can't allow you to linger here." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="60478" countmax="166" />
-		<item id="wild flowers" chance="17643" />
-		<item id="dandelion seeds" chance="14700" />
-		<item id="fresh fruit" chance="10037" />
-		<item id="colourful snail shell" chance="9710" />
-		<item id="leaf star" chance="9212" countmax="5" />
-		<item id="star herb" chance="5232" />
-		<item id="magic light wand" chance="4734" />
-		<item id="great mana potion" chance="3554" />
-		<item id="red rose" chance="3185" />
-		<item id="rainbow quartz" chance="2858" countmax="3" />
-		<item id="small enchanted amethyst" chance="2445" countmax="2" />
-		<item id="green mushroom" chance="1777" />
-		<item id="strong mana potion" chance="953" />
-		<item id="dream blossom staff" chance="540" />
-		<item id="butterfly ring" chance="526" />
-		<item id="wooden spellbook" chance="284" />
+		<item name="gold coin" chance="60471" countmax="166" />
+		<item name="wild flowers" chance="17650" />
+		<item name="dandelion seeds" chance="14699" />
+		<item name="fresh fruit" chance="10017" />
+		<item name="colourful snail shell" chance="9691" />
+		<item name="leaf star" chance="9237" countmax="5" />
+		<item name="star herb" chance="5236" />
+		<item name="magic light wand" chance="4725" />
+		<item name="great mana potion" chance="3575" />
+		<item name="red rose" chance="3178" />
+		<item name="rainbow quartz" chance="2880" countmax="3" />
+		<item name="small enchanted amethyst" chance="2440" countmax="2" />
+		<item name="green mushroom" chance="1774" />
+		<item name="strong mana potion" chance="951" />
+		<item name="dream blossom staff" chance="539" />
+		<item name="butterfly ring" chance="525" />
+		<item name="wooden spellbook" chance="284" />
 	</loot>
 </monster>

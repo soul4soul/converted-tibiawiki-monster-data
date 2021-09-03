@@ -1,6 +1,7 @@
-﻿<monster name="Dragonling" nameDescription="a dragonling" experience="2200" speed="460" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dragonling" nameDescription="a dragonling" experience="2200" speed="460" manacost="0">
 	<health now="2600" max="2600" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="505" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="5" />
+		<element energyPercent="5" />
 		<element earthPercent="-20" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -51,9 +53,9 @@
 		<voice sentence="FIYAH" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="96603" countmax="249" />
-		<item id="strong health potion" chance="18910" countmax="2" />
-		<item id="strong mana potion" chance="14744" countmax="2" />
-		<item id="blazing bone" chance="10769" />
+		<item name="gold coin" chance="96603" countmax="249" />
+		<item name="strong health potion" chance="18910" countmax="2" />
+		<item name="strong mana potion" chance="14744" countmax="2" />
+		<item name="blazing bone" chance="10769" />
 	</loot>
 </monster>

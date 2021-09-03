@@ -5,7 +5,7 @@ monster.name = "Dworc Venomsniper"
 monster.description = "a dworc venomsniper"
 monster.experience = 35
 monster.outfit = {
-	lookType = 0,
+	lookType = 216,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,13 +90,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 74980, maxCount = 13},
-	{id = "leather armor", chance = 10054},
-	{id = "throwing knife", chance = 7911, maxCount = 2},
-	{id = "torch", chance = 5475},
-	{id = "poison arrow", chance = 4961, maxCount = 3},
-	{id = "poison dagger", chance = 1501},
-	{id = "skull", chance = 983, maxCount = 2},
+	{id = "gold coin", chance = 74979, maxCount = 13},
+	{id = "leather armor", chance = 10052},
+	{id = "throwing knife", chance = 7913, maxCount = 2},
+	{id = "torch", chance = 5474},
+	{id = "poison arrow", chance = 4959, maxCount = 3},
+	{id = "poison dagger", chance = 1500},
+	{id = "skull", chance = 982, maxCount = 2},
 	{id = "tribal mask", chance = 503},
 	{id = "seeds", chance = 191},
 	{id = "bast skirt", chance = 100},

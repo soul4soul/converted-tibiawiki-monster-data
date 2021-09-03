@@ -1,4 +1,5 @@
-﻿<monster name="Crypt Warrior" nameDescription="a crypt warrior" experience="4200" speed="310" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Crypt Warrior" nameDescription="a crypt warrior" experience="4200" speed="310" manacost="0">
 	<health now="7800" max="7800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="5" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -40,16 +42,16 @@
 	</elements>
 	<defenses armor="70" defense="70" />
 	<loot>
-		<item id="platinum coin" chance="78473" countmax="25" />
-		<item id="bone" chance="59835" />
-		<item id="soul orb" chance="31499" />
-		<item id="white mushroom" chance="20358" countmax="2" />
-		<item id="pelvis bone" chance="19601" />
-		<item id="unholy bone" chance="12448" />
-		<item id="brown mushroom" chance="5983" />
-		<item id="sword" chance="4539" />
-		<item id="mace" chance="2751" />
-		<item id="mammoth whopper" chance="1444" />
-		<item id="ruthless axe" chance="481" />
+		<item name="platinum coin" chance="78995" countmax="25" />
+		<item name="bone" chance="59679" />
+		<item name="soul orb" chance="30684" />
+		<item name="white mushroom" chance="20428" countmax="2" />
+		<item name="pelvis bone" chance="19563" />
+		<item name="unholy bone" chance="11779" />
+		<item name="brown mushroom" chance="5478" />
+		<item name="sword" chance="4695" />
+		<item name="mace" chance="2842" />
+		<item name="mammoth whopper" chance="1606" />
+		<item name="ruthless axe" chance="494" />
 	</loot>
 </monster>

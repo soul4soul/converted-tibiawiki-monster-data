@@ -1,6 +1,7 @@
-﻿<monster name="Lizard Noble" nameDescription="a lizard noble" experience="2000" speed="256" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lizard Noble" nameDescription="a lizard noble" experience="2000" speed="256" manacost="0">
 	<health now="7000" max="7000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="115" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="85" />
 		<element lifedrainPercent="0" />
@@ -48,12 +50,12 @@
 		<voice sentence="Where are zhe guardz when you need zhem!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="90022" countmax="100" />
-		<item id="platinum coin" chance="11973" countmax="20" />
-		<item id="small ruby" chance="8426" countmax="5" />
-		<item id="strong health potion" chance="6652" />
-		<item id="great health potion" chance="3548" />
-		<item id="lizard scale" chance="887" />
-		<item id="lizard leather" chance="222" />
+		<item name="gold coin" chance="90022" countmax="100" />
+		<item name="platinum coin" chance="11973" countmax="20" />
+		<item name="small ruby" chance="8426" countmax="5" />
+		<item name="strong health potion" chance="6652" />
+		<item name="great health potion" chance="3548" />
+		<item name="lizard scale" chance="887" />
+		<item name="lizard leather" chance="222" />
 	</loot>
 </monster>

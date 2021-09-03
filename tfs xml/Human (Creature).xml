@@ -1,4 +1,5 @@
-﻿<monster name="Human" nameDescription="a human" experience="50" speed="220" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Human" nameDescription="a human" experience="50" speed="220" manacost="0">
 	<health now="150" max="150" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,13 +45,13 @@
 	</attacks>
 	<defenses armor="0" defense="0" />
 	<loot>
-		<item id="Gold Coin" chance="35000" countmax="20" />
-		<item id="Bread" chance="35000" countmax="3" />
-		<item id="Meat" chance="35000" countmax="3" />
-		<item id="Backpack" chance="35000" />
-		<item id="Cheese" chance="35000" />
-		<item id="Leather Armor" chance="35000" />
-		<item id="Sword" chance="35000" />
-		<item id="Leather Helmet" chance="15000" />
+		<item name="Gold Coin" chance="35000" countmax="20" />
+		<item name="Bread" chance="35000" countmax="3" />
+		<item name="Meat" chance="35000" countmax="3" />
+		<item name="Backpack" chance="35000" />
+		<item name="Cheese" chance="35000" />
+		<item name="Leather Armor" chance="35000" />
+		<item name="Sword" chance="35000" />
+		<item name="Leather Helmet" chance="15000" />
 	</loot>
 </monster>

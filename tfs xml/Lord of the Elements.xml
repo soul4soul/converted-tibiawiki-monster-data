@@ -1,4 +1,5 @@
-﻿<monster name="Lord Of The Elements" nameDescription="" experience="8000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lord Of The Elements" nameDescription="" experience="8000" speed="0" manacost="0">
 	<health now="8000" max="8000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="45" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -53,12 +55,12 @@
 		<voice name="massive energy elemental" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="platinum coin" chance="94891" countmax="9" />
-		<item id="gold ingot" chance="31387" />
-		<item id="small emerald" chance="10949" countmax="4" />
-		<item id="small ruby" chance="8029" countmax="4" />
-		<item id="small sapphire" chance="8029" countmax="4" />
-		<item id="small amethyst" chance="6569" countmax="3" />
-		<item id="earthborn titan armor" chance="730" />
+		<item name="platinum coin" chance="94891" countmax="9" />
+		<item name="gold ingot" chance="31387" />
+		<item name="small emerald" chance="10949" countmax="4" />
+		<item name="small ruby" chance="8029" countmax="4" />
+		<item name="small sapphire" chance="8029" countmax="4" />
+		<item name="small amethyst" chance="6569" countmax="3" />
+		<item name="earthborn titan armor" chance="730" />
 	</loot>
 </monster>

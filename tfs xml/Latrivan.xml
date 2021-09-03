@@ -1,4 +1,5 @@
-﻿<monster name="Latrivan" nameDescription="" experience="10000" speed="390" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Latrivan" nameDescription="" experience="10000" speed="390" manacost="0">
 	<health now="25000" max="25000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="1" />
+		<element energyPercent="1" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -49,47 +51,47 @@
 		<voice sentence="We are the brothers of fear!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="273" />
-		<item id="great health potion" chance="38389" countmax="2" />
-		<item id="ring of healing" chance="27014" />
-		<item id="double axe" chance="19905" />
-		<item id="stealth ring" chance="18483" />
-		<item id="magic light wand" chance="18009" />
-		<item id="small amethyst" chance="16114" countmax="19" />
-		<item id="white pearl" chance="16114" countmax="13" />
-		<item id="black pearl" chance="15166" countmax="15" />
-		<item id="silver amulet" chance="14218" />
-		<item id="silver dagger" chance="14218" />
-		<item id="death ring" chance="13744" />
-		<item id="small sapphire" chance="13744" countmax="10" />
-		<item id="stone skin amulet" chance="13270" />
-		<item id="small emerald" chance="12796" countmax="10" />
-		<item id="demon shield" chance="11848" />
-		<item id="fire axe" chance="10900" />
-		<item id="demonic essence" chance="10427" />
-		<item id="gold ingot" chance="10427" />
-		<item id="energy ring" chance="9953" />
-		<item id="small diamond" chance="8531" countmax="5" />
-		<item id="giant sword" chance="7109" />
-		<item id="ice rapier" chance="7109" />
-		<item id="gold ring" chance="6635" />
-		<item id="devil helmet" chance="5687" />
-		<item id="might ring" chance="5687" />
-		<item id="onyx arrow" chance="4265" countmax="8" />
-		<item id="protection amulet" chance="4265" />
-		<item id="snakebite rod" chance="4265" />
-		<item id="skull staff" chance="3318" />
-		<item id="crystal ball" chance="2844" />
-		<item id="mind stone" chance="2844" />
-		<item id="boots of haste" chance="2370" />
-		<item id="green gem" chance="2370" />
-		<item id="moonlight rod" chance="2370" />
-		<item id="wand of decay" chance="2370" />
-		<item id="blue gem" chance="1422" />
-		<item id="necrotic rod" chance="1422" />
-		<item id="golden legs" chance="948" />
-		<item id="golden sickle" chance="948" />
-		<item id="mastermind shield" chance="948" />
-		<item id="assassin star" chance="474" />
+		<item name="gold coin" chance="100000" countmax="273" />
+		<item name="great health potion" chance="38208" countmax="2" />
+		<item name="ring of healing" chance="26887" />
+		<item name="double axe" chance="19811" />
+		<item name="stealth ring" chance="18868" />
+		<item name="magic light wand" chance="17925" />
+		<item name="small amethyst" chance="16038" countmax="19" />
+		<item name="white pearl" chance="16038" countmax="13" />
+		<item name="black pearl" chance="15566" countmax="15" />
+		<item name="silver amulet" chance="14151" />
+		<item name="silver dagger" chance="14151" />
+		<item name="death ring" chance="13679" />
+		<item name="small sapphire" chance="13679" countmax="10" />
+		<item name="stone skin amulet" chance="13679" />
+		<item name="small emerald" chance="12736" countmax="10" />
+		<item name="demon shield" chance="11792" />
+		<item name="fire axe" chance="10849" />
+		<item name="demonic essence" chance="10377" />
+		<item name="gold ingot" chance="10377" />
+		<item name="energy ring" chance="9906" />
+		<item name="small diamond" chance="8491" countmax="5" />
+		<item name="giant sword" chance="7075" />
+		<item name="ice rapier" chance="7075" />
+		<item name="gold ring" chance="6604" />
+		<item name="devil helmet" chance="5660" />
+		<item name="might ring" chance="5660" />
+		<item name="onyx arrow" chance="4245" countmax="8" />
+		<item name="protection amulet" chance="4245" />
+		<item name="snakebite rod" chance="4245" />
+		<item name="skull staff" chance="3302" />
+		<item name="crystal ball" chance="2830" />
+		<item name="mind stone" chance="2830" />
+		<item name="boots of haste" chance="2358" />
+		<item name="green gem" chance="2358" />
+		<item name="moonlight rod" chance="2358" />
+		<item name="wand of decay" chance="2358" />
+		<item name="blue gem" chance="1415" />
+		<item name="necrotic rod" chance="1415" />
+		<item name="golden legs" chance="943" />
+		<item name="golden sickle" chance="943" />
+		<item name="mastermind shield" chance="943" />
+		<item name="assassin star" chance="472" />
 	</loot>
 </monster>

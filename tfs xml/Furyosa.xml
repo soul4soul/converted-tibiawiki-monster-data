@@ -1,4 +1,5 @@
-﻿<monster name="Furyosa" nameDescription="" experience="11500" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Furyosa" nameDescription="" experience="11500" speed="0" manacost="0">
 	<health now="25000" max="25000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -56,41 +58,10 @@
 		<voice name="fury" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="crystal ring" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="great mana potion" chance="100000" countmax="5" />
-		<item id="jalapeno pepper" chance="100000" countmax="5" />
-		<item id="soul orb" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="jalapeno pepper" chance="100000" countmax="5" />
-		<item id="assassin dagger" chance="100000" />
-		<item id="flask of demonic blood" chance="100000" />
-		<item id="furious frock" chance="100000" />
-		<item id="great spirit potion" chance="100000" countmax="5" />
-		<item id="platinum coin" chance="100000" countmax="28" />
-		<item id="small sapphire" chance="100000" countmax="5" />
-		<item id="white piece of cloth" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="jalapeno pepper" chance="100000" countmax="5" />
-		<item id="platinum coin" chance="100000" countmax="25" />
-		<item id="crystal ring" chance="100000" />
-		<item id="great mana potion" chance="100000" countmax="5" />
-		<item id="silver raid token" chance="100000" />
-		<item id="small sapphire" chance="100000" countmax="5" />
-		<item id="soul orb" chance="100000" />
-		<item id="assassin star" chance="100000" countmax="10" />
-		<item id="gold ingot" chance="100000" />
-		<item id="great spirit potion" chance="100000" countmax="5" />
-		<item id="red piece of cloth" chance="100000" />
-		<item id="ultimate health potion" chance="100000" countmax="5" />
-		<item id="white piece of cloth" chance="100000" />
-		<item id="flask of demonic blood" chance="100000" />
-		<item id="death ring" chance="100000" />
-		<item id="demonic essence" chance="100000" />
-		<item id="magma coat" chance="100000" />
-		<item id="small diamond" chance="100000" countmax="5" />
-		<item id="small ruby" chance="100000" countmax="5" />
-		<item id="small topaz" chance="100000" countmax="5" />
-		<item id="yellow piece of cloth" chance="100000" />
+		<item name="crystal ring" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="great mana potion" chance="100000" countmax="5" />
+		<item name="jalapeno pepper" chance="100000" countmax="5" />
+		<item name="soul orb" chance="100000" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Cobra Scout" nameDescription="a cobra scout" experience="7310" speed="300" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Cobra Scout" nameDescription="a cobra scout" experience="7310" speed="300" manacost="0">
 	<health now="8500" max="8500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1217" head="1" body="1" legs="102" feet="78" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,60 +50,20 @@
 		<voice sentence="What are you looking for?" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="72686" countmax="9" />
-		<item id="opal" chance="23976" countmax="5" />
-		<item id="earth arrow" chance="20941" countmax="28" />
-		<item id="cheesy figurine" chance="14112" />
-		<item id="cobra crest" chance="12898" />
-		<item id="gold ingot" chance="7436" />
-		<item id="stone skin amulet" chance="7436" />
-		<item id="sacred tree amulet" chance="5008" />
-		<item id="small emerald" chance="3794" countmax="2" />
-		<item id="red gem" chance="3490" />
-		<item id="yellow gem" chance="3035" />
-		<item id="green crystal shard" chance="2428" />
-		<item id="green gem" chance="1973" />
-		<item id="violet gem" chance="1214" />
-		<item id="ring of red plasma" chance="607" />
-		<item id="platinum coin" chance="100000" countmax="9" />
-		<item id="opal" chance="75721" countmax="5" />
-		<item id="earth arrow" chance="64036" countmax="28" />
-		<item id="cobra crest" chance="47344" />
-		<item id="cheesy figurine" chance="39302" />
-		<item id="stone skin amulet" chance="22458" />
-		<item id="gold ingot" chance="16540" />
-		<item id="sacred tree amulet" chance="16540" />
-		<item id="red gem" chance="14871" />
-		<item id="small emerald" chance="8953" countmax="2" />
-		<item id="yellow gem" chance="8953" />
-		<item id="green crystal shard" chance="6373" />
-		<item id="violet gem" chance="4401" />
-		<item id="green gem" chance="4249" />
-		<item id="ring of red plasma" chance="2580" />
-		<item id="platinum coin" chance="61305" countmax="9" />
-		<item id="opal" chance="18058" countmax="5" />
-		<item id="earth arrow" chance="13961" countmax="28" />
-		<item id="cobra crest" chance="13809" />
-		<item id="cheesy figurine" chance="10470" />
-		<item id="stone skin amulet" chance="6222" />
-		<item id="gold ingot" chance="4401" />
-		<item id="sacred tree amulet" chance="3187" />
-		<item id="yellow gem" chance="3035" />
-		<item id="green crystal shard" chance="2883" />
-		<item id="small emerald" chance="2580" countmax="2" />
-		<item id="green gem" chance="2428" />
-		<item id="red gem" chance="2428" />
-		<item id="violet gem" chance="1669" />
-		<item id="ring of red plasma" chance="303" />
-		<item id="platinum coin" chance="25038" countmax="3" />
-		<item id="cobra crest" chance="2428" />
-		<item id="earth arrow" chance="2276" countmax="28" />
-		<item id="cheesy figurine" chance="1214" />
-		<item id="stone skin amulet" chance="1062" />
-		<item id="ring of red plasma" chance="607" />
-		<item id="sacred tree amulet" chance="455" />
-		<item id="platinum coin" chance="1214" countmax="3" />
-		<item id="cobra crest" chance="303" />
-		<item id="cheesy figurine" chance="152" />
+		<item name="platinum coin" chance="73333" countmax="9" />
+		<item name="opal" chance="22991" countmax="5" />
+		<item name="earth arrow" chance="19439" countmax="28" />
+		<item name="cheesy figurine" chance="14019" />
+		<item name="cobra crest" chance="13084" />
+		<item name="gold ingot" chance="6916" />
+		<item name="stone skin amulet" chance="6106" />
+		<item name="sacred tree amulet" chance="5358" />
+		<item name="small emerald" chance="3738" countmax="2" />
+		<item name="red gem" chance="3614" />
+		<item name="yellow gem" chance="3053" />
+		<item name="green gem" chance="2430" />
+		<item name="green crystal shard" chance="1994" />
+		<item name="violet gem" chance="1931" />
+		<item name="ring of red plasma" chance="685" />
 	</loot>
 </monster>

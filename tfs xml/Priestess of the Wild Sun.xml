@@ -1,6 +1,7 @@
-﻿<monster name="Priestess Of The Wild Sun" nameDescription="a priestess of the wild sun" experience="6400" speed="320" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Priestess Of The Wild Sun" nameDescription="a priestess of the wild sun" experience="6400" speed="320" manacost="0">
 	<health now="8500" max="8500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1199" head="95" body="78" legs="94" feet="3" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -48,36 +50,16 @@
 		<voice sentence="There is only one true sun!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="3" />
-		<item id="fafnar symbol" chance="8828" />
-		<item id="secret instruction" chance="6932" />
-		<item id="empty honey glass" chance="2922" />
-		<item id="war axe" chance="2798" />
-		<item id="wand of decay" chance="2580" />
-		<item id="golden sickle" chance="1958" />
-		<item id="relic sword" chance="1554" />
-		<item id="wand of everblazing" chance="1181" />
-		<item id="golden mask" chance="591" />
-		<item id="sea horse figurine" chance="497" />
-		<item id="platinum coin" chance="100000" countmax="2" />
-		<item id="fafnar symbol" chance="12807" />
-		<item id="secret instruction" chance="10911" />
-		<item id="empty honey glass" chance="4196" />
-		<item id="war axe" chance="3202" />
-		<item id="wand of decay" chance="3015" />
-		<item id="golden sickle" chance="2425" />
-		<item id="wand of everblazing" chance="2145" />
-		<item id="relic sword" chance="1927" />
-		<item id="golden mask" chance="1243" />
-		<item id="sea horse figurine" chance="1119" />
-		<item id="platinum coin" chance="4165" countmax="2" />
-		<item id="fafnar symbol" chance="404" />
-		<item id="secret instruction" chance="155" />
-		<item id="golden sickle" chance="93" />
-		<item id="rapier" chance="93" />
-		<item id="wand of decay" chance="93" />
-		<item id="war axe" chance="93" />
-		<item id="empty honey glass" chance="62" />
-		<item id="glacial rod" chance="31" />
+		<item name="platinum coin" chance="100000" countmax="3" />
+		<item name="fafnar symbol" chance="8809" />
+		<item name="secret instruction" chance="6987" />
+		<item name="empty honey glass" chance="2886" />
+		<item name="war axe" chance="2795" />
+		<item name="wand of decay" chance="2521" />
+		<item name="golden sickle" chance="1944" />
+		<item name="relic sword" chance="1549" />
+		<item name="wand of everblazing" chance="1185" />
+		<item name="golden mask" chance="577" />
+		<item name="sea horse figurine" chance="486" />
 	</loot>
 </monster>

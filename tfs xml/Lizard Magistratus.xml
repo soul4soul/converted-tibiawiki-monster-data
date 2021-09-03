@@ -1,6 +1,7 @@
-﻿<monster name="Lizard Magistratus" nameDescription="a lizard magistratus" experience="2000" speed="256" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lizard Magistratus" nameDescription="a lizard magistratus" experience="2000" speed="256" manacost="0">
 	<health now="6250" max="6250" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="115" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="85" />
 		<element lifedrainPercent="0" />
@@ -49,12 +51,12 @@
 		<voice sentence="I can't work wizh zuch dizturbancez!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="77880" countmax="50" />
-		<item id="platinum coin" chance="14593" countmax="20" />
-		<item id="small ruby" chance="10292" countmax="5" />
-		<item id="strong mana potion" chance="6912" />
-		<item id="great mana potion" chance="4608" />
-		<item id="lizard leather" chance="1382" />
-		<item id="lizard scale" chance="461" />
+		<item name="gold coin" chance="77889" countmax="50" />
+		<item name="platinum coin" chance="15264" countmax="20" />
+		<item name="small ruby" chance="10128" countmax="5" />
+		<item name="strong mana potion" chance="7275" />
+		<item name="great mana potion" chance="5136" />
+		<item name="lizard leather" chance="1284" />
+		<item name="lizard scale" chance="571" />
 	</loot>
 </monster>

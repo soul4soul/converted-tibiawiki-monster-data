@@ -1,4 +1,5 @@
-﻿<monster name="Minotaur Occultist" nameDescription="a minotaur occultist" experience="100" speed="170" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Minotaur Occultist" nameDescription="a minotaur occultist" experience="100" speed="170" manacost="0">
 	<health now="125" max="125" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -43,19 +45,10 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="21" />
-		<item id="carrot" chance="42857" countmax="4" />
-		<item id="swampling club" chance="10714" />
-		<item id="torch" chance="10714" />
-		<item id="leather helmet" chance="7143" />
-		<item id="gold coin" chance="100000" countmax="22" />
-		<item id="carrot" chance="96429" countmax="4" />
-		<item id="swampling club" chance="39286" />
-		<item id="leather legs" chance="25000" />
-		<item id="minotaur horn" chance="21429" />
-		<item id="leather helmet" chance="7143" />
-		<item id="mana potion" chance="7143" />
-		<item id="torch" chance="7143" />
-		<item id="purple robe" chance="3571" />
+		<item name="gold coin" chance="100000" countmax="21" />
+		<item name="carrot" chance="42857" countmax="4" />
+		<item name="swampling club" chance="10714" />
+		<item name="torch" chance="10714" />
+		<item name="leather helmet" chance="7143" />
 	</loot>
 </monster>

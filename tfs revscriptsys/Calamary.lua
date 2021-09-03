@@ -5,7 +5,7 @@ monster.name = "Calamary"
 monster.description = "a calamary"
 monster.experience = 0
 monster.outfit = {
-	lookType = 0,
+	lookType = 451,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,7 +88,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "shrimp", chance = 11027}
+	{id = "shrimp", chance = 10752}
 }
 
 mType:register(monster)

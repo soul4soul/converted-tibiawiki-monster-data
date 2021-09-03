@@ -5,11 +5,11 @@ monster.name = "Flimsy Lost Soul"
 monster.description = "a flimsy lost soul"
 monster.experience = 4500
 monster.outfit = {
-	lookType = 0,
+	lookType = 1268,
 	lookHead = 0,
-	lookBody = 0,
+	lookBody = 6,
 	lookLegs = 0,
-	lookFeet = 0,
+	lookFeet = 116,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,18 +88,18 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "lost soul (item)", chance = 30483},
-	{id = "wand of cosmic energy", chance = 6230},
-	{id = "springsprout rod", chance = 4529},
-	{id = "death toll", chance = 3872},
-	{id = "terra rod", chance = 3425},
-	{id = "hailstorm rod", chance = 3188},
-	{id = "ensouled essence", chance = 2466},
-	{id = "necklace of the deep", chance = 1879},
-	{id = "cursed bone", chance = 1766},
-	{id = "wand of starstorm", chance = 1669},
-	{id = "glacial rod", chance = 1093},
-	{id = "wand of voodoo", chance = 318}
+	{id = "lost soul (item)", chance = 30503},
+	{id = "wand of cosmic energy", chance = 6227},
+	{id = "springsprout rod", chance = 4520},
+	{id = "death toll", chance = 3877},
+	{id = "terra rod", chance = 3430},
+	{id = "hailstorm rod", chance = 3207},
+	{id = "ensouled essence", chance = 2473},
+	{id = "necklace of the deep", chance = 1882},
+	{id = "cursed bone", chance = 1760},
+	{id = "wand of starstorm", chance = 1659},
+	{id = "glacial rod", chance = 1090},
+	{id = "wand of voodoo", chance = 330}
 }
 
 mType:register(monster)

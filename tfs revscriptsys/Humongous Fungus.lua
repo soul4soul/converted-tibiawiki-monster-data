@@ -5,7 +5,7 @@ monster.name = "Humongous Fungus"
 monster.description = "a humongous fungus"
 monster.experience = 2600
 monster.outfit = {
-	lookType = 0,
+	lookType = 488,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,26 +91,26 @@ monster.defenses = {
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 200},
 	{id = "platinum coin", chance = 99993, maxCount = 6},
-	{id = "mushroom pie", chance = 17236, maxCount = 3},
-	{id = "drill bolt", chance = 15042, maxCount = 15},
-	{id = "brown piece of cloth", chance = 15001},
-	{id = "humongous chunk", chance = 10502},
-	{id = "white piece of cloth", chance = 10331},
-	{id = "great health potion", chance = 4971, maxCount = 2},
-	{id = "strong mana potion", chance = 4943, maxCount = 2},
-	{id = "strong health potion", chance = 4930, maxCount = 2},
-	{id = "great mana potion", chance = 4854, maxCount = 2},
+	{id = "mushroom pie", chance = 17220, maxCount = 3},
+	{id = "drill bolt", chance = 15102, maxCount = 15},
+	{id = "brown piece of cloth", chance = 14966},
+	{id = "humongous chunk", chance = 10507},
+	{id = "white piece of cloth", chance = 10317},
+	{id = "great health potion", chance = 4968, maxCount = 2},
+	{id = "strong mana potion", chance = 4935, maxCount = 2},
+	{id = "strong health potion", chance = 4928, maxCount = 2},
+	{id = "great mana potion", chance = 4867, maxCount = 2},
 	{id = "mana potion", chance = 4697, maxCount = 3},
-	{id = "blue piece of cloth", chance = 4471},
-	{id = "red piece of cloth", chance = 2612},
-	{id = "terra amulet", chance = 2215},
-	{id = "terra boots", chance = 1962},
-	{id = "angelic axe", chance = 1422},
-	{id = "terra legs", chance = 1108},
-	{id = "terra mantle", chance = 861},
-	{id = "muck rod", chance = 643},
-	{id = "mycological bow", chance = 130},
-	{id = "mushroom backpack", chance = 21}
+	{id = "blue piece of cloth", chance = 4453},
+	{id = "red piece of cloth", chance = 2613},
+	{id = "terra amulet", chance = 2213},
+	{id = "terra boots", chance = 1955},
+	{id = "angelic axe", chance = 1419},
+	{id = "terra legs", chance = 1100},
+	{id = "terra mantle", chance = 862},
+	{id = "muck rod", chance = 638},
+	{id = "mycological bow", chance = 129},
+	{id = "mushroom backpack", chance = 20}
 }
 
 mType:register(monster)

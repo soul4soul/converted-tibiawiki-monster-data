@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -91,10 +92,7 @@ monster.defenses = {
 monster.loot = {
 	{id = "deepling axe", chance = 42857},
 	{id = "depth scutum", chance = 39394},
-	{id = "ornate legs", chance = 17749},
-	{id = "deepling axe", chance = 1299},
-	{id = "ornate legs", chance = 866},
-	{id = "depth scutum", chance = 433}
+	{id = "ornate legs", chance = 17749}
 }
 
 mType:register(monster)

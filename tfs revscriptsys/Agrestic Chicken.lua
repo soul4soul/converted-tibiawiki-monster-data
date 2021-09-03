@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -85,10 +86,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "chicken feather", chance = 16418, maxCount = 2},
-	{id = "worm", chance = 9493},
-	{id = "meat", chance = 2448},
-	{id = "egg", chance = 776, maxCount = 2}
+	{id = "chicken feather", chance = 16511, maxCount = 2},
+	{id = "worm", chance = 9485},
+	{id = "meat", chance = 2459},
+	{id = "egg", chance = 761, maxCount = 2}
 }
 
 mType:register(monster)

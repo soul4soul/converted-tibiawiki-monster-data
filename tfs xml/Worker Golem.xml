@@ -1,6 +1,7 @@
-﻿<monster name="Worker Golem" nameDescription="a worker golem" experience="1250" speed="160" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Worker Golem" nameDescription="a worker golem" experience="1250" speed="160" manacost="0">
 	<health now="1470" max="1470" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="304" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="50" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -52,41 +54,23 @@
 		<voice sentence="Secret objective complete." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="93774" countmax="139" />
-		<item id="nail" chance="4765" countmax="5" />
-		<item id="gear crystal" chance="2172" />
-		<item id="great health potion" chance="1972" />
-		<item id="great mana potion" chance="1566" />
-		<item id="rusted armor" chance="1560" />
-		<item id="gear wheel" chance="1060" />
-		<item id="life crystal" chance="1017" />
-		<item id="war hammer" chance="1002" />
-		<item id="small diamond" chance="975" countmax="2" />
-		<item id="rusted legs" chance="923" />
-		<item id="spiked squelcher" chance="923" />
-		<item id="iron ore" chance="880" />
-		<item id="great spirit potion" chance="822" />
-		<item id="berserk potion" chance="780" />
-		<item id="might ring" chance="501" />
-		<item id="crystal pedestal" chance="163" />
-		<item id="bonebreaker" chance="116" />
-		<item id="gold coin" chance="87717" countmax="140" />
-		<item id="nail" chance="4649" countmax="5" />
-		<item id="gear crystal" chance="1882" />
-		<item id="great health potion" chance="1740" />
-		<item id="great mana potion" chance="1376" />
-		<item id="rusted armor" chance="1218" />
-		<item id="small diamond" chance="991" countmax="2" />
-		<item id="war hammer" chance="991" />
-		<item id="rusted legs" chance="970" />
-		<item id="iron ore" chance="954" />
-		<item id="life crystal" chance="880" />
-		<item id="berserk potion" chance="854" />
-		<item id="gear wheel" chance="854" />
-		<item id="great spirit potion" chance="817" />
-		<item id="spiked squelcher" chance="664" />
-		<item id="might ring" chance="380" />
-		<item id="crystal pedestal" chance="174" />
-		<item id="bonebreaker" chance="105" />
+		<item name="gold coin" chance="93775" countmax="139" />
+		<item name="nail" chance="4765" countmax="5" />
+		<item name="gear crystal" chance="2172" />
+		<item name="great health potion" chance="1971" />
+		<item name="great mana potion" chance="1565" />
+		<item name="rusted armor" chance="1560" />
+		<item name="gear wheel" chance="1059" />
+		<item name="life crystal" chance="1017" />
+		<item name="war hammer" chance="1001" />
+		<item name="small diamond" chance="975" countmax="2" />
+		<item name="rusted legs" chance="922" />
+		<item name="spiked squelcher" chance="922" />
+		<item name="iron ore" chance="880" />
+		<item name="great spirit potion" chance="822" />
+		<item name="berserk potion" chance="780" />
+		<item name="might ring" chance="501" />
+		<item name="crystal pedestal" chance="163" />
+		<item name="bonebreaker" chance="116" />
 	</loot>
 </monster>

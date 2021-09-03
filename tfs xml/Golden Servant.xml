@@ -1,6 +1,7 @@
-﻿<monster name="Golden Servant" nameDescription="a golden servant" experience="450" speed="210" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Golden Servant" nameDescription="a golden servant" experience="450" speed="210" manacost="0">
 	<health now="550" max="550" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="396" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="25" />
+		<element energyPercent="25" />
 		<element earthPercent="80" />
 		<element firePercent="15" />
 		<element lifedrainPercent="0" />
@@ -47,17 +49,17 @@
 		<voice sentence="Remain. Obedient." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="85014" countmax="140" />
-		<item id="health potion" chance="4950" />
-		<item id="mana potion" chance="4950" />
-		<item id="halberd" chance="3034" />
-		<item id="green mushroom" chance="1487" />
-		<item id="gear wheel" chance="942" />
-		<item id="spellbook of enlightenment" chance="521" />
-		<item id="stealth ring" chance="477" />
-		<item id="slime mould" chance="354" />
-		<item id="golden can of oil" chance="32" />
-		<item id="golden armor" chance="22" />
-		<item id="gold ring" chance="8" />
+		<item name="gold coin" chance="85014" countmax="140" />
+		<item name="health potion" chance="4950" />
+		<item name="mana potion" chance="4950" />
+		<item name="halberd" chance="3034" />
+		<item name="green mushroom" chance="1487" />
+		<item name="gear wheel" chance="942" />
+		<item name="spellbook of enlightenment" chance="521" />
+		<item name="stealth ring" chance="477" />
+		<item name="slime mould" chance="354" />
+		<item name="golden can of oil" chance="32" />
+		<item name="golden armor" chance="22" />
+		<item name="gold ring" chance="8" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Rat"
 monster.description = "a rat"
 monster.experience = 5
 monster.outfit = {
-	lookType = 0,
+	lookType = 21,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,10 +88,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 91676, maxCount = 4},
-	{id = "cheese", chance = 36328},
-	{id = "gold coin", chance = 31349, maxCount = 4},
-	{id = "cheese", chance = 18078}
+	{id = "gold coin", chance = 89551, maxCount = 4},
+	{id = "cheese", chance = 35497}
 }
 
 mType:register(monster)

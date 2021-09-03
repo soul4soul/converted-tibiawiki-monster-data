@@ -1,6 +1,7 @@
-﻿<monster name="Freakish Lost Soul" nameDescription="a freakish lost soul" experience="7020" speed="520" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Freakish Lost Soul" nameDescription="a freakish lost soul" experience="7020" speed="520" manacost="0">
 	<health now="7000" max="7000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1268" head="0" body="74" legs="0" feet="83" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="60" />
-		<element EnergyPercent="35" />
+		<element energyPercent="35" />
 		<element earthPercent="70" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,15 +45,15 @@
 	</attacks>
 	<defenses armor="85" defense="85" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="lost soul (item)" chance="46074" />
-		<item id="emerald bangle" chance="7730" />
-		<item id="death toll" chance="5521" />
-		<item id="gemmed figurine" chance="4724" />
-		<item id="ensouled essence" chance="3129" />
-		<item id="ring of blue plasma" chance="1840" />
-		<item id="silver hand mirror" chance="1166" />
-		<item id="ornate crossbow" chance="1043" />
-		<item id="crystal crossbow" chance="798" />
+		<item name="platinum coin" chance="100000" countmax="5" />
+		<item name="lost soul (item)" chance="45896" />
+		<item name="emerald bangle" chance="7729" />
+		<item name="death toll" chance="5572" />
+		<item name="gemmed figurine" chance="4614" />
+		<item name="ensouled essence" chance="3176" />
+		<item name="ring of blue plasma" chance="1917" />
+		<item name="silver hand mirror" chance="1138" />
+		<item name="ornate crossbow" chance="1019" />
+		<item name="crystal crossbow" chance="779" />
 	</loot>
 </monster>

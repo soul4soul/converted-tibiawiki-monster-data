@@ -1,4 +1,5 @@
-﻿<monster name="Terofar" nameDescription="" experience="24000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Terofar" nameDescription="" experience="24000" speed="0" manacost="0">
 	<health now="40000" max="40000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="50" />
+		<element energyPercent="50" />
 		<element earthPercent="50" />
 		<element firePercent="50" />
 		<element lifedrainPercent="0" />
@@ -51,62 +53,42 @@
 		<voice sentence="FEELS GOOD TO BE BACK IN ACTION!" yell="false" />
 	</voices>
 	<loot>
-		<item id="cluster of solace" chance="100000" />
-		<item id="demon horn" chance="100000" />
-		<item id="demonic essence" chance="100000" />
-		<item id="dream matter" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="60" />
-		<item id="unrealized dream" chance="100000" />
-		<item id="giant shimmering pearl" chance="41811" />
-		<item id="violet crystal shard" chance="37958" countmax="8" />
-		<item id="great mana potion" chance="33526" countmax="10" />
-		<item id="great spirit potion" chance="33333" countmax="10" />
-		<item id="ultimate health potion" chance="32563" countmax="10" />
-		<item id="blue crystal shard" chance="31599" countmax="8" />
-		<item id="green crystal shard" chance="30058" countmax="8" />
-		<item id="green gem" chance="25626" />
-		<item id="small diamond" chance="17726" countmax="25" />
-		<item id="small ruby" chance="15029" countmax="25" />
-		<item id="small topaz" chance="14836" countmax="25" />
-		<item id="blue gem" chance="14451" />
-		<item id="terra boots" chance="14066" />
-		<item id="small sapphire" chance="13680" countmax="25" />
-		<item id="gold coin" chance="13295" countmax="177" />
-		<item id="gold ingot" chance="12717" />
-		<item id="small amethyst" chance="12524" countmax="25" />
-		<item id="paladin armor" chance="11753" />
-		<item id="small emerald" chance="11175" countmax="25" />
-		<item id="crown shield" chance="10405" />
-		<item id="dream warden mask" chance="10019" />
-		<item id="demon shield" chance="6166" />
-		<item id="boots of haste" chance="5395" />
-		<item id="steel boots" chance="5395" />
-		<item id="skull helmet" chance="4239" />
-		<item id="royal helmet" chance="2697" />
-		<item id="magic plate armor" chance="1734" />
-		<item id="guardian shield" chance="1541" />
-		<item id="voltage armor" chance="1349" />
-		<item id="mastermind shield" chance="578" />
-		<item id="lavos armor" chance="385" />
-		<item id="cluster of solace" chance="4817" />
-		<item id="demon horn" chance="4817" />
-		<item id="gold coin" chance="4817" countmax="156" />
-		<item id="platinum coin" chance="4817" countmax="50" />
-		<item id="green crystal shard" chance="2119" countmax="8" />
-		<item id="giant shimmering pearl" chance="1734" />
-		<item id="great spirit potion" chance="1734" countmax="10" />
-		<item id="ultimate health potion" chance="1734" countmax="10" />
-		<item id="blue crystal shard" chance="1349" countmax="8" />
-		<item id="great mana potion" chance="1349" countmax="10" />
-		<item id="violet crystal shard" chance="1349" countmax="8" />
-		<item id="green gem" chance="963" />
-		<item id="blue gem" chance="771" />
-		<item id="gold ingot" chance="771" />
-		<item id="guardian shield" chance="771" />
-		<item id="demon shield" chance="578" />
-		<item id="voltage armor" chance="385" />
-		<item id="dream warden mask" chance="193" />
-		<item id="mastermind shield" chance="193" />
-		<item id="paladin armor" chance="193" />
+		<item name="cluster of solace" chance="100000" />
+		<item name="demon horn" chance="100000" />
+		<item name="demonic essence" chance="100000" />
+		<item name="dream matter" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="60" />
+		<item name="unrealized dream" chance="100000" />
+		<item name="giant shimmering pearl" chance="41811" />
+		<item name="violet crystal shard" chance="37958" countmax="8" />
+		<item name="great mana potion" chance="33526" countmax="10" />
+		<item name="great spirit potion" chance="33333" countmax="10" />
+		<item name="ultimate health potion" chance="32563" countmax="10" />
+		<item name="blue crystal shard" chance="31599" countmax="8" />
+		<item name="green crystal shard" chance="30058" countmax="8" />
+		<item name="green gem" chance="25626" />
+		<item name="small diamond" chance="17726" countmax="25" />
+		<item name="small ruby" chance="15029" countmax="25" />
+		<item name="small topaz" chance="14836" countmax="25" />
+		<item name="blue gem" chance="14451" />
+		<item name="terra boots" chance="14066" />
+		<item name="small sapphire" chance="13680" countmax="25" />
+		<item name="gold coin" chance="13295" countmax="177" />
+		<item name="gold ingot" chance="12717" />
+		<item name="small amethyst" chance="12524" countmax="25" />
+		<item name="paladin armor" chance="11753" />
+		<item name="small emerald" chance="11175" countmax="25" />
+		<item name="crown shield" chance="10405" />
+		<item name="dream warden mask" chance="10019" />
+		<item name="demon shield" chance="6166" />
+		<item name="boots of haste" chance="5395" />
+		<item name="steel boots" chance="5395" />
+		<item name="skull helmet" chance="4239" />
+		<item name="royal helmet" chance="2697" />
+		<item name="magic plate armor" chance="1734" />
+		<item name="guardian shield" chance="1541" />
+		<item name="voltage armor" chance="1349" />
+		<item name="mastermind shield" chance="578" />
+		<item name="lavos armor" chance="385" />
 	</loot>
 </monster>

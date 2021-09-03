@@ -1,6 +1,7 @@
-﻿<monster name="White Shade" nameDescription="a white shade" experience="120" speed="160" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="White Shade" nameDescription="a white shade" experience="120" speed="160" manacost="0">
 	<health now="260" max="260" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="560" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="95" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
@@ -48,6 +50,6 @@
 		<voice sentence="No... don't go further stranger... danger lies in every step..." yell="false" />
 	</voices>
 	<loot>
-		<item id="white piece of cloth" chance="3033" />
+		<item name="white piece of cloth" chance="3153" />
 	</loot>
 </monster>

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -98,13 +99,13 @@ monster.summons = {
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 98},
 	{id = "vampire lord token", chance = 100000},
-	{id = "blood preservation", chance = 91379},
-	{id = "vampire shield", chance = 20690},
-	{id = "strong health potion", chance = 17241},
-	{id = "ring of healing", chance = 13793},
-	{id = "platinum coin", chance = 12069, maxCount = 5},
-	{id = "skull", chance = 12069},
-	{id = "spellbook of lost souls", chance = 1724}
+	{id = "blood preservation", chance = 89831},
+	{id = "vampire shield", chance = 22034},
+	{id = "strong health potion", chance = 16949},
+	{id = "ring of healing", chance = 13559},
+	{id = "platinum coin", chance = 11864, maxCount = 5},
+	{id = "skull", chance = 11864},
+	{id = "spellbook of lost souls", chance = 1695}
 }
 
 mType:register(monster)

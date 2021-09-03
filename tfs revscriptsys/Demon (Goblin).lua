@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,10 +87,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "small stone", chance = 32258, maxCount = 3},
-	{id = "bone", chance = 7527},
-	{id = "leather armor", chance = 7527},
-	{id = "mouldy cheese", chance = 4301}
+	{id = "small stone", chance = 33673, maxCount = 3},
+	{id = "bone", chance = 8163},
+	{id = "leather armor", chance = 7143},
+	{id = "mouldy cheese", chance = 7143}
 }
 
 mType:register(monster)

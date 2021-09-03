@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -100,11 +101,7 @@ monster.loot = {
 	{id = "ice cube", chance = 7692},
 	{id = "obsidian lance", chance = 7692},
 	{id = "plate armor", chance = 7692},
-	{id = "time ring", chance = 7692},
-	{id = "ice cube", chance = 7692},
-	{id = "platinum coin", chance = 7692, maxCount = 5},
-	{id = "poison gland", chance = 7692},
-	{id = "violet crystal shard", chance = 7692}
+	{id = "time ring", chance = 7692}
 }
 
 mType:register(monster)

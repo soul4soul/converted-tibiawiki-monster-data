@@ -5,12 +5,12 @@ monster.name = "True Midnight Asura"
 monster.description = "a true midnight asura"
 monster.experience = 7313
 monster.outfit = {
-	lookType = 0,
+	lookType = 1068,
 	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
+	lookBody = 76,
+	lookLegs = 53,
 	lookFeet = 0,
-	lookAddons = 0,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -118,41 +119,7 @@ monster.loot = {
 	{id = "spellbook of mind control", chance = 989},
 	{id = "blue robe", chance = 955},
 	{id = "crystal ring", chance = 955},
-	{id = "yellow gem", chance = 751},
-	{id = "gold coin", chance = 20641, maxCount = 170},
-	{id = "platinum coin", chance = 20641, maxCount = 8},
-	{id = "golden lotus brooch", chance = 4845},
-	{id = "peacock feather fan", chance = 4674},
-	{id = "flask of demonic blood", chance = 3992},
-	{id = "great health potion", chance = 3958, maxCount = 2},
-	{id = "soul orb", chance = 3719},
-	{id = "demonic essence", chance = 3275},
-	{id = "small diamond", chance = 3071, maxCount = 3},
-	{id = "assassin star", chance = 2252, maxCount = 5},
-	{id = "small emerald", chance = 2218, maxCount = 2},
-	{id = "silver brooch", chance = 2047},
-	{id = "small sapphire", chance = 2013, maxCount = 3},
-	{id = "black pearl", chance = 1979, maxCount = 2},
-	{id = "small ruby", chance = 1945, maxCount = 2},
-	{id = "small topaz", chance = 1808, maxCount = 2},
-	{id = "white pearl", chance = 1672, maxCount = 2},
-	{id = "small enchanted amethyst", chance = 1535, maxCount = 3},
-	{id = "crystal coin", chance = 1126},
-	{id = "royal star", chance = 785, maxCount = 3},
-	{id = "necrotic rod", chance = 682},
-	{id = "silver amulet", chance = 512},
-	{id = "gold ingot", chance = 478},
-	{id = "tribal mask", chance = 478},
-	{id = "violet gem", chance = 478},
-	{id = "yellow gem", chance = 409},
-	{id = "underworld rod", chance = 341},
-	{id = "blue gem", chance = 307},
-	{id = "oriental shoes", chance = 273},
-	{id = "blue robe", chance = 205},
-	{id = "assassin dagger", chance = 171},
-	{id = "spellbook of mind control", chance = 171},
-	{id = "crystal ring", chance = 136},
-	{id = "skullcracker armor", chance = 68}
+	{id = "yellow gem", chance = 751}
 }
 
 mType:register(monster)

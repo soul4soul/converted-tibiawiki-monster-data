@@ -1,6 +1,7 @@
-﻿<monster name="Honour Guard" nameDescription="an honour guard" experience="55" speed="154" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Honour Guard" nameDescription="an honour guard" experience="55" speed="154" manacost="0">
 	<health now="85" max="85" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="298" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -49,11 +51,11 @@
 		<voice sentence="For the pharao!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="49543" countmax="15" />
-		<item id="pelvis bone" chance="8929" />
-		<item id="brown mushroom" chance="6000" countmax="2" />
-		<item id="mace" chance="3622" />
-		<item id="scarab coin" chance="2661" />
-		<item id="scimitar" chance="1339" />
+		<item name="gold coin" chance="49586" countmax="15" />
+		<item name="pelvis bone" chance="8926" />
+		<item name="brown mushroom" chance="6018" countmax="2" />
+		<item name="mace" chance="3627" />
+		<item name="scarab coin" chance="2657" />
+		<item name="scimitar" chance="1360" />
 	</loot>
 </monster>

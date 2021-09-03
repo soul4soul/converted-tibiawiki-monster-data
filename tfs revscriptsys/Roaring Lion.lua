@@ -5,7 +5,7 @@ monster.name = "Roaring Lion"
 monster.description = "a roaring lion"
 monster.experience = 800
 monster.outfit = {
-	lookType = 0,
+	lookType = 570,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,16 +90,16 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 115},
-	{id = "meat", chance = 25349},
-	{id = "ham", chance = 24810},
-	{id = "lion's mane", chance = 20103},
-	{id = "platinum coin", chance = 10036},
-	{id = "small sapphire", chance = 7119},
-	{id = "small topaz", chance = 6959},
-	{id = "small ruby", chance = 6855},
-	{id = "small amethyst", chance = 6683},
+	{id = "meat", chance = 25351},
+	{id = "ham", chance = 24812},
+	{id = "lion's mane", chance = 20106},
+	{id = "platinum coin", chance = 10034},
+	{id = "small sapphire", chance = 7117},
+	{id = "small topaz", chance = 6957},
+	{id = "small ruby", chance = 6854},
+	{id = "small amethyst", chance = 6686},
 	{id = "ankh", chance = 2852},
-	{id = "might ring", chance = 723},
+	{id = "might ring", chance = 726},
 	{id = "crown helmet", chance = 566}
 }
 

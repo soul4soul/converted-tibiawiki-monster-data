@@ -1,4 +1,5 @@
-﻿<monster name="White Lion" nameDescription="a white lion" experience="2300" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="White Lion" nameDescription="a white lion" experience="2300" speed="0" manacost="0">
 	<health now="2700" max="2700" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="30" />
 		<element firePercent="25" />
 		<element lifedrainPercent="0" />
@@ -43,18 +45,18 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="great spirit potion" chance="24814" countmax="2" />
-		<item id="lion's mane" chance="18695" />
-		<item id="axe" chance="15167" />
-		<item id="terra boots" chance="15023" />
-		<item id="leather boots" chance="14567" />
-		<item id="twin hooks" chance="12863" />
-		<item id="green crystal shard" chance="5856" />
-		<item id="cyan crystal fragment" chance="4584" />
-		<item id="war hammer" chance="3528" />
-		<item id="yellow gem" chance="2784" />
-		<item id="combat knife" chance="2232" />
-		<item id="green crystal fragment" chance="2160" />
+		<item name="platinum coin" chance="100000" countmax="5" />
+		<item name="great spirit potion" chance="24773" countmax="2" />
+		<item name="lion's mane" chance="18824" />
+		<item name="axe" chance="15162" />
+		<item name="terra boots" chance="15045" />
+		<item name="leather boots" chance="14602" />
+		<item name="twin hooks" chance="12923" />
+		<item name="green crystal shard" chance="5995" />
+		<item name="cyan crystal fragment" chance="4619" />
+		<item name="war hammer" chance="3476" />
+		<item name="yellow gem" chance="2799" />
+		<item name="combat knife" chance="2193" />
+		<item name="green crystal fragment" chance="2123" />
 	</loot>
 </monster>

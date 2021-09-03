@@ -1,6 +1,7 @@
-﻿<monster name="Dwarf" nameDescription="a dwarf" experience="45" speed="170" manacost="320">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dwarf" nameDescription="a dwarf" experience="45" speed="170" manacost="320">
 	<health now="90" max="90" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="69" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="10" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -46,16 +48,16 @@
 		<voice sentence="Hail Durin!" yell="false" />
 	</voices>
 	<loot>
-		<item id="white mushroom" chance="50138" />
-		<item id="gold coin" chance="35348" countmax="8" />
-		<item id="hatchet" chance="24787" />
-		<item id="axe" chance="14602" />
-		<item id="pick" chance="10153" />
-		<item id="copper shield" chance="10100" />
-		<item id="leather legs" chance="9677" />
-		<item id="studded armor" chance="8010" />
-		<item id="letter" chance="7932" />
-		<item id="dwarven ring" chance="96" />
-		<item id="iron ore" chance="83" />
+		<item name="white mushroom" chance="50136" />
+		<item name="gold coin" chance="35348" countmax="8" />
+		<item name="hatchet" chance="24781" />
+		<item name="axe" chance="14604" />
+		<item name="pick" chance="10155" />
+		<item name="copper shield" chance="10099" />
+		<item name="leather legs" chance="9681" />
+		<item name="studded armor" chance="8008" />
+		<item name="letter" chance="7935" />
+		<item name="dwarven ring" chance="96" />
+		<item name="iron ore" chance="83" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Pirate Ghost" nameDescription="" experience="250" speed="210" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Pirate Ghost" nameDescription="" experience="250" speed="210" manacost="0">
 	<health now="275" max="275" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="196" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="100" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
@@ -52,11 +54,11 @@
 		<voice sentence="You will not get my treasure." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="45881" countmax="67" />
-		<item id="tattered piece of robe" chance="4146" />
-		<item id="parchment (rewritable)" chance="873" />
-		<item id="stealth ring" chance="655" />
-		<item id="spike sword" chance="164" />
-		<item id="red robe" chance="55" />
+		<item name="gold coin" chance="45881" countmax="67" />
+		<item name="tattered piece of robe" chance="4146" />
+		<item name="parchment (rewritable)" chance="873" />
+		<item name="stealth ring" chance="655" />
+		<item name="spike sword" chance="164" />
+		<item name="red robe" chance="55" />
 	</loot>
 </monster>

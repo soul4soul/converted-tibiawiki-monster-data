@@ -5,7 +5,7 @@ monster.name = "Diamond Servant Replica"
 monster.description = "a diamond servant replica"
 monster.experience = 700
 monster.outfit = {
-	lookType = 0,
+	lookType = 397,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,23 +87,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 93376, maxCount = 179},
-	{id = "soul orb", chance = 45814},
-	{id = "life crystal", chance = 9752},
-	{id = "strong mana potion", chance = 6256},
-	{id = "strong health potion", chance = 6026},
-	{id = "gear wheel", chance = 5842},
-	{id = "gear crystal", chance = 5520},
-	{id = "crystal pedestal", chance = 4186},
-	{id = "might ring", chance = 1058},
-	{id = "lightning pendant", chance = 920},
-	{id = "yellow gem", chance = 644},
-	{id = "slime mould", chance = 552},
-	{id = "mastermind potion", chance = 368},
-	{id = "wand of cosmic energy", chance = 368},
-	{id = "bonebreaker", chance = 92},
-	{id = "shockwave amulet", chance = 92},
-	{id = "crystalline armor", chance = 46}
+	{id = "gold coin", chance = 93292, maxCount = 179},
+	{id = "soul orb", chance = 45662},
+	{id = "life crystal", chance = 9705},
+	{id = "strong mana potion", chance = 6172},
+	{id = "strong health potion", chance = 6038},
+	{id = "gear wheel", chance = 5814},
+	{id = "gear crystal", chance = 5411},
+	{id = "crystal pedestal", chance = 4204},
+	{id = "might ring", chance = 1073},
+	{id = "lightning pendant", chance = 894},
+	{id = "yellow gem", chance = 626},
+	{id = "slime mould", chance = 537},
+	{id = "mastermind potion", chance = 403},
+	{id = "wand of cosmic energy", chance = 358},
+	{id = "bonebreaker", chance = 89},
+	{id = "shockwave amulet", chance = 89},
+	{id = "crystalline armor", chance = 45}
 }
 
 mType:register(monster)

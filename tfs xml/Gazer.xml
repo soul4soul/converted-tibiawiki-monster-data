@@ -1,6 +1,7 @@
-﻿<monster name="Gazer" nameDescription="a gazer" experience="90" speed="140" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Gazer" nameDescription="a gazer" experience="90" speed="140" manacost="0">
 	<health now="120" max="120" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="109" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -48,7 +50,7 @@
 		<voice sentence="Me need mana!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99380" countmax="24" />
-		<item id="small flask of eyedrops" chance="3102" />
+		<item name="gold coin" chance="99380" countmax="24" />
+		<item name="small flask of eyedrops" chance="3102" />
 	</loot>
 </monster>

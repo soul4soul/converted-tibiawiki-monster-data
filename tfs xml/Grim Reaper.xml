@@ -1,6 +1,7 @@
-﻿<monster name="Grim Reaper" nameDescription="a grim reaper" experience="5500" speed="320" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grim Reaper" nameDescription="a grim reaper" experience="5500" speed="320" manacost="0">
 	<health now="3900" max="3900" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="300" head="0" body="0" legs="0" feet="0" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="25" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="40" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -45,51 +47,22 @@
 		<voice sentence="The end is near!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99447" countmax="261" />
-		<item id="flask of demonic blood" chance="36652" />
-		<item id="demonic essence" chance="11865" />
-		<item id="ultimate health potion" chance="10508" />
-		<item id="scythe" chance="10055" />
-		<item id="great mana potion" chance="9955" />
-		<item id="mystical hourglass" chance="5430" />
-		<item id="magic light wand" chance="5329" />
-		<item id="platinum coin" chance="4827" countmax="4" />
-		<item id="dark shield" chance="3167" />
-		<item id="slightly rusted armor" chance="2715" />
-		<item id="underworld rod" chance="1106" />
-		<item id="orichalcum pearl" chance="955" countmax="4" />
-		<item id="nightmare blade" chance="804" />
-		<item id="glacier kilt" chance="352" />
-		<item id="death ring" chance="302" />
-		<item id="skullcracker armor" chance="302" />
-		<item id="gold coin" chance="4274" countmax="198" />
-		<item id="flask of demonic blood" chance="955" />
-		<item id="great mana potion" chance="352" />
-		<item id="magic light wand" chance="251" />
-		<item id="ultimate health potion" chance="251" />
-		<item id="dark shield" chance="151" />
-		<item id="demonic essence" chance="101" />
-		<item id="mystical hourglass" chance="101" />
-		<item id="scythe" chance="101" />
-		<item id="platinum coin" chance="50" countmax="2" />
-		<item id="slightly rusted armor" chance="50" />
-		<item id="underworld rod" chance="50" />
-		<item id="gold coin" chance="100000" countmax="273" />
-		<item id="flask of demonic blood" chance="100000" />
-		<item id="demonic essence" chance="100000" />
-		<item id="ultimate health potion" chance="100000" />
-		<item id="scythe" chance="100000" />
-		<item id="great mana potion" chance="100000" />
-		<item id="platinum coin" chance="79638" countmax="4" />
-		<item id="magic light wand" chance="78783" />
-		<item id="mystical hourglass" chance="78733" />
-		<item id="dark shield" chance="49623" />
-		<item id="slightly rusted armor" chance="46204" />
-		<item id="orichalcum pearl" chance="22574" countmax="4" />
-		<item id="underworld rod" chance="14379" />
-		<item id="nightmare blade" chance="10106" />
-		<item id="glacier kilt" chance="4776" />
-		<item id="skullcracker armor" chance="4123" />
-		<item id="death ring" chance="4022" />
+		<item name="gold coin" chance="99399" countmax="261" />
+		<item name="flask of demonic blood" chance="36605" />
+		<item name="demonic essence" chance="11918" />
+		<item name="ultimate health potion" chance="10516" />
+		<item name="scythe" chance="10065" />
+		<item name="great mana potion" chance="9965" />
+		<item name="mystical hourglass" chance="5408" />
+		<item name="magic light wand" chance="5308" />
+		<item name="platinum coin" chance="4807" countmax="4" />
+		<item name="dark shield" chance="3155" />
+		<item name="slightly rusted armor" chance="2704" />
+		<item name="underworld rod" chance="1102" />
+		<item name="orichalcum pearl" chance="951" countmax="4" />
+		<item name="nightmare blade" chance="801" />
+		<item name="glacier kilt" chance="351" />
+		<item name="death ring" chance="300" />
+		<item name="skullcracker armor" chance="300" />
 	</loot>
 </monster>

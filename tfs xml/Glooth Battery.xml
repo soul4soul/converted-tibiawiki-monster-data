@@ -1,4 +1,5 @@
-﻿<monster name="Glooth Battery" nameDescription="a glooth battery" experience="3000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Glooth Battery" nameDescription="a glooth battery" experience="3000" speed="0" manacost="0">
 	<health now="8000" max="8000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="25" />
+		<element energyPercent="25" />
 		<element earthPercent="1" />
 		<element firePercent="25" />
 		<element lifedrainPercent="0" />
@@ -45,16 +47,16 @@
 		<defense name="healing" interval="2000" chance="20" min="133" max="454" />
 	</defenses>
 	<loot>
-		<item id="platinum coin" chance="77083" countmax="5" />
-		<item id="great mana potion" chance="12500" />
-		<item id="flask of rust remover" chance="10417" />
-		<item id="great health potion" chance="10417" />
-		<item id="gearwheel chain" chance="8333" />
-		<item id="steel boots" chance="4167" />
-		<item id="crystal pedestal" chance="2083" />
-		<item id="gear wheel" chance="2083" />
-		<item id="iron ore" chance="2083" />
-		<item id="mastermind potion" chance="2083" />
-		<item id="metal spats" chance="2083" />
+		<item name="platinum coin" chance="75510" countmax="5" />
+		<item name="great mana potion" chance="14286" />
+		<item name="flask of rust remover" chance="10204" />
+		<item name="great health potion" chance="10204" />
+		<item name="gearwheel chain" chance="8163" />
+		<item name="gear wheel" chance="4082" />
+		<item name="steel boots" chance="4082" />
+		<item name="crystal pedestal" chance="2041" />
+		<item name="iron ore" chance="2041" />
+		<item name="mastermind potion" chance="2041" />
+		<item name="metal spats" chance="2041" />
 	</loot>
 </monster>

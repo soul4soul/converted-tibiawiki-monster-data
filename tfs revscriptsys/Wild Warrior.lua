@@ -5,11 +5,11 @@ monster.name = "Wild Warrior"
 monster.description = "a wild warrior"
 monster.experience = 60
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 131,
+	lookHead = 38,
+	lookBody = 38,
+	lookLegs = 38,
+	lookFeet = 38,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,26 +90,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 65350, maxCount = 30},
-	{id = "axe", chance = 20754},
-	{id = "brass shield", chance = 17556},
-	{id = "mace", chance = 13244},
-	{id = "egg", chance = 12563, maxCount = 2},
-	{id = "chain helmet", chance = 5173},
-	{id = "brass armor", chance = 2767},
-	{id = "steel shield", chance = 1323},
-	{id = "iron helmet", chance = 1003},
-	{id = "doll", chance = 541},
-	{id = "gold coin", chance = 98436, maxCount = 30},
-	{id = "axe", chance = 61239},
-	{id = "brass shield", chance = 34099},
-	{id = "mace", chance = 19962},
-	{id = "egg", chance = 19641, maxCount = 2},
-	{id = "chain helmet", chance = 10066},
-	{id = "brass armor", chance = 5274},
-	{id = "steel shield", chance = 1875},
-	{id = "iron helmet", chance = 1073},
-	{id = "doll", chance = 942}
+	{id = "gold coin", chance = 65321, maxCount = 30},
+	{id = "axe", chance = 20747},
+	{id = "brass shield", chance = 17519},
+	{id = "mace", chance = 13224},
+	{id = "egg", chance = 12566, maxCount = 2},
+	{id = "chain helmet", chance = 5172},
+	{id = "brass armor", chance = 2790},
+	{id = "steel shield", chance = 1345},
+	{id = "iron helmet", chance = 997},
+	{id = "doll", chance = 538}
 }
 
 mType:register(monster)

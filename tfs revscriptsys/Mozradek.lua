@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,11 +87,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "red gem", chance = 87097},
-	{id = "golden mask", chance = 8065},
-	{id = "enchanted theurgic amulet", chance = 1613},
-	{id = "sea horse figurine", chance = 1613},
-	{id = "winged boots", chance = 1613}
+	{id = "red gem", chance = 87500},
+	{id = "golden mask", chance = 7813},
+	{id = "enchanted theurgic amulet", chance = 1563},
+	{id = "sea horse figurine", chance = 1563},
+	{id = "winged boots", chance = 1563}
 }
 
 mType:register(monster)

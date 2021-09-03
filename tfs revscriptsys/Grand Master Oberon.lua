@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,20 +87,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bone", chance = 54060},
-	{id = "gold coin", chance = 43376, maxCount = 10},
-	{id = "pelvis bone", chance = 9615},
-	{id = "torch", chance = 8547},
-	{id = "viking helmet", chance = 7479},
-	{id = "hatchet", chance = 5342},
-	{id = "mace", chance = 3205},
-	{id = "sword", chance = 2778},
-	{id = "heavy old tome", chance = 1709},
-	{id = "brass shield", chance = 1068},
-	{id = "the spatial warp almanac", chance = 68376},
-	{id = "falcon plate", chance = 427},
-	{id = "falcon battleaxe", chance = 214},
-	{id = "falcon circlet", chance = 214}
+	{id = "bone", chance = 52907},
+	{id = "gold coin", chance = 43411, maxCount = 10},
+	{id = "pelvis bone", chance = 10465},
+	{id = "torch", chance = 8140},
+	{id = "viking helmet", chance = 7752},
+	{id = "hatchet", chance = 5039},
+	{id = "mace", chance = 3101},
+	{id = "sword", chance = 2713},
+	{id = "heavy old tome", chance = 1744},
+	{id = "brass shield", chance = 969}
 }
 
 mType:register(monster)

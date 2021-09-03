@@ -1,6 +1,7 @@
-﻿<monster name="Hunter" nameDescription="a hunter" experience="150" speed="210" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Hunter" nameDescription="a hunter" experience="150" speed="210" manacost="0">
 	<health now="150" max="150" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="129" head="95" body="116" legs="120" feet="115" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -52,22 +54,22 @@
 		<voice sentence="You'll make a nice trophy!" yell="false" />
 	</voices>
 	<loot>
-		<item id="arrow" chance="82421" countmax="22" />
-		<item id="orange" chance="20175" countmax="2" />
-		<item id="roll" chance="11132" countmax="2" />
-		<item id="hunter's quiver" chance="10175" />
-		<item id="bow" chance="5817" />
-		<item id="burst arrow" chance="5162" countmax="3" />
-		<item id="brass armor" chance="5145" />
-		<item id="brass helmet" chance="4992" />
-		<item id="poison arrow" chance="4358" countmax="4" />
-		<item id="dragon necklace" chance="3102" />
-		<item id="torch" chance="3077" />
-		<item id="sniper gloves" chance="545" />
-		<item id="deer trophy" chance="468" />
-		<item id="small ruby" chance="179" />
-		<item id="lion trophy" chance="132" />
-		<item id="wolf trophy" chance="119" />
-		<item id="slingshot" chance="115" />
+		<item name="arrow" chance="82415" countmax="22" />
+		<item name="orange" chance="20177" countmax="2" />
+		<item name="roll" chance="11119" countmax="2" />
+		<item name="hunter's quiver" chance="10175" />
+		<item name="bow" chance="5829" />
+		<item name="burst arrow" chance="5162" countmax="3" />
+		<item name="brass armor" chance="5137" />
+		<item name="brass helmet" chance="5005" />
+		<item name="poison arrow" chance="4355" countmax="4" />
+		<item name="dragon necklace" chance="3106" />
+		<item name="torch" chance="3080" />
+		<item name="sniper gloves" chance="544" />
+		<item name="deer trophy" chance="467" />
+		<item name="small ruby" chance="178" />
+		<item name="lion trophy" chance="132" />
+		<item name="wolf trophy" chance="119" />
+		<item name="slingshot" chance="115" />
 	</loot>
 </monster>

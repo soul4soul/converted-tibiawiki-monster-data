@@ -1,6 +1,7 @@
-﻿<monster name="Hideous Fungus" nameDescription="a hideous fungus" experience="2900" speed="340" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Hideous Fungus" nameDescription="a hideous fungus" experience="2900" speed="340" manacost="0">
 	<health now="4600" max="4600" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="499" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="100" />
 		<element firePercent="5" />
 		<element lifedrainPercent="0" />
@@ -45,25 +47,25 @@
 		<voice sentence="Munch munch munch!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="199" />
-		<item id="platinum coin" chance="100000" countmax="7" />
-		<item id="envenomed arrow" chance="14986" countmax="15" />
-		<item id="hideous chunk" chance="14715" />
-		<item id="mushroom pie" chance="14715" countmax="3" />
-		<item id="mana potion" chance="8935" />
-		<item id="great mana potion" chance="7432" />
-		<item id="great health potion" chance="7358" />
-		<item id="white piece of cloth" chance="6088" />
-		<item id="blue piece of cloth" chance="3648" />
-		<item id="war hammer" chance="3549" />
-		<item id="green piece of cloth" chance="2970" />
-		<item id="terra amulet" chance="2120" />
-		<item id="terra boots" chance="1849" />
-		<item id="red piece of cloth" chance="1762" />
-		<item id="terra mantle" chance="1023" />
-		<item id="terra legs" chance="863" />
-		<item id="muck rod" chance="616" />
-		<item id="mycological bow" chance="74" />
-		<item id="mushroom backpack" chance="12" />
+		<item name="gold coin" chance="100000" countmax="199" />
+		<item name="platinum coin" chance="100000" countmax="7" />
+		<item name="envenomed arrow" chance="14954" countmax="15" />
+		<item name="hideous chunk" chance="14771" />
+		<item name="mushroom pie" chance="14710" countmax="3" />
+		<item name="mana potion" chance="8938" />
+		<item name="great mana potion" chance="7392" />
+		<item name="great health potion" chance="7379" />
+		<item name="white piece of cloth" chance="6040" />
+		<item name="blue piece of cloth" chance="3617" />
+		<item name="war hammer" chance="3556" />
+		<item name="green piece of cloth" chance="2983" />
+		<item name="terra amulet" chance="2119" />
+		<item name="terra boots" chance="1839" />
+		<item name="red piece of cloth" chance="1778" />
+		<item name="terra mantle" chance="1023" />
+		<item name="terra legs" chance="865" />
+		<item name="muck rod" chance="609" />
+		<item name="mycological bow" chance="73" />
+		<item name="mushroom backpack" chance="12" />
 	</loot>
 </monster>

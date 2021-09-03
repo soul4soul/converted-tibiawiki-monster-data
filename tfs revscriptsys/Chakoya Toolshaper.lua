@@ -5,7 +5,7 @@ monster.name = "Chakoya Toolshaper"
 monster.description = "a chakoya toolshaper"
 monster.experience = 40
 monster.outfit = {
-	lookType = 0,
+	lookType = 259,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,27 +91,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 78276, maxCount = 20},
+	{id = "gold coin", chance = 78285, maxCount = 20},
 	{id = "fish", chance = 24995, maxCount = 2},
-	{id = "mace", chance = 5084},
+	{id = "mace", chance = 5082},
 	{id = "pick", chance = 1033},
-	{id = "bone shield", chance = 841},
+	{id = "bone shield", chance = 840},
 	{id = "fireproof horn", chance = 476},
 	{id = "ice cube", chance = 395},
 	{id = "mammoth whopper", chance = 182},
-	{id = "rainbow trout", chance = 122},
+	{id = "rainbow trout", chance = 121},
 	{id = "green perch", chance = 71},
-	{id = "northern pike", chance = 61},
-	{id = "gold coin", chance = 26403, maxCount = 20},
-	{id = "fish", chance = 10239, maxCount = 2},
-	{id = "mace", chance = 1641},
-	{id = "pick", chance = 385},
-	{id = "bone shield", chance = 354},
-	{id = "ice cube", chance = 192},
-	{id = "rainbow trout", chance = 71},
-	{id = "mammoth whopper", chance = 61},
-	{id = "northern pike", chance = 51},
-	{id = "green perch", chance = 41}
+	{id = "northern pike", chance = 61}
 }
 
 mType:register(monster)

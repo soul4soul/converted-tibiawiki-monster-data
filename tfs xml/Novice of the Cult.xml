@@ -1,6 +1,7 @@
-﻿<monster name="Novice Of The Cult" nameDescription="a novice of the cult" experience="100" speed="200" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Novice Of The Cult" nameDescription="a novice of the cult" experience="100" speed="200" manacost="0">
 	<health now="285" max="285" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="133" head="114" body="114" legs="76" feet="114" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="-8" />
+		<element energyPercent="-8" />
 		<element earthPercent="10" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -50,16 +52,16 @@
 		<voice sentence="Your curiosity will be punished!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="43475" countmax="40" />
-		<item id="rope belt" chance="5869" />
-		<item id="scarf" chance="2909" />
-		<item id="music sheet (first verse)" chance="1068" />
-		<item id="cultish robe" chance="1028" />
-		<item id="book (orange)" chance="712" />
-		<item id="dwarven ring" chance="525" />
-		<item id="pirate voodoo doll" chance="486" />
-		<item id="wand of vortex" chance="441" />
-		<item id="garlic necklace" chance="418" />
-		<item id="small diamond" chance="192" />
+		<item name="gold coin" chance="43493" countmax="40" />
+		<item name="rope belt" chance="5889" />
+		<item name="scarf" chance="2900" />
+		<item name="music sheet (first verse)" chance="1067" />
+		<item name="cultish robe" chance="1023" />
+		<item name="book (orange)" chance="704" />
+		<item name="dwarven ring" chance="525" />
+		<item name="pirate voodoo doll" chance="492" />
+		<item name="wand of vortex" chance="441" />
+		<item name="garlic necklace" chance="430" />
+		<item name="small diamond" chance="190" />
 	</loot>
 </monster>

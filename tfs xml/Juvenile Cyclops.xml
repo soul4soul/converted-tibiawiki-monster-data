@@ -1,4 +1,5 @@
-﻿<monster name="Juvenile Cyclops" nameDescription="a juvenile cyclops" experience="130" speed="160" manacost="490">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Juvenile Cyclops" nameDescription="a juvenile cyclops" experience="130" speed="160" manacost="490">
 	<health now="260" max="260" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -43,26 +45,15 @@
 	</attacks>
 	<defenses armor="11" defense="11" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="25" />
-		<item id="meat" chance="22495" />
-		<item id="mace" chance="21063" />
-		<item id="hatchet" chance="19836" />
-		<item id="sword" chance="17996" />
-		<item id="studded legs" chance="12270" />
-		<item id="chain armor" chance="12065" />
-		<item id="chain helmet" chance="8998" />
-		<item id="plate shield" chance="2454" />
-		<item id="health potion" chance="1022" />
-		<item id="gold coin" chance="15746" countmax="25" />
-		<item id="sword" chance="3272" />
-		<item id="mace" chance="2863" />
-		<item id="meat" chance="2863" />
-		<item id="chain helmet" chance="2045" />
-		<item id="chain armor" chance="1840" />
-		<item id="hatchet" chance="1636" />
-		<item id="studded legs" chance="1431" />
-		<item id="cyclops toe" chance="613" />
-		<item id="plate shield" chance="204" />
-		<item id="wolf tooth chain" chance="204" />
+		<item name="gold coin" chance="100000" countmax="25" />
+		<item name="meat" chance="22495" />
+		<item name="mace" chance="21063" />
+		<item name="hatchet" chance="19836" />
+		<item name="sword" chance="17996" />
+		<item name="studded legs" chance="12270" />
+		<item name="chain armor" chance="12065" />
+		<item name="chain helmet" chance="8998" />
+		<item name="plate shield" chance="2454" />
+		<item name="health potion" chance="1022" />
 	</loot>
 </monster>

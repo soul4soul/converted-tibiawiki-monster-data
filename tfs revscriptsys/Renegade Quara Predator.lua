@@ -5,7 +5,7 @@ monster.name = "Renegade Quara Predator"
 monster.description = "a renegade quara predator"
 monster.experience = 2700
 monster.outfit = {
-	lookType = 0,
+	lookType = 20,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,22 +89,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 80931, maxCount = 4},
-	{id = "quara bone", chance = 10407},
-	{id = "royal spear", chance = 7951, maxCount = 7},
-	{id = "great health potion", chance = 6464, maxCount = 2},
-	{id = "mind stone", chance = 6464},
-	{id = "assassin star", chance = 5236, maxCount = 10},
-	{id = "shrimp", chance = 4590},
-	{id = "small diamond", chance = 3491, maxCount = 3},
-	{id = "fish fin", chance = 2198},
-	{id = "blue crystal shard", chance = 1164},
-	{id = "relic sword", chance = 905},
-	{id = "glacier robe", chance = 582},
-	{id = "skull helmet", chance = 582},
-	{id = "abyss hammer", chance = 388},
-	{id = "frozen plate", chance = 194},
-	{id = "giant shrimp", chance = 65}
+	{id = "platinum coin", chance = 80796, maxCount = 4},
+	{id = "quara bone", chance = 10265},
+	{id = "royal spear", chance = 8189, maxCount = 7},
+	{id = "great health potion", chance = 6574, maxCount = 2},
+	{id = "mind stone", chance = 6401},
+	{id = "assassin star", chance = 5133, maxCount = 10},
+	{id = "shrimp", chance = 4671},
+	{id = "small diamond", chance = 3633, maxCount = 3},
+	{id = "fish fin", chance = 2134},
+	{id = "blue crystal shard", chance = 1211},
+	{id = "relic sword", chance = 980},
+	{id = "glacier robe", chance = 519},
+	{id = "skull helmet", chance = 519},
+	{id = "abyss hammer", chance = 404},
+	{id = "frozen plate", chance = 231},
+	{id = "giant shrimp", chance = 58}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Medusa" nameDescription="a medusa" experience="4050" speed="250" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Medusa" nameDescription="a medusa" experience="4050" speed="250" manacost="0">
 	<health now="4500" max="4500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="330" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
@@ -51,19 +53,19 @@
 		<voice sentence="Jussst look at me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="190" />
-		<item id="platinum coin" chance="75041" countmax="6" />
-		<item id="great mana potion" chance="9935" countmax="2" />
-		<item id="strand of medusa hair" chance="9759" />
-		<item id="ultimate health potion" chance="9581" countmax="2" />
-		<item id="terra amulet" chance="4090" />
-		<item id="small emerald" chance="3896" countmax="4" />
-		<item id="medusa shield" chance="3102" />
-		<item id="knight armor" chance="1983" />
-		<item id="titan axe" chance="1244" />
-		<item id="terra mantle" chance="861" />
-		<item id="sacred tree amulet" chance="825" />
-		<item id="terra legs" chance="383" />
-		<item id="slightly rusted armor" chance="303" />
+		<item name="gold coin" chance="100000" countmax="190" />
+		<item name="platinum coin" chance="75038" countmax="6" />
+		<item name="great mana potion" chance="9928" countmax="2" />
+		<item name="strand of medusa hair" chance="9750" />
+		<item name="ultimate health potion" chance="9585" countmax="2" />
+		<item name="terra amulet" chance="4094" />
+		<item name="small emerald" chance="3900" countmax="4" />
+		<item name="medusa shield" chance="3100" />
+		<item name="knight armor" chance="1985" />
+		<item name="titan axe" chance="1245" />
+		<item name="terra mantle" chance="863" />
+		<item name="sacred tree amulet" chance="827" />
+		<item name="terra legs" chance="382" />
+		<item name="slightly rusted armor" chance="303" />
 	</loot>
 </monster>

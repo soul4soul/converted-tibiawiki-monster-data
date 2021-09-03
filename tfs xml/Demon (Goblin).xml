@@ -1,4 +1,5 @@
-﻿<monster name="Demon" nameDescription="a demon" experience="25" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Demon" nameDescription="a demon" experience="25" speed="0" manacost="0">
 	<health now="50" max="50" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,9 +45,9 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="small stone" chance="32258" countmax="3" />
-		<item id="bone" chance="7527" />
-		<item id="leather armor" chance="7527" />
-		<item id="mouldy cheese" chance="4301" />
+		<item name="small stone" chance="33673" countmax="3" />
+		<item name="bone" chance="8163" />
+		<item name="leather armor" chance="7143" />
+		<item name="mouldy cheese" chance="7143" />
 	</loot>
 </monster>

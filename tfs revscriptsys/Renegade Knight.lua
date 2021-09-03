@@ -5,12 +5,12 @@ monster.name = "Renegade Knight"
 monster.description = "a renegade knight"
 monster.experience = 1200
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 268,
+	lookHead = 97,
+	lookBody = 113,
+	lookLegs = 76,
+	lookFeet = 98,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -93,18 +94,18 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99985, maxCount = 100},
-	{id = "platinum coin", chance = 25663, maxCount = 2},
+	{id = "platinum coin", chance = 25666, maxCount = 2},
 	{id = "meat", chance = 9375},
-	{id = "great health potion", chance = 7237},
-	{id = "scroll of heroic deeds", chance = 5951},
-	{id = "two handed sword", chance = 5216},
-	{id = "small ruby", chance = 3688},
-	{id = "red piece of cloth", chance = 1822},
-	{id = "small notebook", chance = 1580},
-	{id = "war hammer", chance = 977},
-	{id = "crown legs", chance = 654},
+	{id = "great health potion", chance = 7239},
+	{id = "scroll of heroic deeds", chance = 5954},
+	{id = "two handed sword", chance = 5213},
+	{id = "small ruby", chance = 3685},
+	{id = "red piece of cloth", chance = 1821},
+	{id = "small notebook", chance = 1578},
+	{id = "war hammer", chance = 976},
+	{id = "crown legs", chance = 653},
 	{id = "crown armor", chance = 624},
-	{id = "crown helmet", chance = 610},
+	{id = "crown helmet", chance = 609},
 	{id = "fire sword", chance = 514},
 	{id = "crown shield", chance = 206},
 	{id = "piggy bank", chance = 110}

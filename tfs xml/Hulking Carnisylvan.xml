@@ -1,4 +1,5 @@
-﻿<monster name="Hulking Carnisylvan" nameDescription="a hulking carnisylvan" experience="4200" speed="220" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Hulking Carnisylvan" nameDescription="a hulking carnisylvan" experience="4200" speed="220" manacost="0">
 	<health now="8600" max="8600" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="20" />
 		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
@@ -52,19 +54,19 @@
 	</attacks>
 	<defenses armor="51" defense="51" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="19" />
-		<item id="bone" chance="23239" />
-		<item id="great health potion" chance="12726" countmax="2" />
-		<item id="carnisylvan bark" chance="12072" />
-		<item id="carnisylvan finger" chance="9004" />
-		<item id="terra hood" chance="5986" />
-		<item id="terra boots" chance="5332" />
-		<item id="knight axe" chance="4074" />
-		<item id="lightning headband" chance="3722" />
-		<item id="diamond sceptre" chance="3672" />
-		<item id="epee" chance="3018" />
-		<item id="dragonbone staff" chance="2918" />
-		<item id="war hammer" chance="2515" />
-		<item id="human teeth" chance="553" />
+		<item name="platinum coin" chance="100000" countmax="19" />
+		<item name="bone" chance="23271" />
+		<item name="great health potion" chance="12542" countmax="2" />
+		<item name="carnisylvan bark" chance="12017" />
+		<item name="carnisylvan finger" chance="9013" />
+		<item name="terra hood" chance="5913" />
+		<item name="terra boots" chance="5198" />
+		<item name="knight axe" chance="4101" />
+		<item name="lightning headband" chance="3767" />
+		<item name="diamond sceptre" chance="3672" />
+		<item name="epee" chance="3004" />
+		<item name="dragonbone staff" chance="2814" />
+		<item name="war hammer" chance="2718" />
+		<item name="human teeth" chance="525" />
 	</loot>
 </monster>

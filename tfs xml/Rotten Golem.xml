@@ -1,4 +1,5 @@
-﻿<monster name="Rotten Golem" nameDescription="a rotten golem" experience="19000" speed="400" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Rotten Golem" nameDescription="a rotten golem" experience="19000" speed="400" manacost="0">
 	<health now="28000" max="28000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="-15" />
+		<element energyPercent="-15" />
 		<element earthPercent="40" />
 		<element firePercent="-25" />
 		<element lifedrainPercent="0" />
@@ -43,50 +45,20 @@
 	</attacks>
 	<defenses armor="108" defense="108" />
 	<loot>
-		<item id="crystal coin" chance="63304" />
-		<item id="great spirit potion" chance="33461" countmax="5" />
-		<item id="sacred tree amulet" chance="3930" />
-		<item id="giant shimmering pearl (green)" chance="2957" />
-		<item id="underworld rod" chance="2957" />
-		<item id="terra amulet" chance="2435" />
-		<item id="titan axe" chance="2052" />
-		<item id="giant sword" chance="1878" />
-		<item id="war axe" chance="1878" />
-		<item id="mercenary sword" chance="1843" />
-		<item id="fur armor" chance="1426" />
-		<item id="wood cape" chance="626" />
-		<item id="stone skin amulet" chance="591" />
-		<item id="rubber cap" chance="522" />
-		<item id="terra mantle" chance="417" />
-		<item id="crystal coin" chance="92522" />
-		<item id="great spirit potion" chance="48209" countmax="5" />
-		<item id="sacred tree amulet" chance="6400" />
-		<item id="titan axe" chance="4417" />
-		<item id="giant shimmering pearl (green)" chance="4348" />
-		<item id="giant sword" chance="3826" />
-		<item id="terra amulet" chance="3617" />
-		<item id="underworld rod" chance="3443" />
-		<item id="mercenary sword" chance="2574" />
-		<item id="war axe" chance="2365" />
-		<item id="fur armor" chance="1530" />
-		<item id="stone skin amulet" chance="1217" />
-		<item id="wood cape" chance="765" />
-		<item id="rubber cap" chance="591" />
-		<item id="terra mantle" chance="452" />
-		<item id="crystal coin" chance="100000" />
-		<item id="great spirit potion" chance="54783" countmax="5" />
-		<item id="sacred tree amulet" chance="6191" />
-		<item id="titan axe" chance="5357" />
-		<item id="underworld rod" chance="5009" />
-		<item id="giant sword" chance="4278" />
-		<item id="terra amulet" chance="4209" />
-		<item id="giant shimmering pearl (green)" chance="4104" />
-		<item id="war axe" chance="3304" />
-		<item id="mercenary sword" chance="2957" />
-		<item id="fur armor" chance="2017" />
-		<item id="stone skin amulet" chance="1217" />
-		<item id="wood cape" chance="1148" />
-		<item id="rubber cap" chance="626" />
-		<item id="terra mantle" chance="557" />
+		<item name="crystal coin" chance="63077" />
+		<item name="great spirit potion" chance="32923" countmax="5" />
+		<item name="sacred tree amulet" chance="3912" />
+		<item name="underworld rod" chance="2901" />
+		<item name="giant shimmering pearl (green)" chance="2791" />
+		<item name="terra amulet" chance="2396" />
+		<item name="titan axe" chance="2396" />
+		<item name="giant sword" chance="1912" />
+		<item name="mercenary sword" chance="1846" />
+		<item name="war axe" chance="1758" />
+		<item name="fur armor" chance="1363" />
+		<item name="wood cape" chance="659" />
+		<item name="rubber cap" chance="615" />
+		<item name="stone skin amulet" chance="615" />
+		<item name="terra mantle" chance="418" />
 	</loot>
 </monster>

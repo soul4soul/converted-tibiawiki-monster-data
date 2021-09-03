@@ -5,7 +5,7 @@ monster.name = "Crawler"
 monster.description = "a crawler"
 monster.experience = 1000
 monster.outfit = {
-	lookType = 0,
+	lookType = 456,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,15 +89,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 190},
-	{id = "platinum coin", chance = 50319},
-	{id = "crawler head plating", chance = 17967},
-	{id = "compound eye", chance = 14684},
-	{id = "small topaz", chance = 10073, maxCount = 2},
-	{id = "great mana potion", chance = 8937},
-	{id = "great health potion", chance = 6199},
-	{id = "war hammer", chance = 1870},
-	{id = "springsprout rod", chance = 613},
-	{id = "yellow gem", chance = 461},
+	{id = "platinum coin", chance = 50328},
+	{id = "crawler head plating", chance = 17970},
+	{id = "compound eye", chance = 14677},
+	{id = "small topaz", chance = 10083, maxCount = 2},
+	{id = "great mana potion", chance = 8926},
+	{id = "great health potion", chance = 6194},
+	{id = "war hammer", chance = 1866},
+	{id = "springsprout rod", chance = 612},
+	{id = "yellow gem", chance = 462},
 	{id = "grasshopper legs", chance = 94}
 }
 

@@ -1,4 +1,5 @@
-﻿<monster name="Exotic Bat" nameDescription="an exotic bat" experience="1200" speed="200" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Exotic Bat" nameDescription="an exotic bat" experience="1200" speed="200" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="5" />
+		<element energyPercent="5" />
 		<element earthPercent="1" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -43,12 +45,12 @@
 	</attacks>
 	<defenses armor="40" defense="40" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="4" />
-		<item id="great mana potion" chance="29582" />
-		<item id="dark mushroom" chance="14906" countmax="6" />
-		<item id="green mushroom" chance="10530" countmax="5" />
-		<item id="terra amulet" chance="5627" />
-		<item id="garlic necklace" chance="5199" />
-		<item id="bat wing" chance="4755" countmax="2" />
+		<item name="platinum coin" chance="100000" countmax="4" />
+		<item name="great mana potion" chance="29371" />
+		<item name="dark mushroom" chance="14873" countmax="6" />
+		<item name="green mushroom" chance="10603" countmax="5" />
+		<item name="terra amulet" chance="5886" />
+		<item name="garlic necklace" chance="5294" />
+		<item name="bat wing" chance="4761" countmax="2" />
 	</loot>
 </monster>

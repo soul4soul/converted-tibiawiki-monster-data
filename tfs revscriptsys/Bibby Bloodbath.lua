@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -104,22 +105,7 @@ monster.loot = {
 	{id = "giant sword", chance = 3165},
 	{id = "crusader helmet", chance = 1899},
 	{id = "butcher's axe", chance = 1266},
-	{id = "orc trophy", chance = 1266},
-	{id = "gold coin", chance = 27215, maxCount = 100},
-	{id = "platinum coin", chance = 27215, maxCount = 10},
-	{id = "throwing star", chance = 6962, maxCount = 18},
-	{id = "two handed sword", chance = 6329},
-	{id = "health potion", chance = 5696, maxCount = 3},
-	{id = "orcish axe", chance = 5696},
-	{id = "fish", chance = 5063},
-	{id = "mana potion", chance = 4430, maxCount = 3},
-	{id = "dark armor", chance = 3165},
-	{id = "stealth ring", chance = 1899},
-	{id = "meat", chance = 1266},
-	{id = "orc trophy", chance = 1266},
-	{id = "plate legs", chance = 1266},
-	{id = "crusader helmet", chance = 633},
-	{id = "magma amulet", chance = 633}
+	{id = "orc trophy", chance = 1266}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Phantasm" nameDescription="" experience="4400" speed="340" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Phantasm" nameDescription="" experience="4400" speed="340" manacost="0">
 	<health now="3950" max="3950" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="241" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="100" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="20" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
@@ -55,48 +57,21 @@
 		<voice sentence="Give in." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="87473" countmax="238" />
-		<item id="platinum coin" chance="87473" countmax="4" />
-		<item id="great mana potion" chance="30178" countmax="2" />
-		<item id="shadow herb" chance="26370" />
-		<item id="blank rune" chance="20996" countmax="2" />
-		<item id="ultimate health potion" chance="17544" />
-		<item id="demonic essence" chance="17011" />
-		<item id="small amethyst" chance="14662" countmax="3" />
-		<item id="small topaz" chance="13345" countmax="3" />
-		<item id="small ruby" chance="11779" countmax="3" />
-		<item id="small emerald" chance="10605" countmax="3" />
-		<item id="shadow sceptre" chance="890" />
-		<item id="stealth ring" chance="783" />
-		<item id="crown armor" chance="676" />
-		<item id="abyss hammer" chance="463" />
-		<item id="death ring" chance="320" />
-		<item id="gold coin" chance="35836" countmax="233" />
-		<item id="platinum coin" chance="21957" countmax="4" />
-		<item id="great mana potion" chance="11423" countmax="2" />
-		<item id="shadow herb" chance="10214" />
-		<item id="blank rune" chance="8541" countmax="2" />
-		<item id="demonic essence" chance="7580" />
-		<item id="ultimate health potion" chance="7509" />
-		<item id="small topaz" chance="3416" countmax="3" />
-		<item id="small amethyst" chance="3310" countmax="3" />
-		<item id="small ruby" chance="2669" countmax="3" />
-		<item id="small emerald" chance="2633" countmax="3" />
-		<item id="stealth ring" chance="320" />
-		<item id="abyss hammer" chance="285" />
-		<item id="shadow sceptre" chance="285" />
-		<item id="death ring" chance="249" />
-		<item id="crown armor" chance="71" />
-		<item id="gold coin" chance="8932" countmax="274" />
-		<item id="shadow herb" chance="3167" />
-		<item id="blank rune" chance="2242" countmax="2" />
-		<item id="demonic essence" chance="1566" />
-		<item id="rusty armor" chance="1068" />
-		<item id="soul orb" chance="854" />
-		<item id="great mana potion" chance="534" />
-		<item id="small emerald" chance="427" countmax="3" />
-		<item id="platinum coin" chance="142" />
-		<item id="crown armor" chance="107" />
-		<item id="stealth ring" chance="107" />
+		<item name="gold coin" chance="87548" countmax="238" />
+		<item name="platinum coin" chance="87548" countmax="4" />
+		<item name="great mana potion" chance="30200" countmax="2" />
+		<item name="shadow herb" chance="26447" />
+		<item name="blank rune" chance="21150" countmax="2" />
+		<item name="ultimate health potion" chance="17678" />
+		<item name="demonic essence" chance="17082" />
+		<item name="small amethyst" chance="14626" countmax="3" />
+		<item name="small topaz" chance="13259" countmax="3" />
+		<item name="small ruby" chance="11645" countmax="3" />
+		<item name="small emerald" chance="10663" countmax="3" />
+		<item name="shadow sceptre" chance="877" />
+		<item name="stealth ring" chance="772" />
+		<item name="crown armor" chance="666" />
+		<item name="abyss hammer" chance="491" />
+		<item name="death ring" chance="351" />
 	</loot>
 </monster>

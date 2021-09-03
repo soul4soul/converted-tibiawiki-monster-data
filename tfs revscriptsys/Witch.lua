@@ -5,7 +5,7 @@ monster.name = "Witch"
 monster.description = "a witch"
 monster.experience = 120
 monster.outfit = {
-	lookType = 0,
+	lookType = 54,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,34 +90,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 63920, maxCount = 40},
-	{id = "cookie", chance = 29952, maxCount = 8},
-	{id = "wolf tooth chain", chance = 10139},
-	{id = "witch broom", chance = 10001},
-	{id = "star herb", chance = 8981},
-	{id = "leather boots", chance = 5005},
-	{id = "cape", chance = 4949},
-	{id = "sickle", chance = 3888},
-	{id = "garlic necklace", chance = 2520},
-	{id = "coat", chance = 2015},
-	{id = "necrotic rod", chance = 1083},
-	{id = "bag of apple slices", chance = 891},
-	{id = "silver dagger", chance = 559},
+	{id = "gold coin", chance = 63931, maxCount = 40},
+	{id = "cookie", chance = 29962, maxCount = 8},
+	{id = "wolf tooth chain", chance = 10132},
+	{id = "witch broom", chance = 10003},
+	{id = "star herb", chance = 8972},
+	{id = "leather boots", chance = 5000},
+	{id = "cape", chance = 4947},
+	{id = "sickle", chance = 3887},
+	{id = "garlic necklace", chance = 2524},
+	{id = "coat", chance = 2013},
+	{id = "necrotic rod", chance = 1085},
+	{id = "bag of apple slices", chance = 890},
+	{id = "silver dagger", chance = 558},
 	{id = "witch hat", chance = 91},
-	{id = "stuffed toad", chance = 6},
-	{id = "gold coin", chance = 6907, maxCount = 39},
-	{id = "cookie", chance = 3245, maxCount = 8},
-	{id = "witch broom", chance = 1073},
-	{id = "wolf tooth chain", chance = 1057},
-	{id = "star herb", chance = 901},
-	{id = "leather boots", chance = 593},
-	{id = "cape", chance = 574},
-	{id = "sickle", chance = 499},
-	{id = "garlic necklace", chance = 267},
-	{id = "coat", chance = 198},
-	{id = "necrotic rod", chance = 107},
-	{id = "silver dagger", chance = 47},
-	{id = "witch hat", chance = 16}
+	{id = "stuffed toad", chance = 6}
 }
 
 mType:register(monster)

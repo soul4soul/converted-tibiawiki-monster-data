@@ -1,6 +1,7 @@
-﻿<monster name="Bandit" nameDescription="a bandit" experience="65" speed="180" manacost="450">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Bandit" nameDescription="a bandit" experience="65" speed="180" manacost="450">
 	<health now="245" max="245" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="129" head="58" body="40" legs="24" feet="95" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -47,14 +49,14 @@
 		<voice sentence="Your money or your life!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="48979" countmax="30" />
-		<item id="axe" chance="29972" />
-		<item id="brass shield" chance="16768" />
-		<item id="leather legs" chance="14974" />
-		<item id="mace" chance="10326" />
-		<item id="tomato" chance="7702" countmax="2" />
-		<item id="chain helmet" chance="4953" />
-		<item id="brass armor" chance="2376" />
-		<item id="iron helmet" chance="539" />
+		<item name="gold coin" chance="48973" countmax="30" />
+		<item name="axe" chance="29974" />
+		<item name="brass shield" chance="16782" />
+		<item name="leather legs" chance="14970" />
+		<item name="mace" chance="10322" />
+		<item name="tomato" chance="7695" countmax="2" />
+		<item name="chain helmet" chance="4958" />
+		<item name="brass armor" chance="2374" />
+		<item name="iron helmet" chance="539" />
 	</loot>
 </monster>

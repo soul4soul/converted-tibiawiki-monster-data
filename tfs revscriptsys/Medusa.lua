@@ -5,7 +5,7 @@ monster.name = "Medusa"
 monster.description = "a medusa"
 monster.experience = 4050
 monster.outfit = {
-	lookType = 0,
+	lookType = 330,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,18 +93,18 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 190},
-	{id = "platinum coin", chance = 75041, maxCount = 6},
-	{id = "great mana potion", chance = 9935, maxCount = 2},
-	{id = "strand of medusa hair", chance = 9759},
-	{id = "ultimate health potion", chance = 9581, maxCount = 2},
-	{id = "terra amulet", chance = 4090},
-	{id = "small emerald", chance = 3896, maxCount = 4},
-	{id = "medusa shield", chance = 3102},
-	{id = "knight armor", chance = 1983},
-	{id = "titan axe", chance = 1244},
-	{id = "terra mantle", chance = 861},
-	{id = "sacred tree amulet", chance = 825},
-	{id = "terra legs", chance = 383},
+	{id = "platinum coin", chance = 75038, maxCount = 6},
+	{id = "great mana potion", chance = 9928, maxCount = 2},
+	{id = "strand of medusa hair", chance = 9750},
+	{id = "ultimate health potion", chance = 9585, maxCount = 2},
+	{id = "terra amulet", chance = 4094},
+	{id = "small emerald", chance = 3900, maxCount = 4},
+	{id = "medusa shield", chance = 3100},
+	{id = "knight armor", chance = 1985},
+	{id = "titan axe", chance = 1245},
+	{id = "terra mantle", chance = 863},
+	{id = "sacred tree amulet", chance = 827},
+	{id = "terra legs", chance = 382},
 	{id = "slightly rusted armor", chance = 303}
 }
 

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -85,8 +86,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "schnitzel meat grinder", chance = 93175},
-	{id = "schnitzel meat grinder", chance = 100000}
+	{id = "schnitzel meat grinder", chance = 93175}
 }
 
 mType:register(monster)

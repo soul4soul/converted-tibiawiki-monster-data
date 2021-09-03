@@ -1,4 +1,5 @@
-﻿<monster name="Paladin's Apparition" nameDescription="a paladin's apparition" experience="18870" speed="470" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Paladin's Apparition" nameDescription="a paladin's apparition" experience="18870" speed="470" manacost="0">
 	<health now="25000" max="25000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-11" />
 		<element lifedrainPercent="0" />
@@ -43,19 +45,19 @@
 		<voice sentence="I could be your evil twin!" yell="false" />
 	</voices>
 	<loot>
-		<item id="crystal coin" chance="78415" />
-		<item id="warrior helmet" chance="7057" />
-		<item id="green gem" chance="5811" />
-		<item id="great spirit potion" chance="5774" />
-		<item id="violet gem" chance="5208" />
-		<item id="blue gem" chance="4792" />
-		<item id="glacier mask" chance="4528" />
-		<item id="glacier amulet" chance="2717" />
-		<item id="wood cape" chance="2226" />
-		<item id="skull helmet" chance="1811" />
-		<item id="collar of blue plasma" chance="1698" />
-		<item id="ring of blue plasma" chance="1434" />
-		<item id="stone skin amulet" chance="830" />
-		<item id="composite hornbow" chance="264" />
+		<item name="crystal coin" chance="78415" />
+		<item name="warrior helmet" chance="7057" />
+		<item name="green gem" chance="5811" />
+		<item name="great spirit potion" chance="5774" />
+		<item name="violet gem" chance="5208" />
+		<item name="blue gem" chance="4792" />
+		<item name="glacier mask" chance="4528" />
+		<item name="glacier amulet" chance="2717" />
+		<item name="wood cape" chance="2226" />
+		<item name="skull helmet" chance="1811" />
+		<item name="collar of blue plasma" chance="1698" />
+		<item name="ring of blue plasma" chance="1434" />
+		<item name="stone skin amulet" chance="830" />
+		<item name="composite hornbow" chance="264" />
 	</loot>
 </monster>

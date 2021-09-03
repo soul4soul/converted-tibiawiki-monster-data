@@ -5,7 +5,7 @@ monster.name = "Monk"
 monster.description = "a monk"
 monster.experience = 200
 monster.outfit = {
-	lookType = 0,
+	lookType = 57,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,19 +91,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bread", chance = 20056},
-	{id = "gold coin", chance = 15251, maxCount = 18},
-	{id = "book of prayers", chance = 4871},
-	{id = "rope belt", chance = 3123},
-	{id = "ankh", chance = 2334},
-	{id = "scroll", chance = 1832},
-	{id = "safety pin", chance = 1056},
-	{id = "life crystal", chance = 1037},
-	{id = "brown flask", chance = 861},
-	{id = "lamp", chance = 809},
-	{id = "sandals", chance = 659},
-	{id = "staff", chance = 456},
-	{id = "power ring", chance = 78}
+	{id = "bread", chance = 19981},
+	{id = "gold coin", chance = 15258, maxCount = 18},
+	{id = "book of prayers", chance = 4874},
+	{id = "rope belt", chance = 3101},
+	{id = "ankh", chance = 2340},
+	{id = "scroll", chance = 1843},
+	{id = "safety pin", chance = 1050},
+	{id = "life crystal", chance = 1038},
+	{id = "brown flask", chance = 830},
+	{id = "lamp", chance = 792},
+	{id = "sandals", chance = 648},
+	{id = "staff", chance = 472},
+	{id = "power ring", chance = 82}
 }
 
 mType:register(monster)

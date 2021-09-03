@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,16 +90,7 @@ monster.loot = {
 	{id = "bolt", chance = 60656, maxCount = 15},
 	{id = "chain armor", chance = 9836},
 	{id = "studded armor", chance = 4918},
-	{id = "meat", chance = 3279},
-	{id = "gold coin", chance = 100000, maxCount = 28},
-	{id = "bolt", chance = 100000, maxCount = 19},
-	{id = "broken crossbow", chance = 50820},
-	{id = "chain armor", chance = 42623},
-	{id = "meat", chance = 21311},
-	{id = "studded armor", chance = 16393},
-	{id = "crossbow", chance = 3279},
-	{id = "minotaur leather", chance = 3279},
-	{id = "minotaur horn", chance = 1639}
+	{id = "meat", chance = 3279}
 }
 
 mType:register(monster)

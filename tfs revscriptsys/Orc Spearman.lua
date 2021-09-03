@@ -5,7 +5,7 @@ monster.name = "Orc Spearman"
 monster.description = "an orc spearman"
 monster.experience = 38
 monster.outfit = {
-	lookType = 0,
+	lookType = 50,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,24 +88,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 30400},
-	{id = "gold coin", chance = 25092, maxCount = 11},
-	{id = "spear", chance = 17820},
-	{id = "studded legs", chance = 8818},
-	{id = "studded helmet", chance = 8314},
-	{id = "machete", chance = 2956},
-	{id = "orc leather", chance = 1948},
-	{id = "heavy old tome", chance = 1864},
-	{id = "orc tooth", chance = 101},
-	{id = "meat", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 11},
-	{id = "spear", chance = 100000},
-	{id = "studded legs", chance = 100000},
-	{id = "studded helmet", chance = 100000},
-	{id = "machete", chance = 78939},
-	{id = "orc leather", chance = 55190},
-	{id = "orc tooth", chance = 2754},
-	{id = "heavy old tome", chance = 34}
+	{id = "meat", chance = 30441},
+	{id = "gold coin", chance = 25087, maxCount = 11},
+	{id = "spear", chance = 17872},
+	{id = "studded legs", chance = 8828},
+	{id = "studded helmet", chance = 8329},
+	{id = "machete", chance = 2959},
+	{id = "orc leather", chance = 1962},
+	{id = "heavy old tome", chance = 1879},
+	{id = "orc tooth", chance = 100}
 }
 
 mType:register(monster)

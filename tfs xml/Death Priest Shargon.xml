@@ -1,4 +1,5 @@
-﻿<monster name="Death Priest Shargon" nameDescription="" experience="20000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Death Priest Shargon" nameDescription="" experience="20000" speed="0" manacost="0">
 	<health now="65000" max="65000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -45,12 +47,12 @@
 		<defense name="healing" interval="2000" chance="20" min="0" max="699" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="91" />
-		<item id="necrotic rod" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="12" />
-		<item id="black skull" chance="25000" />
-		<item id="gold ingot" chance="25000" />
-		<item id="great health potion" chance="25000" countmax="5" />
-		<item id="great mana potion" chance="25000" countmax="3" />
+		<item name="gold coin" chance="100000" countmax="91" />
+		<item name="necrotic rod" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="12" />
+		<item name="black skull" chance="25000" />
+		<item name="gold ingot" chance="25000" />
+		<item name="great health potion" chance="25000" countmax="5" />
+		<item name="great mana potion" chance="25000" countmax="3" />
 	</loot>
 </monster>

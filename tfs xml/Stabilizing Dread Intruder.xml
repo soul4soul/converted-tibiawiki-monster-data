@@ -1,6 +1,7 @@
-﻿<monster name="Stabilizing Dread Intruder" nameDescription="a stabilizing dread intruder" experience="1900" speed="290" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Stabilizing Dread Intruder" nameDescription="a stabilizing dread intruder" experience="1900" speed="290" manacost="0">
 	<health now="2800" max="2800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="882" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="80" />
+		<element energyPercent="80" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -46,22 +48,22 @@
 		<voice sentence="Whirr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="98126" countmax="100" />
-		<item id="platinum coin" chance="86627" countmax="5" />
-		<item id="energy bar" chance="10764" />
-		<item id="strange proto matter" chance="10176" />
-		<item id="energy drink" chance="9809" />
-		<item id="ultimate health potion" chance="9589" />
-		<item id="great mana potion" chance="9405" />
-		<item id="solid rage" chance="9111" />
-		<item id="glistening bone" chance="8964" />
-		<item id="great spirit potion" chance="8780" />
-		<item id="cyan crystal fragment" chance="5621" />
-		<item id="blue crystal splinter" chance="5253" />
-		<item id="violet crystal shard" chance="4776" />
-		<item id="small sapphire" chance="4555" countmax="2" />
-		<item id="small amethyst" chance="4482" countmax="2" />
-		<item id="small ruby" chance="3711" countmax="2" />
-		<item id="violet gem" chance="110" />
+		<item name="gold coin" chance="98235" countmax="100" />
+		<item name="platinum coin" chance="86501" countmax="5" />
+		<item name="energy bar" chance="10661" />
+		<item name="strange proto matter" chance="9969" />
+		<item name="energy drink" chance="9900" />
+		<item name="ultimate health potion" chance="9588" />
+		<item name="great mana potion" chance="9484" />
+		<item name="solid rage" chance="9450" />
+		<item name="glistening bone" chance="8930" />
+		<item name="great spirit potion" chance="8896" />
+		<item name="cyan crystal fragment" chance="5607" />
+		<item name="blue crystal splinter" chance="5227" />
+		<item name="violet crystal shard" chance="4915" />
+		<item name="small sapphire" chance="4846" countmax="2" />
+		<item name="small amethyst" chance="4569" countmax="2" />
+		<item name="small ruby" chance="3773" countmax="2" />
+		<item name="violet gem" chance="104" />
 	</loot>
 </monster>

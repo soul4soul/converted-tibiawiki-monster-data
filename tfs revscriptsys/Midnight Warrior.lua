@@ -5,12 +5,12 @@ monster.name = "Midnight Warrior"
 monster.description = "a midnight warrior"
 monster.experience = 750
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 268,
+	lookHead = 95,
+	lookBody = 95,
+	lookLegs = 95,
+	lookFeet = 95,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,

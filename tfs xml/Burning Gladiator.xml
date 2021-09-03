@@ -1,6 +1,7 @@
-﻿<monster name="Burning Gladiator" nameDescription="a burning gladiator" experience="7350" speed="290" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Burning Gladiator" nameDescription="a burning gladiator" experience="7350" speed="290" manacost="0">
 	<health now="10000" max="10000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="541" head="95" body="113" legs="3" feet="3" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="0" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -48,51 +50,21 @@
 		<voice sentence="Praised be Fafnar, the Smiter!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="4" />
-		<item id="fafnar symbol" chance="9994" />
-		<item id="secret instruction" chance="6816" />
-		<item id="dragon necklace" chance="6214" />
-		<item id="strange talisman" chance="4926" />
-		<item id="lightning pendant" chance="4696" />
-		<item id="magma amulet" chance="4267" />
-		<item id="magma boots" chance="4267" />
-		<item id="lightning headband" chance="4152" />
-		<item id="lightning legs" chance="4095" />
-		<item id="empty honey glass" chance="2721" />
-		<item id="elven amulet" chance="2520" />
-		<item id="lightning boots" chance="1489" />
-		<item id="spellweaver's robe" chance="1060" />
-		<item id="golden mask" chance="859" />
-		<item id="sea horse figurine" chance="573" />
-		<item id="platinum coin" chance="100000" countmax="3" />
-		<item id="fafnar symbol" chance="15378" />
-		<item id="secret instruction" chance="11569" />
-		<item id="strange talisman" chance="8706" />
-		<item id="dragon necklace" chance="7875" />
-		<item id="magma boots" chance="7073" />
-		<item id="magma amulet" chance="6014" />
-		<item id="lightning headband" chance="5756" />
-		<item id="lightning pendant" chance="5384" />
-		<item id="lightning legs" chance="4897" />
-		<item id="empty honey glass" chance="4267" />
-		<item id="elven amulet" chance="3351" />
-		<item id="lightning boots" chance="2377" />
-		<item id="spellweaver's robe" chance="2234" />
-		<item id="golden mask" chance="1088" />
-		<item id="sea horse figurine" chance="802" />
-		<item id="platinum coin" chance="3809" countmax="3" />
-		<item id="secret instruction" chance="286" />
-		<item id="fafnar symbol" chance="258" />
-		<item id="magma amulet" chance="229" />
-		<item id="magma boots" chance="229" />
-		<item id="dragon necklace" chance="172" />
-		<item id="lightning headband" chance="143" />
-		<item id="elven amulet" chance="115" />
-		<item id="strange talisman" chance="115" />
-		<item id="empty honey glass" chance="86" />
-		<item id="lightning legs" chance="86" />
-		<item id="golden mask" chance="57" />
-		<item id="lightning pendant" chance="57" />
-		<item id="lightning boots" chance="29" />
+		<item name="platinum coin" chance="100000" countmax="4" />
+		<item name="fafnar symbol" chance="10017" />
+		<item name="secret instruction" chance="6780" />
+		<item name="dragon necklace" chance="6222" />
+		<item name="strange talisman" chance="4911" />
+		<item name="lightning pendant" chance="4743" />
+		<item name="magma amulet" chance="4297" />
+		<item name="lightning headband" chance="4213" />
+		<item name="magma boots" chance="4185" />
+		<item name="lightning legs" chance="4102" />
+		<item name="empty honey glass" chance="2762" />
+		<item name="elven amulet" chance="2511" />
+		<item name="lightning boots" chance="1507" />
+		<item name="spellweaver's robe" chance="1032" />
+		<item name="golden mask" chance="865" />
+		<item name="sea horse figurine" chance="614" />
 	</loot>
 </monster>

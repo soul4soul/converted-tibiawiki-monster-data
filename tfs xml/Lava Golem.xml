@@ -1,6 +1,7 @@
-﻿<monster name="Lava Golem" nameDescription="a lava golem" experience="6200" speed="420" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lava Golem" nameDescription="a lava golem" experience="6200" speed="420" manacost="0">
 	<health now="9000" max="9000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="491" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="30" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -47,34 +49,34 @@
 		<voice sentence="Grrrrunt" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="platinum coin" chance="99981" countmax="11" />
-		<item id="mana potion" chance="20338" countmax="2" />
-		<item id="strong health potion" chance="18837" countmax="2" />
-		<item id="strong mana potion" chance="17791" countmax="2" />
-		<item id="great mana potion" chance="16214" countmax="2" />
-		<item id="magma clump" chance="15149" countmax="2" />
-		<item id="ultimate health potion" chance="15073" />
-		<item id="blazing bone" chance="14598" />
-		<item id="green crystal splinter" chance="13705" countmax="2" />
-		<item id="fiery heart" chance="13667" />
-		<item id="prismatic bolt" chance="12127" countmax="5" />
-		<item id="iron ore" chance="11671" />
-		<item id="red crystal fragment" chance="10435" />
-		<item id="yellow piece of cloth" chance="7242" />
-		<item id="yellow gem" chance="6425" />
-		<item id="violet crystal shard" chance="5987" />
-		<item id="white piece of cloth" chance="4752" />
-		<item id="red piece of cloth" chance="3535" />
-		<item id="wand of inferno" chance="3212" />
-		<item id="magma amulet" chance="3117" />
-		<item id="magma boots" chance="2566" />
-		<item id="fire sword" chance="1825" />
-		<item id="fire axe" chance="1445" />
-		<item id="wand of everblazing" chance="1312" />
-		<item id="crown shield" chance="1216" />
-		<item id="red gem" chance="1159" />
-		<item id="spellbook of mind control" chance="627" />
-		<item id="magma coat" chance="399" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="platinum coin" chance="99981" countmax="11" />
+		<item name="mana potion" chance="20318" countmax="2" />
+		<item name="strong health potion" chance="18802" countmax="2" />
+		<item name="strong mana potion" chance="17760" countmax="2" />
+		<item name="great mana potion" chance="16224" countmax="2" />
+		<item name="magma clump" chance="15125" countmax="2" />
+		<item name="ultimate health potion" chance="15125" />
+		<item name="blazing bone" chance="14594" />
+		<item name="green crystal splinter" chance="13741" countmax="2" />
+		<item name="fiery heart" chance="13685" />
+		<item name="prismatic bolt" chance="12168" countmax="5" />
+		<item name="iron ore" chance="11676" />
+		<item name="red crystal fragment" chance="10425" />
+		<item name="yellow piece of cloth" chance="7240" />
+		<item name="yellow gem" chance="6463" />
+		<item name="violet crystal shard" chance="5989" />
+		<item name="white piece of cloth" chance="4757" />
+		<item name="red piece of cloth" chance="3525" />
+		<item name="wand of inferno" chance="3203" />
+		<item name="magma amulet" chance="3108" />
+		<item name="magma boots" chance="2559" />
+		<item name="fire sword" chance="1820" />
+		<item name="fire axe" chance="1440" />
+		<item name="wand of everblazing" chance="1308" />
+		<item name="crown shield" chance="1213" />
+		<item name="red gem" chance="1156" />
+		<item name="spellbook of mind control" chance="625" />
+		<item name="magma coat" chance="398" />
 	</loot>
 </monster>

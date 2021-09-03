@@ -5,12 +5,12 @@ monster.name = "Cult Scholar"
 monster.description = "a cult scholar"
 monster.experience = 1100
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 145,
+	lookHead = 19,
+	lookBody = 77,
+	lookLegs = 3,
+	lookFeet = 20,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,13 +90,13 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 70},
-	{id = "meat", chance = 10474},
-	{id = "great health potion", chance = 6088},
-	{id = "cultish robe", chance = 5640},
-	{id = "small emerald", chance = 2551},
-	{id = "small diamond", chance = 2328},
-	{id = "small amethyst", chance = 2149},
-	{id = "scarf", chance = 537},
+	{id = "meat", chance = 10460},
+	{id = "great health potion", chance = 6080},
+	{id = "cultish robe", chance = 5633},
+	{id = "small emerald", chance = 2548},
+	{id = "small diamond", chance = 2325},
+	{id = "small amethyst", chance = 2146},
+	{id = "scarf", chance = 536},
 	{id = "might ring", chance = 358}
 }
 

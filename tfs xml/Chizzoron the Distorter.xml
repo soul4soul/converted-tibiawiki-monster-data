@@ -1,4 +1,5 @@
-﻿<monster name="Chizzoron The Distorter" nameDescription="" experience="4000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Chizzoron The Distorter" nameDescription="" experience="4000" speed="0" manacost="0">
 	<health now="16000" max="16000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,24 +50,13 @@
 		<voice sentence="You are not worzzy to touch zzizz zzacred ground!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold ingot" chance="100000" countmax="2" />
-		<item id="lizard scale" chance="100000" />
-		<item id="gold coin" chance="93750" countmax="226" />
-		<item id="small emerald" chance="28125" countmax="3" />
-		<item id="great health potion" chance="21875" />
-		<item id="dragon scale mail" chance="15625" />
-		<item id="green gem" chance="12500" />
-		<item id="crystal boots" chance="6250" />
-		<item id="gold coin" chance="18750" countmax="75" />
-		<item id="great mana potion" chance="15625" countmax="2" />
-		<item id="gold ingot" chance="9375" />
-		<item id="small emerald" chance="9375" countmax="3" />
-		<item id="blue gem" chance="6250" />
-		<item id="platinum coin" chance="6250" countmax="5" />
-		<item id="small topaz" chance="6250" countmax="3" />
-		<item id="dragon scale mail" chance="3125" />
-		<item id="green gem" chance="3125" />
-		<item id="lizard scale" chance="3125" />
-		<item id="small diamond" chance="3125" countmax="5" />
+		<item name="gold ingot" chance="100000" countmax="2" />
+		<item name="lizard scale" chance="100000" />
+		<item name="gold coin" chance="93750" countmax="226" />
+		<item name="small emerald" chance="28125" countmax="3" />
+		<item name="great health potion" chance="21875" />
+		<item name="dragon scale mail" chance="15625" />
+		<item name="green gem" chance="12500" />
+		<item name="crystal boots" chance="6250" />
 	</loot>
 </monster>

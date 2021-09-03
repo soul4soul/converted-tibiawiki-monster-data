@@ -1,4 +1,5 @@
-﻿<monster name="Prince Drazzak" nameDescription="" experience="210000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Prince Drazzak" nameDescription="" experience="210000" speed="0" manacost="0">
 	<health now="330000" max="330000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="35" />
-		<element EnergyPercent="35" />
+		<element energyPercent="35" />
 		<element earthPercent="35" />
 		<element firePercent="35" />
 		<element lifedrainPercent="0" />
@@ -59,55 +61,38 @@
 		<voice name="demon" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="cluster of solace" chance="100000" countmax="2" />
-		<item id="unrealized dream" chance="93750" countmax="3" />
-		<item id="demonic essence" chance="90625" />
-		<item id="platinum coin" chance="87500" countmax="20" />
-		<item id="green crystal fragment" chance="43750" countmax="3" />
-		<item id="blue crystal shard" chance="40625" countmax="5" />
-		<item id="green gem" chance="40625" />
-		<item id="giant shimmering pearl (brown)" chance="34375" />
-		<item id="violet crystal shard" chance="34375" countmax="5" />
-		<item id="great mana potion" chance="31250" countmax="8" />
-		<item id="cyan crystal fragment" chance="31250" countmax="3" />
-		<item id="dream warden mask" chance="28125" />
-		<item id="great spirit potion" chance="28125" countmax="8" />
-		<item id="lightning robe" chance="25000" />
-		<item id="red crystal fragment" chance="25000" countmax="3" />
-		<item id="demon horn" chance="25000" />
-		<item id="gold coin" chance="25000" countmax="100" />
-		<item id="green crystal shard" chance="25000" countmax="5" />
-		<item id="ultimate health potion" chance="21875" countmax="8" />
-		<item id="ring of healing" chance="18750" />
-		<item id="steel boots" chance="15625" />
-		<item id="lightning boots" chance="15625" />
-		<item id="demonic tapestry" chance="12500" />
-		<item id="eye pod" chance="9375" />
-		<item id="noble axe" chance="9375" />
-		<item id="skull helmet" chance="9375" />
-		<item id="nightmare blade" chance="9375" />
-		<item id="nightmare hook" chance="9375" />
-		<item id="psychedelic tapestry" chance="6250" />
-		<item id="runed sword" chance="6250" />
-		<item id="abyss hammer" chance="3125" />
-		<item id="crystalline armor" chance="3125" />
-		<item id="demonbone amulet" chance="3125" />
-		<item id="demonic essence" chance="9375" />
-		<item id="green gem" chance="9375" />
-		<item id="platinum coin" chance="9375" countmax="20" />
-		<item id="unrealized dream" chance="9375" countmax="3" />
-		<item id="clusters of solace" chance="6250" countmax="2" />
-		<item id="cyan crystal fragment" chance="6250" countmax="3" />
-		<item id="great spirit potion" chance="6250" countmax="8" />
-		<item id="green crystal shard" chance="6250" countmax="5" />
-		<item id="cluster of solace" chance="3125" />
-		<item id="crystalline armor" chance="3125" />
-		<item id="great mana potion" chance="3125" countmax="8" />
-		<item id="lightning robe" chance="3125" />
-		<item id="noble axe" chance="3125" />
-		<item id="red crystal fragment" chance="3125" countmax="3" />
-		<item id="ring of healing" chance="3125" />
-		<item id="steel boots" chance="3125" />
-		<item id="violet crystal shard" chance="3125" countmax="5" />
+		<item name="cluster of solace" chance="100000" countmax="2" />
+		<item name="unrealized dream" chance="93750" countmax="3" />
+		<item name="demonic essence" chance="90625" />
+		<item name="platinum coin" chance="87500" countmax="20" />
+		<item name="green crystal fragment" chance="43750" countmax="3" />
+		<item name="blue crystal shard" chance="40625" countmax="5" />
+		<item name="green gem" chance="40625" />
+		<item name="giant shimmering pearl (brown)" chance="34375" />
+		<item name="violet crystal shard" chance="34375" countmax="5" />
+		<item name="great mana potion" chance="31250" countmax="8" />
+		<item name="cyan crystal fragment" chance="31250" countmax="3" />
+		<item name="dream warden mask" chance="28125" />
+		<item name="great spirit potion" chance="28125" countmax="8" />
+		<item name="lightning robe" chance="25000" />
+		<item name="red crystal fragment" chance="25000" countmax="3" />
+		<item name="demon horn" chance="25000" />
+		<item name="gold coin" chance="25000" countmax="100" />
+		<item name="green crystal shard" chance="25000" countmax="5" />
+		<item name="ultimate health potion" chance="21875" countmax="8" />
+		<item name="ring of healing" chance="18750" />
+		<item name="steel boots" chance="15625" />
+		<item name="lightning boots" chance="15625" />
+		<item name="demonic tapestry" chance="12500" />
+		<item name="eye pod" chance="9375" />
+		<item name="noble axe" chance="9375" />
+		<item name="skull helmet" chance="9375" />
+		<item name="nightmare blade" chance="9375" />
+		<item name="nightmare hook" chance="9375" />
+		<item name="psychedelic tapestry" chance="6250" />
+		<item name="runed sword" chance="6250" />
+		<item name="abyss hammer" chance="3125" />
+		<item name="crystalline armor" chance="3125" />
+		<item name="demonbone amulet" chance="3125" />
 	</loot>
 </monster>

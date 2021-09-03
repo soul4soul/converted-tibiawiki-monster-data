@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,18 +88,6 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "great health potion", chance = 85714, maxCount = 13},
-	{id = "great mana potion", chance = 85714, maxCount = 13},
-	{id = "moohtant horn", chance = 85714, maxCount = 2},
-	{id = "platinum coin", chance = 85714, maxCount = 30},
-	{id = "giant pacifier", chance = 71429},
-	{id = "small diamond", chance = 42857, maxCount = 5},
-	{id = "red gem", chance = 28571},
-	{id = "ring of healing", chance = 28571},
-	{id = "roll of covering", chance = 28571},
-	{id = "small ruby", chance = 28571},
-	{id = "mooh'tah shell", chance = 14286},
-	{id = "moohtant cudgel", chance = 14286}
 }
 
 mType:register(monster)

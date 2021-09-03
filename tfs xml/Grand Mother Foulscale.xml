@@ -1,4 +1,5 @@
-﻿<monster name="Grand Mother Foulscale" nameDescription="" experience="1400" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grand Mother Foulscale" nameDescription="" experience="1400" speed="0" manacost="0">
 	<health now="1850" max="1850" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -48,18 +50,18 @@
 		<voice sentence="GROOAAARRR!" yell="false" />
 	</voices>
 	<loot>
-		<item id="green dragon leather" chance="100000" />
-		<item id="green dragon scale" chance="100000" />
-		<item id="gold coin" chance="87879" countmax="97" />
-		<item id="dragon ham" chance="33333" />
-		<item id="plate legs" chance="18182" />
-		<item id="double axe" chance="15152" />
-		<item id="dragon hammer" chance="12121" />
-		<item id="crossbow" chance="9091" />
-		<item id="burst arrow" chance="6061" countmax="7" />
-		<item id="dragon shield" chance="6061" />
-		<item id="steel helmet" chance="6061" />
-		<item id="broadsword" chance="3030" />
-		<item id="dragonbone staff" chance="3030" />
+		<item name="green dragon leather" chance="100000" />
+		<item name="green dragon scale" chance="100000" />
+		<item name="gold coin" chance="88235" countmax="97" />
+		<item name="dragon ham" chance="32353" />
+		<item name="plate legs" chance="17647" />
+		<item name="double axe" chance="14706" />
+		<item name="dragon hammer" chance="11765" />
+		<item name="crossbow" chance="8824" />
+		<item name="burst arrow" chance="5882" countmax="7" />
+		<item name="dragon shield" chance="5882" />
+		<item name="steel helmet" chance="5882" />
+		<item name="broadsword" chance="2941" />
+		<item name="dragonbone staff" chance="2941" />
 	</loot>
 </monster>

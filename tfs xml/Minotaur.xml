@@ -1,6 +1,7 @@
-﻿<monster name="Minotaur" nameDescription="a minotaur" experience="50" speed="168" manacost="330">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Minotaur" nameDescription="a minotaur" experience="50" speed="168" manacost="330">
 	<health now="100" max="100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="25" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -47,17 +49,17 @@
 		<voice sentence="Hurr" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="66314" countmax="25" />
-		<item id="plate shield" chance="20043" />
-		<item id="mace" chance="13064" />
-		<item id="chain armor" chance="10057" />
-		<item id="brass helmet" chance="7999" />
-		<item id="sword" chance="4964" />
-		<item id="meat" chance="4955" />
-		<item id="axe" chance="3977" />
-		<item id="minotaur horn" chance="2020" countmax="2" />
-		<item id="minotaur leather" chance="1008" />
-		<item id="shovel" chance="307" />
-		<item id="bronze amulet" chance="109" />
+		<item name="gold coin" chance="66314" countmax="25" />
+		<item name="plate shield" chance="20038" />
+		<item name="mace" chance="13069" />
+		<item name="chain armor" chance="10058" />
+		<item name="brass helmet" chance="7998" />
+		<item name="sword" chance="4961" />
+		<item name="meat" chance="4955" />
+		<item name="axe" chance="3977" />
+		<item name="minotaur horn" chance="2020" countmax="2" />
+		<item name="minotaur leather" chance="1008" />
+		<item name="shovel" chance="307" />
+		<item name="bronze amulet" chance="109" />
 	</loot>
 </monster>

@@ -1,4 +1,5 @@
-﻿<monster name="Arthei" nameDescription="" experience="4000" speed="270" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Arthei" nameDescription="" experience="4000" speed="270" manacost="0">
 	<health now="4200" max="4200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -53,10 +55,10 @@
 		<voice sentence="Stupid little human - I'm glad I'm past that pitiful stadium of my life." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="98" />
-		<item id="blood preservation" chance="92857" />
-		<item id="ring of healing" chance="21429" />
-		<item id="platinum coin" chance="14286" countmax="2" />
-		<item id="strong health potion" chance="7143" />
+		<item name="gold coin" chance="100000" countmax="98" />
+		<item name="blood preservation" chance="92857" />
+		<item name="ring of healing" chance="21429" />
+		<item name="platinum coin" chance="14286" countmax="2" />
+		<item name="strong health potion" chance="7143" />
 	</loot>
 </monster>

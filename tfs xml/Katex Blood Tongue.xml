@@ -1,4 +1,5 @@
-﻿<monster name="Katex Blood Tongue" nameDescription="" experience="5000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Katex Blood Tongue" nameDescription="" experience="5000" speed="0" manacost="0">
 	<health now="6300" max="6300" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="40" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -43,32 +45,32 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="9" />
-		<item id="ultimate health potion" chance="100000" countmax="3" />
-		<item id="gold ingot" chance="25333" />
-		<item id="werehyaena nose" chance="20381" />
-		<item id="katex' blood" chance="5333" />
-		<item id="violet gem" chance="5333" />
-		<item id="werehyaena trophy" chance="5333" />
-		<item id="werehyaena talisman" chance="4381" />
-		<item id="skull helmet" chance="3238" />
-		<item id="demon shield" chance="3048" />
-		<item id="blue gem" chance="2476" />
-		<item id="magic plate armor" chance="2476" />
-		<item id="gold ring" chance="2095" />
-		<item id="demonrage sword" chance="1905" />
-		<item id="assassin dagger" chance="1333" />
-		<item id="ring of green plasma" chance="1333" />
-		<item id="alloy legs" chance="1143" />
-		<item id="giant sword" chance="1143" />
-		<item id="golden armor" chance="1143" />
-		<item id="jade hammer" chance="1143" />
-		<item id="war axe" chance="1143" />
-		<item id="mastermind potion" chance="952" />
-		<item id="raw watermelon tourmaline" chance="952" />
-		<item id="moonlight crystals" chance="762" />
-		<item id="ornate crossbow" chance="762" />
-		<item id="red silk flower" chance="762" />
-		<item id="giant shimmering pearl" chance="190" />
+		<item name="platinum coin" chance="100000" countmax="9" />
+		<item name="ultimate health potion" chance="100000" countmax="3" />
+		<item name="gold ingot" chance="24733" />
+		<item name="werehyaena nose" chance="20285" />
+		<item name="katex' blood" chance="5338" />
+		<item name="werehyaena trophy" chance="5338" />
+		<item name="violet gem" chance="4982" />
+		<item name="werehyaena talisman" chance="4448" />
+		<item name="demon shield" chance="3203" />
+		<item name="skull helmet" chance="3025" />
+		<item name="blue gem" chance="2491" />
+		<item name="magic plate armor" chance="2491" />
+		<item name="gold ring" chance="2135" />
+		<item name="demonrage sword" chance="1957" />
+		<item name="giant sword" chance="1423" />
+		<item name="assassin dagger" chance="1246" />
+		<item name="moonlight crystals" chance="1246" />
+		<item name="ring of green plasma" chance="1246" />
+		<item name="alloy legs" chance="1068" />
+		<item name="golden armor" chance="1068" />
+		<item name="jade hammer" chance="1068" />
+		<item name="war axe" chance="1068" />
+		<item name="mastermind potion" chance="890" />
+		<item name="raw watermelon tourmaline" chance="890" />
+		<item name="ornate crossbow" chance="712" />
+		<item name="red silk flower" chance="712" />
+		<item name="giant shimmering pearl" chance="178" />
 	</loot>
 </monster>

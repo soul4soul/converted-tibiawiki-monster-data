@@ -5,7 +5,7 @@ monster.name = "Quara Predator"
 monster.description = "a quara predator"
 monster.experience = 1600
 monster.outfit = {
-	lookType = 0,
+	lookType = 20,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,18 +93,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 78070, maxCount = 154},
-	{id = "quara bone", chance = 9841},
-	{id = "royal spear", chance = 9269, maxCount = 7},
-	{id = "small diamond", chance = 5319, maxCount = 2},
-	{id = "shrimp", chance = 4989},
-	{id = "double axe", chance = 3012},
+	{id = "gold coin", chance = 78075, maxCount = 154},
+	{id = "quara bone", chance = 9837},
+	{id = "royal spear", chance = 9265, maxCount = 7},
+	{id = "small diamond", chance = 5317, maxCount = 2},
+	{id = "shrimp", chance = 4987},
+	{id = "double axe", chance = 3011},
 	{id = "fish fin", chance = 1913},
 	{id = "great health potion", chance = 1039},
-	{id = "relic sword", chance = 664},
+	{id = "relic sword", chance = 663},
 	{id = "assassin star", chance = 526},
 	{id = "glacier robe", chance = 444},
-	{id = "skull helmet", chance = 394},
+	{id = "skull helmet", chance = 393},
 	{id = "giant shrimp", chance = 14}
 }
 

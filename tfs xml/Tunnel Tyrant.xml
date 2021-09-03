@@ -1,6 +1,7 @@
-﻿<monster name="Tunnel Tyrant" nameDescription="a tunnel tyrant" experience="3400" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tunnel Tyrant" nameDescription="a tunnel tyrant" experience="3400" speed="240" manacost="0">
 	<health now="5200" max="5200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1035" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,40 +45,16 @@
 	</attacks>
 	<defenses armor="76" defense="76" />
 	<loot>
-		<item id="tunnel tyrant shell" chance="16895" />
-		<item id="tunnel tyrant head" chance="11872" />
-		<item id="small enchanted sapphire" chance="10502" />
-		<item id="lump of dirt" chance="8219" />
-		<item id="small enchanted ruby" chance="5936" />
-		<item id="violet gem" chance="5479" />
-		<item id="green gem" chance="2283" />
-		<item id="suspicious device" chance="2283" />
-		<item id="energy vein" chance="1826" />
-		<item id="blue gem" chance="913" />
-		<item id="crystal mace" chance="913" />
-		<item id="tunnel tyrant shell" chance="100000" />
-		<item id="tunnel tyrant head" chance="100000" />
-		<item id="lump of dirt" chance="99087" />
-		<item id="small enchanted sapphire" chance="99087" />
-		<item id="small enchanted ruby" chance="66210" />
-		<item id="violet gem" chance="63014" />
-		<item id="blue gem" chance="30137" />
-		<item id="energy vein" chance="24658" />
-		<item id="crystal mace" chance="21005" />
-		<item id="green gem" chance="18265" />
-		<item id="suspicious device" chance="13699" />
-		<item id="crystalline armor" chance="5023" />
-		<item id="tunnel tyrant shell" chance="100000" />
-		<item id="tunnel tyrant head" chance="55708" />
-		<item id="small enchanted sapphire" chance="55251" />
-		<item id="lump of dirt" chance="47489" />
-		<item id="small enchanted ruby" chance="42009" />
-		<item id="violet gem" chance="31507" />
-		<item id="blue gem" chance="13242" />
-		<item id="energy vein" chance="12329" />
-		<item id="green gem" chance="10046" />
-		<item id="crystal mace" chance="5479" />
-		<item id="suspicious device" chance="4566" />
-		<item id="crystalline armor" chance="4110" />
+		<item name="tunnel tyrant shell" chance="16895" />
+		<item name="tunnel tyrant head" chance="11872" />
+		<item name="small enchanted sapphire" chance="10502" />
+		<item name="lump of dirt" chance="8219" />
+		<item name="small enchanted ruby" chance="5936" />
+		<item name="violet gem" chance="5479" />
+		<item name="green gem" chance="2283" />
+		<item name="suspicious device" chance="2283" />
+		<item name="energy vein" chance="1826" />
+		<item name="blue gem" chance="913" />
+		<item name="crystal mace" chance="913" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Carniphila" nameDescription="a carniphila" experience="150" speed="110" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Carniphila" nameDescription="a carniphila" experience="150" speed="110" manacost="0">
 	<health now="255" max="255" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="120" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
@@ -43,13 +45,13 @@
 	</attacks>
 	<defenses armor="22" defense="22" />
 	<loot>
-		<item id="gold coin" chance="87936" countmax="40" />
-		<item id="dark mushroom" chance="7961" />
-		<item id="carniphila seeds" chance="4018" />
-		<item id="shadow herb" chance="1001" />
-		<item id="corncob" chance="982" />
-		<item id="seeds" chance="509" />
-		<item id="sling herb" chance="503" countmax="2" />
-		<item id="carrot on a stick" chance="105" />
+		<item name="gold coin" chance="87938" countmax="40" />
+		<item name="dark mushroom" chance="7961" />
+		<item name="carniphila seeds" chance="4018" />
+		<item name="shadow herb" chance="1000" />
+		<item name="corncob" chance="982" />
+		<item name="seeds" chance="508" />
+		<item name="sling herb" chance="502" countmax="2" />
+		<item name="carrot on a stick" chance="105" />
 	</loot>
 </monster>

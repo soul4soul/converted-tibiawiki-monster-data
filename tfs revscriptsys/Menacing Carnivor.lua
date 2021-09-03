@@ -5,12 +5,12 @@ monster.name = "Menacing Carnivor"
 monster.description = "a menacing carnivor"
 monster.experience = 2112
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1138,
+	lookHead = 86,
+	lookBody = 51,
+	lookLegs = 83,
+	lookFeet = 91,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -107,29 +108,7 @@ monster.loot = {
 	{id = "wand of dragonbreath", chance = 798},
 	{id = "serpent sword", chance = 665},
 	{id = "opal", chance = 399},
-	{id = "wand of decay", chance = 399},
-	{id = "platinum coin", chance = 100000, maxCount = 8},
-	{id = "morning star", chance = 100000},
-	{id = "ultimate mana potion", chance = 90957},
-	{id = "violet glass plate", chance = 61968},
-	{id = "crystal sword", chance = 47739},
-	{id = "terra rod", chance = 41090},
-	{id = "small ruby", chance = 34840},
-	{id = "green crystal fragment", chance = 29255},
-	{id = "onyx chip", chance = 28989},
-	{id = "small enchanted ruby", chance = 20612},
-	{id = "knight legs", chance = 19415},
-	{id = "wand of voodoo", chance = 17420},
-	{id = "terra legs", chance = 17287},
-	{id = "wand of starstorm", chance = 17154},
-	{id = "tiger eye", chance = 12766},
-	{id = "heavy machete", chance = 12500},
-	{id = "machete", chance = 12500},
-	{id = "serpent sword", chance = 11835},
-	{id = "opal", chance = 8644},
-	{id = "iron helmet", chance = 7447},
-	{id = "wand of dragonbreath", chance = 6250},
-	{id = "wand of decay", chance = 4787}
+	{id = "wand of decay", chance = 399}
 }
 
 mType:register(monster)

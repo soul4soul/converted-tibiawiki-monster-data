@@ -5,7 +5,7 @@ monster.name = "Omnivora"
 monster.description = "an omnivora"
 monster.experience = 750
 monster.outfit = {
-	lookType = 0,
+	lookType = 717,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,20 +89,20 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 145},
-	{id = "fish", chance = 10317},
-	{id = "white mushroom", chance = 9588, maxCount = 3},
-	{id = "ham", chance = 9479},
-	{id = "life ring", chance = 1823},
-	{id = "necrotic rod", chance = 1057},
-	{id = "brown crystal splinter", chance = 729},
-	{id = "blue crystal splinter", chance = 620},
-	{id = "green crystal splinter", chance = 510},
-	{id = "serpent sword", chance = 474},
-	{id = "spellbook of enlightenment", chance = 401},
-	{id = "terra amulet", chance = 401},
-	{id = "terra boots", chance = 292},
-	{id = "death ring", chance = 255},
-	{id = "carrot on a stick", chance = 182}
+	{id = "fish", chance = 10319},
+	{id = "white mushroom", chance = 9667, maxCount = 3},
+	{id = "ham", chance = 9486},
+	{id = "life ring", chance = 1810},
+	{id = "necrotic rod", chance = 1050},
+	{id = "brown crystal splinter", chance = 724},
+	{id = "blue crystal splinter", chance = 615},
+	{id = "green crystal splinter", chance = 507},
+	{id = "serpent sword", chance = 471},
+	{id = "spellbook of enlightenment", chance = 398},
+	{id = "terra amulet", chance = 398},
+	{id = "terra boots", chance = 290},
+	{id = "death ring", chance = 253},
+	{id = "carrot on a stick", chance = 181}
 }
 
 mType:register(monster)

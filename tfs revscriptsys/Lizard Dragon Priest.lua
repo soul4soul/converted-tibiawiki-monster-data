@@ -5,7 +5,7 @@ monster.name = "Lizard Dragon Priest"
 monster.description = "a lizard dragon priest"
 monster.experience = 1320
 monster.outfit = {
-	lookType = 0,
+	lookType = 339,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,22 +89,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 93903, maxCount = 190},
-	{id = "strong mana potion", chance = 12108},
-	{id = "dragon priest's wandtip", chance = 9963},
-	{id = "great mana potion", chance = 8017},
-	{id = "small amethyst", chance = 4828, maxCount = 3},
-	{id = "platinum coin", chance = 4030, maxCount = 2},
-	{id = "wand of inferno", chance = 1552},
+	{id = "gold coin", chance = 93901, maxCount = 190},
+	{id = "strong mana potion", chance = 12101},
+	{id = "dragon priest's wandtip", chance = 9959},
+	{id = "great mana potion", chance = 8011},
+	{id = "small amethyst", chance = 4832, maxCount = 3},
+	{id = "platinum coin", chance = 4025, maxCount = 2},
+	{id = "wand of inferno", chance = 1555},
 	{id = "lizard scale", chance = 1088},
-	{id = "lizard leather", chance = 1062},
-	{id = "terra rod", chance = 1000},
-	{id = "yellow gem", chance = 981},
-	{id = "bunch of ripe rice", chance = 973},
+	{id = "lizard leather", chance = 1059},
+	{id = "terra rod", chance = 999},
+	{id = "yellow gem", chance = 982},
+	{id = "bunch of ripe rice", chance = 970},
 	{id = "life ring", chance = 790},
-	{id = "focus cape", chance = 674},
-	{id = "zaoan shoes", chance = 421},
-	{id = "zaoan robe", chance = 286}
+	{id = "focus cape", chance = 672},
+	{id = "zaoan shoes", chance = 424},
+	{id = "zaoan robe", chance = 285}
 }
 
 mType:register(monster)

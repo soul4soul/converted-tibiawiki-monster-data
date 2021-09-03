@@ -1,6 +1,7 @@
-﻿<monster name="Nightfiend" nameDescription="a nightfiend" experience="2100" speed="224" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Nightfiend" nameDescription="a nightfiend" experience="2100" speed="224" manacost="0">
 	<health now="2700" max="2700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="556" head="0" body="0" legs="0" feet="0" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -45,17 +47,17 @@
 		<defense name="healing" interval="2000" chance="20" min="270" max="675" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="98507" countmax="148" />
-		<item id="platinum coin" chance="33433" />
-		<item id="vampire teeth" chance="10746" />
-		<item id="small ruby" chance="8657" countmax="3" />
-		<item id="strong mana potion" chance="8060" />
-		<item id="tooth file" chance="7164" />
-		<item id="blood preservation" chance="5970" />
-		<item id="strong health potion" chance="5970" />
-		<item id="ring of healing" chance="3284" />
-		<item id="emerald bangle" chance="1194" />
-		<item id="red gem" chance="896" />
-		<item id="vampire shield" chance="299" />
+		<item name="gold coin" chance="98534" countmax="148" />
+		<item name="platinum coin" chance="33431" />
+		<item name="vampire teeth" chance="10557" />
+		<item name="small ruby" chance="8504" countmax="3" />
+		<item name="strong mana potion" chance="8504" />
+		<item name="tooth file" chance="7331" />
+		<item name="blood preservation" chance="6158" />
+		<item name="strong health potion" chance="5865" />
+		<item name="ring of healing" chance="3226" />
+		<item name="emerald bangle" chance="1173" />
+		<item name="red gem" chance="880" />
+		<item name="vampire shield" chance="293" />
 	</loot>
 </monster>

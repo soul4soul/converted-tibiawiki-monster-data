@@ -1,6 +1,7 @@
-﻿<monster name="Mercury Blob" nameDescription="a mercury blob" experience="180" speed="150" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mercury Blob" nameDescription="a mercury blob" experience="180" speed="150" manacost="0">
 	<health now="150" max="150" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="316" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="65" />
 		<element firePercent="10" />
 		<element lifedrainPercent="80" />
@@ -51,6 +53,6 @@
 		<voice name="mercury blob" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="glob of mercury" chance="18760" />
+		<item name="glob of mercury" chance="18741" />
 	</loot>
 </monster>

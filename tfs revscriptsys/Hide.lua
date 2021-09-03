@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,19 +93,7 @@ monster.loot = {
 	{id = "steel helmet", chance = 71739},
 	{id = "spider silk", chance = 61957},
 	{id = "knight legs", chance = 34783},
-	{id = "terra hood", chance = 28261},
-	{id = "spider silk", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 7},
-	{id = "steel helmet", chance = 59783},
-	{id = "terra hood", chance = 57609},
-	{id = "knight legs", chance = 51087},
-	{id = "time ring", chance = 30435},
-	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "spider silk", chance = 100000},
-	{id = "steel helmet", chance = 96739},
-	{id = "knight legs", chance = 80435},
-	{id = "terra hood", chance = 58696},
-	{id = "time ring", chance = 53261}
+	{id = "terra hood", chance = 28261}
 }
 
 mType:register(monster)

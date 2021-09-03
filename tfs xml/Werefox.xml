@@ -1,6 +1,7 @@
-﻿<monster name="Werefox" nameDescription="a werefox" experience="1600" speed="280" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Werefox" nameDescription="a werefox" experience="1600" speed="280" manacost="0">
 	<health now="1500" max="1500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1030" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="40" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -47,22 +49,22 @@
 		<voice sentence="Yelp!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="89916" countmax="4" />
-		<item id="gold coin" chance="83964" countmax="85" />
-		<item id="fox paw" chance="15336" />
-		<item id="werefox tail" chance="13253" />
-		<item id="troll green" chance="5130" />
-		<item id="mana potion" chance="5042" />
-		<item id="strong mana potion" chance="4254" />
-		<item id="assassin star" chance="3099" countmax="5" />
-		<item id="emerald bangle" chance="2959" />
-		<item id="moonlight rod" chance="2066" />
-		<item id="great mana potion" chance="1891" />
-		<item id="small enchanted emerald" chance="1488" countmax="2" />
-		<item id="ring of healing" chance="1120" />
-		<item id="werewolf amulet" chance="840" />
-		<item id="moonlight crystals" chance="770" />
-		<item id="platinum amulet" chance="490" />
-		<item id="werefox trophy" chance="140" />
+		<item name="platinum coin" chance="89929" countmax="4" />
+		<item name="gold coin" chance="83952" countmax="85" />
+		<item name="fox paw" chance="15299" />
+		<item name="werefox tail" chance="13243" />
+		<item name="troll green" chance="5123" />
+		<item name="mana potion" chance="5053" />
+		<item name="strong mana potion" chance="4269" />
+		<item name="assassin star" chance="3102" countmax="5" />
+		<item name="emerald bangle" chance="2945" />
+		<item name="moonlight rod" chance="2056" />
+		<item name="great mana potion" chance="1882" />
+		<item name="small enchanted emerald" chance="1481" countmax="2" />
+		<item name="ring of healing" chance="1115" />
+		<item name="werewolf amulet" chance="836" />
+		<item name="moonlight crystals" chance="802" />
+		<item name="platinum amulet" chance="488" />
+		<item name="werefox trophy" chance="139" />
 	</loot>
 </monster>

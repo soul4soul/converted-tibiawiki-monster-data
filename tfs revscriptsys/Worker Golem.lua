@@ -5,7 +5,7 @@ monster.name = "Worker Golem"
 monster.description = "a worker golem"
 monster.experience = 1250
 monster.outfit = {
-	lookType = 0,
+	lookType = 304,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,42 +93,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 93774, maxCount = 139},
+	{id = "gold coin", chance = 93775, maxCount = 139},
 	{id = "nail", chance = 4765, maxCount = 5},
 	{id = "gear crystal", chance = 2172},
-	{id = "great health potion", chance = 1972},
-	{id = "great mana potion", chance = 1566},
+	{id = "great health potion", chance = 1971},
+	{id = "great mana potion", chance = 1565},
 	{id = "rusted armor", chance = 1560},
-	{id = "gear wheel", chance = 1060},
+	{id = "gear wheel", chance = 1059},
 	{id = "life crystal", chance = 1017},
-	{id = "war hammer", chance = 1002},
+	{id = "war hammer", chance = 1001},
 	{id = "small diamond", chance = 975, maxCount = 2},
-	{id = "rusted legs", chance = 923},
-	{id = "spiked squelcher", chance = 923},
+	{id = "rusted legs", chance = 922},
+	{id = "spiked squelcher", chance = 922},
 	{id = "iron ore", chance = 880},
 	{id = "great spirit potion", chance = 822},
 	{id = "berserk potion", chance = 780},
 	{id = "might ring", chance = 501},
 	{id = "crystal pedestal", chance = 163},
-	{id = "bonebreaker", chance = 116},
-	{id = "gold coin", chance = 87717, maxCount = 140},
-	{id = "nail", chance = 4649, maxCount = 5},
-	{id = "gear crystal", chance = 1882},
-	{id = "great health potion", chance = 1740},
-	{id = "great mana potion", chance = 1376},
-	{id = "rusted armor", chance = 1218},
-	{id = "small diamond", chance = 991, maxCount = 2},
-	{id = "war hammer", chance = 991},
-	{id = "rusted legs", chance = 970},
-	{id = "iron ore", chance = 954},
-	{id = "life crystal", chance = 880},
-	{id = "berserk potion", chance = 854},
-	{id = "gear wheel", chance = 854},
-	{id = "great spirit potion", chance = 817},
-	{id = "spiked squelcher", chance = 664},
-	{id = "might ring", chance = 380},
-	{id = "crystal pedestal", chance = 174},
-	{id = "bonebreaker", chance = 105}
+	{id = "bonebreaker", chance = 116}
 }
 
 mType:register(monster)

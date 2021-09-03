@@ -5,7 +5,7 @@ monster.name = "Tortoise"
 monster.description = "a tortoise"
 monster.experience = 90
 monster.outfit = {
-	lookType = 0,
+	lookType = 197,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,20 +87,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 60124, maxCount = 30},
-	{id = "fish", chance = 5006},
+	{id = "gold coin", chance = 60134, maxCount = 30},
+	{id = "fish", chance = 5022},
 	{id = "plate shield", chance = 2918},
-	{id = "tortoise egg", chance = 1096, maxCount = 2},
-	{id = "battle hammer", chance = 852},
-	{id = "turtle shell", chance = 806},
-	{id = "tortoise shield", chance = 157},
-	{id = "gold coin", chance = 32500, maxCount = 30},
-	{id = "fish", chance = 2838},
-	{id = "plate shield", chance = 1477},
-	{id = "tortoise egg", chance = 646, maxCount = 2},
-	{id = "turtle shell", chance = 573},
-	{id = "battle hammer", chance = 405},
-	{id = "tortoise shield", chance = 105}
+	{id = "tortoise egg", chance = 1099, maxCount = 2},
+	{id = "battle hammer", chance = 855},
+	{id = "turtle shell", chance = 807},
+	{id = "tortoise shield", chance = 156}
 }
 
 mType:register(monster)

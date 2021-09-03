@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -96,17 +97,7 @@ monster.loot = {
 	{id = "springsprout rod", chance = 54819},
 	{id = "terra boots", chance = 46386},
 	{id = "sweet smelling bait", chance = 4819},
-	{id = "mandrake", chance = 3012},
-	{id = "carniphila seeds", chance = 73494},
-	{id = "platinum coin", chance = 73494, maxCount = 5},
-	{id = "shadow herb", chance = 73494},
-	{id = "small emerald", chance = 57831, maxCount = 4},
-	{id = "dark mushroom", chance = 56627},
-	{id = "seeds", chance = 46988},
-	{id = "terra amulet", chance = 38554},
-	{id = "terra boots", chance = 24699},
-	{id = "mandrake", chance = 3614},
-	{id = "sweet smelling bait", chance = 3614}
+	{id = "mandrake", chance = 3012}
 }
 
 mType:register(monster)

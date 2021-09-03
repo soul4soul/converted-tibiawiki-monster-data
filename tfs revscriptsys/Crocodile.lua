@@ -5,7 +5,7 @@ monster.name = "Crocodile"
 monster.description = "a crocodile"
 monster.experience = 40
 monster.outfit = {
-	lookType = 0,
+	lookType = 119,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,9 +87,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 49822, maxCount = 10},
-	{id = "ham", chance = 39786},
-	{id = "piece of crocodile leather", chance = 20021},
+	{id = "gold coin", chance = 49815, maxCount = 10},
+	{id = "ham", chance = 39770},
+	{id = "piece of crocodile leather", chance = 20024},
 	{id = "crocodile boots", chance = 85}
 }
 

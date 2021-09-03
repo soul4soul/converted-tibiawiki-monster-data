@@ -5,7 +5,7 @@ monster.name = "Orc"
 monster.description = "an orc"
 monster.experience = 25
 monster.outfit = {
-	lookType = 0,
+	lookType = 5,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,26 +90,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 85382, maxCount = 14},
-	{id = "meat", chance = 10144},
-	{id = "studded armor", chance = 8418},
-	{id = "studded shield", chance = 6587},
-	{id = "sabre", chance = 5847},
-	{id = "axe", chance = 5565},
-	{id = "studded helmet", chance = 2783},
-	{id = "heavy old tome", chance = 2430},
-	{id = "orc leather", chance = 423},
-	{id = "orc tooth", chance = 70},
-	{id = "gold coin", chance = 100000, maxCount = 17},
-	{id = "meat", chance = 100000},
-	{id = "studded armor", chance = 100000},
-	{id = "studded shield", chance = 100000},
-	{id = "sabre", chance = 100000},
-	{id = "axe", chance = 100000},
-	{id = "studded helmet", chance = 79923},
-	{id = "orc leather", chance = 13561},
-	{id = "orc tooth", chance = 2325},
-	{id = "heavy old tome", chance = 70}
+	{id = "gold coin", chance = 85222, maxCount = 14},
+	{id = "meat", chance = 10139},
+	{id = "studded armor", chance = 8284},
+	{id = "studded shield", chance = 6561},
+	{id = "sabre", chance = 5732},
+	{id = "axe", chance = 5600},
+	{id = "studded helmet", chance = 2750},
+	{id = "heavy old tome", chance = 2353},
+	{id = "orc leather", chance = 398},
+	{id = "orc tooth", chance = 66}
 }
 
 mType:register(monster)

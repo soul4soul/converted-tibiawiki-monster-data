@@ -5,7 +5,7 @@ monster.name = "Stabilizing Dread Intruder"
 monster.description = "a stabilizing dread intruder"
 monster.experience = 1900
 monster.outfit = {
-	lookType = 0,
+	lookType = 882,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,23 +88,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 98126, maxCount = 100},
-	{id = "platinum coin", chance = 86627, maxCount = 5},
-	{id = "energy bar", chance = 10764},
-	{id = "strange proto matter", chance = 10176},
-	{id = "energy drink", chance = 9809},
-	{id = "ultimate health potion", chance = 9589},
-	{id = "great mana potion", chance = 9405},
-	{id = "solid rage", chance = 9111},
-	{id = "glistening bone", chance = 8964},
-	{id = "great spirit potion", chance = 8780},
-	{id = "cyan crystal fragment", chance = 5621},
-	{id = "blue crystal splinter", chance = 5253},
-	{id = "violet crystal shard", chance = 4776},
-	{id = "small sapphire", chance = 4555, maxCount = 2},
-	{id = "small amethyst", chance = 4482, maxCount = 2},
-	{id = "small ruby", chance = 3711, maxCount = 2},
-	{id = "violet gem", chance = 110}
+	{id = "gold coin", chance = 98235, maxCount = 100},
+	{id = "platinum coin", chance = 86501, maxCount = 5},
+	{id = "energy bar", chance = 10661},
+	{id = "strange proto matter", chance = 9969},
+	{id = "energy drink", chance = 9900},
+	{id = "ultimate health potion", chance = 9588},
+	{id = "great mana potion", chance = 9484},
+	{id = "solid rage", chance = 9450},
+	{id = "glistening bone", chance = 8930},
+	{id = "great spirit potion", chance = 8896},
+	{id = "cyan crystal fragment", chance = 5607},
+	{id = "blue crystal splinter", chance = 5227},
+	{id = "violet crystal shard", chance = 4915},
+	{id = "small sapphire", chance = 4846, maxCount = 2},
+	{id = "small amethyst", chance = 4569, maxCount = 2},
+	{id = "small ruby", chance = 3773, maxCount = 2},
+	{id = "violet gem", chance = 104}
 }
 
 mType:register(monster)

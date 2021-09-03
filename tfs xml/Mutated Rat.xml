@@ -1,6 +1,7 @@
-﻿<monster name="Mutated Rat" nameDescription="a mutated rat" experience="450" speed="230" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mutated Rat" nameDescription="a mutated rat" experience="450" speed="230" manacost="0">
 	<health now="550" max="550" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="305" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
@@ -49,17 +51,17 @@
 		<voice sentence="Fcccccchhhhhh" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="78716" countmax="130" />
-		<item id="skull" chance="20291" />
-		<item id="stone herb" chance="4866" />
-		<item id="mutated rat tail" chance="3824" />
-		<item id="plate shield" chance="3783" />
-		<item id="halberd" chance="2983" />
-		<item id="green mushroom" chance="1370" />
-		<item id="mouldy cheese" chance="952" />
-		<item id="stealth ring" chance="550" />
-		<item id="health potion" chance="506" />
-		<item id="spellbook of enlightenment" chance="304" />
-		<item id="tower shield" chance="52" />
+		<item name="gold coin" chance="78718" countmax="130" />
+		<item name="skull" chance="20294" />
+		<item name="stone herb" chance="4865" />
+		<item name="mutated rat tail" chance="3826" />
+		<item name="plate shield" chance="3782" />
+		<item name="halberd" chance="2982" />
+		<item name="green mushroom" chance="1370" />
+		<item name="mouldy cheese" chance="954" />
+		<item name="stealth ring" chance="549" />
+		<item name="health potion" chance="506" />
+		<item name="spellbook of enlightenment" chance="304" />
+		<item name="tower shield" chance="52" />
 	</loot>
 </monster>

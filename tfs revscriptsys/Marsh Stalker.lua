@@ -5,7 +5,7 @@ monster.name = "Marsh Stalker"
 monster.description = "a marsh stalker"
 monster.experience = 50
 monster.outfit = {
-	lookType = 0,
+	lookType = 530,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,14 +88,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 63976, maxCount = 25},
-	{id = "fish", chance = 20262, maxCount = 2},
-	{id = "meat", chance = 19982},
-	{id = "worm", chance = 14657, maxCount = 2},
-	{id = "marsh stalker feather", chance = 8669},
-	{id = "longsword", chance = 7490},
-	{id = "marsh stalker beak", chance = 6114},
-	{id = "rope", chance = 4880},
+	{id = "gold coin", chance = 63998, maxCount = 25},
+	{id = "fish", chance = 20254, maxCount = 2},
+	{id = "meat", chance = 19971},
+	{id = "worm", chance = 14662, maxCount = 2},
+	{id = "marsh stalker feather", chance = 8661},
+	{id = "longsword", chance = 7492},
+	{id = "marsh stalker beak", chance = 6113},
+	{id = "rope", chance = 4875},
 	{id = "seeds", chance = 106}
 }
 

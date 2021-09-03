@@ -1,6 +1,7 @@
-﻿<monster name="Duskbringer" nameDescription="a duskbringer" experience="2600" speed="370" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Duskbringer" nameDescription="a duskbringer" experience="2600" speed="370" manacost="0">
 	<health now="3550" max="3550" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="300" head="0" body="0" legs="0" feet="0" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="80" />
 		<element firePercent="40" />
 		<element lifedrainPercent="0" />
@@ -48,6 +50,6 @@
 		<voice sentence="The end is near!" yell="false" />
 	</voices>
 	<loot>
-		<item id="midnight shard" chance="10256" />
+		<item name="midnight shard" chance="10256" />
 	</loot>
 </monster>

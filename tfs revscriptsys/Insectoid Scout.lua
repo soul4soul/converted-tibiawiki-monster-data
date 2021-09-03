@@ -5,7 +5,7 @@ monster.name = "Insectoid Scout"
 monster.description = "an insectoid scout"
 monster.experience = 150
 monster.outfit = {
-	lookType = 0,
+	lookType = 403,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,10 +89,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 81244, maxCount = 78},
-	{id = "ripper lance", chance = 408},
-	{id = "health potion", chance = 204},
-	{id = "club ring", chance = 102}
+	{id = "gold coin", chance = 81370, maxCount = 78},
+	{id = "ripper lance", chance = 403},
+	{id = "health potion", chance = 201},
+	{id = "club ring", chance = 101}
 }
 
 mType:register(monster)

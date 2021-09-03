@@ -1,6 +1,7 @@
-﻿<monster name="Ogre Brute" nameDescription="an ogre brute" experience="800" speed="204" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ogre Brute" nameDescription="an ogre brute" experience="800" speed="204" manacost="0">
 	<health now="1000" max="1000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="857" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="100" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -48,27 +50,27 @@
 		<voice sentence="You stop! You lunch!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99389" countmax="125" />
-		<item id="ogre ear stud" chance="18693" />
-		<item id="meat" chance="14907" />
-		<item id="ogre nose ring" chance="14648" />
-		<item id="strong health potion" chance="12556" />
-		<item id="battle stone" chance="4985" />
-		<item id="small stone" chance="4985" countmax="5" />
-		<item id="cookie" chance="3880" countmax="5" />
-		<item id="skull fetish" chance="3339" />
-		<item id="small ruby" chance="2445" countmax="2" />
-		<item id="club ring" chance="2351" />
-		<item id="white pearl" chance="2257" />
-		<item id="onyx chip" chance="2163" countmax="2" />
-		<item id="power ring" chance="1622" />
-		<item id="opal" chance="1552" countmax="2" />
-		<item id="ogre klubba" chance="1035" />
-		<item id="pot" chance="306" />
-		<item id="rusted helmet" chance="259" />
-		<item id="ancient stone" chance="188" />
-		<item id="bonebreaker" chance="141" />
-		<item id="shamanic mask" chance="141" />
-		<item id="butcher's axe" chance="24" />
+		<item name="gold coin" chance="99389" countmax="125" />
+		<item name="ogre ear stud" chance="18693" />
+		<item name="meat" chance="14907" />
+		<item name="ogre nose ring" chance="14648" />
+		<item name="strong health potion" chance="12556" />
+		<item name="battle stone" chance="4985" />
+		<item name="small stone" chance="4985" countmax="5" />
+		<item name="cookie" chance="3880" countmax="5" />
+		<item name="skull fetish" chance="3339" />
+		<item name="small ruby" chance="2445" countmax="2" />
+		<item name="club ring" chance="2351" />
+		<item name="white pearl" chance="2257" />
+		<item name="onyx chip" chance="2163" countmax="2" />
+		<item name="power ring" chance="1622" />
+		<item name="opal" chance="1552" countmax="2" />
+		<item name="ogre klubba" chance="1035" />
+		<item name="pot" chance="306" />
+		<item name="rusted helmet" chance="259" />
+		<item name="ancient stone" chance="188" />
+		<item name="bonebreaker" chance="141" />
+		<item name="shamanic mask" chance="141" />
+		<item name="butcher's axe" chance="24" />
 	</loot>
 </monster>

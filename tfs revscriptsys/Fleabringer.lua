@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,8 +88,8 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "shaggy tail", chance = 100000},
-	{id = "worm", chance = 75000},
-	{id = "meat", chance = 25000}
+	{id = "worm", chance = 80000, maxCount = 2},
+	{id = "meat", chance = 20000}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Goblin Assassin" nameDescription="a goblin assassin" experience="52" speed="140" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Goblin Assassin" nameDescription="a goblin assassin" experience="52" speed="140" manacost="0">
 	<health now="75" max="75" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="296" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -57,16 +59,16 @@
 		<voice sentence="Gooobliiiins!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="49744" countmax="9" />
-		<item id="dagger" chance="17776" />
-		<item id="fish" chance="12490" />
-		<item id="bone" chance="12225" />
-		<item id="small stone" chance="10689" countmax="3" />
-		<item id="leather helmet" chance="10078" />
-		<item id="small axe" chance="9615" />
-		<item id="short sword" chance="8822" />
-		<item id="leather armor" chance="7286" />
-		<item id="mouldy cheese" chance="6939" />
-		<item id="bone club" chance="5055" />
+		<item name="gold coin" chance="49853" countmax="9" />
+		<item name="dagger" chance="17752" />
+		<item name="fish" chance="12508" />
+		<item name="bone" chance="12248" />
+		<item name="small stone" chance="10668" countmax="3" />
+		<item name="leather helmet" chance="10049" />
+		<item name="small axe" chance="9609" />
+		<item name="short sword" chance="8844" />
+		<item name="leather armor" chance="7231" />
+		<item name="mouldy cheese" chance="6906" />
+		<item name="bone club" chance="5033" />
 	</loot>
 </monster>

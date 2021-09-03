@@ -1,4 +1,5 @@
-﻿<monster name="Vibrant Phantom" nameDescription="a vibrant phantom" experience="19700" speed="460" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Vibrant Phantom" nameDescription="a vibrant phantom" experience="19700" speed="460" manacost="0">
 	<health now="27000" max="27000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -44,37 +46,21 @@
 		<voice sentence="Feel the vibration!" yell="false" />
 	</voices>
 	<loot>
-		<item id="crystal coin" chance="64658" />
-		<item id="ultimate health potion" chance="29880" countmax="5" />
-		<item id="terra rod" chance="10465" />
-		<item id="violet gem" chance="8527" />
-		<item id="giant shimmering pearl (brown)" chance="8280" />
-		<item id="gold ingot" chance="8210" />
-		<item id="hailstorm rod" chance="5603" />
-		<item id="vibrant heart" chance="4369" />
-		<item id="green gem" chance="3770" />
-		<item id="blue gem" chance="2925" />
-		<item id="vibrant robe" chance="2925" />
-		<item id="springsprout rod" chance="2537" />
-		<item id="blue crystal shard" chance="2326" />
-		<item id="underworld rod" chance="2220" />
-		<item id="violet crystal shard" chance="2008" />
-		<item id="ring of blue plasma" chance="1092" />
-		<item id="crystal coin" chance="55356" />
-		<item id="ultimate health potion" chance="25934" countmax="5" />
-		<item id="terra rod" chance="8421" />
-		<item id="gold ingot" chance="7435" />
-		<item id="violet gem" chance="7012" />
-		<item id="giant shimmering pearl" chance="6801" />
-		<item id="hailstorm rod" chance="4933" />
-		<item id="vibrant heart" chance="3665" />
-		<item id="green gem" chance="2889" />
-		<item id="blue gem" chance="2643" />
-		<item id="vibrant robe" chance="2079" />
-		<item id="blue crystal shard" chance="1973" />
-		<item id="underworld rod" chance="1797" />
-		<item id="violet crystal shard" chance="1797" />
-		<item id="springsprout rod" chance="1339" />
-		<item id="ring of blue plasma" chance="881" />
+		<item name="crystal coin" chance="52670" />
+		<item name="ultimate health potion" chance="25971" countmax="5" />
+		<item name="terra rod" chance="9223" />
+		<item name="violet gem" chance="7888" />
+		<item name="gold ingot" chance="7160" />
+		<item name="hailstorm rod" chance="6311" />
+		<item name="giant shimmering pearl (brown)" chance="5097" />
+		<item name="green gem" chance="3034" />
+		<item name="vibrant heart" chance="3034" />
+		<item name="vibrant robe" chance="2913" />
+		<item name="underworld rod" chance="2549" />
+		<item name="blue gem" chance="2184" />
+		<item name="springsprout rod" chance="1942" />
+		<item name="violet crystal shard" chance="1820" />
+		<item name="blue crystal shard" chance="1578" />
+		<item name="ring of blue plasma" chance="1214" />
 	</loot>
 </monster>

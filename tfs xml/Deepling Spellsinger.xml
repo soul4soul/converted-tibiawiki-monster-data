@@ -1,6 +1,7 @@
-﻿<monster name="Deepling Spellsinger" nameDescription="a deepling spellsinger" experience="1000" speed="190" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Deepling Spellsinger" nameDescription="a deepling spellsinger" experience="1000" speed="190" manacost="0">
 	<health now="850" max="850" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="443" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -47,18 +49,18 @@
 		<voice sentence="Mmmmmoooaaaaaahaaa!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="80122" />
-		<item id="gold coin" chance="75111" countmax="60" />
-		<item id="spellsinger's seal" chance="15177" />
-		<item id="deepling filet" chance="14958" />
-		<item id="key to the drowned library" chance="10772" />
-		<item id="fish" chance="3516" />
-		<item id="small sapphire" chance="2931" />
-		<item id="eye of a deepling" chance="2538" />
-		<item id="life ring" chance="2450" />
-		<item id="deepling staff" chance="2022" />
-		<item id="necklace of the deep" chance="785" />
-		<item id="fish fin" chance="513" />
-		<item id="ornate crossbow" chance="207" />
+		<item name="platinum coin" chance="80098" />
+		<item name="gold coin" chance="75108" countmax="60" />
+		<item name="spellsinger's seal" chance="15186" />
+		<item name="deepling filet" chance="14958" />
+		<item name="key to the drowned library" chance="10755" />
+		<item name="fish" chance="3524" />
+		<item name="small sapphire" chance="2936" />
+		<item name="eye of a deepling" chance="2534" />
+		<item name="life ring" chance="2447" />
+		<item name="deepling staff" chance="2020" />
+		<item name="necklace of the deep" chance="786" />
+		<item name="fish fin" chance="511" />
+		<item name="ornate crossbow" chance="208" />
 	</loot>
 </monster>

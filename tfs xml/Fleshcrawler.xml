@@ -1,4 +1,5 @@
-﻿<monster name="Fleshcrawler" nameDescription="" experience="1000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Fleshcrawler" nameDescription="" experience="1000" speed="0" manacost="0">
 	<health now="1450" max="1450" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
@@ -43,19 +45,19 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="scarab pincers" chance="100000" />
-		<item id="platinum coin" chance="99138" countmax="15" />
-		<item id="scarab coin" chance="99138" countmax="2" />
-		<item id="small emerald" chance="89224" countmax="3" />
-		<item id="small amethyst" chance="88362" countmax="4" />
-		<item id="springsprout rod" chance="75431" />
-		<item id="scarab amulet" chance="50862" />
-		<item id="ancient amulet" chance="48707" />
-		<item id="scarab shield" chance="45690" />
-		<item id="strong health potion" chance="43534" />
-		<item id="knight armor" chance="41810" />
-		<item id="amber staff" chance="29741" />
-		<item id="ornamented brooch" chance="13362" />
-		<item id="terra mantle" chance="10345" />
+		<item name="scarab pincers" chance="100000" />
+		<item name="platinum coin" chance="99138" countmax="15" />
+		<item name="scarab coin" chance="99138" countmax="2" />
+		<item name="small emerald" chance="89224" countmax="3" />
+		<item name="small amethyst" chance="88362" countmax="4" />
+		<item name="springsprout rod" chance="75431" />
+		<item name="scarab amulet" chance="50862" />
+		<item name="ancient amulet" chance="48707" />
+		<item name="scarab shield" chance="45690" />
+		<item name="strong health potion" chance="43534" />
+		<item name="knight armor" chance="41810" />
+		<item name="amber staff" chance="29741" />
+		<item name="ornamented brooch" chance="13362" />
+		<item name="terra mantle" chance="10345" />
 	</loot>
 </monster>

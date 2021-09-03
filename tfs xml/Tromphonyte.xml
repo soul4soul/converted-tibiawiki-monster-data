@@ -1,4 +1,5 @@
-﻿<monster name="Tromphonyte" nameDescription="" experience="1300" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tromphonyte" nameDescription="" experience="1300" speed="0" manacost="0">
 	<health now="3000" max="3000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -45,14 +47,14 @@
 		<defense name="healing" interval="2000" chance="20" min="300" max="750" />
 	</defenses>
 	<loot>
-		<item id="hollow stampor hoof" chance="100000" />
-		<item id="knight armor" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="13" />
-		<item id="small topaz" chance="100000" countmax="5" />
-		<item id="stampor horn" chance="100000" />
-		<item id="stampor talons" chance="100000" />
-		<item id="strong health potion" chance="100000" countmax="2" />
-		<item id="strong mana potion" chance="100000" countmax="2" />
-		<item id="spiked squelcher" chance="50877" />
+		<item name="hollow stampor hoof" chance="100000" />
+		<item name="knight armor" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="13" />
+		<item name="small topaz" chance="100000" countmax="5" />
+		<item name="stampor horn" chance="100000" />
+		<item name="stampor talons" chance="100000" />
+		<item name="strong health potion" chance="100000" countmax="2" />
+		<item name="strong mana potion" chance="100000" countmax="2" />
+		<item name="spiked squelcher" chance="50877" />
 	</loot>
 </monster>

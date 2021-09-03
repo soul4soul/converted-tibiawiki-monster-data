@@ -1,6 +1,7 @@
-﻿<monster name="Pirate Buccaneer" nameDescription="a pirate buccaneer" experience="250" speed="218" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Pirate Buccaneer" nameDescription="a pirate buccaneer" experience="250" speed="218" manacost="0">
 	<health now="425" max="425" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="97" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="10" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -51,22 +53,22 @@
 		<voice sentence="Plundeeeeer!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="67811" countmax="60" />
-		<item id="torch" chance="10002" />
-		<item id="sabre" chance="9950" />
-		<item id="worn leather boots" chance="9883" />
-		<item id="compass" chance="9815" />
-		<item id="throwing knife" chance="8872" countmax="5" />
-		<item id="battle shield" chance="4018" />
-		<item id="pirate shirt" chance="1130" />
-		<item id="treasure map (pirate)" chance="1068" />
-		<item id="plate armor" chance="1011" />
-		<item id="strong health potion" chance="736" />
-		<item id="peg leg" chance="482" />
-		<item id="pirate backpack" chance="477" />
-		<item id="hook" chance="467" />
-		<item id="eye patch" chance="436" />
-		<item id="rum flask" chance="145" />
-		<item id="die" chance="57" />
+		<item name="gold coin" chance="67809" countmax="60" />
+		<item name="torch" chance="9998" />
+		<item name="sabre" chance="9951" />
+		<item name="worn leather boots" chance="9884" />
+		<item name="compass" chance="9817" />
+		<item name="throwing knife" chance="8868" countmax="5" />
+		<item name="battle shield" chance="4017" />
+		<item name="pirate shirt" chance="1130" />
+		<item name="treasure map (pirate)" chance="1068" />
+		<item name="plate armor" chance="1016" />
+		<item name="strong health potion" chance="736" />
+		<item name="peg leg" chance="482" />
+		<item name="pirate backpack" chance="477" />
+		<item name="hook" chance="466" />
+		<item name="eye patch" chance="435" />
+		<item name="rum flask" chance="145" />
+		<item name="die" chance="57" />
 	</loot>
 </monster>

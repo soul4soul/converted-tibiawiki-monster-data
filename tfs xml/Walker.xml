@@ -1,6 +1,7 @@
-﻿<monster name="Walker" nameDescription="a walker" experience="2200" speed="300" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Walker" nameDescription="a walker" experience="2200" speed="300" manacost="0">
 	<health now="3000" max="3000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="605" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="50" />
 		<element firePercent="35" />
 		<element lifedrainPercent="0" />
@@ -47,17 +49,17 @@
 		<voice sentence="*slosh*" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="platinum coin" chance="52273" countmax="3" />
-		<item id="metal toe" chance="21098" />
-		<item id="small topaz" chance="10377" countmax="6" />
-		<item id="great health potion" chance="8148" />
-		<item id="great spirit potion" chance="7419" />
-		<item id="small amethyst" chance="4974" countmax="3" />
-		<item id="small emerald" chance="4374" countmax="3" />
-		<item id="metal spats" chance="3516" />
-		<item id="gearwheel chain" chance="2058" />
-		<item id="crystal mace" chance="600" />
-		<item id="steel boots" chance="515" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="platinum coin" chance="52289" countmax="3" />
+		<item name="metal toe" chance="21053" />
+		<item name="small topaz" chance="10355" countmax="6" />
+		<item name="great health potion" chance="8130" />
+		<item name="great spirit potion" chance="7403" />
+		<item name="small amethyst" chance="5006" countmax="3" />
+		<item name="small emerald" chance="4365" countmax="3" />
+		<item name="metal spats" chance="3509" />
+		<item name="gearwheel chain" chance="2054" />
+		<item name="crystal mace" chance="599" />
+		<item name="steel boots" chance="513" />
 	</loot>
 </monster>

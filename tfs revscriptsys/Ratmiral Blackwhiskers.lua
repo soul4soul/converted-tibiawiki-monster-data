@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,28 +87,6 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "crystal coin", chance = 100000, maxCount = 2},
-	{id = "platinum coin", chance = 100000, maxCount = 20},
-	{id = "ultimate health potion", chance = 100000, maxCount = 10},
-	{id = "great spirit potion", chance = 100000, maxCount = 10},
-	{id = "great mana potion", chance = 82609, maxCount = 10},
-	{id = "great health potion", chance = 78261, maxCount = 10},
-	{id = "ultimate mana potion", chance = 78261, maxCount = 10},
-	{id = "mastermind potion", chance = 43478, maxCount = 5},
-	{id = "berserk potion", chance = 39130, maxCount = 5},
-	{id = "bullseye potion", chance = 34783, maxCount = 5},
-	{id = "pirate coin", chance = 30435, maxCount = 55},
-	{id = "small treasure chest", chance = 21739},
-	{id = "golden dustbin", chance = 17391},
-	{id = "ratmiral's hat", chance = 17391},
-	{id = "cheesy membership card", chance = 8696},
-	{id = "golden cheese wedge", chance = 8696},
-	{id = "soap", chance = 8696},
-	{id = "tiara", chance = 8696},
-	{id = "amber (item)", chance = 4348},
-	{id = "exotic amulet", chance = 4348},
-	{id = "scrubbing brush", chance = 4348},
-	{id = "throwing axe", chance = 4348}
 }
 
 mType:register(monster)

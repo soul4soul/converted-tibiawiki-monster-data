@@ -1,6 +1,7 @@
-﻿<monster name="Frost Giantess" nameDescription="a frost giantess" experience="150" speed="194" manacost="490">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Frost Giantess" nameDescription="a frost giantess" experience="150" speed="194" manacost="490">
 	<health now="275" max="275" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="265" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -54,17 +56,17 @@
 		<voice sentence="Come kiss the cook!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="82013" countmax="40" />
-		<item id="ham" chance="20830" />
-		<item id="small stone" chance="10399" countmax="3" />
-		<item id="short sword" chance="7949" />
-		<item id="frost giant pelt" chance="4920" />
-		<item id="ice cube" chance="2096" />
-		<item id="battle shield" chance="1531" />
-		<item id="mana potion" chance="952" />
-		<item id="norse shield" chance="289" />
-		<item id="dark helmet" chance="174" />
-		<item id="shard" chance="103" />
-		<item id="club ring" chance="71" />
+		<item name="gold coin" chance="82013" countmax="40" />
+		<item name="ham" chance="20830" />
+		<item name="small stone" chance="10399" countmax="3" />
+		<item name="short sword" chance="7949" />
+		<item name="frost giant pelt" chance="4920" />
+		<item name="ice cube" chance="2096" />
+		<item name="battle shield" chance="1531" />
+		<item name="mana potion" chance="952" />
+		<item name="norse shield" chance="289" />
+		<item name="dark helmet" chance="174" />
+		<item name="shard" chance="103" />
+		<item name="club ring" chance="71" />
 	</loot>
 </monster>

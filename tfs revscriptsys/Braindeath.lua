@@ -5,7 +5,7 @@ monster.name = "Braindeath"
 monster.description = "a braindeath"
 monster.experience = 985
 monster.outfit = {
-	lookType = 0,
+	lookType = 256,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -93,13 +94,13 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99442, maxCount = 90},
-	{id = "bone sword", chance = 15024},
-	{id = "sniper arrow", chance = 9580, maxCount = 4},
-	{id = "steel shield", chance = 5945},
-	{id = "piece of dead brain", chance = 5039},
+	{id = "bone sword", chance = 15027},
+	{id = "sniper arrow", chance = 9581, maxCount = 4},
+	{id = "steel shield", chance = 5944},
+	{id = "piece of dead brain", chance = 5038},
 	{id = "bonelord eye", chance = 2974},
-	{id = "clerical mace", chance = 1957},
-	{id = "haunted blade", chance = 1447},
+	{id = "clerical mace", chance = 1956},
+	{id = "haunted blade", chance = 1446},
 	{id = "spellbook", chance = 948},
 	{id = "spiked squelcher", chance = 183},
 	{id = "bonelord helmet", chance = 99},

@@ -1,6 +1,7 @@
-﻿<monster name="High Voltage Elemental" nameDescription="a high voltage elemental" experience="1500" speed="278" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="High Voltage Elemental" nameDescription="a high voltage elemental" experience="1500" speed="278" manacost="0">
 	<health now="1500" max="1500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="293" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="35" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="-15" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -43,33 +45,21 @@
 	</attacks>
 	<defenses armor="35" defense="35" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="199" />
-		<item id="flash arrow" chance="19027" countmax="20" />
-		<item id="crystal sword" chance="6748" />
-		<item id="mana potion" chance="5033" />
-		<item id="small amethyst" chance="4369" countmax="3" />
-		<item id="crystal ring" chance="4148" />
-		<item id="obsidian lance" chance="4093" />
-		<item id="strong mana potion" chance="3872" />
-		<item id="energy ring" chance="2600" />
-		<item id="spellbook of warding" chance="774" />
-		<item id="lightning pendant" chance="608" />
-		<item id="wand of cosmic energy" chance="553" />
-		<item id="lightning headband" chance="221" />
-		<item id="lightning robe" chance="166" />
-		<item id="shockwave amulet" chance="166" />
-		<item id="lightning legs" chance="111" />
-		<item id="gold coin" chance="19524" countmax="189" />
-		<item id="flash arrow" chance="4148" countmax="20" />
-		<item id="mana potion" chance="1217" />
-		<item id="crystal sword" chance="1162" />
-		<item id="obsidian lance" chance="830" />
-		<item id="small amethyst" chance="830" countmax="3" />
-		<item id="crystal ring" chance="774" />
-		<item id="energy ring" chance="664" />
-		<item id="strong mana potion" chance="553" />
-		<item id="lightning pendant" chance="166" />
-		<item id="spellbook of warding" chance="166" />
-		<item id="wand of cosmic energy" chance="166" />
+		<item name="gold coin" chance="100000" countmax="199" />
+		<item name="flash arrow" chance="19105" countmax="20" />
+		<item name="crystal sword" chance="6792" />
+		<item name="mana potion" chance="5025" />
+		<item name="small amethyst" chance="4362" countmax="3" />
+		<item name="crystal ring" chance="4141" />
+		<item name="obsidian lance" chance="4086" />
+		<item name="strong mana potion" chance="3865" />
+		<item name="energy ring" chance="2595" />
+		<item name="spellbook of warding" chance="773" />
+		<item name="lightning pendant" chance="607" />
+		<item name="wand of cosmic energy" chance="552" />
+		<item name="lightning headband" chance="221" />
+		<item name="lightning robe" chance="166" />
+		<item name="shockwave amulet" chance="166" />
+		<item name="lightning legs" chance="110" />
 	</loot>
 </monster>

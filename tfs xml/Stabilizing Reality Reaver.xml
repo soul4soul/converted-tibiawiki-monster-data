@@ -1,6 +1,7 @@
-﻿<monster name="Stabilizing Reality Reaver" nameDescription="a stabilizing reality reaver" experience="1950" speed="310" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Stabilizing Reality Reaver" nameDescription="a stabilizing reality reaver" experience="1950" speed="310" manacost="0">
 	<health now="2500" max="2500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="879" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="70" />
+		<element energyPercent="70" />
 		<element earthPercent="-10" />
 		<element firePercent="15" />
 		<element lifedrainPercent="0" />
@@ -48,23 +50,23 @@
 		<voice sentence="Ssshhh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="97298" countmax="100" />
-		<item id="platinum coin" chance="97298" countmax="4" />
-		<item id="great spirit potion" chance="14409" />
-		<item id="great health potion" chance="13996" />
-		<item id="great mana potion" chance="13696" />
-		<item id="condensed energy" chance="10769" />
-		<item id="energy drink" chance="9644" />
-		<item id="energy bar" chance="9493" />
-		<item id="small energy ball" chance="9081" />
-		<item id="plasma pearls" chance="8705" />
-		<item id="red crystal fragment" chance="3865" />
-		<item id="violet crystal shard" chance="3452" />
-		<item id="blue crystal splinter" chance="3415" countmax="2" />
-		<item id="blue crystal shard" chance="1651" />
-		<item id="red gem" chance="1463" />
-		<item id="wand of starstorm" chance="1313" />
-		<item id="lightning headband" chance="225" />
-		<item id="focus cape" chance="75" />
+		<item name="gold coin" chance="97458" countmax="100" />
+		<item name="platinum coin" chance="97458" countmax="4" />
+		<item name="great spirit potion" chance="14407" />
+		<item name="great health potion" chance="13948" />
+		<item name="great mana potion" chance="13736" />
+		<item name="condensed energy" chance="10593" />
+		<item name="energy bar" chance="9499" />
+		<item name="energy drink" chance="9499" />
+		<item name="small energy ball" chance="9145" />
+		<item name="plasma pearls" chance="8828" />
+		<item name="red crystal fragment" chance="3919" />
+		<item name="violet crystal shard" chance="3531" />
+		<item name="blue crystal splinter" chance="3390" countmax="2" />
+		<item name="blue crystal shard" chance="1660" />
+		<item name="red gem" chance="1412" />
+		<item name="wand of starstorm" chance="1271" />
+		<item name="lightning headband" chance="212" />
+		<item name="focus cape" chance="71" />
 	</loot>
 </monster>

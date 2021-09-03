@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,14 +90,6 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "crystal coin", chance = 100000},
-	{id = "ultimate health potion", chance = 100000, maxCount = 4},
-	{id = "small diamond", chance = 100000},
-	{id = "cyan crystal fragment", chance = 100000},
-	{id = "giant sword", chance = 100000},
-	{id = "gold ingot", chance = 100000},
-	{id = "onyx chip", chance = 100000},
-	{id = "red crystal fragment", chance = 100000}
 }
 
 mType:register(monster)

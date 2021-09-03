@@ -5,11 +5,11 @@ monster.name = "Barbarian Skullhunter"
 monster.description = "a barbarian skullhunter"
 monster.experience = 85
 monster.outfit = {
-	lookType = 0,
+	lookType = 254,
 	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookBody = 77,
+	lookLegs = 96,
+	lookFeet = 114,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,12 +90,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 74392, maxCount = 30},
-	{id = "torch", chance = 60298},
-	{id = "brass helmet", chance = 19950},
-	{id = "knife", chance = 15059},
-	{id = "viking helmet", chance = 7878},
-	{id = "scale armor", chance = 4002},
+	{id = "gold coin", chance = 74391, maxCount = 30},
+	{id = "torch", chance = 60299},
+	{id = "brass helmet", chance = 19951},
+	{id = "knife", chance = 15057},
+	{id = "viking helmet", chance = 7877},
+	{id = "scale armor", chance = 4001},
 	{id = "skull", chance = 3016},
 	{id = "health potion", chance = 923},
 	{id = "brown piece of cloth", chance = 520},

@@ -1,6 +1,7 @@
-﻿<monster name="Valkyrie" nameDescription="a valkyrie" experience="85" speed="176" manacost="450">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Valkyrie" nameDescription="a valkyrie" experience="85" speed="176" manacost="450">
 	<health now="190" max="190" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="139" head="113" body="38" legs="76" feet="96" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -53,19 +55,19 @@
 		<voice sentence="One more head for me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="spear" chance="55320" countmax="3" />
-		<item id="gold coin" chance="32713" countmax="12" />
-		<item id="meat" chance="30077" />
-		<item id="chain armor" chance="10124" />
-		<item id="red apple" chance="7596" countmax="2" />
-		<item id="girlish hair decoration" chance="5951" />
-		<item id="hunting spear" chance="5044" />
-		<item id="protective charm" chance="3194" />
-		<item id="protection amulet" chance="1093" />
-		<item id="plate armor" chance="817" />
-		<item id="skull" chance="739" />
-		<item id="health potion" chance="474" />
-		<item id="double axe" chance="402" />
-		<item id="small diamond" chance="114" />
+		<item name="spear" chance="55327" countmax="3" />
+		<item name="gold coin" chance="32705" countmax="12" />
+		<item name="meat" chance="30090" />
+		<item name="chain armor" chance="10126" />
+		<item name="red apple" chance="7588" countmax="2" />
+		<item name="girlish hair decoration" chance="5951" />
+		<item name="hunting spear" chance="5045" />
+		<item name="protective charm" chance="3197" />
+		<item name="protection amulet" chance="1092" />
+		<item name="plate armor" chance="822" />
+		<item name="skull" chance="738" />
+		<item name="health potion" chance="474" />
+		<item name="double axe" chance="402" />
+		<item name="small diamond" chance="114" />
 	</loot>
 </monster>

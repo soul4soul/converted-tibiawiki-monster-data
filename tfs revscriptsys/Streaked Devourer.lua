@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,21 +88,21 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 24},
-	{id = "gold ingot", chance = 15438},
-	{id = "streaked devourer maw", chance = 13825},
-	{id = "streaked devourer eyes", chance = 8756},
-	{id = "red gem", chance = 5760},
-	{id = "streaked devourer legs", chance = 5530},
-	{id = "yellow gem", chance = 2995},
-	{id = "mercenary sword", chance = 1613},
-	{id = "relic sword", chance = 1613},
-	{id = "noble axe", chance = 1152},
-	{id = "war axe", chance = 1152},
-	{id = "warrior's axe", chance = 1152},
-	{id = "guardian halberd", chance = 922},
-	{id = "ornate crossbow", chance = 922},
-	{id = "crystal mace", chance = 691},
-	{id = "giant sword", chance = 691}
+	{id = "gold ingot", chance = 14052},
+	{id = "streaked devourer maw", chance = 12582},
+	{id = "streaked devourer eyes", chance = 8824},
+	{id = "red gem", chance = 6046},
+	{id = "streaked devourer legs", chance = 5065},
+	{id = "yellow gem", chance = 3431},
+	{id = "mercenary sword", chance = 1797},
+	{id = "ornate crossbow", chance = 1307},
+	{id = "crystal mace", chance = 1144},
+	{id = "noble axe", chance = 1144},
+	{id = "relic sword", chance = 1144},
+	{id = "warrior's axe", chance = 1144},
+	{id = "giant sword", chance = 980},
+	{id = "war axe", chance = 817},
+	{id = "guardian halberd", chance = 654}
 }
 
 mType:register(monster)

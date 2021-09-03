@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -85,10 +86,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "glooth bag", chance = 66667, maxCount = 2},
-	{id = "platinum coin", chance = 19048, maxCount = 4},
-	{id = "glooth glider hinge", chance = 14286},
-	{id = "slightly rusted armor", chance = 9524}
+	{id = "glooth bag", chance = 70968, maxCount = 2},
+	{id = "glooth glider hinge", chance = 16129},
+	{id = "platinum coin", chance = 12903, maxCount = 4},
+	{id = "slightly rusted armor", chance = 6452}
 }
 
 mType:register(monster)

@@ -5,7 +5,7 @@ monster.name = "Lost Thrower"
 monster.description = "a lost thrower"
 monster.experience = 1200
 monster.outfit = {
-	lookType = 0,
+	lookType = 539,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,21 +89,21 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 140},
-	{id = "platinum coin", chance = 70319},
-	{id = "broken throwing axe", chance = 15015},
-	{id = "brown mushroom", chance = 14950, maxCount = 2},
-	{id = "mad froth", chance = 14414},
-	{id = "great health potion", chance = 13944},
-	{id = "great mana potion", chance = 13635},
-	{id = "lost bracers", chance = 12450},
-	{id = "red hair dye", chance = 12304},
-	{id = "coal", chance = 12085},
-	{id = "bloody dwarven beard", chance = 11744},
-	{id = "basalt figurine", chance = 8790},
-	{id = "iron ore", chance = 8522},
-	{id = "basalt fetish", chance = 7118},
-	{id = "helmet of the lost", chance = 1599},
-	{id = "buckle", chance = 763}
+	{id = "platinum coin", chance = 70281},
+	{id = "brown mushroom", chance = 14968, maxCount = 2},
+	{id = "broken throwing axe", chance = 14944},
+	{id = "mad froth", chance = 14382},
+	{id = "great health potion", chance = 13925},
+	{id = "great mana potion", chance = 13660},
+	{id = "lost bracers", chance = 12416},
+	{id = "red hair dye", chance = 12303},
+	{id = "coal", chance = 12047},
+	{id = "bloody dwarven beard", chance = 11734},
+	{id = "basalt figurine", chance = 8788},
+	{id = "iron ore", chance = 8531},
+	{id = "basalt fetish", chance = 7087},
+	{id = "helmet of the lost", chance = 1581},
+	{id = "buckle", chance = 754}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Crypt Defiler" nameDescription="a crypt defiler" experience="70" speed="190" manacost="450">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Crypt Defiler" nameDescription="a crypt defiler" experience="70" speed="190" manacost="450">
 	<health now="185" max="185" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="146" head="62" body="132" legs="42" feet="75" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -49,15 +51,15 @@
 		<voice sentence="I don't like competition!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="53396" countmax="39" />
-		<item id="potato" chance="4984" countmax="3" />
-		<item id="rope belt" chance="4984" />
-		<item id="axe" chance="2928" />
-		<item id="brass armor" chance="2928" />
-		<item id="mace" chance="1931" />
-		<item id="dirty turban" chance="1558" />
-		<item id="steel shield" chance="935" />
-		<item id="iron helmet" chance="436" />
-		<item id="nomad parchment" chance="187" />
+		<item name="gold coin" chance="53396" countmax="39" />
+		<item name="potato" chance="4984" countmax="3" />
+		<item name="rope belt" chance="4984" />
+		<item name="axe" chance="2928" />
+		<item name="brass armor" chance="2928" />
+		<item name="mace" chance="1931" />
+		<item name="dirty turban" chance="1558" />
+		<item name="steel shield" chance="935" />
+		<item name="iron helmet" chance="436" />
+		<item name="nomad parchment" chance="187" />
 	</loot>
 </monster>

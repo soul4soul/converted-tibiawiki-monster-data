@@ -1,6 +1,7 @@
-﻿<monster name="Wyvern" nameDescription="a wyvern" experience="515" speed="186" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Wyvern" nameDescription="a wyvern" experience="515" speed="186" manacost="0">
 	<health now="795" max="795" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="239" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -51,23 +53,14 @@
 		<voice sentence="Shriiiek" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99981" countmax="90" />
-		<item id="dragon ham" chance="60214" />
-		<item id="wyvern talisman" chance="11996" />
-		<item id="small sapphire" chance="4928" />
-		<item id="power bolt" chance="3378" />
-		<item id="strong health potion" chance="2458" />
-		<item id="wand of inferno" chance="791" />
-		<item id="emerald bangle" chance="588" />
-		<item id="wyvern fang" chance="454" />
-		<item id="gold coin" chance="3070" countmax="64" />
-		<item id="dragon ham" chance="2769" />
-		<item id="wyvern talisman" chance="184" />
-		<item id="power bolt" chance="180" />
-		<item id="wand of inferno" chance="48" />
-		<item id="strong health potion" chance="42" />
-		<item id="small sapphire" chance="32" />
-		<item id="wyvern fang" chance="16" />
-		<item id="emerald bangle" chance="15" />
+		<item name="gold coin" chance="99981" countmax="90" />
+		<item name="dragon ham" chance="60229" />
+		<item name="wyvern talisman" chance="11982" />
+		<item name="small sapphire" chance="4932" />
+		<item name="power bolt" chance="3378" />
+		<item name="strong health potion" chance="2461" />
+		<item name="wand of inferno" chance="787" />
+		<item name="emerald bangle" chance="589" />
+		<item name="wyvern fang" chance="456" />
 	</loot>
 </monster>

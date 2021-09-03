@@ -5,7 +5,7 @@ monster.name = "Priestess"
 monster.description = "a priestess"
 monster.experience = 420
 monster.outfit = {
-	lookType = 0,
+	lookType = 58,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,23 +91,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "sling herb", chance = 13492},
-	{id = "goat grass", chance = 12060},
-	{id = "dark rosary", chance = 9823},
-	{id = "red apple", chance = 7369, maxCount = 2},
-	{id = "powder herb", chance = 6153},
-	{id = "black hood", chance = 5052},
-	{id = "wood mushroom", chance = 3353},
-	{id = "cultish robe", chance = 1805},
-	{id = "clerical mace", chance = 1498},
-	{id = "wooden flute", chance = 1408},
-	{id = "crystal ball", chance = 1121},
+	{id = "sling herb", chance = 13489},
+	{id = "goat grass", chance = 12088},
+	{id = "dark rosary", chance = 9805},
+	{id = "red apple", chance = 7403, maxCount = 2},
+	{id = "powder herb", chance = 6166},
+	{id = "black hood", chance = 5060},
+	{id = "wood mushroom", chance = 3344},
+	{id = "cultish robe", chance = 1807},
+	{id = "clerical mace", chance = 1492},
+	{id = "wooden flute", chance = 1406},
+	{id = "crystal ball", chance = 1116},
 	{id = "hailstorm rod", chance = 1061},
-	{id = "book (orange)", chance = 945},
-	{id = "mana potion", chance = 920},
-	{id = "talon", chance = 719},
-	{id = "crystal necklace", chance = 618},
-	{id = "black shield", chance = 206},
+	{id = "book (orange)", chance = 941},
+	{id = "mana potion", chance = 916},
+	{id = "talon", chance = 716},
+	{id = "crystal necklace", chance = 621},
+	{id = "black shield", chance = 205},
 	{id = "piggy bank", chance = 70}
 }
 

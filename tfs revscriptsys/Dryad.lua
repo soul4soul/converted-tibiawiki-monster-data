@@ -5,12 +5,12 @@ monster.name = "Dryad"
 monster.description = "a dryad"
 monster.experience = 190
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 137,
+	lookHead = 99,
+	lookBody = 41,
+	lookLegs = 5,
+	lookFeet = 102,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,

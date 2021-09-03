@@ -1,4 +1,5 @@
-﻿<monster name="Thaian" nameDescription="" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Thaian" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="90" />
-		<element EnergyPercent="90" />
+		<element energyPercent="90" />
 		<element earthPercent="90" />
 		<element firePercent="90" />
 		<element lifedrainPercent="90" />
@@ -43,12 +45,12 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="green gem" chance="91304" />
-		<item id="yellow gem" chance="65217" />
-		<item id="eye of the chasm" chance="56522" />
-		<item id="amber (item)" chance="13043" />
-		<item id="blue gem" chance="8696" />
-		<item id="death toll" chance="8696" countmax="2" />
-		<item id="pair of old bracers" chance="4348" />
+		<item name="green gem" chance="91304" />
+		<item name="yellow gem" chance="65217" />
+		<item name="eye of the chasm" chance="56522" />
+		<item name="amber (item)" chance="13043" />
+		<item name="blue gem" chance="8696" />
+		<item name="death toll" chance="8696" countmax="2" />
+		<item name="pair of old bracers" chance="4348" />
 	</loot>
 </monster>

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -101,26 +102,7 @@ monster.loot = {
 	{id = "small ruby", chance = 33333, maxCount = 5},
 	{id = "small topaz", chance = 33333, maxCount = 5},
 	{id = "strong health potion", chance = 33333, maxCount = 5},
-	{id = "yellow gem", chance = 33333},
-	{id = "gold coin", chance = 100000, maxCount = 50},
-	{id = "platinum coin", chance = 100000, maxCount = 8},
-	{id = "dragon ham", chance = 100000},
-	{id = "assassin star", chance = 100000, maxCount = 5},
-	{id = "strong health potion", chance = 100000, maxCount = 5},
-	{id = "strong mana potion", chance = 100000, maxCount = 5},
-	{id = "sudden death rune", chance = 100000, maxCount = 5},
-	{id = "wyrm scale", chance = 100000},
-	{id = "red gem", chance = 100000},
-	{id = "small diamond", chance = 100000, maxCount = 5},
-	{id = "small sapphire", chance = 100000, maxCount = 5},
-	{id = "lightning headband", chance = 66667},
-	{id = "small emerald", chance = 66667, maxCount = 5},
-	{id = "small topaz", chance = 66667, maxCount = 5},
-	{id = "yellow gem", chance = 66667},
-	{id = "lightning robe", chance = 33333},
-	{id = "silver raid token", chance = 33333},
-	{id = "small ruby", chance = 33333, maxCount = 5},
-	{id = "wand of starstorm", chance = 33333}
+	{id = "yellow gem", chance = 33333}
 }
 
 mType:register(monster)

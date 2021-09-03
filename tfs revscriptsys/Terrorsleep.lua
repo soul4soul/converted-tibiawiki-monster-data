@@ -5,7 +5,7 @@ monster.name = "Terrorsleep"
 monster.description = "a terrorsleep"
 monster.experience = 6900
 monster.outfit = {
-	lookType = 0,
+	lookType = 587,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,29 +92,29 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99955, maxCount = 197},
-	{id = "platinum coin", chance = 99955, maxCount = 9},
-	{id = "great mana potion", chance = 34817, maxCount = 2},
-	{id = "ultimate health potion", chance = 21906},
-	{id = "cyan crystal fragment", chance = 16607},
-	{id = "bowl of terror sweat", chance = 16518},
-	{id = "small topaz", chance = 14826, maxCount = 3},
-	{id = "small amethyst", chance = 14737, maxCount = 3},
-	{id = "small emerald", chance = 13090, maxCount = 3},
-	{id = "small ruby", chance = 13090, maxCount = 3},
-	{id = "blue crystal splinter", chance = 12511},
-	{id = "trapped bad dream monster", chance = 11932},
-	{id = "blue crystal shard", chance = 8682},
-	{id = "white piece of cloth", chance = 3918},
-	{id = "blue piece of cloth", chance = 3428},
-	{id = "fish fin", chance = 2271},
-	{id = "broken dream", chance = 2182},
-	{id = "knight armor", chance = 2093},
-	{id = "giant sword", chance = 1647},
-	{id = "warrior helmet", chance = 1647},
-	{id = "blue robe", chance = 1247},
-	{id = "red piece of cloth", chance = 1069},
-	{id = "cluster of solace", chance = 846}
+	{id = "gold coin", chance = 99956, maxCount = 197},
+	{id = "platinum coin", chance = 99956, maxCount = 9},
+	{id = "great mana potion", chance = 34941, maxCount = 2},
+	{id = "ultimate health potion", chance = 21920},
+	{id = "bowl of terror sweat", chance = 16616},
+	{id = "cyan crystal fragment", chance = 16528},
+	{id = "small amethyst", chance = 14862, maxCount = 3},
+	{id = "small topaz", chance = 14687, maxCount = 3},
+	{id = "small emerald", chance = 13152, maxCount = 3},
+	{id = "small ruby", chance = 13021, maxCount = 3},
+	{id = "blue crystal splinter", chance = 12538},
+	{id = "trapped bad dream monster", chance = 11968},
+	{id = "blue crystal shard", chance = 8812},
+	{id = "white piece of cloth", chance = 3858},
+	{id = "blue piece of cloth", chance = 3551},
+	{id = "fish fin", chance = 2236},
+	{id = "broken dream", chance = 2148},
+	{id = "knight armor", chance = 2060},
+	{id = "warrior helmet", chance = 1710},
+	{id = "giant sword", chance = 1622},
+	{id = "blue robe", chance = 1271},
+	{id = "red piece of cloth", chance = 1052},
+	{id = "cluster of solace", chance = 833}
 }
 
 mType:register(monster)

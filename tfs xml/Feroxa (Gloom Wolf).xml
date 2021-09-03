@@ -1,4 +1,5 @@
-﻿<monster name="Feroxa" nameDescription="" experience="0" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Feroxa" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,28 +45,28 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="moonlight crystals" chance="85714" countmax="3" />
-		<item id="platinum coin" chance="85714" countmax="20" />
-		<item id="brown crystal splinter" chance="42857" countmax="5" />
-		<item id="fur armor" chance="42857" />
-		<item id="moonlight rod" chance="42857" />
-		<item id="small diamond" chance="42857" countmax="5" />
-		<item id="violet crystal shard" chance="42857" countmax="5" />
-		<item id="badger boots" chance="28571" />
-		<item id="blue crystal splinter" chance="28571" countmax="5" />
-		<item id="great spirit potion" chance="28571" countmax="5" />
-		<item id="green crystal shard" chance="28571" countmax="5" />
-		<item id="gold coin" chance="28571" countmax="200" />
-		<item id="great mana potion" chance="28571" countmax="5" />
-		<item id="small sapphire" chance="28571" countmax="5" />
-		<item id="ultimate health potion" chance="28571" countmax="5" />
-		<item id="blue crystal shard" chance="14286" countmax="5" />
-		<item id="green crystal splinter" chance="14286" countmax="5" />
-		<item id="small topaz" chance="14286" countmax="5" />
-		<item id="stone skin amulet" chance="14286" />
-		<item id="underworld rod" chance="14286" />
-		<item id="wand of voodoo" chance="14286" />
-		<item id="wereboar loincloth" chance="14286" />
-		<item id="werewolf amulet" chance="14286" />
+		<item name="moonlight crystals" chance="85714" countmax="3" />
+		<item name="platinum coin" chance="85714" countmax="20" />
+		<item name="brown crystal splinter" chance="42857" countmax="5" />
+		<item name="fur armor" chance="42857" />
+		<item name="moonlight rod" chance="42857" />
+		<item name="small diamond" chance="42857" countmax="5" />
+		<item name="violet crystal shard" chance="42857" countmax="5" />
+		<item name="badger boots" chance="28571" />
+		<item name="blue crystal splinter" chance="28571" countmax="5" />
+		<item name="great spirit potion" chance="28571" countmax="5" />
+		<item name="green crystal shard" chance="28571" countmax="5" />
+		<item name="gold coin" chance="28571" countmax="200" />
+		<item name="great mana potion" chance="28571" countmax="5" />
+		<item name="small sapphire" chance="28571" countmax="5" />
+		<item name="ultimate health potion" chance="28571" countmax="5" />
+		<item name="blue crystal shard" chance="14286" countmax="5" />
+		<item name="green crystal splinter" chance="14286" countmax="5" />
+		<item name="small topaz" chance="14286" countmax="5" />
+		<item name="stone skin amulet" chance="14286" />
+		<item name="underworld rod" chance="14286" />
+		<item name="wand of voodoo" chance="14286" />
+		<item name="wereboar loincloth" chance="14286" />
+		<item name="werewolf amulet" chance="14286" />
 	</loot>
 </monster>

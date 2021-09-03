@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,23 +89,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 3},
-	{id = "great health potion", chance = 49575, maxCount = 3},
-	{id = "meat", chance = 19253},
-	{id = "knife", chance = 17057},
-	{id = "axe", chance = 16667},
-	{id = "werehyaena nose", chance = 12713},
-	{id = "halberd", chance = 11425},
-	{id = "red crystal fragment", chance = 9483},
-	{id = "small enchanted amethyst", chance = 5839, maxCount = 5},
-	{id = "red gem", chance = 5632},
-	{id = "yellow gem", chance = 5460},
-	{id = "life preserver", chance = 5437},
-	{id = "combat knife", chance = 4851},
-	{id = "green crystal fragment", chance = 4517},
-	{id = "ratana", chance = 4207},
-	{id = "moonlight crystals", chance = 747},
-	{id = "werehyaena talisman", chance = 690},
-	{id = "werehyaena trophy", chance = 195}
+	{id = "great health potion", chance = 49704, maxCount = 3},
+	{id = "meat", chance = 19256},
+	{id = "knife", chance = 17056},
+	{id = "axe", chance = 16642},
+	{id = "werehyaena nose", chance = 12666},
+	{id = "halberd", chance = 11438},
+	{id = "red crystal fragment", chance = 9528},
+	{id = "small enchanted amethyst", chance = 5786, maxCount = 5},
+	{id = "red gem", chance = 5652},
+	{id = "yellow gem", chance = 5417},
+	{id = "life preserver", chance = 5406},
+	{id = "combat knife", chance = 4903},
+	{id = "green crystal fragment", chance = 4524},
+	{id = "ratana", chance = 4244},
+	{id = "moonlight crystals", chance = 726},
+	{id = "werehyaena talisman", chance = 670},
+	{id = "werehyaena trophy", chance = 201}
 }
 
 mType:register(monster)

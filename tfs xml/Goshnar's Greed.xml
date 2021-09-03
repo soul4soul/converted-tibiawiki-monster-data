@@ -1,4 +1,5 @@
-﻿<monster name="Goshnar's Greed" nameDescription="" experience="150000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Goshnar's Greed" nameDescription="" experience="150000" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,24 +42,24 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="crystal coin" chance="100000" countmax="70" />
-		<item id="giant topaz" chance="62500" />
-		<item id="ultimate mana potion" chance="62500" countmax="110" />
-		<item id="berserk potion" chance="50000" countmax="25" />
-		<item id="gold ingot" chance="50000" />
-		<item id="supreme health potion" chance="50000" countmax="110" />
-		<item id="violet gem" chance="50000" />
-		<item id="bullseye potion" chance="37500" countmax="25" />
-		<item id="red gem" chance="37500" />
-		<item id="ultimate spirit potion" chance="37500" countmax="110" />
-		<item id="blue gem" chance="25000" />
-		<item id="giant ruby" chance="25000" />
-		<item id="giant sapphire" chance="12500" />
-		<item id="giant shimmering pearl" chance="12500" />
-		<item id="greed's arm" chance="12500" />
-		<item id="green gem" chance="12500" />
-		<item id="mastermind potion" chance="12500" countmax="25" />
-		<item id="the skull of a beast" chance="12500" />
-		<item id="yellow gem" chance="12500" />
+		<item name="crystal coin" chance="100000" countmax="70" />
+		<item name="giant topaz" chance="62500" />
+		<item name="ultimate mana potion" chance="62500" countmax="110" />
+		<item name="berserk potion" chance="50000" countmax="25" />
+		<item name="gold ingot" chance="50000" />
+		<item name="supreme health potion" chance="50000" countmax="110" />
+		<item name="violet gem" chance="50000" />
+		<item name="bullseye potion" chance="37500" countmax="25" />
+		<item name="red gem" chance="37500" />
+		<item name="ultimate spirit potion" chance="37500" countmax="110" />
+		<item name="blue gem" chance="25000" />
+		<item name="giant ruby" chance="25000" />
+		<item name="giant sapphire" chance="12500" />
+		<item name="giant shimmering pearl" chance="12500" />
+		<item name="greed's arm" chance="12500" />
+		<item name="green gem" chance="12500" />
+		<item name="mastermind potion" chance="12500" countmax="25" />
+		<item name="the skull of a beast" chance="12500" />
+		<item name="yellow gem" chance="12500" />
 	</loot>
 </monster>

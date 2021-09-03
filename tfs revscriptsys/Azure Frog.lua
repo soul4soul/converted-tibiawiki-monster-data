@@ -5,11 +5,11 @@ monster.name = "Azure Frog"
 monster.description = "an azure frog"
 monster.experience = 20
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 226,
+	lookHead = 87,
+	lookBody = 85,
+	lookLegs = 85,
+	lookFeet = 87,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,8 +89,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 74400, maxCount = 10},
-	{id = "worm", chance = 9280}
+	{id = "gold coin", chance = 74234, maxCount = 10},
+	{id = "worm", chance = 9283}
 }
 
 mType:register(monster)

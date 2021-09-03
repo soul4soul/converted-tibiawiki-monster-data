@@ -5,7 +5,7 @@ monster.name = "Polar Bear"
 monster.description = "a polar bear"
 monster.experience = 28
 monster.outfit = {
-	lookType = 0,
+	lookType = 42,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,9 +88,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 50391},
-	{id = "ham", chance = 50161},
-	{id = "polar bear paw", chance = 1026}
+	{id = "meat", chance = 50357},
+	{id = "ham", chance = 50193},
+	{id = "polar bear paw", chance = 1021}
 }
 
 mType:register(monster)

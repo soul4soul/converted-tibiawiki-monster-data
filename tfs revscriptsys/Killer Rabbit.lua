@@ -5,7 +5,7 @@ monster.name = "Killer Rabbit"
 monster.description = "a killer rabbit"
 monster.experience = 160
 monster.outfit = {
-	lookType = 0,
+	lookType = 74,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,7 +89,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 36725, maxCount = 77}
+	{id = "gold coin", chance = 37939, maxCount = 77}
 }
 
 mType:register(monster)

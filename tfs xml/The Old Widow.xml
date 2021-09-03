@@ -1,4 +1,5 @@
-﻿<monster name="The Old Widow" nameDescription="" experience="4200" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Old Widow" nameDescription="" experience="4200" speed="0" manacost="0">
 	<health now="3200" max="3200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -48,34 +50,20 @@
 		<defense name="healing" interval="2000" chance="20" min="230" max="270" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="99476" countmax="100" />
-		<item id="platinum coin" chance="98953" countmax="10" />
-		<item id="spider silk" chance="87435" />
-		<item id="steel helmet" chance="76963" />
-		<item id="great health potion" chance="65969" countmax="4" />
-		<item id="knight armor" chance="44503" />
-		<item id="energy ring" chance="32984" />
-		<item id="time ring" chance="32984" />
-		<item id="stealth ring" chance="31937" />
-		<item id="knight legs" chance="25131" />
-		<item id="sweet smelling bait" chance="21466" />
-		<item id="platinum amulet" chance="20942" />
-		<item id="spool of yarn" chance="9948" />
-		<item id="dreaded cleaver" chance="2618" />
-		<item id="bloody edge" chance="1047" />
-		<item id="gold coin" chance="18325" countmax="95" />
-		<item id="spider silk" chance="18325" />
-		<item id="platinum coin" chance="17277" countmax="10" />
-		<item id="steel helmet" chance="12042" />
-		<item id="great health potion" chance="9424" countmax="4" />
-		<item id="knight armor" chance="8901" />
-		<item id="energy ring" chance="8377" />
-		<item id="platinum amulet" chance="5759" />
-		<item id="stealth ring" chance="5236" />
-		<item id="time ring" chance="4712" />
-		<item id="knight legs" chance="2618" />
-		<item id="sweet smelling bait" chance="2618" />
-		<item id="dreaded cleaver" chance="1571" />
-		<item id="bloody edge" chance="524" />
+		<item name="gold coin" chance="99479" countmax="100" />
+		<item name="platinum coin" chance="98958" countmax="10" />
+		<item name="spider silk" chance="87500" />
+		<item name="steel helmet" chance="77083" />
+		<item name="great health potion" chance="66146" countmax="4" />
+		<item name="knight armor" chance="44271" />
+		<item name="energy ring" chance="32812" />
+		<item name="time ring" chance="32812" />
+		<item name="stealth ring" chance="32292" />
+		<item name="knight legs" chance="25000" />
+		<item name="sweet smelling bait" chance="21875" />
+		<item name="platinum amulet" chance="20833" />
+		<item name="spool of yarn" chance="9896" />
+		<item name="dreaded cleaver" chance="2604" />
+		<item name="bloody edge" chance="1042" />
 	</loot>
 </monster>

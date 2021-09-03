@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,19 +87,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 19},
-	{id = "bone", chance = 30565},
-	{id = "carnisylvan finger", chance = 10323},
-	{id = "carnisylvan bark", chance = 9285},
-	{id = "great mana potion", chance = 8651},
-	{id = "wand of starstorm", chance = 3749},
-	{id = "underworld rod", chance = 3576},
-	{id = "spellbook", chance = 3114},
-	{id = "hailstorm rod", chance = 2826},
-	{id = "springsprout rod", chance = 2537},
-	{id = "spellbook of warding", chance = 1961},
-	{id = "gold ring", chance = 692},
-	{id = "human teeth", chance = 634},
-	{id = "butterfly ring", chance = 461}
+	{id = "bone", chance = 30147},
+	{id = "carnisylvan finger", chance = 10650},
+	{id = "carnisylvan bark", chance = 9612},
+	{id = "great mana potion", chance = 8629},
+	{id = "underworld rod", chance = 3823},
+	{id = "wand of starstorm", chance = 3823},
+	{id = "spellbook", chance = 3058},
+	{id = "hailstorm rod", chance = 2840},
+	{id = "springsprout rod", chance = 2676},
+	{id = "spellbook of warding", chance = 1857},
+	{id = "gold ring", chance = 710},
+	{id = "human teeth", chance = 601},
+	{id = "butterfly ring", chance = 492}
 }
 
 mType:register(monster)

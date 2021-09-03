@@ -1,6 +1,7 @@
-﻿<monster name="Ogre Savage" nameDescription="an ogre savage" experience="950" speed="220" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ogre Savage" nameDescription="an ogre savage" experience="950" speed="220" manacost="0">
 	<health now="1400" max="1400" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="858" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="100" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -52,22 +54,22 @@
 		<voice sentence="UGGA UGGA!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="99098" countmax="154" />
-		<item id="ogre ear stud" chance="19674" />
-		<item id="ogre nose ring" chance="17354" />
-		<item id="strong health potion" chance="15292" />
-		<item id="skull fetish" chance="9278" />
-		<item id="cookie" chance="8376" countmax="5" />
-		<item id="mysterious fetish" chance="6100" />
-		<item id="jalapeno pepper" chance="4167" countmax="2" />
-		<item id="onyx chip" chance="3050" countmax="2" />
-		<item id="small ruby" chance="2835" countmax="3" />
-		<item id="small topaz" chance="2491" countmax="2" />
-		<item id="opal" chance="2234" countmax="2" />
-		<item id="war hammer" chance="1503" />
-		<item id="ogre choppa" chance="1160" />
-		<item id="berserk potion" chance="515" />
-		<item id="shamanic mask" chance="344" />
-		<item id="dreaded cleaver" chance="43" />
+		<item name="gold coin" chance="99098" countmax="154" />
+		<item name="ogre ear stud" chance="19674" />
+		<item name="ogre nose ring" chance="17354" />
+		<item name="strong health potion" chance="15292" />
+		<item name="skull fetish" chance="9278" />
+		<item name="cookie" chance="8376" countmax="5" />
+		<item name="mysterious fetish" chance="6100" />
+		<item name="jalapeno pepper" chance="4167" countmax="2" />
+		<item name="onyx chip" chance="3050" countmax="2" />
+		<item name="small ruby" chance="2835" countmax="3" />
+		<item name="small topaz" chance="2491" countmax="2" />
+		<item name="opal" chance="2234" countmax="2" />
+		<item name="war hammer" chance="1503" />
+		<item name="ogre choppa" chance="1160" />
+		<item name="berserk potion" chance="515" />
+		<item name="shamanic mask" chance="344" />
+		<item name="dreaded cleaver" chance="43" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Elder Mummy"
 monster.description = "an elder mummy"
 monster.experience = 560
 monster.outfit = {
-	lookType = 0,
+	lookType = 65,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,16 +87,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87955, maxCount = 160},
-	{id = "worm", chance = 19138, maxCount = 3},
-	{id = "flask of embalming fluid", chance = 12174},
-	{id = "scarab coin", chance = 9491, maxCount = 3},
-	{id = "gauze bandage", chance = 9391},
-	{id = "magic light wand", chance = 5680},
-	{id = "strange talisman", chance = 4595},
-	{id = "silver brooch", chance = 3696},
-	{id = "pharaoh banner", chance = 2426},
-	{id = "crystal ring", chance = 1570},
+	{id = "gold coin", chance = 87958, maxCount = 160},
+	{id = "worm", chance = 19133, maxCount = 3},
+	{id = "flask of embalming fluid", chance = 12184},
+	{id = "scarab coin", chance = 9488, maxCount = 3},
+	{id = "gauze bandage", chance = 9388},
+	{id = "magic light wand", chance = 5678},
+	{id = "strange talisman", chance = 4594},
+	{id = "silver brooch", chance = 3695},
+	{id = "pharaoh banner", chance = 2425},
+	{id = "crystal ring", chance = 1569},
 	{id = "black pearl", chance = 1070},
 	{id = "poison dagger", chance = 514}
 }

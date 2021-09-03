@@ -5,7 +5,7 @@ monster.name = "Infernal Frog"
 monster.description = "an infernal frog"
 monster.experience = 190
 monster.outfit = {
-	lookType = 0,
+	lookType = 224,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,7 +91,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 73058, maxCount = 65}
+	{id = "gold coin", chance = 73881, maxCount = 65}
 }
 
 mType:register(monster)

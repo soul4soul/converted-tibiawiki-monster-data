@@ -5,7 +5,7 @@ monster.name = "Quara Hydromancer Scout"
 monster.description = "a quara hydromancer scout"
 monster.experience = 800
 monster.outfit = {
-	lookType = 0,
+	lookType = 47,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -93,9 +94,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 89925, maxCount = 140},
-	{id = "fish", chance = 20190, maxCount = 3},
-	{id = "quara eye", chance = 11942},
+	{id = "gold coin", chance = 89926, maxCount = 140},
+	{id = "fish", chance = 20189, maxCount = 3},
+	{id = "quara eye", chance = 11946},
 	{id = "shrimp", chance = 9999},
 	{id = "small emerald", chance = 4952, maxCount = 2},
 	{id = "white pearl", chance = 2899},
@@ -104,26 +105,7 @@ monster.loot = {
 	{id = "obsidian lance", chance = 1535},
 	{id = "ring of healing", chance = 951},
 	{id = "wand of cosmic energy", chance = 901},
-	{id = "knight armor", chance = 518},
-	{id = "gold coin", chance = 2194, maxCount = 87},
-	{id = "fish", chance = 503, maxCount = 3},
-	{id = "quara eye", chance = 262},
-	{id = "small emerald", chance = 101, maxCount = 2},
-	{id = "white pearl", chance = 96},
-	{id = "fish fin", chance = 91},
-	{id = "black pearl", chance = 45},
-	{id = "wand of cosmic energy", chance = 20},
-	{id = "ring of healing", chance = 15},
-	{id = "gold coin", chance = 10568, maxCount = 90},
-	{id = "quara eye", chance = 1902},
-	{id = "fish", chance = 1842, maxCount = 2},
-	{id = "white pearl", chance = 438},
-	{id = "black pearl", chance = 393},
-	{id = "small emerald", chance = 196, maxCount = 2},
-	{id = "wand of cosmic energy", chance = 186},
-	{id = "fish fin", chance = 166},
-	{id = "ring of healing", chance = 116},
-	{id = "knight armor", chance = 50}
+	{id = "knight armor", chance = 518}
 }
 
 mType:register(monster)

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,37 +87,6 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "energy bar", chance = 100000, maxCount = 5},
-	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "mysterious remains", chance = 100000},
-	{id = "odd organ", chance = 100000},
-	{id = "plasma pearls", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 30},
-	{id = "witch hat", chance = 100000},
-	{id = "great mana potion", chance = 100000, maxCount = 10},
-	{id = "shockwave amulet", chance = 100000},
-	{id = "wand of inferno", chance = 100000},
-	{id = "great spirit potion", chance = 87500, maxCount = 5},
-	{id = "gold token", chance = 75000},
-	{id = "ultimate health potion", chance = 62500, maxCount = 5},
-	{id = "giant shimmering pearl", chance = 50000},
-	{id = "small diamond", chance = 50000, maxCount = 10},
-	{id = "small sapphire", chance = 50000, maxCount = 10},
-	{id = "green gem", chance = 37500},
-	{id = "red gem", chance = 37500},
-	{id = "small topaz", chance = 37500, maxCount = 10},
-	{id = "wand of everblazing", chance = 37500, maxCount = 2},
-	{id = "yellow gem", chance = 37500},
-	{id = "demon shield", chance = 25000},
-	{id = "magma monocle", chance = 25000},
-	{id = "noble axe", chance = 25000},
-	{id = "silver token", chance = 25000},
-	{id = "fire axe", chance = 12500},
-	{id = "ring of green plasma", chance = 12500},
-	{id = "ring of red plasma", chance = 12500},
-	{id = "small amethyst", chance = 12500, maxCount = 10},
-	{id = "small emerald", chance = 12500, maxCount = 10},
-	{id = "wand of defiance", chance = 12500}
 }
 
 mType:register(monster)

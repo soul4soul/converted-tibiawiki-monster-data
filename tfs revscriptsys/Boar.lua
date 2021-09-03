@@ -5,7 +5,7 @@ monster.name = "Boar"
 monster.description = "a boar"
 monster.experience = 60
 monster.outfit = {
-	lookType = 0,
+	lookType = 380,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,8 +89,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 25113, maxCount = 20},
-	{id = "haunch of boar", chance = 20090, maxCount = 2}
+	{id = "gold coin", chance = 25042, maxCount = 20},
+	{id = "haunch of boar", chance = 20084, maxCount = 2}
 }
 
 mType:register(monster)

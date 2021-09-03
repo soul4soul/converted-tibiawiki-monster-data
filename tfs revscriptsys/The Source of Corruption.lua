@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -100,29 +101,7 @@ monster.loot = {
 	{id = "small sapphire", chance = 100000, maxCount = 20},
 	{id = "solid rage", chance = 100000},
 	{id = "ultimate health potion", chance = 100000, maxCount = 10},
-	{id = "yellow gem", chance = 100000},
-	{id = "ancient stone", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "gold token", chance = 100000, maxCount = 2},
-	{id = "magic sulphur", chance = 100000},
-	{id = "onyx chip", chance = 100000},
-	{id = "piece of hell steel", chance = 100000, maxCount = 5},
-	{id = "platinum coin", chance = 100000, maxCount = 30},
-	{id = "silver token", chance = 100000, maxCount = 4},
-	{id = "blue gem", chance = 100000},
-	{id = "giant shimmering pearl", chance = 100000},
-	{id = "great mana potion", chance = 100000, maxCount = 10},
-	{id = "small amethyst", chance = 100000, maxCount = 20},
-	{id = "solid rage", chance = 100000},
-	{id = "ultimate health potion", chance = 100000, maxCount = 5},
-	{id = "crystallized anger", chance = 100000},
-	{id = "enchanted chicken wing", chance = 100000},
-	{id = "great spirit potion", chance = 100000, maxCount = 10},
-	{id = "red gem", chance = 100000},
-	{id = "ring of red plasma", chance = 100000},
-	{id = "small emerald", chance = 100000, maxCount = 20},
-	{id = "small sapphire", chance = 100000, maxCount = 20},
-	{id = "violet crystal shard", chance = 100000, maxCount = 7}
+	{id = "yellow gem", chance = 100000}
 }
 
 mType:register(monster)

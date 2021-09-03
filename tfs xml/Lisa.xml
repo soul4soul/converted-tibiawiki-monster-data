@@ -1,4 +1,5 @@
-﻿<monster name="Lisa" nameDescription="" experience="18000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lisa" nameDescription="" experience="18000" speed="0" manacost="0">
 	<health now="55000" max="55000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -42,20 +44,20 @@
 		<defense name="healing" interval="2000" chance="20" min="17000" max="23000" />
 	</defenses>
 	<loot>
-		<item id="slimy leaf tentacle" chance="100000" countmax="3" />
-		<item id="glooth club" chance="57143" />
-		<item id="small emerald" chance="57143" countmax="5" />
-		<item id="great health potion" chance="42857" countmax="5" />
-		<item id="bowl of glooth soup" chance="28571" countmax="5" />
-		<item id="glooth sandwich" chance="28571" countmax="5" />
-		<item id="great mana potion" chance="28571" countmax="5" />
-		<item id="great spirit potion" chance="28571" countmax="5" />
-		<item id="glooth blade" chance="14286" />
-		<item id="glooth cape" chance="14286" />
-		<item id="glooth steak" chance="14286" countmax="5" />
-		<item id="glooth whip" chance="14286" />
-		<item id="small diamond" chance="14286" countmax="5" />
-		<item id="small ruby" chance="14286" countmax="5" />
-		<item id="small sapphire" chance="14286" countmax="5" />
+		<item name="slimy leaf tentacle" chance="100000" countmax="3" />
+		<item name="glooth club" chance="57143" />
+		<item name="small emerald" chance="57143" countmax="5" />
+		<item name="great health potion" chance="42857" countmax="5" />
+		<item name="bowl of glooth soup" chance="28571" countmax="5" />
+		<item name="glooth sandwich" chance="28571" countmax="5" />
+		<item name="great mana potion" chance="28571" countmax="5" />
+		<item name="great spirit potion" chance="28571" countmax="5" />
+		<item name="glooth blade" chance="14286" />
+		<item name="glooth cape" chance="14286" />
+		<item name="glooth steak" chance="14286" countmax="5" />
+		<item name="glooth whip" chance="14286" />
+		<item name="small diamond" chance="14286" countmax="5" />
+		<item name="small ruby" chance="14286" countmax="5" />
+		<item name="small sapphire" chance="14286" countmax="5" />
 	</loot>
 </monster>

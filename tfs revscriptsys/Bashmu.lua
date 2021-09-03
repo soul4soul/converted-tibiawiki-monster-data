@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -85,23 +86,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 83451, maxCount = 19},
-	{id = "guardian halberd", chance = 7746},
-	{id = "bashmu feather", chance = 6338},
-	{id = "great spirit potion", chance = 4930},
-	{id = "violet gem", chance = 4577},
-	{id = "bashmu tongue", chance = 4225},
-	{id = "sacred tree amulet", chance = 3873},
-	{id = "blue crystal shard", chance = 3521},
-	{id = "green crystal shard", chance = 3169},
-	{id = "bashmu fang", chance = 2465},
-	{id = "small diamond", chance = 2113},
-	{id = "terra amulet", chance = 1761},
-	{id = "magma amulet", chance = 1408},
-	{id = "collar of blue plasma", chance = 704},
-	{id = "collar of red plasma", chance = 704},
-	{id = "haunted blade", chance = 704},
-	{id = "rainbow quartz", chance = 352}
+	{id = "platinum coin", chance = 81674, maxCount = 19},
+	{id = "guardian halberd", chance = 8597},
+	{id = "bashmu feather", chance = 5882},
+	{id = "bashmu tongue", chance = 4977},
+	{id = "great spirit potion", chance = 4977},
+	{id = "sacred tree amulet", chance = 4072},
+	{id = "blue crystal shard", chance = 3846},
+	{id = "green crystal shard", chance = 3846},
+	{id = "small diamond", chance = 3620},
+	{id = "violet gem", chance = 3620},
+	{id = "bashmu fang", chance = 2715},
+	{id = "rainbow quartz", chance = 1584},
+	{id = "terra amulet", chance = 1357},
+	{id = "collar of red plasma", chance = 905},
+	{id = "glacier amulet", chance = 905},
+	{id = "glorious axe", chance = 905},
+	{id = "magma amulet", chance = 905},
+	{id = "collar of blue plasma", chance = 679},
+	{id = "haunted blade", chance = 679}
 }
 
 mType:register(monster)

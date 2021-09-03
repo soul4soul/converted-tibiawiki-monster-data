@@ -5,7 +5,7 @@ monster.name = "Jellyfish"
 monster.description = "a jellyfish"
 monster.experience = 0
 monster.outfit = {
-	lookType = 0,
+	lookType = 452,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,7 +88,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "shrimp", chance = 8112}
+	{id = "shrimp", chance = 8131}
 }
 
 mType:register(monster)

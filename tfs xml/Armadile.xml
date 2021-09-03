@@ -1,6 +1,7 @@
-﻿<monster name="Armadile" nameDescription="an armadile" experience="2900" speed="440" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Armadile" nameDescription="an armadile" experience="2900" speed="440" manacost="0">
 	<health now="3800" max="3800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="487" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="100" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -46,25 +48,25 @@
 		<voice sentence="Creak!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="198" />
-		<item id="platinum coin" chance="95210" countmax="7" />
-		<item id="great health potion" chance="15443" countmax="2" />
-		<item id="great mana potion" chance="15398" countmax="2" />
-		<item id="strong health potion" chance="15040" countmax="2" />
-		<item id="mana potion" chance="14906" countmax="3" />
-		<item id="strong mana potion" chance="14906" countmax="2" />
-		<item id="crystalline spikes" chance="14548" />
-		<item id="battle stone" chance="12623" />
-		<item id="envenomed arrow" chance="11012" countmax="10" />
-		<item id="drill bolt" chance="7968" countmax="5" />
-		<item id="coal" chance="6267" />
-		<item id="green crystal fragment" chance="5909" countmax="2" />
-		<item id="green crystal splinter" chance="4297" countmax="2" />
-		<item id="terra boots" chance="2641" />
-		<item id="titan axe" chance="1522" />
-		<item id="time ring" chance="1253" />
-		<item id="bonebreaker" chance="1074" />
-		<item id="tower shield" chance="627" />
-		<item id="crystalline armor" chance="224" />
+		<item name="gold coin" chance="100000" countmax="198" />
+		<item name="platinum coin" chance="95183" countmax="7" />
+		<item name="great health potion" chance="15477" countmax="2" />
+		<item name="great mana potion" chance="15388" countmax="2" />
+		<item name="strong health potion" chance="15031" countmax="2" />
+		<item name="strong mana potion" chance="14942" countmax="2" />
+		<item name="mana potion" chance="14853" countmax="3" />
+		<item name="crystalline spikes" chance="14585" />
+		<item name="battle stone" chance="12712" />
+		<item name="envenomed arrow" chance="11017" countmax="10" />
+		<item name="drill bolt" chance="7939" countmax="5" />
+		<item name="coal" chance="6334" />
+		<item name="green crystal fragment" chance="5977" countmax="2" />
+		<item name="green crystal splinter" chance="4282" countmax="2" />
+		<item name="terra boots" chance="2632" />
+		<item name="titan axe" chance="1517" />
+		<item name="time ring" chance="1249" />
+		<item name="bonebreaker" chance="1070" />
+		<item name="tower shield" chance="624" />
+		<item name="crystalline armor" chance="223" />
 	</loot>
 </monster>

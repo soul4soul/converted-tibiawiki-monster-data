@@ -5,7 +5,7 @@ monster.name = "Wisp"
 monster.description = "a wisp"
 monster.experience = 0
 monster.outfit = {
-	lookType = 0,
+	lookType = 294,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,7 +90,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "moon backpack", chance = 136}
+	{id = "moon backpack", chance = 146}
 }
 
 mType:register(monster)

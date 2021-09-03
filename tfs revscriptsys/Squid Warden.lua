@@ -5,11 +5,11 @@ monster.name = "Squid Warden"
 monster.description = "a squid warden"
 monster.experience = 15300
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 1059,
+	lookHead = 9,
+	lookBody = 21,
+	lookLegs = 3,
+	lookFeet = 57,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,33 +90,27 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "small sapphire", chance = 67934, maxCount = 3},
-	{id = "platinum coin", chance = 50186, maxCount = 50},
-	{id = "glowing rune", chance = 35433, maxCount = 6},
-	{id = "frosty heart", chance = 22975},
-	{id = "ultimate mana potion", chance = 17251},
+	{id = "small sapphire", chance = 67921, maxCount = 3},
+	{id = "platinum coin", chance = 50194, maxCount = 50},
+	{id = "glowing rune", chance = 35470, maxCount = 6},
+	{id = "frosty heart", chance = 22976},
+	{id = "ultimate mana potion", chance = 17263},
 	{id = "inkwell (black)", chance = 15653},
-	{id = "ultimate health potion", chance = 15157},
-	{id = "ice cube", chance = 13900},
-	{id = "glacier mask", chance = 7571},
-	{id = "ice rapier", chance = 5259},
-	{id = "crystal mace", chance = 4856},
-	{id = "slime heart", chance = 4421},
-	{id = "crystal sword", chance = 4328},
-	{id = "piece of dead brain", chance = 4065},
-	{id = "diamond sceptre", chance = 3909},
-	{id = "glacier kilt", chance = 2746},
-	{id = "glacier robe", chance = 2296},
-	{id = "sapphire hammer", chance = 760},
-	{id = "crystalline armor", chance = 745},
-	{id = "glacial rod", chance = 683},
-	{id = "leviathan's amulet", chance = 295},
-	{id = "small sapphire", chance = 47, maxCount = 5},
-	{id = "frosty heart", chance = 31},
-	{id = "crystal sword", chance = 16},
-	{id = "ice cube", chance = 16},
-	{id = "platinum coin", chance = 16, maxCount = 35},
-	{id = "shard", chance = 16}
+	{id = "ultimate health potion", chance = 15173},
+	{id = "ice cube", chance = 13888},
+	{id = "glacier mask", chance = 7602},
+	{id = "ice rapier", chance = 5248},
+	{id = "crystal mace", chance = 4846},
+	{id = "slime heart", chance = 4412},
+	{id = "crystal sword", chance = 4320},
+	{id = "piece of dead brain", chance = 4056},
+	{id = "diamond sceptre", chance = 3917},
+	{id = "glacier kilt", chance = 2740},
+	{id = "glacier robe", chance = 2291},
+	{id = "sapphire hammer", chance = 759},
+	{id = "crystalline armor", chance = 743},
+	{id = "glacial rod", chance = 681},
+	{id = "leviathan's amulet", chance = 294}
 }
 
 mType:register(monster)

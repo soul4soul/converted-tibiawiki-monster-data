@@ -5,7 +5,7 @@ monster.name = "Draken Warmaster"
 monster.description = "a draken warmaster"
 monster.experience = 2400
 monster.outfit = {
-	lookType = 0,
+	lookType = 334,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,10 +91,10 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 97359, maxCount = 200},
-	{id = "platinum coin", chance = 50252, maxCount = 5},
+	{id = "platinum coin", chance = 50253, maxCount = 5},
 	{id = "meat", chance = 30158},
-	{id = "bone shoulderplate", chance = 12042},
-	{id = "zaoan halberd", chance = 7999},
+	{id = "bone shoulderplate", chance = 12043},
+	{id = "zaoan halberd", chance = 7998},
 	{id = "warmaster's wristguards", chance = 6993},
 	{id = "great health potion", chance = 5047, maxCount = 3},
 	{id = "ultimate health potion", chance = 3978},

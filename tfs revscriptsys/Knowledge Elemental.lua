@@ -5,7 +5,7 @@ monster.name = "Knowledge Elemental"
 monster.description = "a knowledge elemental"
 monster.experience = 10603
 monster.outfit = {
-	lookType = 0,
+	lookType = 1065,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -85,28 +86,28 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "small amethyst", chance = 74491, maxCount = 6},
-	{id = "platinum coin", chance = 67725, maxCount = 15},
-	{id = "book page", chance = 37640, maxCount = 5},
-	{id = "glowing rune", chance = 33041, maxCount = 10},
-	{id = "silken bookmark", chance = 26713},
-	{id = "quill", chance = 22400},
-	{id = "ultimate mana potion", chance = 15086},
-	{id = "flash arrow", chance = 15065, maxCount = 15},
-	{id = "ultimate health potion", chance = 11320, maxCount = 2},
-	{id = "guardian shield", chance = 9897},
-	{id = "mana potion", chance = 8890},
-	{id = "throwing star", chance = 7072, maxCount = 15},
-	{id = "energy ring", chance = 6854},
-	{id = "wand of cosmic energy", chance = 4905},
-	{id = "crystal sword", chance = 4423},
-	{id = "obsidian lance", chance = 2693},
-	{id = "silver amulet", chance = 2387},
-	{id = "lightning pendant", chance = 1817},
-	{id = "might ring", chance = 1795},
-	{id = "wand of defiance", chance = 1292},
-	{id = "crystal ring", chance = 1204},
-	{id = "spellweaver's robe", chance = 350}
+	{id = "small amethyst", chance = 74656, maxCount = 6},
+	{id = "platinum coin", chance = 67903, maxCount = 15},
+	{id = "book page", chance = 37770, maxCount = 5},
+	{id = "glowing rune", chance = 33019, maxCount = 10},
+	{id = "silken bookmark", chance = 26678},
+	{id = "quill", chance = 22634},
+	{id = "ultimate mana potion", chance = 15391},
+	{id = "flash arrow", chance = 15194, maxCount = 15},
+	{id = "ultimate health potion", chance = 11268, maxCount = 2},
+	{id = "guardian shield", chance = 9717},
+	{id = "mana potion", chance = 8971},
+	{id = "energy ring", chance = 6930},
+	{id = "throwing star", chance = 6930, maxCount = 15},
+	{id = "wand of cosmic energy", chance = 4868},
+	{id = "crystal sword", chance = 4437},
+	{id = "obsidian lance", chance = 2709},
+	{id = "silver amulet", chance = 2395},
+	{id = "lightning pendant", chance = 1826},
+	{id = "might ring", chance = 1786},
+	{id = "crystal ring", chance = 1237},
+	{id = "wand of defiance", chance = 1237},
+	{id = "spellweaver's robe", chance = 393}
 }
 
 mType:register(monster)

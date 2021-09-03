@@ -1,4 +1,5 @@
-﻿<monster name="Roaring Water Elemental" nameDescription="a roaring water elemental" experience="1300" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Roaring Water Elemental" nameDescription="a roaring water elemental" experience="1300" speed="0" manacost="0">
 	<health now="1750" max="1750" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="45" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -49,9 +51,9 @@
 		<voice sentence="SWASHHH" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="88152" countmax="172" />
-		<item id="iced soil" chance="7109" />
-		<item id="small sapphire" chance="3791" countmax="2" />
-		<item id="giant shimmering pearl" chance="2844" />
+		<item name="gold coin" chance="88152" countmax="172" />
+		<item name="iced soil" chance="7109" />
+		<item name="small sapphire" chance="3791" countmax="2" />
+		<item name="giant shimmering pearl" chance="2844" />
 	</loot>
 </monster>

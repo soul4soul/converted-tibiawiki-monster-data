@@ -5,7 +5,7 @@ monster.name = "Minotaur"
 monster.description = "a minotaur"
 monster.experience = 50
 monster.outfit = {
-	lookType = 0,
+	lookType = 25,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,11 +90,11 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 66314, maxCount = 25},
-	{id = "plate shield", chance = 20043},
-	{id = "mace", chance = 13064},
-	{id = "chain armor", chance = 10057},
-	{id = "brass helmet", chance = 7999},
-	{id = "sword", chance = 4964},
+	{id = "plate shield", chance = 20038},
+	{id = "mace", chance = 13069},
+	{id = "chain armor", chance = 10058},
+	{id = "brass helmet", chance = 7998},
+	{id = "sword", chance = 4961},
 	{id = "meat", chance = 4955},
 	{id = "axe", chance = 3977},
 	{id = "minotaur horn", chance = 2020, maxCount = 2},

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -93,11 +94,12 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = "bone club", chance = 85000},
-	{id = "gold coin", chance = 80000, maxCount = 24},
-	{id = "cheese", chance = 64000},
-	{id = "worm", chance = 51000, maxCount = 4},
-	{id = "cookie", chance = 1000, maxCount = 2}
+	{id = "bone club", chance = 85047},
+	{id = "gold coin", chance = 79439, maxCount = 24},
+	{id = "cheese", chance = 65421},
+	{id = "worm", chance = 50467, maxCount = 4},
+	{id = "cookie", chance = 935, maxCount = 2},
+	{id = "die", chance = 935}
 }
 
 mType:register(monster)

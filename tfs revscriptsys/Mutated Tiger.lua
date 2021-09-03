@@ -5,7 +5,7 @@ monster.name = "Mutated Tiger"
 monster.description = "a mutated tiger"
 monster.experience = 750
 monster.outfit = {
-	lookType = 0,
+	lookType = 318,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,25 +91,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 176},
-	{id = "meat", chance = 29791},
-	{id = "striped fur", chance = 20629},
-	{id = "sabretooth", chance = 11255},
-	{id = "strong health potion", chance = 6017, maxCount = 2},
-	{id = "life ring", chance = 5996, maxCount = 2},
-	{id = "glorious axe", chance = 1042},
-	{id = "silky tapestry", chance = 928},
-	{id = "guardian shield", chance = 474},
-	{id = "angelic axe", chance = 412},
-	{id = "gold coin", chance = 22088, maxCount = 105},
-	{id = "meat", chance = 6723},
-	{id = "striped fur", chance = 2104},
-	{id = "life ring", chance = 1289},
-	{id = "sabretooth", chance = 572},
-	{id = "glorious axe", chance = 232},
-	{id = "strong health potion", chance = 211},
-	{id = "silky tapestry", chance = 186},
-	{id = "guardian shield", chance = 150},
-	{id = "angelic axe", chance = 119}
+	{id = "meat", chance = 29801},
+	{id = "striped fur", chance = 20645},
+	{id = "sabretooth", chance = 11208},
+	{id = "strong health potion", chance = 6009, maxCount = 2},
+	{id = "life ring", chance = 5973, maxCount = 2},
+	{id = "glorious axe", chance = 1039},
+	{id = "silky tapestry", chance = 937},
+	{id = "guardian shield", chance = 469},
+	{id = "angelic axe", chance = 412}
 }
 
 mType:register(monster)

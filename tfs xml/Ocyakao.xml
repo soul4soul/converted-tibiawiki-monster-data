@@ -1,4 +1,5 @@
-﻿<monster name="Ocyakao" nameDescription="" experience="490" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ocyakao" nameDescription="" experience="490" speed="0" manacost="0">
 	<health now="700" max="700" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -53,23 +55,15 @@
 		<voice sentence="Aiiee!" yell="false" />
 	</voices>
 	<loot>
-		<item id="fish" chance="100000" countmax="5" />
-		<item id="gold coin" chance="100000" countmax="65" />
-		<item id="white pearl" chance="100000" />
-		<item id="white piece of cloth" chance="100000" />
-		<item id="ice cube" chance="62500" />
-		<item id="bone shield" chance="37500" />
-		<item id="mace" chance="37500" />
-		<item id="mammoth whopper" chance="25000" />
-		<item id="northern pike" chance="12500" />
-		<item id="green perch" chance="12500" />
-		<item id="fish" chance="50000" countmax="5" />
-		<item id="gold coin" chance="50000" countmax="65" />
-		<item id="white pearl" chance="50000" />
-		<item id="white piece of cloth" chance="50000" />
-		<item id="mace" chance="37500" />
-		<item id="ice cube" chance="25000" />
-		<item id="green perch" chance="12500" />
-		<item id="mammoth whopper" chance="12500" />
+		<item name="fish" chance="100000" countmax="5" />
+		<item name="gold coin" chance="100000" countmax="65" />
+		<item name="white pearl" chance="100000" />
+		<item name="white piece of cloth" chance="100000" />
+		<item name="ice cube" chance="62500" />
+		<item name="bone shield" chance="37500" />
+		<item name="mace" chance="37500" />
+		<item name="mammoth whopper" chance="25000" />
+		<item name="northern pike" chance="12500" />
+		<item name="green perch" chance="12500" />
 	</loot>
 </monster>

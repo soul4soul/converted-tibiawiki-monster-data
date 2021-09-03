@@ -5,7 +5,7 @@ monster.name = "Gozzler"
 monster.description = "a gozzler"
 monster.experience = 180
 monster.outfit = {
-	lookType = 0,
+	lookType = 313,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -94,10 +95,10 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 82181, maxCount = 70},
-	{id = "plate shield", chance = 10022},
+	{id = "plate shield", chance = 10021},
 	{id = "brown flask", chance = 9041},
-	{id = "sabre", chance = 8144},
-	{id = "morning star", chance = 5122},
+	{id = "sabre", chance = 8146},
+	{id = "morning star", chance = 5123},
 	{id = "battle axe", chance = 3090},
 	{id = "clerical mace", chance = 780},
 	{id = "small sapphire", chance = 392},

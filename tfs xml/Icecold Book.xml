@@ -1,6 +1,7 @@
-﻿<monster name="Icecold Book" nameDescription="an icecold book" experience="12750" speed="440" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Icecold Book" nameDescription="an icecold book" experience="12750" speed="440" manacost="0">
 	<health now="21000" max="21000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1061" head="87" body="85" legs="79" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -52,27 +54,27 @@
 		<defense name="healing" interval="2000" chance="20" min="200" max="350" />
 	</defenses>
 	<loot>
-		<item id="platinum coin" chance="91356" countmax="5" />
-		<item id="book page" chance="62240" />
-		<item id="small diamond" chance="46271" />
-		<item id="small sapphire" chance="27252" countmax="9" />
-		<item id="ultimate mana potion" chance="21138" />
-		<item id="ice rapier" chance="20969" />
-		<item id="ultimate health potion" chance="18281" />
-		<item id="quill" chance="18063" />
-		<item id="silken bookmark" chance="17010" />
-		<item id="glacier mask" chance="13317" />
-		<item id="frosty heart" chance="12845" />
-		<item id="diamond sceptre" chance="6380" />
-		<item id="glacier kilt" chance="4722" />
-		<item id="ice cube" chance="4673" />
-		<item id="glacier shoes" chance="3305" />
-		<item id="crystal mace" chance="2639" />
-		<item id="glacier robe" chance="1755" />
-		<item id="strange helmet" chance="1695" />
-		<item id="sapphire hammer" chance="1683" />
-		<item id="crystalline armor" chance="932" />
-		<item id="glacial rod" chance="593" />
-		<item id="leviathan's amulet" chance="121" />
+		<item name="platinum coin" chance="91351" countmax="5" />
+		<item name="book page" chance="62223" />
+		<item name="small diamond" chance="46268" />
+		<item name="small sapphire" chance="27265" countmax="9" />
+		<item name="ultimate mana potion" chance="21144" />
+		<item name="ice rapier" chance="20975" />
+		<item name="ultimate health potion" chance="18302" />
+		<item name="quill" chance="18060" />
+		<item name="silken bookmark" chance="17019" />
+		<item name="glacier mask" chance="13318" />
+		<item name="frosty heart" chance="12858" />
+		<item name="diamond sceptre" chance="6387" />
+		<item name="glacier kilt" chance="4718" />
+		<item name="ice cube" chance="4669" />
+		<item name="glacier shoes" chance="3302" />
+		<item name="crystal mace" chance="2637" />
+		<item name="glacier robe" chance="1766" />
+		<item name="strange helmet" chance="1693" />
+		<item name="sapphire hammer" chance="1681" />
+		<item name="crystalline armor" chance="931" />
+		<item name="glacial rod" chance="605" />
+		<item name="leviathan's amulet" chance="121" />
 	</loot>
 </monster>

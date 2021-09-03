@@ -1,6 +1,7 @@
-﻿<monster name="Feversleep" nameDescription="a feversleep" experience="4400" speed="360" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Feversleep" nameDescription="a feversleep" experience="4400" speed="360" manacost="0">
 	<health now="5900" max="5900" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="593" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="15" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="35" />
 		<element lifedrainPercent="0" />
@@ -42,20 +44,20 @@
 		<defense name="healing" interval="2000" chance="20" min="0" max="250" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="platinum coin" chance="100000" countmax="9" />
-		<item id="great mana potion" chance="36986" countmax="2" />
-		<item id="ultimate health potion" chance="20930" />
-		<item id="cyan crystal fragment" chance="18202" />
-		<item id="small amethyst" chance="16100" countmax="3" />
-		<item id="bowl of terror sweat" chance="14222" />
-		<item id="small topaz" chance="13775" countmax="3" />
-		<item id="small ruby" chance="13193" countmax="3" />
-		<item id="trapped bad dream monster" chance="13059" />
-		<item id="blue crystal splinter" chance="12165" />
-		<item id="small emerald" chance="10733" countmax="3" />
-		<item id="blue crystal shard" chance="10107" />
-		<item id="blue robe" chance="1476" />
-		<item id="cluster of solace" chance="850" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="platinum coin" chance="100000" countmax="9" />
+		<item name="great mana potion" chance="36724" countmax="2" />
+		<item name="ultimate health potion" chance="21004" />
+		<item name="cyan crystal fragment" chance="18054" />
+		<item name="small amethyst" chance="16204" countmax="3" />
+		<item name="bowl of terror sweat" chance="14179" />
+		<item name="small topaz" chance="14047" countmax="3" />
+		<item name="small ruby" chance="13034" countmax="3" />
+		<item name="trapped bad dream monster" chance="12946" />
+		<item name="blue crystal splinter" chance="12197" />
+		<item name="small emerald" chance="10700" countmax="3" />
+		<item name="blue crystal shard" chance="10040" />
+		<item name="blue robe" chance="1453" />
+		<item name="cluster of solace" chance="837" />
 	</loot>
 </monster>

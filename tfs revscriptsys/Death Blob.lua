@@ -5,7 +5,7 @@ monster.name = "Death Blob"
 monster.description = "a death blob"
 monster.experience = 300
 monster.outfit = {
-	lookType = 0,
+	lookType = 315,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -93,7 +94,7 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = "glob of tar", chance = 18580}
+	{id = "glob of tar", chance = 18651}
 }
 
 mType:register(monster)

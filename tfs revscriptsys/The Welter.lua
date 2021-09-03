@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -99,8 +100,7 @@ monster.loot = {
 	{id = "strong health potion", chance = 25000, maxCount = 3},
 	{id = "small sapphire", chance = 25000, maxCount = 5},
 	{id = "silver raid token", chance = 25000},
-	{id = "warrior helmet", chance = 25000},
-	{id = "gold coins", chance = 0}
+	{id = "warrior helmet", chance = 25000}
 }
 
 mType:register(monster)

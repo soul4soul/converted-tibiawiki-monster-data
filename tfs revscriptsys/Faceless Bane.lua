@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,32 +87,6 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 44444, maxCount = 10},
-	{id = "dagger", chance = 23457},
-	{id = "small sapphire", chance = 13580, maxCount = 3},
-	{id = "cyan crystal fragment", chance = 12346},
-	{id = "red crystal fragment", chance = 8642},
-	{id = "red gem", chance = 8642, maxCount = 2},
-	{id = "gold ingot", chance = 6173},
-	{id = "life crystal", chance = 6173},
-	{id = "spear", chance = 6173, maxCount = 3},
-	{id = "terra rod", chance = 6173},
-	{id = "crowbar", chance = 4938},
-	{id = "underworld rod", chance = 4938},
-	{id = "blue gem", chance = 3704},
-	{id = "green crystal shard", chance = 3704},
-	{id = "hailstorm rod", chance = 3704},
-	{id = "ice rapier", chance = 3704},
-	{id = "knife", chance = 3704},
-	{id = "twin hooks", chance = 3704},
-	{id = "violet crystal shard", chance = 3704},
-	{id = "giant shimmering pearl", chance = 2469},
-	{id = "snakebite rod", chance = 2469},
-	{id = "lightning pendant", chance = 1235},
-	{id = "moonlight rod", chance = 1235},
-	{id = "necrotic rod", chance = 1235},
-	{id = "violet gem", chance = 1235},
-	{id = "yellow gem", chance = 1235}
 }
 
 mType:register(monster)

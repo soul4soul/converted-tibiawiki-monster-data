@@ -1,4 +1,5 @@
-﻿<monster name="The Blightfather" nameDescription="" experience="400" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Blightfather" nameDescription="" experience="400" speed="0" manacost="0">
 	<health now="400" max="400" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,10 +45,10 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="lancer beetle shell" chance="82609" />
-		<item id="poisonous slime" chance="73913" />
-		<item id="gold coin" chance="69565" countmax="74" />
-		<item id="lump of dirt" chance="26087" />
-		<item id="beetle necklace" chance="17391" />
+		<item name="lancer beetle shell" chance="82609" />
+		<item name="poisonous slime" chance="73913" />
+		<item name="gold coin" chance="69565" countmax="74" />
+		<item name="lump of dirt" chance="26087" />
+		<item name="beetle necklace" chance="17391" />
 	</loot>
 </monster>

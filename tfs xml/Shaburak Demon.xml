@@ -1,6 +1,7 @@
-﻿<monster name="Shaburak Demon" nameDescription="a shaburak demon" experience="900" speed="230" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shaburak Demon" nameDescription="a shaburak demon" experience="900" speed="230" manacost="0">
 	<health now="1500" max="1500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="417" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="60" />
+		<element energyPercent="60" />
 		<element earthPercent="-25" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -51,17 +53,17 @@
 		<voice sentence="DEATH TO THE ASKARAK!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="96977" countmax="255" />
-		<item id="royal spear" chance="10275" countmax="6" />
-		<item id="strong mana potion" chance="5150" />
-		<item id="strong health potion" chance="5120" />
-		<item id="small ruby" chance="4893" countmax="5" />
-		<item id="brown mushroom" chance="4018" />
-		<item id="energy ring" chance="1076" />
-		<item id="piggy bank" chance="1011" />
-		<item id="bullseye potion" chance="639" />
-		<item id="wand of inferno" chance="609" />
-		<item id="magma legs" chance="151" />
-		<item id="magic sulphur" chance="96" />
+		<item name="gold coin" chance="96977" countmax="255" />
+		<item name="royal spear" chance="10275" countmax="6" />
+		<item name="strong mana potion" chance="5150" />
+		<item name="strong health potion" chance="5120" />
+		<item name="small ruby" chance="4893" countmax="5" />
+		<item name="brown mushroom" chance="4018" />
+		<item name="energy ring" chance="1076" />
+		<item name="piggy bank" chance="1011" />
+		<item name="bullseye potion" chance="639" />
+		<item name="wand of inferno" chance="609" />
+		<item name="magma legs" chance="151" />
+		<item name="magic sulphur" chance="96" />
 	</loot>
 </monster>

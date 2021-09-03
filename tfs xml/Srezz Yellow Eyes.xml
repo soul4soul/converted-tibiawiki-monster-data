@@ -1,4 +1,5 @@
-﻿<monster name="Srezz Yellow Eyes" nameDescription="" experience="4800" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Srezz Yellow Eyes" nameDescription="" experience="4800" speed="0" manacost="0">
 	<health now="6200" max="6200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="40" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -43,29 +45,29 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="9" />
-		<item id="ultimate health potion" chance="100000" countmax="3" />
-		<item id="gold ingot" chance="22115" />
-		<item id="snake skin" chance="22115" countmax="2" />
-		<item id="mastermind potion" chance="17115" />
-		<item id="giant shimmering pearl (brown)" chance="15000" />
-		<item id="blue crystal shard" chance="9231" />
-		<item id="black pearl" chance="8846" />
-		<item id="winged tail" chance="7692" />
-		<item id="violet gem" chance="6154" />
-		<item id="srezz' eye" chance="5962" />
-		<item id="green gem" chance="5000" />
-		<item id="gemmed figurine" chance="4808" />
-		<item id="glacier robe" chance="4423" />
-		<item id="blue gem" chance="3269" />
-		<item id="glacier kilt" chance="3077" />
-		<item id="giant sword" chance="2692" />
-		<item id="skull helmet" chance="2115" />
-		<item id="war axe" chance="2115" />
-		<item id="demonrage sword" chance="1731" />
-		<item id="ring of green plasma" chance="1731" />
-		<item id="gold nugget" chance="962" />
-		<item id="red silk flower" chance="577" />
-		<item id="raw watermelon tourmaline" chance="385" />
+		<item name="platinum coin" chance="100000" countmax="9" />
+		<item name="ultimate health potion" chance="100000" countmax="3" />
+		<item name="gold ingot" chance="21903" />
+		<item name="snake skin" chance="21544" countmax="2" />
+		<item name="mastermind potion" chance="16338" />
+		<item name="giant shimmering pearl (brown)" chance="14542" />
+		<item name="blue crystal shard" chance="9515" />
+		<item name="black pearl" chance="8438" />
+		<item name="winged tail" chance="7361" />
+		<item name="violet gem" chance="6643" />
+		<item name="srezz' eye" chance="6284" />
+		<item name="gemmed figurine" chance="5206" />
+		<item name="green gem" chance="5027" />
+		<item name="glacier robe" chance="4129" />
+		<item name="blue gem" chance="3591" />
+		<item name="glacier kilt" chance="3232" />
+		<item name="giant sword" chance="2693" />
+		<item name="skull helmet" chance="2154" />
+		<item name="war axe" chance="2154" />
+		<item name="demonrage sword" chance="1795" />
+		<item name="ring of green plasma" chance="1616" />
+		<item name="gold nugget" chance="898" />
+		<item name="red silk flower" chance="539" />
+		<item name="raw watermelon tourmaline" chance="359" />
 	</loot>
 </monster>

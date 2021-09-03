@@ -5,7 +5,7 @@ monster.name = "Frost Troll"
 monster.description = "a frost troll"
 monster.experience = 23
 monster.outfit = {
-	lookType = 0,
+	lookType = 53,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,13 +89,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 50378, maxCount = 12},
-	{id = "spear", chance = 20376},
-	{id = "fish", chance = 18156},
-	{id = "rapier", chance = 15552},
-	{id = "wooden shield", chance = 15480},
-	{id = "twigs", chance = 8185},
-	{id = "frosty ear of a troll", chance = 2014},
+	{id = "gold coin", chance = 50387, maxCount = 12},
+	{id = "spear", chance = 20379},
+	{id = "fish", chance = 18155},
+	{id = "rapier", chance = 15557},
+	{id = "wooden shield", chance = 15485},
+	{id = "twigs", chance = 8182},
+	{id = "frosty ear of a troll", chance = 2013},
 	{id = "coat", chance = 1135}
 }
 

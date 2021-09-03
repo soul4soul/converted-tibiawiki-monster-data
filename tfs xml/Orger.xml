@@ -1,6 +1,7 @@
-﻿<monster name="Orger" nameDescription="an orger" experience="550" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Orger" nameDescription="an orger" experience="550" speed="240" manacost="0">
 	<health now="700" max="700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1255" head="79" body="6" legs="94" feet="2" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,17 +42,17 @@
 	</elements>
 	<defenses armor="35" defense="35" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="3" />
-		<item id="bone club" chance="19069" />
-		<item id="battle hammer" chance="17207" />
-		<item id="copper shield" chance="7897" />
-		<item id="studded shield" chance="4302" />
-		<item id="double axe" chance="3612" />
-		<item id="combat knife" chance="3579" />
-		<item id="staff" chance="3547" />
-		<item id="bone shield" chance="3371" />
-		<item id="crowbar" chance="3178" />
-		<item id="battle axe" chance="3050" />
-		<item id="spiky club" chance="2279" />
+		<item name="platinum coin" chance="100000" countmax="3" />
+		<item name="bone club" chance="19069" />
+		<item name="battle hammer" chance="17207" />
+		<item name="copper shield" chance="7897" />
+		<item name="studded shield" chance="4302" />
+		<item name="double axe" chance="3612" />
+		<item name="combat knife" chance="3579" />
+		<item name="staff" chance="3547" />
+		<item name="bone shield" chance="3371" />
+		<item name="crowbar" chance="3178" />
+		<item name="battle axe" chance="3050" />
+		<item name="spiky club" chance="2279" />
 	</loot>
 </monster>

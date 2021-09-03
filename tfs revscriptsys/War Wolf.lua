@@ -5,7 +5,7 @@ monster.name = "War Wolf"
 monster.description = "a war wolf"
 monster.experience = 55
 monster.outfit = {
-	lookType = 0,
+	lookType = 3,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,10 +89,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "ham", chance = 39081},
-	{id = "warwolf fur", chance = 4999},
-	{id = "wolf paw", chance = 1014},
-	{id = "wolf trophy", chance = 50}
+	{id = "ham", chance = 39096},
+	{id = "warwolf fur", chance = 4990},
+	{id = "wolf paw", chance = 1008},
+	{id = "wolf trophy", chance = 49}
 }
 
 mType:register(monster)

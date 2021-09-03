@@ -5,7 +5,7 @@ monster.name = "Wyrm"
 monster.description = "a wyrm"
 monster.experience = 1550
 monster.outfit = {
-	lookType = 0,
+	lookType = 291,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,22 +90,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 96894, maxCount = 232},
-	{id = "dragon ham", chance = 34838},
-	{id = "strong health potion", chance = 20241},
-	{id = "strong mana potion", chance = 15244},
-	{id = "wyrm scale", chance = 14939},
+	{id = "gold coin", chance = 96880, maxCount = 232},
+	{id = "dragon ham", chance = 34829},
+	{id = "strong health potion", chance = 20218},
+	{id = "strong mana potion", chance = 15241},
+	{id = "wyrm scale", chance = 14924},
 	{id = "burst arrow", chance = 7958, maxCount = 10},
-	{id = "crossbow", chance = 6067},
-	{id = "focus cape", chance = 1214},
-	{id = "wand of draconia", chance = 1014},
-	{id = "small diamond", chance = 917, maxCount = 3},
-	{id = "lightning pendant", chance = 753},
+	{id = "crossbow", chance = 6072},
+	{id = "focus cape", chance = 1218},
+	{id = "wand of draconia", chance = 1018},
+	{id = "small diamond", chance = 923, maxCount = 3},
+	{id = "lightning pendant", chance = 754},
 	{id = "wand of starstorm", chance = 471},
-	{id = "hibiscus dress", chance = 314},
-	{id = "composite hornbow", chance = 106},
+	{id = "hibiscus dress", chance = 312},
+	{id = "composite hornbow", chance = 105},
 	{id = "dragonbone staff", chance = 93},
-	{id = "shockwave amulet", chance = 83}
+	{id = "shockwave amulet", chance = 82}
 }
 
 mType:register(monster)

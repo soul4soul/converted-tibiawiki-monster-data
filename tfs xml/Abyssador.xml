@@ -1,4 +1,5 @@
-﻿<monster name="Abyssador" nameDescription="" experience="50000" speed="460" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Abyssador" nameDescription="" experience="50000" speed="460" manacost="0">
 	<health now="340000" max="340000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="100" />
 		<element firePercent="15" />
 		<element lifedrainPercent="0" />
@@ -56,13 +58,13 @@
 		<voice sentence="*** EXISTENCE *** FUTILE ***" yell="false" />
 	</voices>
 	<loot>
-		<item id="abyssador's lash" chance="100000" />
-		<item id="crystal crossbow" chance="11458" />
-		<item id="crystalline axe" chance="10417" />
-		<item id="crystalline sword" chance="10417" />
-		<item id="shiny blade" chance="10417" />
-		<item id="mycological bow" chance="5208" />
-		<item id="mycological mace" chance="2083" />
-		<item id="decorative ribbon" chance="1042" />
+		<item name="abyssador's lash" chance="100000" />
+		<item name="crystal crossbow" chance="11458" />
+		<item name="crystalline axe" chance="10417" />
+		<item name="crystalline sword" chance="10417" />
+		<item name="shiny blade" chance="10417" />
+		<item name="mycological bow" chance="5208" />
+		<item name="mycological mace" chance="2083" />
+		<item name="decorative ribbon" chance="1042" />
 	</loot>
 </monster>

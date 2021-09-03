@@ -5,7 +5,7 @@ monster.name = "Spectre"
 monster.description = "a spectre"
 monster.experience = 2100
 monster.outfit = {
-	lookType = 0,
+	lookType = 235,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,38 +93,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99810, maxCount = 270},
-	{id = "blank rune", chance = 29442, maxCount = 2},
-	{id = "lyre", chance = 10660},
+	{id = "gold coin", chance = 99815, maxCount = 270},
+	{id = "blank rune", chance = 29495, maxCount = 2},
+	{id = "lyre", chance = 10591},
 	{id = "wand of cosmic energy", chance = 10406},
-	{id = "soul orb", chance = 7107},
-	{id = "demonic essence", chance = 6980},
-	{id = "platinum coin", chance = 3363, maxCount = 7},
-	{id = "white piece of cloth", chance = 3236},
-	{id = "great mana potion", chance = 1079},
-	{id = "silver brooch", chance = 825},
-	{id = "shiny stone", chance = 698},
-	{id = "relic sword", chance = 635},
-	{id = "death ring", chance = 317},
-	{id = "demonbone amulet", chance = 254},
-	{id = "stealth ring", chance = 254},
-	{id = "shadow sceptre", chance = 63},
-	{id = "gold coin", chance = 100000, maxCount = 301},
-	{id = "blank rune", chance = 100000, maxCount = 2},
-	{id = "wand of cosmic energy", chance = 100000},
-	{id = "lyre", chance = 100000},
-	{id = "demonic essence", chance = 70876},
-	{id = "soul orb", chance = 69416},
-	{id = "white piece of cloth", chance = 42259},
-	{id = "platinum coin", chance = 40292, maxCount = 7},
-	{id = "shiny stone", chance = 11041},
-	{id = "great mana potion", chance = 10787},
-	{id = "silver brooch", chance = 9454},
-	{id = "relic sword", chance = 8566},
-	{id = "death ring", chance = 3363},
-	{id = "stealth ring", chance = 2475},
-	{id = "demonbone amulet", chance = 1396},
-	{id = "shadow sceptre", chance = 1206}
+	{id = "demonic essence", chance = 7143},
+	{id = "soul orb", chance = 7143},
+	{id = "platinum coin", chance = 3387, maxCount = 7},
+	{id = "white piece of cloth", chance = 3264},
+	{id = "great mana potion", chance = 1047},
+	{id = "silver brooch", chance = 862},
+	{id = "shiny stone", chance = 739},
+	{id = "relic sword", chance = 616},
+	{id = "death ring", chance = 369},
+	{id = "stealth ring", chance = 308},
+	{id = "demonbone amulet", chance = 246},
+	{id = "shadow sceptre", chance = 62}
 }
 
 mType:register(monster)

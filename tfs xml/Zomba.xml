@@ -1,4 +1,5 @@
-﻿<monster name="Zomba" nameDescription="" experience="300" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Zomba" nameDescription="" experience="300" speed="0" manacost="0">
 	<health now="300" max="300" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -50,12 +52,12 @@
 		<voice sentence="Groarrrr! Rwarrrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="29" />
-		<item id="lion's mane" chance="100000" countmax="2" />
-		<item id="platinum coin" chance="32000" />
-		<item id="life ring" chance="20000" />
-		<item id="ham" chance="16000" />
-		<item id="guardian shield" chance="4000" />
-		<item id="protection amulet" chance="4000" />
+		<item name="gold coin" chance="100000" countmax="29" />
+		<item name="lion's mane" chance="100000" countmax="2" />
+		<item name="platinum coin" chance="32000" />
+		<item name="life ring" chance="20000" />
+		<item name="ham" chance="16000" />
+		<item name="guardian shield" chance="4000" />
+		<item name="protection amulet" chance="4000" />
 	</loot>
 </monster>

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -93,15 +94,7 @@ monster.loot = {
 	{id = "plate legs", chance = 45333},
 	{id = "plate armor", chance = 43333},
 	{id = "crocodile boots", chance = 10000},
-	{id = "knight armor", chance = 4000},
-	{id = "gold coin", chance = 73333, maxCount = 184},
-	{id = "life ring", chance = 73333},
-	{id = "health potion", chance = 57333, maxCount = 5},
-	{id = "plate armor", chance = 33333},
-	{id = "plate legs", chance = 32667},
-	{id = "crocodile boots", chance = 9333},
-	{id = "small emerald", chance = 6000, maxCount = 4},
-	{id = "knight armor", chance = 2000}
+	{id = "knight armor", chance = 4000}
 }
 
 mType:register(monster)

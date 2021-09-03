@@ -1,6 +1,7 @@
-﻿<monster name="Midnight Warrior" nameDescription="a midnight warrior" experience="750" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Midnight Warrior" nameDescription="a midnight warrior" experience="750" speed="240" manacost="0">
 	<health now="1000" max="1000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="268" head="95" body="95" legs="95" feet="95" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -50,6 +52,6 @@
 		<voice sentence="I am champion of darkness and you are nothing." yell="false" />
 	</voices>
 	<loot>
-		<item id="midnight shard" chance="6494" />
+		<item name="midnight shard" chance="6494" />
 	</loot>
 </monster>

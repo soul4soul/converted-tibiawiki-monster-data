@@ -1,4 +1,5 @@
-﻿<monster name="Obujos" nameDescription="" experience="20000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Obujos" nameDescription="" experience="20000" speed="0" manacost="0">
 	<health now="35000" max="35000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="25" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="100" />
 		<element firePercent="60" />
 		<element lifedrainPercent="0" />
@@ -49,11 +51,8 @@
 		<voice sentence="JN OBU!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="deepling axe" chance="42857" />
-		<item id="depth scutum" chance="39394" />
-		<item id="ornate legs" chance="17749" />
-		<item id="deepling axe" chance="1299" />
-		<item id="ornate legs" chance="866" />
-		<item id="depth scutum" chance="433" />
+		<item name="deepling axe" chance="42857" />
+		<item name="depth scutum" chance="39394" />
+		<item name="ornate legs" chance="17749" />
 	</loot>
 </monster>

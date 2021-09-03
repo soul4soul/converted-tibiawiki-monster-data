@@ -5,7 +5,7 @@ monster.name = "Stone Rhino"
 monster.description = "a stone rhino"
 monster.experience = 1800
 monster.outfit = {
-	lookType = 0,
+	lookType = 936,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,11 +89,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "raw meat", chance = 17657},
-	{id = "hardened bone", chance = 9960},
-	{id = "rhino hide", chance = 8998},
-	{id = "rhino horn", chance = 4754},
-	{id = "tusk shield", chance = 1415}
+	{id = "raw meat", chance = 17505},
+	{id = "hardened bone", chance = 10111},
+	{id = "rhino hide", chance = 8803},
+	{id = "rhino horn", chance = 4779},
+	{id = "tusk shield", chance = 1408}
 }
 
 mType:register(monster)

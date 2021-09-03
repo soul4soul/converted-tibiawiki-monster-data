@@ -5,7 +5,7 @@ monster.name = "Deepling Scout"
 monster.description = "a deepling scout"
 monster.experience = 160
 monster.outfit = {
-	lookType = 0,
+	lookType = 413,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,13 +91,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 75936, maxCount = 50},
-	{id = "hunting spear", chance = 14999, maxCount = 3},
-	{id = "life ring", chance = 2030},
-	{id = "rusted armor", chance = 957},
-	{id = "heavy trident", chance = 481},
+	{id = "gold coin", chance = 75938, maxCount = 50},
+	{id = "hunting spear", chance = 14994, maxCount = 3},
+	{id = "life ring", chance = 2031},
+	{id = "rusted armor", chance = 955},
+	{id = "heavy trident", chance = 483},
 	{id = "eye of a deepling", chance = 301},
-	{id = "fish fin", chance = 295},
+	{id = "fish fin", chance = 296},
 	{id = "small emerald", chance = 123},
 	{id = "flask of rust remover", chance = 112}
 }

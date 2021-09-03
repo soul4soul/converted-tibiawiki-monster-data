@@ -1,4 +1,5 @@
-﻿<monster name="Flameborn" nameDescription="" experience="2550" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Flameborn" nameDescription="" experience="2550" speed="0" manacost="0">
 	<health now="3500" max="3500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="80" />
 		<element firePercent="40" />
 		<element lifedrainPercent="0" />
@@ -48,22 +50,22 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="hellspawn tail" chance="100000" />
-		<item id="platinum coin" chance="98718" countmax="14" />
-		<item id="ultimate health potion" chance="78205" />
-		<item id="great health potion" chance="74359" />
-		<item id="red mushroom" chance="67949" countmax="2" />
-		<item id="knight legs" chance="61538" />
-		<item id="small topaz" chance="42308" countmax="4" />
-		<item id="demonic essence" chance="35897" />
-		<item id="berserk potion" chance="33333" />
-		<item id="crown shield" chance="26923" />
-		<item id="assassin star" chance="23077" countmax="5" />
-		<item id="black skull" chance="20513" />
-		<item id="warrior helmet" chance="20513" />
-		<item id="carrot on a stick" chance="6410" />
-		<item id="spiked squelcher" chance="5128" />
-		<item id="onyx flail" chance="2564" />
-		<item id="dracoyle statue" chance="1282" />
+		<item name="hellspawn tail" chance="100000" />
+		<item name="platinum coin" chance="98718" countmax="14" />
+		<item name="ultimate health potion" chance="78205" />
+		<item name="great health potion" chance="74359" />
+		<item name="red mushroom" chance="67949" countmax="2" />
+		<item name="knight legs" chance="61538" />
+		<item name="small topaz" chance="42308" countmax="4" />
+		<item name="demonic essence" chance="35897" />
+		<item name="berserk potion" chance="33333" />
+		<item name="crown shield" chance="26923" />
+		<item name="assassin star" chance="23077" countmax="5" />
+		<item name="black skull" chance="20513" />
+		<item name="warrior helmet" chance="20513" />
+		<item name="carrot on a stick" chance="6410" />
+		<item name="spiked squelcher" chance="5128" />
+		<item name="onyx flail" chance="2564" />
+		<item name="dracoyle statue" chance="1282" />
 	</loot>
 </monster>

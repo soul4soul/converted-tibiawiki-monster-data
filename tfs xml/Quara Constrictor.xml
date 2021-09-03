@@ -1,6 +1,7 @@
-﻿<monster name="Quara Constrictor" nameDescription="a quara constrictor" experience="250" speed="380" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Quara Constrictor" nameDescription="a quara constrictor" experience="250" speed="380" manacost="0">
 	<health now="450" max="450" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="46" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-25" />
+		<element energyPercent="-25" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -49,19 +51,12 @@
 		<voice sentence="Gaaahhh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="87592" countmax="100" />
-		<item id="quara tentacle" chance="14614" />
-		<item id="longsword" chance="6944" />
-		<item id="shrimp" chance="5159" />
-		<item id="brass armor" chance="4779" />
-		<item id="small amethyst" chance="3034" />
-		<item id="fish fin" chance="475" />
-		<item id="gold coin" chance="46559" countmax="100" />
-		<item id="quara tentacle" chance="5451" />
-		<item id="longsword" chance="2831" />
-		<item id="shrimp" chance="2756" />
-		<item id="brass armor" chance="1127" />
-		<item id="fish fin" chance="333" />
-		<item id="small amethyst" chance="176" />
+		<item name="gold coin" chance="87592" countmax="100" />
+		<item name="quara tentacle" chance="14614" />
+		<item name="longsword" chance="6944" />
+		<item name="shrimp" chance="5159" />
+		<item name="brass armor" chance="4779" />
+		<item name="small amethyst" chance="3034" />
+		<item name="fish fin" chance="475" />
 	</loot>
 </monster>

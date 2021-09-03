@@ -5,7 +5,7 @@ monster.name = "Sacred Spider"
 monster.description = "a sacred spider"
 monster.experience = 330
 monster.outfit = {
-	lookType = 0,
+	lookType = 219,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,10 +87,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 89646, maxCount = 119},
-	{id = "spider fangs", chance = 25274},
-	{id = "scarab coin", chance = 6775, maxCount = 4},
-	{id = "plate armor", chance = 4882},
+	{id = "gold coin", chance = 89667, maxCount = 119},
+	{id = "spider fangs", chance = 25250},
+	{id = "scarab coin", chance = 6788, maxCount = 4},
+	{id = "plate armor", chance = 4872},
 	{id = "gold ingot", chance = 55}
 }
 

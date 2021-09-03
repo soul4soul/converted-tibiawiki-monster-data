@@ -5,11 +5,11 @@ monster.name = "Mean Lost Soul"
 monster.description = "a mean lost soul"
 monster.experience = 5580
 monster.outfit = {
-	lookType = 0,
+	lookType = 1268,
 	lookHead = 0,
-	lookBody = 0,
+	lookBody = 14,
 	lookLegs = 0,
-	lookFeet = 0,
+	lookFeet = 83,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,18 +87,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 64384},
-	{id = "lost soul (item)", chance = 35689},
-	{id = "skull staff", chance = 4885},
-	{id = "death toll", chance = 4739},
-	{id = "machete", chance = 4500},
-	{id = "ensouled essence", chance = 3201},
-	{id = "fire axe", chance = 1621},
-	{id = "ivory comb", chance = 1341},
-	{id = "mercenary sword", chance = 1278},
-	{id = "haunted blade", chance = 1081},
-	{id = "warrior's axe", chance = 946},
-	{id = "twiceslicer", chance = 436}
+	{id = "platinum coin", chance = 64643},
+	{id = "lost soul (item)", chance = 35754},
+	{id = "skull staff", chance = 4849},
+	{id = "death toll", chance = 4747},
+	{id = "machete", chance = 4492},
+	{id = "ensouled essence", chance = 3219},
+	{id = "fire axe", chance = 1609},
+	{id = "ivory comb", chance = 1345},
+	{id = "mercenary sword", chance = 1294},
+	{id = "haunted blade", chance = 1100},
+	{id = "warrior's axe", chance = 937},
+	{id = "twiceslicer", chance = 428}
 }
 
 mType:register(monster)

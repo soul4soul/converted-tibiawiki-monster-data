@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -96,21 +97,7 @@ monster.loot = {
 	{id = "wereboar loincloth", chance = 30000},
 	{id = "ultimate health potion", chance = 20000, maxCount = 2},
 	{id = "stone skin amulet", chance = 10000},
-	{id = "wereboar trophy", chance = 10000},
-	{id = "gold coin", chance = 100000, maxCount = 98},
-	{id = "moonlight crystals", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 7},
-	{id = "wereboar hooves", chance = 100000},
-	{id = "wereboar tusks", chance = 100000},
-	{id = "strong health potion", chance = 100000, maxCount = 5},
-	{id = "brown mushroom", chance = 100000, maxCount = 2},
-	{id = "furry club", chance = 70000},
-	{id = "wereboar loincloth", chance = 40000},
-	{id = "ultimate health potion", chance = 20000, maxCount = 2},
-	{id = "berserk potion", chance = 10000},
-	{id = "stone skin amulet", chance = 10000},
-	{id = "wereboar trophy", chance = 10000},
-	{id = "werewolf amulet", chance = 10000}
+	{id = "wereboar trophy", chance = 10000}
 }
 
 mType:register(monster)

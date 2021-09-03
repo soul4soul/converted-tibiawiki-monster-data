@@ -5,7 +5,7 @@ monster.name = "Rotworm"
 monster.description = "a rotworm"
 monster.experience = 40
 monster.outfit = {
-	lookType = 0,
+	lookType = 26,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,12 +87,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 71808, maxCount = 17},
+	{id = "gold coin", chance = 71809, maxCount = 17},
 	{id = "ham", chance = 20124},
-	{id = "meat", chance = 20018},
-	{id = "lump of dirt", chance = 9997},
+	{id = "meat", chance = 20017},
+	{id = "lump of dirt", chance = 9998},
 	{id = "mace", chance = 4441},
-	{id = "worm", chance = 3059, maxCount = 3},
+	{id = "worm", chance = 3060, maxCount = 3},
 	{id = "sword", chance = 3041}
 }
 

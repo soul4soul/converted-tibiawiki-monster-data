@@ -1,6 +1,7 @@
-﻿<monster name="Quara Predator" nameDescription="a quara predator" experience="1600" speed="450" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Quara Predator" nameDescription="a quara predator" experience="1600" speed="450" manacost="0">
 	<health now="2200" max="2200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="20" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-25" />
+		<element energyPercent="-25" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="100" />
@@ -54,18 +56,18 @@
 		<voice sentence="Rraaar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="78070" countmax="154" />
-		<item id="quara bone" chance="9841" />
-		<item id="royal spear" chance="9269" countmax="7" />
-		<item id="small diamond" chance="5319" countmax="2" />
-		<item id="shrimp" chance="4989" />
-		<item id="double axe" chance="3012" />
-		<item id="fish fin" chance="1913" />
-		<item id="great health potion" chance="1039" />
-		<item id="relic sword" chance="664" />
-		<item id="assassin star" chance="526" />
-		<item id="glacier robe" chance="444" />
-		<item id="skull helmet" chance="394" />
-		<item id="giant shrimp" chance="14" />
+		<item name="gold coin" chance="78075" countmax="154" />
+		<item name="quara bone" chance="9837" />
+		<item name="royal spear" chance="9265" countmax="7" />
+		<item name="small diamond" chance="5317" countmax="2" />
+		<item name="shrimp" chance="4987" />
+		<item name="double axe" chance="3011" />
+		<item name="fish fin" chance="1913" />
+		<item name="great health potion" chance="1039" />
+		<item name="relic sword" chance="663" />
+		<item name="assassin star" chance="526" />
+		<item name="glacier robe" chance="444" />
+		<item name="skull helmet" chance="393" />
+		<item name="giant shrimp" chance="14" />
 	</loot>
 </monster>

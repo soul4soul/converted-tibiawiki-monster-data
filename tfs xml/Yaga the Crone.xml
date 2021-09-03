@@ -1,4 +1,5 @@
-﻿<monster name="Yaga The Crone" nameDescription="" experience="375" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Yaga The Crone" nameDescription="" experience="375" speed="0" manacost="0">
 	<health now="620" max="620" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-1" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="1" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,16 +50,16 @@
 		<voice sentence="Hexipooh, bewitched are you!" yell="false" />
 	</voices>
 	<loot>
-		<item id="cape" chance="68000" />
-		<item id="broom" chance="64000" />
-		<item id="cookie" chance="64000" countmax="8" />
-		<item id="gold coin" chance="32000" countmax="74" />
-		<item id="wolf tooth chain" chance="24000" />
-		<item id="star herb" chance="20000" />
-		<item id="coat" chance="8000" />
-		<item id="garlic necklace" chance="8000" />
-		<item id="spellbook of mind control" chance="8000" />
-		<item id="necrotic rod" chance="4000" />
-		<item id="silver dagger" chance="4000" />
+		<item name="cape" chance="68000" />
+		<item name="broom" chance="64000" />
+		<item name="cookie" chance="64000" countmax="8" />
+		<item name="gold coin" chance="32000" countmax="74" />
+		<item name="wolf tooth chain" chance="24000" />
+		<item name="star herb" chance="20000" />
+		<item name="coat" chance="8000" />
+		<item name="garlic necklace" chance="8000" />
+		<item name="spellbook of mind control" chance="8000" />
+		<item name="necrotic rod" chance="4000" />
+		<item name="silver dagger" chance="4000" />
 	</loot>
 </monster>

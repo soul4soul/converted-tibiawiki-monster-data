@@ -1,6 +1,7 @@
-﻿<monster name="Ice Witch" nameDescription="" experience="580" speed="228" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ice Witch" nameDescription="" experience="580" speed="228" manacost="0">
 	<health now="650" max="650" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="149" head="0" body="9" legs="86" feet="86" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="40" />
 		<element firePercent="50" />
 		<element lifedrainPercent="0" />
@@ -50,16 +52,16 @@
 		<voice sentence="Freeze!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="29918" countmax="90" />
-		<item id="ice cube" chance="10028" />
-		<item id="green mushroom" chance="1293" />
-		<item id="clerical mace" chance="1041" />
-		<item id="strong mana potion" chance="856" />
-		<item id="shard" chance="628" />
-		<item id="mystic turban" chance="423" />
-		<item id="crystal sword" chance="390" />
-		<item id="glacier shoes" chance="314" />
-		<item id="diamond sceptre" chance="309" />
-		<item id="pair of earmuffs" chance="86" />
+		<item name="gold coin" chance="29908" countmax="90" />
+		<item name="ice cube" chance="9991" />
+		<item name="green mushroom" chance="1301" />
+		<item name="clerical mace" chance="1045" />
+		<item name="strong mana potion" chance="872" />
+		<item name="shard" chance="634" />
+		<item name="mystic turban" chance="424" />
+		<item name="crystal sword" chance="392" />
+		<item name="glacier shoes" chance="322" />
+		<item name="diamond sceptre" chance="313" />
+		<item name="pair of earmuffs" chance="84" />
 	</loot>
 </monster>

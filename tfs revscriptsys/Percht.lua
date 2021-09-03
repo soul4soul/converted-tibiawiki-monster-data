@@ -5,12 +5,12 @@ monster.name = "Percht"
 monster.description = "a percht"
 monster.experience = 600
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1161,
+	lookHead = 95,
+	lookBody = 42,
+	lookLegs = 21,
+	lookFeet = 20,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,

@@ -1,4 +1,5 @@
-﻿<monster name="Merikh The Slaughterer" nameDescription="" experience="1500" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Merikh The Slaughterer" nameDescription="" experience="1500" speed="0" manacost="0">
 	<health now="2000" max="2000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="1" />
 		<element lifedrainPercent="0" />
@@ -48,17 +50,17 @@
 		<voice sentence="Your death will be slow and painful." yell="false" />
 	</voices>
 	<loot>
-		<item id="green piece of cloth" chance="100000" countmax="4" />
-		<item id="jewelled belt" chance="100000" />
-		<item id="gold coin" chance="97222" countmax="121" />
-		<item id="noble turban" chance="63889" />
-		<item id="shiny stone" chance="58333" />
-		<item id="royal spear" chance="55556" countmax="3" />
-		<item id="heavy machete" chance="41667" />
-		<item id="strong mana potion" chance="41667" countmax="3" />
-		<item id="mystic turban" chance="36111" />
-		<item id="magma monocle" chance="8333" />
-		<item id="green gem" chance="2778" />
-		<item id="small emerald" chance="2778" countmax="2" />
+		<item name="green piece of cloth" chance="100000" countmax="4" />
+		<item name="jewelled belt" chance="100000" />
+		<item name="gold coin" chance="97222" countmax="121" />
+		<item name="noble turban" chance="63889" />
+		<item name="shiny stone" chance="58333" />
+		<item name="royal spear" chance="55556" countmax="3" />
+		<item name="heavy machete" chance="41667" />
+		<item name="strong mana potion" chance="41667" countmax="3" />
+		<item name="mystic turban" chance="36111" />
+		<item name="magma monocle" chance="8333" />
+		<item name="green gem" chance="2778" />
+		<item name="small emerald" chance="2778" countmax="2" />
 	</loot>
 </monster>

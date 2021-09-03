@@ -5,7 +5,7 @@ monster.name = "Dark Monk"
 monster.description = "a dark monk"
 monster.experience = 145
 monster.outfit = {
-	lookType = 0,
+	lookType = 225,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,14 +92,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bread", chance = 20450},
-	{id = "gold coin", chance = 14416, maxCount = 18},
-	{id = "dark rosary", chance = 10194},
-	{id = "rope belt", chance = 6034},
-	{id = "book of prayers", chance = 1956},
+	{id = "bread", chance = 20447},
+	{id = "gold coin", chance = 14413, maxCount = 18},
+	{id = "dark rosary", chance = 10192},
+	{id = "rope belt", chance = 6033},
+	{id = "book of prayers", chance = 1955},
 	{id = "scroll", chance = 1836},
-	{id = "life crystal", chance = 995},
-	{id = "safety pin", chance = 952},
+	{id = "life crystal", chance = 994},
+	{id = "safety pin", chance = 951},
 	{id = "ankh", chance = 908},
 	{id = "mana potion", chance = 856},
 	{id = "sandals", chance = 856},

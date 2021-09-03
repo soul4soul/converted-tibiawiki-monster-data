@@ -5,11 +5,11 @@ monster.name = "Glooth Brigand"
 monster.description = "a glooth brigand"
 monster.experience = 1900
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 137,
+	lookHead = 114,
+	lookBody = 114,
+	lookLegs = 110,
+	lookFeet = 114,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,32 +89,32 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "platinum coin", chance = 79919, maxCount = 3},
-	{id = "glooth bag", chance = 9824, maxCount = 2},
-	{id = "tainted glooth capsule", chance = 8053},
-	{id = "great spirit potion", chance = 3544},
-	{id = "great mana potion", chance = 3490},
-	{id = "ultimate health potion", chance = 3443},
-	{id = "glooth capsule", chance = 3114},
-	{id = "glooth steak", chance = 2505},
-	{id = "glooth sandwich", chance = 2485},
-	{id = "giant shimmering pearl (green)", chance = 1495},
-	{id = "glooth spear", chance = 1000},
-	{id = "glooth club", chance = 999},
-	{id = "glooth blade", chance = 997},
-	{id = "glooth axe", chance = 979},
+	{id = "platinum coin", chance = 79916, maxCount = 3},
+	{id = "glooth bag", chance = 9826, maxCount = 2},
+	{id = "tainted glooth capsule", chance = 8048},
+	{id = "great spirit potion", chance = 3543},
+	{id = "great mana potion", chance = 3489},
+	{id = "ultimate health potion", chance = 3441},
+	{id = "glooth capsule", chance = 3117},
+	{id = "glooth steak", chance = 2502},
+	{id = "glooth sandwich", chance = 2486},
+	{id = "giant shimmering pearl (green)", chance = 1497},
+	{id = "glooth club", chance = 1000},
+	{id = "glooth spear", chance = 999},
+	{id = "glooth blade", chance = 996},
+	{id = "glooth axe", chance = 982},
 	{id = "glooth amulet", chance = 968},
-	{id = "terra hood", chance = 704},
-	{id = "rubber cap", chance = 635},
+	{id = "terra hood", chance = 706},
+	{id = "rubber cap", chance = 636},
 	{id = "terra mantle", chance = 602},
 	{id = "terra legs", chance = 500},
-	{id = "terra boots", chance = 491},
+	{id = "terra boots", chance = 490},
 	{id = "terra amulet", chance = 398},
-	{id = "green gem", chance = 199},
+	{id = "green gem", chance = 198},
 	{id = "heat core", chance = 157},
-	{id = "mercenary sword", chance = 145},
+	{id = "mercenary sword", chance = 146},
 	{id = "dreaded cleaver", chance = 101},
-	{id = "butcher's axe", chance = 52}
+	{id = "butcher's axe", chance = 53}
 }
 
 mType:register(monster)

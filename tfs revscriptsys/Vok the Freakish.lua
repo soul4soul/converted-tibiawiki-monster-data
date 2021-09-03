@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,14 +87,6 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 28302, maxCount = 10},
-	{id = "skull coin", chance = 13208},
-	{id = "cursed bone", chance = 11321},
-	{id = "moonstone", chance = 9434},
-	{id = "white gem", chance = 9434},
-	{id = "gemmed figurine", chance = 3774},
-	{id = "emerald bangle", chance = 1887},
-	{id = "ornate crossbow", chance = 1887}
 }
 
 mType:register(monster)

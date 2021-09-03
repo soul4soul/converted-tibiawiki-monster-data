@@ -1,4 +1,5 @@
-﻿<monster name="Slick Water Elemental" nameDescription="a slick water elemental" experience="450" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Slick Water Elemental" nameDescription="a slick water elemental" experience="450" speed="0" manacost="0">
 	<health now="550" max="550" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="45" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -49,8 +51,8 @@
 		<voice sentence="SPLISH SPLASH" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="77978" countmax="129" />
-		<item id="iced soil" chance="4944" />
-		<item id="shiver arrow" chance="4719" countmax="3" />
+		<item name="gold coin" chance="77978" countmax="129" />
+		<item name="iced soil" chance="4944" />
+		<item name="shiver arrow" chance="4719" countmax="3" />
 	</loot>
 </monster>

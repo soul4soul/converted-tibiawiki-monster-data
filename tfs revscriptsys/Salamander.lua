@@ -5,7 +5,7 @@ monster.name = "Salamander"
 monster.description = "a salamander"
 monster.experience = 25
 monster.outfit = {
-	lookType = 0,
+	lookType = 529,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,7 +89,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 71932, maxCount = 15},
+	{id = "gold coin", chance = 71933, maxCount = 15},
 	{id = "insectoid eggs", chance = 34927},
 	{id = "arrow", chance = 7985, maxCount = 3},
 	{id = "rope", chance = 5076},
@@ -96,7 +97,7 @@ monster.loot = {
 	{id = "brass helmet", chance = 1977},
 	{id = "health potion", chance = 1481},
 	{id = "bow", chance = 739},
-	{id = "scimitar", chance = 486}
+	{id = "scimitar", chance = 487}
 }
 
 mType:register(monster)

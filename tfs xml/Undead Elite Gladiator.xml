@@ -1,6 +1,7 @@
-﻿<monster name="Undead Elite Gladiator" nameDescription="an undead elite gladiator" experience="4740" speed="300" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Undead Elite Gladiator" nameDescription="an undead elite gladiator" experience="4740" speed="300" manacost="0">
 	<health now="8000" max="8000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="306" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="80" />
 		<element lifedrainPercent="0" />
@@ -43,23 +45,23 @@
 	</attacks>
 	<defenses armor="85" defense="85" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="40" />
-		<item id="belted cape" chance="24479" />
-		<item id="throwing star" chance="15139" countmax="18" />
-		<item id="scimitar" chance="11394" />
-		<item id="knight axe" chance="8917" />
-		<item id="ultimate health potion" chance="8568" />
-		<item id="flask of warrior's sweat" chance="5348" />
-		<item id="plate legs" chance="5333" />
-		<item id="hunting spear" chance="5085" />
-		<item id="great health potion" chance="5012" />
-		<item id="broken gladiator shield" chance="4998" />
-		<item id="protection amulet" chance="2186" />
-		<item id="plate armor" chance="2084" />
-		<item id="two handed sword" chance="1938" />
-		<item id="dark helmet" chance="1530" />
-		<item id="stealth ring" chance="918" />
-		<item id="relic sword" chance="189" />
-		<item id="crusader helmet" chance="117" />
+		<item name="platinum coin" chance="100000" countmax="40" />
+		<item name="belted cape" chance="24479" />
+		<item name="throwing star" chance="15139" countmax="18" />
+		<item name="scimitar" chance="11394" />
+		<item name="knight axe" chance="8917" />
+		<item name="ultimate health potion" chance="8568" />
+		<item name="flask of warrior's sweat" chance="5348" />
+		<item name="plate legs" chance="5333" />
+		<item name="hunting spear" chance="5085" />
+		<item name="great health potion" chance="5012" />
+		<item name="broken gladiator shield" chance="4998" />
+		<item name="protection amulet" chance="2186" />
+		<item name="plate armor" chance="2084" />
+		<item name="two handed sword" chance="1938" />
+		<item name="dark helmet" chance="1530" />
+		<item name="stealth ring" chance="918" />
+		<item name="relic sword" chance="189" />
+		<item name="crusader helmet" chance="117" />
 	</loot>
 </monster>

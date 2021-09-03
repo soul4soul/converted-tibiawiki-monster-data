@@ -1,6 +1,7 @@
-﻿<monster name="Winter Wolf" nameDescription="a winter wolf" experience="20" speed="170" manacost="260">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Winter Wolf" nameDescription="a winter wolf" experience="20" speed="170" manacost="260">
 	<health now="30" max="30" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="52" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -46,7 +48,7 @@
 		<voice sentence="Yoooohhuuuu!" yell="false" />
 	</voices>
 	<loot>
-		<item id="meat" chance="30112" />
-		<item id="winter wolf fur" chance="10110" />
+		<item name="meat" chance="30099" />
+		<item name="winter wolf fur" chance="10124" />
 	</loot>
 </monster>

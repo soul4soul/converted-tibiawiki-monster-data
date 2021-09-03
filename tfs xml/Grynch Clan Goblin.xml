@@ -1,6 +1,7 @@
-﻿<monster name="Grynch Clan Goblin" nameDescription="a grynch clan goblin" experience="4" speed="200" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grynch Clan Goblin" nameDescription="a grynch clan goblin" experience="4" speed="200" manacost="0">
 	<health now="80" max="80" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="61" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -71,41 +73,41 @@
 		<voice sentence="Catch me if you can!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="55299" countmax="16" />
-		<item id="christmas present bag" chance="29740" />
-		<item id="snowball" chance="14922" countmax="3" />
-		<item id="red apple" chance="10181" countmax="3" />
-		<item id="cookie" chance="8129" countmax="5" />
-		<item id="lump of cake dough" chance="4990" />
-		<item id="orange" chance="4976" countmax="2" />
-		<item id="walnut" chance="1983" countmax="4" />
-		<item id="egg" chance="1028" countmax="2" />
-		<item id="candy cane" chance="989" countmax="3" />
-		<item id="snowman package" chance="984" />
-		<item id="peanut" chance="945" countmax="5" />
-		<item id="scarf" chance="828" />
-		<item id="bat wing" chance="642" countmax="3" />
-		<item id="bottle" chance="539" />
-		<item id="explorer brooch" chance="470" />
-		<item id="broom" chance="402" />
-		<item id="chicken feather" chance="397" countmax="3" />
-		<item id="honeycomb" chance="387" />
-		<item id="gingerbreadman" chance="382" />
-		<item id="cherry" chance="338" countmax="4" />
-		<item id="blank rune" chance="127" />
-		<item id="watch" chance="122" />
-		<item id="magic light wand" chance="118" />
-		<item id="flower bowl" chance="113" />
-		<item id="cream cake" chance="108" />
-		<item id="die" chance="108" />
-		<item id="valentine's cake" chance="108" />
-		<item id="picture (landscape)" chance="98" />
-		<item id="scarab coin" chance="98" />
-		<item id="lute" chance="88" />
-		<item id="rope" chance="78" />
-		<item id="small white pillow" chance="78" />
-		<item id="orichalcum pearl" chance="73" />
-		<item id="piggy bank" chance="73" />
-		<item id="mirror" chance="69" />
+		<item name="gold coin" chance="55299" countmax="16" />
+		<item name="christmas present bag" chance="29740" />
+		<item name="snowball" chance="14922" countmax="3" />
+		<item name="red apple" chance="10181" countmax="3" />
+		<item name="cookie" chance="8129" countmax="5" />
+		<item name="lump of cake dough" chance="4990" />
+		<item name="orange" chance="4976" countmax="2" />
+		<item name="walnut" chance="1983" countmax="4" />
+		<item name="egg" chance="1028" countmax="2" />
+		<item name="candy cane" chance="989" countmax="3" />
+		<item name="snowman package" chance="984" />
+		<item name="peanut" chance="945" countmax="5" />
+		<item name="scarf" chance="828" />
+		<item name="bat wing" chance="642" countmax="3" />
+		<item name="bottle" chance="539" />
+		<item name="explorer brooch" chance="470" />
+		<item name="broom" chance="402" />
+		<item name="chicken feather" chance="397" countmax="3" />
+		<item name="honeycomb" chance="387" />
+		<item name="gingerbreadman" chance="382" />
+		<item name="cherry" chance="338" countmax="4" />
+		<item name="blank rune" chance="127" />
+		<item name="watch" chance="122" />
+		<item name="magic light wand" chance="118" />
+		<item name="flower bowl" chance="113" />
+		<item name="cream cake" chance="108" />
+		<item name="die" chance="108" />
+		<item name="valentine's cake" chance="108" />
+		<item name="picture (landscape)" chance="98" />
+		<item name="scarab coin" chance="98" />
+		<item name="lute" chance="88" />
+		<item name="rope" chance="78" />
+		<item name="small white pillow" chance="78" />
+		<item name="orichalcum pearl" chance="73" />
+		<item name="piggy bank" chance="73" />
+		<item name="mirror" chance="69" />
 	</loot>
 </monster>

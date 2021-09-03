@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,26 +87,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 81967, maxCount = 5},
-	{id = "great health potion", chance = 30492, maxCount = 3},
-	{id = "great mana potion", chance = 28197, maxCount = 3},
-	{id = "assassin star", chance = 23279, maxCount = 10},
-	{id = "small ruby", chance = 21967, maxCount = 2},
-	{id = "small diamond", chance = 20328, maxCount = 2},
-	{id = "small topaz", chance = 19016, maxCount = 2},
-	{id = "small emerald", chance = 17705, maxCount = 2},
-	{id = "onyx arrow", chance = 15410, maxCount = 15},
-	{id = "small amethyst", chance = 14098, maxCount = 2},
-	{id = "small enchanted amethyst", chance = 6885},
-	{id = "red gem", chance = 2951},
-	{id = "violet gem", chance = 1967},
-	{id = "falcon crest", chance = 1639},
-	{id = "giant shimmering pearl", chance = 1639},
-	{id = "damaged armor plates", chance = 1311},
-	{id = "green gem", chance = 656},
-	{id = "mastermind shield", chance = 656},
-	{id = "patch of fine cloth", chance = 328},
-	{id = "small enchanted amethyst", chance = 34754}
+	{id = "platinum coin", chance = 81962, maxCount = 5},
+	{id = "great health potion", chance = 30380, maxCount = 3},
+	{id = "great mana potion", chance = 28797, maxCount = 3},
+	{id = "assassin star", chance = 23418, maxCount = 10},
+	{id = "small ruby", chance = 22468, maxCount = 2},
+	{id = "small diamond", chance = 19937, maxCount = 2},
+	{id = "small topaz", chance = 18987, maxCount = 2},
+	{id = "small emerald", chance = 18038, maxCount = 2},
+	{id = "onyx arrow", chance = 15823, maxCount = 15},
+	{id = "small amethyst", chance = 13924, maxCount = 2},
+	{id = "small enchanted amethyst", chance = 6646},
+	{id = "red gem", chance = 2848},
+	{id = "falcon crest", chance = 1899},
+	{id = "violet gem", chance = 1899},
+	{id = "giant shimmering pearl", chance = 1582},
+	{id = "damaged armor plates", chance = 1266},
+	{id = "green gem", chance = 633},
+	{id = "mastermind shield", chance = 633},
+	{id = "patch of fine cloth", chance = 316}
 }
 
 mType:register(monster)

@@ -1,4 +1,5 @@
-﻿<monster name="Black Vixen" nameDescription="" experience="3200" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Black Vixen" nameDescription="" experience="3200" speed="0" manacost="0">
 	<health now="3200" max="3200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="0" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -43,29 +45,29 @@
 		<voice sentence="You are not clever enough to defeat me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="fox paw" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="10" />
-		<item id="werefox tail" chance="100000" />
-		<item id="assassin star" chance="80651" countmax="10" />
-		<item id="gold coin" chance="76311" countmax="75" />
-		<item id="black pearl" chance="51718" countmax="2" />
-		<item id="great mana potion" chance="40325" countmax="2" />
-		<item id="great spirit potion" chance="38336" countmax="2" />
-		<item id="small enchanted emerald" chance="28752" countmax="3" />
-		<item id="green gem" chance="19530" />
-		<item id="ultimate spirit potion" chance="15732" countmax="2" />
-		<item id="ultimate mana potion" chance="14286" countmax="2" />
-		<item id="stealth ring" chance="7957" />
-		<item id="sai" chance="6872" />
-		<item id="moonlight rod" chance="6691" />
-		<item id="werefox trophy" chance="5606" />
-		<item id="troll green" chance="5244" />
-		<item id="moonlight crystals" chance="3797" />
-		<item id="werewolf amulet" chance="3074" />
-		<item id="silver token" chance="2351" />
-		<item id="composite hornbow" chance="904" />
-		<item id="platinum amulet" chance="362" />
-		<item id="foxtail" chance="181" />
-		<item id="wolf backpack" chance="181" />
+		<item name="fox paw" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="10" />
+		<item name="werefox tail" chance="100000" />
+		<item name="assassin star" chance="80977" countmax="10" />
+		<item name="gold coin" chance="76265" countmax="75" />
+		<item name="black pearl" chance="50785" countmax="2" />
+		<item name="great mana potion" chance="40663" countmax="2" />
+		<item name="great spirit potion" chance="38045" countmax="2" />
+		<item name="small enchanted emerald" chance="29668" countmax="3" />
+		<item name="green gem" chance="19546" />
+		<item name="ultimate spirit potion" chance="15707" countmax="2" />
+		<item name="ultimate mana potion" chance="14136" countmax="2" />
+		<item name="stealth ring" chance="8028" />
+		<item name="moonlight rod" chance="6632" />
+		<item name="sai" chance="6632" />
+		<item name="werefox trophy" chance="5585" />
+		<item name="troll green" chance="5410" />
+		<item name="moonlight crystals" chance="3665" />
+		<item name="werewolf amulet" chance="3141" />
+		<item name="silver token" chance="2269" />
+		<item name="composite hornbow" chance="873" />
+		<item name="platinum amulet" chance="349" />
+		<item name="foxtail" chance="175" />
+		<item name="wolf backpack" chance="175" />
 	</loot>
 </monster>

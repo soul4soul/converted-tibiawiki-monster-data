@@ -5,7 +5,7 @@ monster.name = "Berserker Chicken"
 monster.description = "a berserker chicken"
 monster.experience = 220
 monster.outfit = {
-	lookType = 0,
+	lookType = 111,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,7 +91,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 66557, maxCount = 75}
+	{id = "gold coin", chance = 66717, maxCount = 75}
 }
 
 mType:register(monster)

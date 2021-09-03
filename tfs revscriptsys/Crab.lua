@@ -5,7 +5,7 @@ monster.name = "Crab"
 monster.description = "a crab"
 monster.experience = 30
 monster.outfit = {
-	lookType = 0,
+	lookType = 112,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,9 +87,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 80137, maxCount = 10},
-	{id = "crab pincers", chance = 20122},
-	{id = "fish", chance = 20036}
+	{id = "gold coin", chance = 80078, maxCount = 10},
+	{id = "crab pincers", chance = 20147},
+	{id = "fish", chance = 20008}
 }
 
 mType:register(monster)

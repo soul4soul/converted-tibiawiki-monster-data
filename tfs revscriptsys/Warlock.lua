@@ -5,12 +5,12 @@ monster.name = "Warlock"
 monster.description = "a warlock"
 monster.experience = 4000
 monster.outfit = {
-	lookType = 0,
+	lookType = 130,
 	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookBody = 52,
+	lookLegs = 128,
+	lookFeet = 95,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -95,18 +96,18 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 29968, maxCount = 80},
-	{id = "cherry", chance = 19701, maxCount = 4},
-	{id = "bread", chance = 8954},
-	{id = "poison dagger", chance = 7722},
-	{id = "skull staff", chance = 6023},
-	{id = "great health potion", chance = 5164},
-	{id = "great mana potion", chance = 4961},
-	{id = "assassin star", chance = 3316, maxCount = 4},
-	{id = "dark mushroom", chance = 2937},
-	{id = "mind stone", chance = 2125},
+	{id = "gold coin", chance = 29966, maxCount = 80},
+	{id = "cherry", chance = 19702, maxCount = 4},
+	{id = "bread", chance = 8951},
+	{id = "poison dagger", chance = 7720},
+	{id = "skull staff", chance = 6022},
+	{id = "great health potion", chance = 5162},
+	{id = "great mana potion", chance = 4966},
+	{id = "assassin star", chance = 3315, maxCount = 4},
+	{id = "dark mushroom", chance = 2936},
+	{id = "mind stone", chance = 2124},
 	{id = "energy ring", chance = 1996},
-	{id = "candlestick", chance = 1577},
+	{id = "candlestick", chance = 1576},
 	{id = "blue robe", chance = 1563},
 	{id = "small sapphire", chance = 1279},
 	{id = "talon", chance = 1069},
@@ -114,7 +115,7 @@ monster.loot = {
 	{id = "inkwell", chance = 920},
 	{id = "crystal ring", chance = 751},
 	{id = "luminous orb", chance = 487},
-	{id = "ring of the sky", chance = 393},
+	{id = "ring of the sky", chance = 392},
 	{id = "stone skin amulet", chance = 345},
 	{id = "red tome", chance = 237},
 	{id = "golden armor", chance = 217},

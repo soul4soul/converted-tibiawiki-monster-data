@@ -1,6 +1,7 @@
-﻿<monster name="Glooth Bandit" nameDescription="a glooth bandit" experience="2000" speed="300" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Glooth Bandit" nameDescription="a glooth bandit" experience="2000" speed="300" manacost="0">
 	<health now="2600" max="2600" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="129" head="115" body="80" legs="114" feet="114" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="15" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="100" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -45,33 +47,33 @@
 		<defense name="healing" interval="2000" chance="20" min="200" max="250" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="platinum coin" chance="60033" countmax="3" />
-		<item id="great health potion" chance="8079" />
-		<item id="tainted glooth capsule" chance="8013" />
-		<item id="great mana potion" chance="7428" countmax="2" />
-		<item id="glooth bag" chance="5084" />
-		<item id="great spirit potion" chance="3471" />
-		<item id="ultimate health potion" chance="3447" />
-		<item id="glooth capsule" chance="3029" />
-		<item id="glooth steak" chance="2598" />
-		<item id="small topaz" chance="2532" countmax="2" />
-		<item id="glooth sandwich" chance="2461" />
-		<item id="small emerald" chance="2042" countmax="2" />
-		<item id="glooth axe" chance="1025" />
-		<item id="glooth spear" chance="1010" />
-		<item id="glooth club" chance="1001" />
-		<item id="glooth amulet" chance="999" />
-		<item id="glooth blade" chance="993" />
-		<item id="beastslayer axe" chance="804" />
-		<item id="rubber cap" chance="729" />
-		<item id="terra hood" chance="607" />
-		<item id="terra mantle" chance="598" />
-		<item id="glooth cape" chance="582" />
-		<item id="terra boots" chance="491" />
-		<item id="terra legs" chance="483" />
-		<item id="skull staff" chance="420" />
-		<item id="green gem" chance="156" />
-		<item id="war axe" chance="102" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="platinum coin" chance="60034" countmax="3" />
+		<item name="great health potion" chance="8078" />
+		<item name="tainted glooth capsule" chance="8012" />
+		<item name="great mana potion" chance="7426" countmax="2" />
+		<item name="glooth bag" chance="5086" />
+		<item name="great spirit potion" chance="3472" />
+		<item name="ultimate health potion" chance="3445" />
+		<item name="glooth capsule" chance="3030" />
+		<item name="glooth steak" chance="2599" />
+		<item name="small topaz" chance="2533" countmax="2" />
+		<item name="glooth sandwich" chance="2461" />
+		<item name="small emerald" chance="2041" countmax="2" />
+		<item name="glooth axe" chance="1024" />
+		<item name="glooth spear" chance="1009" />
+		<item name="glooth club" chance="1000" />
+		<item name="glooth amulet" chance="998" />
+		<item name="glooth blade" chance="996" />
+		<item name="beastslayer axe" chance="804" />
+		<item name="rubber cap" chance="730" />
+		<item name="terra hood" chance="608" />
+		<item name="terra mantle" chance="598" />
+		<item name="glooth cape" chance="582" />
+		<item name="terra boots" chance="491" />
+		<item name="terra legs" chance="482" />
+		<item name="skull staff" chance="420" />
+		<item name="green gem" chance="156" />
+		<item name="war axe" chance="102" />
 	</loot>
 </monster>

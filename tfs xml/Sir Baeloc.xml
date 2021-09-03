@@ -1,4 +1,5 @@
-﻿<monster name="Sir Baeloc" nameDescription="" experience="55000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Sir Baeloc" nameDescription="" experience="55000" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="70" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -40,37 +42,37 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="silver token" chance="100000" countmax="2" />
-		<item id="platinum coin" chance="98246" countmax="5" />
-		<item id="supreme health potion" chance="56140" countmax="20" />
-		<item id="ultimate mana potion" chance="56140" countmax="20" />
-		<item id="ultimate spirit potion" chance="45614" countmax="20" />
-		<item id="yellow gem" chance="36842" countmax="2" />
-		<item id="piece of hell steel" chance="35088" countmax="4" />
-		<item id="red gem" chance="29825" countmax="2" />
-		<item id="bullseye potion" chance="26316" countmax="10" />
-		<item id="knight legs" chance="24561" />
-		<item id="green gem" chance="22807" />
-		<item id="blue gem" chance="19298" />
-		<item id="skull staff" chance="19298" />
-		<item id="magma monocle" chance="17544" />
-		<item id="collar of blue plasma" chance="15789" />
-		<item id="gold ingot" chance="15789" />
-		<item id="ring of red plasma" chance="15789" />
-		<item id="mastermind potion" chance="14035" countmax="10" />
-		<item id="berserk potion" chance="12281" countmax="10" />
-		<item id="piece of royal steel" chance="12281" />
-		<item id="crystal coin" chance="10526" countmax="2" />
-		<item id="collar of green plasma" chance="8772" />
-		<item id="violet gem" chance="8772" />
-		<item id="young lich worm" chance="8772" />
-		<item id="ring of blue plasma" chance="7018" />
-		<item id="ancient liche bone" chance="5263" />
-		<item id="collar of red plasma" chance="3509" />
-		<item id="ring of green plasma" chance="3509" />
-		<item id="terra helmet" chance="3509" />
-		<item id="bear skin" chance="1754" />
-		<item id="final judgement" chance="1754" />
-		<item id="rotten heart" chance="1754" />
+		<item name="silver token" chance="100000" countmax="2" />
+		<item name="platinum coin" chance="98305" countmax="5" />
+		<item name="supreme health potion" chance="55932" countmax="20" />
+		<item name="ultimate mana potion" chance="55932" countmax="20" />
+		<item name="ultimate spirit potion" chance="47458" countmax="20" />
+		<item name="yellow gem" chance="35593" countmax="2" />
+		<item name="piece of hell steel" chance="33898" countmax="4" />
+		<item name="red gem" chance="30508" countmax="2" />
+		<item name="bullseye potion" chance="25424" countmax="10" />
+		<item name="knight legs" chance="23729" />
+		<item name="green gem" chance="22034" />
+		<item name="blue gem" chance="20339" />
+		<item name="skull staff" chance="18644" />
+		<item name="gold ingot" chance="16949" />
+		<item name="magma monocle" chance="16949" />
+		<item name="collar of blue plasma" chance="15254" />
+		<item name="ring of red plasma" chance="15254" />
+		<item name="berserk potion" chance="13559" countmax="10" />
+		<item name="mastermind potion" chance="13559" countmax="10" />
+		<item name="piece of royal steel" chance="13559" />
+		<item name="collar of green plasma" chance="10169" />
+		<item name="crystal coin" chance="10169" countmax="2" />
+		<item name="ring of blue plasma" chance="8475" />
+		<item name="violet gem" chance="8475" />
+		<item name="young lich worm" chance="8475" />
+		<item name="ancient liche bone" chance="6780" />
+		<item name="collar of red plasma" chance="3390" />
+		<item name="ring of green plasma" chance="3390" />
+		<item name="terra helmet" chance="3390" />
+		<item name="bear skin" chance="1695" />
+		<item name="final judgement" chance="1695" />
+		<item name="rotten heart" chance="1695" />
 	</loot>
 </monster>

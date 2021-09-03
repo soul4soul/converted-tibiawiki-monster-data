@@ -5,7 +5,7 @@ monster.name = "Evil Sheep"
 monster.description = "an evil sheep"
 monster.experience = 240
 monster.outfit = {
-	lookType = 0,
+	lookType = 14,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,7 +88,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 79692, maxCount = 40}
+	{id = "gold coin", chance = 80127, maxCount = 40}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Lost Thrower" nameDescription="a lost thrower" experience="1200" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lost Thrower" nameDescription="a lost thrower" experience="1200" speed="240" manacost="0">
 	<health now="1700" max="1700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="539" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="15" />
 		<element lifedrainPercent="0" />
@@ -45,21 +47,21 @@
 		<defense name="healing" interval="2000" chance="20" min="100" max="500" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="140" />
-		<item id="platinum coin" chance="70319" />
-		<item id="broken throwing axe" chance="15015" />
-		<item id="brown mushroom" chance="14950" countmax="2" />
-		<item id="mad froth" chance="14414" />
-		<item id="great health potion" chance="13944" />
-		<item id="great mana potion" chance="13635" />
-		<item id="lost bracers" chance="12450" />
-		<item id="red hair dye" chance="12304" />
-		<item id="coal" chance="12085" />
-		<item id="bloody dwarven beard" chance="11744" />
-		<item id="basalt figurine" chance="8790" />
-		<item id="iron ore" chance="8522" />
-		<item id="basalt fetish" chance="7118" />
-		<item id="helmet of the lost" chance="1599" />
-		<item id="buckle" chance="763" />
+		<item name="gold coin" chance="100000" countmax="140" />
+		<item name="platinum coin" chance="70281" />
+		<item name="brown mushroom" chance="14968" countmax="2" />
+		<item name="broken throwing axe" chance="14944" />
+		<item name="mad froth" chance="14382" />
+		<item name="great health potion" chance="13925" />
+		<item name="great mana potion" chance="13660" />
+		<item name="lost bracers" chance="12416" />
+		<item name="red hair dye" chance="12303" />
+		<item name="coal" chance="12047" />
+		<item name="bloody dwarven beard" chance="11734" />
+		<item name="basalt figurine" chance="8788" />
+		<item name="iron ore" chance="8531" />
+		<item name="basalt fetish" chance="7087" />
+		<item name="helmet of the lost" chance="1581" />
+		<item name="buckle" chance="754" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Goblin"
 monster.description = "a goblin"
 monster.experience = 25
 monster.outfit = {
-	lookType = 0,
+	lookType = 61,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,15 +92,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 50230, maxCount = 9},
-	{id = "small stone", chance = 15281},
-	{id = "fish", chance = 12993},
-	{id = "small axe", chance = 9862},
+	{id = "gold coin", chance = 50231, maxCount = 9},
+	{id = "small stone", chance = 15279},
+	{id = "fish", chance = 12992},
+	{id = "small axe", chance = 9861},
 	{id = "short sword", chance = 8857},
-	{id = "bone club", chance = 4922},
-	{id = "leather armor", chance = 2502},
-	{id = "leather helmet", chance = 1945},
-	{id = "dagger", chance = 1794},
+	{id = "bone club", chance = 4921},
+	{id = "leather armor", chance = 2501},
+	{id = "leather helmet", chance = 1944},
+	{id = "dagger", chance = 1796},
 	{id = "bone", chance = 1070},
 	{id = "mouldy cheese", chance = 1002},
 	{id = "goblin ear", chance = 944}

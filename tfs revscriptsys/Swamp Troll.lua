@@ -5,7 +5,7 @@ monster.name = "Swamp Troll"
 monster.description = "a swamp troll"
 monster.experience = 25
 monster.outfit = {
-	lookType = 0,
+	lookType = 76,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,35 +90,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "fish", chance = 59953},
-	{id = "gold coin", chance = 49951, maxCount = 5},
-	{id = "torch", chance = 15216},
-	{id = "spear", chance = 13053},
-	{id = "mouldy cheese", chance = 10118},
-	{id = "leather boots", chance = 9847},
-	{id = "swamp grass", chance = 3087},
-	{id = "medicine pouch", chance = 2411},
-	{id = "wood", chance = 2078},
-	{id = "troll green", chance = 1070},
-	{id = "fishing rod", chance = 77},
-	{id = "fish", chance = 41565},
-	{id = "gold coin", chance = 34681, maxCount = 5},
-	{id = "torch", chance = 10260},
-	{id = "spear", chance = 9253},
-	{id = "leather boots", chance = 7025},
-	{id = "swamp grass", chance = 2157},
-	{id = "medicine pouch", chance = 1738},
-	{id = "wood", chance = 1260},
-	{id = "troll green", chance = 785},
-	{id = "fishing rod", chance = 65},
-	{id = "fish", chance = 1935},
-	{id = "gold coin", chance = 1551, maxCount = 5},
-	{id = "torch", chance = 478},
-	{id = "spear", chance = 397},
-	{id = "leather boots", chance = 319},
-	{id = "swamp grass", chance = 85},
-	{id = "troll green", chance = 31},
-	{id = "fishing rod", chance = 4}
+	{id = "fish", chance = 59928},
+	{id = "gold coin", chance = 49966, maxCount = 5},
+	{id = "torch", chance = 15221},
+	{id = "spear", chance = 13045},
+	{id = "mouldy cheese", chance = 10127},
+	{id = "leather boots", chance = 9839},
+	{id = "swamp grass", chance = 3083},
+	{id = "medicine pouch", chance = 2415},
+	{id = "wood", chance = 2067},
+	{id = "troll green", chance = 1072},
+	{id = "fishing rod", chance = 78}
 }
 
 mType:register(monster)

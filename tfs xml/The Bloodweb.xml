@@ -1,4 +1,5 @@
-﻿<monster name="The Bloodweb" nameDescription="" experience="1450" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Bloodweb" nameDescription="" experience="1450" speed="0" manacost="0">
 	<health now="1750" max="1750" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-20" />
+		<element energyPercent="-20" />
 		<element earthPercent="20" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -50,18 +52,18 @@
 		<voice sentence="Screeech!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="9" />
-		<item id="ice cube" chance="99200" />
-		<item id="strong mana potion" chance="71200" />
-		<item id="spider silk" chance="66400" />
-		<item id="glacier mask" chance="28800" />
-		<item id="glacier kilt" chance="26400" />
-		<item id="sai" chance="20800" />
-		<item id="sapphire hammer" chance="12800" />
-		<item id="knight armor" chance="8800" />
-		<item id="jewelled backpack" chance="5600" />
-		<item id="knight legs" chance="5600" />
-		<item id="shard" chance="1600" />
-		<item id="time ring" chance="1600" />
+		<item name="platinum coin" chance="100000" countmax="9" />
+		<item name="ice cube" chance="99200" />
+		<item name="strong mana potion" chance="71200" />
+		<item name="spider silk" chance="66400" />
+		<item name="glacier mask" chance="28800" />
+		<item name="glacier kilt" chance="26400" />
+		<item name="sai" chance="20800" />
+		<item name="sapphire hammer" chance="12800" />
+		<item name="knight armor" chance="8800" />
+		<item name="jewelled backpack" chance="5600" />
+		<item name="knight legs" chance="5600" />
+		<item name="shard" chance="1600" />
+		<item name="time ring" chance="1600" />
 	</loot>
 </monster>

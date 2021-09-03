@@ -1,4 +1,5 @@
-﻿<monster name="Usurper Commander" nameDescription="a usurper commander" experience="7200" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Usurper Commander" nameDescription="a usurper commander" experience="7200" speed="0" manacost="0">
 	<health now="8500" max="8500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,23 +45,23 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="fur shred" chance="15881" />
-		<item id="axe" chance="15219" />
-		<item id="lion cloak patch" chance="9429" />
-		<item id="lion crest" chance="8933" />
-		<item id="gold ingot" chance="8850" />
-		<item id="giant shimmering pearl (brown)" chance="8768" />
-		<item id="bow" chance="8519" />
-		<item id="spellbook of warding" chance="5459" />
-		<item id="wand of voodoo" chance="4632" />
-		<item id="springsprout rod" chance="3557" />
-		<item id="green gem" chance="3060" />
-		<item id="ring of red plasma" chance="2316" />
-		<item id="violet gem" chance="2233" />
-		<item id="blue crystal shard" chance="1737" />
-		<item id="ring of blue plasma" chance="1489" />
-		<item id="giant shimmering pearl" chance="331" />
-		<item id="bullseye potion" chance="248" />
+		<item name="platinum coin" chance="100000" countmax="5" />
+		<item name="fur shred" chance="15767" />
+		<item name="axe" chance="15487" />
+		<item name="lion cloak patch" chance="9460" />
+		<item name="lion crest" chance="8970" />
+		<item name="giant shimmering pearl (brown)" chance="8690" />
+		<item name="gold ingot" chance="8690" />
+		<item name="bow" chance="8549" />
+		<item name="spellbook of warding" chance="5396" />
+		<item name="wand of voodoo" chance="4415" />
+		<item name="springsprout rod" chance="3574" />
+		<item name="green gem" chance="2873" />
+		<item name="ring of red plasma" chance="2172" />
+		<item name="violet gem" chance="2172" />
+		<item name="ring of blue plasma" chance="1752" />
+		<item name="blue crystal shard" chance="1682" />
+		<item name="bullseye potion" chance="280" />
+		<item name="giant shimmering pearl" chance="280" />
 	</loot>
 </monster>

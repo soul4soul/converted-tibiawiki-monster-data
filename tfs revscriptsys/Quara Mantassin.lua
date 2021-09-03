@@ -5,7 +5,7 @@ monster.name = "Quara Mantassin"
 monster.description = "a quara mantassin"
 monster.experience = 400
 monster.outfit = {
-	lookType = 0,
+	lookType = 72,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,28 +90,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 79767, maxCount = 130},
-	{id = "mantassin tail", chance = 12725},
-	{id = "shrimp", chance = 5132},
-	{id = "halberd", chance = 4992},
+	{id = "gold coin", chance = 79764, maxCount = 130},
+	{id = "mantassin tail", chance = 12730},
+	{id = "shrimp", chance = 5131},
+	{id = "halberd", chance = 4991},
 	{id = "small sapphire", chance = 1118},
 	{id = "stealth ring", chance = 1087},
 	{id = "cape", chance = 1071},
 	{id = "two handed sword", chance = 1009},
 	{id = "fish fin", chance = 629},
 	{id = "strange helmet", chance = 93},
-	{id = "blue robe", chance = 78},
-	{id = "gold coin", chance = 38564, maxCount = 128},
-	{id = "mantassin tail", chance = 5326},
-	{id = "shrimp", chance = 2710},
-	{id = "halberd", chance = 2112},
-	{id = "cape", chance = 536},
-	{id = "two handed sword", chance = 512},
-	{id = "small sapphire", chance = 450},
-	{id = "stealth ring", chance = 443},
-	{id = "fish fin", chance = 342},
-	{id = "strange helmet", chance = 70},
-	{id = "blue robe", chance = 62}
+	{id = "blue robe", chance = 78}
 }
 
 mType:register(monster)

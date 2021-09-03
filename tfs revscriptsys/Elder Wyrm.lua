@@ -5,7 +5,7 @@ monster.name = "Elder Wyrm"
 monster.description = "an elder wyrm"
 monster.experience = 2500
 monster.outfit = {
-	lookType = 0,
+	lookType = 561,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,25 +91,25 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 180},
-	{id = "dragon ham", chance = 34524},
-	{id = "platinum coin", chance = 24625, maxCount = 3},
-	{id = "strong mana potion", chance = 20689},
-	{id = "strong health potion", chance = 19480},
-	{id = "wyrm scale", chance = 16762},
-	{id = "crossbow", chance = 8234},
-	{id = "soul orb", chance = 4756},
-	{id = "small diamond", chance = 4661, maxCount = 5},
-	{id = "wand of draconia", chance = 1562},
-	{id = "lightning pendant", chance = 837},
-	{id = "power bolt", chance = 760, maxCount = 10},
-	{id = "lightning legs", chance = 682},
-	{id = "wand of starstorm", chance = 587},
-	{id = "composite hornbow", chance = 233},
-	{id = "lightning boots", chance = 207},
-	{id = "dragonbone staff", chance = 173},
-	{id = "shadow sceptre", chance = 173},
-	{id = "lightning robe", chance = 147},
-	{id = "shockwave amulet", chance = 95}
+	{id = "dragon ham", chance = 34480},
+	{id = "platinum coin", chance = 24573, maxCount = 3},
+	{id = "strong mana potion", chance = 20715},
+	{id = "strong health potion", chance = 19466},
+	{id = "wyrm scale", chance = 16807},
+	{id = "crossbow", chance = 8233},
+	{id = "soul orb", chance = 4707},
+	{id = "small diamond", chance = 4639, maxCount = 5},
+	{id = "wand of draconia", chance = 1563},
+	{id = "lightning pendant", chance = 858},
+	{id = "power bolt", chance = 773, maxCount = 10},
+	{id = "lightning legs", chance = 680},
+	{id = "wand of starstorm", chance = 578},
+	{id = "composite hornbow", chance = 229},
+	{id = "lightning boots", chance = 204},
+	{id = "shadow sceptre", chance = 187},
+	{id = "dragonbone staff", chance = 170},
+	{id = "lightning robe", chance = 153},
+	{id = "shockwave amulet", chance = 102}
 }
 
 mType:register(monster)

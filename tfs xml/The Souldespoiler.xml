@@ -1,4 +1,5 @@
-﻿<monster name="The Souldespoiler" nameDescription="" experience="50000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Souldespoiler" nameDescription="" experience="50000" speed="0" manacost="0">
 	<health now="290000" max="290000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,36 +45,37 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="energy bar" chance="100000" countmax="5" />
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="mysterious remains" chance="100000" />
-		<item id="odd organ" chance="100000" />
-		<item id="plasma pearls" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="30" />
-		<item id="prismatic quartz" chance="62500" countmax="10" />
-		<item id="curious matter" chance="56250" />
-		<item id="spark sphere" chance="56250" countmax="10" />
-		<item id="ultimate health potion" chance="56250" countmax="10" />
-		<item id="great mana potion" chance="50000" countmax="10" />
-		<item id="great spirit potion" chance="37500" countmax="10" />
-		<item id="yellow gem" chance="31250" />
-		<item id="blue gem" chance="25000" />
-		<item id="giant shimmering pearl" chance="25000" />
-		<item id="gold token" chance="25000" />
-		<item id="medusa shield" chance="25000" />
-		<item id="small amethyst" chance="25000" countmax="10" />
-		<item id="small topaz" chance="25000" countmax="10" />
-		<item id="silver token" chance="18750" />
-		<item id="small diamond" chance="18750" countmax="10" />
-		<item id="small emerald" chance="18750" countmax="10" />
-		<item id="spiked squelcher" chance="18750" countmax="2" />
-		<item id="wand of defiance" chance="18750" />
-		<item id="green gem" chance="12500" />
-		<item id="haunted blade" chance="12500" />
-		<item id="small sapphire" chance="12500" countmax="10" />
-		<item id="magma boots" chance="6250" />
-		<item id="sapphire hammer" chance="6250" />
-		<item id="spellbook of enlightenment" chance="6250" />
-		<item id="violet gem" chance="6250" />
+		<item name="energy bar" chance="100000" countmax="5" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="mysterious remains" chance="100000" />
+		<item name="odd organ" chance="100000" />
+		<item name="plasma pearls" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="30" />
+		<item name="curious matter" chance="58824" />
+		<item name="prismatic quartz" chance="58824" countmax="10" />
+		<item name="spark sphere" chance="58824" countmax="10" />
+		<item name="ultimate health potion" chance="58824" countmax="10" />
+		<item name="great mana potion" chance="47059" countmax="10" />
+		<item name="great spirit potion" chance="41176" countmax="10" />
+		<item name="yellow gem" chance="35294" />
+		<item name="gold token" chance="29412" />
+		<item name="small amethyst" chance="29412" countmax="10" />
+		<item name="blue gem" chance="23529" />
+		<item name="giant shimmering pearl" chance="23529" />
+		<item name="medusa shield" chance="23529" />
+		<item name="small topaz" chance="23529" countmax="10" />
+		<item name="silver token" chance="17647" />
+		<item name="small diamond" chance="17647" countmax="10" />
+		<item name="small emerald" chance="17647" countmax="10" />
+		<item name="spiked squelcher" chance="17647" countmax="2" />
+		<item name="wand of defiance" chance="17647" />
+		<item name="green gem" chance="11765" />
+		<item name="haunted blade" chance="11765" />
+		<item name="small sapphire" chance="11765" countmax="10" />
+		<item name="magma boots" chance="5882" />
+		<item name="sapphire hammer" chance="5882" />
+		<item name="spellbook of enlightenment" chance="5882" />
+		<item name="underworld rod" chance="5882" />
+		<item name="violet gem" chance="5882" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Blood Beast"
 monster.description = "a blood beast"
 monster.experience = 1000
 monster.outfit = {
-	lookType = 0,
+	lookType = 602,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,17 +90,17 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 150},
-	{id = "slime heart", chance = 19173},
-	{id = "poisoned fang", chance = 16765},
-	{id = "viper star", chance = 7992, maxCount = 5},
-	{id = "strong health potion", chance = 7404},
-	{id = "poisonous slime", chance = 4938},
-	{id = "glooth steak", chance = 3537},
-	{id = "glooth axe", chance = 951},
-	{id = "glooth amulet", chance = 870},
-	{id = "glooth club", chance = 822},
-	{id = "glooth spear", chance = 814},
-	{id = "glooth blade", chance = 773}
+	{id = "slime heart", chance = 19182},
+	{id = "poisoned fang", chance = 16764},
+	{id = "viper star", chance = 8001, maxCount = 5},
+	{id = "strong health potion", chance = 7414},
+	{id = "poisonous slime", chance = 4932},
+	{id = "glooth steak", chance = 3534},
+	{id = "glooth axe", chance = 956},
+	{id = "glooth amulet", chance = 884},
+	{id = "glooth club", chance = 819},
+	{id = "glooth spear", chance = 811},
+	{id = "glooth blade", chance = 771}
 }
 
 mType:register(monster)

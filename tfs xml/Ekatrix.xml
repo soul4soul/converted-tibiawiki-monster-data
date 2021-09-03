@@ -1,4 +1,5 @@
-﻿<monster name="Ekatrix" nameDescription="" experience="200" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ekatrix" nameDescription="" experience="200" speed="0" manacost="0">
 	<health now="500" max="500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,16 +42,16 @@
 	</elements>
 	<defenses armor="10" defense="10" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="60" />
-		<item id="witch broom" chance="100000" />
-		<item id="cape" chance="61111" />
-		<item id="broom" chance="41667" />
-		<item id="coat" chance="38889" />
-		<item id="wolf tooth chain" chance="36111" />
-		<item id="cookie" chance="25000" countmax="10" />
-		<item id="star herb" chance="13889" />
-		<item id="bag of apple slices" chance="2778" />
-		<item id="garlic necklace" chance="2778" />
-		<item id="necrotic rod" chance="2778" />
+		<item name="gold coin" chance="100000" countmax="60" />
+		<item name="witch broom" chance="100000" />
+		<item name="cape" chance="61111" />
+		<item name="broom" chance="41667" />
+		<item name="coat" chance="38889" />
+		<item name="wolf tooth chain" chance="36111" />
+		<item name="cookie" chance="25000" countmax="10" />
+		<item name="star herb" chance="13889" />
+		<item name="bag of apple slices" chance="2778" />
+		<item name="garlic necklace" chance="2778" />
+		<item name="necrotic rod" chance="2778" />
 	</loot>
 </monster>

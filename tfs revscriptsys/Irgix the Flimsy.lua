@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,15 +87,6 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 36667, maxCount = 8},
-	{id = "skull coin", chance = 20000},
-	{id = "diamond", chance = 18333},
-	{id = "silver hand mirror", chance = 18333},
-	{id = "white gem", chance = 11667},
-	{id = "terra rod", chance = 6667},
-	{id = "death toll", chance = 3333},
-	{id = "necklace of the deep", chance = 3333},
-	{id = "wand of cosmic energy", chance = 1667}
 }
 
 mType:register(monster)

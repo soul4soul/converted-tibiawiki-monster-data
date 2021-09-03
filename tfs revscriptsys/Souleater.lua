@@ -5,7 +5,7 @@ monster.name = "Souleater"
 monster.description = "a souleater"
 monster.experience = 1300
 monster.outfit = {
-	lookType = 0,
+	lookType = 355,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,14 +93,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 88045, maxCount = 200},
-	{id = "platinum coin", chance = 49759, maxCount = 6},
-	{id = "lizard essence", chance = 15013},
+	{id = "gold coin", chance = 88051, maxCount = 200},
+	{id = "platinum coin", chance = 49739, maxCount = 6},
+	{id = "lizard essence", chance = 15012},
 	{id = "ultimate health potion", chance = 9172},
-	{id = "great mana potion", chance = 7928},
-	{id = "ectoplasmic sushi", chance = 2004},
-	{id = "necrotic rod", chance = 977},
-	{id = "wand of cosmic energy", chance = 940},
+	{id = "great mana potion", chance = 7923},
+	{id = "ectoplasmic sushi", chance = 2001},
+	{id = "necrotic rod", chance = 978},
+	{id = "wand of cosmic energy", chance = 939},
 	{id = "death ring", chance = 306},
 	{id = "spirit container", chance = 130},
 	{id = "souleater trophy", chance = 14}

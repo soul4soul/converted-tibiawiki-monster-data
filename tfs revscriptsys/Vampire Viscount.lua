@@ -5,12 +5,12 @@ monster.name = "Vampire Viscount"
 monster.description = "a vampire viscount"
 monster.experience = 800
 monster.outfit = {
-	lookType = 0,
+	lookType = 555,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
-	lookAddons = 0,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,19 +92,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 84886, maxCount = 50},
-	{id = "vampire teeth", chance = 7883},
-	{id = "strong mana potion", chance = 7576},
-	{id = "strong health potion", chance = 5928},
-	{id = "tooth file", chance = 5149},
-	{id = "vampire's cape chain", chance = 3820},
-	{id = "small ruby", chance = 3437, maxCount = 2},
-	{id = "blood preservation", chance = 2875},
-	{id = "black pearl", chance = 2721},
-	{id = "ice rapier", chance = 792},
-	{id = "red gem", chance = 396},
-	{id = "red piece of cloth", chance = 256},
-	{id = "vampire shield", chance = 179}
+	{id = "gold coin", chance = 84864, maxCount = 50},
+	{id = "vampire teeth", chance = 7881},
+	{id = "strong mana potion", chance = 7500},
+	{id = "strong health potion", chance = 5963},
+	{id = "tooth file", chance = 5152},
+	{id = "vampire's cape chain", chance = 3799},
+	{id = "small ruby", chance = 3406, maxCount = 2},
+	{id = "blood preservation", chance = 2889},
+	{id = "black pearl", chance = 2680},
+	{id = "ice rapier", chance = 799},
+	{id = "red gem", chance = 381},
+	{id = "red piece of cloth", chance = 246},
+	{id = "vampire shield", chance = 197}
 }
 
 mType:register(monster)

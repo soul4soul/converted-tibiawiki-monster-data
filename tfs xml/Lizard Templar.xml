@@ -1,6 +1,7 @@
-﻿<monster name="Lizard Templar" nameDescription="a lizard templar" experience="155" speed="174" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lizard Templar" nameDescription="a lizard templar" experience="155" speed="174" manacost="0">
 	<health now="410" max="410" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="113" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -46,17 +48,17 @@
 		<voice sentence="Hissss!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="84135" countmax="60" />
-		<item id="short sword" chance="9747" />
-		<item id="sword" chance="4859" />
-		<item id="steel helmet" chance="1965" />
-		<item id="morning star" chance="1918" />
-		<item id="plate armor" chance="1041" />
-		<item id="lizard scale" chance="971" />
-		<item id="lizard leather" chance="847" />
-		<item id="health potion" chance="824" />
-		<item id="templar scytheblade" chance="529" />
-		<item id="small emerald" chance="259" />
-		<item id="salamander shield" chance="112" />
+		<item name="gold coin" chance="84135" countmax="60" />
+		<item name="short sword" chance="9747" />
+		<item name="sword" chance="4859" />
+		<item name="steel helmet" chance="1965" />
+		<item name="morning star" chance="1918" />
+		<item name="plate armor" chance="1041" />
+		<item name="lizard scale" chance="971" />
+		<item name="lizard leather" chance="847" />
+		<item name="health potion" chance="824" />
+		<item name="templar scytheblade" chance="529" />
+		<item name="small emerald" chance="259" />
+		<item name="salamander shield" chance="112" />
 	</loot>
 </monster>

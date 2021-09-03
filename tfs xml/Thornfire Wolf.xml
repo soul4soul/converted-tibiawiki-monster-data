@@ -1,6 +1,7 @@
-﻿<monster name="Thornfire Wolf" nameDescription="a thornfire wolf" experience="200" speed="320" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Thornfire Wolf" nameDescription="a thornfire wolf" experience="200" speed="320" manacost="0">
 	<health now="600" max="600" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="414" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="5" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -50,10 +52,10 @@
 		<voice sentence="Graaawwwr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="88235" countmax="53" />
-		<item id="meat" chance="41176" />
-		<item id="fiery heart" chance="11765" />
-		<item id="flaming arrow" chance="11765" countmax="8" />
-		<item id="wolf paw" chance="5882" />
+		<item name="gold coin" chance="88235" countmax="53" />
+		<item name="meat" chance="41176" />
+		<item name="fiery heart" chance="11765" />
+		<item name="flaming arrow" chance="11765" countmax="8" />
+		<item name="wolf paw" chance="5882" />
 	</loot>
 </monster>

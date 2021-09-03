@@ -1,6 +1,7 @@
-﻿<monster name="Elf" nameDescription="an elf" experience="42" speed="190" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Elf" nameDescription="an elf" experience="42" speed="190" manacost="0">
 	<health now="100" max="100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="62" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -53,15 +55,15 @@
 		<voice sentence="Ulathil beia Thratha!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="44659" countmax="30" />
-		<item id="plum" chance="19985" countmax="2" />
-		<item id="studded helmet" chance="15071" />
-		<item id="leather boots" chance="11117" />
-		<item id="longsword" chance="10927" />
-		<item id="studded armor" chance="8997" />
-		<item id="plate shield" chance="8926" />
-		<item id="arrow" chance="7024" countmax="3" />
-		<item id="elvish talisman" chance="1988" />
-		<item id="heaven blossom" chance="1002" />
+		<item name="gold coin" chance="44651" countmax="30" />
+		<item name="plum" chance="19996" countmax="2" />
+		<item name="studded helmet" chance="15074" />
+		<item name="leather boots" chance="11121" />
+		<item name="longsword" chance="10921" />
+		<item name="studded armor" chance="9009" />
+		<item name="plate shield" chance="8933" />
+		<item name="arrow" chance="7024" countmax="3" />
+		<item name="elvish talisman" chance="1990" />
+		<item name="heaven blossom" chance="1008" />
 	</loot>
 </monster>

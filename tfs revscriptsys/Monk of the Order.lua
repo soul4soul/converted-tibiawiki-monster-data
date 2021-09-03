@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -85,17 +86,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bread", chance = 22754},
-	{id = "gold coin", chance = 12575, maxCount = 16},
-	{id = "book of prayers", chance = 6587},
-	{id = "rope belt", chance = 1796},
-	{id = "safety pin", chance = 1796},
-	{id = "ankh", chance = 1198},
-	{id = "brown flask", chance = 1198},
-	{id = "scroll", chance = 1198},
-	{id = "staff", chance = 1198},
-	{id = "lamp", chance = 599},
-	{id = "sandals", chance = 599}
+	{id = "bread", chance = 22353},
+	{id = "gold coin", chance = 12353, maxCount = 16},
+	{id = "book of prayers", chance = 6471},
+	{id = "rope belt", chance = 1765},
+	{id = "safety pin", chance = 1765},
+	{id = "ankh", chance = 1176},
+	{id = "brown flask", chance = 1176},
+	{id = "scroll", chance = 1176},
+	{id = "staff", chance = 1176},
+	{id = "lamp", chance = 588},
+	{id = "life crystal", chance = 588},
+	{id = "sandals", chance = 588}
 }
 
 mType:register(monster)

@@ -5,7 +5,7 @@ monster.name = "Execowtioner"
 monster.description = "an execowtioner"
 monster.experience = 2400
 monster.outfit = {
-	lookType = 0,
+	lookType = 609,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -93,23 +94,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "platinum coin", chance = 65493, maxCount = 3},
-	{id = "execowtioner mask", chance = 16386},
-	{id = "minotaur leather", chance = 15824},
-	{id = "great health potion", chance = 10550},
-	{id = "great mana potion", chance = 9835},
-	{id = "meat", chance = 8099},
-	{id = "small ruby", chance = 5275, maxCount = 2},
-	{id = "minotaur horn", chance = 4900, maxCount = 2},
-	{id = "small topaz", chance = 4781, maxCount = 2},
-	{id = "red piece of cloth", chance = 2859},
-	{id = "execowtioner axe", chance = 1174},
-	{id = "knight axe", chance = 885},
-	{id = "titan axe", chance = 647},
-	{id = "crown armor", chance = 596},
-	{id = "butcher's axe", chance = 510},
-	{id = "gold ingot", chance = 374},
-	{id = "minotaur trophy", chance = 323}
+	{id = "platinum coin", chance = 65456, maxCount = 3},
+	{id = "execowtioner mask", chance = 16404},
+	{id = "minotaur leather", chance = 15914},
+	{id = "great health potion", chance = 10657},
+	{id = "great mana potion", chance = 9867},
+	{id = "meat", chance = 8304},
+	{id = "small ruby", chance = 5447, maxCount = 2},
+	{id = "small topaz", chance = 4894, maxCount = 2},
+	{id = "minotaur horn", chance = 4721, maxCount = 2},
+	{id = "red piece of cloth", chance = 2826},
+	{id = "execowtioner axe", chance = 1121},
+	{id = "knight axe", chance = 868},
+	{id = "crown armor", chance = 632},
+	{id = "titan axe", chance = 616},
+	{id = "butcher's axe", chance = 505},
+	{id = "gold ingot", chance = 363},
+	{id = "minotaur trophy", chance = 316}
 }
 
 mType:register(monster)

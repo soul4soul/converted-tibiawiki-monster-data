@@ -5,7 +5,7 @@ monster.name = "Spidris Elite"
 monster.description = "a spidris elite"
 monster.experience = 4000
 monster.outfit = {
-	lookType = 0,
+	lookType = 457,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,20 +89,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 95902, maxCount = 200},
-	{id = "platinum coin", chance = 42472, maxCount = 6},
-	{id = "spidris mandible", chance = 29422},
-	{id = "small ruby", chance = 23253, maxCount = 5},
-	{id = "great mana potion", chance = 21829},
-	{id = "compound eye", chance = 13978},
-	{id = "ultimate health potion", chance = 10979},
-	{id = "death ring", chance = 4379},
-	{id = "giant shimmering pearl (green)", chance = 2955},
+	{id = "gold coin", chance = 95903, maxCount = 200},
+	{id = "platinum coin", chance = 42463, maxCount = 6},
+	{id = "spidris mandible", chance = 29416},
+	{id = "small ruby", chance = 23269, maxCount = 5},
+	{id = "great mana potion", chance = 21846},
+	{id = "compound eye", chance = 13975},
+	{id = "ultimate health potion", chance = 10977},
+	{id = "death ring", chance = 4378},
+	{id = "giant shimmering pearl (green)", chance = 2954},
 	{id = "calopteryx cape", chance = 1488},
-	{id = "hive scythe", chance = 1381},
+	{id = "hive scythe", chance = 1380},
 	{id = "violet gem", chance = 1251},
 	{id = "titan axe", chance = 1165},
-	{id = "carapace shield", chance = 928}
+	{id = "carapace shield", chance = 927}
 }
 
 mType:register(monster)

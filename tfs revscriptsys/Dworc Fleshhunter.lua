@@ -5,7 +5,7 @@ monster.name = "Dworc Fleshhunter"
 monster.description = "a dworc fleshhunter"
 monster.experience = 40
 monster.outfit = {
-	lookType = 0,
+	lookType = 215,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,15 +91,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 74877, maxCount = 13},
-	{id = "leather armor", chance = 10816},
-	{id = "cleaver", chance = 9000},
-	{id = "torch", chance = 5553},
+	{id = "gold coin", chance = 74878, maxCount = 13},
+	{id = "leather armor", chance = 10820},
+	{id = "cleaver", chance = 9002},
+	{id = "torch", chance = 5555},
 	{id = "skull", chance = 3026, maxCount = 3},
-	{id = "poison dagger", chance = 2060},
+	{id = "poison dagger", chance = 2059},
 	{id = "hunting spear", chance = 1950},
 	{id = "bone shield", chance = 1036},
-	{id = "tribal mask", chance = 479},
+	{id = "tribal mask", chance = 481},
 	{id = "ripper lance", chance = 98}
 }
 

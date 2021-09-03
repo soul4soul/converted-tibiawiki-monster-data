@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -102,15 +103,7 @@ monster.loot = {
 	{id = "mace", chance = 37500},
 	{id = "mammoth whopper", chance = 25000},
 	{id = "northern pike", chance = 12500},
-	{id = "green perch", chance = 12500},
-	{id = "fish", chance = 50000, maxCount = 5},
-	{id = "gold coin", chance = 50000, maxCount = 65},
-	{id = "white pearl", chance = 50000},
-	{id = "white piece of cloth", chance = 50000},
-	{id = "mace", chance = 37500},
-	{id = "ice cube", chance = 25000},
-	{id = "green perch", chance = 12500},
-	{id = "mammoth whopper", chance = 12500}
+	{id = "green perch", chance = 12500}
 }
 
 mType:register(monster)

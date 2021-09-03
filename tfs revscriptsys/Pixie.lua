@@ -5,7 +5,7 @@ monster.name = "Pixie"
 monster.description = "a pixie"
 monster.experience = 700
 monster.outfit = {
-	lookType = 0,
+	lookType = 982,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,22 +93,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 60478, maxCount = 166},
-	{id = "wild flowers", chance = 17643},
-	{id = "dandelion seeds", chance = 14700},
-	{id = "fresh fruit", chance = 10037},
-	{id = "colourful snail shell", chance = 9710},
-	{id = "leaf star", chance = 9212, maxCount = 5},
-	{id = "star herb", chance = 5232},
-	{id = "magic light wand", chance = 4734},
-	{id = "great mana potion", chance = 3554},
-	{id = "red rose", chance = 3185},
-	{id = "rainbow quartz", chance = 2858, maxCount = 3},
-	{id = "small enchanted amethyst", chance = 2445, maxCount = 2},
-	{id = "green mushroom", chance = 1777},
-	{id = "strong mana potion", chance = 953},
-	{id = "dream blossom staff", chance = 540},
-	{id = "butterfly ring", chance = 526},
+	{id = "gold coin", chance = 60471, maxCount = 166},
+	{id = "wild flowers", chance = 17650},
+	{id = "dandelion seeds", chance = 14699},
+	{id = "fresh fruit", chance = 10017},
+	{id = "colourful snail shell", chance = 9691},
+	{id = "leaf star", chance = 9237, maxCount = 5},
+	{id = "star herb", chance = 5236},
+	{id = "magic light wand", chance = 4725},
+	{id = "great mana potion", chance = 3575},
+	{id = "red rose", chance = 3178},
+	{id = "rainbow quartz", chance = 2880, maxCount = 3},
+	{id = "small enchanted amethyst", chance = 2440, maxCount = 2},
+	{id = "green mushroom", chance = 1774},
+	{id = "strong mana potion", chance = 951},
+	{id = "dream blossom staff", chance = 539},
+	{id = "butterfly ring", chance = 525},
 	{id = "wooden spellbook", chance = 284}
 }
 

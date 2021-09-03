@@ -1,6 +1,7 @@
-﻿<monster name="Enraged Crystal Golem" nameDescription="an enraged crystal golem" experience="550" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Enraged Crystal Golem" nameDescription="an enraged crystal golem" experience="550" speed="240" manacost="0">
 	<health now="700" max="700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="508" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -48,14 +50,14 @@
 		<voice sentence="Crrrrk! Chhhhr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="crystalline spikes" chance="8320" />
-		<item id="strong mana potion" chance="8196" />
-		<item id="strong health potion" chance="8072" />
-		<item id="crystalline arrow" chance="5151" countmax="5" />
-		<item id="crystal sword" chance="4823" />
-		<item id="blue crystal splinter" chance="4109" />
-		<item id="cyan crystal fragment" chance="954" />
-		<item id="glorious axe" chance="386" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="crystalline spikes" chance="8320" />
+		<item name="strong mana potion" chance="8196" />
+		<item name="strong health potion" chance="8072" />
+		<item name="crystalline arrow" chance="5151" countmax="5" />
+		<item name="crystal sword" chance="4823" />
+		<item name="blue crystal splinter" chance="4109" />
+		<item name="cyan crystal fragment" chance="954" />
+		<item name="glorious axe" chance="386" />
 	</loot>
 </monster>

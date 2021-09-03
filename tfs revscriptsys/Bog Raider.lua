@@ -5,7 +5,7 @@ monster.name = "Bog Raider"
 monster.description = "a bog raider"
 monster.experience = 800
 monster.outfit = {
-	lookType = 0,
+	lookType = 299,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,15 +90,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 92113, maxCount = 105},
-	{id = "boggy dreads", chance = 9876},
-	{id = "plate legs", chance = 2031},
-	{id = "great spirit potion", chance = 2019},
-	{id = "great health potion", chance = 2010},
-	{id = "springsprout rod", chance = 1017},
-	{id = "ultimate health potion", chance = 769},
+	{id = "gold coin", chance = 92105, maxCount = 105},
+	{id = "boggy dreads", chance = 9882},
+	{id = "plate legs", chance = 2025},
+	{id = "great spirit potion", chance = 2013},
+	{id = "great health potion", chance = 2007},
+	{id = "springsprout rod", chance = 1018},
+	{id = "ultimate health potion", chance = 766},
 	{id = "belted cape", chance = 581},
-	{id = "paladin armor", chance = 139}
+	{id = "paladin armor", chance = 138}
 }
 
 mType:register(monster)

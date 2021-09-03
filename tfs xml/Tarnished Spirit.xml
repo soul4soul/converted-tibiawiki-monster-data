@@ -1,6 +1,7 @@
-﻿<monster name="Tarnished Spirit" nameDescription="a tarnished spirit" experience="120" speed="160" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tarnished Spirit" nameDescription="a tarnished spirit" experience="120" speed="160" manacost="0">
 	<health now="150" max="150" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="566" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="100" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
@@ -46,14 +48,14 @@
 		<voice sentence="Huh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="shadow herb" chance="14448" />
-		<item id="morning star" chance="10802" />
-		<item id="cape" chance="10483" />
-		<item id="combat knife" chance="7110" />
-		<item id="white piece of cloth" chance="2507" />
-		<item id="ghostly tissue" chance="1960" />
-		<item id="book (orange)" chance="1778" />
-		<item id="ancient shield" chance="501" />
-		<item id="stealth ring" chance="182" />
+		<item name="shadow herb" chance="14427" />
+		<item name="morning star" chance="10742" />
+		<item name="cape" chance="10472" />
+		<item name="combat knife" chance="7101" />
+		<item name="white piece of cloth" chance="2472" />
+		<item name="ghostly tissue" chance="1933" />
+		<item name="book (orange)" chance="1753" />
+		<item name="ancient shield" chance="494" />
+		<item name="stealth ring" chance="180" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Orc Cult Priest" nameDescription="an orc cult priest" experience="1000" speed="140" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Orc Cult Priest" nameDescription="an orc cult priest" experience="1000" speed="140" manacost="0">
 	<health now="1300" max="1300" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="6" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="50" />
+		<element energyPercent="50" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -46,19 +48,19 @@
 		<voice sentence="We will crush all oposition!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="181" />
-		<item id="strong health potion" chance="15637" />
-		<item id="shamanic hood" chance="14754" />
-		<item id="small ruby" chance="11791" countmax="6" />
-		<item id="green piece of cloth" chance="11223" />
-		<item id="cultish robe" chance="11034" />
-		<item id="mysterious fetish" chance="9142" />
-		<item id="orc leather" chance="8638" />
-		<item id="broken shamanic staff" chance="8575" />
-		<item id="orc tooth" chance="5549" />
-		<item id="black pearl" chance="2963" countmax="2" />
-		<item id="heavy old tome" chance="2018" />
-		<item id="berserk potion" chance="1009" />
-		<item id="wand of decay" chance="820" />
+		<item name="gold coin" chance="100000" countmax="181" />
+		<item name="strong health potion" chance="15903" />
+		<item name="shamanic hood" chance="14328" />
+		<item name="small ruby" chance="12408" countmax="6" />
+		<item name="cultish robe" chance="11029" />
+		<item name="green piece of cloth" chance="10832" />
+		<item name="broken shamanic staff" chance="9060" />
+		<item name="mysterious fetish" chance="9060" />
+		<item name="orc leather" chance="8419" />
+		<item name="orc tooth" chance="5465" />
+		<item name="black pearl" chance="2856" countmax="2" />
+		<item name="heavy old tome" chance="1871" />
+		<item name="wand of decay" chance="1034" />
+		<item name="berserk potion" chance="886" />
 	</loot>
 </monster>

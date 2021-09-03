@@ -5,7 +5,7 @@ monster.name = "Orc Shaman"
 monster.description = "an orc shaman"
 monster.experience = 110
 monster.outfit = {
-	lookType = 0,
+	lookType = 6,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -94,27 +95,17 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 89817, maxCount = 5},
-	{id = "corncob", chance = 10895, maxCount = 2},
-	{id = "broken shamanic staff", chance = 10356},
-	{id = "chain armor", chance = 8673},
-	{id = "shamanic hood", chance = 7573},
-	{id = "spear", chance = 5156},
-	{id = "orc leather", chance = 3603},
-	{id = "heavy old tome", chance = 2416},
-	{id = "orc tooth", chance = 2114},
-	{id = "wand of decay", chance = 863},
-	{id = "book (grey)", chance = 518},
-	{id = "gold coin", chance = 100000, maxCount = 5},
-	{id = "corncob", chance = 100000, maxCount = 2},
-	{id = "broken shamanic staff", chance = 100000},
-	{id = "chain armor", chance = 100000},
-	{id = "shamanic hood", chance = 100000},
-	{id = "spear", chance = 80734},
-	{id = "orc leather", chance = 65264},
-	{id = "orc tooth", chance = 33204},
-	{id = "wand of decay", chance = 16224},
-	{id = "book (grey)", chance = 7681}
+	{id = "gold coin", chance = 89723, maxCount = 5},
+	{id = "corncob", chance = 10874, maxCount = 2},
+	{id = "broken shamanic staff", chance = 10277},
+	{id = "chain armor", chance = 8633},
+	{id = "shamanic hood", chance = 7646},
+	{id = "spear", chance = 5283},
+	{id = "orc leather", chance = 3577},
+	{id = "heavy old tome", chance = 2343},
+	{id = "orc tooth", chance = 2117},
+	{id = "wand of decay", chance = 884},
+	{id = "book (grey)", chance = 514}
 }
 
 mType:register(monster)

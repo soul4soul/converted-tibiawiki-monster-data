@@ -1,6 +1,7 @@
-﻿<monster name="Massive Water Elemental" nameDescription="a massive water elemental" experience="1100" speed="430" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Massive Water Elemental" nameDescription="a massive water elemental" experience="1100" speed="430" manacost="0">
 	<health now="1250" max="1250" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="11" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="40" />
-		<element EnergyPercent="-25" />
+		<element energyPercent="-25" />
 		<element earthPercent="100" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -45,27 +47,16 @@
 		<defense name="healing" interval="2000" chance="20" min="125" max="312" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="99641" countmax="100" />
-		<item id="fish" chance="39850" countmax="2" />
-		<item id="platinum coin" chance="29145" countmax="2" />
-		<item id="great health potion" chance="10509" />
-		<item id="great mana potion" chance="10150" />
-		<item id="small diamond" chance="5842" countmax="2" />
-		<item id="small emerald" chance="4308" countmax="2" />
-		<item id="green perch" chance="1044" />
-		<item id="energy ring" chance="979" />
-		<item id="rainbow trout" chance="979" />
-		<item id="life ring" chance="783" />
-		<item id="gold coin" chance="86031" countmax="100" />
-		<item id="fish" chance="68114" countmax="2" />
-		<item id="platinum coin" chance="34302" countmax="2" />
-		<item id="great mana potion" chance="17493" />
-		<item id="great health potion" chance="16449" />
-		<item id="small emerald" chance="3198" countmax="2" />
-		<item id="small diamond" chance="3068" countmax="2" />
-		<item id="green perch" chance="2546" />
-		<item id="rainbow trout" chance="2219" />
-		<item id="life ring" chance="1697" />
-		<item id="energy ring" chance="1501" />
+		<item name="gold coin" chance="99641" countmax="100" />
+		<item name="fish" chance="39850" countmax="2" />
+		<item name="platinum coin" chance="29145" countmax="2" />
+		<item name="great health potion" chance="10509" />
+		<item name="great mana potion" chance="10150" />
+		<item name="small diamond" chance="5842" countmax="2" />
+		<item name="small emerald" chance="4308" countmax="2" />
+		<item name="green perch" chance="1044" />
+		<item name="energy ring" chance="979" />
+		<item name="rainbow trout" chance="979" />
+		<item name="life ring" chance="783" />
 	</loot>
 </monster>

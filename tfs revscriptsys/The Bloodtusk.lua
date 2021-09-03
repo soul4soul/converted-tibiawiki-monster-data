@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -93,21 +94,7 @@ monster.loot = {
 	{id = "furry club", chance = 58750},
 	{id = "red piece of cloth", chance = 56250},
 	{id = "tusk", chance = 43750, maxCount = 4},
-	{id = "mammoth fur cape", chance = 22500},
-	{id = "gold coin", chance = 65000, maxCount = 100},
-	{id = "mammoth tusk", chance = 65000, maxCount = 2},
-	{id = "platinum coin", chance = 65000, maxCount = 5},
-	{id = "furry club", chance = 51250},
-	{id = "tusk", chance = 43750, maxCount = 4},
-	{id = "tusk shield", chance = 32500},
-	{id = "mammoth fur cape", chance = 20000},
-	{id = "gold coin", chance = 27500, maxCount = 96},
-	{id = "mammoth tusk", chance = 27500, maxCount = 2},
-	{id = "platinum coin", chance = 27500, maxCount = 5},
-	{id = "furry club", chance = 17500},
-	{id = "tusk shield", chance = 12500},
-	{id = "mammoth fur cape", chance = 8750},
-	{id = "tusk", chance = 8750, maxCount = 4}
+	{id = "mammoth fur cape", chance = 22500}
 }
 
 mType:register(monster)

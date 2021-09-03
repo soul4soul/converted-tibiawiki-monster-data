@@ -1,6 +1,7 @@
-﻿<monster name="Brimstone Bug" nameDescription="a brimstone bug" experience="900" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Brimstone Bug" nameDescription="a brimstone bug" experience="900" speed="240" manacost="0">
 	<health now="1300" max="1300" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="352" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
@@ -46,17 +48,17 @@
 		<voice sentence="Chrrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="poisonous slime" chance="49865" />
-		<item id="lump of earth" chance="19885" />
-		<item id="sulphurous stone" chance="15065" />
-		<item id="brimstone shell" chance="10179" />
-		<item id="strong mana potion" chance="9092" />
-		<item id="strong health potion" chance="9034" />
-		<item id="brimstone fangs" chance="5915" />
-		<item id="small emerald" chance="2766" countmax="4" />
-		<item id="magic sulphur" chance="1590" />
-		<item id="stealth ring" chance="921" />
-		<item id="platinum amulet" chance="85" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="poisonous slime" chance="49865" />
+		<item name="lump of earth" chance="19885" />
+		<item name="sulphurous stone" chance="15065" />
+		<item name="brimstone shell" chance="10179" />
+		<item name="strong mana potion" chance="9092" />
+		<item name="strong health potion" chance="9034" />
+		<item name="brimstone fangs" chance="5915" />
+		<item name="small emerald" chance="2766" countmax="4" />
+		<item name="magic sulphur" chance="1590" />
+		<item name="stealth ring" chance="921" />
+		<item name="platinum amulet" chance="85" />
 	</loot>
 </monster>

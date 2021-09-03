@@ -5,11 +5,11 @@ monster.name = "Orclops Ravager"
 monster.description = "an orclops ravager"
 monster.experience = 1100
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 935,
+	lookHead = 94,
+	lookBody = 1,
+	lookLegs = 80,
+	lookFeet = 94,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,25 +91,25 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 120},
-	{id = "platinum coin", chance = 59630},
-	{id = "bug meat", chance = 18993},
-	{id = "beetle carapace", chance = 18486},
-	{id = "bone toothpick", chance = 18207},
-	{id = "strong health potion", chance = 16381},
-	{id = "reinvigorating seeds", chance = 10257},
-	{id = "orcish axe", chance = 8165},
-	{id = "red mushroom", chance = 7924, maxCount = 3},
-	{id = "mysterious fetish", chance = 6314},
-	{id = "small topaz", chance = 3715, maxCount = 2},
-	{id = "onion", chance = 3220, maxCount = 2},
-	{id = "small ruby", chance = 3182, maxCount = 3},
-	{id = "black pearl", chance = 2853, maxCount = 2},
-	{id = "brown crystal splinter", chance = 2574, maxCount = 2},
-	{id = "spiked squelcher", chance = 1547},
-	{id = "pair of iron fists", chance = 1268},
-	{id = "war drum", chance = 1065},
-	{id = "berserk potion", chance = 888},
-	{id = "dreaded cleaver", chance = 13}
+	{id = "platinum coin", chance = 59715},
+	{id = "bug meat", chance = 19065},
+	{id = "beetle carapace", chance = 18408},
+	{id = "bone toothpick", chance = 18128},
+	{id = "strong health potion", chance = 16338},
+	{id = "reinvigorating seeds", chance = 10214},
+	{id = "orcish axe", chance = 8059},
+	{id = "red mushroom", chance = 7877, maxCount = 3},
+	{id = "mysterious fetish", chance = 6404},
+	{id = "small topaz", chance = 3713, maxCount = 2},
+	{id = "onion", chance = 3238, maxCount = 2},
+	{id = "small ruby", chance = 3190, maxCount = 3},
+	{id = "black pearl", chance = 2861, maxCount = 2},
+	{id = "brown crystal splinter", chance = 2617, maxCount = 2},
+	{id = "spiked squelcher", chance = 1558},
+	{id = "pair of iron fists", chance = 1290},
+	{id = "war drum", chance = 1047},
+	{id = "berserk potion", chance = 864},
+	{id = "dreaded cleaver", chance = 12}
 }
 
 mType:register(monster)

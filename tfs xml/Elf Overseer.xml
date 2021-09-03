@@ -1,6 +1,7 @@
-﻿<monster name="Elf Overseer" nameDescription="an elf overseer" experience="290" speed="176" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Elf Overseer" nameDescription="an elf overseer" experience="290" speed="176" manacost="0">
 	<health now="500" max="500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="159" head="21" body="76" legs="95" feet="116" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -49,13 +51,13 @@
 		<voice sentence="DOWN WITH THE FIRES OF IGNORANCE!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="51429" countmax="50" />
-		<item id="elvish talisman" chance="20000" />
-		<item id="bread" chance="14286" countmax="3" />
-		<item id="health potion" chance="14286" />
-		<item id="battle shield" chance="11429" />
-		<item id="holy orchid" chance="8571" />
-		<item id="mana potion" chance="8571" />
-		<item id="crystal sword" chance="5714" />
+		<item name="gold coin" chance="51429" countmax="50" />
+		<item name="elvish talisman" chance="20000" />
+		<item name="bread" chance="14286" countmax="3" />
+		<item name="health potion" chance="14286" />
+		<item name="battle shield" chance="11429" />
+		<item name="holy orchid" chance="8571" />
+		<item name="mana potion" chance="8571" />
+		<item name="crystal sword" chance="5714" />
 	</loot>
 </monster>

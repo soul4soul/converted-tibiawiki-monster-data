@@ -5,7 +5,7 @@ monster.name = "Terramite"
 monster.description = "a terramite"
 monster.experience = 160
 monster.outfit = {
-	lookType = 0,
+	lookType = 346,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,11 +91,7 @@ monster.loot = {
 	{id = "gold coin", chance = 97496, maxCount = 45},
 	{id = "terramite legs", chance = 14984},
 	{id = "terramite shell", chance = 7452},
-	{id = "terramite eggs", chance = 4996},
-	{id = "gold coin", chance = 1623, maxCount = 25},
-	{id = "terramite legs", chance = 178},
-	{id = "terramite eggs", chance = 60},
-	{id = "terramite shell", chance = 35}
+	{id = "terramite eggs", chance = 4996}
 }
 
 mType:register(monster)

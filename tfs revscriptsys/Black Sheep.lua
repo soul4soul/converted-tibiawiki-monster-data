@@ -5,7 +5,7 @@ monster.name = "Black Sheep"
 monster.description = "a black sheep"
 monster.experience = 0
 monster.outfit = {
-	lookType = 0,
+	lookType = 13,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,8 +87,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 46868},
-	{id = "black wool", chance = 648}
+	{id = "meat", chance = 46872},
+	{id = "black wool", chance = 718}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Spit Nettle" nameDescription="a spit nettle" experience="20" speed="78" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Spit Nettle" nameDescription="a spit nettle" experience="20" speed="78" manacost="0">
 	<health now="150" max="150" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="221" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -42,12 +44,12 @@
 		<defense name="healing" interval="2000" chance="20" min="15" max="37" />
 	</defenses>
 	<loot>
-		<item id="shadow herb" chance="11066" />
-		<item id="gold coin" chance="10681" countmax="5" />
-		<item id="nettle spit" chance="9846" />
-		<item id="sling herb" chance="5622" countmax="2" />
-		<item id="grave flower" chance="996" />
-		<item id="nettle blossom" chance="932" />
-		<item id="seeds" chance="369" />
+		<item name="shadow herb" chance="11059" />
+		<item name="gold coin" chance="10690" countmax="5" />
+		<item name="nettle spit" chance="9872" />
+		<item name="sling herb" chance="5618" countmax="2" />
+		<item name="grave flower" chance="995" />
+		<item name="nettle blossom" chance="931" />
+		<item name="seeds" chance="369" />
 	</loot>
 </monster>

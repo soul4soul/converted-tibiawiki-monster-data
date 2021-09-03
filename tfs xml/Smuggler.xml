@@ -1,6 +1,7 @@
-﻿<monster name="Smuggler" nameDescription="a smuggler" experience="48" speed="176" manacost="390">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Smuggler" nameDescription="a smuggler" experience="48" speed="176" manacost="390">
 	<health now="130" max="130" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="134" head="95" body="0" legs="113" feet="115" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -47,16 +49,16 @@
 		<voice sentence="I will silence you forever!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="79829" countmax="10" />
-		<item id="torch" chance="30213" countmax="2" />
-		<item id="leather legs" chance="14790" />
-		<item id="ham" chance="10187" />
-		<item id="short sword" chance="10049" />
-		<item id="leather helmet" chance="10037" />
-		<item id="knife" chance="10005" />
-		<item id="sword" chance="5023" />
-		<item id="raspberry" chance="4906" countmax="5" />
-		<item id="combat knife" chance="4037" />
-		<item id="deer trophy" chance="113" />
+		<item name="gold coin" chance="79838" countmax="10" />
+		<item name="torch" chance="30216" countmax="2" />
+		<item name="leather legs" chance="14790" />
+		<item name="ham" chance="10191" />
+		<item name="short sword" chance="10049" />
+		<item name="leather helmet" chance="10032" />
+		<item name="knife" chance="9997" />
+		<item name="sword" chance="5027" />
+		<item name="raspberry" chance="4913" countmax="5" />
+		<item name="combat knife" chance="4039" />
+		<item name="deer trophy" chance="113" />
 	</loot>
 </monster>

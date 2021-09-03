@@ -1,6 +1,7 @@
-﻿<monster name="Orclops Doomhauler" nameDescription="an orclops doomhauler" experience="1200" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Orclops Doomhauler" nameDescription="an orclops doomhauler" experience="1200" speed="240" manacost="0">
 	<health now="1700" max="1700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="934" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="30" />
 		<element firePercent="15" />
 		<element lifedrainPercent="0" />
@@ -49,23 +51,23 @@
 		<voice sentence="Me strong, you weak!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="184" />
-		<item id="bug meat" chance="20362" />
-		<item id="bone toothpick" chance="19697" />
-		<item id="strong health potion" chance="16756" />
-		<item id="beetle carapace" chance="14866" />
-		<item id="red mushroom" chance="8121" countmax="3" />
-		<item id="orcish axe" chance="7876" />
-		<item id="mysterious fetish" chance="5939" />
-		<item id="small ruby" chance="3221" countmax="3" />
-		<item id="black pearl" chance="3104" countmax="2" />
-		<item id="small topaz" chance="2987" countmax="2" />
-		<item id="onion" chance="2975" countmax="2" />
-		<item id="brown crystal splinter" chance="2427" countmax="2" />
-		<item id="spiked squelcher" chance="1412" />
-		<item id="pair of iron fists" chance="1365" />
-		<item id="berserk potion" chance="1027" />
-		<item id="beetle necklace" chance="992" />
-		<item id="war drum" chance="910" />
+		<item name="gold coin" chance="100000" countmax="184" />
+		<item name="bug meat" chance="20273" />
+		<item name="bone toothpick" chance="19825" />
+		<item name="strong health potion" chance="16613" />
+		<item name="beetle carapace" chance="14978" />
+		<item name="red mushroom" chance="8172" countmax="3" />
+		<item name="orcish axe" chance="7892" />
+		<item name="mysterious fetish" chance="5922" />
+		<item name="small ruby" chance="3213" countmax="3" />
+		<item name="black pearl" chance="3078" countmax="2" />
+		<item name="small topaz" chance="2989" countmax="2" />
+		<item name="onion" chance="2933" countmax="2" />
+		<item name="brown crystal splinter" chance="2440" countmax="2" />
+		<item name="spiked squelcher" chance="1411" />
+		<item name="pair of iron fists" chance="1366" />
+		<item name="berserk potion" chance="1030" />
+		<item name="beetle necklace" chance="996" />
+		<item name="war drum" chance="940" />
 	</loot>
 </monster>

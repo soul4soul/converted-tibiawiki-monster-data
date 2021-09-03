@@ -1,4 +1,5 @@
-﻿<monster name="Yirkas Blue Scales" nameDescription="" experience="4900" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Yirkas Blue Scales" nameDescription="" experience="4900" speed="0" manacost="0">
 	<health now="6300" max="6300" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="40" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -43,32 +45,32 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="9" />
-		<item id="ultimate health potion" chance="100000" countmax="3" />
-		<item id="blue goanna scale" chance="99812" countmax="4" />
-		<item id="gold ingot" chance="12218" />
-		<item id="yirkas' egg" chance="6015" />
-		<item id="gemmed figurine" chance="4887" />
-		<item id="lizard heart" chance="4887" />
-		<item id="blue gem" chance="4135" />
-		<item id="green gem" chance="3759" />
-		<item id="magma legs" chance="3008" />
-		<item id="giant sword" chance="2444" />
-		<item id="jade hammer" chance="2444" />
-		<item id="ring of green plasma" chance="2256" />
-		<item id="skull helmet" chance="2256" />
-		<item id="mastermind potion" chance="1880" />
-		<item id="spellweaver's robe" chance="1880" />
-		<item id="war axe" chance="1692" />
-		<item id="assassin dagger" chance="1504" />
-		<item id="demon shield" chance="1316" />
-		<item id="gold ring" chance="1128" />
-		<item id="magic plate armor" chance="1128" />
-		<item id="ornate crossbow" chance="940" />
-		<item id="red silk flower" chance="940" />
-		<item id="spellbook of mind control" chance="940" />
-		<item id="alloy legs" chance="752" />
-		<item id="demonrage sword" chance="752" />
-		<item id="raw watermelon tourmaline" chance="376" />
+		<item name="platinum coin" chance="100000" countmax="9" />
+		<item name="ultimate health potion" chance="100000" countmax="3" />
+		<item name="blue goanna scale" chance="99825" countmax="4" />
+		<item name="gold ingot" chance="12807" />
+		<item name="yirkas' egg" chance="6140" />
+		<item name="gemmed figurine" chance="5263" />
+		<item name="lizard heart" chance="5088" />
+		<item name="blue gem" chance="4386" />
+		<item name="green gem" chance="4211" />
+		<item name="jade hammer" chance="2807" />
+		<item name="magma legs" chance="2807" />
+		<item name="giant sword" chance="2632" />
+		<item name="skull helmet" chance="2456" />
+		<item name="ring of green plasma" chance="2281" />
+		<item name="mastermind potion" chance="1754" />
+		<item name="spellweaver's robe" chance="1754" />
+		<item name="assassin dagger" chance="1579" />
+		<item name="war axe" chance="1579" />
+		<item name="demon shield" chance="1404" />
+		<item name="gold ring" chance="1228" />
+		<item name="magic plate armor" chance="1053" />
+		<item name="alloy legs" chance="877" />
+		<item name="ornate crossbow" chance="877" />
+		<item name="red silk flower" chance="877" />
+		<item name="spellbook of mind control" chance="877" />
+		<item name="demonrage sword" chance="702" />
+		<item name="raw watermelon tourmaline" chance="351" />
 	</loot>
 </monster>

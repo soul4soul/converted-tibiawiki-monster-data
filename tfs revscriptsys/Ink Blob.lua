@@ -5,7 +5,7 @@ monster.name = "Ink Blob"
 monster.description = "an ink blob"
 monster.experience = 14450
 monster.outfit = {
-	lookType = 0,
+	lookType = 1064,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,24 +87,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 74411, maxCount = 25},
-	{id = "envenomed arrow", chance = 69943, maxCount = 50},
-	{id = "small diamond", chance = 68643, maxCount = 7},
-	{id = "small topaz", chance = 49634, maxCount = 3},
-	{id = "inkwell (black)", chance = 44517, maxCount = 4},
-	{id = "poisonous slime", chance = 34444},
-	{id = "giant shimmering pearl (brown)", chance = 14866},
-	{id = "terra boots", chance = 6011},
-	{id = "terra hood", chance = 5930},
-	{id = "blue gem", chance = 5280},
-	{id = "terra legs", chance = 2518},
-	{id = "stone skin amulet", chance = 1868},
-	{id = "sacred tree amulet", chance = 1787},
-	{id = "terra mantle", chance = 1219},
-	{id = "protection amulet", chance = 1137},
-	{id = "springsprout rod", chance = 731},
-	{id = "clay lump", chance = 569},
-	{id = "terra amulet", chance = 569},
+	{id = "platinum coin", chance = 74413, maxCount = 25},
+	{id = "envenomed arrow", chance = 69960, maxCount = 50},
+	{id = "small diamond", chance = 68664, maxCount = 7},
+	{id = "small topaz", chance = 49555, maxCount = 3},
+	{id = "inkwell (black)", chance = 44453, maxCount = 4},
+	{id = "poisonous slime", chance = 34494},
+	{id = "giant shimmering pearl (brown)", chance = 14899},
+	{id = "terra boots", chance = 5992},
+	{id = "terra hood", chance = 5911},
+	{id = "blue gem", chance = 5344},
+	{id = "terra legs", chance = 2510},
+	{id = "stone skin amulet", chance = 1862},
+	{id = "sacred tree amulet", chance = 1781},
+	{id = "terra mantle", chance = 1215},
+	{id = "protection amulet", chance = 1134},
+	{id = "springsprout rod", chance = 729},
+	{id = "clay lump", chance = 567},
+	{id = "terra amulet", chance = 567},
 	{id = "swamplair armor", chance = 81}
 }
 

@@ -1,4 +1,5 @@
-﻿<monster name="Muddy Earth Elemental" nameDescription="a muddy earth elemental" experience="450" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Muddy Earth Elemental" nameDescription="a muddy earth elemental" experience="450" speed="0" manacost="0">
 	<health now="650" max="650" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="85" />
+		<element energyPercent="85" />
 		<element earthPercent="100" />
 		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
@@ -45,18 +47,12 @@
 		<defense name="healing" interval="2000" chance="20" min="65" max="162" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="77041" countmax="128" />
-		<item id="small stone" chance="39421" countmax="5" />
-		<item id="lump of earth" chance="20588" />
-		<item id="some leaves" chance="19140" />
-		<item id="natural soil" chance="3995" />
-		<item id="clay lump" chance="834" />
-		<item id="coal" chance="439" />
-		<item id="gold coin" chance="47454" countmax="128" />
-		<item id="small stone" chance="24363" countmax="5" />
-		<item id="some leaves" chance="12072" />
-		<item id="lump of earth" chance="12028" />
-		<item id="natural soil" chance="2414" />
-		<item id="clay lump" chance="702" />
+		<item name="gold coin" chance="77041" countmax="128" />
+		<item name="small stone" chance="39421" countmax="5" />
+		<item name="lump of earth" chance="20588" />
+		<item name="some leaves" chance="19140" />
+		<item name="natural soil" chance="3995" />
+		<item name="clay lump" chance="834" />
+		<item name="coal" chance="439" />
 	</loot>
 </monster>

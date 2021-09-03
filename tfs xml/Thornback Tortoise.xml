@@ -1,6 +1,7 @@
-﻿<monster name="Thornback Tortoise" nameDescription="a thornback tortoise" experience="150" speed="150" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Thornback Tortoise" nameDescription="a thornback tortoise" experience="150" speed="150" manacost="0">
 	<health now="300" max="300" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="198" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="30" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -43,24 +45,16 @@
 	</attacks>
 	<defenses armor="24" defense="24" />
 	<loot>
-		<item id="gold coin" chance="87876" countmax="50" />
-		<item id="thorn" chance="15614" />
-		<item id="fish" chance="10318" countmax="2" />
-		<item id="health potion" chance="1598" />
-		<item id="white pearl" chance="1291" />
-		<item id="turtle shell" chance="1105" />
-		<item id="white mushroom" chance="1083" />
-		<item id="tortoise egg" chance="996" countmax="3" />
-		<item id="brown mushroom" chance="711" />
-		<item id="black pearl" chance="678" />
-		<item id="war hammer" chance="274" />
-		<item id="gold coin" chance="31787" countmax="30" />
-		<item id="fish" chance="3698" />
-		<item id="thorn" chance="1663" />
-		<item id="white mushroom" chance="536" />
-		<item id="health potion" chance="405" />
-		<item id="tortoise egg" chance="339" countmax="3" />
-		<item id="brown mushroom" chance="252" />
-		<item id="war hammer" chance="164" />
+		<item name="gold coin" chance="87876" countmax="50" />
+		<item name="thorn" chance="15614" />
+		<item name="fish" chance="10318" countmax="2" />
+		<item name="health potion" chance="1598" />
+		<item name="white pearl" chance="1291" />
+		<item name="turtle shell" chance="1105" />
+		<item name="white mushroom" chance="1083" />
+		<item name="tortoise egg" chance="996" countmax="3" />
+		<item name="brown mushroom" chance="711" />
+		<item name="black pearl" chance="678" />
+		<item name="war hammer" chance="274" />
 	</loot>
 </monster>

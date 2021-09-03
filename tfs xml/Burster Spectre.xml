@@ -1,6 +1,7 @@
-﻿<monster name="Burster Spectre" nameDescription="a burster spectre" experience="6000" speed="400" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Burster Spectre" nameDescription="a burster spectre" experience="6000" speed="400" manacost="0">
 	<health now="6500" max="6500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1122" head="9" body="10" legs="86" feet="79" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="100" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
@@ -46,45 +48,25 @@
 		<voice sentence="We came tooo thiiiiss wooorld to... get youuu!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="75651" countmax="7" />
-		<item id="great spirit potion" chance="22888" countmax="3" />
-		<item id="protection amulet" chance="7451" />
-		<item id="life crystal" chance="7122" />
-		<item id="wand of voodoo" chance="3178" />
-		<item id="wand of cosmic energy" chance="3080" />
-		<item id="stone skin amulet" chance="2289" />
-		<item id="glacier amulet" chance="2191" />
-		<item id="blue ectoplasm" chance="1936" />
-		<item id="dragon necklace" chance="1668" />
-		<item id="orb" chance="1437" />
-		<item id="platinum amulet" chance="1303" />
-		<item id="hailstorm rod" chance="889" />
-		<item id="hexagonal ruby" chance="706" />
-		<item id="glacial rod" chance="584" />
-		<item id="garlic necklace" chance="511" />
-		<item id="elven amulet" chance="450" />
-		<item id="shockwave amulet" chance="402" />
-		<item id="mind stone" chance="183" />
-		<item id="strange symbol" chance="122" />
-		<item id="platinum coin" chance="48612" countmax="7" />
-		<item id="great spirit potion" chance="15644" countmax="3" />
-		<item id="protection amulet" chance="5527" />
-		<item id="life crystal" chance="4553" />
-		<item id="wand of voodoo" chance="2398" />
-		<item id="wand of cosmic energy" chance="1948" />
-		<item id="stone skin amulet" chance="1729" />
-		<item id="glacier amulet" chance="1461" />
-		<item id="dragon necklace" chance="1254" />
-		<item id="blue ectoplasm" chance="889" />
-		<item id="platinum amulet" chance="852" />
-		<item id="orb" chance="779" />
-		<item id="hailstorm rod" chance="548" />
-		<item id="hexagonal ruby" chance="548" />
-		<item id="glacial rod" chance="341" />
-		<item id="garlic necklace" chance="243" />
-		<item id="shockwave amulet" chance="219" />
-		<item id="elven amulet" chance="170" />
-		<item id="mind stone" chance="158" />
-		<item id="strange symbol" chance="122" />
+		<item name="platinum coin" chance="75703" countmax="7" />
+		<item name="great spirit potion" chance="22846" countmax="3" />
+		<item name="protection amulet" chance="7363" />
+		<item name="life crystal" chance="7114" />
+		<item name="wand of voodoo" chance="3267" />
+		<item name="wand of cosmic energy" chance="3184" />
+		<item name="stone skin amulet" chance="2198" />
+		<item name="glacier amulet" chance="2095" />
+		<item name="blue ectoplasm" chance="2033" />
+		<item name="dragon necklace" chance="1690" />
+		<item name="orb" chance="1390" />
+		<item name="platinum amulet" chance="1276" />
+		<item name="hailstorm rod" chance="902" />
+		<item name="hexagonal ruby" chance="726" />
+		<item name="glacial rod" chance="591" />
+		<item name="garlic necklace" chance="467" />
+		<item name="elven amulet" chance="436" />
+		<item name="shockwave amulet" chance="384" />
+		<item name="mind stone" chance="176" />
+		<item name="strange symbol" chance="145" />
 	</loot>
 </monster>

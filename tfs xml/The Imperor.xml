@@ -1,4 +1,5 @@
-﻿<monster name="The Imperor" nameDescription="" experience="8000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Imperor" nameDescription="" experience="8000" speed="0" manacost="0">
 	<health now="15000" max="15000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -44,19 +46,19 @@
 		<voice sentence="Let me tickle you with my trident!" yell="false" />
 	</voices>
 	<loot>
-		<item id="demonic essence" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="148" />
-		<item id="soul orb" chance="100000" />
-		<item id="the imperor's trident" chance="100000" />
-		<item id="pitchfork" chance="52941" />
-		<item id="platinum coin" chance="41176" countmax="3" />
-		<item id="small amethyst" chance="35294" countmax="4" />
-		<item id="crown legs" chance="29412" />
-		<item id="demonbone amulet" chance="11765" />
-		<item id="magma coat" chance="11765" />
-		<item id="fire axe" chance="5882" />
-		<item id="golden legs" chance="5882" />
-		<item id="small ruby" chance="5882" countmax="4" />
-		<item id="tempest shield" chance="5882" />
+		<item name="demonic essence" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="148" />
+		<item name="soul orb" chance="100000" />
+		<item name="the imperor's trident" chance="100000" />
+		<item name="pitchfork" chance="52941" />
+		<item name="platinum coin" chance="41176" countmax="3" />
+		<item name="small amethyst" chance="35294" countmax="4" />
+		<item name="crown legs" chance="29412" />
+		<item name="demonbone amulet" chance="11765" />
+		<item name="magma coat" chance="11765" />
+		<item name="fire axe" chance="5882" />
+		<item name="golden legs" chance="5882" />
+		<item name="small ruby" chance="5882" countmax="4" />
+		<item name="tempest shield" chance="5882" />
 	</loot>
 </monster>

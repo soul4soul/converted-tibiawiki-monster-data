@@ -1,6 +1,7 @@
-﻿<monster name="Stonerefiner" nameDescription="a stonerefiner" experience="500" speed="220" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Stonerefiner" nameDescription="a stonerefiner" experience="500" speed="220" manacost="0">
 	<health now="800" max="800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1032" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-20" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -47,12 +49,12 @@
 		<voice sentence="nomnomnom" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="50551" countmax="4" />
-		<item id="rare earth" chance="40185" />
-		<item id="coal" chance="28760" />
-		<item id="glob of acid slime" chance="23864" />
-		<item id="stonerefiner's skull" chance="20732" />
-		<item id="poisonous slime" chance="19982" />
-		<item id="rat cheese" chance="9131" />
+		<item name="platinum coin" chance="50551" countmax="4" />
+		<item name="rare earth" chance="40185" />
+		<item name="coal" chance="28760" />
+		<item name="glob of acid slime" chance="23864" />
+		<item name="stonerefiner's skull" chance="20732" />
+		<item name="poisonous slime" chance="19982" />
+		<item name="rat cheese" chance="9131" />
 	</loot>
 </monster>

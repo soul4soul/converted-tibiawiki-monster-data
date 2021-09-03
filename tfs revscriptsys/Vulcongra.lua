@@ -5,7 +5,7 @@ monster.name = "Vulcongra"
 monster.description = "a vulcongra"
 monster.experience = 1100
 monster.outfit = {
-	lookType = 0,
+	lookType = 509,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,21 +91,21 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 107},
-	{id = "platinum coin", chance = 14363},
-	{id = "magma clump", chance = 12154},
-	{id = "banana", chance = 9661, maxCount = 10},
-	{id = "fiery heart", chance = 9048},
-	{id = "blazing bone", chance = 8008},
-	{id = "strong mana potion", chance = 7410},
-	{id = "strong health potion", chance = 7324},
-	{id = "brown crystal splinter", chance = 4944},
-	{id = "sword ring", chance = 3064},
-	{id = "red crystal fragment", chance = 2479},
-	{id = "wand of inferno", chance = 969},
-	{id = "coal", chance = 898},
-	{id = "magma amulet", chance = 898},
-	{id = "fire sword", chance = 299},
-	{id = "magma coat", chance = 142}
+	{id = "platinum coin", chance = 14406},
+	{id = "magma clump", chance = 12249},
+	{id = "banana", chance = 9581, maxCount = 10},
+	{id = "fiery heart", chance = 9000},
+	{id = "blazing bone", chance = 7950},
+	{id = "strong mana potion", chance = 7397},
+	{id = "strong health potion", chance = 7314},
+	{id = "brown crystal splinter", chance = 4963},
+	{id = "sword ring", chance = 3069},
+	{id = "red crystal fragment", chance = 2461},
+	{id = "wand of inferno", chance = 982},
+	{id = "magma amulet", chance = 899},
+	{id = "coal", chance = 885},
+	{id = "fire sword", chance = 304},
+	{id = "magma coat", chance = 166}
 }
 
 mType:register(monster)

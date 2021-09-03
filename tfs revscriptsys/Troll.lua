@@ -5,7 +5,7 @@ monster.name = "Troll"
 monster.description = "a troll"
 monster.experience = 20
 monster.outfit = {
-	lookType = 0,
+	lookType = 15,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,30 +92,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 65666, maxCount = 12},
-	{id = "hand axe", chance = 19086},
-	{id = "meat", chance = 15632},
-	{id = "spear", chance = 13084},
-	{id = "leather helmet", chance = 11898},
-	{id = "leather boots", chance = 9525},
-	{id = "rope", chance = 8200},
-	{id = "wooden shield", chance = 5513},
-	{id = "studded club", chance = 5443},
-	{id = "heavy old tome", chance = 2338},
-	{id = "bunch of troll hair", chance = 1082},
-	{id = "old rag", chance = 35},
-	{id = "gold coin", chance = 100000, maxCount = 12},
-	{id = "hand axe", chance = 100000},
-	{id = "meat", chance = 100000},
-	{id = "spear", chance = 100000},
-	{id = "leather helmet", chance = 100000},
-	{id = "leather boots", chance = 100000},
-	{id = "rope", chance = 100000},
-	{id = "studded club", chance = 100000},
-	{id = "wooden shield", chance = 100000},
-	{id = "bunch of troll hair", chance = 42045},
-	{id = "silver amulet", chance = 4117},
-	{id = "heavy old tome", chance = 1047}
+	{id = "gold coin", chance = 65615, maxCount = 12},
+	{id = "hand axe", chance = 19164},
+	{id = "meat", chance = 15495},
+	{id = "spear", chance = 13130},
+	{id = "leather helmet", chance = 11964},
+	{id = "leather boots", chance = 9736},
+	{id = "rope", chance = 8125},
+	{id = "wooden shield", chance = 5485},
+	{id = "studded club", chance = 5382},
+	{id = "heavy old tome", chance = 2365},
+	{id = "bunch of troll hair", chance = 1097},
+	{id = "old rag", chance = 34}
 }
 
 mType:register(monster)

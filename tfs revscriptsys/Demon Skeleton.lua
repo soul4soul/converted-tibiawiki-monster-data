@@ -5,7 +5,7 @@ monster.name = "Demon Skeleton"
 monster.description = "a demon skeleton"
 monster.experience = 240
 monster.outfit = {
-	lookType = 0,
+	lookType = 37,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,44 +87,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 97520, maxCount = 75},
-	{id = "demonic skeletal hand", chance = 11976},
+	{id = "gold coin", chance = 97517, maxCount = 75},
+	{id = "demonic skeletal hand", chance = 11974},
 	{id = "throwing star", chance = 9990, maxCount = 3},
-	{id = "health potion", chance = 9695, maxCount = 2},
+	{id = "health potion", chance = 9703, maxCount = 2},
 	{id = "mana potion", chance = 5053},
-	{id = "battle shield", chance = 4960},
-	{id = "torch", chance = 4870},
-	{id = "battle hammer", chance = 4067},
-	{id = "iron helmet", chance = 3377},
-	{id = "black pearl", chance = 2980},
+	{id = "battle shield", chance = 4955},
+	{id = "torch", chance = 4868},
+	{id = "battle hammer", chance = 4064},
+	{id = "iron helmet", chance = 3379},
+	{id = "black pearl", chance = 2977},
 	{id = "small ruby", chance = 1530},
-	{id = "mysterious fetish", chance = 533},
+	{id = "mysterious fetish", chance = 532},
 	{id = "mind stone", chance = 469},
-	{id = "guardian shield", chance = 112},
-	{id = "gold coin", chance = 9219, maxCount = 75},
-	{id = "throwing star", chance = 1244, maxCount = 3},
-	{id = "demonic skeletal hand", chance = 1081},
-	{id = "torch", chance = 631},
-	{id = "battle shield", chance = 629},
-	{id = "health potion", chance = 601},
-	{id = "mana potion", chance = 569},
-	{id = "battle hammer", chance = 507},
-	{id = "black pearl", chance = 396},
-	{id = "iron helmet", chance = 351},
-	{id = "mind stone", chance = 60},
-	{id = "mysterious fetish", chance = 60},
-	{id = "guardian shield", chance = 16},
-	{id = "gold coin", chance = 14110, maxCount = 45},
-	{id = "throwing star", chance = 2445, maxCount = 3},
-	{id = "torch", chance = 1258},
-	{id = "demonic skeletal hand", chance = 1236},
-	{id = "battle hammer", chance = 724},
-	{id = "iron helmet", chance = 502},
-	{id = "battle shield", chance = 241},
-	{id = "mana potion", chance = 196},
-	{id = "mysterious fetish", chance = 96},
-	{id = "mind stone", chance = 52},
-	{id = "guardian shield", chance = 23}
+	{id = "guardian shield", chance = 112}
 }
 
 mType:register(monster)

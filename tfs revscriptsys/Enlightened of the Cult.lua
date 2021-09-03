@@ -5,7 +5,7 @@ monster.name = "Enlightened Of The Cult"
 monster.description = "an enlightened of the cult"
 monster.experience = 500
 monster.outfit = {
-	lookType = 0,
+	lookType = 193,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,7 +92,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 64977, maxCount = 92},
+	{id = "gold coin", chance = 64974, maxCount = 92},
 	{id = "cultish mask", chance = 10214},
 	{id = "cultish symbol", chance = 1043},
 	{id = "protection amulet", chance = 874},
@@ -109,13 +110,7 @@ monster.loot = {
 	{id = "piggy bank", chance = 111},
 	{id = "amber staff", chance = 101},
 	{id = "mysterious voodoo skull", chance = 90},
-	{id = "blue robe", chance = 85},
-	{id = "gold coin", chance = 175, maxCount = 46},
-	{id = "cultish mask", chance = 26},
-	{id = "book (orange)", chance = 5},
-	{id = "pirate voodoo doll", chance = 5},
-	{id = "protection amulet", chance = 5},
-	{id = "skull staff", chance = 5}
+	{id = "blue robe", chance = 85}
 }
 
 mType:register(monster)

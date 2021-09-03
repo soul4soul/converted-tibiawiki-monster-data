@@ -1,6 +1,7 @@
-﻿<monster name="Ogre Sage" nameDescription="an ogre sage" experience="5500" speed="460" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ogre Sage" nameDescription="an ogre sage" experience="5500" speed="460" manacost="0">
 	<health now="4800" max="4800" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1214" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-30" />
+		<element energyPercent="-30" />
 		<element earthPercent="25" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,20 +45,20 @@
 	</attacks>
 	<defenses armor="93" defense="93" />
 	<loot>
-		<item id="platinum coin" chance="100000" />
-		<item id="ogre nose ring" chance="9744" />
-		<item id="ogre ear stud" chance="9231" />
-		<item id="shamanic talisman" chance="9231" />
-		<item id="broken shamanic staff" chance="8718" />
-		<item id="terra boots" chance="8718" />
-		<item id="skull fetish" chance="7692" />
-		<item id="terra amulet" chance="7692" />
-		<item id="green crystal fragment" chance="3590" />
-		<item id="violet crystal shard" chance="3590" />
-		<item id="bone fetish" chance="3077" />
-		<item id="sacred tree amulet" chance="3077" />
-		<item id="yellow gem" chance="2564" />
-		<item id="ogre scepta" chance="513" />
-		<item id="violet gem" chance="513" />
+		<item name="platinum coin" chance="100000" />
+		<item name="ogre nose ring" chance="9744" />
+		<item name="ogre ear stud" chance="9231" />
+		<item name="shamanic talisman" chance="9231" />
+		<item name="broken shamanic staff" chance="8718" />
+		<item name="terra boots" chance="8718" />
+		<item name="skull fetish" chance="7692" />
+		<item name="terra amulet" chance="7692" />
+		<item name="green crystal fragment" chance="3590" />
+		<item name="violet crystal shard" chance="3590" />
+		<item name="bone fetish" chance="3077" />
+		<item name="sacred tree amulet" chance="3077" />
+		<item name="yellow gem" chance="2564" />
+		<item name="ogre scepta" chance="513" />
+		<item name="violet gem" chance="513" />
 	</loot>
 </monster>

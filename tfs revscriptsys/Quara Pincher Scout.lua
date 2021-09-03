@@ -5,7 +5,7 @@ monster.name = "Quara Pincher Scout"
 monster.description = "a quara pincher scout"
 monster.experience = 600
 monster.outfit = {
-	lookType = 0,
+	lookType = 77,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -90,19 +91,12 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 89921, maxCount = 129},
-	{id = "quara pincers", chance = 9888},
+	{id = "quara pincers", chance = 9887},
 	{id = "plate armor", chance = 4954},
 	{id = "small ruby", chance = 3858, maxCount = 2},
 	{id = "halberd", chance = 2056},
 	{id = "fish fin", chance = 807},
-	{id = "life crystal", chance = 783},
-	{id = "gold coin", chance = 5174, maxCount = 147},
-	{id = "quara pincers", chance = 617},
-	{id = "plate armor", chance = 283},
-	{id = "small ruby", chance = 115, maxCount = 2},
-	{id = "halberd", chance = 113},
-	{id = "fish fin", chance = 45},
-	{id = "life crystal", chance = 32}
+	{id = "life crystal", chance = 783}
 }
 
 mType:register(monster)

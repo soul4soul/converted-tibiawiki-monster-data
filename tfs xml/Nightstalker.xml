@@ -1,6 +1,7 @@
-﻿<monster name="Nightstalker" nameDescription="" experience="500" speed="260" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Nightstalker" nameDescription="" experience="500" speed="260" manacost="0">
 	<health now="700" max="700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="320" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -56,16 +58,16 @@
 		<voice sentence="Only the sweetest and cruelest dreams for you, my love." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="89951" countmax="110" />
-		<item id="shadow herb" chance="4765" />
-		<item id="strong mana potion" chance="1530" />
-		<item id="crystal ring" chance="968" />
-		<item id="protection amulet" chance="894" />
-		<item id="spirit cloak" chance="503" />
-		<item id="haunted blade" chance="327" />
-		<item id="platinum amulet" chance="166" />
-		<item id="boots of haste" chance="122" />
-		<item id="crystal of balance" chance="122" />
-		<item id="chaos mace" chance="103" />
+		<item name="gold coin" chance="89966" countmax="110" />
+		<item name="shadow herb" chance="4762" />
+		<item name="strong mana potion" chance="1529" />
+		<item name="crystal ring" chance="966" />
+		<item name="protection amulet" chance="893" />
+		<item name="spirit cloak" chance="500" />
+		<item name="haunted blade" chance="325" />
+		<item name="platinum amulet" chance="165" />
+		<item name="crystal of balance" chance="126" />
+		<item name="boots of haste" chance="121" />
+		<item name="chaos mace" chance="102" />
 	</loot>
 </monster>

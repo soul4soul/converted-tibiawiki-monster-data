@@ -1,6 +1,7 @@
-﻿<monster name="Dark Apprentice" nameDescription="a dark apprentice" experience="100" speed="172" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dark Apprentice" nameDescription="a dark apprentice" experience="100" speed="172" manacost="0">
 	<health now="225" max="225" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="133" head="78" body="57" legs="95" feet="115" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -54,13 +56,13 @@
 		<voice sentence="From the spirits that I called Sir, deliver me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="75041" countmax="45" />
-		<item id="dead frog" chance="11903" />
-		<item id="blank rune" chance="8035" countmax="3" />
-		<item id="mana potion" chance="2995" />
-		<item id="health potion" chance="2887" />
-		<item id="wand of dragonbreath" chance="2004" />
-		<item id="wand of decay" chance="107" />
-		<item id="reins" chance="7" />
+		<item name="gold coin" chance="75050" countmax="45" />
+		<item name="dead frog" chance="11917" />
+		<item name="blank rune" chance="8036" countmax="3" />
+		<item name="mana potion" chance="2992" />
+		<item name="health potion" chance="2884" />
+		<item name="wand of dragonbreath" chance="2002" />
+		<item name="wand of decay" chance="107" />
+		<item name="reins" chance="7" />
 	</loot>
 </monster>

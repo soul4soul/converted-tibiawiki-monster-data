@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,15 +87,14 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 9},
-	{id = "blue crystal splinter", chance = 23077},
-	{id = "green crystal fragment", chance = 15385},
-	{id = "green crystal shard", chance = 15385},
-	{id = "red gem", chance = 7692},
-	{id = "small enchanted sapphire", chance = 7692, maxCount = 2},
-	{id = "stone skin amulet", chance = 7692},
-	{id = "wand of draconia", chance = 7692},
-	{id = "red gem", chance = 100000},
-	{id = "sea horse figurine", chance = 7692}
+	{id = "blue crystal splinter", chance = 20000},
+	{id = "green crystal fragment", chance = 20000},
+	{id = "green crystal shard", chance = 13333},
+	{id = "red gem", chance = 13333},
+	{id = "stone skin amulet", chance = 13333},
+	{id = "small enchanted sapphire", chance = 6667, maxCount = 2},
+	{id = "wand of draconia", chance = 6667},
+	{id = "wand of inferno", chance = 6667}
 }
 
 mType:register(monster)

@@ -1,4 +1,5 @@
-﻿<monster name="Cake Golem" nameDescription="a cake golem" experience="100" speed="190" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Cake Golem" nameDescription="a cake golem" experience="100" speed="190" manacost="0">
 	<health now="444" max="444" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="90" />
+		<element energyPercent="90" />
 		<element earthPercent="95" />
 		<element firePercent="85" />
 		<element lifedrainPercent="0" />
@@ -45,6 +47,6 @@
 		<defense name="healing" interval="2000" chance="20" min="0" max="100" />
 	</defenses>
 	<loot>
-		<item id="sweet and sugary substance" chance="100000" />
+		<item name="sweet and sugary substance" chance="100000" />
 	</loot>
 </monster>

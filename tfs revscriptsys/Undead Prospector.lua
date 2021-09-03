@@ -5,7 +5,7 @@ monster.name = "Undead Prospector"
 monster.description = "an undead prospector"
 monster.experience = 85
 monster.outfit = {
-	lookType = 0,
+	lookType = 18,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,15 +91,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "worm", chance = 81858, maxCount = 6},
-	{id = "gold coin", chance = 71263, maxCount = 30},
-	{id = "torch", chance = 63280},
-	{id = "brass helmet", chance = 18142},
-	{id = "knife", chance = 15094},
-	{id = "viking helmet", chance = 4790},
-	{id = "skull", chance = 2467},
-	{id = "scale armor", chance = 2177},
-	{id = "brown piece of cloth", chance = 726}
+	{id = "worm", chance = 80878, maxCount = 6},
+	{id = "gold coin", chance = 70814, maxCount = 30},
+	{id = "torch", chance = 61208},
+	{id = "brass helmet", chance = 18481},
+	{id = "knife", chance = 15005},
+	{id = "viking helmet", chance = 5306},
+	{id = "scale armor", chance = 2745},
+	{id = "skull", chance = 2653},
+	{id = "brown piece of cloth", chance = 732},
+	{id = "life ring", chance = 91}
 }
 
 mType:register(monster)

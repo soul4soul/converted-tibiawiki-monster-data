@@ -5,11 +5,11 @@ monster.name = "Black Sphinx Acolyte"
 monster.description = "a black sphinx acolyte"
 monster.experience = 7200
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 1200,
+	lookHead = 95,
+	lookBody = 95,
+	lookLegs = 94,
+	lookFeet = 95,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,32 +91,14 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 7},
-	{id = "snakebite rod", chance = 6980},
-	{id = "underworld rod", chance = 6443},
-	{id = "blue crystal shard", chance = 6309},
-	{id = "opal", chance = 3535, maxCount = 2},
-	{id = "violet gem", chance = 3221},
-	{id = "empty honey glass", chance = 2640},
-	{id = "small enchanted emerald", chance = 2371, maxCount = 3},
-	{id = "wand of voodoo", chance = 2148},
-	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "snakebite rod", chance = 10738},
-	{id = "blue crystal shard", chance = 9128},
-	{id = "underworld rod", chance = 8277},
-	{id = "violet gem", chance = 4832},
-	{id = "opal", chance = 4743, maxCount = 2},
-	{id = "wand of voodoo", chance = 4251},
-	{id = "empty honey glass", chance = 3624},
-	{id = "small enchanted emerald", chance = 3535, maxCount = 3},
-	{id = "platinum coin", chance = 6264, maxCount = 5},
-	{id = "blue crystal shard", chance = 358},
-	{id = "snakebite rod", chance = 358},
-	{id = "violet gem", chance = 313},
-	{id = "small enchanted emerald", chance = 179, maxCount = 3},
-	{id = "opal", chance = 134, maxCount = 2},
-	{id = "underworld rod", chance = 89},
-	{id = "empty honey glass", chance = 45},
-	{id = "wand of voodoo", chance = 45}
+	{id = "snakebite rod", chance = 7046},
+	{id = "underworld rod", chance = 6477},
+	{id = "blue crystal shard", chance = 6302},
+	{id = "opal", chance = 3457, maxCount = 2},
+	{id = "violet gem", chance = 3239},
+	{id = "empty honey glass", chance = 2582},
+	{id = "small enchanted emerald", chance = 2363, maxCount = 3},
+	{id = "wand of voodoo", chance = 2188}
 }
 
 mType:register(monster)

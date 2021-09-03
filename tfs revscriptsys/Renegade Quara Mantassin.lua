@@ -5,7 +5,7 @@ monster.name = "Renegade Quara Mantassin"
 monster.description = "a renegade quara mantassin"
 monster.experience = 1000
 monster.outfit = {
-	lookType = 0,
+	lookType = 72,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -85,18 +86,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "mantassin tail", chance = 13936},
-	{id = "mind stone", chance = 9658},
-	{id = "shrimp", chance = 4156},
-	{id = "small sapphire", chance = 3667, maxCount = 3},
-	{id = "ice rapier", chance = 2689},
-	{id = "stealth ring", chance = 2628},
-	{id = "blue crystal shard", chance = 1650},
-	{id = "strange helmet", chance = 1284},
-	{id = "two handed sword", chance = 917},
-	{id = "energy ring", chance = 795},
-	{id = "fish fin", chance = 795},
-	{id = "blue robe", chance = 611}
+	{id = "mantassin tail", chance = 13278},
+	{id = "mind stone", chance = 9587},
+	{id = "shrimp", chance = 4187},
+	{id = "small sapphire", chance = 3581, maxCount = 3},
+	{id = "ice rapier", chance = 2810},
+	{id = "stealth ring", chance = 2700},
+	{id = "blue crystal shard", chance = 1598},
+	{id = "strange helmet", chance = 1267},
+	{id = "two handed sword", chance = 1047},
+	{id = "blue robe", chance = 771},
+	{id = "energy ring", chance = 771},
+	{id = "fish fin", chance = 716}
 }
 
 mType:register(monster)

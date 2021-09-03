@@ -5,7 +5,7 @@ monster.name = "Goblin Assassin"
 monster.description = "a goblin assassin"
 monster.experience = 52
 monster.outfit = {
-	lookType = 0,
+	lookType = 296,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -93,17 +94,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 49744, maxCount = 9},
-	{id = "dagger", chance = 17776},
-	{id = "fish", chance = 12490},
-	{id = "bone", chance = 12225},
-	{id = "small stone", chance = 10689, maxCount = 3},
-	{id = "leather helmet", chance = 10078},
-	{id = "small axe", chance = 9615},
-	{id = "short sword", chance = 8822},
-	{id = "leather armor", chance = 7286},
-	{id = "mouldy cheese", chance = 6939},
-	{id = "bone club", chance = 5055}
+	{id = "gold coin", chance = 49853, maxCount = 9},
+	{id = "dagger", chance = 17752},
+	{id = "fish", chance = 12508},
+	{id = "bone", chance = 12248},
+	{id = "small stone", chance = 10668, maxCount = 3},
+	{id = "leather helmet", chance = 10049},
+	{id = "small axe", chance = 9609},
+	{id = "short sword", chance = 8844},
+	{id = "leather armor", chance = 7231},
+	{id = "mouldy cheese", chance = 6906},
+	{id = "bone club", chance = 5033}
 }
 
 mType:register(monster)

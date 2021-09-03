@@ -5,12 +5,12 @@ monster.name = "Sphinx"
 monster.description = "a sphinx"
 monster.experience = 7500
 monster.outfit = {
-	lookType = 0,
+	lookType = 1188,
 	lookHead = 0,
-	lookBody = 0,
+	lookBody = 39,
 	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookFeet = 3,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,29 +88,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 3},
-	{id = "sphinx feather", chance = 7239},
-	{id = "sphinx tiara", chance = 6194},
-	{id = "magma amulet", chance = 6011},
-	{id = "green gem", chance = 4835},
-	{id = "blue gem", chance = 3789},
-	{id = "magma boots", chance = 3606},
-	{id = "white pearl", chance = 3031},
-	{id = "lightning headband", chance = 2953},
-	{id = "lightning pendant", chance = 2391},
-	{id = "wand of starstorm", chance = 2117},
-	{id = "wand of defiance", chance = 2104},
-	{id = "magma monocle", chance = 1908},
-	{id = "magma legs", chance = 1228},
-	{id = "platinum coin", chance = 1372, maxCount = 3},
-	{id = "magma amulet", chance = 144},
-	{id = "sphinx feather", chance = 105},
-	{id = "magma boots", chance = 91},
-	{id = "magma monocle", chance = 52},
-	{id = "wand of defiance", chance = 39},
-	{id = "lightning headband", chance = 26},
-	{id = "sphinx tiara", chance = 26},
-	{id = "wand of starstorm", chance = 26},
-	{id = "lightning pendant", chance = 13}
+	{id = "sphinx feather", chance = 7271},
+	{id = "sphinx tiara", chance = 6165},
+	{id = "magma amulet", chance = 6022},
+	{id = "green gem", chance = 4839},
+	{id = "blue gem", chance = 3772},
+	{id = "magma boots", chance = 3603},
+	{id = "white pearl", chance = 3057},
+	{id = "lightning headband", chance = 2966},
+	{id = "lightning pendant", chance = 2406},
+	{id = "wand of starstorm", chance = 2133},
+	{id = "wand of defiance", chance = 2094},
+	{id = "magma monocle", chance = 1925},
+	{id = "magma legs", chance = 1223}
 }
 
 mType:register(monster)

@@ -5,7 +5,7 @@ monster.name = "Minotaur Mage"
 monster.description = "a minotaur mage"
 monster.experience = 150
 monster.outfit = {
-	lookType = 0,
+	lookType = 23,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,17 +89,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 85340, maxCount = 35},
+	{id = "gold coin", chance = 85345, maxCount = 35},
 	{id = "carrot", chance = 14778, maxCount = 8},
-	{id = "purple robe", chance = 6097},
-	{id = "torch", chance = 5015},
-	{id = "leather legs", chance = 4891},
-	{id = "leather helmet", chance = 3209},
-	{id = "minotaur horn", chance = 3071, maxCount = 2},
-	{id = "minotaur leather", chance = 2067},
+	{id = "purple robe", chance = 6093},
+	{id = "torch", chance = 5011},
+	{id = "leather legs", chance = 4898},
+	{id = "leather helmet", chance = 3211},
+	{id = "minotaur horn", chance = 3074, maxCount = 2},
+	{id = "minotaur leather", chance = 2066},
 	{id = "taurus mace", chance = 974},
 	{id = "wand of cosmic energy", chance = 556},
-	{id = "mana potion", chance = 463}
+	{id = "mana potion", chance = 462}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Carrion Worm" nameDescription="a carrion worm" experience="70" speed="130" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Carrion Worm" nameDescription="a carrion worm" experience="70" speed="130" manacost="0">
 	<health now="145" max="145" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="192" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="20" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -43,14 +45,10 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
-		<item id="gold coin" chance="57763" countmax="45" />
-		<item id="carrion worm fang" chance="10005" />
-		<item id="meat" chance="9619" />
-		<item id="worm" chance="2024" countmax="2" />
-		<item id="coal" chance="231" />
-		<item id="gold coin" chance="13192" countmax="45" />
-		<item id="meat" chance="2448" />
-		<item id="carrion worm fang" chance="2360" />
-		<item id="worm" chance="399" countmax="2" />
+		<item name="gold coin" chance="57763" countmax="45" />
+		<item name="carrion worm fang" chance="10005" />
+		<item name="meat" chance="9619" />
+		<item name="worm" chance="2024" countmax="2" />
+		<item name="coal" chance="231" />
 	</loot>
 </monster>

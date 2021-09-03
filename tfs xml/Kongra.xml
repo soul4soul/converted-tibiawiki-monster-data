@@ -1,6 +1,7 @@
-﻿<monster name="Kongra" nameDescription="a kongra" experience="115" speed="184" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Kongra" nameDescription="a kongra" experience="115" speed="184" manacost="0">
 	<health now="340" max="340" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="116" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="5" />
+		<element energyPercent="5" />
 		<element earthPercent="10" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -52,23 +54,14 @@
 		<voice sentence="Huaauaauaauaa!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="87998" countmax="40" />
-		<item id="banana" chance="30808" countmax="12" />
-		<item id="kongra's shoulderpad" chance="9353" />
-		<item id="protection amulet" chance="1013" />
-		<item id="plate armor" chance="1007" />
-		<item id="ape fur" chance="969" />
-		<item id="health potion" chance="508" />
-		<item id="power ring" chance="310" />
-		<item id="club ring" chance="196" />
-		<item id="gold coin" chance="35507" countmax="40" />
-		<item id="banana" chance="12282" countmax="12" />
-		<item id="kongra's shoulderpad" chance="1992" />
-		<item id="ape fur" chance="394" />
-		<item id="protection amulet" chance="394" />
-		<item id="plate armor" chance="387" />
-		<item id="health potion" chance="219" />
-		<item id="power ring" chance="116" />
-		<item id="club ring" chance="89" />
+		<item name="gold coin" chance="87998" countmax="40" />
+		<item name="banana" chance="30808" countmax="12" />
+		<item name="kongra's shoulderpad" chance="9353" />
+		<item name="protection amulet" chance="1013" />
+		<item name="plate armor" chance="1007" />
+		<item name="ape fur" chance="969" />
+		<item name="health potion" chance="508" />
+		<item name="power ring" chance="310" />
+		<item name="club ring" chance="196" />
 	</loot>
 </monster>

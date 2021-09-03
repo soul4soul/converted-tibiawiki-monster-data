@@ -5,7 +5,7 @@ monster.name = "Lizard High Guard"
 monster.description = "a lizard high guard"
 monster.experience = 1450
 monster.outfit = {
-	lookType = 0,
+	lookType = 337,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,20 +91,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 96084, maxCount = 281},
-	{id = "strong health potion", chance = 11954},
-	{id = "high guard shoulderplates", chance = 8101},
+	{id = "gold coin", chance = 96085, maxCount = 281},
+	{id = "strong health potion", chance = 11957},
+	{id = "high guard shoulderplates", chance = 8099},
 	{id = "great health potion", chance = 7065},
-	{id = "spiked iron ball", chance = 6978},
-	{id = "bunch of ripe rice", chance = 4934},
+	{id = "spiked iron ball", chance = 6980},
+	{id = "bunch of ripe rice", chance = 4935},
 	{id = "platinum coin", chance = 4918, maxCount = 2},
-	{id = "high guard flag", chance = 3008},
+	{id = "high guard flag", chance = 3010},
 	{id = "small emerald", chance = 2477, maxCount = 4},
-	{id = "red lantern", chance = 1210},
-	{id = "tower shield", chance = 1034},
+	{id = "red lantern", chance = 1211},
+	{id = "tower shield", chance = 1032},
 	{id = "lizard leather", chance = 995},
 	{id = "lizard scale", chance = 956},
-	{id = "zaoan legs", chance = 735},
+	{id = "zaoan legs", chance = 736},
 	{id = "zaoan shoes", chance = 689},
 	{id = "zaoan armor", chance = 76}
 }

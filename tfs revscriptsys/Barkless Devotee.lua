@@ -5,12 +5,12 @@ monster.name = "Barkless Devotee"
 monster.description = "a barkless devotee"
 monster.experience = 2200
 monster.outfit = {
-	lookType = 0,
+	lookType = 990,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
-	lookAddons = 0,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,10 +87,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 49790, maxCount = 100},
-	{id = "fig leaf", chance = 4547},
-	{id = "bed of nails", chance = 1223},
-	{id = "torn shirt", chance = 879}
+	{id = "gold coin", chance = 49480, maxCount = 100},
+	{id = "fig leaf", chance = 4532},
+	{id = "bed of nails", chance = 1226},
+	{id = "torn shirt", chance = 854}
 }
 
 mType:register(monster)

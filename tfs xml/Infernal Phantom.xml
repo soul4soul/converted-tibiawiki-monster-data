@@ -1,4 +1,5 @@
-﻿<monster name="Infernal Phantom" nameDescription="an infernal phantom" experience="14080" speed="400" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Infernal Phantom" nameDescription="an infernal phantom" experience="14080" speed="400" manacost="0">
 	<health now="26000" max="26000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
-		<element EnergyPercent="1" />
+		<element energyPercent="1" />
 		<element earthPercent="-10" />
 		<element firePercent="80" />
 		<element lifedrainPercent="0" />
@@ -44,15 +46,11 @@
 		<voice sentence="Burn, baby! Burn!" yell="false" />
 	</voices>
 	<loot>
-		<item id="crystal coin" chance="60000" />
-		<item id="ultimate health potion" chance="40000" countmax="2" />
-		<item id="springsprout rod" chance="20000" />
-		<item id="terra rod" chance="20000" />
-		<item id="titan axe" chance="20000" />
-		<item id="wand of starstorm" chance="20000" />
-		<item id="crystal coin" chance="60000" />
-		<item id="ultimate health potion" chance="60000" countmax="2" />
-		<item id="fire axe" chance="20000" />
-		<item id="underworld rod" chance="20000" />
+		<item name="crystal coin" chance="60000" />
+		<item name="ultimate health potion" chance="40000" countmax="2" />
+		<item name="springsprout rod" chance="20000" />
+		<item name="terra rod" chance="20000" />
+		<item name="titan axe" chance="20000" />
+		<item name="wand of starstorm" chance="20000" />
 	</loot>
 </monster>

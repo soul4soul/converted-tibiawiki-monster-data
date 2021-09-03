@@ -1,6 +1,7 @@
-﻿<monster name="Ice Dragon" nameDescription="an ice dragon" experience="2300" speed="212" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ice Dragon" nameDescription="an ice dragon" experience="2300" speed="212" manacost="0">
 	<health now="2500" max="2500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="947" head="0" body="9" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="50" />
 		<element firePercent="-30" />
 		<element lifedrainPercent="0" />
@@ -45,21 +47,21 @@
 		<defense name="healing" interval="2000" chance="20" min="100" max="200" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="96535" countmax="219" />
-		<item id="dragon ham" chance="78678" />
-		<item id="dragon blood" chance="19403" />
-		<item id="dragon tongue" chance="12260" />
-		<item id="shiver arrow" chance="7996" countmax="10" />
-		<item id="ice cube" chance="4424" />
-		<item id="energy ring" chance="4051" />
-		<item id="small sapphire" chance="3891" />
-		<item id="great mana potion" chance="3358" countmax="2" />
-		<item id="golden mug" chance="2985" />
-		<item id="hailstorm rod" chance="2186" />
-		<item id="glacier mask" chance="1119" />
-		<item id="shard" chance="1013" />
-		<item id="glacier amulet" chance="906" />
-		<item id="life crystal" chance="640" />
-		<item id="dragon scale mail" chance="267" />
+		<item name="gold coin" chance="96535" countmax="219" />
+		<item name="dragon ham" chance="78678" />
+		<item name="dragon blood" chance="19403" />
+		<item name="dragon tongue" chance="12260" />
+		<item name="shiver arrow" chance="7996" countmax="10" />
+		<item name="ice cube" chance="4424" />
+		<item name="energy ring" chance="4051" />
+		<item name="small sapphire" chance="3891" />
+		<item name="great mana potion" chance="3358" countmax="2" />
+		<item name="golden mug" chance="2985" />
+		<item name="hailstorm rod" chance="2186" />
+		<item name="glacier mask" chance="1119" />
+		<item name="shard" chance="1013" />
+		<item name="glacier amulet" chance="906" />
+		<item name="life crystal" chance="640" />
+		<item name="dragon scale mail" chance="267" />
 	</loot>
 </monster>

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -92,11 +93,7 @@ monster.loot = {
 	{id = "springsprout rod", chance = 20000},
 	{id = "terra rod", chance = 20000},
 	{id = "titan axe", chance = 20000},
-	{id = "wand of starstorm", chance = 20000},
-	{id = "crystal coin", chance = 60000},
-	{id = "ultimate health potion", chance = 60000, maxCount = 2},
-	{id = "fire axe", chance = 20000},
-	{id = "underworld rod", chance = 20000}
+	{id = "wand of starstorm", chance = 20000}
 }
 
 mType:register(monster)

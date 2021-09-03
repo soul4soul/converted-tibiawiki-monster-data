@@ -1,4 +1,5 @@
-﻿<monster name="Zarabustor" nameDescription="" experience="8000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Zarabustor" nameDescription="" experience="8000" speed="0" manacost="0">
 	<health now="5100" max="5100" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-1" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="90" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -51,7 +53,7 @@
 		<voice sentence="Ah, practice time once again!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="80000" countmax="79" />
-		<item id="poison dagger" chance="60000" />
+		<item name="gold coin" chance="80000" countmax="79" />
+		<item name="poison dagger" chance="60000" />
 	</loot>
 </monster>

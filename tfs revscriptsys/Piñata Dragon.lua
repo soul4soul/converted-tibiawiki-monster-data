@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -107,19 +108,7 @@ monster.loot = {
 	{id = "doll", chance = 1554},
 	{id = "toy mouse", chance = 259},
 	{id = "ferumbras puppet", chance = 207},
-	{id = "stuffed dragon", chance = 207},
-	{id = "candy", chance = 6163, maxCount = 3},
-	{id = "surprise bag", chance = 3314, maxCount = 2},
-	{id = "cookie", chance = 2796, maxCount = 5},
-	{id = "bottle of tibian wine", chance = 1088},
-	{id = "birthday cake", chance = 880},
-	{id = "party cake", chance = 466},
-	{id = "birthday backpack", chance = 414},
-	{id = "chocolatey dragon scale legs", chance = 363},
-	{id = "bar of chocolate", chance = 207},
-	{id = "costume bag (retro)", chance = 155},
-	{id = "ferumbras' candy hat", chance = 52},
-	{id = "toy mouse", chance = 52}
+	{id = "stuffed dragon", chance = 207}
 }
 
 mType:register(monster)

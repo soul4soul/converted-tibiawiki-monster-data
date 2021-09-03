@@ -1,4 +1,5 @@
-﻿<monster name="Countess Sorrow" nameDescription="" experience="13000" speed="400" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Countess Sorrow" nameDescription="" experience="13000" speed="400" manacost="0">
 	<health now="6500" max="6500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="100" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
@@ -54,16 +56,16 @@
 		<voice sentence="Dreams can come true. As my dream of killing you." yell="false" />
 	</voices>
 	<loot>
-		<item id="countess sorrow's frozen tear" chance="100000" />
-		<item id="soul orb" chance="87179" />
-		<item id="gold coin" chance="84615" countmax="169" />
-		<item id="platinum coin" chance="61538" countmax="4" />
-		<item id="worn leather boots" chance="43590" />
-		<item id="blue robe" chance="30769" />
-		<item id="demonic essence" chance="30769" />
-		<item id="protection amulet" chance="28205" />
-		<item id="silver mace" chance="20513" />
-		<item id="plate legs" chance="10256" />
-		<item id="stealth ring" chance="5128" />
+		<item name="countess sorrow's frozen tear" chance="100000" />
+		<item name="soul orb" chance="87179" />
+		<item name="gold coin" chance="84615" countmax="169" />
+		<item name="platinum coin" chance="61538" countmax="4" />
+		<item name="worn leather boots" chance="43590" />
+		<item name="blue robe" chance="30769" />
+		<item name="demonic essence" chance="30769" />
+		<item name="protection amulet" chance="28205" />
+		<item name="silver mace" chance="20513" />
+		<item name="plate legs" chance="10256" />
+		<item name="stealth ring" chance="5128" />
 	</loot>
 </monster>

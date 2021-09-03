@@ -1,6 +1,7 @@
-﻿<monster name="Dwarf Guard" nameDescription="a dwarf guard" experience="165" speed="206" manacost="650">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dwarf Guard" nameDescription="a dwarf guard" experience="165" speed="206" manacost="650">
 	<health now="245" max="245" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="70" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -46,31 +48,18 @@
 		<voice sentence="Hail Durin!" yell="false" />
 	</voices>
 	<loot>
-		<item id="white mushroom" chance="55259" countmax="2" />
-		<item id="leather boots" chance="40053" />
-		<item id="gold coin" chance="39986" countmax="30" />
-		<item id="scale armor" chance="9015" />
-		<item id="battle shield" chance="6020" />
-		<item id="battle hammer" chance="3852" />
-		<item id="steel helmet" chance="1546" />
-		<item id="double axe" chance="592" />
-		<item id="iron ore" chance="483" />
-		<item id="health potion" chance="395" />
-		<item id="axe ring" chance="199" />
-		<item id="coal" chance="193" />
-		<item id="small amethyst" chance="121" />
-		<item id="white mushroom" chance="11720" countmax="2" />
-		<item id="gold coin" chance="8634" countmax="30" />
-		<item id="leather boots" chance="8474" />
-		<item id="scale armor" chance="2002" />
-		<item id="battle shield" chance="1307" />
-		<item id="battle hammer" chance="863" />
-		<item id="steel helmet" chance="317" />
-		<item id="double axe" chance="118" />
-		<item id="iron ore" chance="118" />
-		<item id="health potion" chance="103" />
-		<item id="axe ring" chance="60" />
-		<item id="small amethyst" chance="9" />
-		<item id="coal" chance="3" />
+		<item name="white mushroom" chance="55257" countmax="2" />
+		<item name="leather boots" chance="40053" />
+		<item name="gold coin" chance="39986" countmax="30" />
+		<item name="scale armor" chance="9016" />
+		<item name="battle shield" chance="6019" />
+		<item name="battle hammer" chance="3852" />
+		<item name="steel helmet" chance="1545" />
+		<item name="double axe" chance="592" />
+		<item name="iron ore" chance="483" />
+		<item name="health potion" chance="395" />
+		<item name="axe ring" chance="199" />
+		<item name="coal" chance="193" />
+		<item name="small amethyst" chance="121" />
 	</loot>
 </monster>

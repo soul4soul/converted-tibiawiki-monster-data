@@ -1,6 +1,7 @@
-﻿<monster name="Mad Scientist" nameDescription="a mad scientist" experience="205" speed="180" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mad Scientist" nameDescription="a mad scientist" experience="205" speed="180" manacost="0">
 	<health now="325" max="325" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="133" head="39" body="0" legs="19" feet="20" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="20" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -51,16 +53,16 @@
 		<voice sentence="I will study your corpse!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="59959" countmax="115" />
-		<item id="health potion" chance="19914" />
-		<item id="mana potion" chance="19650" />
-		<item id="white mushroom" chance="7998" countmax="3" />
-		<item id="powder herb" chance="6111" />
-		<item id="magic light wand" chance="2034" />
-		<item id="life crystal" chance="2020" />
-		<item id="cookie" chance="1209" countmax="5" />
-		<item id="cream cake" chance="805" />
-		<item id="small enchanted amethyst" chance="501" />
-		<item id="mastermind potion" chance="120" />
+		<item name="gold coin" chance="59979" countmax="115" />
+		<item name="health potion" chance="19929" />
+		<item name="mana potion" chance="19646" />
+		<item name="white mushroom" chance="8009" countmax="3" />
+		<item name="powder herb" chance="6105" />
+		<item name="magic light wand" chance="2032" />
+		<item name="life crystal" chance="2015" />
+		<item name="cookie" chance="1206" countmax="5" />
+		<item name="cream cake" chance="806" />
+		<item name="small enchanted amethyst" chance="500" />
+		<item name="mastermind potion" chance="120" />
 	</loot>
 </monster>

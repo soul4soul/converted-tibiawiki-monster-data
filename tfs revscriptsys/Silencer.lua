@@ -5,7 +5,7 @@ monster.name = "Silencer"
 monster.description = "a silencer"
 monster.experience = 5100
 monster.outfit = {
-	lookType = 0,
+	lookType = 585,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -91,38 +92,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 99708, maxCount = 8},
-	{id = "gold coin", chance = 99416, maxCount = 100},
-	{id = "silencer claws", chance = 15766},
-	{id = "silencer resonating chamber", chance = 9781},
-	{id = "assassin star", chance = 9635, maxCount = 10},
-	{id = "titan axe", chance = 2920},
-	{id = "glorious axe", chance = 2774},
-	{id = "haunted blade", chance = 1606},
-	{id = "dark shield", chance = 1460},
-	{id = "diamond sceptre", chance = 1460},
-	{id = "stealth ring", chance = 1314},
-	{id = "shadow sceptre", chance = 730},
-	{id = "terra boots", chance = 730},
-	{id = "cluster of solace", chance = 584},
-	{id = "terra legs", chance = 438},
-	{id = "boots of haste", chance = 292},
-	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "platinum coin", chance = 100000, maxCount = 8},
-	{id = "silencer claws", chance = 100000},
-	{id = "silencer resonating chamber", chance = 100000},
-	{id = "assassin star", chance = 100000, maxCount = 10},
-	{id = "glorious axe", chance = 100000},
-	{id = "haunted blade", chance = 100000},
-	{id = "titan axe", chance = 100000},
-	{id = "dark shield", chance = 100000},
-	{id = "stealth ring", chance = 100000},
-	{id = "diamond sceptre", chance = 81460},
-	{id = "terra boots", chance = 75912},
-	{id = "terra legs", chance = 69781},
-	{id = "shadow sceptre", chance = 62336},
-	{id = "cluster of solace", chance = 39562},
-	{id = "boots of haste", chance = 38102}
+	{id = "platinum coin", chance = 99718, maxCount = 8},
+	{id = "gold coin", chance = 99437, maxCount = 100},
+	{id = "silencer claws", chance = 15915},
+	{id = "assassin star", chance = 9859, maxCount = 10},
+	{id = "silencer resonating chamber", chance = 9859},
+	{id = "glorious axe", chance = 2817},
+	{id = "titan axe", chance = 2817},
+	{id = "haunted blade", chance = 1690},
+	{id = "dark shield", chance = 1408},
+	{id = "diamond sceptre", chance = 1408},
+	{id = "stealth ring", chance = 1408},
+	{id = "shadow sceptre", chance = 845},
+	{id = "terra boots", chance = 704},
+	{id = "cluster of solace", chance = 563},
+	{id = "terra legs", chance = 423},
+	{id = "boots of haste", chance = 282}
 }
 
 mType:register(monster)

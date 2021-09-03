@@ -1,4 +1,5 @@
-﻿<monster name="Tazhadur" nameDescription="" experience="9000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tazhadur" nameDescription="" experience="9000" speed="0" manacost="0">
 	<health now="10000" max="10000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="80" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -45,21 +47,21 @@
 		<defense name="healing" interval="2000" chance="20" min="120" max="202" />
 	</defenses>
 	<loot>
-		<item id="dragon blood" chance="100000" />
-		<item id="dragon tongue" chance="100000" />
-		<item id="green dragon scale" chance="100000" />
-		<item id="tooth of tazhadur" chance="100000" />
-		<item id="green dragon leather" chance="98551" />
-		<item id="gold coin" chance="91304" countmax="99" />
-		<item id="dragon ham" chance="38647" />
-		<item id="double axe" chance="10145" />
-		<item id="dragon necklace" chance="9179" />
-		<item id="dragon shield" chance="4831" />
-		<item id="dragon hammer" chance="3865" />
-		<item id="wand of inferno" chance="2899" />
-		<item id="dragon scale mail" chance="2415" />
-		<item id="strong health potion" chance="1932" />
-		<item id="dragonbone staff" chance="483" />
-		<item id="small diamond" chance="483" />
+		<item name="dragon blood" chance="100000" />
+		<item name="dragon tongue" chance="100000" />
+		<item name="green dragon scale" chance="100000" />
+		<item name="tooth of tazhadur" chance="100000" />
+		<item name="green dragon leather" chance="98551" />
+		<item name="gold coin" chance="91304" countmax="99" />
+		<item name="dragon ham" chance="38647" />
+		<item name="double axe" chance="10145" />
+		<item name="dragon necklace" chance="9179" />
+		<item name="dragon shield" chance="4831" />
+		<item name="dragon hammer" chance="3865" />
+		<item name="wand of inferno" chance="2899" />
+		<item name="dragon scale mail" chance="2415" />
+		<item name="strong health potion" chance="1932" />
+		<item name="dragonbone staff" chance="483" />
+		<item name="small diamond" chance="483" />
 	</loot>
 </monster>

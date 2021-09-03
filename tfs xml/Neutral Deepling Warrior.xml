@@ -1,4 +1,5 @@
-﻿<monster name="Neutral Deepling Warrior" nameDescription="a neutral deepling warrior" experience="1500" speed="290" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Neutral Deepling Warrior" nameDescription="a neutral deepling warrior" experience="1500" speed="290" manacost="0">
 	<health now="1600" max="1600" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -45,6 +47,6 @@
 		<defense name="healing" interval="2000" chance="20" min="115" max="195" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="114" />
+		<item name="gold coin" chance="100000" countmax="114" />
 	</loot>
 </monster>

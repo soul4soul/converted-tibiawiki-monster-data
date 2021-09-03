@@ -5,10 +5,10 @@ monster.name = "Energetic Book"
 monster.description = "an energetic book"
 monster.experience = 12034
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
+	lookType = 1061,
+	lookHead = 15,
+	lookBody = 91,
+	lookLegs = 85,
 	lookFeet = 0,
 	lookAddons = 0,
 	lookMount = 0
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -85,26 +86,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 75042, maxCount = 35},
-	{id = "glowing rune", chance = 60000, maxCount = 6},
-	{id = "book page", chance = 45155, maxCount = 8},
-	{id = "ultimate mana potion", chance = 15087},
-	{id = "silken bookmark", chance = 12676},
-	{id = "ultimate health potion", chance = 11312},
-	{id = "energy ball", chance = 11008},
-	{id = "lightning headband", chance = 3093},
-	{id = "lightning pendant", chance = 2714},
-	{id = "lightning legs", chance = 1759},
-	{id = "wand of defiance", chance = 1713},
-	{id = "might ring", chance = 1653},
-	{id = "lightning boots", chance = 1456},
-	{id = "spellweaver's robe", chance = 910},
-	{id = "haunted blade", chance = 637},
-	{id = "glowing rune", chance = 30, maxCount = 8},
-	{id = "platinum coin", chance = 30, maxCount = 30},
-	{id = "book page", chance = 15, maxCount = 5},
-	{id = "energy ball", chance = 15},
-	{id = "silken bookmark", chance = 15}
+	{id = "platinum coin", chance = 75117, maxCount = 35},
+	{id = "glowing rune", chance = 60198, maxCount = 6},
+	{id = "book page", chance = 45252, maxCount = 8},
+	{id = "ultimate mana potion", chance = 15153},
+	{id = "silken bookmark", chance = 12731},
+	{id = "ultimate health potion", chance = 11382},
+	{id = "energy ball", chance = 11079},
+	{id = "lightning headband", chance = 3097},
+	{id = "lightning pendant", chance = 2711},
+	{id = "wand of defiance", chance = 1734},
+	{id = "lightning legs", chance = 1693},
+	{id = "might ring", chance = 1638},
+	{id = "lightning boots", chance = 1555},
+	{id = "spellweaver's robe", chance = 922},
+	{id = "haunted blade", chance = 606}
 }
 
 mType:register(monster)

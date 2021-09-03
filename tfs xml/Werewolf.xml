@@ -1,6 +1,7 @@
-﻿<monster name="Werewolf" nameDescription="a werewolf" experience="1900" speed="280" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Werewolf" nameDescription="a werewolf" experience="1900" speed="280" manacost="0">
 	<health now="1955" max="1955" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="308" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="75" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -52,43 +54,25 @@
 		<voice sentence="GRROARR" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="98723" countmax="301" />
-		<item id="werewolf fangs" chance="14729" />
-		<item id="werewolf fur" chance="9817" />
-		<item id="plate shield" chance="9591" countmax="2" />
-		<item id="rusted armor" chance="7994" />
-		<item id="brown mushroom" chance="6842" />
-		<item id="wolf paw" chance="5244" />
-		<item id="strong health potion" chance="5173" countmax="2" />
-		<item id="troll green" chance="5030" />
-		<item id="halberd" chance="3070" />
-		<item id="ultimate health potion" chance="1984" />
-		<item id="berserk potion" chance="926" />
-		<item id="stone skin amulet" chance="909" />
-		<item id="platinum amulet" chance="790" />
-		<item id="moonlight crystals" chance="707" />
-		<item id="time ring" chance="606" />
-		<item id="epee" chance="481" />
-		<item id="relic sword" chance="368" />
-		<item id="bonebreaker" chance="279" />
-		<item id="dreaded cleaver" chance="113" />
-		<item id="gold coin" chance="57596" countmax="224" />
-		<item id="werewolf fur" chance="6111" />
-		<item id="plate shield" chance="5915" />
-		<item id="rusted armor" chance="4525" />
-		<item id="brown mushroom" chance="4110" />
-		<item id="strong health potion" chance="2969" />
-		<item id="troll green" chance="2898" />
-		<item id="wolf paw" chance="2619" />
-		<item id="halberd" chance="1758" />
-		<item id="ultimate health potion" chance="1111" />
-		<item id="berserk potion" chance="671" />
-		<item id="stone skin amulet" chance="576" />
-		<item id="platinum amulet" chance="481" />
-		<item id="time ring" chance="445" />
-		<item id="epee" chance="327" />
-		<item id="relic sword" chance="291" />
-		<item id="bonebreaker" chance="243" />
-		<item id="dreaded cleaver" chance="83" />
+		<item name="gold coin" chance="98724" countmax="301" />
+		<item name="werewolf fangs" chance="14731" />
+		<item name="werewolf fur" chance="9817" />
+		<item name="plate shield" chance="9591" countmax="2" />
+		<item name="rusted armor" chance="7989" />
+		<item name="brown mushroom" chance="6849" />
+		<item name="wolf paw" chance="5247" />
+		<item name="strong health potion" chance="5169" countmax="2" />
+		<item name="troll green" chance="5027" />
+		<item name="halberd" chance="3068" />
+		<item name="ultimate health potion" chance="1982" />
+		<item name="berserk potion" chance="926" />
+		<item name="stone skin amulet" chance="908" />
+		<item name="platinum amulet" chance="789" />
+		<item name="moonlight crystals" chance="706" />
+		<item name="time ring" chance="605" />
+		<item name="epee" chance="481" />
+		<item name="relic sword" chance="368" />
+		<item name="bonebreaker" chance="279" />
+		<item name="dreaded cleaver" chance="113" />
 	</loot>
 </monster>

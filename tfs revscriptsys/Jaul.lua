@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -97,15 +98,7 @@ monster.loot = {
 	{id = "deepling axe", chance = 22159},
 	{id = "ornate legs", chance = 21023},
 	{id = "ornate mace", chance = 21023},
-	{id = "ornate chestplate", chance = 14773},
-	{id = "deepling axe", chance = 3409},
-	{id = "ornate legs", chance = 3409},
-	{id = "ornate shield", chance = 2841},
-	{id = "depth galea", chance = 2273},
-	{id = "depth calcei", chance = 1705},
-	{id = "depth lorica", chance = 1136},
-	{id = "ornate chestplate", chance = 1136},
-	{id = "ornate mace", chance = 568}
+	{id = "ornate chestplate", chance = 14773}
 }
 
 mType:register(monster)

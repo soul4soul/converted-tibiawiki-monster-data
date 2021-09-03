@@ -5,7 +5,7 @@ monster.name = "Orc Cultist"
 monster.description = "an orc cultist"
 monster.experience = 950
 monster.outfit = {
-	lookType = 0,
+	lookType = 7,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,15 +87,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 215},
-	{id = "strong health potion", chance = 17425},
-	{id = "orcish axe", chance = 9161},
-	{id = "ham", chance = 8520},
-	{id = "green piece of cloth", chance = 5894},
-	{id = "small topaz", chance = 4356, maxCount = 2},
-	{id = "cultish robe", chance = 3459},
-	{id = "brown crystal splinter", chance = 1986, maxCount = 2},
-	{id = "orc tusk", chance = 1281},
-	{id = "berserk potion", chance = 641}
+	{id = "strong health potion", chance = 17450},
+	{id = "orcish axe", chance = 8900},
+	{id = "ham", chance = 8750},
+	{id = "green piece of cloth", chance = 5600},
+	{id = "small topaz", chance = 4500, maxCount = 2},
+	{id = "cultish robe", chance = 3400},
+	{id = "brown crystal splinter", chance = 2200, maxCount = 2},
+	{id = "orc tusk", chance = 1000},
+	{id = "berserk potion", chance = 650}
 }
 
 mType:register(monster)

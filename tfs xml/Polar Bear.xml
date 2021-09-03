@@ -1,6 +1,7 @@
-﻿<monster name="Polar Bear" nameDescription="a polar bear" experience="28" speed="156" manacost="315">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Polar Bear" nameDescription="a polar bear" experience="28" speed="156" manacost="315">
 	<health now="85" max="85" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="42" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -46,8 +48,8 @@
 		<voice sentence="GROARRR!" yell="false" />
 	</voices>
 	<loot>
-		<item id="meat" chance="50391" />
-		<item id="ham" chance="50161" />
-		<item id="polar bear paw" chance="1026" />
+		<item name="meat" chance="50357" />
+		<item name="ham" chance="50193" />
+		<item name="polar bear paw" chance="1021" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Gloom Wolf" nameDescription="a gloom wolf" experience="70" speed="250" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Gloom Wolf" nameDescription="a gloom wolf" experience="70" speed="250" manacost="0">
 	<health now="200" max="200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="716" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="20" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -47,11 +49,11 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="66646" countmax="15" />
-		<item id="meat" chance="40787" />
-		<item id="ham" chance="39788" />
-		<item id="gloom wolf fur" chance="8307" />
-		<item id="wolf tooth chain" chance="7183" />
-		<item id="wolf paw" chance="2998" />
+		<item name="gold coin" chance="66646" countmax="15" />
+		<item name="meat" chance="40787" />
+		<item name="ham" chance="39788" />
+		<item name="gloom wolf fur" chance="8307" />
+		<item name="wolf tooth chain" chance="7183" />
+		<item name="wolf paw" chance="2998" />
 	</loot>
 </monster>

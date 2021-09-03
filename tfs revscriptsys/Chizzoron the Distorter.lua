@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -96,18 +97,7 @@ monster.loot = {
 	{id = "great health potion", chance = 21875},
 	{id = "dragon scale mail", chance = 15625},
 	{id = "green gem", chance = 12500},
-	{id = "crystal boots", chance = 6250},
-	{id = "gold coin", chance = 18750, maxCount = 75},
-	{id = "great mana potion", chance = 15625, maxCount = 2},
-	{id = "gold ingot", chance = 9375},
-	{id = "small emerald", chance = 9375, maxCount = 3},
-	{id = "blue gem", chance = 6250},
-	{id = "platinum coin", chance = 6250, maxCount = 5},
-	{id = "small topaz", chance = 6250, maxCount = 3},
-	{id = "dragon scale mail", chance = 3125},
-	{id = "green gem", chance = 3125},
-	{id = "lizard scale", chance = 3125},
-	{id = "small diamond", chance = 3125, maxCount = 5}
+	{id = "crystal boots", chance = 6250}
 }
 
 mType:register(monster)

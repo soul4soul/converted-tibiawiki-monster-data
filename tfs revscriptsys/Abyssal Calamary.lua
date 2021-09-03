@@ -5,7 +5,7 @@ monster.name = "Abyssal Calamary"
 monster.description = "an abyssal calamary"
 monster.experience = 200
 monster.outfit = {
-	lookType = 0,
+	lookType = 451,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -85,13 +86,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "fish", chance = 10600},
-	{id = "shrimp", chance = 9763},
-	{id = "black pearl", chance = 1534},
-	{id = "small amethyst", chance = 697, maxCount = 3},
-	{id = "white pearl", chance = 697},
-	{id = "small ruby", chance = 628, maxCount = 3},
-	{id = "small sapphire", chance = 209, maxCount = 3}
+	{id = "fish", chance = 10433},
+	{id = "shrimp", chance = 9733},
+	{id = "black pearl", chance = 1399},
+	{id = "small amethyst", chance = 700, maxCount = 3},
+	{id = "white pearl", chance = 700},
+	{id = "small ruby", chance = 636, maxCount = 3},
+	{id = "small sapphire", chance = 191, maxCount = 3}
 }
 
 mType:register(monster)

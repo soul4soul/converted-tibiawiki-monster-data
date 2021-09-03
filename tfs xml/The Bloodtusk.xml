@@ -1,4 +1,5 @@
-﻿<monster name="The Bloodtusk" nameDescription="" experience="300" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Bloodtusk" nameDescription="" experience="300" speed="0" manacost="0">
 	<health now="600" max="600" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="15" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -43,27 +45,13 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="mammoth tusk" chance="100000" countmax="2" />
-		<item id="platinum coin" chance="100000" countmax="5" />
-		<item id="tusk shield" chance="62500" />
-		<item id="furry club" chance="58750" />
-		<item id="red piece of cloth" chance="56250" />
-		<item id="tusk" chance="43750" countmax="4" />
-		<item id="mammoth fur cape" chance="22500" />
-		<item id="gold coin" chance="65000" countmax="100" />
-		<item id="mammoth tusk" chance="65000" countmax="2" />
-		<item id="platinum coin" chance="65000" countmax="5" />
-		<item id="furry club" chance="51250" />
-		<item id="tusk" chance="43750" countmax="4" />
-		<item id="tusk shield" chance="32500" />
-		<item id="mammoth fur cape" chance="20000" />
-		<item id="gold coin" chance="27500" countmax="96" />
-		<item id="mammoth tusk" chance="27500" countmax="2" />
-		<item id="platinum coin" chance="27500" countmax="5" />
-		<item id="furry club" chance="17500" />
-		<item id="tusk shield" chance="12500" />
-		<item id="mammoth fur cape" chance="8750" />
-		<item id="tusk" chance="8750" countmax="4" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="mammoth tusk" chance="100000" countmax="2" />
+		<item name="platinum coin" chance="100000" countmax="5" />
+		<item name="tusk shield" chance="62500" />
+		<item name="furry club" chance="58750" />
+		<item name="red piece of cloth" chance="56250" />
+		<item name="tusk" chance="43750" countmax="4" />
+		<item name="mammoth fur cape" chance="22500" />
 	</loot>
 </monster>

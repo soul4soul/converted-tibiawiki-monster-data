@@ -1,6 +1,7 @@
-﻿<monster name="Gravedigger" nameDescription="a gravedigger" experience="950" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Gravedigger" nameDescription="a gravedigger" experience="950" speed="240" manacost="0">
 	<health now="1500" max="1500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="558" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="-5" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -53,18 +55,18 @@
 		<voice sentence="Put it there!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="148" />
-		<item id="platinum coin" chance="24710" />
-		<item id="unholy bone" chance="10039" />
-		<item id="safety pin" chance="7191" />
-		<item id="pile of grave earth" chance="7143" />
-		<item id="sudden death rune" chance="5164" countmax="8" />
-		<item id="wand of inferno" chance="4875" />
-		<item id="strong mana potion" chance="2944" countmax="2" />
-		<item id="strong health potion" chance="2703" countmax="2" />
-		<item id="yellow gem" chance="917" />
-		<item id="death ring" chance="676" />
-		<item id="mysterious voodoo skull" chance="241" />
-		<item id="skull staff" chance="145" />
+		<item name="gold coin" chance="100000" countmax="148" />
+		<item name="platinum coin" chance="24710" />
+		<item name="unholy bone" chance="10039" />
+		<item name="safety pin" chance="7191" />
+		<item name="pile of grave earth" chance="7143" />
+		<item name="sudden death rune" chance="5164" countmax="8" />
+		<item name="wand of inferno" chance="4875" />
+		<item name="strong mana potion" chance="2944" countmax="2" />
+		<item name="strong health potion" chance="2703" countmax="2" />
+		<item name="yellow gem" chance="917" />
+		<item name="death ring" chance="676" />
+		<item name="mysterious voodoo skull" chance="241" />
+		<item name="skull staff" chance="145" />
 	</loot>
 </monster>

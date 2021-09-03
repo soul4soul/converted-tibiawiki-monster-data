@@ -1,6 +1,7 @@
-﻿<monster name="Bellicose Orger" nameDescription="a bellicose orger" experience="500" speed="252" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Bellicose Orger" nameDescription="a bellicose orger" experience="500" speed="252" manacost="0">
 	<health now="700" max="700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1255" head="79" body="6" legs="94" feet="2" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,27 +42,17 @@
 	</elements>
 	<defenses armor="35" defense="35" />
 	<loot>
-		<item id="platinum coin" chance="50199" />
-		<item id="leather helmet" chance="13942" />
-		<item id="leather legs" chance="11379" />
-		<item id="energy ring" chance="4201" />
-		<item id="dark armor" chance="3275" />
-		<item id="cape" chance="1253" />
-		<item id="glorious axe" chance="1239" />
-		<item id="dark shield" chance="1182" />
-		<item id="metal spats" chance="1054" />
-		<item id="battle axe" chance="498" />
-		<item id="decorative blue sheet" chance="28" />
-		<item id="decorative green sheet" chance="14" />
-		<item id="platinum coin" chance="26146" />
-		<item id="leather helmet" chance="7533" />
-		<item id="leather legs" chance="5184" />
-		<item id="energy ring" chance="2264" />
-		<item id="dark armor" chance="1752" />
-		<item id="cape" chance="797" />
-		<item id="metal spats" chance="655" />
-		<item id="dark shield" chance="641" />
-		<item id="glorious axe" chance="612" />
-		<item id="battle axe" chance="356" />
+		<item name="platinum coin" chance="50199" />
+		<item name="leather helmet" chance="13942" />
+		<item name="leather legs" chance="11379" />
+		<item name="energy ring" chance="4201" />
+		<item name="dark armor" chance="3275" />
+		<item name="cape" chance="1253" />
+		<item name="glorious axe" chance="1239" />
+		<item name="dark shield" chance="1182" />
+		<item name="metal spats" chance="1054" />
+		<item name="battle axe" chance="498" />
+		<item name="decorative blue sheet" chance="28" />
+		<item name="decorative green sheet" chance="14" />
 	</loot>
 </monster>

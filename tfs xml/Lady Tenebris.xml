@@ -1,4 +1,5 @@
-﻿<monster name="Lady Tenebris" nameDescription="" experience="50000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lady Tenebris" nameDescription="" experience="50000" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="3" />
+		<element energyPercent="3" />
 		<element earthPercent="20" />
 		<element firePercent="5" />
 		<element lifedrainPercent="0" />
@@ -46,42 +48,42 @@
 		<voice sentence="May the embrace of darkness kill you!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="mastermind potion" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="30" />
-		<item id="ring of healing" chance="100000" />
-		<item id="skull staff" chance="98361" />
-		<item id="green crystal shard" chance="70492" countmax="3" />
-		<item id="violet crystal shard" chance="68852" countmax="3" />
-		<item id="blue crystal shard" chance="60656" countmax="3" />
-		<item id="ultimate health potion" chance="57377" countmax="10" />
-		<item id="great mana potion" chance="52459" countmax="10" />
-		<item id="great spirit potion" chance="44262" countmax="10" />
-		<item id="onyx pendant" chance="36066" />
-		<item id="blue gem" chance="27869" />
-		<item id="small topaz" chance="27869" countmax="10" />
-		<item id="gold token" chance="24590" />
-		<item id="giant shimmering pearl" chance="21311" />
-		<item id="silver token" chance="21311" />
-		<item id="small ruby" chance="19672" countmax="10" />
-		<item id="wand of defiance" chance="19672" />
-		<item id="red gem" chance="18033" />
-		<item id="small amethyst" chance="18033" countmax="10" />
-		<item id="small diamond" chance="18033" countmax="10" />
-		<item id="ring of the sky" chance="14754" />
-		<item id="small emerald" chance="14754" countmax="10" />
-		<item id="yellow gem" chance="14754" />
-		<item id="green gem" chance="9836" />
-		<item id="part of a rune" chance="6557" />
-		<item id="violet gem" chance="6557" />
-		<item id="abyss hammer" chance="4918" />
-		<item id="spellbook of warding" chance="4918" />
-		<item id="spellweaver's robe" chance="4918" />
-		<item id="sapphire amulet" chance="3279" />
-		<item id="arcane staff" chance="1639" />
-		<item id="cluster of solace" chance="1639" countmax="2" />
-		<item id="shadow mask" chance="1639" />
-		<item id="shadow paint" chance="1639" />
-		<item id="spellbook of lost souls" chance="1639" />
+		<item name="gold coin" chance="100000" countmax="200" />
+		<item name="mastermind potion" chance="100000" />
+		<item name="platinum coin" chance="100000" countmax="30" />
+		<item name="ring of healing" chance="100000" />
+		<item name="skull staff" chance="98438" />
+		<item name="green crystal shard" chance="68750" countmax="3" />
+		<item name="violet crystal shard" chance="68750" countmax="3" />
+		<item name="blue crystal shard" chance="62500" countmax="3" />
+		<item name="ultimate health potion" chance="54688" countmax="10" />
+		<item name="great mana potion" chance="51562" countmax="10" />
+		<item name="great spirit potion" chance="46875" countmax="10" />
+		<item name="onyx pendant" chance="35938" />
+		<item name="blue gem" chance="28125" />
+		<item name="small topaz" chance="28125" countmax="10" />
+		<item name="gold token" chance="23438" />
+		<item name="giant shimmering pearl" chance="20312" />
+		<item name="silver token" chance="20312" />
+		<item name="red gem" chance="18750" />
+		<item name="small amethyst" chance="18750" countmax="10" />
+		<item name="small diamond" chance="18750" countmax="10" />
+		<item name="small ruby" chance="18750" countmax="10" />
+		<item name="wand of defiance" chance="18750" />
+		<item name="ring of the sky" chance="15625" />
+		<item name="small emerald" chance="14062" countmax="10" />
+		<item name="yellow gem" chance="14062" />
+		<item name="green gem" chance="10938" />
+		<item name="part of a rune" chance="6250" />
+		<item name="violet gem" chance="6250" />
+		<item name="abyss hammer" chance="4688" />
+		<item name="spellbook of warding" chance="4688" />
+		<item name="spellweaver's robe" chance="4688" />
+		<item name="arcane staff" chance="3125" />
+		<item name="sapphire amulet" chance="3125" />
+		<item name="cluster of solace" chance="1562" countmax="2" />
+		<item name="shadow mask" chance="1562" />
+		<item name="shadow paint" chance="1562" />
+		<item name="spellbook of lost souls" chance="1562" />
 	</loot>
 </monster>

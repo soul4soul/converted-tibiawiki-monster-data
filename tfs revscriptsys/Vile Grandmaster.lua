@@ -5,12 +5,12 @@ monster.name = "Vile Grandmaster"
 monster.description = "a vile grandmaster"
 monster.experience = 1500
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 268,
+	lookHead = 59,
+	lookBody = 19,
+	lookLegs = 95,
+	lookFeet = 94,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -93,22 +94,22 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 99924, maxCount = 172},
-	{id = "platinum coin", chance = 73800, maxCount = 2},
-	{id = "meat", chance = 9541},
-	{id = "scroll of heroic deeds", chance = 7682},
-	{id = "great health potion", chance = 6859},
-	{id = "wedding ring", chance = 4862},
-	{id = "small sapphire", chance = 3414},
-	{id = "small ruby", chance = 3368},
-	{id = "small notebook", chance = 2469},
-	{id = "war hammer", chance = 2210},
-	{id = "red piece of cloth", chance = 2119},
-	{id = "crown armor", chance = 1174},
-	{id = "fire sword", chance = 945},
-	{id = "crown legs", chance = 884},
-	{id = "crown helmet", chance = 671},
+	{id = "platinum coin", chance = 73789, maxCount = 2},
+	{id = "meat", chance = 9534},
+	{id = "scroll of heroic deeds", chance = 7722},
+	{id = "great health potion", chance = 6853},
+	{id = "wedding ring", chance = 4858},
+	{id = "small sapphire", chance = 3412},
+	{id = "small ruby", chance = 3366},
+	{id = "small notebook", chance = 2467},
+	{id = "war hammer", chance = 2208},
+	{id = "red piece of cloth", chance = 2117},
+	{id = "crown armor", chance = 1173},
+	{id = "fire sword", chance = 944},
+	{id = "crown legs", chance = 883},
+	{id = "crown helmet", chance = 670},
 	{id = "platinum amulet", chance = 442},
-	{id = "crown shield", chance = 259},
+	{id = "crown shield", chance = 274},
 	{id = "piggy bank", chance = 152}
 }
 

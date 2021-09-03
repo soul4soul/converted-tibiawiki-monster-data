@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -95,17 +96,7 @@ monster.loot = {
 	{id = "medusa shield", chance = 53415},
 	{id = "egg of the many", chance = 36098},
 	{id = "royal helmet", chance = 20488},
-	{id = "knight armor", chance = 10488},
-	{id = "stone skin amulet", chance = 8537},
-	{id = "strong mana potion", chance = 7561, maxCount = 5},
-	{id = "egg of the many", chance = 7073},
-	{id = "medusa shield", chance = 6829},
-	{id = "sacred tree amulet", chance = 6829},
-	{id = "gold ingot", chance = 6098, maxCount = 3},
-	{id = "small sapphire", chance = 6341, maxCount = 5},
-	{id = "warrior helmet", chance = 5854},
-	{id = "royal helmet", chance = 3171},
-	{id = "knight armor", chance = 488}
+	{id = "knight armor", chance = 10488}
 }
 
 mType:register(monster)

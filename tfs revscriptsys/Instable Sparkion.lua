@@ -5,7 +5,7 @@ monster.name = "Instable Sparkion"
 monster.description = "an instable sparkion"
 monster.experience = 1350
 monster.outfit = {
-	lookType = 0,
+	lookType = 877,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -105,24 +106,7 @@ monster.loot = {
 	{id = "energy bar", chance = 4698},
 	{id = "great health potion", chance = 4446},
 	{id = "great spirit potion", chance = 4111},
-	{id = "wand of cosmic energy", chance = 336},
-	{id = "gold coin", chance = 57383, maxCount = 100},
-	{id = "platinum coin", chance = 52685},
-	{id = "blue crystal splinter", chance = 4866},
-	{id = "sparkion claw", chance = 4782},
-	{id = "sparkion legs", chance = 3859},
-	{id = "sparkion tail", chance = 3607},
-	{id = "small sapphire", chance = 3523, maxCount = 2},
-	{id = "energy drink", chance = 3356},
-	{id = "sparkion stings", chance = 3356},
-	{id = "cyan crystal fragment", chance = 3020},
-	{id = "great mana potion", chance = 3020},
-	{id = "blue crystal shard", chance = 2685},
-	{id = "energy bar", chance = 2601},
-	{id = "great health potion", chance = 2181},
-	{id = "great spirit potion", chance = 2097},
-	{id = "wand of cosmic energy", chance = 503},
-	{id = "energy spike sword", chance = 84}
+	{id = "wand of cosmic energy", chance = 336}
 }
 
 mType:register(monster)

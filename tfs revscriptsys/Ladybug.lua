@@ -5,7 +5,7 @@ monster.name = "Ladybug"
 monster.description = "a ladybug"
 monster.experience = 70
 monster.outfit = {
-	lookType = 0,
+	lookType = 448,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,7 +88,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 64860, maxCount = 40}
+	{id = "gold coin", chance = 64862, maxCount = 40}
 }
 
 mType:register(monster)

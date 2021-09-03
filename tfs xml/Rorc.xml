@@ -1,6 +1,7 @@
-﻿<monster name="Rorc" nameDescription="a rorc" experience="105" speed="176" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Rorc" nameDescription="a rorc" experience="105" speed="176" manacost="0">
 	<health now="260" max="260" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="550" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -53,13 +55,13 @@
 		<voice sentence="Krrrooow truaaak kiiiii!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="73507" countmax="35" />
-		<item id="rorc feather" chance="12037" />
-		<item id="hatched rorc egg" chance="10964" />
-		<item id="wolf tooth chain" chance="7947" />
-		<item id="plate shield" chance="6475" />
-		<item id="orcish axe" chance="2058" />
-		<item id="rorc egg" chance="1052" />
-		<item id="obsidian lance" chance="993" />
+		<item name="gold coin" chance="73507" countmax="35" />
+		<item name="rorc feather" chance="12037" />
+		<item name="hatched rorc egg" chance="10964" />
+		<item name="wolf tooth chain" chance="7947" />
+		<item name="plate shield" chance="6475" />
+		<item name="orcish axe" chance="2058" />
+		<item name="rorc egg" chance="1052" />
+		<item name="obsidian lance" chance="993" />
 	</loot>
 </monster>

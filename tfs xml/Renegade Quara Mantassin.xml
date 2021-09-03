@@ -1,6 +1,7 @@
-﻿<monster name="Renegade Quara Mantassin" nameDescription="a renegade quara mantassin" experience="1000" speed="590" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Renegade Quara Mantassin" nameDescription="a renegade quara mantassin" experience="1000" speed="590" manacost="0">
 	<health now="1200" max="1200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="72" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-25" />
+		<element energyPercent="-25" />
 		<element earthPercent="-10" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -40,17 +42,17 @@
 	</elements>
 	<defenses armor="16" defense="16" />
 	<loot>
-		<item id="mantassin tail" chance="13936" />
-		<item id="mind stone" chance="9658" />
-		<item id="shrimp" chance="4156" />
-		<item id="small sapphire" chance="3667" countmax="3" />
-		<item id="ice rapier" chance="2689" />
-		<item id="stealth ring" chance="2628" />
-		<item id="blue crystal shard" chance="1650" />
-		<item id="strange helmet" chance="1284" />
-		<item id="two handed sword" chance="917" />
-		<item id="energy ring" chance="795" />
-		<item id="fish fin" chance="795" />
-		<item id="blue robe" chance="611" />
+		<item name="mantassin tail" chance="13278" />
+		<item name="mind stone" chance="9587" />
+		<item name="shrimp" chance="4187" />
+		<item name="small sapphire" chance="3581" countmax="3" />
+		<item name="ice rapier" chance="2810" />
+		<item name="stealth ring" chance="2700" />
+		<item name="blue crystal shard" chance="1598" />
+		<item name="strange helmet" chance="1267" />
+		<item name="two handed sword" chance="1047" />
+		<item name="blue robe" chance="771" />
+		<item name="energy ring" chance="771" />
+		<item name="fish fin" chance="716" />
 	</loot>
 </monster>

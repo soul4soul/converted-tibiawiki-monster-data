@@ -5,7 +5,7 @@ monster.name = "Orc Cult Fanatic"
 monster.description = "an orc cult fanatic"
 monster.experience = 1100
 monster.outfit = {
-	lookType = 0,
+	lookType = 59,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,20 +87,20 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 135},
-	{id = "fish", chance = 30919},
-	{id = "orc leather", chance = 19317},
-	{id = "brown mushroom", chance = 16019, maxCount = 4},
-	{id = "plate shield", chance = 15371},
-	{id = "skull belt", chance = 12603},
-	{id = "cultish robe", chance = 11190},
-	{id = "great health potion", chance = 10718},
-	{id = "warrior helmet", chance = 10542},
-	{id = "small ruby", chance = 10247, maxCount = 3},
-	{id = "sword ring", chance = 8539},
-	{id = "plate armor", chance = 5300},
-	{id = "plate legs", chance = 4947},
-	{id = "brass legs", chance = 2827},
-	{id = "orc tooth", chance = 1060}
+	{id = "fish", chance = 30671},
+	{id = "orc leather", chance = 19735},
+	{id = "brown mushroom", chance = 15549, maxCount = 4},
+	{id = "plate shield", chance = 15250},
+	{id = "skull belt", chance = 12644},
+	{id = "cultish robe", chance = 10850},
+	{id = "warrior helmet", chance = 10594},
+	{id = "great health potion", chance = 10551},
+	{id = "small ruby", chance = 10508, maxCount = 3},
+	{id = "sword ring", chance = 8458},
+	{id = "plate armor", chance = 5468},
+	{id = "plate legs", chance = 4400},
+	{id = "brass legs", chance = 2648},
+	{id = "orc tooth", chance = 1111}
 }
 
 mType:register(monster)

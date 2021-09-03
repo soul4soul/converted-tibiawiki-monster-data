@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -85,15 +86,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "dagger", chance = 71429},
-	{id = "crystal coin", chance = 57143},
-	{id = "fire sword", chance = 14286},
-	{id = "gold ingot", chance = 14286},
-	{id = "knight armor", chance = 14286},
-	{id = "lightning headband", chance = 14286},
-	{id = "sacred tree amulet", chance = 14286},
-	{id = "springsprout rod", chance = 14286},
-	{id = "terra boots", chance = 14286}
+	{id = "crystal coin", chance = 55556},
+	{id = "dagger", chance = 55556},
+	{id = "fire sword", chance = 11111},
+	{id = "gold ingot", chance = 11111},
+	{id = "knight armor", chance = 11111},
+	{id = "lightning headband", chance = 11111},
+	{id = "onyx chip", chance = 11111},
+	{id = "sacred tree amulet", chance = 11111},
+	{id = "springsprout rod", chance = 11111},
+	{id = "terra boots", chance = 11111},
+	{id = "terra rod", chance = 11111}
 }
 
 mType:register(monster)

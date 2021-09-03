@@ -1,6 +1,7 @@
-﻿<monster name="Emerald Damselfly" nameDescription="an emerald damselfly" experience="35" speed="200" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Emerald Damselfly" nameDescription="an emerald damselfly" experience="35" speed="200" manacost="0">
 	<health now="90" max="90" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="528" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,12 +50,12 @@
 		<voice sentence="Bzzzzz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="90901" countmax="18" />
-		<item id="damselfly wing" chance="11823" />
-		<item id="damselfly eye" chance="9992" />
-		<item id="arrow" chance="7544" countmax="5" />
-		<item id="rope" chance="5027" />
-		<item id="health potion" chance="3590" />
-		<item id="mana potion" chance="3562" />
+		<item name="gold coin" chance="90901" countmax="18" />
+		<item name="damselfly wing" chance="11823" />
+		<item name="damselfly eye" chance="9992" />
+		<item name="arrow" chance="7544" countmax="5" />
+		<item name="rope" chance="5027" />
+		<item name="health potion" chance="3590" />
+		<item name="mana potion" chance="3562" />
 	</loot>
 </monster>

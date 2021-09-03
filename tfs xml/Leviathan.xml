@@ -1,4 +1,5 @@
-﻿<monster name="Leviathan" nameDescription="" experience="5000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Leviathan" nameDescription="" experience="5000" speed="0" manacost="0">
 	<health now="6000" max="6000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-15" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="0" />
 		<element firePercent="30" />
 		<element lifedrainPercent="0" />
@@ -47,25 +49,15 @@
 		<voice sentence="HISSSS" yell="false" />
 	</voices>
 	<loot>
-		<item id="leviathan's amulet" chance="100000" />
-		<item id="sea serpent trophy" chance="100000" />
-		<item id="rusted armor" chance="84211" />
-		<item id="platinum coin" chance="83459" countmax="7" />
-		<item id="rusted legs" chance="82707" />
-		<item id="bonebreaker" chance="53383" />
-		<item id="strong mana potion" chance="50376" />
-		<item id="small sapphire" chance="49624" countmax="5" />
-		<item id="moon backpack" chance="15789" />
-		<item id="frozen plate" chance="752" />
-		<item id="leviathan's amulet" chance="80451" />
-		<item id="sea serpent trophy" chance="80451" />
-		<item id="platinum coin" chance="70677" countmax="7" />
-		<item id="rusted legs" chance="65414" />
-		<item id="rusted armor" chance="63910" />
-		<item id="small sapphire" chance="40602" countmax="5" />
-		<item id="bonebreaker" chance="39098" />
-		<item id="strong mana potion" chance="39098" />
-		<item id="moon backpack" chance="10526" />
-		<item id="frozen plate" chance="1504" />
+		<item name="leviathan's amulet" chance="100000" />
+		<item name="sea serpent trophy" chance="100000" />
+		<item name="rusted armor" chance="84211" />
+		<item name="platinum coin" chance="83459" countmax="7" />
+		<item name="rusted legs" chance="82707" />
+		<item name="bonebreaker" chance="53383" />
+		<item name="strong mana potion" chance="50376" />
+		<item name="small sapphire" chance="49624" countmax="5" />
+		<item name="moon backpack" chance="15789" />
+		<item name="frozen plate" chance="752" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Dragon Hatchling"
 monster.description = "a dragon hatchling"
 monster.experience = 185
 monster.outfit = {
-	lookType = 0,
+	lookType = 271,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -89,10 +90,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 81586, maxCount = 55},
-	{id = "dragon ham", chance = 74070},
-	{id = "dragon's tail", chance = 4630},
-	{id = "health potion", chance = 466}
+	{id = "gold coin", chance = 81597, maxCount = 55},
+	{id = "dragon ham", chance = 74093},
+	{id = "dragon's tail", chance = 4625},
+	{id = "health potion", chance = 465}
 }
 
 mType:register(monster)

@@ -1,6 +1,7 @@
-﻿<monster name="Crab" nameDescription="a crab" experience="30" speed="144" manacost="305">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Crab" nameDescription="a crab" experience="30" speed="144" manacost="305">
 	<health now="55" max="55" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="112" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -43,8 +45,8 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
-		<item id="gold coin" chance="80137" countmax="10" />
-		<item id="crab pincers" chance="20122" />
-		<item id="fish" chance="20036" />
+		<item name="gold coin" chance="80078" countmax="10" />
+		<item name="crab pincers" chance="20147" />
+		<item name="fish" chance="20008" />
 	</loot>
 </monster>

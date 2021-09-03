@@ -5,7 +5,7 @@ monster.name = "Orc Marauder"
 monster.description = "an orc marauder"
 monster.experience = 205
 monster.outfit = {
-	lookType = 0,
+	lookType = 342,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,17 +89,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 55155, maxCount = 90},
-	{id = "meat", chance = 24640},
-	{id = "shaggy tail", chance = 9998},
-	{id = "bow", chance = 5235},
-	{id = "broken crossbow", chance = 4979},
-	{id = "orc leather", chance = 3980},
-	{id = "orc tooth", chance = 3900},
-	{id = "orcish axe", chance = 1351},
-	{id = "obsidian lance", chance = 1079},
-	{id = "crossbow", chance = 472},
-	{id = "silkweaver bow", chance = 56}
+	{id = "gold coin", chance = 55127, maxCount = 90},
+	{id = "meat", chance = 24668},
+	{id = "shaggy tail", chance = 9968},
+	{id = "bow", chance = 5227},
+	{id = "broken crossbow", chance = 4964},
+	{id = "orc leather", chance = 3961},
+	{id = "orc tooth", chance = 3899},
+	{id = "orcish axe", chance = 1359},
+	{id = "obsidian lance", chance = 1096},
+	{id = "crossbow", chance = 463},
+	{id = "silkweaver bow", chance = 62}
 }
 
 mType:register(monster)

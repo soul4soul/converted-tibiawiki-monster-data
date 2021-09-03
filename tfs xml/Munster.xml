@@ -1,4 +1,5 @@
-﻿<monster name="Munster" nameDescription="" experience="35" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Munster" nameDescription="" experience="35" speed="0" manacost="0">
 	<health now="58" max="58" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -50,10 +52,11 @@
 		<voice name="rat" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="bone club" chance="85000" />
-		<item id="gold coin" chance="80000" countmax="24" />
-		<item id="cheese" chance="64000" />
-		<item id="worm" chance="51000" countmax="4" />
-		<item id="cookie" chance="1000" countmax="2" />
+		<item name="bone club" chance="85047" />
+		<item name="gold coin" chance="79439" countmax="24" />
+		<item name="cheese" chance="65421" />
+		<item name="worm" chance="50467" countmax="4" />
+		<item name="cookie" chance="935" countmax="2" />
+		<item name="die" chance="935" />
 	</loot>
 </monster>

@@ -1,4 +1,5 @@
-﻿<monster name="Hirintror" nameDescription="" experience="800" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Hirintror" nameDescription="" experience="800" speed="0" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-1" />
+		<element energyPercent="-1" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -50,21 +52,21 @@
 		<voice sentence="Chrrk! Krk!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="85714" countmax="60" />
-		<item id="strong mana potion" chance="71429" countmax="3" />
-		<item id="platinum coin" chance="57143" countmax="2" />
-		<item id="frosty heart" chance="42857" />
-		<item id="glacier mask" chance="28571" />
-		<item id="glacier shoes" chance="28571" />
-		<item id="small sapphire" chance="28571" />
-		<item id="strange helmet" chance="28571" />
-		<item id="black pearl" chance="14286" />
-		<item id="blue piece of cloth" chance="28571" />
-		<item id="crystal sword" chance="28571" />
-		<item id="ice cube" chance="14286" />
-		<item id="ice rapier" chance="14286" />
-		<item id="shard" chance="14286" />
-		<item id="small diamond" chance="28571" countmax="5" />
-		<item id="strong health potion" chance="28571" countmax="3" />
+		<item name="gold coin" chance="85714" countmax="60" />
+		<item name="strong mana potion" chance="71429" countmax="3" />
+		<item name="platinum coin" chance="57143" countmax="2" />
+		<item name="frosty heart" chance="42857" />
+		<item name="glacier mask" chance="28571" />
+		<item name="glacier shoes" chance="28571" />
+		<item name="small sapphire" chance="28571" />
+		<item name="strange helmet" chance="28571" />
+		<item name="black pearl" chance="14286" />
+		<item name="blue piece of cloth" chance="28571" />
+		<item name="crystal sword" chance="28571" />
+		<item name="ice cube" chance="14286" />
+		<item name="ice rapier" chance="14286" />
+		<item name="shard" chance="14286" />
+		<item name="small diamond" chance="28571" countmax="5" />
+		<item name="strong health potion" chance="28571" countmax="3" />
 	</loot>
 </monster>

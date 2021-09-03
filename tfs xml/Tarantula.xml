@@ -1,6 +1,7 @@
-﻿<monster name="Tarantula" nameDescription="a tarantula" experience="120" speed="214" manacost="485">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tarantula" nameDescription="a tarantula" experience="120" speed="214" manacost="485">
 	<health now="225" max="225" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="219" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
@@ -47,19 +49,12 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="79125" countmax="40" />
-		<item id="tarantula egg" chance="9942" />
-		<item id="spider fangs" chance="4801" />
-		<item id="brass legs" chance="3002" />
-		<item id="plate shield" chance="1970" />
-		<item id="steel helmet" chance="923" />
-		<item id="time ring" chance="116" />
-		<item id="gold coin" chance="25072" countmax="40" />
-		<item id="tarantula egg" chance="3305" />
-		<item id="brass legs" chance="894" />
-		<item id="plate shield" chance="626" />
-		<item id="steel helmet" chance="308" />
-		<item id="time ring" chance="50" />
-		<item id="spider fangs" chance="14" />
+		<item name="gold coin" chance="79127" countmax="40" />
+		<item name="tarantula egg" chance="9939" />
+		<item name="spider fangs" chance="4800" />
+		<item name="brass legs" chance="3003" />
+		<item name="plate shield" chance="1970" />
+		<item name="steel helmet" chance="921" />
+		<item name="time ring" chance="116" />
 	</loot>
 </monster>

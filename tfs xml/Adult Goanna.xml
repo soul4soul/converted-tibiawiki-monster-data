@@ -1,6 +1,7 @@
-﻿<monster name="Adult Goanna" nameDescription="an adult goanna" experience="6650" speed="420" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Adult Goanna" nameDescription="an adult goanna" experience="6650" speed="420" manacost="0">
 	<health now="8300" max="8300" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1195" head="0" body="0" legs="0" feet="0" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="25" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -47,47 +49,35 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="platinum coin" chance="100000" countmax="3" />
-		<item id="envenomed arrow" chance="55320" countmax="8" />
-		<item id="earth arrow" chance="14216" countmax="30" />
-		<item id="goanna meat" chance="11656" />
-		<item id="emerald bangle" chance="9360" />
-		<item id="small enchanted emerald" chance="8742" />
-		<item id="blue crystal shard" chance="8256" />
-		<item id="terra rod" chance="7947" />
-		<item id="small sapphire" chance="7550" countmax="2" />
-		<item id="red goanna scale" chance="7506" />
-		<item id="green crystal splinter" chance="6711" />
-		<item id="terra hood" chance="6667" />
-		<item id="terra amulet" chance="5784" />
-		<item id="goanna claw" chance="4503" />
-		<item id="yellow gem" chance="3797" />
-		<item id="silver brooch" chance="3664" />
-		<item id="scared frog" chance="3355" />
-		<item id="green gem" chance="2870" />
-		<item id="serpent sword" chance="2517" />
-		<item id="onyx chip" chance="2296" />
-		<item id="opal" chance="2208" countmax="2" />
-		<item id="sacred tree amulet" chance="1943" />
-		<item id="wood cape" chance="1589" />
-		<item id="small amethyst" chance="1545" />
-		<item id="fur armor" chance="1325" />
-		<item id="lizard heart" chance="1325" />
-		<item id="small tortoise" chance="1104" />
-		<item id="white pearl" chance="1104" />
-		<item id="coral brooch" chance="839" />
-		<item id="gemmed figurine" chance="795" />
-		<item id="platinum coin" chance="2870" countmax="3" />
-		<item id="envenomed arrow" chance="1678" countmax="8" />
-		<item id="earth arrow" chance="397" countmax="26" />
-		<item id="goanna meat" chance="397" />
-		<item id="red goanna scale" chance="309" />
-		<item id="goanna claw" chance="265" />
-		<item id="terra rod" chance="221" />
-		<item id="poison dagger" chance="132" />
-		<item id="terra hood" chance="88" />
-		<item id="fur armor" chance="44" />
-		<item id="serpent sword" chance="44" />
-		<item id="terra amulet" chance="44" />
+		<item name="platinum coin" chance="100000" countmax="3" />
+		<item name="envenomed arrow" chance="55330" countmax="8" />
+		<item name="earth arrow" chance="14286" countmax="30" />
+		<item name="goanna meat" chance="11480" />
+		<item name="emerald bangle" chance="9581" />
+		<item name="small enchanted emerald" chance="8761" />
+		<item name="blue crystal shard" chance="8157" />
+		<item name="terra rod" chance="7812" />
+		<item name="small sapphire" chance="7596" countmax="2" />
+		<item name="red goanna scale" chance="7553" />
+		<item name="green crystal splinter" chance="6690" />
+		<item name="terra hood" chance="6603" />
+		<item name="terra amulet" chance="5826" />
+		<item name="goanna claw" chance="4575" />
+		<item name="yellow gem" chance="3798" />
+		<item name="silver brooch" chance="3625" />
+		<item name="scared frog" chance="3280" />
+		<item name="green gem" chance="3021" />
+		<item name="serpent sword" chance="2633" />
+		<item name="onyx chip" chance="2244" />
+		<item name="opal" chance="2158" countmax="2" />
+		<item name="sacred tree amulet" chance="1942" />
+		<item name="wood cape" chance="1597" />
+		<item name="small amethyst" chance="1511" />
+		<item name="fur armor" chance="1338" />
+		<item name="lizard heart" chance="1295" />
+		<item name="small tortoise" chance="1079" />
+		<item name="white pearl" chance="1079" />
+		<item name="coral brooch" chance="906" />
+		<item name="gemmed figurine" chance="820" />
 	</loot>
 </monster>

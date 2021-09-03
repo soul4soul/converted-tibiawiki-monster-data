@@ -1,6 +1,7 @@
-﻿<monster name="Leaf Golem" nameDescription="a leaf golem" experience="45" speed="136" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Leaf Golem" nameDescription="a leaf golem" experience="45" speed="136" manacost="0">
 	<health now="90" max="90" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="567" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="40" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -47,11 +49,11 @@
 		<voice sentence="*swwwwishhhh*" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="87489" countmax="27" />
-		<item id="fir cone" chance="14921" />
-		<item id="dowser" chance="12201" />
-		<item id="swampling club" chance="5140" />
-		<item id="white mushroom" chance="4917" countmax="3" />
-		<item id="small emerald" chance="948" />
+		<item name="gold coin" chance="87489" countmax="27" />
+		<item name="fir cone" chance="14921" />
+		<item name="dowser" chance="12201" />
+		<item name="swampling club" chance="5140" />
+		<item name="white mushroom" chance="4917" countmax="3" />
+		<item name="small emerald" chance="948" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Weakened Frazzlemaw" nameDescription="a weakened frazzlemaw" experience="1000" speed="300" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Weakened Frazzlemaw" nameDescription="a weakened frazzlemaw" experience="1000" speed="300" manacost="0">
 	<health now="1200" max="1200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="594" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="5" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="20" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -51,43 +53,24 @@
 		<voice sentence="Mmmwhamwhamwhah, mwaaah!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="100" />
-		<item id="platinum coin" chance="60459" />
-		<item id="fairy wings" chance="15156" />
-		<item id="skull" chance="12113" />
-		<item id="frazzle tongue" chance="11636" />
-		<item id="frazzle skin" chance="10263" />
-		<item id="great mana potion" chance="9902" countmax="3" />
-		<item id="bone" chance="9894" />
-		<item id="great health potion" chance="9838" countmax="2" />
-		<item id="remains of a fish" chance="9762" />
-		<item id="fish" chance="6407" countmax="3" />
-		<item id="ham" chance="5994" />
-		<item id="big bone" chance="5362" />
-		<item id="fish fin" chance="5165" />
-		<item id="piece of iron" chance="4881" />
-		<item id="iron ore" chance="2707" />
-		<item id="nightmare blade" chance="344" />
-		<item id="sai" chance="296" />
-		<item id="cluster of solace" chance="188" />
-		<item id="gold coin" chance="3924" countmax="100" />
-		<item id="platinum coin" chance="2386" />
-		<item id="fairy wings" chance="581" />
-		<item id="skull" chance="468" />
-		<item id="frazzle tongue" chance="452" />
-		<item id="bone" chance="420" />
-		<item id="remains of a fish" chance="420" />
-		<item id="great mana potion" chance="408" countmax="3" />
-		<item id="frazzle skin" chance="400" />
-		<item id="great health potion" chance="320" countmax="2" />
-		<item id="ham" chance="244" />
-		<item id="piece of iron" chance="220" />
-		<item id="fish" chance="216" countmax="3" />
-		<item id="big bone" chance="212" />
-		<item id="fish fin" chance="212" />
-		<item id="iron ore" chance="104" />
-		<item id="sai" chance="60" />
-		<item id="nightmare blade" chance="20" />
-		<item id="cluster of solace" chance="4" />
+		<item name="gold coin" chance="100000" countmax="100" />
+		<item name="platinum coin" chance="60452" />
+		<item name="fairy wings" chance="15173" />
+		<item name="skull" chance="12099" />
+		<item name="frazzle tongue" chance="11622" />
+		<item name="frazzle skin" chance="10247" />
+		<item name="great mana potion" chance="9904" countmax="3" />
+		<item name="bone" chance="9872" />
+		<item name="great health potion" chance="9845" countmax="2" />
+		<item name="remains of a fish" chance="9766" />
+		<item name="fish" chance="6400" countmax="3" />
+		<item name="ham" chance="6002" />
+		<item name="big bone" chance="5352" />
+		<item name="fish fin" chance="5159" />
+		<item name="piece of iron" chance="4875" />
+		<item name="iron ore" chance="2704" />
+		<item name="nightmare blade" chance="347" />
+		<item name="sai" chance="292" />
+		<item name="cluster of solace" chance="185" />
 	</loot>
 </monster>

@@ -1,6 +1,7 @@
-﻿<monster name="Shaburak Lord" nameDescription="a shaburak lord" experience="1200" speed="240" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shaburak Lord" nameDescription="a shaburak lord" experience="1200" speed="240" manacost="0">
 	<health now="2100" max="2100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="409" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="65" />
+		<element energyPercent="65" />
 		<element earthPercent="-20" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -52,17 +54,17 @@
 		<voice sentence="ONLY WE ARE TRUE DEMONS!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="96063" countmax="178" />
-		<item id="platinum coin" chance="33824" countmax="2" />
-		<item id="strong health potion" chance="6847" />
-		<item id="strong mana potion" chance="6744" />
-		<item id="small ruby" chance="6265" countmax="5" />
-		<item id="brown mushroom" chance="5135" />
-		<item id="energy ring" chance="1404" />
-		<item id="wand of inferno" chance="890" />
-		<item id="magic sulphur" chance="514" />
-		<item id="bullseye potion" chance="342" />
-		<item id="steel boots" chance="137" />
-		<item id="magma coat" chance="103" />
+		<item name="gold coin" chance="96063" countmax="178" />
+		<item name="platinum coin" chance="33824" countmax="2" />
+		<item name="strong health potion" chance="6847" />
+		<item name="strong mana potion" chance="6744" />
+		<item name="small ruby" chance="6265" countmax="5" />
+		<item name="brown mushroom" chance="5135" />
+		<item name="energy ring" chance="1404" />
+		<item name="wand of inferno" chance="890" />
+		<item name="magic sulphur" chance="514" />
+		<item name="bullseye potion" chance="342" />
+		<item name="steel boots" chance="137" />
+		<item name="magma coat" chance="103" />
 	</loot>
 </monster>

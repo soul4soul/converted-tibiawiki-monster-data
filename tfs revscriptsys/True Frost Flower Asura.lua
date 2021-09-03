@@ -5,11 +5,11 @@ monster.name = "True Frost Flower Asura"
 monster.description = "a true frost flower asura"
 monster.experience = 7069
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
+	lookType = 1068,
+	lookHead = 9,
 	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookLegs = 86,
+	lookFeet = 9,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -116,39 +117,7 @@ monster.loot = {
 	{id = "assassin dagger", chance = 1166},
 	{id = "hailstorm rod", chance = 1166},
 	{id = "crystal ring", chance = 1036},
-	{id = "oriental shoes", chance = 907},
-	{id = "gold coin", chance = 21503, maxCount = 199},
-	{id = "platinum coin", chance = 21503, maxCount = 8},
-	{id = "golden lotus brooch", chance = 5959},
-	{id = "flask of demonic blood", chance = 4663},
-	{id = "soul orb", chance = 4404},
-	{id = "peacock feather fan", chance = 4145},
-	{id = "great health potion", chance = 2850, maxCount = 2},
-	{id = "small diamond", chance = 2720, maxCount = 3},
-	{id = "small sapphire", chance = 2720, maxCount = 3},
-	{id = "crystal coin", chance = 2461},
-	{id = "demonic essence", chance = 2332},
-	{id = "small ruby", chance = 2332, maxCount = 2},
-	{id = "small topaz", chance = 2332, maxCount = 2},
-	{id = "assassin star", chance = 2073, maxCount = 5},
-	{id = "silver brooch", chance = 2073},
-	{id = "small enchanted sapphire", chance = 2073, maxCount = 3},
-	{id = "small emerald", chance = 1943, maxCount = 2},
-	{id = "white pearl", chance = 1425, maxCount = 2},
-	{id = "black pearl", chance = 1295, maxCount = 2},
-	{id = "royal star", chance = 1295, maxCount = 3},
-	{id = "yellow gem", chance = 907},
-	{id = "blue gem", chance = 648},
-	{id = "hailstorm rod", chance = 648},
-	{id = "gold ingot", chance = 518},
-	{id = "skullcracker armor", chance = 518},
-	{id = "assassin dagger", chance = 389},
-	{id = "blue robe", chance = 389},
-	{id = "northwind rod", chance = 389},
-	{id = "oriental shoes", chance = 259},
-	{id = "tribal mask", chance = 259},
-	{id = "silver amulet", chance = 130},
-	{id = "spellbook of mind control", chance = 130}
+	{id = "oriental shoes", chance = 907}
 }
 
 mType:register(monster)

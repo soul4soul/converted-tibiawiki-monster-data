@@ -1,6 +1,7 @@
-﻿<monster name="Cobra Assassin" nameDescription="a cobra assassin" experience="6980" speed="280" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Cobra Assassin" nameDescription="a cobra assassin" experience="6980" speed="280" manacost="0">
 	<health now="8200" max="8200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1217" head="2" body="2" legs="77" feet="19" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -48,70 +50,21 @@
 		<voice sentence="You will not leave this place breathing!" yell="false" />
 	</voices>
 	<loot>
-		<item id="platinum coin" chance="71247" countmax="9" />
-		<item id="opal" chance="31637" countmax="5" />
-		<item id="small emerald" chance="28244" countmax="3" />
-		<item id="knife" chance="23325" />
-		<item id="cobra crest" chance="15691" />
-		<item id="scimitar" chance="15013" />
-		<item id="protection amulet" chance="12892" />
-		<item id="bone sword" chance="9839" />
-		<item id="heavy machete" chance="7973" />
-		<item id="green crystal shard" chance="7379" />
-		<item id="carlin sword" chance="5089" />
-		<item id="machete" chance="5089" />
-		<item id="gold ingot" chance="5004" />
-		<item id="green crystal fragment" chance="3053" />
-		<item id="soul orb" chance="2375" />
-		<item id="red crystal fragment" chance="1103" />
-		<item id="platinum coin" chance="100000" countmax="9" />
-		<item id="opal" chance="100000" countmax="5" />
-		<item id="small emerald" chance="100000" countmax="3" />
-		<item id="knife" chance="83969" />
-		<item id="scimitar" chance="64292" />
-		<item id="cobra crest" chance="56489" />
-		<item id="protection amulet" chance="53774" />
-		<item id="bone sword" chance="37744" />
-		<item id="heavy machete" chance="26293" />
-		<item id="green crystal shard" chance="24427" />
-		<item id="machete" chance="19508" />
-		<item id="carlin sword" chance="16709" />
-		<item id="gold ingot" chance="14928" />
-		<item id="green crystal fragment" chance="13401" />
-		<item id="soul orb" chance="7294" />
-		<item id="red crystal fragment" chance="2714" />
-		<item id="platinum coin" chance="75912" countmax="9" />
-		<item id="opal" chance="35030" countmax="5" />
-		<item id="small emerald" chance="24936" countmax="3" />
-		<item id="knife" chance="23664" />
-		<item id="scimitar" chance="16624" />
-		<item id="cobra crest" chance="14419" />
-		<item id="protection amulet" chance="12807" />
-		<item id="heavy machete" chance="10348" />
-		<item id="bone sword" chance="9075" />
-		<item id="gold ingot" chance="6361" />
-		<item id="green crystal shard" chance="6022" />
-		<item id="machete" chance="5768" />
-		<item id="carlin sword" chance="4919" />
-		<item id="green crystal fragment" chance="3053" />
-		<item id="red crystal fragment" chance="509" />
-		<item id="platinum coin" chance="40204" countmax="3" />
-		<item id="knife" chance="4580" />
-		<item id="scimitar" chance="3732" />
-		<item id="cobra crest" chance="3308" />
-		<item id="heavy machete" chance="3138" />
-		<item id="protection amulet" chance="2799" />
-		<item id="bone sword" chance="2120" />
-		<item id="ring of red plasma" chance="1527" />
-		<item id="carlin sword" chance="933" />
-		<item id="machete" chance="933" />
-		<item id="platinum coin" chance="1612" countmax="3" />
-		<item id="knife" chance="254" />
-		<item id="carlin sword" chance="170" />
-		<item id="heavy machete" chance="170" />
-		<item id="bone sword" chance="85" />
-		<item id="machete" chance="85" />
-		<item id="protection amulet" chance="85" />
-		<item id="scimitar" chance="85" />
+		<item name="platinum coin" chance="72055" countmax="9" />
+		<item name="opal" chance="30957" countmax="5" />
+		<item name="small emerald" chance="28748" countmax="3" />
+		<item name="knife" chance="24029" />
+		<item name="scimitar" chance="18307" />
+		<item name="cobra crest" chance="16499" />
+		<item name="protection amulet" chance="14190" />
+		<item name="bone sword" chance="8601" />
+		<item name="heavy machete" chance="7932" />
+		<item name="green crystal shard" chance="7162" />
+		<item name="machete" chance="5254" />
+		<item name="carlin sword" chance="4987" />
+		<item name="gold ingot" chance="4585" />
+		<item name="green crystal fragment" chance="2644" />
+		<item name="soul orb" chance="2376" />
+		<item name="red crystal fragment" chance="870" />
 	</loot>
 </monster>

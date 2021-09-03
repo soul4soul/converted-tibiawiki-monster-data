@@ -1,6 +1,7 @@
-﻿<monster name="Barkless Fanatic" nameDescription="a barkless fanatic" experience="2500" speed="300" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Barkless Fanatic" nameDescription="a barkless fanatic" experience="2500" speed="300" manacost="0">
 	<health now="3200" max="3200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="990" head="0" body="0" legs="0" feet="0" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="17" />
+		<element energyPercent="17" />
 		<element earthPercent="0" />
 		<element firePercent="10" />
 		<element lifedrainPercent="0" />
@@ -46,10 +48,10 @@
 		<voice sentence="PAIN PURIFIES! PAIN PURIFIES!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="49493" countmax="200" />
-		<item id="fig leaf" chance="9268" />
-		<item id="tiger eye" chance="4991" />
-		<item id="bed of nails" chance="1726" />
-		<item id="torn shirt" chance="1163" />
+		<item name="gold coin" chance="49533" countmax="200" />
+		<item name="fig leaf" chance="9234" />
+		<item name="tiger eye" chance="4972" />
+		<item name="bed of nails" chance="1720" />
+		<item name="torn shirt" chance="1196" />
 	</loot>
 </monster>

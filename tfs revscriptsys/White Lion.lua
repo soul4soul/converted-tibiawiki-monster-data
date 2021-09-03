@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -87,18 +88,18 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "great spirit potion", chance = 24814, maxCount = 2},
-	{id = "lion's mane", chance = 18695},
-	{id = "axe", chance = 15167},
-	{id = "terra boots", chance = 15023},
-	{id = "leather boots", chance = 14567},
-	{id = "twin hooks", chance = 12863},
-	{id = "green crystal shard", chance = 5856},
-	{id = "cyan crystal fragment", chance = 4584},
-	{id = "war hammer", chance = 3528},
-	{id = "yellow gem", chance = 2784},
-	{id = "combat knife", chance = 2232},
-	{id = "green crystal fragment", chance = 2160}
+	{id = "great spirit potion", chance = 24773, maxCount = 2},
+	{id = "lion's mane", chance = 18824},
+	{id = "axe", chance = 15162},
+	{id = "terra boots", chance = 15045},
+	{id = "leather boots", chance = 14602},
+	{id = "twin hooks", chance = 12923},
+	{id = "green crystal shard", chance = 5995},
+	{id = "cyan crystal fragment", chance = 4619},
+	{id = "war hammer", chance = 3476},
+	{id = "yellow gem", chance = 2799},
+	{id = "combat knife", chance = 2193},
+	{id = "green crystal fragment", chance = 2123}
 }
 
 mType:register(monster)

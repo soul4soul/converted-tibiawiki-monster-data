@@ -1,6 +1,7 @@
-﻿<monster name="Sandstone Scorpion" nameDescription="a sandstone scorpion" experience="680" speed="220" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Sandstone Scorpion" nameDescription="a sandstone scorpion" experience="680" speed="220" manacost="0">
 	<health now="900" max="900" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="398" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="90" />
 		<element firePercent="40" />
 		<element lifedrainPercent="0" />
@@ -50,12 +52,12 @@
 		<voice sentence="*tak tak tak*" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="92703" countmax="129" />
-		<item id="platinum coin" chance="10940" countmax="2" />
-		<item id="small emerald" chance="10097" countmax="2" />
-		<item id="daramian mace" chance="5069" />
-		<item id="steel helmet" chance="4611" />
-		<item id="black shield" chance="1822" />
-		<item id="fist on a stick" chance="208" />
+		<item name="gold coin" chance="92703" countmax="129" />
+		<item name="platinum coin" chance="10940" countmax="2" />
+		<item name="small emerald" chance="10097" countmax="2" />
+		<item name="daramian mace" chance="5069" />
+		<item name="steel helmet" chance="4611" />
+		<item name="black shield" chance="1822" />
+		<item name="fist on a stick" chance="208" />
 	</loot>
 </monster>

@@ -5,7 +5,7 @@ monster.name = "Cave Rat"
 monster.description = "a cave rat"
 monster.experience = 10
 monster.outfit = {
-	lookType = 0,
+	lookType = 56,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,9 +89,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 85122, maxCount = 2},
-	{id = "cheese", chance = 29977},
-	{id = "worm", chance = 10013, maxCount = 2},
+	{id = "gold coin", chance = 85109, maxCount = 2},
+	{id = "cheese", chance = 29983},
+	{id = "worm", chance = 10010, maxCount = 2},
 	{id = "cookie", chance = 927}
 }
 

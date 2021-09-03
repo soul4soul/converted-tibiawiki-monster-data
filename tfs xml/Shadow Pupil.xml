@@ -1,6 +1,7 @@
-﻿<monster name="Shadow Pupil" nameDescription="a shadow pupil" experience="410" speed="170" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shadow Pupil" nameDescription="a shadow pupil" experience="410" speed="170" manacost="0">
 	<health now="450" max="450" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="551" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="10" />
+		<element energyPercent="10" />
 		<element earthPercent="100" />
 		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
@@ -49,16 +51,16 @@
 		<voice sentence="The shadows will swallow you..." yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="100000" countmax="65" />
-		<item id="horoscope" chance="14639" />
-		<item id="incantation notes" chance="9187" />
-		<item id="book of necromantic rituals" chance="7521" />
-		<item id="pieces of magic chalk" chance="4745" />
-		<item id="brown mushroom" chance="4695" />
-		<item id="mystic turban" chance="606" />
-		<item id="strong mana potion" chance="454" />
-		<item id="clerical mace" chance="278" />
-		<item id="spellbook of enlightenment" chance="227" />
-		<item id="boots of haste" chance="25" />
+		<item name="gold coin" chance="100000" countmax="65" />
+		<item name="horoscope" chance="14651" />
+		<item name="incantation notes" chance="9262" />
+		<item name="book of necromantic rituals" chance="7499" />
+		<item name="brown mushroom" chance="4668" />
+		<item name="pieces of magic chalk" chance="4668" />
+		<item name="mystic turban" chance="596" />
+		<item name="strong mana potion" chance="472" />
+		<item name="clerical mace" chance="273" />
+		<item name="spellbook of enlightenment" chance="223" />
+		<item name="boots of haste" chance="25" />
 	</loot>
 </monster>

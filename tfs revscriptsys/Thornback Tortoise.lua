@@ -5,7 +5,7 @@ monster.name = "Thornback Tortoise"
 monster.description = "a thornback tortoise"
 monster.experience = 150
 monster.outfit = {
-	lookType = 0,
+	lookType = 198,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -96,15 +97,7 @@ monster.loot = {
 	{id = "tortoise egg", chance = 996, maxCount = 3},
 	{id = "brown mushroom", chance = 711},
 	{id = "black pearl", chance = 678},
-	{id = "war hammer", chance = 274},
-	{id = "gold coin", chance = 31787, maxCount = 30},
-	{id = "fish", chance = 3698},
-	{id = "thorn", chance = 1663},
-	{id = "white mushroom", chance = 536},
-	{id = "health potion", chance = 405},
-	{id = "tortoise egg", chance = 339, maxCount = 3},
-	{id = "brown mushroom", chance = 252},
-	{id = "war hammer", chance = 164}
+	{id = "war hammer", chance = 274}
 }
 
 mType:register(monster)

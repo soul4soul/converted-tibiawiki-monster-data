@@ -1,6 +1,7 @@
-﻿<monster name="Stampor" nameDescription="a stampor" experience="780" speed="440" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Stampor" nameDescription="a stampor" experience="780" speed="440" manacost="0">
 	<health now="1200" max="1200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="381" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -48,16 +50,16 @@
 		<voice sentence="KRRRRRNG" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="94604" countmax="242" />
-		<item id="platinum coin" chance="10018" countmax="2" />
-		<item id="stampor talons" chance="9809" />
-		<item id="small topaz" chance="7905" countmax="2" />
-		<item id="strong mana potion" chance="5055" countmax="2" />
-		<item id="stampor horn" chance="4958" />
-		<item id="strong health potion" chance="4877" countmax="2" />
-		<item id="hollow stampor hoof" chance="3064" />
-		<item id="war hammer" chance="1028" />
-		<item id="knight armor" chance="840" />
-		<item id="spiked squelcher" chance="193" />
+		<item name="gold coin" chance="94601" countmax="242" />
+		<item name="platinum coin" chance="10008" countmax="2" />
+		<item name="stampor talons" chance="9800" />
+		<item name="small topaz" chance="7886" countmax="2" />
+		<item name="strong mana potion" chance="5049" countmax="2" />
+		<item name="stampor horn" chance="4953" />
+		<item name="strong health potion" chance="4877" countmax="2" />
+		<item name="hollow stampor hoof" chance="3064" />
+		<item name="war hammer" chance="1033" />
+		<item name="knight armor" chance="836" />
+		<item name="spiked squelcher" chance="192" />
 	</loot>
 </monster>

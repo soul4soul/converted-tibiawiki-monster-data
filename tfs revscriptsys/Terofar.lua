@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = true,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -127,27 +128,7 @@ monster.loot = {
 	{id = "guardian shield", chance = 1541},
 	{id = "voltage armor", chance = 1349},
 	{id = "mastermind shield", chance = 578},
-	{id = "lavos armor", chance = 385},
-	{id = "cluster of solace", chance = 4817},
-	{id = "demon horn", chance = 4817},
-	{id = "gold coin", chance = 4817, maxCount = 156},
-	{id = "platinum coin", chance = 4817, maxCount = 50},
-	{id = "green crystal shard", chance = 2119, maxCount = 8},
-	{id = "giant shimmering pearl", chance = 1734},
-	{id = "great spirit potion", chance = 1734, maxCount = 10},
-	{id = "ultimate health potion", chance = 1734, maxCount = 10},
-	{id = "blue crystal shard", chance = 1349, maxCount = 8},
-	{id = "great mana potion", chance = 1349, maxCount = 10},
-	{id = "violet crystal shard", chance = 1349, maxCount = 8},
-	{id = "green gem", chance = 963},
-	{id = "blue gem", chance = 771},
-	{id = "gold ingot", chance = 771},
-	{id = "guardian shield", chance = 771},
-	{id = "demon shield", chance = 578},
-	{id = "voltage armor", chance = 385},
-	{id = "dream warden mask", chance = 193},
-	{id = "mastermind shield", chance = 193},
-	{id = "paladin armor", chance = 193}
+	{id = "lavos armor", chance = 385}
 }
 
 mType:register(monster)

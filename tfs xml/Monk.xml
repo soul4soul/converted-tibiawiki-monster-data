@@ -1,6 +1,7 @@
-﻿<monster name="Monk" nameDescription="a monk" experience="200" speed="240" manacost="600">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Monk" nameDescription="a monk" experience="200" speed="240" manacost="600">
 	<health now="240" max="240" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="57" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -50,18 +52,18 @@
 		<voice sentence="I will punish the sinners!" yell="false" />
 	</voices>
 	<loot>
-		<item id="bread" chance="20056" />
-		<item id="gold coin" chance="15251" countmax="18" />
-		<item id="book of prayers" chance="4871" />
-		<item id="rope belt" chance="3123" />
-		<item id="ankh" chance="2334" />
-		<item id="scroll" chance="1832" />
-		<item id="safety pin" chance="1056" />
-		<item id="life crystal" chance="1037" />
-		<item id="brown flask" chance="861" />
-		<item id="lamp" chance="809" />
-		<item id="sandals" chance="659" />
-		<item id="staff" chance="456" />
-		<item id="power ring" chance="78" />
+		<item name="bread" chance="19981" />
+		<item name="gold coin" chance="15258" countmax="18" />
+		<item name="book of prayers" chance="4874" />
+		<item name="rope belt" chance="3101" />
+		<item name="ankh" chance="2340" />
+		<item name="scroll" chance="1843" />
+		<item name="safety pin" chance="1050" />
+		<item name="life crystal" chance="1038" />
+		<item name="brown flask" chance="830" />
+		<item name="lamp" chance="792" />
+		<item name="sandals" chance="648" />
+		<item name="staff" chance="472" />
+		<item name="power ring" chance="82" />
 	</loot>
 </monster>

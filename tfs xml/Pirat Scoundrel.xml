@@ -1,4 +1,5 @@
-﻿<monster name="Pirat Scoundrel" nameDescription="a pirat scoundrel" experience="1600" speed="380" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Pirat Scoundrel" nameDescription="a pirat scoundrel" experience="1600" speed="380" manacost="0">
 	<health now="2200" max="2200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="20" />
-		<element EnergyPercent="26" />
+		<element energyPercent="26" />
 		<element earthPercent="-30" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,13 +45,13 @@
 	</attacks>
 	<defenses armor="60" defense="60" />
 	<loot>
-		<item id="great mana potion" chance="10885" />
-		<item id="wand of inferno" chance="7913" />
-		<item id="grappling hook" chance="7212" />
-		<item id="pirate coin" chance="6477" countmax="10" />
-		<item id="pirat's tail" chance="4775" />
-		<item id="wand of starstorm" chance="4574" />
-		<item id="springsprout rod" chance="3907" />
-		<item id="wand of voodoo" chance="2938" />
+		<item name="great mana potion" chance="10795" />
+		<item name="wand of inferno" chance="8009" />
+		<item name="grappling hook" chance="7217" />
+		<item name="pirate coin" chance="6426" countmax="10" />
+		<item name="pirat's tail" chance="5002" />
+		<item name="wand of starstorm" chance="4558" />
+		<item name="springsprout rod" chance="3862" />
+		<item name="wand of voodoo" chance="2912" />
 	</loot>
 </monster>

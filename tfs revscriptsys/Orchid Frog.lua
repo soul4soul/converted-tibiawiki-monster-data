@@ -5,11 +5,11 @@ monster.name = "Orchid Frog"
 monster.description = "an orchid frog"
 monster.experience = 20
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 226,
+	lookHead = 71,
+	lookBody = 14,
+	lookLegs = 71,
+	lookFeet = 70,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,8 +89,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 75441, maxCount = 10},
-	{id = "worm", chance = 9711}
+	{id = "gold coin", chance = 75475, maxCount = 10},
+	{id = "worm", chance = 9746}
 }
 
 mType:register(monster)

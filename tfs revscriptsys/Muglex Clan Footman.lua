@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = true,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -95,19 +96,7 @@ monster.loot = {
 	{id = "bone club", chance = 8850},
 	{id = "leather armor", chance = 5310},
 	{id = "leather helmet", chance = 4425},
-	{id = "bone", chance = 1770},
-	{id = "gold coin", chance = 100000, maxCount = 6},
-	{id = "dagger", chance = 100000},
-	{id = "fish", chance = 100000, maxCount = 2},
-	{id = "small stone", chance = 100000},
-	{id = "short sword", chance = 65487},
-	{id = "bone club", chance = 62832},
-	{id = "small axe", chance = 51327},
-	{id = "leather armor", chance = 40708},
-	{id = "leather helmet", chance = 17699},
-	{id = "bone", chance = 9735},
-	{id = "goblin ear", chance = 7080},
-	{id = "mouldy cheese", chance = 5310}
+	{id = "bone", chance = 1770}
 }
 
 mType:register(monster)

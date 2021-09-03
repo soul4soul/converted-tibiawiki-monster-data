@@ -5,7 +5,7 @@ monster.name = "Feversleep"
 monster.description = "a feversleep"
 monster.experience = 4400
 monster.outfit = {
-	lookType = 0,
+	lookType = 593,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -88,19 +89,19 @@ monster.defenses = {
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 100},
 	{id = "platinum coin", chance = 100000, maxCount = 9},
-	{id = "great mana potion", chance = 36986, maxCount = 2},
-	{id = "ultimate health potion", chance = 20930},
-	{id = "cyan crystal fragment", chance = 18202},
-	{id = "small amethyst", chance = 16100, maxCount = 3},
-	{id = "bowl of terror sweat", chance = 14222},
-	{id = "small topaz", chance = 13775, maxCount = 3},
-	{id = "small ruby", chance = 13193, maxCount = 3},
-	{id = "trapped bad dream monster", chance = 13059},
-	{id = "blue crystal splinter", chance = 12165},
-	{id = "small emerald", chance = 10733, maxCount = 3},
-	{id = "blue crystal shard", chance = 10107},
-	{id = "blue robe", chance = 1476},
-	{id = "cluster of solace", chance = 850}
+	{id = "great mana potion", chance = 36724, maxCount = 2},
+	{id = "ultimate health potion", chance = 21004},
+	{id = "cyan crystal fragment", chance = 18054},
+	{id = "small amethyst", chance = 16204, maxCount = 3},
+	{id = "bowl of terror sweat", chance = 14179},
+	{id = "small topaz", chance = 14047, maxCount = 3},
+	{id = "small ruby", chance = 13034, maxCount = 3},
+	{id = "trapped bad dream monster", chance = 12946},
+	{id = "blue crystal splinter", chance = 12197},
+	{id = "small emerald", chance = 10700, maxCount = 3},
+	{id = "blue crystal shard", chance = 10040},
+	{id = "blue robe", chance = 1453},
+	{id = "cluster of solace", chance = 837}
 }
 
 mType:register(monster)

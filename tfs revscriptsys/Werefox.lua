@@ -5,7 +5,7 @@ monster.name = "Werefox"
 monster.description = "a werefox"
 monster.experience = 1600
 monster.outfit = {
-	lookType = 0,
+	lookType = 1030,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,23 +89,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 89916, maxCount = 4},
-	{id = "gold coin", chance = 83964, maxCount = 85},
-	{id = "fox paw", chance = 15336},
-	{id = "werefox tail", chance = 13253},
-	{id = "troll green", chance = 5130},
-	{id = "mana potion", chance = 5042},
-	{id = "strong mana potion", chance = 4254},
-	{id = "assassin star", chance = 3099, maxCount = 5},
-	{id = "emerald bangle", chance = 2959},
-	{id = "moonlight rod", chance = 2066},
-	{id = "great mana potion", chance = 1891},
-	{id = "small enchanted emerald", chance = 1488, maxCount = 2},
-	{id = "ring of healing", chance = 1120},
-	{id = "werewolf amulet", chance = 840},
-	{id = "moonlight crystals", chance = 770},
-	{id = "platinum amulet", chance = 490},
-	{id = "werefox trophy", chance = 140}
+	{id = "platinum coin", chance = 89929, maxCount = 4},
+	{id = "gold coin", chance = 83952, maxCount = 85},
+	{id = "fox paw", chance = 15299},
+	{id = "werefox tail", chance = 13243},
+	{id = "troll green", chance = 5123},
+	{id = "mana potion", chance = 5053},
+	{id = "strong mana potion", chance = 4269},
+	{id = "assassin star", chance = 3102, maxCount = 5},
+	{id = "emerald bangle", chance = 2945},
+	{id = "moonlight rod", chance = 2056},
+	{id = "great mana potion", chance = 1882},
+	{id = "small enchanted emerald", chance = 1481, maxCount = 2},
+	{id = "ring of healing", chance = 1115},
+	{id = "werewolf amulet", chance = 836},
+	{id = "moonlight crystals", chance = 802},
+	{id = "platinum amulet", chance = 488},
+	{id = "werefox trophy", chance = 139}
 }
 
 mType:register(monster)

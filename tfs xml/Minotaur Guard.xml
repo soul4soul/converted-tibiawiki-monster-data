@@ -1,6 +1,7 @@
-﻿<monster name="Minotaur Guard" nameDescription="a minotaur guard" experience="160" speed="190" manacost="550">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Minotaur Guard" nameDescription="a minotaur guard" experience="160" speed="190" manacost="550">
 	<health now="185" max="185" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="29" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -47,16 +49,16 @@
 		<voice sentence="Kaplar" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="59671" countmax="20" />
-		<item id="minotaur horn" chance="8165" countmax="2" />
-		<item id="piece of warrior armor" chance="4989" />
-		<item id="brass armor" chance="4127" />
-		<item id="chain armor" chance="2974" />
-		<item id="battle shield" chance="2066" />
-		<item id="minotaur leather" chance="954" />
-		<item id="fishing rod" chance="486" />
-		<item id="double axe" chance="438" />
-		<item id="health potion" chance="416" />
-		<item id="minotaur trophy" chance="90" />
+		<item name="gold coin" chance="59673" countmax="20" />
+		<item name="minotaur horn" chance="8163" countmax="2" />
+		<item name="piece of warrior armor" chance="4986" />
+		<item name="brass armor" chance="4127" />
+		<item name="chain armor" chance="2975" />
+		<item name="battle shield" chance="2070" />
+		<item name="minotaur leather" chance="953" />
+		<item name="fishing rod" chance="487" />
+		<item name="double axe" chance="439" />
+		<item name="health potion" chance="415" />
+		<item name="minotaur trophy" chance="92" />
 	</loot>
 </monster>

@@ -5,11 +5,11 @@ monster.name = "Dark Faun"
 monster.description = "a dark faun"
 monster.experience = 900
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
+	lookType = 980,
+	lookHead = 94,
+	lookBody = 95,
 	lookLegs = 0,
-	lookFeet = 0,
+	lookFeet = 94,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -92,23 +93,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 160},
-	{id = "fairy wings", chance = 15457},
-	{id = "strong health potion", chance = 11895, maxCount = 2},
-	{id = "shimmering beetles", chance = 9675},
-	{id = "goat grass", chance = 7621},
-	{id = "leaf star", chance = 6842, maxCount = 8},
-	{id = "cave turnip", chance = 5782, maxCount = 2},
-	{id = "dark mushroom", chance = 5235, maxCount = 2},
-	{id = "small stone", chance = 5119, maxCount = 5},
-	{id = "prismatic quartz", chance = 5086},
-	{id = "great health potion", chance = 3496, maxCount = 2},
-	{id = "panpipes", chance = 3098},
-	{id = "small enchanted sapphire", chance = 2800, maxCount = 2},
-	{id = "wood cape", chance = 1541},
-	{id = "leaf legs", chance = 514},
-	{id = "wooden spellbook", chance = 348},
-	{id = "die", chance = 133},
-	{id = "mandrake", chance = 66}
+	{id = "fairy wings", chance = 15429},
+	{id = "strong health potion", chance = 11886, maxCount = 2},
+	{id = "shimmering beetles", chance = 9663},
+	{id = "goat grass", chance = 7634},
+	{id = "leaf star", chance = 6813, maxCount = 8},
+	{id = "cave turnip", chance = 5750, maxCount = 2},
+	{id = "dark mushroom", chance = 5234, maxCount = 2},
+	{id = "small stone", chance = 5105, maxCount = 5},
+	{id = "prismatic quartz", chance = 5089},
+	{id = "great health potion", chance = 3447, maxCount = 2},
+	{id = "panpipes", chance = 3141},
+	{id = "small enchanted sapphire", chance = 2786, maxCount = 2},
+	{id = "wood cape", chance = 1594},
+	{id = "leaf legs", chance = 515},
+	{id = "wooden spellbook", chance = 354},
+	{id = "die", chance = 129},
+	{id = "mandrake", chance = 64}
 }
 
 mType:register(monster)

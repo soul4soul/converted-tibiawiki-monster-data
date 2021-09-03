@@ -5,12 +5,12 @@ monster.name = "Feral Sphinx"
 monster.description = "a feral sphinx"
 monster.experience = 8800
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
+	lookType = 1188,
+	lookHead = 76,
+	lookBody = 75,
+	lookLegs = 57,
 	lookFeet = 0,
-	lookAddons = 0,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -88,32 +89,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "platinum coin", chance = 100000, maxCount = 3},
-	{id = "cyan crystal fragment", chance = 7886},
-	{id = "red gem", chance = 7422},
-	{id = "dragon necklace", chance = 7290},
-	{id = "magma amulet", chance = 6958},
-	{id = "wand of inferno", chance = 5765},
-	{id = "green crystal shard", chance = 5633},
-	{id = "sphinx feather", chance = 5169},
-	{id = "sphinx tiara", chance = 4904},
-	{id = "wand of draconia", chance = 4175},
-	{id = "small sapphire", chance = 4042, maxCount = 2},
-	{id = "blue gem", chance = 3313},
-	{id = "fire axe", chance = 3181},
-	{id = "magma boots", chance = 1856},
-	{id = "magma monocle", chance = 1590},
-	{id = "magma legs", chance = 1458},
-	{id = "small enchanted emerald", chance = 1127, maxCount = 2},
-	{id = "green gem", chance = 663},
-	{id = "platinum coin", chance = 1789, maxCount = 3},
-	{id = "sphinx tiara", chance = 199},
-	{id = "dragon necklace", chance = 133},
-	{id = "magma amulet", chance = 133},
-	{id = "magma boots", chance = 133},
-	{id = "wand of inferno", chance = 133},
-	{id = "magma legs", chance = 66},
-	{id = "magma monocle", chance = 66},
-	{id = "wand of draconia", chance = 66}
+	{id = "cyan crystal fragment", chance = 7737},
+	{id = "dragon necklace", chance = 7353},
+	{id = "red gem", chance = 7225},
+	{id = "magma amulet", chance = 6969},
+	{id = "green crystal shard", chance = 5882},
+	{id = "wand of inferno", chance = 5563},
+	{id = "sphinx feather", chance = 5179},
+	{id = "sphinx tiara", chance = 4859},
+	{id = "wand of draconia", chance = 4348},
+	{id = "small sapphire", chance = 4092, maxCount = 2},
+	{id = "blue gem", chance = 3325},
+	{id = "fire axe", chance = 3133},
+	{id = "magma boots", chance = 1854},
+	{id = "magma monocle", chance = 1598},
+	{id = "magma legs", chance = 1407},
+	{id = "small enchanted emerald", chance = 1151, maxCount = 2},
+	{id = "green gem", chance = 703}
 }
 
 mType:register(monster)

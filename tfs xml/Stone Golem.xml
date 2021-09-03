@@ -1,6 +1,7 @@
-﻿<monster name="Stone Golem" nameDescription="a stone golem" experience="160" speed="180" manacost="590">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Stone Golem" nameDescription="a stone golem" experience="160" speed="180" manacost="590">
 	<health now="270" max="270" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="67" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="10" />
-		<element EnergyPercent="15" />
+		<element energyPercent="15" />
 		<element earthPercent="100" />
 		<element firePercent="20" />
 		<element lifedrainPercent="0" />
@@ -43,41 +45,17 @@
 	</attacks>
 	<defenses armor="30" defense="30" />
 	<loot>
-		<item id="gold coin" chance="95761" countmax="40" />
-		<item id="small stone" chance="12836" countmax="4" />
-		<item id="sulphurous stone" chance="10132" />
-		<item id="power ring" chance="5152" />
-		<item id="carlin sword" chance="2558" />
-		<item id="iron ore" chance="2056" />
-		<item id="ancient stone" chance="997" />
-		<item id="shiny stone" chance="781" />
-		<item id="coal" chance="532" />
-		<item id="piece of marble rock" chance="412" />
-		<item id="crystal ring" chance="173" />
-		<item id="red gem" chance="47" />
-		<item id="gold coin" chance="5109" countmax="15" />
-		<item id="small stone" chance="4026" countmax="4" />
-		<item id="sulphurous stone" chance="3359" />
-		<item id="power ring" chance="1628" />
-		<item id="iron ore" chance="678" />
-		<item id="carlin sword" chance="432" />
-		<item id="ancient stone" chance="322" />
-		<item id="shiny stone" chance="302" />
-		<item id="piece of marble rock" chance="140" />
-		<item id="coal" chance="116" />
-		<item id="crystal ring" chance="63" />
-		<item id="red gem" chance="13" />
-		<item id="gold coin" chance="26669" countmax="15" />
-		<item id="small stone" chance="21450" countmax="4" />
-		<item id="sulphurous stone" chance="16693" />
-		<item id="power ring" chance="8491" />
-		<item id="iron ore" chance="3491" />
-		<item id="carlin sword" chance="2412" />
-		<item id="ancient stone" chance="1658" />
-		<item id="shiny stone" chance="1322" />
-		<item id="piece of marble rock" chance="894" />
-		<item id="crystal ring" chance="319" />
-		<item id="red gem" chance="73" />
-		<item id="coal" chance="3" />
+		<item name="gold coin" chance="95761" countmax="40" />
+		<item name="small stone" chance="12833" countmax="4" />
+		<item name="sulphurous stone" chance="10127" />
+		<item name="power ring" chance="5151" />
+		<item name="carlin sword" chance="2557" />
+		<item name="iron ore" chance="2057" />
+		<item name="ancient stone" chance="998" />
+		<item name="shiny stone" chance="779" />
+		<item name="coal" chance="531" />
+		<item name="piece of marble rock" chance="411" />
+		<item name="crystal ring" chance="172" />
+		<item name="red gem" chance="46" />
 	</loot>
 </monster>

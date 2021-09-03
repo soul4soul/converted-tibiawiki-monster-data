@@ -1,4 +1,5 @@
-﻿<monster name="Crazed Dwarf" nameDescription="a crazed dwarf" experience="50" speed="156" manacost="320">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Crazed Dwarf" nameDescription="a crazed dwarf" experience="50" speed="156" manacost="320">
 	<health now="105" max="105" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="1" />
 		<flag illusionable="1" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,23 +45,14 @@
 	</attacks>
 	<defenses armor="9" defense="9" />
 	<loot>
-		<item id="gold coin" chance="100000" countmax="4" />
-		<item id="white mushroom" chance="38710" />
-		<item id="hatchet" chance="25806" />
-		<item id="axe" chance="22581" />
-		<item id="pick" chance="16129" />
-		<item id="leather legs" chance="9677" />
-		<item id="studded armor" chance="9677" />
-		<item id="plate shield" chance="6452" />
-		<item id="letter" chance="6452" />
-		<item id="gold coin" chance="100000" countmax="4" />
-		<item id="white mushroom" chance="100000" />
-		<item id="hatchet" chance="61290" />
-		<item id="plate shield" chance="41935" />
-		<item id="axe" chance="32258" />
-		<item id="leather legs" chance="25806" />
-		<item id="studded armor" chance="25806" />
-		<item id="pick" chance="19355" />
-		<item id="letter" chance="16129" />
+		<item name="gold coin" chance="100000" countmax="4" />
+		<item name="white mushroom" chance="38710" />
+		<item name="hatchet" chance="25806" />
+		<item name="axe" chance="22581" />
+		<item name="pick" chance="16129" />
+		<item name="leather legs" chance="9677" />
+		<item name="studded armor" chance="9677" />
+		<item name="plate shield" chance="6452" />
+		<item name="letter" chance="6452" />
 	</loot>
 </monster>

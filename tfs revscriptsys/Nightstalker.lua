@@ -5,7 +5,7 @@ monster.name = "Nightstalker"
 monster.description = ""
 monster.experience = 500
 monster.outfit = {
-	lookType = 0,
+	lookType = 320,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -94,17 +95,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 89951, maxCount = 110},
-	{id = "shadow herb", chance = 4765},
-	{id = "strong mana potion", chance = 1530},
-	{id = "crystal ring", chance = 968},
-	{id = "protection amulet", chance = 894},
-	{id = "spirit cloak", chance = 503},
-	{id = "haunted blade", chance = 327},
-	{id = "platinum amulet", chance = 166},
-	{id = "boots of haste", chance = 122},
-	{id = "crystal of balance", chance = 122},
-	{id = "chaos mace", chance = 103}
+	{id = "gold coin", chance = 89966, maxCount = 110},
+	{id = "shadow herb", chance = 4762},
+	{id = "strong mana potion", chance = 1529},
+	{id = "crystal ring", chance = 966},
+	{id = "protection amulet", chance = 893},
+	{id = "spirit cloak", chance = 500},
+	{id = "haunted blade", chance = 325},
+	{id = "platinum amulet", chance = 165},
+	{id = "crystal of balance", chance = 126},
+	{id = "boots of haste", chance = 121},
+	{id = "chaos mace", chance = 102}
 }
 
 mType:register(monster)

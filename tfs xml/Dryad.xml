@@ -1,6 +1,7 @@
-﻿<monster name="Dryad" nameDescription="a dryad" experience="190" speed="230" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dryad" nameDescription="a dryad" experience="190" speed="230" manacost="0">
 	<health now="310" max="310" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="137" head="99" body="41" legs="5" feet="102" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="30" />
+		<element energyPercent="30" />
 		<element earthPercent="100" />
 		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
@@ -49,15 +51,15 @@
 		<voice sentence="Defiler of nature!" yell="false" />
 	</voices>
 	<loot>
-		<item id="white mushroom" chance="55717" countmax="2" />
-		<item id="gold coin" chance="39729" countmax="30" />
-		<item id="seeds" chance="10361" />
-		<item id="leaf legs" chance="1199" />
-		<item id="coconut shoes" chance="1064" />
-		<item id="flower wreath" chance="1064" />
-		<item id="flower dress" chance="974" />
-		<item id="orange mushroom" chance="721" countmax="2" />
-		<item id="carrot on a stick" chance="216" />
-		<item id="small amethyst" chance="90" />
+		<item name="white mushroom" chance="55717" countmax="2" />
+		<item name="gold coin" chance="39729" countmax="30" />
+		<item name="seeds" chance="10361" />
+		<item name="leaf legs" chance="1199" />
+		<item name="coconut shoes" chance="1064" />
+		<item name="flower wreath" chance="1064" />
+		<item name="flower dress" chance="974" />
+		<item name="orange mushroom" chance="721" countmax="2" />
+		<item name="carrot on a stick" chance="216" />
+		<item name="small amethyst" chance="90" />
 	</loot>
 </monster>

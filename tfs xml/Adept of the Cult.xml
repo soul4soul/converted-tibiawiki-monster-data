@@ -1,6 +1,7 @@
-﻿<monster name="Adept Of The Cult" nameDescription="an adept of the cult" experience="400" speed="190" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Adept Of The Cult" nameDescription="an adept of the cult" experience="400" speed="190" manacost="0">
 	<health now="430" max="430" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="194" head="95" body="94" legs="94" feet="19" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="40" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -50,21 +52,21 @@
 		<voice sentence="Power to the cult!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="65628" countmax="60" />
-		<item id="cultish robe" chance="10381" />
-		<item id="rope belt" chance="9856" />
-		<item id="pirate voodoo doll" chance="1501" />
-		<item id="silver amulet" chance="1017" />
-		<item id="clerical mace" chance="1003" />
-		<item id="book (orange)" chance="908" />
-		<item id="music sheet (third verse)" chance="629" />
-		<item id="amber staff" chance="579" />
-		<item id="time ring" chance="483" />
-		<item id="small ruby" chance="287" />
-		<item id="hailstorm rod" chance="192" />
-		<item id="cultish symbol" chance="100" />
-		<item id="lunar staff" chance="91" />
-		<item id="red robe" chance="87" />
-		<item id="broken key ring" chance="68" />
+		<item name="gold coin" chance="65613" countmax="60" />
+		<item name="cultish robe" chance="10378" />
+		<item name="rope belt" chance="9854" />
+		<item name="pirate voodoo doll" chance="1500" />
+		<item name="silver amulet" chance="1017" />
+		<item name="clerical mace" chance="1003" />
+		<item name="book (orange)" chance="907" />
+		<item name="music sheet (third verse)" chance="629" />
+		<item name="amber staff" chance="579" />
+		<item name="time ring" chance="483" />
+		<item name="small ruby" chance="287" />
+		<item name="hailstorm rod" chance="192" />
+		<item name="cultish symbol" chance="100" />
+		<item name="lunar staff" chance="91" />
+		<item name="red robe" chance="87" />
+		<item name="broken key ring" chance="68" />
 	</loot>
 </monster>

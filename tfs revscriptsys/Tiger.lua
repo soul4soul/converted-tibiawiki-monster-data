@@ -5,7 +5,7 @@ monster.name = "Tiger"
 monster.description = "a tiger"
 monster.experience = 40
 monster.outfit = {
-	lookType = 0,
+	lookType = 125,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -87,8 +88,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 34390},
-	{id = "striped fur", chance = 10211}
+	{id = "meat", chance = 34353},
+	{id = "striped fur", chance = 10193}
 }
 
 mType:register(monster)

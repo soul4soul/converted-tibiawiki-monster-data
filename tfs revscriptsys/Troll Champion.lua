@@ -5,7 +5,7 @@ monster.name = "Troll Champion"
 monster.description = "a troll champion"
 monster.experience = 40
 monster.outfit = {
-	lookType = 0,
+	lookType = 281,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = true,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -91,15 +92,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 64498, maxCount = 12},
-	{id = "spear", chance = 25130},
-	{id = "meat", chance = 9975},
-	{id = "leather boots", chance = 9858},
-	{id = "wooden shield", chance = 5313},
-	{id = "studded club", chance = 5091},
-	{id = "arrow", chance = 5067, maxCount = 5},
-	{id = "bunch of troll hair", chance = 3059},
-	{id = "trollroot", chance = 907},
+	{id = "gold coin", chance = 64512, maxCount = 12},
+	{id = "spear", chance = 25116},
+	{id = "meat", chance = 9977},
+	{id = "leather boots", chance = 9868},
+	{id = "wooden shield", chance = 5321},
+	{id = "studded club", chance = 5097},
+	{id = "arrow", chance = 5054, maxCount = 5},
+	{id = "bunch of troll hair", chance = 3069},
+	{id = "trollroot", chance = 906},
 	{id = "silver amulet", chance = 128}
 }
 

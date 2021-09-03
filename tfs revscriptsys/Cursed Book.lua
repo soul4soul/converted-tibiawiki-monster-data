@@ -5,10 +5,10 @@ monster.name = "Cursed Book"
 monster.description = "a cursed book"
 monster.experience = 13345
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
+	lookType = 1061,
+	lookHead = 79,
+	lookBody = 81,
+	lookLegs = 93,
 	lookFeet = 0,
 	lookAddons = 0,
 	lookMount = 0
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -101,13 +102,7 @@ monster.loot = {
 	{id = "terra legs", chance = 1214},
 	{id = "springsprout rod", chance = 674},
 	{id = "terra mantle", chance = 674},
-	{id = "swamplair armor", chance = 225},
-	{id = "book page", chance = 45},
-	{id = "diamond sceptre", chance = 45},
-	{id = "platinum coin", chance = 45, maxCount = 4},
-	{id = "rusty armor", chance = 45},
-	{id = "silken bookmark", chance = 45},
-	{id = "small topaz", chance = 45}
+	{id = "swamplair armor", chance = 225}
 }
 
 mType:register(monster)

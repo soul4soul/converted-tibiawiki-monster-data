@@ -5,7 +5,7 @@ monster.name = "Centipede"
 monster.description = "a centipede"
 monster.experience = 34
 monster.outfit = {
-	lookType = 0,
+	lookType = 124,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = true,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,8 +87,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 80124, maxCount = 15},
-	{id = "centipede leg", chance = 10159}
+	{id = "gold coin", chance = 80119, maxCount = 15},
+	{id = "centipede leg", chance = 10158}
 }
 
 mType:register(monster)

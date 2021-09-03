@@ -5,12 +5,12 @@ monster.name = "Nightslayer"
 monster.description = "a nightslayer"
 monster.experience = 250
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 152,
+	lookHead = 95,
+	lookBody = 95,
+	lookLegs = 95,
+	lookFeet = 95,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,

@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,15 +87,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "great mana potion", chance = 34993, maxCount = 2},
-	{id = "pirate coin", chance = 7587, maxCount = 10},
-	{id = "terra boots", chance = 6183},
-	{id = "pirat's tail", chance = 4779},
-	{id = "mouldy powder", chance = 4111},
-	{id = "magma boots", chance = 3543},
-	{id = "ring of blue plasma", chance = 2172},
-	{id = "lightning boots", chance = 1671},
-	{id = "wood cape", chance = 1471}
+	{id = "great mana potion", chance = 35285, maxCount = 2},
+	{id = "pirate coin", chance = 7545, maxCount = 10},
+	{id = "terra boots", chance = 6211},
+	{id = "pirat's tail", chance = 4813},
+	{id = "mouldy powder", chance = 4098},
+	{id = "magma boots", chance = 3577},
+	{id = "ring of blue plasma", chance = 2146},
+	{id = "lightning boots", chance = 1659},
+	{id = "wood cape", chance = 1496}
 }
 
 mType:register(monster)

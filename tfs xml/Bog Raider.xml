@@ -1,6 +1,7 @@
-﻿<monster name="Bog Raider" nameDescription="a bog raider" experience="800" speed="250" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Bog Raider" nameDescription="a bog raider" experience="800" speed="250" manacost="0">
 	<health now="1300" max="1300" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="299" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="-5" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="30" />
 		<element firePercent="85" />
 		<element lifedrainPercent="0" />
@@ -49,14 +51,14 @@
 		<voice sentence="Slurp!" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="92113" countmax="105" />
-		<item id="boggy dreads" chance="9876" />
-		<item id="plate legs" chance="2031" />
-		<item id="great spirit potion" chance="2019" />
-		<item id="great health potion" chance="2010" />
-		<item id="springsprout rod" chance="1017" />
-		<item id="ultimate health potion" chance="769" />
-		<item id="belted cape" chance="581" />
-		<item id="paladin armor" chance="139" />
+		<item name="gold coin" chance="92105" countmax="105" />
+		<item name="boggy dreads" chance="9882" />
+		<item name="plate legs" chance="2025" />
+		<item name="great spirit potion" chance="2013" />
+		<item name="great health potion" chance="2007" />
+		<item name="springsprout rod" chance="1018" />
+		<item name="ultimate health potion" chance="766" />
+		<item name="belted cape" chance="581" />
+		<item name="paladin armor" chance="138" />
 	</loot>
 </monster>

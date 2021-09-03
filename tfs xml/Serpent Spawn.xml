@@ -1,6 +1,7 @@
-﻿<monster name="Serpent Spawn" nameDescription="a serpent spawn" experience="3050" speed="234" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Serpent Spawn" nameDescription="a serpent spawn" experience="3050" speed="234" manacost="0">
 	<health now="3000" max="3000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="220" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-10" />
+		<element energyPercent="-10" />
 		<element earthPercent="100" />
 		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
@@ -54,28 +56,28 @@
 		<voice sentence="Tsssse one will risssse again" yell="false" />
 	</voices>
 	<loot>
-		<item id="gold coin" chance="97218" countmax="245" />
-		<item id="green mushroom" chance="18256" />
-		<item id="snake skin" chance="14934" />
-		<item id="small sapphire" chance="12106" />
-		<item id="power bolt" chance="6114" />
-		<item id="life ring" chance="6065" />
-		<item id="energy ring" chance="5962" />
-		<item id="golden mug" chance="2975" />
-		<item id="mercenary sword" chance="2037" />
-		<item id="great mana potion" chance="2013" />
-		<item id="snakebite rod" chance="992" />
-		<item id="winged tail" chance="944" />
-		<item id="tower shield" chance="860" />
-		<item id="noble axe" chance="814" />
-		<item id="life crystal" chance="782" />
-		<item id="strange helmet" chance="628" />
-		<item id="old parchment" chance="571" />
-		<item id="warrior helmet" chance="566" />
-		<item id="crown armor" chance="508" />
-		<item id="charmer's tiara" chance="184" />
-		<item id="royal helmet" chance="126" />
-		<item id="spellbook of mind control" chance="99" />
-		<item id="swamplair armor" chance="83" />
+		<item name="gold coin" chance="97220" countmax="245" />
+		<item name="green mushroom" chance="18247" />
+		<item name="snake skin" chance="14928" />
+		<item name="small sapphire" chance="12120" />
+		<item name="power bolt" chance="6116" />
+		<item name="life ring" chance="6065" />
+		<item name="energy ring" chance="5959" />
+		<item name="golden mug" chance="2974" />
+		<item name="mercenary sword" chance="2035" />
+		<item name="great mana potion" chance="2012" />
+		<item name="snakebite rod" chance="994" />
+		<item name="winged tail" chance="943" />
+		<item name="tower shield" chance="860" />
+		<item name="noble axe" chance="814" />
+		<item name="life crystal" chance="781" />
+		<item name="strange helmet" chance="627" />
+		<item name="old parchment" chance="570" />
+		<item name="warrior helmet" chance="567" />
+		<item name="crown armor" chance="507" />
+		<item name="charmer's tiara" chance="184" />
+		<item name="royal helmet" chance="125" />
+		<item name="spellbook of mind control" chance="99" />
+		<item name="swamplair armor" chance="83" />
 	</loot>
 </monster>

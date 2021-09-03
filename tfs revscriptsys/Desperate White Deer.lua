@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -90,9 +91,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "white deer antlers", chance = 21561},
-	{id = "white deer skin", chance = 20276},
-	{id = "ham", chance = 19564}
+	{id = "white deer antlers", chance = 21307},
+	{id = "white deer skin", chance = 20415},
+	{id = "ham", chance = 19545}
 }
 
 mType:register(monster)

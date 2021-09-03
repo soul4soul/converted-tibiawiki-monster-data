@@ -1,4 +1,5 @@
-﻿<monster name="Fernfang" nameDescription="" experience="600" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Fernfang" nameDescription="" experience="600" speed="0" manacost="0">
 	<health now="400" max="400" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="50" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -54,24 +56,24 @@
 		<voice name="war wolf" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="book of prayers" chance="100000" />
-		<item id="gold coin" chance="100000" countmax="96" />
-		<item id="platinum coin" chance="97674" countmax="3" />
-		<item id="star herb" chance="90698" />
-		<item id="rope belt" chance="55814" />
-		<item id="yellow gem" chance="44186" />
-		<item id="power ring" chance="41860" />
-		<item id="safety pin" chance="41860" />
-		<item id="blank rune" chance="18605" />
-		<item id="bread" chance="13953" />
-		<item id="green tunic" chance="13953" />
-		<item id="brown flask" chance="11628" />
-		<item id="lamp" chance="11628" />
-		<item id="staff" chance="11628" />
-		<item id="strong mana potion" chance="11628" />
-		<item id="sling herb" chance="6977" />
-		<item id="wolf tooth chain" chance="6977" />
-		<item id="wooden whistle" chance="6977" />
-		<item id="life crystal" chance="2326" />
+		<item name="book of prayers" chance="100000" />
+		<item name="gold coin" chance="100000" countmax="96" />
+		<item name="platinum coin" chance="97674" countmax="3" />
+		<item name="star herb" chance="90698" />
+		<item name="rope belt" chance="55814" />
+		<item name="yellow gem" chance="44186" />
+		<item name="power ring" chance="41860" />
+		<item name="safety pin" chance="41860" />
+		<item name="blank rune" chance="18605" />
+		<item name="bread" chance="13953" />
+		<item name="green tunic" chance="13953" />
+		<item name="brown flask" chance="11628" />
+		<item name="lamp" chance="11628" />
+		<item name="staff" chance="11628" />
+		<item name="strong mana potion" chance="11628" />
+		<item name="sling herb" chance="6977" />
+		<item name="wolf tooth chain" chance="6977" />
+		<item name="wooden whistle" chance="6977" />
+		<item name="life crystal" chance="2326" />
 	</loot>
 </monster>

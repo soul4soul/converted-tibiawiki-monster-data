@@ -1,6 +1,7 @@
-﻿<monster name="Massive Energy Elemental" nameDescription="a massive energy elemental" experience="950" speed="430" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Massive Energy Elemental" nameDescription="a massive energy elemental" experience="950" speed="430" manacost="0">
 	<health now="1100" max="1100" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="290" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="50" />
-		<element EnergyPercent="100" />
+		<element energyPercent="100" />
 		<element earthPercent="-5" />
 		<element firePercent="100" />
 		<element lifedrainPercent="0" />
@@ -45,16 +47,16 @@
 		<defense name="healing" interval="2000" chance="20" min="110" max="275" />
 	</defenses>
 	<loot>
-		<item id="gold coin" chance="99418" countmax="191" />
-		<item id="strong mana potion" chance="14809" />
-		<item id="flash arrow" chance="8403" countmax="15" />
-		<item id="rusted armor" chance="7488" />
-		<item id="great mana potion" chance="7155" />
-		<item id="small amethyst" chance="3411" countmax="3" />
-		<item id="wand of starstorm" chance="749" />
-		<item id="spellbook of warding" chance="499" />
-		<item id="lightning pendant" chance="416" />
-		<item id="lightning legs" chance="166" />
-		<item id="shockwave amulet" chance="83" />
+		<item name="gold coin" chance="99418" countmax="191" />
+		<item name="strong mana potion" chance="14809" />
+		<item name="flash arrow" chance="8403" countmax="15" />
+		<item name="rusted armor" chance="7488" />
+		<item name="great mana potion" chance="7155" />
+		<item name="small amethyst" chance="3411" countmax="3" />
+		<item name="wand of starstorm" chance="749" />
+		<item name="spellbook of warding" chance="499" />
+		<item name="lightning pendant" chance="416" />
+		<item name="lightning legs" chance="166" />
+		<item name="shockwave amulet" chance="83" />
 	</loot>
 </monster>

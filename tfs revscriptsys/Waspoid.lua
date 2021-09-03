@@ -5,7 +5,7 @@ monster.name = "Waspoid"
 monster.description = ""
 monster.experience = 830
 monster.outfit = {
-	lookType = 0,
+	lookType = 462,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -89,28 +90,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99721, maxCount = 135},
-	{id = "platinum coin", chance = 60419},
-	{id = "waspoid wing", chance = 13983},
-	{id = "compound eye", chance = 13723},
-	{id = "waspoid claw", chance = 9767},
-	{id = "black pearl", chance = 4594},
+	{id = "gold coin", chance = 99722, maxCount = 135},
+	{id = "platinum coin", chance = 60431},
+	{id = "waspoid wing", chance = 13994},
+	{id = "compound eye", chance = 13729},
+	{id = "waspoid claw", chance = 9751},
+	{id = "black pearl", chance = 4587},
 	{id = "emerald bangle", chance = 2055},
-	{id = "yellow gem", chance = 1017},
-	{id = "hive scythe", chance = 372},
+	{id = "yellow gem", chance = 1028},
+	{id = "hive scythe", chance = 378},
 	{id = "grasshopper legs", chance = 166},
-	{id = "carapace shield", chance = 153},
-	{id = "gold coin", chance = 100000, maxCount = 135},
-	{id = "platinum coin", chance = 100000},
-	{id = "waspoid wing", chance = 35392},
-	{id = "waspoid claw", chance = 25977},
-	{id = "compound eye", chance = 15891},
-	{id = "black pearl", chance = 11097},
-	{id = "emerald bangle", chance = 5452},
-	{id = "yellow gem", chance = 2680},
-	{id = "hive scythe", chance = 831},
-	{id = "grasshopper legs", chance = 605},
-	{id = "carapace shield", chance = 266}
+	{id = "carapace shield", chance = 152}
 }
 
 mType:register(monster)

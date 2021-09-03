@@ -5,7 +5,7 @@ monster.name = "Golden Servant Replica"
 monster.description = "a golden servant replica"
 monster.experience = 450
 monster.outfit = {
-	lookType = 0,
+	lookType = 396,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = false,
 	canPushCreatures = false,
@@ -86,16 +87,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 85411, maxCount = 137},
-	{id = "mana potion", chance = 5217},
-	{id = "health potion", chance = 4686},
-	{id = "halberd", chance = 2367},
-	{id = "green mushroom", chance = 1546},
-	{id = "gear wheel", chance = 1014},
-	{id = "spellbook of enlightenment", chance = 386},
-	{id = "stealth ring", chance = 338},
-	{id = "slime mould", chance = 242},
-	{id = "golden can of oil", chance = 48}
+	{id = "gold coin", chance = 85365, maxCount = 137},
+	{id = "mana potion", chance = 5318},
+	{id = "health potion", chance = 4753},
+	{id = "halberd", chance = 2306},
+	{id = "green mushroom", chance = 1553},
+	{id = "gear wheel", chance = 988},
+	{id = "spellbook of enlightenment", chance = 376},
+	{id = "stealth ring", chance = 329},
+	{id = "slime mould", chance = 235},
+	{id = "golden can of oil", chance = 47}
 }
 
 mType:register(monster)

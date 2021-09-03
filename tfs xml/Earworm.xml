@@ -1,4 +1,5 @@
-﻿<monster name="Earworm" nameDescription="an earworm" experience="2000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Earworm" nameDescription="an earworm" experience="2000" speed="0" manacost="0">
 	<health now="4000" max="4000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="0" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -43,27 +45,16 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="platinum coin" chance="100000" />
-		<item id="envenomed arrow" chance="56948" countmax="47" />
-		<item id="lump of dirt" chance="10023" />
-		<item id="terra amulet" chance="5011" />
-		<item id="terra hood" chance="4328" />
-		<item id="earth arrow" chance="4100" countmax="21" />
-		<item id="green memory shard" chance="3645" />
-		<item id="violet memory shard" chance="3645" />
-		<item id="blue memory shard" chance="3189" />
-		<item id="sacred tree amulet" chance="2278" />
-		<item id="worm" chance="911" countmax="3" />
-		<item id="platinum coin" chance="57403" />
-		<item id="envenomed arrow" chance="34852" countmax="47" />
-		<item id="lump of dirt" chance="5695" />
-		<item id="green memory shard" chance="2733" />
-		<item id="terra amulet" chance="2278" />
-		<item id="terra hood" chance="2050" />
-		<item id="blue memory shard" chance="1822" />
-		<item id="sacred tree amulet" chance="1595" />
-		<item id="violet memory shard" chance="1595" />
-		<item id="earth arrow" chance="1367" countmax="21" />
-		<item id="worm" chance="1367" countmax="3" />
+		<item name="platinum coin" chance="100000" />
+		<item name="envenomed arrow" chance="56948" countmax="47" />
+		<item name="lump of dirt" chance="10023" />
+		<item name="terra amulet" chance="5011" />
+		<item name="terra hood" chance="4328" />
+		<item name="earth arrow" chance="4100" countmax="21" />
+		<item name="green memory shard" chance="3645" />
+		<item name="violet memory shard" chance="3645" />
+		<item name="blue memory shard" chance="3189" />
+		<item name="sacred tree amulet" chance="2278" />
+		<item name="worm" chance="911" countmax="3" />
 	</loot>
 </monster>

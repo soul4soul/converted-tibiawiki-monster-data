@@ -1,4 +1,5 @@
-﻿<monster name="Essence Of Malice" nameDescription="" experience="150000" speed="0" manacost="0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Essence Of Malice" nameDescription="" experience="150000" speed="0" manacost="0">
 	<health now="250000" max="250000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -9,6 +10,7 @@
 		<flag convinceable="0" />
 		<flag illusionable="0" />
 		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -28,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element EnergyPercent="-50" />
+		<element energyPercent="-50" />
 		<element earthPercent="-50" />
 		<element firePercent="-50" />
 		<element lifedrainPercent="0" />
@@ -42,37 +44,5 @@
 		<attack name="melee" interval="2000" chance="100" min="0" max="-450" />
 	</attacks>
 	<defenses armor="10" defense="5" />
-	<loot>
-		<item id="energy bar" chance="100000" countmax="5" />
-		<item id="gold coin" chance="100000" countmax="200" />
-		<item id="mysterious remains" chance="100000" />
-		<item id="odd organ" chance="100000" />
-		<item id="plasma pearls" chance="100000" />
-		<item id="platinum coin" chance="100000" countmax="30" />
-		<item id="witch hat" chance="100000" />
-		<item id="great mana potion" chance="100000" countmax="10" />
-		<item id="shockwave amulet" chance="100000" />
-		<item id="wand of inferno" chance="100000" />
-		<item id="great spirit potion" chance="87500" countmax="5" />
-		<item id="gold token" chance="75000" />
-		<item id="ultimate health potion" chance="62500" countmax="5" />
-		<item id="giant shimmering pearl" chance="50000" />
-		<item id="small diamond" chance="50000" countmax="10" />
-		<item id="small sapphire" chance="50000" countmax="10" />
-		<item id="green gem" chance="37500" />
-		<item id="red gem" chance="37500" />
-		<item id="small topaz" chance="37500" countmax="10" />
-		<item id="wand of everblazing" chance="37500" countmax="2" />
-		<item id="yellow gem" chance="37500" />
-		<item id="demon shield" chance="25000" />
-		<item id="magma monocle" chance="25000" />
-		<item id="noble axe" chance="25000" />
-		<item id="silver token" chance="25000" />
-		<item id="fire axe" chance="12500" />
-		<item id="ring of green plasma" chance="12500" />
-		<item id="ring of red plasma" chance="12500" />
-		<item id="small amethyst" chance="12500" countmax="10" />
-		<item id="small emerald" chance="12500" countmax="10" />
-		<item id="wand of defiance" chance="12500" />
-	</loot>
+	<loot />
 </monster>
