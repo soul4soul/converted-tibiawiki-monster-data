@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Mad Mage" nameDescription="a mad mage" experience="1800" speed="0" manacost="0">
+	<health now="2500" max="2500" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="10" defense="5" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Did it not come to your mind that I placed them here for a reason?" yell="false" />
+		<voice sentence="Now I have to create new servants! Do you want to spread this pest beyond these safe walls?" yell="false" />
+		<voice sentence="What have you done!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="99329" countmax="338" />
+		<item id="2152" name="platinum coin" chance="51342" countmax="5" />
+		<item id="7589" name="strong mana potion" chance="23826" countmax="5" />
+		<item id="7588" name="strong health potion" chance="20470" countmax="5" />
+		<item id="2165" name="stealth ring" chance="6040" />
+		<item id="7368" name="assassin star" chance="5369" countmax="5" />
+		<item id="2178" name="mind stone" chance="5034" />
+		<item id="2792" name="dark mushroom" chance="4698" countmax="3" />
+		<item id="5911" name="red piece of cloth" chance="4698" />
+		<item id="2150" name="small amethyst" chance="2685" countmax="3" />
+		<item id="13756" name="mage's cap" chance="1678" />
+		<item id="7443" name="bullseye potion" chance="1342" />
+		<item id="12410" name="luminous orb" chance="1342" />
+		<item id="2114" name="piggy bank" chance="1007" />
+		<item id="2195" name="boots of haste" chance="671" />
+		<item id="9941" name="crystal of focus" chance="671" />
+		<item id="7898" name="lightning robe" chance="336" />
+		<item id="2123" name="ring of the sky" chance="336" />
+		<item id="8901" name="spellbook of warding" chance="336" />
+	</loot>
+</monster>

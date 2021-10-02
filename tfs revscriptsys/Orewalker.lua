@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 7200
 monster.maxHealth = 7200
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 380
 monster.summonCost = 0
@@ -66,16 +66,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 25},
-	{type = COMBAT_ENERGYDAMAGE, percent = -5},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 65},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 5},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 25}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,34 +88,34 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 198},
-	{id = "platinum coin", chance = 100000, maxCount = 10},
-	{id = "sulphurous stone", chance = 20851},
-	{id = "pulverized ore", chance = 20273},
-	{id = "iron ore", chance = 16309},
-	{id = "strong health potion", chance = 15483, maxCount = 2},
-	{id = "small topaz", chance = 15194, maxCount = 3},
-	{id = "mana potion", chance = 14946, maxCount = 4},
-	{id = "prismatic bolt", chance = 14781, maxCount = 5},
-	{id = "strong mana potion", chance = 14492, maxCount = 2},
-	{id = "great mana potion", chance = 14327, maxCount = 2},
-	{id = "vein of ore", chance = 14286},
-	{id = "blue crystal splinter", chance = 13914, maxCount = 2},
-	{id = "cyan crystal fragment", chance = 13047},
-	{id = "shiny stone", chance = 12799},
-	{id = "ultimate health potion", chance = 9207, maxCount = 2},
-	{id = "green crystal shard", chance = 8134},
-	{id = "dwarven ring", chance = 4211},
-	{id = "glorious axe", chance = 2766},
-	{id = "titan axe", chance = 2766},
-	{id = "magic sulphur", chance = 2725},
-	{id = "knight legs", chance = 1693},
-	{id = "wand of defiance", chance = 1445},
-	{id = "yellow gem", chance = 991},
-	{id = "crown helmet", chance = 950},
-	{id = "crown armor", chance = 372},
-	{id = "crystalline armor", chance = 372},
-	{id = "crystal crossbow", chance = 248}
+	{id = 2148, chance = 100000, maxCount = 198},
+	{id = 2152, chance = 100000, maxCount = 10},
+	{id = 11232, chance = 20789},
+	{id = 18427, chance = 20296},
+	{id = 5880, chance = 16270},
+	{id = 7588, chance = 15530, maxCount = 2},
+	{id = 9970, chance = 15201, maxCount = 3},
+	{id = 7620, chance = 14955, maxCount = 4},
+	{id = 18435, chance = 14790, maxCount = 5},
+	{id = 7589, chance = 14462, maxCount = 2},
+	{id = 7590, chance = 14339, maxCount = 2},
+	{id = 18429, chance = 14256},
+	{id = 18418, chance = 13846, maxCount = 2},
+	{id = 18419, chance = 13065},
+	{id = 11227, chance = 12777},
+	{id = 8473, chance = 9162, maxCount = 2},
+	{id = 18415, chance = 8135},
+	{id = 2213, chance = 4191},
+	{id = 7454, chance = 2794},
+	{id = 7413, chance = 2753},
+	{id = 5904, chance = 2712},
+	{id = 2477, chance = 1684},
+	{id = 18390, chance = 1438},
+	{id = 2154, chance = 986},
+	{id = 2491, chance = 945},
+	{id = 2487, chance = 370},
+	{id = 8878, chance = 370},
+	{id = 18453, chance = 247}
 }
 
 mType:register(monster)

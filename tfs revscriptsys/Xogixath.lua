@@ -68,13 +68,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 50},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -15},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 50}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -86,15 +86,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 100000, maxCount = 9},
-	{id = "blue crystal splinter", chance = 20000},
-	{id = "green crystal fragment", chance = 20000},
-	{id = "green crystal shard", chance = 13333},
-	{id = "red gem", chance = 13333},
-	{id = "stone skin amulet", chance = 13333},
-	{id = "small enchanted sapphire", chance = 6667, maxCount = 2},
-	{id = "wand of draconia", chance = 6667},
-	{id = "wand of inferno", chance = 6667}
+	{id = 2152, chance = 100000, maxCount = 9},
+	{id = 18418, chance = 20000},
+	{id = 18421, chance = 20000},
+	{id = 18415, chance = 13333},
+	{id = 2156, chance = 13333},
+	{id = 2197, chance = 13333},
+	{id = 7759, chance = 6667, maxCount = 2},
+	{id = 8921, chance = 6667},
+	{id = 2187, chance = 6667}
 }
 
 mType:register(monster)

@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -46,9 +46,9 @@
 		<voice sentence="Gokgoooook" yell="false" />
 	</voices>
 	<loot>
-		<item name="chicken feather" chance="19646" />
-		<item name="worm" chance="9626" />
-		<item name="meat" chance="1996" />
-		<item name="egg" chance="964" />
+		<item id="5890" name="chicken feather" chance="19646" />
+		<item id="3976" name="worm" chance="9626" />
+		<item id="2666" name="meat" chance="1996" />
+		<item id="3606" name="egg" chance="964" />
 	</loot>
 </monster>

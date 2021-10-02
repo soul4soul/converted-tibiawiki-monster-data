@@ -68,16 +68,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
-	{type = COMBAT_ENERGYDAMAGE, percent = 100},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,21 +90,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 63931, maxCount = 40},
-	{id = "cookie", chance = 29962, maxCount = 8},
-	{id = "wolf tooth chain", chance = 10132},
-	{id = "witch broom", chance = 10003},
-	{id = "star herb", chance = 8972},
-	{id = "leather boots", chance = 5000},
-	{id = "cape", chance = 4947},
-	{id = "sickle", chance = 3887},
-	{id = "garlic necklace", chance = 2524},
-	{id = "coat", chance = 2013},
-	{id = "necrotic rod", chance = 1085},
-	{id = "bag of apple slices", chance = 890},
-	{id = "silver dagger", chance = 558},
-	{id = "witch hat", chance = 91},
-	{id = "stuffed toad", chance = 6}
+	{id = 2148, chance = 63942, maxCount = 40},
+	{id = 2687, chance = 29957, maxCount = 8},
+	{id = 2129, chance = 10135},
+	{id = 10569, chance = 10003},
+	{id = 2800, chance = 8982},
+	{id = 2643, chance = 4999},
+	{id = 2654, chance = 4952},
+	{id = 2405, chance = 3887},
+	{id = 2199, chance = 2521},
+	{id = 2651, chance = 2011},
+	{id = 2185, chance = 1087},
+	{id = 13537, chance = 893},
+	{id = 2402, chance = 557},
+	{id = 10570, chance = 91},
+	{id = 11211, chance = 6}
 }
 
 mType:register(monster)

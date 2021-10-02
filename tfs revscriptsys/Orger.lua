@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 10},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -86,18 +86,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 100000, maxCount = 3},
-	{id = "bone club", chance = 19069},
-	{id = "battle hammer", chance = 17207},
-	{id = "copper shield", chance = 7897},
-	{id = "studded shield", chance = 4302},
-	{id = "double axe", chance = 3612},
-	{id = "combat knife", chance = 3579},
-	{id = "staff", chance = 3547},
-	{id = "bone shield", chance = 3371},
-	{id = "crowbar", chance = 3178},
-	{id = "battle axe", chance = 3050},
-	{id = "spiky club", chance = 2279}
+	{id = 2152, chance = 100000, maxCount = 3},
+	{id = 2449, chance = 19069},
+	{id = 2417, chance = 17207},
+	{id = 2530, chance = 7897},
+	{id = 2526, chance = 4302},
+	{id = 2387, chance = 3612},
+	{id = 2404, chance = 3579},
+	{id = 2401, chance = 3547},
+	{id = 2541, chance = 3371},
+	{id = 2416, chance = 3178},
+	{id = 2378, chance = 3050},
+	{id = 20139, chance = 2279}
 }
 
 mType:register(monster)

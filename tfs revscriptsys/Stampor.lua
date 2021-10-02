@@ -67,15 +67,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 30},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
-	{type = COMBAT_HOLYDAMAGE , percent = 50},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,17 +89,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 94601, maxCount = 242},
-	{id = "platinum coin", chance = 10008, maxCount = 2},
-	{id = "stampor talons", chance = 9800},
-	{id = "small topaz", chance = 7886, maxCount = 2},
-	{id = "strong mana potion", chance = 5049, maxCount = 2},
-	{id = "stampor horn", chance = 4953},
-	{id = "strong health potion", chance = 4877, maxCount = 2},
-	{id = "hollow stampor hoof", chance = 3064},
-	{id = "war hammer", chance = 1033},
-	{id = "knight armor", chance = 836},
-	{id = "spiked squelcher", chance = 192}
+	{id = 2148, chance = 94601, maxCount = 242},
+	{id = 2152, chance = 10008, maxCount = 2},
+	{id = 13300, chance = 9800},
+	{id = 9970, chance = 7886, maxCount = 2},
+	{id = 7589, chance = 5049, maxCount = 2},
+	{id = 13299, chance = 4953},
+	{id = 7588, chance = 4877, maxCount = 2},
+	{id = 13301, chance = 3064},
+	{id = 2391, chance = 1033},
+	{id = 2476, chance = 836},
+	{id = 7452, chance = 192}
 }
 
 mType:register(monster)

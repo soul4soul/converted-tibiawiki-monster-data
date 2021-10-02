@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="60" />
-		<element earthPercent="10" />
-		<element firePercent="90" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-5" />
-		<element holyPercent="20" />
-		<element deathPercent="-8" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-90" />
@@ -56,22 +56,22 @@
 		<voice name="blue djinn" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item name="gold coin" chance="97102" countmax="130" />
-		<item name="blueberry" chance="25813" countmax="25" />
-		<item name="royal spear" chance="15588" countmax="3" />
-		<item name="strong mana potion" chance="9710" />
-		<item name="jewelled belt" chance="7746" />
-		<item name="small sapphire" chance="6433" />
-		<item name="heavy machete" chance="4930" />
-		<item name="blue piece of cloth" chance="3332" />
-		<item name="seeds" chance="2668" />
-		<item name="blue tapestry" chance="2573" />
-		<item name="hailstorm rod" chance="623" />
-		<item name="noble turban" chance="542" />
-		<item name="wooden flute" chance="379" />
-		<item name="magma monocle" chance="339" />
-		<item name="mystic turban" chance="230" />
-		<item name="small oil lamp" chance="217" />
-		<item name="blue gem" chance="122" />
+		<item id="2148" name="gold coin" chance="97102" countmax="130" />
+		<item id="2677" name="blueberry" chance="25813" countmax="25" />
+		<item id="7378" name="royal spear" chance="15588" countmax="3" />
+		<item id="7589" name="strong mana potion" chance="9710" />
+		<item id="12426" name="jewelled belt" chance="7746" />
+		<item id="2146" name="small sapphire" chance="6433" />
+		<item id="2442" name="heavy machete" chance="4930" />
+		<item id="5912" name="blue piece of cloth" chance="3332" />
+		<item id="7732" name="seeds" chance="2668" />
+		<item id="1872" name="blue tapestry" chance="2573" />
+		<item id="2183" name="hailstorm rod" chance="623" />
+		<item id="12442" name="noble turban" chance="542" />
+		<item id="2070" name="wooden flute" chance="379" />
+		<item id="7900" name="magma monocle" chance="339" />
+		<item id="2663" name="mystic turban" chance="230" />
+		<item id="2063" name="small oil lamp" chance="217" />
+		<item id="2158" name="blue gem" chance="122" />
 	</loot>
 </monster>

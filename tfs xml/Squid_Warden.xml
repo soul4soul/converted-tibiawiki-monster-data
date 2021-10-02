@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Squid Warden" nameDescription="a squid warden" experience="15300" speed="430" manacost="0">
+	<health now="16500" max="16500" />
+	<look type="1059" head="9" body="21" legs="3" feet="57" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="ice" interval="2000" chance="15" min="-600" max="-900" range="2" radius="1" target="1" />
+		<attack name="ice" interval="2000" chance="15" min="-600" max="-900" radius="3" target="0" />
+		<attack name="ice" interval="2000" chance="15" min="-500" max="-700" radius="3" target="1" />
+		<attack name="ice" interval="2000" chance="15" min="-500" max="-700" length="5" spread="0" />
+	</attacks>
+	<defenses armor="78" defense="78" />
+	<loot>
+		<item id="2146" name="small sapphire" chance="67974" countmax="3" />
+		<item id="2152" name="platinum coin" chance="50448" countmax="50" />
+		<item id="31226" name="glowing rune" chance="35537" countmax="6" />
+		<item id="10578" name="frosty heart" chance="22906" />
+		<item id="26029" name="ultimate mana potion" chance="17252" />
+		<item id="31224" name="inkwell (black)" chance="15717" />
+		<item id="8473" name="ultimate health potion" chance="15230" />
+		<item id="7441" name="ice cube" chance="13877" />
+		<item id="7902" name="glacier mask" chance="7524" />
+		<item id="2396" name="ice rapier" chance="5320" />
+		<item id="2445" name="crystal mace" chance="4864" />
+		<item id="23565" name="slime heart" chance="4347" />
+		<item id="7449" name="crystal sword" chance="4332" />
+		<item id="10580" name="piece of dead brain" chance="4013" />
+		<item id="7387" name="diamond sceptre" chance="3967" />
+		<item id="7896" name="glacier kilt" chance="2721" />
+		<item id="7897" name="glacier robe" chance="2265" />
+		<item id="7437" name="sapphire hammer" chance="790" />
+		<item id="8878" name="crystalline armor" chance="730" />
+		<item id="18412" name="glacial rod" chance="669" />
+		<item id="10220" name="leviathan's amulet" chance="319" />
+	</loot>
+</monster>

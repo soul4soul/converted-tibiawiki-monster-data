@@ -71,7 +71,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = -5},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -91,20 +91,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 139},
-	{id = "fairy wings", chance = 15625},
-	{id = "dark mushroom", chance = 12500, maxCount = 2},
-	{id = "goat grass", chance = 12500},
-	{id = "leaf star", chance = 12500, maxCount = 6},
-	{id = "cave turnip", chance = 9375, maxCount = 2},
-	{id = "shimmering beetles", chance = 9375},
-	{id = "strong health potion", chance = 9375, maxCount = 2},
-	{id = "small stone", chance = 6250, maxCount = 4},
-	{id = "great health potion", chance = 3125, maxCount = 2},
-	{id = "panpipes", chance = 3125},
-	{id = "prismatic quartz", chance = 3125},
-	{id = "small enchanted sapphire", chance = 3125},
-	{id = "wood cape", chance = 3125}
+	{id = 2148, chance = 100000, maxCount = 139},
+	{id = 28350, chance = 15625},
+	{id = 2792, chance = 12500, maxCount = 2},
+	{id = 2760, chance = 12500},
+	{id = 28391, chance = 12500, maxCount = 6},
+	{id = 27039, chance = 9375, maxCount = 2},
+	{id = 28349, chance = 9375},
+	{id = 7588, chance = 9375, maxCount = 2},
+	{id = 1294, chance = 6250, maxCount = 4},
+	{id = 7591, chance = 3125, maxCount = 2},
+	{id = 2074, chance = 3125},
+	{id = 27618, chance = 3125},
+	{id = 7759, chance = 3125},
+	{id = 2664, chance = 3125}
 }
 
 mType:register(monster)

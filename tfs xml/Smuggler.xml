@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="-5" />
+		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -38,7 +38,7 @@
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="-5" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-60" />
@@ -49,16 +49,16 @@
 		<voice sentence="I will silence you forever!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="79838" countmax="10" />
+		<item id="2148" name="gold coin" chance="79837" countmax="10" />
 		<item name="torch" chance="30216" countmax="2" />
-		<item name="leather legs" chance="14790" />
-		<item name="ham" chance="10191" />
-		<item name="short sword" chance="10049" />
-		<item name="leather helmet" chance="10032" />
-		<item name="knife" chance="9997" />
-		<item name="sword" chance="5027" />
-		<item name="raspberry" chance="4913" countmax="5" />
-		<item name="combat knife" chance="4039" />
-		<item name="deer trophy" chance="113" />
+		<item id="2649" name="leather legs" chance="14788" />
+		<item id="2671" name="ham" chance="10190" />
+		<item id="2406" name="short sword" chance="10050" />
+		<item id="2461" name="leather helmet" chance="10033" />
+		<item id="2403" name="knife" chance="9996" />
+		<item id="2376" name="sword" chance="5026" />
+		<item id="8840" name="raspberry" chance="4912" countmax="5" />
+		<item id="2404" name="combat knife" chance="4039" />
+		<item id="7397" name="deer trophy" chance="113" />
 	</loot>
 </monster>

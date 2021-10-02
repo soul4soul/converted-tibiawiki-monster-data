@@ -66,15 +66,15 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 1},
-	{type = COMBAT_ENERGYDAMAGE, percent = 30},
-	{type = COMBAT_EARTHDAMAGE, percent = 75},
-	{type = COMBAT_FIREDAMAGE, percent = 40},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 1},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -91,17 +91,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "behemoth claw", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 162},
-	{id = "perfect behemoth fang", chance = 100000},
-	{id = "behemoth trophy", chance = 97561},
-	{id = "small amethyst", chance = 70732, maxCount = 5},
-	{id = "assassin star", chance = 63415, maxCount = 94},
-	{id = "two handed sword", chance = 53659},
-	{id = "meat", chance = 24390},
-	{id = "dark armor", chance = 14634},
-	{id = "double axe", chance = 4878},
-	{id = "shiny stone", chance = 4878}
+	{id = 5930, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 162},
+	{id = 5893, chance = 100000},
+	{id = 7396, chance = 97561},
+	{id = 2150, chance = 70732, maxCount = 5},
+	{id = 7368, chance = 63415, maxCount = 94},
+	{id = 2377, chance = 53659},
+	{id = 2666, chance = 24390},
+	{id = 2489, chance = 14634},
+	{id = 2387, chance = 4878},
+	{id = 11227, chance = 4878}
 }
 
 mType:register(monster)

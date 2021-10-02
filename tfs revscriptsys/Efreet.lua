@@ -71,15 +71,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 60},
-	{type = COMBAT_EARTHDAMAGE, percent = 10},
-	{type = COMBAT_FIREDAMAGE, percent = 90},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -5},
-	{type = COMBAT_HOLYDAMAGE , percent = -8},
-	{type = COMBAT_DEATHDAMAGE , percent = 20}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,21 +93,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 97617, maxCount = 129},
-	{id = "royal spear", chance = 14959, maxCount = 3},
-	{id = "strong mana potion", chance = 10534},
-	{id = "pear", chance = 9549, maxCount = 5},
-	{id = "jewelled belt", chance = 7668},
-	{id = "small emerald", chance = 7220},
-	{id = "heavy machete", chance = 4837},
-	{id = "green piece of cloth", chance = 2705},
-	{id = "green tapestry", chance = 2096},
-	{id = "noble turban", chance = 1021},
-	{id = "magma monocle", chance = 394},
-	{id = "wand of inferno", chance = 340},
-	{id = "mystic turban", chance = 233},
-	{id = "small oil lamp", chance = 197},
-	{id = "green gem", chance = 125}
+	{id = 2148, chance = 97621, maxCount = 129},
+	{id = 7378, chance = 14970, maxCount = 3},
+	{id = 7589, chance = 10517},
+	{id = 2673, chance = 9569, maxCount = 5},
+	{id = 12426, chance = 7655},
+	{id = 2149, chance = 7226},
+	{id = 2442, chance = 4829},
+	{id = 5910, chance = 2701},
+	{id = 1860, chance = 2093},
+	{id = 12442, chance = 1019},
+	{id = 7900, chance = 393},
+	{id = 2187, chance = 358},
+	{id = 2663, chance = 233},
+	{id = 2063, chance = 197},
+	{id = 2155, chance = 125}
 }
 
 mType:register(monster)

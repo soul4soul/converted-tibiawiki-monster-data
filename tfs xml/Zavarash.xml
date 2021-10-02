@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="10" />
-		<element energyPercent="40" />
-		<element earthPercent="40" />
-		<element firePercent="30" />
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="40" />
-		<element holyPercent="-20" />
-		<element deathPercent="35" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-600" />
@@ -50,36 +50,36 @@
 		<voice sentence="Harrr, Harrr!" yell="false" />
 	</voices>
 	<loot>
-		<item name="cluster of solace" chance="100000" />
-		<item name="demon horn" chance="100000" />
-		<item name="gold coin" chance="100000" countmax="197" />
-		<item name="platinum coin" chance="100000" countmax="50" />
-		<item name="demonic essence" chance="59091" />
-		<item name="unrealized dream" chance="59091" />
+		<item id="22396" name="cluster of solace" chance="100000" />
+		<item id="5954" name="demon horn" chance="100000" />
+		<item id="2148" name="gold coin" chance="100000" countmax="197" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="50" />
+		<item id="6500" name="demonic essence" chance="59091" />
+		<item id="22598" name="unrealized dream" chance="59091" />
 		<item name="giant shimmering pearl" chance="42832" />
-		<item name="violet crystal shard" chance="38287" countmax="8" />
-		<item name="great mana potion" chance="34790" countmax="10" />
-		<item name="great spirit potion" chance="33042" countmax="10" />
-		<item name="ultimate health potion" chance="32168" countmax="10" />
-		<item name="blue crystal shard" chance="31643" countmax="8" />
-		<item name="green crystal shard" chance="30070" countmax="8" />
-		<item name="green gem" chance="20455" />
-		<item name="guardian halberd" chance="15909" />
-		<item name="guardian shield" chance="15909" />
-		<item name="blue gem" chance="15559" />
-		<item name="gold ingot" chance="15385" />
-		<item name="bonebreaker" chance="15035" />
-		<item name="heavy mace" chance="12937" />
-		<item name="crown shield" chance="11538" />
-		<item name="dream warden mask" chance="10490" />
-		<item name="paladin armor" chance="9615" />
-		<item name="diamond sceptre" chance="8392" />
-		<item name="demon shield" chance="6294" />
-		<item name="onyx flail" chance="4021" />
-		<item name="mastermind shield" chance="1399" />
-		<item name="demonbone" chance="699" />
-		<item name="skullcracker armor" chance="524" />
-		<item name="lavos armor" chance="350" />
-		<item name="obsidian truncheon" chance="175" />
+		<item id="18414" name="violet crystal shard" chance="38287" countmax="8" />
+		<item id="7590" name="great mana potion" chance="34790" countmax="10" />
+		<item id="8472" name="great spirit potion" chance="33042" countmax="10" />
+		<item id="8473" name="ultimate health potion" chance="32168" countmax="10" />
+		<item id="18413" name="blue crystal shard" chance="31643" countmax="8" />
+		<item id="18415" name="green crystal shard" chance="30070" countmax="8" />
+		<item id="2155" name="green gem" chance="20455" />
+		<item id="2427" name="guardian halberd" chance="15909" />
+		<item id="2515" name="guardian shield" chance="15909" />
+		<item id="2158" name="blue gem" chance="15559" />
+		<item id="9971" name="gold ingot" chance="15385" />
+		<item id="7428" name="bonebreaker" chance="15035" />
+		<item id="2452" name="heavy mace" chance="12937" />
+		<item id="2519" name="crown shield" chance="11538" />
+		<item id="22610" name="dream warden mask" chance="10490" />
+		<item id="8891" name="paladin armor" chance="9615" />
+		<item id="7387" name="diamond sceptre" chance="8392" />
+		<item id="2520" name="demon shield" chance="6294" />
+		<item id="7421" name="onyx flail" chance="4021" />
+		<item id="2514" name="mastermind shield" chance="1399" />
+		<item id="7431" name="demonbone" chance="699" />
+		<item id="8889" name="skullcracker armor" chance="524" />
+		<item id="8877" name="lavos armor" chance="350" />
+		<item id="8928" name="obsidian truncheon" chance="175" />
 	</loot>
 </monster>

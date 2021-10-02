@@ -71,15 +71,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -5},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -5},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -94,23 +94,23 @@ monster.defenses = {
 
 monster.maxSummons = 4
 monster.summons = {
-	{name = "stalker", chance = 15, interval = 2000, max = 1}
+	{name = "Stalker", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "crystal arrow", chance = 100000},
-	{id = "gold coin", chance = 85106, maxCount = 211},
-	{id = "red apple", chance = 77660, maxCount = 2},
-	{id = "poison arrow", chance = 56383, maxCount = 19},
-	{id = "burst arrow", chance = 46809, maxCount = 15},
-	{id = "onyx arrow", chance = 32979, maxCount = 6},
-	{id = "arrow", chance = 22340, maxCount = 25},
-	{id = "power bolt", chance = 15957, maxCount = 5},
-	{id = "great health potion", chance = 11702},
-	{id = "small diamond", chance = 9574, maxCount = 3},
-	{id = "stealth ring", chance = 3191},
-	{id = "mini mummy", chance = 2128},
-	{id = "boots of haste", chance = 1064}
+	{id = 2352, chance = 100000},
+	{id = 2148, chance = 85417, maxCount = 211},
+	{id = 2674, chance = 78125, maxCount = 2},
+	{id = 2545, chance = 57292, maxCount = 19},
+	{id = 2546, chance = 47917, maxCount = 15},
+	{id = 7365, chance = 33333, maxCount = 6},
+	{id = 2544, chance = 22917, maxCount = 25},
+	{id = 2547, chance = 17708, maxCount = 5},
+	{id = 7591, chance = 11458},
+	{id = 2145, chance = 9375, maxCount = 3},
+	{id = 2165, chance = 3125},
+	{id = 11207, chance = 2083},
+	{id = 2195, chance = 1042}
 }
 
 mType:register(monster)

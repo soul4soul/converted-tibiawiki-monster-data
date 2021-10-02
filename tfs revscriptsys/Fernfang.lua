@@ -71,12 +71,12 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 50},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 70},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -93,29 +93,29 @@ monster.defenses = {
 
 monster.maxSummons = 3
 monster.summons = {
-	{name = "war wolf", chance = 15, interval = 2000, max = 1}
+	{name = "War Wolf", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "book of prayers", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 96},
-	{id = "platinum coin", chance = 97674, maxCount = 3},
-	{id = "star herb", chance = 90698},
-	{id = "rope belt", chance = 55814},
-	{id = "yellow gem", chance = 44186},
-	{id = "power ring", chance = 41860},
-	{id = "safety pin", chance = 41860},
-	{id = "blank rune", chance = 18605},
-	{id = "bread", chance = 13953},
-	{id = "green tunic", chance = 13953},
-	{id = "brown flask", chance = 11628},
-	{id = "lamp", chance = 11628},
-	{id = "staff", chance = 11628},
-	{id = "strong mana potion", chance = 11628},
-	{id = "sling herb", chance = 6977},
-	{id = "wolf tooth chain", chance = 6977},
-	{id = "wooden whistle", chance = 6977},
-	{id = "life crystal", chance = 2326}
+	{id = 10563, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 96},
+	{id = 2152, chance = 97727, maxCount = 3},
+	{id = 2800, chance = 90909},
+	{id = 12448, chance = 56818},
+	{id = 2154, chance = 45455},
+	{id = 2166, chance = 43182},
+	{id = 12449, chance = 40909},
+	{id = 2260, chance = 18182},
+	{id = 2689, chance = 13636},
+	{id = 2652, chance = 13636},
+	{id = 2015, chance = 11364},
+	{id = "lamp", chance = 11364},
+	{id = 2401, chance = 11364},
+	{id = 7589, chance = 11364},
+	{id = 2129, chance = 9091},
+	{id = 2802, chance = 6818},
+	{id = 5786, chance = 6818},
+	{id = 2177, chance = 2273}
 }
 
 mType:register(monster)

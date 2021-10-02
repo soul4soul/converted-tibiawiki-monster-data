@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="-11" />
-		<element earthPercent="100" />
-		<element firePercent="5" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-5" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="15" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
@@ -52,21 +52,21 @@
 		<voice sentence="Spotz!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="100000" countmax="190" />
-		<item name="platinum coin" chance="75131" />
-		<item name="spitter nose" chance="18201" />
-		<item name="compound eye" chance="15099" />
-		<item name="small amethyst" chance="8178" countmax="2" />
-		<item name="great mana potion" chance="8026" />
-		<item name="brown mushroom" chance="7407" countmax="3" />
-		<item name="great health potion" chance="4948" />
-		<item name="time ring" chance="2307" />
-		<item name="crystal sword" chance="2015" />
-		<item name="mastermind potion" chance="318" />
-		<item name="calopteryx cape" chance="241" />
-		<item name="platinum amulet" chance="231" />
-		<item name="green gem" chance="210" />
-		<item name="crusader helmet" chance="208" />
-		<item name="grasshopper legs" chance="112" />
+		<item id="2148" name="gold coin" chance="100000" countmax="190" />
+		<item id="2152" name="platinum coin" chance="75127" />
+		<item id="15481" name="spitter nose" chance="18191" />
+		<item id="15486" name="compound eye" chance="15097" />
+		<item id="2150" name="small amethyst" chance="8177" countmax="2" />
+		<item id="7590" name="great mana potion" chance="8020" />
+		<item id="2789" name="brown mushroom" chance="7411" countmax="3" />
+		<item id="7591" name="great health potion" chance="4948" />
+		<item id="2169" name="time ring" chance="2305" />
+		<item id="7449" name="crystal sword" chance="2013" />
+		<item id="7440" name="mastermind potion" chance="318" />
+		<item id="15489" name="calopteryx cape" chance="240" />
+		<item id="2171" name="platinum amulet" chance="233" />
+		<item id="2155" name="green gem" chance="210" />
+		<item id="2497" name="crusader helmet" chance="208" />
+		<item id="15490" name="grasshopper legs" chance="112" />
 	</loot>
 </monster>

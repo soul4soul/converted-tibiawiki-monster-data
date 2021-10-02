@@ -68,21 +68,21 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = 80},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -10},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -120},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -100, maxDamage = -170, length = 5, spread = 5, effect = CONST_ME_HITBYFIRE},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -60, maxDamage = -140, radius = 3, target = true, ShootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -100, maxDamage = -170, length = 5, spread = 2, effect = CONST_ME_HITBYFIRE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -60, maxDamage = -140, radius = 5, target = true, ShootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA}
 }
 
 monster.defenses = {
@@ -92,27 +92,27 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 90101, maxCount = 105},
-	{id = "dragon ham", chance = 65119},
-	{id = "steel shield", chance = 14878},
-	{id = "crossbow", chance = 10088},
-	{id = "dragon's tail", chance = 9877},
-	{id = "burst arrow", chance = 7972, maxCount = 10},
-	{id = "longsword", chance = 4038},
-	{id = "steel helmet", chance = 3004},
-	{id = "broadsword", chance = 1995},
-	{id = "plate legs", chance = 1906},
-	{id = "wand of inferno", chance = 1054},
-	{id = "strong health potion", chance = 1053},
-	{id = "green dragon scale", chance = 1039},
-	{id = "green dragon leather", chance = 1025},
-	{id = "double axe", chance = 1006},
-	{id = "dragon hammer", chance = 520},
-	{id = "serpent sword", chance = 505},
-	{id = "small diamond", chance = 380},
-	{id = "dragon shield", chance = 300},
-	{id = "life crystal", chance = 113},
-	{id = "dragonbone staff", chance = 104}
+	{id = 2148, chance = 90096, maxCount = 105},
+	{id = 2672, chance = 65122},
+	{id = 2509, chance = 14879},
+	{id = 2455, chance = 10091},
+	{id = 12413, chance = 9873},
+	{id = 2546, chance = 7974, maxCount = 10},
+	{id = 2397, chance = 4043},
+	{id = 3351, chance = 3001},
+	{id = 2413, chance = 1993},
+	{id = 2647, chance = 1906},
+	{id = 2187, chance = 1055},
+	{id = 7588, chance = 1051},
+	{id = 5920, chance = 1038},
+	{id = 5877, chance = 1026},
+	{id = 2387, chance = 1008},
+	{id = 2434, chance = 520},
+	{id = 2409, chance = 505},
+	{id = 2145, chance = 381},
+	{id = 2516, chance = 301},
+	{id = 2177, chance = 113},
+	{id = 7430, chance = 104}
 }
 
 mType:register(monster)

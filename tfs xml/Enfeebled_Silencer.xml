@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Enfeebled Silencer" nameDescription="an enfeebled silencer" experience="1100" speed="330" manacost="0">
+	<health now="1100" max="1100" />
+	<look type="585" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
+	</attacks>
+	<defenses armor="44" defense="44">
+		<defense name="healing" interval="2000" chance="20" min="0" max="0" />
+		<defense name="speed" interval="2000" chance="15" minspeedchange="450" maxspeedchange="450" duration="4000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Prrrroooaaaah!!! PRROAAAH!!" yell="false" />
+		<voice sentence="PRRRROOOOOAAAAAHHHH!!!" yell="false" />
+		<voice sentence="HUUUSSSSSSSSH!!" yell="false" />
+		<voice sentence="Hussssssh!!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="100" />
+		<item id="2152" name="platinum coin" chance="39880" />
+		<item id="28350" name="fairy wings" chance="11760" />
+		<item id="7368" name="assassin star" chance="7069" countmax="10" />
+		<item id="22534" name="silencer claws" chance="3838" />
+		<item id="7407" name="haunted blade" chance="1492" />
+		<item id="2165" name="stealth ring" chance="1275" />
+		<item id="7886" name="terra boots" chance="916" />
+		<item id="7454" name="glorious axe" chance="910" />
+		<item id="7451" name="shadow sceptre" chance="879" />
+		<item id="7885" name="terra legs" chance="854" />
+		<item id="7387" name="diamond sceptre" chance="718" />
+		<item id="2195" name="boots of haste" chance="495" />
+	</loot>
+</monster>

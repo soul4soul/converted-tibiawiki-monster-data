@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -29,19 +29,23 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="-10" />
-		<element energyPercent="-10" />
-		<element earthPercent="-10" />
-		<element firePercent="100" />
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="30" />
-		<element holyPercent="30" />
-		<element deathPercent="-10" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-509" />
+		<attack name="lifedrain" interval="2000" chance="15" min="0" max="-300" radius="3" target="0" />
+		<attack name="fire" interval="2000" chance="15" min="-200" max="-300" length="8" spread="3" />
+		<attack name="death" interval="2000" chance="15" min="0" max="-700" length="8" spread="0" />
+		<attack name="death" interval="2000" chance="15" min="0" max="-300" radius="4" target="0" />
 	</attacks>
 	<defenses armor="35" defense="35">
 		<defense name="speed" interval="2000" chance="15" minspeedchange="450" maxspeedchange="450" duration="4000">
@@ -55,25 +59,24 @@
 		<voice sentence="Dieee!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="98836" countmax="264" />
-		<item name="flask of demonic blood" chance="33922" />
-		<item name="jalapeno pepper" chance="31164" countmax="4" />
-		<item name="demonic essence" chance="23405" />
-		<item name="terra rod" chance="21164" />
-		<item name="soul orb" chance="20129" />
-		<item name="great health potion" chance="11164" />
-		<item name="small amethyst" chance="8578" countmax="3" />
-		<item name="slightly rusted legs" chance="7845" />
-		<item name="red piece of cloth" chance="4095" />
-		<item name="platinum coin" chance="2500" countmax="4" />
-		<item name="orichalcum pearl" chance="1638" countmax="4" />
-		<item name="rusty legs" chance="1552" />
-		<item name="noble axe" chance="1466" />
-		<item name="assassin dagger" chance="862" />
-		<item name="crystal ring" chance="302" />
-		<item name="steel boots" chance="302" />
-		<item name="assassin star" chance="129" />
-		<item name="death ring" chance="86" />
-		<item name="golden legs" chance="43" />
+		<item id="2148" name="gold coin" chance="98860" countmax="264" />
+		<item id="6558" name="flask of demonic blood" chance="33836" />
+		<item id="8844" name="jalapeno pepper" chance="30782" countmax="4" />
+		<item id="6500" name="demonic essence" chance="23371" />
+		<item id="2181" name="terra rod" chance="20969" />
+		<item id="5944" name="soul orb" chance="20236" />
+		<item id="7591" name="great health potion" chance="11075" />
+		<item id="9813" name="slightly rusted legs" chance="9650" />
+		<item id="2150" name="small amethyst" chance="8388" countmax="3" />
+		<item id="5911" name="red piece of cloth" chance="4112" />
+		<item id="2152" name="platinum coin" chance="2402" countmax="4" />
+		<item id="5022" name="orichalcum pearl" chance="1710" countmax="4" />
+		<item id="7456" name="noble axe" chance="1507" />
+		<item id="7404" name="assassin dagger" chance="936" />
+		<item id="2124" name="crystal ring" chance="285" />
+		<item id="2645" name="steel boots" chance="285" />
+		<item id="7368" name="assassin star" chance="122" />
+		<item id="6300" name="death ring" chance="81" />
+		<item id="2470" name="golden legs" chance="41" />
 	</loot>
 </monster>

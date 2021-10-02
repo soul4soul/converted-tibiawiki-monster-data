@@ -71,16 +71,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 40},
-	{type = COMBAT_HOLYDAMAGE , percent = 40},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -95,15 +95,15 @@ monster.defenses = {
 
 monster.maxSummons = 4
 monster.summons = {
-	{name = "fury", chance = 15, interval = 2000, max = 1}
+	{name = "Fury", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "crystal ring", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "great mana potion", chance = 100000, maxCount = 5},
-	{id = "jalapeno pepper", chance = 100000, maxCount = 5},
-	{id = "soul orb", chance = 100000}
+	{id = 2124, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 200},
+	{id = 7590, chance = 100000, maxCount = 5},
+	{id = 8844, chance = 100000, maxCount = 5},
+	{id = 5944, chance = 100000}
 }
 
 mType:register(monster)

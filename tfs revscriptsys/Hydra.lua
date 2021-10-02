@@ -67,15 +67,15 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 50},
-	{type = COMBAT_HOLYDAMAGE , percent = 30},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -90,22 +90,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87748, maxCount = 246},
-	{id = "ham", chance = 60194},
-	{id = "platinum coin", chance = 49494, maxCount = 3},
-	{id = "hydra head", chance = 10155},
-	{id = "small sapphire", chance = 4983},
-	{id = "cucumber", chance = 4922},
-	{id = "ring of healing", chance = 1213},
-	{id = "knight armor", chance = 1113},
-	{id = "hydra egg", chance = 939},
-	{id = "stone skin amulet", chance = 901},
-	{id = "warrior helmet", chance = 827},
-	{id = "life crystal", chance = 513},
-	{id = "strong mana potion", chance = 463},
-	{id = "royal helmet", chance = 221},
-	{id = "medusa shield", chance = 218},
-	{id = "boots of haste", chance = 96}
+	{id = 2148, chance = 87748, maxCount = 246},
+	{id = 2671, chance = 60194},
+	{id = 2152, chance = 49494, maxCount = 3},
+	{id = 11199, chance = 10155},
+	{id = 2146, chance = 4983},
+	{id = 8842, chance = 4922},
+	{id = 2214, chance = 1213},
+	{id = 2476, chance = 1113},
+	{id = 4850, chance = 939},
+	{id = 2197, chance = 901},
+	{id = 2475, chance = 827},
+	{id = 2177, chance = 513},
+	{id = 7589, chance = 463},
+	{id = 2498, chance = 221},
+	{id = 2536, chance = 218},
+	{id = 2195, chance = 96}
 }
 
 mType:register(monster)

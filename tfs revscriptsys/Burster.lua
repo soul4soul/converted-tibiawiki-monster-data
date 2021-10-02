@@ -66,7 +66,7 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
@@ -88,20 +88,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "crystallized anger", chance = 100000},
-	{id = "curious matter", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 95},
-	{id = "plasma pearls", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 6},
-	{id = "spark sphere", chance = 100000},
-	{id = "volatile proto matter", chance = 100000},
-	{id = "collar of green plasma", chance = 50000},
-	{id = "energy bar", chance = 50000, maxCount = 3},
-	{id = "energy drink", chance = 50000, maxCount = 3},
-	{id = "great health potion", chance = 50000},
-	{id = "great mana potion", chance = 50000},
-	{id = "green crystal shard", chance = 50000},
-	{id = "ring of red plasma", chance = 50000}
+	{id = 26163, chance = 100000},
+	{id = 26167, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 95},
+	{id = 26162, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 8},
+	{id = 26174, chance = 100000},
+	{id = 26170, chance = 100000},
+	{id = 26191, chance = 66667, maxCount = 3},
+	{id = 7591, chance = 66667},
+	{id = "ring of red plasma", chance = 66667},
+	{id = 18418, chance = 33333},
+	{id = 26199, chance = 33333},
+	{id = 26200, chance = 33333},
+	{id = 26201, chance = 33333, maxCount = 3},
+	{id = 7590, chance = 33333},
+	{id = 18415, chance = 33333}
 }
 
 mType:register(monster)

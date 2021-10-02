@@ -68,15 +68,15 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
-	{type = COMBAT_ENERGYDAMAGE, percent = 100},
-	{type = COMBAT_EARTHDAMAGE, percent = 95},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 100},
-	{type = COMBAT_HOLYDAMAGE , percent = -8},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -92,34 +92,34 @@ monster.defenses = {
 
 monster.maxSummons = 1
 monster.summons = {
-	{name = "stone golem", chance = 15, interval = 2000, max = 1}
+	{name = "Stone Golem", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 29966, maxCount = 80},
-	{id = "cherry", chance = 19702, maxCount = 4},
-	{id = "bread", chance = 8951},
-	{id = "poison dagger", chance = 7720},
-	{id = "skull staff", chance = 6022},
-	{id = "great health potion", chance = 5162},
-	{id = "great mana potion", chance = 4966},
-	{id = "assassin star", chance = 3315, maxCount = 4},
-	{id = "dark mushroom", chance = 2936},
-	{id = "mind stone", chance = 2124},
-	{id = "energy ring", chance = 1996},
-	{id = "candlestick", chance = 1576},
-	{id = "blue robe", chance = 1563},
-	{id = "small sapphire", chance = 1279},
-	{id = "talon", chance = 1069},
-	{id = "lightning robe", chance = 981},
-	{id = "inkwell", chance = 920},
-	{id = "crystal ring", chance = 751},
-	{id = "luminous orb", chance = 487},
-	{id = "ring of the sky", chance = 392},
-	{id = "stone skin amulet", chance = 345},
-	{id = "red tome", chance = 237},
-	{id = "golden armor", chance = 217},
-	{id = "piggy bank", chance = 74}
+	{id = 2148, chance = 29970, maxCount = 80},
+	{id = 2679, chance = 19685, maxCount = 4},
+	{id = 2689, chance = 8941},
+	{id = 2411, chance = 7705},
+	{id = 2436, chance = 6024},
+	{id = 7591, chance = 5153},
+	{id = 7590, chance = 4964},
+	{id = 7368, chance = 3323, maxCount = 4},
+	{id = 2792, chance = 2938},
+	{id = 2178, chance = 2127},
+	{id = 2167, chance = 1992},
+	{id = "candlestick", chance = 1573},
+	{id = 2656, chance = 1567},
+	{id = 2146, chance = 1276},
+	{id = 2151, chance = 1074},
+	{id = 7898, chance = 979},
+	{id = 2600, chance = 918},
+	{id = 2124, chance = 750},
+	{id = 12410, chance = 486},
+	{id = 2123, chance = 405},
+	{id = 2197, chance = 344},
+	{id = 1986, chance = 236},
+	{id = 2466, chance = 216},
+	{id = 2114, chance = 74}
 }
 
 mType:register(monster)

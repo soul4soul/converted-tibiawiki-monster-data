@@ -67,7 +67,7 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -88,18 +88,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 207},
-	{id = "waspoid claw", chance = 100000},
-	{id = "platinum coin", chance = 94118, maxCount = 4},
-	{id = "compound eye", chance = 82353},
-	{id = "waspoid wing", chance = 80392},
-	{id = "dung ball (quest)", chance = 72549, maxCount = 2},
-	{id = "small topaz", chance = 56863, maxCount = 2},
-	{id = "great health potion", chance = 45098, maxCount = 2},
-	{id = "black pearl", chance = 29412},
-	{id = "great mana potion", chance = 29412, maxCount = 2},
-	{id = "yellow gem", chance = 13725},
-	{id = "emerald bangle", chance = 9804}
+	{id = 2148, chance = 100000, maxCount = 207},
+	{id = 15483, chance = 100000},
+	{id = 2152, chance = 94231, maxCount = 4},
+	{id = 15486, chance = 82692},
+	{id = 15484, chance = 80769},
+	{id = 16096, chance = 73077, maxCount = 2},
+	{id = 9970, chance = 55769, maxCount = 2},
+	{id = 7591, chance = 44231, maxCount = 2},
+	{id = 2144, chance = 30769},
+	{id = 7590, chance = 30769, maxCount = 2},
+	{id = 2154, chance = 13462},
+	{id = 2127, chance = 9615}
 }
 
 mType:register(monster)

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Water Elemental" nameDescription="a water elemental" experience="650" speed="230" manacost="0">
+	<health now="550" max="550" />
+	<look type="286" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-165" />
+	</attacks>
+	<defenses armor="37" defense="37">
+		<defense name="healing" interval="2000" chance="20" min="55" max="137" />
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Splish splash" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="99261" countmax="100" />
+		<item id="2152" name="platinum coin" chance="24534" />
+		<item id="2667" name="fish" chance="20169" />
+		<item id="7588" name="strong health potion" chance="9990" />
+		<item id="7589" name="strong mana potion" chance="9777" />
+		<item id="2145" name="small diamond" chance="2579" />
+		<item id="2149" name="small emerald" chance="2569" countmax="2" />
+		<item id="2167" name="energy ring" chance="1066" />
+		<item id="7158" name="rainbow trout" chance="1002" />
+		<item id="7159" name="green perch" chance="987" />
+		<item id="2168" name="life ring" chance="977" />
+	</loot>
+</monster>

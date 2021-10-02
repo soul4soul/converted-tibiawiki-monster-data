@@ -72,15 +72,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
-	{type = COMBAT_HOLYDAMAGE , percent = -25},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -95,22 +95,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 96901, maxCount = 155},
-	{id = "ham", chance = 30121},
-	{id = "soul orb", chance = 20920},
-	{id = "flask of demonic blood", chance = 20484},
-	{id = "essence of a bad dream", chance = 15545},
-	{id = "scythe leg", chance = 10169},
-	{id = "demonic essence", chance = 9637},
-	{id = "platinum coin", chance = 2857, maxCount = 3},
-	{id = "power bolt", chance = 1259, maxCount = 4},
-	{id = "death ring", chance = 1211},
-	{id = "ancient shield", chance = 920},
-	{id = "knight legs", chance = 872},
-	{id = "skeleton decoration", chance = 581},
-	{id = "boots of haste", chance = 339},
-	{id = "mysterious voodoo skull", chance = 145},
-	{id = "war axe", chance = 97}
+	{id = 2148, chance = 96784, maxCount = 155},
+	{id = 2671, chance = 29982},
+	{id = 6558, chance = 20697},
+	{id = 5944, chance = 20652},
+	{id = 11223, chance = 15534},
+	{id = 11229, chance = 10190},
+	{id = 6500, chance = 9466},
+	{id = 2152, chance = 2899, maxCount = 3},
+	{id = 2547, chance = 1268, maxCount = 4},
+	{id = 6300, chance = 1178},
+	{id = 2532, chance = 996},
+	{id = 2477, chance = 951},
+	{id = 6526, chance = 589},
+	{id = 2195, chance = 317},
+	{id = 5669, chance = 181},
+	{id = 2454, chance = 91}
 }
 
 mType:register(monster)

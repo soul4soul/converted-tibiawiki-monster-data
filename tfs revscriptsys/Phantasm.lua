@@ -70,16 +70,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 100},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -94,22 +94,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87548, maxCount = 238},
-	{id = "platinum coin", chance = 87548, maxCount = 4},
-	{id = "great mana potion", chance = 30200, maxCount = 2},
-	{id = "shadow herb", chance = 26447},
-	{id = "blank rune", chance = 21150, maxCount = 2},
-	{id = "ultimate health potion", chance = 17678},
-	{id = "demonic essence", chance = 17082},
-	{id = "small amethyst", chance = 14626, maxCount = 3},
-	{id = "small topaz", chance = 13259, maxCount = 3},
-	{id = "small ruby", chance = 11645, maxCount = 3},
-	{id = "small emerald", chance = 10663, maxCount = 3},
-	{id = "shadow sceptre", chance = 877},
-	{id = "stealth ring", chance = 772},
-	{id = "crown armor", chance = 666},
-	{id = "abyss hammer", chance = 491},
-	{id = "death ring", chance = 351}
+	{id = 2148, chance = 87686, maxCount = 238},
+	{id = 2152, chance = 87686, maxCount = 4},
+	{id = 7590, chance = 30266, maxCount = 2},
+	{id = 2804, chance = 26288},
+	{id = 2260, chance = 21515, maxCount = 2},
+	{id = 8473, chance = 17641},
+	{id = 6500, chance = 17191},
+	{id = 2150, chance = 14597, maxCount = 3},
+	{id = 9970, chance = 13144, maxCount = 3},
+	{id = 2147, chance = 11657, maxCount = 3},
+	{id = 2149, chance = 10792, maxCount = 3},
+	{id = 7451, chance = 865},
+	{id = 2165, chance = 761},
+	{id = 2487, chance = 657},
+	{id = 7414, chance = 519},
+	{id = 6300, chance = 346}
 }
 
 mType:register(monster)

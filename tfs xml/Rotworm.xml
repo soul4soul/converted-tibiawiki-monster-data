@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="4" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -45,12 +45,12 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
-		<item name="gold coin" chance="71809" countmax="17" />
-		<item name="ham" chance="20124" />
-		<item name="meat" chance="20017" />
-		<item name="lump of dirt" chance="9998" />
-		<item name="mace" chance="4441" />
-		<item name="worm" chance="3060" countmax="3" />
-		<item name="sword" chance="3041" />
+		<item id="2148" name="gold coin" chance="71818" countmax="17" />
+		<item id="2671" name="ham" chance="20117" />
+		<item id="2666" name="meat" chance="20009" />
+		<item id="10609" name="lump of dirt" chance="10003" />
+		<item id="2398" name="mace" chance="4440" />
+		<item id="3976" name="worm" chance="3059" countmax="3" />
+		<item id="2376" name="sword" chance="3038" />
 	</loot>
 </monster>

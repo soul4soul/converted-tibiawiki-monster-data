@@ -68,16 +68,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 70},
-	{type = COMBAT_FIREDAMAGE, percent = 40},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,24 +91,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "sling herb", chance = 13489},
-	{id = "goat grass", chance = 12088},
-	{id = "dark rosary", chance = 9805},
-	{id = "red apple", chance = 7403, maxCount = 2},
-	{id = "powder herb", chance = 6166},
-	{id = "black hood", chance = 5060},
-	{id = "wood mushroom", chance = 3344},
-	{id = "cultish robe", chance = 1807},
-	{id = "clerical mace", chance = 1492},
-	{id = "wooden flute", chance = 1406},
-	{id = "crystal ball", chance = 1116},
-	{id = "hailstorm rod", chance = 1061},
-	{id = "book (orange)", chance = 941},
-	{id = "mana potion", chance = 916},
-	{id = "talon", chance = 716},
-	{id = "crystal necklace", chance = 621},
-	{id = "black shield", chance = 205},
-	{id = "piggy bank", chance = 70}
+	{id = 2802, chance = 13468},
+	{id = 2760, chance = 12076},
+	{id = 11220, chance = 9805},
+	{id = 2674, chance = 7410, maxCount = 2},
+	{id = 2803, chance = 6173},
+	{id = 10562, chance = 5055},
+	{id = 2791, chance = 3353},
+	{id = 10556, chance = 1801},
+	{id = 2423, chance = 1497},
+	{id = 2070, chance = 1417},
+	{id = 2192, chance = 1118},
+	{id = 2183, chance = 1063},
+	{id = "book (orange)", chance = 938},
+	{id = 7620, chance = 913},
+	{id = 2151, chance = 714},
+	{id = 2125, chance = 619},
+	{id = 2529, chance = 210},
+	{id = 2114, chance = 70}
 }
 
 mType:register(monster)

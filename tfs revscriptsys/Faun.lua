@@ -68,16 +68,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 70},
-	{type = COMBAT_FIREDAMAGE, percent = -15},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 30},
-	{type = COMBAT_DEATHDAMAGE , percent = 20}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,25 +91,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 191},
-	{id = "dandelion seeds", chance = 15492},
-	{id = "strong health potion", chance = 12016, maxCount = 2},
-	{id = "shimmering beetles", chance = 9613},
-	{id = "fresh fruit", chance = 9156},
-	{id = "leaf star", chance = 7885, maxCount = 7},
-	{id = "goat grass", chance = 7865},
-	{id = "cookie", chance = 5978, maxCount = 5},
-	{id = "rainbow quartz", chance = 5859, maxCount = 3},
-	{id = "panpipes", chance = 5660},
-	{id = "small stone", chance = 5541, maxCount = 5},
-	{id = "grapes", chance = 5204},
-	{id = "great health potion", chance = 3654, maxCount = 2},
-	{id = "small enchanted sapphire", chance = 2403, maxCount = 2},
-	{id = "wood cape", chance = 2324},
-	{id = "leaf legs", chance = 636},
-	{id = "wooden spellbook", chance = 397},
+	{id = 2148, chance = 100000, maxCount = 191},
+	{id = 28351, chance = 15479},
+	{id = 7588, chance = 12006, maxCount = 2},
+	{id = 28349, chance = 9605},
+	{id = 28348, chance = 9168},
+	{id = 28391, chance = 7879, maxCount = 7},
+	{id = 2760, chance = 7859},
+	{id = 2687, chance = 5973, maxCount = 5},
+	{id = 28393, chance = 5854, maxCount = 3},
+	{id = 2074, chance = 5656},
+	{id = 1294, chance = 5537, maxCount = 5},
+	{id = 2681, chance = 5199},
+	{id = 7591, chance = 3652, maxCount = 2},
+	{id = 7759, chance = 2401, maxCount = 2},
+	{id = 2664, chance = 2322},
+	{id = 9928, chance = 635},
+	{id = 28355, chance = 397},
 	{id = "die", chance = 99},
-	{id = "mandrake", chance = 20}
+	{id = 5015, chance = 20}
 }
 
 mType:register(monster)

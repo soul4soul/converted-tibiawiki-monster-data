@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -52,11 +52,11 @@
 		<voice name="rat" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item name="bone club" chance="85047" />
-		<item name="gold coin" chance="79439" countmax="24" />
-		<item name="cheese" chance="65421" />
-		<item name="worm" chance="50467" countmax="4" />
-		<item name="cookie" chance="935" countmax="2" />
-		<item name="die" chance="935" />
+		<item id="2449" name="bone club" chance="85088" />
+		<item id="2148" name="gold coin" chance="78947" countmax="24" />
+		<item id="3607" name="cheese" chance="65789" />
+		<item id="3976" name="worm" chance="48246" countmax="4" />
+		<item name="die" chance="1754" />
+		<item id="2687" name="cookie" chance="877" countmax="2" />
 	</loot>
 </monster>

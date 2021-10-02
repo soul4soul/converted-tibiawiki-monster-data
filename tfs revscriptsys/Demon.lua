@@ -70,22 +70,22 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 25},
-	{type = COMBAT_ENERGYDAMAGE, percent = 50},
-	{type = COMBAT_EARTHDAMAGE, percent = 40},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = -12},
-	{type = COMBAT_HOLYDAMAGE , percent = -12},
-	{type = COMBAT_DEATHDAMAGE , percent = 20}
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -150, maxDamage = -250, radius = 5, target = true, ShootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -300, maxDamage = -480, length = 8, spread = 1, effect = CONST_ME_ENERGYHIT}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -150, maxDamage = -250, radius = 7, target = true, ShootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -300, maxDamage = -480, length = 8, spread = 0, effect = CONST_ME_ENERGYHIT}
 }
 
 monster.defenses = {
@@ -96,43 +96,43 @@ monster.defenses = {
 
 monster.maxSummons = 1
 monster.summons = {
-	{name = "fire elemental", chance = 15, interval = 2000, max = 1}
+	{name = "Fire Elemental", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99491, maxCount = 200},
-	{id = "platinum coin", chance = 99486, maxCount = 8},
-	{id = "great mana potion", chance = 25087, maxCount = 3},
-	{id = "great spirit potion", chance = 24830, maxCount = 3},
-	{id = "demon horn", chance = 20163},
-	{id = "ultimate health potion", chance = 19749, maxCount = 3},
-	{id = "fire mushroom", chance = 19738, maxCount = 6},
-	{id = "demonic essence", chance = 19689},
-	{id = "assassin star", chance = 15482, maxCount = 10},
-	{id = "small topaz", chance = 10133, maxCount = 5},
-	{id = "small ruby", chance = 10005, maxCount = 5},
-	{id = "small emerald", chance = 9851, maxCount = 5},
-	{id = "small amethyst", chance = 9821, maxCount = 5},
-	{id = "fire axe", chance = 4022},
-	{id = "talon", chance = 3351},
-	{id = "red gem", chance = 3001},
-	{id = "orb", chance = 2903},
-	{id = "ring of healing", chance = 2654},
-	{id = "might ring", chance = 2492},
-	{id = "stealth ring", chance = 2413},
-	{id = "giant sword", chance = 1964},
-	{id = "ice rapier", chance = 1904},
-	{id = "golden sickle", chance = 1365},
-	{id = "purple tome", chance = 1239},
-	{id = "devil helmet", chance = 1226},
-	{id = "gold ring", chance = 1029},
-	{id = "demon shield", chance = 766},
-	{id = "platinum amulet", chance = 700},
-	{id = "mastermind shield", chance = 468},
-	{id = "golden legs", chance = 408},
-	{id = "demon trophy", chance = 88},
-	{id = "magic plate armor", chance = 88},
-	{id = "demonrage sword", chance = 55}
+	{id = 2148, chance = 99492, maxCount = 200},
+	{id = 2152, chance = 99487, maxCount = 8},
+	{id = 7590, chance = 25097, maxCount = 3},
+	{id = 8472, chance = 24829, maxCount = 3},
+	{id = 5954, chance = 20169},
+	{id = 8473, chance = 19729, maxCount = 3},
+	{id = 2795, chance = 19727, maxCount = 6},
+	{id = 6500, chance = 19697},
+	{id = 7368, chance = 15478, maxCount = 10},
+	{id = 9970, chance = 10129, maxCount = 5},
+	{id = 2147, chance = 10012, maxCount = 5},
+	{id = 2149, chance = 9859, maxCount = 5},
+	{id = 2150, chance = 9816, maxCount = 5},
+	{id = 2432, chance = 4011},
+	{id = 2151, chance = 3359},
+	{id = 2156, chance = 2999},
+	{id = 2176, chance = 2898},
+	{id = 2214, chance = 2655},
+	{id = 2164, chance = 2497},
+	{id = 2165, chance = 2410},
+	{id = 2393, chance = 1962},
+	{id = 2396, chance = 1907},
+	{id = 2418, chance = 1367},
+	{id = 1982, chance = 1239},
+	{id = 2462, chance = 1225},
+	{id = 2179, chance = 1029},
+	{id = 2520, chance = 764},
+	{id = 2171, chance = 699},
+	{id = 2514, chance = 467},
+	{id = 2470, chance = 407},
+	{id = 7393, chance = 87},
+	{id = 2472, chance = 87},
+	{id = 7382, chance = 55}
 }
 
 mType:register(monster)

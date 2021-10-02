@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -30,13 +30,13 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="-10" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="-10" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="10" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -50,22 +50,22 @@
 		<voice sentence="YOUR SOULS WILL BE MINE!" yell="false" />
 	</voices>
 	<loot>
-		<item name="flask of demonic blood" chance="100000" />
-		<item name="demonic essence" chance="100000" />
-		<item name="gold coin" chance="100000" countmax="200" />
-		<item name="onyx chip" chance="100000" countmax="5" />
-		<item name="platinum coin" chance="100000" countmax="30" />
-		<item name="silver token" chance="100000" />
-		<item name="ultimate health potion" chance="100000" countmax="5" />
-		<item name="blue gem" chance="50000" />
-		<item name="death ring" chance="50000" />
-		<item name="great mana potion" chance="50000" countmax="5" />
-		<item name="great spirit potion" chance="50000" countmax="5" />
-		<item name="green gem" chance="50000" />
-		<item name="lightning pendant" chance="50000" />
-		<item name="opal" chance="50000" countmax="5" />
-		<item name="rift crossbow" chance="50000" />
-		<item name="small emerald" chance="50000" countmax="5" />
-		<item name="small ruby" chance="50000" countmax="5" />
+		<item id="6558" name="flask of demonic blood" chance="100000" />
+		<item id="6500" name="demonic essence" chance="100000" />
+		<item id="2148" name="gold coin" chance="100000" countmax="200" />
+		<item id="24849" name="onyx chip" chance="100000" countmax="5" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="30" />
+		<item id="25172" name="silver token" chance="100000" />
+		<item id="8473" name="ultimate health potion" chance="100000" countmax="5" />
+		<item id="2158" name="blue gem" chance="50000" />
+		<item id="6300" name="death ring" chance="50000" />
+		<item id="7590" name="great mana potion" chance="50000" countmax="5" />
+		<item id="8472" name="great spirit potion" chance="50000" countmax="5" />
+		<item id="2155" name="green gem" chance="50000" />
+		<item id="7889" name="lightning pendant" chance="50000" />
+		<item id="24850" name="opal" chance="50000" countmax="5" />
+		<item id="25523" name="rift crossbow" chance="50000" />
+		<item id="2149" name="small emerald" chance="50000" countmax="5" />
+		<item id="2147" name="small ruby" chance="50000" countmax="5" />
 	</loot>
 </monster>

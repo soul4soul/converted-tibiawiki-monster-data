@@ -66,13 +66,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -87,9 +87,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 80078, maxCount = 10},
-	{id = "crab pincers", chance = 20147},
-	{id = "fish", chance = 20008}
+	{id = 2148, chance = 80068, maxCount = 10},
+	{id = 11189, chance = 20133},
+	{id = 2667, chance = 19994}
 }
 
 mType:register(monster)

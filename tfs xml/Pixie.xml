@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="4" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="-5" />
+		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="60" />
-		<element firePercent="-10" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-5" />
-		<element holyPercent="60" />
-		<element deathPercent="30" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
@@ -54,22 +54,22 @@
 		<voice sentence="You might be a threat! I'm sorry but I can't allow you to linger here." yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="60471" countmax="166" />
-		<item name="wild flowers" chance="17650" />
-		<item name="dandelion seeds" chance="14699" />
-		<item name="fresh fruit" chance="10017" />
-		<item name="colourful snail shell" chance="9691" />
-		<item name="leaf star" chance="9237" countmax="5" />
-		<item name="star herb" chance="5236" />
-		<item name="magic light wand" chance="4725" />
-		<item name="great mana potion" chance="3575" />
-		<item name="red rose" chance="3178" />
-		<item name="rainbow quartz" chance="2880" countmax="3" />
-		<item name="small enchanted amethyst" chance="2440" countmax="2" />
-		<item name="green mushroom" chance="1774" />
-		<item name="strong mana potion" chance="951" />
-		<item name="dream blossom staff" chance="539" />
-		<item name="butterfly ring" chance="525" />
-		<item name="wooden spellbook" chance="284" />
+		<item id="2148" name="gold coin" chance="60471" countmax="166" />
+		<item id="28347" name="wild flowers" chance="17650" />
+		<item id="28351" name="dandelion seeds" chance="14699" />
+		<item id="28348" name="fresh fruit" chance="10017" />
+		<item id="28352" name="colourful snail shell" chance="9691" />
+		<item id="28391" name="leaf star" chance="9237" countmax="5" />
+		<item id="2800" name="star herb" chance="5236" />
+		<item id="2162" name="magic light wand" chance="4725" />
+		<item id="7590" name="great mana potion" chance="3575" />
+		<item id="2744" name="red rose" chance="3178" />
+		<item id="28393" name="rainbow quartz" chance="2880" countmax="3" />
+		<item id="7762" name="small enchanted amethyst" chance="2440" countmax="2" />
+		<item id="2796" name="green mushroom" chance="1774" />
+		<item id="7589" name="strong mana potion" chance="951" />
+		<item id="28356" name="dream blossom staff" chance="539" />
+		<item id="28354" name="butterfly ring" chance="525" />
+		<item id="28355" name="wooden spellbook" chance="284" />
 	</loot>
 </monster>

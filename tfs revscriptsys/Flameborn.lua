@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 80},
-	{type = COMBAT_FIREDAMAGE, percent = 40},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -10},
-	{type = COMBAT_HOLYDAMAGE , percent = 30},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,22 +89,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "hellspawn tail", chance = 100000},
-	{id = "platinum coin", chance = 98718, maxCount = 14},
-	{id = "ultimate health potion", chance = 78205},
-	{id = "great health potion", chance = 74359},
-	{id = "red mushroom", chance = 67949, maxCount = 2},
-	{id = "knight legs", chance = 61538},
-	{id = "small topaz", chance = 42308, maxCount = 4},
-	{id = "demonic essence", chance = 35897},
-	{id = "berserk potion", chance = 33333},
-	{id = "crown shield", chance = 26923},
-	{id = "assassin star", chance = 23077, maxCount = 5},
-	{id = "black skull", chance = 20513},
-	{id = "warrior helmet", chance = 20513},
-	{id = "carrot on a stick", chance = 6410},
-	{id = "spiked squelcher", chance = 5128},
-	{id = "onyx flail", chance = 2564},
+	{id = 11221, chance = 100000},
+	{id = 2152, chance = 98718, maxCount = 14},
+	{id = 8473, chance = 78205},
+	{id = 7591, chance = 74359},
+	{id = 2788, chance = 67949, maxCount = 2},
+	{id = 2477, chance = 61538},
+	{id = 9970, chance = 42308, maxCount = 4},
+	{id = 6500, chance = 35897},
+	{id = 7439, chance = 33333},
+	{id = 2519, chance = 26923},
+	{id = 7368, chance = 23077, maxCount = 5},
+	{id = 9969, chance = 20513},
+	{id = 2475, chance = 20513},
+	{id = 13298, chance = 6410},
+	{id = 7452, chance = 5128},
+	{id = 7421, chance = 2564},
 	{id = "dracoyle statue", chance = 1282}
 }
 

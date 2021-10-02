@@ -68,14 +68,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -1},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,18 +90,18 @@ monster.defenses = {
 
 monster.maxSummons = 4
 monster.summons = {
-	{name = "vampire", chance = 15, interval = 2000, max = 1}
+	{name = "Vampire", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "blood preservation", chance = 84615},
-	{id = "strong health potion", chance = 17308},
-	{id = "platinum coin", chance = 9615, maxCount = 5},
-	{id = "ring of healing", chance = 9615},
-	{id = "vampire shield", chance = 1923},
-	{id = "black pearl", chance = 962},
-	{id = "hibiscus dress", chance = 962}
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 12405, chance = 84615},
+	{id = 7588, chance = 17308},
+	{id = 2152, chance = 9615, maxCount = 5},
+	{id = 2214, chance = 9615},
+	{id = 2534, chance = 1923},
+	{id = 2144, chance = 962},
+	{id = 8873, chance = 962}
 }
 
 mType:register(monster)

@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="50" />
-		<element energyPercent="30" />
-		<element earthPercent="30" />
-		<element firePercent="30" />
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="30" />
-		<element holyPercent="30" />
-		<element deathPercent="100" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-800" />
@@ -54,30 +54,30 @@
 		<voice sentence="Your fear will make you prone to mistakes!" yell="false" />
 	</voices>
 	<loot>
-		<item name="demonic essence" chance="100000" />
-		<item name="gold coin" chance="100000" countmax="195" />
-		<item name="slightly rusted legs" chance="52234" />
-		<item name="slightly rusted armor" chance="47766" />
-		<item name="great mana potion" chance="25861" />
-		<item name="great spirit potion" chance="25641" />
-		<item name="great health potion" chance="24689" />
-		<item name="ultimate health potion" chance="23810" />
-		<item name="platinum coin" chance="21026" countmax="30" />
-		<item name="soul orb" chance="20806" countmax="10" />
-		<item name="jewel case" chance="20659" />
-		<item name="gold ingot" chance="20220" />
-		<item name="silver brooch" chance="19634" />
-		<item name="talon" chance="18755" countmax="30" />
-		<item name="red piece of cloth" chance="17436" countmax="10" />
-		<item name="blue piece of cloth" chance="15604" countmax="10" />
-		<item name="white piece of cloth" chance="15092" countmax="10" />
-		<item name="brown piece of cloth" chance="14139" countmax="10" />
-		<item name="green piece of cloth" chance="13773" countmax="10" />
-		<item name="yellow piece of cloth" chance="13773" countmax="10" />
-		<item name="demon horn" chance="9231" countmax="2" />
-		<item name="boots of haste" chance="9011" />
-		<item name="amulet of loss" chance="4908" />
-		<item name="steel boots" chance="4908" />
-		<item name="golden boots" chance="1319" />
+		<item id="6500" name="demonic essence" chance="100000" />
+		<item id="2148" name="gold coin" chance="100000" countmax="195" />
+		<item id="9813" name="slightly rusted legs" chance="52234" />
+		<item id="9810" name="slightly rusted armor" chance="47766" />
+		<item id="7590" name="great mana potion" chance="25861" />
+		<item id="8472" name="great spirit potion" chance="25641" />
+		<item id="7591" name="great health potion" chance="24689" />
+		<item id="8473" name="ultimate health potion" chance="23810" />
+		<item id="2152" name="platinum coin" chance="21026" countmax="30" />
+		<item id="5944" name="soul orb" chance="20806" countmax="10" />
+		<item id="6104" name="jewel case" chance="20659" />
+		<item id="9971" name="gold ingot" chance="20220" />
+		<item id="2134" name="silver brooch" chance="19634" />
+		<item id="2151" name="talon" chance="18755" countmax="30" />
+		<item id="5911" name="red piece of cloth" chance="17436" countmax="10" />
+		<item id="5912" name="blue piece of cloth" chance="15604" countmax="10" />
+		<item id="5909" name="white piece of cloth" chance="15092" countmax="10" />
+		<item id="5913" name="brown piece of cloth" chance="14139" countmax="10" />
+		<item id="5910" name="green piece of cloth" chance="13773" countmax="10" />
+		<item id="5914" name="yellow piece of cloth" chance="13773" countmax="10" />
+		<item id="5954" name="demon horn" chance="9231" countmax="2" />
+		<item id="2195" name="boots of haste" chance="9011" />
+		<item id="2173" name="amulet of loss" chance="4908" />
+		<item id="2645" name="steel boots" chance="4908" />
+		<item id="2646" name="golden boots" chance="1319" />
 	</loot>
 </monster>

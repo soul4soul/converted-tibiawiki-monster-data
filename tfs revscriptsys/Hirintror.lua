@@ -69,15 +69,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -1},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 100},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,22 +91,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 85714, maxCount = 60},
-	{id = "strong mana potion", chance = 71429, maxCount = 3},
-	{id = "platinum coin", chance = 57143, maxCount = 2},
-	{id = "frosty heart", chance = 42857},
-	{id = "glacier mask", chance = 28571},
-	{id = "glacier shoes", chance = 28571},
-	{id = "small sapphire", chance = 28571},
-	{id = "strange helmet", chance = 28571},
-	{id = "black pearl", chance = 14286},
-	{id = "blue piece of cloth", chance = 28571},
-	{id = "crystal sword", chance = 28571},
-	{id = "ice cube", chance = 14286},
-	{id = "ice rapier", chance = 14286},
-	{id = "shard", chance = 14286},
-	{id = "small diamond", chance = 28571, maxCount = 5},
-	{id = "strong health potion", chance = 28571, maxCount = 3}
+	{id = 2148, chance = 85714, maxCount = 60},
+	{id = 7589, chance = 71429, maxCount = 3},
+	{id = 2152, chance = 57143, maxCount = 2},
+	{id = 10578, chance = 42857},
+	{id = 7902, chance = 28571},
+	{id = 7892, chance = 28571},
+	{id = 2146, chance = 28571},
+	{id = 2479, chance = 28571},
+	{id = 2144, chance = 14286},
+	{id = 5912, chance = 28571},
+	{id = 7449, chance = 28571},
+	{id = 7441, chance = 14286},
+	{id = 2396, chance = 14286},
+	{id = 7290, chance = 14286},
+	{id = 2145, chance = 28571, maxCount = 5},
+	{id = 7588, chance = 28571, maxCount = 3}
 }
 
 mType:register(monster)

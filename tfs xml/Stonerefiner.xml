@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="-20" />
+		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="20" />
-		<element firePercent="-10" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-20" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -49,12 +49,12 @@
 		<voice sentence="nomnomnom" yell="false" />
 	</voices>
 	<loot>
-		<item name="platinum coin" chance="50551" countmax="4" />
-		<item name="rare earth" chance="40185" />
-		<item name="coal" chance="28760" />
-		<item name="glob of acid slime" chance="23864" />
-		<item name="stonerefiner's skull" chance="20732" />
-		<item name="poisonous slime" chance="19982" />
-		<item name="rat cheese" chance="9131" />
+		<item id="2152" name="platinum coin" chance="50492" countmax="4" />
+		<item id="29957" name="rare earth" chance="40137" />
+		<item id="13757" name="coal" chance="28755" />
+		<item id="9967" name="glob of acid slime" chance="23962" />
+		<item id="30262" name="stonerefiner's skull" chance="20710" />
+		<item id="10557" name="poisonous slime" chance="19940" />
+		<item id="20101" name="rat cheese" chance="9071" />
 	</loot>
 </monster>

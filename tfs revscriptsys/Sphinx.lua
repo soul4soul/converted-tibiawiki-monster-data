@@ -68,13 +68,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 10},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -15},
-	{type = COMBAT_HOLYDAMAGE , percent = 15},
-	{type = COMBAT_DEATHDAMAGE , percent = -20}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,20 +87,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 100000, maxCount = 3},
-	{id = "sphinx feather", chance = 7271},
-	{id = "sphinx tiara", chance = 6165},
-	{id = "magma amulet", chance = 6022},
-	{id = "green gem", chance = 4839},
-	{id = "blue gem", chance = 3772},
-	{id = "magma boots", chance = 3603},
-	{id = "white pearl", chance = 3057},
-	{id = "lightning headband", chance = 2966},
-	{id = "lightning pendant", chance = 2406},
-	{id = "wand of starstorm", chance = 2133},
-	{id = "wand of defiance", chance = 2094},
-	{id = "magma monocle", chance = 1925},
-	{id = "magma legs", chance = 1223}
+	{id = 2152, chance = 100000, maxCount = 3},
+	{id = 34093, chance = 7213},
+	{id = 34094, chance = 6139},
+	{id = 7890, chance = 5966},
+	{id = 2155, chance = 4842},
+	{id = 2158, chance = 3706},
+	{id = 7891, chance = 3570},
+	{id = 2143, chance = 3014},
+	{id = 7901, chance = 2989},
+	{id = 7889, chance = 2409},
+	{id = 8920, chance = 2162},
+	{id = 18390, chance = 2137},
+	{id = 7900, chance = 1964},
+	{id = 7894, chance = 1186}
 }
 
 mType:register(monster)

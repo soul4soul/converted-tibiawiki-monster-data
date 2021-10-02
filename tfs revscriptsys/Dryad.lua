@@ -68,13 +68,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 30},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -90,16 +90,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "white mushroom", chance = 55717, maxCount = 2},
-	{id = "gold coin", chance = 39729, maxCount = 30},
-	{id = "seeds", chance = 10361},
-	{id = "leaf legs", chance = 1199},
-	{id = "coconut shoes", chance = 1064},
-	{id = "flower wreath", chance = 1064},
-	{id = "flower dress", chance = 974},
-	{id = "orange mushroom", chance = 721, maxCount = 2},
-	{id = "carrot on a stick", chance = 216},
-	{id = "small amethyst", chance = 90}
+	{id = 2787, chance = 55717, maxCount = 2},
+	{id = 2148, chance = 39729, maxCount = 30},
+	{id = 7732, chance = 10361},
+	{id = 9928, chance = 1199},
+	{id = 9931, chance = 1064},
+	{id = 9927, chance = 1064},
+	{id = 9929, chance = 974},
+	{id = 2790, chance = 721, maxCount = 2},
+	{id = 13298, chance = 216},
+	{id = 2150, chance = 90}
 }
 
 mType:register(monster)

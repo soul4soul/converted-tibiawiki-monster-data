@@ -70,16 +70,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
-	{type = COMBAT_ENERGYDAMAGE, percent = 30},
-	{type = COMBAT_EARTHDAMAGE, percent = 30},
-	{type = COMBAT_FIREDAMAGE, percent = 30},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 30},
-	{type = COMBAT_HOLYDAMAGE , percent = 30},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,31 +93,31 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "demonic essence", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 195},
-	{id = "slightly rusted legs", chance = 52234},
-	{id = "slightly rusted armor", chance = 47766},
-	{id = "great mana potion", chance = 25861},
-	{id = "great spirit potion", chance = 25641},
-	{id = "great health potion", chance = 24689},
-	{id = "ultimate health potion", chance = 23810},
-	{id = "platinum coin", chance = 21026, maxCount = 30},
-	{id = "soul orb", chance = 20806, maxCount = 10},
-	{id = "jewel case", chance = 20659},
-	{id = "gold ingot", chance = 20220},
-	{id = "silver brooch", chance = 19634},
-	{id = "talon", chance = 18755, maxCount = 30},
-	{id = "red piece of cloth", chance = 17436, maxCount = 10},
-	{id = "blue piece of cloth", chance = 15604, maxCount = 10},
-	{id = "white piece of cloth", chance = 15092, maxCount = 10},
-	{id = "brown piece of cloth", chance = 14139, maxCount = 10},
-	{id = "green piece of cloth", chance = 13773, maxCount = 10},
-	{id = "yellow piece of cloth", chance = 13773, maxCount = 10},
-	{id = "demon horn", chance = 9231, maxCount = 2},
-	{id = "boots of haste", chance = 9011},
-	{id = "amulet of loss", chance = 4908},
-	{id = "steel boots", chance = 4908},
-	{id = "golden boots", chance = 1319}
+	{id = 6500, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 195},
+	{id = 9813, chance = 52234},
+	{id = 9810, chance = 47766},
+	{id = 7590, chance = 25861},
+	{id = 8472, chance = 25641},
+	{id = 7591, chance = 24689},
+	{id = 8473, chance = 23810},
+	{id = 2152, chance = 21026, maxCount = 30},
+	{id = 5944, chance = 20806, maxCount = 10},
+	{id = 6104, chance = 20659},
+	{id = 9971, chance = 20220},
+	{id = 2134, chance = 19634},
+	{id = 2151, chance = 18755, maxCount = 30},
+	{id = 5911, chance = 17436, maxCount = 10},
+	{id = 5912, chance = 15604, maxCount = 10},
+	{id = 5909, chance = 15092, maxCount = 10},
+	{id = 5913, chance = 14139, maxCount = 10},
+	{id = 5910, chance = 13773, maxCount = 10},
+	{id = 5914, chance = 13773, maxCount = 10},
+	{id = 5954, chance = 9231, maxCount = 2},
+	{id = 2195, chance = 9011},
+	{id = 2173, chance = 4908},
+	{id = 2645, chance = 4908},
+	{id = 2646, chance = 1319}
 }
 
 mType:register(monster)

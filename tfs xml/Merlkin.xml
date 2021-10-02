@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="4" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="10" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="20" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-15" />
-		<element holyPercent="10" />
-		<element deathPercent="-5" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
@@ -52,15 +52,15 @@
 		<voice sentence="Chakka! Chakka!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="82943" countmax="45" />
-		<item name="banana" chance="30434" countmax="12" />
-		<item name="magic light wand" chance="3018" />
-		<item name="banana sash" chance="1917" />
-		<item name="ape fur" chance="1014" />
-		<item name="orange" chance="1011" countmax="5" />
-		<item name="wand of decay" chance="979" />
-		<item name="mana potion" chance="693" />
-		<item name="small amethyst" chance="310" />
-		<item name="banana staff" chance="102" />
+		<item id="2148" name="gold coin" chance="82943" countmax="45" />
+		<item id="2676" name="banana" chance="30434" countmax="12" />
+		<item id="2162" name="magic light wand" chance="3018" />
+		<item id="12467" name="banana sash" chance="1917" />
+		<item id="5883" name="ape fur" chance="1014" />
+		<item id="2675" name="orange" chance="1011" countmax="5" />
+		<item id="2188" name="wand of decay" chance="979" />
+		<item id="7620" name="mana potion" chance="693" />
+		<item id="2150" name="small amethyst" chance="310" />
+		<item id="3966" name="banana staff" chance="102" />
 	</loot>
 </monster>

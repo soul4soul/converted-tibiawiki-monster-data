@@ -65,14 +65,14 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -87,13 +87,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 60134, maxCount = 30},
-	{id = "fish", chance = 5022},
-	{id = "plate shield", chance = 2918},
-	{id = "tortoise egg", chance = 1099, maxCount = 2},
-	{id = "battle hammer", chance = 855},
-	{id = "turtle shell", chance = 807},
-	{id = "tortoise shield", chance = 156}
+	{id = 2148, chance = 60134, maxCount = 30},
+	{id = 2667, chance = 5022},
+	{id = 2510, chance = 2918},
+	{id = 5678, chance = 1099, maxCount = 2},
+	{id = 2417, chance = 855},
+	{id = 5899, chance = 807},
+	{id = 6131, chance = 156}
 }
 
 mType:register(monster)

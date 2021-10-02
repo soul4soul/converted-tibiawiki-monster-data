@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -31,41 +31,41 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="40" />
-		<element firePercent="35" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-25" />
-		<element holyPercent="-5" />
-		<element deathPercent="50" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item name="gold coin" chance="100000" countmax="99" />
-		<item name="platinum coin" chance="100000" countmax="8" />
-		<item name="ham" chance="79225" />
-		<item name="soul orb" chance="20083" />
-		<item name="meat" chance="18456" />
-		<item name="lion's mane" chance="15341" />
-		<item name="rapier" chance="12624" />
-		<item name="leather helmet" chance="11318" />
-		<item name="crystal sword" chance="10262" />
-		<item name="ankh" chance="10098" />
-		<item name="small enchanted sapphire" chance="8584" countmax="6" />
-		<item name="black pearl" chance="7338" />
-		<item name="serpent sword" chance="5382" />
-		<item name="steel helmet" chance="3842" />
-		<item name="ivory carving" chance="3487" />
-		<item name="white pearl" chance="3072" />
-		<item name="lightning headband" chance="2068" />
-		<item name="moonlight crystals" chance="1220" />
-		<item name="magma legs" chance="1012" />
-		<item name="crown helmet" chance="909" />
-		<item name="lion figurine" chance="597" />
-		<item name="white silk flower" chance="407" />
+		<item id="2148" name="gold coin" chance="100000" countmax="99" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="8" />
+		<item id="2671" name="ham" chance="79227" />
+		<item id="5944" name="soul orb" chance="20070" />
+		<item id="2666" name="meat" chance="18472" />
+		<item id="10608" name="lion's mane" chance="15325" />
+		<item id="2384" name="rapier" chance="12601" />
+		<item id="2461" name="leather helmet" chance="11393" />
+		<item id="7449" name="crystal sword" chance="10233" />
+		<item id="2193" name="ankh" chance="10068" />
+		<item id="7759" name="small enchanted sapphire" chance="8602" countmax="6" />
+		<item id="2144" name="black pearl" chance="7344" />
+		<item id="2409" name="serpent sword" chance="5365" />
+		<item id="3351" name="steel helmet" chance="3833" />
+		<item id="36601" name="ivory carving" chance="3469" />
+		<item id="2143" name="white pearl" chance="3063" />
+		<item id="7901" name="lightning headband" chance="2095" />
+		<item id="24739" name="moonlight crystals" chance="1167" />
+		<item id="7894" name="magma legs" chance="994" />
+		<item id="2491" name="crown helmet" chance="919" />
+		<item id="36437" name="lion figurine" chance="596" />
+		<item id="36664" name="white silk flower" chance="414" />
 	</loot>
 </monster>

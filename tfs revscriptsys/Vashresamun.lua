@@ -71,15 +71,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,17 +93,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "blue note", chance = 100000},
-	{id = "gold coin", chance = 91396},
-	{id = "white pearl", chance = 9903},
-	{id = "lute", chance = 9172},
-	{id = "great mana potion", chance = 7955},
-	{id = "blue robe", chance = 1136},
-	{id = "crystal mace", chance = 974},
-	{id = "crystal ring", chance = 974},
-	{id = "panpipes", chance = 325},
-	{id = "ancient tiara", chance = 162},
-	{id = "mini mummy", chance = 162}
+	{id = 2349, chance = 100000},
+	{id = 2148, chance = 91396},
+	{id = 2143, chance = 9903},
+	{id = 2072, chance = 9172},
+	{id = 7590, chance = 7955},
+	{id = 2656, chance = 1136},
+	{id = 2445, chance = 974},
+	{id = 2124, chance = 974},
+	{id = 2074, chance = 325},
+	{id = 2139, chance = 162},
+	{id = 11207, chance = 162}
 }
 
 mType:register(monster)

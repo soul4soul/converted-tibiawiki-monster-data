@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Prince_Drazzak" nameDescription="" experience="210000" speed="0" manacost="0">
+	<health now="330000" max="330000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-1500" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="4000" max="4500" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="DIE!" yell="false" />
+		<voice sentence="All &amp;lt;VOCATION&amp;gt;S must DIE!" yell="false" />
+		<voice sentence="GET OVER HERE!" yell="false" />
+		<voice sentence="CRUSH THEM ALL!" yell="false" />
+		<voice sentence="VARIPHOR WILL RULE!" yell="false" />
+		<voice sentence="They used you fools to escape and they left ME behind!!??" yell="false" />
+		<voice sentence="NOT EVEN AEONS OF IMPRISONMENT WILL STOP ME!" yell="false" />
+		<voice sentence="EVEN WITH ALL THAT TIME IN THE PRISON THAT WEAKENED ME, YOU ARE NO MATCH TO ME!" yell="false" />
+		<voice sentence="THEY WILL ALL PAY!" yell="false" />
+	</voices>
+	<summons maxSummons="3">
+		<voice name="demon" interval="2000" chance="15" max="1" />
+	</summons>
+	<loot>
+		<item id="22396" name="cluster of solace" chance="100000" countmax="2" />
+		<item id="22598" name="unrealized dream" chance="93750" countmax="3" />
+		<item id="6500" name="demonic essence" chance="90625" />
+		<item id="2152" name="platinum coin" chance="87500" countmax="20" />
+		<item id="18421" name="green crystal fragment" chance="43750" countmax="3" />
+		<item id="18413" name="blue crystal shard" chance="40625" countmax="5" />
+		<item id="2155" name="green gem" chance="40625" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="34375" />
+		<item id="18414" name="violet crystal shard" chance="34375" countmax="5" />
+		<item id="7590" name="great mana potion" chance="31250" countmax="8" />
+		<item id="18419" name="cyan crystal fragment" chance="31250" countmax="3" />
+		<item id="22610" name="dream warden mask" chance="28125" />
+		<item id="8472" name="great spirit potion" chance="28125" countmax="8" />
+		<item id="7898" name="lightning robe" chance="25000" />
+		<item id="18420" name="red crystal fragment" chance="25000" countmax="3" />
+		<item id="5954" name="demon horn" chance="25000" />
+		<item id="2148" name="gold coin" chance="25000" countmax="100" />
+		<item id="18415" name="green crystal shard" chance="25000" countmax="5" />
+		<item id="8473" name="ultimate health potion" chance="21875" countmax="8" />
+		<item id="2214" name="ring of healing" chance="18750" />
+		<item id="2645" name="steel boots" chance="15625" />
+		<item id="7893" name="lightning boots" chance="15625" />
+		<item id="22612" name="demonic tapestry" chance="12500" />
+		<item id="22613" name="eye pod" chance="9375" />
+		<item id="7456" name="noble axe" chance="9375" />
+		<item id="5741" name="skull helmet" chance="9375" />
+		<item id="7418" name="nightmare blade" chance="9375" />
+		<item id="22616" name="nightmare hook" chance="9375" />
+		<item id="22611" name="psychedelic tapestry" chance="6250" />
+		<item id="7417" name="runed sword" chance="6250" />
+		<item id="7414" name="abyss hammer" chance="3125" />
+		<item id="8878" name="crystalline armor" chance="3125" />
+		<item id="2136" name="demonbone amulet" chance="3125" />
+	</loot>
+</monster>

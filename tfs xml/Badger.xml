@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -45,8 +45,8 @@
 	</attacks>
 	<defenses armor="1" defense="1" />
 	<loot>
-		<item name="beetroot" chance="40383" />
-		<item name="badger fur" chance="10015" />
-		<item name="acorn" chance="5049" />
+		<item id="8845" name="beetroot" chance="40373" />
+		<item id="11216" name="badger fur" chance="10023" />
+		<item id="11213" name="acorn" chance="5047" />
 	</loot>
 </monster>

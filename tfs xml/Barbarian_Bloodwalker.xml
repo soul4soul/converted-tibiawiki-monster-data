@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Barbarian Bloodwalker" nameDescription="a barbarian bloodwalker" experience="195" speed="236" manacost="0">
+	<health now="305" max="305" />
+	<look type="255" head="114" body="113" legs="132" feet="94" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
+	</attacks>
+	<defenses armor="9" defense="9">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="YAAAHEEE!" yell="false" />
+		<voice sentence="SLAUGHTER!" yell="false" />
+		<voice sentence="CARNAGE!" yell="false" />
+		<voice sentence="You can run but you can't hide" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="55153" countmax="12" />
+		<item id="2458" name="chain helmet" chance="10612" />
+		<item id="2464" name="chain armor" chance="10263" />
+		<item name="lamp" chance="8122" />
+		<item id="2381" name="halberd" chance="7000" />
+		<item id="2378" name="battle axe" chance="5908" />
+		<item id="2671" name="ham" chance="4937" />
+		<item id="7618" name="health potion" chance="952" />
+		<item id="5911" name="red piece of cloth" chance="510" />
+		<item id="3962" name="beastslayer axe" chance="354" />
+		<item id="7290" name="shard" chance="316" />
+		<item id="7457" name="fur boots" chance="87" />
+	</loot>
+</monster>

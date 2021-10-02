@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="4" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -31,12 +31,12 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="100" />
-		<element firePercent="-10" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="20" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -55,16 +55,16 @@
 		<voice name="skeleton" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item name="gold coin" chance="99400" countmax="48" />
-		<item name="longsword" chance="9079" />
-		<item name="morning star" chance="7022" />
-		<item name="small flask of eyedrops" chance="5059" />
-		<item name="spellbook" chance="4996" />
-		<item name="steel shield" chance="3991" />
-		<item name="two handed sword" chance="3951" />
-		<item name="bonelord eye" chance="1008" />
-		<item name="terra rod" chance="511" />
-		<item name="mana potion" chance="296" />
-		<item name="bonelord shield" chance="107" />
+		<item id="2148" name="gold coin" chance="99400" countmax="48" />
+		<item id="2397" name="longsword" chance="9076" />
+		<item id="2394" name="morning star" chance="7023" />
+		<item id="12468" name="small flask of eyedrops" chance="5057" />
+		<item id="2175" name="spellbook" chance="4995" />
+		<item id="2509" name="steel shield" chance="3990" />
+		<item id="2377" name="two handed sword" chance="3951" />
+		<item id="5898" name="bonelord eye" chance="1008" />
+		<item id="2181" name="terra rod" chance="511" />
+		<item id="7620" name="mana potion" chance="297" />
+		<item id="2518" name="bonelord shield" chance="107" />
 	</loot>
 </monster>

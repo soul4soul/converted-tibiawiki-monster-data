@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Goldhanded Cultist Bride" nameDescription="a goldhanded cultist bride" experience="2000" speed="300" manacost="0">
+	<health now="3000" max="3000" />
+	<look type="140" head="114" body="79" legs="62" feet="94" addons="2" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="30" defense="30" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Your backpack looks very compelling!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="48996" countmax="250" />
+		<item id="28345" name="golden brush" chance="25066" />
+		<item id="27617" name="tiger eye" chance="17031" />
+		<item id="24850" name="opal" chance="9694" />
+		<item id="2154" name="yellow gem" chance="4891" />
+		<item id="1997" name="golden bag" chance="3319" />
+		<item id="2004" name="golden backpack" chance="3231" />
+		<item id="9971" name="gold ingot" chance="1485" />
+		<item id="2152" name="platinum coin" chance="1223" countmax="10" />
+	</loot>
+</monster>

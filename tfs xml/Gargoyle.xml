@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="20" />
+		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="100" />
-		<element firePercent="-10" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="40" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-65" />
@@ -54,18 +54,18 @@
 		<voice sentence="Chhhhhrrrrk!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="87720" countmax="30" />
-		<item name="small stone" chance="15204" countmax="10" />
-		<item name="stone wing" chance="11770" />
-		<item name="potato" chance="9788" countmax="2" />
-		<item name="strawberry" chance="2024" countmax="5" />
-		<item name="morning star" chance="1509" />
-		<item name="battle shield" chance="1354" />
-		<item name="wolf tooth chain" chance="1106" />
-		<item name="steel helmet" chance="834" />
-		<item name="piece of marble rock" chance="440" />
-		<item name="dark armor" chance="281" />
-		<item name="club ring" chance="211" />
-		<item name="shiny stone" chance="183" />
+		<item id="2148" name="gold coin" chance="87714" countmax="30" />
+		<item id="1294" name="small stone" chance="15159" countmax="10" />
+		<item id="11195" name="stone wing" chance="11821" />
+		<item id="8838" name="potato" chance="9861" countmax="2" />
+		<item id="2680" name="strawberry" chance="2021" countmax="5" />
+		<item id="2394" name="morning star" chance="1482" />
+		<item id="2513" name="battle shield" chance="1352" />
+		<item id="2129" name="wolf tooth chain" chance="1100" />
+		<item id="3351" name="steel helmet" chance="821" />
+		<item id="11343" name="piece of marble rock" chance="452" />
+		<item id="2489" name="dark armor" chance="278" />
+		<item id="2209" name="club ring" chance="204" />
+		<item id="11227" name="shiny stone" chance="187" />
 	</loot>
 </monster>

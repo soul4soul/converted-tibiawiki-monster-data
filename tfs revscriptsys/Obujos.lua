@@ -67,16 +67,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 25},
-	{type = COMBAT_ENERGYDAMAGE, percent = 15},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 60},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 60}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,9 +90,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "deepling axe", chance = 42857},
-	{id = "depth scutum", chance = 39394},
-	{id = "ornate legs", chance = 17749}
+	{id = 15404, chance = 42857},
+	{id = 15411, chance = 39394},
+	{id = 15412, chance = 17749}
 }
 
 mType:register(monster)

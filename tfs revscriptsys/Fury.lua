@@ -69,49 +69,52 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = -10},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 30},
-	{type = COMBAT_HOLYDAMAGE , percent = 30},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -509}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -509},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = 0, maxDamage = -300, radius = 3, target = , effect = CONST_ME_HITAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -300, length = 8, spread = 3, effect = CONST_ME_EXPLOSIONAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = 0, maxDamage = -700, length = 8, spread = 0, effect = CONST_ME_DRAWBLOOD},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = 0, maxDamage = -300, radius = 4, target = false, effect = CONST_ME_DRAWBLOOD}
 }
 
 monster.defenses = {
 	defense = 35,
 	armor = 35,
-	{name ="speed", interval = 2000, chance = 15, speed = {min = 450, max = 450}, duration = 4000, effect = CONST_ME_MAGIC_RED}
+	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 98836, maxCount = 264},
-	{id = "flask of demonic blood", chance = 33922},
-	{id = "jalapeno pepper", chance = 31164, maxCount = 4},
-	{id = "demonic essence", chance = 23405},
-	{id = "terra rod", chance = 21164},
-	{id = "soul orb", chance = 20129},
-	{id = "great health potion", chance = 11164},
-	{id = "small amethyst", chance = 8578, maxCount = 3},
-	{id = "slightly rusted legs", chance = 7845},
-	{id = "red piece of cloth", chance = 4095},
-	{id = "platinum coin", chance = 2500, maxCount = 4},
-	{id = "orichalcum pearl", chance = 1638, maxCount = 4},
-	{id = "rusty legs", chance = 1552},
-	{id = "noble axe", chance = 1466},
-	{id = "assassin dagger", chance = 862},
-	{id = "crystal ring", chance = 302},
-	{id = "steel boots", chance = 302},
-	{id = "assassin star", chance = 129},
-	{id = "death ring", chance = 86},
-	{id = "golden legs", chance = 43}
+	{id = 2148, chance = 98860, maxCount = 264},
+	{id = 6558, chance = 33836},
+	{id = 8844, chance = 30782, maxCount = 4},
+	{id = 6500, chance = 23371},
+	{id = 2181, chance = 20969},
+	{id = 5944, chance = 20236},
+	{id = 7591, chance = 11075},
+	{id = 9813, chance = 9650},
+	{id = 2150, chance = 8388, maxCount = 3},
+	{id = 5911, chance = 4112},
+	{id = 2152, chance = 2402, maxCount = 4},
+	{id = 5022, chance = 1710, maxCount = 4},
+	{id = 7456, chance = 1507},
+	{id = 7404, chance = 936},
+	{id = 2124, chance = 285},
+	{id = 2645, chance = 285},
+	{id = 7368, chance = 122},
+	{id = 6300, chance = 81},
+	{id = 2470, chance = 41}
 }
 
 mType:register(monster)

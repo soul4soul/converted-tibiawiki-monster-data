@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Minotaur Cult Follower" nameDescription="a minotaur cult follower" experience="950" speed="230" manacost="0">
+	<health now="1600" max="1600" />
+	<look type="25" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-250" />
+	</attacks>
+	<defenses armor="32" defense="32" />
+	<voices interval="5000" chance="10">
+		<voice sentence="We will rule!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="155" />
+		<item id="2152" name="platinum coin" chance="65011" countmax="3" />
+		<item id="2671" name="ham" chance="59432" />
+		<item id="23575" name="cowbell" chance="22482" />
+		<item id="2510" name="plate shield" chance="20008" />
+		<item id="10556" name="cultish robe" chance="15149" />
+		<item id="2172" name="bronze amulet" chance="14883" />
+		<item id="12428" name="minotaur horn" chance="14262" countmax="2" />
+		<item id="23546" name="mino shield" chance="12438" />
+		<item id="5878" name="minotaur leather" chance="11808" />
+		<item id="7591" name="great health potion" chance="11798" />
+		<item id="2666" name="meat" chance="7648" />
+		<item id="2214" name="ring of healing" chance="3262" />
+		<item id="2149" name="small emerald" chance="3174" countmax="2" />
+		<item id="2147" name="small ruby" chance="3124" countmax="2" />
+		<item id="2150" name="small amethyst" chance="2986" countmax="2" />
+		<item id="9970" name="small topaz" chance="2701" countmax="2" />
+		<item id="23545" name="mino lance" chance="1961" />
+		<item id="9971" name="gold ingot" chance="966" />
+		<item id="5911" name="red piece of cloth" chance="917" />
+		<item id="2475" name="warrior helmet" chance="522" />
+		<item id="2154" name="yellow gem" chance="227" />
+		<item id="7401" name="minotaur trophy" chance="207" />
+		<item id="2156" name="red gem" chance="158" />
+	</loot>
+</monster>

@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="-10" />
-		<element energyPercent="20" />
-		<element earthPercent="100" />
-		<element firePercent="50" />
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="50" />
-		<element holyPercent="-30" />
-		<element deathPercent="100" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-490" />
@@ -50,28 +50,28 @@
 		<voice sentence="Your lifeforce is waning!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="100000" countmax="198" />
-		<item name="platinum coin" chance="100000" countmax="5" />
-		<item name="bunch of wheat" chance="50241" countmax="2" />
-		<item name="great mana potion" chance="30396" countmax="3" />
-		<item name="demonic essence" chance="29380" />
-		<item name="soul orb" chance="25368" />
-		<item name="blank rune" chance="25301" countmax="2" />
-		<item name="bundle of cursed straw" chance="14924" />
-		<item name="ultimate health potion" chance="14603" countmax="2" />
-		<item name="hailstorm rod" chance="9856" />
-		<item name="assassin star" chance="6927" countmax="10" />
-		<item name="gold ingot" chance="5269" />
-		<item name="giant shimmering pearl (green)" chance="4587" />
-		<item name="seeds" chance="3825" />
-		<item name="scythe" chance="3129" />
-		<item name="terra legs" chance="2768" />
-		<item name="garlic necklace" chance="2046" />
-		<item name="skull staff" chance="1832" />
-		<item name="gold ring" chance="1471" />
-		<item name="death ring" chance="1324" />
-		<item name="terra mantle" chance="1137" />
-		<item name="golden sickle" chance="187" />
-		<item name="amulet of loss" chance="160" />
+		<item id="2148" name="gold coin" chance="100000" countmax="198" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
+		<item id="2694" name="bunch of wheat" chance="50286" countmax="2" />
+		<item id="7590" name="great mana potion" chance="30368" countmax="3" />
+		<item id="6500" name="demonic essence" chance="29384" />
+		<item id="5944" name="soul orb" chance="25369" />
+		<item id="2260" name="blank rune" chance="25342" countmax="2" />
+		<item id="10605" name="bundle of cursed straw" chance="14932" />
+		<item id="8473" name="ultimate health potion" chance="14586" countmax="2" />
+		<item id="2183" name="hailstorm rod" chance="9906" />
+		<item id="7368" name="assassin star" chance="6954" countmax="10" />
+		<item id="9971" name="gold ingot" chance="5265" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="4561" />
+		<item id="7732" name="seeds" chance="3843" />
+		<item id="2550" name="scythe" chance="3138" />
+		<item id="7885" name="terra legs" chance="2752" />
+		<item id="2199" name="garlic necklace" chance="2034" />
+		<item id="2436" name="skull staff" chance="1822" />
+		<item id="2179" name="gold ring" chance="1476" />
+		<item id="6300" name="death ring" chance="1330" />
+		<item id="7884" name="terra mantle" chance="1130" />
+		<item id="2418" name="golden sickle" chance="186" />
+		<item id="2173" name="amulet of loss" chance="160" />
 	</loot>
 </monster>

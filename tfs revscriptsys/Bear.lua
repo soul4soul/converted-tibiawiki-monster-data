@@ -74,9 +74,9 @@ monster.elements = {
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -10},
-	{type = COMBAT_HOLYDAMAGE , percent = 10},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,10 +89,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 39951},
-	{id = "ham", chance = 20009},
-	{id = "bear paw", chance = 1980},
-	{id = "honeycomb", chance = 471}
+	{id = 2666, chance = 39972},
+	{id = 2671, chance = 19986},
+	{id = 5896, chance = 1978},
+	{id = 5902, chance = 472}
 }
 
 mType:register(monster)

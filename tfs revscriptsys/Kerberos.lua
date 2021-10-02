@@ -66,14 +66,14 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -5},
-	{type = COMBAT_HOLYDAMAGE , percent = -25},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -87,21 +87,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "flask of demonic blood", chance = 100000},
-	{id = "gold ingot", chance = 100000, maxCount = 5},
-	{id = "hellhound slobber", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 19},
-	{id = "black pearl", chance = 97619, maxCount = 5},
-	{id = "great mana potion", chance = 97619, maxCount = 3},
-	{id = "magma amulet", chance = 97619},
-	{id = "knight axe", chance = 71429},
-	{id = "demonic essence", chance = 69048},
-	{id = "explorer brooch", chance = 66667},
-	{id = "fire sword", chance = 52381},
-	{id = "green gem", chance = 45238},
-	{id = "golden armor", chance = 28571},
-	{id = "ruthless axe", chance = 7143},
-	{id = "executioner", chance = 2381}
+	{id = 6558, chance = 100000},
+	{id = 9971, chance = 100000, maxCount = 5},
+	{id = 10554, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 19},
+	{id = 2144, chance = 97619, maxCount = 5},
+	{id = 7590, chance = 97619, maxCount = 3},
+	{id = 7890, chance = 97619},
+	{id = 2430, chance = 71429},
+	{id = 6500, chance = 69048},
+	{id = 4873, chance = 66667},
+	{id = 2392, chance = 52381},
+	{id = 2155, chance = 45238},
+	{id = 2466, chance = 28571},
+	{id = 6553, chance = 7143},
+	{id = 7453, chance = 2381}
 }
 
 mType:register(monster)

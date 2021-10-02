@@ -66,16 +66,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 50},
-	{type = COMBAT_HOLYDAMAGE , percent = -15},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,30 +88,30 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "demonic essence", chance = 100000},
-	{id = "ghastly dragon head", chance = 100000},
+	{id = 6500, chance = 100000},
+	{id = 11366, chance = 100000},
 	{id = "giant shimmering pearl", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 198},
-	{id = "platinum coin", chance = 100000, maxCount = 15},
-	{id = "small topaz", chance = 100000, maxCount = 10},
-	{id = "undead heart", chance = 100000},
-	{id = "zaoan halberd", chance = 76636},
-	{id = "ultimate health potion", chance = 57944},
-	{id = "jade hat", chance = 46729},
-	{id = "shiny stone", chance = 45171},
-	{id = "great mana potion", chance = 33956, maxCount = 3},
-	{id = "great spirit potion", chance = 29595, maxCount = 3},
-	{id = "great health potion", chance = 29283, maxCount = 3},
-	{id = "zaoan shoes", chance = 29283},
-	{id = "spellweaver's robe", chance = 15576},
-	{id = "zaoan armor", chance = 15576},
-	{id = "zaoan legs", chance = 14330},
-	{id = "drakinata", chance = 11215},
-	{id = "zaoan helmet", chance = 9346},
-	{id = "sai", chance = 8100},
-	{id = "guardian boots", chance = 3427},
-	{id = "zaoan sword", chance = 2181},
-	{id = "golden can of oil", chance = 1246}
+	{id = 2148, chance = 100000, maxCount = 198},
+	{id = 2152, chance = 100000, maxCount = 15},
+	{id = 9970, chance = 100000, maxCount = 10},
+	{id = 11367, chance = 100000},
+	{id = 11323, chance = 76636},
+	{id = 8473, chance = 57944},
+	{id = 11368, chance = 46729},
+	{id = 11227, chance = 45171},
+	{id = 7590, chance = 33956, maxCount = 3},
+	{id = 8472, chance = 29595, maxCount = 3},
+	{id = 7591, chance = 29283, maxCount = 3},
+	{id = 11303, chance = 29283},
+	{id = 11355, chance = 15576},
+	{id = 11301, chance = 15576},
+	{id = 11304, chance = 14330},
+	{id = 11305, chance = 11215},
+	{id = 11302, chance = 9346},
+	{id = 11306, chance = 8100},
+	{id = 11240, chance = 3427},
+	{id = 11307, chance = 2181},
+	{id = 13938, chance = 1246}
 }
 
 mType:register(monster)

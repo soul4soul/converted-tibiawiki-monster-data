@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 240
 monster.maxHealth = 240
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 150
 monster.summonCost = 0
@@ -73,14 +73,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
-	{type = COMBAT_HOLYDAMAGE , percent = -25},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,20 +93,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 39570, maxCount = 80},
-	{id = "worm", chance = 19843, maxCount = 3},
-	{id = "flask of embalming fluid", chance = 12116},
-	{id = "gauze bandage", chance = 10005},
-	{id = "magic light wand", chance = 6049},
-	{id = "strange talisman", chance = 4990},
-	{id = "silver brooch", chance = 3948},
-	{id = "crystal ring", chance = 1499},
-	{id = "black pearl", chance = 997},
-	{id = "yellow piece of cloth", chance = 950},
-	{id = "poison dagger", chance = 507},
-	{id = "black shield", chance = 183},
-	{id = "silver amulet", chance = 91},
-	{id = "mini mummy", chance = 2}
+	{id = 2148, chance = 39569, maxCount = 80},
+	{id = 3976, chance = 19851, maxCount = 3},
+	{id = 12422, chance = 12109},
+	{id = 10566, chance = 10002},
+	{id = 2162, chance = 6048},
+	{id = 2161, chance = 4991},
+	{id = 2134, chance = 3947},
+	{id = 2124, chance = 1498},
+	{id = 2144, chance = 997},
+	{id = 5914, chance = 950},
+	{id = 2411, chance = 507},
+	{id = 2529, chance = 183},
+	{id = 2170, chance = 91},
+	{id = 11207, chance = 2}
 }
 
 mType:register(monster)

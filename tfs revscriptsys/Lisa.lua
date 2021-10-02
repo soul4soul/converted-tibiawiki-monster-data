@@ -67,7 +67,7 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -87,21 +87,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "slimy leaf tentacle", chance = 100000, maxCount = 3},
-	{id = "glooth club", chance = 57143},
-	{id = "small emerald", chance = 57143, maxCount = 5},
-	{id = "great health potion", chance = 42857, maxCount = 5},
-	{id = "bowl of glooth soup", chance = 28571, maxCount = 5},
-	{id = "glooth sandwich", chance = 28571, maxCount = 5},
-	{id = "great mana potion", chance = 28571, maxCount = 5},
-	{id = "great spirit potion", chance = 28571, maxCount = 5},
-	{id = "glooth blade", chance = 14286},
-	{id = "glooth cape", chance = 14286},
-	{id = "glooth steak", chance = 14286, maxCount = 5},
-	{id = "glooth whip", chance = 14286},
-	{id = "small diamond", chance = 14286, maxCount = 5},
-	{id = "small ruby", chance = 14286, maxCount = 5},
-	{id = "small sapphire", chance = 14286, maxCount = 5}
+	{id = 23568, chance = 100000, maxCount = 3},
+	{id = 23549, chance = 57143},
+	{id = 2149, chance = 57143, maxCount = 5},
+	{id = 7591, chance = 42857, maxCount = 5},
+	{id = 23515, chance = 28571, maxCount = 5},
+	{id = 23514, chance = 28571, maxCount = 5},
+	{id = 7590, chance = 28571, maxCount = 5},
+	{id = 8472, chance = 28571, maxCount = 5},
+	{id = 23550, chance = 14286},
+	{id = 23535, chance = 14286},
+	{id = 23517, chance = 14286, maxCount = 5},
+	{id = 23543, chance = 14286},
+	{id = 2145, chance = 14286, maxCount = 5},
+	{id = 2147, chance = 14286, maxCount = 5},
+	{id = 2146, chance = 14286, maxCount = 5}
 }
 
 mType:register(monster)

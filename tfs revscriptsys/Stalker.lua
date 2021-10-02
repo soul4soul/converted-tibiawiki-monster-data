@@ -65,7 +65,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -73,8 +73,8 @@ monster.elements = {
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,14 +87,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 13129, maxCount = 8},
-	{id = "throwing knife", chance = 11107, maxCount = 2},
-	{id = "blank rune", chance = 8806},
-	{id = "brass shield", chance = 5633},
-	{id = "brass legs", chance = 3541},
-	{id = "miraculum", chance = 1553},
-	{id = "obsidian lance", chance = 1207},
-	{id = "katana", chance = 522}
+	{id = 2148, chance = 13124, maxCount = 8},
+	{id = 2410, chance = 11109, maxCount = 2},
+	{id = 2260, chance = 8814},
+	{id = 2511, chance = 5628},
+	{id = 2478, chance = 3543},
+	{id = 12430, chance = 1551},
+	{id = 2425, chance = 1207},
+	{id = 2412, chance = 521}
 }
 
 mType:register(monster)

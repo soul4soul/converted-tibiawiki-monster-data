@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="-10" />
-		<element earthPercent="100" />
-		<element firePercent="30" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="20" />
-		<element holyPercent="-10" />
-		<element deathPercent="10" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
@@ -56,32 +56,32 @@
 		<voice sentence="Cough Cough" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="96033" countmax="263" />
-		<item name="dirty cape" chance="49465" />
-		<item name="mouldy cheese" chance="40462" />
-		<item name="morning star" chance="23939" />
-		<item name="piece of iron" chance="17420" />
-		<item name="steel shield" chance="16695" />
-		<item name="battle hammer" chance="16385" />
-		<item name="two handed sword" chance="14695" />
-		<item name="soul orb" chance="10314" />
-		<item name="great health potion" chance="7899" />
-		<item name="onyx arrow" chance="7209" countmax="4" />
-		<item name="demonic essence" chance="6933" />
-		<item name="platinum coin" chance="6106" countmax="2" />
-		<item name="knight legs" chance="6037" />
-		<item name="slightly rusted armor" chance="5657" />
-		<item name="axe ring" chance="4070" />
-		<item name="small amethyst" chance="4070" countmax="3" />
-		<item name="club ring" chance="3518" />
-		<item name="war hammer" chance="1863" />
-		<item name="steel boots" chance="1518" />
-		<item name="silver brooch" chance="1069" />
-		<item name="piece of hell steel" chance="931" />
-		<item name="piece of draconian steel" chance="759" />
-		<item name="hammer of wrath" chance="724" />
-		<item name="piece of royal steel" chance="655" />
-		<item name="emerald bangle" chance="276" />
-		<item name="war horn" chance="69" />
+		<item id="2148" name="gold coin" chance="96061" countmax="263" />
+		<item id="2237" name="dirty cape" chance="49091" />
+		<item id="2235" name="mouldy cheese" chance="40640" />
+		<item id="2394" name="morning star" chance="23973" />
+		<item id="2225" name="piece of iron" chance="17273" />
+		<item id="2509" name="steel shield" chance="16633" />
+		<item id="2417" name="battle hammer" chance="16330" />
+		<item id="2377" name="two handed sword" chance="14680" />
+		<item id="5944" name="soul orb" chance="10236" />
+		<item id="7591" name="great health potion" chance="7980" />
+		<item id="7365" name="onyx arrow" chance="7273" countmax="4" />
+		<item id="6500" name="demonic essence" chance="7003" />
+		<item id="2152" name="platinum coin" chance="6094" countmax="2" />
+		<item id="2477" name="knight legs" chance="5993" />
+		<item id="9810" name="slightly rusted armor" chance="5825" />
+		<item id="2208" name="axe ring" chance="4074" />
+		<item id="2150" name="small amethyst" chance="3973" countmax="3" />
+		<item id="2209" name="club ring" chance="3569" />
+		<item id="2391" name="war hammer" chance="1818" />
+		<item id="2645" name="steel boots" chance="1515" />
+		<item id="2134" name="silver brooch" chance="1077" />
+		<item id="5888" name="piece of hell steel" chance="909" />
+		<item id="2444" name="hammer of wrath" chance="741" />
+		<item id="5889" name="piece of draconian steel" chance="741" />
+		<item id="5887" name="piece of royal steel" chance="673" />
+		<item id="2127" name="emerald bangle" chance="303" />
+		<item id="2079" name="war horn" chance="101" />
 	</loot>
 </monster>

@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="20" />
-		<element earthPercent="70" />
-		<element firePercent="-5" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="10" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="70" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
@@ -48,27 +48,27 @@
 		<voice sentence="You are my next meal! Grrr!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="100000" countmax="120" />
-		<item name="platinum coin" chance="100000" countmax="9" />
-		<item name="ultimate health potion" chance="100000" countmax="2" />
-		<item name="werewolf fangs" chance="100000" />
-		<item name="werewolf fur" chance="100000" />
-		<item name="wolf paw" chance="100000" />
-		<item name="onyx chip" chance="84368" countmax="3" />
-		<item name="berserk potion" chance="83726" countmax="2" />
-		<item name="black pearl" chance="80300" countmax="5" />
-		<item name="small enchanted sapphire" chance="79872" countmax="2" />
-		<item name="stone skin amulet" chance="24839" />
-		<item name="troll green" chance="24411" />
-		<item name="wolf trophy" chance="9636" />
-		<item name="bonebreaker" chance="9208" />
-		<item name="dreaded cleaver" chance="7281" />
-		<item name="time ring" chance="6638" />
-		<item name="sai" chance="4925" />
-		<item name="werewolf amulet" chance="2998" />
-		<item name="moonlight crystals" chance="2784" />
-		<item name="platinum amulet" chance="2784" />
-		<item name="silver token" chance="1285" />
-		<item name="wolf backpack" chance="428" />
+		<item id="2148" name="gold coin" chance="100000" countmax="120" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="9" />
+		<item id="8473" name="ultimate health potion" chance="100000" countmax="2" />
+		<item id="24708" name="werewolf fangs" chance="100000" />
+		<item id="11234" name="werewolf fur" chance="100000" />
+		<item id="5897" name="wolf paw" chance="100000" />
+		<item id="24849" name="onyx chip" chance="84368" countmax="3" />
+		<item id="7439" name="berserk potion" chance="83726" countmax="2" />
+		<item id="2144" name="black pearl" chance="80300" countmax="5" />
+		<item id="7759" name="small enchanted sapphire" chance="79872" countmax="2" />
+		<item id="2197" name="stone skin amulet" chance="24839" />
+		<item id="2805" name="troll green" chance="24411" />
+		<item id="7394" name="wolf trophy" chance="9636" />
+		<item id="7428" name="bonebreaker" chance="9208" />
+		<item id="7419" name="dreaded cleaver" chance="7281" />
+		<item id="2169" name="time ring" chance="6638" />
+		<item id="11306" name="sai" chance="4925" />
+		<item id="24716" name="werewolf amulet" chance="2998" />
+		<item id="24739" name="moonlight crystals" chance="2784" />
+		<item id="2171" name="platinum amulet" chance="2784" />
+		<item id="25172" name="silver token" chance="1285" />
+		<item id="24740" name="wolf backpack" chance="428" />
 	</loot>
 </monster>

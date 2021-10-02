@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 1100
 monster.maxHealth = 1100
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 210
 monster.summonCost = 0
@@ -70,16 +70,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 60},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 50},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,17 +93,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 88051, maxCount = 200},
-	{id = "platinum coin", chance = 49739, maxCount = 6},
-	{id = "lizard essence", chance = 15012},
-	{id = "ultimate health potion", chance = 9172},
-	{id = "great mana potion", chance = 7923},
-	{id = "ectoplasmic sushi", chance = 2001},
-	{id = "necrotic rod", chance = 978},
-	{id = "wand of cosmic energy", chance = 939},
-	{id = "death ring", chance = 306},
-	{id = "spirit container", chance = 130},
-	{id = "souleater trophy", chance = 14}
+	{id = 2148, chance = 88051, maxCount = 200},
+	{id = 2152, chance = 49739, maxCount = 6},
+	{id = 12636, chance = 15012},
+	{id = 8473, chance = 9172},
+	{id = 7590, chance = 7923},
+	{id = 12637, chance = 2001},
+	{id = 2185, chance = 978},
+	{id = 2189, chance = 939},
+	{id = 6300, chance = 306},
+	{id = 5884, chance = 130},
+	{id = 12635, chance = 14}
 }
 
 mType:register(monster)

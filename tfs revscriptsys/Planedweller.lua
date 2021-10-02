@@ -68,16 +68,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
-	{type = COMBAT_ENERGYDAMAGE, percent = 50},
-	{type = COMBAT_EARTHDAMAGE, percent = 95},
-	{type = COMBAT_FIREDAMAGE, percent = 40},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 70},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 80}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -92,16 +92,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "Blue Marble", chance = 20000},
-	{id = "Green Marble", chance = 20000},
-	{id = "Red Marble", chance = 20000},
-	{id = "Onyx Marble", chance = 20000},
-	{id = "Versicoloured Marble", chance = 20000},
-	{id = "Turquoise Marble", chance = 20000},
-	{id = "Golden Marble", chance = 20000},
-	{id = "Orange Marble", chance = 20000},
-	{id = "Psychedelic Marble", chance = 20000},
-	{id = "Withered Pauldrons", chance = 20000}
+	{id = 35959, chance = 20000},
+	{id = 35960, chance = 20000},
+	{id = 35961, chance = 20000},
+	{id = 35962, chance = 20000},
+	{id = 35963, chance = 20000},
+	{id = 35964, chance = 20000},
+	{id = 35965, chance = 20000},
+	{id = 35966, chance = 20000},
+	{id = 35967, chance = 20000},
+	{id = 30263, chance = 20000}
 }
 
 mType:register(monster)

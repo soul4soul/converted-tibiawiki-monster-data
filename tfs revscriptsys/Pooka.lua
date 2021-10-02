@@ -69,15 +69,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 70},
-	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
-	{type = COMBAT_HOLYDAMAGE , percent = 20},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,20 +91,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 132},
-	{id = "carrot", chance = 19055, maxCount = 3},
-	{id = "strong health potion", chance = 12789},
-	{id = "shimmering beetles", chance = 10058},
-	{id = "small stone", chance = 5206, maxCount = 5},
-	{id = "rainbow quartz", chance = 4563, maxCount = 2},
-	{id = "cookie", chance = 4049, maxCount = 5},
-	{id = "small enchanted ruby", chance = 3470, maxCount = 2},
-	{id = "opal", chance = 3278, maxCount = 2},
-	{id = "orange mushroom", chance = 2796},
-	{id = "fern", chance = 2763},
-	{id = "stealth ring", chance = 996},
-	{id = "dream blossom staff", chance = 289},
-	{id = "carrot on a stick", chance = 96}
+	{id = 2148, chance = 100000, maxCount = 132},
+	{id = 2684, chance = 19049, maxCount = 3},
+	{id = 7588, chance = 12785},
+	{id = 28349, chance = 10055},
+	{id = 1294, chance = 5236, maxCount = 5},
+	{id = 28393, chance = 4562, maxCount = 2},
+	{id = 2687, chance = 4048, maxCount = 5},
+	{id = 7760, chance = 3469, maxCount = 2},
+	{id = 24850, chance = 3277, maxCount = 2},
+	{id = 2790, chance = 2795},
+	{id = 2801, chance = 2763},
+	{id = 2165, chance = 996},
+	{id = 28356, chance = 289},
+	{id = 13298, chance = 96}
 }
 
 mType:register(monster)

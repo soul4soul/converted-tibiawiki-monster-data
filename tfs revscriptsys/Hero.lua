@@ -69,16 +69,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
-	{type = COMBAT_ENERGYDAMAGE, percent = 40},
-	{type = COMBAT_EARTHDAMAGE, percent = 50},
-	{type = COMBAT_FIREDAMAGE, percent = 30},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
-	{type = COMBAT_HOLYDAMAGE , percent = 50},
-	{type = COMBAT_DEATHDAMAGE , percent = -20}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -92,32 +92,32 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 60237, maxCount = 100},
-	{id = "scroll", chance = 45133},
-	{id = "arrow", chance = 27077, maxCount = 13},
-	{id = "red rose", chance = 20388},
-	{id = "grapes", chance = 20140},
-	{id = "bow", chance = 13028},
-	{id = "sniper arrow", chance = 11594, maxCount = 4},
-	{id = "meat", chance = 8575},
-	{id = "green tunic", chance = 7985},
-	{id = "wedding ring", chance = 5158},
-	{id = "scroll of heroic deeds", chance = 5051},
-	{id = "rope", chance = 2113},
-	{id = "red piece of cloth", chance = 1991},
-	{id = "two handed sword", chance = 1627},
-	{id = "lyre", chance = 1601},
-	{id = "scarf", chance = 1122},
-	{id = "small notebook", chance = 962},
-	{id = "war hammer", chance = 947},
-	{id = "great health potion", chance = 746},
-	{id = "crown armor", chance = 628},
-	{id = "crown legs", chance = 590},
-	{id = "might ring", chance = 505},
-	{id = "fire sword", chance = 483},
-	{id = "crown helmet", chance = 446},
-	{id = "crown shield", chance = 212},
-	{id = "piggy bank", chance = 67}
+	{id = 2148, chance = 60300, maxCount = 100},
+	{id = 1949, chance = 45172},
+	{id = 2544, chance = 27063, maxCount = 13},
+	{id = 2744, chance = 20399},
+	{id = 2681, chance = 20183},
+	{id = 2456, chance = 13029},
+	{id = 7364, chance = 11580, maxCount = 4},
+	{id = 2666, chance = 8566},
+	{id = 2652, chance = 7959},
+	{id = 2121, chance = 5165},
+	{id = 12466, chance = 5051},
+	{id = 2120, chance = 2099},
+	{id = 5911, chance = 1997},
+	{id = 2377, chance = 1624},
+	{id = 2071, chance = 1595},
+	{id = 2661, chance = 1116},
+	{id = 12406, chance = 955},
+	{id = 2391, chance = 955},
+	{id = 7591, chance = 743},
+	{id = 2487, chance = 625},
+	{id = 2488, chance = 589},
+	{id = 2164, chance = 516},
+	{id = 2392, chance = 486},
+	{id = 2491, chance = 446},
+	{id = 2519, chance = 208},
+	{id = 2114, chance = 73}
 }
 
 mType:register(monster)

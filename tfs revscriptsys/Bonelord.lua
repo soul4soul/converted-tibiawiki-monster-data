@@ -72,12 +72,12 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -93,21 +93,21 @@ monster.defenses = {
 
 monster.maxSummons = 6
 monster.summons = {
-	{name = "skeleton", chance = 15, interval = 2000, max = 1}
+	{name = "Skeleton", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99400, maxCount = 48},
-	{id = "longsword", chance = 9079},
-	{id = "morning star", chance = 7022},
-	{id = "small flask of eyedrops", chance = 5059},
-	{id = "spellbook", chance = 4996},
-	{id = "steel shield", chance = 3991},
-	{id = "two handed sword", chance = 3951},
-	{id = "bonelord eye", chance = 1008},
-	{id = "terra rod", chance = 511},
-	{id = "mana potion", chance = 296},
-	{id = "bonelord shield", chance = 107}
+	{id = 2148, chance = 99400, maxCount = 48},
+	{id = 2397, chance = 9076},
+	{id = 2394, chance = 7023},
+	{id = 12468, chance = 5057},
+	{id = 2175, chance = 4995},
+	{id = 2509, chance = 3990},
+	{id = 2377, chance = 3951},
+	{id = 5898, chance = 1008},
+	{id = 2181, chance = 511},
+	{id = 7620, chance = 297},
+	{id = 2518, chance = 107}
 }
 
 mType:register(monster)

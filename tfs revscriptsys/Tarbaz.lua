@@ -87,21 +87,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "flask of demonic blood", chance = 100000},
-	{id = "energy ring", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "great mana potion", chance = 100000, maxCount = 5},
-	{id = "green crystal shard", chance = 100000, maxCount = 3},
-	{id = "platinum coin", chance = 100000, maxCount = 25},
-	{id = "silver token", chance = 100000},
-	{id = "small topaz", chance = 100000, maxCount = 5},
-	{id = "ultimate health potion", chance = 100000, maxCount = 5},
-	{id = "yellow gem", chance = 100000},
-	{id = "blue crystal shard", chance = 50000, maxCount = 3},
-	{id = "chaos mace", chance = 50000},
-	{id = "demonic essence", chance = 50000},
-	{id = "rift shield", chance = 50000},
-	{id = "underworld rod", chance = 50000}
+	{id = 6558, chance = 100000},
+	{id = 2167, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 200},
+	{id = 7590, chance = 100000, maxCount = 5},
+	{id = 18415, chance = 100000, maxCount = 3},
+	{id = 2152, chance = 100000, maxCount = 25},
+	{id = 25172, chance = 100000},
+	{id = 9970, chance = 100000, maxCount = 5},
+	{id = 8473, chance = 100000, maxCount = 5},
+	{id = 2154, chance = 100000},
+	{id = 18413, chance = 50000, maxCount = 3},
+	{id = 7427, chance = 50000},
+	{id = 6500, chance = 50000},
+	{id = 25382, chance = 50000},
+	{id = 8910, chance = 50000}
 }
 
 mType:register(monster)

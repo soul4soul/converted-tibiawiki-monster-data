@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="The Last Lore Keeper" nameDescription="" experience="45000" speed="0" manacost="0">
+	<health now="0" max="0" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-1000" />
+	</attacks>
+	<defenses armor="10" defense="5" />
+	<voices interval="5000" chance="10">
+		<voice sentence="You shall not pass!" yell="false" />
+		<voice sentence="You are not worthy!" yell="false" />
+		<voice sentence="This knowledge is forbidden!" yell="false" />
+	</voices>
+	<loot>
+		<item id="10549" name="ancient stone" chance="100000" />
+		<item id="2148" name="gold coin" chance="100000" countmax="200" />
+		<item id="24849" name="onyx chip" chance="100000" />
+		<item id="25377" name="gold token" chance="99554" countmax="3" />
+		<item id="5880" name="iron ore" chance="99554" />
+		<item id="5887" name="piece of royal steel" chance="99554" />
+		<item id="2152" name="platinum coin" chance="99554" countmax="35" />
+		<item id="25172" name="silver token" chance="99554" countmax="4" />
+		<item id="18413" name="blue crystal shard" chance="73214" countmax="6" />
+		<item id="18414" name="violet crystal shard" chance="69196" countmax="10" />
+		<item id="18415" name="green crystal shard" chance="63393" countmax="3" />
+		<item id="7590" name="great mana potion" chance="57589" countmax="10" />
+		<item id="8473" name="ultimate health potion" chance="56250" countmax="10" />
+		<item id="8472" name="great spirit potion" chance="53125" countmax="10" />
+		<item id="2146" name="small sapphire" chance="28571" countmax="20" />
+		<item id="2156" name="red gem" chance="27679" />
+		<item id="2154" name="yellow gem" chance="25893" />
+		<item id="9971" name="gold ingot" chance="22321" />
+		<item id="2149" name="small emerald" chance="20982" countmax="20" />
+		<item id="2158" name="blue gem" chance="19196" />
+		<item id="10577" name="mystical hourglass" chance="18750" />
+		<item id="24850" name="opal" chance="16071" countmax="2" />
+		<item id="2155" name="green gem" chance="15625" />
+		<item id="9970" name="small topaz" chance="15625" countmax="20" />
+		<item id="5909" name="white piece of cloth" chance="15625" countmax="4" />
+		<item id="2147" name="small ruby" chance="14286" countmax="20" />
+		<item id="5904" name="magic sulphur" chance="13839" />
+		<item name="giant shimmering pearl" chance="13393" />
+		<item id="2150" name="small amethyst" chance="12500" countmax="20" />
+		<item name="ring of red plasma" chance="12054" />
+		<item id="5891" name="enchanted chicken wing" chance="11607" />
+		<item id="2436" name="skull staff" chance="11161" />
+		<item id="2153" name="violet gem" chance="11161" />
+		<item id="7437" name="sapphire hammer" chance="9821" />
+		<item name="part of a rune" chance="5804" />
+		<item id="8857" name="silkweaver bow" chance="4464" />
+		<item id="8879" name="voltage armor" chance="3125" />
+		<item id="3972" name="bonelord helmet" chance="2232" />
+		<item id="8904" name="spellscroll of prophecies" chance="1786" />
+		<item id="2466" name="golden armor" chance="1339" />
+		<item id="2452" name="heavy mace" chance="1339" />
+		<item id="27631" name="astral source" chance="893" />
+		<item id="27627" name="forbidden tome" chance="893" />
+		<item id="27628" name="key to knowledge" chance="893" />
+		<item id="7418" name="nightmare blade" chance="893" />
+		<item id="27632" name="astral glyph" chance="446" />
+		<item id="18450" name="crystalline sword" chance="446" />
+		<item id="5809" name="soul stone" chance="446" />
+		<item id="22414" name="umbral hammer" chance="446" />
+	</loot>
+</monster>

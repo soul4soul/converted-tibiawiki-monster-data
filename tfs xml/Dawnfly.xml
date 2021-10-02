@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -32,7 +32,7 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="-10" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -45,11 +45,11 @@
 	</attacks>
 	<defenses armor="3" defense="3" />
 	<loot>
-		<item name="gold coin" chance="100000" countmax="12" />
-		<item name="simple arrow" chance="22917" countmax="16" />
-		<item name="poison arrow" chance="12500" countmax="8" />
-		<item name="doublet" chance="5208" />
-		<item name="health potion" chance="3125" />
-		<item name="mana potion" chance="3125" />
+		<item id="2148" name="gold coin" chance="100000" countmax="12" />
+		<item id="23839" name="simple arrow" chance="22857" countmax="16" />
+		<item id="2545" name="poison arrow" chance="12381" countmax="8" />
+		<item id="2485" name="doublet" chance="4762" />
+		<item id="7618" name="health potion" chance="2857" />
+		<item id="7620" name="mana potion" chance="2857" />
 	</loot>
 </monster>

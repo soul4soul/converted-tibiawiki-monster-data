@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 1500
 monster.maxHealth = 1500
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 240
 monster.summonCost = 0
@@ -69,15 +69,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 100},
-	{type = COMBAT_EARTHDAMAGE, percent = -5},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 100},
-	{type = COMBAT_HOLYDAMAGE , percent = -5},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -92,19 +92,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 148},
-	{id = "platinum coin", chance = 24710},
-	{id = "unholy bone", chance = 10039},
-	{id = "safety pin", chance = 7191},
-	{id = "pile of grave earth", chance = 7143},
-	{id = "sudden death rune", chance = 5164, maxCount = 8},
-	{id = "wand of inferno", chance = 4875},
-	{id = "strong mana potion", chance = 2944, maxCount = 2},
-	{id = "strong health potion", chance = 2703, maxCount = 2},
-	{id = "yellow gem", chance = 917},
-	{id = "death ring", chance = 676},
-	{id = "mysterious voodoo skull", chance = 241},
-	{id = "skull staff", chance = 145}
+	{id = 2148, chance = 100000, maxCount = 148},
+	{id = 2152, chance = 24710},
+	{id = 11233, chance = 10039},
+	{id = 12449, chance = 7191},
+	{id = 12440, chance = 7143},
+	{id = 2268, chance = 5164, maxCount = 8},
+	{id = 2187, chance = 4875},
+	{id = 7589, chance = 2944, maxCount = 2},
+	{id = 7588, chance = 2703, maxCount = 2},
+	{id = 2154, chance = 917},
+	{id = 6300, chance = 676},
+	{id = 5669, chance = 241},
+	{id = 2436, chance = 145}
 }
 
 mType:register(monster)

@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 880
 monster.maxHealth = 880
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 210
 monster.summonCost = 0
@@ -73,15 +73,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 80},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -20},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -96,29 +96,29 @@ monster.defenses = {
 
 monster.maxSummons = 4
 monster.summons = {
-	{name = "bonebeast", chance = 15, interval = 2000, max = 1}
+	{name = "Bonebeast", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 139},
-	{id = "platinum coin", chance = 19637},
-	{id = "spellbook", chance = 10308},
-	{id = "strong mana potion", chance = 7856},
-	{id = "black pearl", chance = 5266, maxCount = 3},
-	{id = "white pearl", chance = 4874},
-	{id = "small topaz", chance = 2507, maxCount = 3},
-	{id = "small emerald", chance = 2358, maxCount = 3},
-	{id = "ancient shield", chance = 2144},
-	{id = "ring of healing", chance = 1687},
-	{id = "yellow gem", chance = 801},
-	{id = "strange helmet", chance = 718},
-	{id = "mind stone", chance = 438},
-	{id = "platinum amulet", chance = 410},
-	{id = "skull staff", chance = 298},
-	{id = "lightning boots", chance = 280},
-	{id = "castle shield", chance = 252},
-	{id = "blue robe", chance = 196},
-	{id = "maxilla maximus", chance = 47}
+	{id = 2148, chance = 100000, maxCount = 139},
+	{id = 2152, chance = 19638},
+	{id = 2175, chance = 10332},
+	{id = 7589, chance = 7837},
+	{id = 2144, chance = 5231, maxCount = 3},
+	{id = 2143, chance = 4852},
+	{id = 9970, chance = 2495, maxCount = 3},
+	{id = 2149, chance = 2338, maxCount = 3},
+	{id = 2532, chance = 2135},
+	{id = 2214, chance = 1673},
+	{id = 2154, chance = 795},
+	{id = 2479, chance = 712},
+	{id = 2178, chance = 444},
+	{id = 2171, chance = 416},
+	{id = 2436, chance = 296},
+	{id = 7893, chance = 277},
+	{id = 2535, chance = 250},
+	{id = 2656, chance = 194},
+	{id = 13291, chance = 46}
 }
 
 mType:register(monster)

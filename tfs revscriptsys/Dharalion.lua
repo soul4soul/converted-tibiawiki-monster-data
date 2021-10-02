@@ -78,7 +78,7 @@ monster.elements = {
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -94,21 +94,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "holy orchid", chance = 100000},
-	{id = "elvish talisman", chance = 87671},
-	{id = "elven astral observer", chance = 83562},
-	{id = "yellow gem", chance = 41096},
-	{id = "melon", chance = 24658},
-	{id = "blank rune", chance = 23288},
-	{id = "elven amulet", chance = 16438},
-	{id = "bread", chance = 15068},
-	{id = "great mana potion", chance = 13699},
-	{id = "life crystal", chance = 12329},
-	{id = "sling herb", chance = 10959},
-	{id = "cornucopia", chance = 9589},
-	{id = "green tunic", chance = 5479},
-	{id = "royal spear", chance = 1370, maxCount = 2}
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 5922, chance = 100000},
+	{id = 10552, chance = 87671},
+	{id = 12421, chance = 83562},
+	{id = 2154, chance = 41096},
+	{id = 2682, chance = 24658},
+	{id = 2260, chance = 23288},
+	{id = 2198, chance = 16438},
+	{id = 2689, chance = 15068},
+	{id = 7590, chance = 13699},
+	{id = 2177, chance = 12329},
+	{id = 2802, chance = 10959},
+	{id = 3957, chance = 9589},
+	{id = 2652, chance = 5479},
+	{id = 7378, chance = 1370, maxCount = 2}
 }
 
 mType:register(monster)

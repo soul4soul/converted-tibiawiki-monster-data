@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -45,16 +45,16 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item name="platinum coin" chance="100000" />
-		<item name="envenomed arrow" chance="56948" countmax="47" />
-		<item name="lump of dirt" chance="10023" />
-		<item name="terra amulet" chance="5011" />
-		<item name="terra hood" chance="4328" />
-		<item name="earth arrow" chance="4100" countmax="21" />
-		<item name="green memory shard" chance="3645" />
-		<item name="violet memory shard" chance="3645" />
-		<item name="blue memory shard" chance="3189" />
-		<item name="sacred tree amulet" chance="2278" />
-		<item name="worm" chance="911" countmax="3" />
+		<item id="2152" name="platinum coin" chance="100000" />
+		<item id="18437" name="envenomed arrow" chance="56948" countmax="47" />
+		<item id="10609" name="lump of dirt" chance="10023" />
+		<item id="7887" name="terra amulet" chance="5011" />
+		<item id="7903" name="terra hood" chance="4328" />
+		<item id="7850" name="earth arrow" chance="4100" countmax="21" />
+		<item id="34012" name="green memory shard" chance="3645" />
+		<item id="34011" name="violet memory shard" chance="3645" />
+		<item id="34010" name="blue memory shard" chance="3189" />
+		<item id="10219" name="sacred tree amulet" chance="2278" />
+		<item id="3976" name="worm" chance="911" countmax="3" />
 	</loot>
 </monster>

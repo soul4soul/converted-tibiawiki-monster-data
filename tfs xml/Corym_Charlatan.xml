@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Corym Charlatan" nameDescription="a corym charlatan" experience="150" speed="190" manacost="490">
+	<health now="250" max="250" />
+	<look type="532" head="0" body="78" legs="59" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" />
+	</attacks>
+	<defenses armor="17" defense="17" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Mehehe!" yell="false" />
+		<voice sentence="Beware! Me hexing you!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="81471" countmax="35" />
+		<item id="20101" name="rat cheese" chance="14784" />
+		<item id="20100" name="soft cheese" chance="12484" />
+		<item id="3607" name="cheese" chance="9670" />
+		<item id="20089" name="bola" chance="7820" />
+		<item id="20099" name="earflap" chance="7251" />
+		<item id="20097" name="cheese cutter" chance="6499" />
+		<item id="20092" name="ratana" chance="655" />
+		<item id="20093" name="life preserver" chance="601" />
+		<item id="20098" name="cheesy figurine" chance="536" />
+		<item id="20126" name="leather harness" chance="455" />
+		<item id="20090" name="spike shield" chance="422" />
+		<item id="20105" name="rat god doll" chance="5" />
+	</loot>
+</monster>

@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 15},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 15},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,25 +88,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "platinum coin", chance = 55298, maxCount = 2},
-	{id = "moohtant horn", chance = 15073, maxCount = 2},
-	{id = "giant pacifier", chance = 11248},
-	{id = "great health potion", chance = 9032, maxCount = 3},
-	{id = "great mana potion", chance = 8652, maxCount = 3},
-	{id = "meat", chance = 7377},
-	{id = "small ruby", chance = 5055, maxCount = 2},
-	{id = "small diamond", chance = 5024, maxCount = 2},
-	{id = "minotaur leather", chance = 4766},
-	{id = "ring of healing", chance = 2505},
-	{id = "red piece of cloth", chance = 2459},
-	{id = "moohtant cudgel", chance = 971},
-	{id = "red gem", chance = 865},
-	{id = "spiked squelcher", chance = 759},
-	{id = "yellow gem", chance = 729},
-	{id = "gold ingot", chance = 486},
-	{id = "chaos mace", chance = 425},
-	{id = "minotaur trophy", chance = 319}
+	{id = 2148, chance = 100000, maxCount = 200},
+	{id = 2152, chance = 55298, maxCount = 2},
+	{id = 23571, chance = 15073, maxCount = 2},
+	{id = 23570, chance = 11248},
+	{id = 7591, chance = 9032, maxCount = 3},
+	{id = 7590, chance = 8652, maxCount = 3},
+	{id = 2666, chance = 7377},
+	{id = 2147, chance = 5055, maxCount = 2},
+	{id = 2145, chance = 5024, maxCount = 2},
+	{id = 5878, chance = 4766},
+	{id = 2214, chance = 2505},
+	{id = 5911, chance = 2459},
+	{id = 23544, chance = 971},
+	{id = 2156, chance = 865},
+	{id = 7452, chance = 759},
+	{id = 2154, chance = 729},
+	{id = 9971, chance = 486},
+	{id = 7427, chance = 425},
+	{id = 7401, chance = 319}
 }
 
 mType:register(monster)

@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 1350
 monster.maxHealth = 1350
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 280
 monster.summonCost = 0
@@ -69,16 +69,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 90},
-	{type = COMBAT_ENERGYDAMAGE, percent = -8},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -8},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = 1},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,22 +93,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99815, maxCount = 270},
-	{id = "blank rune", chance = 29495, maxCount = 2},
-	{id = "lyre", chance = 10591},
-	{id = "wand of cosmic energy", chance = 10406},
-	{id = "demonic essence", chance = 7143},
-	{id = "soul orb", chance = 7143},
-	{id = "platinum coin", chance = 3387, maxCount = 7},
-	{id = "white piece of cloth", chance = 3264},
-	{id = "great mana potion", chance = 1047},
-	{id = "silver brooch", chance = 862},
-	{id = "shiny stone", chance = 739},
-	{id = "relic sword", chance = 616},
-	{id = "death ring", chance = 369},
-	{id = "stealth ring", chance = 308},
-	{id = "demonbone amulet", chance = 246},
-	{id = "shadow sceptre", chance = 62}
+	{id = 2148, chance = 99826, maxCount = 270},
+	{id = 2260, chance = 29268, maxCount = 2},
+	{id = 2071, chance = 10511},
+	{id = 2189, chance = 10105},
+	{id = 5944, chance = 7143},
+	{id = 6500, chance = 7085},
+	{id = 2152, chance = 3484, maxCount = 7},
+	{id = 5909, chance = 3310},
+	{id = 7590, chance = 1103},
+	{id = 2134, chance = 813},
+	{id = 11227, chance = 755},
+	{id = 7383, chance = 581},
+	{id = 6300, chance = 348},
+	{id = 2165, chance = 348},
+	{id = 2136, chance = 232},
+	{id = 7451, chance = 58}
 }
 
 mType:register(monster)

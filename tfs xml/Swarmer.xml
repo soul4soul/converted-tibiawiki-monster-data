@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -30,13 +30,13 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="75" />
-		<element earthPercent="100" />
-		<element firePercent="-8" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-3" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -53,10 +53,10 @@
 		<voice sentence="Rzlrzlrzlrzlrzlrzl!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="99998" countmax="75" />
-		<item name="swarmer antenna" chance="15288" />
-		<item name="compound eye" chance="11955" />
-		<item name="small emerald" chance="977" />
-		<item name="epee" chance="432" />
+		<item id="2148" name="gold coin" chance="99998" countmax="75" />
+		<item id="15479" name="swarmer antenna" chance="15290" />
+		<item id="15486" name="compound eye" chance="11956" />
+		<item id="2149" name="small emerald" chance="977" />
+		<item id="2438" name="epee" chance="432" />
 	</loot>
 </monster>

@@ -68,15 +68,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 15},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 16},
-	{type = COMBAT_HOLYDAMAGE , percent = 15},
-	{type = COMBAT_DEATHDAMAGE , percent = 15}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,22 +88,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 150},
-	{id = "lump of earth", chance = 15016},
-	{id = "coal", chance = 12151},
-	{id = "brown crystal splinter", chance = 10104},
-	{id = "green crystal splinter", chance = 10041},
-	{id = "blue crystal splinter", chance = 9966},
-	{id = "vein of ore", chance = 7340},
-	{id = "pulverized ore", chance = 5149},
-	{id = "pick", chance = 5073},
-	{id = "worm", chance = 5000, maxCount = 5},
-	{id = "drill bolt", chance = 4974, maxCount = 2},
-	{id = "terra amulet", chance = 2586},
-	{id = "dwarven ring", chance = 2388},
-	{id = "iron ore", chance = 1554},
-	{id = "clay lump", chance = 746},
-	{id = "spiked squelcher", chance = 510}
+	{id = 2148, chance = 100000, maxCount = 150},
+	{id = 11222, chance = 15016},
+	{id = 13757, chance = 12154},
+	{id = 18417, chance = 10102},
+	{id = 18416, chance = 10043},
+	{id = 18418, chance = 9972},
+	{id = 18429, chance = 7338},
+	{id = 18427, chance = 5151},
+	{id = 3456, chance = 5075},
+	{id = 3976, chance = 5001, maxCount = 5},
+	{id = 18436, chance = 4973, maxCount = 2},
+	{id = 7887, chance = 2585},
+	{id = 2213, chance = 2390},
+	{id = 5880, chance = 1553},
+	{id = 11339, chance = 745},
+	{id = 7452, chance = 511}
 }
 
 mType:register(monster)

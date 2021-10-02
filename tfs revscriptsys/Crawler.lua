@@ -67,14 +67,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -8},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -7},
-	{type = COMBAT_HOLYDAMAGE , percent = -5},
-	{type = COMBAT_DEATHDAMAGE , percent = 5}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,17 +88,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 190},
-	{id = "platinum coin", chance = 50328},
-	{id = "crawler head plating", chance = 17970},
-	{id = "compound eye", chance = 14677},
-	{id = "small topaz", chance = 10083, maxCount = 2},
-	{id = "great mana potion", chance = 8926},
-	{id = "great health potion", chance = 6194},
-	{id = "war hammer", chance = 1866},
-	{id = "springsprout rod", chance = 612},
-	{id = "yellow gem", chance = 462},
-	{id = "grasshopper legs", chance = 94}
+	{id = 2148, chance = 100000, maxCount = 190},
+	{id = 2152, chance = 50327},
+	{id = 15482, chance = 17971},
+	{id = 15486, chance = 14678},
+	{id = 9970, chance = 10085, maxCount = 2},
+	{id = 7590, chance = 8924},
+	{id = 7591, chance = 6195},
+	{id = 2391, chance = 1868},
+	{id = 8912, chance = 612},
+	{id = 2154, chance = 462},
+	{id = 15490, chance = 94}
 }
 
 mType:register(monster)

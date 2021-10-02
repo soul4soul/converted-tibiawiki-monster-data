@@ -88,10 +88,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "chicken feather", chance = 19646},
-	{id = "worm", chance = 9626},
-	{id = "meat", chance = 1996},
-	{id = "egg", chance = 964}
+	{id = 5890, chance = 19646},
+	{id = 3976, chance = 9626},
+	{id = 2666, chance = 1996},
+	{id = 3606, chance = 964}
 }
 
 mType:register(monster)

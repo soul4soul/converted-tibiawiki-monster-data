@@ -89,13 +89,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "pelvis bone", chance = 100000},
-	{id = "mace", chance = 68750},
-	{id = "viking helmet", chance = 68750},
-	{id = "gold coin", chance = 62500, maxCount = 79},
-	{id = "brass shield", chance = 43750},
-	{id = "hatchet", chance = 31250},
-	{id = "sword", chance = 31250},
+	{id = 12437, chance = 100000},
+	{id = 2398, chance = 68750},
+	{id = 2473, chance = 68750},
+	{id = 2148, chance = 62500, maxCount = 79},
+	{id = 2511, chance = 43750},
+	{id = 2388, chance = 31250},
+	{id = 2376, chance = 31250},
 	{id = "torch", chance = 25000}
 }
 

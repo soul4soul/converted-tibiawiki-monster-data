@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -50,10 +50,10 @@
 		<voice sentence="Snarl!" yell="false" />
 	</voices>
 	<loot>
-		<item name="raw meat" chance="17896" />
-		<item name="hardened bone" chance="7186" />
-		<item name="thick fur" chance="6635" />
-		<item name="tusk shield" chance="551" />
-		<item name="furry club" chance="468" />
+		<item id="24842" name="raw meat" chance="17954" />
+		<item id="5925" name="hardened bone" chance="7176" />
+		<item id="11224" name="thick fur" chance="6626" />
+		<item id="3973" name="tusk shield" chance="550" />
+		<item id="7432" name="furry club" chance="467" />
 	</loot>
 </monster>

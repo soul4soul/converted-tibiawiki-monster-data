@@ -66,13 +66,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 35},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -87,17 +87,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "carniphila seeds", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "shadow herb", chance = 100000},
-	{id = "small emerald", chance = 100000, maxCount = 4},
-	{id = "dark mushroom", chance = 80120},
-	{id = "seeds", chance = 77711},
-	{id = "terra amulet", chance = 56024},
-	{id = "springsprout rod", chance = 54819},
-	{id = "terra boots", chance = 46386},
-	{id = "sweet smelling bait", chance = 4819},
-	{id = "mandrake", chance = 3012}
+	{id = 11217, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 5},
+	{id = 2804, chance = 100000},
+	{id = 2149, chance = 100000, maxCount = 4},
+	{id = 2792, chance = 80120},
+	{id = 7732, chance = 77711},
+	{id = 7887, chance = 56024},
+	{id = 8912, chance = 54819},
+	{id = 7886, chance = 46386},
+	{id = 13307, chance = 4819},
+	{id = 5015, chance = 3012}
 }
 
 mType:register(monster)

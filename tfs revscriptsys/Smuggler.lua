@@ -67,7 +67,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -76,7 +76,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,17 +89,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 79838, maxCount = 10},
+	{id = 2148, chance = 79837, maxCount = 10},
 	{id = "torch", chance = 30216, maxCount = 2},
-	{id = "leather legs", chance = 14790},
-	{id = "ham", chance = 10191},
-	{id = "short sword", chance = 10049},
-	{id = "leather helmet", chance = 10032},
-	{id = "knife", chance = 9997},
-	{id = "sword", chance = 5027},
-	{id = "raspberry", chance = 4913, maxCount = 5},
-	{id = "combat knife", chance = 4039},
-	{id = "deer trophy", chance = 113}
+	{id = 2649, chance = 14788},
+	{id = 2671, chance = 10190},
+	{id = 2406, chance = 10050},
+	{id = 2461, chance = 10033},
+	{id = 2403, chance = 9996},
+	{id = 2376, chance = 5026},
+	{id = 8840, chance = 4912, maxCount = 5},
+	{id = 2404, chance = 4039},
+	{id = 7397, chance = 113}
 }
 
 mType:register(monster)

@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 100},
-	{type = COMBAT_HOLYDAMAGE , percent = 100},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,16 +87,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 91176, maxCount = 198},
-	{id = "platinum coin", chance = 72549, maxCount = 5},
-	{id = "strong health potion", chance = 71569},
-	{id = "small sapphire", chance = 65686, maxCount = 5},
-	{id = "small diamond", chance = 62745, maxCount = 4},
-	{id = "frosty heart", chance = 56863},
-	{id = "ice cube", chance = 50980, maxCount = 2},
-	{id = "shard", chance = 33333},
-	{id = "black pearl", chance = 1961},
-	{id = "glacier mask", chance = 980}
+	{id = 2148, chance = 91176, maxCount = 198},
+	{id = 2152, chance = 72549, maxCount = 5},
+	{id = 7588, chance = 71569},
+	{id = 2146, chance = 65686, maxCount = 5},
+	{id = 2145, chance = 62745, maxCount = 4},
+	{id = 10578, chance = 56863},
+	{id = 7441, chance = 50980, maxCount = 2},
+	{id = 7290, chance = 33333},
+	{id = 2144, chance = 1961},
+	{id = 7902, chance = 980}
 }
 
 mType:register(monster)

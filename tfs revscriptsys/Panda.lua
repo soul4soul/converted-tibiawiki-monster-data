@@ -69,8 +69,8 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -89,9 +89,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 68860},
-	{id = "ham", chance = 36477},
-	{id = "bamboo stick", chance = 8991}
+	{id = 2666, chance = 68860},
+	{id = 2671, chance = 36477},
+	{id = 12401, chance = 8991}
 }
 
 mType:register(monster)

@@ -69,15 +69,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 10},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,16 +90,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 85222, maxCount = 14},
-	{id = "meat", chance = 10139},
-	{id = "studded armor", chance = 8284},
-	{id = "studded shield", chance = 6561},
-	{id = "sabre", chance = 5732},
-	{id = "axe", chance = 5600},
-	{id = "studded helmet", chance = 2750},
-	{id = "heavy old tome", chance = 2353},
-	{id = "orc leather", chance = 398},
-	{id = "orc tooth", chance = 66}
+	{id = 2148, chance = 84778, maxCount = 14},
+	{id = 2666, chance = 9890},
+	{id = 2484, chance = 8192},
+	{id = 2526, chance = 6494},
+	{id = 2385, chance = 5600},
+	{id = 2386, chance = 5481},
+	{id = 2482, chance = 2830},
+	{id = 26642, chance = 2353},
+	{id = 12435, chance = 387},
+	{id = 11113, chance = 60}
 }
 
 mType:register(monster)

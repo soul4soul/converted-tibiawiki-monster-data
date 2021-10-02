@@ -66,10 +66,10 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
-	{type = COMBAT_ENERGYDAMAGE, percent = -5},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -88,10 +88,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 97496, maxCount = 45},
-	{id = "terramite legs", chance = 14984},
-	{id = "terramite shell", chance = 7452},
-	{id = "terramite eggs", chance = 4996}
+	{id = 2148, chance = 97496, maxCount = 45},
+	{id = 11371, chance = 14984},
+	{id = 11369, chance = 7452},
+	{id = 11370, chance = 4996}
 }
 
 mType:register(monster)

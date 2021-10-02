@@ -67,16 +67,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -5},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
-	{type = COMBAT_HOLYDAMAGE , percent = -5},
-	{type = COMBAT_DEATHDAMAGE , percent = 50}
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,18 +90,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 30001, maxCount = 90},
-	{id = "poison arrow", chance = 14948, maxCount = 5},
-	{id = "book of necromantic rituals", chance = 10086},
-	{id = "green mushroom", chance = 1481},
-	{id = "necromantic robe", chance = 1034},
-	{id = "mystic turban", chance = 495},
-	{id = "clerical mace", chance = 375},
-	{id = "strong mana potion", chance = 341},
-	{id = "boots of haste", chance = 198},
-	{id = "spellbook of warding", chance = 106},
-	{id = "skull staff", chance = 104},
-	{id = "noble axe", chance = 8}
+	{id = 2148, chance = 29996, maxCount = 90},
+	{id = 2545, chance = 14949, maxCount = 5},
+	{id = 11237, chance = 10087},
+	{id = 2796, chance = 1481},
+	{id = 12431, chance = 1034},
+	{id = 2663, chance = 495},
+	{id = 2423, chance = 375},
+	{id = 7589, chance = 343},
+	{id = 2195, chance = 198},
+	{id = 8901, chance = 106},
+	{id = 2436, chance = 104},
+	{id = 7456, chance = 8}
 }
 
 mType:register(monster)

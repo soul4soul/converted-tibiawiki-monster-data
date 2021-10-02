@@ -87,17 +87,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 100000},
-	{id = "envenomed arrow", chance = 56948, maxCount = 47},
-	{id = "lump of dirt", chance = 10023},
-	{id = "terra amulet", chance = 5011},
-	{id = "terra hood", chance = 4328},
-	{id = "earth arrow", chance = 4100, maxCount = 21},
-	{id = "green memory shard", chance = 3645},
-	{id = "violet memory shard", chance = 3645},
-	{id = "blue memory shard", chance = 3189},
-	{id = "sacred tree amulet", chance = 2278},
-	{id = "worm", chance = 911, maxCount = 3}
+	{id = 2152, chance = 100000},
+	{id = 18437, chance = 56948, maxCount = 47},
+	{id = 10609, chance = 10023},
+	{id = 7887, chance = 5011},
+	{id = 7903, chance = 4328},
+	{id = 7850, chance = 4100, maxCount = 21},
+	{id = 34012, chance = 3645},
+	{id = 34011, chance = 3645},
+	{id = 34010, chance = 3189},
+	{id = 10219, chance = 2278},
+	{id = 3976, chance = 911, maxCount = 3}
 }
 
 mType:register(monster)

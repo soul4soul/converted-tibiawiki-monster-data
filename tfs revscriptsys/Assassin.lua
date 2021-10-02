@@ -68,7 +68,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -77,7 +77,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,19 +90,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 83044, maxCount = 50},
+	{id = 2148, chance = 83044, maxCount = 50},
 	{id = "torch", chance = 30080, maxCount = 2},
-	{id = "knife", chance = 9870},
-	{id = "throwing star", chance = 7022, maxCount = 14},
-	{id = "viper star", chance = 4175, maxCount = 7},
-	{id = "combat knife", chance = 4016},
-	{id = "steel helmet", chance = 3051},
-	{id = "plate shield", chance = 1936},
-	{id = "battle shield", chance = 1639},
-	{id = "steel shield", chance = 976},
-	{id = "leopard armor", chance = 475},
-	{id = "horseman helmet", chance = 243},
-	{id = "small diamond", chance = 223}
+	{id = 2403, chance = 9870},
+	{id = 2399, chance = 7022, maxCount = 14},
+	{id = 7366, chance = 4175, maxCount = 7},
+	{id = 2404, chance = 4016},
+	{id = 3351, chance = 3051},
+	{id = 2510, chance = 1936},
+	{id = 2513, chance = 1639},
+	{id = 2509, chance = 976},
+	{id = 3968, chance = 475},
+	{id = 3969, chance = 243},
+	{id = 2145, chance = 223}
 }
 
 mType:register(monster)

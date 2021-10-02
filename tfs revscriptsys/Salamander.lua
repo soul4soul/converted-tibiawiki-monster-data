@@ -68,7 +68,7 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -89,15 +89,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 71933, maxCount = 15},
-	{id = "insectoid eggs", chance = 34927},
-	{id = "arrow", chance = 7985, maxCount = 3},
-	{id = "rope", chance = 5076},
-	{id = "mace", chance = 3978},
-	{id = "brass helmet", chance = 1977},
-	{id = "health potion", chance = 1481},
-	{id = "bow", chance = 739},
-	{id = "scimitar", chance = 487}
+	{id = 2148, chance = 71933, maxCount = 15},
+	{id = 19737, chance = 34927},
+	{id = 2544, chance = 7985, maxCount = 3},
+	{id = 2120, chance = 5076},
+	{id = 2398, chance = 3978},
+	{id = 2460, chance = 1977},
+	{id = 7618, chance = 1481},
+	{id = 2456, chance = 739},
+	{id = 2419, chance = 487}
 }
 
 mType:register(monster)

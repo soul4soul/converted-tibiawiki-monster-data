@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -30,13 +30,13 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="-10" />
-		<element earthPercent="100" />
-		<element firePercent="-10" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="100" />
-		<element icePercent="20" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -45,8 +45,8 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
-		<item name="gold coin" chance="80078" countmax="10" />
-		<item name="crab pincers" chance="20147" />
-		<item name="fish" chance="20008" />
+		<item id="2148" name="gold coin" chance="80068" countmax="10" />
+		<item id="11189" name="crab pincers" chance="20133" />
+		<item id="2667" name="fish" chance="19994" />
 	</loot>
 </monster>

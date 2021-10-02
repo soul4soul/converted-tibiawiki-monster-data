@@ -66,13 +66,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -87,14 +87,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87938, maxCount = 40},
-	{id = "dark mushroom", chance = 7961},
-	{id = "carniphila seeds", chance = 4018},
-	{id = "shadow herb", chance = 1000},
-	{id = "corncob", chance = 982},
-	{id = "seeds", chance = 508},
-	{id = "sling herb", chance = 502, maxCount = 2},
-	{id = "carrot on a stick", chance = 105}
+	{id = 2148, chance = 87938, maxCount = 40},
+	{id = 2792, chance = 7961},
+	{id = 11217, chance = 4019},
+	{id = 2804, chance = 1000},
+	{id = 2686, chance = 982},
+	{id = 7732, chance = 508},
+	{id = 2802, chance = 502, maxCount = 2},
+	{id = 13298, chance = 105}
 }
 
 mType:register(monster)

@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="-5" />
+		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -37,8 +37,8 @@
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="50" />
-		<element deathPercent="50" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<defenses armor="25" defense="25">
 		<defense name="healing" interval="2000" chance="20" min="30" max="50" />
@@ -52,18 +52,18 @@
 		<voice sentence="I will punish the sinners!" yell="false" />
 	</voices>
 	<loot>
-		<item name="bread" chance="19981" />
-		<item name="gold coin" chance="15258" countmax="18" />
-		<item name="book of prayers" chance="4874" />
-		<item name="rope belt" chance="3101" />
-		<item name="ankh" chance="2340" />
-		<item name="scroll" chance="1843" />
-		<item name="safety pin" chance="1050" />
-		<item name="life crystal" chance="1038" />
-		<item name="brown flask" chance="830" />
-		<item name="lamp" chance="792" />
-		<item name="sandals" chance="648" />
-		<item name="staff" chance="472" />
-		<item name="power ring" chance="82" />
+		<item id="2689" name="bread" chance="19961" />
+		<item id="2148" name="gold coin" chance="15274" countmax="18" />
+		<item id="10563" name="book of prayers" chance="4868" />
+		<item id="12448" name="rope belt" chance="3094" />
+		<item id="2193" name="ankh" chance="2350" />
+		<item id="1949" name="scroll" chance="1850" />
+		<item id="12449" name="safety pin" chance="1044" />
+		<item id="2177" name="life crystal" chance="1031" />
+		<item id="2015" name="brown flask" chance="825" />
+		<item name="lamp" chance="787" />
+		<item id="2642" name="sandals" chance="650" />
+		<item id="2401" name="staff" chance="475" />
+		<item id="2166" name="power ring" chance="81" />
 	</loot>
 </monster>

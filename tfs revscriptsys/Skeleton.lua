@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 50
 monster.maxHealth = 50
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 154
 monster.summonCost = 300
@@ -71,10 +71,10 @@ monster.elements = {
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -25},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,16 +87,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bone", chance = 50715},
-	{id = "gold coin", chance = 44947, maxCount = 10},
-	{id = "torch", chance = 10363},
-	{id = "pelvis bone", chance = 10070},
-	{id = "viking helmet", chance = 7397},
-	{id = "hatchet", chance = 5358},
-	{id = "mace", chance = 4678},
-	{id = "heavy old tome", chance = 2134},
-	{id = "sword", chance = 2028},
-	{id = "brass shield", chance = 973}
+	{id = 2230, chance = 50768},
+	{id = 2148, chance = 44986, maxCount = 10},
+	{id = "torch", chance = 10321},
+	{id = 12437, chance = 10060},
+	{id = 2473, chance = 7556},
+	{id = 2388, chance = 5444},
+	{id = 2398, chance = 4627},
+	{id = 26642, chance = 2101},
+	{id = 2376, chance = 1992},
+	{id = 2511, chance = 969}
 }
 
 mType:register(monster)

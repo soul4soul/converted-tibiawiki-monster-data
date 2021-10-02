@@ -67,7 +67,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -76,7 +76,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,15 +89,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 48973, maxCount = 30},
-	{id = "axe", chance = 29974},
-	{id = "brass shield", chance = 16782},
-	{id = "leather legs", chance = 14970},
-	{id = "mace", chance = 10322},
-	{id = "tomato", chance = 7695, maxCount = 2},
-	{id = "chain helmet", chance = 4958},
-	{id = "brass armor", chance = 2374},
-	{id = "iron helmet", chance = 539}
+	{id = 2148, chance = 48970, maxCount = 30},
+	{id = 2386, chance = 29977},
+	{id = 2511, chance = 16781},
+	{id = 2649, chance = 14969},
+	{id = 2398, chance = 10321},
+	{id = 2685, chance = 7695, maxCount = 2},
+	{id = 2458, chance = 4958},
+	{id = 2465, chance = 2374},
+	{id = 2459, chance = 539}
 }
 
 mType:register(monster)

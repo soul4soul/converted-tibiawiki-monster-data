@@ -90,14 +90,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "arrow", chance = 47026, maxCount = 18},
-	{id = "leather helmet", chance = 31179},
-	{id = "leather legs", chance = 27598},
-	{id = "bow", chance = 15055},
-	{id = "roll", chance = 11054, maxCount = 2},
-	{id = "torch", chance = 4854},
-	{id = "poison arrow", chance = 2583, maxCount = 3},
-	{id = "closed trap", chance = 1021}
+	{id = 2544, chance = 47116, maxCount = 18},
+	{id = 2461, chance = 30937},
+	{id = 2649, chance = 27605},
+	{id = 2456, chance = 15054},
+	{id = 2690, chance = 11001, maxCount = 2},
+	{id = "torch", chance = 5025},
+	{id = 2545, chance = 2545, maxCount = 3},
+	{id = 2578, chance = 1049}
 }
 
 mType:register(monster)

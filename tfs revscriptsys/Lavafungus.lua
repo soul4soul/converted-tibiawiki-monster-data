@@ -68,13 +68,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 10},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 20}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,30 +87,30 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 100000, maxCount = 18},
-	{id = "terra rod", chance = 25207},
-	{id = "lavafungus ring", chance = 10331},
-	{id = "red gem", chance = 8058},
-	{id = "hailstorm rod", chance = 7231},
-	{id = "violet gem", chance = 5785},
-	{id = "blue crystal shard", chance = 5372},
-	{id = "green gem", chance = 5165},
-	{id = "lavafungus head", chance = 5165},
-	{id = "cyan crystal fragment", chance = 4959},
-	{id = "onyx chip", chance = 4339},
-	{id = "rainbow quartz", chance = 4132},
-	{id = "wand of inferno", chance = 4132},
-	{id = "violet crystal shard", chance = 3719},
-	{id = "yellow gem", chance = 3512},
-	{id = "green crystal fragment", chance = 3099},
-	{id = "red crystal fragment", chance = 2893},
-	{id = "metal spats", chance = 2686},
-	{id = "spellbook of warding", chance = 2479},
-	{id = "magma amulet", chance = 2066},
-	{id = "focus cape", chance = 1653},
-	{id = "crystal mace", chance = 1446},
-	{id = "wand of starstorm", chance = 1446},
-	{id = "dwarven ring", chance = 1240}
+	{id = 2152, chance = 100000, maxCount = 18},
+	{id = 2181, chance = 24900},
+	{id = 39442, chance = 10843},
+	{id = 2156, chance = 8434},
+	{id = 2183, chance = 7028},
+	{id = 2153, chance = 5823},
+	{id = 18413, chance = 5221},
+	{id = 2155, chance = 5221},
+	{id = 18419, chance = 5020},
+	{id = 39441, chance = 5020},
+	{id = 24849, chance = 4418},
+	{id = 2187, chance = 4217},
+	{id = 28393, chance = 4016},
+	{id = 18414, chance = 3815},
+	{id = 2154, chance = 3414},
+	{id = 18421, chance = 3213},
+	{id = 18420, chance = 3012},
+	{id = 23540, chance = 2610},
+	{id = 8901, chance = 2410},
+	{id = 7890, chance = 2209},
+	{id = 8871, chance = 1606},
+	{id = 2445, chance = 1406},
+	{id = 8920, chance = 1406},
+	{id = 2213, chance = 1205}
 }
 
 mType:register(monster)

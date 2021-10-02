@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Menacing Carnivor" nameDescription="a menacing carnivor" experience="2112" speed="340" manacost="0">
+	<health now="3500" max="3500" />
+	<look type="1138" head="86" body="51" legs="83" feet="91" addons="3" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
+	</attacks>
+	<defenses armor="68" defense="68" />
+	<loot>
+		<item id="2152" name="platinum coin" chance="66223" countmax="8" />
+		<item id="2394" name="morning star" chance="16622" />
+		<item id="26029" name="ultimate mana potion" chance="10372" />
+		<item id="32003" name="violet glass plate" chance="5984" />
+		<item id="2181" name="terra rod" chance="5452" />
+		<item id="7449" name="crystal sword" chance="5186" />
+		<item id="2147" name="small ruby" chance="4521" />
+		<item id="18421" name="green crystal fragment" chance="3590" />
+		<item id="7885" name="terra legs" chance="2394" />
+		<item id="24849" name="onyx chip" chance="1995" />
+		<item id="8922" name="wand of voodoo" chance="1995" />
+		<item id="2442" name="heavy machete" chance="1596" />
+		<item id="7760" name="small enchanted ruby" chance="1463" />
+		<item id="27617" name="tiger eye" chance="1197" />
+		<item id="2477" name="knight legs" chance="1064" />
+		<item id="2420" name="machete" chance="1064" />
+		<item id="8920" name="wand of starstorm" chance="1064" />
+		<item id="2459" name="iron helmet" chance="798" />
+		<item id="2191" name="wand of dragonbreath" chance="798" />
+		<item id="2409" name="serpent sword" chance="665" />
+		<item id="24850" name="opal" chance="399" />
+		<item id="2188" name="wand of decay" chance="399" />
+	</loot>
+</monster>

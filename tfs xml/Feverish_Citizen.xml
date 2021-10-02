@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Feverish Citizen" nameDescription="a feverish citizen" experience="30" speed="146" manacost="0">
+	<health now="125" max="125" />
+	<look type="425" head="0" body="0" legs="0" feet="0" addons="2" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-19" />
+	</attacks>
+	<defenses armor="14" defense="14" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Arrrgh!" yell="false" />
+		<voice sentence="I am the king of the world!" yell="false" />
+		<voice sentence="Die Ferumbras!" yell="false" />
+		<voice sentence="Tigerblood is running through my veins!" yell="false" />
+		<voice sentence="You! It's you again!" yell="false" />
+		<voice sentence="Stand still you tasty morsel!" yell="false" />
+		<voice sentence="&lt;giggle&gt;" yell="false" />
+		<voice sentence="Burn heretic! Burn!" yell="false" />
+		<voice sentence="Harrr!" yell="false" />
+		<voice sentence="This is Venore!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="29824" countmax="35" />
+		<item id="3976" name="worm" chance="24786" countmax="3" />
+		<item id="2230" name="bone" chance="4977" />
+		<item id="13542" name="voluminous piece of cloth" chance="2189" />
+		<item id="13543" name="obvious piece of cloth" chance="1944" />
+		<item id="13545" name="luminous piece of cloth" chance="1932" />
+		<item id="13544" name="ludicrous piece of cloth" chance="1871" />
+		<item id="13540" name="ominous piece of cloth" chance="1871" />
+		<item id="13541" name="dubious piece of cloth" chance="1663" />
+	</loot>
+</monster>

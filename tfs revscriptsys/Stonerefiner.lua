@@ -67,14 +67,14 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -20},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -89,13 +89,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 50551, maxCount = 4},
-	{id = "rare earth", chance = 40185},
-	{id = "coal", chance = 28760},
-	{id = "glob of acid slime", chance = 23864},
-	{id = "stonerefiner's skull", chance = 20732},
-	{id = "poisonous slime", chance = 19982},
-	{id = "rat cheese", chance = 9131}
+	{id = 2152, chance = 50492, maxCount = 4},
+	{id = 29957, chance = 40137},
+	{id = 13757, chance = 28755},
+	{id = 9967, chance = 23962},
+	{id = 30262, chance = 20710},
+	{id = 10557, chance = 19940},
+	{id = 20101, chance = 9071}
 }
 
 mType:register(monster)

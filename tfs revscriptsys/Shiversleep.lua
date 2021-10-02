@@ -66,14 +66,14 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 35},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -88,16 +88,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "Gold Coin", chance = 20000, maxCount = 44},
-	{id = "Platinum Coin", chance = 20000, maxCount = 7},
-	{id = "Ultimate Health Potion", chance = 20000},
-	{id = "Small Amethyst", chance = 20000, maxCount = 2},
-	{id = "Blue Crystal Splinter", chance = 20000},
-	{id = "Great Mana Potion", chance = 20000},
-	{id = "Small Ruby", chance = 20000, maxCount = 2},
-	{id = "Small Topaz", chance = 20000, maxCount = 3},
-	{id = "Trapped Bad Dream Monster", chance = 20000},
-	{id = "Cluster of Solace", chance = 20000}
+	{id = 2148, chance = 20000, maxCount = 44},
+	{id = 2152, chance = 20000, maxCount = 7},
+	{id = 8473, chance = 20000},
+	{id = 2150, chance = 20000, maxCount = 2},
+	{id = 18418, chance = 20000},
+	{id = 7590, chance = 20000},
+	{id = 2147, chance = 20000, maxCount = 2},
+	{id = 9970, chance = 20000, maxCount = 3},
+	{id = 22537, chance = 20000},
+	{id = 22396, chance = 20000}
 }
 
 mType:register(monster)

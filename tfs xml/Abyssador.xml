@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="15" />
-		<element earthPercent="100" />
-		<element firePercent="15" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="15" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="15" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-1400" />
@@ -58,13 +58,13 @@
 		<voice sentence="*** EXISTENCE *** FUTILE ***" yell="false" />
 	</voices>
 	<loot>
-		<item name="abyssador's lash" chance="100000" />
-		<item name="crystal crossbow" chance="11458" />
-		<item name="crystalline axe" chance="10417" />
-		<item name="crystalline sword" chance="10417" />
-		<item name="shiny blade" chance="10417" />
-		<item name="mycological bow" chance="5208" />
-		<item name="mycological mace" chance="2083" />
-		<item name="decorative ribbon" chance="1042" />
+		<item id="18496" name="abyssador's lash" chance="100000" />
+		<item id="18453" name="crystal crossbow" chance="11458" />
+		<item id="18451" name="crystalline axe" chance="10417" />
+		<item id="18450" name="crystalline sword" chance="10417" />
+		<item id="18465" name="shiny blade" chance="10417" />
+		<item id="18454" name="mycological bow" chance="5208" />
+		<item id="18452" name="mycological mace" chance="2083" />
+		<item id="18449" name="decorative ribbon" chance="1042" />
 	</loot>
 </monster>

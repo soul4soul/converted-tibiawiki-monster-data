@@ -69,7 +69,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -77,7 +77,7 @@ monster.elements = {
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 20},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -92,23 +92,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "arrow", chance = 82415, maxCount = 22},
-	{id = "orange", chance = 20177, maxCount = 2},
-	{id = "roll", chance = 11119, maxCount = 2},
-	{id = "hunter's quiver", chance = 10175},
-	{id = "bow", chance = 5829},
-	{id = "burst arrow", chance = 5162, maxCount = 3},
-	{id = "brass armor", chance = 5137},
-	{id = "brass helmet", chance = 5005},
-	{id = "poison arrow", chance = 4355, maxCount = 4},
-	{id = "dragon necklace", chance = 3106},
-	{id = "torch", chance = 3080},
-	{id = "sniper gloves", chance = 544},
-	{id = "deer trophy", chance = 467},
-	{id = "small ruby", chance = 178},
-	{id = "lion trophy", chance = 132},
-	{id = "wolf trophy", chance = 119},
-	{id = "slingshot", chance = 115}
+	{id = 2544, chance = 82469, maxCount = 22},
+	{id = 2675, chance = 20118, maxCount = 2},
+	{id = 2690, chance = 11179, maxCount = 2},
+	{id = 12425, chance = 10171},
+	{id = 2456, chance = 5856},
+	{id = 2546, chance = 5182, maxCount = 3},
+	{id = 2465, chance = 5129},
+	{id = 2460, chance = 5009},
+	{id = 2545, chance = 4344, maxCount = 4},
+	{id = 2201, chance = 3108},
+	{id = "torch", chance = 3079},
+	{id = 5875, chance = 533},
+	{id = 7397, chance = 459},
+	{id = 2147, chance = 178},
+	{id = 7400, chance = 136},
+	{id = 7394, chance = 124},
+	{id = 5907, chance = 112}
 }
 
 mType:register(monster)

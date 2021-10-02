@@ -68,13 +68,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 15},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -15},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,21 +87,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 100000, maxCount = 18},
-	{id = "gold ingot", chance = 20394},
-	{id = "violet crystal shard", chance = 10912},
-	{id = "lavaworm spike roots", chance = 6798},
-	{id = "violet gem", chance = 5546},
-	{id = "lavaworm spikes", chance = 4651},
-	{id = "green gem", chance = 3757},
-	{id = "butterfly ring", chance = 2862},
-	{id = "underworld rod", chance = 2862},
-	{id = "blue crystal shard", chance = 2326},
-	{id = "lavaworm jaws", chance = 2147},
-	{id = "warrior helmet", chance = 1789},
-	{id = "wand of voodoo", chance = 1252},
-	{id = "crusader helmet", chance = 894},
-	{id = "strange helmet", chance = 537}
+	{id = 2152, chance = 100000, maxCount = 18},
+	{id = 9971, chance = 20490},
+	{id = 18414, chance = 10683},
+	{id = 39425, chance = 6830},
+	{id = 2153, chance = 5779},
+	{id = 39426, chance = 4729},
+	{id = 2155, chance = 3853},
+	{id = 28354, chance = 2802},
+	{id = 8910, chance = 2802},
+	{id = 18413, chance = 2277},
+	{id = 39427, chance = 2102},
+	{id = 2475, chance = 1751},
+	{id = 8922, chance = 1401},
+	{id = 2497, chance = 876},
+	{id = 2479, chance = 525}
 }
 
 mType:register(monster)

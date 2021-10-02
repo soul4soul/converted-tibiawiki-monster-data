@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 515
 monster.maxHealth = 515
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 218
 monster.summonCost = 0
@@ -69,14 +69,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -25},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,17 +90,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bone", chance = 49664},
-	{id = "gold coin", chance = 29786, maxCount = 90},
-	{id = "skull", chance = 19947},
-	{id = "bony tail", chance = 9941},
-	{id = "plate armor", chance = 7963},
-	{id = "bone club", chance = 4962},
-	{id = "bone shield", chance = 2065},
-	{id = "green mushroom", chance = 1428},
-	{id = "hardened bone", chance = 1015},
-	{id = "health potion", chance = 513},
-	{id = "bonebeast trophy", chance = 100}
+	{id = 2230, chance = 49663},
+	{id = 2148, chance = 29786, maxCount = 90},
+	{id = 2229, chance = 19946},
+	{id = 11194, chance = 9941},
+	{id = 2463, chance = 7962},
+	{id = 2449, chance = 4961},
+	{id = 2541, chance = 2064},
+	{id = 2796, chance = 1428},
+	{id = 5925, chance = 1014},
+	{id = 7618, chance = 513},
+	{id = 11161, chance = 100}
 }
 
 mType:register(monster)

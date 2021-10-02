@@ -68,7 +68,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -77,7 +77,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,16 +91,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "skull", chance = 80090, maxCount = 2},
-	{id = "dagger", chance = 80012},
-	{id = "gold coin", chance = 40083, maxCount = 20},
-	{id = "brown bread", chance = 29506},
-	{id = "sabre", chance = 23242},
-	{id = "girlish hair decoration", chance = 9864},
-	{id = "protective charm", chance = 5249},
-	{id = "torch", chance = 1007},
-	{id = "crystal necklace", chance = 244},
-	{id = "small ruby", chance = 134}
+	{id = 2229, chance = 80101, maxCount = 2},
+	{id = 2379, chance = 79999},
+	{id = 2148, chance = 40100, maxCount = 20},
+	{id = 2691, chance = 29515},
+	{id = 2385, chance = 23234},
+	{id = 12399, chance = 9859},
+	{id = 12400, chance = 5239},
+	{id = "torch", chance = 1011},
+	{id = 2125, chance = 243},
+	{id = 2147, chance = 133}
 }
 
 mType:register(monster)

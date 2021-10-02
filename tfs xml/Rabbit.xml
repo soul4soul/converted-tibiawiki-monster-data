@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -42,7 +42,7 @@
 	</elements>
 	<defenses armor="1" defense="1" />
 	<loot>
-		<item name="meat" chance="82490" />
-		<item name="carrot" chance="9822" />
+		<item id="2666" name="meat" chance="82549" />
+		<item id="2684" name="carrot" chance="9784" />
 	</loot>
 </monster>

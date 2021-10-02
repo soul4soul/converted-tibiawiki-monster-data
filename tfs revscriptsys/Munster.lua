@@ -90,16 +90,16 @@ monster.defenses = {
 
 monster.maxSummons = 2
 monster.summons = {
-	{name = "rat", chance = 15, interval = 2000, max = 1}
+	{name = "Rat", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "bone club", chance = 85047},
-	{id = "gold coin", chance = 79439, maxCount = 24},
-	{id = "cheese", chance = 65421},
-	{id = "worm", chance = 50467, maxCount = 4},
-	{id = "cookie", chance = 935, maxCount = 2},
-	{id = "die", chance = 935}
+	{id = 2449, chance = 85088},
+	{id = 2148, chance = 78947, maxCount = 24},
+	{id = 3607, chance = 65789},
+	{id = 3976, chance = 48246, maxCount = 4},
+	{id = "die", chance = 1754},
+	{id = 2687, chance = 877, maxCount = 2}
 }
 
 mType:register(monster)

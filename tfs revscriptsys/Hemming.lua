@@ -67,7 +67,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 30},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -76,7 +76,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 50}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,22 +88,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 99},
-	{id = "werewolf fur", chance = 100000},
-	{id = "wolf paw", chance = 100000},
-	{id = "ultimate health potion", chance = 98529},
-	{id = "brown mushroom", chance = 95588, maxCount = 5},
-	{id = "platinum coin", chance = 95588, maxCount = 10},
-	{id = "berserk potion", chance = 82353},
-	{id = "stone skin amulet", chance = 63235},
-	{id = "black pearl", chance = 58824, maxCount = 5},
-	{id = "cat's paw", chance = 32353},
-	{id = "troll green", chance = 23529},
-	{id = "sai", chance = 17647},
-	{id = "dreaded cleaver", chance = 8824},
-	{id = "bonebreaker", chance = 4412},
-	{id = "time ring", chance = 4412},
-	{id = "platinum amulet", chance = 1471}
+	{id = 2148, chance = 100000, maxCount = 99},
+	{id = 11234, chance = 100000},
+	{id = 5897, chance = 100000},
+	{id = 8473, chance = 98529},
+	{id = 2789, chance = 95588, maxCount = 5},
+	{id = 2152, chance = 95588, maxCount = 10},
+	{id = 7439, chance = 82353},
+	{id = 2197, chance = 63235},
+	{id = 2144, chance = 58824, maxCount = 5},
+	{id = 5480, chance = 32353},
+	{id = 2805, chance = 23529},
+	{id = 11306, chance = 17647},
+	{id = 7419, chance = 8824},
+	{id = 7428, chance = 4412},
+	{id = 2169, chance = 4412},
+	{id = 2171, chance = 1471}
 }
 
 mType:register(monster)

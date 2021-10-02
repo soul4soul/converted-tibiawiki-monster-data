@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Cobra Scout" nameDescription="a cobra scout" experience="7310" speed="300" manacost="0">
+	<health now="8500" max="8500" />
+	<look type="1217" head="1" body="1" legs="102" feet="78" addons="2" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
+	</attacks>
+	<defenses armor="81" defense="81" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Think I can't see you? Think again..." yell="false" />
+		<voice sentence="You don't stand a chance!" yell="false" />
+		<voice sentence="What are you looking for?" yell="false" />
+	</voices>
+	<loot>
+		<item id="2152" name="platinum coin" chance="73296" countmax="9" />
+		<item id="24850" name="opal" chance="23048" countmax="5" />
+		<item id="7850" name="earth arrow" chance="19393" countmax="28" />
+		<item id="20098" name="cheesy figurine" chance="14002" />
+		<item id="34334" name="cobra crest" chance="13259" />
+		<item id="9971" name="gold ingot" chance="6877" />
+		<item id="2197" name="stone skin amulet" chance="6072" />
+		<item id="10219" name="sacred tree amulet" chance="5328" />
+		<item id="2149" name="small emerald" chance="3717" countmax="2" />
+		<item id="2156" name="red gem" chance="3594" />
+		<item id="2154" name="yellow gem" chance="3036" />
+		<item id="2155" name="green gem" chance="2416" />
+		<item id="18415" name="green crystal shard" chance="1983" />
+		<item id="2153" name="violet gem" chance="1983" />
+		<item name="ring of red plasma" chance="682" />
+	</loot>
+</monster>

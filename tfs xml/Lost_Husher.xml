@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lost Husher" nameDescription="a lost husher" experience="1800" speed="250" manacost="0">
+	<health now="1600" max="1600" />
+	<look type="537" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
+	</attacks>
+	<defenses armor="55" defense="55">
+		<defense name="healing" interval="2000" chance="20" min="75" max="92" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Arr far zwar!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="100" />
+		<item id="2152" name="platinum coin" chance="59636" countmax="2" />
+		<item id="20135" name="red hair dye" chance="15341" />
+		<item id="2789" name="brown mushroom" chance="15101" countmax="2" />
+		<item id="20127" name="wimp tooth chain" chance="12043" />
+		<item id="13757" name="coal" chance="11820" />
+		<item id="20130" name="holy ash" chance="11589" />
+		<item id="7588" name="strong health potion" chance="10439" countmax="3" />
+		<item id="7590" name="great mana potion" chance="10385" countmax="2" />
+		<item id="9970" name="small topaz" chance="9725" />
+		<item id="20128" name="lost husher's staff" chance="9253" />
+		<item id="20129" name="skull shatterer" chance="9012" />
+		<item id="20110" name="bonecarving knife" chance="8460" />
+		<item id="20137" name="basalt figurine" chance="7738" />
+		<item id="20111" name="bone fetish" chance="7648" />
+		<item id="20136" name="basalt fetish" chance="5964" />
+		<item id="2213" name="dwarven ring" chance="2648" />
+		<item id="2515" name="guardian shield" chance="972" />
+		<item id="11339" name="clay lump" chance="891" />
+		<item id="2430" name="knight axe" chance="749" />
+		<item id="20109" name="buckle" chance="731" />
+		<item id="7886" name="terra boots" chance="624" />
+		<item id="2436" name="skull staff" chance="464" />
+		<item id="7452" name="spiked squelcher" chance="285" />
+		<item id="2432" name="fire axe" chance="267" />
+		<item id="7885" name="terra legs" chance="214" />
+		<item id="2528" name="tower shield" chance="196" />
+	</loot>
+</monster>

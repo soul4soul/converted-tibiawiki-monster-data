@@ -69,15 +69,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 10},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -92,14 +92,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 73507, maxCount = 35},
-	{id = "rorc feather", chance = 12037},
-	{id = "hatched rorc egg", chance = 10964},
-	{id = "wolf tooth chain", chance = 7947},
-	{id = "plate shield", chance = 6475},
-	{id = "orcish axe", chance = 2058},
-	{id = "rorc egg", chance = 1052},
-	{id = "obsidian lance", chance = 993}
+	{id = 2148, chance = 73498, maxCount = 35},
+	{id = 21310, chance = 12038},
+	{id = 21314, chance = 10962},
+	{id = 2129, chance = 7945},
+	{id = 2510, chance = 6480},
+	{id = 2428, chance = 2059},
+	{id = 21313, chance = 1051},
+	{id = 2425, chance = 991}
 }
 
 mType:register(monster)

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ice_Witch" nameDescription="" experience="580" speed="228" manacost="0">
+	<health now="650" max="650" />
+	<look type="149" head="0" body="9" legs="86" feet="86" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-60" />
+	</attacks>
+	<defenses armor="70" defense="70">
+		<defense name="healing" interval="2000" chance="20" min="65" max="162" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="So you think you are cool?" yell="false" />
+		<voice sentence="I hope it is not too cold for you! HeHeHe." yell="false" />
+		<voice sentence="Freeze!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="29906" countmax="90" />
+		<item id="7441" name="ice cube" chance="9993" />
+		<item id="2796" name="green mushroom" chance="1301" />
+		<item id="2423" name="clerical mace" chance="1045" />
+		<item id="7589" name="strong mana potion" chance="872" />
+		<item id="7290" name="shard" chance="634" />
+		<item id="2663" name="mystic turban" chance="424" />
+		<item id="7449" name="crystal sword" chance="392" />
+		<item id="7892" name="glacier shoes" chance="322" />
+		<item id="7387" name="diamond sceptre" chance="312" />
+		<item id="7459" name="pair of earmuffs" chance="84" />
+	</loot>
+</monster>

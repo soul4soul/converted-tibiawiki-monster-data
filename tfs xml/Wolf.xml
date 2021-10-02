@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -36,9 +36,9 @@
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-10" />
-		<element holyPercent="30" />
-		<element deathPercent="-5" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-17" />
@@ -49,8 +49,8 @@
 		<voice sentence="Grrrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item name="meat" chance="70243" />
-		<item name="wolf paw" chance="1023" />
-		<item name="old rag" chance="2" />
+		<item id="2666" name="meat" chance="70249" />
+		<item id="5897" name="wolf paw" chance="1023" />
+		<item id="27071" name="old rag" chance="2" />
 	</loot>
 </monster>

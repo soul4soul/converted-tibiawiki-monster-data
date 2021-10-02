@@ -65,15 +65,15 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
-	{type = COMBAT_ENERGYDAMAGE, percent = 100},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -5},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -86,17 +86,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 60},
-	{id = "witch broom", chance = 100000},
-	{id = "cape", chance = 61111},
-	{id = "broom", chance = 41667},
-	{id = "coat", chance = 38889},
-	{id = "wolf tooth chain", chance = 36111},
-	{id = "cookie", chance = 25000, maxCount = 10},
-	{id = "star herb", chance = 13889},
-	{id = "bag of apple slices", chance = 2778},
-	{id = "garlic necklace", chance = 2778},
-	{id = "necrotic rod", chance = 2778}
+	{id = 2148, chance = 100000, maxCount = 60},
+	{id = 10569, chance = 100000},
+	{id = 2654, chance = 61111},
+	{id = 2324, chance = 41667},
+	{id = 2651, chance = 38889},
+	{id = 2129, chance = 36111},
+	{id = 2687, chance = 25000, maxCount = 10},
+	{id = 2800, chance = 13889},
+	{id = 13537, chance = 2778},
+	{id = 2199, chance = 2778},
+	{id = 2185, chance = 2778}
 }
 
 mType:register(monster)

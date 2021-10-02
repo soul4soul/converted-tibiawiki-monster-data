@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="10" />
-		<element earthPercent="50" />
-		<element firePercent="-5" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="10" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="20" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
@@ -48,26 +48,26 @@
 		<voice sentence="Never underestimate a badger!" yell="false" />
 	</voices>
 	<loot>
-		<item name="platinum coin" chance="100000" countmax="7" />
-		<item name="werebadger claws" chance="100000" />
-		<item name="werebadger skull" chance="100000" />
-		<item name="gold coin" chance="79956" countmax="75" />
-		<item name="onyx chip" chance="72985" countmax="3" />
-		<item name="great mana potion" chance="37691" />
-		<item name="small enchanted amethyst" chance="27015" countmax="3" />
-		<item name="beetroot" chance="23747" />
-		<item name="badger boots" chance="20915" />
-		<item name="ultimate mana potion" chance="16340" />
-		<item name="ring of healing" chance="9804" />
-		<item name="underworld rod" chance="6972" />
-		<item name="wand of voodoo" chance="4793" />
-		<item name="werebadger trophy" chance="4575" />
-		<item name="brown mushroom" chance="4357" />
-		<item name="troll green" chance="3704" />
-		<item name="werewolf amulet" chance="3704" />
-		<item name="moonlight crystals" chance="2832" />
-		<item name="silver token" chance="2397" />
-		<item name="platinum amulet" chance="871" />
-		<item name="wolf backpack" chance="218" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
+		<item id="24707" name="werebadger claws" chance="100000" />
+		<item id="24711" name="werebadger skull" chance="100000" />
+		<item id="2148" name="gold coin" chance="79956" countmax="75" />
+		<item id="24849" name="onyx chip" chance="72985" countmax="3" />
+		<item id="7590" name="great mana potion" chance="37691" />
+		<item id="7762" name="small enchanted amethyst" chance="27015" countmax="3" />
+		<item id="8845" name="beetroot" chance="23747" />
+		<item id="24742" name="badger boots" chance="20915" />
+		<item id="26029" name="ultimate mana potion" chance="16340" />
+		<item id="2214" name="ring of healing" chance="9804" />
+		<item id="8910" name="underworld rod" chance="6972" />
+		<item id="8922" name="wand of voodoo" chance="4793" />
+		<item id="24757" name="werebadger trophy" chance="4575" />
+		<item id="2789" name="brown mushroom" chance="4357" />
+		<item id="2805" name="troll green" chance="3704" />
+		<item id="24716" name="werewolf amulet" chance="3704" />
+		<item id="24739" name="moonlight crystals" chance="2832" />
+		<item id="25172" name="silver token" chance="2397" />
+		<item id="2171" name="platinum amulet" chance="871" />
+		<item id="24740" name="wolf backpack" chance="218" />
 	</loot>
 </monster>

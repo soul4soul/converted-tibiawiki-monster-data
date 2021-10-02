@@ -69,15 +69,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -1},
-	{type = COMBAT_EARTHDAMAGE, percent = 1},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,17 +90,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "piece of massacre's shell", chance = 100000},
-	{id = "demonic essence", chance = 95455},
-	{id = "soul orb", chance = 95455},
-	{id = "gold coin", chance = 90909, maxCount = 157},
-	{id = "meat", chance = 81818},
-	{id = "orichalcum pearl", chance = 77273, maxCount = 6},
-	{id = "old twig", chance = 68182},
-	{id = "platinum coin", chance = 50000, maxCount = 6},
-	{id = "great mana potion", chance = 9091},
-	{id = "big bone", chance = 4545},
-	{id = "great health potion", chance = 4545}
+	{id = 6540, chance = 100000},
+	{id = 6500, chance = 95455},
+	{id = 5944, chance = 95455},
+	{id = 2148, chance = 90909, maxCount = 157},
+	{id = 2666, chance = 81818},
+	{id = 5022, chance = 77273, maxCount = 6},
+	{id = 2221, chance = 68182},
+	{id = 2152, chance = 50000, maxCount = 6},
+	{id = 7590, chance = 9091},
+	{id = 2231, chance = 4545},
+	{id = 7591, chance = 4545}
 }
 
 mType:register(monster)

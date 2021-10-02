@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 150
 monster.maxHealth = 150
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 160
 monster.summonCost = 0
@@ -68,16 +68,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 100},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,15 +90,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "shadow herb", chance = 14630},
-	{id = "morning star", chance = 10701},
-	{id = "cape", chance = 9003},
-	{id = "combat knife", chance = 7045},
-	{id = "white piece of cloth", chance = 1941},
-	{id = "ghostly tissue", chance = 1852},
-	{id = "book (orange)", chance = 1406},
-	{id = "ancient shield", chance = 802},
-	{id = "stealth ring", chance = 180}
+	{id = 2804, chance = 14620},
+	{id = 2394, chance = 10722},
+	{id = 2654, chance = 8994},
+	{id = 2404, chance = 7038},
+	{id = 5909, chance = 1942},
+	{id = 10607, chance = 1851},
+	{id = "book (orange)", chance = 1410},
+	{id = 2532, chance = 802},
+	{id = 2165, chance = 180}
 }
 
 mType:register(monster)

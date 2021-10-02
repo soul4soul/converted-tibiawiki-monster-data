@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 475
 monster.maxHealth = 475
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 238
 monster.summonCost = 0
@@ -69,16 +69,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 25},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -25},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,20 +93,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 90060, maxCount = 60},
-	{id = "vampire teeth", chance = 7756},
-	{id = "blood preservation", chance = 5106},
-	{id = "grave flower", chance = 1930},
-	{id = "black pearl", chance = 1795},
-	{id = "strong health potion", chance = 1497},
-	{id = "katana", chance = 1450},
-	{id = "skull", chance = 1018},
-	{id = "spike sword", chance = 1006},
-	{id = "ice rapier", chance = 470},
-	{id = "strange helmet", chance = 404},
-	{id = "bronze amulet", chance = 235},
-	{id = "emerald bangle", chance = 207},
-	{id = "vampire shield", chance = 194}
+	{id = 2148, chance = 90064, maxCount = 60},
+	{id = 10602, chance = 7773},
+	{id = 12405, chance = 5089},
+	{id = 2747, chance = 1926},
+	{id = 2144, chance = 1792},
+	{id = 7588, chance = 1502},
+	{id = 2412, chance = 1449},
+	{id = 2229, chance = 1013},
+	{id = 2383, chance = 1004},
+	{id = 2396, chance = 471},
+	{id = 2479, chance = 402},
+	{id = 2172, chance = 237},
+	{id = 2127, chance = 206},
+	{id = 2534, chance = 193}
 }
 
 mType:register(monster)

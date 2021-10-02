@@ -70,7 +70,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 30},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -90,19 +90,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 50},
-	{id = "platinum coin", chance = 100000, maxCount = 8},
-	{id = "wyrm scale", chance = 100000},
-	{id = "dragon ham", chance = 66667},
-	{id = "strong mana potion", chance = 66667, maxCount = 5},
-	{id = "sudden death rune", chance = 66667, maxCount = 5},
-	{id = "assassin star", chance = 33333, maxCount = 5},
-	{id = "silver raid token", chance = 33333},
-	{id = "small emerald", chance = 33333, maxCount = 5},
-	{id = "small ruby", chance = 33333, maxCount = 5},
-	{id = "small topaz", chance = 33333, maxCount = 5},
-	{id = "strong health potion", chance = 33333, maxCount = 5},
-	{id = "yellow gem", chance = 33333}
+	{id = 2148, chance = 100000, maxCount = 50},
+	{id = 2152, chance = 100000, maxCount = 8},
+	{id = 10582, chance = 100000},
+	{id = 2672, chance = 66667},
+	{id = 7589, chance = 66667, maxCount = 5},
+	{id = 2268, chance = 66667, maxCount = 5},
+	{id = 7368, chance = 33333, maxCount = 5},
+	{id = 21400, chance = 33333},
+	{id = 2149, chance = 33333, maxCount = 5},
+	{id = 2147, chance = 33333, maxCount = 5},
+	{id = 9970, chance = 33333, maxCount = 5},
+	{id = 7588, chance = 33333, maxCount = 5},
+	{id = 2154, chance = 33333}
 }
 
 mType:register(monster)

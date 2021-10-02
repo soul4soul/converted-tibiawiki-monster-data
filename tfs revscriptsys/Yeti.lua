@@ -68,9 +68,9 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -8},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -90,12 +90,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 79310, maxCount = 27},
-	{id = "meat", chance = 71264},
-	{id = "snowball", chance = 52874, maxCount = 22},
-	{id = "ham", chance = 39080},
-	{id = "bunnyslippers", chance = 1149},
-	{id = "wolf tooth chain", chance = 1149}
+	{id = 2148, chance = 79310, maxCount = 27},
+	{id = 2666, chance = 71264},
+	{id = 2111, chance = 52874, maxCount = 22},
+	{id = 2671, chance = 39080},
+	{id = 2644, chance = 1149},
+	{id = 2129, chance = 1149}
 }
 
 mType:register(monster)

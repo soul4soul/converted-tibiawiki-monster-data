@@ -68,14 +68,14 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -90,14 +90,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 89833, maxCount = 40},
-	{id = "meat", chance = 40249},
-	{id = "ham", chance = 29985},
-	{id = "thick fur", chance = 7733},
-	{id = "mammoth tusk", chance = 7426, maxCount = 2},
-	{id = "mammoth whopper", chance = 2536},
-	{id = "furry club", chance = 503},
-	{id = "tusk shield", chance = 493}
+	{id = 2148, chance = 89832, maxCount = 40},
+	{id = 2666, chance = 40244},
+	{id = 2671, chance = 29983},
+	{id = 11224, chance = 7731},
+	{id = 11238, chance = 7424, maxCount = 2},
+	{id = 7381, chance = 2535},
+	{id = 7432, chance = 502},
+	{id = 3973, chance = 493}
 }
 
 mType:register(monster)

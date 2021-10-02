@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Minotaur Invader" nameDescription="a minotaur invader" experience="1600" speed="240" manacost="0">
+	<health now="1850" max="1850" />
+	<look type="29" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
+	</attacks>
+	<defenses armor="40" defense="40" />
+	<voices interval="5000" chance="10">
+		<voice sentence="For the victory!" yell="false" />
+		<voice sentence="We will crush the enemy!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="200" />
+		<item id="2152" name="platinum coin" chance="49181" countmax="4" />
+		<item id="12438" name="piece of warrior armor" chance="14725" />
+		<item id="9970" name="small topaz" chance="10302" countmax="2" />
+		<item id="12428" name="minotaur horn" chance="8245" countmax="2" />
+		<item id="5878" name="minotaur leather" chance="5588" />
+		<item id="2150" name="small amethyst" chance="5151" />
+		<item id="2147" name="small ruby" chance="4641" />
+		<item id="23537" name="mooh'tah plate" chance="965" />
+		<item id="2156" name="red gem" chance="819" />
+		<item id="5912" name="blue piece of cloth" chance="801" />
+		<item id="2430" name="knight axe" chance="746" />
+		<item id="2515" name="guardian shield" chance="728" />
+		<item id="5911" name="red piece of cloth" chance="673" />
+		<item id="2475" name="warrior helmet" chance="637" />
+		<item id="7401" name="minotaur trophy" chance="200" />
+		<item id="7413" name="titan axe" chance="200" />
+		<item id="2158" name="blue gem" chance="182" />
+	</loot>
+</monster>

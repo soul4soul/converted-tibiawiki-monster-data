@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -37,7 +37,7 @@
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="-10" />
+		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
@@ -57,20 +57,20 @@
 		<voice sentence="Muahahaha!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="100000" countmax="100" />
-		<item name="holy orchid" chance="100000" />
-		<item name="elvish talisman" chance="87671" />
-		<item name="elven astral observer" chance="83562" />
-		<item name="yellow gem" chance="41096" />
-		<item name="melon" chance="24658" />
-		<item name="blank rune" chance="23288" />
-		<item name="elven amulet" chance="16438" />
-		<item name="bread" chance="15068" />
-		<item name="great mana potion" chance="13699" />
-		<item name="life crystal" chance="12329" />
-		<item name="sling herb" chance="10959" />
-		<item name="cornucopia" chance="9589" />
-		<item name="green tunic" chance="5479" />
-		<item name="royal spear" chance="1370" countmax="2" />
+		<item id="2148" name="gold coin" chance="100000" countmax="100" />
+		<item id="5922" name="holy orchid" chance="100000" />
+		<item id="10552" name="elvish talisman" chance="87671" />
+		<item id="12421" name="elven astral observer" chance="83562" />
+		<item id="2154" name="yellow gem" chance="41096" />
+		<item id="2682" name="melon" chance="24658" />
+		<item id="2260" name="blank rune" chance="23288" />
+		<item id="2198" name="elven amulet" chance="16438" />
+		<item id="2689" name="bread" chance="15068" />
+		<item id="7590" name="great mana potion" chance="13699" />
+		<item id="2177" name="life crystal" chance="12329" />
+		<item id="2802" name="sling herb" chance="10959" />
+		<item id="3957" name="cornucopia" chance="9589" />
+		<item id="2652" name="green tunic" chance="5479" />
+		<item id="7378" name="royal spear" chance="1370" countmax="2" />
 	</loot>
 </monster>

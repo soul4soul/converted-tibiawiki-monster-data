@@ -71,12 +71,12 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = -1},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -1},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -90,14 +90,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "blood preservation", chance = 89312},
-	{id = "strong health potion", chance = 22401},
-	{id = "ring of healing", chance = 11859},
-	{id = "platinum coin", chance = 8931, maxCount = 5},
-	{id = "black pearl", chance = 1757},
-	{id = "vampire shield", chance = 586},
-	{id = "dreaded cleaver", chance = 293}
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 12405, chance = 89312},
+	{id = 7588, chance = 22401},
+	{id = 2214, chance = 11859},
+	{id = 2152, chance = 8931, maxCount = 5},
+	{id = 2144, chance = 1757},
+	{id = 2534, chance = 586},
+	{id = 7419, chance = 293}
 }
 
 mType:register(monster)

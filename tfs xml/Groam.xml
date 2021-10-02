@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -51,9 +51,9 @@
 		<voice sentence="Yjou, intrjuder!!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="83333" countmax="87" />
-		<item name="hunting spear" chance="27778" countmax="5" />
-		<item name="life ring" chance="22222" />
-		<item name="rusted armor" chance="11111" />
+		<item id="2148" name="gold coin" chance="83333" countmax="87" />
+		<item id="3965" name="hunting spear" chance="27778" countmax="5" />
+		<item id="2168" name="life ring" chance="22222" />
+		<item id="9809" name="rusted armor" chance="11111" />
 	</loot>
 </monster>

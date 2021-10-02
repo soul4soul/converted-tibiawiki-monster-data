@@ -66,7 +66,7 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
@@ -86,27 +86,27 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "crystal coin", chance = 100000, maxCount = 12},
-	{id = "demon horn", chance = 100000},
-	{id = "dreaded cleaver", chance = 100000},
-	{id = "gold token", chance = 100000, maxCount = 4},
-	{id = "platinum coin", chance = 100000, maxCount = 39},
-	{id = "small diamond", chance = 100000, maxCount = 12},
-	{id = "stone skin amulet", chance = 100000},
-	{id = "supreme health potion", chance = 100000, maxCount = 4},
-	{id = "wand of starstorm", chance = 100000},
-	{id = "berserk potion", chance = 50000},
-	{id = "bullseye potion", chance = 50000},
-	{id = "epaulette", chance = 50000},
-	{id = "frozen lightning", chance = 50000},
+	{id = 2160, chance = 100000, maxCount = 12},
+	{id = 5954, chance = 100000},
+	{id = 7419, chance = 100000},
+	{id = 25377, chance = 100000, maxCount = 4},
+	{id = 2152, chance = 100000, maxCount = 39},
+	{id = 2145, chance = 100000, maxCount = 12},
+	{id = 2197, chance = 100000},
+	{id = 26031, chance = 100000, maxCount = 4},
+	{id = 8920, chance = 100000},
+	{id = 7439, chance = 50000},
+	{id = 7443, chance = 50000},
+	{id = 31449, chance = 50000},
+	{id = 26175, chance = 50000},
 	{id = "giant shimmering pearl", chance = 50000},
-	{id = "green gem", chance = 50000},
-	{id = "knowledgeable book", chance = 50000},
-	{id = "lightning boots", chance = 50000},
-	{id = "ominous book", chance = 50000},
-	{id = "onyx chip", chance = 50000, maxCount = 12},
-	{id = "ultimate mana potion", chance = 50000, maxCount = 8},
-	{id = "ultimate spirit potion", chance = 50000, maxCount = 8}
+	{id = 2155, chance = 50000},
+	{id = 30590, chance = 50000},
+	{id = 7893, chance = 50000},
+	{id = 30589, chance = 50000},
+	{id = 24849, chance = 50000, maxCount = 12},
+	{id = 26029, chance = 50000, maxCount = 8},
+	{id = 26030, chance = 50000, maxCount = 8}
 }
 
 mType:register(monster)

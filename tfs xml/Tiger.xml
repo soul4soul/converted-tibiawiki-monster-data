@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -36,9 +36,9 @@
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-10" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="-10" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-40" />
@@ -49,7 +49,7 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item name="meat" chance="34353" />
-		<item name="striped fur" chance="10193" />
+		<item id="2666" name="meat" chance="34380" />
+		<item id="11210" name="striped fur" chance="10189" />
 	</loot>
 </monster>

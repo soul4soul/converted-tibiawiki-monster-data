@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Eternal Guardian" nameDescription="an eternal guardian" experience="1800" speed="204" manacost="0">
+	<health now="2500" max="2500" />
+	<look type="345" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
+	</attacks>
+	<defenses armor="62" defense="62" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Zzrrkrrch!" yell="false" />
+		<voice sentence="&lt;crackle&gt;" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="99953" countmax="100" />
+		<item id="2152" name="platinum coin" chance="99696" countmax="4" />
+		<item id="1294" name="small stone" chance="30284" countmax="10" />
+		<item id="10549" name="ancient stone" chance="20067" />
+		<item id="11325" name="spiked iron ball" chance="10013" />
+		<item id="11323" name="zaoan halberd" chance="2000" />
+		<item id="5880" name="iron ore" chance="1661" />
+		<item id="11227" name="shiny stone" chance="819" />
+		<item id="2528" name="tower shield" chance="795" />
+		<item id="11339" name="clay lump" chance="743" />
+		<item id="2427" name="guardian halberd" chance="567" />
+		<item id="11343" name="piece of marble rock" chance="485" />
+		<item id="13757" name="coal" chance="456" />
+		<item id="11307" name="zaoan sword" chance="99" />
+	</loot>
+</monster>

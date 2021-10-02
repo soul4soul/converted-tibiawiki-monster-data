@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Courage Leech" nameDescription="a courage leech" experience="18900" speed="452" manacost="0">
+	<health now="27000" max="27000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-700" />
+	</attacks>
+	<defenses armor="100" defense="100" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Hiss." yell="false" />
+		<voice sentence="Zap! Zap!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2160" name="crystal coin" chance="60830" />
+		<item id="8473" name="ultimate health potion" chance="11661" countmax="7" />
+		<item id="7895" name="lightning legs" chance="4775" />
+		<item id="7889" name="lightning pendant" chance="2699" />
+		<item id="7901" name="lightning headband" chance="2215" />
+		<item id="2179" name="gold ring" chance="1038" />
+		<item id="12613" name="twiceslicer" chance="830" />
+		<item id="7422" name="jade hammer" chance="796" />
+		<item id="7421" name="onyx flail" chance="727" />
+		<item id="7418" name="nightmare blade" chance="692" />
+		<item id="2197" name="stone skin amulet" chance="657" />
+		<item id="7382" name="demonrage sword" chance="554" />
+		<item id="2444" name="hammer of wrath" chance="519" />
+		<item id="7419" name="dreaded cleaver" chance="450" />
+		<item id="7412" name="butcher's axe" chance="242" />
+	</loot>
+</monster>

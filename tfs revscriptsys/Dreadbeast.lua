@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 30},
-	{type = COMBAT_ENERGYDAMAGE, percent = 15},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 55},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 75},
-	{type = COMBAT_ICEDAMAGE, percent = 40},
-	{type = COMBAT_HOLYDAMAGE , percent = -50},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,16 +88,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 12524, maxCount = 88},
-	{id = "bone", chance = 10057},
-	{id = "plate armor", chance = 3416},
-	{id = "skull", chance = 3036},
-	{id = "big bone", chance = 2087},
-	{id = "bone club", chance = 2087},
-	{id = "bone shield", chance = 1328},
-	{id = "green mushroom", chance = 1139},
-	{id = "hardened bone", chance = 759},
-	{id = "health potion", chance = 759}
+	{id = 2148, chance = 12524, maxCount = 88},
+	{id = 2230, chance = 10057},
+	{id = 2463, chance = 3416},
+	{id = 2229, chance = 3036},
+	{id = 2231, chance = 2087},
+	{id = 2449, chance = 2087},
+	{id = 2541, chance = 1328},
+	{id = 2796, chance = 1139},
+	{id = 5925, chance = 759},
+	{id = 7618, chance = 759}
 }
 
 mType:register(monster)

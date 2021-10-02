@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -31,14 +31,14 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="100" />
-		<element firePercent="-10" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="100" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-170" />
@@ -50,16 +50,16 @@
 		<voice sentence="Fcccccchhhhhh" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="100000" countmax="170" />
-		<item name="mutated rat tail" chance="100000" />
-		<item name="ring of healing" chance="100000" />
-		<item name="platinum coin" chance="94872" countmax="4" />
-		<item name="small ruby" chance="71795" countmax="3" />
-		<item name="knight armor" chance="52564" />
-		<item name="tower shield" chance="43590" />
-		<item name="halberd" chance="28205" />
-		<item name="epee" chance="25641" />
-		<item name="terra mantle" chance="10256" />
-		<item name="stone herb" chance="5128" />
+		<item id="2148" name="gold coin" chance="100000" countmax="170" />
+		<item id="10585" name="mutated rat tail" chance="100000" />
+		<item id="2214" name="ring of healing" chance="100000" />
+		<item id="2152" name="platinum coin" chance="94872" countmax="4" />
+		<item id="2147" name="small ruby" chance="71795" countmax="3" />
+		<item id="2476" name="knight armor" chance="52564" />
+		<item id="2528" name="tower shield" chance="43590" />
+		<item id="2381" name="halberd" chance="28205" />
+		<item id="2438" name="epee" chance="25641" />
+		<item id="7884" name="terra mantle" chance="10256" />
+		<item id="2799" name="stone herb" chance="5128" />
 	</loot>
 </monster>

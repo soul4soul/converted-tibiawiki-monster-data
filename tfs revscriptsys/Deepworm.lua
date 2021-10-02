@@ -67,8 +67,8 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = -20},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -87,22 +87,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "deepworm jaws", chance = 23629},
-	{id = "wood mushroom", chance = 22272},
-	{id = "meat", chance = 19446},
-	{id = "ham", chance = 19248},
-	{id = "green mushroom", chance = 18146},
-	{id = "dark mushroom", chance = 14613},
-	{id = "deepworm spike roots", chance = 13086},
-	{id = "deepworm spikes", chance = 10232},
-	{id = "life ring", chance = 8225},
-	{id = "green crystal shard", chance = 5822},
-	{id = "terra amulet", chance = 4748},
-	{id = "small enchanted amethyst", chance = 3363, maxCount = 2},
-	{id = "sacred tree amulet", chance = 2289},
-	{id = "suspicious device", chance = 1639},
-	{id = "springsprout rod", chance = 1187},
-	{id = "giant shimmering pearl (brown)", chance = 622}
+	{id = 30250, chance = 23657},
+	{id = 2791, chance = 22391},
+	{id = 2666, chance = 19494},
+	{id = 2671, chance = 19297},
+	{id = 2796, chance = 18115},
+	{id = 2792, chance = 14543},
+	{id = 30249, chance = 13080},
+	{id = 30248, chance = 10239},
+	{id = 2168, chance = 8270},
+	{id = 18415, chance = 5795},
+	{id = 7887, chance = 4810},
+	{id = 7762, chance = 3347, maxCount = 2},
+	{id = 10219, chance = 2278},
+	{id = 30309, chance = 1632},
+	{id = 8912, chance = 1181},
+	{id = 7633, chance = 619}
 }
 
 mType:register(monster)

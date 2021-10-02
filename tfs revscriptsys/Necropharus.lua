@@ -90,21 +90,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "book of necromantic rituals", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "necromantic robe", chance = 100000},
-	{id = "soul stone", chance = 100000},
-	{id = "clerical mace", chance = 55556},
-	{id = "skull staff", chance = 44444},
-	{id = "bone club", chance = 36111},
-	{id = "green mushroom", chance = 25000},
-	{id = "skull", chance = 13889},
-	{id = "mystic turban", chance = 11111},
-	{id = "moonlight rod", chance = 8333},
-	{id = "big bone", chance = 5556},
-	{id = "bone shield", chance = 5556},
-	{id = "boots of haste", chance = 2778},
-	{id = "strong mana potion", chance = 2778}
+	{id = 11237, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 12431, chance = 100000},
+	{id = 5809, chance = 100000},
+	{id = 2423, chance = 55556},
+	{id = 2436, chance = 44444},
+	{id = 2449, chance = 36111},
+	{id = 2796, chance = 25000},
+	{id = 2229, chance = 13889},
+	{id = 2663, chance = 11111},
+	{id = 2186, chance = 8333},
+	{id = 2231, chance = 5556},
+	{id = 2541, chance = 5556},
+	{id = 2195, chance = 2778},
+	{id = 7589, chance = 2778}
 }
 
 mType:register(monster)

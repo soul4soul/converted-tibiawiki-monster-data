@@ -70,13 +70,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -10},
-	{type = COMBAT_HOLYDAMAGE , percent = 10},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,18 +89,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 66314, maxCount = 25},
-	{id = "plate shield", chance = 20038},
-	{id = "mace", chance = 13069},
-	{id = "chain armor", chance = 10058},
-	{id = "brass helmet", chance = 7998},
-	{id = "sword", chance = 4961},
-	{id = "meat", chance = 4955},
-	{id = "axe", chance = 3977},
-	{id = "minotaur horn", chance = 2020, maxCount = 2},
-	{id = "minotaur leather", chance = 1008},
-	{id = "shovel", chance = 307},
-	{id = "bronze amulet", chance = 109}
+	{id = 2148, chance = 66300, maxCount = 25},
+	{id = 2510, chance = 20042},
+	{id = 2398, chance = 13068},
+	{id = 2464, chance = 10059},
+	{id = 2460, chance = 7989},
+	{id = 2376, chance = 4964},
+	{id = 2666, chance = 4960},
+	{id = 2386, chance = 3975},
+	{id = 12428, chance = 2025, maxCount = 2},
+	{id = 5878, chance = 1003},
+	{id = 2554, chance = 306},
+	{id = 2172, chance = 108}
 }
 
 mType:register(monster)

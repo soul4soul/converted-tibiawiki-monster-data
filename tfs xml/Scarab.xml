@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="5" />
-		<element energyPercent="10" />
-		<element earthPercent="100" />
-		<element firePercent="-18" />
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="20" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -49,12 +49,12 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item name="gold coin" chance="87316" countmax="52" />
-		<item name="meat" chance="39931" />
-		<item name="piece of scarab shell" chance="5033" />
-		<item name="scarab coin" chance="1111" />
-		<item name="small amethyst" chance="512" />
-		<item name="small emerald" chance="344" />
-		<item name="daramian mace" chance="304" />
+		<item id="2148" name="gold coin" chance="87315" countmax="52" />
+		<item id="2666" name="meat" chance="39943" />
+		<item id="10558" name="piece of scarab shell" chance="5035" />
+		<item id="2159" name="scarab coin" chance="1110" />
+		<item id="2150" name="small amethyst" chance="513" />
+		<item id="2149" name="small emerald" chance="345" />
+		<item id="2439" name="daramian mace" chance="304" />
 	</loot>
 </monster>

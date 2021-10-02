@@ -71,15 +71,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 25},
-	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 20},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -92,20 +92,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 82228, maxCount = 47},
-	{id = "meat", chance = 29031},
-	{id = "short sword", chance = 7958},
-	{id = "cyclops toe", chance = 5156},
-	{id = "plate shield", chance = 2613},
-	{id = "heavy old tome", chance = 2149},
-	{id = "battle shield", chance = 1478},
-	{id = "halberd", chance = 877},
-	{id = "old rag", chance = 378},
-	{id = "wolf tooth chain", chance = 309},
-	{id = "dark helmet", chance = 241},
-	{id = "cyclops trophy", chance = 120},
-	{id = "health potion", chance = 103},
-	{id = "club ring", chance = 52}
+	{id = 2148, chance = 82301, maxCount = 47},
+	{id = 2666, chance = 29028},
+	{id = 2406, chance = 7879},
+	{id = 10574, chance = 5151},
+	{id = 2510, chance = 2583},
+	{id = 26642, chance = 2086},
+	{id = 2513, chance = 1428},
+	{id = 2381, chance = 866},
+	{id = 27071, chance = 353},
+	{id = 2129, chance = 305},
+	{id = 2490, chance = 257},
+	{id = 7398, chance = 112},
+	{id = 7618, chance = 112},
+	{id = 2209, chance = 48}
 }
 
 mType:register(monster)

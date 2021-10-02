@@ -66,13 +66,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -88,17 +88,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "medusa shield", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 20},
-	{id = "strand of medusa hair", chance = 100000},
-	{id = "great mana potion", chance = 80000, maxCount = 2},
-	{id = "ultimate health potion", chance = 62857, maxCount = 2},
-	{id = "sacred tree amulet", chance = 54286},
-	{id = "small emerald", chance = 54286, maxCount = 4},
-	{id = "terra amulet", chance = 48571},
-	{id = "titan axe", chance = 42857},
-	{id = "terra mantle", chance = 34286},
-	{id = "terra legs", chance = 28571}
+	{id = 2536, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 20},
+	{id = 11226, chance = 100000},
+	{id = 7590, chance = 80000, maxCount = 2},
+	{id = 8473, chance = 62857, maxCount = 2},
+	{id = 10219, chance = 54286},
+	{id = 2149, chance = 54286, maxCount = 4},
+	{id = 7887, chance = 48571},
+	{id = 7413, chance = 42857},
+	{id = 7884, chance = 34286},
+	{id = 7885, chance = 28571}
 }
 
 mType:register(monster)

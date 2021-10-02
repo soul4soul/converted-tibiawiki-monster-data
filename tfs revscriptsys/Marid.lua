@@ -70,15 +70,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 60},
-	{type = COMBAT_EARTHDAMAGE, percent = 10},
-	{type = COMBAT_FIREDAMAGE, percent = 90},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -5},
-	{type = COMBAT_HOLYDAMAGE , percent = 20},
-	{type = COMBAT_DEATHDAMAGE , percent = -8}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,27 +93,27 @@ monster.defenses = {
 
 monster.maxSummons = 2
 monster.summons = {
-	{name = "blue djinn", chance = 15, interval = 2000, max = 1}
+	{name = "Blue Djinn", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 97102, maxCount = 130},
-	{id = "blueberry", chance = 25813, maxCount = 25},
-	{id = "royal spear", chance = 15588, maxCount = 3},
-	{id = "strong mana potion", chance = 9710},
-	{id = "jewelled belt", chance = 7746},
-	{id = "small sapphire", chance = 6433},
-	{id = "heavy machete", chance = 4930},
-	{id = "blue piece of cloth", chance = 3332},
-	{id = "seeds", chance = 2668},
-	{id = "blue tapestry", chance = 2573},
-	{id = "hailstorm rod", chance = 623},
-	{id = "noble turban", chance = 542},
-	{id = "wooden flute", chance = 379},
-	{id = "magma monocle", chance = 339},
-	{id = "mystic turban", chance = 230},
-	{id = "small oil lamp", chance = 217},
-	{id = "blue gem", chance = 122}
+	{id = 2148, chance = 97102, maxCount = 130},
+	{id = 2677, chance = 25813, maxCount = 25},
+	{id = 7378, chance = 15588, maxCount = 3},
+	{id = 7589, chance = 9710},
+	{id = 12426, chance = 7746},
+	{id = 2146, chance = 6433},
+	{id = 2442, chance = 4930},
+	{id = 5912, chance = 3332},
+	{id = 7732, chance = 2668},
+	{id = 1872, chance = 2573},
+	{id = 2183, chance = 623},
+	{id = 12442, chance = 542},
+	{id = 2070, chance = 379},
+	{id = 7900, chance = 339},
+	{id = 2663, chance = 230},
+	{id = 2063, chance = 217},
+	{id = 2158, chance = 122}
 }
 
 mType:register(monster)

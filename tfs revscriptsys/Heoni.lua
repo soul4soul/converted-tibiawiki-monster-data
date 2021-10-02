@@ -68,7 +68,7 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -89,7 +89,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "Strong Sinew", chance = 20000}
+	{id = 12504, chance = 20000}
 }
 
 mType:register(monster)

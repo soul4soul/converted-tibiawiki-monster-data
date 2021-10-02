@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -31,14 +31,14 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="100" />
-		<element firePercent="-10" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="100" />
+		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="-25" />
-		<element deathPercent="100" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
@@ -51,16 +51,16 @@
 		<voice sentence="Cccchhhhhhhhh!" yell="false" />
 	</voices>
 	<loot>
-		<item name="bone" chance="49664" />
-		<item name="gold coin" chance="29786" countmax="90" />
-		<item name="skull" chance="19947" />
-		<item name="bony tail" chance="9941" />
-		<item name="plate armor" chance="7963" />
-		<item name="bone club" chance="4962" />
-		<item name="bone shield" chance="2065" />
-		<item name="green mushroom" chance="1428" />
-		<item name="hardened bone" chance="1015" />
-		<item name="health potion" chance="513" />
-		<item name="bonebeast trophy" chance="100" />
+		<item id="2230" name="bone" chance="49663" />
+		<item id="2148" name="gold coin" chance="29786" countmax="90" />
+		<item id="2229" name="skull (item)" chance="19946" />
+		<item id="11194" name="bony tail" chance="9941" />
+		<item id="2463" name="plate armor" chance="7962" />
+		<item id="2449" name="bone club" chance="4961" />
+		<item id="2541" name="bone shield" chance="2064" />
+		<item id="2796" name="green mushroom" chance="1428" />
+		<item id="5925" name="hardened bone" chance="1014" />
+		<item id="7618" name="health potion" chance="513" />
+		<item id="11161" name="bonebeast trophy" chance="100" />
 	</loot>
 </monster>

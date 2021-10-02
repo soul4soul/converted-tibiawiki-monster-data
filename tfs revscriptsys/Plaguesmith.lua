@@ -70,15 +70,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 30},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,38 +88,38 @@ monster.attacks = {
 monster.defenses = {
 	defense = 30,
 	armor = 30,
-	{name ="speed", interval = 2000, chance = 15, speed = {min = 450, max = 450}, duration = 4000, effect = CONST_ME_MAGIC_RED},
+	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 200, maxDamage = 280}
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 96033, maxCount = 263},
-	{id = "dirty cape", chance = 49465},
-	{id = "mouldy cheese", chance = 40462},
-	{id = "morning star", chance = 23939},
-	{id = "piece of iron", chance = 17420},
-	{id = "steel shield", chance = 16695},
-	{id = "battle hammer", chance = 16385},
-	{id = "two handed sword", chance = 14695},
-	{id = "soul orb", chance = 10314},
-	{id = "great health potion", chance = 7899},
-	{id = "onyx arrow", chance = 7209, maxCount = 4},
-	{id = "demonic essence", chance = 6933},
-	{id = "platinum coin", chance = 6106, maxCount = 2},
-	{id = "knight legs", chance = 6037},
-	{id = "slightly rusted armor", chance = 5657},
-	{id = "axe ring", chance = 4070},
-	{id = "small amethyst", chance = 4070, maxCount = 3},
-	{id = "club ring", chance = 3518},
-	{id = "war hammer", chance = 1863},
-	{id = "steel boots", chance = 1518},
-	{id = "silver brooch", chance = 1069},
-	{id = "piece of hell steel", chance = 931},
-	{id = "piece of draconian steel", chance = 759},
-	{id = "hammer of wrath", chance = 724},
-	{id = "piece of royal steel", chance = 655},
-	{id = "emerald bangle", chance = 276},
-	{id = "war horn", chance = 69}
+	{id = 2148, chance = 96061, maxCount = 263},
+	{id = 2237, chance = 49091},
+	{id = 2235, chance = 40640},
+	{id = 2394, chance = 23973},
+	{id = 2225, chance = 17273},
+	{id = 2509, chance = 16633},
+	{id = 2417, chance = 16330},
+	{id = 2377, chance = 14680},
+	{id = 5944, chance = 10236},
+	{id = 7591, chance = 7980},
+	{id = 7365, chance = 7273, maxCount = 4},
+	{id = 6500, chance = 7003},
+	{id = 2152, chance = 6094, maxCount = 2},
+	{id = 2477, chance = 5993},
+	{id = 9810, chance = 5825},
+	{id = 2208, chance = 4074},
+	{id = 2150, chance = 3973, maxCount = 3},
+	{id = 2209, chance = 3569},
+	{id = 2391, chance = 1818},
+	{id = 2645, chance = 1515},
+	{id = 2134, chance = 1077},
+	{id = 5888, chance = 909},
+	{id = 2444, chance = 741},
+	{id = 5889, chance = 741},
+	{id = 5887, chance = 673},
+	{id = 2127, chance = 303},
+	{id = 2079, chance = 101}
 }
 
 mType:register(monster)

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Quara Constrictor" nameDescription="a quara constrictor" experience="250" speed="380" manacost="0">
+	<health now="450" max="450" />
+	<look type="46" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
+	</attacks>
+	<defenses armor="14" defense="14" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Boohaa!" yell="false" />
+		<voice sentence="Tssss!" yell="false" />
+		<voice sentence="Gluh! Gluh!" yell="false" />
+		<voice sentence="Gaaahhh!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="87592" countmax="100" />
+		<item id="12443" name="quara tentacle" chance="14614" />
+		<item id="2397" name="longsword" chance="6944" />
+		<item id="2670" name="shrimp" chance="5159" />
+		<item id="2465" name="brass armor" chance="4779" />
+		<item id="2150" name="small amethyst" chance="3034" />
+		<item id="5895" name="fish fin" chance="475" />
+	</loot>
+</monster>

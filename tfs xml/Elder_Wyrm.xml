@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Elder Wyrm" nameDescription="an elder wyrm" experience="2500" speed="280" manacost="0">
+	<health now="2700" max="2700" />
+	<look type="561" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
+	</attacks>
+	<defenses armor="48" defense="48">
+		<defense name="healing" interval="2000" chance="20" min="100" max="150" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="GRROARR" yell="false" />
+		<voice sentence="GRRR" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="180" />
+		<item id="2672" name="dragon ham" chance="34485" />
+		<item id="2152" name="platinum coin" chance="24578" countmax="3" />
+		<item id="7589" name="strong mana potion" chance="20693" />
+		<item id="7588" name="strong health potion" chance="19519" />
+		<item id="10582" name="wyrm scale" chance="16833" />
+		<item id="2455" name="crossbow" chance="8277" />
+		<item id="5944" name="soul orb" chance="4713" />
+		<item id="2145" name="small diamond" chance="4611" countmax="5" />
+		<item id="8921" name="wand of draconia" chance="1562" />
+		<item id="7889" name="lightning pendant" chance="861" />
+		<item id="2547" name="power bolt" chance="769" countmax="10" />
+		<item id="7895" name="lightning legs" chance="676" />
+		<item id="8920" name="wand of starstorm" chance="574" />
+		<item id="8855" name="composite hornbow" chance="228" />
+		<item id="7893" name="lightning boots" chance="203" />
+		<item id="7451" name="shadow sceptre" chance="186" />
+		<item id="7430" name="dragonbone staff" chance="177" />
+		<item id="7898" name="lightning robe" chance="160" />
+		<item id="10221" name="shockwave amulet" chance="101" />
+	</loot>
+</monster>

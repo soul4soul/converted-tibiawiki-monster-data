@@ -68,13 +68,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 75},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -8},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -3},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -90,11 +90,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99998, maxCount = 75},
-	{id = "swarmer antenna", chance = 15288},
-	{id = "compound eye", chance = 11955},
-	{id = "small emerald", chance = 977},
-	{id = "epee", chance = 432}
+	{id = 2148, chance = 99998, maxCount = 75},
+	{id = 15479, chance = 15290},
+	{id = 15486, chance = 11956},
+	{id = 2149, chance = 977},
+	{id = 2438, chance = 432}
 }
 
 mType:register(monster)

@@ -67,16 +67,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
-	{type = COMBAT_ENERGYDAMAGE, percent = -5},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 25},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -5},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 50}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,22 +90,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99796, maxCount = 227},
-	{id = "strong health potion", chance = 19921},
-	{id = "strong mana potion", chance = 19919},
-	{id = "brown mushroom", chance = 9945, maxCount = 3},
-	{id = "small diamond", chance = 4922, maxCount = 5},
-	{id = "might ring", chance = 4004},
-	{id = "talon", chance = 985},
-	{id = "lightning pendant", chance = 780},
-	{id = "shockwave amulet", chance = 573},
-	{id = "wand of cosmic energy", chance = 526},
-	{id = "epee", chance = 512},
-	{id = "mastermind potion", chance = 490},
-	{id = "lightning legs", chance = 489},
-	{id = "yielocks", chance = 295},
-	{id = "broken ring of ending", chance = 290},
-	{id = "yielowax", chance = 278}
+	{id = 2148, chance = 99796, maxCount = 227},
+	{id = 7588, chance = 19921},
+	{id = 7589, chance = 19919},
+	{id = 2789, chance = 9945, maxCount = 3},
+	{id = 2145, chance = 4922, maxCount = 5},
+	{id = 2164, chance = 4004},
+	{id = 2151, chance = 985},
+	{id = 7889, chance = 780},
+	{id = 10221, chance = 573},
+	{id = 2189, chance = 526},
+	{id = 2438, chance = 512},
+	{id = 7440, chance = 490},
+	{id = 7895, chance = 489},
+	{id = 13942, chance = 295},
+	{id = 13877, chance = 290},
+	{id = 13881, chance = 278}
 }
 
 mType:register(monster)

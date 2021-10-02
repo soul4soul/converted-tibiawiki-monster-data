@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Terror Bird" nameDescription="a terror bird" experience="150" speed="212" manacost="490">
+	<health now="300" max="300" />
+	<look type="218" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-90" />
+	</attacks>
+	<defenses armor="13" defense="13" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Carrah! Carrah!" yell="false" />
+		<voice sentence="Gruuuh Gruuuh." yell="false" />
+		<voice sentence="CRAAAHHH!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="82498" countmax="30" />
+		<item id="2666" name="meat" chance="48528" />
+		<item id="11190" name="terrorbird beak" chance="10254" />
+		<item id="3976" name="worm" chance="9556" />
+		<item id="12470" name="colourful feather" chance="3006" />
+		<item id="7618" name="health potion" chance="711" />
+		<item id="7732" name="seeds" chance="287" />
+		<item id="3970" name="feather headdress" chance="112" />
+	</loot>
+</monster>

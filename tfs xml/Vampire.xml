@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="25" />
+		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="100" />
-		<element firePercent="-10" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="100" />
+		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="-25" />
-		<element deathPercent="100" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
@@ -56,19 +56,19 @@
 		<voice sentence="I call you, my bats! Come!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="90060" countmax="60" />
-		<item name="vampire teeth" chance="7756" />
-		<item name="blood preservation" chance="5106" />
-		<item name="grave flower" chance="1930" />
-		<item name="black pearl" chance="1795" />
-		<item name="strong health potion" chance="1497" />
-		<item name="katana" chance="1450" />
-		<item name="skull" chance="1018" />
-		<item name="spike sword" chance="1006" />
-		<item name="ice rapier" chance="470" />
-		<item name="strange helmet" chance="404" />
-		<item name="bronze amulet" chance="235" />
-		<item name="emerald bangle" chance="207" />
-		<item name="vampire shield" chance="194" />
+		<item id="2148" name="gold coin" chance="90064" countmax="60" />
+		<item id="10602" name="vampire teeth" chance="7773" />
+		<item id="12405" name="blood preservation" chance="5089" />
+		<item id="2747" name="grave flower" chance="1926" />
+		<item id="2144" name="black pearl" chance="1792" />
+		<item id="7588" name="strong health potion" chance="1502" />
+		<item id="2412" name="katana" chance="1449" />
+		<item id="2229" name="skull (item)" chance="1013" />
+		<item id="2383" name="spike sword" chance="1004" />
+		<item id="2396" name="ice rapier" chance="471" />
+		<item id="2479" name="strange helmet" chance="402" />
+		<item id="2172" name="bronze amulet" chance="237" />
+		<item id="2127" name="emerald bangle" chance="206" />
+		<item id="2534" name="vampire shield" chance="193" />
 	</loot>
 </monster>

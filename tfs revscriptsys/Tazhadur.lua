@@ -66,13 +66,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = 80},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -10},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -88,22 +88,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "dragon blood", chance = 100000},
-	{id = "dragon tongue", chance = 100000},
-	{id = "green dragon scale", chance = 100000},
-	{id = "tooth of tazhadur", chance = 100000},
-	{id = "green dragon leather", chance = 98551},
-	{id = "gold coin", chance = 91304, maxCount = 99},
-	{id = "dragon ham", chance = 38647},
-	{id = "double axe", chance = 10145},
-	{id = "dragon necklace", chance = 9179},
-	{id = "dragon shield", chance = 4831},
-	{id = "dragon hammer", chance = 3865},
-	{id = "wand of inferno", chance = 2899},
-	{id = "dragon scale mail", chance = 2415},
-	{id = "strong health potion", chance = 1932},
-	{id = "dragonbone staff", chance = 483},
-	{id = "small diamond", chance = 483}
+	{id = 27593, chance = 100000},
+	{id = 27594, chance = 100000},
+	{id = 5920, chance = 100000},
+	{id = 27596, chance = 100000},
+	{id = 5877, chance = 98551},
+	{id = 2148, chance = 91304, maxCount = 99},
+	{id = 2672, chance = 38647},
+	{id = 2387, chance = 10145},
+	{id = 2201, chance = 9179},
+	{id = 2516, chance = 4831},
+	{id = 2434, chance = 3865},
+	{id = 2187, chance = 2899},
+	{id = 2492, chance = 2415},
+	{id = 7588, chance = 1932},
+	{id = 7430, chance = 483},
+	{id = 2145, chance = 483}
 }
 
 mType:register(monster)

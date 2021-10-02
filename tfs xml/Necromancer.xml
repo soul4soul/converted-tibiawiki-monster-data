@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="4" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="-5" />
-		<element energyPercent="20" />
-		<element earthPercent="100" />
-		<element firePercent="-5" />
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="100" />
-		<element icePercent="10" />
-		<element holyPercent="-5" />
-		<element deathPercent="50" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-80" />
@@ -51,17 +51,17 @@
 		<voice sentence="Your corpse will be mine." yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="30001" countmax="90" />
-		<item name="poison arrow" chance="14948" countmax="5" />
-		<item name="book of necromantic rituals" chance="10086" />
-		<item name="green mushroom" chance="1481" />
-		<item name="necromantic robe" chance="1034" />
-		<item name="mystic turban" chance="495" />
-		<item name="clerical mace" chance="375" />
-		<item name="strong mana potion" chance="341" />
-		<item name="boots of haste" chance="198" />
-		<item name="spellbook of warding" chance="106" />
-		<item name="skull staff" chance="104" />
-		<item name="noble axe" chance="8" />
+		<item id="2148" name="gold coin" chance="29996" countmax="90" />
+		<item id="2545" name="poison arrow" chance="14949" countmax="5" />
+		<item id="11237" name="book of necromantic rituals" chance="10087" />
+		<item id="2796" name="green mushroom" chance="1481" />
+		<item id="12431" name="necromantic robe" chance="1034" />
+		<item id="2663" name="mystic turban" chance="495" />
+		<item id="2423" name="clerical mace" chance="375" />
+		<item id="7589" name="strong mana potion" chance="343" />
+		<item id="2195" name="boots of haste" chance="198" />
+		<item id="8901" name="spellbook of warding" chance="106" />
+		<item id="2436" name="skull staff" chance="104" />
+		<item id="7456" name="noble axe" chance="8" />
 	</loot>
 </monster>

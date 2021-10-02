@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Deepling Guard" nameDescription="a deepling guard" experience="2100" speed="270" manacost="0">
+	<health now="1900" max="1900" />
+	<look type="442" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
+	</attacks>
+	<defenses armor="53" defense="53">
+		<defense name="healing" interval="2000" chance="20" min="100" max="200" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="QJELL NETA NA!!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="180" />
+		<item id="2152" name="platinum coin" chance="70125" countmax="2" />
+		<item id="7591" name="great health potion" chance="15078" countmax="3" />
+		<item id="7590" name="great mana potion" chance="15011" countmax="3" />
+		<item id="15424" name="deepling breaktime snack" chance="14987" />
+		<item id="15423" name="deepling guard belt buckle" chance="11960" />
+		<item id="13870" name="eye of a deepling" chance="9828" />
+		<item id="15455" name="deepling claw" chance="8934" />
+		<item id="2146" name="small sapphire" chance="2840" countmax="3" />
+		<item id="13838" name="heavy trident" chance="1495" />
+		<item id="15454" name="guardian axe" chance="881" />
+		<item id="15647" name="deepling squelcher" chance="715" />
+		<item id="15644" name="ornate crossbow" chance="408" />
+		<item id="15645" name="deepling backpack" chance="312" />
+		<item id="15545" name="foxtail" chance="17" />
+	</loot>
+</monster>

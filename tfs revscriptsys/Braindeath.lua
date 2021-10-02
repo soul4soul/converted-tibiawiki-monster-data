@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 1225
 monster.maxHealth = 1225
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 218
 monster.summonCost = 0
@@ -69,16 +69,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 15},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -15},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
-	{type = COMBAT_HOLYDAMAGE , percent = -20},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,18 +93,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99442, maxCount = 90},
-	{id = "bone sword", chance = 15027},
-	{id = "sniper arrow", chance = 9581, maxCount = 4},
-	{id = "steel shield", chance = 5944},
-	{id = "piece of dead brain", chance = 5038},
-	{id = "bonelord eye", chance = 2974},
-	{id = "clerical mace", chance = 1956},
-	{id = "haunted blade", chance = 1446},
-	{id = "spellbook", chance = 948},
-	{id = "spiked squelcher", chance = 183},
-	{id = "bonelord helmet", chance = 99},
-	{id = "bonelord shield", chance = 96}
+	{id = 2148, chance = 99442, maxCount = 90},
+	{id = 2450, chance = 15026},
+	{id = 7364, chance = 9581, maxCount = 4},
+	{id = 2509, chance = 5944},
+	{id = 10580, chance = 5038},
+	{id = 5898, chance = 2973},
+	{id = 2423, chance = 1956},
+	{id = 7407, chance = 1446},
+	{id = 2175, chance = 948},
+	{id = 7452, chance = 183},
+	{id = 3972, chance = 99},
+	{id = 2518, chance = 96}
 }
 
 mType:register(monster)

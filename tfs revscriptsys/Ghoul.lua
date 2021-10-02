@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 100
 monster.maxHealth = 100
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 144
 monster.summonCost = 450
@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 30},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
-	{type = COMBAT_HOLYDAMAGE , percent = -25},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,18 +88,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 69853, maxCount = 30},
-	{id = "rotten piece of cloth", chance = 14666},
-	{id = "worm", chance = 9687, maxCount = 2},
-	{id = "torch", chance = 5261},
-	{id = "ghoul snack", chance = 5113},
-	{id = "heavy old tome", chance = 2101},
-	{id = "pile of grave earth", chance = 1021},
-	{id = "brown piece of cloth", chance = 1002},
-	{id = "viking helmet", chance = 1002},
-	{id = "scale armor", chance = 970},
-	{id = "skull", chance = 302},
-	{id = "life ring", chance = 180}
+	{id = 2148, chance = 69944, maxCount = 30},
+	{id = 11208, chance = 14678},
+	{id = 3976, chance = 9751, maxCount = 2},
+	{id = "torch", chance = 5259},
+	{id = 12423, chance = 5050},
+	{id = 26642, chance = 2056},
+	{id = 12440, chance = 1019},
+	{id = 2473, chance = 1006},
+	{id = 5913, chance = 994},
+	{id = 2483, chance = 976},
+	{id = 2229, chance = 295},
+	{id = 2168, chance = 178}
 }
 
 mType:register(monster)

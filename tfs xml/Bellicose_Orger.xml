@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Bellicose Orger" nameDescription="a bellicose orger" experience="500" speed="252" manacost="0">
+	<health now="700" max="700" />
+	<look type="1255" head="79" body="6" legs="94" feet="2" addons="2" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="35" defense="35" />
+	<loot>
+		<item id="2152" name="platinum coin" chance="50199" />
+		<item id="2461" name="leather helmet" chance="13942" />
+		<item id="2649" name="leather legs" chance="11379" />
+		<item id="2167" name="energy ring" chance="4201" />
+		<item id="2489" name="dark armor" chance="3275" />
+		<item id="2654" name="cape" chance="1253" />
+		<item id="7454" name="glorious axe" chance="1239" />
+		<item id="2521" name="dark shield" chance="1182" />
+		<item id="23540" name="metal spats" chance="1054" />
+		<item id="2378" name="battle axe" chance="498" />
+		<item id="34759" name="decorative blue sheet" chance="28" />
+		<item id="34761" name="decorative green sheet" chance="14" />
+	</loot>
+</monster>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Lizard Legionnaire" nameDescription="a lizard legionnaire" experience="1100" speed="266" manacost="0">
+	<health now="1400" max="1400" />
+	<look type="338" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-180" />
+	</attacks>
+	<defenses armor="30" defense="30" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Tssss!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="94063" countmax="165" />
+		<item id="11335" name="broken halberd" chance="14929" />
+		<item id="7588" name="strong health potion" chance="3900" />
+		<item id="11245" name="bunch of ripe rice" chance="1935" />
+		<item id="11334" name="legionnaire flags" chance="1925" />
+		<item id="5881" name="lizard scale" chance="975" />
+		<item id="5876" name="lizard leather" chance="968" />
+		<item id="2145" name="small diamond" chance="968" countmax="2" />
+		<item id="11323" name="zaoan halberd" chance="954" />
+		<item id="11305" name="drakinata" chance="723" />
+		<item id="11206" name="red lantern" chance="508" />
+		<item id="11303" name="zaoan shoes" chance="436" />
+		<item id="11301" name="zaoan armor" chance="67" />
+		<item id="11336" name="lizard trophy" chance="14" />
+	</loot>
+</monster>

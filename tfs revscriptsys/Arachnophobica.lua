@@ -67,15 +67,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 50},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -40},
-	{type = COMBAT_DEATHDAMAGE , percent = 50}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,35 +88,35 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 82137, maxCount = 13},
-	{id = "great spirit potion", chance = 30675, maxCount = 3},
-	{id = "spider fangs", chance = 9869},
-	{id = "essence of a bad dream", chance = 7073},
-	{id = "silver amulet", chance = 6694},
-	{id = "sword ring", chance = 4939},
-	{id = "wand of cosmic energy", chance = 4578},
-	{id = "mind stone", chance = 4405},
-	{id = "energy ring", chance = 3932},
-	{id = "elven amulet", chance = 2934, maxCount = 2},
-	{id = "life ring", chance = 2857},
-	{id = "underworld rod", chance = 2805},
-	{id = "axe ring", chance = 2719},
-	{id = "power ring", chance = 2452},
-	{id = "death ring", chance = 2065},
-	{id = "magma amulet", chance = 2048},
-	{id = "orb", chance = 1876},
-	{id = "sacred tree amulet", chance = 1643},
-	{id = "platinum amulet", chance = 1635},
-	{id = "collar of red plasma", chance = 1506},
-	{id = "ring of blue plasma", chance = 1428},
-	{id = "spider silk", chance = 1273},
-	{id = "ring of healing", chance = 955},
-	{id = "garlic necklace", chance = 938},
-	{id = "necklace of the deep", chance = 912},
-	{id = "stone skin amulet", chance = 895},
-	{id = "strange symbol", chance = 706},
-	{id = "strange talisman", chance = 490},
-	{id = "collar of green plasma", chance = 439}
+	{id = 2152, chance = 82168, maxCount = 13},
+	{id = 8472, chance = 30631, maxCount = 3},
+	{id = 8859, chance = 9942},
+	{id = 11223, chance = 7051},
+	{id = 2170, chance = 6761},
+	{id = 2207, chance = 4992},
+	{id = 2189, chance = 4618},
+	{id = 2178, chance = 4427},
+	{id = 2167, chance = 3995},
+	{id = 2198, chance = 2940, maxCount = 2},
+	{id = 8910, chance = 2832},
+	{id = 2168, chance = 2824},
+	{id = 2208, chance = 2749},
+	{id = 2166, chance = 2450},
+	{id = 6300, chance = 2085},
+	{id = 7890, chance = 2018},
+	{id = 2176, chance = 1860},
+	{id = 2171, chance = 1645},
+	{id = 10219, chance = 1645},
+	{id = 26200, chance = 1462},
+	{id = "ring of blue plasma", chance = 1395},
+	{id = 5879, chance = 1271},
+	{id = 2199, chance = 997},
+	{id = 2214, chance = 939},
+	{id = 15403, chance = 914},
+	{id = 2197, chance = 880},
+	{id = 2174, chance = 714},
+	{id = 2161, chance = 490},
+	{id = 26199, chance = 424}
 }
 
 mType:register(monster)

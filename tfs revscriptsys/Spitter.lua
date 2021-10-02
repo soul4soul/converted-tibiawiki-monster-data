@@ -67,15 +67,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -11},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -5},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 15}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,22 +89,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 190},
-	{id = "platinum coin", chance = 75131},
-	{id = "spitter nose", chance = 18201},
-	{id = "compound eye", chance = 15099},
-	{id = "small amethyst", chance = 8178, maxCount = 2},
-	{id = "great mana potion", chance = 8026},
-	{id = "brown mushroom", chance = 7407, maxCount = 3},
-	{id = "great health potion", chance = 4948},
-	{id = "time ring", chance = 2307},
-	{id = "crystal sword", chance = 2015},
-	{id = "mastermind potion", chance = 318},
-	{id = "calopteryx cape", chance = 241},
-	{id = "platinum amulet", chance = 231},
-	{id = "green gem", chance = 210},
-	{id = "crusader helmet", chance = 208},
-	{id = "grasshopper legs", chance = 112}
+	{id = 2148, chance = 100000, maxCount = 190},
+	{id = 2152, chance = 75127},
+	{id = 15481, chance = 18191},
+	{id = 15486, chance = 15097},
+	{id = 2150, chance = 8177, maxCount = 2},
+	{id = 7590, chance = 8020},
+	{id = 2789, chance = 7411, maxCount = 3},
+	{id = 7591, chance = 4948},
+	{id = 2169, chance = 2305},
+	{id = 7449, chance = 2013},
+	{id = 7440, chance = 318},
+	{id = 15489, chance = 240},
+	{id = 2171, chance = 233},
+	{id = 2155, chance = 210},
+	{id = 2497, chance = 208},
+	{id = 15490, chance = 112}
 }
 
 mType:register(monster)

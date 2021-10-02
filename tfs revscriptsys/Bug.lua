@@ -68,7 +68,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -87,8 +87,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 49929, maxCount = 6},
-	{id = "cherry", chance = 3058, maxCount = 3}
+	{id = 2148, chance = 49937, maxCount = 6},
+	{id = 2679, chance = 3059, maxCount = 3}
 }
 
 mType:register(monster)

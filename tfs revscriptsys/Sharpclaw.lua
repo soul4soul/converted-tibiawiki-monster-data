@@ -67,15 +67,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 50},
-	{type = COMBAT_FIREDAMAGE, percent = -5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 20}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,27 +88,27 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 100000, maxCount = 7},
-	{id = "werebadger claws", chance = 100000},
-	{id = "werebadger skull", chance = 100000},
-	{id = "gold coin", chance = 79956, maxCount = 75},
-	{id = "onyx chip", chance = 72985, maxCount = 3},
-	{id = "great mana potion", chance = 37691},
-	{id = "small enchanted amethyst", chance = 27015, maxCount = 3},
-	{id = "beetroot", chance = 23747},
-	{id = "badger boots", chance = 20915},
-	{id = "ultimate mana potion", chance = 16340},
-	{id = "ring of healing", chance = 9804},
-	{id = "underworld rod", chance = 6972},
-	{id = "wand of voodoo", chance = 4793},
-	{id = "werebadger trophy", chance = 4575},
-	{id = "brown mushroom", chance = 4357},
-	{id = "troll green", chance = 3704},
-	{id = "werewolf amulet", chance = 3704},
-	{id = "moonlight crystals", chance = 2832},
-	{id = "silver token", chance = 2397},
-	{id = "platinum amulet", chance = 871},
-	{id = "wolf backpack", chance = 218}
+	{id = 2152, chance = 100000, maxCount = 7},
+	{id = 24707, chance = 100000},
+	{id = 24711, chance = 100000},
+	{id = 2148, chance = 79956, maxCount = 75},
+	{id = 24849, chance = 72985, maxCount = 3},
+	{id = 7590, chance = 37691},
+	{id = 7762, chance = 27015, maxCount = 3},
+	{id = 8845, chance = 23747},
+	{id = 24742, chance = 20915},
+	{id = 26029, chance = 16340},
+	{id = 2214, chance = 9804},
+	{id = 8910, chance = 6972},
+	{id = 8922, chance = 4793},
+	{id = 24757, chance = 4575},
+	{id = 2789, chance = 4357},
+	{id = 2805, chance = 3704},
+	{id = 24716, chance = 3704},
+	{id = 24739, chance = 2832},
+	{id = 25172, chance = 2397},
+	{id = 2171, chance = 871},
+	{id = 24740, chance = 218}
 }
 
 mType:register(monster)

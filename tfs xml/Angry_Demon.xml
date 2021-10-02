@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Angry Demon" nameDescription="an angry demon" experience="6000" speed="256" manacost="0">
+	<health now="8200" max="8200" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
+		<attack name="fire" interval="2000" chance="15" min="-150" max="-250" radius="7" target="1" />
+		<attack name="physical" interval="2000" chance="15" min="-300" max="-480" length="8" spread="0" />
+	</attacks>
+	<defenses armor="40" defense="40">
+		<defense name="healing" interval="2000" chance="20" min="80" max="250" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Your soul will be mine!" yell="false" />
+		<voice sentence="CHAMEK ATH UTHUL ARAK!" yell="false" />
+		<voice sentence="I SMELL FEEEEAAAAAR!" yell="false" />
+		<voice sentence="Your resistance is futile!" yell="false" />
+		<voice sentence="MUHAHAHA" yell="false" />
+	</voices>
+	<summons maxSummons="1">
+		<voice name="fire elemental" interval="2000" chance="15" max="1" />
+	</summons>
+	<loot>
+		<item id="2148" name="Gold Coin" chance="35000" countmax="100" />
+		<item id="2152" name="Platinum Coin" chance="35000" countmax="6" />
+		<item id="7590" name="Great Mana Potion" chance="35000" countmax="3" />
+		<item id="8472" name="Great Spirit Potion" chance="35000" countmax="3" />
+		<item id="6500" name="Demonic Essence" chance="15000" />
+		<item id="8473" name="Ultimate Health Potion" chance="15000" countmax="3" />
+		<item id="5954" name="Demon Horn" chance="15000" />
+		<item id="2795" name="Fire Mushroom" chance="15000" countmax="6" />
+		<item id="7368" name="Assassin Star" chance="15000" countmax="10" />
+		<item id="9970" name="Small Topaz" chance="15000" countmax="5" />
+		<item id="2147" name="Small Ruby" chance="15000" countmax="5" />
+		<item id="2150" name="Small Amethyst" chance="15000" countmax="5" />
+		<item id="2149" name="Small Emerald" chance="15000" countmax="5" />
+		<item id="2151" name="Talon" chance="2500" />
+		<item id="2176" name="Orb" chance="2500" />
+		<item id="2432" name="Fire Axe" chance="2500" />
+		<item id="2165" name="Stealth Ring" chance="2500" />
+		<item id="2156" name="Red Gem" chance="2500" />
+		<item id="2214" name="Ring of Healing" chance="2500" />
+		<item id="2164" name="Might Ring" chance="2500" />
+		<item id="2393" name="Giant Sword" chance="2500" />
+		<item id="2396" name="Ice Rapier" chance="2500" />
+		<item id="2418" name="Golden Sickle" chance="2500" />
+		<item id="1982" name="Purple Tome" chance="2500" />
+		<item id="2462" name="Devil Helmet" chance="2500" />
+		<item id="2179" name="Gold Ring" chance="2500" />
+		<item id="2520" name="Demon Shield" chance="7500" />
+		<item id="2171" name="Platinum Amulet" chance="7500" />
+		<item id="2514" name="Mastermind Shield" chance="7500" />
+		<item id="2470" name="Golden Legs" chance="4000" />
+		<item id="2472" name="Magic Plate Armor" chance="4000" />
+		<item id="7393" name="Demon Trophy" chance="4000" />
+		<item id="7382" name="Demonrage Sword" chance="4000" />
+	</loot>
+</monster>

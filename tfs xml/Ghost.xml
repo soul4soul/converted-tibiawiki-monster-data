@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="100" />
+		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="100" />
+		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="100" />
+		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="100" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-80" />
@@ -50,14 +50,14 @@
 		<voice sentence="Buuuuuh" yell="false" />
 	</voices>
 	<loot>
-		<item name="shadow herb" chance="14630" />
-		<item name="morning star" chance="10701" />
-		<item name="cape" chance="9003" />
-		<item name="combat knife" chance="7045" />
-		<item name="white piece of cloth" chance="1941" />
-		<item name="ghostly tissue" chance="1852" />
-		<item name="book (orange)" chance="1406" />
-		<item name="ancient shield" chance="802" />
-		<item name="stealth ring" chance="180" />
+		<item id="2804" name="shadow herb" chance="14620" />
+		<item id="2394" name="morning star" chance="10722" />
+		<item id="2654" name="cape" chance="8994" />
+		<item id="2404" name="combat knife" chance="7038" />
+		<item id="5909" name="white piece of cloth" chance="1942" />
+		<item id="10607" name="ghostly tissue" chance="1851" />
+		<item name="book (orange)" chance="1410" />
+		<item id="2532" name="ancient shield" chance="802" />
+		<item id="2165" name="stealth ring" chance="180" />
 	</loot>
 </monster>

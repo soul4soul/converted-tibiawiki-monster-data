@@ -68,7 +68,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -76,8 +76,8 @@ monster.elements = {
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 50},
-	{type = COMBAT_DEATHDAMAGE , percent = 50}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,19 +91,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "bread", chance = 19981},
-	{id = "gold coin", chance = 15258, maxCount = 18},
-	{id = "book of prayers", chance = 4874},
-	{id = "rope belt", chance = 3101},
-	{id = "ankh", chance = 2340},
-	{id = "scroll", chance = 1843},
-	{id = "safety pin", chance = 1050},
-	{id = "life crystal", chance = 1038},
-	{id = "brown flask", chance = 830},
-	{id = "lamp", chance = 792},
-	{id = "sandals", chance = 648},
-	{id = "staff", chance = 472},
-	{id = "power ring", chance = 82}
+	{id = 2689, chance = 19961},
+	{id = 2148, chance = 15274, maxCount = 18},
+	{id = 10563, chance = 4868},
+	{id = 12448, chance = 3094},
+	{id = 2193, chance = 2350},
+	{id = 1949, chance = 1850},
+	{id = 12449, chance = 1044},
+	{id = 2177, chance = 1031},
+	{id = 2015, chance = 825},
+	{id = "lamp", chance = 787},
+	{id = 2642, chance = 650},
+	{id = 2401, chance = 475},
+	{id = 2166, chance = 81}
 }
 
 mType:register(monster)

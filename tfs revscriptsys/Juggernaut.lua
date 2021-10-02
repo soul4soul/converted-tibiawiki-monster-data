@@ -68,15 +68,15 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 30},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = 30},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
-	{type = COMBAT_HOLYDAMAGE , percent = -5},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -88,39 +88,39 @@ monster.defenses = {
 	defense = 70,
 	armor = 70,
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 400, maxDamage = 700},
-	{name ="speed", interval = 2000, chance = 15, speed = {min = 450, max = 450}, duration = 4000, effect = CONST_ME_MAGIC_RED}
+	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87785, maxCount = 198},
-	{id = "platinum coin", chance = 84758, maxCount = 15},
-	{id = "ham", chance = 47265},
-	{id = "demonic essence", chance = 29527},
-	{id = "soul orb", chance = 24057},
-	{id = "great mana potion", chance = 20871, maxCount = 3},
-	{id = "great health potion", chance = 20499, maxCount = 3},
-	{id = "flask of demonic blood", chance = 19118},
-	{id = "assassin star", chance = 15932, maxCount = 10},
-	{id = "small emerald", chance = 13489, maxCount = 5},
-	{id = "small ruby", chance = 13011, maxCount = 5},
-	{id = "small topaz", chance = 12852, maxCount = 5},
-	{id = "small amethyst", chance = 12746, maxCount = 5},
-	{id = "small diamond", chance = 12161, maxCount = 5},
-	{id = "onyx arrow", chance = 10568, maxCount = 15},
-	{id = "red gem", chance = 8975},
-	{id = "giant shimmering pearl (green)", chance = 6798},
-	{id = "titan axe", chance = 4567},
-	{id = "gold ingot", chance = 4355, maxCount = 2},
-	{id = "knight armor", chance = 4195},
-	{id = "spiked squelcher", chance = 3877},
-	{id = "green gem", chance = 2496},
-	{id = "war axe", chance = 1593},
-	{id = "violet gem", chance = 1221},
-	{id = "demonbone amulet", chance = 372},
-	{id = "heavy mace", chance = 372},
-	{id = "mastermind shield", chance = 372},
-	{id = "golden armor", chance = 266},
-	{id = "closed trap", chance = 159}
+	{id = 2148, chance = 87610, maxCount = 198},
+	{id = 2152, chance = 84863, maxCount = 15},
+	{id = 2671, chance = 47538},
+	{id = 6500, chance = 29445},
+	{id = 5944, chance = 23847},
+	{id = 7590, chance = 20943, maxCount = 3},
+	{id = 7591, chance = 20529, maxCount = 3},
+	{id = 6558, chance = 19181},
+	{id = 7368, chance = 15915, maxCount = 10},
+	{id = 2149, chance = 13478, maxCount = 5},
+	{id = 2147, chance = 13219, maxCount = 5},
+	{id = 9970, chance = 12805, maxCount = 5},
+	{id = 2150, chance = 12597, maxCount = 5},
+	{id = 2145, chance = 12234, maxCount = 5},
+	{id = 7365, chance = 10679, maxCount = 15},
+	{id = 2156, chance = 9176},
+	{id = 7632, chance = 6687},
+	{id = 7413, chance = 4717},
+	{id = 9971, chance = 4355, maxCount = 2},
+	{id = 2476, chance = 4147},
+	{id = 7452, chance = 3784},
+	{id = 2155, chance = 2488},
+	{id = 2454, chance = 1607},
+	{id = 2153, chance = 1192},
+	{id = 2514, chance = 415},
+	{id = 2136, chance = 363},
+	{id = 2452, chance = 363},
+	{id = 2466, chance = 259},
+	{id = 2578, chance = 156}
 }
 
 mType:register(monster)

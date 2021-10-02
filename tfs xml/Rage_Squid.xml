@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Rage Squid" nameDescription="a rage squid" experience="14820" speed="430" manacost="0">
+	<health now="17000" max="17000" />
+	<look type="1059" head="94" body="78" legs="79" feet="57" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="fire" interval="2000" chance="15" min="-700" max="-100" radius="2" target="0" />
+		<attack name="fire" interval="2000" chance="15" min="-500" max="-700" radius="3" target="1" />
+		<attack name="fire" interval="2000" chance="15" min="-500" max="-700" radius="3" target="0" />
+	</attacks>
+	<defenses armor="78" defense="78" />
+	<loot>
+		<item id="2152" name="platinum coin" chance="74581" countmax="29" />
+		<item id="8473" name="ultimate health potion" chance="29749" countmax="5" />
+		<item id="7590" name="great mana potion" chance="19508" countmax="3" />
+		<item id="8472" name="great spirit potion" chance="19103" countmax="3" />
+		<item id="31226" name="glowing rune" chance="18378" countmax="3" />
+		<item id="2795" name="fire mushroom" chance="14928" countmax="6" />
+		<item id="31224" name="inkwell (black)" chance="11360" />
+		<item id="9970" name="small topaz" chance="7779" countmax="5" />
+		<item id="2149" name="small emerald" chance="7613" countmax="5" />
+		<item id="2147" name="small ruby" chance="7351" countmax="5" />
+		<item id="6500" name="demonic essence" chance="7244" />
+		<item id="2150" name="small amethyst" chance="7077" countmax="5" />
+		<item id="2432" name="fire axe" chance="5769" />
+		<item id="23565" name="slime heart" chance="2641" />
+		<item id="2151" name="talon" chance="2629" />
+		<item id="2393" name="giant sword" chance="2391" />
+		<item id="2156" name="red gem" chance="2224" />
+		<item id="2176" name="orb" chance="2212" />
+		<item id="2171" name="platinum amulet" chance="2141" />
+		<item id="2520" name="demon shield" chance="1915" />
+		<item id="2164" name="might ring" chance="1630" />
+		<item id="7382" name="demonrage sword" chance="1523" />
+		<item id="10580" name="piece of dead brain" chance="987" />
+		<item id="1982" name="purple tome" chance="916" />
+		<item id="2462" name="devil helmet" chance="797" />
+		<item id="2472" name="magic plate armor" chance="357" />
+		<item id="18409" name="wand of everblazing" chance="238" />
+		<item id="7393" name="demon trophy" chance="59" />
+	</loot>
+</monster>

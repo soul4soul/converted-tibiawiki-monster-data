@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -31,14 +31,14 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="100" />
-		<element firePercent="100" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-5" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="5" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-230" />
@@ -50,21 +50,21 @@
 		<voice sentence="Yag! Yag! Yag!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="100000" countmax="107" />
-		<item name="platinum coin" chance="14406" />
-		<item name="magma clump" chance="12249" />
-		<item name="banana" chance="9581" countmax="10" />
-		<item name="fiery heart" chance="9000" />
-		<item name="blazing bone" chance="7950" />
-		<item name="strong mana potion" chance="7397" />
-		<item name="strong health potion" chance="7314" />
-		<item name="brown crystal splinter" chance="4963" />
-		<item name="sword ring" chance="3069" />
-		<item name="red crystal fragment" chance="2461" />
-		<item name="wand of inferno" chance="982" />
-		<item name="magma amulet" chance="899" />
-		<item name="coal" chance="885" />
-		<item name="fire sword" chance="304" />
-		<item name="magma coat" chance="166" />
+		<item id="2148" name="gold coin" chance="100000" countmax="107" />
+		<item id="2152" name="platinum coin" chance="14406" />
+		<item id="18424" name="magma clump" chance="12249" />
+		<item id="2676" name="banana" chance="9581" countmax="10" />
+		<item id="10553" name="fiery heart" chance="9000" />
+		<item id="18425" name="blazing bone" chance="7950" />
+		<item id="7589" name="strong mana potion" chance="7397" />
+		<item id="7588" name="strong health potion" chance="7314" />
+		<item id="18417" name="brown crystal splinter" chance="4963" />
+		<item id="2207" name="sword ring" chance="3069" />
+		<item id="18420" name="red crystal fragment" chance="2461" />
+		<item id="2187" name="wand of inferno" chance="982" />
+		<item id="7890" name="magma amulet" chance="899" />
+		<item id="13757" name="coal" chance="885" />
+		<item id="2392" name="fire sword" chance="304" />
+		<item id="7899" name="magma coat" chance="166" />
 	</loot>
 </monster>

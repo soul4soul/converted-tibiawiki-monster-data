@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 90},
-	{type = COMBAT_ENERGYDAMAGE, percent = 90},
-	{type = COMBAT_EARTHDAMAGE, percent = 90},
-	{type = COMBAT_FIREDAMAGE, percent = 90},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 90},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 90},
-	{type = COMBAT_HOLYDAMAGE , percent = 90},
-	{type = COMBAT_DEATHDAMAGE , percent = 85}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,13 +87,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "green gem", chance = 91304},
-	{id = "yellow gem", chance = 65217},
-	{id = "eye of the chasm", chance = 56522},
-	{id = "amber (item)", chance = 13043},
-	{id = "blue gem", chance = 8696},
-	{id = "death toll", chance = 8696, maxCount = 2},
-	{id = "pair of old bracers", chance = 4348}
+	{id = 2155, chance = 91304},
+	{id = 2154, chance = 65217},
+	{id = 35289, chance = 56522},
+	{id = 35282, chance = 13043},
+	{id = 2158, chance = 8696},
+	{id = 35359, chance = 8696, maxCount = 2},
+	{id = 35361, chance = 4348}
 }
 
 mType:register(monster)

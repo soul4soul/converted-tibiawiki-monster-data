@@ -88,12 +88,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 84945, maxCount = 12},
-	{id = "swampling moss", chance = 19933},
-	{id = "piece of swampling wood", chance = 14906},
-	{id = "white mushroom", chance = 10233},
-	{id = "swampling club", chance = 7424},
-	{id = "rope", chance = 5085}
+	{id = 2148, chance = 84945, maxCount = 12},
+	{id = 20102, chance = 19933},
+	{id = 20103, chance = 14906},
+	{id = 2787, chance = 10233},
+	{id = 20104, chance = 7424},
+	{id = 2120, chance = 5085}
 }
 
 mType:register(monster)

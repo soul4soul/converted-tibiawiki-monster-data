@@ -69,16 +69,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 60},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -5},
-	{type = COMBAT_HOLYDAMAGE , percent = 60},
-	{type = COMBAT_DEATHDAMAGE , percent = 30}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,23 +93,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 60471, maxCount = 166},
-	{id = "wild flowers", chance = 17650},
-	{id = "dandelion seeds", chance = 14699},
-	{id = "fresh fruit", chance = 10017},
-	{id = "colourful snail shell", chance = 9691},
-	{id = "leaf star", chance = 9237, maxCount = 5},
-	{id = "star herb", chance = 5236},
-	{id = "magic light wand", chance = 4725},
-	{id = "great mana potion", chance = 3575},
-	{id = "red rose", chance = 3178},
-	{id = "rainbow quartz", chance = 2880, maxCount = 3},
-	{id = "small enchanted amethyst", chance = 2440, maxCount = 2},
-	{id = "green mushroom", chance = 1774},
-	{id = "strong mana potion", chance = 951},
-	{id = "dream blossom staff", chance = 539},
-	{id = "butterfly ring", chance = 525},
-	{id = "wooden spellbook", chance = 284}
+	{id = 2148, chance = 60471, maxCount = 166},
+	{id = 28347, chance = 17650},
+	{id = 28351, chance = 14699},
+	{id = 28348, chance = 10017},
+	{id = 28352, chance = 9691},
+	{id = 28391, chance = 9237, maxCount = 5},
+	{id = 2800, chance = 5236},
+	{id = 2162, chance = 4725},
+	{id = 7590, chance = 3575},
+	{id = 2744, chance = 3178},
+	{id = 28393, chance = 2880, maxCount = 3},
+	{id = 7762, chance = 2440, maxCount = 2},
+	{id = 2796, chance = 1774},
+	{id = 7589, chance = 951},
+	{id = 28356, chance = 539},
+	{id = 28354, chance = 525},
+	{id = 28355, chance = 284}
 }
 
 mType:register(monster)

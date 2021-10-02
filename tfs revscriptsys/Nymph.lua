@@ -69,16 +69,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 60},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 40},
-	{type = COMBAT_DEATHDAMAGE , percent = 40}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,23 +91,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 64926, maxCount = 110},
-	{id = "wild flowers", chance = 21767},
-	{id = "fresh fruit", chance = 15042},
-	{id = "colourful snail shell", chance = 12062},
-	{id = "dandelion seeds", chance = 11903},
-	{id = "great mana potion", chance = 3240},
-	{id = "small topaz", chance = 2401, maxCount = 2},
-	{id = "small enchanted amethyst", chance = 1895, maxCount = 2},
-	{id = "emerald bangle", chance = 1851},
-	{id = "sacred tree amulet", chance = 1143},
-	{id = "butterfly ring", chance = 969},
-	{id = "strong mana potion", chance = 897},
-	{id = "dream blossom staff", chance = 694},
-	{id = "blue rose", chance = 593},
-	{id = "flower wreath", chance = 593},
-	{id = "hibiscus dress", chance = 550},
-	{id = "boots of haste", chance = 304}
+	{id = 2148, chance = 64926, maxCount = 110},
+	{id = 28347, chance = 21767},
+	{id = 28348, chance = 15042},
+	{id = 28352, chance = 12062},
+	{id = 28351, chance = 11903},
+	{id = 7590, chance = 3240},
+	{id = 9970, chance = 2401, maxCount = 2},
+	{id = 7762, chance = 1895, maxCount = 2},
+	{id = 2127, chance = 1851},
+	{id = 10219, chance = 1143},
+	{id = 28354, chance = 969},
+	{id = 7589, chance = 897},
+	{id = 28356, chance = 694},
+	{id = 2745, chance = 593},
+	{id = 9927, chance = 593},
+	{id = 8873, chance = 550},
+	{id = 2195, chance = 304}
 }
 
 mType:register(monster)

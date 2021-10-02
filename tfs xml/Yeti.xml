@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -30,9 +30,9 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="-8" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="-10" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -50,11 +50,11 @@
 		<voice sentence="Yooodelaaaheehee" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="79310" countmax="27" />
-		<item name="meat" chance="71264" />
-		<item name="snowball" chance="52874" countmax="22" />
-		<item name="ham" chance="39080" />
-		<item name="bunnyslippers" chance="1149" />
-		<item name="wolf tooth chain" chance="1149" />
+		<item id="2148" name="gold coin" chance="79310" countmax="27" />
+		<item id="2666" name="meat" chance="71264" />
+		<item id="2111" name="snowball" chance="52874" countmax="22" />
+		<item id="2671" name="ham" chance="39080" />
+		<item id="2644" name="bunnyslippers" chance="1149" />
+		<item id="2129" name="wolf tooth chain" chance="1149" />
 	</loot>
 </monster>

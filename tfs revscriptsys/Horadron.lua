@@ -68,15 +68,15 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
-	{type = COMBAT_ENERGYDAMAGE, percent = 30},
-	{type = COMBAT_EARTHDAMAGE, percent = 30},
-	{type = COMBAT_FIREDAMAGE, percent = 30},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 30},
-	{type = COMBAT_HOLYDAMAGE , percent = -40},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -92,43 +92,43 @@ monster.defenses = {
 
 monster.maxSummons = 2
 monster.summons = {
-	{name = "defiler", chance = 15, interval = 2000, max = 1}
+	{name = "Defiler", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "cluster of solace", chance = 100000},
-	{id = "demon horn", chance = 100000},
-	{id = "demonic essence", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 197},
-	{id = "platinum coin", chance = 100000, maxCount = 50},
-	{id = "unrealized dream", chance = 100000},
-	{id = "dream matter", chance = 49338},
-	{id = "beastslayer axe", chance = 35596},
-	{id = "spellbook of warding", chance = 29801},
-	{id = "small sapphire", chance = 18377, maxCount = 25},
-	{id = "blue robe", chance = 17881},
-	{id = "small topaz", chance = 17219, maxCount = 25},
-	{id = "crown armor", chance = 16391},
-	{id = "small amethyst", chance = 15894, maxCount = 25},
-	{id = "small ruby", chance = 15728, maxCount = 25},
-	{id = "knight legs", chance = 15563},
-	{id = "small emerald", chance = 14901, maxCount = 25},
-	{id = "small diamond", chance = 14238, maxCount = 25},
-	{id = "lightning legs", chance = 13742},
-	{id = "steel boots", chance = 12914},
-	{id = "noble axe", chance = 12417},
-	{id = "crown legs", chance = 11424},
-	{id = "dream warden mask", chance = 11424},
-	{id = "spellbook of mind control", chance = 9603},
-	{id = "spellbook of lost souls", chance = 9437},
-	{id = "golden armor", chance = 8940},
-	{id = "butcher's axe", chance = 2152},
-	{id = "vile axe", chance = 1821},
-	{id = "golden legs", chance = 1490},
-	{id = "spellscroll of prophecies", chance = 1325},
-	{id = "executioner", chance = 662},
-	{id = "great axe", chance = 166},
-	{id = "spellbook of dark mysteries", chance = 166}
+	{id = 22396, chance = 100000},
+	{id = 5954, chance = 100000},
+	{id = 6500, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 197},
+	{id = 2152, chance = 100000, maxCount = 50},
+	{id = 22598, chance = 100000},
+	{id = 22397, chance = 49338},
+	{id = 3962, chance = 35596},
+	{id = 8901, chance = 29801},
+	{id = 2146, chance = 18377, maxCount = 25},
+	{id = 2656, chance = 17881},
+	{id = 9970, chance = 17219, maxCount = 25},
+	{id = 2487, chance = 16391},
+	{id = 2150, chance = 15894, maxCount = 25},
+	{id = 2147, chance = 15728, maxCount = 25},
+	{id = 2477, chance = 15563},
+	{id = 2149, chance = 14901, maxCount = 25},
+	{id = 2145, chance = 14238, maxCount = 25},
+	{id = 7895, chance = 13742},
+	{id = 2645, chance = 12914},
+	{id = 7456, chance = 12417},
+	{id = 2488, chance = 11424},
+	{id = 22610, chance = 11424},
+	{id = 8902, chance = 9603},
+	{id = 8903, chance = 9437},
+	{id = 2466, chance = 8940},
+	{id = 7412, chance = 2152},
+	{id = 7388, chance = 1821},
+	{id = 2470, chance = 1490},
+	{id = 8904, chance = 1325},
+	{id = 7453, chance = 662},
+	{id = 2415, chance = 166},
+	{id = 8918, chance = 166}
 }
 
 mType:register(monster)

@@ -65,14 +65,14 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -18},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -88,13 +88,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87316, maxCount = 52},
-	{id = "meat", chance = 39931},
-	{id = "piece of scarab shell", chance = 5033},
-	{id = "scarab coin", chance = 1111},
-	{id = "small amethyst", chance = 512},
-	{id = "small emerald", chance = 344},
-	{id = "daramian mace", chance = 304}
+	{id = 2148, chance = 87315, maxCount = 52},
+	{id = 2666, chance = 39943},
+	{id = 10558, chance = 5035},
+	{id = 2159, chance = 1110},
+	{id = 2150, chance = 513},
+	{id = 2149, chance = 345},
+	{id = 2439, chance = 304}
 }
 
 mType:register(monster)

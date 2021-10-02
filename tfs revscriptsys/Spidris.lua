@@ -68,15 +68,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -5},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 15},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -3},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,20 +91,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "platinum coin", chance = 45132, maxCount = 4},
-	{id = "spidris mandible", chance = 14833},
-	{id = "compound eye", chance = 12311},
-	{id = "small ruby", chance = 12153, maxCount = 5},
-	{id = "great mana potion", chance = 11569, maxCount = 2},
-	{id = "ultimate health potion", chance = 6226, maxCount = 2},
-	{id = "death ring", chance = 2566},
-	{id = "giant shimmering pearl (green)", chance = 1665},
-	{id = "titan axe", chance = 892},
-	{id = "hive scythe", chance = 743},
-	{id = "violet gem", chance = 743},
-	{id = "carapace shield", chance = 628},
-	{id = "calopteryx cape", chance = 343}
+	{id = 2148, chance = 100000, maxCount = 200},
+	{id = 2152, chance = 45132, maxCount = 4},
+	{id = 15485, chance = 14835},
+	{id = 15486, chance = 12327},
+	{id = 2147, chance = 12165, maxCount = 5},
+	{id = 7590, chance = 11559, maxCount = 2},
+	{id = 8473, chance = 6227, maxCount = 2},
+	{id = 6300, chance = 2565},
+	{id = 7632, chance = 1662},
+	{id = 7413, chance = 895},
+	{id = 2153, chance = 745},
+	{id = 15492, chance = 741},
+	{id = 15491, chance = 627},
+	{id = 15489, chance = 342}
 }
 
 mType:register(monster)

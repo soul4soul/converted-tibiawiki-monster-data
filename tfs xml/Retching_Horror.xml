@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Retching Horror" nameDescription="a retching horror" experience="4100" speed="360" manacost="0">
+	<health now="5300" max="5300" />
+	<look type="588" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="74" defense="74">
+		<defense name="healing" interval="2000" chance="20" min="530" max="1325" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Wait for us, little maggot..." yell="false" />
+		<voice sentence="We will devour you..." yell="false" />
+		<voice sentence="My little beetles, go forth, eat, feast!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="84270" countmax="99" />
+		<item id="2152" name="platinum coin" chance="79775" countmax="9" />
+		<item id="7590" name="great mana potion" chance="19101" />
+		<item id="22539" name="goosebump leather" chance="16854" />
+		<item id="2789" name="brown mushroom" chance="11236" countmax="2" />
+		<item id="7591" name="great health potion" chance="10112" />
+		<item id="22541" name="pool of chitinous glue" chance="7865" />
+		<item id="3962" name="beastslayer axe" chance="5618" />
+		<item id="7452" name="spiked squelcher" chance="4494" />
+		<item id="7386" name="mercenary sword" chance="2247" />
+		<item id="22363" name="broken dream" chance="1124" />
+		<item id="7412" name="butcher's axe" chance="1124" />
+		<item id="2392" name="fire sword" chance="1124" />
+	</loot>
+</monster>

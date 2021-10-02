@@ -86,24 +86,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "fairy wings", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 365},
-	{id = "platinum coin", chance = 100000, maxCount = 7},
-	{id = "strong health potion", chance = 91192, maxCount = 2},
-	{id = "great health potion", chance = 76511, maxCount = 3},
-	{id = "small enchanted amethyst", chance = 52850, maxCount = 5},
-	{id = "ancient coin", chance = 47496, maxCount = 3},
-	{id = "gemmed figurine", chance = 31779},
-	{id = "small enchanted emerald", chance = 26425, maxCount = 5},
-	{id = "small enchanted ruby", chance = 11917, maxCount = 5},
-	{id = "silver token", chance = 10017},
-	{id = "cluster of solace", chance = 9845},
-	{id = "red crystal fragment", chance = 9672, maxCount = 3},
-	{id = "small enchanted sapphire", chance = 8808, maxCount = 5},
-	{id = "assassin star", chance = 8636, maxCount = 8},
-	{id = "gold token", chance = 6563},
-	{id = "gold ingot", chance = 6218},
-	{id = "nightmare blade", chance = 2936}
+	{id = 28350, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 365},
+	{id = 2152, chance = 100000, maxCount = 7},
+	{id = 7588, chance = 91207, maxCount = 2},
+	{id = 7591, chance = 76552, maxCount = 3},
+	{id = 7762, chance = 52931, maxCount = 5},
+	{id = 27046, chance = 47414, maxCount = 3},
+	{id = 27048, chance = 31724},
+	{id = 7761, chance = 26379, maxCount = 5},
+	{id = 7760, chance = 11897, maxCount = 5},
+	{id = 25172, chance = 10000},
+	{id = 22396, chance = 9828},
+	{id = 18420, chance = 9655, maxCount = 3},
+	{id = 7759, chance = 8793, maxCount = 5},
+	{id = 7368, chance = 8621, maxCount = 8},
+	{id = 25377, chance = 6552},
+	{id = 9971, chance = 6207},
+	{id = 7418, chance = 2931}
 }
 
 mType:register(monster)

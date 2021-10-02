@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ink Blob" nameDescription="an ink blob" experience="14450" speed="380" manacost="0">
+	<health now="9500" max="9500" />
+	<look type="1064" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-550" />
+	</attacks>
+	<defenses armor="70" defense="70" />
+	<loot>
+		<item id="2152" name="platinum coin" chance="74465" countmax="25" />
+		<item id="18437" name="envenomed arrow" chance="69707" countmax="50" />
+		<item id="2145" name="small diamond" chance="68834" countmax="7" />
+		<item id="9970" name="small topaz" chance="49643" countmax="3" />
+		<item id="31224" name="inkwell (black)" chance="44489" countmax="4" />
+		<item id="10557" name="poisonous slime" chance="34655" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="14909" />
+		<item id="7886" name="terra boots" chance="6106" />
+		<item id="7903" name="terra hood" chance="5868" />
+		<item id="2158" name="blue gem" chance="5393" />
+		<item id="7885" name="terra legs" chance="2538" />
+		<item id="10219" name="sacred tree amulet" chance="1824" />
+		<item id="2197" name="stone skin amulet" chance="1824" />
+		<item id="2200" name="protection amulet" chance="1190" />
+		<item id="7884" name="terra mantle" chance="1190" />
+		<item id="8912" name="springsprout rod" chance="714" />
+		<item id="11339" name="clay lump" chance="555" />
+		<item id="7887" name="terra amulet" chance="555" />
+		<item id="8880" name="swamplair armor" chance="79" />
+	</loot>
+</monster>

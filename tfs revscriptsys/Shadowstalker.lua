@@ -88,17 +88,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "crawler head plating", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 204},
-	{id = "platinum coin", chance = 90244, maxCount = 5},
-	{id = "compound eye", chance = 68293},
-	{id = "great health potion", chance = 53659, maxCount = 2},
-	{id = "great mana potion", chance = 46341, maxCount = 2},
-	{id = "small topaz", chance = 46341, maxCount = 2},
-	{id = "dung ball (quest)", chance = 39024, maxCount = 2},
-	{id = "small emerald", chance = 36585, maxCount = 2},
-	{id = "yellow gem", chance = 17073},
-	{id = "war hammer", chance = 2439}
+	{id = 15482, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 204},
+	{id = 2152, chance = 90244, maxCount = 5},
+	{id = 15486, chance = 68293},
+	{id = 7591, chance = 53659, maxCount = 2},
+	{id = 7590, chance = 46341, maxCount = 2},
+	{id = 9970, chance = 46341, maxCount = 2},
+	{id = 16096, chance = 39024, maxCount = 2},
+	{id = 2149, chance = 36585, maxCount = 2},
+	{id = 2154, chance = 17073},
+	{id = 2391, chance = 2439}
 }
 
 mType:register(monster)

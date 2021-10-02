@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="-40" />
-		<element energyPercent="95" />
-		<element earthPercent="100" />
-		<element firePercent="95" />
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="100" />
-		<element holyPercent="-1" />
-		<element deathPercent="100" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-800" />
@@ -55,16 +55,16 @@
 		<voice sentence="Nothing hidden in my wrappings." yell="false" />
 	</voices>
 	<loot>
-		<item name="ancient rune" chance="100000" />
-		<item name="gold coin" chance="89798" countmax="242" />
-		<item name="great mana potion" chance="9081" />
-		<item name="small amethyst" chance="8072" countmax="3" />
-		<item name="ring of healing" chance="4036" />
-		<item name="magician hat" chance="1682" />
-		<item name="violet gem" chance="1177" />
-		<item name="orb" chance="280" />
-		<item name="twin axe" chance="168" />
-		<item name="crystal wand" chance="112" />
-		<item name="mini mummy" chance="112" />
+		<item id="2348" name="ancient rune" chance="100000" />
+		<item id="2148" name="gold coin" chance="89810" countmax="242" />
+		<item id="7590" name="great mana potion" chance="9071" />
+		<item id="2150" name="small amethyst" chance="8063" countmax="3" />
+		<item id="2214" name="ring of healing" chance="4031" />
+		<item id="3573" name="magician hat" chance="1680" />
+		<item id="2153" name="violet gem" chance="1176" />
+		<item id="2176" name="orb" chance="280" />
+		<item id="2447" name="twin axe" chance="168" />
+		<item id="2184" name="crystal wand" chance="112" />
+		<item id="11207" name="mini mummy" chance="112" />
 	</loot>
 </monster>

@@ -73,15 +73,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 15},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 15},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 15},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 15}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -97,14 +97,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "abyssador's lash", chance = 100000},
-	{id = "crystal crossbow", chance = 11458},
-	{id = "crystalline axe", chance = 10417},
-	{id = "crystalline sword", chance = 10417},
-	{id = "shiny blade", chance = 10417},
-	{id = "mycological bow", chance = 5208},
-	{id = "mycological mace", chance = 2083},
-	{id = "decorative ribbon", chance = 1042}
+	{id = 18496, chance = 100000},
+	{id = 18453, chance = 11458},
+	{id = 18451, chance = 10417},
+	{id = 18450, chance = 10417},
+	{id = 18465, chance = 10417},
+	{id = 18454, chance = 5208},
+	{id = 18452, chance = 2083},
+	{id = 18449, chance = 1042}
 }
 
 mType:register(monster)

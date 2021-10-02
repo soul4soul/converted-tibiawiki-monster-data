@@ -67,16 +67,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -15},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 30},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,16 +89,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "leviathan's amulet", chance = 100000},
-	{id = "sea serpent trophy", chance = 100000},
-	{id = "rusted armor", chance = 84211},
-	{id = "platinum coin", chance = 83459, maxCount = 7},
-	{id = "rusted legs", chance = 82707},
-	{id = "bonebreaker", chance = 53383},
-	{id = "strong mana potion", chance = 50376},
-	{id = "small sapphire", chance = 49624, maxCount = 5},
-	{id = "moon backpack", chance = 15789},
-	{id = "frozen plate", chance = 752}
+	{id = 10220, chance = 100000},
+	{id = 10529, chance = 100000},
+	{id = 9809, chance = 84211},
+	{id = 2152, chance = 83459, maxCount = 7},
+	{id = 9812, chance = 82707},
+	{id = 7428, chance = 53383},
+	{id = 7589, chance = 50376},
+	{id = 2146, chance = 49624, maxCount = 5},
+	{id = 10521, chance = 15789},
+	{id = 8887, chance = 752}
 }
 
 mType:register(monster)

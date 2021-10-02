@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="20" />
-		<element earthPercent="-10" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="20" />
-		<element deathPercent="-10" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-10" />
@@ -52,17 +52,17 @@
 		<voice sentence="Me have him!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="50231" countmax="9" />
-		<item name="small stone" chance="15279" />
-		<item name="fish" chance="12992" />
-		<item name="small axe" chance="9861" />
-		<item name="short sword" chance="8857" />
-		<item name="bone club" chance="4921" />
-		<item name="leather armor" chance="2501" />
-		<item name="leather helmet" chance="1944" />
-		<item name="dagger" chance="1796" />
-		<item name="bone" chance="1070" />
-		<item name="mouldy cheese" chance="1002" />
-		<item name="goblin ear" chance="944" />
+		<item id="2148" name="gold coin" chance="50264" countmax="9" />
+		<item id="1294" name="small stone" chance="15286" />
+		<item id="2667" name="fish" chance="12992" />
+		<item id="2559" name="small axe" chance="9868" />
+		<item id="2406" name="short sword" chance="8843" />
+		<item id="2449" name="bone club" chance="4926" />
+		<item id="2467" name="leather armor" chance="2500" />
+		<item id="2461" name="leather helmet" chance="1943" />
+		<item id="2379" name="dagger" chance="1799" />
+		<item id="2230" name="bone" chance="1066" />
+		<item id="2235" name="mouldy cheese" chance="999" />
+		<item id="12495" name="goblin ear" chance="946" />
 	</loot>
 </monster>

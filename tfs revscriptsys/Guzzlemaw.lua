@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
-	{type = COMBAT_ENERGYDAMAGE, percent = 15},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = 10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 5},
-	{type = COMBAT_HOLYDAMAGE , percent = -5},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,35 +87,35 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 88889, maxCount = 7},
-	{id = "gold coin", chance = 73856, maxCount = 100},
-	{id = "great mana potion", chance = 14379, maxCount = 3},
-	{id = "great health potion", chance = 11765, maxCount = 2},
-	{id = "fishbone", chance = 10784},
-	{id = "frazzle skin", chance = 10784},
-	{id = "bone", chance = 9477},
-	{id = "skull", chance = 9150},
-	{id = "brown crystal splinter", chance = 8824, maxCount = 2},
-	{id = "fish tail", chance = 8824},
-	{id = "piece of iron", chance = 8824},
-	{id = "ham", chance = 8170},
-	{id = "banana skin", chance = 7516},
-	{id = "frazzle tongue", chance = 7516},
-	{id = "remains of a fish", chance = 6863},
-	{id = "crystal rubbish", chance = 6209},
-	{id = "red crystal fragment", chance = 4902},
-	{id = "fish", chance = 3922, maxCount = 3},
-	{id = "two handed sword", chance = 3595},
-	{id = "hardened bone", chance = 3268},
-	{id = "big bone", chance = 2941},
-	{id = "fish fin", chance = 2941},
-	{id = "violet crystal shard", chance = 2941},
-	{id = "iron ore", chance = 2288},
-	{id = "haunted blade", chance = 1961},
-	{id = "sai", chance = 1961},
-	{id = "cluster of solace", chance = 1634},
-	{id = "nightmare blade", chance = 654},
-	{id = "assassin dagger", chance = 327}
+	{id = 2152, chance = 88889, maxCount = 7},
+	{id = 2148, chance = 73856, maxCount = 100},
+	{id = 7590, chance = 14379, maxCount = 3},
+	{id = 7591, chance = 11765, maxCount = 2},
+	{id = 2226, chance = 10784},
+	{id = 22533, chance = 10784},
+	{id = 2230, chance = 9477},
+	{id = 2229, chance = 9150},
+	{id = 18417, chance = 8824, maxCount = 2},
+	{id = 5951, chance = 8824},
+	{id = 2225, chance = 8824},
+	{id = 2671, chance = 8170},
+	{id = 2219, chance = 7516},
+	{id = 22532, chance = 7516},
+	{id = 2240, chance = 6863},
+	{id = 18554, chance = 6209},
+	{id = 18420, chance = 4902},
+	{id = 2667, chance = 3922, maxCount = 3},
+	{id = 2377, chance = 3595},
+	{id = 5925, chance = 3268},
+	{id = 2231, chance = 2941},
+	{id = 5895, chance = 2941},
+	{id = 18414, chance = 2941},
+	{id = 5880, chance = 2288},
+	{id = 7407, chance = 1961},
+	{id = 11306, chance = 1961},
+	{id = 22396, chance = 1634},
+	{id = 7418, chance = 654},
+	{id = 7404, chance = 327}
 }
 
 mType:register(monster)

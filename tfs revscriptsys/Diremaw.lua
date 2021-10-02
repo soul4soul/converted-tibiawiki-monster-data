@@ -67,12 +67,12 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -87,21 +87,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "ham", chance = 40592},
-	{id = "diremaw brainpan", chance = 24421},
-	{id = "poisonous slime", chance = 11650},
-	{id = "diremaw legs", chance = 9721},
-	{id = "blue crystal shard", chance = 9647},
-	{id = "onyx chip", chance = 8453, maxCount = 3},
-	{id = "violet crystal shard", chance = 8306},
-	{id = "green crystal shard", chance = 8177},
-	{id = "small emerald", chance = 4833, maxCount = 2},
-	{id = "giant shimmering pearl (green)", chance = 3455},
-	{id = "small enchanted emerald", chance = 2958, maxCount = 2},
-	{id = "gold ingot", chance = 2885},
-	{id = "suspicious device", chance = 1525},
-	{id = "mycological bow", chance = 74},
-	{id = "mushroom backpack", chance = 55}
+	{id = 2671, chance = 40537},
+	{id = 30253, chance = 24439},
+	{id = 10557, chance = 11608},
+	{id = 30254, chance = 9673},
+	{id = 18413, chance = 9619},
+	{id = 24849, chance = 8450, maxCount = 3},
+	{id = 18414, chance = 8304},
+	{id = 18415, chance = 8213},
+	{id = 2149, chance = 4800, maxCount = 2},
+	{id = 7632, chance = 3468},
+	{id = 7761, chance = 2975, maxCount = 2},
+	{id = 9971, chance = 2884},
+	{id = 30309, chance = 1533},
+	{id = 18454, chance = 73},
+	{id = 18393, chance = 55}
 }
 
 mType:register(monster)

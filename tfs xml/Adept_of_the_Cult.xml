@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Adept Of The Cult" nameDescription="an adept of the cult" experience="400" speed="190" manacost="0">
+	<health now="430" max="430" />
+	<look type="194" head="95" body="94" legs="94" feet="19" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-90" />
+	</attacks>
+	<defenses armor="33" defense="33">
+		<defense name="healing" interval="2000" chance="20" min="43" max="107" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Feel the power of the cult!" yell="false" />
+		<voice sentence="Praise the voodoo!" yell="false" />
+		<voice sentence="Power to the cult!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="65615" countmax="60" />
+		<item id="10556" name="cultish robe" chance="10378" />
+		<item id="12448" name="rope belt" chance="9854" />
+		<item id="5810" name="pirate voodoo doll" chance="1500" />
+		<item id="2170" name="silver amulet" chance="1017" />
+		<item id="2423" name="clerical mace" chance="1003" />
+		<item name="book (orange)" chance="907" />
+		<item id="6089" name="music sheet (third verse)" chance="629" />
+		<item id="7426" name="amber staff" chance="579" />
+		<item id="2169" name="time ring" chance="483" />
+		<item id="2147" name="small ruby" chance="287" />
+		<item id="2183" name="hailstorm rod" chance="192" />
+		<item id="12411" name="cultish symbol" chance="100" />
+		<item id="7424" name="lunar staff" chance="91" />
+		<item id="2655" name="red robe" chance="87" />
+		<item id="12608" name="broken key ring" chance="68" />
+	</loot>
+</monster>

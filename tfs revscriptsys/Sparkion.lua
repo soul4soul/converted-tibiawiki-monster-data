@@ -67,16 +67,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
-	{type = COMBAT_ENERGYDAMAGE, percent = 90},
-	{type = COMBAT_EARTHDAMAGE, percent = -15},
-	{type = COMBAT_FIREDAMAGE, percent = 15},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 70},
-	{type = COMBAT_HOLYDAMAGE , percent = 5},
-	{type = COMBAT_DEATHDAMAGE , percent = 5}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,29 +89,29 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "platinum coin", chance = 90213, maxCount = 3},
-	{id = "sparkion claw", chance = 15073},
-	{id = "energy bar", chance = 15005},
-	{id = "energy drink", chance = 14641},
-	{id = "sparkion stings", chance = 13982},
-	{id = "sparkion legs", chance = 11606},
-	{id = "sparkion tail", chance = 10038},
-	{id = "great mana potion", chance = 9810, maxCount = 2},
-	{id = "great spirit potion", chance = 9776, maxCount = 2},
-	{id = "great health potion", chance = 9549, maxCount = 2},
-	{id = "blue crystal splinter", chance = 8344},
-	{id = "cyan crystal fragment", chance = 5081},
-	{id = "small sapphire", chance = 4627, maxCount = 2},
-	{id = "blue crystal shard", chance = 4547},
-	{id = "blue gem", chance = 944},
-	{id = "wand of cosmic energy", chance = 773},
-	{id = "ring of blue plasma", chance = 352},
-	{id = "ring of green plasma", chance = 341},
-	{id = "ring of red plasma", chance = 284},
-	{id = "collar of green plasma", chance = 273},
-	{id = "collar of blue plasma", chance = 182},
-	{id = "collar of red plasma", chance = 136}
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 2152, chance = 90170, maxCount = 3},
+	{id = 26191, chance = 15018},
+	{id = 26158, chance = 14944},
+	{id = 26201, chance = 14555},
+	{id = 26161, chance = 14008},
+	{id = 26160, chance = 11334},
+	{id = 26159, chance = 9903},
+	{id = 8472, chance = 9861, maxCount = 2},
+	{id = 7590, chance = 9735, maxCount = 2},
+	{id = 7591, chance = 9724, maxCount = 2},
+	{id = 18418, chance = 8367},
+	{id = 18419, chance = 5115},
+	{id = 2146, chance = 4631, maxCount = 2},
+	{id = 18413, chance = 4504},
+	{id = 2158, chance = 937},
+	{id = 2189, chance = 737},
+	{id = "ring of green plasma", chance = 347},
+	{id = "ring of blue plasma", chance = 337},
+	{id = 26199, chance = 263},
+	{id = "ring of red plasma", chance = 263},
+	{id = "collar of blue plasma", chance = 179},
+	{id = 26200, chance = 158}
 }
 
 mType:register(monster)

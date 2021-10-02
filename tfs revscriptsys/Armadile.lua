@@ -66,16 +66,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
-	{type = COMBAT_ENERGYDAMAGE, percent = 15},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 15},
-	{type = COMBAT_HOLYDAMAGE , percent = 15},
-	{type = COMBAT_DEATHDAMAGE , percent = 45}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,26 +88,26 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 198},
-	{id = "platinum coin", chance = 95183, maxCount = 7},
-	{id = "great health potion", chance = 15477, maxCount = 2},
-	{id = "great mana potion", chance = 15388, maxCount = 2},
-	{id = "strong health potion", chance = 15031, maxCount = 2},
-	{id = "strong mana potion", chance = 14942, maxCount = 2},
-	{id = "mana potion", chance = 14853, maxCount = 3},
-	{id = "crystalline spikes", chance = 14585},
-	{id = "battle stone", chance = 12712},
-	{id = "envenomed arrow", chance = 11017, maxCount = 10},
-	{id = "drill bolt", chance = 7939, maxCount = 5},
-	{id = "coal", chance = 6334},
-	{id = "green crystal fragment", chance = 5977, maxCount = 2},
-	{id = "green crystal splinter", chance = 4282, maxCount = 2},
-	{id = "terra boots", chance = 2632},
-	{id = "titan axe", chance = 1517},
-	{id = "time ring", chance = 1249},
-	{id = "bonebreaker", chance = 1070},
-	{id = "tower shield", chance = 624},
-	{id = "crystalline armor", chance = 223}
+	{id = 2148, chance = 100000, maxCount = 198},
+	{id = 2152, chance = 95156, maxCount = 7},
+	{id = 7591, chance = 15511, maxCount = 2},
+	{id = 7590, chance = 15333, maxCount = 2},
+	{id = 7589, chance = 15022, maxCount = 2},
+	{id = 7588, chance = 14978, maxCount = 2},
+	{id = 7620, chance = 14800, maxCount = 3},
+	{id = 18432, chance = 14578},
+	{id = 12403, chance = 12711},
+	{id = 18437, chance = 10978, maxCount = 10},
+	{id = 18436, chance = 7956, maxCount = 5},
+	{id = 13757, chance = 6311},
+	{id = 18421, chance = 6000, maxCount = 2},
+	{id = 18416, chance = 4267, maxCount = 2},
+	{id = 7886, chance = 2622},
+	{id = 7413, chance = 1511},
+	{id = 2169, chance = 1244},
+	{id = 7428, chance = 1067},
+	{id = 2528, chance = 622},
+	{id = 8878, chance = 222}
 }
 
 mType:register(monster)

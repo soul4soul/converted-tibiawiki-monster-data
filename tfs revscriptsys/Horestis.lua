@@ -67,15 +67,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = -15},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 30},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,19 +89,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "scorpion sceptre", chance = 100000},
-	{id = "gold coin", chance = 95652, maxCount = 243},
-	{id = "platinum coin", chance = 36957, maxCount = 5},
-	{id = "scarab coin", chance = 19565, maxCount = 5},
-	{id = "pharaoh banner", chance = 15217},
-	{id = "hieroglyph banner", chance = 10870},
-	{id = "silver brooch", chance = 10870},
-	{id = "great mana potion", chance = 8696, maxCount = 3},
-	{id = "great health potion", chance = 6522, maxCount = 5},
-	{id = "pharaoh sword", chance = 4348},
-	{id = "mini mummy", chance = 2174},
-	{id = "slightly rusted legs", chance = 2174},
-	{id = "twin axe", chance = 2174}
+	{id = 13498, chance = 100000},
+	{id = 2148, chance = 95652, maxCount = 243},
+	{id = 2152, chance = 36957, maxCount = 5},
+	{id = 2159, chance = 19565, maxCount = 5},
+	{id = 13472, chance = 15217},
+	{id = 13739, chance = 10870},
+	{id = 2134, chance = 10870},
+	{id = 7590, chance = 8696, maxCount = 3},
+	{id = 7591, chance = 6522, maxCount = 5},
+	{id = 2446, chance = 4348},
+	{id = 11207, chance = 2174},
+	{id = 9813, chance = 2174},
+	{id = 2447, chance = 2174}
 }
 
 mType:register(monster)

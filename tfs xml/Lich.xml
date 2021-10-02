@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="80" />
-		<element earthPercent="100" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="-20" />
-		<element deathPercent="100" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-75" />
@@ -59,24 +59,24 @@
 		<voice name="bonebeast" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item name="gold coin" chance="100000" countmax="139" />
-		<item name="platinum coin" chance="19637" />
-		<item name="spellbook" chance="10308" />
-		<item name="strong mana potion" chance="7856" />
-		<item name="black pearl" chance="5266" countmax="3" />
-		<item name="white pearl" chance="4874" />
-		<item name="small topaz" chance="2507" countmax="3" />
-		<item name="small emerald" chance="2358" countmax="3" />
-		<item name="ancient shield" chance="2144" />
-		<item name="ring of healing" chance="1687" />
-		<item name="yellow gem" chance="801" />
-		<item name="strange helmet" chance="718" />
-		<item name="mind stone" chance="438" />
-		<item name="platinum amulet" chance="410" />
-		<item name="skull staff" chance="298" />
-		<item name="lightning boots" chance="280" />
-		<item name="castle shield" chance="252" />
-		<item name="blue robe" chance="196" />
-		<item name="maxilla maximus" chance="47" />
+		<item id="2148" name="gold coin" chance="100000" countmax="139" />
+		<item id="2152" name="platinum coin" chance="19638" />
+		<item id="2175" name="spellbook" chance="10332" />
+		<item id="7589" name="strong mana potion" chance="7837" />
+		<item id="2144" name="black pearl" chance="5231" countmax="3" />
+		<item id="2143" name="white pearl" chance="4852" />
+		<item id="9970" name="small topaz" chance="2495" countmax="3" />
+		<item id="2149" name="small emerald" chance="2338" countmax="3" />
+		<item id="2532" name="ancient shield" chance="2135" />
+		<item id="2214" name="ring of healing" chance="1673" />
+		<item id="2154" name="yellow gem" chance="795" />
+		<item id="2479" name="strange helmet" chance="712" />
+		<item id="2178" name="mind stone" chance="444" />
+		<item id="2171" name="platinum amulet" chance="416" />
+		<item id="2436" name="skull staff" chance="296" />
+		<item id="7893" name="lightning boots" chance="277" />
+		<item id="2535" name="castle shield" chance="250" />
+		<item id="2656" name="blue robe" chance="194" />
+		<item id="13291" name="maxilla maximus" chance="46" />
 	</loot>
 </monster>

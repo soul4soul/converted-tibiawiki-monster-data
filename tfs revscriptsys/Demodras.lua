@@ -70,7 +70,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -90,22 +90,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "dragon claw", chance = 100000},
-	{id = "platinum coin", chance = 99138, maxCount = 10},
-	{id = "dragon ham", chance = 75862},
-	{id = "green mushroom", chance = 25862, maxCount = 7},
-	{id = "power bolt", chance = 18966, maxCount = 10},
-	{id = "red dragon leather", chance = 13793},
-	{id = "small sapphire", chance = 12069},
-	{id = "book (gemmed)", chance = 10345},
-	{id = "energy ring", chance = 10345},
-	{id = "great health potion", chance = 9483},
-	{id = "great mana potion", chance = 9483},
-	{id = "golden mug", chance = 6034},
-	{id = "onyx arrow", chance = 4310, maxCount = 5},
-	{id = "dragon scale mail", chance = 1724},
-	{id = "fire sword", chance = 1724},
-	{id = "life crystal", chance = 862}
+	{id = 5919, chance = 100000},
+	{id = 2152, chance = 99145, maxCount = 10},
+	{id = 2672, chance = 75214},
+	{id = 2796, chance = 25641, maxCount = 7},
+	{id = 2547, chance = 19658, maxCount = 10},
+	{id = 5948, chance = 13675},
+	{id = 2146, chance = 11966},
+	{id = 1976, chance = 10256},
+	{id = 2167, chance = 10256},
+	{id = 7591, chance = 9402},
+	{id = 7590, chance = 9402},
+	{id = 2033, chance = 5983},
+	{id = 7365, chance = 4274, maxCount = 5},
+	{id = 2492, chance = 1709},
+	{id = 2392, chance = 1709},
+	{id = 2177, chance = 855}
 }
 
 mType:register(monster)

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Barbarian Headsplitter" nameDescription="a barbarian headsplitter" experience="85" speed="168" manacost="0">
+	<health now="100" max="100" />
+	<look type="253" head="115" body="86" legs="119" feet="113" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-50" />
+	</attacks>
+	<defenses armor="7" defense="7" />
+	<voices interval="5000" chance="10">
+		<voice sentence="I will regain my honor with your blood!" yell="false" />
+		<voice sentence="Surrender is not option!" yell="false" />
+		<voice sentence="Its you or me!" yell="false" />
+		<voice sentence="Die! Die! Die!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="75197" countmax="30" />
+		<item name="torch" chance="59833" />
+		<item id="2460" name="brass helmet" chance="20186" />
+		<item id="2403" name="knife" chance="14935" />
+		<item id="2473" name="viking helmet" chance="4965" />
+		<item id="2483" name="scale armor" chance="4049" />
+		<item id="2229" name="skull (item)" chance="3188" />
+		<item id="5913" name="brown piece of cloth" chance="971" />
+		<item id="7618" name="health potion" chance="531" />
+		<item id="2168" name="life ring" chance="220" />
+		<item id="7461" name="krimhorn helmet" chance="114" />
+		<item id="7457" name="fur boots" chance="88" />
+	</loot>
+</monster>

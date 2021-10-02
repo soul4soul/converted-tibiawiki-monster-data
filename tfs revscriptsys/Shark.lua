@@ -66,14 +66,14 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
-	{type = COMBAT_ENERGYDAMAGE, percent = -5},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = 55},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -89,13 +89,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 91600, maxCount = 138},
-	{id = "fish", chance = 25253, maxCount = 4},
-	{id = "deepling scales", chance = 9660},
-	{id = "eye of a deepling", chance = 1117},
-	{id = "small sapphire", chance = 1052},
-	{id = "giant shimmering pearl (brown)", chance = 415},
-	{id = "fish fin", chance = 156}
+	{id = 2148, chance = 91600, maxCount = 138},
+	{id = 2667, chance = 25253, maxCount = 4},
+	{id = 15430, chance = 9660},
+	{id = 13870, chance = 1117},
+	{id = 2146, chance = 1052},
+	{id = 7633, chance = 415},
+	{id = 5895, chance = 156}
 }
 
 mType:register(monster)

@@ -68,15 +68,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -5},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 15},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -3},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,12 +91,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 84656, maxCount = 90},
-	{id = "brown crystal splinter", chance = 5143},
-	{id = "green crystal splinter", chance = 4991},
-	{id = "crystalline arrow", chance = 4962, maxCount = 3},
-	{id = "blue crystal splinter", chance = 4953},
-	{id = "crystalline spikes", chance = 3661}
+	{id = 2148, chance = 84663, maxCount = 90},
+	{id = 18417, chance = 5146},
+	{id = 18416, chance = 4989},
+	{id = 18418, chance = 4965},
+	{id = 18304, chance = 4951, maxCount = 3},
+	{id = 18432, chance = 3663}
 }
 
 mType:register(monster)

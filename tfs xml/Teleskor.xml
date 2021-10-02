@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -49,13 +49,13 @@
 		<voice sentence="Mourn the dead, do not hunt them!" yell="false" />
 	</voices>
 	<loot>
-		<item name="pelvis bone" chance="100000" />
-		<item name="mace" chance="68750" />
-		<item name="viking helmet" chance="68750" />
-		<item name="gold coin" chance="62500" countmax="79" />
-		<item name="brass shield" chance="43750" />
-		<item name="hatchet" chance="31250" />
-		<item name="sword" chance="31250" />
+		<item id="12437" name="pelvis bone" chance="100000" />
+		<item id="2398" name="mace" chance="68750" />
+		<item id="2473" name="viking helmet" chance="68750" />
+		<item id="2148" name="gold coin" chance="62500" countmax="79" />
+		<item id="2511" name="brass shield" chance="43750" />
+		<item id="2388" name="hatchet" chance="31250" />
+		<item id="2376" name="sword" chance="31250" />
 		<item name="torch" chance="25000" />
 	</loot>
 </monster>

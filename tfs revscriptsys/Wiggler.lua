@@ -68,15 +68,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 5},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,21 +91,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "crystalline arrow", chance = 14825, maxCount = 5},
-	{id = "drill bolt", chance = 14636, maxCount = 5},
-	{id = "platinum coin", chance = 14164},
-	{id = "white mushroom", chance = 7177, maxCount = 5},
-	{id = "strong health potion", chance = 5382},
-	{id = "strong mana potion", chance = 4910},
-	{id = "green crystal splinter", chance = 4533},
-	{id = "green crystal fragment", chance = 1889},
-	{id = "serpent sword", chance = 1605},
-	{id = "blue piece of cloth", chance = 1511},
-	{id = "yellow piece of cloth", chance = 1322},
-	{id = "black shield", chance = 944},
-	{id = "terra rod", chance = 755},
-	{id = "green piece of cloth", chance = 472}
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 18304, chance = 14983, maxCount = 5},
+	{id = 2152, chance = 14634},
+	{id = 18436, chance = 14460, maxCount = 5},
+	{id = 2787, chance = 7230, maxCount = 5},
+	{id = 7588, chance = 5139},
+	{id = 7589, chance = 4965},
+	{id = 18416, chance = 4617},
+	{id = 18421, chance = 2091},
+	{id = 2409, chance = 1568},
+	{id = 5912, chance = 1394},
+	{id = 5914, chance = 1394},
+	{id = 2529, chance = 871},
+	{id = 2181, chance = 784},
+	{id = 5910, chance = 523}
 }
 
 mType:register(monster)

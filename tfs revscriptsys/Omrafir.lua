@@ -72,16 +72,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
-	{type = COMBAT_ENERGYDAMAGE, percent = 50},
-	{type = COMBAT_EARTHDAMAGE, percent = 50},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 50},
-	{type = COMBAT_HOLYDAMAGE , percent = 50},
-	{type = COMBAT_DEATHDAMAGE , percent = 50}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -95,36 +95,36 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 93750, maxCount = 20},
-	{id = "demonic essence", chance = 81250},
-	{id = "dream matter", chance = 81250, maxCount = 2},
-	{id = "unrealized dream", chance = 81250, maxCount = 3},
-	{id = "cluster of solace", chance = 62500, maxCount = 4},
-	{id = "great spirit potion", chance = 56250, maxCount = 8},
-	{id = "cyan crystal fragment", chance = 43750, maxCount = 3},
+	{id = 2152, chance = 93750, maxCount = 20},
+	{id = 6500, chance = 81250},
+	{id = 22397, chance = 81250, maxCount = 2},
+	{id = 22598, chance = 81250, maxCount = 3},
+	{id = 22396, chance = 62500, maxCount = 4},
+	{id = 8472, chance = 56250, maxCount = 8},
+	{id = 18419, chance = 43750, maxCount = 3},
 	{id = "giant shimmering pearl", chance = 43750},
-	{id = "blue crystal shard", chance = 37500, maxCount = 5},
-	{id = "green crystal fragment", chance = 37500, maxCount = 3},
-	{id = "ultimate health potion", chance = 31250, maxCount = 8},
-	{id = "demon horn", chance = 18750},
-	{id = "gold coin", chance = 18750, maxCount = 100},
-	{id = "green crystal shard", chance = 18750, maxCount = 5},
-	{id = "green gem", chance = 18750},
-	{id = "lightning robe", chance = 18750},
-	{id = "violet crystal shard", chance = 18750, maxCount = 5},
-	{id = "lightning boots", chance = 12500},
-	{id = "nightmare hook", chance = 12500},
-	{id = "noble axe", chance = 12500, maxCount = 2},
-	{id = "crystalline armor", chance = 6250},
-	{id = "demonic tapestry", chance = 6250},
-	{id = "dream warden mask", chance = 6250},
-	{id = "great mana potion", chance = 6250, maxCount = 8},
-	{id = "nightmare horn", chance = 6250},
-	{id = "psychedelic tapestry", chance = 6250},
-	{id = "red crystal fragment", chance = 6250, maxCount = 3},
-	{id = "ring of healing", chance = 6250},
-	{id = "skull helmet", chance = 6250},
-	{id = "steel boots", chance = 6250}
+	{id = 18413, chance = 37500, maxCount = 5},
+	{id = 18421, chance = 37500, maxCount = 3},
+	{id = 8473, chance = 31250, maxCount = 8},
+	{id = 5954, chance = 18750},
+	{id = 2148, chance = 18750, maxCount = 100},
+	{id = 18415, chance = 18750, maxCount = 5},
+	{id = 2155, chance = 18750},
+	{id = 7898, chance = 18750},
+	{id = 18414, chance = 18750, maxCount = 5},
+	{id = 7893, chance = 12500},
+	{id = 22616, chance = 12500},
+	{id = 7456, chance = 12500, maxCount = 2},
+	{id = 8878, chance = 6250},
+	{id = 22612, chance = 6250},
+	{id = 22610, chance = 6250},
+	{id = 7590, chance = 6250, maxCount = 8},
+	{id = 22608, chance = 6250},
+	{id = 22611, chance = 6250},
+	{id = 18420, chance = 6250, maxCount = 3},
+	{id = 2214, chance = 6250},
+	{id = 5741, chance = 6250},
+	{id = 2645, chance = 6250}
 }
 
 mType:register(monster)

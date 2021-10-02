@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -30,29 +30,29 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="20" />
-		<element earthPercent="-10" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="10" />
-		<element deathPercent="-10" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<defenses armor="35" defense="35" />
 	<loot>
-		<item name="platinum coin" chance="100000" countmax="3" />
-		<item name="bone club" chance="19069" />
-		<item name="battle hammer" chance="17207" />
-		<item name="copper shield" chance="7897" />
-		<item name="studded shield" chance="4302" />
-		<item name="double axe" chance="3612" />
-		<item name="combat knife" chance="3579" />
-		<item name="staff" chance="3547" />
-		<item name="bone shield" chance="3371" />
-		<item name="crowbar" chance="3178" />
-		<item name="battle axe" chance="3050" />
-		<item name="spiky club" chance="2279" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="3" />
+		<item id="2449" name="bone club" chance="19069" />
+		<item id="2417" name="battle hammer" chance="17207" />
+		<item id="2530" name="copper shield" chance="7897" />
+		<item id="2526" name="studded shield" chance="4302" />
+		<item id="2387" name="double axe" chance="3612" />
+		<item id="2404" name="combat knife" chance="3579" />
+		<item id="2401" name="staff" chance="3547" />
+		<item id="2541" name="bone shield" chance="3371" />
+		<item id="2416" name="crowbar" chance="3178" />
+		<item id="2378" name="battle axe" chance="3050" />
+		<item id="20139" name="spiky club" chance="2279" />
 	</loot>
 </monster>

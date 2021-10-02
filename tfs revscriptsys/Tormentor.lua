@@ -70,15 +70,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,19 +93,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "death ring", chance = 100000},
-	{id = "demonic essence", chance = 100000},
-	{id = "essence of a bad dream", chance = 100000},
-	{id = "flask of demonic blood", chance = 100000},
-	{id = "ham", chance = 100000},
-	{id = "platinum coin", chance = 92424, maxCount = 10},
-	{id = "scythe leg", chance = 86364},
-	{id = "knight legs", chance = 72727},
-	{id = "mysterious voodoo skull", chance = 42424},
-	{id = "skeleton decoration", chance = 31818},
-	{id = "war axe", chance = 16667},
-	{id = "boots of haste", chance = 10606},
-	{id = "nightmare blade", chance = 10606}
+	{id = 6300, chance = 100000},
+	{id = 6500, chance = 100000},
+	{id = 11223, chance = 100000},
+	{id = 6558, chance = 100000},
+	{id = 2671, chance = 100000},
+	{id = 2152, chance = 92424, maxCount = 10},
+	{id = 11229, chance = 86364},
+	{id = 2477, chance = 72727},
+	{id = 5669, chance = 42424},
+	{id = 6526, chance = 31818},
+	{id = 2454, chance = 16667},
+	{id = 2195, chance = 10606},
+	{id = 7418, chance = 10606}
 }
 
 mType:register(monster)

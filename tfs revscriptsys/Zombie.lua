@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 500
 monster.maxHealth = 500
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 180
 monster.summonCost = 0
@@ -70,15 +70,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 100},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 50},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,16 +91,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 82061, maxCount = 65},
-	{id = "brass helmet", chance = 9732},
-	{id = "mace", chance = 7795},
-	{id = "battle hammer", chance = 6838},
-	{id = "heavily rusted armor", chance = 5852},
-	{id = "steel helmet", chance = 4855},
-	{id = "halberd", chance = 3830},
-	{id = "life ring", chance = 974},
-	{id = "mana potion", chance = 772},
-	{id = "simple dress", chance = 546}
+	{id = 2148, chance = 82062, maxCount = 65},
+	{id = 2460, chance = 9732},
+	{id = 2398, chance = 7800},
+	{id = 2417, chance = 6837},
+	{id = 9808, chance = 5852},
+	{id = 3351, chance = 4855},
+	{id = 2381, chance = 3830},
+	{id = 2168, chance = 974},
+	{id = 7620, chance = 772},
+	{id = 2657, chance = 546}
 }
 
 mType:register(monster)

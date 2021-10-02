@@ -68,13 +68,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -25},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -90,21 +90,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 272},
-	{id = "platinum coin", chance = 96688, maxCount = 6},
-	{id = "demonic essence", chance = 19598},
-	{id = "soul orb", chance = 19598},
-	{id = "glob of acid slime", chance = 11669},
-	{id = "glob of tar", chance = 11317},
-	{id = "small emerald", chance = 5747, maxCount = 3},
-	{id = "talon", chance = 4366},
-	{id = "small ruby", chance = 3338, maxCount = 2},
-	{id = "death ring", chance = 2710},
-	{id = "small diamond", chance = 2635, maxCount = 2},
-	{id = "yellow gem", chance = 1656},
-	{id = "red gem", chance = 1205},
-	{id = "blue gem", chance = 903},
-	{id = "green gem", chance = 753}
+	{id = 2148, chance = 100000, maxCount = 272},
+	{id = 2152, chance = 96647, maxCount = 6},
+	{id = 5944, chance = 19565},
+	{id = 6500, chance = 19540},
+	{id = 9967, chance = 11659},
+	{id = 9968, chance = 11283},
+	{id = 2149, chance = 5754, maxCount = 3},
+	{id = 2151, chance = 4378},
+	{id = 2147, chance = 3353, maxCount = 2},
+	{id = 6300, chance = 2702},
+	{id = 2145, chance = 2627, maxCount = 2},
+	{id = 2154, chance = 1651},
+	{id = 2156, chance = 1201},
+	{id = 2158, chance = 901},
+	{id = 2155, chance = 751}
 }
 
 mType:register(monster)

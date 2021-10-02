@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Thornback Tortoise" nameDescription="a thornback tortoise" experience="150" speed="150" manacost="0">
+	<health now="300" max="300" />
+	<look type="198" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
+	</attacks>
+	<defenses armor="24" defense="24" />
+	<loot>
+		<item id="2148" name="gold coin" chance="87944" countmax="50" />
+		<item id="10560" name="thorn" chance="15522" />
+		<item id="2667" name="fish" chance="10500" countmax="2" />
+		<item id="7618" name="health potion" chance="1608" />
+		<item id="2143" name="white pearl" chance="1328" />
+		<item id="5899" name="turtle shell" chance="1089" />
+		<item id="2787" name="white mushroom" chance="1079" />
+		<item id="5678" name="tortoise egg" chance="965" countmax="3" />
+		<item id="2789" name="brown mushroom" chance="695" />
+		<item id="2144" name="black pearl" chance="654" />
+		<item id="2391" name="war hammer" chance="280" />
+	</loot>
+</monster>

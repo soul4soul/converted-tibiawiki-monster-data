@@ -66,13 +66,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -25},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -88,17 +88,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "demonic essence", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "great spirit potion", chance = 100000, maxCount = 5},
-	{id = "green gem", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 25},
-	{id = "small diamond", chance = 100000, maxCount = 5},
-	{id = "cyan crystal fragment", chance = 50000, maxCount = 6},
-	{id = "great mana potion", chance = 50000, maxCount = 5},
-	{id = "red crystal fragment", chance = 50000, maxCount = 6},
-	{id = "terra mantle", chance = 50000},
-	{id = "ultimate health potion", chance = 50000, maxCount = 5}
+	{id = 6500, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 200},
+	{id = 8472, chance = 100000, maxCount = 5},
+	{id = 2155, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 25},
+	{id = 2145, chance = 100000, maxCount = 5},
+	{id = 18419, chance = 50000, maxCount = 6},
+	{id = 7590, chance = 50000, maxCount = 5},
+	{id = 18420, chance = 50000, maxCount = 6},
+	{id = 7884, chance = 50000},
+	{id = 8473, chance = 50000, maxCount = 5}
 }
 
 mType:register(monster)

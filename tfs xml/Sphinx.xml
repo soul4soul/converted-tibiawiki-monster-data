@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="4" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -32,32 +32,32 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="10" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-15" />
-		<element holyPercent="15" />
-		<element deathPercent="-20" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
 	</attacks>
 	<defenses armor="82" defense="82" />
 	<loot>
-		<item name="platinum coin" chance="100000" countmax="3" />
-		<item name="sphinx feather" chance="7271" />
-		<item name="sphinx tiara" chance="6165" />
-		<item name="magma amulet" chance="6022" />
-		<item name="green gem" chance="4839" />
-		<item name="blue gem" chance="3772" />
-		<item name="magma boots" chance="3603" />
-		<item name="white pearl" chance="3057" />
-		<item name="lightning headband" chance="2966" />
-		<item name="lightning pendant" chance="2406" />
-		<item name="wand of starstorm" chance="2133" />
-		<item name="wand of defiance" chance="2094" />
-		<item name="magma monocle" chance="1925" />
-		<item name="magma legs" chance="1223" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="3" />
+		<item id="34093" name="sphinx feather" chance="7213" />
+		<item id="34094" name="sphinx tiara" chance="6139" />
+		<item id="7890" name="magma amulet" chance="5966" />
+		<item id="2155" name="green gem" chance="4842" />
+		<item id="2158" name="blue gem" chance="3706" />
+		<item id="7891" name="magma boots" chance="3570" />
+		<item id="2143" name="white pearl" chance="3014" />
+		<item id="7901" name="lightning headband" chance="2989" />
+		<item id="7889" name="lightning pendant" chance="2409" />
+		<item id="8920" name="wand of starstorm" chance="2162" />
+		<item id="18390" name="wand of defiance" chance="2137" />
+		<item id="7900" name="magma monocle" chance="1964" />
+		<item id="7894" name="magma legs" chance="1186" />
 	</loot>
 </monster>

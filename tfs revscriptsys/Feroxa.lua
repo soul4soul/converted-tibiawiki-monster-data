@@ -66,14 +66,14 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -87,23 +87,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "blue gem", chance = 100000},
-	{id = "great health potion", chance = 100000, maxCount = 5},
-	{id = "great mana potion", chance = 100000, maxCount = 6},
-	{id = "moonlight crystals", chance = 100000, maxCount = 6},
-	{id = "red gem", chance = 100000},
-	{id = "small diamond", chance = 100000, maxCount = 3},
-	{id = "small ruby", chance = 100000, maxCount = 3},
-	{id = "ultimate health potion", chance = 100000},
-	{id = "trophy of feroxa", chance = 62500},
-	{id = "violet crystal shard", chance = 62500},
-	{id = "dreaded cleaver", chance = 25000},
-	{id = "platinum coin", chance = 25000, maxCount = 10},
-	{id = "red crystal fragment", chance = 25000},
-	{id = "skullcracker armor", chance = 25000},
-	{id = "wolf backpack", chance = 25000},
-	{id = "boots of haste", chance = 12500},
-	{id = "werewolf helmet", chance = 12500}
+	{id = 2158, chance = 100000},
+	{id = 7591, chance = 100000, maxCount = 5},
+	{id = 7590, chance = 100000, maxCount = 6},
+	{id = 24739, chance = 100000, maxCount = 6},
+	{id = 2156, chance = 100000},
+	{id = 2145, chance = 100000, maxCount = 3},
+	{id = 2147, chance = 100000, maxCount = 3},
+	{id = 8473, chance = 100000},
+	{id = 24760, chance = 62500},
+	{id = 18414, chance = 62500},
+	{id = 7419, chance = 25000},
+	{id = 2152, chance = 25000, maxCount = 10},
+	{id = 18420, chance = 25000},
+	{id = 8889, chance = 25000},
+	{id = 24740, chance = 25000},
+	{id = 2195, chance = 12500},
+	{id = 24718, chance = 12500}
 }
 
 mType:register(monster)

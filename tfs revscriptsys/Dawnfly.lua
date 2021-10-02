@@ -68,7 +68,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -87,12 +87,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 12},
-	{id = "simple arrow", chance = 22917, maxCount = 16},
-	{id = "poison arrow", chance = 12500, maxCount = 8},
-	{id = "doublet", chance = 5208},
-	{id = "health potion", chance = 3125},
-	{id = "mana potion", chance = 3125}
+	{id = 2148, chance = 100000, maxCount = 12},
+	{id = 23839, chance = 22857, maxCount = 16},
+	{id = 2545, chance = 12381, maxCount = 8},
+	{id = 2485, chance = 4762},
+	{id = 7618, chance = 2857},
+	{id = 7620, chance = 2857}
 }
 
 mType:register(monster)

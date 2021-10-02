@@ -72,16 +72,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = 25},
-	{type = COMBAT_FIREDAMAGE, percent = -5},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -96,19 +96,19 @@ monster.defenses = {
 
 monster.maxSummons = 6
 monster.summons = {
-	{name = "green djinn", chance = 15, interval = 2000, max = 1},
-	{name = "ancient scarab", chance = 15, interval = 2000, max = 1}
+	{name = "Green Djinn", chance = 15, interval = 2000, max = 1},
+	{name = "Ancient Scarab", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 93846, maxCount = 304},
-	{id = "great mana potion", chance = 12071},
-	{id = "might ring", chance = 4615},
-	{id = "silver brooch", chance = 4083},
-	{id = "crown armor", chance = 473},
-	{id = "mini mummy", chance = 178},
-	{id = "hammer of wrath", chance = 118},
-	{id = "holy scarab", chance = 118}
+	{id = 2148, chance = 93879, maxCount = 304},
+	{id = 7590, chance = 12066},
+	{id = 2164, chance = 4591},
+	{id = 2134, chance = 4120},
+	{id = 2487, chance = 471},
+	{id = 11207, chance = 177},
+	{id = 2444, chance = 118},
+	{id = 2140, chance = 118}
 }
 
 mType:register(monster)

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Chakoya Tribewarden" nameDescription="a chakoya tribewarden" experience="40" speed="124" manacost="0">
+	<health now="68" max="68" />
+	<look type="249" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
+	</attacks>
+	<defenses armor="9" defense="9" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Quisavu tukavi!" yell="false" />
+		<voice sentence="Si siyoqua jamjam!" yell="false" />
+		<voice sentence="Achuq! jinuma!" yell="false" />
+		<voice sentence="Si ji jusipa!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="79861" countmax="20" />
+		<item id="2667" name="fish" chance="19928" />
+		<item id="2406" name="short sword" chance="4929" />
+		<item id="2541" name="bone shield" chance="1046" />
+		<item id="22727" name="fireproof horn" chance="466" />
+		<item id="7381" name="mammoth whopper" chance="132" />
+		<item id="7158" name="rainbow trout" chance="97" />
+		<item id="7159" name="green perch" chance="79" />
+		<item id="2669" name="northern pike" chance="53" />
+	</loot>
+</monster>

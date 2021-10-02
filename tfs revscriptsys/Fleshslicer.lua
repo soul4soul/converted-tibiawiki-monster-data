@@ -88,20 +88,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "compound eye", chance = 100000, maxCount = 2},
-	{id = "gold coin", chance = 100000, maxCount = 185},
-	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "spidris mandible", chance = 100000},
-	{id = "dung ball (quest)", chance = 80000, maxCount = 2},
-	{id = "great mana potion", chance = 80000, maxCount = 2},
-	{id = "ripper lance", chance = 33333},
-	{id = "small ruby", chance = 33333, maxCount = 5},
-	{id = "white pearl", chance = 33333, maxCount = 5},
-	{id = "red gem", chance = 26667},
-	{id = "ultimate health potion", chance = 20000},
-	{id = "titan axe", chance = 13333},
-	{id = "death ring", chance = 6667},
-	{id = "giant shimmering pearl", chance = 6667}
+	{id = 15486, chance = 100000, maxCount = 2},
+	{id = 2148, chance = 100000, maxCount = 185},
+	{id = 2152, chance = 100000, maxCount = 5},
+	{id = 15485, chance = 100000},
+	{id = 16096, chance = 81250, maxCount = 2},
+	{id = 7590, chance = 81250, maxCount = 2},
+	{id = 2147, chance = 37500, maxCount = 5},
+	{id = 3964, chance = 31250},
+	{id = 2143, chance = 31250, maxCount = 5},
+	{id = 2156, chance = 25000},
+	{id = 8473, chance = 18750},
+	{id = 7413, chance = 12500},
+	{id = 6300, chance = 6250},
+	{id = "giant shimmering pearl", chance = 6250}
 }
 
 mType:register(monster)

@@ -72,16 +72,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 5},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -10},
-	{type = COMBAT_HOLYDAMAGE , percent = 20},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,16 +93,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 78466, maxCount = 35},
-	{id = "flaming arrow", chance = 29573, maxCount = 12},
-	{id = "grapes", chance = 19937},
-	{id = "coal", chance = 15291},
-	{id = "longsword", chance = 6018},
-	{id = "elvish talisman", chance = 5012},
-	{id = "bow", chance = 3890},
-	{id = "heaven blossom", chance = 908},
-	{id = "flintstone", chance = 357},
-	{id = "elvish bow", chance = 109}
+	{id = 2148, chance = 78466, maxCount = 35},
+	{id = 7840, chance = 29573, maxCount = 12},
+	{id = 2681, chance = 19937},
+	{id = 13757, chance = 15291},
+	{id = 2397, chance = 6018},
+	{id = 10552, chance = 5012},
+	{id = 2456, chance = 3890},
+	{id = 5921, chance = 908},
+	{id = 13943, chance = 357},
+	{id = 7438, chance = 109}
 }
 
 mType:register(monster)

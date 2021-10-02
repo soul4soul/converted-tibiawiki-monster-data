@@ -69,16 +69,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 100},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,21 +93,21 @@ monster.defenses = {
 
 monster.maxSummons = 4
 monster.summons = {
-	{name = "priestess", chance = 15, interval = 2000, max = 1}
+	{name = "Priestess", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = "ornamented ankh", chance = 100000},
-	{id = "gold coin", chance = 90968, maxCount = 226},
-	{id = "small sapphire", chance = 9819, maxCount = 3},
-	{id = "great mana potion", chance = 8939},
-	{id = "energy ring", chance = 4863},
-	{id = "mind stone", chance = 926},
-	{id = "blue gem", chance = 834},
-	{id = "ankh", chance = 602},
-	{id = "skull staff", chance = 556},
-	{id = "mini mummy", chance = 93},
-	{id = "pharaoh sword", chance = 93}
+	{id = 3241, chance = 100000},
+	{id = 2148, chance = 90976, maxCount = 226},
+	{id = 2146, chance = 9810, maxCount = 3},
+	{id = 7590, chance = 8931},
+	{id = 2167, chance = 4859},
+	{id = 2178, chance = 925},
+	{id = 2158, chance = 833},
+	{id = 2193, chance = 602},
+	{id = 2436, chance = 555},
+	{id = 11207, chance = 93},
+	{id = 2446, chance = 93}
 }
 
 mType:register(monster)

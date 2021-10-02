@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Elf Scout" nameDescription="an elf scout" experience="75" speed="220" manacost="0">
+	<health now="160" max="160" />
+	<look type="64" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
+		<attack name="physical" interval="2000" chance="100" min="0" max="-80" range="7">
+			<attribute key="shootEffect" value="arrow" />
+		</attack>
+	</attacks>
+	<defenses armor="7" defense="7" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Tha'shi Ab'Dendriel!" yell="false" />
+		<voice sentence="[[Evicor]] guide my arrow!" yell="false" />
+		<voice sentence="Your existence will end here!" yell="false" />
+		<voice sentence="Feel the sting of my arrows!" yell="false" />
+		<voice sentence="Thy blood will quench the soil's thirst!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="75037" countmax="25" />
+		<item id="2544" name="arrow" chance="30580" countmax="12" />
+		<item id="2681" name="grapes" chance="17813" />
+		<item id="2545" name="poison arrow" chance="15124" countmax="4" />
+		<item id="12420" name="elven scouting glass" chance="10059" />
+		<item id="10552" name="elvish talisman" chance="5137" />
+		<item id="2456" name="bow" chance="4043" />
+		<item id="2031" name="waterskin" chance="1255" />
+		<item id="2642" name="sandals" chance="1121" />
+		<item id="5921" name="heaven blossom" chance="1098" />
+		<item id="7438" name="elvish bow" chance="139" />
+	</loot>
+</monster>

@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="20" />
+		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="20" />
-		<element firePercent="-10" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="20" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -45,12 +45,12 @@
 	</attacks>
 	<defenses armor="22" defense="22" />
 	<loot>
-		<item name="gold coin" chance="60134" countmax="30" />
-		<item name="fish" chance="5022" />
-		<item name="plate shield" chance="2918" />
-		<item name="tortoise egg" chance="1099" countmax="2" />
-		<item name="battle hammer" chance="855" />
-		<item name="turtle shell" chance="807" />
-		<item name="tortoise shield" chance="156" />
+		<item id="2148" name="gold coin" chance="60134" countmax="30" />
+		<item id="2667" name="fish" chance="5022" />
+		<item id="2510" name="plate shield" chance="2918" />
+		<item id="5678" name="tortoise egg" chance="1099" countmax="2" />
+		<item id="2417" name="battle hammer" chance="855" />
+		<item id="5899" name="turtle shell" chance="807" />
+		<item id="6131" name="tortoise shield" chance="156" />
 	</loot>
 </monster>

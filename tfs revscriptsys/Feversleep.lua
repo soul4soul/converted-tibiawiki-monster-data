@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 15},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 35},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 55}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,21 +87,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "platinum coin", chance = 100000, maxCount = 9},
-	{id = "great mana potion", chance = 36724, maxCount = 2},
-	{id = "ultimate health potion", chance = 21004},
-	{id = "cyan crystal fragment", chance = 18054},
-	{id = "small amethyst", chance = 16204, maxCount = 3},
-	{id = "bowl of terror sweat", chance = 14179},
-	{id = "small topaz", chance = 14047, maxCount = 3},
-	{id = "small ruby", chance = 13034, maxCount = 3},
-	{id = "trapped bad dream monster", chance = 12946},
-	{id = "blue crystal splinter", chance = 12197},
-	{id = "small emerald", chance = 10700, maxCount = 3},
-	{id = "blue crystal shard", chance = 10040},
-	{id = "blue robe", chance = 1453},
-	{id = "cluster of solace", chance = 837}
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 2152, chance = 100000, maxCount = 9},
+	{id = 7590, chance = 36724, maxCount = 2},
+	{id = 8473, chance = 21004},
+	{id = 18419, chance = 18054},
+	{id = 2150, chance = 16204, maxCount = 3},
+	{id = 22538, chance = 14179},
+	{id = 9970, chance = 14047, maxCount = 3},
+	{id = 2147, chance = 13034, maxCount = 3},
+	{id = 22537, chance = 12946},
+	{id = 18418, chance = 12197},
+	{id = 2149, chance = 10700, maxCount = 3},
+	{id = 18413, chance = 10040},
+	{id = 2656, chance = 1453},
+	{id = 22396, chance = 837}
 }
 
 mType:register(monster)

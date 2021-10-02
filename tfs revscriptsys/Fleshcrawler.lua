@@ -68,13 +68,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = -15},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,20 +87,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "scarab pincers", chance = 100000},
-	{id = "platinum coin", chance = 99138, maxCount = 15},
-	{id = "scarab coin", chance = 99138, maxCount = 2},
-	{id = "small emerald", chance = 89224, maxCount = 3},
-	{id = "small amethyst", chance = 88362, maxCount = 4},
-	{id = "springsprout rod", chance = 75431},
-	{id = "scarab amulet", chance = 50862},
-	{id = "ancient amulet", chance = 48707},
-	{id = "scarab shield", chance = 45690},
-	{id = "strong health potion", chance = 43534},
-	{id = "knight armor", chance = 41810},
-	{id = "amber staff", chance = 29741},
-	{id = "ornamented brooch", chance = 13362},
-	{id = "terra mantle", chance = 10345}
+	{id = 10548, chance = 100000},
+	{id = 2152, chance = 99138, maxCount = 15},
+	{id = 2159, chance = 99138, maxCount = 2},
+	{id = 2149, chance = 89224, maxCount = 3},
+	{id = 2150, chance = 88362, maxCount = 4},
+	{id = 8912, chance = 75431},
+	{id = 2135, chance = 50862},
+	{id = 2142, chance = 48707},
+	{id = 2540, chance = 45690},
+	{id = 7588, chance = 43534},
+	{id = 2476, chance = 41810},
+	{id = 7426, chance = 29741},
+	{id = 12424, chance = 13362},
+	{id = 7884, chance = 10345}
 }
 
 mType:register(monster)

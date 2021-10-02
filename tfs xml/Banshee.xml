@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -31,14 +31,14 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="100" />
-		<element firePercent="100" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="100" />
+		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="-25" />
-		<element deathPercent="100" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
@@ -56,27 +56,27 @@
 		<voice sentence="IIIIEEEeeeeeehhhHHHH!" yell="false" />
 	</voices>
 	<loot>
-		<item name="candlestick" chance="72824" />
-		<item name="gold coin" chance="30931" countmax="80" />
-		<item name="silver amulet" chance="9406" />
-		<item name="simple dress" chance="6305" />
-		<item name="hair of a banshee" chance="4973" />
-		<item name="petrified scream" chance="4287" />
-		<item name="black pearl" chance="2166" />
-		<item name="silver brooch" chance="1538" />
-		<item name="poison dagger" chance="1515" />
-		<item name="white pearl" chance="1130" />
-		<item name="lyre" chance="971" />
-		<item name="stone skin amulet" chance="826" />
-		<item name="strong mana potion" chance="770" />
-		<item name="ring of healing" chance="749" />
-		<item name="blue robe" chance="663" />
-		<item name="wedding ring" chance="559" />
-		<item name="spellbook" chance="509" />
-		<item name="terra mantle" chance="337" />
-		<item name="crystal ring" chance="190" />
-		<item name="red robe" chance="103" />
-		<item name="life crystal" chance="102" />
-		<item name="sweet smelling bait" chance="29" />
+		<item name="candlestick" chance="72822" />
+		<item id="2148" name="gold coin" chance="30931" countmax="80" />
+		<item id="2170" name="silver amulet" chance="9404" />
+		<item id="2657" name="simple dress" chance="6307" />
+		<item id="12402" name="hair of a banshee" chance="4974" />
+		<item id="11337" name="petrified scream" chance="4285" />
+		<item id="2144" name="black pearl" chance="2166" />
+		<item id="2134" name="silver brooch" chance="1537" />
+		<item id="2411" name="poison dagger" chance="1514" />
+		<item id="2143" name="white pearl" chance="1130" />
+		<item id="2071" name="lyre" chance="971" />
+		<item id="2197" name="stone skin amulet" chance="825" />
+		<item id="7589" name="strong mana potion" chance="770" />
+		<item id="2214" name="ring of healing" chance="748" />
+		<item id="2656" name="blue robe" chance="663" />
+		<item id="2121" name="wedding ring" chance="558" />
+		<item id="2175" name="spellbook" chance="509" />
+		<item id="7884" name="terra mantle" chance="337" />
+		<item id="2124" name="crystal ring" chance="190" />
+		<item id="2655" name="red robe" chance="103" />
+		<item id="2177" name="life crystal" chance="102" />
+		<item id="13307" name="sweet smelling bait" chance="29" />
 	</loot>
 </monster>

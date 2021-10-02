@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Worker Golem" nameDescription="a worker golem" experience="1250" speed="160" manacost="0">
+	<health now="1470" max="1470" />
+	<look type="304" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-236" />
+	</attacks>
+	<defenses armor="35" defense="35">
+		<defense name="healing" interval="2000" chance="20" min="147" max="367" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="INTRUDER ALARM!" yell="false" />
+		<voice sentence="klonk klonk klonk" yell="false" />
+		<voice sentence="Rrrtttarrrttarrrtta" yell="false" />
+		<voice sentence="Awaiting orders." yell="false" />
+		<voice sentence="Secret objective complete." yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="93775" countmax="139" />
+		<item id="8309" name="nail" chance="4765" countmax="5" />
+		<item id="10572" name="gear crystal" chance="2172" />
+		<item id="7591" name="great health potion" chance="1971" />
+		<item id="7590" name="great mana potion" chance="1565" />
+		<item id="9809" name="rusted armor" chance="1560" />
+		<item id="9690" name="gear wheel" chance="1059" />
+		<item id="2177" name="life crystal" chance="1017" />
+		<item id="2391" name="war hammer" chance="1001" />
+		<item id="2145" name="small diamond" chance="975" countmax="2" />
+		<item id="9812" name="rusted legs" chance="922" />
+		<item id="7452" name="spiked squelcher" chance="922" />
+		<item id="5880" name="iron ore" chance="880" />
+		<item id="8472" name="great spirit potion" chance="822" />
+		<item id="7439" name="berserk potion" chance="780" />
+		<item id="2164" name="might ring" chance="501" />
+		<item name="crystal pedestal" chance="163" />
+		<item id="7428" name="bonebreaker" chance="116" />
+	</loot>
+</monster>

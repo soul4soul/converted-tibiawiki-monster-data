@@ -68,15 +68,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 30},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -7},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,22 +89,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99991, maxCount = 200},
-	{id = "platinum coin", chance = 66027, maxCount = 3},
-	{id = "compound eye", chance = 15723},
-	{id = "kollos shell", chance = 15241},
-	{id = "tarsal arrow", chance = 10200, maxCount = 5},
-	{id = "great mana potion", chance = 8941, maxCount = 4},
-	{id = "small ruby", chance = 8268, maxCount = 2},
-	{id = "gold ingot", chance = 5205},
-	{id = "ultimate health potion", chance = 3836, maxCount = 3},
-	{id = "ring of healing", chance = 3182},
-	{id = "giant shimmering pearl (brown)", chance = 2482},
-	{id = "hive scythe", chance = 786},
-	{id = "buggy backpack", chance = 436},
-	{id = "calopteryx cape", chance = 382},
-	{id = "carapace shield", chance = 277},
-	{id = "steel boots", chance = 127}
+	{id = 2148, chance = 99991, maxCount = 200},
+	{id = 2152, chance = 66008, maxCount = 3},
+	{id = 15486, chance = 15718},
+	{id = 15480, chance = 15241},
+	{id = 15648, chance = 10197, maxCount = 5},
+	{id = 7590, chance = 8939, maxCount = 4},
+	{id = 2147, chance = 8272, maxCount = 2},
+	{id = 9971, chance = 5198},
+	{id = 8473, chance = 3845, maxCount = 3},
+	{id = 2214, chance = 3192},
+	{id = 7633, chance = 2483},
+	{id = 15492, chance = 785},
+	{id = 15646, chance = 436},
+	{id = 15489, chance = 381},
+	{id = 15491, chance = 277},
+	{id = 2645, chance = 127}
 }
 
 mType:register(monster)

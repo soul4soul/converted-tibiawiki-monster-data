@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -31,7 +31,7 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="100" />
+		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
@@ -47,17 +47,17 @@
 		<defense name="healing" interval="2000" chance="20" min="5" max="20" />
 	</defenses>
 	<loot>
-		<item name="gold coin" chance="100000" countmax="207" />
-		<item name="waspoid claw" chance="100000" />
-		<item name="platinum coin" chance="94118" countmax="4" />
-		<item name="compound eye" chance="82353" />
-		<item name="waspoid wing" chance="80392" />
-		<item name="dung ball (quest)" chance="72549" countmax="2" />
-		<item name="small topaz" chance="56863" countmax="2" />
-		<item name="great health potion" chance="45098" countmax="2" />
-		<item name="black pearl" chance="29412" />
-		<item name="great mana potion" chance="29412" countmax="2" />
-		<item name="yellow gem" chance="13725" />
-		<item name="emerald bangle" chance="9804" />
+		<item id="2148" name="gold coin" chance="100000" countmax="207" />
+		<item id="15483" name="waspoid claw" chance="100000" />
+		<item id="2152" name="platinum coin" chance="94231" countmax="4" />
+		<item id="15486" name="compound eye" chance="82692" />
+		<item id="15484" name="waspoid wing" chance="80769" />
+		<item id="16096" name="dung ball (quest)" chance="73077" countmax="2" />
+		<item id="9970" name="small topaz" chance="55769" countmax="2" />
+		<item id="7591" name="great health potion" chance="44231" countmax="2" />
+		<item id="2144" name="black pearl" chance="30769" />
+		<item id="7590" name="great mana potion" chance="30769" countmax="2" />
+		<item id="2154" name="yellow gem" chance="13462" />
+		<item id="2127" name="emerald bangle" chance="9615" />
 	</loot>
 </monster>

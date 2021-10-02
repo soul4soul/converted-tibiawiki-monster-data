@@ -71,13 +71,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 30},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -25},
-	{type = COMBAT_HOLYDAMAGE , percent = -35},
-	{type = COMBAT_DEATHDAMAGE , percent = 50}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,26 +89,26 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "crystal coin", chance = 74455},
-	{id = "ultimate health potion", chance = 35514, maxCount = 4},
-	{id = "hand", chance = 7321},
-	{id = "epee", chance = 5140},
-	{id = "head (brachiodemon)", chance = 4050},
-	{id = "crystal mace", chance = 2804},
-	{id = "noble axe", chance = 1713},
-	{id = "assassin dagger", chance = 1090},
-	{id = "skull staff", chance = 1090},
-	{id = "spellbook of mind control", chance = 935},
-	{id = "butcher's axe", chance = 779},
-	{id = "fire axe", chance = 779},
+	{id = 2160, chance = 74455},
+	{id = 8473, chance = 35514, maxCount = 4},
+	{id = 36592, chance = 7321},
+	{id = 2438, chance = 5140},
+	{id = 36593, chance = 4050},
+	{id = 2445, chance = 2804},
+	{id = 7456, chance = 1713},
+	{id = 7404, chance = 1090},
+	{id = 2436, chance = 1090},
+	{id = 8902, chance = 935},
+	{id = 7412, chance = 779},
+	{id = 2432, chance = 779},
 	{id = "ring of green plasma", chance = 623},
-	{id = "royal helmet", chance = 623},
-	{id = "alloy legs", chance = 467},
-	{id = "crystalline sword", chance = 467},
-	{id = "jade hammer", chance = 467},
-	{id = "mastermind shield", chance = 467},
-	{id = "metal bat", chance = 467},
-	{id = "diabolic skull", chance = 156}
+	{id = 2498, chance = 623},
+	{id = 23539, chance = 467},
+	{id = 18450, chance = 467},
+	{id = 7422, chance = 467},
+	{id = 2514, chance = 467},
+	{id = 23542, chance = 467},
+	{id = 36681, chance = 156}
 }
 
 mType:register(monster)

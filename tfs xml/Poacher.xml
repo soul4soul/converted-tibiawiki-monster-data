@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -50,13 +50,13 @@
 		<voice sentence="Look what has stepped into my trap!" yell="false" />
 	</voices>
 	<loot>
-		<item name="arrow" chance="47026" countmax="18" />
-		<item name="leather helmet" chance="31179" />
-		<item name="leather legs" chance="27598" />
-		<item name="bow" chance="15055" />
-		<item name="roll" chance="11054" countmax="2" />
-		<item name="torch" chance="4854" />
-		<item name="poison arrow" chance="2583" countmax="3" />
-		<item name="closed trap" chance="1021" />
+		<item id="2544" name="arrow" chance="47116" countmax="18" />
+		<item id="2461" name="leather helmet" chance="30937" />
+		<item id="2649" name="leather legs" chance="27605" />
+		<item id="2456" name="bow" chance="15054" />
+		<item id="2690" name="roll" chance="11001" countmax="2" />
+		<item name="torch" chance="5025" />
+		<item id="2545" name="poison arrow" chance="2545" countmax="3" />
+		<item id="2578" name="closed trap" chance="1049" />
 	</loot>
 </monster>

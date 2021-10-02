@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -45,8 +45,8 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item name="shaggy tail" chance="100000" />
-		<item name="worm" chance="80000" countmax="2" />
-		<item name="meat" chance="20000" />
+		<item id="11324" name="shaggy tail" chance="100000" />
+		<item id="3976" name="worm" chance="80000" countmax="2" />
+		<item id="2666" name="meat" chance="20000" />
 	</loot>
 </monster>

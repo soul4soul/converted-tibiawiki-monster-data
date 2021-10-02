@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="5" />
-		<element energyPercent="-5" />
-		<element earthPercent="20" />
-		<element firePercent="55" />
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="100" />
-		<element icePercent="10" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -52,12 +52,12 @@
 		<voice sentence="Rarr chomp chomp!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="91600" countmax="138" />
-		<item name="fish" chance="25253" countmax="4" />
-		<item name="deepling scales" chance="9660" />
-		<item name="eye of a deepling" chance="1117" />
-		<item name="small sapphire" chance="1052" />
-		<item name="giant shimmering pearl (brown)" chance="415" />
-		<item name="fish fin" chance="156" />
+		<item id="2148" name="gold coin" chance="91600" countmax="138" />
+		<item id="2667" name="fish" chance="25253" countmax="4" />
+		<item id="15430" name="deepling scales" chance="9660" />
+		<item id="13870" name="eye of a deepling" chance="1117" />
+		<item id="2146" name="small sapphire" chance="1052" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="415" />
+		<item id="5895" name="fish fin" chance="156" />
 	</loot>
 </monster>

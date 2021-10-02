@@ -70,14 +70,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -5},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 5}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,22 +90,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 107},
-	{id = "platinum coin", chance = 14406},
-	{id = "magma clump", chance = 12249},
-	{id = "banana", chance = 9581, maxCount = 10},
-	{id = "fiery heart", chance = 9000},
-	{id = "blazing bone", chance = 7950},
-	{id = "strong mana potion", chance = 7397},
-	{id = "strong health potion", chance = 7314},
-	{id = "brown crystal splinter", chance = 4963},
-	{id = "sword ring", chance = 3069},
-	{id = "red crystal fragment", chance = 2461},
-	{id = "wand of inferno", chance = 982},
-	{id = "magma amulet", chance = 899},
-	{id = "coal", chance = 885},
-	{id = "fire sword", chance = 304},
-	{id = "magma coat", chance = 166}
+	{id = 2148, chance = 100000, maxCount = 107},
+	{id = 2152, chance = 14406},
+	{id = 18424, chance = 12249},
+	{id = 2676, chance = 9581, maxCount = 10},
+	{id = 10553, chance = 9000},
+	{id = 18425, chance = 7950},
+	{id = 7589, chance = 7397},
+	{id = 7588, chance = 7314},
+	{id = 18417, chance = 4963},
+	{id = 2207, chance = 3069},
+	{id = 18420, chance = 2461},
+	{id = 2187, chance = 982},
+	{id = 7890, chance = 899},
+	{id = 13757, chance = 885},
+	{id = 2392, chance = 304},
+	{id = 7899, chance = 166}
 }
 
 mType:register(monster)

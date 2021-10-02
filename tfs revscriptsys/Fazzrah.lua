@@ -86,19 +86,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 292},
-	{id = "lizard leather", chance = 100000},
-	{id = "lizard scale", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "strong health potion", chance = 100000},
-	{id = "zaogun flag", chance = 100000},
-	{id = "zaogun shoulderplates", chance = 100000},
-	{id = "small emerald", chance = 77358, maxCount = 5},
-	{id = "great health potion", chance = 69811, maxCount = 3},
-	{id = "zaoan shoes", chance = 69811},
-	{id = "red lantern", chance = 33962},
-	{id = "zaoan armor", chance = 11321},
-	{id = "zaoan legs", chance = 11321}
+	{id = 2148, chance = 100000, maxCount = 292},
+	{id = 5876, chance = 100000},
+	{id = 5881, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 5},
+	{id = 7588, chance = 100000},
+	{id = 11330, chance = 100000},
+	{id = 11331, chance = 100000},
+	{id = 2149, chance = 77358, maxCount = 5},
+	{id = 7591, chance = 69811, maxCount = 3},
+	{id = 11303, chance = 69811},
+	{id = 11206, chance = 33962},
+	{id = 11301, chance = 11321},
+	{id = 11304, chance = 11321}
 }
 
 mType:register(monster)

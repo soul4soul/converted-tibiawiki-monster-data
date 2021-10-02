@@ -68,14 +68,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 10},
-	{type = COMBAT_FIREDAMAGE, percent = -5},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,17 +88,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "white mushroom", chance = 50136},
-	{id = "gold coin", chance = 35348, maxCount = 8},
-	{id = "hatchet", chance = 24781},
-	{id = "axe", chance = 14604},
-	{id = "pick", chance = 10155},
-	{id = "copper shield", chance = 10099},
-	{id = "leather legs", chance = 9681},
-	{id = "studded armor", chance = 8008},
-	{id = "letter", chance = 7935},
-	{id = "dwarven ring", chance = 96},
-	{id = "iron ore", chance = 83}
+	{id = 2787, chance = 50137},
+	{id = 2148, chance = 35341, maxCount = 8},
+	{id = 2388, chance = 24786},
+	{id = 2386, chance = 14602},
+	{id = 3456, chance = 10153},
+	{id = 2530, chance = 10095},
+	{id = 2649, chance = 9675},
+	{id = 2484, chance = 8008},
+	{id = 2597, chance = 7932},
+	{id = 2213, chance = 96},
+	{id = 5880, chance = 83}
 }
 
 mType:register(monster)

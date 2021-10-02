@@ -72,15 +72,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 10},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 50}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -94,16 +94,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "fish", chance = 100000, maxCount = 5},
-	{id = "gold coin", chance = 100000, maxCount = 65},
-	{id = "white pearl", chance = 100000},
-	{id = "white piece of cloth", chance = 100000},
-	{id = "ice cube", chance = 62500},
-	{id = "bone shield", chance = 37500},
-	{id = "mace", chance = 37500},
-	{id = "mammoth whopper", chance = 25000},
-	{id = "northern pike", chance = 12500},
-	{id = "green perch", chance = 12500}
+	{id = 2667, chance = 100000, maxCount = 5},
+	{id = 2148, chance = 100000, maxCount = 65},
+	{id = 2143, chance = 100000},
+	{id = 5909, chance = 100000},
+	{id = 7441, chance = 62500},
+	{id = 2541, chance = 37500},
+	{id = 2398, chance = 37500},
+	{id = 7381, chance = 25000},
+	{id = 2669, chance = 12500},
+	{id = 7159, chance = 12500}
 }
 
 mType:register(monster)

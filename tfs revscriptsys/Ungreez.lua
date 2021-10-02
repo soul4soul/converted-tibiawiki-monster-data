@@ -67,16 +67,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 30},
-	{type = COMBAT_ENERGYDAMAGE, percent = 55},
-	{type = COMBAT_EARTHDAMAGE, percent = 60},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -5},
-	{type = COMBAT_HOLYDAMAGE , percent = -5},
-	{type = COMBAT_DEATHDAMAGE , percent = 20}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,9 +90,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 37500, maxCount = 96},
-	{id = "fire mushroom", chance = 16667, maxCount = 4},
-	{id = "great health potion", chance = 4167}
+	{id = 2148, chance = 37500, maxCount = 96},
+	{id = 2795, chance = 16667, maxCount = 4},
+	{id = 7591, chance = 4167}
 }
 
 mType:register(monster)

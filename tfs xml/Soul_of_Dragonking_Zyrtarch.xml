@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Soul Of Dragonking Zyrtarch" nameDescription="" experience="0" speed="0" manacost="0">
+	<health now="0" max="0" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="200" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="35" />
+		<item id="5948" name="red dragon leather" chance="100000" />
+		<item id="5882" name="red dragon scale" chance="100000" />
+		<item id="18413" name="blue crystal shard" chance="76316" countmax="3" />
+		<item id="5889" name="piece of draconian steel" chance="76316" />
+		<item id="5904" name="magic sulphur" chance="73684" />
+		<item id="7590" name="great mana potion" chance="63158" countmax="10" />
+		<item id="18414" name="violet crystal shard" chance="63158" countmax="3" />
+		<item id="18415" name="green crystal shard" chance="57895" countmax="3" />
+		<item id="8472" name="great spirit potion" chance="47368" countmax="10" />
+		<item id="8473" name="ultimate health potion" chance="44737" countmax="10" />
+		<item id="2156" name="red gem" chance="34211" />
+		<item id="9970" name="small topaz" chance="34211" countmax="10" />
+		<item id="25377" name="gold token" chance="28947" />
+		<item id="25172" name="silver token" chance="28947" />
+		<item id="2145" name="small diamond" chance="21053" countmax="10" />
+		<item id="2147" name="small ruby" chance="21053" countmax="10" />
+		<item id="8902" name="spellbook of mind control" chance="21053" />
+		<item id="2158" name="blue gem" chance="18421" />
+		<item id="9980" name="crystal of power" chance="18421" />
+		<item id="2155" name="green gem" chance="18421" />
+		<item name="giant shimmering pearl" chance="15789" />
+		<item id="9971" name="gold ingot" chance="15789" />
+		<item id="9809" name="rusted armor" chance="13158" />
+		<item id="9810" name="slightly rusted armor" chance="13158" />
+		<item id="2150" name="small amethyst" chance="13158" countmax="10" />
+		<item id="2154" name="yellow gem" chance="13158" />
+		<item id="12608" name="broken key ring" chance="10526" />
+		<item id="2149" name="small emerald" chance="10526" countmax="10" />
+		<item id="7430" name="dragonbone staff" chance="7895" />
+		<item id="8849" name="modified crossbow" chance="7895" />
+		<item id="2492" name="dragon scale mail" chance="5263" />
+		<item id="27624" name="golden talon" chance="5263" />
+		<item id="5887" name="piece of royal steel" chance="5263" />
+		<item id="11308" name="drachaku" chance="2632" />
+		<item id="27623" name="dragon crown" chance="2632" />
+		<item id="11305" name="drakinata" chance="2632" />
+		<item name="part of a rune" chance="2632" />
+		<item id="12648" name="snake god's sceptre" chance="2632" />
+	</loot>
+</monster>

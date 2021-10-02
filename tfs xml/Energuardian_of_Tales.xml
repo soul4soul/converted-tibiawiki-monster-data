@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Energuardian Of Tales" nameDescription="an energuardian of tales" experience="11361" speed="420" manacost="0">
+	<health now="14000" max="14000" />
+	<look type="1063" head="86" body="85" legs="82" feet="93" addons="3" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="77" defense="77" />
+	<loot>
+		<item id="31225" name="book page" chance="58564" countmax="6" />
+		<item id="2150" name="small amethyst" chance="55907" countmax="10" />
+		<item id="31226" name="glowing rune" chance="20341" countmax="4" />
+		<item id="8473" name="ultimate health potion" chance="13142" />
+		<item id="26029" name="ultimate mana potion" chance="9282" />
+		<item id="8901" name="spellbook of warding" chance="9120" />
+		<item id="7895" name="lightning legs" chance="7612" />
+		<item id="7838" name="flash arrow" chance="7522" countmax="15" />
+		<item id="8920" name="wand of starstorm" chance="7092" />
+		<item id="7889" name="lightning pendant" chance="4111" countmax="2" />
+		<item id="2164" name="might ring" chance="2549" />
+		<item id="2171" name="platinum amulet" chance="2262" />
+		<item id="18390" name="wand of defiance" chance="1221" />
+		<item id="11355" name="spellweaver's robe" chance="898" />
+		<item id="10221" name="shockwave amulet" chance="664" />
+	</loot>
+</monster>

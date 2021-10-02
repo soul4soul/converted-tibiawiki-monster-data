@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grim Reaper" nameDescription="a grim reaper" experience="5500" speed="320" manacost="0">
+	<health now="3900" max="3900" />
+	<look type="300" head="0" body="0" legs="0" feet="0" addons="1" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="30" defense="30" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Death!" yell="false" />
+		<voice sentence="Come a little closer!" yell="false" />
+		<voice sentence="The end is near!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="99399" countmax="261" />
+		<item id="6558" name="flask of demonic blood" chance="36605" />
+		<item id="6500" name="demonic essence" chance="11918" />
+		<item id="8473" name="ultimate health potion" chance="10516" />
+		<item id="2550" name="scythe" chance="10065" />
+		<item id="7590" name="great mana potion" chance="9965" />
+		<item id="10577" name="mystical hourglass" chance="5408" />
+		<item id="2162" name="magic light wand" chance="5308" />
+		<item id="2152" name="platinum coin" chance="4807" countmax="4" />
+		<item id="2521" name="dark shield" chance="3155" />
+		<item id="9810" name="slightly rusted armor" chance="2704" />
+		<item id="8910" name="underworld rod" chance="1102" />
+		<item id="5022" name="orichalcum pearl" chance="951" countmax="4" />
+		<item id="7418" name="nightmare blade" chance="801" />
+		<item id="7896" name="glacier kilt" chance="351" />
+		<item id="6300" name="death ring" chance="300" />
+		<item id="8889" name="skullcracker armor" chance="300" />
+	</loot>
+</monster>

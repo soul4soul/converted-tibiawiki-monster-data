@@ -68,14 +68,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,17 +89,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 170},
-	{id = "mutated rat tail", chance = 100000},
-	{id = "ring of healing", chance = 100000},
-	{id = "platinum coin", chance = 94872, maxCount = 4},
-	{id = "small ruby", chance = 71795, maxCount = 3},
-	{id = "knight armor", chance = 52564},
-	{id = "tower shield", chance = 43590},
-	{id = "halberd", chance = 28205},
-	{id = "epee", chance = 25641},
-	{id = "terra mantle", chance = 10256},
-	{id = "stone herb", chance = 5128}
+	{id = 2148, chance = 100000, maxCount = 170},
+	{id = 10585, chance = 100000},
+	{id = 2214, chance = 100000},
+	{id = 2152, chance = 94872, maxCount = 4},
+	{id = 2147, chance = 71795, maxCount = 3},
+	{id = 2476, chance = 52564},
+	{id = 2528, chance = 43590},
+	{id = 2381, chance = 28205},
+	{id = 2438, chance = 25641},
+	{id = 7884, chance = 10256},
+	{id = 2799, chance = 5128}
 }
 
 mType:register(monster)

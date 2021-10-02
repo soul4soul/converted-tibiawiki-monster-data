@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Glooth Bomb" nameDescription="a glooth bomb" experience="0" speed="0" manacost="0">
+	<health now="250000" max="250000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="85" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-328" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="25000" max="62500" />
+	</defenses>
+	<loot>
+		<item id="2148" name="gold coin" chance="60000" countmax="86" />
+		<item id="7591" name="great health potion" chance="40000" countmax="13" />
+		<item id="7590" name="great mana potion" chance="40000" countmax="13" />
+		<item id="8472" name="great spirit potion" chance="40000" countmax="11" />
+		<item id="2152" name="platinum coin" chance="40000" countmax="27" />
+		<item id="23571" name="moohtant horn" chance="33333" countmax="2" />
+		<item id="2147" name="small ruby" chance="20000" />
+		<item id="2154" name="yellow gem" chance="13333" />
+		<item id="5911" name="red piece of cloth" chance="6667" />
+		<item id="2214" name="ring of healing" chance="6667" />
+		<item id="2145" name="small diamond" chance="6667" countmax="5" />
+		<item id="9970" name="small topaz" chance="6667" countmax="3" />
+	</loot>
+</monster>

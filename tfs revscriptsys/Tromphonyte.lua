@@ -88,15 +88,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "hollow stampor hoof", chance = 100000},
-	{id = "knight armor", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 13},
-	{id = "small topaz", chance = 100000, maxCount = 5},
-	{id = "stampor horn", chance = 100000},
-	{id = "stampor talons", chance = 100000},
-	{id = "strong health potion", chance = 100000, maxCount = 2},
-	{id = "strong mana potion", chance = 100000, maxCount = 2},
-	{id = "spiked squelcher", chance = 50877}
+	{id = 13301, chance = 100000},
+	{id = 2476, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 13},
+	{id = 9970, chance = 100000, maxCount = 5},
+	{id = 13299, chance = 100000},
+	{id = 13300, chance = 100000},
+	{id = 7588, chance = 100000, maxCount = 2},
+	{id = 7589, chance = 100000, maxCount = 2},
+	{id = 7452, chance = 50877}
 }
 
 mType:register(monster)

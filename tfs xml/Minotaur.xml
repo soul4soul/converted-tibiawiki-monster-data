@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -32,13 +32,13 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="20" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-10" />
-		<element holyPercent="10" />
-		<element deathPercent="-10" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-45" />
@@ -49,17 +49,17 @@
 		<voice sentence="Hurr" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="66314" countmax="25" />
-		<item name="plate shield" chance="20038" />
-		<item name="mace" chance="13069" />
-		<item name="chain armor" chance="10058" />
-		<item name="brass helmet" chance="7998" />
-		<item name="sword" chance="4961" />
-		<item name="meat" chance="4955" />
-		<item name="axe" chance="3977" />
-		<item name="minotaur horn" chance="2020" countmax="2" />
-		<item name="minotaur leather" chance="1008" />
-		<item name="shovel" chance="307" />
-		<item name="bronze amulet" chance="109" />
+		<item id="2148" name="gold coin" chance="66300" countmax="25" />
+		<item id="2510" name="plate shield" chance="20042" />
+		<item id="2398" name="mace" chance="13068" />
+		<item id="2464" name="chain armor" chance="10059" />
+		<item id="2460" name="brass helmet" chance="7989" />
+		<item id="2376" name="sword" chance="4964" />
+		<item id="2666" name="meat" chance="4960" />
+		<item id="2386" name="axe" chance="3975" />
+		<item id="12428" name="minotaur horn" chance="2025" countmax="2" />
+		<item id="5878" name="minotaur leather" chance="1003" />
+		<item id="2554" name="shovel" chance="306" />
+		<item id="2172" name="bronze amulet" chance="108" />
 	</loot>
 </monster>

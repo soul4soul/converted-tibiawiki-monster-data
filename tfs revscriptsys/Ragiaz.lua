@@ -74,7 +74,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 1}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,18 +87,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "flask of demonic blood", chance = 100000},
-	{id = "cyan crystal fragment", chance = 100000, maxCount = 4},
-	{id = "death ring", chance = 100000},
-	{id = "demonic essence", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "green gem", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 30},
-	{id = "red crystal fragment", chance = 100000, maxCount = 4},
-	{id = "rift bow", chance = 100000},
-	{id = "silver token", chance = 100000},
-	{id = "small amethyst", chance = 100000, maxCount = 5},
-	{id = "ultimate health potion", chance = 100000, maxCount = 10}
+	{id = 6558, chance = 100000},
+	{id = 18419, chance = 100000, maxCount = 4},
+	{id = 6300, chance = 100000},
+	{id = 6500, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 200},
+	{id = 2155, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 30},
+	{id = 18420, chance = 100000, maxCount = 4},
+	{id = 25522, chance = 100000},
+	{id = 25172, chance = 100000},
+	{id = 2150, chance = 100000, maxCount = 5},
+	{id = 8473, chance = 100000, maxCount = 10}
 }
 
 mType:register(monster)

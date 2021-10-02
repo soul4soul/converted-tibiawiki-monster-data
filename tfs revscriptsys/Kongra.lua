@@ -69,15 +69,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 5},
-	{type = COMBAT_EARTHDAMAGE, percent = 10},
-	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -15},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,15 +91,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87998, maxCount = 40},
-	{id = "banana", chance = 30808, maxCount = 12},
-	{id = "kongra's shoulderpad", chance = 9353},
-	{id = "protection amulet", chance = 1013},
-	{id = "plate armor", chance = 1007},
-	{id = "ape fur", chance = 969},
-	{id = "health potion", chance = 508},
-	{id = "power ring", chance = 310},
-	{id = "club ring", chance = 196}
+	{id = 2148, chance = 87999, maxCount = 40},
+	{id = 2676, chance = 30808, maxCount = 12},
+	{id = 12427, chance = 9354},
+	{id = 2200, chance = 1013},
+	{id = 2463, chance = 1007},
+	{id = 5883, chance = 969},
+	{id = 7618, chance = 508},
+	{id = 2166, chance = 310},
+	{id = 2209, chance = 196}
 }
 
 mType:register(monster)

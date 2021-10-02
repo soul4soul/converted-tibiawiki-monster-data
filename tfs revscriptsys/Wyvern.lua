@@ -67,13 +67,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -90,15 +90,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 99981, maxCount = 90},
-	{id = "dragon ham", chance = 60229},
-	{id = "wyvern talisman", chance = 11982},
-	{id = "small sapphire", chance = 4932},
-	{id = "power bolt", chance = 3378},
-	{id = "strong health potion", chance = 2461},
-	{id = "wand of inferno", chance = 787},
-	{id = "emerald bangle", chance = 589},
-	{id = "wyvern fang", chance = 456}
+	{id = 2148, chance = 99981, maxCount = 90},
+	{id = 2672, chance = 60218},
+	{id = 10561, chance = 11983},
+	{id = 2146, chance = 4930},
+	{id = 2547, chance = 3375},
+	{id = 7588, chance = 2469},
+	{id = 2187, chance = 785},
+	{id = 2127, chance = 588},
+	{id = 7408, chance = 455}
 }
 
 mType:register(monster)

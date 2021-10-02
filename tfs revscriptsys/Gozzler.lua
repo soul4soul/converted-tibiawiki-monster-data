@@ -70,7 +70,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -78,8 +78,8 @@ monster.elements = {
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 50},
-	{type = COMBAT_DEATHDAMAGE , percent = 50}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -94,16 +94,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 82181, maxCount = 70},
-	{id = "plate shield", chance = 10021},
-	{id = "brown flask", chance = 9041},
-	{id = "sabre", chance = 8146},
-	{id = "morning star", chance = 5123},
-	{id = "battle axe", chance = 3090},
-	{id = "clerical mace", chance = 780},
-	{id = "small sapphire", chance = 392},
-	{id = "serpent sword", chance = 304},
-	{id = "dwarven ring", chance = 205}
+	{id = 2148, chance = 82181, maxCount = 70},
+	{id = 2510, chance = 10021},
+	{id = 2015, chance = 9041},
+	{id = 2385, chance = 8146},
+	{id = 2394, chance = 5123},
+	{id = 2378, chance = 3090},
+	{id = 2423, chance = 780},
+	{id = 2146, chance = 392},
+	{id = 2409, chance = 304},
+	{id = 2213, chance = 205}
 }
 
 mType:register(monster)

@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="-10" />
-		<element earthPercent="50" />
-		<element firePercent="50" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="100" />
-		<element holyPercent="30" />
-		<element deathPercent="-10" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" />
@@ -56,35 +56,35 @@
 		<voice sentence="Freeze!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="93333" countmax="200" />
-		<item name="silver raid token" chance="86667" />
-		<item name="shard" chance="60000" />
-		<item name="crystal sword" chance="46667" />
-		<item name="glacier shoes" chance="40000" />
-		<item name="great spirit potion" chance="40000" countmax="5" />
-		<item name="ice rapier" chance="40000" />
-		<item name="life ring" chance="40000" />
-		<item name="platinum coin" chance="40000" />
-		<item name="berserk potion" chance="33333" />
-		<item name="blue gem" chance="33333" />
-		<item name="bullseye potion" chance="33333" />
-		<item name="mastermind potion" chance="33333" />
-		<item name="white piece of cloth" chance="33333" countmax="2" />
-		<item name="great mana potion" chance="26667" countmax="5" />
-		<item name="mystic turban" chance="26667" />
-		<item name="glacier amulet" chance="20000" />
-		<item name="skull staff" chance="20000" />
-		<item name="blue piece of cloth" chance="13333" />
-		<item name="crystal mace" chance="13333" />
-		<item name="dragon necklace" chance="13333" />
-		<item name="glacier kilt" chance="13333" />
-		<item name="glacier robe" chance="13333" />
-		<item name="gold ingot" chance="13333" />
-		<item name="great health potion" chance="13333" countmax="5" />
-		<item name="pair of earmuffs" chance="13333" />
-		<item name="boots of haste" chance="6667" />
-		<item name="glacier mask" chance="6667" />
-		<item name="red piece of cloth" chance="6667" />
-		<item name="trapped lightning" chance="6667" />
+		<item id="2148" name="gold coin" chance="93333" countmax="200" />
+		<item id="21400" name="silver raid token" chance="86667" />
+		<item id="7290" name="shard" chance="60000" />
+		<item id="7449" name="crystal sword" chance="46667" />
+		<item id="7892" name="glacier shoes" chance="40000" />
+		<item id="8472" name="great spirit potion" chance="40000" countmax="5" />
+		<item id="2396" name="ice rapier" chance="40000" />
+		<item id="2168" name="life ring" chance="40000" />
+		<item id="2152" name="platinum coin" chance="40000" />
+		<item id="7439" name="berserk potion" chance="33333" />
+		<item id="2158" name="blue gem" chance="33333" />
+		<item id="7443" name="bullseye potion" chance="33333" />
+		<item id="7440" name="mastermind potion" chance="33333" />
+		<item id="5909" name="white piece of cloth" chance="33333" countmax="2" />
+		<item id="7590" name="great mana potion" chance="26667" countmax="5" />
+		<item id="2663" name="mystic turban" chance="26667" />
+		<item id="7888" name="glacier amulet" chance="20000" />
+		<item id="2436" name="skull staff" chance="20000" />
+		<item id="5912" name="blue piece of cloth" chance="13333" />
+		<item id="2445" name="crystal mace" chance="13333" />
+		<item id="2201" name="dragon necklace" chance="13333" />
+		<item id="7896" name="glacier kilt" chance="13333" />
+		<item id="7897" name="glacier robe" chance="13333" />
+		<item id="9971" name="gold ingot" chance="13333" />
+		<item id="7591" name="great health potion" chance="13333" countmax="5" />
+		<item id="7459" name="pair of earmuffs" chance="13333" />
+		<item id="2195" name="boots of haste" chance="6667" />
+		<item id="7902" name="glacier mask" chance="6667" />
+		<item id="5911" name="red piece of cloth" chance="6667" />
+		<item id="21699" name="trapped lightning" chance="6667" />
 	</loot>
 </monster>

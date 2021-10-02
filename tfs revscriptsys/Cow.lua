@@ -67,14 +67,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 10},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,11 +88,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "meat", chance = 17043},
-	{id = "veal", chance = 5076},
-	{id = "meat hammer", chance = 1144},
-	{id = "milk churn", chance = 572},
-	{id = "cow bell", chance = 315}
+	{id = 2666, chance = 17043},
+	{id = 34665, chance = 5076},
+	{id = 34666, chance = 1144},
+	{id = 34667, chance = 572},
+	{id = 34668, chance = 315}
 }
 
 mType:register(monster)

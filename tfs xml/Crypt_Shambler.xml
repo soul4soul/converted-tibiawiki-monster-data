@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Crypt Shambler" nameDescription="a crypt shambler" experience="195" speed="140" manacost="0">
+	<health now="330" max="330" />
+	<look type="100" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-140" />
+	</attacks>
+	<defenses armor="30" defense="30" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Aaaaahhhh!" yell="false" />
+		<voice sentence="Hoooohhh!" yell="false" />
+		<voice sentence="Uhhhhhhh!" yell="false" />
+		<voice sentence="Chhhhhhh!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="58094" countmax="55" />
+		<item id="3976" name="worm" chance="8997" countmax="10" />
+		<item id="2230" name="bone" chance="4945" />
+		<item id="2459" name="iron helmet" chance="2046" />
+		<item id="2227" name="rotten meat" chance="1963" />
+		<item id="2377" name="two handed sword" chance="1957" />
+		<item id="2541" name="bone shield" chance="1031" />
+		<item id="2399" name="throwing star" chance="1006" countmax="3" />
+		<item id="2450" name="bone sword" chance="996" />
+		<item id="2145" name="small diamond" chance="492" />
+	</loot>
+</monster>

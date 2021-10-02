@@ -66,16 +66,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,27 +89,27 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 262},
-	{id = "undead heart", chance = 100000},
-	{id = "jade hat", chance = 94737},
-	{id = "demonic essence", chance = 84211},
-	{id = "spellweaver's robe", chance = 68421},
-	{id = "zaoan shoes", chance = 68421},
-	{id = "ghastly dragon head", chance = 63158},
-	{id = "ultimate health potion", chance = 63158, maxCount = 5},
-	{id = "zaoan legs", chance = 52632},
-	{id = "zaoan sword", chance = 42105},
-	{id = "twin hooks", chance = 36842},
-	{id = "great spirit potion", chance = 31579, maxCount = 5},
-	{id = "platinum coin", chance = 26316, maxCount = 2},
-	{id = "drakinata", chance = 21053},
-	{id = "guardian boots", chance = 21053},
-	{id = "zaoan armor", chance = 21053},
-	{id = "zaoan halberd", chance = 21053},
-	{id = "cobra crown", chance = 5263},
-	{id = "great health potion", chance = 5263, maxCount = 5},
-	{id = "snake god's sceptre", chance = 5263},
-	{id = "zaoan helmet", chance = 5263}
+	{id = 2148, chance = 100000, maxCount = 262},
+	{id = 11367, chance = 100000},
+	{id = 11368, chance = 94737},
+	{id = 6500, chance = 84211},
+	{id = 11355, chance = 68421},
+	{id = 11303, chance = 68421},
+	{id = 11366, chance = 63158},
+	{id = 8473, chance = 63158, maxCount = 5},
+	{id = 11304, chance = 52632},
+	{id = 11307, chance = 42105},
+	{id = 11309, chance = 36842},
+	{id = 8472, chance = 31579, maxCount = 5},
+	{id = 2152, chance = 26316, maxCount = 2},
+	{id = 11305, chance = 21053},
+	{id = 11240, chance = 21053},
+	{id = 11301, chance = 21053},
+	{id = 11323, chance = 21053},
+	{id = 12630, chance = 5263},
+	{id = 7591, chance = 5263, maxCount = 5},
+	{id = 12648, chance = 5263},
+	{id = 11302, chance = 5263}
 }
 
 mType:register(monster)

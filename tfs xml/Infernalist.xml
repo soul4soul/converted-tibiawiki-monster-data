@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="-5" />
-		<element energyPercent="100" />
-		<element earthPercent="95" />
-		<element firePercent="100" />
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-5" />
-		<element holyPercent="20" />
-		<element deathPercent="10" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
@@ -56,22 +56,22 @@
 		<voice name="fire elemental" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item name="gold coin" chance="97523" countmax="151" />
-		<item name="great mana potion" chance="19527" />
-		<item name="great health potion" chance="18531" />
-		<item name="raspberry" chance="8255" countmax="5" />
-		<item name="skull staff" chance="6547" />
-		<item name="small enchanted ruby" chance="4611" />
-		<item name="energy ring" chance="2249" />
-		<item name="red piece of cloth" chance="1224" />
-		<item name="royal tapestry" chance="769" />
-		<item name="magic sulphur" chance="655" />
-		<item name="black skull" chance="455" />
-		<item name="spellbook of mind control" chance="455" />
-		<item name="red tome" chance="256" />
-		<item name="magma boots" chance="228" />
-		<item name="gold ingot" chance="142" />
-		<item name="piggy bank" chance="114" />
-		<item name="crystal of power" chance="85" />
+		<item id="2148" name="gold coin" chance="97526" countmax="151" />
+		<item id="7590" name="great mana potion" chance="19505" />
+		<item id="7591" name="great health potion" chance="18539" />
+		<item id="8840" name="raspberry" chance="8246" countmax="5" />
+		<item id="2436" name="skull staff" chance="6540" />
+		<item id="7760" name="small enchanted ruby" chance="4606" />
+		<item id="2167" name="energy ring" chance="2246" />
+		<item id="5911" name="red piece of cloth" chance="1223" />
+		<item id="9958" name="royal tapestry" chance="768" />
+		<item id="5904" name="magic sulphur" chance="654" />
+		<item id="9969" name="black skull (item)" chance="455" />
+		<item id="8902" name="spellbook of mind control" chance="455" />
+		<item id="1986" name="red tome" chance="256" />
+		<item id="7891" name="magma boots" chance="227" />
+		<item id="9971" name="gold ingot" chance="142" />
+		<item id="2114" name="piggy bank" chance="114" />
+		<item id="9980" name="crystal of power" chance="85" />
 	</loot>
 </monster>

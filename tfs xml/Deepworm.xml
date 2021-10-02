@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -31,8 +31,8 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="20" />
-		<element firePercent="-20" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -45,21 +45,21 @@
 	</attacks>
 	<defenses armor="73" defense="73" />
 	<loot>
-		<item name="deepworm jaws" chance="23629" />
-		<item name="wood mushroom" chance="22272" />
-		<item name="meat" chance="19446" />
-		<item name="ham" chance="19248" />
-		<item name="green mushroom" chance="18146" />
-		<item name="dark mushroom" chance="14613" />
-		<item name="deepworm spike roots" chance="13086" />
-		<item name="deepworm spikes" chance="10232" />
-		<item name="life ring" chance="8225" />
-		<item name="green crystal shard" chance="5822" />
-		<item name="terra amulet" chance="4748" />
-		<item name="small enchanted amethyst" chance="3363" countmax="2" />
-		<item name="sacred tree amulet" chance="2289" />
-		<item name="suspicious device" chance="1639" />
-		<item name="springsprout rod" chance="1187" />
-		<item name="giant shimmering pearl (brown)" chance="622" />
+		<item id="30250" name="deepworm jaws" chance="23657" />
+		<item id="2791" name="wood mushroom" chance="22391" />
+		<item id="2666" name="meat" chance="19494" />
+		<item id="2671" name="ham" chance="19297" />
+		<item id="2796" name="green mushroom" chance="18115" />
+		<item id="2792" name="dark mushroom" chance="14543" />
+		<item id="30249" name="deepworm spike roots" chance="13080" />
+		<item id="30248" name="deepworm spikes" chance="10239" />
+		<item id="2168" name="life ring" chance="8270" />
+		<item id="18415" name="green crystal shard" chance="5795" />
+		<item id="7887" name="terra amulet" chance="4810" />
+		<item id="7762" name="small enchanted amethyst" chance="3347" countmax="2" />
+		<item id="10219" name="sacred tree amulet" chance="2278" />
+		<item id="30309" name="suspicious device" chance="1632" />
+		<item id="8912" name="springsprout rod" chance="1181" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="619" />
 	</loot>
 </monster>

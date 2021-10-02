@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -48,11 +48,11 @@
 		<voice sentence="Gnark!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="84945" countmax="12" />
-		<item name="swampling moss" chance="19933" />
-		<item name="piece of swampling wood" chance="14906" />
-		<item name="white mushroom" chance="10233" />
-		<item name="swampling club" chance="7424" />
-		<item name="rope" chance="5085" />
+		<item id="2148" name="gold coin" chance="84945" countmax="12" />
+		<item id="20102" name="swampling moss" chance="19933" />
+		<item id="20103" name="piece of swampling wood" chance="14906" />
+		<item id="2787" name="white mushroom" chance="10233" />
+		<item id="20104" name="swampling club" chance="7424" />
+		<item id="2120" name="rope" chance="5085" />
 	</loot>
 </monster>

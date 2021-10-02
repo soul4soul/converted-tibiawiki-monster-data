@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="20" />
-		<element earthPercent="100" />
-		<element firePercent="20" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="10" />
-		<element holyPercent="-25" />
-		<element deathPercent="100" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
@@ -58,21 +58,21 @@
 		<voice sentence="Weeeheeheeeheee!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="96901" countmax="155" />
-		<item name="ham" chance="30121" />
-		<item name="soul orb" chance="20920" />
-		<item name="flask of demonic blood" chance="20484" />
-		<item name="essence of a bad dream" chance="15545" />
-		<item name="scythe leg" chance="10169" />
-		<item name="demonic essence" chance="9637" />
-		<item name="platinum coin" chance="2857" countmax="3" />
-		<item name="power bolt" chance="1259" countmax="4" />
-		<item name="death ring" chance="1211" />
-		<item name="ancient shield" chance="920" />
-		<item name="knight legs" chance="872" />
-		<item name="skeleton decoration" chance="581" />
-		<item name="boots of haste" chance="339" />
-		<item name="mysterious voodoo skull" chance="145" />
-		<item name="war axe" chance="97" />
+		<item id="2148" name="gold coin" chance="96784" countmax="155" />
+		<item id="2671" name="ham" chance="29982" />
+		<item id="6558" name="flask of demonic blood" chance="20697" />
+		<item id="5944" name="soul orb" chance="20652" />
+		<item id="11223" name="essence of a bad dream" chance="15534" />
+		<item id="11229" name="scythe leg" chance="10190" />
+		<item id="6500" name="demonic essence" chance="9466" />
+		<item id="2152" name="platinum coin" chance="2899" countmax="3" />
+		<item id="2547" name="power bolt" chance="1268" countmax="4" />
+		<item id="6300" name="death ring" chance="1178" />
+		<item id="2532" name="ancient shield" chance="996" />
+		<item id="2477" name="knight legs" chance="951" />
+		<item id="6526" name="skeleton decoration" chance="589" />
+		<item id="2195" name="boots of haste" chance="317" />
+		<item id="5669" name="mysterious voodoo skull" chance="181" />
+		<item id="2454" name="war axe" chance="91" />
 	</loot>
 </monster>

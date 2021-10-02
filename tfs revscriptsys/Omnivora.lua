@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 20}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,21 +88,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 145},
-	{id = "fish", chance = 10319},
-	{id = "white mushroom", chance = 9667, maxCount = 3},
-	{id = "ham", chance = 9486},
-	{id = "life ring", chance = 1810},
-	{id = "necrotic rod", chance = 1050},
-	{id = "brown crystal splinter", chance = 724},
-	{id = "blue crystal splinter", chance = 615},
-	{id = "green crystal splinter", chance = 507},
-	{id = "serpent sword", chance = 471},
-	{id = "spellbook of enlightenment", chance = 398},
-	{id = "terra amulet", chance = 398},
-	{id = "terra boots", chance = 290},
-	{id = "death ring", chance = 253},
-	{id = "carrot on a stick", chance = 181}
+	{id = 2148, chance = 100000, maxCount = 145},
+	{id = 2667, chance = 10319},
+	{id = 2787, chance = 9667, maxCount = 3},
+	{id = 2671, chance = 9486},
+	{id = 2168, chance = 1810},
+	{id = 2185, chance = 1050},
+	{id = 18417, chance = 724},
+	{id = 18418, chance = 615},
+	{id = 18416, chance = 507},
+	{id = 2409, chance = 471},
+	{id = 8900, chance = 398},
+	{id = 7887, chance = 398},
+	{id = 7886, chance = 290},
+	{id = 6300, chance = 253},
+	{id = 13298, chance = 181}
 }
 
 mType:register(monster)

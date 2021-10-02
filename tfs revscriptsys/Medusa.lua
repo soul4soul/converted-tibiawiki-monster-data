@@ -70,13 +70,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -92,20 +92,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 190},
-	{id = "platinum coin", chance = 75038, maxCount = 6},
-	{id = "great mana potion", chance = 9928, maxCount = 2},
-	{id = "strand of medusa hair", chance = 9750},
-	{id = "ultimate health potion", chance = 9585, maxCount = 2},
-	{id = "terra amulet", chance = 4094},
-	{id = "small emerald", chance = 3900, maxCount = 4},
-	{id = "medusa shield", chance = 3100},
-	{id = "knight armor", chance = 1985},
-	{id = "titan axe", chance = 1245},
-	{id = "terra mantle", chance = 863},
-	{id = "sacred tree amulet", chance = 827},
-	{id = "terra legs", chance = 382},
-	{id = "slightly rusted armor", chance = 303}
+	{id = 2148, chance = 100000, maxCount = 190},
+	{id = 2152, chance = 75038, maxCount = 6},
+	{id = 7590, chance = 9928, maxCount = 2},
+	{id = 11226, chance = 9750},
+	{id = 8473, chance = 9585, maxCount = 2},
+	{id = 7887, chance = 4094},
+	{id = 2149, chance = 3900, maxCount = 4},
+	{id = 2536, chance = 3100},
+	{id = 2476, chance = 1985},
+	{id = 7413, chance = 1245},
+	{id = 7884, chance = 863},
+	{id = 10219, chance = 827},
+	{id = 7885, chance = 382},
+	{id = 9810, chance = 303}
 }
 
 mType:register(monster)

@@ -66,16 +66,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
-	{type = COMBAT_ENERGYDAMAGE, percent = 40},
-	{type = COMBAT_EARTHDAMAGE, percent = 40},
-	{type = COMBAT_FIREDAMAGE, percent = 30},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 40},
-	{type = COMBAT_HOLYDAMAGE , percent = -20},
-	{type = COMBAT_DEATHDAMAGE , percent = 35}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,37 +89,37 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "cluster of solace", chance = 100000},
-	{id = "demon horn", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 197},
-	{id = "platinum coin", chance = 100000, maxCount = 50},
-	{id = "demonic essence", chance = 59091},
-	{id = "unrealized dream", chance = 59091},
+	{id = 22396, chance = 100000},
+	{id = 5954, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 197},
+	{id = 2152, chance = 100000, maxCount = 50},
+	{id = 6500, chance = 59091},
+	{id = 22598, chance = 59091},
 	{id = "giant shimmering pearl", chance = 42832},
-	{id = "violet crystal shard", chance = 38287, maxCount = 8},
-	{id = "great mana potion", chance = 34790, maxCount = 10},
-	{id = "great spirit potion", chance = 33042, maxCount = 10},
-	{id = "ultimate health potion", chance = 32168, maxCount = 10},
-	{id = "blue crystal shard", chance = 31643, maxCount = 8},
-	{id = "green crystal shard", chance = 30070, maxCount = 8},
-	{id = "green gem", chance = 20455},
-	{id = "guardian halberd", chance = 15909},
-	{id = "guardian shield", chance = 15909},
-	{id = "blue gem", chance = 15559},
-	{id = "gold ingot", chance = 15385},
-	{id = "bonebreaker", chance = 15035},
-	{id = "heavy mace", chance = 12937},
-	{id = "crown shield", chance = 11538},
-	{id = "dream warden mask", chance = 10490},
-	{id = "paladin armor", chance = 9615},
-	{id = "diamond sceptre", chance = 8392},
-	{id = "demon shield", chance = 6294},
-	{id = "onyx flail", chance = 4021},
-	{id = "mastermind shield", chance = 1399},
-	{id = "demonbone", chance = 699},
-	{id = "skullcracker armor", chance = 524},
-	{id = "lavos armor", chance = 350},
-	{id = "obsidian truncheon", chance = 175}
+	{id = 18414, chance = 38287, maxCount = 8},
+	{id = 7590, chance = 34790, maxCount = 10},
+	{id = 8472, chance = 33042, maxCount = 10},
+	{id = 8473, chance = 32168, maxCount = 10},
+	{id = 18413, chance = 31643, maxCount = 8},
+	{id = 18415, chance = 30070, maxCount = 8},
+	{id = 2155, chance = 20455},
+	{id = 2427, chance = 15909},
+	{id = 2515, chance = 15909},
+	{id = 2158, chance = 15559},
+	{id = 9971, chance = 15385},
+	{id = 7428, chance = 15035},
+	{id = 2452, chance = 12937},
+	{id = 2519, chance = 11538},
+	{id = 22610, chance = 10490},
+	{id = 8891, chance = 9615},
+	{id = 7387, chance = 8392},
+	{id = 2520, chance = 6294},
+	{id = 7421, chance = 4021},
+	{id = 2514, chance = 1399},
+	{id = 7431, chance = 699},
+	{id = 8889, chance = 524},
+	{id = 8877, chance = 350},
+	{id = 8928, chance = 175}
 }
 
 mType:register(monster)

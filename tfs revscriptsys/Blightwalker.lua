@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 8900
 monster.maxHealth = 8900
 monster.runHealth = 0
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 350
 monster.summonCost = 0
@@ -68,16 +68,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 50},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 50},
-	{type = COMBAT_HOLYDAMAGE , percent = -30},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,29 +90,29 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 198},
-	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "bunch of wheat", chance = 50241, maxCount = 2},
-	{id = "great mana potion", chance = 30396, maxCount = 3},
-	{id = "demonic essence", chance = 29380},
-	{id = "soul orb", chance = 25368},
-	{id = "blank rune", chance = 25301, maxCount = 2},
-	{id = "bundle of cursed straw", chance = 14924},
-	{id = "ultimate health potion", chance = 14603, maxCount = 2},
-	{id = "hailstorm rod", chance = 9856},
-	{id = "assassin star", chance = 6927, maxCount = 10},
-	{id = "gold ingot", chance = 5269},
-	{id = "giant shimmering pearl (green)", chance = 4587},
-	{id = "seeds", chance = 3825},
-	{id = "scythe", chance = 3129},
-	{id = "terra legs", chance = 2768},
-	{id = "garlic necklace", chance = 2046},
-	{id = "skull staff", chance = 1832},
-	{id = "gold ring", chance = 1471},
-	{id = "death ring", chance = 1324},
-	{id = "terra mantle", chance = 1137},
-	{id = "golden sickle", chance = 187},
-	{id = "amulet of loss", chance = 160}
+	{id = 2148, chance = 100000, maxCount = 198},
+	{id = 2152, chance = 100000, maxCount = 5},
+	{id = 2694, chance = 50286, maxCount = 2},
+	{id = 7590, chance = 30368, maxCount = 3},
+	{id = 6500, chance = 29384},
+	{id = 5944, chance = 25369},
+	{id = 2260, chance = 25342, maxCount = 2},
+	{id = 10605, chance = 14932},
+	{id = 8473, chance = 14586, maxCount = 2},
+	{id = 2183, chance = 9906},
+	{id = 7368, chance = 6954, maxCount = 10},
+	{id = 9971, chance = 5265},
+	{id = 7632, chance = 4561},
+	{id = 7732, chance = 3843},
+	{id = 2550, chance = 3138},
+	{id = 7885, chance = 2752},
+	{id = 2199, chance = 2034},
+	{id = 2436, chance = 1822},
+	{id = 2179, chance = 1476},
+	{id = 6300, chance = 1330},
+	{id = 7884, chance = 1130},
+	{id = 2418, chance = 186},
+	{id = 2173, chance = 160}
 }
 
 mType:register(monster)

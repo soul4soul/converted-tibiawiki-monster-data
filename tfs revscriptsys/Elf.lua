@@ -78,8 +78,8 @@ monster.elements = {
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 20},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,16 +93,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 44651, maxCount = 30},
-	{id = "plum", chance = 19996, maxCount = 2},
-	{id = "studded helmet", chance = 15074},
-	{id = "leather boots", chance = 11121},
-	{id = "longsword", chance = 10921},
-	{id = "studded armor", chance = 9009},
-	{id = "plate shield", chance = 8933},
-	{id = "arrow", chance = 7024, maxCount = 3},
-	{id = "elvish talisman", chance = 1990},
-	{id = "heaven blossom", chance = 1008}
+	{id = 2148, chance = 44651, maxCount = 30},
+	{id = 8839, chance = 19996, maxCount = 2},
+	{id = 2482, chance = 15074},
+	{id = 2643, chance = 11121},
+	{id = 2397, chance = 10921},
+	{id = 2484, chance = 9009},
+	{id = 2510, chance = 8933},
+	{id = 2544, chance = 7024, maxCount = 3},
+	{id = 10552, chance = 1990},
+	{id = 5921, chance = 1008}
 }
 
 mType:register(monster)

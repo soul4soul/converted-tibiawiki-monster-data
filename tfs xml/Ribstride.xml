@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -31,14 +31,14 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="100" />
-		<element firePercent="-10" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="100" />
+		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="-20" />
-		<element deathPercent="100" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
@@ -47,14 +47,14 @@
 		<defense name="healing" interval="2000" chance="20" min="100" max="250" />
 	</defenses>
 	<loot>
-		<item name="bony tail" chance="100000" />
-		<item name="hardened bone" chance="100000" countmax="3" />
-		<item name="platinum coin" chance="100000" countmax="8" />
-		<item name="bone shield" chance="70833" />
-		<item name="green mushroom" chance="65476" countmax="3" />
-		<item name="small diamond" chance="65476" countmax="4" />
-		<item name="bonebeast trophy" chance="22024" />
-		<item name="skull helmet" chance="7143" />
-		<item name="maxilla maximus" chance="1786" />
+		<item id="11194" name="bony tail" chance="100000" />
+		<item id="5925" name="hardened bone" chance="100000" countmax="3" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="8" />
+		<item id="2541" name="bone shield" chance="70833" />
+		<item id="2796" name="green mushroom" chance="65476" countmax="3" />
+		<item id="2145" name="small diamond" chance="65476" countmax="4" />
+		<item id="11161" name="bonebeast trophy" chance="22024" />
+		<item id="5741" name="skull helmet" chance="7143" />
+		<item id="13291" name="maxilla maximus" chance="1786" />
 	</loot>
 </monster>

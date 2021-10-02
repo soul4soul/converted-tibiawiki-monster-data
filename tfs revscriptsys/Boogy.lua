@@ -66,16 +66,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 70},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
-	{type = COMBAT_HOLYDAMAGE , percent = 40},
-	{type = COMBAT_DEATHDAMAGE , percent = 20}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -90,23 +90,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 193},
-	{id = "shimmering beetles", chance = 17165},
-	{id = "strong health potion", chance = 15512},
-	{id = "fairy wings", chance = 15039},
-	{id = "leaf star", chance = 8373, maxCount = 7},
-	{id = "wood mushroom", chance = 4593},
-	{id = "red crystal fragment", chance = 3412, maxCount = 2},
-	{id = "sling herb", chance = 3307},
-	{id = "prismatic quartz", chance = 3228, maxCount = 2},
-	{id = "terra amulet", chance = 2992},
-	{id = "ancient coin", chance = 2913, maxCount = 3},
-	{id = "small enchanted emerald", chance = 2388, maxCount = 3},
-	{id = "berserk potion", chance = 1129},
-	{id = "golden sickle", chance = 814},
-	{id = "wooden spellbook", chance = 525},
-	{id = "crystal of power", chance = 184},
-	{id = "mandrake", chance = 131}
+	{id = 2148, chance = 100000, maxCount = 193},
+	{id = 28349, chance = 17165},
+	{id = 7588, chance = 15512},
+	{id = 28350, chance = 15039},
+	{id = 28391, chance = 8373, maxCount = 7},
+	{id = 2791, chance = 4593},
+	{id = 18420, chance = 3412, maxCount = 2},
+	{id = 2802, chance = 3307},
+	{id = 27618, chance = 3228, maxCount = 2},
+	{id = 7887, chance = 2992},
+	{id = 27046, chance = 2913, maxCount = 3},
+	{id = 7761, chance = 2388, maxCount = 3},
+	{id = 7439, chance = 1129},
+	{id = 2418, chance = 814},
+	{id = 28355, chance = 525},
+	{id = 9980, chance = 184},
+	{id = 5015, chance = 131}
 }
 
 mType:register(monster)

@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -32,13 +32,13 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="-20" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="10" />
-		<element holyPercent="-20" />
-		<element deathPercent="10" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-34" />
@@ -49,23 +49,23 @@
 		<voice sentence="Psh psh psh!!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="100000" countmax="50" />
-		<item name="fireworks capsule" chance="14166" />
-		<item name="broken bell" chance="10105" />
-		<item name="grainy fireworks powder" chance="7858" />
-		<item name="versicolour fireworks powder" chance="4944" />
-		<item name="percht horns" chance="4712" />
-		<item name="rainbow quartz" chance="4231" countmax="2" />
-		<item name="blue fireworks powder" chance="3472" />
-		<item name="bright bell" chance="2821" />
-		<item name="purple fireworks powder" chance="2526" />
-		<item name="yellow fireworks powder" chance="2526" />
-		<item name="green fireworks powder" chance="2418" />
-		<item name="orange fireworks powder" chance="2402" />
-		<item name="turquoise fireworks powder" chance="2387" />
-		<item name="red fireworks powder" chance="2077" />
-		<item name="glacier kilt" chance="1178" />
-		<item name="glacier robe" chance="666" />
-		<item name="glacial rod" chance="434" />
+		<item id="2148" name="gold coin" chance="100000" countmax="50" />
+		<item id="32864" name="fireworks capsule" chance="14166" />
+		<item id="32841" name="broken bell" chance="10105" />
+		<item id="32927" name="grainy fireworks powder" chance="7858" />
+		<item id="32843" name="versicolour fireworks powder" chance="4944" />
+		<item id="32842" name="percht horns" chance="4712" />
+		<item id="28393" name="rainbow quartz" chance="4231" countmax="2" />
+		<item id="32847" name="blue fireworks powder" chance="3472" />
+		<item id="32980" name="bright bell" chance="2821" />
+		<item id="32925" name="purple fireworks powder" chance="2526" />
+		<item id="32845" name="yellow fireworks powder" chance="2526" />
+		<item id="32846" name="green fireworks powder" chance="2418" />
+		<item id="32924" name="orange fireworks powder" chance="2402" />
+		<item id="32926" name="turquoise fireworks powder" chance="2387" />
+		<item id="32844" name="red fireworks powder" chance="2077" />
+		<item id="7896" name="glacier kilt" chance="1178" />
+		<item id="7897" name="glacier robe" chance="666" />
+		<item id="18412" name="glacial rod" chance="434" />
 	</loot>
 </monster>

@@ -68,15 +68,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 1},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 15}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,14 +91,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "ornate shield", chance = 42614},
-	{id = "depth lorica", chance = 27841},
+	{id = 15413, chance = 42614},
+	{id = 15407, chance = 27841},
 	{id = "depth galea", chance = 27273},
-	{id = "depth calcei", chance = 22727},
-	{id = "deepling axe", chance = 22159},
-	{id = "ornate legs", chance = 21023},
-	{id = "ornate mace", chance = 21023},
-	{id = "ornate chestplate", chance = 14773}
+	{id = 15410, chance = 22727},
+	{id = 15404, chance = 22159},
+	{id = 15412, chance = 21023},
+	{id = 15414, chance = 21023},
+	{id = 15406, chance = 14773}
 }
 
 mType:register(monster)

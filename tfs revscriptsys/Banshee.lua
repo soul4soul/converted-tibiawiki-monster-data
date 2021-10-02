@@ -17,7 +17,7 @@ monster.outfit = {
 monster.health = 1000
 monster.maxHealth = 1000
 monster.runHealth = 449
-monster.race = "blood"
+monster.race = "undead"
 monster.corpse = 0
 monster.speed = 220
 monster.summonCost = 0
@@ -74,14 +74,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = -25},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -95,28 +95,28 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "candlestick", chance = 72824},
-	{id = "gold coin", chance = 30931, maxCount = 80},
-	{id = "silver amulet", chance = 9406},
-	{id = "simple dress", chance = 6305},
-	{id = "hair of a banshee", chance = 4973},
-	{id = "petrified scream", chance = 4287},
-	{id = "black pearl", chance = 2166},
-	{id = "silver brooch", chance = 1538},
-	{id = "poison dagger", chance = 1515},
-	{id = "white pearl", chance = 1130},
-	{id = "lyre", chance = 971},
-	{id = "stone skin amulet", chance = 826},
-	{id = "strong mana potion", chance = 770},
-	{id = "ring of healing", chance = 749},
-	{id = "blue robe", chance = 663},
-	{id = "wedding ring", chance = 559},
-	{id = "spellbook", chance = 509},
-	{id = "terra mantle", chance = 337},
-	{id = "crystal ring", chance = 190},
-	{id = "red robe", chance = 103},
-	{id = "life crystal", chance = 102},
-	{id = "sweet smelling bait", chance = 29}
+	{id = "candlestick", chance = 72822},
+	{id = 2148, chance = 30931, maxCount = 80},
+	{id = 2170, chance = 9404},
+	{id = 2657, chance = 6307},
+	{id = 12402, chance = 4974},
+	{id = 11337, chance = 4285},
+	{id = 2144, chance = 2166},
+	{id = 2134, chance = 1537},
+	{id = 2411, chance = 1514},
+	{id = 2143, chance = 1130},
+	{id = 2071, chance = 971},
+	{id = 2197, chance = 825},
+	{id = 7589, chance = 770},
+	{id = 2214, chance = 748},
+	{id = 2656, chance = 663},
+	{id = 2121, chance = 558},
+	{id = 2175, chance = 509},
+	{id = 7884, chance = 337},
+	{id = 2124, chance = 190},
+	{id = 2655, chance = 103},
+	{id = 2177, chance = 102},
+	{id = 13307, chance = 29}
 }
 
 mType:register(monster)

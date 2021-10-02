@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
-	{type = COMBAT_ENERGYDAMAGE, percent = 10},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -5},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
-	{type = COMBAT_HOLYDAMAGE , percent = -8},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -88,18 +88,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 98534, maxCount = 148},
-	{id = "platinum coin", chance = 33431},
-	{id = "vampire teeth", chance = 10557},
-	{id = "small ruby", chance = 8504, maxCount = 3},
-	{id = "strong mana potion", chance = 8504},
-	{id = "tooth file", chance = 7331},
-	{id = "blood preservation", chance = 6158},
-	{id = "strong health potion", chance = 5865},
-	{id = "ring of healing", chance = 3226},
-	{id = "emerald bangle", chance = 1173},
-	{id = "red gem", chance = 880},
-	{id = "vampire shield", chance = 293}
+	{id = 2148, chance = 98534, maxCount = 148},
+	{id = 2152, chance = 33431},
+	{id = 10602, chance = 10557},
+	{id = 2147, chance = 8504, maxCount = 3},
+	{id = 7589, chance = 8504},
+	{id = 21241, chance = 7331},
+	{id = 12405, chance = 6158},
+	{id = 7588, chance = 5865},
+	{id = 2214, chance = 3226},
+	{id = 2127, chance = 1173},
+	{id = 2156, chance = 880},
+	{id = 2534, chance = 293}
 }
 
 mType:register(monster)

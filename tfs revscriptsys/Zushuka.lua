@@ -72,15 +72,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = -10},
-	{type = COMBAT_EARTHDAMAGE, percent = 50},
-	{type = COMBAT_FIREDAMAGE, percent = 50},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 100},
-	{type = COMBAT_HOLYDAMAGE , percent = 30},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -95,36 +95,36 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 93333, maxCount = 200},
-	{id = "silver raid token", chance = 86667},
-	{id = "shard", chance = 60000},
-	{id = "crystal sword", chance = 46667},
-	{id = "glacier shoes", chance = 40000},
-	{id = "great spirit potion", chance = 40000, maxCount = 5},
-	{id = "ice rapier", chance = 40000},
-	{id = "life ring", chance = 40000},
-	{id = "platinum coin", chance = 40000},
-	{id = "berserk potion", chance = 33333},
-	{id = "blue gem", chance = 33333},
-	{id = "bullseye potion", chance = 33333},
-	{id = "mastermind potion", chance = 33333},
-	{id = "white piece of cloth", chance = 33333, maxCount = 2},
-	{id = "great mana potion", chance = 26667, maxCount = 5},
-	{id = "mystic turban", chance = 26667},
-	{id = "glacier amulet", chance = 20000},
-	{id = "skull staff", chance = 20000},
-	{id = "blue piece of cloth", chance = 13333},
-	{id = "crystal mace", chance = 13333},
-	{id = "dragon necklace", chance = 13333},
-	{id = "glacier kilt", chance = 13333},
-	{id = "glacier robe", chance = 13333},
-	{id = "gold ingot", chance = 13333},
-	{id = "great health potion", chance = 13333, maxCount = 5},
-	{id = "pair of earmuffs", chance = 13333},
-	{id = "boots of haste", chance = 6667},
-	{id = "glacier mask", chance = 6667},
-	{id = "red piece of cloth", chance = 6667},
-	{id = "trapped lightning", chance = 6667}
+	{id = 2148, chance = 93333, maxCount = 200},
+	{id = 21400, chance = 86667},
+	{id = 7290, chance = 60000},
+	{id = 7449, chance = 46667},
+	{id = 7892, chance = 40000},
+	{id = 8472, chance = 40000, maxCount = 5},
+	{id = 2396, chance = 40000},
+	{id = 2168, chance = 40000},
+	{id = 2152, chance = 40000},
+	{id = 7439, chance = 33333},
+	{id = 2158, chance = 33333},
+	{id = 7443, chance = 33333},
+	{id = 7440, chance = 33333},
+	{id = 5909, chance = 33333, maxCount = 2},
+	{id = 7590, chance = 26667, maxCount = 5},
+	{id = 2663, chance = 26667},
+	{id = 7888, chance = 20000},
+	{id = 2436, chance = 20000},
+	{id = 5912, chance = 13333},
+	{id = 2445, chance = 13333},
+	{id = 2201, chance = 13333},
+	{id = 7896, chance = 13333},
+	{id = 7897, chance = 13333},
+	{id = 9971, chance = 13333},
+	{id = 7591, chance = 13333, maxCount = 5},
+	{id = 7459, chance = 13333},
+	{id = 2195, chance = 6667},
+	{id = 7902, chance = 6667},
+	{id = 5911, chance = 6667},
+	{id = 21699, chance = 6667}
 }
 
 mType:register(monster)

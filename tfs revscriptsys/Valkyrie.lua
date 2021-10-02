@@ -70,16 +70,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 10},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 10},
-	{type = COMBAT_HOLYDAMAGE , percent = 5},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,20 +93,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "spear", chance = 55327, maxCount = 3},
-	{id = "gold coin", chance = 32705, maxCount = 12},
-	{id = "meat", chance = 30090},
-	{id = "chain armor", chance = 10126},
-	{id = "red apple", chance = 7588, maxCount = 2},
-	{id = "girlish hair decoration", chance = 5951},
-	{id = "hunting spear", chance = 5045},
-	{id = "protective charm", chance = 3197},
-	{id = "protection amulet", chance = 1092},
-	{id = "plate armor", chance = 822},
-	{id = "skull", chance = 738},
-	{id = "health potion", chance = 474},
-	{id = "double axe", chance = 402},
-	{id = "small diamond", chance = 114}
+	{id = 2389, chance = 55392, maxCount = 3},
+	{id = 2148, chance = 32707, maxCount = 12},
+	{id = 2666, chance = 30104},
+	{id = 2464, chance = 10146},
+	{id = 2674, chance = 7592, maxCount = 2},
+	{id = 12399, chance = 5962},
+	{id = 3965, chance = 5061},
+	{id = 12400, chance = 3187},
+	{id = 2200, chance = 1098},
+	{id = 2463, chance = 818},
+	{id = 2229, chance = 752},
+	{id = 7618, chance = 472},
+	{id = 2387, chance = 400},
+	{id = 2145, chance = 113}
 }
 
 mType:register(monster)

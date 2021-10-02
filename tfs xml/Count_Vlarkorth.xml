@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Count Vlarkorth" nameDescription="" experience="0" speed="0" manacost="0">
+	<health now="0" max="0" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="0" max="189" />
+	</defenses>
+	<loot>
+		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
+		<item id="25172" name="silver token" chance="100000" countmax="2" />
+		<item id="26031" name="supreme health potion" chance="58824" countmax="20" />
+		<item id="26029" name="ultimate mana potion" chance="54412" countmax="20" />
+		<item id="26030" name="ultimate spirit potion" chance="54412" countmax="20" />
+		<item id="2156" name="red gem" chance="30882" countmax="2" />
+		<item id="7439" name="berserk potion" chance="25000" countmax="10" />
+		<item id="2160" name="crystal coin" chance="25000" countmax="2" />
+		<item id="2154" name="yellow gem" chance="25000" countmax="2" />
+		<item id="2477" name="knight legs" chance="23529" />
+		<item id="2158" name="blue gem" chance="20588" />
+		<item id="7443" name="bullseye potion" chance="19118" countmax="10" />
+		<item id="2155" name="green gem" chance="16176" countmax="2" />
+		<item id="26199" name="collar of green plasma" chance="14706" />
+		<item id="7440" name="mastermind potion" chance="14706" countmax="10" />
+		<item id="26200" name="collar of red plasma" chance="13235" />
+		<item id="9971" name="gold ingot" chance="13235" />
+		<item id="7891" name="magma boots" chance="13235" />
+		<item id="2436" name="skull staff" chance="11765" />
+		<item id="34246" name="young lich worm" chance="11765" />
+		<item name="collar of blue plasma" chance="10294" />
+		<item id="5904" name="magic sulphur" chance="10294" />
+		<item name="ring of green plasma" chance="8824" />
+		<item name="ring of blue plasma" chance="7353" />
+		<item id="2153" name="violet gem" chance="5882" />
+		<item name="ring of red plasma" chance="4412" />
+		<item id="34245" name="rotten heart" chance="4412" />
+		<item id="34234" name="bear skin" chance="2941" />
+		<item id="34394" name="final judgement" chance="2941" />
+		<item id="32716" name="giant emerald" chance="2941" />
+		<item id="34244" name="ancient liche bone" chance="1471" />
+		<item id="34235" name="embrace of nature" chance="1471" />
+		<item id="32717" name="giant sapphire" chance="1471" />
+		<item id="34247" name="medal of valiance" chance="1471" />
+	</loot>
+</monster>

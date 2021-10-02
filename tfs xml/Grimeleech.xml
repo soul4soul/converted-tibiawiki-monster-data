@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="-5" />
-		<element earthPercent="40" />
-		<element firePercent="20" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="100" />
+		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="60" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-450" />
@@ -50,36 +50,36 @@
 		<voice sentence="Death... Taste!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="93429" countmax="199" />
-		<item name="platinum coin" chance="89849" countmax="8" />
-		<item name="great mana potion" chance="24729" countmax="3" />
-		<item name="great health potion" chance="24659" countmax="3" />
-		<item name="great spirit potion" chance="24258" countmax="3" />
-		<item name="flask of demonic blood" chance="18088" />
-		<item name="some grimeleech wings" chance="14790" />
-		<item name="demonic essence" chance="14390" />
-		<item name="fire mushroom" chance="12011" countmax="5" />
-		<item name="green mushroom" chance="11234" countmax="5" />
-		<item name="small amethyst" chance="7913" countmax="5" />
-		<item name="small ruby" chance="7796" countmax="5" />
-		<item name="small topaz" chance="7537" countmax="5" />
-		<item name="small diamond" chance="7136" countmax="5" />
-		<item name="underworld rod" chance="5841" />
-		<item name="wand of voodoo" chance="3368" />
-		<item name="yellow gem" chance="2803" />
-		<item name="red gem" chance="1884" />
-		<item name="magma legs" chance="966" />
-		<item name="demon shield" chance="824" />
-		<item name="blue gem" chance="777" />
-		<item name="devil helmet" chance="659" />
-		<item name="nightmare blade" chance="565" />
-		<item name="rift lance" chance="518" />
-		<item name="rift bow" chance="330" />
-		<item name="rift shield" chance="330" />
-		<item name="rift crossbow" chance="283" />
-		<item name="steel boots" chance="141" />
-		<item name="magic plate armor" chance="118" />
-		<item name="abyss hammer" chance="94" />
-		<item name="vile axe" chance="94" />
+		<item id="2148" name="gold coin" chance="93429" countmax="199" />
+		<item id="2152" name="platinum coin" chance="89849" countmax="8" />
+		<item id="7590" name="great mana potion" chance="24729" countmax="3" />
+		<item id="7591" name="great health potion" chance="24659" countmax="3" />
+		<item id="8472" name="great spirit potion" chance="24258" countmax="3" />
+		<item id="6558" name="flask of demonic blood" chance="18088" />
+		<item id="25386" name="some grimeleech wings" chance="14790" />
+		<item id="6500" name="demonic essence" chance="14390" />
+		<item id="2795" name="fire mushroom" chance="12011" countmax="5" />
+		<item id="2796" name="green mushroom" chance="11234" countmax="5" />
+		<item id="2150" name="small amethyst" chance="7913" countmax="5" />
+		<item id="2147" name="small ruby" chance="7796" countmax="5" />
+		<item id="9970" name="small topaz" chance="7537" countmax="5" />
+		<item id="2145" name="small diamond" chance="7136" countmax="5" />
+		<item id="8910" name="underworld rod" chance="5841" />
+		<item id="8922" name="wand of voodoo" chance="3368" />
+		<item id="2154" name="yellow gem" chance="2803" />
+		<item id="2156" name="red gem" chance="1884" />
+		<item id="7894" name="magma legs" chance="966" />
+		<item id="2520" name="demon shield" chance="824" />
+		<item id="2158" name="blue gem" chance="777" />
+		<item id="2462" name="devil helmet" chance="659" />
+		<item id="7418" name="nightmare blade" chance="565" />
+		<item id="25383" name="rift lance" chance="518" />
+		<item id="25522" name="rift bow" chance="330" />
+		<item id="25382" name="rift shield" chance="330" />
+		<item id="25523" name="rift crossbow" chance="283" />
+		<item id="2645" name="steel boots" chance="141" />
+		<item id="2472" name="magic plate armor" chance="118" />
+		<item id="7414" name="abyss hammer" chance="94" />
+		<item id="7388" name="vile axe" chance="94" />
 	</loot>
 </monster>

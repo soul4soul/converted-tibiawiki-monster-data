@@ -68,13 +68,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 5},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 50}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -87,23 +87,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "small topaz", chance = 100000, maxCount = 10},
-	{id = "wand of starstorm", chance = 100000},
-	{id = "blue crystal shard", chance = 66667, maxCount = 3},
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 9970, chance = 100000, maxCount = 10},
+	{id = 8920, chance = 100000},
+	{id = 18413, chance = 66667, maxCount = 3},
 	{id = "collar of blue plasma", chance = 66667},
-	{id = "green crystal shard", chance = 66667, maxCount = 3},
-	{id = "violet crystal shard", chance = 66667, maxCount = 3},
-	{id = "enchanted chicken wing", chance = 33333},
+	{id = 18415, chance = 66667, maxCount = 3},
+	{id = 18414, chance = 66667, maxCount = 3},
+	{id = 5891, chance = 33333},
 	{id = "giant shimmering pearl", chance = 33333},
-	{id = "great mana potion", chance = 33333, maxCount = 5},
-	{id = "great spirit potion", chance = 33333, maxCount = 5},
-	{id = "green gem", chance = 33333},
-	{id = "luminous orb", chance = 33333},
-	{id = "mastermind potion", chance = 33333},
-	{id = "red gem", chance = 33333},
+	{id = 7590, chance = 33333, maxCount = 5},
+	{id = 8472, chance = 33333, maxCount = 5},
+	{id = 2155, chance = 33333},
+	{id = 12410, chance = 33333},
+	{id = 7440, chance = 33333},
+	{id = 2156, chance = 33333},
 	{id = "rusty armor", chance = 33333},
-	{id = "white piece of cloth", chance = 33333, maxCount = 3}
+	{id = 5909, chance = 33333, maxCount = 3}
 }
 
 mType:register(monster)

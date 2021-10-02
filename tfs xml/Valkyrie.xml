@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="-10" />
+		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="10" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="10" />
-		<element holyPercent="5" />
-		<element deathPercent="-5" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-70" />
@@ -55,19 +55,19 @@
 		<voice sentence="One more head for me!" yell="false" />
 	</voices>
 	<loot>
-		<item name="spear" chance="55327" countmax="3" />
-		<item name="gold coin" chance="32705" countmax="12" />
-		<item name="meat" chance="30090" />
-		<item name="chain armor" chance="10126" />
-		<item name="red apple" chance="7588" countmax="2" />
-		<item name="girlish hair decoration" chance="5951" />
-		<item name="hunting spear" chance="5045" />
-		<item name="protective charm" chance="3197" />
-		<item name="protection amulet" chance="1092" />
-		<item name="plate armor" chance="822" />
-		<item name="skull" chance="738" />
-		<item name="health potion" chance="474" />
-		<item name="double axe" chance="402" />
-		<item name="small diamond" chance="114" />
+		<item id="2389" name="spear" chance="55392" countmax="3" />
+		<item id="2148" name="gold coin" chance="32707" countmax="12" />
+		<item id="2666" name="meat" chance="30104" />
+		<item id="2464" name="chain armor" chance="10146" />
+		<item id="2674" name="red apple" chance="7592" countmax="2" />
+		<item id="12399" name="girlish hair decoration" chance="5962" />
+		<item id="3965" name="hunting spear" chance="5061" />
+		<item id="12400" name="protective charm" chance="3187" />
+		<item id="2200" name="protection amulet" chance="1098" />
+		<item id="2463" name="plate armor" chance="818" />
+		<item id="2229" name="skull (item)" chance="752" />
+		<item id="7618" name="health potion" chance="472" />
+		<item id="2387" name="double axe" chance="400" />
+		<item id="2145" name="small diamond" chance="113" />
 	</loot>
 </monster>

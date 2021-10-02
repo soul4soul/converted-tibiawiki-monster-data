@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Eyeless Devourer" nameDescription="an eyeless devourer" experience="6000" speed="330" manacost="0">
+	<health now="10000" max="10000" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="energy" interval="2000" chance="15" min="-700" max="-800" range="2" radius="1" target="1" />
+		<attack name="energy" interval="2000" chance="15" min="-500" max="-700" radius="3" target="0" />
+		<attack name="earth" interval="2000" chance="15" min="-500" max="-560" length="5" spread="0" />
+	</attacks>
+	<defenses armor="63" defense="63" />
+	<loot>
+		<item id="2152" name="platinum coin" chance="100000" countmax="18" />
+		<item id="8473" name="ultimate health potion" chance="24762" />
+		<item id="39431" name="eyeless devourer maw" chance="10794" />
+		<item id="18413" name="blue crystal shard" chance="6772" />
+		<item id="18414" name="violet crystal shard" chance="6455" />
+		<item id="18415" name="green crystal shard" chance="6243" />
+		<item id="39432" name="eyeless devourer legs" chance="5820" />
+		<item id="2155" name="green gem" chance="5503" />
+		<item id="39433" name="eyeless devourer tongue" chance="3069" />
+		<item id="10219" name="sacred tree amulet" chance="2434" />
+		<item id="2445" name="crystal mace" chance="1693" />
+		<item id="7888" name="glacier amulet" chance="1587" />
+		<item id="7456" name="noble axe" chance="1376" />
+		<item id="15451" name="warrior's axe" chance="1270" />
+		<item id="7383" name="relic sword" chance="1164" />
+		<item id="7386" name="mercenary sword" chance="1058" />
+		<item id="2393" name="giant sword" chance="952" />
+		<item id="2454" name="war axe" chance="952" />
+		<item id="23547" name="execowtioner axe" chance="741" />
+		<item id="15644" name="ornate crossbow" chance="635" />
+		<item id="7422" name="jade hammer" chance="529" />
+		<item id="7451" name="shadow sceptre" chance="317" />
+		<item id="23542" name="metal bat" chance="212" />
+	</loot>
+</monster>

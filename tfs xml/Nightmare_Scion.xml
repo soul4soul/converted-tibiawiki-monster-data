@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Nightmare Scion" nameDescription="a nightmare scion" experience="1350" speed="440" manacost="0">
+	<health now="1400" max="1400" />
+	<look type="321" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-140" />
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="20" min="60" max="95" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Weeeheeheee!" yell="false" />
+		<voice sentence="Pffffrrrrrrrrrrrr." yell="false" />
+		<voice sentence="Peak a boo, I killed you!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="97024" countmax="155" />
+		<item id="2666" name="meat" chance="50495" />
+		<item id="11223" name="essence of a bad dream" chance="8088" />
+		<item id="11229" name="scythe leg" chance="4934" />
+		<item id="2152" name="platinum coin" chance="1057" countmax="3" />
+		<item id="2491" name="crown helmet" chance="725" />
+		<item id="7387" name="diamond sceptre" chance="365" />
+		<item id="8871" name="focus cape" chance="315" />
+		<item id="6300" name="death ring" chance="271" />
+		<item id="7451" name="shadow sceptre" chance="254" />
+		<item id="6574" name="bar of chocolate" chance="232" />
+		<item id="9941" name="crystal of focus" chance="116" />
+	</loot>
+</monster>

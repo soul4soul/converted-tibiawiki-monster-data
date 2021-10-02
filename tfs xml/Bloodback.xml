@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -30,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="15" />
+		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -38,7 +38,7 @@
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="50" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
@@ -48,26 +48,26 @@
 		<voice sentence="You will DIE!" yell="false" />
 	</voices>
 	<loot>
-		<item name="platinum coin" chance="100000" countmax="7" />
-		<item name="wereboar hooves" chance="100000" />
-		<item name="wereboar tusks" chance="100000" />
-		<item name="gold coin" chance="83772" countmax="75" />
-		<item name="small enchanted ruby" chance="48904" countmax="3" />
-		<item name="great health potion" chance="35746" />
-		<item name="red gem" chance="32456" />
-		<item name="furry club" chance="30482" />
-		<item name="wereboar loincloth" chance="27632" />
-		<item name="stone skin amulet" chance="19956" />
-		<item name="red crystal fragment" chance="18640" countmax="2" />
-		<item name="ultimate health potion" chance="13816" />
-		<item name="fur armor" chance="8333" />
-		<item name="dreaded cleaver" chance="7675" />
-		<item name="wereboar trophy" chance="3728" />
-		<item name="werewolf amulet" chance="3509" />
-		<item name="moonlight crystals" chance="3070" />
-		<item name="silver token" chance="3070" />
-		<item name="spiked squelcher" chance="3070" />
-		<item name="berserk potion" chance="1974" />
-		<item name="fur boots" chance="1096" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
+		<item id="24709" name="wereboar hooves" chance="100000" />
+		<item id="24710" name="wereboar tusks" chance="100000" />
+		<item id="2148" name="gold coin" chance="83772" countmax="75" />
+		<item id="7760" name="small enchanted ruby" chance="48904" countmax="3" />
+		<item id="7591" name="great health potion" chance="35746" />
+		<item id="2156" name="red gem" chance="32456" />
+		<item id="7432" name="furry club" chance="30482" />
+		<item id="24743" name="wereboar loincloth" chance="27632" />
+		<item id="2197" name="stone skin amulet" chance="19956" />
+		<item id="18420" name="red crystal fragment" chance="18640" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="13816" />
+		<item id="24741" name="fur armor" chance="8333" />
+		<item id="7419" name="dreaded cleaver" chance="7675" />
+		<item id="24758" name="wereboar trophy" chance="3728" />
+		<item id="24716" name="werewolf amulet" chance="3509" />
+		<item id="24739" name="moonlight crystals" chance="3070" />
+		<item id="25172" name="silver token" chance="3070" />
+		<item id="7452" name="spiked squelcher" chance="3070" />
+		<item id="7439" name="berserk potion" chance="1974" />
+		<item id="7457" name="fur boots" chance="1096" />
 	</loot>
 </monster>

@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="1" />
-		<flag canWalkOnFire="1" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -30,14 +30,14 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="10" />
-		<element earthPercent="20" />
-		<element firePercent="100" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-5" />
-		<element holyPercent="-5" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
@@ -53,43 +53,43 @@
 		<voice sentence="GROOOOWL!" yell="false" />
 	</voices>
 	<loot>
-		<item name="platinum coin" chance="100000" countmax="7" />
-		<item name="ham" chance="30614" />
-		<item name="great mana potion" chance="28859" countmax="3" />
-		<item name="assassin star" chance="25194" countmax="10" />
-		<item name="demonic essence" chance="21786" />
-		<item name="hellhound slobber" chance="20702" />
-		<item name="flask of demonic blood" chance="20186" />
-		<item name="soul orb" chance="19928" />
-		<item name="great spirit potion" chance="19618" />
-		<item name="ultimate health potion" chance="15746" />
-		<item name="blazing bone" chance="13268" />
-		<item name="small emerald" chance="10790" countmax="3" />
-		<item name="small topaz" chance="10480" countmax="3" />
-		<item name="hardened bone" chance="10015" />
-		<item name="fiery heart" chance="9861" />
-		<item name="small ruby" chance="9499" countmax="3" />
-		<item name="black pearl" chance="9086" countmax="4" />
-		<item name="wand of inferno" chance="8622" />
-		<item name="knight axe" chance="7383" />
-		<item name="fire sword" chance="6453" />
-		<item name="yellow piece of cloth" chance="6247" />
-		<item name="green piece of cloth" chance="5266" />
-		<item name="red gem" chance="4750" />
-		<item name="yellow gem" chance="4233" />
-		<item name="gold ingot" chance="2994" />
-		<item name="red piece of cloth" chance="2685" />
-		<item name="magma amulet" chance="2272" />
-		<item name="amber staff" chance="1962" />
-		<item name="magma boots" chance="1291" />
-		<item name="magma legs" chance="1187" />
-		<item name="magma monocle" chance="981" />
-		<item name="giant sword" chance="929" />
-		<item name="big bone" chance="878" />
-		<item name="green gem" chance="878" />
-		<item name="magma coat" chance="878" />
-		<item name="onyx flail" chance="878" />
-		<item name="ruthless axe" chance="878" />
-		<item name="explorer brooch" chance="310" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
+		<item id="2671" name="ham" chance="30387" />
+		<item id="7590" name="great mana potion" chance="28780" countmax="3" />
+		<item id="7368" name="assassin star" chance="24862" countmax="10" />
+		<item id="6500" name="demonic essence" chance="21647" />
+		<item id="10554" name="hellhound slobber" chance="20693" />
+		<item id="6558" name="flask of demonic blood" chance="20191" />
+		<item id="8472" name="great spirit potion" chance="19689" />
+		<item id="5944" name="soul orb" chance="19689" />
+		<item id="8473" name="ultimate health potion" chance="15721" />
+		<item id="18425" name="blazing bone" chance="13310" />
+		<item id="2149" name="small emerald" chance="11050" countmax="3" />
+		<item id="9970" name="small topaz" chance="10447" countmax="3" />
+		<item id="5925" name="hardened bone" chance="10045" />
+		<item id="10553" name="fiery heart" chance="9794" />
+		<item id="2147" name="small ruby" chance="9543" countmax="3" />
+		<item id="2144" name="black pearl" chance="9041" countmax="4" />
+		<item id="2187" name="wand of inferno" chance="8538" />
+		<item id="2430" name="knight axe" chance="7634" />
+		<item id="2392" name="fire sword" chance="6379" />
+		<item id="5914" name="yellow piece of cloth" chance="6128" />
+		<item id="5910" name="green piece of cloth" chance="5324" />
+		<item id="2156" name="red gem" chance="4721" />
+		<item id="2154" name="yellow gem" chance="4319" />
+		<item id="9971" name="gold ingot" chance="3014" />
+		<item id="5911" name="red piece of cloth" chance="2813" />
+		<item id="7890" name="magma amulet" chance="2310" />
+		<item id="7426" name="amber staff" chance="2009" />
+		<item id="7891" name="magma boots" chance="1256" />
+		<item id="7894" name="magma legs" chance="1205" />
+		<item id="7900" name="magma monocle" chance="1005" />
+		<item id="2231" name="big bone" chance="904" />
+		<item id="2393" name="giant sword" chance="904" />
+		<item id="2155" name="green gem" chance="854" />
+		<item id="7899" name="magma coat" chance="854" />
+		<item id="7421" name="onyx flail" chance="854" />
+		<item id="6553" name="ruthless axe" chance="854" />
+		<item id="4873" name="explorer brooch" chance="301" />
 	</loot>
 </monster>

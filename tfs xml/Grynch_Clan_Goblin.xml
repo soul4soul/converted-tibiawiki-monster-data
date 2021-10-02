@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grynch Clan Goblin" nameDescription="a grynch clan goblin" experience="4" speed="200" manacost="0">
+	<health now="80" max="80" />
+	<look type="61" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="5" defense="5">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="450" maxspeedchange="450" duration="4000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="T'was not me hand in your pocket!" yell="false" />
+		<voice sentence="Look! Cool stuff in house. Let's get it!" yell="false" />
+		<voice sentence="Uhh! Nobody home! &lt;chuckle&gt;" yell="false" />
+		<voice sentence="Me just borrowed it!" yell="false" />
+		<voice sentence="Me no steal! Me found it!" yell="false" />
+		<voice sentence="Me had it for five minutes. It's family heirloom now!" yell="false" />
+		<voice sentence="Nice human won't hurt little, good goblin?" yell="false" />
+		<voice sentence="Gimmegimme!" yell="false" />
+		<voice sentence="Invite me in you lovely house plx!" yell="false" />
+		<voice sentence="Other Goblin stole it!" yell="false" />
+		<voice sentence="All presents mine!" yell="false" />
+		<voice sentence="Me got ugly ones purse" yell="false" />
+		<voice sentence="Free itans plz!" yell="false" />
+		<voice sentence="Not me! Not me!" yell="false" />
+		<voice sentence="Guys, help me here! Guys? Guys???" yell="false" />
+		<voice sentence="That only much dust in me pocket! Honest!" yell="false" />
+		<voice sentence="Can me have your stuff?" yell="false" />
+		<voice sentence="Halp, Big dumb one is after me!" yell="false" />
+		<voice sentence="Uh, So many shiny things!" yell="false" />
+		<voice sentence="Utani hur hur hur!" yell="false" />
+		<voice sentence="Mee? Stealing? Never!!!" yell="false" />
+		<voice sentence="Oh what fun it is to steal a one-horse open sleigh!" yell="false" />
+		<voice sentence="Must have it! Must have it!" yell="false" />
+		<voice sentence="Where me put me lockpick?" yell="false" />
+		<voice sentence="Catch me if you can!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="55299" countmax="16" />
+		<item id="6497" name="christmas present bag" chance="29740" />
+		<item id="2111" name="snowball" chance="14922" countmax="3" />
+		<item id="2674" name="red apple" chance="10181" countmax="3" />
+		<item id="2687" name="cookie" chance="8129" countmax="5" />
+		<item id="6277" name="lump of cake dough" chance="4990" />
+		<item id="2675" name="orange" chance="4976" countmax="2" />
+		<item id="7909" name="walnut" chance="1983" countmax="4" />
+		<item id="3606" name="egg" chance="1028" countmax="2" />
+		<item id="2688" name="candy cane" chance="989" countmax="3" />
+		<item id="10207" name="snowman package" chance="984" />
+		<item id="7910" name="peanut" chance="945" countmax="5" />
+		<item id="2661" name="scarf" chance="828" />
+		<item id="5894" name="bat wing" chance="642" countmax="3" />
+		<item id="2007" name="bottle" chance="539" />
+		<item id="4873" name="explorer brooch" chance="470" />
+		<item id="2324" name="broom" chance="402" />
+		<item id="5890" name="chicken feather" chance="397" countmax="3" />
+		<item id="5902" name="honeycomb" chance="387" />
+		<item id="6501" name="gingerbreadman" chance="382" />
+		<item id="2679" name="cherry" chance="338" countmax="4" />
+		<item id="2260" name="blank rune" chance="127" />
+		<item id="2036" name="watch" chance="122" />
+		<item id="2162" name="magic light wand" chance="118" />
+		<item id="2983" name="flower bowl" chance="113" />
+		<item id="6393" name="cream cake" chance="108" />
+		<item name="die" chance="108" />
+		<item id="6393" name="valentine's cake" chance="108" />
+		<item id="1852" name="picture (landscape)" chance="98" />
+		<item id="2159" name="scarab coin" chance="98" />
+		<item id="2072" name="lute" chance="88" />
+		<item id="2120" name="rope" chance="78" />
+		<item id="1684" name="small white pillow" chance="78" />
+		<item id="5022" name="orichalcum pearl" chance="73" />
+		<item id="2114" name="piggy bank" chance="73" />
+		<item id="2560" name="mirror" chance="69" />
+	</loot>
+</monster>

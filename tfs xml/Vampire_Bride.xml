@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Vampire Bride" nameDescription="a vampire bride" experience="1050" speed="200" manacost="0">
+	<health now="1200" max="1200" />
+	<look type="312" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-190" />
+	</attacks>
+	<defenses armor="55" defense="55">
+		<defense name="healing" interval="2000" chance="20" min="40" max="80" />
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Kneel before your Mistress!" yell="false" />
+		<voice sentence="Dead is the new alive." yell="false" />
+		<voice sentence="Come, let me kiss you, darling. Oh wait, I meant kill." yell="false" />
+		<voice sentence="Enjoy the pain - I know you love it." yell="false" />
+		<voice sentence="Are you suffering nicely enough?" yell="false" />
+		<voice sentence="You won't regret you came to me, sweetheart." yell="false" />
+	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="93578" countmax="149" />
+		<item id="7589" name="strong mana potion" chance="10350" />
+		<item id="10602" name="vampire teeth" chance="10050" />
+		<item id="2152" name="platinum coin" chance="10008" />
+		<item id="2186" name="moonlight rod" chance="5200" />
+		<item id="12405" name="blood preservation" chance="5039" />
+		<item id="7588" name="strong health potion" chance="4854" />
+		<item id="9837" name="velvet tapestry" chance="1036" />
+		<item id="2127" name="emerald bangle" chance="1025" />
+		<item id="9809" name="rusted armor" chance="1025" />
+		<item id="2145" name="small diamond" chance="1014" countmax="2" />
+		<item id="8873" name="hibiscus dress" chance="979" />
+		<item id="2195" name="boots of haste" chance="200" />
+		<item id="7733" name="flower bouquet" chance="179" />
+		<item id="5669" name="mysterious voodoo skull" chance="150" />
+		<item id="9447" name="blood goblet" chance="93" />
+		<item id="13293" name="leather whip" chance="36" />
+	</loot>
+</monster>

@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -45,8 +45,8 @@
 		<voice sentence="Chchch" yell="false" />
 	</voices>
 	<loot>
-		<item name="acorn" chance="35971" />
-		<item name="peanut" chance="584" />
-		<item name="walnut" chance="467" />
+		<item id="11213" name="acorn" chance="35991" />
+		<item id="7910" name="peanut" chance="582" />
+		<item id="7909" name="walnut" chance="466" />
 	</loot>
 </monster>

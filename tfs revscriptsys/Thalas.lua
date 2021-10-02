@@ -67,15 +67,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 20},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -10},
-	{type = COMBAT_HOLYDAMAGE , percent = -20},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -89,15 +89,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "cobrafang dagger", chance = 100000},
-	{id = "gold coin", chance = 91188, maxCount = 238},
-	{id = "poison dagger", chance = 21073},
-	{id = "small emerald", chance = 9068, maxCount = 3},
-	{id = "great health potion", chance = 8174},
-	{id = "time ring", chance = 5236},
-	{id = "serpent sword", chance = 2682},
-	{id = "djinn blade", chance = 1022},
-	{id = "green gem", chance = 894}
+	{id = 2351, chance = 100000},
+	{id = 2148, chance = 91210, maxCount = 238},
+	{id = 2411, chance = 21146},
+	{id = 2149, chance = 9045, maxCount = 3},
+	{id = 7591, chance = 8153},
+	{id = 2169, chance = 5223},
+	{id = 2409, chance = 2675},
+	{id = 2451, chance = 1019},
+	{id = 2155, chance = 892}
 }
 
 mType:register(monster)

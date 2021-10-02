@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
-	{type = COMBAT_ENERGYDAMAGE, percent = 5},
-	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -5},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -86,25 +86,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 81674, maxCount = 19},
-	{id = "guardian halberd", chance = 8597},
-	{id = "bashmu feather", chance = 5882},
-	{id = "bashmu tongue", chance = 4977},
-	{id = "great spirit potion", chance = 4977},
-	{id = "sacred tree amulet", chance = 4072},
-	{id = "blue crystal shard", chance = 3846},
-	{id = "green crystal shard", chance = 3846},
-	{id = "small diamond", chance = 3620},
-	{id = "violet gem", chance = 3620},
-	{id = "bashmu fang", chance = 2715},
-	{id = "rainbow quartz", chance = 1584},
-	{id = "terra amulet", chance = 1357},
-	{id = "collar of red plasma", chance = 905},
-	{id = "glacier amulet", chance = 905},
-	{id = "glorious axe", chance = 905},
-	{id = "magma amulet", chance = 905},
-	{id = "collar of blue plasma", chance = 679},
-	{id = "haunted blade", chance = 679}
+	{id = 2152, chance = 76098, maxCount = 19},
+	{id = 2427, chance = 8780},
+	{id = 39479, chance = 6341},
+	{id = 39477, chance = 5854},
+	{id = 18413, chance = 5854},
+	{id = 10219, chance = 3902},
+	{id = 2153, chance = 3902},
+	{id = 2145, chance = 2927},
+	{id = 8472, chance = 2439},
+	{id = 18415, chance = 2439},
+	{id = 7454, chance = 1951},
+	{id = 7887, chance = 1951},
+	{id = 39476, chance = 1463},
+	{id = 28393, chance = 976},
+	{id = 26200, chance = 488},
+	{id = 7407, chance = 488},
+	{id = 7890, chance = 488}
 }
 
 mType:register(monster)

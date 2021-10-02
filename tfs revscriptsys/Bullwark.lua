@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 15},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 15},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 10}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -86,17 +86,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "giant pacifier", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 200},
-	{id = "great health potion", chance = 100000, maxCount = 5},
-	{id = "minotaur leather", chance = 100000},
-	{id = "moohtant horn", chance = 100000, maxCount = 2},
-	{id = "platinum coin", chance = 100000, maxCount = 5},
-	{id = "ham", chance = 50000},
-	{id = "meat", chance = 50000},
-	{id = "mooh'tah plate", chance = 50000},
-	{id = "small amethyst", chance = 50000, maxCount = 5},
-	{id = "small topaz", chance = 50000, maxCount = 5}
+	{id = 23570, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 200},
+	{id = 7591, chance = 100000, maxCount = 5},
+	{id = 5878, chance = 100000},
+	{id = 23571, chance = 100000, maxCount = 2},
+	{id = 2152, chance = 100000, maxCount = 5},
+	{id = 2671, chance = 50000},
+	{id = 2666, chance = 50000},
+	{id = 23537, chance = 50000},
+	{id = 2150, chance = 50000, maxCount = 5},
+	{id = 9970, chance = 50000, maxCount = 5}
 }
 
 mType:register(monster)

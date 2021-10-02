@@ -88,22 +88,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "compound eye", chance = 100000, maxCount = 2},
-	{id = "dung ball (quest)", chance = 100000, maxCount = 3},
-	{id = "gold coin", chance = 100000, maxCount = 233},
-	{id = "platinum coin", chance = 68182, maxCount = 4},
-	{id = "great mana potion", chance = 54545, maxCount = 2},
-	{id = "great health potion", chance = 45455, maxCount = 2},
-	{id = "small emerald", chance = 45455, maxCount = 2},
-	{id = "ripper lance", chance = 40909},
-	{id = "small sapphire", chance = 27273, maxCount = 2},
-	{id = "yellow gem", chance = 22727},
-	{id = "dwarven ring", chance = 13636},
-	{id = "twin hooks", chance = 13636},
-	{id = "epee", chance = 9091},
-	{id = "spike sword", chance = 9091},
-	{id = "carapace shield", chance = 4545},
-	{id = "giant shimmering pearl", chance = 4545}
+	{id = 15486, chance = 100000, maxCount = 2},
+	{id = 16096, chance = 100000, maxCount = 3},
+	{id = 2148, chance = 100000, maxCount = 233},
+	{id = 2152, chance = 69565, maxCount = 4},
+	{id = 7590, chance = 56522, maxCount = 2},
+	{id = 2149, chance = 47826, maxCount = 2},
+	{id = 7591, chance = 43478, maxCount = 2},
+	{id = 3964, chance = 39130},
+	{id = 2146, chance = 26087, maxCount = 2},
+	{id = 2154, chance = 21739},
+	{id = 2213, chance = 17391},
+	{id = 11309, chance = 13043},
+	{id = 2438, chance = 8696},
+	{id = 2383, chance = 8696},
+	{id = 15491, chance = 4348},
+	{id = "giant shimmering pearl", chance = 4348}
 }
 
 mType:register(monster)

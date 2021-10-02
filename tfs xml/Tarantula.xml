@@ -16,10 +16,10 @@
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -30,13 +30,13 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="10" />
-		<element earthPercent="100" />
-		<element firePercent="-15" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="-10" />
+		<element icePercent="0" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -49,12 +49,12 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item name="gold coin" chance="79127" countmax="40" />
-		<item name="tarantula egg" chance="9939" />
-		<item name="spider fangs" chance="4800" />
-		<item name="brass legs" chance="3003" />
-		<item name="plate shield" chance="1970" />
-		<item name="steel helmet" chance="921" />
-		<item name="time ring" chance="116" />
+		<item id="2148" name="gold coin" chance="79130" countmax="40" />
+		<item id="11198" name="tarantula egg" chance="9957" />
+		<item id="8859" name="spider fangs" chance="4803" />
+		<item id="2478" name="brass legs" chance="3000" />
+		<item id="2510" name="plate shield" chance="1972" />
+		<item id="3351" name="steel helmet" chance="925" />
+		<item id="2169" name="time ring" chance="114" />
 	</loot>
 </monster>

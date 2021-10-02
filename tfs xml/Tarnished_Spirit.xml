@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Tarnished Spirit" nameDescription="a tarnished spirit" experience="120" speed="160" manacost="0">
+	<health now="150" max="150" />
+	<look type="566" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="0" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="100" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" />
+	</attacks>
+	<defenses armor="10" defense="10" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Huh!" yell="false" />
+	</voices>
+	<loot>
+		<item id="2804" name="shadow herb" chance="14407" />
+		<item id="2394" name="morning star" chance="10828" />
+		<item id="2654" name="cape" chance="10425" />
+		<item id="2404" name="combat knife" chance="7069" />
+		<item id="5909" name="white piece of cloth" chance="2461" />
+		<item id="10607" name="ghostly tissue" chance="1924" />
+		<item name="book (orange)" chance="1745" />
+		<item id="2532" name="ancient shield" chance="492" />
+		<item id="2165" name="stealth ring" chance="179" />
+	</loot>
+</monster>

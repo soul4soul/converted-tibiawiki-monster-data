@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Duke Krule" nameDescription="" experience="55000" speed="0" manacost="0">
+	<health now="0" max="0" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="1" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="4" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<immunities>
+		<immunity paralyze="0" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="0" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
+		<element firePercent="0" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="0" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="25172" name="silver token" chance="100000" countmax="2" />
+		<item id="2152" name="platinum coin" chance="93243" countmax="5" />
+		<item id="26029" name="ultimate mana potion" chance="55405" countmax="20" />
+		<item id="26030" name="ultimate spirit potion" chance="53378" countmax="20" />
+		<item id="26031" name="supreme health potion" chance="51351" countmax="20" />
+		<item id="2154" name="yellow gem" chance="40541" countmax="2" />
+		<item id="2156" name="red gem" chance="33108" countmax="2" />
+		<item id="5888" name="piece of hell steel" chance="24324" countmax="4" />
+		<item id="7440" name="mastermind potion" chance="22973" countmax="10" />
+		<item id="2155" name="green gem" chance="22297" countmax="2" />
+		<item id="2160" name="crystal coin" chance="20946" countmax="3" />
+		<item id="7439" name="berserk potion" chance="18243" countmax="10" />
+		<item id="2497" name="crusader helmet" chance="17568" />
+		<item id="5885" name="flask of warrior's sweat" chance="17568" />
+		<item id="2158" name="blue gem" chance="16892" countmax="2" />
+		<item id="7443" name="bullseye potion" chance="16892" countmax="10" />
+		<item id="7427" name="chaos mace" chance="15541" />
+		<item name="collar of blue plasma" chance="12162" />
+		<item id="9971" name="gold ingot" chance="11486" />
+		<item id="26199" name="collar of green plasma" chance="10135" />
+		<item id="26200" name="collar of red plasma" chance="10135" />
+		<item name="ring of green plasma" chance="8784" />
+		<item id="7903" name="terra hood" chance="8784" />
+		<item id="34246" name="young lich worm" chance="8108" />
+		<item id="2153" name="violet gem" chance="6081" countmax="2" />
+		<item id="34244" name="ancient liche bone" chance="5405" />
+		<item name="ring of blue plasma" chance="5405" />
+		<item id="34245" name="rotten heart" chance="5405" />
+		<item id="32717" name="giant sapphire" chance="4730" />
+		<item name="ring of red plasma" chance="4054" />
+		<item id="32716" name="giant emerald" chance="3378" />
+		<item id="34235" name="embrace of nature" chance="1351" />
+		<item id="32715" name="giant ruby" chance="1351" />
+		<item id="34234" name="bear skin" chance="676" />
+		<item id="34251" name="noble amulet" chance="676" />
+	</loot>
+</monster>

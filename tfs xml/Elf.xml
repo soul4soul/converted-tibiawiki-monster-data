@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -37,8 +37,8 @@
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="20" />
-		<element deathPercent="-10" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-15" />
@@ -55,15 +55,15 @@
 		<voice sentence="Ulathil beia Thratha!" yell="false" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="44651" countmax="30" />
-		<item name="plum" chance="19996" countmax="2" />
-		<item name="studded helmet" chance="15074" />
-		<item name="leather boots" chance="11121" />
-		<item name="longsword" chance="10921" />
-		<item name="studded armor" chance="9009" />
-		<item name="plate shield" chance="8933" />
-		<item name="arrow" chance="7024" countmax="3" />
-		<item name="elvish talisman" chance="1990" />
-		<item name="heaven blossom" chance="1008" />
+		<item id="2148" name="gold coin" chance="44651" countmax="30" />
+		<item id="8839" name="plum" chance="19996" countmax="2" />
+		<item id="2482" name="studded helmet" chance="15074" />
+		<item id="2643" name="leather boots" chance="11121" />
+		<item id="2397" name="longsword" chance="10921" />
+		<item id="2484" name="studded armor" chance="9009" />
+		<item id="2510" name="plate shield" chance="8933" />
+		<item id="2544" name="arrow" chance="7024" countmax="3" />
+		<item id="10552" name="elvish talisman" chance="1990" />
+		<item id="5921" name="heaven blossom" chance="1008" />
 	</loot>
 </monster>

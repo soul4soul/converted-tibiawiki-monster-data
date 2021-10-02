@@ -70,14 +70,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 100},
-	{type = COMBAT_ICEDAMAGE, percent = 100},
-	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 100}
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -91,21 +91,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "dracola's eye", chance = 100000},
-	{id = "gold coin", chance = 100000, maxCount = 144},
-	{id = "soul orb", chance = 100000},
-	{id = "demonic essence", chance = 94118},
-	{id = "life crystal", chance = 70588},
-	{id = "platinum coin", chance = 41176, maxCount = 4},
-	{id = "dark armor", chance = 29412},
-	{id = "great health potion", chance = 17647},
-	{id = "reaper's axe", chance = 17647},
-	{id = "small sapphire", chance = 17647, maxCount = 4},
-	{id = "death ring", chance = 11765},
-	{id = "great mana potion", chance = 11765},
-	{id = "hardened bone", chance = 11765},
-	{id = "ring of healing", chance = 5882},
-	{id = "skull helmet", chance = 5882}
+	{id = 6546, chance = 100000},
+	{id = 2148, chance = 100000, maxCount = 144},
+	{id = 5944, chance = 100000},
+	{id = 6500, chance = 94118},
+	{id = 2177, chance = 70588},
+	{id = 2152, chance = 41176, maxCount = 4},
+	{id = 2489, chance = 29412},
+	{id = 7591, chance = 17647},
+	{id = 7420, chance = 17647},
+	{id = 2146, chance = 17647, maxCount = 4},
+	{id = 6300, chance = 11765},
+	{id = 7590, chance = 11765},
+	{id = 5925, chance = 11765},
+	{id = 2214, chance = 5882},
+	{id = 5741, chance = 5882}
 }
 
 mType:register(monster)

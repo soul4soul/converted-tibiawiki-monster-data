@@ -71,13 +71,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 25},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -15},
-	{type = COMBAT_HOLYDAMAGE , percent = 10},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -92,14 +92,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 88771, maxCount = 35},
-	{id = "banana", chance = 30455, maxCount = 12},
-	{id = "small stone", chance = 29964, maxCount = 3},
-	{id = "orange", chance = 19971, maxCount = 5},
-	{id = "banana sash", chance = 4949},
-	{id = "coconut", chance = 1967, maxCount = 3},
-	{id = "melon", chance = 1000},
-	{id = "ape fur", chance = 988}
+	{id = 2148, chance = 88771, maxCount = 35},
+	{id = 2676, chance = 30455, maxCount = 12},
+	{id = 1294, chance = 29964, maxCount = 3},
+	{id = 2675, chance = 19971, maxCount = 5},
+	{id = 12467, chance = 4949},
+	{id = 2678, chance = 1967, maxCount = 3},
+	{id = 2682, chance = 1000},
+	{id = 5883, chance = 988}
 }
 
 mType:register(monster)

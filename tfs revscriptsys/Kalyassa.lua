@@ -68,7 +68,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -88,21 +88,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "dragon blood", chance = 100000},
-	{id = "dragon tongue", chance = 100000},
-	{id = "horn of kalyassa", chance = 100000},
-	{id = "platinum coin", chance = 100000, maxCount = 10},
-	{id = "red dragon leather", chance = 97576},
-	{id = "dragon ham", chance = 70303},
-	{id = "power bolt", chance = 53333, maxCount = 10},
-	{id = "energy ring", chance = 20000},
-	{id = "fire sword", chance = 9697},
-	{id = "great health potion", chance = 9091, maxCount = 2},
-	{id = "great mana potion", chance = 9091, maxCount = 2},
-	{id = "onyx arrow", chance = 9091, maxCount = 10},
-	{id = "royal helmet", chance = 3636},
-	{id = "dragon scale mail", chance = 3030},
-	{id = "life crystal", chance = 2424}
+	{id = 27593, chance = 100000},
+	{id = 27594, chance = 100000},
+	{id = 27597, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 10},
+	{id = 5948, chance = 97576},
+	{id = 2672, chance = 70303},
+	{id = 2547, chance = 53333, maxCount = 10},
+	{id = 2167, chance = 20000},
+	{id = 2392, chance = 9697},
+	{id = 7591, chance = 9091, maxCount = 2},
+	{id = 7590, chance = 9091, maxCount = 2},
+	{id = 7365, chance = 9091, maxCount = 10},
+	{id = 2498, chance = 3636},
+	{id = 2492, chance = 3030},
+	{id = 2177, chance = 2424}
 }
 
 mType:register(monster)

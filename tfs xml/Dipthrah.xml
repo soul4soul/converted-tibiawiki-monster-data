@@ -16,10 +16,10 @@
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag healthHidden="0" />
-		<flag canWalkOnEnergy="0" />
-		<flag canWalkOnFire="0" />
-		<flag canWalkOnPoison="0" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
 		<immunity paralyze="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="100" />
-		<element energyPercent="20" />
-		<element earthPercent="20" />
+		<element physicalPercent="0" />
+		<element energyPercent="0" />
+		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="-10" />
-		<element deathPercent="100" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
@@ -56,16 +56,16 @@
 		<voice name="priestess" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item name="ornamented ankh" chance="100000" />
-		<item name="gold coin" chance="90968" countmax="226" />
-		<item name="small sapphire" chance="9819" countmax="3" />
-		<item name="great mana potion" chance="8939" />
-		<item name="energy ring" chance="4863" />
-		<item name="mind stone" chance="926" />
-		<item name="blue gem" chance="834" />
-		<item name="ankh" chance="602" />
-		<item name="skull staff" chance="556" />
-		<item name="mini mummy" chance="93" />
-		<item name="pharaoh sword" chance="93" />
+		<item id="3241" name="ornamented ankh" chance="100000" />
+		<item id="2148" name="gold coin" chance="90976" countmax="226" />
+		<item id="2146" name="small sapphire" chance="9810" countmax="3" />
+		<item id="7590" name="great mana potion" chance="8931" />
+		<item id="2167" name="energy ring" chance="4859" />
+		<item id="2178" name="mind stone" chance="925" />
+		<item id="2158" name="blue gem" chance="833" />
+		<item id="2193" name="ankh" chance="602" />
+		<item id="2436" name="skull staff" chance="555" />
+		<item id="11207" name="mini mummy" chance="93" />
+		<item id="2446" name="pharaoh sword" chance="93" />
 	</loot>
 </monster>

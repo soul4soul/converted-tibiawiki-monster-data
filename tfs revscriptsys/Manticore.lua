@@ -69,11 +69,11 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = -20},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -87,23 +87,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "platinum coin", chance = 100000, maxCount = 3},
-	{id = "manticore tail", chance = 9555},
-	{id = "manticore ear", chance = 7440},
-	{id = "small emerald", chance = 5398},
-	{id = "green crystal fragment", chance = 4376},
-	{id = "flaming arrow", chance = 4230, maxCount = 9},
-	{id = "magma coat", chance = 2991},
-	{id = "rainbow quartz", chance = 2626, maxCount = 3},
-	{id = "prismatic quartz", chance = 2553},
-	{id = "violet gem", chance = 2407},
-	{id = "magma boots", chance = 1896},
-	{id = "wand of dragonbreath", chance = 1751},
-	{id = "magma monocle", chance = 1678},
-	{id = "magma legs", chance = 1167},
-	{id = "royal star", chance = 1167, maxCount = 3},
-	{id = "wand of everblazing", chance = 802},
-	{id = "wand of draconia", chance = 729}
+	{id = 2152, chance = 100000, maxCount = 3},
+	{id = 34095, chance = 9684},
+	{id = 34096, chance = 7555},
+	{id = 2149, chance = 5220},
+	{id = 18421, chance = 4602},
+	{id = 7840, chance = 4258, maxCount = 9},
+	{id = 7899, chance = 2953},
+	{id = 27618, chance = 2610},
+	{id = 28393, chance = 2610, maxCount = 3},
+	{id = 2153, chance = 2541},
+	{id = 7891, chance = 1923},
+	{id = 7900, chance = 1854},
+	{id = 2191, chance = 1786},
+	{id = 28415, chance = 1168, maxCount = 3},
+	{id = 7894, chance = 1099},
+	{id = 18409, chance = 755},
+	{id = 8921, chance = 687}
 }
 
 mType:register(monster)

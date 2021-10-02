@@ -71,16 +71,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
-	{type = COMBAT_ENERGYDAMAGE, percent = -5},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 20},
-	{type = COMBAT_HOLYDAMAGE , percent = 20},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -95,17 +95,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 89966, maxCount = 110},
-	{id = "shadow herb", chance = 4762},
-	{id = "strong mana potion", chance = 1529},
-	{id = "crystal ring", chance = 966},
-	{id = "protection amulet", chance = 893},
-	{id = "spirit cloak", chance = 500},
-	{id = "haunted blade", chance = 325},
-	{id = "platinum amulet", chance = 165},
-	{id = "crystal of balance", chance = 126},
-	{id = "boots of haste", chance = 121},
-	{id = "chaos mace", chance = 102}
+	{id = 2148, chance = 89966, maxCount = 110},
+	{id = 2804, chance = 4762},
+	{id = 7589, chance = 1529},
+	{id = 2124, chance = 966},
+	{id = 2200, chance = 893},
+	{id = 8870, chance = 500},
+	{id = 7407, chance = 325},
+	{id = 2171, chance = 165},
+	{id = 9942, chance = 126},
+	{id = 2195, chance = 121},
+	{id = 7427, chance = 102}
 }
 
 mType:register(monster)

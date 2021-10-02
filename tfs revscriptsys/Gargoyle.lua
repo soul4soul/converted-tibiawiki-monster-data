@@ -70,16 +70,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 100},
-	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 40}
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
@@ -93,19 +93,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = "gold coin", chance = 87720, maxCount = 30},
-	{id = "small stone", chance = 15204, maxCount = 10},
-	{id = "stone wing", chance = 11770},
-	{id = "potato", chance = 9788, maxCount = 2},
-	{id = "strawberry", chance = 2024, maxCount = 5},
-	{id = "morning star", chance = 1509},
-	{id = "battle shield", chance = 1354},
-	{id = "wolf tooth chain", chance = 1106},
-	{id = "steel helmet", chance = 834},
-	{id = "piece of marble rock", chance = 440},
-	{id = "dark armor", chance = 281},
-	{id = "club ring", chance = 211},
-	{id = "shiny stone", chance = 183}
+	{id = 2148, chance = 87714, maxCount = 30},
+	{id = 1294, chance = 15159, maxCount = 10},
+	{id = 11195, chance = 11821},
+	{id = 8838, chance = 9861, maxCount = 2},
+	{id = 2680, chance = 2021, maxCount = 5},
+	{id = 2394, chance = 1482},
+	{id = 2513, chance = 1352},
+	{id = 2129, chance = 1100},
+	{id = 3351, chance = 821},
+	{id = 11343, chance = 452},
+	{id = 2489, chance = 278},
+	{id = 2209, chance = 204},
+	{id = 11227, chance = 187}
 }
 
 mType:register(monster)
