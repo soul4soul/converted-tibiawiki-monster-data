@@ -65,7 +65,7 @@ monster.immunities = {
 	{type = "paralyze", condition = false},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = false},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -84,7 +84,7 @@ monster.elements = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -15},
-	{name ="combat", interval = 2000, chance = 100, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -30, range = 7, ShootEffect = CONST_ANI_SPEAR}
+	{name ="combat", interval = 2000, chance = 100, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -30, range = 7, shootEffect = CONST_ANI_SPEAR}
 }
 
 monster.defenses = {
@@ -95,17 +95,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 50093, maxCount = 9},
-	{id = 1294, chance = 25002, maxCount = 2},
-	{id = 2379, chance = 18176},
-	{id = 2667, chance = 12999},
-	{id = 2230, chance = 12628},
-	{id = 2461, chance = 9810},
-	{id = 2559, chance = 9469},
-	{id = 2406, chance = 8981},
-	{id = 2467, chance = 7723},
-	{id = 2235, chance = 7021},
-	{id = 2449, chance = 5061}
+	{id = 2148, chance = 50083, maxCount = 9},
+	{id = 1294, chance = 25007, maxCount = 2},
+	{id = 2379, chance = 18183},
+	{id = 2667, chance = 12996},
+	{id = 2230, chance = 12635},
+	{id = 2461, chance = 9818},
+	{id = 2559, chance = 9476},
+	{id = 2406, chance = 8979},
+	{id = 2467, chance = 7722},
+	{id = 2235, chance = 7020},
+	{id = 2449, chance = 5060}
 }
 
 mType:register(monster)

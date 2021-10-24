@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Nymph" nameDescription="a nymph" experience="850" speed="228" manacost="0">
 	<health now="900" max="900" />
 	<look type="989" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,22 +50,22 @@
 		<voice sentence="I'm just protecting nature's beauty!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64926" countmax="110" />
-		<item id="28347" name="wild flowers" chance="21767" />
-		<item id="28348" name="fresh fruit" chance="15042" />
-		<item id="28352" name="colourful snail shell" chance="12062" />
-		<item id="28351" name="dandelion seeds" chance="11903" />
-		<item id="7590" name="great mana potion" chance="3240" />
-		<item id="9970" name="small topaz" chance="2401" countmax="2" />
-		<item id="7762" name="small enchanted amethyst" chance="1895" countmax="2" />
-		<item id="2127" name="emerald bangle" chance="1851" />
-		<item id="10219" name="sacred tree amulet" chance="1143" />
-		<item id="28354" name="butterfly ring" chance="969" />
-		<item id="7589" name="strong mana potion" chance="897" />
-		<item id="28356" name="dream blossom staff" chance="694" />
-		<item id="2745" name="blue rose" chance="593" />
-		<item id="9927" name="flower wreath" chance="593" />
-		<item id="8873" name="hibiscus dress" chance="550" />
-		<item id="2195" name="boots of haste" chance="304" />
+		<item id="2148" name="gold coin" chance="65102" countmax="110" />
+		<item id="28347" name="wild flowers" chance="21987" />
+		<item id="28348" name="fresh fruit" chance="15074" />
+		<item id="28351" name="dandelion seeds" chance="12270" />
+		<item id="28352" name="colourful snail shell" chance="12121" />
+		<item id="7590" name="great mana potion" chance="3228" />
+		<item id="9970" name="small topaz" chance="2404" countmax="2" />
+		<item id="7762" name="small enchanted amethyst" chance="1900" countmax="2" />
+		<item id="2127" name="emerald bangle" chance="1820" />
+		<item id="10219" name="sacred tree amulet" chance="1156" />
+		<item id="28354" name="butterfly ring" chance="939" />
+		<item id="7589" name="strong mana potion" chance="881" />
+		<item id="28356" name="dream blossom staff" chance="721" />
+		<item id="2745" name="blue rose" chance="607" />
+		<item id="9927" name="flower wreath" chance="572" />
+		<item id="8873" name="hibiscus dress" chance="561" />
+		<item id="2195" name="boots of haste" chance="332" />
 	</loot>
 </monster>

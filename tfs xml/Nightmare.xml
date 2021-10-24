@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Nightmare" nameDescription="a nightmare" experience="1666" speed="464" manacost="0">
 	<health now="2700" max="2700" />
 	<look type="245" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -58,21 +58,21 @@
 		<voice sentence="Weeeheeheeeheee!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="96784" countmax="155" />
-		<item id="2671" name="ham" chance="29982" />
-		<item id="6558" name="flask of demonic blood" chance="20697" />
-		<item id="5944" name="soul orb" chance="20652" />
-		<item id="11223" name="essence of a bad dream" chance="15534" />
-		<item id="11229" name="scythe leg" chance="10190" />
-		<item id="6500" name="demonic essence" chance="9466" />
-		<item id="2152" name="platinum coin" chance="2899" countmax="3" />
-		<item id="2547" name="power bolt" chance="1268" countmax="4" />
-		<item id="6300" name="death ring" chance="1178" />
-		<item id="2532" name="ancient shield" chance="996" />
-		<item id="2477" name="knight legs" chance="951" />
-		<item id="6526" name="skeleton decoration" chance="589" />
-		<item id="2195" name="boots of haste" chance="317" />
+		<item id="2148" name="gold coin" chance="96790" countmax="155" />
+		<item id="2671" name="ham" chance="29928" />
+		<item id="6558" name="flask of demonic blood" chance="20750" />
+		<item id="5944" name="soul orb" chance="20660" />
+		<item id="11223" name="essence of a bad dream" chance="15552" />
+		<item id="11229" name="scythe leg" chance="10172" />
+		<item id="6500" name="demonic essence" chance="9448" />
+		<item id="2152" name="platinum coin" chance="2893" countmax="3" />
+		<item id="2547" name="power bolt" chance="1266" countmax="4" />
+		<item id="6300" name="death ring" chance="1175" />
+		<item id="2532" name="ancient shield" chance="995" />
+		<item id="2477" name="knight legs" chance="949" />
+		<item id="6526" name="skeleton decoration" chance="588" />
+		<item id="2195" name="boots of haste" chance="316" />
 		<item id="5669" name="mysterious voodoo skull" chance="181" />
-		<item id="2454" name="war axe" chance="91" />
+		<item id="2454" name="war axe" chance="90" />
 	</loot>
 </monster>

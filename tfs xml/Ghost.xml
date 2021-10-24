@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Ghost" nameDescription="a ghost" experience="120" speed="160" manacost="0">
 	<health now="150" max="150" />
 	<look type="48" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,14 +50,14 @@
 		<voice sentence="Buuuuuh" yell="false" />
 	</voices>
 	<loot>
-		<item id="2804" name="shadow herb" chance="14620" />
-		<item id="2394" name="morning star" chance="10722" />
-		<item id="2654" name="cape" chance="8994" />
-		<item id="2404" name="combat knife" chance="7038" />
+		<item id="2804" name="shadow herb" chance="14616" />
+		<item id="2394" name="morning star" chance="10716" />
+		<item id="2654" name="cape" chance="8986" />
+		<item id="2404" name="combat knife" chance="7044" />
 		<item id="5909" name="white piece of cloth" chance="1942" />
-		<item id="10607" name="ghostly tissue" chance="1851" />
-		<item name="book (orange)" chance="1410" />
-		<item id="2532" name="ancient shield" chance="802" />
-		<item id="2165" name="stealth ring" chance="180" />
+		<item id="10607" name="ghostly tissue" chance="1847" />
+		<item name="book (orange)" chance="1425" />
+		<item id="2532" name="ancient shield" chance="798" />
+		<item id="2165" name="stealth ring" chance="179" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Hellspawn" nameDescription="a hellspawn" experience="2550" speed="344" manacost="0">
 	<health now="3500" max="3500" />
 	<look type="322" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -57,23 +57,23 @@
 		<voice sentence="I'm taking you down with me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="92819" countmax="220" />
-		<item id="7591" name="great health potion" chance="29809" />
-		<item id="11221" name="hellspawn tail" chance="14657" />
-		<item id="6500" name="demonic essence" chance="7708" />
-		<item id="2394" name="morning star" chance="7609" />
-		<item id="8473" name="ultimate health potion" chance="7082" />
-		<item id="2513" name="battle shield" chance="6851" />
-		<item id="7368" name="assassin star" chance="6588" countmax="2" />
-		<item id="2788" name="red mushroom" chance="6423" countmax="2" />
-		<item id="9970" name="small topaz" chance="4578" countmax="3" />
-		<item id="9809" name="rusted armor" chance="2042" />
-		<item id="2477" name="knight legs" chance="1845" />
-		<item id="2475" name="warrior helmet" chance="1219" />
-		<item id="7439" name="berserk potion" chance="593" />
-		<item id="7452" name="spiked squelcher" chance="527" />
-		<item id="9969" name="black skull (item)" chance="198" />
-		<item id="9810" name="slightly rusted armor" chance="198" />
-		<item name="dracoyle statue" chance="99" />
+		<item id="2148" name="gold coin" chance="92817" countmax="220" />
+		<item id="7591" name="great health potion" chance="29747" />
+		<item id="11221" name="hellspawn tail" chance="14595" />
+		<item id="6500" name="demonic essence" chance="7707" />
+		<item id="2394" name="morning star" chance="7642" />
+		<item id="8473" name="ultimate health potion" chance="7084" />
+		<item id="2513" name="battle shield" chance="6920" />
+		<item id="7368" name="assassin star" chance="6625" countmax="2" />
+		<item id="2788" name="red mushroom" chance="6396" countmax="2" />
+		<item id="9970" name="small topaz" chance="4559" countmax="3" />
+		<item id="9809" name="rusted armor" chance="2033" />
+		<item id="2477" name="knight legs" chance="1869" />
+		<item id="2475" name="warrior helmet" chance="1214" />
+		<item id="7439" name="berserk potion" chance="590" />
+		<item id="7452" name="spiked squelcher" chance="525" />
+		<item id="9969" name="black skull (item)" chance="197" />
+		<item id="9810" name="slightly rusted armor" chance="197" />
+		<item name="dracoyle statue" chance="98" />
 	</loot>
 </monster>

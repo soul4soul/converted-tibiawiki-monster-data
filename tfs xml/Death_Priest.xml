@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Death Priest" nameDescription="a death priest" experience="750" speed="204" manacost="0">
 	<health now="800" max="800" />
 	<look type="99" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
-		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity invisible="1" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -47,14 +47,14 @@
 		<defense name="healing" interval="2000" chance="20" min="80" max="200" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="69873" countmax="152" />
-		<item id="13739" name="hieroglyph banner" chance="26298" />
-		<item id="7620" name="mana potion" chance="16248" />
-		<item id="7618" name="health potion" chance="14740" />
-		<item id="2159" name="scarab coin" chance="9356" countmax="3" />
-		<item id="5022" name="orichalcum pearl" chance="6222" countmax="4" />
-		<item id="2175" name="spellbook" chance="5528" />
-		<item id="2143" name="white pearl" chance="2752" />
-		<item id="2214" name="ring of healing" chance="1101" />
+		<item id="2148" name="gold coin" chance="69887" countmax="152" />
+		<item id="13739" name="hieroglyph banner" chance="26041" />
+		<item id="7620" name="mana potion" chance="16244" />
+		<item id="7618" name="health potion" chance="14751" />
+		<item id="2159" name="scarab coin" chance="9253" countmax="3" />
+		<item id="5022" name="orichalcum pearl" chance="6312" countmax="4" />
+		<item id="2175" name="spellbook" chance="5498" />
+		<item id="2143" name="white pearl" chance="2760" />
+		<item id="2214" name="ring of healing" chance="1109" />
 	</loot>
 </monster>

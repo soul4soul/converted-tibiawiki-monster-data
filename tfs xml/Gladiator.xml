@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Gladiator" nameDescription="a gladiator" experience="90" speed="196" manacost="0">
 	<health now="185" max="185" />
 	<look type="131" head="78" body="3" legs="79" feet="114" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>

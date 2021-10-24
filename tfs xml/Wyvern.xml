@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Wyvern" nameDescription="a wyvern" experience="515" speed="186" manacost="0">
 	<health now="795" max="795" />
 	<look type="239" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -54,12 +54,12 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="99981" countmax="90" />
-		<item id="2672" name="dragon ham" chance="60218" />
-		<item id="10561" name="wyvern talisman" chance="11983" />
-		<item id="2146" name="small sapphire" chance="4930" />
-		<item id="2547" name="power bolt" chance="3375" />
-		<item id="7588" name="strong health potion" chance="2469" />
-		<item id="2187" name="wand of inferno" chance="785" />
+		<item id="2672" name="dragon ham" chance="60212" />
+		<item id="10561" name="wyvern talisman" chance="11991" />
+		<item id="2146" name="small sapphire" chance="4934" />
+		<item id="2547" name="power bolt" chance="3376" />
+		<item id="7588" name="strong health potion" chance="2466" />
+		<item id="2187" name="wand of inferno" chance="782" />
 		<item id="2127" name="emerald bangle" chance="588" />
 		<item id="7408" name="wyvern fang" chance="455" />
 	</loot>

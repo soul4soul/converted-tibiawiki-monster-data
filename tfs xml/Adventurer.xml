@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Adventurer" nameDescription="an adventurer" experience="0" speed="106" manacost="0">
 	<health now="65" max="65" />
 	<look type="129" head="93" body="15" legs="72" feet="80" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
-		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity invisible="1" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -41,5 +41,4 @@
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="8" defense="8" />
-	<loot />
 </monster>

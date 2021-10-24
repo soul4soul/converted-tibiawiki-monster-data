@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Lizard Snakecharmer" nameDescription="a lizard snakecharmer" experience="210" speed="184" manacost="0">
 	<health now="325" max="325" />
 	<look type="115" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -51,18 +51,18 @@
 		<voice sentence="Shhhhhhh" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="83268" countmax="54" />
-		<item name="dead snake" chance="45151" />
-		<item id="2654" name="cape" chance="8680" />
-		<item id="2177" name="life crystal" chance="1287" />
-		<item id="5876" name="lizard leather" chance="1137" />
-		<item id="5881" name="lizard scale" chance="1018" />
-		<item id="2181" name="terra rod" chance="943" />
-		<item id="7620" name="mana potion" chance="658" />
-		<item id="2150" name="small amethyst" chance="389" />
-		<item id="2168" name="life ring" chance="180" />
-		<item id="2182" name="snakebite rod" chance="135" />
-		<item id="3971" name="charmer's tiara" chance="105" />
+		<item id="2148" name="gold coin" chance="83246" countmax="54" />
+		<item name="dead snake" chance="45331" />
+		<item id="2654" name="cape" chance="8667" />
+		<item id="2177" name="life crystal" chance="1281" />
+		<item id="5876" name="lizard leather" chance="1162" />
+		<item id="5881" name="lizard scale" chance="1042" />
+		<item id="2181" name="terra rod" chance="938" />
+		<item id="7620" name="mana potion" chance="670" />
+		<item id="2150" name="small amethyst" chance="387" />
+		<item id="2168" name="life ring" chance="179" />
+		<item id="2182" name="snakebite rod" chance="134" />
+		<item id="3971" name="charmer's tiara" chance="104" />
 		<item id="2154" name="yellow gem" chance="30" />
 	</loot>
 </monster>

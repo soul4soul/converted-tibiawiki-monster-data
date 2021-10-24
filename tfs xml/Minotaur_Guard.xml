@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Minotaur Guard" nameDescription="a minotaur guard" experience="160" speed="190" manacost="550">
 	<health now="185" max="185" />
 	<look type="29" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,12 +49,12 @@
 		<voice sentence="Kaplar" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="59679" countmax="20" />
-		<item id="12428" name="minotaur horn" chance="8187" countmax="2" />
+		<item id="2148" name="gold coin" chance="59674" countmax="20" />
+		<item id="12428" name="minotaur horn" chance="8188" countmax="2" />
 		<item id="12438" name="piece of warrior armor" chance="4983" />
-		<item id="2465" name="brass armor" chance="4127" />
-		<item id="2464" name="chain armor" chance="2984" />
-		<item id="2513" name="battle shield" chance="2066" />
+		<item id="2465" name="brass armor" chance="4125" />
+		<item id="2464" name="chain armor" chance="2983" />
+		<item id="2513" name="battle shield" chance="2065" />
 		<item id="5878" name="minotaur leather" chance="951" />
 		<item id="2580" name="fishing rod" chance="484" />
 		<item id="2387" name="double axe" chance="437" />

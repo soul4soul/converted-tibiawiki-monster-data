@@ -57,10 +57,10 @@ monster.voices = {
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -87,11 +87,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2156, chance = 87500},
-	{id = 33980, chance = 7813},
-	{id = "enchanted theurgic amulet", chance = 1563},
-	{id = 33979, chance = 1563},
-	{id = 34273, chance = 1563}
+	{id = 2156, chance = 86154},
+	{id = 33980, chance = 9231},
+	{id = "enchanted theurgic amulet", chance = 1538},
+	{id = 33979, chance = 1538},
+	{id = 34273, chance = 1538}
 }
 
 mType:register(monster)

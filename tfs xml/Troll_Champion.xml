@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Troll Champion" nameDescription="a troll champion" experience="40" speed="138" manacost="350">
 	<health now="75" max="75" />
 	<look type="281" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -52,15 +52,15 @@
 		<voice sentence="Groar" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64526" countmax="12" />
-		<item id="2389" name="spear" chance="25078" />
-		<item id="2666" name="meat" chance="9961" />
-		<item id="2643" name="leather boots" chance="9862" />
-		<item id="2512" name="wooden shield" chance="5324" />
-		<item id="2448" name="studded club" chance="5072" />
-		<item id="2544" name="arrow" chance="5042" countmax="5" />
-		<item id="10606" name="bunch of troll hair" chance="3076" />
-		<item id="12471" name="trollroot" chance="908" />
-		<item id="2170" name="silver amulet" chance="130" />
+		<item id="2148" name="gold coin" chance="64555" countmax="12" />
+		<item id="2389" name="spear" chance="25090" />
+		<item id="2666" name="meat" chance="9983" />
+		<item id="2643" name="leather boots" chance="9912" />
+		<item id="2512" name="wooden shield" chance="5337" />
+		<item id="2544" name="arrow" chance="5052" countmax="5" />
+		<item id="2448" name="studded club" chance="5048" />
+		<item id="10606" name="bunch of troll hair" chance="3069" />
+		<item id="12471" name="trollroot" chance="913" />
+		<item id="2170" name="silver amulet" chance="128" />
 	</loot>
 </monster>

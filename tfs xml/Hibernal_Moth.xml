@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Hibernal Moth" nameDescription="a hibernal moth" experience="700" speed="400" manacost="0">
 	<health now="850" max="850" />
 	<look type="1149" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -41,5 +41,4 @@
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="37" defense="37" />
-	<loot />
 </monster>

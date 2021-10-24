@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Giant Spider" nameDescription="a giant spider" experience="900" speed="240" manacost="0">
 	<health now="1300" max="1300" />
 	<look type="38" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,19 +49,19 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="99984" countmax="196" />
-		<item id="2545" name="poison arrow" chance="11969" countmax="12" />
-		<item id="2463" name="plate armor" chance="10006" />
-		<item id="2647" name="plate legs" chance="7877" />
-		<item id="2377" name="two handed sword" chance="5055" />
-		<item id="3351" name="steel helmet" chance="4923" />
-		<item id="7588" name="strong health potion" chance="3567" />
-		<item id="5879" name="spider silk" chance="1983" />
-		<item id="2477" name="knight legs" chance="843" />
-		<item id="2169" name="time ring" chance="712" />
-		<item id="2476" name="knight armor" chance="490" />
-		<item id="2171" name="platinum amulet" chance="271" />
-		<item id="7901" name="lightning headband" chance="264" />
+		<item id="2148" name="gold coin" chance="99985" countmax="196" />
+		<item id="2545" name="poison arrow" chance="11955" countmax="12" />
+		<item id="2463" name="plate armor" chance="10022" />
+		<item id="2647" name="plate legs" chance="7891" />
+		<item id="2377" name="two handed sword" chance="5059" />
+		<item id="3351" name="steel helmet" chance="4908" />
+		<item id="7588" name="strong health potion" chance="3569" />
+		<item id="5879" name="spider silk" chance="1988" />
+		<item id="2477" name="knight legs" chance="840" />
+		<item id="2169" name="time ring" chance="708" />
+		<item id="2476" name="knight armor" chance="484" />
+		<item id="2171" name="platinum amulet" chance="270" />
+		<item id="7901" name="lightning headband" chance="265" />
 		<item id="8859" name="spider fangs" chance="1" />
 	</loot>
 </monster>

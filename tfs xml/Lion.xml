@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Lion" nameDescription="a lion" experience="30" speed="190" manacost="320">
 	<health now="80" max="80" />
 	<look type="41" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -48,8 +48,8 @@
 		<voice sentence="Groarrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="45381" />
-		<item id="2671" name="ham" chance="19231" />
-		<item id="10608" name="lion's mane" chance="1160" />
+		<item id="2666" name="meat" chance="45364" />
+		<item id="2671" name="ham" chance="19219" />
+		<item id="10608" name="lion's mane" chance="1174" />
 	</loot>
 </monster>

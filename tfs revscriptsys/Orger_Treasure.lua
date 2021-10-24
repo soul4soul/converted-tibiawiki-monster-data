@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 50000
+monster.maxHealth = 50000
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -57,10 +57,10 @@ monster.voices = {
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
-	{type = "invisible", condition = false},
-	{type = "drunk", condition = false},
+	{type = "invisible", condition = true},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 

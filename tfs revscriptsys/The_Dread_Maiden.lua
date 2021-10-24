@@ -60,7 +60,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -87,32 +87,32 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 99200, maxCount = 2},
-	{id = 35427, chance = 48800, maxCount = 2},
-	{id = 35425, chance = 44000, maxCount = 2},
-	{id = 26030, chance = 43200, maxCount = 6},
-	{id = 35426, chance = 40000},
-	{id = 26031, chance = 34400, maxCount = 6},
-	{id = 26029, chance = 21600, maxCount = 6},
-	{id = 7439, chance = 20800, maxCount = 10},
-	{id = 7440, chance = 19200, maxCount = 10},
-	{id = 7443, chance = 17600, maxCount = 10},
-	{id = 35247, chance = 16000},
-	{id = 35429, chance = 13600},
-	{id = 35359, chance = 12000, maxCount = 2},
-	{id = 35428, chance = 9600},
-	{id = 35245, chance = 8800},
-	{id = 35430, chance = 8800},
-	{id = 35251, chance = 5600},
-	{id = 35282, chance = 4800},
-	{id = 35286, chance = 4800},
-	{id = 35281, chance = 3200},
-	{id = 35278, chance = 3200},
-	{id = 35279, chance = 3200},
-	{id = 35287, chance = 2400},
-	{id = 35280, chance = 1600},
-	{id = 35252, chance = 1600},
-	{id = 35275, chance = 800}
+	{id = 2160, chance = 99237, maxCount = 2},
+	{id = 35427, chance = 49618, maxCount = 2},
+	{id = 26030, chance = 42748, maxCount = 6},
+	{id = 35425, chance = 42748, maxCount = 2},
+	{id = 35426, chance = 40458},
+	{id = 26031, chance = 33588, maxCount = 6},
+	{id = 26029, chance = 22901, maxCount = 6},
+	{id = 7439, chance = 19847, maxCount = 10},
+	{id = 7440, chance = 19847, maxCount = 10},
+	{id = 7443, chance = 16794, maxCount = 10},
+	{id = 35247, chance = 15267},
+	{id = 35429, chance = 12977},
+	{id = 35359, chance = 11450, maxCount = 2},
+	{id = 35430, chance = 9924},
+	{id = 35428, chance = 9160},
+	{id = 35245, chance = 8397},
+	{id = 35282, chance = 5344},
+	{id = 35251, chance = 5344},
+	{id = 35286, chance = 4580},
+	{id = 35281, chance = 3053},
+	{id = 35278, chance = 3053},
+	{id = 35279, chance = 3053},
+	{id = 35280, chance = 2290},
+	{id = 35287, chance = 2290},
+	{id = 35252, chance = 1527},
+	{id = 35275, chance = 763}
 }
 
 mType:register(monster)

@@ -60,7 +60,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -79,7 +79,7 @@ monster.elements = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -350, maxDamage = -450, range = 1, radius = 1, target = true, ShootEffect = CONST_ANI_SMALLSTONE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -350, maxDamage = -450, range = 1, radius = 1, target = true, shootEffect = CONST_ANI_SMALLSTONE},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -600, maxDamage = -800, radius = 4, target = false, effect = CONST_ME_FIREAREA},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -350, maxDamage = -400, length = 4, spread = 0, effect = CONST_ME_FIREAREA}
 }
@@ -91,19 +91,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 19},
-	{id = 2230, chance = 22984},
-	{id = 7591, chance = 12115, maxCount = 2},
-	{id = 39462, chance = 11765},
-	{id = 39461, chance = 9233},
-	{id = 7903, chance = 5960},
-	{id = 7886, chance = 4831},
-	{id = 2430, chance = 4051},
-	{id = 7901, chance = 3857},
-	{id = 7387, chance = 3623},
-	{id = 7430, chance = 3272},
-	{id = 2438, chance = 3116},
-	{id = 2391, chance = 2649},
-	{id = 39463, chance = 506}
+	{id = 2230, chance = 23273},
+	{id = 7591, chance = 12123, maxCount = 2},
+	{id = 39462, chance = 11683},
+	{id = 39461, chance = 9768},
+	{id = 7903, chance = 6124},
+	{id = 7886, chance = 4585},
+	{id = 2430, chance = 3894},
+	{id = 7901, chance = 3863},
+	{id = 7387, chance = 3580},
+	{id = 7430, chance = 3486},
+	{id = 2438, chance = 3266},
+	{id = 2391, chance = 2670},
+	{id = 39463, chance = 471}
 }
 
 mType:register(monster)

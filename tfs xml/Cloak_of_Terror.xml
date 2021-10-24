@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Cloak Of Terror" nameDescription="a cloak of terror" experience="19700" speed="500" manacost="0">
 	<health now="28000" max="28000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,19 +50,19 @@
 		<voice sentence="You should be more positive!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2160" name="crystal coin" chance="56410" />
-		<item id="8473" name="ultimate health potion" chance="15121" countmax="6" />
-		<item id="9971" name="gold ingot" chance="12313" />
-		<item id="36590" name="telescope eye" chance="5597" />
-		<item id="8920" name="wand of starstorm" chance="5048" />
-		<item id="2153" name="violet gem" chance="3949" />
-		<item id="2187" name="wand of inferno" chance="3717" />
-		<item id="36591" name="crown (plant)" chance="2999" />
-		<item id="2158" name="blue gem" chance="2788" />
-		<item id="18390" name="wand of defiance" chance="2788" />
-		<item id="2155" name="green gem" chance="2640" />
-		<item id="8922" name="wand of voodoo" chance="2492" />
-		<item id="7901" name="lightning headband" chance="1436" />
-		<item id="36679" name="brooch of embracement" chance="739" />
+		<item id="2160" name="crystal coin" chance="55624" />
+		<item id="8473" name="ultimate health potion" chance="14843" countmax="6" />
+		<item id="9971" name="gold ingot" chance="12176" />
+		<item id="36590" name="telescope eye" chance="5573" />
+		<item id="8920" name="wand of starstorm" chance="4728" />
+		<item id="2153" name="violet gem" chance="4326" />
+		<item id="2187" name="wand of inferno" chance="3564" />
+		<item id="18390" name="wand of defiance" chance="3039" />
+		<item id="2155" name="green gem" chance="2874" />
+		<item id="36591" name="crown (plant)" chance="2802" />
+		<item id="8922" name="wand of voodoo" chance="2534" />
+		<item id="2158" name="blue gem" chance="2482" />
+		<item id="7901" name="lightning headband" chance="1473" />
+		<item id="36679" name="brooch of embracement" chance="783" />
 	</loot>
 </monster>

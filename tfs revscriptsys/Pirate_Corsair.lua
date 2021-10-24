@@ -63,7 +63,7 @@ monster.immunities = {
 	{type = "paralyze", condition = false},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -91,22 +91,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 55519, maxCount = 86},
-	{id = 11219, chance = 10345},
-	{id = 2385, chance = 9728},
-	{id = 2399, chance = 8102, maxCount = 12},
-	{id = 2489, chance = 1840},
-	{id = 2521, chance = 1109},
-	{id = 6096, chance = 1084},
-	{id = 5926, chance = 983},
-	{id = 7588, chance = 832},
-	{id = 6126, chance = 529},
-	{id = 6097, chance = 517},
-	{id = 6098, chance = 466},
-	{id = 5462, chance = 315},
-	{id = "skull candle", chance = 139},
-	{id = 5553, chance = 113},
-	{id = 2114, chance = 101}
+	{id = 2148, chance = 55424, maxCount = 86},
+	{id = 11219, chance = 10430},
+	{id = 2385, chance = 9821},
+	{id = 2399, chance = 7933, maxCount = 12},
+	{id = 2489, chance = 1864},
+	{id = 2521, chance = 1099},
+	{id = 6096, chance = 1099},
+	{id = 5926, chance = 1027},
+	{id = 7588, chance = 800},
+	{id = 6097, chance = 538},
+	{id = 6126, chance = 526},
+	{id = 6098, chance = 454},
+	{id = 5462, chance = 323},
+	{id = "skull candle", chance = 131},
+	{id = 5553, chance = 108},
+	{id = 2114, chance = 96}
 }
 
 mType:register(monster)

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Bug" nameDescription="a bug" experience="18" speed="160" manacost="250">
 	<health now="29" max="29" />
 	<look type="45" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,7 +45,7 @@
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="2148" name="gold coin" chance="49937" countmax="6" />
-		<item id="2679" name="cherry" chance="3059" countmax="3" />
+		<item id="2148" name="gold coin" chance="49945" countmax="6" />
+		<item id="2679" name="cherry" chance="3060" countmax="3" />
 	</loot>
 </monster>

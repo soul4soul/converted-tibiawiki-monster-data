@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Mummy" nameDescription="a mummy" experience="150" speed="150" manacost="0">
 	<health now="240" max="240" />
 	<look type="65" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,19 +53,19 @@
 		<voice sentence="Yohag Sssetham!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="39569" countmax="80" />
-		<item id="3976" name="worm" chance="19851" countmax="3" />
-		<item id="12422" name="flask of embalming fluid" chance="12109" />
-		<item id="10566" name="gauze bandage" chance="10002" />
-		<item id="2162" name="magic light wand" chance="6048" />
-		<item id="2161" name="strange talisman" chance="4991" />
-		<item id="2134" name="silver brooch" chance="3947" />
-		<item id="2124" name="crystal ring" chance="1498" />
-		<item id="2144" name="black pearl" chance="997" />
-		<item id="5914" name="yellow piece of cloth" chance="950" />
-		<item id="2411" name="poison dagger" chance="507" />
-		<item id="2529" name="black shield" chance="183" />
-		<item id="2170" name="silver amulet" chance="91" />
+		<item id="2148" name="gold coin" chance="39563" countmax="80" />
+		<item id="3976" name="worm" chance="19848" countmax="3" />
+		<item id="12422" name="flask of embalming fluid" chance="12108" />
+		<item id="10566" name="gauze bandage" chance="10006" />
+		<item id="2162" name="magic light wand" chance="6042" />
+		<item id="2161" name="strange talisman" chance="4990" />
+		<item id="2134" name="silver brooch" chance="3949" />
+		<item id="2124" name="crystal ring" chance="1496" />
+		<item id="2144" name="black pearl" chance="995" />
+		<item id="5914" name="yellow piece of cloth" chance="948" />
+		<item id="2411" name="poison dagger" chance="506" />
+		<item id="2529" name="black shield" chance="184" />
+		<item id="2170" name="silver amulet" chance="92" />
 		<item id="11207" name="mini mummy" chance="2" />
 	</loot>
 </monster>

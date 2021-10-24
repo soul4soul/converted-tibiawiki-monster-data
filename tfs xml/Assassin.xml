@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Assassin" nameDescription="an assassin" experience="105" speed="224" manacost="0">
 	<health now="175" max="175" />
 	<look type="152" head="95" body="95" legs="95" feet="95" addons="3" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,18 +50,18 @@
 		<voice sentence="Feel the hand of death!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="83044" countmax="50" />
-		<item name="torch" chance="30080" countmax="2" />
-		<item id="2403" name="knife" chance="9870" />
-		<item id="2399" name="throwing star" chance="7022" countmax="14" />
-		<item id="7366" name="viper star" chance="4175" countmax="7" />
-		<item id="2404" name="combat knife" chance="4016" />
-		<item id="3351" name="steel helmet" chance="3051" />
-		<item id="2510" name="plate shield" chance="1936" />
-		<item id="2513" name="battle shield" chance="1639" />
+		<item id="2148" name="gold coin" chance="83038" countmax="50" />
+		<item name="torch" chance="30097" countmax="2" />
+		<item id="2403" name="knife" chance="9857" />
+		<item id="2399" name="throwing star" chance="7002" countmax="14" />
+		<item id="7366" name="viper star" chance="4171" countmax="7" />
+		<item id="2404" name="combat knife" chance="4009" />
+		<item id="3351" name="steel helmet" chance="3047" />
+		<item id="2510" name="plate shield" chance="1928" />
+		<item id="2513" name="battle shield" chance="1642" />
 		<item id="2509" name="steel shield" chance="976" />
-		<item id="3968" name="leopard armor" chance="475" />
-		<item id="3969" name="horseman helmet" chance="243" />
-		<item id="2145" name="small diamond" chance="223" />
+		<item id="3968" name="leopard armor" chance="473" />
+		<item id="3969" name="horseman helmet" chance="242" />
+		<item id="2145" name="small diamond" chance="222" />
 	</loot>
 </monster>

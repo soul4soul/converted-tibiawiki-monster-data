@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Vampire" nameDescription="a vampire" experience="305" speed="238" manacost="0">
 	<health now="475" max="475" />
 	<look type="68" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -56,19 +56,19 @@
 		<voice sentence="I call you, my bats! Come!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="90064" countmax="60" />
-		<item id="10602" name="vampire teeth" chance="7773" />
-		<item id="12405" name="blood preservation" chance="5089" />
-		<item id="2747" name="grave flower" chance="1926" />
-		<item id="2144" name="black pearl" chance="1792" />
-		<item id="7588" name="strong health potion" chance="1502" />
-		<item id="2412" name="katana" chance="1449" />
-		<item id="2229" name="skull (item)" chance="1013" />
-		<item id="2383" name="spike sword" chance="1004" />
-		<item id="2396" name="ice rapier" chance="471" />
-		<item id="2479" name="strange helmet" chance="402" />
-		<item id="2172" name="bronze amulet" chance="237" />
-		<item id="2127" name="emerald bangle" chance="206" />
+		<item id="2148" name="gold coin" chance="90056" countmax="60" />
+		<item id="10602" name="vampire teeth" chance="7764" />
+		<item id="12405" name="blood preservation" chance="5090" />
+		<item id="2747" name="grave flower" chance="1922" />
+		<item id="2144" name="black pearl" chance="1784" />
+		<item id="7588" name="strong health potion" chance="1517" />
+		<item id="2412" name="katana" chance="1455" />
+		<item id="2229" name="skull (item)" chance="1019" />
+		<item id="2383" name="spike sword" chance="1010" />
+		<item id="2396" name="ice rapier" chance="467" />
+		<item id="2479" name="strange helmet" chance="411" />
+		<item id="2172" name="bronze amulet" chance="233" />
+		<item id="2127" name="emerald bangle" chance="203" />
 		<item id="2534" name="vampire shield" chance="193" />
 	</loot>
 </monster>

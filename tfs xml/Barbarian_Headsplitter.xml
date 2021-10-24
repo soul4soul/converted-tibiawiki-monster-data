@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Barbarian Headsplitter" nameDescription="a barbarian headsplitter" experience="85" speed="168" manacost="0">
 	<health now="100" max="100" />
 	<look type="253" head="115" body="86" legs="119" feet="113" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -51,13 +51,13 @@
 		<voice sentence="Die! Die! Die!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75197" countmax="30" />
-		<item name="torch" chance="59833" />
-		<item id="2460" name="brass helmet" chance="20186" />
-		<item id="2403" name="knife" chance="14935" />
-		<item id="2473" name="viking helmet" chance="4965" />
-		<item id="2483" name="scale armor" chance="4049" />
-		<item id="2229" name="skull (item)" chance="3188" />
+		<item id="2148" name="gold coin" chance="75201" countmax="30" />
+		<item name="torch" chance="59831" />
+		<item id="2460" name="brass helmet" chance="20191" />
+		<item id="2403" name="knife" chance="14940" />
+		<item id="2473" name="viking helmet" chance="4964" />
+		<item id="2483" name="scale armor" chance="4048" />
+		<item id="2229" name="skull (item)" chance="3187" />
 		<item id="5913" name="brown piece of cloth" chance="971" />
 		<item id="7618" name="health potion" chance="531" />
 		<item id="2168" name="life ring" chance="220" />

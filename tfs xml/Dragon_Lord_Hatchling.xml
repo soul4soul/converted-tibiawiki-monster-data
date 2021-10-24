@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Dragon Lord Hatchling" nameDescription="a dragon lord hatchling" experience="645" speed="168" manacost="0">
 	<health now="750" max="750" />
 	<look type="272" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -51,10 +51,10 @@
 		<voice sentence="Rooawwrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2672" name="dragon ham" chance="79711" />
-		<item id="2148" name="gold coin" chance="75114" countmax="169" />
-		<item id="2796" name="green mushroom" chance="497" />
-		<item id="7620" name="mana potion" chance="411" />
+		<item id="2672" name="dragon ham" chance="79703" />
+		<item id="2148" name="gold coin" chance="75103" countmax="169" />
+		<item id="2796" name="green mushroom" chance="495" />
+		<item id="7620" name="mana potion" chance="410" />
 		<item id="7891" name="magma boots" chance="85" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Pirat Bombardier" nameDescription="a pirat bombardier" experience="1700" speed="370" manacost="0">
 	<health now="2300" max="2300" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,14 +45,14 @@
 	</attacks>
 	<defenses armor="65" defense="65" />
 	<loot>
-		<item id="7590" name="great mana potion" chance="35285" countmax="2" />
-		<item id="38228" name="pirate coin" chance="7545" countmax="10" />
-		<item id="7886" name="terra boots" chance="6211" />
-		<item id="38229" name="pirat's tail" chance="4813" />
-		<item id="38252" name="mouldy powder" chance="4098" />
-		<item id="7891" name="magma boots" chance="3577" />
+		<item id="7590" name="great mana potion" chance="35273" countmax="2" />
+		<item id="38228" name="pirate coin" chance="7542" countmax="10" />
+		<item id="7886" name="terra boots" chance="6209" />
+		<item id="38229" name="pirat's tail" chance="4811" />
+		<item id="38252" name="mouldy powder" chance="4096" />
+		<item id="7891" name="magma boots" chance="3576" />
 		<item name="ring of blue plasma" chance="2146" />
-		<item id="7893" name="lightning boots" chance="1659" />
-		<item id="2664" name="wood cape" chance="1496" />
+		<item id="7893" name="lightning boots" chance="1658" />
+		<item id="2664" name="wood cape" chance="1495" />
 	</loot>
 </monster>

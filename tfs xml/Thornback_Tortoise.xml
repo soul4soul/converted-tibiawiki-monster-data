@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Thornback Tortoise" nameDescription="a thornback tortoise" experience="150" speed="150" manacost="0">
 	<health now="300" max="300" />
 	<look type="198" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,16 +45,16 @@
 	</attacks>
 	<defenses armor="24" defense="24" />
 	<loot>
-		<item id="2148" name="gold coin" chance="87944" countmax="50" />
-		<item id="10560" name="thorn" chance="15522" />
-		<item id="2667" name="fish" chance="10500" countmax="2" />
-		<item id="7618" name="health potion" chance="1608" />
-		<item id="2143" name="white pearl" chance="1328" />
-		<item id="5899" name="turtle shell" chance="1089" />
-		<item id="2787" name="white mushroom" chance="1079" />
-		<item id="5678" name="tortoise egg" chance="965" countmax="3" />
-		<item id="2789" name="brown mushroom" chance="695" />
-		<item id="2144" name="black pearl" chance="654" />
-		<item id="2391" name="war hammer" chance="280" />
+		<item id="2148" name="gold coin" chance="87884" countmax="50" />
+		<item id="10560" name="thorn" chance="15537" />
+		<item id="2667" name="fish" chance="10502" countmax="2" />
+		<item id="7618" name="health potion" chance="1585" />
+		<item id="2143" name="white pearl" chance="1334" />
+		<item id="5899" name="turtle shell" chance="1103" />
+		<item id="2787" name="white mushroom" chance="1083" />
+		<item id="5678" name="tortoise egg" chance="953" countmax="3" />
+		<item id="2789" name="brown mushroom" chance="702" />
+		<item id="2144" name="black pearl" chance="642" />
+		<item id="2391" name="war hammer" chance="291" />
 	</loot>
 </monster>

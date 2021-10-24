@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Reality Reaver" nameDescription="a reality reaver" experience="2480" speed="340" manacost="0">
 	<health now="3900" max="3900" />
 	<look type="879" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,29 +50,29 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="6" />
-		<item id="26201" name="energy drink" chance="17971" countmax="2" />
-		<item id="26191" name="energy bar" chance="17768" countmax="2" />
-		<item id="26164" name="energy vein" chance="14867" />
-		<item id="26176" name="plasmatic lightning" chance="14398" />
-		<item id="7591" name="great health potion" chance="10940" countmax="2" />
-		<item id="8472" name="great spirit potion" chance="10807" countmax="2" />
-		<item id="7590" name="great mana potion" chance="10675" countmax="2" />
-		<item id="26171" name="dangerous proto matter" chance="9923" />
-		<item id="26162" name="plasma pearls" chance="9560" />
-		<item id="18418" name="blue crystal splinter" chance="8260" countmax="2" />
-		<item id="18420" name="red crystal fragment" chance="6182" />
-		<item id="18414" name="violet crystal shard" chance="4130" />
-		<item id="18413" name="blue crystal shard" chance="3883" />
-		<item id="2156" name="red gem" chance="2521" />
-		<item id="8920" name="wand of starstorm" chance="1070" />
-		<item id="7901" name="lightning headband" chance="469" />
-		<item name="ring of green plasma" chance="416" />
-		<item id="8871" name="focus cape" chance="371" />
-		<item name="ring of blue plasma" chance="354" />
-		<item id="2153" name="violet gem" chance="336" />
-		<item name="collar of blue plasma" chance="283" />
-		<item id="26199" name="collar of green plasma" chance="283" />
-		<item name="ring of red plasma" chance="274" />
-		<item id="26200" name="collar of red plasma" chance="195" />
+		<item id="26201" name="energy drink" chance="17969" countmax="2" />
+		<item id="26191" name="energy bar" chance="17720" countmax="2" />
+		<item id="26164" name="energy vein" chance="15076" />
+		<item id="26176" name="plasmatic lightning" chance="14593" />
+		<item id="7591" name="great health potion" chance="10968" countmax="2" />
+		<item id="8472" name="great spirit potion" chance="10843" countmax="2" />
+		<item id="7590" name="great mana potion" chance="10777" countmax="2" />
+		<item id="26171" name="dangerous proto matter" chance="9962" />
+		<item id="26162" name="plasma pearls" chance="9646" />
+		<item id="18418" name="blue crystal splinter" chance="8240" countmax="2" />
+		<item id="18420" name="red crystal fragment" chance="6187" />
+		<item id="18414" name="violet crystal shard" chance="4124" />
+		<item id="18413" name="blue crystal shard" chance="3933" />
+		<item id="2156" name="red gem" chance="2594" />
+		<item id="8920" name="wand of starstorm" chance="1089" />
+		<item id="7901" name="lightning headband" chance="457" />
+		<item name="ring of green plasma" chance="407" />
+		<item id="8871" name="focus cape" chance="366" />
+		<item name="ring of blue plasma" chance="366" />
+		<item id="2153" name="violet gem" chance="333" />
+		<item name="collar of blue plasma" chance="274" />
+		<item id="26199" name="collar of green plasma" chance="274" />
+		<item name="ring of red plasma" chance="266" />
+		<item id="26200" name="collar of red plasma" chance="208" />
 	</loot>
 </monster>

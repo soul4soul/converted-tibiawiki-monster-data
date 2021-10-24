@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Braindeath" nameDescription="a braindeath" experience="985" speed="218" manacost="0">
 	<health now="1225" max="1225" />
 	<look type="256" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -56,17 +56,17 @@
 		<voice sentence="You will be punished!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99442" countmax="90" />
-		<item id="2450" name="bone sword" chance="15026" />
-		<item id="7364" name="sniper arrow" chance="9581" countmax="4" />
-		<item id="2509" name="steel shield" chance="5944" />
-		<item id="10580" name="piece of dead brain" chance="5038" />
+		<item id="2148" name="gold coin" chance="99447" countmax="90" />
+		<item id="2450" name="bone sword" chance="15001" />
+		<item id="7364" name="sniper arrow" chance="9573" countmax="4" />
+		<item id="2509" name="steel shield" chance="5919" />
+		<item id="10580" name="piece of dead brain" chance="5060" />
 		<item id="5898" name="bonelord eye" chance="2973" />
-		<item id="2423" name="clerical mace" chance="1956" />
-		<item id="7407" name="haunted blade" chance="1446" />
-		<item id="2175" name="spellbook" chance="948" />
-		<item id="7452" name="spiked squelcher" chance="183" />
-		<item id="3972" name="bonelord helmet" chance="99" />
-		<item id="2518" name="bonelord shield" chance="96" />
+		<item id="2423" name="clerical mace" chance="1953" />
+		<item id="7407" name="haunted blade" chance="1445" />
+		<item id="2175" name="spellbook" chance="954" />
+		<item id="7452" name="spiked squelcher" chance="181" />
+		<item id="3972" name="bonelord helmet" chance="101" />
+		<item id="2518" name="bonelord shield" chance="101" />
 	</loot>
 </monster>

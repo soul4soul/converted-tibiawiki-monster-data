@@ -60,7 +60,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -88,18 +88,18 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 8472, chance = 24623, maxCount = 2},
-	{id = 10608, chance = 18822},
-	{id = 2386, chance = 15201},
-	{id = 7886, chance = 15021},
-	{id = 2643, chance = 14549},
-	{id = 11309, chance = 12750},
-	{id = 18415, chance = 6072},
-	{id = 18419, chance = 4632},
-	{id = 2391, chance = 3441},
-	{id = 2154, chance = 2743},
-	{id = 2404, chance = 2159},
-	{id = 18421, chance = 2114}
+	{id = 8472, chance = 24607, maxCount = 2},
+	{id = 10608, chance = 18804},
+	{id = 2386, chance = 15238},
+	{id = 7886, chance = 14950},
+	{id = 2643, chance = 14529},
+	{id = 11309, chance = 12802},
+	{id = 18415, chance = 6091},
+	{id = 18419, chance = 4673},
+	{id = 2391, chance = 3477},
+	{id = 2154, chance = 2746},
+	{id = 2404, chance = 2148},
+	{id = 18421, chance = 2082}
 }
 
 mType:register(monster)

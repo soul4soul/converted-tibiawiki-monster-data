@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Deepling Spellsinger" nameDescription="a deepling spellsinger" experience="1000" speed="190" manacost="0">
 	<health now="850" max="850" />
 	<look type="443" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,18 +49,18 @@
 		<voice sentence="Mmmmmoooaaaaaahaaa!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="80098" />
-		<item id="2148" name="gold coin" chance="75108" countmax="60" />
-		<item id="15421" name="spellsinger's seal" chance="15186" />
-		<item id="15488" name="deepling filet" chance="14958" />
-		<item id="15422" name="key to the drowned library" chance="10755" />
-		<item id="2667" name="fish" chance="3524" />
-		<item id="2146" name="small sapphire" chance="2936" />
+		<item id="2152" name="platinum coin" chance="80110" />
+		<item id="2148" name="gold coin" chance="75121" countmax="60" />
+		<item id="15421" name="spellsinger's seal" chance="15197" />
+		<item id="15488" name="deepling filet" chance="14948" />
+		<item id="15422" name="key to the drowned library" chance="10762" />
+		<item id="2667" name="fish" chance="3523" />
+		<item id="2146" name="small sapphire" chance="2933" />
 		<item id="13870" name="eye of a deepling" chance="2534" />
-		<item id="2168" name="life ring" chance="2447" />
-		<item id="15400" name="deepling staff" chance="2020" />
-		<item id="15403" name="necklace of the deep" chance="786" />
+		<item id="2168" name="life ring" chance="2445" />
+		<item id="15400" name="deepling staff" chance="2019" />
+		<item id="15403" name="necklace of the deep" chance="788" />
 		<item id="5895" name="fish fin" chance="511" />
-		<item id="15644" name="ornate crossbow" chance="208" />
+		<item id="15644" name="ornate crossbow" chance="207" />
 	</loot>
 </monster>

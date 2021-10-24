@@ -60,7 +60,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -88,23 +88,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000},
-	{id = 7840, chance = 23310, maxCount = 9},
-	{id = 24845, chance = 18415},
-	{id = 24844, chance = 16550},
-	{id = 24847, chance = 11888},
-	{id = 2187, chance = 9091},
-	{id = 8921, chance = 4429},
-	{id = 18413, chance = 3263},
-	{id = 2149, chance = 3030},
-	{id = 27618, chance = 2564},
-	{id = 8844, chance = 2331, maxCount = 2},
-	{id = 18414, chance = 2098},
-	{id = 2158, chance = 1166},
-	{id = 24849, chance = 1166},
-	{id = 18409, chance = 1166},
-	{id = "giant shimmering pearl", chance = 699},
-	{id = 24850, chance = 699},
-	{id = 24828, chance = 466}
+	{id = 7840, chance = 23696, maxCount = 9},
+	{id = 24845, chance = 19130},
+	{id = 24844, chance = 16522},
+	{id = 24847, chance = 12174},
+	{id = 2187, chance = 9565},
+	{id = 8921, chance = 4348},
+	{id = 18413, chance = 3696},
+	{id = 2149, chance = 3261},
+	{id = 27618, chance = 2609},
+	{id = 8844, chance = 2391, maxCount = 2},
+	{id = 18414, chance = 2174},
+	{id = 24849, chance = 1739},
+	{id = 2158, chance = 1304},
+	{id = 18409, chance = 1087},
+	{id = "giant shimmering pearl", chance = 652},
+	{id = 24828, chance = 652},
+	{id = 24850, chance = 652}
 }
 
 mType:register(monster)

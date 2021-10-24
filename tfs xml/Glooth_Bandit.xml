@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Glooth Bandit" nameDescription="a glooth bandit" experience="2000" speed="300" manacost="0">
 	<health now="2600" max="2600" />
 	<look type="129" head="115" body="80" legs="114" feet="114" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -48,13 +48,13 @@
 	</defenses>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="60034" countmax="3" />
-		<item id="7591" name="great health potion" chance="8078" />
+		<item id="2152" name="platinum coin" chance="60032" countmax="3" />
+		<item id="7591" name="great health potion" chance="8079" />
 		<item id="24185" name="tainted glooth capsule" chance="8012" />
-		<item id="7590" name="great mana potion" chance="7426" countmax="2" />
+		<item id="7590" name="great mana potion" chance="7427" countmax="2" />
 		<item id="23574" name="glooth bag" chance="5086" />
-		<item id="8472" name="great spirit potion" chance="3472" />
-		<item id="8473" name="ultimate health potion" chance="3445" />
+		<item id="8472" name="great spirit potion" chance="3473" />
+		<item id="8473" name="ultimate health potion" chance="3444" />
 		<item id="24183" name="glooth capsule" chance="3030" />
 		<item id="23517" name="glooth steak" chance="2599" />
 		<item id="9970" name="small topaz" chance="2533" countmax="2" />
@@ -63,10 +63,10 @@
 		<item id="23551" name="glooth axe" chance="1024" />
 		<item id="23529" name="glooth spear" chance="1009" />
 		<item id="23549" name="glooth club" chance="1000" />
-		<item id="23554" name="glooth amulet" chance="998" />
+		<item id="23554" name="glooth amulet" chance="997" />
 		<item id="23550" name="glooth blade" chance="996" />
-		<item id="3962" name="beastslayer axe" chance="804" />
-		<item id="23536" name="rubber cap" chance="730" />
+		<item id="3962" name="beastslayer axe" chance="805" />
+		<item id="23536" name="rubber cap" chance="729" />
 		<item id="7903" name="terra hood" chance="608" />
 		<item id="7884" name="terra mantle" chance="598" />
 		<item id="23535" name="glooth cape" chance="582" />

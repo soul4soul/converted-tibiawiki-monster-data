@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Gnomevil" nameDescription="" experience="45000" speed="0" manacost="0">
 	<health now="250000" max="250000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
-		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity invisible="1" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -58,12 +58,12 @@
 	</voices>
 	<loot>
 		<item id="18495" name="gnomevil's hat" chance="100000" />
-		<item id="18450" name="crystalline sword" chance="12741" />
-		<item id="18454" name="mycological bow" chance="10811" />
-		<item id="18453" name="crystal crossbow" chance="10232" />
-		<item id="18465" name="shiny blade" chance="9846" />
-		<item id="18452" name="mycological mace" chance="9073" />
-		<item id="18451" name="crystalline axe" chance="8687" />
-		<item id="18449" name="decorative ribbon" chance="1931" />
+		<item id="18450" name="crystalline sword" chance="12644" />
+		<item id="18454" name="mycological bow" chance="10728" />
+		<item id="18453" name="crystal crossbow" chance="10345" />
+		<item id="18465" name="shiny blade" chance="9962" />
+		<item id="18452" name="mycological mace" chance="9004" />
+		<item id="18451" name="crystalline axe" chance="8621" />
+		<item id="18449" name="decorative ribbon" chance="1916" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Demon Outcast" nameDescription="a demon outcast" experience="6200" speed="296" manacost="0">
 	<health now="6900" max="6900" />
 	<look type="590" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,33 +53,33 @@
 		<voice sentence="No one will imprison me again!" yell="false" />
 	</voices>
 	<summons maxSummons="2">
-		<voice name="energy elemental" interval="2000" chance="15" max="1" />
+		<voice name="Energy Elemental" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="6" />
-		<item id="2795" name="fire mushroom" chance="20304" countmax="6" />
-		<item id="8473" name="ultimate health potion" chance="20047" countmax="3" />
-		<item id="7590" name="great mana potion" chance="19834" countmax="2" />
-		<item id="2145" name="small diamond" chance="10292" countmax="5" />
-		<item id="2147" name="small ruby" chance="10022" countmax="5" />
-		<item id="2146" name="small sapphire" chance="9973" countmax="5" />
-		<item id="2149" name="small emerald" chance="9946" countmax="5" />
-		<item id="9970" name="small topaz" chance="9805" countmax="5" />
-		<item id="7368" name="assassin star" chance="8621" countmax="10" />
-		<item id="2214" name="ring of healing" chance="2440" />
-		<item id="2393" name="giant sword" chance="2002" />
-		<item id="2165" name="stealth ring" chance="1404" />
-		<item id="2519" name="crown shield" chance="904" />
-		<item id="2396" name="ice rapier" chance="871" />
-		<item id="2164" name="might ring" chance="671" />
-		<item id="2171" name="platinum amulet" chance="654" />
-		<item id="2497" name="crusader helmet" chance="572" />
-		<item id="2462" name="devil helmet" chance="549" />
-		<item id="5906" name="demon dust" chance="536" />
-		<item id="22396" name="cluster of solace" chance="473" />
-		<item id="2520" name="demon shield" chance="454" />
-		<item id="2487" name="crown armor" chance="276" />
-		<item id="7382" name="demonrage sword" chance="89" />
+		<item id="2795" name="fire mushroom" chance="20281" countmax="6" />
+		<item id="8473" name="ultimate health potion" chance="20064" countmax="3" />
+		<item id="7590" name="great mana potion" chance="19818" countmax="2" />
+		<item id="2145" name="small diamond" chance="10278" countmax="5" />
+		<item id="2147" name="small ruby" chance="10039" countmax="5" />
+		<item id="2146" name="small sapphire" chance="9960" countmax="5" />
+		<item id="2149" name="small emerald" chance="9947" countmax="5" />
+		<item id="9970" name="small topaz" chance="9809" countmax="5" />
+		<item id="7368" name="assassin star" chance="8610" countmax="10" />
+		<item id="2214" name="ring of healing" chance="2432" />
+		<item id="2393" name="giant sword" chance="1999" />
+		<item id="2165" name="stealth ring" chance="1403" />
+		<item id="2519" name="crown shield" chance="901" />
+		<item id="2396" name="ice rapier" chance="878" />
+		<item id="2164" name="might ring" chance="672" />
+		<item id="2171" name="platinum amulet" chance="659" />
+		<item id="2497" name="crusader helmet" chance="570" />
+		<item id="2462" name="devil helmet" chance="547" />
+		<item id="5906" name="demon dust" chance="537" />
+		<item id="22396" name="cluster of solace" chance="472" />
+		<item id="2520" name="demon shield" chance="456" />
+		<item id="2487" name="crown armor" chance="275" />
+		<item id="7382" name="demonrage sword" chance="88" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Lich" nameDescription="a lich" experience="900" speed="210" manacost="0">
 	<health now="880" max="880" />
 	<look type="99" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -56,27 +56,27 @@
 		<voice sentence="Come to me my children!" yell="false" />
 	</voices>
 	<summons maxSummons="4">
-		<voice name="bonebeast" interval="2000" chance="15" max="1" />
+		<voice name="Bonebeast" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="139" />
-		<item id="2152" name="platinum coin" chance="19638" />
-		<item id="2175" name="spellbook" chance="10332" />
-		<item id="7589" name="strong mana potion" chance="7837" />
-		<item id="2144" name="black pearl" chance="5231" countmax="3" />
-		<item id="2143" name="white pearl" chance="4852" />
-		<item id="9970" name="small topaz" chance="2495" countmax="3" />
-		<item id="2149" name="small emerald" chance="2338" countmax="3" />
-		<item id="2532" name="ancient shield" chance="2135" />
-		<item id="2214" name="ring of healing" chance="1673" />
-		<item id="2154" name="yellow gem" chance="795" />
-		<item id="2479" name="strange helmet" chance="712" />
-		<item id="2178" name="mind stone" chance="444" />
-		<item id="2171" name="platinum amulet" chance="416" />
-		<item id="2436" name="skull staff" chance="296" />
-		<item id="7893" name="lightning boots" chance="277" />
-		<item id="2535" name="castle shield" chance="250" />
-		<item id="2656" name="blue robe" chance="194" />
-		<item id="13291" name="maxilla maximus" chance="46" />
+		<item id="2152" name="platinum coin" chance="19664" />
+		<item id="2175" name="spellbook" chance="10361" />
+		<item id="7589" name="strong mana potion" chance="7891" />
+		<item id="2144" name="black pearl" chance="5225" countmax="3" />
+		<item id="2143" name="white pearl" chance="4878" />
+		<item id="9970" name="small topaz" chance="2479" countmax="3" />
+		<item id="2149" name="small emerald" chance="2355" countmax="3" />
+		<item id="2532" name="ancient shield" chance="2115" />
+		<item id="2214" name="ring of healing" chance="1644" />
+		<item id="2154" name="yellow gem" chance="791" />
+		<item id="2479" name="strange helmet" chance="711" />
+		<item id="2178" name="mind stone" chance="435" />
+		<item id="2171" name="platinum amulet" chance="409" />
+		<item id="7893" name="lightning boots" chance="284" />
+		<item id="2436" name="skull staff" chance="284" />
+		<item id="2535" name="castle shield" chance="240" />
+		<item id="2656" name="blue robe" chance="204" />
+		<item id="13291" name="maxilla maximus" chance="44" />
 	</loot>
 </monster>

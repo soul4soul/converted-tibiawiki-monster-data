@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Insane Siren" nameDescription="an insane siren" experience="6000" speed="420" manacost="0">
 	<health now="6500" max="6500" />
 	<look type="1136" head="72" body="94" legs="79" feet="4" addons="3" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -48,19 +48,19 @@
 		<voice sentence="Dream or nightmare?" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="68208" countmax="12" />
-		<item id="12430" name="miraculum" chance="16763" />
-		<item id="8473" name="ultimate health potion" chance="12139" />
-		<item id="32661" name="dream essence egg" chance="11561" />
-		<item id="2191" name="wand of dragonbreath" chance="4624" />
-		<item id="2432" name="fire axe" chance="4046" />
-		<item id="8921" name="wand of draconia" chance="4046" />
-		<item id="2187" name="wand of inferno" chance="2890" />
-		<item id="5922" name="holy orchid" chance="2312" />
-		<item id="32651" name="sun fruit" chance="1734" countmax="2" />
-		<item id="7890" name="magma amulet" chance="1156" />
-		<item id="7899" name="magma coat" chance="1156" />
-		<item id="7894" name="magma legs" chance="578" />
-		<item id="7900" name="magma monocle" chance="578" />
+		<item id="2152" name="platinum coin" chance="68750" countmax="12" />
+		<item id="12430" name="miraculum" chance="16477" />
+		<item id="32661" name="dream essence egg" chance="11932" />
+		<item id="8473" name="ultimate health potion" chance="11932" />
+		<item id="2191" name="wand of dragonbreath" chance="4545" />
+		<item id="2432" name="fire axe" chance="3977" />
+		<item id="8921" name="wand of draconia" chance="3977" />
+		<item id="2187" name="wand of inferno" chance="2841" />
+		<item id="5922" name="holy orchid" chance="2273" />
+		<item id="32651" name="sun fruit" chance="1705" countmax="2" />
+		<item id="7890" name="magma amulet" chance="1136" />
+		<item id="7899" name="magma coat" chance="1136" />
+		<item id="7894" name="magma legs" chance="1136" />
+		<item id="7900" name="magma monocle" chance="568" />
 	</loot>
 </monster>

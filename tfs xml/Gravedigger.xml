@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Gravedigger" nameDescription="a gravedigger" experience="950" speed="240" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="558" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -55,18 +55,18 @@
 		<voice sentence="Put it there!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="148" />
-		<item id="2152" name="platinum coin" chance="24710" />
-		<item id="11233" name="unholy bone" chance="10039" />
-		<item id="12449" name="safety pin" chance="7191" />
-		<item id="12440" name="pile of grave earth" chance="7143" />
-		<item id="2268" name="sudden death rune" chance="5164" countmax="8" />
-		<item id="2187" name="wand of inferno" chance="4875" />
-		<item id="7589" name="strong mana potion" chance="2944" countmax="2" />
-		<item id="7588" name="strong health potion" chance="2703" countmax="2" />
-		<item id="2154" name="yellow gem" chance="917" />
-		<item id="6300" name="death ring" chance="676" />
-		<item id="5669" name="mysterious voodoo skull" chance="241" />
-		<item id="2436" name="skull staff" chance="145" />
+		<item id="2148" name="gold coin" chance="100000" countmax="149" />
+		<item id="2152" name="platinum coin" chance="23904" />
+		<item id="11233" name="unholy bone" chance="10229" />
+		<item id="12440" name="pile of grave earth" chance="7081" />
+		<item id="12449" name="safety pin" chance="6894" />
+		<item id="2268" name="sudden death rune" chance="5021" countmax="8" />
+		<item id="2187" name="wand of inferno" chance="4908" />
+		<item id="7588" name="strong health potion" chance="2698" countmax="2" />
+		<item id="7589" name="strong mana potion" chance="2698" countmax="2" />
+		<item id="2154" name="yellow gem" chance="937" />
+		<item id="6300" name="death ring" chance="562" />
+		<item id="5669" name="mysterious voodoo skull" chance="187" />
+		<item id="2436" name="skull staff" chance="112" />
 	</loot>
 </monster>

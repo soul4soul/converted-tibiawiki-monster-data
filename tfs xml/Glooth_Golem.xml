@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Glooth Golem" nameDescription="a glooth golem" experience="1606" speed="260" manacost="0">
 	<health now="2700" max="2700" />
 	<look type="600" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -55,24 +55,24 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="2152" name="platinum coin" chance="58938" countmax="4" />
-		<item id="23474" name="glooth injection tube" chance="15657" />
-		<item id="7590" name="great mana potion" chance="12280" />
-		<item id="23514" name="glooth sandwich" chance="10543" />
-		<item id="2149" name="small emerald" chance="8106" countmax="4" />
-		<item id="9970" name="small topaz" chance="7214" countmax="4" />
-		<item id="8473" name="ultimate health potion" chance="5259" />
-		<item id="24124" name="bronze gear wheel" chance="3088" />
-		<item id="9690" name="gear wheel" chance="2002" />
-		<item id="5880" name="iron ore" chance="1858" />
-		<item id="23550" name="glooth blade" chance="1713" />
-		<item id="23529" name="glooth spear" chance="1689" />
-		<item id="23554" name="glooth amulet" chance="1568" />
-		<item id="23551" name="glooth axe" chance="1544" />
-		<item id="23538" name="heat core" chance="1496" />
-		<item id="23536" name="rubber cap" chance="1158" />
-		<item id="23549" name="glooth club" chance="1134" />
-		<item id="23541" name="gearwheel chain" chance="1037" />
-		<item id="2154" name="yellow gem" chance="820" />
+		<item id="2152" name="platinum coin" chance="58952" countmax="4" />
+		<item id="23474" name="glooth injection tube" chance="15407" />
+		<item id="7590" name="great mana potion" chance="12241" />
+		<item id="23514" name="glooth sandwich" chance="10569" />
+		<item id="2149" name="small emerald" chance="8138" countmax="4" />
+		<item id="9970" name="small topaz" chance="7068" countmax="4" />
+		<item id="8473" name="ultimate health potion" chance="5507" />
+		<item id="24124" name="bronze gear wheel" chance="3055" />
+		<item id="9690" name="gear wheel" chance="1918" />
+		<item id="5880" name="iron ore" chance="1895" />
+		<item id="23550" name="glooth blade" chance="1695" />
+		<item id="23529" name="glooth spear" chance="1650" />
+		<item id="23554" name="glooth amulet" chance="1538" />
+		<item id="23551" name="glooth axe" chance="1516" />
+		<item id="23538" name="heat core" chance="1494" />
+		<item id="23536" name="rubber cap" chance="1137" />
+		<item id="23549" name="glooth club" chance="1093" />
+		<item id="23541" name="gearwheel chain" chance="1026" />
+		<item id="2154" name="yellow gem" chance="914" />
 	</loot>
 </monster>

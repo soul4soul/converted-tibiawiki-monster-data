@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Orc Berserker" nameDescription="an orc berserker" experience="195" speed="250" manacost="590">
 	<health now="210" max="210" />
 	<look type="8" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,14 +53,14 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="54949" countmax="25" />
-		<item id="12433" name="orcish gear" chance="10410" />
-		<item id="2671" name="ham" chance="9803" />
-		<item id="2381" name="halberd" chance="6950" />
-		<item id="2378" name="battle axe" chance="5715" />
+		<item id="12433" name="orcish gear" chance="10406" />
+		<item id="2671" name="ham" chance="9795" />
+		<item id="2381" name="halberd" chance="6956" />
+		<item id="2378" name="battle axe" chance="5714" />
 		<item id="3965" name="hunting spear" chance="4958" />
-		<item id="12435" name="orc leather" chance="4105" />
-		<item id="11113" name="orc tooth" chance="2770" />
-		<item id="2464" name="chain armor" chance="986" />
+		<item id="12435" name="orc leather" chance="4106" />
+		<item id="11113" name="orc tooth" chance="2776" />
+		<item id="2464" name="chain armor" chance="985" />
 		<item name="lamp" chance="844" />
 	</loot>
 </monster>

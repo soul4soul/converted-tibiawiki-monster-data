@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Travelling Merchant" nameDescription="a travelling merchant" experience="65" speed="180" manacost="0">
 	<health now="100" max="100" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,5 +45,4 @@
 		<voice sentence="It's quite dark in the forest, isn't it?" yell="false" />
 		<voice sentence="What was that sound... hello? Is anyone there?" yell="false" />
 	</voices>
-	<loot />
 </monster>

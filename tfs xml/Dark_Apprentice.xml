@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Dark Apprentice" nameDescription="a dark apprentice" experience="100" speed="172" manacost="0">
 	<health now="225" max="225" />
 	<look type="133" head="78" body="57" legs="95" feet="115" addons="1" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -57,11 +57,11 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="75045" countmax="45" />
-		<item name="dead frog" chance="11920" />
-		<item id="2260" name="blank rune" chance="8036" countmax="3" />
-		<item id="7620" name="mana potion" chance="2993" />
-		<item id="7618" name="health potion" chance="2885" />
-		<item id="2191" name="wand of dragonbreath" chance="2002" />
+		<item name="dead frog" chance="11918" />
+		<item id="2260" name="blank rune" chance="8034" countmax="3" />
+		<item id="7620" name="mana potion" chance="2994" />
+		<item id="7618" name="health potion" chance="2889" />
+		<item id="2191" name="wand of dragonbreath" chance="2003" />
 		<item id="2188" name="wand of decay" chance="107" />
 		<item id="13295" name="reins" chance="7" />
 	</loot>

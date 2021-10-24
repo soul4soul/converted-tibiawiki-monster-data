@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Draptor" nameDescription="a draptor" experience="2400" speed="680" manacost="0">
 	<health now="3000" max="3000" />
 	<look type="382" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -55,9 +55,9 @@
 		<voice sentence="GRRR" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98810" countmax="214" />
-		<item id="7588" name="strong health potion" chance="20635" />
-		<item id="7589" name="strong mana potion" chance="14286" />
-		<item id="13296" name="draptor scales" chance="7540" />
+		<item id="2148" name="gold coin" chance="98837" countmax="214" />
+		<item id="7588" name="strong health potion" chance="21705" />
+		<item id="7589" name="strong mana potion" chance="14729" />
+		<item id="13296" name="draptor scales" chance="7752" />
 	</loot>
 </monster>

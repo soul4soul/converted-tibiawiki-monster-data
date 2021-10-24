@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Shark" nameDescription="a shark" experience="700" speed="290" manacost="0">
 	<health now="1200" max="1200" />
 	<look type="453" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -52,12 +52,12 @@
 		<voice sentence="Rarr chomp chomp!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="91600" countmax="138" />
-		<item id="2667" name="fish" chance="25253" countmax="4" />
-		<item id="15430" name="deepling scales" chance="9660" />
-		<item id="13870" name="eye of a deepling" chance="1117" />
-		<item id="2146" name="small sapphire" chance="1052" />
-		<item id="7633" name="giant shimmering pearl (brown)" chance="415" />
-		<item id="5895" name="fish fin" chance="156" />
+		<item id="2148" name="gold coin" chance="91589" countmax="138" />
+		<item id="2667" name="fish" chance="25270" countmax="4" />
+		<item id="15430" name="deepling scales" chance="9649" />
+		<item id="2146" name="small sapphire" chance="1105" />
+		<item id="13870" name="eye of a deepling" chance="1080" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="413" />
+		<item id="5895" name="fish fin" chance="182" />
 	</loot>
 </monster>

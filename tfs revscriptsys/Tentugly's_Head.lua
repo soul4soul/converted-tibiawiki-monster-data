@@ -57,10 +57,10 @@ monster.voices = {
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -87,27 +87,27 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 64035, maxCount = 2},
-	{id = 8473, chance = 60526, maxCount = 20},
-	{id = 26029, chance = 57895, maxCount = 20},
-	{id = 38164, chance = 39474},
-	{id = 2152, chance = 26316, maxCount = 10},
-	{id = 26030, chance = 25439, maxCount = 10},
-	{id = 7440, chance = 20175, maxCount = 5},
-	{id = 7439, chance = 18421, maxCount = 5},
-	{id = 38228, chance = 15789, maxCount = 50},
-	{id = 7443, chance = 14035, maxCount = 5},
-	{id = 38227, chance = 9649},
-	{id = 35278, chance = 5263},
-	{id = 38235, chance = 5263},
-	{id = 32715, chance = 4386},
-	{id = 38266, chance = 4386},
-	{id = 38234, chance = 3509},
-	{id = 35279, chance = 2632},
-	{id = 38236, chance = 2632},
-	{id = 38267, chance = 2632},
-	{id = 38237, chance = 1754},
-	{id = 38232, chance = 877}
+	{id = 2160, chance = 65833, maxCount = 2},
+	{id = 8473, chance = 59167, maxCount = 20},
+	{id = 26029, chance = 57500, maxCount = 20},
+	{id = 38164, chance = 37500},
+	{id = 26030, chance = 25833, maxCount = 10},
+	{id = 2152, chance = 25000, maxCount = 10},
+	{id = 7440, chance = 21667, maxCount = 5},
+	{id = 7439, chance = 17500, maxCount = 5},
+	{id = 38228, chance = 15000, maxCount = 50},
+	{id = 7443, chance = 13333, maxCount = 5},
+	{id = 38227, chance = 9167},
+	{id = 35278, chance = 5000},
+	{id = 38235, chance = 5000},
+	{id = 32715, chance = 4167},
+	{id = 38266, chance = 4167},
+	{id = 38234, chance = 3333},
+	{id = 35279, chance = 2500},
+	{id = 38236, chance = 2500},
+	{id = 38267, chance = 2500},
+	{id = 38237, chance = 1667},
+	{id = 38232, chance = 833}
 }
 
 mType:register(monster)

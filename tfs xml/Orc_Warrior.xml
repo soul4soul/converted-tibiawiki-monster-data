@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Orc Warrior" nameDescription="an orc warrior" experience="50" speed="190" manacost="360">
 	<health now="125" max="125" />
 	<look type="7" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,15 +50,15 @@
 		<voice sentence="Grow truk grrrr." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64536" countmax="15" />
-		<item id="2666" name="meat" chance="15209" />
-		<item id="12409" name="broken helmet" chance="9679" />
-		<item id="2464" name="chain armor" chance="7641" />
-		<item id="12435" name="orc leather" chance="3699" />
-		<item id="26642" name="heavy old tome" chance="1698" />
-		<item id="12436" name="skull belt" chance="934" />
-		<item id="11113" name="orc tooth" chance="619" />
-		<item id="2530" name="copper shield" chance="497" />
-		<item id="2411" name="poison dagger" chance="49" />
+		<item id="2148" name="gold coin" chance="64557" countmax="15" />
+		<item id="2666" name="meat" chance="15185" />
+		<item id="12409" name="broken helmet" chance="9676" />
+		<item id="2464" name="chain armor" chance="7635" />
+		<item id="12435" name="orc leather" chance="3697" />
+		<item id="26642" name="heavy old tome" chance="1703" />
+		<item id="12436" name="skull belt" chance="942" />
+		<item id="11113" name="orc tooth" chance="628" />
+		<item id="2530" name="copper shield" chance="495" />
+		<item id="2411" name="poison dagger" chance="48" />
 	</loot>
 </monster>

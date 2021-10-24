@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Flamingo" nameDescription="a flamingo" experience="0" speed="168" manacost="250">
 	<health now="25" max="25" />
 	<look type="212" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -42,6 +42,6 @@
 	</elements>
 	<defenses armor="1" defense="1" />
 	<loot>
-		<item id="12640" name="downy feather" chance="1116" />
+		<item id="12640" name="downy feather" chance="1128" />
 	</loot>
 </monster>

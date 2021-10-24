@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Killer Caiman" nameDescription="a killer caiman" experience="900" speed="186" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="358" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -41,18 +41,18 @@
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="40" defense="40">
-		<defense name="speed" interval="2000" chance="15" minspeedchange="450" maxspeedchange="450" duration="4000">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 	</defenses>
 	<loot>
 		<item id="2148" name="gold coin" chance="99997" countmax="180" />
-		<item id="2671" name="ham" chance="39812" />
-		<item id="11196" name="piece of crocodile leather" chance="24961" countmax="2" />
-		<item id="2149" name="small emerald" chance="9970" countmax="5" />
-		<item id="2425" name="obsidian lance" chance="4984" />
-		<item id="11245" name="bunch of ripe rice" chance="4826" countmax="2" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="962" />
-		<item id="3982" name="crocodile boots" chance="481" />
+		<item id="2671" name="ham" chance="39778" />
+		<item id="11196" name="piece of crocodile leather" chance="24964" countmax="2" />
+		<item id="2149" name="small emerald" chance="9972" countmax="5" />
+		<item id="2425" name="obsidian lance" chance="4980" />
+		<item id="11245" name="bunch of ripe rice" chance="4823" countmax="2" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="963" />
+		<item id="3982" name="crocodile boots" chance="483" />
 	</loot>
 </monster>

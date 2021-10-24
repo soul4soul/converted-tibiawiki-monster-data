@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Swan Maiden" nameDescription="a swan maiden" experience="700" speed="234" manacost="0">
 	<health now="800" max="800" />
 	<look type="138" head="0" body="0" legs="114" feet="78" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,23 +53,23 @@
 		<voice sentence="Are you stalking me? You will bitterly regret this!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="60033" countmax="90" />
-		<item id="28347" name="wild flowers" chance="20361" />
-		<item id="28352" name="colourful snail shell" chance="15140" />
-		<item id="2803" name="powder herb" chance="5353" />
-		<item id="7590" name="great mana potion" chance="3317" />
-		<item id="2134" name="silver brooch" chance="2759" />
-		<item id="7761" name="small enchanted emerald" chance="2496" countmax="2" />
-		<item id="24850" name="opal" chance="1905" countmax="2" />
-		<item id="27047" name="coral brooch" chance="1708" />
-		<item id="2143" name="white pearl" chance="1708" countmax="2" />
-		<item id="2796" name="green mushroom" chance="1445" />
-		<item id="2423" name="clerical mace" chance="1314" />
-		<item id="2195" name="boots of haste" chance="920" />
-		<item id="28354" name="butterfly ring" chance="788" />
-		<item id="7589" name="strong mana potion" chance="525" />
-		<item id="8874" name="summer dress" chance="493" />
-		<item id="7387" name="diamond sceptre" chance="427" />
-		<item id="9927" name="flower wreath" chance="296" />
+		<item id="2148" name="gold coin" chance="59742" countmax="90" />
+		<item id="28347" name="wild flowers" chance="20287" />
+		<item id="28352" name="colourful snail shell" chance="14921" />
+		<item id="2803" name="powder herb" chance="5194" />
+		<item id="7590" name="great mana potion" chance="3271" />
+		<item id="2134" name="silver brooch" chance="2697" />
+		<item id="7761" name="small enchanted emerald" chance="2525" countmax="2" />
+		<item id="24850" name="opal" chance="2066" countmax="2" />
+		<item id="2143" name="white pearl" chance="1779" countmax="2" />
+		<item id="27047" name="coral brooch" chance="1607" />
+		<item id="2796" name="green mushroom" chance="1377" />
+		<item id="2423" name="clerical mace" chance="1234" />
+		<item id="2195" name="boots of haste" chance="861" />
+		<item id="28354" name="butterfly ring" chance="775" />
+		<item id="7589" name="strong mana potion" chance="631" />
+		<item id="8874" name="summer dress" chance="516" />
+		<item id="7387" name="diamond sceptre" chance="402" />
+		<item id="9927" name="flower wreath" chance="373" />
 	</loot>
 </monster>

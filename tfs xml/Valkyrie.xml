@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Valkyrie" nameDescription="a valkyrie" experience="85" speed="176" manacost="450">
 	<health now="190" max="190" />
 	<look type="139" head="113" body="38" legs="76" feet="96" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -55,18 +55,18 @@
 		<voice sentence="One more head for me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2389" name="spear" chance="55392" countmax="3" />
-		<item id="2148" name="gold coin" chance="32707" countmax="12" />
-		<item id="2666" name="meat" chance="30104" />
-		<item id="2464" name="chain armor" chance="10146" />
-		<item id="2674" name="red apple" chance="7592" countmax="2" />
-		<item id="12399" name="girlish hair decoration" chance="5962" />
-		<item id="3965" name="hunting spear" chance="5061" />
+		<item id="2389" name="spear" chance="55388" countmax="3" />
+		<item id="2148" name="gold coin" chance="32701" countmax="12" />
+		<item id="2666" name="meat" chance="30105" />
+		<item id="2464" name="chain armor" chance="10144" />
+		<item id="2674" name="red apple" chance="7590" countmax="2" />
+		<item id="12399" name="girlish hair decoration" chance="5973" />
+		<item id="3965" name="hunting spear" chance="5060" />
 		<item id="12400" name="protective charm" chance="3187" />
 		<item id="2200" name="protection amulet" chance="1098" />
 		<item id="2463" name="plate armor" chance="818" />
 		<item id="2229" name="skull (item)" chance="752" />
-		<item id="7618" name="health potion" chance="472" />
+		<item id="7618" name="health potion" chance="471" />
 		<item id="2387" name="double axe" chance="400" />
 		<item id="2145" name="small diamond" chance="113" />
 	</loot>

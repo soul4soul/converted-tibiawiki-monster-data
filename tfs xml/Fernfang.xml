@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Fernfang" nameDescription="" experience="600" speed="0" manacost="0">
 	<health now="400" max="400" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,7 +53,7 @@
 		<voice sentence="Grrrrrrr" yell="false" />
 	</voices>
 	<summons maxSummons="3">
-		<voice name="war wolf" interval="2000" chance="15" max="1" />
+		<voice name="War Wolf" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
 		<item id="10563" name="book of prayers" chance="100000" />

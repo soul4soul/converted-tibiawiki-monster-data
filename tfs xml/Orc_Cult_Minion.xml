@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Orc Cult Minion" nameDescription="an orc cult minion" experience="850" speed="210" manacost="0">
 	<health now="1000" max="1000" />
 	<look type="50" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,12 +49,12 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="195" />
-		<item id="10556" name="cultish robe" chance="20398" />
-		<item id="7588" name="strong health potion" chance="16343" />
-		<item id="9970" name="small topaz" chance="13672" countmax="3" />
-		<item id="2428" name="orcish axe" chance="8281" />
-		<item id="2788" name="red mushroom" chance="8086" countmax="3" />
-		<item id="2666" name="meat" chance="5270" />
-		<item id="7439" name="berserk potion" chance="1166" countmax="2" />
+		<item id="10556" name="cultish robe" chance="20469" />
+		<item id="7588" name="strong health potion" chance="16265" />
+		<item id="9970" name="small topaz" chance="13623" countmax="3" />
+		<item id="2428" name="orcish axe" chance="8339" />
+		<item id="2788" name="red mushroom" chance="7994" countmax="3" />
+		<item id="2666" name="meat" chance="5238" />
+		<item id="7439" name="berserk potion" chance="1103" countmax="2" />
 	</loot>
 </monster>

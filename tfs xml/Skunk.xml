@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Skunk" nameDescription="a skunk" experience="3" speed="136" manacost="200">
 	<health now="20" max="20" />
 	<look type="106" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -47,7 +47,7 @@
 		<defense name="healing" interval="2000" chance="20" min="2" max="5" />
 	</defenses>
 	<loot>
-		<item id="9114" name="bulb of garlic" chance="4450" />
-		<item id="11191" name="skunk tail" chance="883" />
+		<item id="9114" name="bulb of garlic" chance="4467" />
+		<item id="11191" name="skunk tail" chance="879" />
 	</loot>
 </monster>

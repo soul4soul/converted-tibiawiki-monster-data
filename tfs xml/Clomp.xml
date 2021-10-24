@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Clomp" nameDescription="a clomp" experience="475" speed="430" manacost="0">
 	<health now="900" max="900" />
 	<look type="860" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,10 +50,10 @@
 		<voice sentence="Snarl!" yell="false" />
 	</voices>
 	<loot>
-		<item id="24842" name="raw meat" chance="17954" />
-		<item id="5925" name="hardened bone" chance="7176" />
-		<item id="11224" name="thick fur" chance="6626" />
-		<item id="3973" name="tusk shield" chance="550" />
-		<item id="7432" name="furry club" chance="467" />
+		<item id="24842" name="raw meat" chance="18001" />
+		<item id="5925" name="hardened bone" chance="7238" />
+		<item id="11224" name="thick fur" chance="6719" />
+		<item id="3973" name="tusk shield" chance="546" />
+		<item id="7432" name="furry club" chance="464" />
 	</loot>
 </monster>

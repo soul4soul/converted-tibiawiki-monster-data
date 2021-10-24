@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Crab" nameDescription="a crab" experience="30" speed="144" manacost="305">
 	<health now="55" max="55" />
 	<look type="112" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,8 +45,8 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
-		<item id="2148" name="gold coin" chance="80068" countmax="10" />
-		<item id="11189" name="crab pincers" chance="20133" />
-		<item id="2667" name="fish" chance="19994" />
+		<item id="2148" name="gold coin" chance="80071" countmax="10" />
+		<item id="11189" name="crab pincers" chance="20099" />
+		<item id="2667" name="fish" chance="20006" />
 	</loot>
 </monster>

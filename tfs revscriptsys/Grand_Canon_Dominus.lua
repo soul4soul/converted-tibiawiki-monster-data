@@ -57,10 +57,10 @@ monster.voices = {
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -87,25 +87,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 82407, maxCount = 5},
-	{id = 7591, chance = 29938, maxCount = 3},
-	{id = 7590, chance = 28704, maxCount = 3},
-	{id = 7368, chance = 23457, maxCount = 10},
-	{id = 2147, chance = 22222, maxCount = 2},
-	{id = 2145, chance = 20062, maxCount = 2},
-	{id = 2149, chance = 18519, maxCount = 2},
-	{id = 9970, chance = 18519, maxCount = 2},
-	{id = 7365, chance = 15432, maxCount = 15},
-	{id = 2150, chance = 14198, maxCount = 2},
-	{id = 7762, chance = 6481},
-	{id = 2156, chance = 2778},
-	{id = 31479, chance = 1852},
-	{id = 2153, chance = 1852},
-	{id = "giant shimmering pearl", chance = 1543},
-	{id = 31478, chance = 1235},
-	{id = 2155, chance = 617},
-	{id = 2514, chance = 617},
-	{id = 31477, chance = 309}
+	{id = 2152, chance = 82493, maxCount = 5},
+	{id = 7591, chance = 30564, maxCount = 3},
+	{id = 7590, chance = 28783, maxCount = 3},
+	{id = 7368, chance = 23442, maxCount = 10},
+	{id = 2147, chance = 22255, maxCount = 2},
+	{id = 2145, chance = 19585, maxCount = 2},
+	{id = 9970, chance = 19585, maxCount = 2},
+	{id = 2149, chance = 18101, maxCount = 2},
+	{id = 7365, chance = 15727, maxCount = 15},
+	{id = 2150, chance = 14243, maxCount = 2},
+	{id = 7762, chance = 6231},
+	{id = 2156, chance = 2671},
+	{id = 31479, chance = 1780},
+	{id = "giant shimmering pearl", chance = 1780},
+	{id = 2153, chance = 1780},
+	{id = 31478, chance = 1187},
+	{id = 2155, chance = 593},
+	{id = 2514, chance = 593},
+	{id = 31477, chance = 297}
 }
 
 mType:register(monster)

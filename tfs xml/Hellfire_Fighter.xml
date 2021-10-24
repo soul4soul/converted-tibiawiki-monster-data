@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Hellfire Fighter" nameDescription="a hellfire fighter" experience="3120" speed="330" manacost="0">
 	<health now="3800" max="3800" />
 	<look type="243" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -46,21 +46,21 @@
 	<defenses armor="62" defense="62" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="241" />
-		<item id="2239" name="burnt scroll" chance="49560" />
-		<item id="2260" name="blank rune" chance="29560" countmax="2" />
-		<item id="6500" name="demonic essence" chance="15010" />
-		<item id="5944" name="soul orb" chance="12285" />
-		<item id="10553" name="fiery heart" chance="10440" />
-		<item id="2187" name="wand of inferno" chance="9057" />
-		<item id="2392" name="fire sword" chance="4696" />
-		<item id="10581" name="piece of hellfire armor" chance="4444" />
-		<item id="2127" name="emerald bangle" chance="1761" />
-		<item id="2145" name="small diamond" chance="1258" />
-		<item id="2152" name="platinum coin" chance="1174" />
-		<item id="7894" name="magma legs" chance="964" />
-		<item id="13757" name="coal" chance="545" />
-		<item id="2432" name="fire axe" chance="377" />
-		<item id="7899" name="magma coat" chance="210" />
-		<item id="2136" name="demonbone amulet" chance="168" />
+		<item id="2239" name="burnt scroll" chance="49465" />
+		<item id="2260" name="blank rune" chance="29307" countmax="2" />
+		<item id="6500" name="demonic essence" chance="14970" />
+		<item id="5944" name="soul orb" chance="12317" />
+		<item id="10553" name="fiery heart" chance="10416" />
+		<item id="2187" name="wand of inferno" chance="8911" />
+		<item id="2392" name="fire sword" chance="4673" />
+		<item id="10581" name="piece of hellfire armor" chance="4554" />
+		<item id="2127" name="emerald bangle" chance="1743" />
+		<item id="2145" name="small diamond" chance="1228" />
+		<item id="2152" name="platinum coin" chance="1109" />
+		<item id="7894" name="magma legs" chance="911" />
+		<item id="13757" name="coal" chance="554" />
+		<item id="2432" name="fire axe" chance="436" />
+		<item id="7899" name="magma coat" chance="238" />
+		<item id="2136" name="demonbone amulet" chance="158" />
 	</loot>
 </monster>

@@ -62,7 +62,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -90,28 +90,28 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 2152, chance = 90170, maxCount = 3},
-	{id = 26191, chance = 15018},
-	{id = 26158, chance = 14944},
-	{id = 26201, chance = 14555},
-	{id = 26161, chance = 14008},
-	{id = 26160, chance = 11334},
-	{id = 26159, chance = 9903},
-	{id = 8472, chance = 9861, maxCount = 2},
-	{id = 7590, chance = 9735, maxCount = 2},
-	{id = 7591, chance = 9724, maxCount = 2},
-	{id = 18418, chance = 8367},
-	{id = 18419, chance = 5115},
-	{id = 2146, chance = 4631, maxCount = 2},
-	{id = 18413, chance = 4504},
-	{id = 2158, chance = 937},
-	{id = 2189, chance = 737},
-	{id = "ring of green plasma", chance = 347},
-	{id = "ring of blue plasma", chance = 337},
-	{id = 26199, chance = 263},
-	{id = "ring of red plasma", chance = 263},
-	{id = "collar of blue plasma", chance = 179},
-	{id = 26200, chance = 158}
+	{id = 2152, chance = 90044, maxCount = 3},
+	{id = 26191, chance = 15070},
+	{id = 26158, chance = 14857},
+	{id = 26201, chance = 14526},
+	{id = 26161, chance = 14234},
+	{id = 26160, chance = 11259},
+	{id = 26159, chance = 9947},
+	{id = 8472, chance = 9908, maxCount = 2},
+	{id = 7591, chance = 9762, maxCount = 2},
+	{id = 7590, chance = 9713, maxCount = 2},
+	{id = 18418, chance = 8333},
+	{id = 18419, chance = 5231},
+	{id = 2146, chance = 4677, maxCount = 2},
+	{id = 18413, chance = 4579},
+	{id = 2158, chance = 933},
+	{id = 2189, chance = 719},
+	{id = "ring of blue plasma", chance = 360},
+	{id = "ring of green plasma", chance = 331},
+	{id = "ring of red plasma", chance = 301},
+	{id = 26199, chance = 272},
+	{id = "collar of blue plasma", chance = 214},
+	{id = 26200, chance = 146}
 }
 
 mType:register(monster)

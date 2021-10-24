@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Blood Crab" nameDescription="a blood crab" experience="160" speed="160" manacost="505">
 	<health now="290" max="290" />
 	<look type="200" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,11 +45,11 @@
 	</attacks>
 	<defenses armor="28" defense="28" />
 	<loot>
-		<item id="2148" name="gold coin" chance="85750" countmax="20" />
-		<item id="2667" name="fish" chance="14770" />
-		<item id="10550" name="bloody pincers" chance="6085" />
-		<item id="2464" name="chain armor" chance="5103" />
+		<item id="2148" name="gold coin" chance="85827" countmax="20" />
+		<item id="2667" name="fish" chance="14848" />
+		<item id="10550" name="bloody pincers" chance="6108" />
+		<item id="2464" name="chain armor" chance="5101" />
 		<item id="2478" name="brass legs" chance="2147" />
-		<item id="2143" name="white pearl" chance="530" />
+		<item id="2143" name="white pearl" chance="522" />
 	</loot>
 </monster>

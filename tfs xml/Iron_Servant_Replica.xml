@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Iron Servant Replica" nameDescription="an iron servant replica" experience="210" speed="190" manacost="0">
 	<health now="1000" max="1000" />
 	<look type="395" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,11 +45,11 @@
 	</attacks>
 	<defenses armor="17" defense="17" />
 	<loot>
-		<item id="2148" name="gold coin" chance="82459" countmax="55" />
-		<item id="9690" name="gear wheel" chance="5299" />
-		<item id="7618" name="health potion" chance="2349" />
-		<item id="2381" name="halberd" chance="992" />
-		<item id="9808" name="heavily rusted armor" chance="470" />
-		<item id="13758" name="slime mould" chance="287" />
+		<item id="2148" name="gold coin" chance="82512" countmax="55" />
+		<item id="9690" name="gear wheel" chance="5290" />
+		<item id="7618" name="health potion" chance="2363" />
+		<item id="2381" name="halberd" chance="976" />
+		<item id="9808" name="heavily rusted armor" chance="488" />
+		<item id="13758" name="slime mould" chance="282" />
 	</loot>
 </monster>

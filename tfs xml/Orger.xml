@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Orger" nameDescription="an orger" experience="550" speed="240" manacost="0">
 	<health now="700" max="700" />
 	<look type="1255" head="79" body="6" legs="94" feet="2" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -43,16 +43,16 @@
 	<defenses armor="35" defense="35" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="3" />
-		<item id="2449" name="bone club" chance="19069" />
-		<item id="2417" name="battle hammer" chance="17207" />
-		<item id="2530" name="copper shield" chance="7897" />
-		<item id="2526" name="studded shield" chance="4302" />
-		<item id="2387" name="double axe" chance="3612" />
-		<item id="2404" name="combat knife" chance="3579" />
-		<item id="2401" name="staff" chance="3547" />
-		<item id="2541" name="bone shield" chance="3371" />
-		<item id="2416" name="crowbar" chance="3178" />
-		<item id="2378" name="battle axe" chance="3050" />
-		<item id="20139" name="spiky club" chance="2279" />
+		<item id="2449" name="bone club" chance="19043" />
+		<item id="2417" name="battle hammer" chance="17170" />
+		<item id="2530" name="copper shield" chance="7883" />
+		<item id="2526" name="studded shield" chance="4274" />
+		<item id="2387" name="double axe" chance="3624" />
+		<item id="2401" name="staff" chance="3549" />
+		<item id="2404" name="combat knife" chance="3488" />
+		<item id="2541" name="bone shield" chance="3277" />
+		<item id="2416" name="crowbar" chance="3247" />
+		<item id="2378" name="battle axe" chance="3066" />
+		<item id="20139" name="spiky club" chance="2310" />
 	</loot>
 </monster>

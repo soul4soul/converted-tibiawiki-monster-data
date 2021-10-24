@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Putrid Mummy" nameDescription="a putrid mummy" experience="900" speed="170" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="976" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -51,15 +51,15 @@
 		<voice sentence="Come to mummy!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="61885" countmax="64" />
-		<item id="28358" name="little bowl of myrrh" chance="13708" />
-		<item id="28353" name="green bandage" chance="11078" />
-		<item id="28357" name="single human eye" chance="9623" />
-		<item id="2024" name="broken flask" chance="9564" />
-		<item id="2159" name="scarab coin" chance="8826" countmax="3" />
-		<item id="13472" name="pharaoh banner" chance="2112" />
-		<item id="2155" name="green gem" chance="1793" />
-		<item id="2144" name="black pearl" chance="1096" />
-		<item id="2411" name="poison dagger" chance="618" />
+		<item id="2148" name="gold coin" chance="62096" countmax="64" />
+		<item id="28358" name="little bowl of myrrh" chance="13691" />
+		<item id="28353" name="green bandage" chance="11007" />
+		<item id="28357" name="single human eye" chance="9685" />
+		<item id="2024" name="broken flask" chance="9568" />
+		<item id="2159" name="scarab coin" chance="8849" countmax="3" />
+		<item id="13472" name="pharaoh banner" chance="2120" />
+		<item id="2155" name="green gem" chance="1809" />
+		<item id="2144" name="black pearl" chance="1089" />
+		<item id="2411" name="poison dagger" chance="603" />
 	</loot>
 </monster>

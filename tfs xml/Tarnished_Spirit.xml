@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Tarnished Spirit" nameDescription="a tarnished spirit" experience="120" speed="160" manacost="0">
 	<health now="150" max="150" />
 	<look type="566" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -48,14 +48,14 @@
 		<voice sentence="Huh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2804" name="shadow herb" chance="14407" />
-		<item id="2394" name="morning star" chance="10828" />
-		<item id="2654" name="cape" chance="10425" />
-		<item id="2404" name="combat knife" chance="7069" />
-		<item id="5909" name="white piece of cloth" chance="2461" />
-		<item id="10607" name="ghostly tissue" chance="1924" />
-		<item name="book (orange)" chance="1745" />
-		<item id="2532" name="ancient shield" chance="492" />
-		<item id="2165" name="stealth ring" chance="179" />
+		<item id="2804" name="shadow herb" chance="14351" />
+		<item id="2394" name="morning star" chance="10638" />
+		<item id="2654" name="cape" chance="10346" />
+		<item id="2404" name="combat knife" chance="6884" />
+		<item id="5909" name="white piece of cloth" chance="2295" />
+		<item id="10607" name="ghostly tissue" chance="1877" />
+		<item name="book (orange)" chance="1794" />
+		<item id="2532" name="ancient shield" chance="501" />
+		<item id="2165" name="stealth ring" chance="167" />
 	</loot>
 </monster>

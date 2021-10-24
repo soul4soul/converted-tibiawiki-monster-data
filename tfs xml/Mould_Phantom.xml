@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Mould Phantom" nameDescription="a mould phantom" experience="19500" speed="480" manacost="0">
 	<health now="28000" max="28000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -47,19 +47,19 @@
 		<voice sentence="The earth will take you back." yell="false" />
 	</voices>
 	<loot>
-		<item id="2160" name="crystal coin" chance="59097" />
-		<item id="9971" name="gold ingot" chance="12012" />
-		<item id="2155" name="green gem" chance="4183" />
-		<item id="36797" name="mould heart" chance="4183" />
-		<item id="8920" name="wand of starstorm" chance="4146" />
-		<item id="2153" name="violet gem" chance="3072" />
-		<item id="18390" name="wand of defiance" chance="3054" />
-		<item id="36804" name="mould robe" chance="2480" />
-		<item id="2158" name="blue gem" chance="2314" />
-		<item id="8922" name="wand of voodoo" chance="2165" />
-		<item name="collar of blue plasma" chance="1240" />
-		<item name="ring of blue plasma" chance="833" />
-		<item id="15644" name="ornate crossbow" chance="648" />
-		<item id="18453" name="crystal crossbow" chance="629" />
+		<item id="2160" name="crystal coin" chance="59089" />
+		<item id="9971" name="gold ingot" chance="12291" />
+		<item id="8920" name="wand of starstorm" chance="4321" />
+		<item id="2155" name="green gem" chance="4212" />
+		<item id="36797" name="mould heart" chance="4102" />
+		<item id="2153" name="violet gem" chance="3100" />
+		<item id="18390" name="wand of defiance" chance="3022" />
+		<item id="36804" name="mould robe" chance="2536" />
+		<item id="2158" name="blue gem" chance="2442" />
+		<item id="8922" name="wand of voodoo" chance="2176" />
+		<item name="collar of blue plasma" chance="1206" />
+		<item name="ring of blue plasma" chance="845" />
+		<item id="15644" name="ornate crossbow" chance="673" />
+		<item id="18453" name="crystal crossbow" chance="658" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Cow" nameDescription="a cow" experience="400" speed="190" manacost="300">
 	<health now="700" max="700" />
 	<look type="1253" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,10 +49,10 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2666" name="meat" chance="17043" />
-		<item id="34665" name="veal" chance="5076" />
-		<item id="34666" name="meat hammer" chance="1144" />
-		<item id="34667" name="milk churn" chance="572" />
-		<item id="34668" name="cow bell" chance="315" />
+		<item id="2666" name="meat" chance="16922" />
+		<item id="34665" name="veal" chance="5079" />
+		<item id="34666" name="meat hammer" chance="1159" />
+		<item id="34667" name="milk churn" chance="607" />
+		<item id="34668" name="cow bell" chance="317" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Crypt Warden" nameDescription="a crypt warden" experience="8400" speed="290" manacost="0">
 	<health now="8300" max="8300" />
 	<look type="1190" head="41" body="38" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,14 +45,14 @@
 	</attacks>
 	<defenses armor="84" defense="84" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="89985" countmax="6" />
-		<item id="18419" name="cyan crystal fragment" chance="20656" />
-		<item id="34098" name="lamassu horn" chance="17546" />
-		<item id="34097" name="lamassu hoof" chance="10945" />
-		<item id="2150" name="small amethyst" chance="9219" />
-		<item id="9971" name="gold ingot" chance="5785" />
-		<item id="18421" name="green crystal fragment" chance="3737" />
-		<item id="2155" name="green gem" chance="3509" />
-		<item id="2198" name="elven amulet" chance="835" />
+		<item id="2152" name="platinum coin" chance="89902" countmax="6" />
+		<item id="18419" name="cyan crystal fragment" chance="20767" />
+		<item id="34098" name="lamassu horn" chance="17591" />
+		<item id="34097" name="lamassu hoof" chance="10901" />
+		<item id="2150" name="small amethyst" chance="9313" />
+		<item id="9971" name="gold ingot" chance="5888" />
+		<item id="18421" name="green crystal fragment" chance="3889" />
+		<item id="2155" name="green gem" chance="3461" />
+		<item id="2198" name="elven amulet" chance="803" />
 	</loot>
 </monster>

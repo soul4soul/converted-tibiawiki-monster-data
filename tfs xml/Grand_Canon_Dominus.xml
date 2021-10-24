@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Grand Canon Dominus" nameDescription="" experience="11000" speed="0" manacost="0">
 	<health now="15000" max="15000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,24 +45,24 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="82407" countmax="5" />
-		<item id="7591" name="great health potion" chance="29938" countmax="3" />
-		<item id="7590" name="great mana potion" chance="28704" countmax="3" />
-		<item id="7368" name="assassin star" chance="23457" countmax="10" />
-		<item id="2147" name="small ruby" chance="22222" countmax="2" />
-		<item id="2145" name="small diamond" chance="20062" countmax="2" />
-		<item id="2149" name="small emerald" chance="18519" countmax="2" />
-		<item id="9970" name="small topaz" chance="18519" countmax="2" />
-		<item id="7365" name="onyx arrow" chance="15432" countmax="15" />
-		<item id="2150" name="small amethyst" chance="14198" countmax="2" />
-		<item id="7762" name="small enchanted amethyst" chance="6481" />
-		<item id="2156" name="red gem" chance="2778" />
-		<item id="31479" name="falcon crest" chance="1852" />
-		<item id="2153" name="violet gem" chance="1852" />
-		<item name="giant shimmering pearl" chance="1543" />
-		<item id="31478" name="damaged armor plates" chance="1235" />
-		<item id="2155" name="green gem" chance="617" />
-		<item id="2514" name="mastermind shield" chance="617" />
-		<item id="31477" name="patch of fine cloth" chance="309" />
+		<item id="2152" name="platinum coin" chance="82493" countmax="5" />
+		<item id="7591" name="great health potion" chance="30564" countmax="3" />
+		<item id="7590" name="great mana potion" chance="28783" countmax="3" />
+		<item id="7368" name="assassin star" chance="23442" countmax="10" />
+		<item id="2147" name="small ruby" chance="22255" countmax="2" />
+		<item id="2145" name="small diamond" chance="19585" countmax="2" />
+		<item id="9970" name="small topaz" chance="19585" countmax="2" />
+		<item id="2149" name="small emerald" chance="18101" countmax="2" />
+		<item id="7365" name="onyx arrow" chance="15727" countmax="15" />
+		<item id="2150" name="small amethyst" chance="14243" countmax="2" />
+		<item id="7762" name="small enchanted amethyst" chance="6231" />
+		<item id="2156" name="red gem" chance="2671" />
+		<item id="31479" name="falcon crest" chance="1780" />
+		<item name="giant shimmering pearl" chance="1780" />
+		<item id="2153" name="violet gem" chance="1780" />
+		<item id="31478" name="damaged armor plates" chance="1187" />
+		<item id="2155" name="green gem" chance="593" />
+		<item id="2514" name="mastermind shield" chance="593" />
+		<item id="31477" name="patch of fine cloth" chance="297" />
 	</loot>
 </monster>

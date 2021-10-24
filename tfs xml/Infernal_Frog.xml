@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Infernal Frog" nameDescription="an infernal frog" experience="190" speed="200" manacost="0">
 	<health now="655" max="655" />
 	<look type="224" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -44,7 +44,7 @@
 		<attack name="melee" interval="2000" chance="100" min="0" max="-20" />
 	</attacks>
 	<defenses armor="18" defense="18">
-		<defense name="speed" interval="2000" chance="15" minspeedchange="450" maxspeedchange="450" duration="4000">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 	</defenses>
@@ -54,6 +54,6 @@
 		<voice sentence="No Kisses for you!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="73881" countmax="65" />
+		<item id="2148" name="gold coin" chance="73770" countmax="65" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="The Nightmare Beast" nameDescription="" experience="255000" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
-		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity invisible="1" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,49 +45,49 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="26191" name="energy bar" chance="99576" />
-		<item id="26165" name="mysterious remains" chance="99576" />
-		<item id="2114" name="piggy bank" chance="99576" />
-		<item id="2152" name="platinum coin" chance="99576" countmax="5" />
-		<item id="25172" name="silver token" chance="97458" countmax="4" />
-		<item id="25377" name="gold token" chance="75000" countmax="4" />
-		<item id="26029" name="ultimate mana potion" chance="60593" countmax="20" />
-		<item id="26031" name="supreme health potion" chance="55508" countmax="20" />
-		<item id="26030" name="ultimate spirit potion" chance="48305" countmax="20" />
-		<item id="5892" name="huge chunk of crude iron" chance="37712" />
-		<item id="28415" name="royal star" chance="33051" countmax="100" />
-		<item id="2156" name="red gem" chance="30932" countmax="2" />
-		<item id="2154" name="yellow gem" chance="30508" countmax="2" />
-		<item id="7439" name="berserk potion" chance="21610" countmax="10" />
-		<item id="2160" name="crystal coin" chance="19492" countmax="3" />
-		<item id="2158" name="blue gem" chance="19068" countmax="2" />
-		<item id="2155" name="green gem" chance="18220" countmax="2" />
-		<item id="7440" name="mastermind potion" chance="18220" countmax="10" />
-		<item id="2436" name="skull staff" chance="15254" />
-		<item id="7443" name="bullseye potion" chance="13983" countmax="10" />
-		<item id="9971" name="gold ingot" chance="13983" />
-		<item name="giant shimmering pearl" chance="13559" />
-		<item id="32824" name="ice shield" chance="13136" />
-		<item id="26200" name="collar of red plasma" chance="11864" />
-		<item id="7427" name="chaos mace" chance="11441" />
-		<item name="collar of blue plasma" chance="9746" />
-		<item id="2123" name="ring of the sky" chance="9746" />
-		<item id="26199" name="collar of green plasma" chance="8475" />
-		<item name="ring of green plasma" chance="8475" />
-		<item id="32827" name="purple tendril lantern" chance="7627" />
-		<item name="ring of blue plasma" chance="7627" />
-		<item id="2153" name="violet gem" chance="7627" />
-		<item id="5904" name="magic sulphur" chance="6356" />
-		<item id="32709" name="dragon figurine" chance="5932" />
-		<item id="5809" name="soul stone" chance="5085" />
-		<item name="ring of red plasma" chance="4661" />
-		<item id="32717" name="giant sapphire" chance="3814" />
-		<item id="32826" name="turquoise tendril lantern" chance="3814" />
-		<item id="32715" name="giant ruby" chance="2966" />
-		<item id="32083" name="dark whispers" chance="2542" />
-		<item name="enchanted sleep shawl" chance="2542" />
-		<item id="32716" name="giant emerald" chance="2542" />
-		<item id="7414" name="abyss hammer" chance="2119" />
-		<item id="2453" name="arcane staff" chance="2119" />
+		<item id="26191" name="energy bar" chance="99585" />
+		<item id="26165" name="mysterious remains" chance="99585" />
+		<item id="2114" name="piggy bank" chance="99585" />
+		<item id="2152" name="platinum coin" chance="99585" countmax="5" />
+		<item id="25172" name="silver token" chance="97510" countmax="4" />
+		<item id="25377" name="gold token" chance="74274" countmax="4" />
+		<item id="26029" name="ultimate mana potion" chance="60166" countmax="20" />
+		<item id="26031" name="supreme health potion" chance="55187" countmax="20" />
+		<item id="26030" name="ultimate spirit potion" chance="47718" countmax="20" />
+		<item id="5892" name="huge chunk of crude iron" chance="37344" />
+		<item id="28415" name="royal star" chance="32780" countmax="100" />
+		<item id="2154" name="yellow gem" chance="31535" countmax="2" />
+		<item id="2156" name="red gem" chance="30705" countmax="2" />
+		<item id="7439" name="berserk potion" chance="22407" countmax="10" />
+		<item id="2160" name="crystal coin" chance="19502" countmax="3" />
+		<item id="2158" name="blue gem" chance="18672" countmax="2" />
+		<item id="2155" name="green gem" chance="17842" countmax="2" />
+		<item id="7440" name="mastermind potion" chance="17842" countmax="10" />
+		<item id="2436" name="skull staff" chance="15353" />
+		<item id="7443" name="bullseye potion" chance="14523" countmax="10" />
+		<item id="9971" name="gold ingot" chance="14108" />
+		<item id="32824" name="ice shield" chance="14108" />
+		<item name="giant shimmering pearl" chance="13693" />
+		<item id="26200" name="collar of red plasma" chance="11618" />
+		<item id="7427" name="chaos mace" chance="11203" />
+		<item name="collar of blue plasma" chance="9544" />
+		<item id="2123" name="ring of the sky" chance="9544" />
+		<item id="26199" name="collar of green plasma" chance="9129" />
+		<item name="ring of green plasma" chance="8714" />
+		<item id="32827" name="purple tendril lantern" chance="7884" />
+		<item name="ring of blue plasma" chance="7469" />
+		<item id="2153" name="violet gem" chance="7469" />
+		<item id="5904" name="magic sulphur" chance="6639" />
+		<item id="32709" name="dragon figurine" chance="5809" />
+		<item id="5809" name="soul stone" chance="5394" />
+		<item name="ring of red plasma" chance="4564" />
+		<item id="32717" name="giant sapphire" chance="3734" />
+		<item id="32826" name="turquoise tendril lantern" chance="3734" />
+		<item id="32715" name="giant ruby" chance="2905" />
+		<item id="32083" name="dark whispers" chance="2490" />
+		<item name="enchanted sleep shawl" chance="2490" />
+		<item id="32716" name="giant emerald" chance="2490" />
+		<item id="7414" name="abyss hammer" chance="2075" />
+		<item id="2453" name="arcane staff" chance="2075" />
 	</loot>
 </monster>

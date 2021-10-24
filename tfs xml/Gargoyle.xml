@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Gargoyle" nameDescription="a gargoyle" experience="150" speed="200" manacost="0">
 	<health now="250" max="250" />
 	<look type="95" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -54,18 +54,18 @@
 		<voice sentence="Chhhhhrrrrk!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87714" countmax="30" />
-		<item id="1294" name="small stone" chance="15159" countmax="10" />
-		<item id="11195" name="stone wing" chance="11821" />
-		<item id="8838" name="potato" chance="9861" countmax="2" />
-		<item id="2680" name="strawberry" chance="2021" countmax="5" />
-		<item id="2394" name="morning star" chance="1482" />
-		<item id="2513" name="battle shield" chance="1352" />
-		<item id="2129" name="wolf tooth chain" chance="1100" />
-		<item id="3351" name="steel helmet" chance="821" />
-		<item id="11343" name="piece of marble rock" chance="452" />
-		<item id="2489" name="dark armor" chance="278" />
-		<item id="2209" name="club ring" chance="204" />
-		<item id="11227" name="shiny stone" chance="187" />
+		<item id="2148" name="gold coin" chance="87696" countmax="30" />
+		<item id="1294" name="small stone" chance="15026" countmax="10" />
+		<item id="11195" name="stone wing" chance="11834" />
+		<item id="8838" name="potato" chance="9884" countmax="2" />
+		<item id="2680" name="strawberry" chance="2016" countmax="5" />
+		<item id="2394" name="morning star" chance="1510" />
+		<item id="2513" name="battle shield" chance="1339" />
+		<item id="2129" name="wolf tooth chain" chance="1090" />
+		<item id="3351" name="steel helmet" chance="804" />
+		<item id="11343" name="piece of marble rock" chance="457" />
+		<item id="2489" name="dark armor" chance="290" />
+		<item id="2209" name="club ring" chance="212" />
+		<item id="11227" name="shiny stone" chance="184" />
 	</loot>
 </monster>

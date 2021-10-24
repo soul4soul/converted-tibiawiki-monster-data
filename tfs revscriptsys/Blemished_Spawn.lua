@@ -60,7 +60,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -78,7 +78,7 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -510, maxDamage = -610, radius = 3, target = true, ShootEffect = CONST_ANI_POISON, effect = CONST_ME_HITBYPOISON},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -510, maxDamage = -610, radius = 3, target = true, shootEffect = CONST_ANI_POISON, effect = CONST_ME_HITBYPOISON},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -700, maxDamage = -750, radius = 4, target = false, effect = CONST_ME_GREEN_RINGS}
 }
 

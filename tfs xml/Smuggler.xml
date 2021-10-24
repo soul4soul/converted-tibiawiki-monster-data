@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Smuggler" nameDescription="a smuggler" experience="48" speed="176" manacost="390">
 	<health now="130" max="130" />
 	<look type="134" head="95" body="0" legs="113" feet="115" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,16 +49,16 @@
 		<voice sentence="I will silence you forever!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="79837" countmax="10" />
-		<item name="torch" chance="30216" countmax="2" />
-		<item id="2649" name="leather legs" chance="14788" />
-		<item id="2671" name="ham" chance="10190" />
-		<item id="2406" name="short sword" chance="10050" />
-		<item id="2461" name="leather helmet" chance="10033" />
-		<item id="2403" name="knife" chance="9996" />
-		<item id="2376" name="sword" chance="5026" />
-		<item id="8840" name="raspberry" chance="4912" countmax="5" />
-		<item id="2404" name="combat knife" chance="4039" />
+		<item id="2148" name="gold coin" chance="79836" countmax="10" />
+		<item name="torch" chance="30218" countmax="2" />
+		<item id="2649" name="leather legs" chance="14784" />
+		<item id="2671" name="ham" chance="10192" />
+		<item id="2406" name="short sword" chance="10049" />
+		<item id="2461" name="leather helmet" chance="10034" />
+		<item id="2403" name="knife" chance="9998" />
+		<item id="2376" name="sword" chance="5025" />
+		<item id="8840" name="raspberry" chance="4911" countmax="5" />
+		<item id="2404" name="combat knife" chance="4040" />
 		<item id="7397" name="deer trophy" chance="113" />
 	</loot>
 </monster>

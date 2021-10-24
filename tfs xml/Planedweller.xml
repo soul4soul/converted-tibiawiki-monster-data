@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Planedweller" nameDescription="a planedweller" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -55,15 +55,13 @@
 		<voice sentence="Who are you...? Show yourself!" yell="false" />
 	</voices>
 	<loot>
-		<item id="35959" name="Blue Marble" chance="20000" />
-		<item id="35960" name="Green Marble" chance="20000" />
-		<item id="35961" name="Red Marble" chance="20000" />
-		<item id="35962" name="Onyx Marble" chance="20000" />
-		<item id="35963" name="Versicoloured Marble" chance="20000" />
-		<item id="35964" name="Turquoise Marble" chance="20000" />
-		<item id="35965" name="Golden Marble" chance="20000" />
-		<item id="35966" name="Orange Marble" chance="20000" />
-		<item id="35967" name="Psychedelic Marble" chance="20000" />
-		<item id="30263" name="Withered Pauldrons" chance="20000" />
+		<item id="35962" name="onyx marble" chance="10938" />
+		<item id="35960" name="green marble" chance="7812" />
+		<item id="35961" name="red marble" chance="7812" />
+		<item id="35963" name="versicoloured marble" chance="7812" />
+		<item id="35959" name="blue marble" chance="6250" />
+		<item id="35965" name="golden marble" chance="3125" />
+		<item id="30263" name="withered pauldrons" chance="3125" />
+		<item id="35964" name="turquoise marble" chance="1562" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Enfeebled Silencer" nameDescription="an enfeebled silencer" experience="1100" speed="330" manacost="0">
 	<health now="1100" max="1100" />
 	<look type="585" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -57,17 +57,17 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="39880" />
-		<item id="28350" name="fairy wings" chance="11760" />
-		<item id="7368" name="assassin star" chance="7069" countmax="10" />
-		<item id="22534" name="silencer claws" chance="3838" />
+		<item id="2152" name="platinum coin" chance="39883" />
+		<item id="28350" name="fairy wings" chance="11763" />
+		<item id="7368" name="assassin star" chance="7072" countmax="10" />
+		<item id="22534" name="silencer claws" chance="3822" />
 		<item id="7407" name="haunted blade" chance="1492" />
-		<item id="2165" name="stealth ring" chance="1275" />
-		<item id="7886" name="terra boots" chance="916" />
-		<item id="7454" name="glorious axe" chance="910" />
-		<item id="7451" name="shadow sceptre" chance="879" />
-		<item id="7885" name="terra legs" chance="854" />
-		<item id="7387" name="diamond sceptre" chance="718" />
-		<item id="2195" name="boots of haste" chance="495" />
+		<item id="2165" name="stealth ring" chance="1270" />
+		<item id="7886" name="terra boots" chance="912" />
+		<item id="7454" name="glorious axe" chance="906" />
+		<item id="7451" name="shadow sceptre" chance="882" />
+		<item id="7885" name="terra legs" chance="857" />
+		<item id="7387" name="diamond sceptre" chance="715" />
+		<item id="2195" name="boots of haste" chance="493" />
 	</loot>
 </monster>

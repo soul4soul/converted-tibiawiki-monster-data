@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Draken Abomination" nameDescription="a draken abomination" experience="3800" speed="270" manacost="0">
 	<health now="6250" max="6250" />
 	<look type="357" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,26 +53,26 @@
 		<voice sentence="Aaag!" yell="false" />
 	</voices>
 	<summons maxSummons="2">
-		<voice name="death blob" interval="2000" chance="15" max="1" />
+		<voice name="Death Blob" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="97111" countmax="199" />
-		<item id="2666" name="meat" chance="50279" />
-		<item id="2152" name="platinum coin" chance="50024" countmax="8" />
-		<item id="12627" name="eye of corruption" chance="12051" />
-		<item id="12629" name="scale of corruption" chance="10961" />
-		<item id="8473" name="ultimate health potion" chance="9238" countmax="3" />
-		<item id="7590" name="great mana potion" chance="9126" countmax="3" />
-		<item id="7903" name="terra hood" chance="8392" />
-		<item id="12628" name="tail of corruption" chance="6211" />
-		<item id="8472" name="great spirit potion" chance="4897" countmax="3" />
-		<item id="9970" name="small topaz" chance="2816" countmax="4" />
-		<item id="8922" name="wand of voodoo" chance="1020" />
-		<item id="11304" name="zaoan legs" chance="820" />
-		<item id="11301" name="zaoan armor" chance="741" />
-		<item id="11302" name="zaoan helmet" chance="608" />
-		<item id="12646" name="draken boots" chance="561" />
-		<item id="13538" name="bamboo leaves" chance="315" />
+		<item id="2148" name="gold coin" chance="97106" countmax="199" />
+		<item id="2666" name="meat" chance="50268" />
+		<item id="2152" name="platinum coin" chance="50042" countmax="8" />
+		<item id="12627" name="eye of corruption" chance="12032" />
+		<item id="12629" name="scale of corruption" chance="10957" />
+		<item id="8473" name="ultimate health potion" chance="9229" countmax="3" />
+		<item id="7590" name="great mana potion" chance="9112" countmax="3" />
+		<item id="7903" name="terra hood" chance="8389" />
+		<item id="12628" name="tail of corruption" chance="6221" />
+		<item id="8472" name="great spirit potion" chance="4909" countmax="3" />
+		<item id="9970" name="small topaz" chance="2818" countmax="4" />
+		<item id="8922" name="wand of voodoo" chance="1019" />
+		<item id="11304" name="zaoan legs" chance="823" />
+		<item id="11301" name="zaoan armor" chance="747" />
+		<item id="11302" name="zaoan helmet" chance="609" />
+		<item id="12646" name="draken boots" chance="559" />
+		<item id="13538" name="bamboo leaves" chance="316" />
 		<item id="12644" name="shield of corruption" chance="15" />
 		<item id="12647" name="snake god's wristguard" chance="12" />
 	</loot>

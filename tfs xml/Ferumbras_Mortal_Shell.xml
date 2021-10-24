@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Ferumbras Mortal Shell" nameDescription="" experience="100000" speed="0" manacost="0">
 	<health now="300000" max="300000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -52,70 +52,70 @@
 	</voices>
 	<loot>
 		<item id="25172" name="silver token" chance="100000" countmax="3" />
-		<item id="2148" name="gold coin" chance="65672" countmax="200" />
-		<item name="giant shimmering pearl" chance="47463" />
-		<item id="2152" name="platinum coin" chance="42687" countmax="25" />
-		<item id="2127" name="emerald bangle" chance="36119" />
-		<item id="5944" name="soul orb" chance="34925" />
-		<item id="25382" name="rift shield" chance="28358" />
-		<item id="2143" name="white pearl" chance="26567" countmax="5" />
-		<item id="9971" name="gold ingot" chance="25970" />
-		<item id="25523" name="rift crossbow" chance="25970" />
-		<item id="2144" name="black pearl" chance="25672" countmax="5" />
-		<item id="2156" name="red gem" chance="24776" />
-		<item id="25383" name="rift lance" chance="24776" />
-		<item id="2149" name="small emerald" chance="24179" countmax="10" />
-		<item id="25522" name="rift bow" chance="20896" />
-		<item id="2150" name="small amethyst" chance="20597" countmax="10" />
-		<item id="2145" name="small diamond" chance="19104" countmax="10" />
-		<item id="9970" name="small topaz" chance="19104" countmax="10" />
-		<item id="2146" name="small sapphire" chance="16716" countmax="10" />
-		<item id="2158" name="blue gem" chance="15821" />
-		<item id="7895" name="lightning legs" chance="15821" />
-		<item id="7885" name="terra legs" chance="14328" />
-		<item id="2155" name="green gem" chance="14030" />
-		<item id="7894" name="magma legs" chance="12239" />
-		<item id="25429" name="boots of homecoming" chance="10746" />
-		<item id="7896" name="glacier kilt" chance="10746" />
-		<item id="25420" name="ferumbras' staff (blunt)" chance="10149" />
-		<item id="7382" name="demonrage sword" chance="9851" />
-		<item id="2514" name="mastermind shield" chance="9851" />
-		<item id="25425" name="ferumbras' mana keg" chance="9552" />
-		<item id="2466" name="golden armor" chance="9552" />
-		<item id="2520" name="demon shield" chance="9254" />
-		<item id="2470" name="golden legs" chance="9254" />
-		<item id="7407" name="haunted blade" chance="9254" />
-		<item id="25427" name="scroll of ascension" chance="8955" />
-		<item id="7451" name="shadow sceptre" chance="8955" />
-		<item id="7427" name="chaos mace" chance="8657" />
-		<item id="8902" name="spellbook of mind control" chance="8060" />
-		<item id="25423" name="ferumbras' amulet" chance="7463" />
-		<item id="7414" name="abyss hammer" chance="6866" />
-		<item id="25393" name="folded rift carpet" chance="6567" />
-		<item id="7417" name="runed sword" chance="6567" />
-		<item id="8903" name="spellbook of lost souls" chance="6269" />
-		<item id="7422" name="jade hammer" chance="5672" />
-		<item id="25390" name="rift lamp" chance="5075" />
-		<item id="7418" name="nightmare blade" chance="4776" />
-		<item id="25387" name="rift tapestry" chance="4776" />
-		<item id="8918" name="spellbook of dark mysteries" chance="4776" />
-		<item id="7388" name="vile axe" chance="4776" />
-		<item id="7416" name="bloody edge" chance="4478" />
-		<item id="7403" name="berserker" chance="4179" />
-		<item id="8869" name="greenwood coat" chance="3582" />
-		<item id="2472" name="magic plate armor" chance="3582" />
-		<item id="8904" name="spellscroll of prophecies" chance="3582" />
-		<item id="8885" name="divine plate" chance="3284" />
-		<item id="8928" name="obsidian truncheon" chance="2388" />
-		<item id="7411" name="ornamented axe" chance="2090" />
-		<item id="8868" name="velvet mantle" chance="1791" />
-		<item id="8930" name="emerald sword" chance="1493" />
-		<item id="8924" name="hellforged axe" chance="1493" />
-		<item id="7435" name="impaler" chance="1493" />
-		<item id="7423" name="skullcrusher" chance="1194" />
-		<item id="2415" name="great axe" chance="597" />
-		<item id="8926" name="demonwing axe" chance="299" />
-		<item id="7405" name="havoc blade" chance="299" />
-		<item id="2539" name="phoenix shield" chance="299" />
+		<item id="2148" name="gold coin" chance="65385" countmax="200" />
+		<item name="giant shimmering pearl" chance="47337" />
+		<item id="2152" name="platinum coin" chance="42899" countmax="25" />
+		<item id="2127" name="emerald bangle" chance="36095" />
+		<item id="5944" name="soul orb" chance="34911" />
+		<item id="25382" name="rift shield" chance="28698" />
+		<item id="2143" name="white pearl" chance="26627" countmax="5" />
+		<item id="2144" name="black pearl" chance="25740" countmax="5" />
+		<item id="9971" name="gold ingot" chance="25740" />
+		<item id="25523" name="rift crossbow" chance="25740" />
+		<item id="2156" name="red gem" chance="25148" />
+		<item id="25383" name="rift lance" chance="24852" />
+		<item id="2149" name="small emerald" chance="24260" countmax="10" />
+		<item id="25522" name="rift bow" chance="20710" />
+		<item id="2150" name="small amethyst" chance="20414" countmax="10" />
+		<item id="2145" name="small diamond" chance="19231" countmax="10" />
+		<item id="9970" name="small topaz" chance="18935" countmax="10" />
+		<item id="2146" name="small sapphire" chance="16864" countmax="10" />
+		<item id="2158" name="blue gem" chance="15680" />
+		<item id="7895" name="lightning legs" chance="15680" />
+		<item id="2155" name="green gem" chance="14497" />
+		<item id="7885" name="terra legs" chance="14201" />
+		<item id="7894" name="magma legs" chance="12130" />
+		<item id="7896" name="glacier kilt" chance="11243" />
+		<item id="25429" name="boots of homecoming" chance="10651" />
+		<item id="7382" name="demonrage sword" chance="10059" />
+		<item id="25420" name="ferumbras' staff (blunt)" chance="10059" />
+		<item id="2466" name="golden armor" chance="9763" />
+		<item id="2514" name="mastermind shield" chance="9763" />
+		<item id="25425" name="ferumbras' mana keg" chance="9467" />
+		<item id="2520" name="demon shield" chance="9172" />
+		<item id="2470" name="golden legs" chance="9172" />
+		<item id="7407" name="haunted blade" chance="9172" />
+		<item id="7451" name="shadow sceptre" chance="9172" />
+		<item id="25427" name="scroll of ascension" chance="8876" />
+		<item id="7427" name="chaos mace" chance="8580" />
+		<item id="8902" name="spellbook of mind control" chance="7988" />
+		<item id="25423" name="ferumbras' amulet" chance="7396" />
+		<item id="7414" name="abyss hammer" chance="7101" />
+		<item id="25393" name="folded rift carpet" chance="6509" />
+		<item id="7417" name="runed sword" chance="6509" />
+		<item id="8903" name="spellbook of lost souls" chance="6509" />
+		<item id="7422" name="jade hammer" chance="5621" />
+		<item id="25390" name="rift lamp" chance="5030" />
+		<item id="7418" name="nightmare blade" chance="4734" />
+		<item id="25387" name="rift tapestry" chance="4734" />
+		<item id="8918" name="spellbook of dark mysteries" chance="4734" />
+		<item id="7388" name="vile axe" chance="4734" />
+		<item id="7416" name="bloody edge" chance="4438" />
+		<item id="7403" name="berserker" chance="4142" />
+		<item id="8869" name="greenwood coat" chance="3550" />
+		<item id="2472" name="magic plate armor" chance="3550" />
+		<item id="8904" name="spellscroll of prophecies" chance="3550" />
+		<item id="8885" name="divine plate" chance="3254" />
+		<item id="8928" name="obsidian truncheon" chance="2367" />
+		<item id="7411" name="ornamented axe" chance="2071" />
+		<item id="8868" name="velvet mantle" chance="1775" />
+		<item id="8930" name="emerald sword" chance="1479" />
+		<item id="8924" name="hellforged axe" chance="1479" />
+		<item id="7435" name="impaler" chance="1479" />
+		<item id="7423" name="skullcrusher" chance="1183" />
+		<item id="2415" name="great axe" chance="592" />
+		<item id="8926" name="demonwing axe" chance="296" />
+		<item id="7405" name="havoc blade" chance="296" />
+		<item id="2539" name="phoenix shield" chance="296" />
 	</loot>
 </monster>

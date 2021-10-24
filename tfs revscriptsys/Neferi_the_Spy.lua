@@ -57,10 +57,10 @@ monster.voices = {
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -87,29 +87,29 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 41414},
-	{id = 2181, chance = 23737},
-	{id = 2379, chance = 18182},
-	{id = 9971, chance = 12626},
-	{id = 8473, chance = 12626, maxCount = 4},
-	{id = 8472, chance = 10101, maxCount = 2},
-	{id = 2392, chance = 6566},
-	{id = 7901, chance = 5051},
-	{id = 2183, chance = 4545},
-	{id = "ring of red plasma", chance = 4040},
-	{id = 7903, chance = 4040},
-	{id = 7895, chance = 3535},
-	{id = 7886, chance = 3535},
-	{id = 8901, chance = 3030},
-	{id = 2476, chance = 2525},
-	{id = 2430, chance = 2525},
-	{id = 18414, chance = 2525},
-	{id = 7892, chance = 2020},
-	{id = 33979, chance = 1515},
-	{id = 2165, chance = 1515},
-	{id = 2153, chance = 1515},
-	{id = 7902, chance = 1010},
-	{id = 33980, chance = 505}
+	{id = 2160, chance = 42661},
+	{id = 2181, chance = 22936},
+	{id = 2379, chance = 17890},
+	{id = 9971, chance = 11927},
+	{id = 8473, chance = 11468, maxCount = 4},
+	{id = 8472, chance = 9633, maxCount = 2},
+	{id = 2392, chance = 6881},
+	{id = 2183, chance = 5046},
+	{id = 7901, chance = 4587},
+	{id = 7903, chance = 4128},
+	{id = 7895, chance = 3670},
+	{id = "ring of red plasma", chance = 3670},
+	{id = 7886, chance = 3670},
+	{id = 8901, chance = 2752},
+	{id = 7892, chance = 2294},
+	{id = 2476, chance = 2294},
+	{id = 2430, chance = 2294},
+	{id = 18414, chance = 2294},
+	{id = 33979, chance = 1376},
+	{id = 2165, chance = 1376},
+	{id = 2153, chance = 1376},
+	{id = 7902, chance = 917},
+	{id = 33980, chance = 459}
 }
 
 mType:register(monster)

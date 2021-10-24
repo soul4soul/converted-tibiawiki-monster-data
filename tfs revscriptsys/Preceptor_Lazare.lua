@@ -58,10 +58,10 @@ monster.voices = {
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -88,32 +88,32 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 93939, maxCount = 200},
-	{id = 2152, chance = 93939, maxCount = 15},
-	{id = 2671, chance = 69697},
-	{id = 6500, chance = 48485},
-	{id = 7591, chance = 36742, maxCount = 3},
-	{id = 5944, chance = 31818},
-	{id = 6558, chance = 26515},
-	{id = 7368, chance = 25000, maxCount = 10},
-	{id = 7590, chance = 24242, maxCount = 3},
-	{id = 2145, chance = 22348, maxCount = 5},
-	{id = 2147, chance = 19697, maxCount = 5},
-	{id = 9970, chance = 18561, maxCount = 5},
-	{id = 2149, chance = 17803, maxCount = 5},
-	{id = 2150, chance = 15530, maxCount = 5},
-	{id = 2156, chance = 13258},
-	{id = 7365, chance = 12500, maxCount = 15},
-	{id = "giant shimmering pearl", chance = 7197},
-	{id = 9971, chance = 6818, maxCount = 2},
-	{id = 7413, chance = 6818},
-	{id = 7762, chance = 6061},
-	{id = 7452, chance = 5682},
-	{id = 2476, chance = 4545},
-	{id = 2153, chance = 3409},
-	{id = 2454, chance = 3409},
-	{id = 2155, chance = 2273},
-	{id = 2466, chance = 758}
+	{id = 2148, chance = 94052, maxCount = 200},
+	{id = 2152, chance = 94052, maxCount = 15},
+	{id = 2671, chance = 70260},
+	{id = 6500, chance = 48327},
+	{id = 7591, chance = 37175, maxCount = 3},
+	{id = 5944, chance = 32342},
+	{id = 6558, chance = 26766},
+	{id = 7368, chance = 26022, maxCount = 10},
+	{id = 7590, chance = 23792, maxCount = 3},
+	{id = 2145, chance = 21933, maxCount = 5},
+	{id = 2147, chance = 19331, maxCount = 5},
+	{id = 9970, chance = 18959, maxCount = 5},
+	{id = 2149, chance = 18216, maxCount = 5},
+	{id = 2150, chance = 15613, maxCount = 5},
+	{id = 2156, chance = 13011},
+	{id = 7365, chance = 12268, maxCount = 15},
+	{id = "giant shimmering pearl", chance = 7063},
+	{id = 9971, chance = 7063, maxCount = 2},
+	{id = 7413, chance = 7063},
+	{id = 7762, chance = 5948},
+	{id = 7452, chance = 5576},
+	{id = 2476, chance = 4461},
+	{id = 2153, chance = 3346},
+	{id = 2454, chance = 3346},
+	{id = 2155, chance = 2230},
+	{id = 2466, chance = 743}
 }
 
 mType:register(monster)

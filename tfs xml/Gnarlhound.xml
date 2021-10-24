@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Gnarlhound" nameDescription="a gnarlhound" experience="60" speed="410" manacost="465">
 	<health now="198" max="198" />
 	<look type="341" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,9 +49,9 @@
 		<voice sentence="Grrrrrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="49536" countmax="30" />
-		<item id="3976" name="worm" chance="49173" countmax="3" />
-		<item id="2666" name="meat" chance="39985" />
-		<item id="11324" name="shaggy tail" chance="24129" />
+		<item id="2148" name="gold coin" chance="49589" countmax="30" />
+		<item id="3976" name="worm" chance="49203" countmax="3" />
+		<item id="2666" name="meat" chance="39990" />
+		<item id="11324" name="shaggy tail" chance="24141" />
 	</loot>
 </monster>

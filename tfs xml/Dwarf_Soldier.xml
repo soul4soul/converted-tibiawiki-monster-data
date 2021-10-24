@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Dwarf Soldier" nameDescription="a dwarf soldier" experience="70" speed="176" manacost="360">
 	<health now="135" max="135" />
 	<look type="71" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -51,16 +51,16 @@
 		<voice sentence="Hail Durin!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2787" name="white mushroom" chance="39908" countmax="2" />
-		<item id="2543" name="bolt" chance="37820" countmax="7" />
-		<item id="2148" name="gold coin" chance="28327" countmax="12" />
-		<item id="2481" name="soldier helmet" chance="11809" />
-		<item id="2554" name="shovel" chance="10029" />
-		<item id="2464" name="chain armor" chance="7508" />
-		<item id="7363" name="piercing bolt" chance="3825" countmax="3" />
-		<item id="2525" name="dwarven shield" chance="3056" />
-		<item id="2455" name="crossbow" chance="3036" />
-		<item id="2378" name="battle axe" chance="2478" />
+		<item id="2787" name="white mushroom" chance="39917" countmax="2" />
+		<item id="2543" name="bolt" chance="37805" countmax="7" />
+		<item id="2148" name="gold coin" chance="28326" countmax="12" />
+		<item id="2481" name="soldier helmet" chance="11813" />
+		<item id="2554" name="shovel" chance="10028" />
+		<item id="2464" name="chain armor" chance="7503" />
+		<item id="7363" name="piercing bolt" chance="3826" countmax="3" />
+		<item id="2525" name="dwarven shield" chance="3061" />
+		<item id="2455" name="crossbow" chance="3033" />
+		<item id="2378" name="battle axe" chance="2480" />
 		<item id="5880" name="iron ore" chance="303" />
 		<item id="2208" name="axe ring" chance="122" />
 	</loot>

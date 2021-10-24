@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Crypt Warrior" nameDescription="a crypt warrior" experience="4200" speed="310" manacost="0">
 	<health now="7800" max="7800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -42,16 +42,16 @@
 	</elements>
 	<defenses armor="70" defense="70" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="78995" countmax="25" />
-		<item id="2230" name="bone" chance="59679" />
-		<item id="5944" name="soul orb" chance="30684" />
-		<item id="2787" name="white mushroom" chance="20428" countmax="2" />
-		<item id="12437" name="pelvis bone" chance="19563" />
-		<item id="11233" name="unholy bone" chance="11779" />
-		<item id="2789" name="brown mushroom" chance="5478" />
-		<item id="2376" name="sword" chance="4695" />
-		<item id="2398" name="mace" chance="2842" />
-		<item id="7381" name="mammoth whopper" chance="1606" />
-		<item id="6553" name="ruthless axe" chance="494" />
+		<item id="2152" name="platinum coin" chance="78910" countmax="25" />
+		<item id="2230" name="bone" chance="60174" />
+		<item id="5944" name="soul orb" chance="30714" />
+		<item id="2787" name="white mushroom" chance="20502" countmax="2" />
+		<item id="12437" name="pelvis bone" chance="19171" />
+		<item id="11233" name="unholy bone" chance="11467" />
+		<item id="2789" name="brown mushroom" chance="5145" />
+		<item id="2376" name="sword" chance="4274" />
+		<item id="2398" name="mace" chance="2867" />
+		<item id="7381" name="mammoth whopper" chance="1715" />
+		<item id="6553" name="ruthless axe" chance="486" />
 	</loot>
 </monster>

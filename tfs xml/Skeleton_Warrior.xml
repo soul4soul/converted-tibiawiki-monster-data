@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Skeleton Warrior" nameDescription="a skeleton warrior" experience="45" speed="154" manacost="350">
 	<health now="65" max="65" />
 	<look type="298" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,12 +45,12 @@
 	</attacks>
 	<defenses armor="5" defense="5" />
 	<loot>
-		<item id="2230" name="bone" chance="50585" />
-		<item id="2148" name="gold coin" chance="44156" countmax="10" />
-		<item id="2787" name="white mushroom" chance="25028" />
-		<item id="12437" name="pelvis bone" chance="10229" />
-		<item id="2398" name="mace" chance="1970" />
-		<item id="2376" name="sword" chance="1839" />
-		<item id="2789" name="brown mushroom" chance="1784" />
+		<item id="2230" name="bone" chance="50551" />
+		<item id="2148" name="gold coin" chance="44178" countmax="10" />
+		<item id="2787" name="white mushroom" chance="25030" />
+		<item id="12437" name="pelvis bone" chance="10199" />
+		<item id="2398" name="mace" chance="1982" />
+		<item id="2376" name="sword" chance="1843" />
+		<item id="2789" name="brown mushroom" chance="1779" />
 	</loot>
 </monster>

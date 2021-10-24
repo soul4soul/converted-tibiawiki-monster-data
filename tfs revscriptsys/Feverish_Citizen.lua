@@ -70,7 +70,7 @@ monster.immunities = {
 	{type = "paralyze", condition = false},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = false},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -88,7 +88,9 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -19}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -19},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, effect = CONST_ME_POISONAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, radius = 3, target = , effect = CONST_ME_GREEN_RINGS}
 }
 
 monster.defenses = {
@@ -97,14 +99,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 29824, maxCount = 35},
-	{id = 3976, chance = 24786, maxCount = 3},
-	{id = 2230, chance = 4977},
-	{id = 13542, chance = 2189},
-	{id = 13543, chance = 1944},
-	{id = 13545, chance = 1932},
-	{id = 13544, chance = 1871},
-	{id = 13540, chance = 1871},
+	{id = 2148, chance = 29858, maxCount = 35},
+	{id = 3976, chance = 24785, maxCount = 3},
+	{id = 2230, chance = 4964},
+	{id = 13542, chance = 2197},
+	{id = 13543, chance = 1954},
+	{id = 13545, chance = 1942},
+	{id = 13540, chance = 1893},
+	{id = 13544, chance = 1869},
 	{id = 13541, chance = 1663}
 }
 

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Sacred Spider" nameDescription="a sacred spider" experience="330" speed="244" manacost="0">
 	<health now="550" max="550" />
 	<look type="219" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,10 +45,10 @@
 	</attacks>
 	<defenses armor="27" defense="27" />
 	<loot>
-		<item id="2148" name="gold coin" chance="89651" countmax="119" />
-		<item id="8859" name="spider fangs" chance="25252" />
-		<item id="2159" name="scarab coin" chance="6790" countmax="4" />
-		<item id="2463" name="plate armor" chance="4854" />
-		<item id="9971" name="gold ingot" chance="55" />
+		<item id="2148" name="gold coin" chance="89637" countmax="119" />
+		<item id="8859" name="spider fangs" chance="25162" />
+		<item id="2159" name="scarab coin" chance="6706" countmax="4" />
+		<item id="2463" name="plate armor" chance="4760" />
+		<item id="9971" name="gold ingot" chance="52" />
 	</loot>
 </monster>

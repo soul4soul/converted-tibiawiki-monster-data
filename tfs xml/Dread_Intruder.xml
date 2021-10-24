@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Dread Intruder" nameDescription="a dread intruder" experience="2400" speed="330" manacost="0">
 	<health now="4500" max="4500" />
 	<look type="882" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,27 +50,27 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="8" />
-		<item id="26201" name="energy drink" chance="20974" />
-		<item id="26191" name="energy bar" chance="20184" />
-		<item id="26175" name="frozen lightning" chance="15913" />
-		<item id="26172" name="instable proto matter" chance="15649" />
-		<item id="7590" name="great mana potion" chance="13382" />
-		<item id="8472" name="great spirit potion" chance="12754" />
-		<item id="8473" name="ultimate health potion" chance="12532" />
-		<item id="26179" name="energy ball" chance="11924" />
-		<item id="26166" name="odd organ" chance="9971" />
-		<item id="18418" name="blue crystal splinter" chance="9252" />
-		<item id="18419" name="cyan crystal fragment" chance="5709" />
-		<item id="2146" name="small sapphire" chance="4818" countmax="2" />
-		<item id="2147" name="small ruby" chance="4778" countmax="2" />
-		<item id="2150" name="small amethyst" chance="4343" countmax="2" />
-		<item id="18414" name="violet crystal shard" chance="4332" />
-		<item id="2153" name="violet gem" chance="1032" />
-		<item name="ring of red plasma" chance="344" />
-		<item id="26199" name="collar of green plasma" chance="294" />
-		<item name="collar of blue plasma" chance="263" />
-		<item id="26200" name="collar of red plasma" chance="253" />
-		<item name="ring of green plasma" chance="243" />
-		<item name="ring of blue plasma" chance="233" />
+		<item id="26201" name="energy drink" chance="20911" />
+		<item id="26191" name="energy bar" chance="20231" />
+		<item id="26175" name="frozen lightning" chance="15984" />
+		<item id="26172" name="instable proto matter" chance="15583" />
+		<item id="7590" name="great mana potion" chance="13440" />
+		<item id="8472" name="great spirit potion" chance="12684" />
+		<item id="8473" name="ultimate health potion" chance="12435" />
+		<item id="26179" name="energy ball" chance="12024" />
+		<item id="26166" name="odd organ" chance="9776" />
+		<item id="18418" name="blue crystal splinter" chance="9231" />
+		<item id="18419" name="cyan crystal fragment" chance="5797" />
+		<item id="2146" name="small sapphire" chance="4840" countmax="2" />
+		<item id="2147" name="small ruby" chance="4802" countmax="2" />
+		<item id="2150" name="small amethyst" chance="4400" countmax="2" />
+		<item id="18414" name="violet crystal shard" chance="4333" />
+		<item id="2153" name="violet gem" chance="1033" />
+		<item name="ring of red plasma" chance="335" />
+		<item id="26199" name="collar of green plasma" chance="277" />
+		<item name="ring of green plasma" chance="277" />
+		<item name="collar of blue plasma" chance="258" />
+		<item id="26200" name="collar of red plasma" chance="249" />
+		<item name="ring of blue plasma" chance="230" />
 	</loot>
 </monster>

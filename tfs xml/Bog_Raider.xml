@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Bog Raider" nameDescription="a bog raider" experience="800" speed="250" manacost="0">
 	<health now="1300" max="1300" />
 	<look type="299" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -51,14 +51,14 @@
 		<voice sentence="Slurp!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="92105" countmax="105" />
+		<item id="2148" name="gold coin" chance="92101" countmax="105" />
 		<item id="10584" name="boggy dreads" chance="9882" />
 		<item id="2647" name="plate legs" chance="2025" />
 		<item id="8472" name="great spirit potion" chance="2013" />
 		<item id="7591" name="great health potion" chance="2007" />
 		<item id="8912" name="springsprout rod" chance="1018" />
 		<item id="8473" name="ultimate health potion" chance="766" />
-		<item id="8872" name="belted cape" chance="581" />
+		<item id="8872" name="belted cape" chance="584" />
 		<item id="8891" name="paladin armor" chance="138" />
 	</loot>
 </monster>

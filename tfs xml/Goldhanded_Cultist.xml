@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Goldhanded Cultist" nameDescription="a goldhanded cultist" experience="2000" speed="300" manacost="0">
 	<health now="3000" max="3000" />
 	<look type="132" head="114" body="79" legs="62" feet="94" addons="2" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>

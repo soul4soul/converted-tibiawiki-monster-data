@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Manta Ray" nameDescription="a manta ray" experience="125" speed="168" manacost="0">
 	<health now="680" max="680" />
 	<look type="449" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -48,6 +48,6 @@
 		<voice sentence="Flap flap flap!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="65224" countmax="39" />
+		<item id="2148" name="gold coin" chance="64856" countmax="39" />
 	</loot>
 </monster>

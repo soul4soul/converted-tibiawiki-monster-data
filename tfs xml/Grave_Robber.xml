@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Grave Robber" nameDescription="a grave robber" experience="65" speed="190" manacost="0">
 	<health now="165" max="165" />
 	<look type="146" head="57" body="95" legs="57" feet="19" addons="3" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,15 +45,15 @@
 	</attacks>
 	<defenses armor="7" defense="7" />
 	<loot>
-		<item id="2148" name="gold coin" chance="55866" countmax="38" />
-		<item id="12448" name="rope belt" chance="6284" />
-		<item id="8838" name="potato" chance="5302" countmax="3" />
-		<item id="2386" name="axe" chance="2847" />
-		<item id="12412" name="dirty turban" chance="1964" />
-		<item id="2465" name="brass armor" chance="1767" />
-		<item id="2398" name="mace" chance="1424" />
+		<item id="2148" name="gold coin" chance="55861" countmax="38" />
+		<item id="12448" name="rope belt" chance="6327" />
+		<item id="8838" name="potato" chance="5297" countmax="3" />
+		<item id="2386" name="axe" chance="2845" />
+		<item id="12412" name="dirty turban" chance="1962" />
+		<item id="2465" name="brass armor" chance="1766" />
+		<item id="2398" name="mace" chance="1422" />
 		<item id="2509" name="steel shield" chance="785" />
 		<item id="2459" name="iron helmet" chance="638" />
-		<item id="8267" name="nomad parchment" chance="344" />
+		<item id="8267" name="nomad parchment" chance="343" />
 	</loot>
 </monster>

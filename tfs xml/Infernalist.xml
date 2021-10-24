@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Infernalist" nameDescription="an infernalist" experience="4000" speed="230" manacost="0">
 	<health now="3650" max="3650" />
 	<look type="130" head="78" body="76" legs="94" feet="39" addons="2" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,18 +53,18 @@
 		<voice sentence="Feel the heat of battle!" yell="false" />
 	</voices>
 	<summons maxSummons="1">
-		<voice name="fire elemental" interval="2000" chance="15" max="1" />
+		<voice name="Fire Elemental" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="97526" countmax="151" />
-		<item id="7590" name="great mana potion" chance="19505" />
-		<item id="7591" name="great health potion" chance="18539" />
-		<item id="8840" name="raspberry" chance="8246" countmax="5" />
-		<item id="2436" name="skull staff" chance="6540" />
-		<item id="7760" name="small enchanted ruby" chance="4606" />
+		<item id="2148" name="gold coin" chance="97527" countmax="151" />
+		<item id="7590" name="great mana potion" chance="19500" />
+		<item id="7591" name="great health potion" chance="18533" />
+		<item id="8840" name="raspberry" chance="8243" countmax="5" />
+		<item id="2436" name="skull staff" chance="6538" />
+		<item id="7760" name="small enchanted ruby" chance="4605" />
 		<item id="2167" name="energy ring" chance="2246" />
-		<item id="5911" name="red piece of cloth" chance="1223" />
-		<item id="9958" name="royal tapestry" chance="768" />
+		<item id="5911" name="red piece of cloth" chance="1222" />
+		<item id="9958" name="royal tapestry" chance="767" />
 		<item id="5904" name="magic sulphur" chance="654" />
 		<item id="9969" name="black skull (item)" chance="455" />
 		<item id="8902" name="spellbook of mind control" chance="455" />

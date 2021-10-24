@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Energy Elemental" nameDescription="an energy elemental" experience="550" speed="230" manacost="0">
 	<health now="500" max="500" />
 	<look type="293" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -47,18 +47,18 @@
 		<defense name="healing" interval="2000" chance="20" min="50" max="125" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="98038" countmax="170" />
-		<item id="7620" name="mana potion" chance="11972" />
-		<item id="7838" name="flash arrow" chance="10161" countmax="10" />
-		<item id="2399" name="throwing star" chance="9993" countmax="5" />
-		<item id="7589" name="strong mana potion" chance="7953" />
-		<item id="7449" name="crystal sword" chance="5980" />
-		<item id="2150" name="small amethyst" chance="5044" countmax="2" />
-		<item id="2425" name="obsidian lance" chance="3643" />
-		<item id="2124" name="crystal ring" chance="2057" />
-		<item id="2170" name="silver amulet" chance="1093" />
-		<item id="2167" name="energy ring" chance="919" />
-		<item id="2189" name="wand of cosmic energy" chance="583" />
-		<item id="2515" name="guardian shield" chance="269" />
+		<item id="2148" name="gold coin" chance="98045" countmax="170" />
+		<item id="7620" name="mana potion" chance="11987" />
+		<item id="7838" name="flash arrow" chance="10160" countmax="10" />
+		<item id="2399" name="throwing star" chance="9987" countmax="5" />
+		<item id="7589" name="strong mana potion" chance="7943" />
+		<item id="7449" name="crystal sword" chance="5988" />
+		<item id="2150" name="small amethyst" chance="5033" countmax="2" />
+		<item id="2425" name="obsidian lance" chance="3647" />
+		<item id="2124" name="crystal ring" chance="2050" />
+		<item id="2170" name="silver amulet" chance="1089" />
+		<item id="2167" name="energy ring" chance="922" />
+		<item id="2189" name="wand of cosmic energy" chance="586" />
+		<item id="2515" name="guardian shield" chance="274" />
 	</loot>
 </monster>

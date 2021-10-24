@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Orc Spearman" nameDescription="an orc spearman" experience="38" speed="176" manacost="310">
 	<health now="105" max="105" />
 	<look type="50" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -48,14 +48,14 @@
 		<voice sentence="Ugaar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="30410" />
-		<item id="2148" name="gold coin" chance="25024" countmax="11" />
-		<item id="2389" name="spear" chance="17827" />
-		<item id="2468" name="studded legs" chance="8961" />
-		<item id="2482" name="studded helmet" chance="8310" />
-		<item id="2420" name="machete" chance="3035" />
-		<item id="12435" name="orc leather" chance="2018" />
-		<item id="26642" name="heavy old tome" chance="1843" />
+		<item id="2666" name="meat" chance="30403" />
+		<item id="2148" name="gold coin" chance="25008" countmax="11" />
+		<item id="2389" name="spear" chance="17883" />
+		<item id="2468" name="studded legs" chance="8950" />
+		<item id="2482" name="studded helmet" chance="8299" />
+		<item id="2420" name="machete" chance="3031" />
+		<item id="12435" name="orc leather" chance="2015" />
+		<item id="26642" name="heavy old tome" chance="1841" />
 		<item id="11113" name="orc tooth" chance="95" />
 	</loot>
 </monster>

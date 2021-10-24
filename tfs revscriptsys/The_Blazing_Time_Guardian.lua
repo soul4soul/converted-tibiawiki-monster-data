@@ -57,10 +57,10 @@ monster.voices = {
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
-	{type = "invisible", condition = false},
-	{type = "drunk", condition = false},
+	{type = "invisible", condition = true},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -89,29 +89,33 @@ monster.defenses = {
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 200},
 	{id = 7440, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 30},
+	{id = 2152, chance = 100000, maxCount = 35},
 	{id = 2214, chance = 100000},
 	{id = 2436, chance = 100000},
-	{id = 18414, chance = 87500, maxCount = 3},
-	{id = 18415, chance = 75000, maxCount = 3},
-	{id = 18413, chance = 62500, maxCount = 3},
-	{id = 8473, chance = 62500, maxCount = 10},
-	{id = 7590, chance = 50000, maxCount = 10},
-	{id = 7387, chance = 37500},
-	{id = "giant shimmering pearl", chance = 37500},
-	{id = 12410, chance = 37500},
-	{id = 9970, chance = 37500, maxCount = 10},
-	{id = 25377, chance = 25000},
-	{id = 8472, chance = 25000, maxCount = 5},
-	{id = 5892, chance = 25000},
-	{id = 5904, chance = 25000},
-	{id = 2145, chance = 25000, maxCount = 10},
-	{id = 2154, chance = 25000},
-	{id = 22396, chance = 12500},
-	{id = 2156, chance = 12500},
-	{id = 25172, chance = 12500},
-	{id = 2147, chance = 12500, maxCount = 10},
-	{id = 8904, chance = 12500}
+	{id = 18415, chance = 81818, maxCount = 3},
+	{id = 18413, chance = 63636, maxCount = 3},
+	{id = 18414, chance = 63636, maxCount = 3},
+	{id = 7590, chance = 54545, maxCount = 10},
+	{id = 8473, chance = 54545, maxCount = 10},
+	{id = 12410, chance = 45455},
+	{id = 8472, chance = 36364, maxCount = 5},
+	{id = 9970, chance = 36364, maxCount = 10},
+	{id = 7387, chance = 27273},
+	{id = "giant shimmering pearl", chance = 27273},
+	{id = 2155, chance = 27273},
+	{id = 25172, chance = 27273},
+	{id = 2197, chance = 27273},
+	{id = 22396, chance = 18182},
+	{id = 25377, chance = 18182},
+	{id = 5892, chance = 18182},
+	{id = 5904, chance = 18182},
+	{id = 2150, chance = 18182, maxCount = 10},
+	{id = 2145, chance = 18182, maxCount = 10},
+	{id = 2154, chance = 18182},
+	{id = "part of a rune", chance = 9091},
+	{id = 2156, chance = 9091},
+	{id = 2147, chance = 9091, maxCount = 10},
+	{id = 8904, chance = 9091}
 }
 
 mType:register(monster)

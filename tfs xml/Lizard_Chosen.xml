@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Lizard Chosen" nameDescription="a lizard chosen" experience="2200" speed="272" manacost="0">
 	<health now="3050" max="3050" />
 	<look type="344" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,10 +53,10 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="97524" countmax="236" />
-		<item id="11325" name="spiked iron ball" chance="10039" />
-		<item id="7591" name="great health potion" chance="6891" countmax="3" />
-		<item id="11327" name="cursed shoulder spikes" chance="5927" />
-		<item id="2152" name="platinum coin" chance="2996" countmax="5" />
+		<item id="11325" name="spiked iron ball" chance="10038" />
+		<item id="7591" name="great health potion" chance="6890" countmax="3" />
+		<item id="11327" name="cursed shoulder spikes" chance="5926" />
+		<item id="2152" name="platinum coin" chance="2998" countmax="5" />
 		<item id="12629" name="scale of corruption" chance="2982" />
 		<item id="11326" name="corrupted flag" chance="2976" />
 		<item id="2145" name="small diamond" chance="2536" countmax="5" />

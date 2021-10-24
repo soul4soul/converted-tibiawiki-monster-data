@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Elephant" nameDescription="an elephant" experience="160" speed="190" manacost="500">
 	<health now="320" max="320" />
 	<look type="211" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,9 +50,9 @@
 		<voice sentence="Trooooot!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="40331" />
-		<item id="2671" name="ham" chance="29484" />
-		<item id="3956" name="tusk" chance="1094" countmax="2" />
-		<item id="3973" name="tusk shield" chance="155" />
+		<item id="2666" name="meat" chance="40430" />
+		<item id="2671" name="ham" chance="29424" />
+		<item id="3956" name="tusk" chance="1088" countmax="2" />
+		<item id="3973" name="tusk shield" chance="154" />
 	</loot>
 </monster>

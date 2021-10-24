@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Blood Beast" nameDescription="a blood beast" experience="1000" speed="220" manacost="0">
 	<health now="1600" max="1600" />
 	<look type="602" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -51,16 +51,16 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="150" />
-		<item id="23565" name="slime heart" chance="19182" />
-		<item id="23566" name="poisoned fang" chance="16764" />
-		<item id="7366" name="viper star" chance="8001" countmax="5" />
-		<item id="7588" name="strong health potion" chance="7414" />
-		<item id="10557" name="poisonous slime" chance="4932" />
-		<item id="23517" name="glooth steak" chance="3534" />
-		<item id="23551" name="glooth axe" chance="956" />
-		<item id="23554" name="glooth amulet" chance="884" />
+		<item id="23565" name="slime heart" chance="19181" />
+		<item id="23566" name="poisoned fang" chance="16766" />
+		<item id="7366" name="viper star" chance="7994" countmax="5" />
+		<item id="7588" name="strong health potion" chance="7424" />
+		<item id="10557" name="poisonous slime" chance="4936" />
+		<item id="23517" name="glooth steak" chance="3531" />
+		<item id="23551" name="glooth axe" chance="963" />
+		<item id="23554" name="glooth amulet" chance="883" />
 		<item id="23549" name="glooth club" chance="819" />
 		<item id="23529" name="glooth spear" chance="811" />
-		<item id="23550" name="glooth blade" chance="771" />
+		<item id="23550" name="glooth blade" chance="778" />
 	</loot>
 </monster>

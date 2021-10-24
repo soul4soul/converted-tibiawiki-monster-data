@@ -57,10 +57,10 @@ monster.voices = {
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -87,36 +87,36 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2379, chance = 49045},
-	{id = 2160, chance = 42675},
-	{id = 10219, chance = 8280},
-	{id = 9971, chance = 6369},
-	{id = 8910, chance = 5096},
-	{id = 2476, chance = 4459},
-	{id = 7901, chance = 4459},
-	{id = 24849, chance = 4459},
-	{id = 7899, chance = 3822},
-	{id = 28393, chance = 3822},
-	{id = 2189, chance = 3822},
-	{id = 2187, chance = 3822},
-	{id = 8871, chance = 3185},
-	{id = 7889, chance = 3185},
-	{id = 23540, chance = 3185},
-	{id = 2214, chance = 3185},
-	{id = 2145, chance = 3185},
-	{id = 2149, chance = 3185},
-	{id = 2153, chance = 3185},
-	{id = 8920, chance = 3185},
-	{id = 7891, chance = 2548},
-	{id = 7903, chance = 2548},
-	{id = 15453, chance = 2548},
-	{id = 7886, chance = 1911},
-	{id = 2154, chance = 1911},
-	{id = 2213, chance = 1274},
-	{id = 33980, chance = 1274},
-	{id = 7895, chance = 1274},
-	{id = "ring of green plasma", chance = 1274},
-	{id = 33979, chance = 1274}
+	{id = 2379, chance = 49102},
+	{id = 2160, chance = 42515},
+	{id = 10219, chance = 8383},
+	{id = 9971, chance = 6587},
+	{id = 8910, chance = 4790},
+	{id = 2476, chance = 4192},
+	{id = 7901, chance = 4192},
+	{id = 7889, chance = 4192},
+	{id = 24849, chance = 4192},
+	{id = 28393, chance = 4192},
+	{id = 2153, chance = 4192},
+	{id = 2189, chance = 4192},
+	{id = 2187, chance = 4192},
+	{id = 7899, chance = 3593},
+	{id = 2145, chance = 3593},
+	{id = 8871, chance = 2994},
+	{id = 23540, chance = 2994},
+	{id = 2214, chance = 2994},
+	{id = 2149, chance = 2994},
+	{id = 8920, chance = 2994},
+	{id = 7891, chance = 2395},
+	{id = 7903, chance = 2395},
+	{id = 15453, chance = 2395},
+	{id = "ring of green plasma", chance = 1796},
+	{id = 7886, chance = 1796},
+	{id = 2154, chance = 1796},
+	{id = 2213, chance = 1198},
+	{id = 33980, chance = 1198},
+	{id = 7895, chance = 1198},
+	{id = 33979, chance = 1198}
 }
 
 mType:register(monster)

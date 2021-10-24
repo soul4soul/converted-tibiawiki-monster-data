@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Witch" nameDescription="a witch" experience="120" speed="204" manacost="0">
 	<health now="300" max="300" />
 	<look type="54" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,18 +50,18 @@
 		<voice sentence="Hihihihi!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="63942" countmax="40" />
-		<item id="2687" name="cookie" chance="29957" countmax="8" />
-		<item id="2129" name="wolf tooth chain" chance="10135" />
-		<item id="10569" name="witch broom" chance="10003" />
-		<item id="2800" name="star herb" chance="8982" />
-		<item id="2643" name="leather boots" chance="4999" />
-		<item id="2654" name="cape" chance="4952" />
+		<item id="2148" name="gold coin" chance="63925" countmax="40" />
+		<item id="2687" name="cookie" chance="29961" countmax="8" />
+		<item id="2129" name="wolf tooth chain" chance="10141" />
+		<item id="10569" name="witch broom" chance="10001" />
+		<item id="2800" name="star herb" chance="8987" />
+		<item id="2643" name="leather boots" chance="4997" />
+		<item id="2654" name="cape" chance="4953" />
 		<item id="2405" name="sickle" chance="3887" />
-		<item id="2199" name="garlic necklace" chance="2521" />
+		<item id="2199" name="garlic necklace" chance="2517" />
 		<item id="2651" name="coat" chance="2011" />
-		<item id="2185" name="necrotic rod" chance="1087" />
-		<item id="13537" name="bag of apple slices" chance="893" />
+		<item id="2185" name="necrotic rod" chance="1088" />
+		<item id="13537" name="bag of apple slices" chance="891" />
 		<item id="2402" name="silver dagger" chance="557" />
 		<item id="10570" name="witch hat" chance="91" />
 		<item id="11211" name="stuffed toad" chance="6" />

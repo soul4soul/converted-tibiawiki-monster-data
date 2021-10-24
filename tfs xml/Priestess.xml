@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Priestess" nameDescription="a priestess" experience="420" speed="170" manacost="0">
 	<health now="390" max="390" />
 	<look type="58" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -52,23 +52,23 @@
 		<voice sentence="Throw the soul on the altar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2802" name="sling herb" chance="13468" />
-		<item id="2760" name="goat grass" chance="12076" />
-		<item id="11220" name="dark rosary" chance="9805" />
-		<item id="2674" name="red apple" chance="7410" countmax="2" />
-		<item id="2803" name="powder herb" chance="6173" />
-		<item id="10562" name="black hood" chance="5055" />
-		<item id="2791" name="wood mushroom" chance="3353" />
-		<item id="10556" name="cultish robe" chance="1801" />
-		<item id="2423" name="clerical mace" chance="1497" />
-		<item id="2070" name="wooden flute" chance="1417" />
-		<item id="2192" name="crystal ball" chance="1118" />
-		<item id="2183" name="hailstorm rod" chance="1063" />
-		<item name="book (orange)" chance="938" />
-		<item id="7620" name="mana potion" chance="913" />
-		<item id="2151" name="talon" chance="714" />
+		<item id="2802" name="sling herb" chance="13484" />
+		<item id="2760" name="goat grass" chance="12093" />
+		<item id="11220" name="dark rosary" chance="9815" />
+		<item id="2674" name="red apple" chance="7413" countmax="2" />
+		<item id="2803" name="powder herb" chance="6190" />
+		<item id="10562" name="black hood" chance="5046" />
+		<item id="2791" name="wood mushroom" chance="3352" />
+		<item id="10556" name="cultish robe" chance="1798" />
+		<item id="2423" name="clerical mace" chance="1491" />
+		<item id="2070" name="wooden flute" chance="1416" />
+		<item id="2192" name="crystal ball" chance="1124" />
+		<item id="2183" name="hailstorm rod" chance="1075" />
+		<item name="book (orange)" chance="931" />
+		<item id="7620" name="mana potion" chance="911" />
+		<item id="2151" name="talon" chance="718" />
 		<item id="2125" name="crystal necklace" chance="619" />
-		<item id="2529" name="black shield" chance="210" />
-		<item id="2114" name="piggy bank" chance="70" />
+		<item id="2529" name="black shield" chance="213" />
+		<item id="2114" name="piggy bank" chance="69" />
 	</loot>
 </monster>

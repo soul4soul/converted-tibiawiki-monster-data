@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Shaper Matriarch" nameDescription="a shaper matriarch" experience="1650" speed="260" manacost="0">
 	<health now="2000" max="2000" />
 	<look type="933" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -51,22 +51,22 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="138" />
-		<item id="2152" name="platinum coin" chance="80618" countmax="2" />
-		<item id="27042" name="rhino horn carving" chance="20212" />
-		<item id="27039" name="cave turnip" chance="17597" countmax="2" />
-		<item id="27041" name="cracked alabaster vase" chance="15283" />
-		<item id="27043" name="tarnished rhino figurine" chance="15124" />
-		<item id="7589" name="strong mana potion" chance="14505" />
-		<item id="2229" name="skull (item)" chance="9753" />
-		<item id="2792" name="dark mushroom" chance="6678" />
-		<item id="27046" name="ancient coin" chance="5989" />
-		<item id="9821" name="rusted helmet" chance="4364" />
-		<item id="27048" name="gemmed figurine" chance="4311" />
-		<item id="2147" name="small ruby" chance="3693" />
-		<item id="27618" name="prismatic quartz" chance="3110" />
+		<item id="2152" name="platinum coin" chance="80622" countmax="2" />
+		<item id="27042" name="rhino horn carving" chance="20208" />
+		<item id="27039" name="cave turnip" chance="17594" countmax="2" />
+		<item id="27041" name="cracked alabaster vase" chance="15298" />
+		<item id="27043" name="tarnished rhino figurine" chance="15121" />
+		<item id="7589" name="strong mana potion" chance="14503" />
+		<item id="2229" name="skull (item)" chance="9751" />
+		<item id="2792" name="dark mushroom" chance="6677" />
+		<item id="27046" name="ancient coin" chance="5988" />
+		<item id="9821" name="rusted helmet" chance="4363" />
+		<item id="27048" name="gemmed figurine" chance="4310" />
+		<item id="2147" name="small ruby" chance="3692" />
+		<item id="27618" name="prismatic quartz" chance="3109" />
 		<item id="2144" name="black pearl" chance="2385" />
 		<item id="2031" name="waterskin" chance="2067" />
-		<item id="2188" name="wand of decay" chance="1608" />
+		<item id="2188" name="wand of decay" chance="1607" />
 		<item id="2197" name="stone skin amulet" chance="1519" />
 		<item id="2214" name="ring of healing" chance="1254" />
 		<item id="8922" name="wand of voodoo" chance="777" />

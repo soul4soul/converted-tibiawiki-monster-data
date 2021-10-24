@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Hyaena" nameDescription="a hyaena" experience="20" speed="196" manacost="275">
 	<health now="60" max="60" />
 	<look type="94" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,7 +49,7 @@
 		<voice sentence="Hou hou hou!" yell="false" />
 	</voices>
 	<loot>
-		<item id="3976" name="worm" chance="50445" countmax="3" />
-		<item id="2666" name="meat" chance="30692" />
+		<item id="3976" name="worm" chance="50453" countmax="3" />
+		<item id="2666" name="meat" chance="30685" />
 	</loot>
 </monster>

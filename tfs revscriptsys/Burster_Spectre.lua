@@ -61,7 +61,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -88,26 +88,26 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 75711, maxCount = 7},
-	{id = 8472, chance = 22821, maxCount = 3},
-	{id = 2200, chance = 7362},
-	{id = 2177, chance = 7114},
-	{id = 8922, chance = 3268},
-	{id = 2189, chance = 3174},
-	{id = 2197, chance = 2202},
-	{id = 7888, chance = 2099},
-	{id = 32859, chance = 2027},
-	{id = 2201, chance = 1685},
-	{id = 2176, chance = 1396},
-	{id = 2171, chance = 1293},
-	{id = 2183, chance = 920},
-	{id = 32836, chance = 724},
-	{id = 18412, chance = 589},
-	{id = 2199, chance = 465},
-	{id = 2198, chance = 434},
-	{id = 10221, chance = 383},
-	{id = 2178, chance = 176},
-	{id = 2174, chance = 145}
+	{id = 2152, chance = 75621, maxCount = 7},
+	{id = 8472, chance = 22799, maxCount = 3},
+	{id = 2200, chance = 7344},
+	{id = 2177, chance = 7185},
+	{id = 8922, chance = 3329},
+	{id = 2189, chance = 3131},
+	{id = 2197, chance = 2206},
+	{id = 7888, chance = 2087},
+	{id = 32859, chance = 2017},
+	{id = 2201, chance = 1690},
+	{id = 2176, chance = 1391},
+	{id = 2171, chance = 1312},
+	{id = 2183, chance = 904},
+	{id = 32836, chance = 716},
+	{id = 18412, chance = 606},
+	{id = 2199, chance = 447},
+	{id = 2198, chance = 417},
+	{id = 10221, chance = 378},
+	{id = 2178, chance = 179},
+	{id = 2174, chance = 139}
 }
 
 mType:register(monster)

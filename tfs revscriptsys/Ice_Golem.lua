@@ -63,7 +63,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -82,7 +82,7 @@ monster.elements = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -220},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -50, maxDamage = -85, range = 3, radius = 1, target = true, ShootEffect = CONST_ANI_ICE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -50, maxDamage = -85, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_ICE},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, length = 8, spread = 0, effect = CONST_ME_ICEAREA}
 }
 
@@ -93,18 +93,18 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 120},
-	{id = 10578, chance = 14240},
-	{id = 7441, chance = 5107},
-	{id = 7589, chance = 3046},
-	{id = 7588, chance = 2463},
-	{id = 2144, chance = 1501},
-	{id = 2145, chance = 734},
-	{id = 7449, chance = 569},
-	{id = 2146, chance = 567},
-	{id = 2479, chance = 354},
-	{id = 2396, chance = 315},
+	{id = 10578, chance = 14279},
+	{id = 7441, chance = 5106},
+	{id = 7589, chance = 3033},
+	{id = 7588, chance = 2458},
+	{id = 2144, chance = 1491},
+	{id = 2145, chance = 737},
+	{id = 2146, chance = 573},
+	{id = 7449, chance = 564},
+	{id = 2479, chance = 355},
+	{id = 2396, chance = 317},
 	{id = 7290, chance = 202},
-	{id = 7902, chance = 195}
+	{id = 7902, chance = 192}
 }
 
 mType:register(monster)

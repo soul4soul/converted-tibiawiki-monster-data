@@ -57,10 +57,10 @@ monster.voices = {
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -87,33 +87,34 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 44715},
-	{id = 9813, chance = 13821},
-	{id = 9810, chance = 12195},
-	{id = 2427, chance = 11382},
-	{id = 7440, chance = 8943},
-	{id = 2485, chance = 7317},
-	{id = 2476, chance = 7317},
-	{id = 2213, chance = 6504},
-	{id = 2438, chance = 4878},
-	{id = 2430, chance = 4878},
-	{id = "ring of blue plasma", chance = 4878},
-	{id = 8910, chance = 4878},
-	{id = 8912, chance = 4065},
-	{id = 8901, chance = 3252},
-	{id = 2189, chance = 3252},
-	{id = 2187, chance = 3252},
-	{id = 2158, chance = 2439},
-	{id = "giant shimmering pearl", chance = 2439},
-	{id = 2153, chance = 2439},
-	{id = 8920, chance = 2439},
-	{id = 15451, chance = 2439},
-	{id = 7426, chance = 1626},
-	{id = 7404, chance = 1626},
-	{id = 8871, chance = 1626},
-	{id = 7456, chance = 1626},
-	{id = 10219, chance = 1626},
-	{id = 7386, chance = 813}
+	{id = 2160, chance = 45865},
+	{id = 9813, chance = 14286},
+	{id = 9810, chance = 12030},
+	{id = 2427, chance = 11278},
+	{id = 2213, chance = 8271},
+	{id = 7440, chance = 8271},
+	{id = 2485, chance = 7519},
+	{id = 2476, chance = 6767},
+	{id = 2438, chance = 4511},
+	{id = 2430, chance = 4511},
+	{id = "ring of blue plasma", chance = 4511},
+	{id = 8910, chance = 4511},
+	{id = 8912, chance = 3759},
+	{id = 2189, chance = 3759},
+	{id = 8901, chance = 3008},
+	{id = 2187, chance = 3008},
+	{id = 7426, chance = 2256},
+	{id = 2158, chance = 2256},
+	{id = "giant shimmering pearl", chance = 2256},
+	{id = 2153, chance = 2256},
+	{id = 8920, chance = 2256},
+	{id = 15451, chance = 2256},
+	{id = 7404, chance = 1504},
+	{id = 8871, chance = 1504},
+	{id = 7456, chance = 1504},
+	{id = 10219, chance = 1504},
+	{id = 33980, chance = 752},
+	{id = 7386, chance = 752}
 }
 
 mType:register(monster)

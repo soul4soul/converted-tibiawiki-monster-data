@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Cobra Scout" nameDescription="a cobra scout" experience="7310" speed="300" manacost="0">
 	<health now="8500" max="8500" />
 	<look type="1217" head="1" body="1" legs="102" feet="78" addons="2" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,20 +50,20 @@
 		<voice sentence="What are you looking for?" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="73296" countmax="9" />
-		<item id="24850" name="opal" chance="23048" countmax="5" />
-		<item id="7850" name="earth arrow" chance="19393" countmax="28" />
-		<item id="20098" name="cheesy figurine" chance="14002" />
-		<item id="34334" name="cobra crest" chance="13259" />
-		<item id="9971" name="gold ingot" chance="6877" />
-		<item id="2197" name="stone skin amulet" chance="6072" />
-		<item id="10219" name="sacred tree amulet" chance="5328" />
-		<item id="2149" name="small emerald" chance="3717" countmax="2" />
-		<item id="2156" name="red gem" chance="3594" />
-		<item id="2154" name="yellow gem" chance="3036" />
-		<item id="2155" name="green gem" chance="2416" />
-		<item id="18415" name="green crystal shard" chance="1983" />
-		<item id="2153" name="violet gem" chance="1983" />
-		<item name="ring of red plasma" chance="682" />
+		<item id="2152" name="platinum coin" chance="73400" countmax="9" />
+		<item id="24850" name="opal" chance="23045" countmax="5" />
+		<item id="7850" name="earth arrow" chance="19787" countmax="28" />
+		<item id="20098" name="cheesy figurine" chance="13981" />
+		<item id="34334" name="cobra crest" chance="13329" />
+		<item id="9971" name="gold ingot" chance="6813" />
+		<item id="2197" name="stone skin amulet" chance="5983" />
+		<item id="10219" name="sacred tree amulet" chance="5273" />
+		<item id="2149" name="small emerald" chance="3673" countmax="2" />
+		<item id="2156" name="red gem" chance="3614" />
+		<item id="2154" name="yellow gem" chance="3021" />
+		<item id="2155" name="green gem" chance="2488" />
+		<item id="18415" name="green crystal shard" chance="2014" />
+		<item id="2153" name="violet gem" chance="1896" />
+		<item name="ring of red plasma" chance="652" />
 	</loot>
 </monster>

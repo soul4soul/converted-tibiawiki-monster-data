@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Black Sphinx Acolyte" nameDescription="a black sphinx acolyte" experience="7200" speed="310" manacost="0">
 	<health now="8100" max="8100" />
 	<look type="1200" head="95" body="95" legs="94" feet="95" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -51,13 +51,13 @@
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
-		<item id="2182" name="snakebite rod" chance="6972" />
-		<item id="8910" name="underworld rod" chance="6416" />
-		<item id="18413" name="blue crystal shard" chance="6287" />
-		<item id="24850" name="opal" chance="3379" countmax="2" />
-		<item id="2153" name="violet gem" chance="3208" />
-		<item id="33987" name="empty honey glass" chance="2524" />
-		<item id="7761" name="small enchanted emerald" chance="2352" countmax="3" />
-		<item id="8922" name="wand of voodoo" chance="2224" />
+		<item id="2182" name="snakebite rod" chance="6934" />
+		<item id="8910" name="underworld rod" chance="6516" />
+		<item id="18413" name="blue crystal shard" chance="6307" />
+		<item id="24850" name="opal" chance="3383" countmax="2" />
+		<item id="2153" name="violet gem" chance="3216" />
+		<item id="33987" name="empty honey glass" chance="2464" />
+		<item id="7761" name="small enchanted emerald" chance="2297" countmax="3" />
+		<item id="8922" name="wand of voodoo" chance="2214" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Bonelord" nameDescription="a bonelord" experience="170" speed="150" manacost="0">
 	<health now="260" max="260" />
 	<look type="17" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -52,19 +52,19 @@
 		<voice sentence="Here's looking at you!" yell="false" />
 	</voices>
 	<summons maxSummons="6">
-		<voice name="skeleton" interval="2000" chance="15" max="1" />
+		<voice name="Skeleton" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="99400" countmax="48" />
-		<item id="2397" name="longsword" chance="9076" />
-		<item id="2394" name="morning star" chance="7023" />
+		<item id="2148" name="gold coin" chance="99401" countmax="48" />
+		<item id="2397" name="longsword" chance="9074" />
+		<item id="2394" name="morning star" chance="7025" />
 		<item id="12468" name="small flask of eyedrops" chance="5057" />
-		<item id="2175" name="spellbook" chance="4995" />
-		<item id="2509" name="steel shield" chance="3990" />
-		<item id="2377" name="two handed sword" chance="3951" />
+		<item id="2175" name="spellbook" chance="4996" />
+		<item id="2509" name="steel shield" chance="3992" />
+		<item id="2377" name="two handed sword" chance="3952" />
 		<item id="5898" name="bonelord eye" chance="1008" />
-		<item id="2181" name="terra rod" chance="511" />
-		<item id="7620" name="mana potion" chance="297" />
+		<item id="2181" name="terra rod" chance="510" />
+		<item id="7620" name="mana potion" chance="296" />
 		<item id="2518" name="bonelord shield" chance="107" />
 	</loot>
 </monster>

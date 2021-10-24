@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Orc" nameDescription="an orc" experience="25" speed="150" manacost="300">
 	<health now="70" max="70" />
 	<look type="5" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,14 +50,14 @@
 		<voice sentence="Grak brrretz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="84778" countmax="14" />
-		<item id="2666" name="meat" chance="9890" />
-		<item id="2484" name="studded armor" chance="8192" />
-		<item id="2526" name="studded shield" chance="6494" />
-		<item id="2385" name="sabre" chance="5600" />
-		<item id="2386" name="axe" chance="5481" />
-		<item id="2482" name="studded helmet" chance="2830" />
-		<item id="26642" name="heavy old tome" chance="2353" />
+		<item id="2148" name="gold coin" chance="84792" countmax="14" />
+		<item id="2666" name="meat" chance="9881" />
+		<item id="2484" name="studded armor" chance="8185" />
+		<item id="2526" name="studded shield" chance="6518" />
+		<item id="2385" name="sabre" chance="5595" />
+		<item id="2386" name="axe" chance="5476" />
+		<item id="2482" name="studded helmet" chance="2827" />
+		<item id="26642" name="heavy old tome" chance="2351" />
 		<item id="12435" name="orc leather" chance="387" />
 		<item id="11113" name="orc tooth" chance="60" />
 	</loot>

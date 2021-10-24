@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Empowered Glooth Horror" nameDescription="an empowered glooth horror" experience="2150" speed="0" manacost="0">
 	<health now="25000" max="25000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
-		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity invisible="1" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -42,9 +42,9 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="23574" name="glooth bag" chance="70968" countmax="2" />
-		<item id="24274" name="glooth glider hinge" chance="16129" />
-		<item id="2152" name="platinum coin" chance="12903" countmax="4" />
-		<item id="9810" name="slightly rusted armor" chance="6452" />
+		<item id="23574" name="glooth bag" chance="72727" countmax="2" />
+		<item id="24274" name="glooth glider hinge" chance="15152" />
+		<item id="2152" name="platinum coin" chance="12121" countmax="4" />
+		<item id="9810" name="slightly rusted armor" chance="6061" />
 	</loot>
 </monster>

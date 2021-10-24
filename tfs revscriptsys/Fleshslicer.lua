@@ -57,10 +57,10 @@ monster.voices = {
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
-	{type = "invisible", condition = false},
-	{type = "drunk", condition = false},
+	{type = "invisible", condition = true},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -92,16 +92,16 @@ monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 185},
 	{id = 2152, chance = 100000, maxCount = 5},
 	{id = 15485, chance = 100000},
-	{id = 16096, chance = 81250, maxCount = 2},
-	{id = 7590, chance = 81250, maxCount = 2},
-	{id = 2147, chance = 37500, maxCount = 5},
-	{id = 3964, chance = 31250},
-	{id = 2143, chance = 31250, maxCount = 5},
-	{id = 2156, chance = 25000},
-	{id = 8473, chance = 18750},
-	{id = 7413, chance = 12500},
-	{id = 6300, chance = 6250},
-	{id = "giant shimmering pearl", chance = 6250}
+	{id = 7590, chance = 82353, maxCount = 2},
+	{id = 16096, chance = 76471, maxCount = 2},
+	{id = 2147, chance = 35294, maxCount = 5},
+	{id = 3964, chance = 29412},
+	{id = 2143, chance = 29412, maxCount = 5},
+	{id = 2156, chance = 23529},
+	{id = 8473, chance = 17647},
+	{id = "giant shimmering pearl", chance = 11765},
+	{id = 7413, chance = 11765},
+	{id = 6300, chance = 5882}
 }
 
 mType:register(monster)

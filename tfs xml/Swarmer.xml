@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Swarmer" nameDescription="a swarmer" experience="350" speed="256" manacost="0">
 	<health now="460" max="460" />
 	<look type="460" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -54,9 +54,9 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="99998" countmax="75" />
-		<item id="15479" name="swarmer antenna" chance="15290" />
-		<item id="15486" name="compound eye" chance="11956" />
+		<item id="15479" name="swarmer antenna" chance="15285" />
+		<item id="15486" name="compound eye" chance="11963" />
 		<item id="2149" name="small emerald" chance="977" />
-		<item id="2438" name="epee" chance="432" />
+		<item id="2438" name="epee" chance="431" />
 	</loot>
 </monster>

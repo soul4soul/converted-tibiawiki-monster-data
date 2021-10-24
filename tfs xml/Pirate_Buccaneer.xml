@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Pirate Buccaneer" nameDescription="a pirate buccaneer" experience="250" speed="218" manacost="0">
 	<health now="425" max="425" />
 	<look type="97" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,22 +53,22 @@
 		<voice sentence="Plundeeeeer!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="67801" countmax="60" />
-		<item name="torch" chance="10001" />
-		<item id="2385" name="sabre" chance="9949" />
-		<item id="3123" name="worn leather boots" chance="9881" />
-		<item id="11219" name="compass" chance="9819" />
-		<item id="2410" name="throwing knife" chance="8866" countmax="5" />
-		<item id="2513" name="battle shield" chance="4016" />
-		<item id="6095" name="pirate shirt" chance="1130" />
-		<item id="14337" name="treasure map (pirate)" chance="1067" />
-		<item id="2463" name="plate armor" chance="1016" />
-		<item id="7588" name="strong health potion" chance="736" />
-		<item id="6126" name="peg leg" chance="482" />
-		<item id="5926" name="pirate backpack" chance="477" />
-		<item id="6097" name="hook" chance="466" />
-		<item id="6098" name="eye patch" chance="435" />
-		<item id="5553" name="rum flask" chance="145" />
-		<item name="die" chance="57" />
+		<item id="2148" name="gold coin" chance="67805" countmax="60" />
+		<item name="torch" chance="10022" />
+		<item id="2385" name="sabre" chance="9971" />
+		<item id="3123" name="worn leather boots" chance="9940" />
+		<item id="11219" name="compass" chance="9859" />
+		<item id="2410" name="throwing knife" chance="8889" countmax="5" />
+		<item id="2513" name="battle shield" chance="4018" />
+		<item id="6095" name="pirate shirt" chance="1128" />
+		<item id="14337" name="treasure map (pirate)" chance="1062" />
+		<item id="2463" name="plate armor" chance="1011" />
+		<item id="7588" name="strong health potion" chance="735" />
+		<item id="6126" name="peg leg" chance="485" />
+		<item id="5926" name="pirate backpack" chance="480" />
+		<item id="6097" name="hook" chance="459" />
+		<item id="6098" name="eye patch" chance="429" />
+		<item id="5553" name="rum flask" chance="143" />
+		<item name="die" chance="61" />
 	</loot>
 </monster>

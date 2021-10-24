@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Cave Chimera" nameDescription="a cave chimera" experience="6800" speed="230" manacost="0">
 	<health now="8000" max="8000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -46,24 +46,24 @@
 	<defenses armor="60" defense="60" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="24" />
-		<item id="8472" name="great spirit potion" chance="25320" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="18384" />
-		<item id="9971" name="gold ingot" chance="17778" />
-		<item id="18414" name="violet crystal shard" chance="5859" />
-		<item id="2153" name="violet gem" chance="5253" />
-		<item id="39444" name="cave chimera leg" chance="3939" />
-		<item id="39443" name="cave chimera head" chance="3232" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="2795" />
-		<item id="2154" name="yellow gem" chance="2626" />
-		<item id="7888" name="glacier amulet" chance="2525" />
-		<item name="ring of blue plasma" chance="1785" />
-		<item id="7896" name="glacier kilt" chance="1448" />
-		<item id="2179" name="gold ring" chance="1380" />
-		<item id="24741" name="fur armor" chance="1044" />
-		<item id="27048" name="gemmed figurine" chance="808" />
-		<item id="15644" name="ornate crossbow" chance="606" />
-		<item id="18453" name="crystal crossbow" chance="168" />
-		<item id="8855" name="composite hornbow" chance="101" />
-		<item id="7438" name="elvish bow" chance="67" />
+		<item id="8472" name="great spirit potion" chance="25208" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="18535" />
+		<item id="9971" name="gold ingot" chance="17616" />
+		<item id="18414" name="violet crystal shard" chance="6139" />
+		<item id="2153" name="violet gem" chance="5308" />
+		<item id="39444" name="cave chimera leg" chance="4004" />
+		<item id="39443" name="cave chimera head" chance="3144" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="2847" />
+		<item id="2154" name="yellow gem" chance="2610" />
+		<item id="7888" name="glacier amulet" chance="2432" />
+		<item name="ring of blue plasma" chance="1720" />
+		<item id="7896" name="glacier kilt" chance="1512" />
+		<item id="2179" name="gold ring" chance="1394" />
+		<item id="24741" name="fur armor" chance="1008" />
+		<item id="27048" name="gemmed figurine" chance="919" />
+		<item id="15644" name="ornate crossbow" chance="682" />
+		<item id="18453" name="crystal crossbow" chance="208" />
+		<item id="8855" name="composite hornbow" chance="89" />
+		<item id="7438" name="elvish bow" chance="89" />
 	</loot>
 </monster>

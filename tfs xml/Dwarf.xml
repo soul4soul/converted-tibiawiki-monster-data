@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Dwarf" nameDescription="a dwarf" experience="45" speed="170" manacost="320">
 	<health now="90" max="90" />
 	<look type="69" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -48,15 +48,15 @@
 		<voice sentence="Hail Durin!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2787" name="white mushroom" chance="50137" />
+		<item id="2787" name="white mushroom" chance="50141" />
 		<item id="2148" name="gold coin" chance="35341" countmax="8" />
-		<item id="2388" name="hatchet" chance="24786" />
-		<item id="2386" name="axe" chance="14602" />
-		<item id="3456" name="pick" chance="10153" />
-		<item id="2530" name="copper shield" chance="10095" />
-		<item id="2649" name="leather legs" chance="9675" />
-		<item id="2484" name="studded armor" chance="8008" />
-		<item id="2597" name="letter" chance="7932" />
+		<item id="2388" name="hatchet" chance="24785" />
+		<item id="2386" name="axe" chance="14599" />
+		<item id="3456" name="pick" chance="10156" />
+		<item id="2530" name="copper shield" chance="10096" />
+		<item id="2649" name="leather legs" chance="9676" />
+		<item id="2484" name="studded armor" chance="8006" />
+		<item id="2597" name="letter" chance="7933" />
 		<item id="2213" name="dwarven ring" chance="96" />
 		<item id="5880" name="iron ore" chance="83" />
 	</loot>

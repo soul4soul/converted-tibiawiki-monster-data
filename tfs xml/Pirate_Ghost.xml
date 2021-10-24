@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Pirate_Ghost" nameDescription="" experience="250" speed="210" manacost="0">
 	<health now="275" max="275" />
 	<look type="196" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -54,11 +54,11 @@
 		<voice sentence="You will not get my treasure." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="45881" countmax="67" />
-		<item id="10601" name="tattered piece of robe" chance="4146" />
-		<item id="1948" name="parchment (rewritable)" chance="873" />
-		<item id="2165" name="stealth ring" chance="655" />
-		<item id="2383" name="spike sword" chance="164" />
-		<item id="2655" name="red robe" chance="55" />
+		<item id="2148" name="gold coin" chance="45915" countmax="67" />
+		<item id="10601" name="tattered piece of robe" chance="4139" />
+		<item id="1948" name="parchment (rewritable)" chance="871" />
+		<item id="2165" name="stealth ring" chance="654" />
+		<item id="2383" name="spike sword" chance="163" />
+		<item id="2655" name="red robe" chance="54" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Draken Elite" nameDescription="a draken elite" experience="4200" speed="332" manacost="0">
 	<health now="5550" max="5550" />
 	<look type="362" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,26 +49,26 @@
 		<voice sentence="You will die zhouzandz deazhz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="97129" countmax="200" />
-		<item id="2152" name="platinum coin" chance="50054" countmax="8" />
-		<item id="2666" name="meat" chance="30015" />
-		<item id="12617" name="broken slicer" chance="24944" />
-		<item id="12616" name="broken draken mail" chance="17617" />
-		<item id="12615" name="draken wristbands" chance="14145" />
-		<item id="8473" name="ultimate health potion" chance="9318" countmax="3" />
-		<item id="7590" name="great mana potion" chance="9018" countmax="3" />
-		<item id="12614" name="draken sulphur" chance="8097" />
-		<item id="2145" name="small diamond" chance="2446" countmax="4" />
-		<item id="5904" name="magic sulphur" chance="2014" />
-		<item id="12613" name="twiceslicer" chance="881" />
-		<item id="7404" name="assassin dagger" chance="877" />
-		<item id="11304" name="zaoan legs" chance="870" />
-		<item id="12646" name="draken boots" chance="587" />
-		<item id="11301" name="zaoan armor" chance="574" />
-		<item id="11307" name="zaoan sword" chance="506" />
+		<item id="2148" name="gold coin" chance="97130" countmax="200" />
+		<item id="2152" name="platinum coin" chance="50066" countmax="8" />
+		<item id="2666" name="meat" chance="29998" />
+		<item id="12617" name="broken slicer" chance="24937" />
+		<item id="12616" name="broken draken mail" chance="17622" />
+		<item id="12615" name="draken wristbands" chance="14167" />
+		<item id="8473" name="ultimate health potion" chance="9332" countmax="3" />
+		<item id="7590" name="great mana potion" chance="9016" countmax="3" />
+		<item id="12614" name="draken sulphur" chance="8122" />
+		<item id="2145" name="small diamond" chance="2453" countmax="4" />
+		<item id="5904" name="magic sulphur" chance="2016" />
+		<item id="7404" name="assassin dagger" chance="880" />
+		<item id="12613" name="twiceslicer" chance="880" />
+		<item id="11304" name="zaoan legs" chance="867" />
+		<item id="12646" name="draken boots" chance="588" />
+		<item id="11301" name="zaoan armor" chance="575" />
+		<item id="11307" name="zaoan sword" chance="504" />
 		<item id="11302" name="zaoan helmet" chance="148" />
 		<item id="12607" name="elite draken mail" chance="94" />
-		<item id="12647" name="snake god's wristguard" chance="51" />
+		<item id="12647" name="snake god's wristguard" chance="50" />
 		<item id="12649" name="blade of corruption" chance="37" />
 		<item id="12630" name="cobra crown" chance="10" />
 	</loot>

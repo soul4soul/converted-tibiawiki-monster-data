@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Enlightened Of The Cult" nameDescription="an enlightened of the cult" experience="500" speed="200" manacost="0">
 	<health now="700" max="700" />
 	<look type="193" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,23 +53,23 @@
 		<voice sentence="You will die in the name of the triangle!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64974" countmax="92" />
-		<item id="10555" name="cultish mask" chance="10214" />
-		<item id="12411" name="cultish symbol" chance="1043" />
-		<item id="2200" name="protection amulet" chance="874" />
-		<item id="7589" name="strong mana potion" chance="842" />
-		<item name="book (orange)" chance="821" />
-		<item id="2146" name="small sapphire" chance="561" />
-		<item id="6090" name="music sheet (fourth verse)" chance="556" />
-		<item id="5810" name="pirate voodoo doll" chance="413" />
-		<item id="2167" name="energy ring" chance="408" />
+		<item id="2148" name="gold coin" chance="64975" countmax="92" />
+		<item id="10555" name="cultish mask" chance="10216" />
+		<item id="12411" name="cultish symbol" chance="1042" />
+		<item id="2200" name="protection amulet" chance="872" />
+		<item id="7589" name="strong mana potion" chance="846" />
+		<item name="book (orange)" chance="820" />
+		<item id="2146" name="small sapphire" chance="560" />
+		<item id="6090" name="music sheet (fourth verse)" chance="555" />
+		<item id="5810" name="pirate voodoo doll" chance="412" />
+		<item id="2167" name="energy ring" chance="407" />
 		<item id="2436" name="skull staff" chance="349" />
 		<item id="2171" name="platinum amulet" chance="201" />
-		<item id="2187" name="wand of inferno" chance="154" />
+		<item id="2187" name="wand of inferno" chance="153" />
 		<item id="12608" name="broken key ring" chance="143" />
 		<item id="5801" name="jewelled backpack" chance="127" />
 		<item id="2114" name="piggy bank" chance="111" />
-		<item id="7426" name="amber staff" chance="101" />
+		<item id="7426" name="amber staff" chance="100" />
 		<item id="5669" name="mysterious voodoo skull" chance="90" />
 		<item id="2656" name="blue robe" chance="85" />
 	</loot>

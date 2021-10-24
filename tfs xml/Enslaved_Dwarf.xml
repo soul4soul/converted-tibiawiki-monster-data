@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Enslaved Dwarf" nameDescription="an enslaved dwarf" experience="2700" speed="270" manacost="0">
 	<health now="3800" max="3800" />
 	<look type="494" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -54,27 +54,27 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="149" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="6" />
-		<item id="2789" name="brown mushroom" chance="14840" countmax="2" />
-		<item id="5880" name="iron ore" chance="10382" />
-		<item id="2150" name="small amethyst" chance="10351" countmax="2" />
-		<item id="2149" name="small emerald" chance="9679" countmax="2" />
-		<item id="7590" name="great mana potion" chance="6046" />
-		<item id="7591" name="great health potion" chance="5740" />
-		<item id="11227" name="shiny stone" chance="5313" />
-		<item id="18436" name="drill bolt" chance="5252" countmax="5" />
-		<item id="18417" name="brown crystal splinter" chance="4763" countmax="2" />
-		<item id="2391" name="war hammer" chance="3969" />
-		<item id="18420" name="red crystal fragment" chance="3786" />
-		<item id="2532" name="ancient shield" chance="3359" />
-		<item id="18416" name="green crystal splinter" chance="3267" />
-		<item id="2515" name="guardian shield" chance="2504" />
-		<item id="2208" name="axe ring" chance="2046" />
-		<item id="18415" name="green crystal shard" chance="2046" />
-		<item id="7454" name="glorious axe" chance="1588" />
-		<item id="13757" name="coal" chance="1130" />
-		<item id="7413" name="titan axe" chance="1130" />
-		<item id="2528" name="tower shield" chance="489" />
-		<item id="7437" name="sapphire hammer" chance="397" />
-		<item id="2475" name="warrior helmet" chance="336" />
+		<item id="2789" name="brown mushroom" chance="14839" countmax="2" />
+		<item id="5880" name="iron ore" chance="10360" />
+		<item id="2150" name="small amethyst" chance="10329" countmax="2" />
+		<item id="2149" name="small emerald" chance="9689" countmax="2" />
+		<item id="7590" name="great mana potion" chance="6033" />
+		<item id="7591" name="great health potion" chance="5759" />
+		<item id="11227" name="shiny stone" chance="5332" />
+		<item id="18436" name="drill bolt" chance="5241" countmax="5" />
+		<item id="18417" name="brown crystal splinter" chance="4753" countmax="2" />
+		<item id="2391" name="war hammer" chance="3961" />
+		<item id="18420" name="red crystal fragment" chance="3778" />
+		<item id="2532" name="ancient shield" chance="3352" />
+		<item id="18416" name="green crystal splinter" chance="3260" />
+		<item id="2515" name="guardian shield" chance="2498" />
+		<item id="2208" name="axe ring" chance="2041" />
+		<item id="18415" name="green crystal shard" chance="2041" />
+		<item id="7454" name="glorious axe" chance="1584" />
+		<item id="13757" name="coal" chance="1127" />
+		<item id="7413" name="titan axe" chance="1127" />
+		<item id="2528" name="tower shield" chance="488" />
+		<item id="7437" name="sapphire hammer" chance="396" />
+		<item id="2475" name="warrior helmet" chance="335" />
 	</loot>
 </monster>

@@ -57,10 +57,10 @@ monster.voices = {
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -79,7 +79,7 @@ monster.elements = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -700},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, radius = 4, target = true, ShootEffect = CONST_ANI_POISON}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, radius = 4, target = true, shootEffect = CONST_ANI_POISON}
 }
 
 monster.defenses = {
@@ -95,21 +95,21 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 99479, maxCount = 100},
-	{id = 2152, chance = 98958, maxCount = 10},
-	{id = 5879, chance = 87500},
-	{id = 3351, chance = 77083},
-	{id = 7591, chance = 66146, maxCount = 4},
-	{id = 2476, chance = 44271},
-	{id = 2167, chance = 32813},
-	{id = 2169, chance = 32813},
-	{id = 2165, chance = 32292},
-	{id = 2477, chance = 25000},
-	{id = 13307, chance = 21875},
-	{id = 2171, chance = 20833},
-	{id = 5886, chance = 9896},
-	{id = 7419, chance = 2604},
-	{id = 7416, chance = 1042}
+	{id = 2148, chance = 99487, maxCount = 100},
+	{id = 2152, chance = 98974, maxCount = 10},
+	{id = 5879, chance = 87692},
+	{id = 3351, chance = 76923},
+	{id = 7591, chance = 66154, maxCount = 4},
+	{id = 2476, chance = 44103},
+	{id = 2167, chance = 33333},
+	{id = 2169, chance = 32308},
+	{id = 2165, chance = 31795},
+	{id = 2477, chance = 24615},
+	{id = 13307, chance = 21538},
+	{id = 2171, chance = 20513},
+	{id = 5886, chance = 9744},
+	{id = 7419, chance = 3077},
+	{id = 7416, chance = 1026}
 }
 
 mType:register(monster)

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Azure Frog" nameDescription="an azure frog" experience="20" speed="320" manacost="0">
 	<health now="60" max="60" />
 	<look type="226" head="87" body="85" legs="85" feet="87" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,7 +49,7 @@
 		<voice sentence="Ribbit! Ribbit!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="74234" countmax="10" />
-		<item id="3976" name="worm" chance="9283" />
+		<item id="2148" name="gold coin" chance="74211" countmax="10" />
+		<item id="3976" name="worm" chance="9280" />
 	</loot>
 </monster>

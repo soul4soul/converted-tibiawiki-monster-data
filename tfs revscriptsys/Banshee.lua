@@ -67,7 +67,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -96,8 +96,8 @@ monster.defenses = {
 
 monster.loot = {
 	{id = "candlestick", chance = 72822},
-	{id = 2148, chance = 30931, maxCount = 80},
-	{id = 2170, chance = 9404},
+	{id = 2148, chance = 30930, maxCount = 80},
+	{id = 2170, chance = 9406},
 	{id = 2657, chance = 6307},
 	{id = 12402, chance = 4974},
 	{id = 11337, chance = 4285},
@@ -107,7 +107,7 @@ monster.loot = {
 	{id = 2143, chance = 1130},
 	{id = 2071, chance = 971},
 	{id = 2197, chance = 825},
-	{id = 7589, chance = 770},
+	{id = 7589, chance = 769},
 	{id = 2214, chance = 748},
 	{id = 2656, chance = 663},
 	{id = 2121, chance = 558},

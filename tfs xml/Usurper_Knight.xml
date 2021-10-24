@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Usurper Knight" nameDescription="a usurper knight" experience="6900" speed="260" manacost="0">
 	<health now="8200" max="8200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -52,17 +52,17 @@
 		<voice sentence="You don't deserve Bounac!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="91207" countmax="5" />
-		<item id="2649" name="leather legs" chance="27284" />
-		<item id="2666" name="meat" chance="16713" />
-		<item id="36818" name="lion cloak patch" chance="10477" />
-		<item id="36816" name="lion crest" chance="6611" />
-		<item id="2477" name="knight legs" chance="5800" />
-		<item id="2153" name="violet gem" chance="5550" />
-		<item id="9971" name="gold ingot" chance="5176" />
-		<item id="2158" name="blue gem" chance="3991" />
-		<item id="7590" name="great mana potion" chance="3991" />
-		<item id="2155" name="green gem" chance="2619" />
-		<item id="7894" name="magma legs" chance="873" />
+		<item id="2152" name="platinum coin" chance="91182" countmax="5" />
+		<item id="2649" name="leather legs" chance="27378" />
+		<item id="2666" name="meat" chance="16599" />
+		<item id="36818" name="lion cloak patch" chance="10432" />
+		<item id="36816" name="lion crest" chance="6427" />
+		<item id="2477" name="knight legs" chance="5850" />
+		<item id="2153" name="violet gem" chance="5331" />
+		<item id="9971" name="gold ingot" chance="5043" />
+		<item id="2158" name="blue gem" chance="4006" />
+		<item id="7590" name="great mana potion" chance="3948" />
+		<item id="2155" name="green gem" chance="2622" />
+		<item id="7894" name="magma legs" chance="922" />
 	</loot>
 </monster>

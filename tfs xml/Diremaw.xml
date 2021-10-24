@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Diremaw" nameDescription="a diremaw" experience="2500" speed="300" manacost="0">
 	<health now="3600" max="3600" />
 	<look type="1034" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,20 +45,20 @@
 	</attacks>
 	<defenses armor="71" defense="71" />
 	<loot>
-		<item id="2671" name="ham" chance="40537" />
-		<item id="30253" name="diremaw brainpan" chance="24439" />
-		<item id="10557" name="poisonous slime" chance="11608" />
-		<item id="30254" name="diremaw legs" chance="9673" />
-		<item id="18413" name="blue crystal shard" chance="9619" />
-		<item id="24849" name="onyx chip" chance="8450" countmax="3" />
-		<item id="18414" name="violet crystal shard" chance="8304" />
-		<item id="18415" name="green crystal shard" chance="8213" />
-		<item id="2149" name="small emerald" chance="4800" countmax="2" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="3468" />
-		<item id="7761" name="small enchanted emerald" chance="2975" countmax="2" />
-		<item id="9971" name="gold ingot" chance="2884" />
-		<item id="30309" name="suspicious device" chance="1533" />
-		<item id="18454" name="mycological bow" chance="73" />
-		<item id="18393" name="mushroom backpack" chance="55" />
+		<item id="2671" name="ham" chance="40592" />
+		<item id="30253" name="diremaw brainpan" chance="24572" />
+		<item id="10557" name="poisonous slime" chance="11564" />
+		<item id="30254" name="diremaw legs" chance="9688" />
+		<item id="18413" name="blue crystal shard" chance="9634" />
+		<item id="24849" name="onyx chip" chance="8479" countmax="3" />
+		<item id="18414" name="violet crystal shard" chance="8407" />
+		<item id="18415" name="green crystal shard" chance="8209" />
+		<item id="2149" name="small emerald" chance="4799" countmax="2" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="3446" />
+		<item id="7761" name="small enchanted emerald" chance="2995" countmax="2" />
+		<item id="9971" name="gold ingot" chance="2868" />
+		<item id="30309" name="suspicious device" chance="1515" />
+		<item id="18454" name="mycological bow" chance="72" />
+		<item id="18393" name="mushroom backpack" chance="54" />
 	</loot>
 </monster>

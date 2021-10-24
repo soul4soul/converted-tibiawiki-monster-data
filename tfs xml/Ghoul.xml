@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Ghoul" nameDescription="a ghoul" experience="85" speed="144" manacost="450">
 	<health now="100" max="100" />
 	<look type="18" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -47,17 +47,17 @@
 		<defense name="healing" interval="2000" chance="20" min="10" max="25" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="69944" countmax="30" />
-		<item id="11208" name="rotten piece of cloth" chance="14678" />
-		<item id="3976" name="worm" chance="9751" countmax="2" />
-		<item name="torch" chance="5259" />
-		<item id="12423" name="ghoul snack" chance="5050" />
-		<item id="26642" name="heavy old tome" chance="2056" />
-		<item id="12440" name="pile of grave earth" chance="1019" />
-		<item id="2473" name="viking helmet" chance="1006" />
-		<item id="5913" name="brown piece of cloth" chance="994" />
-		<item id="2483" name="scale armor" chance="976" />
-		<item id="2229" name="skull (item)" chance="295" />
-		<item id="2168" name="life ring" chance="178" />
+		<item id="2148" name="gold coin" chance="69906" countmax="30" />
+		<item id="11208" name="rotten piece of cloth" chance="14703" />
+		<item id="3976" name="worm" chance="9737" countmax="2" />
+		<item name="torch" chance="5258" />
+		<item id="12423" name="ghoul snack" chance="5045" />
+		<item id="26642" name="heavy old tome" chance="2054" />
+		<item id="12440" name="pile of grave earth" chance="1015" />
+		<item id="2473" name="viking helmet" chance="1009" />
+		<item id="5913" name="brown piece of cloth" chance="991" />
+		<item id="2483" name="scale armor" chance="985" />
+		<item id="2229" name="skull (item)" chance="292" />
+		<item id="2168" name="life ring" chance="176" />
 	</loot>
 </monster>

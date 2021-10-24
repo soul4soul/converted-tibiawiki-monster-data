@@ -16,7 +16,7 @@ monster.outfit = {
 
 monster.health = 26000
 monster.maxHealth = 26000
-monster.runHealth = 0
+monster.runHealth = 520
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 286
@@ -70,7 +70,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 

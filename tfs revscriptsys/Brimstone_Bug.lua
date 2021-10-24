@@ -61,7 +61,7 @@ monster.immunities = {
 	{type = "paralyze", condition = false},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -89,16 +89,16 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 200},
-	{id = 10557, chance = 49865},
-	{id = 11222, chance = 19885},
-	{id = 11232, chance = 15065},
-	{id = 12659, chance = 10179},
-	{id = 7589, chance = 9092},
-	{id = 7588, chance = 9034},
-	{id = 12658, chance = 5915},
-	{id = 2149, chance = 2766, maxCount = 4},
-	{id = 5904, chance = 1590},
-	{id = 2165, chance = 921},
+	{id = 10557, chance = 49872},
+	{id = 11222, chance = 19892},
+	{id = 11232, chance = 15064},
+	{id = 12659, chance = 10178},
+	{id = 7589, chance = 9103},
+	{id = 7588, chance = 9037},
+	{id = 12658, chance = 5922},
+	{id = 2149, chance = 2764, maxCount = 4},
+	{id = 5904, chance = 1589},
+	{id = 2165, chance = 924},
 	{id = 2171, chance = 85}
 }
 

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Crazed Summer Rearguard" nameDescription="a crazed summer rearguard" experience="4700" speed="400" manacost="0">
 	<health now="5300" max="5300" />
 	<look type="1136" head="114" body="94" legs="3" feet="121" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,19 +49,19 @@
 		<voice sentence="Weeeuuu weeeuuu!!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="84685" countmax="11" />
-		<item id="5921" name="heaven blossom" chance="10420" />
-		<item id="32661" name="dream essence egg" chance="8036" />
-		<item id="10552" name="elvish talisman" chance="7039" />
-		<item id="7760" name="small enchanted ruby" chance="5942" />
-		<item id="18414" name="violet crystal shard" chance="4567" />
-		<item id="18420" name="red crystal fragment" chance="4466" />
-		<item id="28391" name="leaf star" chance="4188" countmax="8" />
-		<item name="ring of blue plasma" chance="2561" />
-		<item id="2664" name="wood cape" chance="1426" />
+		<item id="2152" name="platinum coin" chance="84680" countmax="11" />
+		<item id="5921" name="heaven blossom" chance="10415" />
+		<item id="32661" name="dream essence egg" chance="8032" />
+		<item id="10552" name="elvish talisman" chance="7036" />
+		<item id="7760" name="small enchanted ruby" chance="5939" />
+		<item id="18414" name="violet crystal shard" chance="4564" />
+		<item id="18420" name="red crystal fragment" chance="4463" />
+		<item id="28391" name="leaf star" chance="4186" countmax="8" />
+		<item name="ring of blue plasma" chance="2560" />
+		<item id="2664" name="wood cape" chance="1425" />
 		<item id="2154" name="yellow gem" chance="1034" />
-		<item name="collar of blue plasma" chance="959" />
-		<item id="32651" name="sun fruit" chance="833" />
+		<item name="collar of blue plasma" chance="958" />
+		<item id="32651" name="sun fruit" chance="832" />
 		<item id="7759" name="small enchanted sapphire" chance="782" countmax="2" />
 		<item id="2145" name="small diamond" chance="580" />
 		<item id="18453" name="crystal crossbow" chance="454" />

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Orc Marauder" nameDescription="an orc marauder" experience="205" speed="390" manacost="0">
 	<health now="235" max="235" />
 	<look type="342" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -52,16 +52,16 @@
 		<voice sentence="Grrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="55127" countmax="90" />
-		<item id="2666" name="meat" chance="24668" />
-		<item id="11324" name="shaggy tail" chance="9968" />
-		<item id="2456" name="bow" chance="5227" />
-		<item id="12407" name="broken crossbow" chance="4964" />
-		<item id="12435" name="orc leather" chance="3961" />
-		<item id="11113" name="orc tooth" chance="3899" />
-		<item id="2428" name="orcish axe" chance="1359" />
-		<item id="2425" name="obsidian lance" chance="1096" />
-		<item id="2455" name="crossbow" chance="463" />
-		<item id="8857" name="silkweaver bow" chance="62" />
+		<item id="2148" name="gold coin" chance="55114" countmax="90" />
+		<item id="2666" name="meat" chance="24652" />
+		<item id="11324" name="shaggy tail" chance="9959" />
+		<item id="2456" name="bow" chance="5210" />
+		<item id="12407" name="broken crossbow" chance="4972" />
+		<item id="12435" name="orc leather" chance="3950" />
+		<item id="11113" name="orc tooth" chance="3911" />
+		<item id="2428" name="orcish axe" chance="1368" />
+		<item id="2425" name="obsidian lance" chance="1099" />
+		<item id="2455" name="crossbow" chance="461" />
+		<item id="8857" name="silkweaver bow" chance="61" />
 	</loot>
 </monster>

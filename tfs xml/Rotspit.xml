@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Rotspit" nameDescription="" experience="0" speed="0" manacost="0">
 	<health now="6800" max="6800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
-		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity invisible="1" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -52,15 +52,16 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="167" />
 		<item id="15481" name="spitter nose" chance="100000" />
-		<item id="15486" name="compound eye" chance="86207" />
-		<item id="2152" name="platinum coin" chance="82759" countmax="5" />
-		<item id="16096" name="dung ball (quest)" chance="62069" countmax="2" />
-		<item id="7590" name="great mana potion" chance="51724" countmax="2" />
-		<item id="2149" name="small emerald" chance="51724" countmax="2" />
-		<item id="2150" name="small amethyst" chance="48276" countmax="2" />
-		<item id="7591" name="great health potion" chance="41379" countmax="2" />
-		<item id="2789" name="brown mushroom" chance="37931" countmax="3" />
-		<item id="7449" name="crystal sword" chance="13793" />
-		<item id="2497" name="crusader helmet" chance="3448" />
+		<item id="15486" name="compound eye" chance="86667" />
+		<item id="2152" name="platinum coin" chance="83333" countmax="5" />
+		<item id="16096" name="dung ball (quest)" chance="63333" countmax="2" />
+		<item id="7590" name="great mana potion" chance="53333" countmax="2" />
+		<item id="2149" name="small emerald" chance="50000" countmax="2" />
+		<item id="2150" name="small amethyst" chance="46667" countmax="2" />
+		<item id="7591" name="great health potion" chance="40000" countmax="2" />
+		<item id="2789" name="brown mushroom" chance="36667" countmax="3" />
+		<item id="7449" name="crystal sword" chance="13333" />
+		<item id="2497" name="crusader helmet" chance="3333" />
+		<item name="giant shimmering pearl" chance="3333" />
 	</loot>
 </monster>

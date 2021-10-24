@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Black Sheep" nameDescription="a black sheep" experience="0" speed="116" manacost="250">
 	<health now="20" max="20" />
 	<look type="13" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,7 +45,7 @@
 		<voice sentence="Maeh" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="46626" />
-		<item id="12404" name="black wool" chance="705" />
+		<item id="2666" name="meat" chance="46634" />
+		<item id="12404" name="black wool" chance="693" />
 	</loot>
 </monster>

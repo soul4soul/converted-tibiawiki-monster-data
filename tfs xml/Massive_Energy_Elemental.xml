@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Massive Energy Elemental" nameDescription="a massive energy elemental" experience="950" speed="430" manacost="0">
 	<health now="1100" max="1100" />
 	<look type="290" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -47,16 +47,16 @@
 		<defense name="healing" interval="2000" chance="20" min="110" max="275" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="99418" countmax="191" />
-		<item id="7589" name="strong mana potion" chance="14809" />
-		<item id="7838" name="flash arrow" chance="8403" countmax="15" />
-		<item id="9809" name="rusted armor" chance="7488" />
-		<item id="7590" name="great mana potion" chance="7155" />
-		<item id="2150" name="small amethyst" chance="3411" countmax="3" />
-		<item id="8920" name="wand of starstorm" chance="749" />
-		<item id="8901" name="spellbook of warding" chance="499" />
-		<item id="7889" name="lightning pendant" chance="416" />
-		<item id="7895" name="lightning legs" chance="166" />
-		<item id="10221" name="shockwave amulet" chance="83" />
+		<item id="2148" name="gold coin" chance="99356" countmax="191" />
+		<item id="7589" name="strong mana potion" chance="15044" />
+		<item id="7838" name="flash arrow" chance="8528" countmax="15" />
+		<item id="7590" name="great mana potion" chance="7401" />
+		<item id="9809" name="rusted armor" chance="7401" />
+		<item id="2150" name="small amethyst" chance="3379" countmax="3" />
+		<item id="8920" name="wand of starstorm" chance="724" />
+		<item id="8901" name="spellbook of warding" chance="483" />
+		<item id="7889" name="lightning pendant" chance="402" />
+		<item id="7895" name="lightning legs" chance="161" />
+		<item id="10221" name="shockwave amulet" chance="80" />
 	</loot>
 </monster>

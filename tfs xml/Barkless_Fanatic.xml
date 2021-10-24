@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Barkless Fanatic" nameDescription="a barkless fanatic" experience="2500" speed="300" manacost="0">
 	<health now="3200" max="3200" />
 	<look type="990" head="0" body="0" legs="0" feet="0" addons="2" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -48,10 +48,10 @@
 		<voice sentence="PAIN PURIFIES! PAIN PURIFIES!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="49533" countmax="200" />
-		<item id="28398" name="fig leaf" chance="9234" />
-		<item id="27617" name="tiger eye" chance="4972" />
-		<item id="28399" name="bed of nails" chance="1720" />
-		<item id="28400" name="torn shirt" chance="1196" />
+		<item id="2148" name="gold coin" chance="49691" countmax="200" />
+		<item id="28398" name="fig leaf" chance="9111" />
+		<item id="27617" name="tiger eye" chance="4900" />
+		<item id="28399" name="bed of nails" chance="1670" />
+		<item id="28400" name="torn shirt" chance="1198" />
 	</loot>
 </monster>

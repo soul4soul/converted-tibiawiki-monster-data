@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Ice Golem" nameDescription="an ice golem" experience="295" speed="190" manacost="0">
 	<health now="385" max="385" />
 	<look type="261" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -42,8 +42,12 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-220" />
-		<attack name="ice" interval="2000" chance="15" min="-50" max="-85" range="3" radius="1" target="1" />
-		<attack name="physical" interval="2000" chance="15" length="8" spread="0" />
+		<attack name="ice" interval="2000" chance="15" min="-50" max="-85" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="ice" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" length="8" spread="0">
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
 	</attacks>
 	<defenses armor="47" defense="47" />
 	<voices interval="5000" chance="10">
@@ -53,17 +57,17 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="120" />
-		<item id="10578" name="frosty heart" chance="14240" />
-		<item id="7441" name="ice cube" chance="5107" />
-		<item id="7589" name="strong mana potion" chance="3046" />
-		<item id="7588" name="strong health potion" chance="2463" />
-		<item id="2144" name="black pearl" chance="1501" />
-		<item id="2145" name="small diamond" chance="734" />
-		<item id="7449" name="crystal sword" chance="569" />
-		<item id="2146" name="small sapphire" chance="567" />
-		<item id="2479" name="strange helmet" chance="354" />
-		<item id="2396" name="ice rapier" chance="315" />
+		<item id="10578" name="frosty heart" chance="14279" />
+		<item id="7441" name="ice cube" chance="5106" />
+		<item id="7589" name="strong mana potion" chance="3033" />
+		<item id="7588" name="strong health potion" chance="2458" />
+		<item id="2144" name="black pearl" chance="1491" />
+		<item id="2145" name="small diamond" chance="737" />
+		<item id="2146" name="small sapphire" chance="573" />
+		<item id="7449" name="crystal sword" chance="564" />
+		<item id="2479" name="strange helmet" chance="355" />
+		<item id="2396" name="ice rapier" chance="317" />
 		<item id="7290" name="shard" chance="202" />
-		<item id="7902" name="glacier mask" chance="195" />
+		<item id="7902" name="glacier mask" chance="192" />
 	</loot>
 </monster>

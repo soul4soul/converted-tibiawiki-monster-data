@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Orc Rider" nameDescription="an orc rider" experience="110" speed="260" manacost="0">
 	<health now="180" max="180" />
 	<look type="4" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,16 +53,16 @@
 		<voice sentence="Grrrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="48149" countmax="81" />
-		<item id="2666" name="meat" chance="24192" />
+		<item id="2148" name="gold coin" chance="48173" countmax="81" />
+		<item id="2666" name="meat" chance="24200" />
 		<item id="2129" name="wolf tooth chain" chance="10163" />
-		<item id="12435" name="orc leather" chance="10011" />
-		<item id="11235" name="warwolf fur" chance="9713" />
-		<item id="2428" name="orcish axe" chance="7049" countmax="2" />
-		<item id="11113" name="orc tooth" chance="2088" />
-		<item id="2513" name="battle shield" chance="1019" />
-		<item id="2425" name="obsidian lance" chance="1000" />
-		<item name="torch" chance="987" />
+		<item id="12435" name="orc leather" chance="10018" />
+		<item id="11235" name="warwolf fur" chance="9708" />
+		<item id="2428" name="orcish axe" chance="7047" countmax="2" />
+		<item id="11113" name="orc tooth" chance="2098" />
+		<item id="2513" name="battle shield" chance="1018" />
+		<item id="2425" name="obsidian lance" chance="999" />
+		<item name="torch" chance="999" />
 		<item id="2483" name="scale armor" chance="626" />
 	</loot>
 </monster>

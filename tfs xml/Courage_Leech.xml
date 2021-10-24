@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Courage Leech" nameDescription="a courage leech" experience="18900" speed="452" manacost="0">
 	<health now="27000" max="27000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,20 +49,20 @@
 		<voice sentence="Zap! Zap!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2160" name="crystal coin" chance="60830" />
-		<item id="8473" name="ultimate health potion" chance="11661" countmax="7" />
-		<item id="7895" name="lightning legs" chance="4775" />
-		<item id="7889" name="lightning pendant" chance="2699" />
-		<item id="7901" name="lightning headband" chance="2215" />
-		<item id="2179" name="gold ring" chance="1038" />
-		<item id="12613" name="twiceslicer" chance="830" />
-		<item id="7422" name="jade hammer" chance="796" />
-		<item id="7421" name="onyx flail" chance="727" />
-		<item id="7418" name="nightmare blade" chance="692" />
-		<item id="2197" name="stone skin amulet" chance="657" />
-		<item id="7382" name="demonrage sword" chance="554" />
-		<item id="2444" name="hammer of wrath" chance="519" />
-		<item id="7419" name="dreaded cleaver" chance="450" />
-		<item id="7412" name="butcher's axe" chance="242" />
+		<item id="2160" name="crystal coin" chance="60173" />
+		<item id="8473" name="ultimate health potion" chance="11469" countmax="7" />
+		<item id="7895" name="lightning legs" chance="4709" />
+		<item id="7889" name="lightning pendant" chance="2389" />
+		<item id="7901" name="lightning headband" chance="2202" />
+		<item id="2179" name="gold ring" chance="1118" />
+		<item id="7422" name="jade hammer" chance="847" />
+		<item id="2197" name="stone skin amulet" chance="695" />
+		<item id="7421" name="onyx flail" chance="627" />
+		<item id="12613" name="twiceslicer" chance="627" />
+		<item id="7418" name="nightmare blade" chance="576" />
+		<item id="7382" name="demonrage sword" chance="508" />
+		<item id="2444" name="hammer of wrath" chance="491" />
+		<item id="7412" name="butcher's axe" chance="356" />
+		<item id="7419" name="dreaded cleaver" chance="356" />
 	</loot>
 </monster>

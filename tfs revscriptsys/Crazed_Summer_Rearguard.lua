@@ -62,7 +62,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -89,19 +89,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 84685, maxCount = 11},
-	{id = 5921, chance = 10420},
-	{id = 32661, chance = 8036},
-	{id = 10552, chance = 7039},
-	{id = 7760, chance = 5942},
-	{id = 18414, chance = 4567},
-	{id = 18420, chance = 4466},
-	{id = 28391, chance = 4188, maxCount = 8},
-	{id = "ring of blue plasma", chance = 2561},
-	{id = 2664, chance = 1426},
+	{id = 2152, chance = 84680, maxCount = 11},
+	{id = 5921, chance = 10415},
+	{id = 32661, chance = 8032},
+	{id = 10552, chance = 7036},
+	{id = 7760, chance = 5939},
+	{id = 18414, chance = 4564},
+	{id = 18420, chance = 4463},
+	{id = 28391, chance = 4186, maxCount = 8},
+	{id = "ring of blue plasma", chance = 2560},
+	{id = 2664, chance = 1425},
 	{id = 2154, chance = 1034},
-	{id = "collar of blue plasma", chance = 959},
-	{id = 32651, chance = 833},
+	{id = "collar of blue plasma", chance = 958},
+	{id = 32651, chance = 832},
 	{id = 7759, chance = 782, maxCount = 2},
 	{id = 2145, chance = 580},
 	{id = 18453, chance = 454}

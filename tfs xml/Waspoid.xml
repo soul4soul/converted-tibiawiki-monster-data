@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Waspoid" nameDescription="" experience="830" speed="310" manacost="0">
 	<health now="1100" max="1100" />
 	<look type="462" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -51,16 +51,16 @@
 		<voice sentence="Bzzzzzzzrrrrzzzzzzrrrrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99722" countmax="135" />
-		<item id="2152" name="platinum coin" chance="60413" />
-		<item id="15484" name="waspoid wing" chance="13996" />
-		<item id="15486" name="compound eye" chance="13725" />
-		<item id="15483" name="waspoid claw" chance="9758" />
-		<item id="2144" name="black pearl" chance="4588" />
-		<item id="2127" name="emerald bangle" chance="2056" />
-		<item id="2154" name="yellow gem" chance="1025" />
-		<item id="15492" name="hive scythe" chance="377" />
-		<item id="15490" name="grasshopper legs" chance="165" />
-		<item id="15491" name="carapace shield" chance="152" />
+		<item id="2148" name="gold coin" chance="99725" countmax="135" />
+		<item id="2152" name="platinum coin" chance="60427" />
+		<item id="15484" name="waspoid wing" chance="13959" />
+		<item id="15486" name="compound eye" chance="13730" />
+		<item id="15483" name="waspoid claw" chance="9782" />
+		<item id="2144" name="black pearl" chance="4603" />
+		<item id="2127" name="emerald bangle" chance="2043" />
+		<item id="2154" name="yellow gem" chance="1015" />
+		<item id="15492" name="hive scythe" chance="373" />
+		<item id="15490" name="grasshopper legs" chance="164" />
+		<item id="15491" name="carapace shield" chance="151" />
 	</loot>
 </monster>

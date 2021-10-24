@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Maw" nameDescription="" experience="6500" speed="0" manacost="0">
 	<health now="8200" max="8200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
-		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity invisible="1" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -54,16 +54,16 @@
 		<item id="15486" name="compound eye" chance="100000" />
 		<item id="2148" name="gold coin" chance="100000" countmax="196" />
 		<item id="15480" name="kollos shell" chance="100000" />
-		<item id="2152" name="platinum coin" chance="87500" countmax="6" />
-		<item id="7590" name="great mana potion" chance="65000" countmax="2" />
-		<item id="16096" name="dung ball (quest)" chance="55000" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="35000" />
-		<item id="2147" name="small ruby" chance="30000" countmax="4" />
-		<item id="2144" name="black pearl" chance="27500" countmax="4" />
-		<item id="2156" name="red gem" chance="25000" />
-		<item id="15572" name="gooey mass" chance="17500" countmax="2" />
-		<item name="giant shimmering pearl" chance="12500" />
-		<item id="9971" name="gold ingot" chance="5000" />
-		<item id="15643" name="hive bow" chance="2500" />
+		<item id="2152" name="platinum coin" chance="88095" countmax="6" />
+		<item id="7590" name="great mana potion" chance="66667" countmax="2" />
+		<item id="16096" name="dung ball (quest)" chance="57143" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="33333" />
+		<item id="2147" name="small ruby" chance="30952" countmax="4" />
+		<item id="2144" name="black pearl" chance="28571" countmax="4" />
+		<item id="2156" name="red gem" chance="23810" />
+		<item id="15572" name="gooey mass" chance="16667" countmax="2" />
+		<item name="giant shimmering pearl" chance="11905" />
+		<item id="9971" name="gold ingot" chance="4762" />
+		<item id="15643" name="hive bow" chance="2381" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Ripper Spectre" nameDescription="a ripper spectre" experience="3500" speed="380" manacost="0">
 	<health now="3800" max="3800" />
 	<look type="1122" head="81" body="78" legs="61" feet="94" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -47,20 +47,20 @@
 		<defense name="healing" interval="2000" chance="20" min="140" max="180" />
 	</defenses>
 	<loot>
-		<item id="2152" name="platinum coin" chance="74557" countmax="4" />
-		<item id="8472" name="great spirit potion" chance="23265" countmax="2" />
+		<item id="2152" name="platinum coin" chance="74554" countmax="4" />
+		<item id="8472" name="great spirit potion" chance="23310" countmax="2" />
 		<item id="2377" name="two handed sword" chance="13068" />
-		<item id="2181" name="terra rod" chance="6281" />
-		<item id="2134" name="silver brooch" chance="3647" />
-		<item id="2127" name="emerald bangle" chance="3630" />
-		<item id="11309" name="twin hooks" chance="3258" />
-		<item id="8912" name="springsprout rod" chance="2634" />
-		<item id="32860" name="green ectoplasm" chance="1756" />
-		<item id="27047" name="coral brooch" chance="1199" />
-		<item id="2409" name="serpent sword" chance="1114" />
-		<item id="7404" name="assassin dagger" chance="996" />
-		<item id="32836" name="hexagonal ruby" chance="861" />
-		<item id="2383" name="spike sword" chance="355" />
-		<item id="7408" name="wyvern fang" chance="203" />
+		<item id="2181" name="terra rod" chance="6256" />
+		<item id="2127" name="emerald bangle" chance="3633" />
+		<item id="2134" name="silver brooch" chance="3633" />
+		<item id="11309" name="twin hooks" chance="3246" />
+		<item id="8912" name="springsprout rod" chance="2624" />
+		<item id="32860" name="green ectoplasm" chance="1766" />
+		<item id="27047" name="coral brooch" chance="1194" />
+		<item id="2409" name="serpent sword" chance="1110" />
+		<item id="7404" name="assassin dagger" chance="992" />
+		<item id="32836" name="hexagonal ruby" chance="858" />
+		<item id="2383" name="spike sword" chance="353" />
+		<item id="7408" name="wyvern fang" chance="202" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Deepling Elite" nameDescription="a deepling elite" experience="3000" speed="330" manacost="0">
 	<health now="3200" max="3200" />
 	<look type="441" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
-		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity invisible="1" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -43,19 +43,19 @@
 	<defenses armor="45" defense="45" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="186" />
-		<item id="7591" name="great health potion" chance="25951" />
-		<item id="13870" name="eye of a deepling" chance="25475" />
-		<item id="15488" name="deepling filet" chance="25190" />
-		<item id="15649" name="vortex bolt" chance="24762" countmax="5" />
-		<item id="15425" name="deepling warts" chance="24477" />
-		<item id="7590" name="great mana potion" chance="24287" />
-		<item id="15426" name="deeptags" chance="20532" />
-		<item id="15452" name="deepling ridge" chance="19059" />
-		<item id="2149" name="small emerald" chance="6892" countmax="2" />
-		<item id="2168" name="life ring" chance="5656" />
-		<item id="13838" name="heavy trident" chance="3565" />
-		<item id="5895" name="fish fin" chance="2329" />
-		<item id="15453" name="warrior's shield" chance="1141" />
-		<item id="15451" name="warrior's axe" chance="808" />
+		<item id="7591" name="great health potion" chance="25926" />
+		<item id="13870" name="eye of a deepling" chance="25499" />
+		<item id="15488" name="deepling filet" chance="25166" />
+		<item id="15649" name="vortex bolt" chance="24739" countmax="5" />
+		<item id="15425" name="deepling warts" chance="24549" />
+		<item id="7590" name="great mana potion" chance="24264" />
+		<item id="15426" name="deeptags" chance="20513" />
+		<item id="15452" name="deepling ridge" chance="19041" />
+		<item id="2149" name="small emerald" chance="6885" countmax="2" />
+		<item id="2168" name="life ring" chance="5651" />
+		<item id="13838" name="heavy trident" chance="3561" />
+		<item id="5895" name="fish fin" chance="2327" />
+		<item id="15453" name="warrior's shield" chance="1140" />
+		<item id="15451" name="warrior's axe" chance="807" />
 	</loot>
 </monster>

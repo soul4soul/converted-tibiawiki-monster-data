@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Gazer Spectre" nameDescription="a gazer spectre" experience="4200" speed="390" manacost="0">
 	<health now="4500" max="4500" />
 	<look type="1122" head="94" body="21" legs="77" feet="78" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,22 +49,22 @@
 		<voice sentence="Tiiimeee... is... a... windowww!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="74691" countmax="5" />
-		<item id="2145" name="small diamond" chance="13480" />
-		<item id="18417" name="brown crystal splinter" chance="10899" />
-		<item id="2146" name="small sapphire" chance="10466" />
-		<item id="2156" name="red gem" chance="10098" />
-		<item id="18420" name="red crystal fragment" chance="7774" />
-		<item id="7760" name="small enchanted ruby" chance="5081" />
-		<item name="golden idol of tukh" chance="4969" />
-		<item id="2154" name="yellow gem" chance="4552" />
-		<item id="8921" name="wand of draconia" chance="2949" />
-		<item id="2187" name="wand of inferno" chance="2484" />
-		<item id="32861" name="red ectoplasm" chance="2340" />
-		<item id="27618" name="prismatic quartz" chance="1523" />
-		<item id="7899" name="magma coat" chance="1282" />
-		<item id="24849" name="onyx chip" chance="1234" countmax="2" />
-		<item id="7761" name="small enchanted emerald" chance="1154" countmax="3" />
-		<item id="32836" name="hexagonal ruby" chance="737" />
+		<item id="2152" name="platinum coin" chance="74452" countmax="5" />
+		<item id="2145" name="small diamond" chance="13452" />
+		<item id="18417" name="brown crystal splinter" chance="10671" />
+		<item id="2146" name="small sapphire" chance="10397" />
+		<item id="2156" name="red gem" chance="10082" />
+		<item id="18420" name="red crystal fragment" chance="7863" />
+		<item id="7760" name="small enchanted ruby" chance="5233" />
+		<item name="golden idol of tukh" chance="5151" />
+		<item id="2154" name="yellow gem" chance="4411" />
+		<item id="8921" name="wand of draconia" chance="2945" />
+		<item id="2187" name="wand of inferno" chance="2507" />
+		<item id="32861" name="red ectoplasm" chance="2370" />
+		<item id="27618" name="prismatic quartz" chance="1411" />
+		<item id="7899" name="magma coat" chance="1301" />
+		<item id="24849" name="onyx chip" chance="1205" countmax="2" />
+		<item id="7761" name="small enchanted emerald" chance="1123" countmax="3" />
+		<item id="32836" name="hexagonal ruby" chance="712" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Orc Cultist" nameDescription="an orc cultist" experience="950" speed="190" manacost="0">
 	<health now="1350" max="1350" />
 	<look type="7" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -43,14 +43,14 @@
 	<defenses armor="30" defense="30" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="215" />
-		<item id="7588" name="strong health potion" chance="17121" />
-		<item id="2671" name="ham" chance="8843" />
-		<item id="2428" name="orcish axe" chance="8702" />
-		<item id="5910" name="green piece of cloth" chance="5691" />
-		<item id="9970" name="small topaz" chance="4374" countmax="2" />
-		<item id="10556" name="cultish robe" chance="3293" />
-		<item id="18417" name="brown crystal splinter" chance="2352" countmax="2" />
-		<item id="8614" name="orc tusk" chance="941" />
-		<item id="7439" name="berserk potion" chance="706" />
+		<item id="7588" name="strong health potion" chance="17109" />
+		<item id="2428" name="orcish axe" chance="8663" />
+		<item id="2671" name="ham" chance="8489" />
+		<item id="5910" name="green piece of cloth" chance="5790" />
+		<item id="9970" name="small topaz" chance="4397" countmax="2" />
+		<item id="10556" name="cultish robe" chance="3178" />
+		<item id="18417" name="brown crystal splinter" chance="2264" countmax="2" />
+		<item id="8614" name="orc tusk" chance="871" />
+		<item id="7439" name="berserk potion" chance="740" />
 	</loot>
 </monster>

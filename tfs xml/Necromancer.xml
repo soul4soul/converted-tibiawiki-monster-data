@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Necromancer" nameDescription="a necromancer" experience="580" speed="188" manacost="0">
 	<health now="580" max="580" />
 	<look type="9" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -51,16 +51,16 @@
 		<voice sentence="Your corpse will be mine." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="29996" countmax="90" />
-		<item id="2545" name="poison arrow" chance="14949" countmax="5" />
-		<item id="11237" name="book of necromantic rituals" chance="10087" />
-		<item id="2796" name="green mushroom" chance="1481" />
-		<item id="12431" name="necromantic robe" chance="1034" />
-		<item id="2663" name="mystic turban" chance="495" />
-		<item id="2423" name="clerical mace" chance="375" />
-		<item id="7589" name="strong mana potion" chance="343" />
-		<item id="2195" name="boots of haste" chance="198" />
-		<item id="8901" name="spellbook of warding" chance="106" />
+		<item id="2148" name="gold coin" chance="30007" countmax="90" />
+		<item id="2545" name="poison arrow" chance="14931" countmax="5" />
+		<item id="11237" name="book of necromantic rituals" chance="10081" />
+		<item id="2796" name="green mushroom" chance="1488" />
+		<item id="12431" name="necromantic robe" chance="1031" />
+		<item id="2663" name="mystic turban" chance="500" />
+		<item id="2423" name="clerical mace" chance="378" />
+		<item id="7589" name="strong mana potion" chance="344" />
+		<item id="2195" name="boots of haste" chance="197" />
+		<item id="8901" name="spellbook of warding" chance="105" />
 		<item id="2436" name="skull staff" chance="104" />
 		<item id="7456" name="noble axe" chance="8" />
 	</loot>

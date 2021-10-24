@@ -62,7 +62,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -89,23 +89,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 74691, maxCount = 5},
-	{id = 2145, chance = 13480},
-	{id = 18417, chance = 10899},
-	{id = 2146, chance = 10466},
-	{id = 2156, chance = 10098},
-	{id = 18420, chance = 7774},
-	{id = 7760, chance = 5081},
-	{id = "golden idol of tukh", chance = 4969},
-	{id = 2154, chance = 4552},
-	{id = 8921, chance = 2949},
-	{id = 2187, chance = 2484},
-	{id = 32861, chance = 2340},
-	{id = 27618, chance = 1523},
-	{id = 7899, chance = 1282},
-	{id = 24849, chance = 1234, maxCount = 2},
-	{id = 7761, chance = 1154, maxCount = 3},
-	{id = 32836, chance = 737}
+	{id = 2152, chance = 74452, maxCount = 5},
+	{id = 2145, chance = 13452},
+	{id = 18417, chance = 10671},
+	{id = 2146, chance = 10397},
+	{id = 2156, chance = 10082},
+	{id = 18420, chance = 7863},
+	{id = 7760, chance = 5233},
+	{id = "golden idol of tukh", chance = 5151},
+	{id = 2154, chance = 4411},
+	{id = 8921, chance = 2945},
+	{id = 2187, chance = 2507},
+	{id = 32861, chance = 2370},
+	{id = 27618, chance = 1411},
+	{id = 7899, chance = 1301},
+	{id = 24849, chance = 1205, maxCount = 2},
+	{id = 7761, chance = 1123, maxCount = 3},
+	{id = 32836, chance = 712}
 }
 
 mType:register(monster)

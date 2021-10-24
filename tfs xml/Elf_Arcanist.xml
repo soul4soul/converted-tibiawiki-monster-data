@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Elf Arcanist" nameDescription="an elf arcanist" experience="175" speed="220" manacost="0">
 	<health now="220" max="220" />
 	<look type="63" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -54,26 +54,26 @@
 		<voice sentence="Feel my wrath!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="37150" countmax="49" />
-		<item id="1949" name="scroll" chance="30435" />
-		<item id="2682" name="melon" chance="21812" />
-		<item id="2260" name="blank rune" chance="17901" />
-		<item id="2689" name="bread" chance="13930" />
-		<item id="10552" name="elvish talisman" chance="10100" />
-		<item id="12421" name="elven astral observer" chance="7809" />
-		<item id="2652" name="green tunic" chance="7313" />
-		<item id="2544" name="arrow" chance="6140" countmax="3" />
-		<item id="2802" name="sling herb" chance="4857" />
-		<item id="7618" name="health potion" chance="4028" />
-		<item id="7589" name="strong mana potion" chance="3013" />
-		<item name="candlestick" chance="2180" />
-		<item id="2198" name="elven amulet" chance="2055" />
-		<item id="5922" name="holy orchid" chance="2052" />
-		<item id="2189" name="wand of cosmic energy" chance="1132" />
-		<item id="2177" name="life crystal" chance="1052" />
-		<item id="2642" name="sandals" chance="973" />
-		<item id="2600" name="inkwell" chance="943" />
-		<item id="2747" name="grave flower" chance="810" />
-		<item id="2154" name="yellow gem" chance="45" />
+		<item id="2148" name="gold coin" chance="37126" countmax="49" />
+		<item id="1949" name="scroll" chance="30445" />
+		<item id="2682" name="melon" chance="21828" />
+		<item id="2260" name="blank rune" chance="17915" />
+		<item id="2689" name="bread" chance="13923" />
+		<item id="10552" name="elvish talisman" chance="10085" />
+		<item id="12421" name="elven astral observer" chance="7799" />
+		<item id="2652" name="green tunic" chance="7295" />
+		<item id="2544" name="arrow" chance="6131" countmax="3" />
+		<item id="2802" name="sling herb" chance="4866" />
+		<item id="7618" name="health potion" chance="4033" />
+		<item id="7589" name="strong mana potion" chance="3009" />
+		<item name="candlestick" chance="2181" />
+		<item id="5922" name="holy orchid" chance="2060" />
+		<item id="2198" name="elven amulet" chance="2052" />
+		<item id="2189" name="wand of cosmic energy" chance="1130" />
+		<item id="2177" name="life crystal" chance="1047" />
+		<item id="2642" name="sandals" chance="975" />
+		<item id="2600" name="inkwell" chance="942" />
+		<item id="2747" name="grave flower" chance="806" />
+		<item id="2154" name="yellow gem" chance="49" />
 	</loot>
 </monster>

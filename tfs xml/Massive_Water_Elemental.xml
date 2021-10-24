@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Massive Water Elemental" nameDescription="a massive water elemental" experience="1100" speed="430" manacost="0">
 	<health now="1250" max="1250" />
 	<look type="11" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -47,16 +47,16 @@
 		<defense name="healing" interval="2000" chance="20" min="125" max="312" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="99641" countmax="100" />
-		<item id="2667" name="fish" chance="39850" countmax="2" />
-		<item id="2152" name="platinum coin" chance="29145" countmax="2" />
-		<item id="7591" name="great health potion" chance="10509" />
-		<item id="7590" name="great mana potion" chance="10150" />
-		<item id="2145" name="small diamond" chance="5842" countmax="2" />
-		<item id="2149" name="small emerald" chance="4308" countmax="2" />
-		<item id="7159" name="green perch" chance="1044" />
-		<item id="2167" name="energy ring" chance="979" />
-		<item id="7158" name="rainbow trout" chance="979" />
-		<item id="2168" name="life ring" chance="783" />
+		<item id="2148" name="gold coin" chance="99673" countmax="100" />
+		<item id="2667" name="fish" chance="39478" countmax="2" />
+		<item id="2152" name="platinum coin" chance="29029" countmax="2" />
+		<item id="7591" name="great health potion" chance="10359" />
+		<item id="7590" name="great mana potion" chance="10003" />
+		<item id="2145" name="small diamond" chance="5877" countmax="2" />
+		<item id="2149" name="small emerald" chance="4393" countmax="2" />
+		<item id="7159" name="green perch" chance="1128" />
+		<item id="2167" name="energy ring" chance="1009" />
+		<item id="7158" name="rainbow trout" chance="890" />
+		<item id="2168" name="life ring" chance="772" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Hideous Fungus" nameDescription="a hideous fungus" experience="2900" speed="340" manacost="0">
 	<health now="4600" max="4600" />
 	<look type="499" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,23 +49,23 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="199" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
-		<item id="18437" name="envenomed arrow" chance="14927" countmax="15" />
-		<item id="18434" name="hideous chunk" chance="14746" />
-		<item id="18397" name="mushroom pie" chance="14722" countmax="3" />
-		<item id="7620" name="mana potion" chance="8954" />
-		<item id="7591" name="great health potion" chance="7421" />
-		<item id="7590" name="great mana potion" chance="7361" />
-		<item id="5909" name="white piece of cloth" chance="6009" />
-		<item id="5912" name="blue piece of cloth" chance="3620" />
-		<item id="2391" name="war hammer" chance="3560" />
-		<item id="5910" name="green piece of cloth" chance="2969" />
-		<item id="7887" name="terra amulet" chance="2112" />
-		<item id="7886" name="terra boots" chance="1846" />
-		<item id="5911" name="red piece of cloth" chance="1762" />
-		<item id="7884" name="terra mantle" chance="1014" />
-		<item id="7885" name="terra legs" chance="857" />
-		<item id="18411" name="muck rod" chance="615" />
-		<item id="18454" name="mycological bow" chance="72" />
+		<item id="18437" name="envenomed arrow" chance="15054" countmax="15" />
+		<item id="18434" name="hideous chunk" chance="14754" />
+		<item id="18397" name="mushroom pie" chance="14754" countmax="3" />
+		<item id="7620" name="mana potion" chance="9005" />
+		<item id="7591" name="great health potion" chance="7423" />
+		<item id="7590" name="great mana potion" chance="7342" />
+		<item id="5909" name="white piece of cloth" chance="6003" />
+		<item id="5912" name="blue piece of cloth" chance="3637" />
+		<item id="2391" name="war hammer" chance="3567" />
+		<item id="5910" name="green piece of cloth" chance="2909" />
+		<item id="7887" name="terra amulet" chance="2066" />
+		<item id="7886" name="terra boots" chance="1836" />
+		<item id="5911" name="red piece of cloth" chance="1766" />
+		<item id="7884" name="terra mantle" chance="1004" />
+		<item id="7885" name="terra legs" chance="900" />
+		<item id="18411" name="muck rod" chance="589" />
+		<item id="18454" name="mycological bow" chance="69" />
 		<item id="18393" name="mushroom backpack" chance="12" />
 	</loot>
 </monster>

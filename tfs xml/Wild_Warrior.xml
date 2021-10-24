@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Wild Warrior" nameDescription="a wild warrior" experience="60" speed="190" manacost="420">
 	<health now="135" max="135" />
 	<look type="131" head="38" body="38" legs="38" feet="38" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,15 +53,15 @@
 		<voice sentence="An enemy!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="65421" countmax="30" />
-		<item id="2386" name="axe" chance="20781" />
+		<item id="2148" name="gold coin" chance="65516" countmax="30" />
+		<item id="2386" name="axe" chance="20843" />
 		<item id="2511" name="brass shield" chance="17456" />
-		<item id="2398" name="mace" chance="13161" />
-		<item id="3606" name="egg" chance="12523" countmax="2" />
-		<item id="2458" name="chain helmet" chance="5119" />
-		<item id="2465" name="brass armor" chance="2766" />
-		<item id="2509" name="steel shield" chance="1344" />
-		<item id="2459" name="iron helmet" chance="1030" />
-		<item id="2110" name="doll" chance="530" />
+		<item id="2398" name="mace" chance="13109" />
+		<item id="3606" name="egg" chance="12462" countmax="2" />
+		<item id="2458" name="chain helmet" chance="5185" />
+		<item id="2465" name="brass armor" chance="2778" />
+		<item id="2509" name="steel shield" chance="1360" />
+		<item id="2459" name="iron helmet" chance="1008" />
+		<item id="2110" name="doll" chance="523" />
 	</loot>
 </monster>

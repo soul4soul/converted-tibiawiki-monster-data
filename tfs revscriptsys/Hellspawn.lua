@@ -65,7 +65,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -94,24 +94,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 92819, maxCount = 220},
-	{id = 7591, chance = 29809},
-	{id = 11221, chance = 14657},
-	{id = 6500, chance = 7708},
-	{id = 2394, chance = 7609},
-	{id = 8473, chance = 7082},
-	{id = 2513, chance = 6851},
-	{id = 7368, chance = 6588, maxCount = 2},
-	{id = 2788, chance = 6423, maxCount = 2},
-	{id = 9970, chance = 4578, maxCount = 3},
-	{id = 9809, chance = 2042},
-	{id = 2477, chance = 1845},
-	{id = 2475, chance = 1219},
-	{id = 7439, chance = 593},
-	{id = 7452, chance = 527},
-	{id = 9969, chance = 198},
-	{id = 9810, chance = 198},
-	{id = "dracoyle statue", chance = 99}
+	{id = 2148, chance = 92817, maxCount = 220},
+	{id = 7591, chance = 29747},
+	{id = 11221, chance = 14595},
+	{id = 6500, chance = 7707},
+	{id = 2394, chance = 7642},
+	{id = 8473, chance = 7084},
+	{id = 2513, chance = 6920},
+	{id = 7368, chance = 6625, maxCount = 2},
+	{id = 2788, chance = 6396, maxCount = 2},
+	{id = 9970, chance = 4559, maxCount = 3},
+	{id = 9809, chance = 2033},
+	{id = 2477, chance = 1869},
+	{id = 2475, chance = 1214},
+	{id = 7439, chance = 590},
+	{id = 7452, chance = 525},
+	{id = 9969, chance = 197},
+	{id = 9810, chance = 197},
+	{id = "dracoyle statue", chance = 98}
 }
 
 mType:register(monster)

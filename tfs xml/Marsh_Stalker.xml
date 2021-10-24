@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Marsh Stalker" nameDescription="a marsh stalker" experience="50" speed="150" manacost="0">
 	<health now="100" max="100" />
 	<look type="530" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -48,14 +48,14 @@
 		<voice sentence="Rrrawk! Rrrrawk!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64013" countmax="25" />
-		<item id="2667" name="fish" chance="20244" countmax="2" />
-		<item id="2666" name="meat" chance="19965" />
-		<item id="3976" name="worm" chance="14667" countmax="2" />
-		<item id="19742" name="marsh stalker feather" chance="8659" />
-		<item id="2397" name="longsword" chance="7491" />
-		<item id="19741" name="marsh stalker beak" chance="6113" />
-		<item id="2120" name="rope" chance="4880" />
+		<item id="2148" name="gold coin" chance="64018" countmax="25" />
+		<item id="2667" name="fish" chance="20248" countmax="2" />
+		<item id="2666" name="meat" chance="19969" />
+		<item id="3976" name="worm" chance="14663" countmax="2" />
+		<item id="19742" name="marsh stalker feather" chance="8655" />
+		<item id="2397" name="longsword" chance="7487" />
+		<item id="19741" name="marsh stalker beak" chance="6111" />
+		<item id="2120" name="rope" chance="4882" />
 		<item id="7732" name="seeds" chance="106" />
 	</loot>
 </monster>

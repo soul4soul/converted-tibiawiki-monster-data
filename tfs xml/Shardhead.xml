@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Shardhead" nameDescription="" experience="650" speed="0" manacost="0">
 	<health now="800" max="800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -22,10 +22,10 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<immunities>
-		<immunity paralyze="0" />
+		<immunity paralyze="1" />
 		<immunity outfit="0" />
-		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity invisible="1" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,15 +45,15 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="91176" countmax="198" />
-		<item id="2152" name="platinum coin" chance="72549" countmax="5" />
-		<item id="7588" name="strong health potion" chance="71569" />
-		<item id="2146" name="small sapphire" chance="65686" countmax="5" />
-		<item id="2145" name="small diamond" chance="62745" countmax="4" />
-		<item id="10578" name="frosty heart" chance="56863" />
-		<item id="7441" name="ice cube" chance="50980" countmax="2" />
-		<item id="7290" name="shard" chance="33333" />
-		<item id="2144" name="black pearl" chance="1961" />
-		<item id="7902" name="glacier mask" chance="980" />
+		<item id="2148" name="gold coin" chance="90385" countmax="198" />
+		<item id="2152" name="platinum coin" chance="72115" countmax="5" />
+		<item id="7588" name="strong health potion" chance="72115" />
+		<item id="2146" name="small sapphire" chance="65385" countmax="5" />
+		<item id="2145" name="small diamond" chance="63462" countmax="4" />
+		<item id="10578" name="frosty heart" chance="56731" />
+		<item id="7441" name="ice cube" chance="50000" countmax="2" />
+		<item id="7290" name="shard" chance="32692" />
+		<item id="2144" name="black pearl" chance="1923" />
+		<item id="7902" name="glacier mask" chance="962" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Lizard Dragon Priest" nameDescription="a lizard dragon priest" experience="1320" speed="256" manacost="0">
 	<health now="1450" max="1450" />
 	<look type="339" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,21 +50,21 @@
 		<voice sentence="I ssssmell warm blood!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="93897" countmax="190" />
-		<item id="7589" name="strong mana potion" chance="12108" />
-		<item id="11361" name="dragon priest's wandtip" chance="9955" />
-		<item id="7590" name="great mana potion" chance="8012" />
-		<item id="2150" name="small amethyst" chance="4830" countmax="3" />
-		<item id="2152" name="platinum coin" chance="4022" countmax="2" />
-		<item id="2187" name="wand of inferno" chance="1554" />
-		<item id="5881" name="lizard scale" chance="1088" />
-		<item id="5876" name="lizard leather" chance="1059" />
-		<item id="2181" name="terra rod" chance="1001" />
-		<item id="2154" name="yellow gem" chance="981" />
-		<item id="11245" name="bunch of ripe rice" chance="972" />
-		<item id="2168" name="life ring" chance="790" />
-		<item id="8871" name="focus cape" chance="672" />
-		<item id="11303" name="zaoan shoes" chance="424" />
-		<item id="11356" name="zaoan robe" chance="286" />
+		<item id="2148" name="gold coin" chance="93913" countmax="190" />
+		<item id="7589" name="strong mana potion" chance="12112" />
+		<item id="11361" name="dragon priest's wandtip" chance="9942" />
+		<item id="7590" name="great mana potion" chance="8008" />
+		<item id="2150" name="small amethyst" chance="4835" countmax="3" />
+		<item id="2152" name="platinum coin" chance="4027" countmax="2" />
+		<item id="2187" name="wand of inferno" chance="1558" />
+		<item id="5881" name="lizard scale" chance="1085" />
+		<item id="5876" name="lizard leather" chance="1058" />
+		<item id="2181" name="terra rod" chance="1000" />
+		<item id="2154" name="yellow gem" chance="979" />
+		<item id="11245" name="bunch of ripe rice" chance="967" />
+		<item id="2168" name="life ring" chance="788" />
+		<item id="8871" name="focus cape" chance="669" />
+		<item id="11303" name="zaoan shoes" chance="425" />
+		<item id="11356" name="zaoan robe" chance="288" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Retching Horror" nameDescription="a retching horror" experience="4100" speed="360" manacost="0">
 	<health now="5300" max="5300" />
 	<look type="588" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,18 +49,18 @@
 		<voice sentence="My little beetles, go forth, eat, feast!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="84270" countmax="99" />
-		<item id="2152" name="platinum coin" chance="79775" countmax="9" />
-		<item id="7590" name="great mana potion" chance="19101" />
-		<item id="22539" name="goosebump leather" chance="16854" />
-		<item id="2789" name="brown mushroom" chance="11236" countmax="2" />
-		<item id="7591" name="great health potion" chance="10112" />
-		<item id="22541" name="pool of chitinous glue" chance="7865" />
-		<item id="3962" name="beastslayer axe" chance="5618" />
-		<item id="7452" name="spiked squelcher" chance="4494" />
-		<item id="7386" name="mercenary sword" chance="2247" />
-		<item id="22363" name="broken dream" chance="1124" />
-		<item id="7412" name="butcher's axe" chance="1124" />
-		<item id="2392" name="fire sword" chance="1124" />
+		<item id="2148" name="gold coin" chance="79817" countmax="100" />
+		<item id="2152" name="platinum coin" chance="77982" countmax="9" />
+		<item id="22539" name="goosebump leather" chance="18349" />
+		<item id="7590" name="great mana potion" chance="18349" />
+		<item id="2789" name="brown mushroom" chance="11927" countmax="2" />
+		<item id="7591" name="great health potion" chance="10092" />
+		<item id="22541" name="pool of chitinous glue" chance="8257" />
+		<item id="3962" name="beastslayer axe" chance="4587" />
+		<item id="7452" name="spiked squelcher" chance="3670" />
+		<item id="2392" name="fire sword" chance="2752" />
+		<item id="7386" name="mercenary sword" chance="2752" />
+		<item id="22363" name="broken dream" chance="1835" />
+		<item id="7412" name="butcher's axe" chance="917" />
 	</loot>
 </monster>

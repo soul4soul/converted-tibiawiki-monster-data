@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Animated Feather" nameDescription="an animated feather" experience="9860" speed="420" manacost="0">
 	<health now="13000" max="13000" />
 	<look type="1058" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -41,31 +41,38 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="ice" interval="2000" chance="15" min="-600" max="-800" range="2" radius="1" target="1" />
+		<attack name="ice" interval="2000" chance="15" min="-600" max="-800" range="2" radius="1" target="1">
+			<attribute key="shootEffect" value="ice" />
+		</attack>
 		<attack name="ice" interval="2000" chance="15" min="-600" max="-900" ring="2" target="0" />
-		<attack name="ice" interval="2000" chance="15" min="-800" max="-1200" length="3" spread="2" />
-		<attack name="ice" interval="2000" chance="15" min="-600" max="-800" radius="3" target="1" />
+		<attack name="ice" interval="2000" chance="15" min="-800" max="-1200" length="3" spread="2">
+			<attribute key="areaEffect" value="iceattack" />
+		</attack>
+		<attack name="ice" interval="2000" chance="15" min="-600" max="-800" radius="3" target="1">
+			<attribute key="shootEffect" value="ice" />
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
 	</attacks>
 	<defenses armor="79" defense="79" />
 	<loot>
-		<item id="31226" name="glowing rune" chance="77794" countmax="5" />
-		<item id="2152" name="platinum coin" chance="77403" countmax="21" />
-		<item id="2146" name="small sapphire" chance="39803" countmax="12" />
-		<item id="26029" name="ultimate mana potion" chance="17394" countmax="2" />
-		<item id="7441" name="ice cube" chance="14046" />
-		<item id="2167" name="energy ring" chance="13915" />
-		<item id="31223" name="quill" chance="13147" />
-		<item id="7902" name="glacier mask" chance="7276" />
-		<item id="7387" name="diamond sceptre" chance="4696" />
-		<item id="2145" name="small diamond" chance="4696" countmax="12" />
-		<item id="2177" name="life crystal" chance="3464" />
-		<item id="7888" name="glacier amulet" chance="3029" />
-		<item id="2445" name="crystal mace" chance="2812" />
-		<item id="2033" name="golden mug" chance="2522" />
-		<item id="2183" name="hailstorm rod" chance="2363" />
-		<item id="18412" name="glacial rod" chance="957" />
-		<item id="7437" name="sapphire hammer" chance="841" />
-		<item id="10220" name="leviathan's amulet" chance="493" />
-		<item id="8878" name="crystalline armor" chance="174" />
+		<item id="31226" name="glowing rune" chance="77951" countmax="5" />
+		<item id="2152" name="platinum coin" chance="77435" countmax="21" />
+		<item id="2146" name="small sapphire" chance="39791" countmax="12" />
+		<item id="26029" name="ultimate mana potion" chance="17375" countmax="2" />
+		<item id="2167" name="energy ring" chance="14088" />
+		<item id="7441" name="ice cube" chance="13925" />
+		<item id="31223" name="quill" chance="13191" />
+		<item id="7902" name="glacier mask" chance="7227" />
+		<item id="2145" name="small diamond" chance="4687" countmax="12" />
+		<item id="7387" name="diamond sceptre" chance="4592" />
+		<item id="2177" name="life crystal" chance="3559" />
+		<item id="7888" name="glacier amulet" chance="3084" />
+		<item id="2445" name="crystal mace" chance="2785" />
+		<item id="2033" name="golden mug" chance="2527" />
+		<item id="2183" name="hailstorm rod" chance="2350" />
+		<item id="18412" name="glacial rod" chance="924" />
+		<item id="7437" name="sapphire hammer" chance="842" />
+		<item id="10220" name="leviathan's amulet" chance="475" />
+		<item id="8878" name="crystalline armor" chance="163" />
 	</loot>
 </monster>

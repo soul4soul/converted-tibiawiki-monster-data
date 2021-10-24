@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Lizard Legionnaire" nameDescription="a lizard legionnaire" experience="1100" speed="266" manacost="0">
 	<health now="1400" max="1400" />
 	<look type="338" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -48,18 +48,18 @@
 		<voice sentence="Tssss!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="94063" countmax="165" />
-		<item id="11335" name="broken halberd" chance="14929" />
-		<item id="7588" name="strong health potion" chance="3900" />
-		<item id="11245" name="bunch of ripe rice" chance="1935" />
-		<item id="11334" name="legionnaire flags" chance="1925" />
-		<item id="5881" name="lizard scale" chance="975" />
+		<item id="2148" name="gold coin" chance="94061" countmax="165" />
+		<item id="11335" name="broken halberd" chance="14920" />
+		<item id="7588" name="strong health potion" chance="3901" />
+		<item id="11245" name="bunch of ripe rice" chance="1934" />
+		<item id="11334" name="legionnaire flags" chance="1926" />
+		<item id="5881" name="lizard scale" chance="972" />
 		<item id="5876" name="lizard leather" chance="968" />
-		<item id="2145" name="small diamond" chance="968" countmax="2" />
-		<item id="11323" name="zaoan halberd" chance="954" />
-		<item id="11305" name="drakinata" chance="723" />
-		<item id="11206" name="red lantern" chance="508" />
-		<item id="11303" name="zaoan shoes" chance="436" />
+		<item id="2145" name="small diamond" chance="967" countmax="2" />
+		<item id="11323" name="zaoan halberd" chance="957" />
+		<item id="11305" name="drakinata" chance="722" />
+		<item id="11206" name="red lantern" chance="506" />
+		<item id="11303" name="zaoan shoes" chance="435" />
 		<item id="11301" name="zaoan armor" chance="67" />
 		<item id="11336" name="lizard trophy" chance="14" />
 	</loot>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Demon Skeleton" nameDescription="a demon skeleton" experience="240" speed="180" manacost="620">
 	<health now="400" max="400" />
 	<look type="37" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -45,19 +45,19 @@
 	</attacks>
 	<defenses armor="25" defense="25" />
 	<loot>
-		<item id="2148" name="gold coin" chance="97514" countmax="75" />
-		<item id="10564" name="demonic skeletal hand" chance="11974" />
-		<item id="2399" name="throwing star" chance="9998" countmax="3" />
-		<item id="7618" name="health potion" chance="9697" countmax="2" />
-		<item id="7620" name="mana potion" chance="5057" />
-		<item id="2513" name="battle shield" chance="4955" />
-		<item name="torch" chance="4870" />
+		<item id="2148" name="gold coin" chance="97515" countmax="75" />
+		<item id="10564" name="demonic skeletal hand" chance="11983" />
+		<item id="2399" name="throwing star" chance="9994" countmax="3" />
+		<item id="7618" name="health potion" chance="9689" countmax="2" />
+		<item id="7620" name="mana potion" chance="5059" />
+		<item id="2513" name="battle shield" chance="4959" />
+		<item name="torch" chance="4868" />
 		<item id="2417" name="battle hammer" chance="4063" />
-		<item id="2459" name="iron helmet" chance="3378" />
-		<item id="2144" name="black pearl" chance="2977" />
-		<item id="2147" name="small ruby" chance="1529" />
+		<item id="2459" name="iron helmet" chance="3379" />
+		<item id="2144" name="black pearl" chance="2983" />
+		<item id="2147" name="small ruby" chance="1527" />
 		<item id="2194" name="mysterious fetish" chance="536" />
-		<item id="2178" name="mind stone" chance="467" />
+		<item id="2178" name="mind stone" chance="468" />
 		<item id="2515" name="guardian shield" chance="112" />
 	</loot>
 </monster>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Young Sea Serpent" nameDescription="a young sea serpent" experience="1000" speed="480" manacost="0">
 	<health now="1050" max="1050" />
 	<look type="317" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -53,17 +53,17 @@
 		<voice sentence="CHHHRRRR" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98029" countmax="174" />
-		<item id="2394" name="morning star" chance="40307" />
-		<item id="2378" name="battle axe" chance="7860" />
-		<item id="9808" name="heavily rusted armor" chance="7470" />
-		<item id="7588" name="strong health potion" chance="4995" />
-		<item id="2417" name="battle hammer" chance="4789" />
-		<item id="10583" name="sea serpent scale" chance="4766" />
-		<item id="7589" name="strong mana potion" chance="4629" />
-		<item id="2146" name="small sapphire" chance="1856" countmax="2" />
-		<item id="2165" name="stealth ring" chance="894" />
-		<item id="9809" name="rusted armor" chance="848" />
-		<item id="2177" name="life crystal" chance="160" />
+		<item id="2148" name="gold coin" chance="98043" countmax="174" />
+		<item id="2394" name="morning star" chance="40250" />
+		<item id="2378" name="battle axe" chance="7827" />
+		<item id="9808" name="heavily rusted armor" chance="7463" />
+		<item id="7588" name="strong health potion" chance="4960" />
+		<item id="2417" name="battle hammer" chance="4846" />
+		<item id="10583" name="sea serpent scale" chance="4801" />
+		<item id="7589" name="strong mana potion" chance="4619" />
+		<item id="2146" name="small sapphire" chance="1843" countmax="2" />
+		<item id="2165" name="stealth ring" chance="910" />
+		<item id="9809" name="rusted armor" chance="842" />
+		<item id="2177" name="life crystal" chance="159" />
 	</loot>
 </monster>

@@ -62,7 +62,7 @@ monster.immunities = {
 	{type = "paralyze", condition = false},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = false},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -80,7 +80,7 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100}
 }
 
 monster.defenses = {
@@ -89,18 +89,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 81471, maxCount = 35},
-	{id = 20101, chance = 14784},
-	{id = 20100, chance = 12484},
-	{id = 3607, chance = 9670},
-	{id = 20089, chance = 7820},
-	{id = 20099, chance = 7251},
-	{id = 20097, chance = 6499},
-	{id = 20092, chance = 655},
+	{id = 2148, chance = 81447, maxCount = 35},
+	{id = 20101, chance = 14794},
+	{id = 20100, chance = 12483},
+	{id = 3607, chance = 9679},
+	{id = 20089, chance = 7834},
+	{id = 20099, chance = 7260},
+	{id = 20097, chance = 6510},
+	{id = 20092, chance = 654},
 	{id = 20093, chance = 601},
 	{id = 20098, chance = 536},
-	{id = 20126, chance = 455},
-	{id = 20090, chance = 422},
+	{id = 20126, chance = 461},
+	{id = 20090, chance = 424},
 	{id = 20105, chance = 5}
 }
 

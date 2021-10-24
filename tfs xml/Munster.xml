@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Munster" nameDescription="" experience="35" speed="0" manacost="0">
 	<health now="58" max="58" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="0" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,14 +49,14 @@
 		<voice sentence="Meeeeep!" yell="false" />
 	</voices>
 	<summons maxSummons="2">
-		<voice name="rat" interval="2000" chance="15" max="1" />
+		<voice name="Rat" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2449" name="bone club" chance="85088" />
-		<item id="2148" name="gold coin" chance="78947" countmax="24" />
-		<item id="3607" name="cheese" chance="65789" />
-		<item id="3976" name="worm" chance="48246" countmax="4" />
-		<item name="die" chance="1754" />
-		<item id="2687" name="cookie" chance="877" countmax="2" />
+		<item id="2449" name="bone club" chance="85714" />
+		<item id="2148" name="gold coin" chance="79832" countmax="24" />
+		<item id="3607" name="cheese" chance="64706" />
+		<item id="3976" name="worm" chance="47059" countmax="4" />
+		<item name="die" chance="1681" />
+		<item id="2687" name="cookie" chance="840" countmax="2" />
 	</loot>
 </monster>

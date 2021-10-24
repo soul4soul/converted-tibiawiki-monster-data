@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Gnorre Chyllson" nameDescription="" experience="4000" speed="0" manacost="0">
 	<health now="7150" max="7150" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="1" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -49,5 +49,4 @@
 		<voice sentence="Snow will be your death shroud." yell="false" />
 		<voice sentence="Feel the wrath of father chyll!" yell="false" />
 	</voices>
-	<loot />
 </monster>

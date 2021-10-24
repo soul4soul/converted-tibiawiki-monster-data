@@ -60,7 +60,7 @@ monster.immunities = {
 	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
 	{type = "invisible", condition = true},
-	{type = "drunk", condition = false},
+	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
 
@@ -78,9 +78,9 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -600, maxDamage = -900, range = 2, radius = 1, target = true, ShootEffect = CONST_ANI_ICE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -600, maxDamage = -900, range = 2, radius = 1, target = true, shootEffect = CONST_ANI_ICE},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -600, maxDamage = -900, radius = 3, target = , effect = CONST_ME_ICEAREA},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -500, maxDamage = -700, radius = 3, target = true, ShootEffect = CONST_ANI_SNOWBALL, effect = CONST_ME_GROUNDSHAKER},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -500, maxDamage = -700, radius = 3, target = true, shootEffect = CONST_ANI_SNOWBALL, effect = CONST_ME_GROUNDSHAKER},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -500, maxDamage = -700, length = 5, spread = 0, effect = CONST_ME_SOUND_BLUE}
 }
 
@@ -90,27 +90,27 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2146, chance = 67974, maxCount = 3},
-	{id = 2152, chance = 50448, maxCount = 50},
-	{id = 31226, chance = 35537, maxCount = 6},
-	{id = 10578, chance = 22906},
-	{id = 26029, chance = 17252},
-	{id = 31224, chance = 15717},
-	{id = 8473, chance = 15230},
-	{id = 7441, chance = 13877},
-	{id = 7902, chance = 7524},
-	{id = 2396, chance = 5320},
-	{id = 2445, chance = 4864},
-	{id = 23565, chance = 4347},
-	{id = 7449, chance = 4332},
-	{id = 10580, chance = 4013},
-	{id = 7387, chance = 3967},
-	{id = 7896, chance = 2721},
-	{id = 7897, chance = 2265},
-	{id = 7437, chance = 790},
-	{id = 8878, chance = 730},
-	{id = 18412, chance = 669},
-	{id = 10220, chance = 319}
+	{id = 2146, chance = 67872, maxCount = 3},
+	{id = 2152, chance = 50676, maxCount = 50},
+	{id = 31226, chance = 35459, maxCount = 6},
+	{id = 10578, chance = 22719},
+	{id = 26029, chance = 17352},
+	{id = 31224, chance = 15943},
+	{id = 8473, chance = 15302},
+	{id = 7441, chance = 14021},
+	{id = 7902, chance = 7573},
+	{id = 2396, chance = 5338},
+	{id = 2445, chance = 4854},
+	{id = 7449, chance = 4399},
+	{id = 23565, chance = 4370},
+	{id = 7387, chance = 4057},
+	{id = 10580, chance = 4014},
+	{id = 7896, chance = 2648},
+	{id = 7897, chance = 2320},
+	{id = 7437, chance = 840},
+	{id = 8878, chance = 726},
+	{id = 18412, chance = 698},
+	{id = 10220, chance = 299}
 }
 
 mType:register(monster)

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <monster name="Pirate Cutthroat" nameDescription="a pirate cutthroat" experience="175" speed="214" manacost="0">
 	<health now="325" max="325" />
 	<look type="96" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
@@ -25,7 +25,7 @@
 		<immunity paralyze="0" />
 		<immunity outfit="0" />
 		<immunity invisible="1" />
-		<immunity drunk="0" />
+		<immunity drunk="1" />
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
@@ -50,18 +50,18 @@
 		<voice sentence="Hiyaa!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="77581" countmax="50" />
-		<item id="11219" name="compass" chance="10091" />
-		<item id="2483" name="scale armor" chance="3090" />
-		<item id="2509" name="steel shield" chance="2876" />
+		<item id="2148" name="gold coin" chance="77577" countmax="50" />
+		<item id="11219" name="compass" chance="10066" />
+		<item id="2483" name="scale armor" chance="3083" />
+		<item id="2509" name="steel shield" chance="2877" />
 		<item id="5710" name="light shovel" chance="1974" />
-		<item id="14337" name="treasure map (pirate)" chance="1095" />
-		<item id="5918" name="pirate knee breeches" chance="1029" />
-		<item id="5927" name="pirate bag" chance="991" />
+		<item id="14337" name="treasure map (pirate)" chance="1099" />
+		<item id="5918" name="pirate knee breeches" chance="1024" />
+		<item id="5927" name="pirate bag" chance="992" />
 		<item id="6097" name="hook" chance="529" />
-		<item id="6126" name="peg leg" chance="505" />
+		<item id="6126" name="peg leg" chance="508" />
 		<item id="6098" name="eye patch" chance="468" />
 		<item name="die" chance="96" />
-		<item id="5553" name="rum flask" chance="85" />
+		<item id="5553" name="rum flask" chance="87" />
 	</loot>
 </monster>
