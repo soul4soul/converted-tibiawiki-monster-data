@@ -45,16 +45,17 @@
 	</attacks>
 	<defenses armor="76" defense="76" />
 	<loot>
-		<item id="30252" name="tunnel tyrant shell" chance="17476" />
-		<item id="30251" name="tunnel tyrant head" chance="12621" />
-		<item id="10609" name="lump of dirt" chance="8738" />
-		<item id="7759" name="small enchanted sapphire" chance="8414" />
-		<item id="7760" name="small enchanted ruby" chance="5825" />
-		<item id="2153" name="violet gem" chance="4207" />
-		<item id="26164" name="energy vein" chance="2913" />
-		<item id="30309" name="suspicious device" chance="2265" />
-		<item id="2155" name="green gem" chance="1942" />
-		<item id="2445" name="crystal mace" chance="1294" />
-		<item id="2158" name="blue gem" chance="647" />
+		<item id="30252" name="tunnel tyrant shell" chance="16594" />
+		<item id="30251" name="tunnel tyrant head" chance="11404" />
+		<item id="7759" name="small enchanted sapphire" chance="7968" />
+		<item id="10609" name="lump of dirt" chance="7749" />
+		<item id="7760" name="small enchanted ruby" chance="6652" />
+		<item id="2153" name="violet gem" chance="4094" />
+		<item id="26164" name="energy vein" chance="2851" />
+		<item id="2155" name="green gem" chance="1535" />
+		<item id="2158" name="blue gem" chance="1389" />
+		<item id="30309" name="suspicious device" chance="1023" />
+		<item id="2445" name="crystal mace" chance="950" />
+		<item id="8878" name="crystalline armor" chance="365" />
 	</loot>
 </monster>

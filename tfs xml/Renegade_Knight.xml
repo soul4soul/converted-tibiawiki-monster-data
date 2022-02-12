@@ -42,6 +42,9 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-245" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-125" radius="3" target="0">
+			<attribute key="areaEffect" value="yellowspark" />
+		</attack>
 	</attacks>
 	<defenses armor="38" defense="38">
 		<defense name="healing" interval="2000" chance="20" min="200" max="250" />
@@ -54,21 +57,21 @@
 		<voice sentence="A challenge at last!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99985" countmax="100" />
-		<item id="2152" name="platinum coin" chance="25649" countmax="2" />
-		<item id="2666" name="meat" chance="9372" />
-		<item id="7591" name="great health potion" chance="7217" />
-		<item id="12466" name="scroll of heroic deeds" chance="5934" />
-		<item id="2377" name="two handed sword" chance="5201" />
-		<item id="2147" name="small ruby" chance="3663" />
-		<item id="5911" name="red piece of cloth" chance="1821" />
-		<item id="12406" name="small notebook" chance="1581" />
+		<item id="2148" name="gold coin" chance="99986" countmax="100" />
+		<item id="2152" name="platinum coin" chance="25511" countmax="2" />
+		<item id="2666" name="meat" chance="9373" />
+		<item id="7591" name="great health potion" chance="7259" />
+		<item id="12466" name="scroll of heroic deeds" chance="5962" />
+		<item id="2377" name="two handed sword" chance="5180" />
+		<item id="2147" name="small ruby" chance="3629" />
+		<item id="5911" name="red piece of cloth" chance="1811" />
+		<item id="12406" name="small notebook" chance="1564" />
 		<item id="2391" name="war hammer" chance="965" />
-		<item id="2488" name="crown legs" chance="646" />
-		<item id="2487" name="crown armor" chance="624" />
-		<item id="2491" name="crown helmet" chance="609" />
-		<item id="2392" name="fire sword" chance="544" />
-		<item id="2519" name="crown shield" chance="203" />
-		<item id="2114" name="piggy bank" chance="116" />
+		<item id="2488" name="crown legs" chance="648" />
+		<item id="2487" name="crown armor" chance="613" />
+		<item id="2491" name="crown helmet" chance="606" />
+		<item id="2392" name="fire sword" chance="543" />
+		<item id="2519" name="crown shield" chance="204" />
+		<item id="2114" name="piggy bank" chance="113" />
 	</loot>
 </monster>

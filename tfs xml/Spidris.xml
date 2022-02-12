@@ -55,18 +55,18 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="2152" name="platinum coin" chance="45124" countmax="4" />
-		<item id="15485" name="spidris mandible" chance="14852" />
+		<item id="2152" name="platinum coin" chance="45145" countmax="4" />
+		<item id="15485" name="spidris mandible" chance="14838" />
 		<item id="15486" name="compound eye" chance="12311" />
-		<item id="2147" name="small ruby" chance="12154" countmax="5" />
-		<item id="7590" name="great mana potion" chance="11565" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="6217" countmax="2" />
-		<item id="6300" name="death ring" chance="2576" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="1663" />
+		<item id="2147" name="small ruby" chance="12185" countmax="5" />
+		<item id="7590" name="great mana potion" chance="11572" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="6214" countmax="2" />
+		<item id="6300" name="death ring" chance="2574" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="1661" />
 		<item id="7413" name="titan axe" chance="891" />
-		<item id="2153" name="violet gem" chance="747" />
-		<item id="15492" name="hive scythe" chance="738" />
-		<item id="15491" name="carapace shield" chance="629" />
-		<item id="15489" name="calopteryx cape" chance="345" />
+		<item id="15492" name="hive scythe" chance="744" />
+		<item id="2153" name="violet gem" chance="744" />
+		<item id="15491" name="carapace shield" chance="626" />
+		<item id="15489" name="calopteryx cape" chance="348" />
 	</loot>
 </monster>

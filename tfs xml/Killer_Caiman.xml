@@ -47,12 +47,12 @@
 	</defenses>
 	<loot>
 		<item id="2148" name="gold coin" chance="99997" countmax="180" />
-		<item id="2671" name="ham" chance="39778" />
-		<item id="11196" name="piece of crocodile leather" chance="24964" countmax="2" />
-		<item id="2149" name="small emerald" chance="9972" countmax="5" />
-		<item id="2425" name="obsidian lance" chance="4980" />
-		<item id="11245" name="bunch of ripe rice" chance="4823" countmax="2" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="963" />
-		<item id="3982" name="crocodile boots" chance="483" />
+		<item id="2671" name="ham" chance="39795" />
+		<item id="11196" name="piece of crocodile leather" chance="24961" countmax="2" />
+		<item id="2149" name="small emerald" chance="9964" countmax="5" />
+		<item id="2425" name="obsidian lance" chance="4982" />
+		<item id="11245" name="bunch of ripe rice" chance="4825" countmax="2" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="972" />
+		<item id="3982" name="crocodile boots" chance="485" />
 	</loot>
 </monster>

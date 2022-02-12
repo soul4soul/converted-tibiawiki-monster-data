@@ -52,6 +52,6 @@
 		<voice sentence="Who is lunch NOW?" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="37826" countmax="77" />
+		<item id="2148" name="gold coin" chance="37864" countmax="87" />
 	</loot>
 </monster>

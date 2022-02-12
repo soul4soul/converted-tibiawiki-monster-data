@@ -53,16 +53,16 @@
 		<voice sentence="Splish splash" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99261" countmax="100" />
-		<item id="2152" name="platinum coin" chance="24534" />
-		<item id="2667" name="fish" chance="20170" />
-		<item id="7588" name="strong health potion" chance="9993" />
-		<item id="7589" name="strong mana potion" chance="9775" />
-		<item id="2145" name="small diamond" chance="2579" />
-		<item id="2149" name="small emerald" chance="2569" countmax="2" />
-		<item id="2167" name="energy ring" chance="1066" />
-		<item id="7158" name="rainbow trout" chance="1002" />
-		<item id="7159" name="green perch" chance="987" />
-		<item id="2168" name="life ring" chance="977" />
+		<item id="2148" name="gold coin" chance="99304" countmax="100" />
+		<item id="2152" name="platinum coin" chance="24632" />
+		<item id="2667" name="fish" chance="20150" />
+		<item id="7588" name="strong health potion" chance="9926" />
+		<item id="7589" name="strong mana potion" chance="9884" />
+		<item id="2145" name="small diamond" chance="2586" />
+		<item id="2149" name="small emerald" chance="2572" countmax="2" />
+		<item id="2167" name="energy ring" chance="1078" />
+		<item id="7158" name="rainbow trout" chance="1008" />
+		<item id="2168" name="life ring" chance="1004" />
+		<item id="7159" name="green perch" chance="994" />
 	</loot>
 </monster>

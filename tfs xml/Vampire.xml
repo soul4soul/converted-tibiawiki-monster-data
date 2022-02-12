@@ -56,19 +56,19 @@
 		<voice sentence="I call you, my bats! Come!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="90056" countmax="60" />
-		<item id="10602" name="vampire teeth" chance="7764" />
-		<item id="12405" name="blood preservation" chance="5090" />
-		<item id="2747" name="grave flower" chance="1922" />
-		<item id="2144" name="black pearl" chance="1784" />
-		<item id="7588" name="strong health potion" chance="1517" />
-		<item id="2412" name="katana" chance="1455" />
-		<item id="2229" name="skull (item)" chance="1019" />
-		<item id="2383" name="spike sword" chance="1010" />
-		<item id="2396" name="ice rapier" chance="467" />
-		<item id="2479" name="strange helmet" chance="411" />
-		<item id="2172" name="bronze amulet" chance="233" />
-		<item id="2127" name="emerald bangle" chance="203" />
-		<item id="2534" name="vampire shield" chance="193" />
+		<item id="2148" name="gold coin" chance="90020" countmax="60" />
+		<item id="10602" name="vampire teeth" chance="7760" />
+		<item id="12405" name="blood preservation" chance="5078" />
+		<item id="2747" name="grave flower" chance="1938" />
+		<item id="2144" name="black pearl" chance="1783" />
+		<item id="7588" name="strong health potion" chance="1513" />
+		<item id="2412" name="katana" chance="1441" />
+		<item id="2229" name="skull (item)" chance="1013" />
+		<item id="2383" name="spike sword" chance="1007" />
+		<item id="2396" name="ice rapier" chance="464" />
+		<item id="2479" name="strange helmet" chance="410" />
+		<item id="2172" name="bronze amulet" chance="228" />
+		<item id="2127" name="emerald bangle" chance="204" />
+		<item id="2534" name="vampire shield" chance="192" />
 	</loot>
 </monster>

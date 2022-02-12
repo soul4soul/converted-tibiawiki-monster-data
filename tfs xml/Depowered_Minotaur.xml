@@ -49,21 +49,21 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="58084" countmax="5" />
-		<item id="12428" name="minotaur horn" chance="14671" countmax="2" />
-		<item id="5878" name="minotaur leather" chance="10479" />
-		<item id="7589" name="strong mana potion" chance="10180" countmax="3" />
-		<item id="7588" name="strong health potion" chance="9581" countmax="3" />
-		<item id="2666" name="meat" chance="8383" />
-		<item id="2145" name="small diamond" chance="5689" />
-		<item id="2149" name="small emerald" chance="4491" />
-		<item id="2147" name="small ruby" chance="4491" />
-		<item id="2146" name="small sapphire" chance="4491" />
-		<item id="23537" name="mooh'tah plate" chance="1796" />
-		<item id="5911" name="red piece of cloth" chance="1198" />
-		<item id="7401" name="minotaur trophy" chance="898" />
-		<item id="2209" name="club ring" chance="599" />
-		<item id="23548" name="cowtana" chance="599" />
-		<item id="7452" name="spiked squelcher" chance="299" />
+		<item id="2152" name="platinum coin" chance="58092" countmax="5" />
+		<item id="12428" name="minotaur horn" chance="14451" countmax="2" />
+		<item id="5878" name="minotaur leather" chance="10405" />
+		<item id="7589" name="strong mana potion" chance="10116" countmax="3" />
+		<item id="7588" name="strong health potion" chance="9538" countmax="3" />
+		<item id="2666" name="meat" chance="8092" />
+		<item id="2145" name="small diamond" chance="5780" />
+		<item id="2149" name="small emerald" chance="4335" />
+		<item id="2147" name="small ruby" chance="4335" />
+		<item id="2146" name="small sapphire" chance="4335" />
+		<item id="23537" name="mooh'tah plate" chance="1734" />
+		<item id="5911" name="red piece of cloth" chance="1156" />
+		<item id="2209" name="club ring" chance="867" />
+		<item id="7401" name="minotaur trophy" chance="867" />
+		<item id="23548" name="cowtana" chance="578" />
+		<item id="7452" name="spiked squelcher" chance="289" />
 	</loot>
 </monster>

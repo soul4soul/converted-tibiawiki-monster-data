@@ -49,10 +49,10 @@
 		<voice sentence="Hoouu!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="88617" countmax="40" />
-		<item id="3976" name="worm" chance="65677" countmax="7" />
-		<item id="2666" name="meat" chance="51405" />
-		<item id="7618" name="health potion" chance="19908" />
-		<item id="2147" name="small ruby" chance="2778" countmax="2" />
+		<item id="2148" name="gold coin" chance="88539" countmax="40" />
+		<item id="3976" name="worm" chance="65467" countmax="7" />
+		<item id="2666" name="meat" chance="51265" />
+		<item id="7618" name="health potion" chance="19864" />
+		<item id="2147" name="small ruby" chance="2786" countmax="2" />
 	</loot>
 </monster>

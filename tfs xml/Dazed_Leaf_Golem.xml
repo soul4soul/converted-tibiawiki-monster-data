@@ -42,8 +42,8 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="86667" countmax="680" />
-		<item id="21428" name="fir cone" chance="40000" countmax="3" />
+		<item id="2148" name="gold coin" chance="88889" countmax="680" />
+		<item id="21428" name="fir cone" chance="38889" countmax="3" />
 		<item id="21427" name="dowser" chance="33333" countmax="2" />
 	</loot>
 </monster>

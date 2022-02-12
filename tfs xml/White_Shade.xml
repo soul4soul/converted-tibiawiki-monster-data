@@ -50,6 +50,6 @@
 		<voice sentence="No... don't go further stranger... danger lies in every step..." yell="false" />
 	</voices>
 	<loot>
-		<item id="5909" name="white piece of cloth" chance="3076" />
+		<item id="5909" name="white piece of cloth" chance="2973" />
 	</loot>
 </monster>

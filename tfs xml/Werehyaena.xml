@@ -49,22 +49,22 @@
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="3" />
-		<item id="7591" name="great health potion" chance="49587" countmax="3" />
-		<item id="2666" name="meat" chance="19173" />
-		<item id="2403" name="knife" chance="17134" />
-		<item id="2386" name="axe" chance="16597" />
-		<item id="36599" name="werehyaena nose" chance="12657" />
-		<item id="2381" name="halberd" chance="11476" />
-		<item id="18420" name="red crystal fragment" chance="9447" />
-		<item id="7762" name="small enchanted amethyst" chance="5797" countmax="5" />
-		<item id="2156" name="red gem" chance="5647" />
-		<item id="2154" name="yellow gem" chance="5443" />
-		<item id="20093" name="life preserver" chance="5335" />
-		<item id="2404" name="combat knife" chance="4906" />
-		<item id="18421" name="green crystal fragment" chance="4520" />
-		<item id="20092" name="ratana" chance="4283" />
-		<item id="24739" name="moonlight crystals" chance="709" />
-		<item id="36600" name="werehyaena talisman" chance="655" />
-		<item id="36875" name="werehyaena trophy" chance="204" />
+		<item id="7591" name="great health potion" chance="49832" countmax="3" />
+		<item id="2666" name="meat" chance="19199" />
+		<item id="2403" name="knife" chance="17326" />
+		<item id="2386" name="axe" chance="16117" />
+		<item id="36599" name="werehyaena nose" chance="12509" />
+		<item id="2381" name="halberd" chance="11572" />
+		<item id="18420" name="red crystal fragment" chance="9665" />
+		<item id="7762" name="small enchanted amethyst" chance="5877" countmax="5" />
+		<item id="2156" name="red gem" chance="5679" />
+		<item id="2154" name="yellow gem" chance="5564" />
+		<item id="20093" name="life preserver" chance="5408" />
+		<item id="2404" name="combat knife" chance="4825" />
+		<item id="18421" name="green crystal fragment" chance="4446" />
+		<item id="20092" name="ratana" chance="4290" />
+		<item id="24739" name="moonlight crystals" chance="1077" />
+		<item id="36600" name="werehyaena talisman" chance="649" />
+		<item id="36875" name="werehyaena trophy" chance="205" />
 	</loot>
 </monster>

@@ -49,17 +49,17 @@
 		<voice sentence="Hurr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="66301" countmax="25" />
+		<item id="2148" name="gold coin" chance="66302" countmax="25" />
 		<item id="2510" name="plate shield" chance="20040" />
-		<item id="2398" name="mace" chance="13065" />
-		<item id="2464" name="chain armor" chance="10056" />
-		<item id="2460" name="brass helmet" chance="7990" />
-		<item id="2376" name="sword" chance="4965" />
-		<item id="2666" name="meat" chance="4960" />
-		<item id="2386" name="axe" chance="3977" />
+		<item id="2398" name="mace" chance="13078" />
+		<item id="2464" name="chain armor" chance="10051" />
+		<item id="2460" name="brass helmet" chance="7992" />
+		<item id="2376" name="sword" chance="4966" />
+		<item id="2666" name="meat" chance="4958" />
+		<item id="2386" name="axe" chance="3975" />
 		<item id="12428" name="minotaur horn" chance="2026" countmax="2" />
-		<item id="5878" name="minotaur leather" chance="1004" />
+		<item id="5878" name="minotaur leather" chance="1005" />
 		<item id="2554" name="shovel" chance="307" />
-		<item id="2172" name="bronze amulet" chance="108" />
+		<item id="2172" name="bronze amulet" chance="109" />
 	</loot>
 </monster>

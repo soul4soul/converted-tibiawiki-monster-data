@@ -55,9 +55,9 @@
 		<voice sentence="GRRR" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98837" countmax="214" />
-		<item id="7588" name="strong health potion" chance="21705" />
-		<item id="7589" name="strong mana potion" chance="14729" />
-		<item id="13296" name="draptor scales" chance="7752" />
+		<item id="2148" name="gold coin" chance="98855" countmax="214" />
+		<item id="7588" name="strong health potion" chance="22137" />
+		<item id="7589" name="strong mana potion" chance="15267" />
+		<item id="13296" name="draptor scales" chance="7634" />
 	</loot>
 </monster>

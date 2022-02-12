@@ -49,9 +49,9 @@
 		<voice sentence="Grrrrrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="49589" countmax="30" />
-		<item id="3976" name="worm" chance="49203" countmax="3" />
-		<item id="2666" name="meat" chance="39990" />
-		<item id="11324" name="shaggy tail" chance="24141" />
+		<item id="2148" name="gold coin" chance="49425" countmax="30" />
+		<item id="3976" name="worm" chance="49197" countmax="3" />
+		<item id="2666" name="meat" chance="39933" />
+		<item id="11324" name="shaggy tail" chance="23981" />
 	</loot>
 </monster>

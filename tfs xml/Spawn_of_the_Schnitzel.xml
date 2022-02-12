@@ -42,6 +42,6 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="34749" name="schnitzel meat grinder" chance="95127" />
+		<item id="34749" name="schnitzel meat grinder" chance="95354" />
 	</loot>
 </monster>

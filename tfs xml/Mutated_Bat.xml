@@ -50,19 +50,19 @@
 		<voice sentence="Shriiiiiek" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="92588" countmax="130" />
-		<item id="9808" name="heavily rusted armor" chance="12525" />
-		<item id="2513" name="battle shield" chance="8223" />
-		<item id="2425" name="obsidian lance" chance="6375" />
-		<item id="10579" name="mutated bat ear" chance="5204" />
-		<item id="5894" name="bat wing" chance="4888" countmax="2" />
-		<item id="2800" name="star herb" chance="4866" />
-		<item id="2167" name="energy ring" chance="1036" />
-		<item id="2144" name="black pearl" chance="924" countmax="3" />
-		<item id="9809" name="rusted armor" chance="653" />
-		<item id="2150" name="small amethyst" chance="653" countmax="2" />
-		<item id="10016" name="batwing hat" chance="158" />
-		<item id="2529" name="black shield" chance="90" />
-		<item id="7386" name="mercenary sword" chance="90" />
+		<item id="2148" name="gold coin" chance="92609" countmax="130" />
+		<item id="9808" name="heavily rusted armor" chance="12638" />
+		<item id="2513" name="battle shield" chance="8536" />
+		<item id="2425" name="obsidian lance" chance="6475" />
+		<item id="10579" name="mutated bat ear" chance="5184" />
+		<item id="2800" name="star herb" chance="4851" />
+		<item id="5894" name="bat wing" chance="4789" countmax="2" />
+		<item id="2167" name="energy ring" chance="1020" />
+		<item id="2144" name="black pearl" chance="937" countmax="3" />
+		<item id="9809" name="rusted armor" chance="708" />
+		<item id="2150" name="small amethyst" chance="645" countmax="2" />
+		<item id="10016" name="batwing hat" chance="146" />
+		<item id="2529" name="black shield" chance="125" />
+		<item id="7386" name="mercenary sword" chance="104" />
 	</loot>
 </monster>

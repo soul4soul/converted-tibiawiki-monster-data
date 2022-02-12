@@ -52,14 +52,14 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="176" />
-		<item id="2666" name="meat" chance="29814" />
-		<item id="11210" name="striped fur" chance="20647" />
-		<item id="11228" name="sabretooth" chance="11231" />
-		<item id="7588" name="strong health potion" chance="6006" countmax="2" />
-		<item id="2168" name="life ring" chance="5981" countmax="2" />
-		<item id="7454" name="glorious axe" chance="1005" />
-		<item id="9959" name="silky tapestry" chance="951" />
+		<item id="2666" name="meat" chance="29850" />
+		<item id="11210" name="striped fur" chance="20560" />
+		<item id="11228" name="sabretooth" chance="11213" />
+		<item id="7588" name="strong health potion" chance="5953" countmax="2" />
+		<item id="2168" name="life ring" chance="5948" countmax="2" />
+		<item id="7454" name="glorious axe" chance="1012" />
+		<item id="9959" name="silky tapestry" chance="945" />
 		<item id="2515" name="guardian shield" chance="463" />
-		<item id="7436" name="angelic axe" chance="415" />
+		<item id="7436" name="angelic axe" chance="411" />
 	</loot>
 </monster>

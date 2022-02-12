@@ -55,18 +55,18 @@
 		<voice sentence="This is where your path will end!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2689" name="bread" chance="20444" />
-		<item id="2148" name="gold coin" chance="14429" countmax="18" />
-		<item id="11220" name="dark rosary" chance="10196" />
-		<item id="12448" name="rope belt" chance="6057" />
-		<item id="10563" name="book of prayers" chance="1957" />
-		<item id="1949" name="scroll" chance="1833" />
-		<item id="2177" name="life crystal" chance="995" />
-		<item id="12449" name="safety pin" chance="957" />
-		<item id="2193" name="ankh" chance="910" />
-		<item id="7620" name="mana potion" chance="857" />
-		<item id="2642" name="sandals" chance="852" />
-		<item name="lamp" chance="567" />
+		<item id="2689" name="bread" chance="20451" />
+		<item id="2148" name="gold coin" chance="14425" countmax="18" />
+		<item id="11220" name="dark rosary" chance="10187" />
+		<item id="12448" name="rope belt" chance="6059" />
+		<item id="10563" name="book of prayers" chance="1959" />
+		<item id="1949" name="scroll" chance="1841" />
+		<item id="2177" name="life crystal" chance="994" />
+		<item id="12449" name="safety pin" chance="956" />
+		<item id="2193" name="ankh" chance="908" />
+		<item id="7620" name="mana potion" chance="861" />
+		<item id="2642" name="sandals" chance="851" />
+		<item name="lamp" chance="566" />
 		<item id="2015" name="brown flask" chance="376" />
 		<item id="2166" name="power ring" chance="119" />
 	</loot>

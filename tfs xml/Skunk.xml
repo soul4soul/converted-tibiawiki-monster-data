@@ -47,7 +47,7 @@
 		<defense name="healing" interval="2000" chance="20" min="2" max="5" />
 	</defenses>
 	<loot>
-		<item id="9114" name="bulb of garlic" chance="4467" />
-		<item id="11191" name="skunk tail" chance="879" />
+		<item id="9114" name="bulb of garlic" chance="4471" />
+		<item id="11191" name="skunk tail" chance="887" />
 	</loot>
 </monster>

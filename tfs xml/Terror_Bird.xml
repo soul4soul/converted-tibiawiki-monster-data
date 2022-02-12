@@ -50,13 +50,13 @@
 		<voice sentence="CRAAAHHH!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82486" countmax="30" />
-		<item id="2666" name="meat" chance="48555" />
-		<item id="11190" name="terrorbird beak" chance="10239" />
-		<item id="3976" name="worm" chance="9567" />
-		<item id="12470" name="colourful feather" chance="3002" />
-		<item id="7618" name="health potion" chance="710" />
-		<item id="7732" name="seeds" chance="286" />
-		<item id="3970" name="feather headdress" chance="112" />
+		<item id="2148" name="gold coin" chance="82455" countmax="30" />
+		<item id="2666" name="meat" chance="48637" />
+		<item id="11190" name="terrorbird beak" chance="10253" />
+		<item id="3976" name="worm" chance="9636" />
+		<item id="12470" name="colourful feather" chance="3010" />
+		<item id="7618" name="health potion" chance="728" />
+		<item id="7732" name="seeds" chance="284" />
+		<item id="3970" name="feather headdress" chance="111" />
 	</loot>
 </monster>

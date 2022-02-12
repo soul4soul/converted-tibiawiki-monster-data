@@ -45,17 +45,17 @@
 	</attacks>
 	<defenses armor="80" defense="80" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="64869" />
-		<item id="34883" name="lost soul (item)" chance="35877" />
-		<item id="2436" name="skull staff" chance="4796" />
-		<item id="35359" name="death toll" chance="4737" />
-		<item id="2420" name="machete" chance="4561" />
-		<item id="35354" name="ensouled essence" chance="3207" />
-		<item id="2432" name="fire axe" chance="1618" />
-		<item id="35429" name="ivory comb" chance="1393" />
-		<item id="7386" name="mercenary sword" chance="1324" />
-		<item id="7407" name="haunted blade" chance="1108" />
-		<item id="15451" name="warrior's axe" chance="912" />
-		<item id="12613" name="twiceslicer" chance="422" />
+		<item id="2152" name="platinum coin" chance="65283" />
+		<item id="34883" name="lost soul (item)" chance="35866" />
+		<item id="35359" name="death toll" chance="4827" />
+		<item id="2436" name="skull staff" chance="4790" />
+		<item id="2420" name="machete" chance="4651" />
+		<item id="35354" name="ensouled essence" chance="3234" />
+		<item id="2432" name="fire axe" chance="1612" />
+		<item id="35429" name="ivory comb" chance="1529" />
+		<item id="7386" name="mercenary sword" chance="1325" />
+		<item id="7407" name="haunted blade" chance="1084" />
+		<item id="15451" name="warrior's axe" chance="927" />
+		<item id="12613" name="twiceslicer" chance="435" />
 	</loot>
 </monster>

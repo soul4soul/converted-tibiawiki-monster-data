@@ -45,15 +45,15 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="90385" countmax="198" />
-		<item id="2152" name="platinum coin" chance="72115" countmax="5" />
-		<item id="7588" name="strong health potion" chance="72115" />
-		<item id="2146" name="small sapphire" chance="65385" countmax="5" />
-		<item id="2145" name="small diamond" chance="63462" countmax="4" />
-		<item id="10578" name="frosty heart" chance="56731" />
-		<item id="7441" name="ice cube" chance="50000" countmax="2" />
-		<item id="7290" name="shard" chance="32692" />
-		<item id="2144" name="black pearl" chance="1923" />
-		<item id="7902" name="glacier mask" chance="962" />
+		<item id="2148" name="gold coin" chance="90476" countmax="198" />
+		<item id="2152" name="platinum coin" chance="72381" countmax="5" />
+		<item id="7588" name="strong health potion" chance="72381" />
+		<item id="2146" name="small sapphire" chance="65714" countmax="5" />
+		<item id="2145" name="small diamond" chance="63810" countmax="4" />
+		<item id="10578" name="frosty heart" chance="57143" />
+		<item id="7441" name="ice cube" chance="49524" countmax="2" />
+		<item id="7290" name="shard" chance="33333" />
+		<item id="2144" name="black pearl" chance="1905" />
+		<item id="7902" name="glacier mask" chance="952" />
 	</loot>
 </monster>

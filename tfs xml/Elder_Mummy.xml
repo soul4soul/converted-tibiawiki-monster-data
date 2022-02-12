@@ -45,17 +45,17 @@
 	</attacks>
 	<defenses armor="35" defense="35" />
 	<loot>
-		<item id="2148" name="gold coin" chance="88010" countmax="160" />
-		<item id="3976" name="worm" chance="19123" countmax="3" />
-		<item id="12422" name="flask of embalming fluid" chance="12280" />
-		<item id="10566" name="gauze bandage" chance="9634" />
-		<item id="2159" name="scarab coin" chance="9489" countmax="3" />
-		<item id="2162" name="magic light wand" chance="5712" />
-		<item id="2161" name="strange talisman" chance="4725" />
-		<item id="2134" name="silver brooch" chance="3804" />
-		<item id="13472" name="pharaoh banner" chance="2369" />
-		<item id="2124" name="crystal ring" chance="1685" />
-		<item id="2144" name="black pearl" chance="1145" />
-		<item id="2411" name="poison dagger" chance="579" />
+		<item id="2148" name="gold coin" chance="88049" countmax="160" />
+		<item id="3976" name="worm" chance="19093" countmax="3" />
+		<item id="12422" name="flask of embalming fluid" chance="12223" />
+		<item id="10566" name="gauze bandage" chance="9657" />
+		<item id="2159" name="scarab coin" chance="9475" countmax="3" />
+		<item id="2162" name="magic light wand" chance="5716" />
+		<item id="2161" name="strange talisman" chance="4705" />
+		<item id="2134" name="silver brooch" chance="3785" />
+		<item id="13472" name="pharaoh banner" chance="2372" />
+		<item id="2124" name="crystal ring" chance="1724" />
+		<item id="2144" name="black pearl" chance="1128" />
+		<item id="2411" name="poison dagger" chance="570" />
 	</loot>
 </monster>

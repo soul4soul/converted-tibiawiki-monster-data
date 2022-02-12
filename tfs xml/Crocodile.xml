@@ -45,9 +45,9 @@
 	</attacks>
 	<defenses armor="13" defense="13" />
 	<loot>
-		<item id="2148" name="gold coin" chance="49798" countmax="10" />
-		<item id="2671" name="ham" chance="39771" />
-		<item id="11196" name="piece of crocodile leather" chance="20028" />
-		<item id="3982" name="crocodile boots" chance="85" />
+		<item id="2148" name="gold coin" chance="49805" countmax="10" />
+		<item id="2671" name="ham" chance="39785" />
+		<item id="11196" name="piece of crocodile leather" chance="20043" />
+		<item id="3982" name="crocodile boots" chance="84" />
 	</loot>
 </monster>

@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Rotten Golem"
 monster.description = "a rotten golem"
-monster.experience = 19000
+monster.experience = 17860
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -87,21 +87,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 62888},
-	{id = 8472, chance = 32876, maxCount = 5},
-	{id = 10219, chance = 4057},
-	{id = 7632, chance = 2804},
-	{id = 8910, chance = 2760},
-	{id = 7413, chance = 2446},
-	{id = 7887, chance = 2372},
-	{id = 7386, chance = 1969},
-	{id = 2393, chance = 1954},
-	{id = 2454, chance = 1790},
-	{id = 24741, chance = 1313},
-	{id = 2197, chance = 671},
-	{id = 2664, chance = 656},
-	{id = 7884, chance = 537},
-	{id = 23536, chance = 507}
+	{id = 2160, chance = 56906},
+	{id = 8472, chance = 35359, maxCount = 5},
+	{id = 7887, chance = 3867},
+	{id = 7413, chance = 3315},
+	{id = 2393, chance = 2762},
+	{id = 7386, chance = 2762},
+	{id = 10219, chance = 2762},
+	{id = 7632, chance = 2210},
+	{id = 2197, chance = 1105},
+	{id = 8910, chance = 1105},
+	{id = 2454, chance = 1105},
+	{id = 2664, chance = 1105},
+	{id = 7884, chance = 552}
 }
 
 mType:register(monster)

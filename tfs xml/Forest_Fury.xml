@@ -50,12 +50,12 @@
 		<voice sentence="By the power of Greenskull!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87779" countmax="55" />
-		<item id="2543" name="bolt" chance="50567" countmax="15" />
-		<item id="2666" name="meat" chance="24942" />
-		<item id="7363" name="piercing bolt" chance="14869" countmax="5" />
-		<item id="21312" name="venison" chance="12039" />
-		<item id="21311" name="elven hoof" chance="7436" />
+		<item id="2148" name="gold coin" chance="87781" countmax="55" />
+		<item id="2543" name="bolt" chance="50563" countmax="15" />
+		<item id="2666" name="meat" chance="24946" />
+		<item id="7363" name="piercing bolt" chance="14870" countmax="5" />
+		<item id="21312" name="venison" chance="12037" />
+		<item id="21311" name="elven hoof" chance="7435" />
 		<item id="2455" name="crossbow" chance="2578" />
 		<item id="9970" name="small topaz" chance="480" />
 		<item id="7438" name="elvish bow" chance="80" />

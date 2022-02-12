@@ -49,13 +49,13 @@
 		<voice sentence="Ngl..Nglll...Gll" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82309" countmax="109" />
-		<item id="2230" name="bone" chance="50225" />
-		<item id="3976" name="worm" chance="24675" countmax="12" />
-		<item id="2159" name="scarab coin" chance="7982" />
-		<item id="2397" name="longsword" chance="6488" />
-		<item id="2541" name="bone shield" chance="5180" />
+		<item id="2148" name="gold coin" chance="82325" countmax="109" />
+		<item id="2230" name="bone" chance="50308" />
+		<item id="3976" name="worm" chance="24652" countmax="12" />
+		<item id="2159" name="scarab coin" chance="7989" />
+		<item id="2397" name="longsword" chance="6429" />
+		<item id="2541" name="bone shield" chance="5189" />
 		<item id="2227" name="rotten meat" chance="1765" />
-		<item id="13535" name="fist on a stick" chance="209" />
+		<item id="13535" name="fist on a stick" chance="213" />
 	</loot>
 </monster>

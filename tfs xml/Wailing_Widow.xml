@@ -50,14 +50,14 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="96805" countmax="140" />
-		<item id="11328" name="widow's mandibles" chance="20036" />
-		<item id="7620" name="mana potion" chance="5281" />
-		<item id="7618" name="health potion" chance="4959" />
-		<item id="2381" name="halberd" chance="4747" />
-		<item id="2510" name="plate shield" chance="3134" />
-		<item id="2796" name="green mushroom" chance="3074" />
-		<item id="11323" name="zaoan halberd" chance="2248" />
-		<item id="11329" name="wailing widow's necklace" chance="675" />
+		<item id="2148" name="gold coin" chance="96823" countmax="140" />
+		<item id="11328" name="widow's mandibles" chance="20008" />
+		<item id="7620" name="mana potion" chance="5282" />
+		<item id="7618" name="health potion" chance="4896" />
+		<item id="2381" name="halberd" chance="4732" />
+		<item id="2510" name="plate shield" chance="3167" />
+		<item id="2796" name="green mushroom" chance="3003" />
+		<item id="11323" name="zaoan halberd" chance="2240" />
+		<item id="11329" name="wailing widow's necklace" chance="666" />
 	</loot>
 </monster>

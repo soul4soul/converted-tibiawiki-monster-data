@@ -45,12 +45,12 @@
 	</attacks>
 	<defenses armor="76" defense="76" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="74925" countmax="55" />
-		<item id="31225" name="book page" chance="62111" countmax="6" />
-		<item id="31226" name="glowing rune" chance="40905" countmax="9" />
-		<item id="31222" name="silken bookmark" chance="29648" />
-		<item id="2231" name="big bone" chance="7940" countmax="2" />
-		<item id="2666" name="meat" chance="3417" />
-		<item id="2133" name="ruby necklace" chance="1910" />
+		<item id="2152" name="platinum coin" chance="75067" countmax="55" />
+		<item id="31225" name="book page" chance="61950" countmax="6" />
+		<item id="31226" name="glowing rune" chance="40836" countmax="9" />
+		<item id="31222" name="silken bookmark" chance="30189" />
+		<item id="2231" name="big bone" chance="7727" countmax="2" />
+		<item id="2666" name="meat" chance="3594" />
+		<item id="2133" name="ruby necklace" chance="1797" />
 	</loot>
 </monster>

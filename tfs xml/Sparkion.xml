@@ -50,27 +50,27 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="90044" countmax="3" />
-		<item id="26191" name="energy bar" chance="15070" />
-		<item id="26158" name="sparkion claw" chance="14857" />
-		<item id="26201" name="energy drink" chance="14526" />
-		<item id="26161" name="sparkion stings" chance="14234" />
-		<item id="26160" name="sparkion legs" chance="11259" />
-		<item id="26159" name="sparkion tail" chance="9947" />
-		<item id="8472" name="great spirit potion" chance="9908" countmax="2" />
-		<item id="7591" name="great health potion" chance="9762" countmax="2" />
-		<item id="7590" name="great mana potion" chance="9713" countmax="2" />
-		<item id="18418" name="blue crystal splinter" chance="8333" />
-		<item id="18419" name="cyan crystal fragment" chance="5231" />
-		<item id="2146" name="small sapphire" chance="4677" countmax="2" />
-		<item id="18413" name="blue crystal shard" chance="4579" />
-		<item id="2158" name="blue gem" chance="933" />
-		<item id="2189" name="wand of cosmic energy" chance="719" />
-		<item name="ring of blue plasma" chance="360" />
-		<item name="ring of green plasma" chance="331" />
-		<item name="ring of red plasma" chance="301" />
-		<item id="26199" name="collar of green plasma" chance="272" />
-		<item name="collar of blue plasma" chance="214" />
-		<item id="26200" name="collar of red plasma" chance="146" />
+		<item id="2152" name="platinum coin" chance="90108" countmax="3" />
+		<item id="26191" name="energy bar" chance="15137" />
+		<item id="26158" name="sparkion claw" chance="14846" />
+		<item id="26201" name="energy drink" chance="14546" />
+		<item id="26161" name="sparkion stings" chance="14176" />
+		<item id="26160" name="sparkion legs" chance="11240" />
+		<item id="26159" name="sparkion tail" chance="9971" />
+		<item id="8472" name="great spirit potion" chance="9856" countmax="2" />
+		<item id="7591" name="great health potion" chance="9812" countmax="2" />
+		<item id="7590" name="great mana potion" chance="9654" countmax="2" />
+		<item id="18418" name="blue crystal splinter" chance="8463" />
+		<item id="18419" name="cyan crystal fragment" chance="5298" />
+		<item id="2146" name="small sapphire" chance="4725" countmax="2" />
+		<item id="18413" name="blue crystal shard" chance="4637" />
+		<item id="2158" name="blue gem" chance="943" />
+		<item id="2189" name="wand of cosmic energy" chance="714" />
+		<item name="ring of green plasma" chance="361" />
+		<item name="ring of blue plasma" chance="344" />
+		<item name="ring of red plasma" chance="291" />
+		<item id="26199" name="collar of green plasma" chance="273" />
+		<item name="collar of blue plasma" chance="212" />
+		<item id="26200" name="collar of red plasma" chance="168" />
 	</loot>
 </monster>

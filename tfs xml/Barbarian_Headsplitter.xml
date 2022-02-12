@@ -42,6 +42,9 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-50" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-60" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="whirlwindaxe" />
+		</attack>
 	</attacks>
 	<defenses armor="7" defense="7" />
 	<voices interval="5000" chance="10">
@@ -51,17 +54,17 @@
 		<voice sentence="Die! Die! Die!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75201" countmax="30" />
-		<item name="torch" chance="59831" />
-		<item id="2460" name="brass helmet" chance="20191" />
-		<item id="2403" name="knife" chance="14940" />
-		<item id="2473" name="viking helmet" chance="4964" />
-		<item id="2483" name="scale armor" chance="4048" />
-		<item id="2229" name="skull (item)" chance="3187" />
-		<item id="5913" name="brown piece of cloth" chance="971" />
-		<item id="7618" name="health potion" chance="531" />
-		<item id="2168" name="life ring" chance="220" />
-		<item id="7461" name="krimhorn helmet" chance="114" />
+		<item id="2148" name="gold coin" chance="75202" countmax="30" />
+		<item name="torch" chance="59809" />
+		<item id="2460" name="brass helmet" chance="20181" />
+		<item id="2403" name="knife" chance="14936" />
+		<item id="2473" name="viking helmet" chance="4957" />
+		<item id="2483" name="scale armor" chance="4049" />
+		<item id="2229" name="skull (item)" chance="3190" />
+		<item id="5913" name="brown piece of cloth" chance="973" />
+		<item id="7618" name="health potion" chance="530" />
+		<item id="2168" name="life ring" chance="219" />
+		<item id="7461" name="krimhorn helmet" chance="113" />
 		<item id="7457" name="fur boots" chance="88" />
 	</loot>
 </monster>

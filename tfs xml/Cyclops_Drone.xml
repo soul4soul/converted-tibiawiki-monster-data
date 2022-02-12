@@ -42,6 +42,9 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-80" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="largerock" />
+		</attack>
 	</attacks>
 	<defenses armor="25" defense="25" />
 	<voices interval="5000" chance="10">
@@ -51,16 +54,16 @@
 		<voice sentence="Humy tasy! Hum hum!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82088" countmax="30" />
-		<item id="2666" name="meat" chance="50227" />
-		<item id="2406" name="short sword" chance="7872" />
-		<item id="10574" name="cyclops toe" chance="6899" />
-		<item id="2510" name="plate shield" chance="2024" />
-		<item id="2513" name="battle shield" chance="1570" />
-		<item id="2381" name="halberd" chance="672" />
-		<item id="7588" name="strong health potion" chance="527" />
-		<item id="2490" name="dark helmet" chance="197" />
-		<item id="7398" name="cyclops trophy" chance="125" />
-		<item id="2209" name="club ring" chance="70" />
+		<item id="2148" name="gold coin" chance="82060" countmax="30" />
+		<item id="2666" name="meat" chance="50256" />
+		<item id="2406" name="short sword" chance="7878" />
+		<item id="10574" name="cyclops toe" chance="6890" />
+		<item id="2510" name="plate shield" chance="2030" />
+		<item id="2513" name="battle shield" chance="1569" />
+		<item id="2381" name="halberd" chance="675" />
+		<item id="7588" name="strong health potion" chance="517" />
+		<item id="2490" name="dark helmet" chance="196" />
+		<item id="7398" name="cyclops trophy" chance="122" />
+		<item id="2209" name="club ring" chance="74" />
 	</loot>
 </monster>

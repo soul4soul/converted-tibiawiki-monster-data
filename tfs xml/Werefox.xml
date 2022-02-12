@@ -49,22 +49,22 @@
 		<voice sentence="Yelp!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="89929" countmax="4" />
-		<item id="2148" name="gold coin" chance="83952" countmax="85" />
-		<item id="30118" name="fox paw" chance="15299" />
-		<item id="30119" name="werefox tail" chance="13243" />
-		<item id="2805" name="troll green" chance="5123" />
-		<item id="7620" name="mana potion" chance="5053" />
-		<item id="7589" name="strong mana potion" chance="4269" />
-		<item id="7368" name="assassin star" chance="3102" countmax="5" />
-		<item id="2127" name="emerald bangle" chance="2945" />
-		<item id="2186" name="moonlight rod" chance="2056" />
-		<item id="7590" name="great mana potion" chance="1882" />
-		<item id="7761" name="small enchanted emerald" chance="1481" countmax="2" />
-		<item id="2214" name="ring of healing" chance="1115" />
-		<item id="24716" name="werewolf amulet" chance="836" />
-		<item id="24739" name="moonlight crystals" chance="802" />
-		<item id="2171" name="platinum amulet" chance="488" />
-		<item id="30362" name="werefox trophy" chance="139" />
+		<item id="2152" name="platinum coin" chance="89833" countmax="4" />
+		<item id="2148" name="gold coin" chance="83923" countmax="85" />
+		<item id="30118" name="fox paw" chance="15225" />
+		<item id="30119" name="werefox tail" chance="13289" />
+		<item id="2805" name="troll green" chance="5225" />
+		<item id="7620" name="mana potion" chance="5109" />
+		<item id="7589" name="strong mana potion" chance="4341" />
+		<item id="7368" name="assassin star" chance="3088" countmax="5" />
+		<item id="2127" name="emerald bangle" chance="2955" />
+		<item id="2186" name="moonlight rod" chance="2053" />
+		<item id="7590" name="great mana potion" chance="1920" />
+		<item id="7761" name="small enchanted emerald" chance="1419" countmax="2" />
+		<item id="2214" name="ring of healing" chance="1119" />
+		<item id="24739" name="moonlight crystals" chance="918" />
+		<item id="24716" name="werewolf amulet" chance="851" />
+		<item id="2171" name="platinum amulet" chance="484" />
+		<item id="30362" name="werefox trophy" chance="134" />
 	</loot>
 </monster>

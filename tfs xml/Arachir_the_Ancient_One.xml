@@ -59,10 +59,10 @@
 		<item id="12405" name="blood preservation" chance="100000" />
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="9020" name="vampire lord token" chance="100000" />
-		<item id="7588" name="strong health potion" chance="20000" />
+		<item id="7588" name="strong health potion" chance="21333" />
 		<item id="2214" name="ring of healing" chance="13333" />
-		<item id="2534" name="vampire shield" chance="6667" />
-		<item id="2152" name="platinum coin" chance="5000" countmax="5" />
-		<item id="2229" name="skull (item)" chance="1667" />
+		<item id="2534" name="vampire shield" chance="8000" />
+		<item id="2152" name="platinum coin" chance="6667" countmax="5" />
+		<item id="2229" name="skull (item)" chance="5333" />
 	</loot>
 </monster>

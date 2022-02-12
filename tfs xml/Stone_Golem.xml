@@ -45,17 +45,17 @@
 	</attacks>
 	<defenses armor="30" defense="30" />
 	<loot>
-		<item id="2148" name="gold coin" chance="95795" countmax="40" />
-		<item id="1294" name="small stone" chance="12880" countmax="4" />
-		<item id="11232" name="sulphurous stone" chance="10132" />
-		<item id="2166" name="power ring" chance="5138" />
-		<item id="2395" name="carlin sword" chance="2551" />
-		<item id="5880" name="iron ore" chance="2066" />
-		<item id="10549" name="ancient stone" chance="1010" />
-		<item id="11227" name="shiny stone" chance="775" />
-		<item id="13757" name="coal" chance="531" />
+		<item id="2148" name="gold coin" chance="95796" countmax="40" />
+		<item id="1294" name="small stone" chance="12858" countmax="4" />
+		<item id="11232" name="sulphurous stone" chance="10119" />
+		<item id="2166" name="power ring" chance="5133" />
+		<item id="2395" name="carlin sword" chance="2567" />
+		<item id="5880" name="iron ore" chance="2059" />
+		<item id="10549" name="ancient stone" chance="1015" />
+		<item id="11227" name="shiny stone" chance="776" />
+		<item id="13757" name="coal" chance="530" />
 		<item id="11343" name="piece of marble rock" chance="415" />
-		<item id="2124" name="crystal ring" chance="177" />
+		<item id="2124" name="crystal ring" chance="179" />
 		<item id="2156" name="red gem" chance="48" />
 	</loot>
 </monster>

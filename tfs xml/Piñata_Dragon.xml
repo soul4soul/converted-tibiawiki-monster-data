@@ -53,20 +53,20 @@
 	</voices>
 	<loot>
 		<item id="6569" name="candy" chance="100000" countmax="3" />
-		<item name="surprise bag" chance="52201" countmax="2" />
-		<item id="2687" name="cookie" chance="50440" countmax="5" />
-		<item id="32858" name="winterberry liquor" chance="13775" />
-		<item id="32854" name="meringue cake" chance="10979" />
-		<item id="6574" name="bar of chocolate" chance="6784" />
-		<item id="32971" name="pinata" chance="6577" />
-		<item id="6280" name="party cake" chance="6422" />
-		<item id="27605" name="costume bag (retro)" chance="5075" />
-		<item id="32853" name="festive backpack" chance="4143" />
-		<item id="27058" name="chocolatey dragon scale legs" chance="2900" />
-		<item id="27053" name="ferumbras' candy hat" chance="2330" />
-		<item id="2110" name="doll" chance="1554" />
-		<item id="7487" name="toy mouse" chance="259" />
-		<item id="32973" name="ferumbras puppet" chance="207" />
-		<item name="stuffed dragon" chance="207" />
+		<item name="surprise bag" chance="52950" countmax="2" />
+		<item id="2687" name="cookie" chance="50552" countmax="5" />
+		<item id="32858" name="winterberry liquor" chance="13909" />
+		<item id="32854" name="meringue cake" chance="11127" />
+		<item id="6574" name="bar of chocolate" chance="6859" />
+		<item id="32971" name="pinata" chance="6523" />
+		<item id="6280" name="party cake" chance="6379" />
+		<item id="27605" name="costume bag (retro)" chance="5084" />
+		<item id="32853" name="festive backpack" chance="3981" />
+		<item id="27058" name="chocolatey dragon scale legs" chance="2734" />
+		<item id="27053" name="ferumbras' candy hat" chance="2302" />
+		<item id="2110" name="doll" chance="1487" />
+		<item id="32973" name="ferumbras puppet" chance="240" />
+		<item id="7487" name="toy mouse" chance="240" />
+		<item name="stuffed dragon" chance="192" />
 	</loot>
 </monster>

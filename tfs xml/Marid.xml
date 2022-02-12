@@ -56,18 +56,18 @@
 		<voice name="Blue Djinn" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="97110" countmax="130" />
-		<item id="2677" name="blueberry" chance="25793" countmax="25" />
-		<item id="7378" name="royal spear" chance="15591" countmax="3" />
-		<item id="7589" name="strong mana potion" chance="9758" />
-		<item id="12426" name="jewelled belt" chance="7715" />
-		<item id="2146" name="small sapphire" chance="6438" />
-		<item id="2442" name="heavy machete" chance="4919" />
-		<item id="5912" name="blue piece of cloth" chance="3320" />
-		<item id="7732" name="seeds" chance="2688" />
-		<item id="1872" name="blue tapestry" chance="2567" />
+		<item id="2148" name="gold coin" chance="97112" countmax="130" />
+		<item id="2677" name="blueberry" chance="25779" countmax="25" />
+		<item id="7378" name="royal spear" chance="15610" countmax="3" />
+		<item id="7589" name="strong mana potion" chance="9766" />
+		<item id="12426" name="jewelled belt" chance="7738" />
+		<item id="2146" name="small sapphire" chance="6435" />
+		<item id="2442" name="heavy machete" chance="4917" />
+		<item id="5912" name="blue piece of cloth" chance="3318" />
+		<item id="7732" name="seeds" chance="2687" />
+		<item id="1872" name="blue tapestry" chance="2566" />
 		<item id="2183" name="hailstorm rod" chance="645" />
-		<item id="12442" name="noble turban" chance="538" />
+		<item id="12442" name="noble turban" chance="537" />
 		<item id="2070" name="wooden flute" chance="390" />
 		<item id="7900" name="magma monocle" chance="336" />
 		<item id="2663" name="mystic turban" chance="228" />

@@ -48,6 +48,6 @@
 		<voice sentence="Bssssss" yell="false" />
 	</voices>
 	<loot>
-		<item id="5902" name="honeycomb" chance="3036" />
+		<item id="5902" name="honeycomb" chance="3042" />
 	</loot>
 </monster>

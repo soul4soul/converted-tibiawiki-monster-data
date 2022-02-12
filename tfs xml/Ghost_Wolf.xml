@@ -45,6 +45,6 @@
 	</attacks>
 	<defenses armor="12" defense="12" />
 	<loot>
-		<item id="2148" name="gold coin" chance="68920" countmax="20" />
+		<item id="2148" name="gold coin" chance="69083" countmax="20" />
 	</loot>
 </monster>

@@ -53,23 +53,23 @@
 		<voice name="Glooth Blob" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="99858" countmax="173" />
-		<item id="2152" name="platinum coin" chance="58322" countmax="3" />
-		<item id="23568" name="slimy leaf tentacle" chance="18423" />
-		<item id="23515" name="bowl of glooth soup" chance="9788" />
-		<item id="2149" name="small emerald" chance="8069" countmax="4" />
-		<item id="9970" name="small topaz" chance="7887" countmax="4" />
-		<item id="2147" name="small ruby" chance="7482" countmax="4" />
-		<item id="7589" name="strong mana potion" chance="7462" countmax="2" />
-		<item id="7588" name="strong health potion" chance="7199" countmax="2" />
-		<item id="23543" name="glooth whip" chance="4166" />
+		<item id="2148" name="gold coin" chance="99873" countmax="173" />
+		<item id="2152" name="platinum coin" chance="58140" countmax="3" />
+		<item id="23568" name="slimy leaf tentacle" chance="18379" />
+		<item id="23515" name="bowl of glooth soup" chance="9895" />
+		<item id="9970" name="small topaz" chance="7959" countmax="4" />
+		<item id="2149" name="small emerald" chance="7941" countmax="4" />
+		<item id="2147" name="small ruby" chance="7634" countmax="4" />
+		<item id="7589" name="strong mana potion" chance="7489" countmax="2" />
+		<item id="7588" name="strong health potion" chance="7381" countmax="2" />
+		<item id="23543" name="glooth whip" chance="4034" />
 		<item id="2796" name="green mushroom" chance="2912" />
-		<item id="8473" name="ultimate health potion" chance="2305" countmax="2" />
-		<item id="23549" name="glooth club" chance="1011" />
-		<item id="23554" name="glooth amulet" chance="991" />
-		<item id="23550" name="glooth blade" chance="849" />
-		<item id="23535" name="glooth cape" chance="849" />
-		<item id="23551" name="glooth axe" chance="809" />
-		<item id="23529" name="glooth spear" chance="789" />
+		<item id="8473" name="ultimate health potion" chance="2352" countmax="2" />
+		<item id="23549" name="glooth club" chance="1049" />
+		<item id="23554" name="glooth amulet" chance="941" />
+		<item id="23550" name="glooth blade" chance="868" />
+		<item id="23535" name="glooth cape" chance="868" />
+		<item id="23529" name="glooth spear" chance="832" />
+		<item id="23551" name="glooth axe" chance="814" />
 	</loot>
 </monster>

@@ -45,15 +45,11 @@
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="18" />
-		<item id="2379" name="dagger" chance="21875" />
-		<item id="2667" name="fish" chance="14062" countmax="2" />
-		<item id="1294" name="small stone" chance="12500" countmax="3" />
-		<item id="2461" name="leather helmet" chance="10938" />
-		<item id="2406" name="short sword" chance="6250" />
-		<item id="2559" name="small axe" chance="4688" />
-		<item id="2467" name="leather armor" chance="3125" />
-		<item id="2449" name="bone club" chance="3125" />
-		<item id="2484" name="studded armor" chance="1562" />
+		<item id="2148" name="gold coin" chance="100000" countmax="11" />
+		<item id="2667" name="fish" chance="30000" countmax="2" />
+		<item id="2379" name="dagger" chance="20000" />
+		<item id="2461" name="leather helmet" chance="10000" />
+		<item id="2406" name="short sword" chance="10000" />
+		<item id="2559" name="small axe" chance="10000" />
 	</loot>
 </monster>

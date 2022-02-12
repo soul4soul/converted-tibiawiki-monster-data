@@ -49,14 +49,14 @@
 		<voice sentence="Hell, oh, hell!" yell="false" />
 	</voices>
 	<loot>
-		<item id="12469" name="small pitchfork" chance="19476" />
-		<item id="2260" name="blank rune" chance="11076" />
-		<item id="2419" name="scimitar" chance="3022" />
-		<item name="torch" chance="1387" countmax="2" />
-		<item id="2387" name="double axe" chance="1359" />
-		<item id="2568" name="cleaver" chance="913" />
-		<item id="2185" name="necrotic rod" chance="460" />
-		<item id="2150" name="small amethyst" chance="269" />
-		<item id="2515" name="guardian shield" chance="198" />
+		<item id="12469" name="small pitchfork" chance="19462" />
+		<item id="2260" name="blank rune" chance="11059" />
+		<item id="2419" name="scimitar" chance="3028" />
+		<item name="torch" chance="1377" countmax="2" />
+		<item id="2387" name="double axe" chance="1356" />
+		<item id="2568" name="cleaver" chance="906" />
+		<item id="2185" name="necrotic rod" chance="457" />
+		<item id="2150" name="small amethyst" chance="267" />
+		<item id="2515" name="guardian shield" chance="204" />
 	</loot>
 </monster>

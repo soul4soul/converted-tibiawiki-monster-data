@@ -52,13 +52,13 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="92101" countmax="105" />
-		<item id="10584" name="boggy dreads" chance="9882" />
-		<item id="2647" name="plate legs" chance="2025" />
+		<item id="10584" name="boggy dreads" chance="9859" />
+		<item id="2647" name="plate legs" chance="2021" />
 		<item id="8472" name="great spirit potion" chance="2013" />
-		<item id="7591" name="great health potion" chance="2007" />
-		<item id="8912" name="springsprout rod" chance="1018" />
-		<item id="8473" name="ultimate health potion" chance="766" />
-		<item id="8872" name="belted cape" chance="584" />
-		<item id="8891" name="paladin armor" chance="138" />
+		<item id="7591" name="great health potion" chance="2001" />
+		<item id="8912" name="springsprout rod" chance="1015" />
+		<item id="8473" name="ultimate health potion" chance="767" />
+		<item id="8872" name="belted cape" chance="583" />
+		<item id="8891" name="paladin armor" chance="140" />
 	</loot>
 </monster>

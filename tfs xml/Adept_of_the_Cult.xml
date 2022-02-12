@@ -52,18 +52,18 @@
 		<voice sentence="Power to the cult!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="65593" countmax="60" />
-		<item id="10556" name="cultish robe" chance="10380" />
-		<item id="12448" name="rope belt" chance="9867" />
-		<item id="5810" name="pirate voodoo doll" chance="1499" />
-		<item id="2170" name="silver amulet" chance="1018" />
-		<item id="2423" name="clerical mace" chance="999" />
-		<item name="book (orange)" chance="909" />
-		<item id="6089" name="music sheet (third verse)" chance="627" />
-		<item id="7426" name="amber staff" chance="577" />
-		<item id="2169" name="time ring" chance="482" />
-		<item id="2147" name="small ruby" chance="286" />
-		<item id="2183" name="hailstorm rod" chance="191" />
+		<item id="2148" name="gold coin" chance="65588" countmax="60" />
+		<item id="10556" name="cultish robe" chance="10388" />
+		<item id="12448" name="rope belt" chance="9858" />
+		<item id="5810" name="pirate voodoo doll" chance="1509" />
+		<item id="2170" name="silver amulet" chance="1019" />
+		<item id="2423" name="clerical mace" chance="997" />
+		<item name="book (orange)" chance="906" />
+		<item id="6089" name="music sheet (third verse)" chance="625" />
+		<item id="7426" name="amber staff" chance="575" />
+		<item id="2169" name="time ring" chance="480" />
+		<item id="2147" name="small ruby" chance="285" />
+		<item id="2183" name="hailstorm rod" chance="190" />
 		<item id="12411" name="cultish symbol" chance="100" />
 		<item id="7424" name="lunar staff" chance="95" />
 		<item id="2655" name="red robe" chance="86" />

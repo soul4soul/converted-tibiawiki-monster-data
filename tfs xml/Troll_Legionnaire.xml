@@ -42,6 +42,9 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-40" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-130" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="throwingstar" />
+		</attack>
 	</attacks>
 	<defenses armor="12" defense="12">
 		<defense name="healing" interval="2000" chance="20" min="21" max="52" />
@@ -51,9 +54,9 @@
 		<voice sentence="Graaaaar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="93491" countmax="155" />
-		<item id="2399" name="throwing star" chance="28618" countmax="10" />
-		<item id="10565" name="frosty ear of a troll" chance="4949" />
-		<item id="2165" name="stealth ring" chance="269" />
+		<item id="2148" name="gold coin" chance="93730" countmax="156" />
+		<item id="2399" name="throwing star" chance="28954" countmax="10" />
+		<item id="10565" name="frosty ear of a troll" chance="4593" />
+		<item id="2165" name="stealth ring" chance="280" />
 	</loot>
 </monster>

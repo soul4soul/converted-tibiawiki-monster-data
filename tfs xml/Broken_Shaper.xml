@@ -55,31 +55,31 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="173" />
-		<item id="2152" name="platinum coin" chance="75155" countmax="2" />
-		<item id="27039" name="cave turnip" chance="20278" countmax="2" />
-		<item id="27041" name="cracked alabaster vase" chance="19864" />
-		<item id="27040" name="ancient belt buckle" chance="17537" />
-		<item id="27042" name="rhino horn carving" chance="14018" />
-		<item id="2666" name="meat" chance="9755" />
+		<item id="2152" name="platinum coin" chance="75194" countmax="2" />
+		<item id="27039" name="cave turnip" chance="20255" countmax="2" />
+		<item id="27041" name="cracked alabaster vase" chance="19957" />
+		<item id="27040" name="ancient belt buckle" chance="17550" />
+		<item id="27042" name="rhino horn carving" chance="13976" />
+		<item id="2666" name="meat" chance="9722" />
 		<item id="2260" name="blank rune" chance="8245" />
-		<item id="7591" name="great health potion" chance="7210" />
-		<item id="2789" name="brown mushroom" chance="6138" countmax="2" />
-		<item id="2146" name="small sapphire" chance="5127" />
-		<item id="5022" name="orichalcum pearl" chance="5042" countmax="3" />
-		<item id="5913" name="brown piece of cloth" chance="4616" />
-		<item id="24849" name="onyx chip" chance="4421" />
-		<item id="27046" name="ancient coin" chance="4384" />
-		<item id="2147" name="small ruby" chance="4056" />
-		<item id="9809" name="rusted armor" chance="2874" />
-		<item id="2214" name="ring of healing" chance="2497" />
-		<item id="5914" name="yellow piece of cloth" chance="2034" />
-		<item id="27047" name="coral brooch" chance="1608" />
-		<item id="2396" name="ice rapier" chance="1157" />
-		<item id="5912" name="blue piece of cloth" chance="1023" />
-		<item id="2162" name="magic light wand" chance="999" />
-		<item id="5909" name="white piece of cloth" chance="974" />
-		<item id="5910" name="green piece of cloth" chance="658" />
+		<item id="7591" name="great health potion" chance="7196" />
+		<item id="2789" name="brown mushroom" chance="6100" countmax="2" />
+		<item id="2146" name="small sapphire" chance="5099" />
+		<item id="5022" name="orichalcum pearl" chance="4968" countmax="3" />
+		<item id="5913" name="brown piece of cloth" chance="4635" />
+		<item id="24849" name="onyx chip" chance="4373" />
+		<item id="27046" name="ancient coin" chance="4361" />
+		<item id="2147" name="small ruby" chance="4027" />
+		<item id="9809" name="rusted armor" chance="2895" />
+		<item id="2214" name="ring of healing" chance="2597" />
+		<item id="5914" name="yellow piece of cloth" chance="2037" />
+		<item id="27047" name="coral brooch" chance="1620" />
+		<item id="2396" name="ice rapier" chance="1180" />
+		<item id="5912" name="blue piece of cloth" chance="1037" />
+		<item id="2162" name="magic light wand" chance="1025" />
+		<item id="5909" name="white piece of cloth" chance="965" />
+		<item id="5910" name="green piece of cloth" chance="643" />
 		<item id="5911" name="red piece of cloth" chance="536" />
-		<item id="2195" name="boots of haste" chance="219" />
+		<item id="2195" name="boots of haste" chance="226" />
 	</loot>
 </monster>

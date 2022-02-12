@@ -54,33 +54,33 @@
 	</attacks>
 	<defenses armor="78" defense="78" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="74581" countmax="29" />
-		<item id="8473" name="ultimate health potion" chance="29749" countmax="5" />
-		<item id="7590" name="great mana potion" chance="19508" countmax="3" />
-		<item id="8472" name="great spirit potion" chance="19103" countmax="3" />
-		<item id="31226" name="glowing rune" chance="18378" countmax="3" />
-		<item id="2795" name="fire mushroom" chance="14928" countmax="6" />
+		<item id="2152" name="platinum coin" chance="74536" countmax="29" />
+		<item id="8473" name="ultimate health potion" chance="29712" countmax="5" />
+		<item id="7590" name="great mana potion" chance="19441" countmax="3" />
+		<item id="8472" name="great spirit potion" chance="19146" countmax="3" />
+		<item id="31226" name="glowing rune" chance="18377" countmax="3" />
+		<item id="2795" name="fire mushroom" chance="14921" countmax="6" />
 		<item id="31224" name="inkwell (black)" chance="11360" />
-		<item id="9970" name="small topaz" chance="7779" countmax="5" />
-		<item id="2149" name="small emerald" chance="7613" countmax="5" />
-		<item id="2147" name="small ruby" chance="7351" countmax="5" />
-		<item id="6500" name="demonic essence" chance="7244" />
-		<item id="2150" name="small amethyst" chance="7077" countmax="5" />
-		<item id="2432" name="fire axe" chance="5769" />
-		<item id="23565" name="slime heart" chance="2641" />
-		<item id="2151" name="talon" chance="2629" />
-		<item id="2393" name="giant sword" chance="2391" />
-		<item id="2156" name="red gem" chance="2224" />
-		<item id="2176" name="orb" chance="2212" />
-		<item id="2171" name="platinum amulet" chance="2141" />
-		<item id="2520" name="demon shield" chance="1915" />
-		<item id="2164" name="might ring" chance="1630" />
-		<item id="7382" name="demonrage sword" chance="1523" />
-		<item id="10580" name="piece of dead brain" chance="987" />
-		<item id="1982" name="purple tome" chance="916" />
-		<item id="2462" name="devil helmet" chance="797" />
-		<item id="2472" name="magic plate armor" chance="357" />
-		<item id="18409" name="wand of everblazing" chance="238" />
+		<item id="9970" name="small topaz" chance="7786" countmax="5" />
+		<item id="2149" name="small emerald" chance="7632" countmax="5" />
+		<item id="2147" name="small ruby" chance="7384" countmax="5" />
+		<item id="6500" name="demonic essence" chance="7242" />
+		<item id="2150" name="small amethyst" chance="7088" countmax="5" />
+		<item id="2432" name="fire axe" chance="5763" />
+		<item id="23565" name="slime heart" chance="2639" />
+		<item id="2151" name="talon" chance="2615" />
+		<item id="2393" name="giant sword" chance="2390" />
+		<item id="2176" name="orb" chance="2225" />
+		<item id="2156" name="red gem" chance="2225" />
+		<item id="2171" name="platinum amulet" chance="2154" />
+		<item id="2520" name="demon shield" chance="1917" />
+		<item id="2164" name="might ring" chance="1645" />
+		<item id="7382" name="demonrage sword" chance="1515" />
+		<item id="10580" name="piece of dead brain" chance="994" />
+		<item id="1982" name="purple tome" chance="911" />
+		<item id="2462" name="devil helmet" chance="805" />
+		<item id="2472" name="magic plate armor" chance="355" />
+		<item id="18409" name="wand of everblazing" chance="237" />
 		<item id="7393" name="demon trophy" chance="59" />
 	</loot>
 </monster>

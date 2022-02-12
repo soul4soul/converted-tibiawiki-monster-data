@@ -88,23 +88,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 36820, chance = 16787},
-	{id = 2386, chance = 16064},
-	{id = 36818, chance = 9783},
-	{id = 36816, chance = 8727},
-	{id = 2456, chance = 8505},
-	{id = 7633, chance = 8060},
-	{id = 9971, chance = 8060},
-	{id = 8901, chance = 5003},
-	{id = 8922, chance = 4002},
-	{id = 8912, chance = 3613},
-	{id = 2155, chance = 2835},
-	{id = 2153, chance = 2335},
-	{id = "ring of blue plasma", chance = 2001},
-	{id = "ring of red plasma", chance = 2001},
-	{id = 18413, chance = 1556},
-	{id = 7443, chance = 278},
-	{id = "giant shimmering pearl", chance = 222}
+	{id = 36820, chance = 16704},
+	{id = 2386, chance = 15632},
+	{id = 36818, chance = 9603},
+	{id = 9971, chance = 8754},
+	{id = 36816, chance = 8754},
+	{id = 2456, chance = 8397},
+	{id = 7633, chance = 7682},
+	{id = 8901, chance = 5181},
+	{id = 8922, chance = 3930},
+	{id = 8912, chance = 3752},
+	{id = 2155, chance = 2858},
+	{id = 2153, chance = 2546},
+	{id = "ring of red plasma", chance = 2054},
+	{id = "ring of blue plasma", chance = 1921},
+	{id = 18413, chance = 1608},
+	{id = 7443, chance = 357},
+	{id = "giant shimmering pearl", chance = 179}
 }
 
 mType:register(monster)

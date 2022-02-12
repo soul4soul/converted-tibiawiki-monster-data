@@ -40,7 +40,12 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<defenses armor="1" defense="1" />
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-45" />
+	</attacks>
+	<defenses armor="1" defense="1">
+		<defense name="healing" interval="2000" chance="20" min="1" max="40" />
+	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="*bell*" yell="false" />
 		<voice sentence="ROOOAAARR!!" yell="false" />
@@ -48,8 +53,8 @@
 		<voice sentence="*wheeze*" yell="false" />
 	</voices>
 	<loot>
-		<item id="13534" name="white deer skin" chance="20064" />
-		<item id="2671" name="ham" chance="19823" />
-		<item id="13533" name="white deer antlers" chance="19662" />
+		<item id="13534" name="white deer skin" chance="20000" />
+		<item id="2671" name="ham" chance="19759" />
+		<item id="13533" name="white deer antlers" chance="19679" />
 	</loot>
 </monster>

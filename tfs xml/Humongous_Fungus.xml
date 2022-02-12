@@ -51,26 +51,26 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="2152" name="platinum coin" chance="99993" countmax="6" />
-		<item id="18397" name="mushroom pie" chance="17198" countmax="3" />
-		<item id="18436" name="drill bolt" chance="15140" countmax="15" />
-		<item id="5913" name="brown piece of cloth" chance="15009" />
-		<item id="18433" name="humongous chunk" chance="10527" />
-		<item id="5909" name="white piece of cloth" chance="10324" />
-		<item id="7591" name="great health potion" chance="5012" countmax="2" />
-		<item id="7588" name="strong health potion" chance="4966" countmax="2" />
-		<item id="7589" name="strong mana potion" chance="4959" countmax="2" />
-		<item id="7590" name="great mana potion" chance="4868" countmax="2" />
-		<item id="7620" name="mana potion" chance="4744" countmax="3" />
-		<item id="5912" name="blue piece of cloth" chance="4456" />
-		<item id="5911" name="red piece of cloth" chance="2653" />
-		<item id="7887" name="terra amulet" chance="2182" />
-		<item id="7886" name="terra boots" chance="1986" />
-		<item id="7436" name="angelic axe" chance="1418" />
-		<item id="7885" name="terra legs" chance="1072" />
-		<item id="7884" name="terra mantle" chance="849" />
-		<item id="18411" name="muck rod" chance="627" />
-		<item id="18454" name="mycological bow" chance="124" />
-		<item id="18393" name="mushroom backpack" chance="20" />
+		<item id="2152" name="platinum coin" chance="99994" countmax="6" />
+		<item id="18397" name="mushroom pie" chance="17214" countmax="3" />
+		<item id="18436" name="drill bolt" chance="15068" countmax="15" />
+		<item id="5913" name="brown piece of cloth" chance="14909" />
+		<item id="18433" name="humongous chunk" chance="10521" />
+		<item id="5909" name="white piece of cloth" chance="10266" />
+		<item id="7591" name="great health potion" chance="4993" countmax="2" />
+		<item id="7589" name="strong mana potion" chance="4993" countmax="2" />
+		<item id="7588" name="strong health potion" chance="4974" countmax="2" />
+		<item id="7590" name="great mana potion" chance="4904" countmax="2" />
+		<item id="7620" name="mana potion" chance="4764" countmax="3" />
+		<item id="5912" name="blue piece of cloth" chance="4452" />
+		<item id="5911" name="red piece of cloth" chance="2656" />
+		<item id="7887" name="terra amulet" chance="2191" />
+		<item id="7886" name="terra boots" chance="1981" />
+		<item id="7436" name="angelic axe" chance="1427" />
+		<item id="7885" name="terra legs" chance="1057" />
+		<item id="7884" name="terra mantle" chance="828" />
+		<item id="18411" name="muck rod" chance="650" />
+		<item id="18454" name="mycological bow" chance="121" />
+		<item id="18393" name="mushroom backpack" chance="19" />
 	</loot>
 </monster>

@@ -93,13 +93,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 75045, maxCount = 45},
+	{id = 2148, chance = 75053, maxCount = 45},
 	{id = "dead frog", chance = 11918},
 	{id = 2260, chance = 8034, maxCount = 3},
-	{id = 7620, chance = 2994},
-	{id = 7618, chance = 2889},
-	{id = 2191, chance = 2003},
-	{id = 2188, chance = 107},
+	{id = 7620, chance = 2996},
+	{id = 7618, chance = 2886},
+	{id = 2191, chance = 2002},
+	{id = 2188, chance = 108},
 	{id = 13295, chance = 7}
 }
 

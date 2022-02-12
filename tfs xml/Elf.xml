@@ -42,7 +42,7 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-15" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-25" range="7">
+		<attack name="physical" interval="2000" chance="15" min="0" max="-25" range="5" radius="1" target="1">
 			<attribute key="shootEffect" value="arrow" />
 		</attack>
 	</attacks>
@@ -55,15 +55,15 @@
 		<voice sentence="Ulathil beia Thratha!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="44660" countmax="30" />
-		<item id="8839" name="plum" chance="19992" countmax="2" />
-		<item id="2482" name="studded helmet" chance="15079" />
-		<item id="2643" name="leather boots" chance="11112" />
-		<item id="2397" name="longsword" chance="10930" />
-		<item id="2484" name="studded armor" chance="9004" />
-		<item id="2510" name="plate shield" chance="8951" />
-		<item id="2544" name="arrow" chance="7032" countmax="3" />
-		<item id="10552" name="elvish talisman" chance="1990" />
-		<item id="5921" name="heaven blossom" chance="1007" />
+		<item id="2148" name="gold coin" chance="44653" countmax="30" />
+		<item id="8839" name="plum" chance="20018" countmax="2" />
+		<item id="2482" name="studded helmet" chance="15052" />
+		<item id="2643" name="leather boots" chance="11113" />
+		<item id="2397" name="longsword" chance="10920" />
+		<item id="2484" name="studded armor" chance="9010" />
+		<item id="2510" name="plate shield" chance="8960" />
+		<item id="2544" name="arrow" chance="7028" countmax="3" />
+		<item id="10552" name="elvish talisman" chance="1982" />
+		<item id="5921" name="heaven blossom" chance="1011" />
 	</loot>
 </monster>

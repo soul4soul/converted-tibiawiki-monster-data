@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Poisonous Carnisylvan"
 monster.description = "a poisonous carnisylvan"
-monster.experience = 3900
+monster.experience = 4400
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -86,25 +86,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 81670, maxCount = 17},
-	{id = 39462, chance = 10204},
-	{id = 18397, chance = 8052},
-	{id = 39461, chance = 7792},
-	{id = 2127, chance = 7124},
-	{id = "wooden trash", chance = 6976},
-	{id = 8472, chance = 6308},
-	{id = 2427, chance = 5380},
-	{id = "collar of blue plasma", chance = 4898},
-	{id = 2181, chance = 3933},
-	{id = 8910, chance = 3636},
-	{id = 2795, chance = 3599, maxCount = 3},
-	{id = 2430, chance = 3599},
-	{id = 7387, chance = 3414},
-	{id = 8920, chance = 2820},
-	{id = 10219, chance = 1855},
-	{id = 7632, chance = 1447},
-	{id = 27048, chance = 779},
-	{id = 39463, chance = 297}
+	{id = 2152, chance = 81463, maxCount = 17},
+	{id = 39462, chance = 10284},
+	{id = 18397, chance = 8034},
+	{id = 39461, chance = 7815},
+	{id = 2127, chance = 6908},
+	{id = "wooden trash", chance = 6877},
+	{id = 8472, chance = 6346},
+	{id = 2427, chance = 5564},
+	{id = "collar of blue plasma", chance = 4658},
+	{id = 2181, chance = 3907},
+	{id = 8910, chance = 3595},
+	{id = 7387, chance = 3532},
+	{id = 2795, chance = 3501, maxCount = 3},
+	{id = 2430, chance = 3501},
+	{id = 8920, chance = 3032},
+	{id = 10219, chance = 2001},
+	{id = 7632, chance = 1532},
+	{id = 27048, chance = 750},
+	{id = 39463, chance = 250}
 }
 
 mType:register(monster)

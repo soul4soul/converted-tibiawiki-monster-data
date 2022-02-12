@@ -49,9 +49,9 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="77638" countmax="24" />
-		<item id="2667" name="fish" chance="19483" countmax="2" />
-		<item id="10557" name="poisonous slime" chance="3985" />
-		<item id="2398" name="mace" chance="2140" />
+		<item id="2148" name="gold coin" chance="77671" countmax="24" />
+		<item id="2667" name="fish" chance="19455" countmax="2" />
+		<item id="10557" name="poisonous slime" chance="3979" />
+		<item id="2398" name="mace" chance="2137" />
 	</loot>
 </monster>

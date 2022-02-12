@@ -52,17 +52,17 @@
 		<voice sentence="Gruntz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="59778" countmax="10" />
-		<item id="5901" name="wood" chance="30719" />
-		<item id="2389" name="spear" chance="20051" />
-		<item id="2380" name="hand axe" chance="17602" />
-		<item id="2512" name="wooden shield" chance="15272" />
-		<item id="2643" name="leather boots" chance="9888" />
-		<item id="2461" name="leather helmet" chance="9604" />
-		<item id="2120" name="rope" chance="7888" />
-		<item id="2448" name="studded club" chance="5173" />
-		<item id="5097" name="mango" chance="5118" />
-		<item id="7963" name="marlin" chance="73" />
-		<item id="2170" name="silver amulet" chance="64" />
+		<item id="2148" name="gold coin" chance="59651" countmax="10" />
+		<item id="5901" name="wood" chance="30751" />
+		<item id="2389" name="spear" chance="19991" />
+		<item id="2380" name="hand axe" chance="17710" />
+		<item id="2512" name="wooden shield" chance="15233" />
+		<item id="2643" name="leather boots" chance="9812" />
+		<item id="2461" name="leather helmet" chance="9669" />
+		<item id="2120" name="rope" chance="7889" />
+		<item id="2448" name="studded club" chance="5170" />
+		<item id="5097" name="mango" chance="5116" />
+		<item id="7963" name="marlin" chance="72" />
+		<item id="2170" name="silver amulet" chance="72" />
 	</loot>
 </monster>

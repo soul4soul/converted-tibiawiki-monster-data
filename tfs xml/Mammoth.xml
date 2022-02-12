@@ -50,13 +50,13 @@
 		<voice sentence="Tooooot." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="89829" countmax="40" />
-		<item id="2666" name="meat" chance="40242" />
-		<item id="2671" name="ham" chance="29974" />
-		<item id="11224" name="thick fur" chance="7728" />
-		<item id="11238" name="mammoth tusk" chance="7422" countmax="2" />
-		<item id="7381" name="mammoth whopper" chance="2536" />
-		<item id="7432" name="furry club" chance="511" />
-		<item id="3973" name="tusk shield" chance="492" />
+		<item id="2148" name="gold coin" chance="89854" countmax="40" />
+		<item id="2666" name="meat" chance="40278" />
+		<item id="2671" name="ham" chance="29909" />
+		<item id="11224" name="thick fur" chance="7700" />
+		<item id="11238" name="mammoth tusk" chance="7476" countmax="2" />
+		<item id="7381" name="mammoth whopper" chance="2519" />
+		<item id="7432" name="furry club" chance="525" />
+		<item id="3973" name="tusk shield" chance="497" />
 	</loot>
 </monster>

@@ -51,29 +51,29 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
 		<item id="2152" name="platinum coin" chance="99965" countmax="9" />
-		<item id="2789" name="brown mushroom" chance="15463" countmax="2" />
-		<item id="7590" name="great mana potion" chance="14215" />
-		<item id="7591" name="great health potion" chance="13485" />
-		<item id="5880" name="iron ore" chance="8621" />
-		<item id="9970" name="small topaz" chance="8067" countmax="2" />
-		<item id="18436" name="drill bolt" chance="8032" countmax="10" />
-		<item id="18417" name="brown crystal splinter" chance="7479" countmax="2" />
-		<item id="18421" name="green crystal fragment" chance="6689" />
-		<item id="18418" name="blue crystal splinter" chance="4758" />
-		<item id="2114" name="piggy bank" chance="3757" />
-		<item id="18414" name="violet crystal shard" chance="3592" />
-		<item id="2213" name="dwarven ring" chance="2320" />
-		<item id="2430" name="knight axe" chance="2132" />
-		<item id="13757" name="coal" chance="1861" />
-		<item id="2515" name="guardian shield" chance="1272" />
-		<item id="11339" name="clay lump" chance="989" />
-		<item id="2528" name="tower shield" chance="907" />
-		<item id="7452" name="spiked squelcher" chance="801" />
-		<item id="5904" name="magic sulphur" chance="718" />
-		<item id="2529" name="black shield" chance="624" />
-		<item id="7886" name="terra boots" chance="624" />
-		<item id="7427" name="chaos mace" chance="483" />
-		<item id="2432" name="fire axe" chance="412" />
-		<item id="2498" name="royal helmet" chance="200" />
+		<item id="2789" name="brown mushroom" chance="15479" countmax="2" />
+		<item id="7590" name="great mana potion" chance="14216" />
+		<item id="7591" name="great health potion" chance="13525" />
+		<item id="5880" name="iron ore" chance="8635" />
+		<item id="9970" name="small topaz" chance="8038" countmax="2" />
+		<item id="18436" name="drill bolt" chance="7979" countmax="10" />
+		<item id="18417" name="brown crystal splinter" chance="7535" countmax="2" />
+		<item id="18421" name="green crystal fragment" chance="6681" />
+		<item id="18418" name="blue crystal splinter" chance="4762" />
+		<item id="2114" name="piggy bank" chance="3779" />
+		<item id="18414" name="violet crystal shard" chance="3580" />
+		<item id="2213" name="dwarven ring" chance="2340" />
+		<item id="2430" name="knight axe" chance="2118" />
+		<item id="13757" name="coal" chance="1872" />
+		<item id="2515" name="guardian shield" chance="1287" />
+		<item id="11339" name="clay lump" chance="995" />
+		<item id="2528" name="tower shield" chance="901" />
+		<item id="7452" name="spiked squelcher" chance="796" />
+		<item id="5904" name="magic sulphur" chance="725" />
+		<item id="2529" name="black shield" chance="620" />
+		<item id="7886" name="terra boots" chance="620" />
+		<item id="7427" name="chaos mace" chance="480" />
+		<item id="2432" name="fire axe" chance="410" />
+		<item id="2498" name="royal helmet" chance="199" />
 	</loot>
 </monster>

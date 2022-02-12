@@ -49,12 +49,12 @@
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" />
-		<item id="7887" name="terra amulet" chance="8887" />
-		<item id="28391" name="leaf star" chance="7508" countmax="2" />
-		<item id="2182" name="snakebite rod" chance="7150" />
-		<item id="7889" name="lightning pendant" chance="6129" />
-		<item id="2161" name="strange talisman" chance="5158" />
-		<item id="10219" name="sacred tree amulet" chance="2247" />
-		<item id="32852" name="yetislippers" chance="153" />
+		<item id="7887" name="terra amulet" chance="9172" />
+		<item id="28391" name="leaf star" chance="7469" countmax="2" />
+		<item id="2182" name="snakebite rod" chance="7237" />
+		<item id="7889" name="lightning pendant" chance="6037" />
+		<item id="2161" name="strange talisman" chance="5534" />
+		<item id="10219" name="sacred tree amulet" chance="2206" />
+		<item id="32852" name="yetislippers" chance="193" />
 	</loot>
 </monster>

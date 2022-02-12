@@ -56,12 +56,12 @@
 	</voices>
 	<loot>
 		<item id="18430" name="deathstrike's snippet" chance="100000" />
-		<item id="18453" name="crystal crossbow" chance="14508" />
-		<item id="18451" name="crystalline axe" chance="13472" />
-		<item id="18454" name="mycological bow" chance="9326" />
-		<item id="18465" name="shiny blade" chance="9326" />
-		<item id="18450" name="crystalline sword" chance="7772" />
-		<item id="18452" name="mycological mace" chance="6218" />
-		<item id="18449" name="decorative ribbon" chance="2073" />
+		<item id="18453" name="crystal crossbow" chance="14359" />
+		<item id="18451" name="crystalline axe" chance="13333" />
+		<item id="18454" name="mycological bow" chance="10256" />
+		<item id="18465" name="shiny blade" chance="9231" />
+		<item id="18450" name="crystalline sword" chance="7692" />
+		<item id="18452" name="mycological mace" chance="6154" />
+		<item id="18449" name="decorative ribbon" chance="2051" />
 	</loot>
 </monster>

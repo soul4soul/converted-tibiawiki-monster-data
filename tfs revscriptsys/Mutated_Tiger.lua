@@ -91,15 +91,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 176},
-	{id = 2666, chance = 29814},
-	{id = 11210, chance = 20647},
-	{id = 11228, chance = 11231},
-	{id = 7588, chance = 6006, maxCount = 2},
-	{id = 2168, chance = 5981, maxCount = 2},
-	{id = 7454, chance = 1005},
-	{id = 9959, chance = 951},
+	{id = 2666, chance = 29850},
+	{id = 11210, chance = 20560},
+	{id = 11228, chance = 11213},
+	{id = 7588, chance = 5953, maxCount = 2},
+	{id = 2168, chance = 5948, maxCount = 2},
+	{id = 7454, chance = 1012},
+	{id = 9959, chance = 945},
 	{id = 2515, chance = 463},
-	{id = 7436, chance = 415}
+	{id = 7436, chance = 411}
 }
 
 mType:register(monster)

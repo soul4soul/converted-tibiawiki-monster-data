@@ -54,16 +54,16 @@
 		<voice name="Snake" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="89655" countmax="5" />
-		<item id="2686" name="corncob" chance="10783" countmax="2" />
-		<item id="12408" name="broken shamanic staff" chance="10146" />
-		<item id="2464" name="chain armor" chance="8710" />
-		<item id="12434" name="shamanic hood" chance="7674" />
-		<item id="2389" name="spear" chance="5282" />
-		<item id="12435" name="orc leather" chance="3668" />
-		<item id="26642" name="heavy old tome" chance="2372" />
-		<item id="11113" name="orc tooth" chance="2093" />
-		<item id="2188" name="wand of decay" chance="857" />
-		<item name="book (grey)" chance="498" />
+		<item id="2148" name="gold coin" chance="89613" countmax="5" />
+		<item id="2686" name="corncob" chance="10848" countmax="2" />
+		<item id="12408" name="broken shamanic staff" chance="10117" />
+		<item id="2464" name="chain armor" chance="8675" />
+		<item id="12434" name="shamanic hood" chance="7578" />
+		<item id="2389" name="spear" chance="5289" />
+		<item id="12435" name="orc leather" chance="3731" />
+		<item id="26642" name="heavy old tome" chance="2347" />
+		<item id="11113" name="orc tooth" chance="2116" />
+		<item id="2188" name="wand of decay" chance="942" />
+		<item name="book (grey)" chance="481" />
 	</loot>
 </monster>

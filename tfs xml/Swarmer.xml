@@ -55,8 +55,8 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="99998" countmax="75" />
 		<item id="15479" name="swarmer antenna" chance="15285" />
-		<item id="15486" name="compound eye" chance="11963" />
-		<item id="2149" name="small emerald" chance="977" />
-		<item id="2438" name="epee" chance="431" />
+		<item id="15486" name="compound eye" chance="11960" />
+		<item id="2149" name="small emerald" chance="975" />
+		<item id="2438" name="epee" chance="428" />
 	</loot>
 </monster>

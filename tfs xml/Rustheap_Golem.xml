@@ -52,22 +52,22 @@
 		<voice sentence="*frzzp*" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99614" countmax="290" />
-		<item id="2152" name="platinum coin" chance="52699" countmax="3" />
-		<item id="23567" name="necromantic rust" chance="13882" />
-		<item id="7588" name="strong health potion" chance="7326" countmax="2" />
-		<item id="7589" name="strong mana potion" chance="6427" countmax="2" />
-		<item id="23541" name="gearwheel chain" chance="4370" />
-		<item id="8309" name="nail" chance="4113" />
-		<item id="9813" name="slightly rusted legs" chance="3856" />
-		<item id="9930" name="flask of rust remover" chance="3599" />
-		<item id="24124" name="bronze gear wheel" chance="2956" />
-		<item id="9810" name="slightly rusted armor" chance="2828" />
-		<item id="2143" name="white pearl" chance="2185" />
-		<item id="5880" name="iron ore" chance="1799" />
-		<item id="2144" name="black pearl" chance="1542" />
-		<item id="2391" name="war hammer" chance="1414" />
-		<item id="7452" name="spiked squelcher" chance="900" />
-		<item id="23542" name="metal bat" chance="257" />
+		<item id="2148" name="gold coin" chance="99704" countmax="290" />
+		<item id="2152" name="platinum coin" chance="53063" countmax="3" />
+		<item id="23567" name="necromantic rust" chance="14822" />
+		<item id="7588" name="strong health potion" chance="7312" countmax="2" />
+		<item id="7589" name="strong mana potion" chance="7115" countmax="2" />
+		<item id="23541" name="gearwheel chain" chance="4150" />
+		<item id="9930" name="flask of rust remover" chance="4051" />
+		<item id="9813" name="slightly rusted legs" chance="3755" />
+		<item id="8309" name="nail" chance="3458" />
+		<item id="24124" name="bronze gear wheel" chance="2767" />
+		<item id="9810" name="slightly rusted armor" chance="2569" />
+		<item id="2143" name="white pearl" chance="2273" />
+		<item id="2144" name="black pearl" chance="1482" />
+		<item id="5880" name="iron ore" chance="1482" />
+		<item id="2391" name="war hammer" chance="1482" />
+		<item id="7452" name="spiked squelcher" chance="889" />
+		<item id="23542" name="metal bat" chance="296" />
 	</loot>
 </monster>

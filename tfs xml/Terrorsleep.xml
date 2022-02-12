@@ -57,26 +57,26 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="99960" countmax="197" />
 		<item id="2152" name="platinum coin" chance="99960" countmax="9" />
-		<item id="7590" name="great mana potion" chance="34964" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="21746" />
-		<item id="22538" name="bowl of terror sweat" chance="16694" />
-		<item id="18419" name="cyan crystal fragment" chance="16613" />
-		<item id="2150" name="small amethyst" chance="14915" countmax="3" />
-		<item id="9970" name="small topaz" chance="14430" countmax="3" />
-		<item id="2149" name="small emerald" chance="13622" countmax="3" />
-		<item id="2147" name="small ruby" chance="12813" countmax="3" />
-		<item id="18418" name="blue crystal splinter" chance="12288" />
-		<item id="22537" name="trapped bad dream monster" chance="12167" />
-		<item id="18413" name="blue crystal shard" chance="8973" />
-		<item id="5909" name="white piece of cloth" chance="4042" />
-		<item id="5912" name="blue piece of cloth" chance="3476" />
-		<item id="2476" name="knight armor" chance="2304" />
-		<item id="5895" name="fish fin" chance="2183" />
-		<item id="22363" name="broken dream" chance="2102" />
-		<item id="2393" name="giant sword" chance="1657" />
-		<item id="2475" name="warrior helmet" chance="1657" />
-		<item id="2656" name="blue robe" chance="1213" />
-		<item id="5911" name="red piece of cloth" chance="1132" />
-		<item id="22396" name="cluster of solace" chance="808" />
+		<item id="7590" name="great mana potion" chance="34907" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="21751" />
+		<item id="22538" name="bowl of terror sweat" chance="16667" />
+		<item id="18419" name="cyan crystal fragment" chance="16667" />
+		<item id="2150" name="small amethyst" chance="14931" countmax="3" />
+		<item id="9970" name="small topaz" chance="14407" countmax="3" />
+		<item id="2149" name="small emerald" chance="13600" countmax="3" />
+		<item id="2147" name="small ruby" chance="12793" countmax="3" />
+		<item id="18418" name="blue crystal splinter" chance="12308" />
+		<item id="22537" name="trapped bad dream monster" chance="12187" />
+		<item id="18413" name="blue crystal shard" chance="8959" />
+		<item id="5909" name="white piece of cloth" chance="4036" />
+		<item id="5912" name="blue piece of cloth" chance="3471" />
+		<item id="2476" name="knight armor" chance="2300" />
+		<item id="5895" name="fish fin" chance="2179" />
+		<item id="22363" name="broken dream" chance="2098" />
+		<item id="2393" name="giant sword" chance="1655" />
+		<item id="2475" name="warrior helmet" chance="1655" />
+		<item id="2656" name="blue robe" chance="1211" />
+		<item id="5911" name="red piece of cloth" chance="1130" />
+		<item id="22396" name="cluster of solace" chance="807" />
 	</loot>
 </monster>

@@ -50,18 +50,18 @@
 	</defenses>
 	<loot>
 		<item id="2148" name="gold coin" chance="99985" countmax="196" />
-		<item id="2545" name="poison arrow" chance="11955" countmax="12" />
-		<item id="2463" name="plate armor" chance="10022" />
-		<item id="2647" name="plate legs" chance="7891" />
-		<item id="2377" name="two handed sword" chance="5059" />
-		<item id="3351" name="steel helmet" chance="4908" />
-		<item id="7588" name="strong health potion" chance="3569" />
-		<item id="5879" name="spider silk" chance="1988" />
-		<item id="2477" name="knight legs" chance="840" />
-		<item id="2169" name="time ring" chance="708" />
-		<item id="2476" name="knight armor" chance="484" />
-		<item id="2171" name="platinum amulet" chance="270" />
-		<item id="7901" name="lightning headband" chance="265" />
+		<item id="2545" name="poison arrow" chance="11970" countmax="12" />
+		<item id="2463" name="plate armor" chance="10030" />
+		<item id="2647" name="plate legs" chance="7890" />
+		<item id="2377" name="two handed sword" chance="5066" />
+		<item id="3351" name="steel helmet" chance="4919" />
+		<item id="7588" name="strong health potion" chance="3564" />
+		<item id="5879" name="spider silk" chance="1990" />
+		<item id="2477" name="knight legs" chance="836" />
+		<item id="2169" name="time ring" chance="711" />
+		<item id="2476" name="knight armor" chance="482" />
+		<item id="7901" name="lightning headband" chance="271" />
+		<item id="2171" name="platinum amulet" chance="271" />
 		<item id="8859" name="spider fangs" chance="1" />
 	</loot>
 </monster>

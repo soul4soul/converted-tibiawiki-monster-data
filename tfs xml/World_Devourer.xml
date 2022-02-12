@@ -51,41 +51,41 @@
 		<item id="25377" name="gold token" chance="100000" countmax="17" />
 		<item id="26165" name="mysterious remains" chance="100000" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="35" />
-		<item id="26163" name="crystallized anger" chance="94035" />
-		<item id="26164" name="energy vein" chance="94035" />
-		<item name="void boots" chance="72982" />
-		<item id="18415" name="green crystal shard" chance="67368" countmax="3" />
-		<item id="18413" name="blue crystal shard" chance="66667" countmax="3" />
-		<item id="18414" name="violet crystal shard" chance="59649" countmax="3" />
-		<item id="7590" name="great mana potion" chance="57544" countmax="10" />
-		<item name="tiara of power" chance="56491" />
-		<item id="8472" name="great spirit potion" chance="52982" countmax="10" />
-		<item id="8473" name="ultimate health potion" chance="52281" countmax="10" />
-		<item id="2158" name="blue gem" chance="18947" />
-		<item id="9970" name="small topaz" chance="16491" countmax="20" />
-		<item id="2147" name="small ruby" chance="15789" countmax="20" />
-		<item id="2146" name="small sapphire" chance="15088" countmax="20" />
-		<item id="2150" name="small amethyst" chance="14737" countmax="20" />
-		<item id="2154" name="yellow gem" chance="14737" />
-		<item name="ring of red plasma" chance="13333" />
-		<item id="2155" name="green gem" chance="12982" />
-		<item id="2156" name="red gem" chance="12982" />
-		<item name="ring of blue plasma" chance="12982" />
-		<item id="2436" name="skull staff" chance="11930" />
-		<item id="26200" name="collar of red plasma" chance="11228" />
-		<item name="giant shimmering pearl" chance="10877" />
-		<item id="2149" name="small emerald" chance="10877" countmax="20" />
-		<item name="ring of green plasma" chance="10175" />
-		<item name="collar of blue plasma" chance="9123" />
-		<item id="26199" name="collar of green plasma" chance="9123" />
-		<item id="7901" name="lightning headband" chance="8421" />
-		<item id="7428" name="bonebreaker" chance="7368" />
-		<item id="7426" name="amber staff" chance="6316" />
-		<item id="8878" name="crystalline armor" chance="3158" />
-		<item id="2470" name="golden legs" chance="2456" />
-		<item id="2153" name="violet gem" chance="2456" />
-		<item id="8855" name="composite hornbow" chance="1404" />
-		<item id="26342" name="devourer core" chance="702" />
-		<item id="7417" name="runed sword" chance="351" />
+		<item id="26163" name="crystallized anger" chance="94565" />
+		<item id="26164" name="energy vein" chance="94565" />
+		<item name="void boots" chance="75272" />
+		<item id="18415" name="green crystal shard" chance="66304" countmax="3" />
+		<item id="18413" name="blue crystal shard" chance="64130" countmax="3" />
+		<item id="18414" name="violet crystal shard" chance="60054" countmax="3" />
+		<item name="tiara of power" chance="59511" />
+		<item id="7590" name="great mana potion" chance="58152" countmax="10" />
+		<item id="8473" name="ultimate health potion" chance="53261" countmax="10" />
+		<item id="8472" name="great spirit potion" chance="51630" countmax="10" />
+		<item id="2158" name="blue gem" chance="19565" />
+		<item id="2147" name="small ruby" chance="17391" countmax="20" />
+		<item id="2146" name="small sapphire" chance="16304" countmax="20" />
+		<item id="2150" name="small amethyst" chance="15217" countmax="20" />
+		<item id="2154" name="yellow gem" chance="14946" />
+		<item name="ring of blue plasma" chance="14402" />
+		<item id="9970" name="small topaz" chance="14402" countmax="20" />
+		<item id="2155" name="green gem" chance="13587" />
+		<item id="2156" name="red gem" chance="12772" />
+		<item name="ring of red plasma" chance="12772" />
+		<item id="2149" name="small emerald" chance="11957" countmax="20" />
+		<item id="2436" name="skull staff" chance="11685" />
+		<item name="giant shimmering pearl" chance="11413" />
+		<item id="26200" name="collar of red plasma" chance="10598" />
+		<item id="26199" name="collar of green plasma" chance="10054" />
+		<item name="ring of green plasma" chance="9783" />
+		<item name="collar of blue plasma" chance="8967" />
+		<item id="7428" name="bonebreaker" chance="7609" />
+		<item id="7426" name="amber staff" chance="7337" />
+		<item id="7901" name="lightning headband" chance="7337" />
+		<item id="2153" name="violet gem" chance="2989" />
+		<item id="8878" name="crystalline armor" chance="2446" />
+		<item id="2470" name="golden legs" chance="1902" />
+		<item id="8855" name="composite hornbow" chance="1087" />
+		<item id="26342" name="devourer core" chance="1087" />
+		<item id="7417" name="runed sword" chance="272" />
 	</loot>
 </monster>

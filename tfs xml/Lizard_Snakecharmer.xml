@@ -51,16 +51,16 @@
 		<voice sentence="Shhhhhhh" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="83246" countmax="54" />
-		<item name="dead snake" chance="45331" />
+		<item id="2148" name="gold coin" chance="83244" countmax="54" />
+		<item name="dead snake" chance="45429" />
 		<item id="2654" name="cape" chance="8667" />
-		<item id="2177" name="life crystal" chance="1281" />
-		<item id="5876" name="lizard leather" chance="1162" />
-		<item id="5881" name="lizard scale" chance="1042" />
-		<item id="2181" name="terra rod" chance="938" />
-		<item id="7620" name="mana potion" chance="670" />
-		<item id="2150" name="small amethyst" chance="387" />
-		<item id="2168" name="life ring" chance="179" />
+		<item id="2177" name="life crystal" chance="1276" />
+		<item id="5876" name="lizard leather" chance="1172" />
+		<item id="5881" name="lizard scale" chance="1039" />
+		<item id="2181" name="terra rod" chance="935" />
+		<item id="7620" name="mana potion" chance="698" />
+		<item id="2150" name="small amethyst" chance="386" />
+		<item id="2168" name="life ring" chance="178" />
 		<item id="2182" name="snakebite rod" chance="134" />
 		<item id="3971" name="charmer's tiara" chance="104" />
 		<item id="2154" name="yellow gem" chance="30" />

@@ -46,6 +46,6 @@
 		<voice sentence="Bobble!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2670" name="shrimp" chance="10737" />
+		<item id="2670" name="shrimp" chance="10791" />
 	</loot>
 </monster>

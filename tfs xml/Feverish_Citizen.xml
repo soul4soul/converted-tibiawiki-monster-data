@@ -63,14 +63,14 @@
 		<voice sentence="This is Venore!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="29858" countmax="35" />
-		<item id="3976" name="worm" chance="24785" countmax="3" />
-		<item id="2230" name="bone" chance="4964" />
-		<item id="13542" name="voluminous piece of cloth" chance="2197" />
-		<item id="13543" name="obvious piece of cloth" chance="1954" />
-		<item id="13545" name="luminous piece of cloth" chance="1942" />
-		<item id="13540" name="ominous piece of cloth" chance="1893" />
-		<item id="13544" name="ludicrous piece of cloth" chance="1869" />
-		<item id="13541" name="dubious piece of cloth" chance="1663" />
+		<item id="2148" name="gold coin" chance="29698" countmax="35" />
+		<item id="3976" name="worm" chance="24611" countmax="3" />
+		<item id="2230" name="bone" chance="5077" />
+		<item id="13542" name="voluminous piece of cloth" chance="2179" />
+		<item id="13545" name="luminous piece of cloth" chance="2015" />
+		<item id="13543" name="obvious piece of cloth" chance="1983" />
+		<item id="13544" name="ludicrous piece of cloth" chance="1896" />
+		<item id="13540" name="ominous piece of cloth" chance="1885" />
+		<item id="13541" name="dubious piece of cloth" chance="1667" />
 	</loot>
 </monster>

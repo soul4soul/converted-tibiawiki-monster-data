@@ -51,13 +51,13 @@
 		<voice sentence="Si ji jusipa!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="79861" countmax="20" />
-		<item id="2667" name="fish" chance="19928" />
-		<item id="2406" name="short sword" chance="4929" />
-		<item id="2541" name="bone shield" chance="1046" />
-		<item id="22727" name="fireproof horn" chance="466" />
-		<item id="7381" name="mammoth whopper" chance="132" />
-		<item id="7158" name="rainbow trout" chance="97" />
+		<item id="2148" name="gold coin" chance="79851" countmax="20" />
+		<item id="2667" name="fish" chance="19912" />
+		<item id="2406" name="short sword" chance="4928" />
+		<item id="2541" name="bone shield" chance="1042" />
+		<item id="22727" name="fireproof horn" chance="481" />
+		<item id="7381" name="mammoth whopper" chance="140" />
+		<item id="7158" name="rainbow trout" chance="96" />
 		<item id="7159" name="green perch" chance="79" />
 		<item id="2669" name="northern pike" chance="53" />
 	</loot>

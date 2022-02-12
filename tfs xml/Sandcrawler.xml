@@ -48,7 +48,7 @@
 		<voice sentence="Chrk chrk!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="34912" countmax="6" />
-		<item id="11373" name="sandcrawler shell" chance="2056" />
+		<item id="2148" name="gold coin" chance="34933" countmax="6" />
+		<item id="11373" name="sandcrawler shell" chance="2043" />
 	</loot>
 </monster>

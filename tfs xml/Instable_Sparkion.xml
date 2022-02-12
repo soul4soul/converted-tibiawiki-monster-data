@@ -54,21 +54,21 @@
 		<voice sentence="Frizzle!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="96000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="86250" />
-		<item id="26160" name="sparkion legs" chance="8667" />
-		<item id="18418" name="blue crystal splinter" chance="8250" />
-		<item id="26159" name="sparkion tail" chance="7333" />
-		<item id="26161" name="sparkion stings" chance="7167" />
-		<item id="26158" name="sparkion claw" chance="6750" />
-		<item id="18419" name="cyan crystal fragment" chance="6167" />
-		<item id="18413" name="blue crystal shard" chance="5583" />
-		<item id="2146" name="small sapphire" chance="5500" countmax="2" />
-		<item id="7590" name="great mana potion" chance="5417" />
-		<item id="26201" name="energy drink" chance="5000" />
-		<item id="26191" name="energy bar" chance="4667" />
-		<item id="7591" name="great health potion" chance="4500" />
-		<item id="8472" name="great spirit potion" chance="4083" />
-		<item id="2189" name="wand of cosmic energy" chance="333" />
+		<item id="2148" name="gold coin" chance="95820" countmax="100" />
+		<item id="2152" name="platinum coin" chance="86148" />
+		<item id="26160" name="sparkion legs" chance="8607" />
+		<item id="18418" name="blue crystal splinter" chance="8361" />
+		<item id="26159" name="sparkion tail" chance="7377" />
+		<item id="26161" name="sparkion stings" chance="7131" />
+		<item id="26158" name="sparkion claw" chance="6639" />
+		<item id="18419" name="cyan crystal fragment" chance="6148" />
+		<item id="18413" name="blue crystal shard" chance="5492" />
+		<item id="2146" name="small sapphire" chance="5492" countmax="2" />
+		<item id="7590" name="great mana potion" chance="5410" />
+		<item id="26201" name="energy drink" chance="4918" />
+		<item id="26191" name="energy bar" chance="4754" />
+		<item id="7591" name="great health potion" chance="4508" />
+		<item id="8472" name="great spirit potion" chance="4180" />
+		<item id="2189" name="wand of cosmic energy" chance="328" />
 	</loot>
 </monster>

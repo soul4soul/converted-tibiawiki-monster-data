@@ -48,8 +48,8 @@
 		<voice sentence="GROARRR!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="50357" />
-		<item id="2671" name="ham" chance="50187" />
-		<item id="10567" name="polar bear paw" chance="1021" />
+		<item id="2666" name="meat" chance="50380" />
+		<item id="2671" name="ham" chance="50200" />
+		<item id="10567" name="polar bear paw" chance="1018" />
 	</loot>
 </monster>

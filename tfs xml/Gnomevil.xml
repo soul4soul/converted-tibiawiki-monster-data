@@ -58,12 +58,12 @@
 	</voices>
 	<loot>
 		<item id="18495" name="gnomevil's hat" chance="100000" />
-		<item id="18450" name="crystalline sword" chance="12644" />
-		<item id="18454" name="mycological bow" chance="10728" />
-		<item id="18453" name="crystal crossbow" chance="10345" />
-		<item id="18465" name="shiny blade" chance="9962" />
-		<item id="18452" name="mycological mace" chance="9004" />
-		<item id="18451" name="crystalline axe" chance="8621" />
-		<item id="18449" name="decorative ribbon" chance="1916" />
+		<item id="18450" name="crystalline sword" chance="12977" />
+		<item id="18454" name="mycological bow" chance="10687" />
+		<item id="18453" name="crystal crossbow" chance="10305" />
+		<item id="18465" name="shiny blade" chance="9924" />
+		<item id="18452" name="mycological mace" chance="8969" />
+		<item id="18451" name="crystalline axe" chance="8588" />
+		<item id="18449" name="decorative ribbon" chance="1908" />
 	</loot>
 </monster>

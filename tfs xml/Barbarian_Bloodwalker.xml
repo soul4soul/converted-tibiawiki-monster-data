@@ -55,17 +55,17 @@
 		<voice sentence="You can run but you can't hide" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="55153" countmax="12" />
+		<item id="2148" name="gold coin" chance="55158" countmax="12" />
 		<item id="2458" name="chain helmet" chance="10612" />
-		<item id="2464" name="chain armor" chance="10263" />
-		<item name="lamp" chance="8122" />
-		<item id="2381" name="halberd" chance="7000" />
-		<item id="2378" name="battle axe" chance="5908" />
-		<item id="2671" name="ham" chance="4937" />
-		<item id="7618" name="health potion" chance="952" />
+		<item id="2464" name="chain armor" chance="10258" />
+		<item name="lamp" chance="8118" />
+		<item id="2381" name="halberd" chance="6997" />
+		<item id="2378" name="battle axe" chance="5910" />
+		<item id="2671" name="ham" chance="4935" />
+		<item id="7618" name="health potion" chance="951" />
 		<item id="5911" name="red piece of cloth" chance="510" />
 		<item id="3962" name="beastslayer axe" chance="354" />
-		<item id="7290" name="shard" chance="316" />
+		<item id="7290" name="shard" chance="315" />
 		<item id="7457" name="fur boots" chance="87" />
 	</loot>
 </monster>

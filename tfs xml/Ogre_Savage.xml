@@ -54,22 +54,22 @@
 		<voice sentence="UGGA UGGA!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99102" countmax="154" />
-		<item id="24844" name="ogre ear stud" chance="19667" />
-		<item id="24845" name="ogre nose ring" chance="17315" />
-		<item id="7588" name="strong health potion" chance="15306" />
-		<item id="24847" name="skull fetish" chance="9235" />
-		<item id="2687" name="cookie" chance="8380" countmax="5" />
-		<item id="2194" name="mysterious fetish" chance="6071" />
-		<item id="8844" name="jalapeno pepper" chance="4147" countmax="2" />
-		<item id="24849" name="onyx chip" chance="3035" countmax="2" />
-		<item id="2147" name="small ruby" chance="2822" countmax="3" />
-		<item id="9970" name="small topaz" chance="2522" countmax="2" />
-		<item id="24850" name="opal" chance="2223" countmax="2" />
-		<item id="2391" name="war hammer" chance="1496" />
-		<item id="24828" name="ogre choppa" chance="1154" />
-		<item id="7439" name="berserk potion" chance="513" />
-		<item id="24848" name="shamanic mask" chance="342" />
-		<item id="7419" name="dreaded cleaver" chance="43" />
+		<item id="2148" name="gold coin" chance="99206" countmax="154" />
+		<item id="24844" name="ogre ear stud" chance="19433" />
+		<item id="24845" name="ogre nose ring" chance="17353" />
+		<item id="7588" name="strong health potion" chance="15501" />
+		<item id="24847" name="skull fetish" chance="9074" />
+		<item id="2687" name="cookie" chance="8280" countmax="5" />
+		<item id="2194" name="mysterious fetish" chance="6049" />
+		<item id="8844" name="jalapeno pepper" chance="4159" countmax="2" />
+		<item id="24849" name="onyx chip" chance="2911" countmax="2" />
+		<item id="2147" name="small ruby" chance="2836" countmax="3" />
+		<item id="9970" name="small topaz" chance="2760" countmax="2" />
+		<item id="24850" name="opal" chance="2193" countmax="2" />
+		<item id="2391" name="war hammer" chance="1437" />
+		<item id="24828" name="ogre choppa" chance="1134" />
+		<item id="7439" name="berserk potion" chance="567" />
+		<item id="24848" name="shamanic mask" chance="340" />
+		<item id="7419" name="dreaded cleaver" chance="38" />
 	</loot>
 </monster>

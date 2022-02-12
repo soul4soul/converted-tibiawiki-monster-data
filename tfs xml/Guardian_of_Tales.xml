@@ -40,21 +40,36 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
+	<attacks>
+		<attack name="death" interval="2000" chance="15" min="-1000" max="-1600" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="death" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="-600" max="-800" radius="3" target="0">
+			<attribute key="areaEffect" value="fire" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="-500" max="-650" radius="3" target="1">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="-400" max="-750" length="6" spread="0">
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+	</attacks>
 	<defenses armor="77" defense="77" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="84912" countmax="32" />
-		<item id="2145" name="small diamond" chance="57845" countmax="5" />
-		<item id="31225" name="book page" chance="43960" countmax="4" />
-		<item id="31226" name="glowing rune" chance="38195" countmax="8" />
-		<item id="2239" name="burnt scroll" chance="37794" />
-		<item id="5944" name="soul orb" chance="9975" />
-		<item id="2187" name="wand of inferno" chance="9223" />
-		<item id="8901" name="spellbook of warding" chance="5514" />
-		<item id="10581" name="piece of hellfire armor" chance="5213" />
-		<item id="2432" name="fire axe" chance="3709" />
-		<item id="2392" name="fire sword" chance="1404" />
-		<item id="7894" name="magma legs" chance="1003" />
-		<item id="7899" name="magma coat" chance="852" />
-		<item id="13757" name="coal" chance="301" />
+		<item id="2152" name="platinum coin" chance="85002" countmax="32" />
+		<item id="2145" name="small diamond" chance="57698" countmax="5" />
+		<item id="31225" name="book page" chance="43896" countmax="4" />
+		<item id="31226" name="glowing rune" chance="38216" countmax="8" />
+		<item id="2239" name="burnt scroll" chance="37818" />
+		<item id="5944" name="soul orb" chance="9965" />
+		<item id="2187" name="wand of inferno" chance="9168" />
+		<item id="8901" name="spellbook of warding" chance="5531" />
+		<item id="10581" name="piece of hellfire armor" chance="5232" />
+		<item id="2432" name="fire axe" chance="3737" />
+		<item id="2392" name="fire sword" chance="1445" />
+		<item id="7894" name="magma legs" chance="997" />
+		<item id="7899" name="magma coat" chance="847" />
+		<item id="13757" name="coal" chance="299" />
 	</loot>
 </monster>

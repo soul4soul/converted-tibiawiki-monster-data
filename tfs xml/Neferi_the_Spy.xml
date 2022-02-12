@@ -45,28 +45,28 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2160" name="crystal coin" chance="42661" />
-		<item id="2181" name="terra rod" chance="22936" />
-		<item id="2379" name="dagger" chance="17890" />
-		<item id="9971" name="gold ingot" chance="11927" />
-		<item id="8473" name="ultimate health potion" chance="11468" countmax="4" />
-		<item id="8472" name="great spirit potion" chance="9633" countmax="2" />
-		<item id="2392" name="fire sword" chance="6881" />
-		<item id="2183" name="hailstorm rod" chance="5046" />
-		<item id="7901" name="lightning headband" chance="4587" />
-		<item id="7903" name="terra hood" chance="4128" />
-		<item id="7895" name="lightning legs" chance="3670" />
-		<item name="ring of red plasma" chance="3670" />
-		<item id="7886" name="terra boots" chance="3670" />
-		<item id="8901" name="spellbook of warding" chance="2752" />
-		<item id="7892" name="glacier shoes" chance="2294" />
-		<item id="2476" name="knight armor" chance="2294" />
-		<item id="2430" name="knight axe" chance="2294" />
-		<item id="18414" name="violet crystal shard" chance="2294" />
-		<item id="33979" name="sea horse figurine" chance="1376" />
-		<item id="2165" name="stealth ring" chance="1376" />
-		<item id="2153" name="violet gem" chance="1376" />
-		<item id="7902" name="glacier mask" chance="917" />
-		<item id="33980" name="golden mask" chance="459" />
+		<item id="2160" name="crystal coin" chance="44269" />
+		<item id="2181" name="terra rod" chance="22925" />
+		<item id="2379" name="dagger" chance="17787" />
+		<item id="8473" name="ultimate health potion" chance="11462" countmax="4" />
+		<item id="9971" name="gold ingot" chance="10277" />
+		<item id="8472" name="great spirit potion" chance="8300" countmax="2" />
+		<item id="2392" name="fire sword" chance="7510" />
+		<item id="2183" name="hailstorm rod" chance="4743" />
+		<item id="7886" name="terra boots" chance="4743" />
+		<item id="7901" name="lightning headband" chance="4348" />
+		<item id="7903" name="terra hood" chance="3953" />
+		<item id="7895" name="lightning legs" chance="3557" />
+		<item id="2430" name="knight axe" chance="3162" />
+		<item name="ring of red plasma" chance="3162" />
+		<item id="7892" name="glacier shoes" chance="2372" />
+		<item id="8901" name="spellbook of warding" chance="2372" />
+		<item id="2476" name="knight armor" chance="1976" />
+		<item id="18414" name="violet crystal shard" chance="1976" />
+		<item id="33979" name="sea horse figurine" chance="1581" />
+		<item id="2165" name="stealth ring" chance="1581" />
+		<item id="2153" name="violet gem" chance="1581" />
+		<item id="7902" name="glacier mask" chance="1186" />
+		<item id="33980" name="golden mask" chance="791" />
 	</loot>
 </monster>

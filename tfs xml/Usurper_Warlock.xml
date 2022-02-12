@@ -45,21 +45,21 @@
 	</attacks>
 	<defenses armor="80" defense="80" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="78876" countmax="4" />
-		<item id="9971" name="gold ingot" chance="10938" />
-		<item id="36816" name="lion crest" chance="7878" />
-		<item id="36818" name="lion cloak patch" chance="7275" />
-		<item id="2144" name="black pearl" chance="6422" />
-		<item id="7903" name="terra hood" chance="5218" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="4867" />
-		<item id="2155" name="green gem" chance="4064" />
-		<item id="7901" name="lightning headband" chance="3412" />
-		<item id="8912" name="springsprout rod" chance="3211" />
-		<item id="2671" name="ham" chance="3111" />
-		<item id="2477" name="knight legs" chance="1957" />
-		<item id="7900" name="magma monocle" chance="1957" />
-		<item id="2189" name="wand of cosmic energy" chance="1957" />
-		<item id="8910" name="underworld rod" chance="1656" />
-		<item id="8920" name="wand of starstorm" chance="1405" />
+		<item id="2152" name="platinum coin" chance="79310" countmax="4" />
+		<item id="9971" name="gold ingot" chance="10844" />
+		<item id="36816" name="lion crest" chance="7804" />
+		<item id="36818" name="lion cloak patch" chance="7078" />
+		<item id="2144" name="black pearl" chance="6488" />
+		<item id="7903" name="terra hood" chance="5263" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="4583" />
+		<item id="2155" name="green gem" chance="3857" />
+		<item id="7901" name="lightning headband" chance="3403" />
+		<item id="8912" name="springsprout rod" chance="3176" />
+		<item id="2671" name="ham" chance="2995" />
+		<item id="7900" name="magma monocle" chance="2042" />
+		<item id="2189" name="wand of cosmic energy" chance="1951" />
+		<item id="2477" name="knight legs" chance="1815" />
+		<item id="8910" name="underworld rod" chance="1724" />
+		<item id="8920" name="wand of starstorm" chance="1316" />
 	</loot>
 </monster>

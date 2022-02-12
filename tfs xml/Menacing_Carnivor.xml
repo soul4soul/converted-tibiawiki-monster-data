@@ -45,27 +45,27 @@
 	</attacks>
 	<defenses armor="68" defense="68" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="65775" countmax="8" />
-		<item id="2394" name="morning star" chance="17343" />
-		<item id="26029" name="ultimate mana potion" chance="9779" />
-		<item id="32003" name="violet glass plate" chance="7103" />
-		<item id="2181" name="terra rod" chance="5258" />
-		<item id="7449" name="crystal sword" chance="4889" />
-		<item id="2147" name="small ruby" chance="4151" />
-		<item id="18421" name="green crystal fragment" chance="3321" />
-		<item id="24849" name="onyx chip" chance="2583" />
-		<item id="7885" name="terra legs" chance="2399" />
-		<item id="7760" name="small enchanted ruby" chance="2030" />
-		<item id="8922" name="wand of voodoo" chance="1753" />
-		<item id="2420" name="machete" chance="1661" />
-		<item id="2442" name="heavy machete" chance="1568" />
-		<item id="2477" name="knight legs" chance="1199" />
-		<item id="27617" name="tiger eye" chance="1015" />
-		<item id="8920" name="wand of starstorm" chance="1015" />
-		<item id="2459" name="iron helmet" chance="923" />
-		<item id="2409" name="serpent sword" chance="830" />
-		<item id="2191" name="wand of dragonbreath" chance="830" />
-		<item id="24850" name="opal" chance="646" />
-		<item id="2188" name="wand of decay" chance="554" />
+		<item id="2152" name="platinum coin" chance="65806" countmax="8" />
+		<item id="2394" name="morning star" chance="17419" />
+		<item id="26029" name="ultimate mana potion" chance="9770" />
+		<item id="32003" name="violet glass plate" chance="7097" />
+		<item id="2181" name="terra rod" chance="5253" />
+		<item id="7449" name="crystal sword" chance="4977" />
+		<item id="2147" name="small ruby" chance="4147" />
+		<item id="18421" name="green crystal fragment" chance="3318" />
+		<item id="24849" name="onyx chip" chance="2581" />
+		<item id="7885" name="terra legs" chance="2396" />
+		<item id="7760" name="small enchanted ruby" chance="2028" />
+		<item id="8922" name="wand of voodoo" chance="1751" />
+		<item id="2420" name="machete" chance="1659" />
+		<item id="2442" name="heavy machete" chance="1567" />
+		<item id="2477" name="knight legs" chance="1198" />
+		<item id="27617" name="tiger eye" chance="1014" />
+		<item id="8920" name="wand of starstorm" chance="1014" />
+		<item id="2459" name="iron helmet" chance="922" />
+		<item id="2191" name="wand of dragonbreath" chance="922" />
+		<item id="2409" name="serpent sword" chance="829" />
+		<item id="24850" name="opal" chance="645" />
+		<item id="2188" name="wand of decay" chance="553" />
 	</loot>
 </monster>

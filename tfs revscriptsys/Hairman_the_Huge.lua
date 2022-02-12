@@ -86,6 +86,11 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Kongra", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
 	{id = 2148, chance = 100000},
 	{id = 2676, chance = 25000},

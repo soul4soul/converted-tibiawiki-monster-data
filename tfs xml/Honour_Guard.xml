@@ -51,11 +51,11 @@
 		<voice sentence="For the pharao!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="49528" countmax="15" />
-		<item id="12437" name="pelvis bone" chance="8936" />
-		<item id="2789" name="brown mushroom" chance="6086" countmax="2" />
-		<item id="2398" name="mace" chance="3593" />
-		<item id="2159" name="scarab coin" chance="2695" />
-		<item id="2419" name="scimitar" chance="1347" />
+		<item id="2148" name="gold coin" chance="49583" countmax="15" />
+		<item id="12437" name="pelvis bone" chance="8893" />
+		<item id="2789" name="brown mushroom" chance="6151" countmax="2" />
+		<item id="2398" name="mace" chance="3560" />
+		<item id="2159" name="scarab coin" chance="2742" />
+		<item id="2419" name="scimitar" chance="1348" />
 	</loot>
 </monster>

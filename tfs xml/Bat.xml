@@ -48,6 +48,6 @@
 		<voice sentence="Flap! Flap!" yell="false" />
 	</voices>
 	<loot>
-		<item id="5894" name="bat wing" chance="1082" />
+		<item id="5894" name="bat wing" chance="1083" />
 	</loot>
 </monster>

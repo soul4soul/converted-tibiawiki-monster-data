@@ -82,7 +82,7 @@ monster.elements = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -170},
-	{name ="combat", interval = 2000, chance = 100, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -150, range = 7}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -150, range = 5, radius = 1, target = true, shootEffect = CONST_ANI_THROWINGSTAR}
 }
 
 monster.defenses = {
@@ -91,22 +91,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 55424, maxCount = 86},
-	{id = 11219, chance = 10430},
-	{id = 2385, chance = 9821},
-	{id = 2399, chance = 7933, maxCount = 12},
-	{id = 2489, chance = 1864},
-	{id = 2521, chance = 1099},
-	{id = 6096, chance = 1099},
-	{id = 5926, chance = 1027},
-	{id = 7588, chance = 800},
-	{id = 6097, chance = 538},
-	{id = 6126, chance = 526},
-	{id = 6098, chance = 454},
-	{id = 5462, chance = 323},
-	{id = "skull candle", chance = 131},
-	{id = 5553, chance = 108},
-	{id = 2114, chance = 96}
+	{id = 2148, chance = 55370, maxCount = 86},
+	{id = 11219, chance = 10153},
+	{id = 2385, chance = 9816},
+	{id = 2399, chance = 8090, maxCount = 12},
+	{id = 2489, chance = 1879},
+	{id = 2521, chance = 1108},
+	{id = 6096, chance = 1097},
+	{id = 5926, chance = 1032},
+	{id = 7588, chance = 804},
+	{id = 6097, chance = 576},
+	{id = 6126, chance = 554},
+	{id = 6098, chance = 489},
+	{id = 5462, chance = 326},
+	{id = "skull candle", chance = 119},
+	{id = 5553, chance = 98},
+	{id = 2114, chance = 87}
 }
 
 mType:register(monster)

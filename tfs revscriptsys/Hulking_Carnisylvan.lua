@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Hulking Carnisylvan"
 monster.description = "a hulking carnisylvan"
-monster.experience = 4200
+monster.experience = 4700
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -91,19 +91,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 19},
-	{id = 2230, chance = 23273},
-	{id = 7591, chance = 12123, maxCount = 2},
-	{id = 39462, chance = 11683},
-	{id = 39461, chance = 9768},
-	{id = 7903, chance = 6124},
-	{id = 7886, chance = 4585},
-	{id = 2430, chance = 3894},
-	{id = 7901, chance = 3863},
-	{id = 7387, chance = 3580},
-	{id = 7430, chance = 3486},
-	{id = 2438, chance = 3266},
+	{id = 2230, chance = 23542},
+	{id = 7591, chance = 12289, maxCount = 2},
+	{id = 39462, chance = 11717},
+	{id = 39461, chance = 10354},
+	{id = 7903, chance = 6185},
+	{id = 7886, chance = 4714},
+	{id = 2430, chance = 3951},
+	{id = 7901, chance = 3869},
+	{id = 7430, chance = 3651},
+	{id = 7387, chance = 3597},
+	{id = 2438, chance = 3324},
 	{id = 2391, chance = 2670},
-	{id = 39463, chance = 471}
+	{id = 39463, chance = 463}
 }
 
 mType:register(monster)

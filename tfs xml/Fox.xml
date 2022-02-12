@@ -49,7 +49,7 @@
 		<voice sentence="Yip! Yip!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="48225" />
-		<item id="30118" name="fox paw" chance="1408" />
+		<item id="2666" name="meat" chance="47493" />
+		<item id="30118" name="fox paw" chance="1441" />
 	</loot>
 </monster>

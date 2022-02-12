@@ -56,14 +56,15 @@
 		<voice name="Banshee" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="98" />
+		<item id="2148" name="gold coin" chance="100000" countmax="99" />
 		<item id="9020" name="vampire lord token" chance="100000" />
-		<item id="12405" name="blood preservation" chance="90476" />
-		<item id="2534" name="vampire shield" chance="20635" />
-		<item id="7588" name="strong health potion" chance="19048" />
-		<item id="2214" name="ring of healing" chance="14286" />
-		<item id="2229" name="skull (item)" chance="12698" />
-		<item id="2152" name="platinum coin" chance="11111" countmax="5" />
-		<item id="8903" name="spellbook of lost souls" chance="1587" />
+		<item id="12405" name="blood preservation" chance="91667" />
+		<item id="7588" name="strong health potion" chance="19444" />
+		<item id="2534" name="vampire shield" chance="18056" />
+		<item id="2214" name="ring of healing" chance="12500" />
+		<item id="2229" name="skull (item)" chance="12500" />
+		<item id="2152" name="platinum coin" chance="9722" countmax="5" />
+		<item id="8903" name="spellbook of lost souls" chance="2778" />
+		<item id="2144" name="black pearl" chance="1389" />
 	</loot>
 </monster>

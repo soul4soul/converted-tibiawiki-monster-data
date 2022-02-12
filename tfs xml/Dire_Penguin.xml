@@ -52,7 +52,7 @@
 		<voice sentence="Grrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="66667" countmax="10" />
-		<item id="2667" name="fish" chance="11111" countmax="2" />
+		<item id="2148" name="gold coin" chance="65789" countmax="10" />
+		<item id="2667" name="fish" chance="13158" countmax="4" />
 	</loot>
 </monster>

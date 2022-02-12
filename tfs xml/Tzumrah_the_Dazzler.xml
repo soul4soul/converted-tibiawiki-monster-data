@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Tzumrah The Dazzler" nameDescription="" experience="0" speed="0" manacost="0">
-	<health now="1600" max="1600" />
+<monster name="Tzumrah The Dazzler" nameDescription="" experience="1700" speed="0" manacost="0">
+	<health now="1700" max="1700" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -41,10 +41,10 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
 	</attacks>
 	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="0" max="70" />
+		<defense name="healing" interval="2000" chance="20" min="200" max="230" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="Your beating heart will burst into flames!" yell="false" />

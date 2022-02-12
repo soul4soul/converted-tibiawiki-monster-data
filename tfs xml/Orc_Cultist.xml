@@ -40,17 +40,20 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
+	</attacks>
 	<defenses armor="30" defense="30" />
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="215" />
-		<item id="7588" name="strong health potion" chance="17109" />
-		<item id="2428" name="orcish axe" chance="8663" />
-		<item id="2671" name="ham" chance="8489" />
-		<item id="5910" name="green piece of cloth" chance="5790" />
-		<item id="9970" name="small topaz" chance="4397" countmax="2" />
-		<item id="10556" name="cultish robe" chance="3178" />
-		<item id="18417" name="brown crystal splinter" chance="2264" countmax="2" />
-		<item id="8614" name="orc tusk" chance="871" />
-		<item id="7439" name="berserk potion" chance="740" />
+		<item id="2148" name="gold coin" chance="100000" countmax="217" />
+		<item id="7588" name="strong health potion" chance="17327" />
+		<item id="2428" name="orcish axe" chance="8581" />
+		<item id="2671" name="ham" chance="8292" />
+		<item id="5910" name="green piece of cloth" chance="5776" />
+		<item id="9970" name="small topaz" chance="4290" countmax="2" />
+		<item id="10556" name="cultish robe" chance="3177" />
+		<item id="18417" name="brown crystal splinter" chance="2269" countmax="2" />
+		<item id="8614" name="orc tusk" chance="825" />
+		<item id="7439" name="berserk potion" chance="743" />
 	</loot>
 </monster>

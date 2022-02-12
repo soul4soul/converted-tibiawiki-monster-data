@@ -42,6 +42,12 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-120" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-13" length="8" spread="3">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="0" max="-25">
+			<attribute key="areaEffect" value="rednote" />
+		</attack>
 	</attacks>
 	<defenses armor="19" defense="19">
 		<defense name="healing" interval="2000" chance="20" min="45" max="65" />
@@ -54,13 +60,13 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="99981" countmax="90" />
-		<item id="2672" name="dragon ham" chance="60212" />
-		<item id="10561" name="wyvern talisman" chance="11991" />
-		<item id="2146" name="small sapphire" chance="4934" />
-		<item id="2547" name="power bolt" chance="3376" />
-		<item id="7588" name="strong health potion" chance="2466" />
-		<item id="2187" name="wand of inferno" chance="782" />
+		<item id="2672" name="dragon ham" chance="60208" />
+		<item id="10561" name="wyvern talisman" chance="11989" />
+		<item id="2146" name="small sapphire" chance="4949" />
+		<item id="2547" name="power bolt" chance="3374" />
+		<item id="7588" name="strong health potion" chance="2481" />
+		<item id="2187" name="wand of inferno" chance="783" />
 		<item id="2127" name="emerald bangle" chance="588" />
-		<item id="7408" name="wyvern fang" chance="455" />
+		<item id="7408" name="wyvern fang" chance="453" />
 	</loot>
 </monster>

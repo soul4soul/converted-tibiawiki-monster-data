@@ -42,17 +42,17 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="68493" countmax="5" />
-		<item id="7591" name="great health potion" chance="8219" />
-		<item id="7590" name="great mana potion" chance="5479" />
-		<item id="9930" name="flask of rust remover" chance="2740" />
-		<item id="9690" name="gear wheel" chance="2740" />
-		<item id="23541" name="gearwheel chain" chance="2740" />
-		<item id="23538" name="heat core" chance="2740" />
-		<item id="23539" name="alloy legs" chance="1370" />
-		<item name="crystal pedestal" chance="1370" />
-		<item id="5880" name="iron ore" chance="1370" />
-		<item id="2645" name="steel boots" chance="1370" />
-		<item id="10571" name="war crystal" chance="1370" />
+		<item id="2152" name="platinum coin" chance="68919" countmax="5" />
+		<item id="7591" name="great health potion" chance="8108" />
+		<item id="7590" name="great mana potion" chance="5405" />
+		<item id="9930" name="flask of rust remover" chance="4054" />
+		<item id="9690" name="gear wheel" chance="2703" />
+		<item id="23541" name="gearwheel chain" chance="2703" />
+		<item id="23538" name="heat core" chance="2703" />
+		<item id="23539" name="alloy legs" chance="1351" />
+		<item name="crystal pedestal" chance="1351" />
+		<item id="5880" name="iron ore" chance="1351" />
+		<item id="2645" name="steel boots" chance="1351" />
+		<item id="10571" name="war crystal" chance="1351" />
 	</loot>
 </monster>

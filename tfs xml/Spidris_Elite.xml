@@ -50,19 +50,19 @@
 		<defense name="healing" interval="2000" chance="20" min="175" max="225" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="95951" countmax="200" />
-		<item id="2152" name="platinum coin" chance="42450" countmax="6" />
-		<item id="15485" name="spidris mandible" chance="29355" />
-		<item id="2147" name="small ruby" chance="23345" countmax="5" />
-		<item id="7590" name="great mana potion" chance="21889" />
-		<item id="15486" name="compound eye" chance="13939" />
-		<item id="8473" name="ultimate health potion" chance="11050" />
-		<item id="6300" name="death ring" chance="4429" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="2952" />
-		<item id="15489" name="calopteryx cape" chance="1455" />
-		<item id="15492" name="hive scythe" chance="1392" />
-		<item id="2153" name="violet gem" chance="1223" />
-		<item id="7413" name="titan axe" chance="1139" />
-		<item id="15491" name="carapace shield" chance="907" />
+		<item id="2148" name="gold coin" chance="95954" countmax="200" />
+		<item id="2152" name="platinum coin" chance="42457" countmax="6" />
+		<item id="15485" name="spidris mandible" chance="29393" />
+		<item id="2147" name="small ruby" chance="23346" countmax="5" />
+		<item id="7590" name="great mana potion" chance="21871" />
+		<item id="15486" name="compound eye" chance="13928" />
+		<item id="8473" name="ultimate health potion" chance="11041" />
+		<item id="6300" name="death ring" chance="4446" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="2971" />
+		<item id="15489" name="calopteryx cape" chance="1454" />
+		<item id="15492" name="hive scythe" chance="1391" />
+		<item id="2153" name="violet gem" chance="1222" />
+		<item id="7413" name="titan axe" chance="1138" />
+		<item id="15491" name="carapace shield" chance="927" />
 	</loot>
 </monster>

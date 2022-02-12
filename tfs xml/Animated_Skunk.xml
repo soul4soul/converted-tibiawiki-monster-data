@@ -45,6 +45,6 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="9114" name="bulb of garlic" chance="4902" />
+		<item id="9114" name="bulb of garlic" chance="4587" />
 	</loot>
 </monster>

@@ -52,21 +52,21 @@
 		<voice sentence="Engage zze aggrezzor!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="96090" countmax="281" />
-		<item id="7588" name="strong health potion" chance="11954" />
-		<item id="11333" name="high guard shoulderplates" chance="8095" />
+		<item id="2148" name="gold coin" chance="96087" countmax="281" />
+		<item id="7588" name="strong health potion" chance="11950" />
+		<item id="11333" name="high guard shoulderplates" chance="8088" />
 		<item id="7591" name="great health potion" chance="7067" />
-		<item id="11325" name="spiked iron ball" chance="6975" />
-		<item id="11245" name="bunch of ripe rice" chance="4934" />
-		<item id="2152" name="platinum coin" chance="4917" countmax="2" />
-		<item id="11332" name="high guard flag" chance="3012" />
-		<item id="2149" name="small emerald" chance="2478" countmax="4" />
-		<item id="11206" name="red lantern" chance="1211" />
-		<item id="2528" name="tower shield" chance="1034" />
-		<item id="5876" name="lizard leather" chance="995" />
-		<item id="5881" name="lizard scale" chance="957" />
-		<item id="11304" name="zaoan legs" chance="734" />
-		<item id="11303" name="zaoan shoes" chance="689" />
-		<item id="11301" name="zaoan armor" chance="76" />
+		<item id="11325" name="spiked iron ball" chance="6973" />
+		<item id="11245" name="bunch of ripe rice" chance="4931" />
+		<item id="2152" name="platinum coin" chance="4911" countmax="2" />
+		<item id="11332" name="high guard flag" chance="3008" />
+		<item id="2149" name="small emerald" chance="2486" countmax="4" />
+		<item id="11206" name="red lantern" chance="1213" />
+		<item id="2528" name="tower shield" chance="1031" />
+		<item id="5876" name="lizard leather" chance="996" />
+		<item id="5881" name="lizard scale" chance="956" />
+		<item id="11304" name="zaoan legs" chance="735" />
+		<item id="11303" name="zaoan shoes" chance="687" />
+		<item id="11301" name="zaoan armor" chance="75" />
 	</loot>
 </monster>

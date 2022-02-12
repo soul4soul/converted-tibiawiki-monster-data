@@ -40,7 +40,11 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<defenses armor="10" defense="5" />
+	<defenses armor="10" defense="5">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="450" maxspeedchange="450" duration="4000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="Grrrrunt" yell="false" />
 	</voices>

@@ -51,11 +51,11 @@
 		<voice sentence="Quatu nguraka!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="72009" countmax="27" />
-		<item id="2667" name="fish" chance="29788" countmax="3" />
-		<item id="2460" name="brass helmet" chance="4581" />
-		<item id="2541" name="bone shield" chance="1042" />
-		<item id="22727" name="fireproof horn" chance="449" />
+		<item id="2148" name="gold coin" chance="71992" countmax="27" />
+		<item id="2667" name="fish" chance="29783" countmax="3" />
+		<item id="2460" name="brass helmet" chance="4590" />
+		<item id="2541" name="bone shield" chance="1040" />
+		<item id="22727" name="fireproof horn" chance="448" />
 		<item id="7159" name="green perch" chance="90" />
 		<item id="2669" name="northern pike" chance="54" />
 		<item id="7158" name="rainbow trout" chance="36" />

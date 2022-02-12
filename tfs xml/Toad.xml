@@ -53,10 +53,10 @@
 		<voice sentence="Ribbit!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82228" countmax="20" />
-		<item id="2667" name="fish" chance="19474" />
-		<item id="10557" name="poisonous slime" chance="5030" />
-		<item id="2398" name="mace" chance="2923" />
-		<item id="2391" name="war hammer" chance="142" />
+		<item id="2148" name="gold coin" chance="82154" countmax="20" />
+		<item id="2667" name="fish" chance="19438" />
+		<item id="10557" name="poisonous slime" chance="4946" />
+		<item id="2398" name="mace" chance="2896" />
+		<item id="2391" name="war hammer" chance="134" />
 	</loot>
 </monster>

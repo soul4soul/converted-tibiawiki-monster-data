@@ -55,13 +55,13 @@
 		<voice sentence="Take this!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="50078" countmax="30" />
-		<item id="2666" name="meat" chance="18948" />
-		<item id="2376" name="sword" chance="12395" />
-		<item id="2510" name="plate shield" chance="10211" />
-		<item id="2398" name="mace" chance="10197" />
-		<item id="2458" name="chain helmet" chance="5049" />
-		<item id="2465" name="brass armor" chance="2680" />
+		<item id="2148" name="gold coin" chance="50071" countmax="30" />
+		<item id="2666" name="meat" chance="18954" />
+		<item id="2376" name="sword" chance="12404" />
+		<item id="2510" name="plate shield" chance="10207" />
+		<item id="2398" name="mace" chance="10193" />
+		<item id="2458" name="chain helmet" chance="5047" />
+		<item id="2465" name="brass armor" chance="2694" />
 		<item id="2509" name="steel shield" chance="893" />
 		<item id="2459" name="iron helmet" chance="525" />
 		<item id="8872" name="belted cape" chance="411" />

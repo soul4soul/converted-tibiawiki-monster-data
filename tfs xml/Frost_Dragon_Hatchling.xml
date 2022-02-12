@@ -51,9 +51,9 @@
 		<voice sentence="Fchu?" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87358" countmax="55" />
-		<item id="2672" name="dragon ham" chance="79955" />
-		<item id="10578" name="frosty heart" chance="5063" />
+		<item id="2148" name="gold coin" chance="87366" countmax="55" />
+		<item id="2672" name="dragon ham" chance="79952" />
+		<item id="10578" name="frosty heart" chance="5062" />
 		<item id="7618" name="health potion" chance="558" />
 		<item id="8900" name="spellbook of enlightenment" chance="497" />
 	</loot>

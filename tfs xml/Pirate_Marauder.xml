@@ -42,7 +42,7 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-140" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-40" range="7">
+		<attack name="physical" interval="2000" chance="15" min="0" max="-40" range="5" radius="1" target="1">
 			<attribute key="shootEffect" value="spear" />
 		</attack>
 	</attacks>
@@ -53,20 +53,20 @@
 		<voice sentence="Give up!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="77627" countmax="40" />
-		<item name="torch" chance="9870" />
-		<item id="11219" name="compass" chance="9670" />
-		<item id="2389" name="spear" chance="5069" countmax="2" />
-		<item id="2510" name="plate shield" chance="5024" />
-		<item id="2464" name="chain armor" chance="3056" />
-		<item id="14337" name="treasure map (pirate)" chance="943" />
+		<item id="2148" name="gold coin" chance="77634" countmax="40" />
+		<item name="torch" chance="9842" />
+		<item id="11219" name="compass" chance="9672" />
+		<item id="2389" name="spear" chance="5068" countmax="2" />
+		<item id="2510" name="plate shield" chance="5017" />
+		<item id="2464" name="chain armor" chance="3050" />
+		<item id="14337" name="treasure map (pirate)" chance="945" />
 		<item id="5917" name="bandana" chance="926" />
-		<item id="6098" name="eye patch" chance="534" />
-		<item id="6097" name="hook" chance="512" />
-		<item id="6126" name="peg leg" chance="498" />
-		<item id="5927" name="pirate bag" chance="454" />
-		<item id="5553" name="rum flask" chance="105" />
+		<item id="6098" name="eye patch" chance="536" />
+		<item id="6097" name="hook" chance="515" />
+		<item id="6126" name="peg leg" chance="496" />
+		<item id="5927" name="pirate bag" chance="457" />
+		<item id="5553" name="rum flask" chance="103" />
 		<item name="die" chance="99" />
-		<item id="5928" name="empty goldfish bowl" chance="82" />
+		<item id="5928" name="empty goldfish bowl" chance="83" />
 	</loot>
 </monster>

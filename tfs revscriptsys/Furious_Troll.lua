@@ -88,11 +88,16 @@ monster.defenses = {
 	armor = 15
 }
 
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Mechanical Fighter", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
-	{id = 2148, chance = 93667, maxCount = 146},
-	{id = 2152, chance = 5730},
-	{id = 10606, chance = 4704},
-	{id = 2391, chance = 543}
+	{id = 2148, chance = 93324, maxCount = 147},
+	{id = 2152, chance = 5303},
+	{id = 10606, chance = 4735},
+	{id = 2391, chance = 805}
 }
 
 mType:register(monster)

@@ -42,7 +42,7 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-45" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-40" range="7">
+		<attack name="physical" interval="2000" chance="15" min="0" max="-40" range="5" radius="1" target="1">
 			<attribute key="shootEffect" value="throwingknife" />
 		</attack>
 	</attacks>
@@ -53,15 +53,15 @@
 		<voice sentence="Yeeee ha!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2229" name="skull (item)" chance="80101" countmax="2" />
-		<item id="2379" name="dagger" chance="79999" />
-		<item id="2148" name="gold coin" chance="40100" countmax="20" />
-		<item id="2691" name="brown bread" chance="29515" />
-		<item id="2385" name="sabre" chance="23234" />
-		<item id="12399" name="girlish hair decoration" chance="9859" />
-		<item id="12400" name="protective charm" chance="5239" />
-		<item name="torch" chance="1011" />
-		<item id="2125" name="crystal necklace" chance="243" />
-		<item id="2147" name="small ruby" chance="133" />
+		<item id="2229" name="skull (item)" chance="80082" countmax="2" />
+		<item id="2379" name="dagger" chance="79974" />
+		<item id="2148" name="gold coin" chance="40106" countmax="20" />
+		<item id="2691" name="brown bread" chance="29487" />
+		<item id="2385" name="sabre" chance="23248" />
+		<item id="12399" name="girlish hair decoration" chance="9857" />
+		<item id="12400" name="protective charm" chance="5269" />
+		<item name="torch" chance="1016" />
+		<item id="2125" name="crystal necklace" chance="239" />
+		<item id="2147" name="small ruby" chance="131" />
 	</loot>
 </monster>

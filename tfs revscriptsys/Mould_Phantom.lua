@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Mould Phantom"
 monster.description = "a mould phantom"
-monster.experience = 19500
+monster.experience = 18330
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -89,20 +89,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 59089},
-	{id = 9971, chance = 12291},
-	{id = 8920, chance = 4321},
-	{id = 2155, chance = 4212},
-	{id = 36797, chance = 4102},
-	{id = 2153, chance = 3100},
-	{id = 18390, chance = 3022},
-	{id = 36804, chance = 2536},
-	{id = 2158, chance = 2442},
-	{id = 8922, chance = 2176},
-	{id = "collar of blue plasma", chance = 1206},
-	{id = "ring of blue plasma", chance = 845},
-	{id = 15644, chance = 673},
-	{id = 18453, chance = 658}
+	{id = 2160, chance = 57558},
+	{id = 9971, chance = 13372},
+	{id = 18390, chance = 6395},
+	{id = 2155, chance = 5814},
+	{id = 36797, chance = 3488},
+	{id = 8920, chance = 2907},
+	{id = 36804, chance = 2326},
+	{id = 2153, chance = 2326},
+	{id = 2158, chance = 1744},
+	{id = 8922, chance = 1744},
+	{id = "collar of blue plasma", chance = 581},
+	{id = 18453, chance = 581},
+	{id = 15644, chance = 581},
+	{id = "ring of blue plasma", chance = 581}
 }
 
 mType:register(monster)

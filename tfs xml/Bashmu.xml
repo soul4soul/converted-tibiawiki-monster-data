@@ -42,22 +42,24 @@
 	</elements>
 	<defenses armor="72" defense="72" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="76329" countmax="19" />
-		<item id="2427" name="guardian halberd" chance="8696" />
-		<item id="39479" name="bashmu feather" chance="6280" />
-		<item id="39477" name="bashmu tongue" chance="5797" />
-		<item id="18413" name="blue crystal shard" chance="5797" />
-		<item id="10219" name="sacred tree amulet" chance="3865" />
-		<item id="2153" name="violet gem" chance="3865" />
-		<item id="2145" name="small diamond" chance="3382" />
-		<item id="8472" name="great spirit potion" chance="2415" />
-		<item id="18415" name="green crystal shard" chance="2415" />
-		<item id="7454" name="glorious axe" chance="1932" />
-		<item id="7887" name="terra amulet" chance="1932" />
-		<item id="39476" name="bashmu fang" chance="1449" />
-		<item id="28393" name="rainbow quartz" chance="966" />
-		<item id="26200" name="collar of red plasma" chance="483" />
-		<item id="7407" name="haunted blade" chance="483" />
-		<item id="7890" name="magma amulet" chance="483" />
+		<item id="2152" name="platinum coin" chance="69350" countmax="19" />
+		<item id="2427" name="guardian halberd" chance="9158" />
+		<item id="39479" name="bashmu feather" chance="5318" />
+		<item id="39477" name="bashmu tongue" chance="4948" />
+		<item id="10219" name="sacred tree amulet" chance="4284" />
+		<item id="8472" name="great spirit potion" chance="3840" />
+		<item id="18415" name="green crystal shard" chance="3471" />
+		<item id="18413" name="blue crystal shard" chance="2954" />
+		<item id="2145" name="small diamond" chance="2954" />
+		<item id="2153" name="violet gem" chance="2733" />
+		<item id="39476" name="bashmu fang" chance="2068" />
+		<item id="28393" name="rainbow quartz" chance="1773" />
+		<item id="7887" name="terra amulet" chance="1773" />
+		<item id="7888" name="glacier amulet" chance="960" />
+		<item id="7454" name="glorious axe" chance="812" />
+		<item id="26200" name="collar of red plasma" chance="665" />
+		<item id="7407" name="haunted blade" chance="591" />
+		<item id="7890" name="magma amulet" chance="517" />
+		<item name="collar of blue plasma" chance="443" />
 	</loot>
 </monster>

@@ -45,10 +45,10 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
-		<item id="2148" name="gold coin" chance="57789" countmax="45" />
-		<item id="11192" name="carrion worm fang" chance="9998" />
-		<item id="2666" name="meat" chance="9625" />
-		<item id="3976" name="worm" chance="2022" countmax="2" />
-		<item id="13757" name="coal" chance="234" />
+		<item id="2148" name="gold coin" chance="57788" countmax="45" />
+		<item id="11192" name="carrion worm fang" chance="9993" />
+		<item id="2666" name="meat" chance="9631" />
+		<item id="3976" name="worm" chance="2030" countmax="2" />
+		<item id="13757" name="coal" chance="233" />
 	</loot>
 </monster>

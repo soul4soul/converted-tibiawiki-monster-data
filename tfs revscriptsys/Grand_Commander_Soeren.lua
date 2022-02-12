@@ -87,25 +87,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 67191, maxCount = 5},
-	{id = 7591, chance = 26101, maxCount = 3},
-	{id = 7590, chance = 25786, maxCount = 3},
-	{id = 7762, chance = 23480},
-	{id = 7368, chance = 18763, maxCount = 10},
-	{id = 9970, chance = 16457, maxCount = 2},
-	{id = 2145, chance = 15723, maxCount = 2},
-	{id = 2147, chance = 14885, maxCount = 2},
-	{id = 2150, chance = 14675, maxCount = 2},
-	{id = 2149, chance = 14151, maxCount = 2},
-	{id = 7365, chance = 11740, maxCount = 15},
-	{id = 2156, chance = 2306},
-	{id = "giant shimmering pearl", chance = 1572},
-	{id = 31479, chance = 1153},
-	{id = 2155, chance = 839},
-	{id = 2153, chance = 734},
-	{id = 31477, chance = 629},
-	{id = 31478, chance = 419},
-	{id = 2466, chance = 105}
+	{id = 2152, chance = 68209, maxCount = 5},
+	{id = 7591, chance = 26861, maxCount = 3},
+	{id = 7590, chance = 26056, maxCount = 3},
+	{id = 7762, chance = 22535},
+	{id = 7368, chance = 19115, maxCount = 10},
+	{id = 9970, chance = 16901, maxCount = 2},
+	{id = 2145, chance = 15594, maxCount = 2},
+	{id = 2147, chance = 15392, maxCount = 2},
+	{id = 2149, chance = 14688, maxCount = 2},
+	{id = 2150, chance = 14286, maxCount = 2},
+	{id = 7365, chance = 12173, maxCount = 15},
+	{id = 2156, chance = 2515},
+	{id = "giant shimmering pearl", chance = 1509},
+	{id = 31479, chance = 1107},
+	{id = 2155, chance = 805},
+	{id = 2153, chance = 704},
+	{id = 31477, chance = 604},
+	{id = 31478, chance = 402},
+	{id = 2466, chance = 101}
 }
 
 mType:register(monster)

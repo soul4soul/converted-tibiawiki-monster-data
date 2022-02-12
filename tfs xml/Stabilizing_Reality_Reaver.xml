@@ -50,23 +50,23 @@
 		<voice sentence="Ssshhh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="97458" countmax="100" />
-		<item id="2152" name="platinum coin" chance="97458" countmax="4" />
-		<item id="8472" name="great spirit potion" chance="14407" />
-		<item id="7591" name="great health potion" chance="13948" />
-		<item id="7590" name="great mana potion" chance="13736" />
-		<item id="26157" name="condensed energy" chance="10593" />
-		<item id="26191" name="energy bar" chance="9499" />
-		<item id="26201" name="energy drink" chance="9499" />
-		<item id="26180" name="small energy ball" chance="9145" />
-		<item id="26162" name="plasma pearls" chance="8828" />
-		<item id="18420" name="red crystal fragment" chance="3919" />
-		<item id="18414" name="violet crystal shard" chance="3531" />
-		<item id="18418" name="blue crystal splinter" chance="3390" countmax="2" />
-		<item id="18413" name="blue crystal shard" chance="1660" />
-		<item id="2156" name="red gem" chance="1412" />
-		<item id="8920" name="wand of starstorm" chance="1271" />
-		<item id="7901" name="lightning headband" chance="212" />
-		<item id="8871" name="focus cape" chance="71" />
+		<item id="2148" name="gold coin" chance="97321" countmax="100" />
+		<item id="2152" name="platinum coin" chance="97321" countmax="4" />
+		<item id="8472" name="great spirit potion" chance="14381" />
+		<item id="7591" name="great health potion" chance="13923" />
+		<item id="7590" name="great mana potion" chance="13747" />
+		<item id="26157" name="condensed energy" chance="10575" />
+		<item id="26191" name="energy bar" chance="9482" />
+		<item id="26201" name="energy drink" chance="9482" />
+		<item id="26180" name="small energy ball" chance="9129" />
+		<item id="26162" name="plasma pearls" chance="8812" />
+		<item id="18420" name="red crystal fragment" chance="3913" />
+		<item id="18414" name="violet crystal shard" chance="3525" />
+		<item id="18418" name="blue crystal splinter" chance="3384" countmax="2" />
+		<item id="18413" name="blue crystal shard" chance="1657" />
+		<item id="2156" name="red gem" chance="1410" />
+		<item id="8920" name="wand of starstorm" chance="1269" />
+		<item id="7901" name="lightning headband" chance="211" />
+		<item id="8871" name="focus cape" chance="70" />
 	</loot>
 </monster>

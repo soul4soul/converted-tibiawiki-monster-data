@@ -54,14 +54,17 @@
 		<item id="2152" name="platinum coin" chance="100000" countmax="8" />
 		<item id="26174" name="spark sphere" chance="100000" />
 		<item id="26170" name="volatile proto matter" chance="100000" />
-		<item id="26191" name="energy bar" chance="66667" countmax="3" />
-		<item id="7591" name="great health potion" chance="66667" />
-		<item name="ring of red plasma" chance="66667" />
-		<item id="18418" name="blue crystal splinter" chance="33333" />
-		<item id="26199" name="collar of green plasma" chance="33333" />
-		<item id="26200" name="collar of red plasma" chance="33333" />
-		<item id="26201" name="energy drink" chance="33333" countmax="3" />
-		<item id="7590" name="great mana potion" chance="33333" />
-		<item id="18415" name="green crystal shard" chance="33333" />
+		<item id="26191" name="energy bar" chance="50000" countmax="3" />
+		<item id="26201" name="energy drink" chance="50000" countmax="3" />
+		<item id="7591" name="great health potion" chance="50000" />
+		<item name="ring of red plasma" chance="50000" />
+		<item id="18418" name="blue crystal splinter" chance="25000" />
+		<item name="collar of blue plasma" chance="25000" />
+		<item id="26199" name="collar of green plasma" chance="25000" />
+		<item id="26200" name="collar of red plasma" chance="25000" />
+		<item id="7590" name="great mana potion" chance="25000" />
+		<item id="8472" name="great spirit potion" chance="25000" countmax="2" />
+		<item id="18415" name="green crystal shard" chance="25000" />
+		<item name="ring of green plasma" chance="25000" />
 	</loot>
 </monster>

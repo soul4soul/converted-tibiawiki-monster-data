@@ -49,21 +49,21 @@
 		<voice sentence="Weeeuuu weeeuuu!!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="84680" countmax="11" />
-		<item id="5921" name="heaven blossom" chance="10415" />
-		<item id="32661" name="dream essence egg" chance="8032" />
-		<item id="10552" name="elvish talisman" chance="7036" />
-		<item id="7760" name="small enchanted ruby" chance="5939" />
-		<item id="18414" name="violet crystal shard" chance="4564" />
-		<item id="18420" name="red crystal fragment" chance="4463" />
-		<item id="28391" name="leaf star" chance="4186" countmax="8" />
-		<item name="ring of blue plasma" chance="2560" />
-		<item id="2664" name="wood cape" chance="1425" />
-		<item id="2154" name="yellow gem" chance="1034" />
-		<item name="collar of blue plasma" chance="958" />
-		<item id="32651" name="sun fruit" chance="832" />
-		<item id="7759" name="small enchanted sapphire" chance="782" countmax="2" />
-		<item id="2145" name="small diamond" chance="580" />
-		<item id="18453" name="crystal crossbow" chance="454" />
+		<item id="2152" name="platinum coin" chance="84762" countmax="11" />
+		<item id="5921" name="heaven blossom" chance="10361" />
+		<item id="32661" name="dream essence egg" chance="8154" />
+		<item id="10552" name="elvish talisman" chance="7238" />
+		<item id="7760" name="small enchanted ruby" chance="5969" />
+		<item id="18420" name="red crystal fragment" chance="4601" />
+		<item id="18414" name="violet crystal shard" chance="4579" />
+		<item id="28391" name="leaf star" chance="4127" countmax="8" />
+		<item name="ring of blue plasma" chance="2571" />
+		<item id="2664" name="wood cape" chance="1313" />
+		<item id="2154" name="yellow gem" chance="1070" />
+		<item name="collar of blue plasma" chance="938" />
+		<item id="32651" name="sun fruit" chance="850" />
+		<item id="7759" name="small enchanted sapphire" chance="761" countmax="2" />
+		<item id="2145" name="small diamond" chance="574" />
+		<item id="18453" name="crystal crossbow" chance="474" />
 	</loot>
 </monster>

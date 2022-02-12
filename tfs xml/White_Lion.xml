@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="White Lion" nameDescription="a white lion" experience="2300" speed="0" manacost="0">
+<monster name="White Lion" nameDescription="a white lion" experience="2300" speed="220" manacost="0">
 	<health now="2700" max="2700" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -43,20 +43,20 @@
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
 	</attacks>
-	<defenses armor="10" defense="5" />
+	<defenses armor="38" defense="38" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="8472" name="great spirit potion" chance="24607" countmax="2" />
-		<item id="10608" name="lion's mane" chance="18804" />
-		<item id="2386" name="axe" chance="15238" />
-		<item id="7886" name="terra boots" chance="14950" />
-		<item id="2643" name="leather boots" chance="14529" />
-		<item id="11309" name="twin hooks" chance="12802" />
-		<item id="18415" name="green crystal shard" chance="6091" />
-		<item id="18419" name="cyan crystal fragment" chance="4673" />
-		<item id="2391" name="war hammer" chance="3477" />
-		<item id="2154" name="yellow gem" chance="2746" />
-		<item id="2404" name="combat knife" chance="2148" />
-		<item id="18421" name="green crystal fragment" chance="2082" />
+		<item id="8472" name="great spirit potion" chance="24428" countmax="2" />
+		<item id="10608" name="lion's mane" chance="18847" />
+		<item id="2386" name="axe" chance="15270" />
+		<item id="7886" name="terra boots" chance="14922" />
+		<item id="2643" name="leather boots" chance="14575" />
+		<item id="11309" name="twin hooks" chance="12735" />
+		<item id="18415" name="green crystal shard" chance="5928" />
+		<item id="18419" name="cyan crystal fragment" chance="4620" />
+		<item id="2391" name="war hammer" chance="3598" />
+		<item id="2154" name="yellow gem" chance="2719" />
+		<item id="18421" name="green crystal fragment" chance="2105" />
+		<item id="2404" name="combat knife" chance="2065" />
 	</loot>
 </monster>

@@ -53,23 +53,23 @@
 		<voice sentence="Are you stalking me? You will bitterly regret this!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="59742" countmax="90" />
-		<item id="28347" name="wild flowers" chance="20287" />
-		<item id="28352" name="colourful snail shell" chance="14921" />
-		<item id="2803" name="powder herb" chance="5194" />
-		<item id="7590" name="great mana potion" chance="3271" />
-		<item id="2134" name="silver brooch" chance="2697" />
-		<item id="7761" name="small enchanted emerald" chance="2525" countmax="2" />
-		<item id="24850" name="opal" chance="2066" countmax="2" />
-		<item id="2143" name="white pearl" chance="1779" countmax="2" />
-		<item id="27047" name="coral brooch" chance="1607" />
-		<item id="2796" name="green mushroom" chance="1377" />
-		<item id="2423" name="clerical mace" chance="1234" />
-		<item id="2195" name="boots of haste" chance="861" />
-		<item id="28354" name="butterfly ring" chance="775" />
-		<item id="7589" name="strong mana potion" chance="631" />
-		<item id="8874" name="summer dress" chance="516" />
-		<item id="7387" name="diamond sceptre" chance="402" />
-		<item id="9927" name="flower wreath" chance="373" />
+		<item id="2148" name="gold coin" chance="60496" countmax="90" />
+		<item id="28347" name="wild flowers" chance="20472" />
+		<item id="28352" name="colourful snail shell" chance="14333" />
+		<item id="2803" name="powder herb" chance="5266" />
+		<item id="7590" name="great mana potion" chance="3140" />
+		<item id="2134" name="silver brooch" chance="2834" />
+		<item id="7761" name="small enchanted emerald" chance="2645" countmax="2" />
+		<item id="24850" name="opal" chance="1960" countmax="2" />
+		<item id="2143" name="white pearl" chance="1842" countmax="2" />
+		<item id="27047" name="coral brooch" chance="1677" />
+		<item id="2796" name="green mushroom" chance="1322" />
+		<item id="2423" name="clerical mace" chance="1181" />
+		<item id="2195" name="boots of haste" chance="874" />
+		<item id="7589" name="strong mana potion" chance="779" />
+		<item id="28354" name="butterfly ring" chance="732" />
+		<item id="8874" name="summer dress" chance="472" />
+		<item id="9927" name="flower wreath" chance="378" />
+		<item id="7387" name="diamond sceptre" chance="331" />
 	</loot>
 </monster>

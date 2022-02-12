@@ -54,11 +54,11 @@
 		<voice sentence="You will not get my treasure." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="45915" countmax="67" />
-		<item id="10601" name="tattered piece of robe" chance="4139" />
-		<item id="1948" name="parchment (rewritable)" chance="871" />
-		<item id="2165" name="stealth ring" chance="654" />
-		<item id="2383" name="spike sword" chance="163" />
-		<item id="2655" name="red robe" chance="54" />
+		<item id="2148" name="gold coin" chance="45875" countmax="67" />
+		<item id="10601" name="tattered piece of robe" chance="4204" />
+		<item id="1948" name="parchment (rewritable)" chance="852" />
+		<item id="2165" name="stealth ring" chance="639" />
+		<item id="2383" name="spike sword" chance="160" />
+		<item id="2655" name="red robe" chance="53" />
 	</loot>
 </monster>

@@ -51,11 +51,11 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="71933" countmax="15" />
-		<item id="19737" name="insectoid eggs" chance="34927" />
+		<item id="19737" name="insectoid eggs" chance="34928" />
 		<item id="2544" name="arrow" chance="7985" countmax="3" />
 		<item id="2120" name="rope" chance="5076" />
 		<item id="2398" name="mace" chance="3978" />
-		<item id="2460" name="brass helmet" chance="1977" />
+		<item id="2460" name="brass helmet" chance="1976" />
 		<item id="7618" name="health potion" chance="1481" />
 		<item id="2456" name="bow" chance="739" />
 		<item id="2419" name="scimitar" chance="487" />

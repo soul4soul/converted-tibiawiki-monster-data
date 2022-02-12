@@ -51,32 +51,32 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
 		<item id="2152" name="platinum coin" chance="99981" countmax="11" />
-		<item id="7620" name="mana potion" chance="20336" countmax="2" />
-		<item id="7588" name="strong health potion" chance="18766" countmax="2" />
-		<item id="7589" name="strong mana potion" chance="17832" countmax="2" />
-		<item id="7590" name="great mana potion" chance="16243" countmax="2" />
-		<item id="18424" name="magma clump" chance="15121" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="15065" />
-		<item id="18425" name="blazing bone" chance="14636" />
-		<item id="18416" name="green crystal splinter" chance="13888" countmax="2" />
-		<item id="10553" name="fiery heart" chance="13626" />
-		<item id="18435" name="prismatic bolt" chance="12056" countmax="5" />
-		<item id="5880" name="iron ore" chance="11664" />
-		<item id="18420" name="red crystal fragment" chance="10486" />
-		<item id="5914" name="yellow piece of cloth" chance="7215" />
-		<item id="2154" name="yellow gem" chance="6411" />
-		<item id="18414" name="violet crystal shard" chance="6056" />
-		<item id="5909" name="white piece of cloth" chance="4841" />
-		<item id="5911" name="red piece of cloth" chance="3495" />
-		<item id="2187" name="wand of inferno" chance="3178" />
-		<item id="7890" name="magma amulet" chance="3159" />
-		<item id="7891" name="magma boots" chance="2579" />
-		<item id="2392" name="fire sword" chance="1794" />
-		<item id="2432" name="fire axe" chance="1421" />
-		<item id="18409" name="wand of everblazing" chance="1308" />
-		<item id="2519" name="crown shield" chance="1234" />
-		<item id="2156" name="red gem" chance="1159" />
-		<item id="8902" name="spellbook of mind control" chance="617" />
-		<item id="7899" name="magma coat" chance="430" />
+		<item id="7620" name="mana potion" chance="20316" countmax="2" />
+		<item id="7588" name="strong health potion" chance="18903" countmax="2" />
+		<item id="7589" name="strong mana potion" chance="17770" countmax="2" />
+		<item id="7590" name="great mana potion" chance="16171" countmax="2" />
+		<item id="18424" name="magma clump" chance="15186" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="15093" />
+		<item id="18425" name="blazing bone" chance="14591" />
+		<item id="18416" name="green crystal splinter" chance="13885" countmax="2" />
+		<item id="10553" name="fiery heart" chance="13606" />
+		<item id="18435" name="prismatic bolt" chance="12063" countmax="5" />
+		<item id="5880" name="iron ore" chance="11617" />
+		<item id="18420" name="red crystal fragment" chance="10446" />
+		<item id="5914" name="yellow piece of cloth" chance="7175" />
+		<item id="2154" name="yellow gem" chance="6413" />
+		<item id="18414" name="violet crystal shard" chance="6041" />
+		<item id="5909" name="white piece of cloth" chance="4907" />
+		<item id="5911" name="red piece of cloth" chance="3569" />
+		<item id="7890" name="magma amulet" chance="3197" />
+		<item id="2187" name="wand of inferno" chance="3160" />
+		<item id="7891" name="magma boots" chance="2602" />
+		<item id="2392" name="fire sword" chance="1784" />
+		<item id="2432" name="fire axe" chance="1413" />
+		<item id="18409" name="wand of everblazing" chance="1338" />
+		<item id="2519" name="crown shield" chance="1227" />
+		<item id="2156" name="red gem" chance="1171" />
+		<item id="8902" name="spellbook of mind control" chance="613" />
+		<item id="7899" name="magma coat" chance="428" />
 	</loot>
 </monster>

@@ -53,20 +53,20 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="190" />
-		<item id="2152" name="platinum coin" chance="75118" />
-		<item id="15481" name="spitter nose" chance="18201" />
-		<item id="15486" name="compound eye" chance="15090" />
-		<item id="2150" name="small amethyst" chance="8176" countmax="2" />
-		<item id="7590" name="great mana potion" chance="8013" />
-		<item id="2789" name="brown mushroom" chance="7405" countmax="3" />
-		<item id="7591" name="great health potion" chance="4939" />
-		<item id="2169" name="time ring" chance="2301" />
-		<item id="7449" name="crystal sword" chance="2019" />
-		<item id="7440" name="mastermind potion" chance="319" />
-		<item id="15489" name="calopteryx cape" chance="240" />
-		<item id="2171" name="platinum amulet" chance="233" />
-		<item id="2155" name="green gem" chance="210" />
-		<item id="2497" name="crusader helmet" chance="207" />
-		<item id="15490" name="grasshopper legs" chance="112" />
+		<item id="2152" name="platinum coin" chance="75098" />
+		<item id="15481" name="spitter nose" chance="18207" />
+		<item id="15486" name="compound eye" chance="15086" />
+		<item id="2150" name="small amethyst" chance="8173" countmax="2" />
+		<item id="7590" name="great mana potion" chance="8006" />
+		<item id="2789" name="brown mushroom" chance="7411" countmax="3" />
+		<item id="7591" name="great health potion" chance="4938" />
+		<item id="2169" name="time ring" chance="2308" />
+		<item id="7449" name="crystal sword" chance="2016" />
+		<item id="7440" name="mastermind potion" chance="317" />
+		<item id="15489" name="calopteryx cape" chance="239" />
+		<item id="2171" name="platinum amulet" chance="232" />
+		<item id="2155" name="green gem" chance="211" />
+		<item id="2497" name="crusader helmet" chance="206" />
+		<item id="15490" name="grasshopper legs" chance="111" />
 	</loot>
 </monster>

@@ -46,10 +46,10 @@
 	<defenses armor="3" defense="3" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="12" />
-		<item id="23839" name="simple arrow" chance="22857" countmax="16" />
-		<item id="2545" name="poison arrow" chance="12381" countmax="8" />
-		<item id="2485" name="doublet" chance="4762" />
-		<item id="7618" name="health potion" chance="2857" />
-		<item id="7620" name="mana potion" chance="2857" />
+		<item id="23839" name="simple arrow" chance="25943" countmax="16" />
+		<item id="2545" name="poison arrow" chance="11321" countmax="8" />
+		<item id="2485" name="doublet" chance="7547" />
+		<item id="7620" name="mana potion" chance="3774" />
+		<item id="7618" name="health potion" chance="3302" />
 	</loot>
 </monster>

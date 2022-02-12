@@ -52,17 +52,17 @@
 		<voice sentence="Peak a boo, I killed you!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="97015" countmax="155" />
-		<item id="2666" name="meat" chance="50508" />
-		<item id="11223" name="essence of a bad dream" chance="8102" />
-		<item id="11229" name="scythe leg" chance="4954" />
-		<item id="2152" name="platinum coin" chance="1060" countmax="3" />
-		<item id="2491" name="crown helmet" chance="719" />
-		<item id="7387" name="diamond sceptre" chance="362" />
-		<item id="8871" name="focus cape" chance="330" />
-		<item id="6300" name="death ring" chance="270" />
+		<item id="2148" name="gold coin" chance="97010" countmax="155" />
+		<item id="2666" name="meat" chance="50417" />
+		<item id="11223" name="essence of a bad dream" chance="8068" />
+		<item id="11229" name="scythe leg" chance="4985" />
+		<item id="2152" name="platinum coin" chance="1073" countmax="3" />
+		<item id="2491" name="crown helmet" chance="731" />
+		<item id="7387" name="diamond sceptre" chance="368" />
+		<item id="8871" name="focus cape" chance="332" />
+		<item id="6300" name="death ring" chance="285" />
+		<item id="6574" name="bar of chocolate" chance="249" />
 		<item id="7451" name="shadow sceptre" chance="249" />
-		<item id="6574" name="bar of chocolate" chance="233" />
-		<item id="9941" name="crystal of focus" chance="119" />
+		<item id="9941" name="crystal of focus" chance="114" />
 	</loot>
 </monster>

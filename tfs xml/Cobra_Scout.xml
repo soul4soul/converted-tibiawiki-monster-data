@@ -50,20 +50,20 @@
 		<voice sentence="What are you looking for?" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="73400" countmax="9" />
-		<item id="24850" name="opal" chance="23045" countmax="5" />
-		<item id="7850" name="earth arrow" chance="19787" countmax="28" />
-		<item id="20098" name="cheesy figurine" chance="13981" />
-		<item id="34334" name="cobra crest" chance="13329" />
-		<item id="9971" name="gold ingot" chance="6813" />
-		<item id="2197" name="stone skin amulet" chance="5983" />
-		<item id="10219" name="sacred tree amulet" chance="5273" />
-		<item id="2149" name="small emerald" chance="3673" countmax="2" />
-		<item id="2156" name="red gem" chance="3614" />
-		<item id="2154" name="yellow gem" chance="3021" />
-		<item id="2155" name="green gem" chance="2488" />
-		<item id="18415" name="green crystal shard" chance="2014" />
-		<item id="2153" name="violet gem" chance="1896" />
-		<item name="ring of red plasma" chance="652" />
+		<item id="2152" name="platinum coin" chance="73337" countmax="9" />
+		<item id="24850" name="opal" chance="23057" countmax="5" />
+		<item id="7850" name="earth arrow" chance="20721" countmax="28" />
+		<item id="34334" name="cobra crest" chance="14119" />
+		<item id="20098" name="cheesy figurine" chance="13763" />
+		<item id="9971" name="gold ingot" chance="6399" />
+		<item id="2197" name="stone skin amulet" chance="5942" />
+		<item id="10219" name="sacred tree amulet" chance="4926" />
+		<item id="2156" name="red gem" chance="3809" />
+		<item id="2149" name="small emerald" chance="3454" countmax="2" />
+		<item id="2154" name="yellow gem" chance="3149" />
+		<item id="2155" name="green gem" chance="2235" />
+		<item id="18415" name="green crystal shard" chance="2133" />
+		<item id="2153" name="violet gem" chance="1727" />
+		<item name="ring of red plasma" chance="609" />
 	</loot>
 </monster>

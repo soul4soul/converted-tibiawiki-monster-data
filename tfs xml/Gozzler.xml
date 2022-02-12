@@ -57,15 +57,15 @@
 		<voice sentence="Nyarnyarnyarnyar." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82182" countmax="70" />
-		<item id="2510" name="plate shield" chance="10020" />
-		<item id="2015" name="brown flask" chance="9042" />
-		<item id="2385" name="sabre" chance="8145" />
-		<item id="2394" name="morning star" chance="5123" />
-		<item id="2378" name="battle axe" chance="3092" />
-		<item id="2423" name="clerical mace" chance="779" />
+		<item id="2148" name="gold coin" chance="82176" countmax="70" />
+		<item id="2510" name="plate shield" chance="10023" />
+		<item id="2015" name="brown flask" chance="9040" />
+		<item id="2385" name="sabre" chance="8146" />
+		<item id="2394" name="morning star" chance="5115" />
+		<item id="2378" name="battle axe" chance="3093" />
+		<item id="2423" name="clerical mace" chance="781" />
 		<item id="2146" name="small sapphire" chance="392" />
-		<item id="2409" name="serpent sword" chance="304" />
-		<item id="2213" name="dwarven ring" chance="205" />
+		<item id="2409" name="serpent sword" chance="303" />
+		<item id="2213" name="dwarven ring" chance="206" />
 	</loot>
 </monster>

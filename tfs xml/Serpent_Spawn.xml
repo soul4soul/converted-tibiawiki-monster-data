@@ -56,28 +56,28 @@
 		<voice sentence="Tsssse one will risssse again" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="97221" countmax="245" />
-		<item id="2796" name="green mushroom" chance="18248" />
-		<item id="10611" name="snake skin" chance="14926" />
-		<item id="2146" name="small sapphire" chance="12120" />
-		<item id="2547" name="power bolt" chance="6115" />
-		<item id="2168" name="life ring" chance="6064" />
-		<item id="2167" name="energy ring" chance="5967" />
-		<item id="2033" name="golden mug" chance="2975" />
+		<item id="2148" name="gold coin" chance="97229" countmax="245" />
+		<item id="2796" name="green mushroom" chance="18281" />
+		<item id="10611" name="snake skin" chance="14954" />
+		<item id="2146" name="small sapphire" chance="12107" />
+		<item id="2547" name="power bolt" chance="6102" />
+		<item id="2168" name="life ring" chance="6052" />
+		<item id="2167" name="energy ring" chance="5965" />
+		<item id="2033" name="golden mug" chance="2962" />
 		<item id="7386" name="mercenary sword" chance="2034" />
-		<item id="7590" name="great mana potion" chance="2011" />
-		<item id="2182" name="snakebite rod" chance="994" />
-		<item id="11230" name="winged tail" chance="943" />
-		<item id="2528" name="tower shield" chance="860" />
-		<item id="7456" name="noble axe" chance="814" />
-		<item id="2177" name="life crystal" chance="780" />
-		<item id="2479" name="strange helmet" chance="627" />
-		<item id="5956" name="old parchment" chance="570" />
-		<item id="2475" name="warrior helmet" chance="567" />
+		<item id="7590" name="great mana potion" chance="2001" />
+		<item id="2182" name="snakebite rod" chance="986" />
+		<item id="11230" name="winged tail" chance="944" />
+		<item id="2528" name="tower shield" chance="859" />
+		<item id="7456" name="noble axe" chance="808" />
+		<item id="2177" name="life crystal" chance="789" />
+		<item id="2479" name="strange helmet" chance="629" />
+		<item id="5956" name="old parchment" chance="571" />
+		<item id="2475" name="warrior helmet" chance="566" />
 		<item id="2487" name="crown armor" chance="507" />
-		<item id="3971" name="charmer's tiara" chance="184" />
+		<item id="3971" name="charmer's tiara" chance="186" />
 		<item id="2498" name="royal helmet" chance="125" />
 		<item id="8902" name="spellbook of mind control" chance="99" />
-		<item id="8880" name="swamplair armor" chance="83" />
+		<item id="8880" name="swamplair armor" chance="82" />
 	</loot>
 </monster>

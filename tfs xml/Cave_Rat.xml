@@ -49,9 +49,9 @@
 		<voice sentence="Meeeeep!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="85092" countmax="2" />
-		<item id="3607" name="cheese" chance="29990" />
-		<item id="3976" name="worm" chance="10004" countmax="2" />
-		<item id="2687" name="cookie" chance="934" />
+		<item id="2148" name="gold coin" chance="85094" countmax="2" />
+		<item id="3607" name="cheese" chance="29998" />
+		<item id="3976" name="worm" chance="9998" countmax="2" />
+		<item id="2687" name="cookie" chance="932" />
 	</loot>
 </monster>

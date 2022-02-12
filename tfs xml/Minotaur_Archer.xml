@@ -42,6 +42,9 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-25" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-80" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="bolt" />
+		</attack>
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<voices interval="5000" chance="10">
@@ -49,16 +52,16 @@
 		<voice sentence="Kaplar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2543" name="bolt" chance="90087" countmax="20" />
-		<item id="2148" name="gold coin" chance="75043" countmax="30" />
-		<item id="12407" name="broken crossbow" chance="15347" />
-		<item id="7363" name="piercing bolt" chance="12181" countmax="4" />
-		<item id="12439" name="piece of archer armor" chance="8016" />
-		<item id="2666" name="meat" chance="4946" />
-		<item id="12428" name="minotaur horn" chance="1979" countmax="2" />
-		<item id="5878" name="minotaur leather" chance="1927" />
-		<item id="2455" name="crossbow" chance="878" />
+		<item id="2543" name="bolt" chance="90112" countmax="20" />
+		<item id="2148" name="gold coin" chance="75047" countmax="30" />
+		<item id="12407" name="broken crossbow" chance="15321" />
+		<item id="7363" name="piercing bolt" chance="12189" countmax="4" />
+		<item id="12439" name="piece of archer armor" chance="8025" />
+		<item id="2666" name="meat" chance="4951" />
+		<item id="12428" name="minotaur horn" chance="1976" countmax="2" />
+		<item id="5878" name="minotaur leather" chance="1928" />
+		<item id="2455" name="crossbow" chance="879" />
 		<item id="2483" name="scale armor" chance="537" />
-		<item id="2465" name="brass armor" chance="523" />
+		<item id="2465" name="brass armor" chance="520" />
 	</loot>
 </monster>

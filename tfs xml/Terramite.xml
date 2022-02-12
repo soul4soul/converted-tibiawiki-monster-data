@@ -49,8 +49,8 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="97496" countmax="45" />
-		<item id="11371" name="terramite legs" chance="14984" />
+		<item id="11371" name="terramite legs" chance="14982" />
 		<item id="11369" name="terramite shell" chance="7452" />
-		<item id="11370" name="terramite eggs" chance="4996" />
+		<item id="11370" name="terramite eggs" chance="4995" />
 	</loot>
 </monster>

@@ -50,27 +50,27 @@
 		<voice sentence="You stop! You lunch!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99394" countmax="125" />
-		<item id="24844" name="ogre ear stud" chance="18644" />
-		<item id="2666" name="meat" chance="14985" />
-		<item id="24845" name="ogre nose ring" chance="14612" />
-		<item id="7588" name="strong health potion" chance="12538" />
-		<item id="12403" name="battle stone" chance="4987" />
-		<item id="1294" name="small stone" chance="4964" countmax="5" />
-		<item id="2687" name="cookie" chance="3845" countmax="5" />
-		<item id="24847" name="skull fetish" chance="3333" />
-		<item id="2147" name="small ruby" chance="2517" countmax="2" />
+		<item id="2148" name="gold coin" chance="99477" countmax="125" />
+		<item id="24844" name="ogre ear stud" chance="18491" />
+		<item id="2666" name="meat" chance="14849" />
+		<item id="24845" name="ogre nose ring" chance="14085" />
+		<item id="7588" name="strong health potion" chance="12354" />
+		<item id="1294" name="small stone" chance="5070" countmax="5" />
+		<item id="12403" name="battle stone" chance="5010" />
+		<item id="2687" name="cookie" chance="3843" countmax="5" />
+		<item id="24847" name="skull fetish" chance="3219" />
+		<item id="2147" name="small ruby" chance="2555" countmax="2" />
 		<item id="2209" name="club ring" chance="2354" />
-		<item id="2143" name="white pearl" chance="2307" />
-		<item id="24849" name="onyx chip" chance="2191" countmax="2" />
-		<item id="2166" name="power ring" chance="1631" />
-		<item id="24850" name="opal" chance="1538" countmax="2" />
-		<item id="24827" name="ogre klubba" chance="1025" />
-		<item id="2562" name="pot" chance="303" />
-		<item id="9821" name="rusted helmet" chance="256" />
-		<item id="10549" name="ancient stone" chance="186" />
-		<item id="7428" name="bonebreaker" chance="140" />
-		<item id="24848" name="shamanic mask" chance="140" />
-		<item id="7412" name="butcher's axe" chance="23" />
+		<item id="2143" name="white pearl" chance="2294" />
+		<item id="24849" name="onyx chip" chance="2133" countmax="2" />
+		<item id="24850" name="opal" chance="1610" countmax="2" />
+		<item id="2166" name="power ring" chance="1569" />
+		<item id="24827" name="ogre klubba" chance="986" />
+		<item id="2562" name="pot" chance="262" />
+		<item id="9821" name="rusted helmet" chance="262" />
+		<item id="10549" name="ancient stone" chance="181" />
+		<item id="7428" name="bonebreaker" chance="141" />
+		<item id="24848" name="shamanic mask" chance="141" />
+		<item id="7412" name="butcher's axe" chance="20" />
 	</loot>
 </monster>

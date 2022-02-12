@@ -51,28 +51,28 @@
 	</attacks>
 	<defenses armor="61" defense="61" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="100000" countmax="18" />
-		<item id="2181" name="terra rod" chance="23223" />
-		<item id="39435" name="blemished spawn abdomen" chance="7741" />
-		<item id="18419" name="cyan crystal fragment" chance="6282" />
-		<item id="18414" name="violet crystal shard" chance="5964" />
-		<item id="18413" name="blue crystal shard" chance="4695" />
-		<item id="2183" name="hailstorm rod" chance="4632" />
-		<item id="2430" name="knight axe" chance="4378" />
-		<item id="7430" name="dragonbone staff" chance="4124" />
-		<item id="2153" name="violet gem" chance="3997" />
-		<item id="2154" name="yellow gem" chance="3997" />
-		<item id="8920" name="wand of starstorm" chance="3744" />
-		<item id="10219" name="sacred tree amulet" chance="3617" />
-		<item id="8911" name="northwind rod" chance="3553" />
-		<item id="39434" name="blemished spawn head" chance="3490" />
-		<item id="7387" name="diamond sceptre" chance="3236" />
-		<item id="8912" name="springsprout rod" chance="3236" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="3173" />
-		<item id="2396" name="ice rapier" chance="3109" />
-		<item id="2401" name="staff" chance="2982" />
-		<item id="2189" name="wand of cosmic energy" chance="2792" />
-		<item id="39436" name="blemished spawn tail" chance="2728" />
-		<item id="24741" name="fur armor" chance="1206" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="22" />
+		<item id="2181" name="terra rod" chance="29730" />
+		<item id="39435" name="blemished spawn abdomen" chance="10039" />
+		<item id="18419" name="cyan crystal fragment" chance="8301" />
+		<item id="18414" name="violet crystal shard" chance="7915" />
+		<item id="8911" name="northwind rod" chance="6950" />
+		<item id="39434" name="blemished spawn head" chance="5598" />
+		<item id="18413" name="blue crystal shard" chance="5212" />
+		<item id="7430" name="dragonbone staff" chance="5212" />
+		<item id="8920" name="wand of starstorm" chance="4826" />
+		<item id="2183" name="hailstorm rod" chance="4440" />
+		<item id="2430" name="knight axe" chance="4247" />
+		<item id="2153" name="violet gem" chance="4247" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="4054" />
+		<item id="2396" name="ice rapier" chance="4054" />
+		<item id="2189" name="wand of cosmic energy" chance="3861" />
+		<item id="2154" name="yellow gem" chance="3668" />
+		<item id="7387" name="diamond sceptre" chance="3475" />
+		<item id="8912" name="springsprout rod" chance="3475" />
+		<item id="10219" name="sacred tree amulet" chance="3282" />
+		<item id="39436" name="blemished spawn tail" chance="3089" />
+		<item id="2401" name="staff" chance="2124" />
+		<item id="24741" name="fur armor" chance="1544" />
 	</loot>
 </monster>

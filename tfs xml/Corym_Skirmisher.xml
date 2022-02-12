@@ -42,6 +42,9 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-90" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="whirlwindclub" />
+		</attack>
 	</attacks>
 	<defenses armor="25" defense="25" />
 	<voices interval="5000" chance="10">
@@ -49,18 +52,18 @@
 		<voice sentence="&lt;sniff&gt; &lt;sniff&gt; &lt;sniff&gt;" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="78310" countmax="45" />
-		<item id="3607" name="cheese" chance="19616" />
-		<item id="20100" name="soft cheese" chance="14672" />
-		<item id="20101" name="rat cheese" chance="12835" />
-		<item id="20099" name="earflap" chance="9077" />
-		<item id="20097" name="cheese cutter" chance="7931" />
-		<item id="20089" name="bola" chance="7679" />
-		<item id="20093" name="life preserver" chance="1526" />
-		<item id="20092" name="ratana" chance="1393" />
-		<item id="20098" name="cheesy figurine" chance="1052" />
-		<item id="20090" name="spike shield" chance="578" />
-		<item id="20126" name="leather harness" chance="499" />
+		<item id="2148" name="gold coin" chance="78307" countmax="45" />
+		<item id="3607" name="cheese" chance="19604" />
+		<item id="20100" name="soft cheese" chance="14684" />
+		<item id="20101" name="rat cheese" chance="12817" />
+		<item id="20099" name="earflap" chance="9062" />
+		<item id="20097" name="cheese cutter" chance="7922" />
+		<item id="20089" name="bola" chance="7691" />
+		<item id="20093" name="life preserver" chance="1528" />
+		<item id="20092" name="ratana" chance="1396" />
+		<item id="20098" name="cheesy figurine" chance="1057" />
+		<item id="20090" name="spike shield" chance="580" />
+		<item id="20126" name="leather harness" chance="501" />
 		<item id="20105" name="rat god doll" chance="5" />
 	</loot>
 </monster>

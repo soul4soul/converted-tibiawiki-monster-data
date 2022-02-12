@@ -50,22 +50,22 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="2152" name="platinum coin" chance="49181" countmax="4" />
-		<item id="12438" name="piece of warrior armor" chance="14725" />
-		<item id="9970" name="small topaz" chance="10302" countmax="2" />
-		<item id="12428" name="minotaur horn" chance="8245" countmax="2" />
-		<item id="5878" name="minotaur leather" chance="5588" />
-		<item id="2150" name="small amethyst" chance="5151" />
-		<item id="2147" name="small ruby" chance="4641" />
-		<item id="23537" name="mooh'tah plate" chance="965" />
-		<item id="2156" name="red gem" chance="819" />
-		<item id="5912" name="blue piece of cloth" chance="801" />
-		<item id="2430" name="knight axe" chance="746" />
-		<item id="2515" name="guardian shield" chance="728" />
-		<item id="5911" name="red piece of cloth" chance="673" />
-		<item id="2475" name="warrior helmet" chance="637" />
-		<item id="7401" name="minotaur trophy" chance="200" />
-		<item id="7413" name="titan axe" chance="200" />
-		<item id="2158" name="blue gem" chance="182" />
+		<item id="2152" name="platinum coin" chance="49094" countmax="4" />
+		<item id="12438" name="piece of warrior armor" chance="14793" />
+		<item id="9970" name="small topaz" chance="10361" countmax="2" />
+		<item id="12428" name="minotaur horn" chance="8267" countmax="2" />
+		<item id="5878" name="minotaur leather" chance="5594" />
+		<item id="2150" name="small amethyst" chance="5172" />
+		<item id="2147" name="small ruby" chance="4591" />
+		<item id="23537" name="mooh'tah plate" chance="932" />
+		<item id="5912" name="blue piece of cloth" chance="792" />
+		<item id="2156" name="red gem" chance="792" />
+		<item id="2430" name="knight axe" chance="774" />
+		<item id="2515" name="guardian shield" chance="704" />
+		<item id="5911" name="red piece of cloth" chance="668" />
+		<item id="2475" name="warrior helmet" chance="616" />
+		<item id="7413" name="titan axe" chance="211" />
+		<item id="7401" name="minotaur trophy" chance="193" />
+		<item id="2158" name="blue gem" chance="176" />
 	</loot>
 </monster>

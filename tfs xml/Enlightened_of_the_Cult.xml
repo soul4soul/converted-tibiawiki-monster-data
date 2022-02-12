@@ -53,15 +53,15 @@
 		<voice sentence="You will die in the name of the triangle!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64975" countmax="92" />
-		<item id="10555" name="cultish mask" chance="10216" />
-		<item id="12411" name="cultish symbol" chance="1042" />
+		<item id="2148" name="gold coin" chance="64974" countmax="92" />
+		<item id="10555" name="cultish mask" chance="10211" />
+		<item id="12411" name="cultish symbol" chance="1041" />
 		<item id="2200" name="protection amulet" chance="872" />
 		<item id="7589" name="strong mana potion" chance="846" />
-		<item name="book (orange)" chance="820" />
+		<item name="book (orange)" chance="819" />
 		<item id="2146" name="small sapphire" chance="560" />
 		<item id="6090" name="music sheet (fourth verse)" chance="555" />
-		<item id="5810" name="pirate voodoo doll" chance="412" />
+		<item id="5810" name="pirate voodoo doll" chance="418" />
 		<item id="2167" name="energy ring" chance="407" />
 		<item id="2436" name="skull staff" chance="349" />
 		<item id="2171" name="platinum amulet" chance="201" />

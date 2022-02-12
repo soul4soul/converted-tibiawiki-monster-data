@@ -49,12 +49,12 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="87332" countmax="52" />
-		<item id="2666" name="meat" chance="39940" />
-		<item id="10558" name="piece of scarab shell" chance="5036" />
-		<item id="2159" name="scarab coin" chance="1111" />
-		<item id="2150" name="small amethyst" chance="511" />
-		<item id="2149" name="small emerald" chance="346" />
+		<item id="2148" name="gold coin" chance="87340" countmax="52" />
+		<item id="2666" name="meat" chance="39928" />
+		<item id="10558" name="piece of scarab shell" chance="5027" />
+		<item id="2159" name="scarab coin" chance="1113" />
+		<item id="2150" name="small amethyst" chance="510" />
+		<item id="2149" name="small emerald" chance="347" />
 		<item id="2439" name="daramian mace" chance="304" />
 	</loot>
 </monster>

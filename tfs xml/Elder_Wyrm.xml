@@ -52,24 +52,24 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="180" />
-		<item id="2672" name="dragon ham" chance="34545" />
-		<item id="2152" name="platinum coin" chance="24560" countmax="3" />
-		<item id="7589" name="strong mana potion" chance="20718" />
-		<item id="7588" name="strong health potion" chance="19560" />
-		<item id="10582" name="wyrm scale" chance="16851" />
-		<item id="2455" name="crossbow" chance="8251" />
-		<item id="5944" name="soul orb" chance="4717" />
-		<item id="2145" name="small diamond" chance="4592" countmax="5" />
-		<item id="8921" name="wand of draconia" chance="1567" />
-		<item id="7889" name="lightning pendant" chance="850" />
-		<item id="2547" name="power bolt" chance="783" countmax="10" />
-		<item id="7895" name="lightning legs" chance="675" />
-		<item id="8920" name="wand of starstorm" chance="575" />
-		<item id="8855" name="composite hornbow" chance="233" />
-		<item id="7893" name="lightning boots" chance="200" />
-		<item id="7451" name="shadow sceptre" chance="192" />
-		<item id="7430" name="dragonbone staff" chance="175" />
-		<item id="7898" name="lightning robe" chance="158" />
-		<item id="10221" name="shockwave amulet" chance="100" />
+		<item id="2672" name="dragon ham" chance="34481" />
+		<item id="2152" name="platinum coin" chance="24569" countmax="3" />
+		<item id="7589" name="strong mana potion" chance="20632" />
+		<item id="7588" name="strong health potion" chance="19654" />
+		<item id="10582" name="wyrm scale" chance="16905" />
+		<item id="2455" name="crossbow" chance="8157" />
+		<item id="5944" name="soul orb" chance="4689" />
+		<item id="2145" name="small diamond" chance="4641" countmax="5" />
+		<item id="8921" name="wand of draconia" chance="1568" />
+		<item id="7889" name="lightning pendant" chance="849" />
+		<item id="2547" name="power bolt" chance="768" countmax="10" />
+		<item id="7895" name="lightning legs" chance="671" />
+		<item id="8920" name="wand of starstorm" chance="590" />
+		<item id="8855" name="composite hornbow" chance="234" />
+		<item id="7893" name="lightning boots" chance="194" />
+		<item id="7451" name="shadow sceptre" chance="194" />
+		<item id="7430" name="dragonbone staff" chance="178" />
+		<item id="7898" name="lightning robe" chance="154" />
+		<item id="10221" name="shockwave amulet" chance="97" />
 	</loot>
 </monster>

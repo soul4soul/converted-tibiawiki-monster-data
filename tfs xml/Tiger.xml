@@ -49,7 +49,7 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2666" name="meat" chance="34384" />
-		<item id="11210" name="striped fur" chance="10187" />
+		<item id="2666" name="meat" chance="34453" />
+		<item id="11210" name="striped fur" chance="10174" />
 	</loot>
 </monster>

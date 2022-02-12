@@ -81,7 +81,8 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -35}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -35},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -35, range = 5, radius = 1, target = true, shootEffect = CONST_ANI_ARROW}
 }
 
 monster.defenses = {
@@ -90,14 +91,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2544, chance = 47123, maxCount = 18},
-	{id = 2461, chance = 30736},
-	{id = 2649, chance = 27770},
-	{id = 2456, chance = 14924},
-	{id = 2690, chance = 11029, maxCount = 2},
-	{id = "torch", chance = 5055},
-	{id = 2545, chance = 2517, maxCount = 3},
-	{id = 2578, chance = 1013}
+	{id = 2544, chance = 47220, maxCount = 18},
+	{id = 2461, chance = 30675},
+	{id = 2649, chance = 27829},
+	{id = 2456, chance = 14962},
+	{id = 2690, chance = 11068, maxCount = 2},
+	{id = "torch", chance = 5077},
+	{id = 2545, chance = 2549, maxCount = 3},
+	{id = 2578, chance = 1017}
 }
 
 mType:register(monster)

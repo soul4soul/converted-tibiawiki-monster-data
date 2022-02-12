@@ -85,18 +85,18 @@ monster.attacks = {
 monster.defenses = {
 	defense = 30,
 	armor = 30,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 150, maxDamage = 200}
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 150, maxDamage = 250}
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 70},
-	{id = 2666, chance = 12872},
-	{id = 7591, chance = 6083},
-	{id = 10556, chance = 4419},
-	{id = 2145, chance = 2546},
-	{id = 2150, chance = 2462},
-	{id = 2149, chance = 2395},
-	{id = 2661, chance = 1017},
+	{id = 2666, chance = 12877},
+	{id = 7591, chance = 6066},
+	{id = 10556, chance = 4432},
+	{id = 2145, chance = 2547},
+	{id = 2150, chance = 2455},
+	{id = 2149, chance = 2388},
+	{id = 2661, chance = 1022},
 	{id = 2164, chance = 168},
 	{id = 2114, chance = 84}
 }

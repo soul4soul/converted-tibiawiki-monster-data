@@ -49,11 +49,11 @@
 		<voice sentence="*swwwwishhhh*" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87489" countmax="27" />
-		<item id="21428" name="fir cone" chance="14921" />
-		<item id="21427" name="dowser" chance="12200" />
-		<item id="20104" name="swampling club" chance="5140" />
-		<item id="2787" name="white mushroom" chance="4919" countmax="3" />
+		<item id="2148" name="gold coin" chance="87492" countmax="27" />
+		<item id="21428" name="fir cone" chance="14924" />
+		<item id="21427" name="dowser" chance="12199" />
+		<item id="20104" name="swampling club" chance="5139" />
+		<item id="2787" name="white mushroom" chance="4918" countmax="3" />
 		<item id="2149" name="small emerald" chance="948" />
 	</loot>
 </monster>

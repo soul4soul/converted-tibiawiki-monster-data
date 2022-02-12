@@ -59,12 +59,12 @@
 	</voices>
 	<loot>
 		<item id="18496" name="abyssador's lash" chance="100000" />
-		<item id="18453" name="crystal crossbow" chance="11111" />
-		<item id="18451" name="crystalline axe" chance="11111" />
-		<item id="18450" name="crystalline sword" chance="11111" />
-		<item id="18465" name="shiny blade" chance="10101" />
-		<item id="18454" name="mycological bow" chance="5051" />
-		<item id="18452" name="mycological mace" chance="2020" />
-		<item id="18449" name="decorative ribbon" chance="1010" />
+		<item id="18451" name="crystalline axe" chance="12000" />
+		<item id="18453" name="crystal crossbow" chance="11000" />
+		<item id="18450" name="crystalline sword" chance="11000" />
+		<item id="18465" name="shiny blade" chance="10000" />
+		<item id="18454" name="mycological bow" chance="5000" />
+		<item id="18452" name="mycological mace" chance="2000" />
+		<item id="18449" name="decorative ribbon" chance="1000" />
 	</loot>
 </monster>

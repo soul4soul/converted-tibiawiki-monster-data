@@ -53,9 +53,9 @@
 		<voice sentence="FIYAH" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="96603" countmax="249" />
-		<item id="7588" name="strong health potion" chance="18910" countmax="2" />
-		<item id="7589" name="strong mana potion" chance="14744" countmax="2" />
-		<item id="18425" name="blazing bone" chance="10769" />
+		<item id="2148" name="gold coin" chance="96539" countmax="249" />
+		<item id="7588" name="strong health potion" chance="18603" countmax="2" />
+		<item id="7589" name="strong mana potion" chance="14524" countmax="2" />
+		<item id="18425" name="blazing bone" chance="10816" />
 	</loot>
 </monster>

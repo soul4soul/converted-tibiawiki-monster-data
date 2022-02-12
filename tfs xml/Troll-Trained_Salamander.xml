@@ -46,16 +46,16 @@
 	<defenses armor="1" defense="1" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="11" />
-		<item id="19737" name="insectoid eggs" chance="35970" />
-		<item id="23839" name="simple arrow" chance="18832" countmax="5" />
-		<item id="2666" name="meat" chance="9040" />
-		<item id="2406" name="short sword" chance="6780" />
-		<item id="2386" name="axe" chance="5085" />
-		<item id="2458" name="chain helmet" chance="5085" />
-		<item id="2554" name="shovel" chance="4143" />
-		<item id="2449" name="bone club" chance="3578" />
-		<item id="2482" name="studded helmet" chance="3578" />
-		<item id="2545" name="poison arrow" chance="3390" countmax="2" />
-		<item id="7618" name="health potion" chance="1695" />
+		<item id="19737" name="insectoid eggs" chance="35953" />
+		<item id="23839" name="simple arrow" chance="18049" countmax="5" />
+		<item id="2666" name="meat" chance="9898" />
+		<item id="2458" name="chain helmet" chance="5968" />
+		<item id="2406" name="short sword" chance="5677" />
+		<item id="2386" name="axe" chance="5095" />
+		<item id="2554" name="shovel" chance="4221" />
+		<item id="2449" name="bone club" chance="4076" />
+		<item id="2545" name="poison arrow" chance="3493" countmax="2" />
+		<item id="2482" name="studded helmet" chance="3202" />
+		<item id="7618" name="health potion" chance="1747" />
 	</loot>
 </monster>

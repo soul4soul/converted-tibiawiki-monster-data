@@ -52,6 +52,6 @@
 		<voice sentence="The power of darkness is with me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="10531" name="midnight shard" chance="1467" />
+		<item id="10531" name="midnight shard" chance="1373" />
 	</loot>
 </monster>

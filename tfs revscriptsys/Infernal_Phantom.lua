@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Infernal Phantom"
 monster.description = "an infernal phantom"
-monster.experience = 14080
+monster.experience = 15770
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -88,8 +88,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 33333},
-	{id = 2183, chance = 33333}
+	{id = 2160, chance = 55556},
+	{id = 2181, chance = 44444},
+	{id = 2183, chance = 11111}
 }
 
 mType:register(monster)

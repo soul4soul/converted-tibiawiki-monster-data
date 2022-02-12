@@ -45,20 +45,20 @@
 	</attacks>
 	<defenses armor="71" defense="71" />
 	<loot>
-		<item id="2671" name="ham" chance="40592" />
-		<item id="30253" name="diremaw brainpan" chance="24572" />
-		<item id="10557" name="poisonous slime" chance="11564" />
-		<item id="30254" name="diremaw legs" chance="9688" />
-		<item id="18413" name="blue crystal shard" chance="9634" />
-		<item id="24849" name="onyx chip" chance="8479" countmax="3" />
-		<item id="18414" name="violet crystal shard" chance="8407" />
-		<item id="18415" name="green crystal shard" chance="8209" />
-		<item id="2149" name="small emerald" chance="4799" countmax="2" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="3446" />
-		<item id="7761" name="small enchanted emerald" chance="2995" countmax="2" />
-		<item id="9971" name="gold ingot" chance="2868" />
-		<item id="30309" name="suspicious device" chance="1515" />
-		<item id="18454" name="mycological bow" chance="72" />
-		<item id="18393" name="mushroom backpack" chance="54" />
+		<item id="2671" name="ham" chance="40874" />
+		<item id="30253" name="diremaw brainpan" chance="24628" />
+		<item id="10557" name="poisonous slime" chance="11460" />
+		<item id="30254" name="diremaw legs" chance="9691" />
+		<item id="18413" name="blue crystal shard" chance="9512" />
+		<item id="24849" name="onyx chip" chance="8442" countmax="3" />
+		<item id="18414" name="violet crystal shard" chance="8338" />
+		<item id="18415" name="green crystal shard" chance="8086" />
+		<item id="2149" name="small emerald" chance="4652" countmax="2" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="3151" />
+		<item id="7761" name="small enchanted emerald" chance="3017" countmax="2" />
+		<item id="9971" name="gold ingot" chance="2988" />
+		<item id="30309" name="suspicious device" chance="1516" />
+		<item id="18454" name="mycological bow" chance="74" />
+		<item id="18393" name="mushroom backpack" chance="45" />
 	</loot>
 </monster>

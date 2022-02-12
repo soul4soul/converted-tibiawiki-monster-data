@@ -52,6 +52,6 @@
 		<voice sentence="Embrace the night!" yell="false" />
 	</voices>
 	<loot>
-		<item id="10531" name="midnight shard" chance="3846" />
+		<item id="10531" name="midnight shard" chance="3955" />
 	</loot>
 </monster>

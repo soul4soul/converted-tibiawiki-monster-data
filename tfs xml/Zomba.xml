@@ -54,10 +54,10 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="29" />
 		<item id="10608" name="lion's mane" chance="100000" countmax="2" />
-		<item id="2152" name="platinum coin" chance="32000" />
-		<item id="2168" name="life ring" chance="20000" />
-		<item id="2671" name="ham" chance="16000" />
-		<item id="2515" name="guardian shield" chance="4000" />
-		<item id="2200" name="protection amulet" chance="4000" />
+		<item id="2152" name="platinum coin" chance="34615" />
+		<item id="2168" name="life ring" chance="19231" />
+		<item id="2671" name="ham" chance="15385" />
+		<item id="2515" name="guardian shield" chance="3846" />
+		<item id="2200" name="protection amulet" chance="3846" />
 	</loot>
 </monster>

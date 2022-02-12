@@ -51,15 +51,15 @@
 		<voice sentence="Set everything on fire!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="78466" countmax="35" />
-		<item id="7840" name="flaming arrow" chance="29573" countmax="12" />
-		<item id="2681" name="grapes" chance="19937" />
-		<item id="13757" name="coal" chance="15291" />
-		<item id="2397" name="longsword" chance="6018" />
-		<item id="10552" name="elvish talisman" chance="5012" />
-		<item id="2456" name="bow" chance="3890" />
+		<item id="2148" name="gold coin" chance="78454" countmax="35" />
+		<item id="7840" name="flaming arrow" chance="29554" countmax="12" />
+		<item id="2681" name="grapes" chance="19938" />
+		<item id="13757" name="coal" chance="15290" />
+		<item id="2397" name="longsword" chance="6009" />
+		<item id="10552" name="elvish talisman" chance="5013" />
+		<item id="2456" name="bow" chance="3885" />
 		<item id="5921" name="heaven blossom" chance="908" />
-		<item id="13943" name="flintstone" chance="357" />
+		<item id="13943" name="flintstone" chance="356" />
 		<item id="7438" name="elvish bow" chance="109" />
 	</loot>
 </monster>

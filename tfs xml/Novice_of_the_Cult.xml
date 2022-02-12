@@ -52,16 +52,16 @@
 		<voice sentence="Your curiosity will be punished!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="43498" countmax="40" />
-		<item id="12448" name="rope belt" chance="5901" />
-		<item id="2661" name="scarf" chance="2898" />
-		<item id="6087" name="music sheet (first verse)" chance="1073" />
-		<item id="10556" name="cultish robe" chance="1023" />
-		<item name="book (orange)" chance="701" />
-		<item id="2213" name="dwarven ring" chance="523" />
-		<item id="5810" name="pirate voodoo doll" chance="489" />
-		<item id="2190" name="wand of vortex" chance="439" />
-		<item id="2199" name="garlic necklace" chance="434" />
-		<item id="2145" name="small diamond" chance="189" />
+		<item id="2148" name="gold coin" chance="43492" countmax="40" />
+		<item id="12448" name="rope belt" chance="5904" />
+		<item id="2661" name="scarf" chance="2938" />
+		<item id="6087" name="music sheet (first verse)" chance="1064" />
+		<item id="10556" name="cultish robe" chance="1031" />
+		<item name="book (orange)" chance="695" />
+		<item id="2213" name="dwarven ring" chance="518" />
+		<item id="5810" name="pirate voodoo doll" chance="491" />
+		<item id="2190" name="wand of vortex" chance="447" />
+		<item id="2199" name="garlic necklace" chance="430" />
+		<item id="2145" name="small diamond" chance="187" />
 	</loot>
 </monster>

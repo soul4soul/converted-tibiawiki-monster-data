@@ -47,14 +47,14 @@
 		<defense name="healing" interval="2000" chance="20" min="80" max="200" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="69887" countmax="152" />
-		<item id="13739" name="hieroglyph banner" chance="26041" />
-		<item id="7620" name="mana potion" chance="16244" />
-		<item id="7618" name="health potion" chance="14751" />
-		<item id="2159" name="scarab coin" chance="9253" countmax="3" />
-		<item id="5022" name="orichalcum pearl" chance="6312" countmax="4" />
-		<item id="2175" name="spellbook" chance="5498" />
-		<item id="2143" name="white pearl" chance="2760" />
-		<item id="2214" name="ring of healing" chance="1109" />
+		<item id="2148" name="gold coin" chance="69822" countmax="152" />
+		<item id="13739" name="hieroglyph banner" chance="25932" />
+		<item id="7620" name="mana potion" chance="16140" />
+		<item id="7618" name="health potion" chance="14796" />
+		<item id="2159" name="scarab coin" chance="9229" countmax="3" />
+		<item id="5022" name="orichalcum pearl" chance="6304" countmax="4" />
+		<item id="2175" name="spellbook" chance="5416" />
+		<item id="2143" name="white pearl" chance="2665" />
+		<item id="2214" name="ring of healing" chance="1105" />
 	</loot>
 </monster>

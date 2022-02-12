@@ -45,14 +45,14 @@
 	</attacks>
 	<defenses armor="84" defense="84" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="89902" countmax="6" />
-		<item id="18419" name="cyan crystal fragment" chance="20767" />
-		<item id="34098" name="lamassu horn" chance="17591" />
-		<item id="34097" name="lamassu hoof" chance="10901" />
-		<item id="2150" name="small amethyst" chance="9313" />
-		<item id="9971" name="gold ingot" chance="5888" />
+		<item id="2152" name="platinum coin" chance="90114" countmax="6" />
+		<item id="18419" name="cyan crystal fragment" chance="20757" />
+		<item id="34098" name="lamassu horn" chance="17594" />
+		<item id="34097" name="lamassu hoof" chance="10819" />
+		<item id="2150" name="small amethyst" chance="9367" />
+		<item id="9971" name="gold ingot" chance="5928" />
 		<item id="18421" name="green crystal fragment" chance="3889" />
-		<item id="2155" name="green gem" chance="3461" />
-		<item id="2198" name="elven amulet" chance="803" />
+		<item id="2155" name="green gem" chance="3543" />
+		<item id="2198" name="elven amulet" chance="830" />
 	</loot>
 </monster>

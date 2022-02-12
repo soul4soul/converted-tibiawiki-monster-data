@@ -49,8 +49,8 @@
 		<voice sentence="Chrrr! Chrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="81370" countmax="78" />
-		<item id="3964" name="ripper lance" chance="403" />
+		<item id="2148" name="gold coin" chance="81307" countmax="78" />
+		<item id="3964" name="ripper lance" chance="402" />
 		<item id="7618" name="health potion" chance="201" />
 		<item id="2209" name="club ring" chance="101" />
 	</loot>

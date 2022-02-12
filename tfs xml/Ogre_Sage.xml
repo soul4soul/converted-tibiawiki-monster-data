@@ -46,19 +46,19 @@
 	<defenses armor="93" defense="93" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" />
-		<item id="24845" name="ogre nose ring" chance="10900" />
-		<item id="24840" name="shamanic talisman" chance="9005" />
-		<item id="24844" name="ogre ear stud" chance="8531" />
-		<item id="7886" name="terra boots" chance="8531" />
-		<item id="12408" name="broken shamanic staff" chance="8057" />
-		<item id="24847" name="skull fetish" chance="7109" />
-		<item id="7887" name="terra amulet" chance="7109" />
-		<item id="18421" name="green crystal fragment" chance="3791" />
-		<item id="18414" name="violet crystal shard" chance="3791" />
-		<item id="20111" name="bone fetish" chance="3318" />
-		<item id="2154" name="yellow gem" chance="3318" />
-		<item id="10219" name="sacred tree amulet" chance="2844" />
-		<item id="2153" name="violet gem" chance="948" />
-		<item id="24839" name="ogre scepta" chance="474" />
+		<item id="24845" name="ogre nose ring" chance="12245" />
+		<item id="24844" name="ogre ear stud" chance="10884" />
+		<item id="24840" name="shamanic talisman" chance="9524" />
+		<item id="12408" name="broken shamanic staff" chance="9184" />
+		<item id="24847" name="skull fetish" chance="7823" />
+		<item id="7886" name="terra boots" chance="7143" />
+		<item id="7887" name="terra amulet" chance="6122" />
+		<item id="18414" name="violet crystal shard" chance="6122" />
+		<item id="18421" name="green crystal fragment" chance="5102" />
+		<item id="20111" name="bone fetish" chance="3741" />
+		<item id="2154" name="yellow gem" chance="3741" />
+		<item id="10219" name="sacred tree amulet" chance="2721" />
+		<item id="2153" name="violet gem" chance="2381" />
+		<item id="24839" name="ogre scepta" chance="1020" />
 	</loot>
 </monster>

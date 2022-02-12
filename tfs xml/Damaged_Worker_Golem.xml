@@ -57,11 +57,11 @@
 		<voice sentence="Aw... chhhrrr orders." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="68390" countmax="89" />
-		<item id="9808" name="heavily rusted armor" chance="10041" />
-		<item id="8309" name="nail" chance="1255" />
-		<item id="2207" name="sword ring" chance="495" />
-		<item id="5880" name="iron ore" chance="413" />
-		<item id="10572" name="gear crystal" chance="215" />
+		<item id="2148" name="gold coin" chance="68298" countmax="89" />
+		<item id="9808" name="heavily rusted armor" chance="10036" />
+		<item id="8309" name="nail" chance="1248" />
+		<item id="2207" name="sword ring" chance="493" />
+		<item id="5880" name="iron ore" chance="411" />
+		<item id="10572" name="gear crystal" chance="214" />
 	</loot>
 </monster>

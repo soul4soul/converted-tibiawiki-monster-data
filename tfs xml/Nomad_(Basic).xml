@@ -51,15 +51,15 @@
 		<voice sentence="Your riches will be mine!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="56114" countmax="40" />
-		<item id="12448" name="rope belt" chance="6456" />
-		<item id="8838" name="potato" chance="4767" countmax="3" />
-		<item id="2386" name="axe" chance="2855" />
-		<item id="2465" name="brass armor" chance="2444" />
-		<item id="2398" name="mace" chance="2050" />
-		<item id="12412" name="dirty turban" chance="2029" />
-		<item id="2509" name="steel shield" chance="951" />
-		<item id="2459" name="iron helmet" chance="587" />
-		<item id="8267" name="nomad parchment" chance="206" />
+		<item id="2148" name="gold coin" chance="56084" countmax="40" />
+		<item id="12448" name="rope belt" chance="6469" />
+		<item id="8838" name="potato" chance="4768" countmax="3" />
+		<item id="2386" name="axe" chance="2846" />
+		<item id="2465" name="brass armor" chance="2443" />
+		<item id="2398" name="mace" chance="2043" />
+		<item id="12412" name="dirty turban" chance="2040" />
+		<item id="2509" name="steel shield" chance="938" />
+		<item id="2459" name="iron helmet" chance="590" />
+		<item id="8267" name="nomad parchment" chance="207" />
 	</loot>
 </monster>

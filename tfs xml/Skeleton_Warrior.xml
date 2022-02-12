@@ -45,12 +45,12 @@
 	</attacks>
 	<defenses armor="5" defense="5" />
 	<loot>
-		<item id="2230" name="bone" chance="50551" />
-		<item id="2148" name="gold coin" chance="44178" countmax="10" />
-		<item id="2787" name="white mushroom" chance="25030" />
-		<item id="12437" name="pelvis bone" chance="10199" />
-		<item id="2398" name="mace" chance="1982" />
-		<item id="2376" name="sword" chance="1843" />
-		<item id="2789" name="brown mushroom" chance="1779" />
+		<item id="2230" name="bone" chance="50467" />
+		<item id="2148" name="gold coin" chance="44165" countmax="10" />
+		<item id="2787" name="white mushroom" chance="25096" />
+		<item id="12437" name="pelvis bone" chance="10202" />
+		<item id="2398" name="mace" chance="1967" />
+		<item id="2376" name="sword" chance="1825" />
+		<item id="2789" name="brown mushroom" chance="1763" />
 	</loot>
 </monster>

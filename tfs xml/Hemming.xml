@@ -49,18 +49,18 @@
 		<item id="2148" name="gold coin" chance="100000" countmax="99" />
 		<item id="11234" name="werewolf fur" chance="100000" />
 		<item id="5897" name="wolf paw" chance="100000" />
-		<item id="8473" name="ultimate health potion" chance="98529" />
-		<item id="2789" name="brown mushroom" chance="95588" countmax="5" />
-		<item id="2152" name="platinum coin" chance="95588" countmax="10" />
-		<item id="7439" name="berserk potion" chance="82353" />
-		<item id="2197" name="stone skin amulet" chance="63235" />
-		<item id="2144" name="black pearl" chance="58824" countmax="5" />
-		<item id="5480" name="cat's paw" chance="32353" />
-		<item id="2805" name="troll green" chance="23529" />
-		<item id="11306" name="sai" chance="17647" />
-		<item id="7419" name="dreaded cleaver" chance="8824" />
-		<item id="7428" name="bonebreaker" chance="4412" />
-		<item id="2169" name="time ring" chance="4412" />
-		<item id="2171" name="platinum amulet" chance="1471" />
+		<item id="8473" name="ultimate health potion" chance="98551" />
+		<item id="2789" name="brown mushroom" chance="95652" countmax="5" />
+		<item id="2152" name="platinum coin" chance="95652" countmax="10" />
+		<item id="7439" name="berserk potion" chance="82609" />
+		<item id="2197" name="stone skin amulet" chance="63768" />
+		<item id="2144" name="black pearl" chance="57971" countmax="5" />
+		<item id="5480" name="cat's paw" chance="33333" />
+		<item id="2805" name="troll green" chance="24638" />
+		<item id="11306" name="sai" chance="17391" />
+		<item id="7419" name="dreaded cleaver" chance="10145" />
+		<item id="7428" name="bonebreaker" chance="4348" />
+		<item id="2169" name="time ring" chance="4348" />
+		<item id="2171" name="platinum amulet" chance="1449" />
 	</loot>
 </monster>

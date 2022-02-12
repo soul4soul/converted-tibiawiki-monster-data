@@ -49,15 +49,15 @@
 		<voice sentence="You can't ever be rich enough!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="50087" countmax="250" />
-		<item id="28345" name="golden brush" chance="22609" />
-		<item id="27617" name="tiger eye" chance="16435" />
-		<item id="24850" name="opal" chance="10522" />
-		<item id="2154" name="yellow gem" chance="5565" />
-		<item id="2155" name="green gem" chance="4870" />
-		<item id="2004" name="golden backpack" chance="2957" />
-		<item id="1997" name="golden bag" chance="2870" />
-		<item id="9971" name="gold ingot" chance="1478" />
-		<item id="2152" name="platinum coin" chance="783" countmax="10" />
+		<item id="2148" name="gold coin" chance="50130" countmax="250" />
+		<item id="28345" name="golden brush" chance="22637" />
+		<item id="27617" name="tiger eye" chance="16392" />
+		<item id="24850" name="opal" chance="10581" />
+		<item id="2154" name="yellow gem" chance="5551" />
+		<item id="2155" name="green gem" chance="4857" />
+		<item id="2004" name="golden backpack" chance="2949" />
+		<item id="1997" name="golden bag" chance="2862" />
+		<item id="9971" name="gold ingot" chance="1474" />
+		<item id="2152" name="platinum coin" chance="781" countmax="10" />
 	</loot>
 </monster>

@@ -48,22 +48,22 @@
 		<voice sentence="Whirr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98235" countmax="100" />
-		<item id="2152" name="platinum coin" chance="86501" countmax="5" />
-		<item id="26191" name="energy bar" chance="10661" />
-		<item id="26169" name="strange proto matter" chance="9969" />
-		<item id="26201" name="energy drink" chance="9900" />
-		<item id="8473" name="ultimate health potion" chance="9588" />
-		<item id="7590" name="great mana potion" chance="9484" />
-		<item id="26173" name="solid rage" chance="9450" />
-		<item id="26178" name="glistening bone" chance="8930" />
-		<item id="8472" name="great spirit potion" chance="8896" />
-		<item id="18419" name="cyan crystal fragment" chance="5607" />
-		<item id="18418" name="blue crystal splinter" chance="5227" />
-		<item id="18414" name="violet crystal shard" chance="4915" />
-		<item id="2146" name="small sapphire" chance="4846" countmax="2" />
-		<item id="2150" name="small amethyst" chance="4569" countmax="2" />
-		<item id="2147" name="small ruby" chance="3773" countmax="2" />
+		<item id="2148" name="gold coin" chance="98101" countmax="100" />
+		<item id="2152" name="platinum coin" chance="86395" countmax="5" />
+		<item id="26191" name="energy bar" chance="10635" />
+		<item id="26169" name="strange proto matter" chance="9945" />
+		<item id="26201" name="energy drink" chance="9876" />
+		<item id="8473" name="ultimate health potion" chance="9565" />
+		<item id="7590" name="great mana potion" chance="9496" />
+		<item id="26173" name="solid rage" chance="9427" />
+		<item id="26178" name="glistening bone" chance="8909" />
+		<item id="8472" name="great spirit potion" chance="8874" />
+		<item id="18419" name="cyan crystal fragment" chance="5594" />
+		<item id="18418" name="blue crystal splinter" chance="5214" />
+		<item id="18414" name="violet crystal shard" chance="4903" />
+		<item id="2146" name="small sapphire" chance="4834" countmax="2" />
+		<item id="2150" name="small amethyst" chance="4558" countmax="2" />
+		<item id="2147" name="small ruby" chance="3764" countmax="2" />
 		<item id="2153" name="violet gem" chance="104" />
 	</loot>
 </monster>

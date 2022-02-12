@@ -54,20 +54,20 @@
 		<voice sentence="Tell me your last wish!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="97586" countmax="129" />
-		<item id="7378" name="royal spear" chance="15001" countmax="3" />
-		<item id="7589" name="strong mana potion" chance="10527" />
-		<item id="2673" name="pear" chance="9622" countmax="5" />
-		<item id="12426" name="jewelled belt" chance="7616" />
-		<item id="2149" name="small emerald" chance="7243" />
-		<item id="2442" name="heavy machete" chance="4846" />
-		<item id="5910" name="green piece of cloth" chance="2698" />
-		<item id="1860" name="green tapestry" chance="2113" />
-		<item id="12442" name="noble turban" chance="1012" />
-		<item id="7900" name="magma monocle" chance="391" />
-		<item id="2187" name="wand of inferno" chance="355" />
-		<item id="2663" name="mystic turban" chance="231" />
-		<item id="2063" name="small oil lamp" chance="195" />
+		<item id="2148" name="gold coin" chance="97599" countmax="129" />
+		<item id="7378" name="royal spear" chance="15040" countmax="3" />
+		<item id="7589" name="strong mana potion" chance="10521" />
+		<item id="2673" name="pear" chance="9603" countmax="5" />
+		<item id="12426" name="jewelled belt" chance="7626" />
+		<item id="2149" name="small emerald" chance="7220" />
+		<item id="2442" name="heavy machete" chance="4837" />
+		<item id="5910" name="green piece of cloth" chance="2683" />
+		<item id="1860" name="green tapestry" chance="2136" />
+		<item id="12442" name="noble turban" chance="1006" />
+		<item id="7900" name="magma monocle" chance="388" />
+		<item id="2187" name="wand of inferno" chance="353" />
+		<item id="2663" name="mystic turban" chance="229" />
+		<item id="2063" name="small oil lamp" chance="194" />
 		<item id="2155" name="green gem" chance="124" />
 	</loot>
 </monster>

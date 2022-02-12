@@ -94,14 +94,14 @@ monster.loot = {
 	{id = 5930, chance = 100000},
 	{id = 2148, chance = 100000, maxCount = 162},
 	{id = 5893, chance = 100000},
-	{id = 7396, chance = 97561},
-	{id = 2150, chance = 70732, maxCount = 5},
-	{id = 7368, chance = 63415, maxCount = 94},
-	{id = 2377, chance = 53659},
-	{id = 2666, chance = 24390},
-	{id = 2489, chance = 14634},
-	{id = 2387, chance = 4878},
-	{id = 11227, chance = 4878}
+	{id = 7396, chance = 97619},
+	{id = 2150, chance = 69048, maxCount = 5},
+	{id = 7368, chance = 64286, maxCount = 94},
+	{id = 2377, chance = 52381},
+	{id = 2666, chance = 23810},
+	{id = 2489, chance = 14286},
+	{id = 2387, chance = 7143},
+	{id = 11227, chance = 4762}
 }
 
 mType:register(monster)

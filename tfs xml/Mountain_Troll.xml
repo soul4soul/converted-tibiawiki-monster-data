@@ -46,12 +46,12 @@
 	<defenses armor="0" defense="0" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="8" />
-		<item id="2666" name="meat" chance="28272" />
-		<item id="2120" name="rope" chance="7928" />
-		<item id="2389" name="spear" chance="6956" />
-		<item id="2467" name="leather armor" chance="4562" />
-		<item id="2384" name="rapier" chance="4188" />
-		<item id="2448" name="studded club" chance="3964" />
-		<item id="2380" name="hand axe" chance="2992" />
+		<item id="2666" name="meat" chance="28825" />
+		<item id="2120" name="rope" chance="7923" />
+		<item id="2389" name="spear" chance="7309" />
+		<item id="2467" name="leather armor" chance="4645" />
+		<item id="2384" name="rapier" chance="3962" />
+		<item id="2448" name="studded club" chance="3757" />
+		<item id="2380" name="hand axe" chance="3005" />
 	</loot>
 </monster>

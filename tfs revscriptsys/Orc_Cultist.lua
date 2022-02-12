@@ -16,7 +16,7 @@ monster.outfit = {
 
 monster.health = 1350
 monster.maxHealth = 1350
-monster.runHealth = 0
+monster.runHealth = 27
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 190
@@ -78,6 +78,7 @@ monster.elements = {
 }
 
 monster.attacks = {
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -200}
 }
 
 monster.defenses = {
@@ -86,16 +87,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 215},
-	{id = 7588, chance = 17109},
-	{id = 2428, chance = 8663},
-	{id = 2671, chance = 8489},
-	{id = 5910, chance = 5790},
-	{id = 9970, chance = 4397, maxCount = 2},
-	{id = 10556, chance = 3178},
-	{id = 18417, chance = 2264, maxCount = 2},
-	{id = 8614, chance = 871},
-	{id = 7439, chance = 740}
+	{id = 2148, chance = 100000, maxCount = 217},
+	{id = 7588, chance = 17327},
+	{id = 2428, chance = 8581},
+	{id = 2671, chance = 8292},
+	{id = 5910, chance = 5776},
+	{id = 9970, chance = 4290, maxCount = 2},
+	{id = 10556, chance = 3177},
+	{id = 18417, chance = 2269, maxCount = 2},
+	{id = 8614, chance = 825},
+	{id = 7439, chance = 743}
 }
 
 mType:register(monster)

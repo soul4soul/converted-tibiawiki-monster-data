@@ -52,10 +52,10 @@
 		<voice sentence="Graaawwwr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="88235" countmax="53" />
-		<item id="2666" name="meat" chance="41176" />
-		<item id="10553" name="fiery heart" chance="11765" />
-		<item id="7840" name="flaming arrow" chance="11765" countmax="8" />
-		<item id="5897" name="wolf paw" chance="5882" />
+		<item id="2148" name="gold coin" chance="88889" countmax="53" />
+		<item id="2666" name="meat" chance="38889" />
+		<item id="10553" name="fiery heart" chance="11111" />
+		<item id="7840" name="flaming arrow" chance="11111" countmax="8" />
+		<item id="5897" name="wolf paw" chance="5556" />
 	</loot>
 </monster>

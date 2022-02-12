@@ -85,6 +85,12 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 4
+monster.summons = {
+	{name = "Drillworm", chance = 15, interval = 2000, max = 1},
+	{name = "Glooth Anemone", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
 }
 

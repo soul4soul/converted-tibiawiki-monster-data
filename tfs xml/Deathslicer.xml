@@ -42,6 +42,12 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
+		<attack name="energy" interval="2000" chance="15" min="-200" max="-400" radius="3" target="0">
+			<attribute key="areaEffect" value="yellowspark" />
+		</attack>
+		<attack name="energy" interval="2000" chance="15" min="-100" max="-200" length="5" spread="0">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>

@@ -50,21 +50,21 @@
 		<voice sentence="You will not leave this place breathing!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="71716" countmax="9" />
-		<item id="24850" name="opal" chance="30931" countmax="5" />
-		<item id="2149" name="small emerald" chance="28540" countmax="3" />
-		<item id="2403" name="knife" chance="24075" />
-		<item id="2419" name="scimitar" chance="18240" />
-		<item id="34334" name="cobra crest" chance="16709" />
-		<item id="2200" name="protection amulet" chance="14222" />
-		<item id="2450" name="bone sword" chance="8642" />
-		<item id="2442" name="heavy machete" chance="7844" />
-		<item id="18415" name="green crystal shard" chance="7143" />
-		<item id="2420" name="machete" chance="5198" />
-		<item id="2395" name="carlin sword" chance="5166" />
+		<item id="2152" name="platinum coin" chance="71546" countmax="9" />
+		<item id="24850" name="opal" chance="30873" countmax="5" />
+		<item id="2149" name="small emerald" chance="28229" countmax="3" />
+		<item id="2403" name="knife" chance="23466" />
+		<item id="2419" name="scimitar" chance="17556" />
+		<item id="34334" name="cobra crest" chance="16559" />
+		<item id="2200" name="protection amulet" chance="14339" />
+		<item id="2450" name="bone sword" chance="8828" />
+		<item id="2442" name="heavy machete" chance="7880" />
+		<item id="18415" name="green crystal shard" chance="7207" />
+		<item id="2420" name="machete" chance="5037" />
+		<item id="2395" name="carlin sword" chance="4838" />
 		<item id="9971" name="gold ingot" chance="4688" />
-		<item id="18421" name="green crystal fragment" chance="2774" />
-		<item id="5944" name="soul orb" chance="2423" />
-		<item id="18420" name="red crystal fragment" chance="957" />
+		<item id="18421" name="green crystal fragment" chance="2893" />
+		<item id="5944" name="soul orb" chance="2319" />
+		<item id="18420" name="red crystal fragment" chance="948" />
 	</loot>
 </monster>

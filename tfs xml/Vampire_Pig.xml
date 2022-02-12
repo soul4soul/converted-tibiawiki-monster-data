@@ -49,6 +49,6 @@
 		<voice sentence="Oink oink" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="89412" countmax="40" />
+		<item id="2148" name="gold coin" chance="88962" countmax="40" />
 	</loot>
 </monster>

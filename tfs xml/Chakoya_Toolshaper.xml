@@ -42,6 +42,9 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-35" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-45" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="smallstone" />
+		</attack>
 	</attacks>
 	<defenses armor="7" defense="7" />
 	<voices interval="5000" chance="10">
@@ -51,16 +54,16 @@
 		<voice sentence="Kiyosa sipaju!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="78285" countmax="20" />
-		<item id="2667" name="fish" chance="24995" countmax="2" />
-		<item id="2398" name="mace" chance="5082" />
-		<item id="3456" name="pick" chance="1033" />
-		<item id="2541" name="bone shield" chance="840" />
-		<item id="22727" name="fireproof horn" chance="476" />
-		<item id="7441" name="ice cube" chance="395" />
+		<item id="2148" name="gold coin" chance="78301" countmax="20" />
+		<item id="2667" name="fish" chance="24977" countmax="2" />
+		<item id="2398" name="mace" chance="5064" />
+		<item id="3456" name="pick" chance="1029" />
+		<item id="2541" name="bone shield" chance="837" />
+		<item id="22727" name="fireproof horn" chance="474" />
+		<item id="7441" name="ice cube" chance="393" />
 		<item id="7381" name="mammoth whopper" chance="182" />
 		<item id="7158" name="rainbow trout" chance="121" />
-		<item id="7159" name="green perch" chance="71" />
+		<item id="7159" name="green perch" chance="81" />
 		<item id="2669" name="northern pike" chance="61" />
 	</loot>
 </monster>

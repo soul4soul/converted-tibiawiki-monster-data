@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Hulking Carnisylvan" nameDescription="a hulking carnisylvan" experience="4200" speed="220" manacost="0">
+<monster name="Hulking Carnisylvan" nameDescription="a hulking carnisylvan" experience="4700" speed="220" manacost="0">
 	<health now="8600" max="8600" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -55,18 +55,18 @@
 	<defenses armor="51" defense="51" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="19" />
-		<item id="2230" name="bone" chance="23273" />
-		<item id="7591" name="great health potion" chance="12123" countmax="2" />
-		<item id="39462" name="carnisylvan bark" chance="11683" />
-		<item id="39461" name="carnisylvan finger" chance="9768" />
-		<item id="7903" name="terra hood" chance="6124" />
-		<item id="7886" name="terra boots" chance="4585" />
-		<item id="2430" name="knight axe" chance="3894" />
-		<item id="7901" name="lightning headband" chance="3863" />
-		<item id="7387" name="diamond sceptre" chance="3580" />
-		<item id="7430" name="dragonbone staff" chance="3486" />
-		<item id="2438" name="epee" chance="3266" />
+		<item id="2230" name="bone" chance="23542" />
+		<item id="7591" name="great health potion" chance="12289" countmax="2" />
+		<item id="39462" name="carnisylvan bark" chance="11717" />
+		<item id="39461" name="carnisylvan finger" chance="10354" />
+		<item id="7903" name="terra hood" chance="6185" />
+		<item id="7886" name="terra boots" chance="4714" />
+		<item id="2430" name="knight axe" chance="3951" />
+		<item id="7901" name="lightning headband" chance="3869" />
+		<item id="7430" name="dragonbone staff" chance="3651" />
+		<item id="7387" name="diamond sceptre" chance="3597" />
+		<item id="2438" name="epee" chance="3324" />
 		<item id="2391" name="war hammer" chance="2670" />
-		<item id="39463" name="human teeth" chance="471" />
+		<item id="39463" name="human teeth" chance="463" />
 	</loot>
 </monster>

@@ -41,7 +41,7 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-14" />
 	</attacks>
 	<defenses armor="3" defense="3" />
 </monster>

@@ -55,13 +55,13 @@
 		<voice sentence="Krrrooow truaaak kiiiii!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="73498" countmax="35" />
-		<item id="21310" name="rorc feather" chance="12038" />
-		<item id="21314" name="hatched rorc egg" chance="10962" />
-		<item id="2129" name="wolf tooth chain" chance="7945" />
+		<item id="2148" name="gold coin" chance="73507" countmax="35" />
+		<item id="21310" name="rorc feather" chance="12036" />
+		<item id="21314" name="hatched rorc egg" chance="10964" />
+		<item id="2129" name="wolf tooth chain" chance="7947" />
 		<item id="2510" name="plate shield" chance="6480" />
-		<item id="2428" name="orcish axe" chance="2059" />
-		<item id="21313" name="rorc egg" chance="1051" />
+		<item id="2428" name="orcish axe" chance="2058" />
+		<item id="21313" name="rorc egg" chance="1052" />
 		<item id="2425" name="obsidian lance" chance="991" />
 	</loot>
 </monster>

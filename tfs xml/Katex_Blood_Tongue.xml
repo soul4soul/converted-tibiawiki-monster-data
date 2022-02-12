@@ -47,30 +47,30 @@
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="9" />
 		<item id="8473" name="ultimate health potion" chance="100000" countmax="3" />
-		<item id="9971" name="gold ingot" chance="23969" />
-		<item id="36599" name="werehyaena nose" chance="20916" />
-		<item id="36875" name="werehyaena trophy" chance="5496" />
-		<item id="36756" name="katex' blood" chance="5344" />
-		<item id="2153" name="violet gem" chance="5344" />
-		<item id="36600" name="werehyaena talisman" chance="4733" />
-		<item id="2520" name="demon shield" chance="3053" />
-		<item id="5741" name="skull helmet" chance="2595" />
-		<item id="2158" name="blue gem" chance="2443" />
-		<item id="2472" name="magic plate armor" chance="2290" />
-		<item id="2179" name="gold ring" chance="2137" />
-		<item id="7382" name="demonrage sword" chance="1679" />
-		<item id="2393" name="giant sword" chance="1527" />
-		<item id="24739" name="moonlight crystals" chance="1527" />
-		<item id="7422" name="jade hammer" chance="1374" />
-		<item name="ring of green plasma" chance="1374" />
-		<item id="23539" name="alloy legs" chance="1069" />
-		<item id="7404" name="assassin dagger" chance="1069" />
-		<item id="7440" name="mastermind potion" chance="1069" />
-		<item id="2454" name="war axe" chance="1069" />
-		<item id="2466" name="golden armor" chance="916" />
-		<item id="36434" name="raw watermelon tourmaline" chance="916" />
-		<item id="15644" name="ornate crossbow" chance="763" />
-		<item id="36914" name="red silk flower" chance="611" />
-		<item name="giant shimmering pearl" chance="153" />
+		<item id="9971" name="gold ingot" chance="23816" />
+		<item id="36599" name="werehyaena nose" chance="20803" />
+		<item id="36875" name="werehyaena trophy" chance="5595" />
+		<item id="36756" name="katex' blood" chance="5308" />
+		<item id="2153" name="violet gem" chance="5308" />
+		<item id="36600" name="werehyaena talisman" chance="4735" />
+		<item id="2520" name="demon shield" chance="3013" />
+		<item id="5741" name="skull helmet" chance="2582" />
+		<item id="2158" name="blue gem" chance="2439" />
+		<item id="2179" name="gold ring" chance="2152" />
+		<item id="2472" name="magic plate armor" chance="2152" />
+		<item id="7382" name="demonrage sword" chance="1578" />
+		<item id="2393" name="giant sword" chance="1578" />
+		<item id="24739" name="moonlight crystals" chance="1435" />
+		<item id="7422" name="jade hammer" chance="1291" />
+		<item name="ring of green plasma" chance="1291" />
+		<item id="2466" name="golden armor" chance="1148" />
+		<item id="23539" name="alloy legs" chance="1004" />
+		<item id="7404" name="assassin dagger" chance="1004" />
+		<item id="7440" name="mastermind potion" chance="1004" />
+		<item id="15644" name="ornate crossbow" chance="1004" />
+		<item id="2454" name="war axe" chance="1004" />
+		<item id="36434" name="raw watermelon tourmaline" chance="861" />
+		<item id="36914" name="red silk flower" chance="574" />
+		<item name="giant shimmering pearl" chance="143" />
 	</loot>
 </monster>

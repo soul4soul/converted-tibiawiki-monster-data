@@ -42,6 +42,6 @@
 	</elements>
 	<defenses armor="1" defense="1" />
 	<loot>
-		<item id="12640" name="downy feather" chance="1128" />
+		<item id="12640" name="downy feather" chance="1119" />
 	</loot>
 </monster>

@@ -53,17 +53,17 @@
 		<voice sentence="DEATH TO THE ASKARAK!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="96977" countmax="255" />
-		<item id="7378" name="royal spear" chance="10275" countmax="6" />
-		<item id="7589" name="strong mana potion" chance="5150" />
-		<item id="7588" name="strong health potion" chance="5120" />
-		<item id="2147" name="small ruby" chance="4893" countmax="5" />
-		<item id="2789" name="brown mushroom" chance="4018" />
-		<item id="2167" name="energy ring" chance="1076" />
-		<item id="2114" name="piggy bank" chance="1011" />
-		<item id="7443" name="bullseye potion" chance="639" />
-		<item id="2187" name="wand of inferno" chance="609" />
-		<item id="7894" name="magma legs" chance="151" />
-		<item id="5904" name="magic sulphur" chance="96" />
+		<item id="2148" name="gold coin" chance="97017" countmax="255" />
+		<item id="7378" name="royal spear" chance="10237" countmax="6" />
+		<item id="7589" name="strong mana potion" chance="5165" />
+		<item id="7588" name="strong health potion" chance="5146" />
+		<item id="2147" name="small ruby" chance="4885" countmax="5" />
+		<item id="2789" name="brown mushroom" chance="4020" />
+		<item id="2167" name="energy ring" chance="1081" />
+		<item id="2114" name="piggy bank" chance="1003" />
+		<item id="7443" name="bullseye potion" chance="634" />
+		<item id="2187" name="wand of inferno" chance="605" />
+		<item id="7894" name="magma legs" chance="147" />
+		<item id="5904" name="magic sulphur" chance="93" />
 	</loot>
 </monster>

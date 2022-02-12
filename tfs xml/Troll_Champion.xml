@@ -52,15 +52,15 @@
 		<voice sentence="Groar" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64555" countmax="12" />
-		<item id="2389" name="spear" chance="25090" />
-		<item id="2666" name="meat" chance="9983" />
-		<item id="2643" name="leather boots" chance="9912" />
-		<item id="2512" name="wooden shield" chance="5337" />
-		<item id="2544" name="arrow" chance="5052" countmax="5" />
-		<item id="2448" name="studded club" chance="5048" />
-		<item id="10606" name="bunch of troll hair" chance="3069" />
-		<item id="12471" name="trollroot" chance="913" />
-		<item id="2170" name="silver amulet" chance="128" />
+		<item id="2148" name="gold coin" chance="64564" countmax="12" />
+		<item id="2389" name="spear" chance="25097" />
+		<item id="2666" name="meat" chance="9975" />
+		<item id="2643" name="leather boots" chance="9933" />
+		<item id="2512" name="wooden shield" chance="5332" />
+		<item id="2544" name="arrow" chance="5055" countmax="5" />
+		<item id="2448" name="studded club" chance="5051" />
+		<item id="10606" name="bunch of troll hair" chance="3071" />
+		<item id="12471" name="trollroot" chance="911" />
+		<item id="2170" name="silver amulet" chance="127" />
 	</loot>
 </monster>

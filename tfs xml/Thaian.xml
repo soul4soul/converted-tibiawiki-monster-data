@@ -45,12 +45,12 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2155" name="green gem" chance="91304" />
-		<item id="2154" name="yellow gem" chance="65217" />
-		<item id="35289" name="eye of the chasm" chance="56522" />
-		<item id="35282" name="amber (item)" chance="13043" />
-		<item id="2158" name="blue gem" chance="8696" />
-		<item id="35359" name="death toll" chance="8696" countmax="2" />
-		<item id="35361" name="pair of old bracers" chance="4348" />
+		<item id="2155" name="green gem" chance="92000" />
+		<item id="35289" name="eye of the chasm" chance="60000" />
+		<item id="2154" name="yellow gem" chance="60000" />
+		<item id="35282" name="amber (item)" chance="12000" />
+		<item id="2158" name="blue gem" chance="8000" />
+		<item id="35359" name="death toll" chance="8000" countmax="2" />
+		<item id="35361" name="pair of old bracers" chance="4000" />
 	</loot>
 </monster>

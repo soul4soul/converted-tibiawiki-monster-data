@@ -50,12 +50,12 @@
 		<voice sentence="Crrrk! Crrrk!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="89919" countmax="129" />
-		<item id="12446" name="quara pincers" chance="9881" />
-		<item id="2463" name="plate armor" chance="4958" />
-		<item id="2147" name="small ruby" chance="3860" countmax="2" />
-		<item id="2381" name="halberd" chance="2059" />
-		<item id="5895" name="fish fin" chance="806" />
-		<item id="2177" name="life crystal" chance="785" />
+		<item id="2148" name="gold coin" chance="89913" countmax="129" />
+		<item id="12446" name="quara pincers" chance="9884" />
+		<item id="2463" name="plate armor" chance="4949" />
+		<item id="2147" name="small ruby" chance="3856" countmax="2" />
+		<item id="2381" name="halberd" chance="2057" />
+		<item id="5895" name="fish fin" chance="805" />
+		<item id="2177" name="life crystal" chance="782" />
 	</loot>
 </monster>

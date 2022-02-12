@@ -42,9 +42,9 @@
 	</elements>
 	<defenses armor="1" defense="1" />
 	<loot>
-		<item id="5890" name="chicken feather" chance="16453" countmax="2" />
-		<item id="3976" name="worm" chance="9452" />
-		<item id="2666" name="meat" chance="2450" />
-		<item id="3606" name="egg" chance="758" countmax="2" />
+		<item id="5890" name="chicken feather" chance="15137" countmax="2" />
+		<item id="3976" name="worm" chance="8789" />
+		<item id="2666" name="meat" chance="2295" />
+		<item id="3606" name="egg" chance="781" countmax="2" />
 	</loot>
 </monster>

@@ -58,26 +58,26 @@
 		<voice sentence="GROOAAARRR" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="90101" countmax="105" />
-		<item id="2672" name="dragon ham" chance="65120" />
-		<item id="2509" name="steel shield" chance="14878" />
-		<item id="2455" name="crossbow" chance="10092" />
-		<item id="12413" name="dragon's tail" chance="9880" />
-		<item id="2546" name="burst arrow" chance="7976" countmax="10" />
-		<item id="2397" name="longsword" chance="4041" />
-		<item id="3351" name="steel helmet" chance="3006" />
-		<item id="2413" name="broadsword" chance="1992" />
-		<item id="2647" name="plate legs" chance="1907" />
-		<item id="2187" name="wand of inferno" chance="1052" />
-		<item id="7588" name="strong health potion" chance="1050" />
+		<item id="2148" name="gold coin" chance="90087" countmax="105" />
+		<item id="2672" name="dragon ham" chance="65133" />
+		<item id="2509" name="steel shield" chance="14882" />
+		<item id="2455" name="crossbow" chance="10086" />
+		<item id="12413" name="dragon's tail" chance="9884" />
+		<item id="2546" name="burst arrow" chance="7971" countmax="10" />
+		<item id="2397" name="longsword" chance="4033" />
+		<item id="3351" name="steel helmet" chance="3008" />
+		<item id="2413" name="broadsword" chance="1998" />
+		<item id="2647" name="plate legs" chance="1911" />
+		<item id="7588" name="strong health potion" chance="1054" />
+		<item id="2187" name="wand of inferno" chance="1050" />
 		<item id="5920" name="green dragon scale" chance="1037" />
-		<item id="5877" name="green dragon leather" chance="1027" />
-		<item id="2387" name="double axe" chance="1008" />
-		<item id="2434" name="dragon hammer" chance="519" />
-		<item id="2409" name="serpent sword" chance="505" />
-		<item id="2145" name="small diamond" chance="382" />
+		<item id="5877" name="green dragon leather" chance="1023" />
+		<item id="2387" name="double axe" chance="1010" />
+		<item id="2434" name="dragon hammer" chance="514" />
+		<item id="2409" name="serpent sword" chance="503" />
+		<item id="2145" name="small diamond" chance="385" />
 		<item id="2516" name="dragon shield" chance="302" />
-		<item id="2177" name="life crystal" chance="113" />
-		<item id="7430" name="dragonbone staff" chance="104" />
+		<item id="2177" name="life crystal" chance="111" />
+		<item id="7430" name="dragonbone staff" chance="103" />
 	</loot>
 </monster>

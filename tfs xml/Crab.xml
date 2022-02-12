@@ -45,8 +45,8 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
-		<item id="2148" name="gold coin" chance="80071" countmax="10" />
-		<item id="11189" name="crab pincers" chance="20099" />
-		<item id="2667" name="fish" chance="20006" />
+		<item id="2148" name="gold coin" chance="80018" countmax="10" />
+		<item id="2667" name="fish" chance="20058" />
+		<item id="11189" name="crab pincers" chance="20035" />
 	</loot>
 </monster>

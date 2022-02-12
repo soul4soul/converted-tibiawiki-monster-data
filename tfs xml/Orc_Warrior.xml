@@ -50,15 +50,15 @@
 		<voice sentence="Grow truk grrrr." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64557" countmax="15" />
-		<item id="2666" name="meat" chance="15185" />
-		<item id="12409" name="broken helmet" chance="9676" />
-		<item id="2464" name="chain armor" chance="7635" />
-		<item id="12435" name="orc leather" chance="3697" />
-		<item id="26642" name="heavy old tome" chance="1703" />
-		<item id="12436" name="skull belt" chance="942" />
-		<item id="11113" name="orc tooth" chance="628" />
-		<item id="2530" name="copper shield" chance="495" />
-		<item id="2411" name="poison dagger" chance="48" />
+		<item id="2148" name="gold coin" chance="64346" countmax="15" />
+		<item id="2666" name="meat" chance="15269" />
+		<item id="12409" name="broken helmet" chance="9619" />
+		<item id="2464" name="chain armor" chance="7618" />
+		<item id="12435" name="orc leather" chance="3662" />
+		<item id="26642" name="heavy old tome" chance="1771" />
+		<item id="12436" name="skull belt" chance="973" />
+		<item id="11113" name="orc tooth" chance="656" />
+		<item id="2530" name="copper shield" chance="503" />
+		<item id="2411" name="poison dagger" chance="44" />
 	</loot>
 </monster>

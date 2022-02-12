@@ -53,24 +53,24 @@
 		<voice sentence="HISSSS" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98304" countmax="236" />
-		<item id="2672" name="dragon ham" chance="60556" />
-		<item id="2152" name="platinum coin" chance="26720" countmax="3" />
-		<item id="10583" name="sea serpent scale" chance="10146" />
-		<item id="2647" name="plate legs" chance="7081" />
-		<item id="2146" name="small sapphire" chance="5894" countmax="3" />
-		<item id="7588" name="strong health potion" chance="5000" />
-		<item id="2409" name="serpent sword" chance="4051" />
-		<item id="7589" name="strong mana potion" chance="3957" />
-		<item id="8870" name="spirit cloak" chance="2901" />
-		<item id="2214" name="ring of healing" chance="1143" />
-		<item id="8911" name="northwind rod" chance="1018" />
-		<item id="7590" name="great mana potion" chance="934" />
-		<item id="7888" name="glacier amulet" chance="882" />
-		<item id="7896" name="glacier kilt" chance="440" />
-		<item id="8871" name="focus cape" chance="412" />
-		<item id="2165" name="stealth ring" chance="407" />
-		<item id="10220" name="leviathan's amulet" chance="114" />
-		<item id="8878" name="crystalline armor" chance="94" />
+		<item id="2148" name="gold coin" chance="98303" countmax="236" />
+		<item id="2672" name="dragon ham" chance="60536" />
+		<item id="2152" name="platinum coin" chance="26702" countmax="3" />
+		<item id="10583" name="sea serpent scale" chance="10134" />
+		<item id="2647" name="plate legs" chance="7107" />
+		<item id="2146" name="small sapphire" chance="5895" countmax="3" />
+		<item id="7588" name="strong health potion" chance="4981" />
+		<item id="2409" name="serpent sword" chance="4058" />
+		<item id="7589" name="strong mana potion" chance="3958" />
+		<item id="8870" name="spirit cloak" chance="2895" />
+		<item id="2214" name="ring of healing" chance="1139" />
+		<item id="8911" name="northwind rod" chance="1019" />
+		<item id="7590" name="great mana potion" chance="928" />
+		<item id="7888" name="glacier amulet" chance="879" />
+		<item id="7896" name="glacier kilt" chance="436" />
+		<item id="8871" name="focus cape" chance="411" />
+		<item id="2165" name="stealth ring" chance="411" />
+		<item id="10220" name="leviathan's amulet" chance="115" />
+		<item id="8878" name="crystalline armor" chance="96" />
 	</loot>
 </monster>

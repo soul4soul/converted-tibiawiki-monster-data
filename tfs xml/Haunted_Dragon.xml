@@ -45,28 +45,28 @@
 	</attacks>
 	<defenses armor="58" defense="58" />
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="184" />
-		<item id="2152" name="platinum coin" chance="35005" countmax="2" />
-		<item id="11233" name="unholy bone" chance="33727" />
-		<item id="27046" name="ancient coin" chance="29007" countmax="2" />
-		<item id="2144" name="black pearl" chance="25565" countmax="2" />
-		<item id="7591" name="great health potion" chance="24484" countmax="2" />
-		<item id="2146" name="small sapphire" chance="24090" countmax="2" />
-		<item id="7368" name="assassin star" chance="23107" countmax="5" />
-		<item id="7590" name="great mana potion" chance="20747" countmax="2" />
-		<item id="5925" name="hardened bone" chance="15929" />
-		<item id="6500" name="demonic essence" chance="14848" />
-		<item id="2178" name="mind stone" chance="8260" />
-		<item id="2201" name="dragon necklace" chance="5998" />
-		<item id="2156" name="red gem" chance="5408" />
-		<item id="2489" name="dark armor" chance="4818" />
-		<item id="2521" name="dark shield" chance="4523" />
-		<item id="7430" name="dragonbone staff" chance="3343" />
-		<item id="9971" name="gold ingot" chance="2655" />
-		<item id="6300" name="death ring" chance="1770" />
-		<item id="2177" name="life crystal" chance="1180" />
-		<item id="11355" name="spellweaver's robe" chance="688" />
-		<item id="7402" name="dragon slayer" chance="590" />
-		<item id="8889" name="skullcracker armor" chance="98" />
+		<item id="2148" name="gold coin" chance="100000" countmax="186" />
+		<item id="11233" name="unholy bone" chance="33910" />
+		<item id="2152" name="platinum coin" chance="33397" countmax="2" />
+		<item id="27046" name="ancient coin" chance="28782" countmax="2" />
+		<item id="7368" name="assassin star" chance="25321" countmax="5" />
+		<item id="2144" name="black pearl" chance="24744" countmax="2" />
+		<item id="2146" name="small sapphire" chance="23846" countmax="2" />
+		<item id="7591" name="great health potion" chance="23269" countmax="2" />
+		<item id="7590" name="great mana potion" chance="19744" countmax="2" />
+		<item id="5925" name="hardened bone" chance="15705" />
+		<item id="6500" name="demonic essence" chance="14359" />
+		<item id="2178" name="mind stone" chance="7692" />
+		<item id="2201" name="dragon necklace" chance="6410" />
+		<item id="2156" name="red gem" chance="5128" />
+		<item id="2489" name="dark armor" chance="4551" />
+		<item id="2521" name="dark shield" chance="4487" />
+		<item id="7430" name="dragonbone staff" chance="3654" />
+		<item id="9971" name="gold ingot" chance="2628" />
+		<item id="6300" name="death ring" chance="1923" />
+		<item id="2177" name="life crystal" chance="1346" />
+		<item id="11355" name="spellweaver's robe" chance="577" />
+		<item id="7402" name="dragon slayer" chance="513" />
+		<item id="8889" name="skullcracker armor" chance="192" />
 	</loot>
 </monster>

@@ -50,6 +50,6 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="198" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
-		<item id="13757" name="coal" chance="1199" />
+		<item id="13757" name="coal" chance="1193" />
 	</loot>
 </monster>

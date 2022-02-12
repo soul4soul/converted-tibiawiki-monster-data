@@ -48,10 +48,10 @@
 		<voice sentence="PAIN PURIFIES! PAIN PURIFIES!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="49691" countmax="200" />
-		<item id="28398" name="fig leaf" chance="9111" />
-		<item id="27617" name="tiger eye" chance="4900" />
-		<item id="28399" name="bed of nails" chance="1670" />
-		<item id="28400" name="torn shirt" chance="1198" />
+		<item id="2148" name="gold coin" chance="50247" countmax="200" />
+		<item id="28398" name="fig leaf" chance="9399" />
+		<item id="27617" name="tiger eye" chance="4688" />
+		<item id="28399" name="bed of nails" chance="1720" />
+		<item id="28400" name="torn shirt" chance="1201" />
 	</loot>
 </monster>

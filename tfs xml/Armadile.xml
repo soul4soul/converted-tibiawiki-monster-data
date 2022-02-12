@@ -49,24 +49,24 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="198" />
-		<item id="2152" name="platinum coin" chance="95279" countmax="7" />
-		<item id="7590" name="great mana potion" chance="15548" countmax="2" />
-		<item id="7591" name="great health potion" chance="15418" countmax="2" />
-		<item id="7589" name="strong mana potion" chance="15071" countmax="2" />
-		<item id="7620" name="mana potion" chance="14855" countmax="3" />
-		<item id="7588" name="strong health potion" chance="14682" countmax="2" />
-		<item id="18432" name="crystalline spikes" chance="14595" />
-		<item id="12403" name="battle stone" chance="12689" />
-		<item id="18437" name="envenomed arrow" chance="10871" countmax="10" />
-		<item id="18436" name="drill bolt" chance="7796" countmax="5" />
-		<item id="13757" name="coal" chance="6366" />
-		<item id="18421" name="green crystal fragment" chance="5977" countmax="2" />
-		<item id="18416" name="green crystal splinter" chance="4158" countmax="2" />
-		<item id="7886" name="terra boots" chance="2599" />
-		<item id="7413" name="titan axe" chance="1516" />
-		<item id="2169" name="time ring" chance="1256" />
-		<item id="7428" name="bonebreaker" chance="1083" />
-		<item id="2528" name="tower shield" chance="606" />
-		<item id="8878" name="crystalline armor" chance="217" />
+		<item id="2152" name="platinum coin" chance="95295" countmax="7" />
+		<item id="7591" name="great health potion" chance="15483" countmax="2" />
+		<item id="7590" name="great mana potion" chance="15441" countmax="2" />
+		<item id="7589" name="strong mana potion" chance="15056" countmax="2" />
+		<item id="7620" name="mana potion" chance="14970" countmax="3" />
+		<item id="18432" name="crystalline spikes" chance="14585" />
+		<item id="7588" name="strong health potion" chance="14585" countmax="2" />
+		<item id="12403" name="battle stone" chance="12532" />
+		<item id="18437" name="envenomed arrow" chance="10992" countmax="10" />
+		<item id="18436" name="drill bolt" chance="7784" countmax="5" />
+		<item id="13757" name="coal" chance="6459" />
+		<item id="18421" name="green crystal fragment" chance="5988" countmax="2" />
+		<item id="18416" name="green crystal splinter" chance="4149" countmax="2" />
+		<item id="7886" name="terra boots" chance="2566" />
+		<item id="7413" name="titan axe" chance="1497" />
+		<item id="2169" name="time ring" chance="1240" />
+		<item id="7428" name="bonebreaker" chance="1069" />
+		<item id="2528" name="tower shield" chance="599" />
+		<item id="8878" name="crystalline armor" chance="214" />
 	</loot>
 </monster>

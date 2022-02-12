@@ -50,27 +50,27 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="26201" name="energy drink" chance="18296" />
-		<item id="26191" name="energy bar" chance="18229" />
-		<item id="26174" name="spark sphere" chance="14548" />
-		<item id="7591" name="great health potion" chance="12502" />
-		<item id="8472" name="great spirit potion" chance="11890" />
-		<item id="7590" name="great mana potion" chance="11873" />
-		<item id="26163" name="crystallized anger" chance="10783" />
-		<item id="26167" name="curious matter" chance="9987" />
+		<item id="26201" name="energy drink" chance="18331" />
+		<item id="26191" name="energy bar" chance="18199" />
+		<item id="26174" name="spark sphere" chance="14777" />
+		<item id="7591" name="great health potion" chance="12394" />
+		<item id="8472" name="great spirit potion" chance="11936" />
+		<item id="7590" name="great mana potion" chance="11812" />
+		<item id="26163" name="crystallized anger" chance="10718" />
+		<item id="26167" name="curious matter" chance="9965" />
+		<item id="26162" name="plasma pearls" chance="9950" />
 		<item id="26170" name="volatile proto matter" chance="9903" />
-		<item id="26162" name="plasma pearls" chance="9894" />
-		<item id="18418" name="blue crystal splinter" chance="7991" countmax="2" />
-		<item id="18419" name="cyan crystal fragment" chance="5995" />
-		<item id="18415" name="green crystal shard" chance="4193" />
-		<item id="18413" name="blue crystal shard" chance="3899" />
-		<item name="ring of blue plasma" chance="369" />
-		<item id="2158" name="blue gem" chance="352" />
-		<item name="collar of blue plasma" chance="293" />
-		<item id="26199" name="collar of green plasma" chance="277" />
-		<item id="26200" name="collar of red plasma" chance="252" />
-		<item name="ring of red plasma" chance="210" />
-		<item name="ring of green plasma" chance="201" />
-		<item id="7895" name="lightning legs" chance="67" />
+		<item id="18418" name="blue crystal splinter" chance="8141" countmax="2" />
+		<item id="18419" name="cyan crystal fragment" chance="5999" />
+		<item id="18415" name="green crystal shard" chance="4206" />
+		<item id="18413" name="blue crystal shard" chance="3997" />
+		<item id="2158" name="blue gem" chance="357" />
+		<item name="ring of blue plasma" chance="357" />
+		<item name="collar of blue plasma" chance="287" />
+		<item id="26199" name="collar of green plasma" chance="272" />
+		<item id="26200" name="collar of red plasma" chance="264" />
+		<item name="ring of red plasma" chance="225" />
+		<item name="ring of green plasma" chance="210" />
+		<item id="7895" name="lightning legs" chance="62" />
 	</loot>
 </monster>

@@ -87,13 +87,13 @@ monster.attacks = {
 monster.defenses = {
 	defense = 1,
 	armor = 1,
-	{name ="speed", interval = 2000, chance = 15, speed = {min = 450, max = 450}, duration = 4000, effect = CONST_ME_MAGIC_RED}
+	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
 }
 
 monster.loot = {
-	{id = 13533, chance = 21320},
-	{id = 13534, chance = 20428},
-	{id = 2671, chance = 19536}
+	{id = 13533, chance = 21286},
+	{id = 13534, chance = 20418},
+	{id = 2671, chance = 19595}
 }
 
 mType:register(monster)

@@ -55,16 +55,16 @@
 		<voice sentence="Prek tars, dekklep zurk." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="74844" countmax="17" />
-		<item id="2467" name="leather armor" chance="10082" />
-		<item id="2230" name="bone" chance="5813" />
-		<item name="torch" chance="5551" />
-		<item id="2231" name="big bone" chance="3089" />
-		<item id="2229" name="skull (item)" chance="1963" countmax="3" />
-		<item id="2411" name="poison dagger" chance="1017" />
-		<item id="7618" name="health potion" chance="592" />
+		<item id="2148" name="gold coin" chance="74832" countmax="17" />
+		<item id="2467" name="leather armor" chance="10090" />
+		<item id="2230" name="bone" chance="5814" />
+		<item name="torch" chance="5546" />
+		<item id="2231" name="big bone" chance="3065" />
+		<item id="2229" name="skull (item)" chance="1973" countmax="3" />
+		<item id="2411" name="poison dagger" chance="1009" />
+		<item id="7618" name="health potion" chance="586" />
 		<item id="2174" name="strange symbol" chance="503" />
-		<item id="3967" name="tribal mask" chance="478" />
-		<item id="3955" name="voodoo doll" chance="122" />
+		<item id="3967" name="tribal mask" chance="486" />
+		<item id="3955" name="voodoo doll" chance="120" />
 	</loot>
 </monster>

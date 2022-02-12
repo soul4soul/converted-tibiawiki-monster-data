@@ -51,14 +51,14 @@
 		<voice sentence="Defiler of nature!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2787" name="white mushroom" chance="55717" countmax="2" />
-		<item id="2148" name="gold coin" chance="39729" countmax="30" />
-		<item id="7732" name="seeds" chance="10361" />
-		<item id="9928" name="leaf legs" chance="1199" />
-		<item id="9931" name="coconut shoes" chance="1064" />
-		<item id="9927" name="flower wreath" chance="1064" />
-		<item id="9929" name="flower dress" chance="974" />
-		<item id="2790" name="orange mushroom" chance="721" countmax="2" />
+		<item id="2787" name="white mushroom" chance="55709" countmax="2" />
+		<item id="2148" name="gold coin" chance="39717" countmax="30" />
+		<item id="7732" name="seeds" chance="10355" />
+		<item id="9928" name="leaf legs" chance="1198" />
+		<item id="9931" name="coconut shoes" chance="1062" />
+		<item id="9927" name="flower wreath" chance="1062" />
+		<item id="9929" name="flower dress" chance="981" />
+		<item id="2790" name="orange mushroom" chance="720" countmax="2" />
 		<item id="13298" name="carrot on a stick" chance="216" />
 		<item id="2150" name="small amethyst" chance="90" />
 	</loot>

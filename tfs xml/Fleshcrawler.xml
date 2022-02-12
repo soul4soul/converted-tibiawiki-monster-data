@@ -46,18 +46,18 @@
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="10548" name="scarab pincers" chance="100000" />
-		<item id="2152" name="platinum coin" chance="99149" countmax="15" />
-		<item id="2159" name="scarab coin" chance="99149" countmax="2" />
-		<item id="2149" name="small emerald" chance="89362" countmax="3" />
-		<item id="2150" name="small amethyst" chance="88511" countmax="4" />
-		<item id="8912" name="springsprout rod" chance="75745" />
-		<item id="2135" name="scarab amulet" chance="51064" />
-		<item id="2142" name="ancient amulet" chance="48511" />
-		<item id="2540" name="scarab shield" chance="45106" />
-		<item id="7588" name="strong health potion" chance="43404" />
-		<item id="2476" name="knight armor" chance="41702" />
-		<item id="7426" name="amber staff" chance="29362" />
-		<item id="12424" name="ornamented brooch" chance="13191" />
-		<item id="7884" name="terra mantle" chance="10213" />
+		<item id="2152" name="platinum coin" chance="99153" countmax="15" />
+		<item id="2159" name="scarab coin" chance="99153" countmax="2" />
+		<item id="2149" name="small emerald" chance="89407" countmax="3" />
+		<item id="2150" name="small amethyst" chance="88559" countmax="4" />
+		<item id="8912" name="springsprout rod" chance="75847" />
+		<item id="2135" name="scarab amulet" chance="51271" />
+		<item id="2142" name="ancient amulet" chance="48729" />
+		<item id="2540" name="scarab shield" chance="45339" />
+		<item id="7588" name="strong health potion" chance="43220" />
+		<item id="2476" name="knight armor" chance="41525" />
+		<item id="7426" name="amber staff" chance="29237" />
+		<item id="12424" name="ornamented brooch" chance="13136" />
+		<item id="7884" name="terra mantle" chance="10169" />
 	</loot>
 </monster>

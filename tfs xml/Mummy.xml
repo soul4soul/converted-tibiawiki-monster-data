@@ -53,19 +53,19 @@
 		<voice sentence="Yohag Sssetham!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="39563" countmax="80" />
-		<item id="3976" name="worm" chance="19848" countmax="3" />
-		<item id="12422" name="flask of embalming fluid" chance="12108" />
-		<item id="10566" name="gauze bandage" chance="10006" />
-		<item id="2162" name="magic light wand" chance="6042" />
-		<item id="2161" name="strange talisman" chance="4990" />
-		<item id="2134" name="silver brooch" chance="3949" />
-		<item id="2124" name="crystal ring" chance="1496" />
-		<item id="2144" name="black pearl" chance="995" />
+		<item id="2148" name="gold coin" chance="39565" countmax="80" />
+		<item id="3976" name="worm" chance="19864" countmax="3" />
+		<item id="12422" name="flask of embalming fluid" chance="12113" />
+		<item id="10566" name="gauze bandage" chance="10005" />
+		<item id="2162" name="magic light wand" chance="6045" />
+		<item id="2161" name="strange talisman" chance="4987" />
+		<item id="2134" name="silver brooch" chance="3942" />
+		<item id="2124" name="crystal ring" chance="1492" />
+		<item id="2144" name="black pearl" chance="998" />
 		<item id="5914" name="yellow piece of cloth" chance="948" />
-		<item id="2411" name="poison dagger" chance="506" />
-		<item id="2529" name="black shield" chance="184" />
-		<item id="2170" name="silver amulet" chance="92" />
+		<item id="2411" name="poison dagger" chance="507" />
+		<item id="2529" name="black shield" chance="185" />
+		<item id="2170" name="silver amulet" chance="91" />
 		<item id="11207" name="mini mummy" chance="2" />
 	</loot>
 </monster>

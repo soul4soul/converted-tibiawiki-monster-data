@@ -48,6 +48,6 @@
 		<voice sentence="Nee Pah!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64862" countmax="40" />
+		<item id="2148" name="gold coin" chance="64837" countmax="40" />
 	</loot>
 </monster>

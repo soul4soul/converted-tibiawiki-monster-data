@@ -54,19 +54,19 @@
 		<voice sentence="ONLY WE ARE TRUE DEMONS!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="95736" countmax="178" />
-		<item id="2152" name="platinum coin" chance="33555" countmax="4" />
-		<item id="7589" name="strong mana potion" chance="16445" />
-		<item id="7588" name="strong health potion" chance="15227" />
-		<item id="2147" name="small ruby" chance="12514" countmax="5" />
-		<item id="2789" name="brown mushroom" chance="4983" />
-		<item id="2165" name="stealth ring" chance="4651" />
-		<item id="2187" name="wand of inferno" chance="831" />
-		<item id="7443" name="bullseye potion" chance="609" />
-		<item id="7899" name="magma coat" chance="609" />
-		<item id="5904" name="magic sulphur" chance="498" />
-		<item id="7412" name="butcher's axe" chance="277" />
-		<item id="13530" name="demonic finger" chance="111" />
-		<item id="2645" name="steel boots" chance="111" />
+		<item id="2148" name="gold coin" chance="95909" countmax="178" />
+		<item id="2152" name="platinum coin" chance="33535" countmax="4" />
+		<item id="7589" name="strong mana potion" chance="16263" />
+		<item id="7588" name="strong health potion" chance="15455" />
+		<item id="2147" name="small ruby" chance="12727" countmax="5" />
+		<item id="2789" name="brown mushroom" chance="4949" />
+		<item id="2165" name="stealth ring" chance="4697" />
+		<item id="2187" name="wand of inferno" chance="1061" />
+		<item id="7443" name="bullseye potion" chance="657" />
+		<item id="7899" name="magma coat" chance="606" />
+		<item id="5904" name="magic sulphur" chance="455" />
+		<item id="7412" name="butcher's axe" chance="253" />
+		<item id="13530" name="demonic finger" chance="202" />
+		<item id="2645" name="steel boots" chance="101" />
 	</loot>
 </monster>

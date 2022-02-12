@@ -45,9 +45,9 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="1294" name="small stone" chance="34091" countmax="3" />
-		<item id="2230" name="bone" chance="8333" />
-		<item id="2467" name="leather armor" chance="5303" />
-		<item id="2235" name="mouldy cheese" chance="5303" />
+		<item id="1294" name="small stone" chance="34503" countmax="3" />
+		<item id="2230" name="bone" chance="7018" />
+		<item id="2235" name="mouldy cheese" chance="7018" />
+		<item id="2467" name="leather armor" chance="4678" />
 	</loot>
 </monster>

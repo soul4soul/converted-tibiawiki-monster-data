@@ -48,44 +48,44 @@
 		<voice sentence="You will regret this!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="99670" countmax="5" />
-		<item id="26191" name="energy bar" chance="99340" />
-		<item id="2155" name="green gem" chance="90759" countmax="3" />
-		<item id="26029" name="ultimate mana potion" chance="59076" countmax="20" />
-		<item id="26031" name="supreme health potion" chance="48185" countmax="20" />
-		<item id="26030" name="ultimate spirit potion" chance="36964" countmax="6" />
-		<item id="2154" name="yellow gem" chance="36964" countmax="2" />
-		<item id="2156" name="red gem" chance="34983" countmax="2" />
-		<item id="28415" name="royal star" chance="30033" countmax="100" />
-		<item id="7889" name="lightning pendant" chance="25743" />
-		<item id="7439" name="berserk potion" chance="24422" countmax="10" />
-		<item id="2158" name="blue gem" chance="20462" countmax="2" />
-		<item id="7838" name="flash arrow" chance="19472" countmax="100" />
-		<item id="7443" name="bullseye potion" chance="16502" countmax="10" />
-		<item id="33919" name="ring of secret thoughts" chance="16502" />
-		<item id="7899" name="magma coat" chance="15512" />
-		<item id="7440" name="mastermind potion" chance="15512" countmax="10" />
-		<item id="9971" name="gold ingot" chance="15182" />
-		<item name="giant shimmering pearl" chance="13531" />
-		<item id="7890" name="magma amulet" chance="12211" />
-		<item id="7900" name="magma monocle" chance="11221" />
-		<item id="2160" name="crystal coin" chance="10561" countmax="3" />
-		<item id="25172" name="silver token" chance="8911" countmax="3" />
-		<item id="2153" name="violet gem" chance="7591" />
-		<item id="7895" name="lightning legs" chance="5941" />
-		<item id="32717" name="giant sapphire" chance="5611" />
-		<item id="34280" name="urmahlullu's paw" chance="5281" />
-		<item id="32715" name="giant ruby" chance="4950" />
-		<item id="34278" name="urmahlullu's tail" chance="4950" />
-		<item name="blister ring" chance="3300" />
-		<item id="32716" name="giant emerald" chance="2310" />
-		<item id="34270" name="tagralt blade" chance="1980" />
-		<item id="34279" name="urmahlullu's mane" chance="1980" />
-		<item name="enchanted theurgic amulet" chance="1650" />
-		<item id="34228" name="blue and golden cordon" chance="990" />
-		<item id="34229" name="sun medal" chance="990" />
-		<item id="34281" name="winged backpack" chance="660" />
-		<item id="34273" name="winged boots" chance="660" />
-		<item id="32979" name="rainbow necklace" chance="330" />
+		<item id="2152" name="platinum coin" chance="99691" countmax="5" />
+		<item id="26191" name="energy bar" chance="99383" />
+		<item id="2155" name="green gem" chance="91358" countmax="3" />
+		<item id="26029" name="ultimate mana potion" chance="58333" countmax="20" />
+		<item id="26031" name="supreme health potion" chance="48457" countmax="20" />
+		<item id="2154" name="yellow gem" chance="37654" countmax="2" />
+		<item id="26030" name="ultimate spirit potion" chance="36420" countmax="6" />
+		<item id="2156" name="red gem" chance="35802" countmax="2" />
+		<item id="28415" name="royal star" chance="29321" countmax="100" />
+		<item id="7889" name="lightning pendant" chance="25617" />
+		<item id="7439" name="berserk potion" chance="24383" countmax="10" />
+		<item id="2158" name="blue gem" chance="20370" countmax="2" />
+		<item id="7838" name="flash arrow" chance="20370" countmax="100" />
+		<item id="7443" name="bullseye potion" chance="17901" countmax="10" />
+		<item id="7440" name="mastermind potion" chance="15741" countmax="10" />
+		<item id="7899" name="magma coat" chance="15432" />
+		<item id="33919" name="ring of secret thoughts" chance="15432" />
+		<item id="9971" name="gold ingot" chance="14815" />
+		<item name="giant shimmering pearl" chance="13580" />
+		<item id="7890" name="magma amulet" chance="12963" />
+		<item id="7900" name="magma monocle" chance="11111" />
+		<item id="2160" name="crystal coin" chance="10185" countmax="3" />
+		<item id="25172" name="silver token" chance="8642" countmax="3" />
+		<item id="2153" name="violet gem" chance="8025" />
+		<item id="7895" name="lightning legs" chance="5864" />
+		<item id="34280" name="urmahlullu's paw" chance="5556" />
+		<item id="32717" name="giant sapphire" chance="5247" />
+		<item id="32715" name="giant ruby" chance="4630" />
+		<item id="34278" name="urmahlullu's tail" chance="4630" />
+		<item name="blister ring" chance="3395" />
+		<item id="32716" name="giant emerald" chance="2160" />
+		<item id="34270" name="tagralt blade" chance="1852" />
+		<item id="34279" name="urmahlullu's mane" chance="1852" />
+		<item name="enchanted theurgic amulet" chance="1543" />
+		<item id="34228" name="blue and golden cordon" chance="926" />
+		<item id="34229" name="sun medal" chance="926" />
+		<item id="34273" name="winged boots" chance="926" />
+		<item id="34281" name="winged backpack" chance="617" />
+		<item id="32979" name="rainbow necklace" chance="309" />
 	</loot>
 </monster>

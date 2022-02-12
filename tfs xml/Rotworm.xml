@@ -45,12 +45,12 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
-		<item id="2148" name="gold coin" chance="71822" countmax="17" />
-		<item id="2671" name="ham" chance="20117" />
+		<item id="2148" name="gold coin" chance="71832" countmax="17" />
+		<item id="2671" name="ham" chance="20114" />
 		<item id="2666" name="meat" chance="20006" />
-		<item id="10609" name="lump of dirt" chance="10007" />
+		<item id="10609" name="lump of dirt" chance="10011" />
 		<item id="2398" name="mace" chance="4440" />
-		<item id="3976" name="worm" chance="3059" countmax="3" />
-		<item id="2376" name="sword" chance="3037" />
+		<item id="3976" name="worm" chance="3057" countmax="3" />
+		<item id="2376" name="sword" chance="3046" />
 	</loot>
 </monster>

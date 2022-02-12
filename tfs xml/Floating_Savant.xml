@@ -52,15 +52,15 @@
 		<voice name="Lava Lurker Attendant" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2156" name="red gem" chance="71957" countmax="4" />
-		<item id="5911" name="red piece of cloth" chance="30731" countmax="3" />
-		<item id="6500" name="demonic essence" chance="23780" />
-		<item id="7760" name="small enchanted ruby" chance="20750" countmax="14" />
-		<item id="11237" name="book of necromantic rituals" chance="19483" />
-		<item id="18420" name="red crystal fragment" chance="19432" countmax="8" />
-		<item id="6558" name="flask of demonic blood" chance="15271" />
-		<item id="3456" name="pick" chance="5068" />
-		<item id="9969" name="black skull (item)" chance="240" />
-		<item id="30530" name="sample of monster blood" chance="86" />
+		<item id="2156" name="red gem" chance="71670" countmax="4" />
+		<item id="5911" name="red piece of cloth" chance="30670" countmax="3" />
+		<item id="6500" name="demonic essence" chance="23778" />
+		<item id="7760" name="small enchanted ruby" chance="20595" countmax="14" />
+		<item id="11237" name="book of necromantic rituals" chance="19784" />
+		<item id="18420" name="red crystal fragment" chance="19417" countmax="8" />
+		<item id="6558" name="flask of demonic blood" chance="15343" />
+		<item id="3456" name="pick" chance="4998" />
+		<item id="9969" name="black skull (item)" chance="255" />
+		<item id="30530" name="sample of monster blood" chance="111" />
 	</loot>
 </monster>

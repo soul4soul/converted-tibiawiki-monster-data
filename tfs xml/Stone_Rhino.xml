@@ -50,10 +50,10 @@
 		<voice sentence="SNIFF!" yell="false" />
 	</voices>
 	<loot>
-		<item id="24842" name="raw meat" chance="17425" />
-		<item id="5925" name="hardened bone" chance="10005" />
-		<item id="27044" name="rhino hide" chance="8712" />
-		<item id="27045" name="rhino horn" chance="4643" />
-		<item id="3973" name="tusk shield" chance="1388" />
+		<item id="24842" name="raw meat" chance="17625" />
+		<item id="5925" name="hardened bone" chance="10024" />
+		<item id="27044" name="rhino hide" chance="8694" />
+		<item id="27045" name="rhino horn" chance="4608" />
+		<item id="3973" name="tusk shield" chance="1378" />
 	</loot>
 </monster>

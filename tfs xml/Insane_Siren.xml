@@ -48,19 +48,19 @@
 		<voice sentence="Dream or nightmare?" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="68750" countmax="12" />
-		<item id="12430" name="miraculum" chance="16477" />
-		<item id="32661" name="dream essence egg" chance="11932" />
-		<item id="8473" name="ultimate health potion" chance="11932" />
-		<item id="2191" name="wand of dragonbreath" chance="4545" />
-		<item id="2432" name="fire axe" chance="3977" />
-		<item id="8921" name="wand of draconia" chance="3977" />
-		<item id="2187" name="wand of inferno" chance="2841" />
-		<item id="5922" name="holy orchid" chance="2273" />
-		<item id="32651" name="sun fruit" chance="1705" countmax="2" />
-		<item id="7890" name="magma amulet" chance="1136" />
-		<item id="7899" name="magma coat" chance="1136" />
-		<item id="7894" name="magma legs" chance="1136" />
-		<item id="7900" name="magma monocle" chance="568" />
+		<item id="2152" name="platinum coin" chance="70660" countmax="12" />
+		<item id="12430" name="miraculum" chance="12674" />
+		<item id="8473" name="ultimate health potion" chance="12153" />
+		<item id="32661" name="dream essence egg" chance="9375" />
+		<item id="8921" name="wand of draconia" chance="4514" countmax="2" />
+		<item id="2191" name="wand of dragonbreath" chance="3125" />
+		<item id="2432" name="fire axe" chance="2951" />
+		<item id="2187" name="wand of inferno" chance="2951" />
+		<item id="7890" name="magma amulet" chance="2778" />
+		<item id="5922" name="holy orchid" chance="2257" />
+		<item id="7899" name="magma coat" chance="2257" />
+		<item id="32651" name="sun fruit" chance="2257" countmax="2" />
+		<item id="7894" name="magma legs" chance="694" />
+		<item id="7900" name="magma monocle" chance="347" />
 	</loot>
 </monster>

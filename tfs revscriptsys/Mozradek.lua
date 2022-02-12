@@ -87,11 +87,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2156, chance = 86154},
-	{id = 33980, chance = 9231},
-	{id = "enchanted theurgic amulet", chance = 1538},
-	{id = 33979, chance = 1538},
-	{id = 34273, chance = 1538}
+	{id = 2156, chance = 85294},
+	{id = 33980, chance = 8824},
+	{id = 33979, chance = 2941},
+	{id = "enchanted theurgic amulet", chance = 1471},
+	{id = 34273, chance = 1471}
 }
 
 mType:register(monster)

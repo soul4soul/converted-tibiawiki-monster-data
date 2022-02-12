@@ -55,17 +55,17 @@
 		<voice sentence="Blup." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="89935" countmax="140" />
-		<item id="2667" name="fish" chance="20191" countmax="3" />
-		<item id="12444" name="quara eye" chance="11946" />
-		<item id="2670" name="shrimp" chance="9995" />
-		<item id="2149" name="small emerald" chance="4947" countmax="2" />
-		<item id="2143" name="white pearl" chance="2906" />
-		<item id="2144" name="black pearl" chance="2624" />
-		<item id="5895" name="fish fin" chance="2117" />
-		<item id="2425" name="obsidian lance" chance="1533" />
-		<item id="2214" name="ring of healing" chance="955" />
-		<item id="2189" name="wand of cosmic energy" chance="900" />
-		<item id="2476" name="knight armor" chance="518" />
+		<item id="2148" name="gold coin" chance="89961" countmax="140" />
+		<item id="2667" name="fish" chance="20189" countmax="3" />
+		<item id="12444" name="quara eye" chance="11966" />
+		<item id="2670" name="shrimp" chance="9990" />
+		<item id="2149" name="small emerald" chance="4942" countmax="2" />
+		<item id="2143" name="white pearl" chance="2901" />
+		<item id="2144" name="black pearl" chance="2621" />
+		<item id="5895" name="fish fin" chance="2102" />
+		<item id="2425" name="obsidian lance" chance="1543" />
+		<item id="2214" name="ring of healing" chance="954" />
+		<item id="2189" name="wand of cosmic energy" chance="904" />
+		<item id="2476" name="knight armor" chance="519" />
 	</loot>
 </monster>

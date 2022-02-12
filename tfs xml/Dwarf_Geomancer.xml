@@ -52,18 +52,18 @@
 		<voice sentence="Dust to dust." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75551" countmax="45" />
-		<item id="2787" name="white mushroom" chance="59198" countmax="2" />
-		<item id="2260" name="blank rune" chance="33422" />
-		<item id="2673" name="pear" chance="24847" />
-		<item id="2162" name="magic light wand" chance="13751" />
-		<item id="12414" name="geomancer's robe" chance="8203" />
-		<item id="12419" name="geomancer's staff" chance="6769" />
-		<item id="2423" name="clerical mace" chance="1035" />
-		<item id="2213" name="dwarven ring" chance="690" />
-		<item id="2146" name="small sapphire" chance="584" />
-		<item id="2175" name="spellbook" chance="478" />
-		<item id="7886" name="terra boots" chance="425" />
-		<item id="5880" name="iron ore" chance="319" />
+		<item id="2148" name="gold coin" chance="75530" countmax="45" />
+		<item id="2787" name="white mushroom" chance="59163" countmax="2" />
+		<item id="2260" name="blank rune" chance="33475" />
+		<item id="2673" name="pear" chance="24815" />
+		<item id="2162" name="magic light wand" chance="13745" />
+		<item id="12414" name="geomancer's robe" chance="8236" />
+		<item id="12419" name="geomancer's staff" chance="6780" />
+		<item id="2423" name="clerical mace" chance="1059" />
+		<item id="2213" name="dwarven ring" chance="689" />
+		<item id="2146" name="small sapphire" chance="583" />
+		<item id="2175" name="spellbook" chance="477" />
+		<item id="7886" name="terra boots" chance="424" />
+		<item id="5880" name="iron ore" chance="318" />
 	</loot>
 </monster>

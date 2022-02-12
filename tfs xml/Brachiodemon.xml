@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Brachiodemon" nameDescription="a brachiodemon" experience="14080" speed="440" manacost="0">
+<monster name="Brachiodemon" nameDescription="a brachiodemon" experience="15770" speed="440" manacost="0">
 	<health now="25000" max="25000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -46,4 +46,26 @@
 		<voice sentence="Hand over your life." yell="false" />
 		<voice sentence="I can give you a hand... or two." yell="false" />
 	</voices>
+	<loot>
+		<item id="2160" name="crystal coin" chance="74455" />
+		<item id="8473" name="ultimate health potion" chance="35514" countmax="4" />
+		<item id="36592" name="hand" chance="7321" />
+		<item id="2438" name="epee" chance="5140" />
+		<item id="36593" name="head (brachiodemon)" chance="4050" />
+		<item id="2445" name="crystal mace" chance="2804" />
+		<item id="7456" name="noble axe" chance="1713" />
+		<item id="7404" name="assassin dagger" chance="1090" />
+		<item id="2436" name="skull staff" chance="1090" />
+		<item id="8902" name="spellbook of mind control" chance="935" />
+		<item id="7412" name="butcher's axe" chance="779" />
+		<item id="2432" name="fire axe" chance="779" />
+		<item name="ring of green plasma" chance="623" />
+		<item id="2498" name="royal helmet" chance="623" />
+		<item id="23539" name="alloy legs" chance="467" />
+		<item id="18450" name="crystalline sword" chance="467" />
+		<item id="7422" name="jade hammer" chance="467" />
+		<item id="2514" name="mastermind shield" chance="467" />
+		<item id="23542" name="metal bat" chance="467" />
+		<item id="36681" name="diabolic skull" chance="156" />
+	</loot>
 </monster>

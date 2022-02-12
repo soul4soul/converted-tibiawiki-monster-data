@@ -51,20 +51,20 @@
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="4" />
-		<item id="34099" name="fafnar symbol" chance="9928" />
-		<item name="secret instruction" chance="6672" />
-		<item id="2201" name="dragon necklace" chance="6218" />
-		<item id="2161" name="strange talisman" chance="5044" />
-		<item id="7889" name="lightning pendant" chance="4831" />
-		<item id="7890" name="magma amulet" chance="4297" />
-		<item id="7891" name="magma boots" chance="4243" />
-		<item id="7901" name="lightning headband" chance="4217" />
-		<item id="7895" name="lightning legs" chance="4057" />
-		<item id="33987" name="empty honey glass" chance="2669" />
-		<item id="2198" name="elven amulet" chance="2509" />
-		<item id="7893" name="lightning boots" chance="1521" />
-		<item id="11355" name="spellweaver's robe" chance="1014" />
-		<item id="33980" name="golden mask" chance="827" />
-		<item id="33979" name="sea horse figurine" chance="587" />
+		<item id="34099" name="fafnar symbol" chance="10111" />
+		<item name="secret instruction" chance="7386" />
+		<item id="2201" name="dragon necklace" chance="5933" />
+		<item id="2161" name="strange talisman" chance="5005" />
+		<item id="7889" name="lightning pendant" chance="4642" />
+		<item id="7890" name="magma amulet" chance="4420" />
+		<item id="7901" name="lightning headband" chance="4258" />
+		<item id="7891" name="magma boots" chance="4238" />
+		<item id="7895" name="lightning legs" chance="4016" />
+		<item id="33987" name="empty honey glass" chance="2563" />
+		<item id="2198" name="elven amulet" chance="2543" />
+		<item id="7893" name="lightning boots" chance="1655" />
+		<item id="11355" name="spellweaver's robe" chance="1130" />
+		<item id="33980" name="golden mask" chance="908" />
+		<item id="33979" name="sea horse figurine" chance="585" />
 	</loot>
 </monster>

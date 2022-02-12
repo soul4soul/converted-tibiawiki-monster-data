@@ -42,7 +42,7 @@
 	</elements>
 	<defenses armor="1" defense="1" />
 	<loot>
-		<item id="2666" name="meat" chance="82025" />
-		<item id="2684" name="carrot" chance="9695" />
+		<item id="2666" name="meat" chance="82039" />
+		<item id="2684" name="carrot" chance="9710" />
 	</loot>
 </monster>

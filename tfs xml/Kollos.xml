@@ -50,20 +50,20 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="99991" countmax="200" />
-		<item id="2152" name="platinum coin" chance="66003" countmax="3" />
-		<item id="15486" name="compound eye" chance="15727" />
-		<item id="15480" name="kollos shell" chance="15229" />
-		<item id="15648" name="tarsal arrow" chance="10198" countmax="5" />
-		<item id="7590" name="great mana potion" chance="8936" countmax="4" />
-		<item id="2147" name="small ruby" chance="8275" countmax="2" />
-		<item id="9971" name="gold ingot" chance="5185" />
-		<item id="8473" name="ultimate health potion" chance="3864" countmax="3" />
-		<item id="2214" name="ring of healing" chance="3190" />
-		<item id="7633" name="giant shimmering pearl (brown)" chance="2493" />
-		<item id="15492" name="hive scythe" chance="783" />
-		<item id="15646" name="buggy backpack" chance="434" />
-		<item id="15489" name="calopteryx cape" chance="380" />
-		<item id="15491" name="carapace shield" chance="281" />
-		<item id="2645" name="steel boots" chance="127" />
+		<item id="2152" name="platinum coin" chance="66024" countmax="3" />
+		<item id="15486" name="compound eye" chance="15717" />
+		<item id="15480" name="kollos shell" chance="15248" />
+		<item id="15648" name="tarsal arrow" chance="10201" countmax="5" />
+		<item id="7590" name="great mana potion" chance="8951" countmax="4" />
+		<item id="2147" name="small ruby" chance="8292" countmax="2" />
+		<item id="9971" name="gold ingot" chance="5186" />
+		<item id="8473" name="ultimate health potion" chance="3855" countmax="3" />
+		<item id="2214" name="ring of healing" chance="3187" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="2496" />
+		<item id="15492" name="hive scythe" chance="781" />
+		<item id="15646" name="buggy backpack" chance="433" />
+		<item id="15489" name="calopteryx cape" chance="379" />
+		<item id="15491" name="carapace shield" chance="280" />
+		<item id="2645" name="steel boots" chance="131" />
 	</loot>
 </monster>

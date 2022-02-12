@@ -44,12 +44,12 @@
 		<defense name="healing" interval="2000" chance="20" min="15" max="37" />
 	</defenses>
 	<loot>
-		<item id="2804" name="shadow herb" chance="11058" />
-		<item id="2148" name="gold coin" chance="10674" countmax="5" />
-		<item id="12432" name="nettle spit" chance="9842" />
-		<item id="2802" name="sling herb" chance="5601" countmax="2" />
-		<item id="2747" name="grave flower" chance="992" />
-		<item id="11231" name="nettle blossom" chance="928" />
-		<item id="7732" name="seeds" chance="368" />
+		<item id="2804" name="shadow herb" chance="10957" />
+		<item id="2148" name="gold coin" chance="10657" countmax="5" />
+		<item id="12432" name="nettle spit" chance="9836" />
+		<item id="2802" name="sling herb" chance="5526" countmax="2" />
+		<item id="2747" name="grave flower" chance="979" />
+		<item id="11231" name="nettle blossom" chance="916" />
+		<item id="7732" name="seeds" chance="363" />
 	</loot>
 </monster>

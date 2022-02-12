@@ -45,6 +45,6 @@
 	</attacks>
 	<defenses armor="14" defense="14" />
 	<loot>
-		<item id="10568" name="scorpion tail" chance="5061" />
+		<item id="10568" name="scorpion tail" chance="5052" />
 	</loot>
 </monster>

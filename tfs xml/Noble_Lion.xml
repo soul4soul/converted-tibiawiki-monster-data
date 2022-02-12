@@ -43,7 +43,7 @@
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-163" />
 	</attacks>
-	<defenses armor="26" defense="26">
+	<defenses armor="27" defense="27">
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
@@ -53,8 +53,8 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="74" />
-		<item id="2666" name="meat" chance="25333" />
-		<item id="2671" name="ham" chance="23333" />
-		<item id="10608" name="lion's mane" chance="20667" />
+		<item id="2666" name="meat" chance="25345" />
+		<item id="2671" name="ham" chance="23463" />
+		<item id="10608" name="lion's mane" chance="20640" />
 	</loot>
 </monster>

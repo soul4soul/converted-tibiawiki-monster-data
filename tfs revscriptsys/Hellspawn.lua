@@ -94,24 +94,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 92817, maxCount = 220},
-	{id = 7591, chance = 29747},
-	{id = 11221, chance = 14595},
-	{id = 6500, chance = 7707},
-	{id = 2394, chance = 7642},
-	{id = 8473, chance = 7084},
-	{id = 2513, chance = 6920},
-	{id = 7368, chance = 6625, maxCount = 2},
-	{id = 2788, chance = 6396, maxCount = 2},
-	{id = 9970, chance = 4559, maxCount = 3},
-	{id = 9809, chance = 2033},
-	{id = 2477, chance = 1869},
-	{id = 2475, chance = 1214},
-	{id = 7439, chance = 590},
-	{id = 7452, chance = 525},
-	{id = 9969, chance = 197},
-	{id = 9810, chance = 197},
-	{id = "dracoyle statue", chance = 98}
+	{id = 2148, chance = 92636, maxCount = 220},
+	{id = 7591, chance = 29742},
+	{id = 11221, chance = 14546},
+	{id = 2394, chance = 7728},
+	{id = 6500, chance = 7442},
+	{id = 8473, chance = 7260},
+	{id = 2513, chance = 7000},
+	{id = 7368, chance = 6870, maxCount = 2},
+	{id = 2788, chance = 6479, maxCount = 2},
+	{id = 9970, chance = 4606, maxCount = 3},
+	{id = 9809, chance = 2186},
+	{id = 2477, chance = 2134},
+	{id = 2475, chance = 1327},
+	{id = 7439, chance = 520},
+	{id = 7452, chance = 520},
+	{id = 9969, chance = 208},
+	{id = 9810, chance = 208},
+	{id = "dracoyle statue", chance = 78}
 }
 
 mType:register(monster)

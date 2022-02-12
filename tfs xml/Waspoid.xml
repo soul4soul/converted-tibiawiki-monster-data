@@ -51,16 +51,16 @@
 		<voice sentence="Bzzzzzzzrrrrzzzzzzrrrrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99725" countmax="135" />
-		<item id="2152" name="platinum coin" chance="60427" />
-		<item id="15484" name="waspoid wing" chance="13959" />
-		<item id="15486" name="compound eye" chance="13730" />
-		<item id="15483" name="waspoid claw" chance="9782" />
-		<item id="2144" name="black pearl" chance="4603" />
-		<item id="2127" name="emerald bangle" chance="2043" />
-		<item id="2154" name="yellow gem" chance="1015" />
-		<item id="15492" name="hive scythe" chance="373" />
-		<item id="15490" name="grasshopper legs" chance="164" />
-		<item id="15491" name="carapace shield" chance="151" />
+		<item id="2148" name="gold coin" chance="99730" countmax="135" />
+		<item id="2152" name="platinum coin" chance="60521" />
+		<item id="15484" name="waspoid wing" chance="13981" />
+		<item id="15486" name="compound eye" chance="13769" />
+		<item id="15483" name="waspoid claw" chance="9752" />
+		<item id="2144" name="black pearl" chance="4654" />
+		<item id="2127" name="emerald bangle" chance="2041" />
+		<item id="2154" name="yellow gem" chance="1004" />
+		<item id="15492" name="hive scythe" chance="367" />
+		<item id="15490" name="grasshopper legs" chance="167" />
+		<item id="15491" name="carapace shield" chance="148" />
 	</loot>
 </monster>

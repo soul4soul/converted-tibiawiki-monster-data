@@ -48,26 +48,26 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="150" />
-		<item id="2152" name="platinum coin" chance="39878" countmax="3" />
-		<item id="12429" name="purple robe" chance="15991" />
-		<item id="7589" name="strong mana potion" chance="12282" countmax="3" />
-		<item id="2182" name="snakebite rod" chance="11899" />
-		<item id="7425" name="taurus mace" chance="5086" />
-		<item name="torch" chance="4967" />
-		<item id="5878" name="minotaur leather" chance="4960" />
-		<item id="12428" name="minotaur horn" chance="2884" countmax="2" />
-		<item id="2150" name="small amethyst" chance="2614" countmax="2" />
-		<item id="9970" name="small topaz" chance="2480" countmax="2" />
-		<item id="2149" name="small emerald" chance="2454" countmax="2" />
+		<item id="2152" name="platinum coin" chance="39887" countmax="3" />
+		<item id="12429" name="purple robe" chance="15978" />
+		<item id="7589" name="strong mana potion" chance="12293" countmax="3" />
+		<item id="2182" name="snakebite rod" chance="11911" />
+		<item id="7425" name="taurus mace" chance="5093" />
+		<item name="torch" chance="4966" />
+		<item id="5878" name="minotaur leather" chance="4964" />
+		<item id="12428" name="minotaur horn" chance="2880" countmax="2" />
+		<item id="2150" name="small amethyst" chance="2610" countmax="2" />
+		<item id="9970" name="small topaz" chance="2484" countmax="2" />
+		<item id="2149" name="small emerald" chance="2443" countmax="2" />
 		<item id="2147" name="small ruby" chance="2422" countmax="2" />
-		<item id="2145" name="small diamond" chance="2405" countmax="2" />
-		<item id="2146" name="small sapphire" chance="2402" countmax="2" />
-		<item id="5912" name="blue piece of cloth" chance="1560" />
+		<item id="2145" name="small diamond" chance="2409" countmax="2" />
+		<item id="2146" name="small sapphire" chance="2408" countmax="2" />
+		<item id="5912" name="blue piece of cloth" chance="1559" />
 		<item id="8910" name="underworld rod" chance="1536" />
-		<item id="5911" name="red piece of cloth" chance="1491" />
-		<item id="5910" name="green piece of cloth" chance="1465" />
-		<item id="2154" name="yellow gem" chance="517" />
-		<item id="2156" name="red gem" chance="476" />
-		<item id="7401" name="minotaur trophy" chance="142" />
+		<item id="5911" name="red piece of cloth" chance="1490" />
+		<item id="5910" name="green piece of cloth" chance="1466" />
+		<item id="2154" name="yellow gem" chance="516" />
+		<item id="2156" name="red gem" chance="477" />
+		<item id="7401" name="minotaur trophy" chance="141" />
 	</loot>
 </monster>

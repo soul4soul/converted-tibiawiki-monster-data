@@ -51,17 +51,17 @@
 		<item id="27594" name="dragon tongue" chance="100000" />
 		<item id="5920" name="green dragon scale" chance="100000" />
 		<item id="27596" name="tooth of tazhadur" chance="100000" />
-		<item id="5877" name="green dragon leather" chance="98551" />
-		<item id="2148" name="gold coin" chance="91304" countmax="99" />
-		<item id="2672" name="dragon ham" chance="38647" />
-		<item id="2387" name="double axe" chance="10145" />
-		<item id="2201" name="dragon necklace" chance="9179" />
-		<item id="2516" name="dragon shield" chance="4831" />
-		<item id="2434" name="dragon hammer" chance="3865" />
-		<item id="2187" name="wand of inferno" chance="2899" />
-		<item id="2492" name="dragon scale mail" chance="2415" />
-		<item id="7588" name="strong health potion" chance="1932" />
-		<item id="7430" name="dragonbone staff" chance="483" />
-		<item id="2145" name="small diamond" chance="483" />
+		<item id="5877" name="green dragon leather" chance="98598" />
+		<item id="2148" name="gold coin" chance="90654" countmax="99" />
+		<item id="2672" name="dragon ham" chance="39252" />
+		<item id="2387" name="double axe" chance="10748" />
+		<item id="2201" name="dragon necklace" chance="8879" />
+		<item id="2516" name="dragon shield" chance="4673" />
+		<item id="2434" name="dragon hammer" chance="3738" />
+		<item id="2187" name="wand of inferno" chance="2804" />
+		<item id="2492" name="dragon scale mail" chance="2336" />
+		<item id="7588" name="strong health potion" chance="1869" />
+		<item id="7430" name="dragonbone staff" chance="935" />
+		<item id="2145" name="small diamond" chance="467" />
 	</loot>
 </monster>

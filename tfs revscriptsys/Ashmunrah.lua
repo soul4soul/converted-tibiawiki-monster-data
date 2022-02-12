@@ -101,14 +101,14 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 93879, maxCount = 304},
-	{id = 7590, chance = 12066},
-	{id = 2164, chance = 4591},
-	{id = 2134, chance = 4120},
-	{id = 2487, chance = 471},
-	{id = 11207, chance = 177},
-	{id = 2444, chance = 118},
-	{id = 2140, chance = 118}
+	{id = 2148, chance = 93936, maxCount = 304},
+	{id = 7590, chance = 12012},
+	{id = 2164, chance = 4665},
+	{id = 2134, chance = 4198},
+	{id = 2487, chance = 466},
+	{id = 11207, chance = 175},
+	{id = 2444, chance = 117},
+	{id = 2140, chance = 117}
 }
 
 mType:register(monster)

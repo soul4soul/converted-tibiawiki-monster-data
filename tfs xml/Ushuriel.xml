@@ -54,39 +54,39 @@
 	</voices>
 	<loot>
 		<item id="6500" name="demonic essence" chance="100000" />
-		<item id="2789" name="brown mushroom" chance="96832" countmax="30" />
-		<item id="2148" name="gold coin" chance="96832" countmax="190" />
-		<item id="5880" name="iron ore" chance="44158" />
-		<item id="5925" name="hardened bone" chance="27921" countmax="20" />
-		<item id="8473" name="ultimate health potion" chance="26535" />
-		<item id="7591" name="great health potion" chance="25743" />
-		<item id="2498" name="royal helmet" chance="25149" />
-		<item id="8472" name="great spirit potion" chance="23564" />
-		<item id="7590" name="great mana potion" chance="20990" />
-		<item id="2177" name="life crystal" chance="20990" />
-		<item id="5741" name="skull helmet" chance="20990" />
-		<item id="2152" name="platinum coin" chance="20594" countmax="30" />
-		<item id="9971" name="gold ingot" chance="20396" />
-		<item id="2178" name="mind stone" chance="20396" />
-		<item id="5669" name="mysterious voodoo skull" chance="19802" />
-		<item id="7391" name="thaian sword" chance="19406" />
-		<item id="2475" name="warrior helmet" chance="19208" />
-		<item id="2392" name="fire sword" chance="19010" />
-		<item id="2176" name="orb" chance="17624" />
-		<item id="9810" name="slightly rusted armor" chance="16634" />
-		<item id="5892" name="huge chunk of crude iron" chance="14455" />
-		<item id="2393" name="giant sword" chance="12079" />
-		<item id="2419" name="scimitar" chance="10891" />
-		<item id="5954" name="demon horn" chance="10693" countmax="2" />
-		<item id="2383" name="spike sword" chance="10099" />
-		<item id="7402" name="dragon slayer" chance="9901" />
-		<item id="7385" name="crimson sword" chance="9109" />
-		<item id="2491" name="crown helmet" chance="9109" />
-		<item id="2479" name="strange helmet" chance="9109" />
-		<item id="7417" name="runed sword" chance="8317" />
-		<item id="5891" name="enchanted chicken wing" chance="5743" />
-		<item id="5884" name="spirit container" chance="5149" />
-		<item id="6103" name="unholy book" chance="4158" />
-		<item id="5885" name="flask of warrior's sweat" chance="3762" />
+		<item id="2789" name="brown mushroom" chance="96844" countmax="30" />
+		<item id="2148" name="gold coin" chance="96844" countmax="190" />
+		<item id="5880" name="iron ore" chance="43984" />
+		<item id="5925" name="hardened bone" chance="28008" countmax="20" />
+		<item id="8473" name="ultimate health potion" chance="26627" />
+		<item id="7591" name="great health potion" chance="25641" />
+		<item id="2498" name="royal helmet" chance="25049" />
+		<item id="8472" name="great spirit potion" chance="23669" />
+		<item id="2177" name="life crystal" chance="21105" />
+		<item id="7590" name="great mana potion" chance="20907" />
+		<item id="5741" name="skull helmet" chance="20907" />
+		<item id="2152" name="platinum coin" chance="20710" countmax="30" />
+		<item id="9971" name="gold ingot" chance="20316" />
+		<item id="2178" name="mind stone" chance="20316" />
+		<item id="5669" name="mysterious voodoo skull" chance="19921" />
+		<item id="2475" name="warrior helmet" chance="19527" />
+		<item id="7391" name="thaian sword" chance="19329" />
+		<item id="2392" name="fire sword" chance="18935" />
+		<item id="2176" name="orb" chance="17554" />
+		<item id="9810" name="slightly rusted armor" chance="16568" />
+		<item id="5892" name="huge chunk of crude iron" chance="14596" />
+		<item id="2393" name="giant sword" chance="12032" />
+		<item id="5954" name="demon horn" chance="10848" countmax="2" />
+		<item id="2419" name="scimitar" chance="10848" />
+		<item id="2383" name="spike sword" chance="10256" />
+		<item id="7402" name="dragon slayer" chance="10059" />
+		<item id="7385" name="crimson sword" chance="9073" />
+		<item id="2491" name="crown helmet" chance="9073" />
+		<item id="2479" name="strange helmet" chance="9073" />
+		<item id="7417" name="runed sword" chance="8284" />
+		<item id="5891" name="enchanted chicken wing" chance="5720" />
+		<item id="5884" name="spirit container" chance="5128" />
+		<item id="6103" name="unholy book" chance="4142" />
+		<item id="5885" name="flask of warrior's sweat" chance="3748" />
 	</loot>
 </monster>

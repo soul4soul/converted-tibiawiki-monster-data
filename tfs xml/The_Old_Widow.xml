@@ -56,20 +56,20 @@
 		<voice name="giant spider" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="99487" countmax="100" />
-		<item id="2152" name="platinum coin" chance="98974" countmax="10" />
-		<item id="5879" name="spider silk" chance="87692" />
-		<item id="3351" name="steel helmet" chance="76923" />
-		<item id="7591" name="great health potion" chance="66154" countmax="4" />
-		<item id="2476" name="knight armor" chance="44103" />
-		<item id="2167" name="energy ring" chance="33333" />
-		<item id="2169" name="time ring" chance="32308" />
-		<item id="2165" name="stealth ring" chance="31795" />
-		<item id="2477" name="knight legs" chance="24615" />
-		<item id="13307" name="sweet smelling bait" chance="21538" />
-		<item id="2171" name="platinum amulet" chance="20513" />
-		<item id="5886" name="spool of yarn" chance="9744" />
-		<item id="7419" name="dreaded cleaver" chance="3077" />
-		<item id="7416" name="bloody edge" chance="1026" />
+		<item id="2148" name="gold coin" chance="99492" countmax="100" />
+		<item id="2152" name="platinum coin" chance="98985" countmax="10" />
+		<item id="5879" name="spider silk" chance="87817" />
+		<item id="3351" name="steel helmet" chance="77157" />
+		<item id="7591" name="great health potion" chance="65990" countmax="4" />
+		<item id="2476" name="knight armor" chance="44162" />
+		<item id="2167" name="energy ring" chance="33503" />
+		<item id="2165" name="stealth ring" chance="31980" />
+		<item id="2169" name="time ring" chance="31980" />
+		<item id="2477" name="knight legs" chance="24873" />
+		<item id="13307" name="sweet smelling bait" chance="21827" />
+		<item id="2171" name="platinum amulet" chance="20305" />
+		<item id="5886" name="spool of yarn" chance="9645" />
+		<item id="7419" name="dreaded cleaver" chance="3046" />
+		<item id="7416" name="bloody edge" chance="1015" />
 	</loot>
 </monster>

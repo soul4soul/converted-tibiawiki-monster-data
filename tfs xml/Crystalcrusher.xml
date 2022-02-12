@@ -52,11 +52,11 @@
 		<voice sentence="Crackle!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="84668" countmax="90" />
-		<item id="18417" name="brown crystal splinter" chance="5153" />
-		<item id="18416" name="green crystal splinter" chance="5002" />
-		<item id="18418" name="blue crystal splinter" chance="4964" />
-		<item id="18304" name="crystalline arrow" chance="4955" countmax="3" />
-		<item id="18432" name="crystalline spikes" chance="3664" />
+		<item id="2148" name="gold coin" chance="84674" countmax="90" />
+		<item id="18417" name="brown crystal splinter" chance="5143" />
+		<item id="18416" name="green crystal splinter" chance="4997" />
+		<item id="18304" name="crystalline arrow" chance="4973" countmax="3" />
+		<item id="18418" name="blue crystal splinter" chance="4969" />
+		<item id="18432" name="crystalline spikes" chance="3662" />
 	</loot>
 </monster>

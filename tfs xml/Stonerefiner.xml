@@ -49,12 +49,12 @@
 		<voice sentence="nomnomnom" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="50359" countmax="4" />
-		<item id="29957" name="rare earth" chance="39876" />
-		<item id="13757" name="coal" chance="29789" />
-		<item id="9967" name="glob of acid slime" chance="24064" />
-		<item id="30262" name="stonerefiner's skull" chance="20942" />
-		<item id="10557" name="poisonous slime" chance="19480" />
-		<item id="20101" name="rat cheese" chance="9988" />
+		<item id="2152" name="platinum coin" chance="50783" countmax="4" />
+		<item id="29957" name="rare earth" chance="39831" />
+		<item id="13757" name="coal" chance="29832" />
+		<item id="9967" name="glob of acid slime" chance="24959" />
+		<item id="30262" name="stonerefiner's skull" chance="20115" />
+		<item id="10557" name="poisonous slime" chance="19463" />
+		<item id="20101" name="rat cheese" chance="10408" />
 	</loot>
 </monster>

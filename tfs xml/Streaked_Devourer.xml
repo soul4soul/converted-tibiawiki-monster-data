@@ -46,20 +46,20 @@
 	<defenses armor="62" defense="62" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="24" />
-		<item id="9971" name="gold ingot" chance="13822" />
-		<item id="39429" name="streaked devourer maw" chance="11728" />
-		<item id="39428" name="streaked devourer eyes" chance="9005" />
-		<item id="2156" name="red gem" chance="6387" />
-		<item id="39430" name="streaked devourer legs" chance="5445" />
-		<item id="2154" name="yellow gem" chance="3246" />
-		<item id="2445" name="crystal mace" chance="1571" />
-		<item id="7386" name="mercenary sword" chance="1466" />
-		<item id="7456" name="noble axe" chance="1257" />
-		<item id="15644" name="ornate crossbow" chance="1257" />
-		<item id="7383" name="relic sword" chance="1152" />
-		<item id="15451" name="warrior's axe" chance="1047" />
-		<item id="2393" name="giant sword" chance="838" />
-		<item id="2427" name="guardian halberd" chance="628" />
-		<item id="2454" name="war axe" chance="628" />
+		<item id="9971" name="gold ingot" chance="13303" />
+		<item id="39429" name="streaked devourer maw" chance="11651" />
+		<item id="39428" name="streaked devourer eyes" chance="8716" />
+		<item id="2156" name="red gem" chance="6239" />
+		<item id="39430" name="streaked devourer legs" chance="5688" />
+		<item id="2154" name="yellow gem" chance="3119" />
+		<item id="2445" name="crystal mace" chance="1560" />
+		<item id="7386" name="mercenary sword" chance="1284" />
+		<item id="7456" name="noble axe" chance="1284" />
+		<item id="15644" name="ornate crossbow" chance="1101" />
+		<item id="7383" name="relic sword" chance="1009" />
+		<item id="2427" name="guardian halberd" chance="917" />
+		<item id="15451" name="warrior's axe" chance="917" />
+		<item id="2393" name="giant sword" chance="826" />
+		<item id="2454" name="war axe" chance="642" />
 	</loot>
 </monster>

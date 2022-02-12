@@ -42,7 +42,7 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-70" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-60" range="7">
+		<attack name="physical" interval="2000" chance="15" min="0" max="-60" range="5" radius="1" target="1">
 			<attribute key="shootEffect" value="bolt" />
 		</attack>
 	</attacks>
@@ -51,17 +51,17 @@
 		<voice sentence="Hail Durin!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2787" name="white mushroom" chance="39917" countmax="2" />
-		<item id="2543" name="bolt" chance="37805" countmax="7" />
-		<item id="2148" name="gold coin" chance="28326" countmax="12" />
-		<item id="2481" name="soldier helmet" chance="11813" />
-		<item id="2554" name="shovel" chance="10028" />
-		<item id="2464" name="chain armor" chance="7503" />
-		<item id="7363" name="piercing bolt" chance="3826" countmax="3" />
-		<item id="2525" name="dwarven shield" chance="3061" />
-		<item id="2455" name="crossbow" chance="3033" />
+		<item id="2787" name="white mushroom" chance="39941" countmax="2" />
+		<item id="2543" name="bolt" chance="37822" countmax="7" />
+		<item id="2148" name="gold coin" chance="28337" countmax="12" />
+		<item id="2481" name="soldier helmet" chance="11817" />
+		<item id="2554" name="shovel" chance="10022" />
+		<item id="2464" name="chain armor" chance="7516" />
+		<item id="7363" name="piercing bolt" chance="3829" countmax="3" />
+		<item id="2525" name="dwarven shield" chance="3059" />
+		<item id="2455" name="crossbow" chance="3029" />
 		<item id="2378" name="battle axe" chance="2480" />
-		<item id="5880" name="iron ore" chance="303" />
+		<item id="5880" name="iron ore" chance="302" />
 		<item id="2208" name="axe ring" chance="122" />
 	</loot>
 </monster>

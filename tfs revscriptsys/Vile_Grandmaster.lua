@@ -83,34 +83,36 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -260}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -260},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -150, maxDamage = -225, range = 5, radius = 1, target = true, shootEffect = CONST_ANI_WHIRLWINDSWORD},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -75, maxDamage = -125, effect = CONST_ME_GROUNDSHAKER}
 }
 
 monster.defenses = {
 	defense = 40,
 	armor = 40,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 220, maxDamage = 280}
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 200, maxDamage = 280}
 }
 
 monster.loot = {
-	{id = 2148, chance = 99925, maxCount = 172},
-	{id = 2152, chance = 73740, maxCount = 2},
-	{id = 2666, chance = 9610},
-	{id = 12466, chance = 7730},
-	{id = 7591, chance = 6888},
-	{id = 2121, chance = 4873},
-	{id = 2146, chance = 3474},
-	{id = 2147, chance = 3369},
-	{id = 12406, chance = 2467},
-	{id = 2391, chance = 2241},
-	{id = 5911, chance = 2151},
-	{id = 2487, chance = 1188},
-	{id = 2392, chance = 932},
-	{id = 2488, chance = 872},
-	{id = 2491, chance = 662},
-	{id = 2171, chance = 436},
-	{id = 2519, chance = 271},
-	{id = 2114, chance = 150}
+	{id = 2148, chance = 99927, maxCount = 172},
+	{id = 2152, chance = 73575, maxCount = 2},
+	{id = 2666, chance = 9688},
+	{id = 12466, chance = 7875},
+	{id = 7591, chance = 6933},
+	{id = 2121, chance = 5047},
+	{id = 2146, chance = 3524},
+	{id = 2147, chance = 3495},
+	{id = 12406, chance = 2393},
+	{id = 2391, chance = 2219},
+	{id = 5911, chance = 2117},
+	{id = 2487, chance = 1146},
+	{id = 2392, chance = 914},
+	{id = 2488, chance = 856},
+	{id = 2491, chance = 638},
+	{id = 2171, chance = 421},
+	{id = 2519, chance = 276},
+	{id = 2114, chance = 145}
 }
 
 mType:register(monster)

@@ -47,12 +47,12 @@
 		<defense name="healing" interval="2000" chance="20" min="40" max="130" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="97672" countmax="164" />
-		<item id="2260" name="blank rune" chance="25565" />
-		<item id="11222" name="lump of earth" chance="24937" />
-		<item id="1294" name="small stone" chance="10180" countmax="10" />
-		<item id="7850" name="earth arrow" chance="5244" countmax="8" />
-		<item id="11339" name="clay lump" chance="966" />
-		<item id="9970" name="small topaz" chance="435" />
+		<item id="2148" name="gold coin" chance="97664" countmax="164" />
+		<item id="2260" name="blank rune" chance="25551" />
+		<item id="11222" name="lump of earth" chance="24959" />
+		<item id="1294" name="small stone" chance="10192" countmax="10" />
+		<item id="7850" name="earth arrow" chance="5196" countmax="8" />
+		<item id="11339" name="clay lump" chance="972" />
+		<item id="9970" name="small topaz" chance="429" />
 	</loot>
 </monster>

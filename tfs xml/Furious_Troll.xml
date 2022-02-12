@@ -48,10 +48,13 @@
 		<voice sentence="Slice! Slice!" yell="false" />
 		<voice sentence="DIE!!!" yell="false" />
 	</voices>
+	<summons maxSummons="2">
+		<voice name="Mechanical Fighter" interval="2000" chance="15" max="1" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="93667" countmax="146" />
-		<item id="2152" name="platinum coin" chance="5730" />
-		<item id="10606" name="bunch of troll hair" chance="4704" />
-		<item id="2391" name="war hammer" chance="543" />
+		<item id="2148" name="gold coin" chance="93324" countmax="147" />
+		<item id="2152" name="platinum coin" chance="5303" />
+		<item id="10606" name="bunch of troll hair" chance="4735" />
+		<item id="2391" name="war hammer" chance="805" />
 	</loot>
 </monster>

@@ -45,7 +45,7 @@
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="2148" name="gold coin" chance="65443" countmax="5" />
-		<item id="8859" name="spider fangs" chance="989" />
+		<item id="2148" name="gold coin" chance="65481" countmax="5" />
+		<item id="8859" name="spider fangs" chance="987" />
 	</loot>
 </monster>

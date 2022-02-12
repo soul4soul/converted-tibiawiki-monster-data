@@ -45,6 +45,6 @@
 	</attacks>
 	<defenses armor="82" defense="82" />
 	<loot>
-		<item id="7760" name="small enchanted ruby" chance="15033" countmax="2" />
+		<item id="7760" name="small enchanted ruby" chance="14931" countmax="2" />
 	</loot>
 </monster>

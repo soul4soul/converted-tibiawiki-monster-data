@@ -52,13 +52,13 @@
 		<voice sentence="Chakka! Chakka!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82943" countmax="45" />
-		<item id="2676" name="banana" chance="30434" countmax="12" />
-		<item id="2162" name="magic light wand" chance="3018" />
-		<item id="12467" name="banana sash" chance="1917" />
+		<item id="2148" name="gold coin" chance="82947" countmax="45" />
+		<item id="2676" name="banana" chance="30430" countmax="12" />
+		<item id="2162" name="magic light wand" chance="3020" />
+		<item id="12467" name="banana sash" chance="1918" />
 		<item id="5883" name="ape fur" chance="1014" />
-		<item id="2675" name="orange" chance="1011" countmax="5" />
-		<item id="2188" name="wand of decay" chance="979" />
+		<item id="2675" name="orange" chance="1010" countmax="5" />
+		<item id="2188" name="wand of decay" chance="980" />
 		<item id="7620" name="mana potion" chance="693" />
 		<item id="2150" name="small amethyst" chance="310" />
 		<item id="3966" name="banana staff" chance="102" />

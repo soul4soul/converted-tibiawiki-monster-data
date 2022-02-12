@@ -49,18 +49,18 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="181" />
-		<item id="7588" name="strong health potion" chance="15950" />
-		<item id="12434" name="shamanic hood" chance="14211" />
-		<item id="2147" name="small ruby" chance="12560" countmax="6" />
-		<item id="5910" name="green piece of cloth" chance="10952" />
-		<item id="10556" name="cultish robe" chance="10691" />
-		<item id="2194" name="mysterious fetish" chance="9126" />
-		<item id="12408" name="broken shamanic staff" chance="8822" />
-		<item id="12435" name="orc leather" chance="8605" />
-		<item id="11113" name="orc tooth" chance="5476" />
-		<item id="2144" name="black pearl" chance="2868" countmax="2" />
-		<item id="26642" name="heavy old tome" chance="1738" />
-		<item id="2188" name="wand of decay" chance="1000" />
-		<item id="7439" name="berserk potion" chance="956" />
+		<item id="7588" name="strong health potion" chance="15954" />
+		<item id="12434" name="shamanic hood" chance="14104" />
+		<item id="2147" name="small ruby" chance="12459" countmax="6" />
+		<item id="5910" name="green piece of cloth" chance="10855" />
+		<item id="10556" name="cultish robe" chance="10526" />
+		<item id="2194" name="mysterious fetish" chance="9252" />
+		<item id="12408" name="broken shamanic staff" chance="8799" />
+		<item id="12435" name="orc leather" chance="8553" />
+		<item id="11113" name="orc tooth" chance="5345" />
+		<item id="2144" name="black pearl" chance="2796" countmax="2" />
+		<item id="26642" name="heavy old tome" chance="1686" />
+		<item id="2188" name="wand of decay" chance="946" />
+		<item id="7439" name="berserk potion" chance="905" />
 	</loot>
 </monster>

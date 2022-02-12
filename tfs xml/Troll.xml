@@ -52,17 +52,17 @@
 		<voice sentence="Gruntz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="65775" countmax="12" />
-		<item id="2380" name="hand axe" chance="19602" />
-		<item id="2666" name="meat" chance="15557" />
-		<item id="2389" name="spear" chance="13161" />
-		<item id="2461" name="leather helmet" chance="11761" />
-		<item id="2643" name="leather boots" chance="9708" />
-		<item id="2120" name="rope" chance="8058" />
-		<item id="2512" name="wooden shield" chance="5476" />
-		<item id="2448" name="studded club" chance="5289" />
-		<item id="26642" name="heavy old tome" chance="2302" />
-		<item id="10606" name="bunch of troll hair" chance="1151" />
-		<item id="27071" name="old rag" chance="31" />
+		<item id="2148" name="gold coin" chance="65503" countmax="12" />
+		<item id="2380" name="hand axe" chance="19634" />
+		<item id="2666" name="meat" chance="15474" />
+		<item id="2389" name="spear" chance="12973" />
+		<item id="2461" name="leather helmet" chance="11955" />
+		<item id="2643" name="leather boots" chance="9889" />
+		<item id="2120" name="rope" chance="8144" />
+		<item id="2512" name="wooden shield" chance="5410" />
+		<item id="2448" name="studded club" chance="5352" />
+		<item id="26642" name="heavy old tome" chance="2269" />
+		<item id="10606" name="bunch of troll hair" chance="1251" />
+		<item id="27071" name="old rag" chance="29" />
 	</loot>
 </monster>

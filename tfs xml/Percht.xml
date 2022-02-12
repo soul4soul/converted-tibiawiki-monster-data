@@ -50,22 +50,22 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="60" />
-		<item id="32864" name="fireworks capsule" chance="12449" />
-		<item id="32842" name="percht horns" chance="10216" />
-		<item id="32927" name="grainy fireworks powder" chance="5855" />
-		<item id="32841" name="broken bell" chance="5236" />
-		<item id="32843" name="versicolour fireworks powder" chance="4135" />
-		<item id="32847" name="blue fireworks powder" chance="3139" />
-		<item id="32981" name="dark bell" chance="2927" />
-		<item id="32846" name="green fireworks powder" chance="2716" />
-		<item id="32925" name="purple fireworks powder" chance="2113" />
-		<item id="32926" name="turquoise fireworks powder" chance="2113" />
-		<item id="32845" name="yellow fireworks powder" chance="1871" />
-		<item id="32924" name="orange fireworks powder" chance="1841" />
-		<item id="32844" name="red fireworks powder" chance="1811" />
-		<item id="7890" name="magma amulet" chance="1509" />
-		<item id="7899" name="magma coat" chance="1252" />
-		<item id="7900" name="magma monocle" chance="996" />
-		<item id="7894" name="magma legs" chance="558" />
+		<item id="32864" name="fireworks capsule" chance="12303" />
+		<item id="32842" name="percht horns" chance="9763" />
+		<item id="32927" name="grainy fireworks powder" chance="5799" />
+		<item id="32841" name="broken bell" chance="5105" />
+		<item id="32843" name="versicolour fireworks powder" chance="4076" />
+		<item id="32847" name="blue fireworks powder" chance="3122" />
+		<item id="32981" name="dark bell" chance="2874" />
+		<item id="32846" name="green fireworks powder" chance="2726" />
+		<item id="32926" name="turquoise fireworks powder" chance="2082" />
+		<item id="32925" name="purple fireworks powder" chance="2044" />
+		<item id="32924" name="orange fireworks powder" chance="1970" />
+		<item id="32844" name="red fireworks powder" chance="1970" />
+		<item id="32845" name="yellow fireworks powder" chance="1970" />
+		<item id="7890" name="magma amulet" chance="1512" />
+		<item id="7899" name="magma coat" chance="1251" />
+		<item id="7900" name="magma monocle" chance="1041" />
+		<item id="7894" name="magma legs" chance="595" />
 	</loot>
 </monster>

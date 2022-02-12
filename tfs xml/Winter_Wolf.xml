@@ -48,7 +48,7 @@
 		<voice sentence="Yoooohhuuuu!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="30106" />
-		<item id="11212" name="winter wolf fur" chance="10132" />
+		<item id="2666" name="meat" chance="30179" />
+		<item id="11212" name="winter wolf fur" chance="10106" />
 	</loot>
 </monster>

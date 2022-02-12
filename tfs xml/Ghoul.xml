@@ -47,17 +47,17 @@
 		<defense name="healing" interval="2000" chance="20" min="10" max="25" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="69906" countmax="30" />
-		<item id="11208" name="rotten piece of cloth" chance="14703" />
-		<item id="3976" name="worm" chance="9737" countmax="2" />
-		<item name="torch" chance="5258" />
-		<item id="12423" name="ghoul snack" chance="5045" />
-		<item id="26642" name="heavy old tome" chance="2054" />
-		<item id="12440" name="pile of grave earth" chance="1015" />
-		<item id="2473" name="viking helmet" chance="1009" />
-		<item id="5913" name="brown piece of cloth" chance="991" />
-		<item id="2483" name="scale armor" chance="985" />
-		<item id="2229" name="skull (item)" chance="292" />
-		<item id="2168" name="life ring" chance="176" />
+		<item id="2148" name="gold coin" chance="69851" countmax="30" />
+		<item id="11208" name="rotten piece of cloth" chance="14668" />
+		<item id="3976" name="worm" chance="9775" countmax="2" />
+		<item name="torch" chance="5175" />
+		<item id="12423" name="ghoul snack" chance="5059" />
+		<item id="26642" name="heavy old tome" chance="2077" />
+		<item id="12440" name="pile of grave earth" chance="1022" />
+		<item id="5913" name="brown piece of cloth" chance="1005" />
+		<item id="2473" name="viking helmet" chance="1005" />
+		<item id="2483" name="scale armor" chance="978" />
+		<item id="2229" name="skull (item)" chance="315" />
+		<item id="2168" name="life ring" chance="177" />
 	</loot>
 </monster>

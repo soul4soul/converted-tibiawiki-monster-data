@@ -54,25 +54,25 @@
 		<voice sentence="GRROARR" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98737" countmax="301" />
-		<item id="24708" name="werewolf fangs" chance="14784" />
-		<item id="11234" name="werewolf fur" chance="9807" />
-		<item id="2510" name="plate shield" chance="9596" countmax="2" />
-		<item id="9809" name="rusted armor" chance="8003" />
-		<item id="2789" name="brown mushroom" chance="6846" />
-		<item id="5897" name="wolf paw" chance="5230" />
-		<item id="7588" name="strong health potion" chance="5177" countmax="2" />
-		<item id="2805" name="troll green" chance="5006" />
-		<item id="2381" name="halberd" chance="3056" />
-		<item id="8473" name="ultimate health potion" chance="1986" />
-		<item id="7439" name="berserk potion" chance="934" />
-		<item id="2197" name="stone skin amulet" chance="899" />
-		<item id="2171" name="platinum amulet" chance="787" />
-		<item id="24739" name="moonlight crystals" chance="705" />
-		<item id="2169" name="time ring" chance="599" />
-		<item id="2438" name="epee" chance="476" />
-		<item id="7383" name="relic sword" chance="370" />
-		<item id="7428" name="bonebreaker" chance="282" />
-		<item id="7419" name="dreaded cleaver" chance="112" />
+		<item id="2148" name="gold coin" chance="98751" countmax="301" />
+		<item id="24708" name="werewolf fangs" chance="14767" />
+		<item id="11234" name="werewolf fur" chance="9764" />
+		<item id="2510" name="plate shield" chance="9607" countmax="2" />
+		<item id="9809" name="rusted armor" chance="7975" />
+		<item id="2789" name="brown mushroom" chance="6900" />
+		<item id="5897" name="wolf paw" chance="5211" />
+		<item id="7588" name="strong health potion" chance="5161" countmax="2" />
+		<item id="2805" name="troll green" chance="4997" />
+		<item id="2381" name="halberd" chance="3067" />
+		<item id="8473" name="ultimate health potion" chance="2020" />
+		<item id="7439" name="berserk potion" chance="940" />
+		<item id="2197" name="stone skin amulet" chance="884" />
+		<item id="2171" name="platinum amulet" chance="799" />
+		<item id="24739" name="moonlight crystals" chance="681" />
+		<item id="2169" name="time ring" chance="580" />
+		<item id="2438" name="epee" chance="478" />
+		<item id="7383" name="relic sword" chance="366" />
+		<item id="7428" name="bonebreaker" chance="270" />
+		<item id="7419" name="dreaded cleaver" chance="107" />
 	</loot>
 </monster>

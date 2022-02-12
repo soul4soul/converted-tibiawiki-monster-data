@@ -49,13 +49,13 @@
 		<voice sentence="Zuerk Pachak!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="93992" countmax="30" />
-		<item id="12445" name="mantassin tail" chance="7897" />
-		<item id="2464" name="chain armor" chance="4997" />
-		<item id="2146" name="small sapphire" chance="997" />
-		<item id="2229" name="skull (item)" chance="978" />
-		<item id="2377" name="two handed sword" chance="801" />
-		<item id="2165" name="stealth ring" chance="707" />
+		<item id="2148" name="gold coin" chance="93988" countmax="30" />
+		<item id="12445" name="mantassin tail" chance="7910" />
+		<item id="2464" name="chain armor" chance="4987" />
+		<item id="2146" name="small sapphire" chance="996" />
+		<item id="2229" name="skull (item)" chance="977" />
+		<item id="2377" name="two handed sword" chance="803" />
+		<item id="2165" name="stealth ring" chance="712" />
 		<item id="5895" name="fish fin" chance="366" />
 	</loot>
 </monster>

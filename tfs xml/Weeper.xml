@@ -49,22 +49,22 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="199" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
-		<item id="18426" name="eye of a weeper" chance="15460" />
-		<item id="8473" name="ultimate health potion" chance="15197" countmax="2" />
-		<item id="2147" name="small ruby" chance="15031" countmax="3" />
-		<item id="18425" name="blazing bone" chance="15017" />
-		<item id="7590" name="great mana potion" chance="14796" countmax="2" />
-		<item id="10553" name="fiery heart" chance="13190" />
-		<item id="18424" name="magma clump" chance="12747" />
-		<item id="18417" name="brown crystal splinter" chance="11958" countmax="2" />
-		<item id="18435" name="prismatic bolt" chance="11433" countmax="5" />
-		<item id="18420" name="red crystal fragment" chance="8955" />
-		<item id="18414" name="violet crystal shard" chance="5356" />
-		<item id="2392" name="fire sword" chance="3363" />
-		<item id="2432" name="fire axe" chance="2215" />
-		<item id="18409" name="wand of everblazing" chance="1439" />
-		<item id="13757" name="coal" chance="1301" />
-		<item id="7894" name="magma legs" chance="817" />
-		<item id="7899" name="magma coat" chance="706" />
+		<item id="18426" name="eye of a weeper" chance="15423" />
+		<item id="8473" name="ultimate health potion" chance="15175" countmax="2" />
+		<item id="2147" name="small ruby" chance="15065" countmax="3" />
+		<item id="18425" name="blazing bone" chance="15024" />
+		<item id="7590" name="great mana potion" chance="14749" countmax="2" />
+		<item id="10553" name="fiery heart" chance="13237" />
+		<item id="18424" name="magma clump" chance="12715" />
+		<item id="18417" name="brown crystal splinter" chance="11973" countmax="2" />
+		<item id="18435" name="prismatic bolt" chance="11409" countmax="5" />
+		<item id="18420" name="red crystal fragment" chance="8935" />
+		<item id="18414" name="violet crystal shard" chance="5402" />
+		<item id="2392" name="fire sword" chance="3340" />
+		<item id="2432" name="fire axe" chance="2213" />
+		<item id="18409" name="wand of everblazing" chance="1457" />
+		<item id="13757" name="coal" chance="1292" />
+		<item id="7894" name="magma legs" chance="811" />
+		<item id="7899" name="magma coat" chance="701" />
 	</loot>
 </monster>

@@ -45,13 +45,13 @@
 	</attacks>
 	<defenses armor="14" defense="14" />
 	<loot>
-		<item id="2148" name="gold coin" chance="13120" countmax="8" />
-		<item id="2410" name="throwing knife" chance="11106" countmax="2" />
-		<item id="2260" name="blank rune" chance="8817" />
-		<item id="2511" name="brass shield" chance="5624" />
-		<item id="2478" name="brass legs" chance="3542" />
-		<item id="12430" name="miraculum" chance="1550" />
-		<item id="2425" name="obsidian lance" chance="1206" />
-		<item id="2412" name="katana" chance="520" />
+		<item id="2148" name="gold coin" chance="13109" countmax="8" />
+		<item id="2410" name="throwing knife" chance="11111" countmax="2" />
+		<item id="2260" name="blank rune" chance="8820" />
+		<item id="2511" name="brass shield" chance="5621" />
+		<item id="2478" name="brass legs" chance="3541" />
+		<item id="12430" name="miraculum" chance="1544" />
+		<item id="2425" name="obsidian lance" chance="1199" />
+		<item id="2412" name="katana" chance="519" />
 	</loot>
 </monster>

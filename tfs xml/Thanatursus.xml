@@ -49,26 +49,26 @@
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="12" />
-		<item id="2666" name="meat" chance="50339" />
-		<item id="2671" name="ham" chance="14719" />
-		<item id="11223" name="essence of a bad dream" chance="12711" countmax="6" />
-		<item id="2381" name="halberd" chance="12509" />
-		<item id="7886" name="terra boots" chance="9620" />
-		<item id="8473" name="ultimate health potion" chance="8638" />
+		<item id="2666" name="meat" chance="50448" />
+		<item id="2671" name="ham" chance="14824" />
+		<item id="11223" name="essence of a bad dream" chance="12668" countmax="6" />
+		<item id="2381" name="halberd" chance="12444" />
+		<item id="7886" name="terra boots" chance="9588" />
+		<item id="8473" name="ultimate health potion" chance="8609" />
 		<item id="7903" name="terra hood" chance="6341" />
-		<item id="8472" name="great spirit potion" chance="6312" countmax="3" />
-		<item id="2430" name="knight axe" chance="5547" />
-		<item id="23546" name="mino shield" chance="5099" />
-		<item id="2189" name="wand of cosmic energy" chance="4232" />
-		<item id="3962" name="beastslayer axe" chance="3958" />
-		<item id="2521" name="dark shield" chance="3524" />
-		<item id="2529" name="black shield" chance="2932" />
-		<item id="15453" name="warrior's shield" chance="2903" />
-		<item id="2405" name="sickle" chance="2687" />
-		<item id="2425" name="obsidian lance" chance="2470" />
-		<item id="10550" name="bloody pincers" chance="2037" />
-		<item id="15451" name="warrior's axe" chance="1762" />
-		<item id="7413" name="titan axe" chance="1719" />
-		<item id="18390" name="wand of defiance" chance="1546" />
+		<item id="8472" name="great spirit potion" chance="6313" countmax="3" />
+		<item id="2430" name="knight axe" chance="5459" />
+		<item id="23546" name="mino shield" chance="5053" />
+		<item id="2189" name="wand of cosmic energy" chance="4199" />
+		<item id="3962" name="beastslayer axe" chance="3919" />
+		<item id="2521" name="dark shield" chance="3597" />
+		<item id="15453" name="warrior's shield" chance="2940" />
+		<item id="2529" name="black shield" chance="2912" />
+		<item id="2405" name="sickle" chance="2660" />
+		<item id="2425" name="obsidian lance" chance="2534" />
+		<item id="10550" name="bloody pincers" chance="2016" />
+		<item id="15451" name="warrior's axe" chance="1792" />
+		<item id="7413" name="titan axe" chance="1722" />
+		<item id="18390" name="wand of defiance" chance="1554" />
 	</loot>
 </monster>

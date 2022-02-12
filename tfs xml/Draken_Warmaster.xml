@@ -51,19 +51,19 @@
 		<voice sentence="Hizzzzzz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="97358" countmax="200" />
-		<item id="2152" name="platinum coin" chance="50252" countmax="5" />
-		<item id="2666" name="meat" chance="30157" />
-		<item id="11321" name="bone shoulderplate" chance="12042" />
+		<item id="2148" name="gold coin" chance="97355" countmax="200" />
+		<item id="2152" name="platinum coin" chance="50255" countmax="5" />
+		<item id="2666" name="meat" chance="30153" />
+		<item id="11321" name="bone shoulderplate" chance="12043" />
 		<item id="11323" name="zaoan halberd" chance="7999" />
-		<item id="11322" name="warmaster's wristguards" chance="6992" />
-		<item id="7591" name="great health potion" chance="5047" countmax="3" />
-		<item id="8473" name="ultimate health potion" chance="3980" />
-		<item id="11303" name="zaoan shoes" chance="2025" />
-		<item id="2528" name="tower shield" chance="1991" />
+		<item id="11322" name="warmaster's wristguards" chance="6991" />
+		<item id="7591" name="great health potion" chance="5048" countmax="3" />
+		<item id="8473" name="ultimate health potion" chance="3978" />
+		<item id="11303" name="zaoan shoes" chance="2024" />
+		<item id="2528" name="tower shield" chance="1993" />
 		<item id="2147" name="small ruby" chance="1571" countmax="5" />
-		<item id="11304" name="zaoan legs" chance="944" />
-		<item id="11305" name="drakinata" chance="824" />
+		<item id="11304" name="zaoan legs" chance="945" />
+		<item id="11305" name="drakinata" chance="826" />
 		<item id="11301" name="zaoan armor" chance="791" />
 		<item id="2123" name="ring of the sky" chance="209" />
 	</loot>

@@ -47,7 +47,7 @@
 		<defense name="healing" interval="2000" chance="20" min="3500" max="8750" />
 	</defenses>
 	<loot>
-		<item id="15404" name="deepling axe" chance="66667" />
-		<item id="13870" name="eye of a deepling" chance="33333" />
+		<item id="15404" name="deepling axe" chance="75000" />
+		<item id="13870" name="eye of a deepling" chance="25000" />
 	</loot>
 </monster>

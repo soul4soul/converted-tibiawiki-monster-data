@@ -1,11 +1,11 @@
-local mType = Game.createMonsterType("Wilting Leaf Golem")
+local mType = Game.createMonsterType("Minor Timedisplaced Anomaly (Ankrahmun)")
 local monster = {}
 
-monster.name = "Wilting Leaf Golem"
-monster.description = "a wilting leaf golem"
-monster.experience = 145
+monster.name = "Minor Timedisplaced Anomaly"
+monster.description = "a minor timedisplaced anomaly"
+monster.experience = 0
 monster.outfit = {
-	lookType = 573,
+	lookType = 0,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -14,12 +14,12 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 380
-monster.maxHealth = 380
+monster.health = 48000
+monster.maxHealth = 48000
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
-monster.speed = 148
+monster.speed = 0
 monster.summonCost = 0
 
 monster.changeTarget = {
@@ -32,18 +32,18 @@ monster.flags = {
 	hostile = true,
 	summonable = false,
 	convinceable = false,
-	illusionable = true,
-	boss = false,
+	illusionable = false,
+	boss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
-	canPushItems = false,
-	canPushCreatures = false,
+	canPushItems = true,
+	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
-	canWalkOnEnergy = false,
-	canWalkOnFire = false,
-	canWalkOnPoison = false
+	canWalkOnEnergy = true,
+	canWalkOnFire = true,
+	canWalkOnPoison = true
 }
 
 monster.light = {
@@ -54,14 +54,12 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
-	{text = "*crackle*", yell = false},
-	{text = "*swwwwishhhh*", yell = false}
 }
 
 monster.immunities = {
-	{type = "paralyze", condition = false},
+	{type = "paralyze", condition = true},
 	{type = "outfit", condition = false},
-	{type = "invisible", condition = false},
+	{type = "invisible", condition = true},
 	{type = "drunk", condition = true},
 	{type = "bleed", condition = false}
 }
@@ -80,21 +78,17 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -120}
 }
 
 monster.defenses = {
-	defense = 21,
-	armor = 21
+	defense = 5,
+	armor = 10
 }
 
 monster.loot = {
-	{id = 2148, chance = 97541, maxCount = 45},
-	{id = 21428, chance = 14961},
-	{id = 21427, chance = 11917},
-	{id = 2787, chance = 5025, maxCount = 3},
-	{id = 20104, chance = 4884},
-	{id = 2149, chance = 1042}
+	{id = 37710, chance = 20000, maxCount = 3},
+	{id = 2155, chance = 20000},
+	{id = 2152, chance = 20000, maxCount = 43}
 }
 
 mType:register(monster)

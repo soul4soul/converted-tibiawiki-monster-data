@@ -46,24 +46,24 @@
 	<defenses armor="102" defense="102" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" />
-		<item id="24844" name="ogre ear stud" chance="16575" />
-		<item id="24845" name="ogre nose ring" chance="16575" />
-		<item id="2666" name="meat" chance="9945" />
-		<item id="2146" name="small sapphire" chance="9945" countmax="2" />
-		<item id="7387" name="diamond sceptre" chance="4696" />
-		<item id="2149" name="small emerald" chance="4696" />
-		<item id="2156" name="red gem" chance="3315" />
-		<item id="2197" name="stone skin amulet" chance="3039" />
-		<item id="24847" name="skull fetish" chance="2486" />
-		<item id="23540" name="metal spats" chance="2210" />
-		<item id="2391" name="war hammer" chance="2210" />
-		<item id="20108" name="pair of iron fists" chance="1657" />
-		<item id="18419" name="cyan crystal fragment" chance="1381" />
-		<item id="24849" name="onyx chip" chance="1381" />
-		<item id="2154" name="yellow gem" chance="1105" />
-		<item id="2158" name="blue gem" chance="829" />
-		<item id="18416" name="green crystal splinter" chance="276" />
-		<item id="24827" name="ogre klubba" chance="276" />
-		<item id="7761" name="small enchanted emerald" chance="276" />
+		<item id="24845" name="ogre nose ring" chance="17447" />
+		<item id="24844" name="ogre ear stud" chance="16596" />
+		<item id="2146" name="small sapphire" chance="12340" countmax="2" />
+		<item id="2666" name="meat" chance="10000" />
+		<item id="7387" name="diamond sceptre" chance="4894" />
+		<item id="2149" name="small emerald" chance="4255" />
+		<item id="2197" name="stone skin amulet" chance="3404" />
+		<item id="2391" name="war hammer" chance="2979" />
+		<item id="2156" name="red gem" chance="2766" />
+		<item id="24847" name="skull fetish" chance="2766" />
+		<item id="23540" name="metal spats" chance="1702" />
+		<item id="20108" name="pair of iron fists" chance="1702" />
+		<item id="18419" name="cyan crystal fragment" chance="1489" />
+		<item id="24849" name="onyx chip" chance="1489" />
+		<item id="2154" name="yellow gem" chance="1489" />
+		<item id="2158" name="blue gem" chance="1064" />
+		<item id="7761" name="small enchanted emerald" chance="426" />
+		<item id="18416" name="green crystal splinter" chance="213" />
+		<item id="24827" name="ogre klubba" chance="213" />
 	</loot>
 </monster>

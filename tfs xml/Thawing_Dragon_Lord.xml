@@ -45,8 +45,8 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="9971" name="gold ingot" chance="40860" countmax="5" />
-		<item id="15515" name="bar of gold" chance="5376" />
-		<item id="7441" name="ice cube" chance="1075" />
+		<item id="9971" name="gold ingot" chance="40816" countmax="5" />
+		<item id="15515" name="bar of gold" chance="5102" />
+		<item id="7441" name="ice cube" chance="1020" />
 	</loot>
 </monster>

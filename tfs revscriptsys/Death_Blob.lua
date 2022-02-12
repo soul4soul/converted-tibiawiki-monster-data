@@ -94,7 +94,7 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 9968, chance = 18655}
+	{id = 9968, chance = 18733}
 }
 
 mType:register(monster)

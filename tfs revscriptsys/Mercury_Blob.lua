@@ -83,8 +83,8 @@ monster.attacks = {
 }
 
 monster.defenses = {
-	defense = 1,
-	armor = 1,
+	defense = 3,
+	armor = 3,
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 15, maxDamage = 37}
 }
 
@@ -94,7 +94,7 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 9966, chance = 18741}
+	{id = 9966, chance = 18845}
 }
 
 mType:register(monster)

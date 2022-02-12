@@ -42,16 +42,19 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-16" />
+		<attack name="physical" interval="2000" chance="15" min="-8" max="-19" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="smallstone" />
+		</attack>
 	</attacks>
 	<defenses armor="1" defense="1" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="10" />
-		<item id="2666" name="meat" chance="21429" />
-		<item id="2667" name="fish" chance="19388" countmax="2" />
-		<item id="3976" name="worm" chance="13265" countmax="2" />
-		<item id="2388" name="hatchet" chance="10204" />
-		<item id="2398" name="mace" chance="7143" />
-		<item id="2397" name="longsword" chance="3061" />
-		<item id="2120" name="rope" chance="3061" />
+		<item id="2666" name="meat" chance="21910" />
+		<item id="3976" name="worm" chance="17978" countmax="2" />
+		<item id="2667" name="fish" chance="16854" countmax="2" />
+		<item id="2388" name="hatchet" chance="10674" />
+		<item id="2398" name="mace" chance="7865" />
+		<item id="2397" name="longsword" chance="4494" />
+		<item id="2120" name="rope" chance="3371" />
 	</loot>
 </monster>

@@ -48,6 +48,6 @@
 		<voice sentence="Flap flap flap!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64856" countmax="39" />
+		<item id="2148" name="gold coin" chance="64823" countmax="40" />
 	</loot>
 </monster>

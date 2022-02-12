@@ -49,20 +49,20 @@
 		<voice sentence="La di da di doo!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="85036" countmax="13" />
-		<item id="12421" name="elven astral observer" chance="29388" />
-		<item id="8872" name="belted cape" chance="8984" />
-		<item id="32661" name="dream essence egg" chance="8915" />
-		<item id="7732" name="seeds" chance="8472" />
-		<item id="2377" name="two handed sword" chance="7517" />
-		<item id="2201" name="dragon necklace" chance="7350" />
-		<item id="2419" name="scimitar" chance="6797" />
-		<item id="2403" name="knife" chance="6561" />
-		<item id="7890" name="magma amulet" chance="5468" />
-		<item id="8921" name="wand of draconia" chance="4720" />
-		<item id="2191" name="wand of dragonbreath" chance="4651" />
-		<item id="7891" name="magma boots" chance="2935" />
-		<item id="32651" name="sun fruit" chance="927" />
-		<item id="7443" name="bullseye potion" chance="332" />
+		<item id="2152" name="platinum coin" chance="85363" countmax="13" />
+		<item id="12421" name="elven astral observer" chance="29249" />
+		<item id="8872" name="belted cape" chance="9263" />
+		<item id="32661" name="dream essence egg" chance="8899" />
+		<item id="7732" name="seeds" chance="8437" />
+		<item id="2377" name="two handed sword" chance="7610" />
+		<item id="2201" name="dragon necklace" chance="7221" />
+		<item id="2419" name="scimitar" chance="6868" />
+		<item id="2403" name="knife" chance="6589" />
+		<item id="7890" name="magma amulet" chance="5373" />
+		<item id="2191" name="wand of dragonbreath" chance="4741" />
+		<item id="8921" name="wand of draconia" chance="4692" />
+		<item id="7891" name="magma boots" chance="2857" />
+		<item id="32651" name="sun fruit" chance="924" />
+		<item id="7443" name="bullseye potion" chance="292" />
 	</loot>
 </monster>

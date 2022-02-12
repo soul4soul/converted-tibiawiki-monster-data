@@ -52,6 +52,6 @@
 		<voice sentence="I am champion of darkness and you are nothing." yell="false" />
 	</voices>
 	<loot>
-		<item id="10531" name="midnight shard" chance="6494" />
+		<item id="10531" name="midnight shard" chance="6061" />
 	</loot>
 </monster>

@@ -54,22 +54,22 @@
 		<voice sentence="You might be a threat! I'm sorry but I can't allow you to linger here." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="60288" countmax="166" />
-		<item id="28347" name="wild flowers" chance="17848" />
-		<item id="28351" name="dandelion seeds" chance="14896" />
-		<item id="28352" name="colourful snail shell" chance="9824" />
-		<item id="28348" name="fresh fruit" chance="9824" />
-		<item id="28391" name="leaf star" chance="9036" countmax="5" />
-		<item id="2800" name="star herb" chance="5083" />
-		<item id="2162" name="magic light wand" chance="4667" />
-		<item id="7590" name="great mana potion" chance="3410" />
-		<item id="2744" name="red rose" chance="3101" />
-		<item id="28393" name="rainbow quartz" chance="3005" countmax="3" />
-		<item id="7762" name="small enchanted amethyst" chance="2270" countmax="2" />
-		<item id="2796" name="green mushroom" chance="1779" />
-		<item id="7589" name="strong mana potion" chance="916" />
-		<item id="28354" name="butterfly ring" chance="607" />
-		<item id="28356" name="dream blossom staff" chance="522" />
-		<item id="28355" name="wooden spellbook" chance="330" />
+		<item id="2148" name="gold coin" chance="60239" countmax="166" />
+		<item id="28347" name="wild flowers" chance="17870" />
+		<item id="28351" name="dandelion seeds" chance="14871" />
+		<item id="28348" name="fresh fruit" chance="9765" />
+		<item id="28352" name="colourful snail shell" chance="9664" />
+		<item id="28391" name="leaf star" chance="8926" countmax="5" />
+		<item id="2800" name="star herb" chance="5042" />
+		<item id="2162" name="magic light wand" chance="4641" />
+		<item id="7590" name="great mana potion" chance="3337" />
+		<item id="2744" name="red rose" chance="3091" />
+		<item id="28393" name="rainbow quartz" chance="3082" countmax="3" />
+		<item id="7762" name="small enchanted amethyst" chance="2197" countmax="2" />
+		<item id="2796" name="green mushroom" chance="1796" />
+		<item id="7589" name="strong mana potion" chance="848" />
+		<item id="28354" name="butterfly ring" chance="602" />
+		<item id="28356" name="dream blossom staff" chance="538" />
+		<item id="28355" name="wooden spellbook" chance="356" />
 	</loot>
 </monster>

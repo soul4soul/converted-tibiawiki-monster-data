@@ -51,15 +51,15 @@
 		<voice sentence="Chhhhhhh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="58095" countmax="55" />
-		<item id="3976" name="worm" chance="8996" countmax="10" />
-		<item id="2230" name="bone" chance="4945" />
-		<item id="2459" name="iron helmet" chance="2046" />
-		<item id="2227" name="rotten meat" chance="1963" />
-		<item id="2377" name="two handed sword" chance="1957" />
-		<item id="2541" name="bone shield" chance="1031" />
-		<item id="2399" name="throwing star" chance="1006" countmax="3" />
-		<item id="2450" name="bone sword" chance="996" />
-		<item id="2145" name="small diamond" chance="492" />
+		<item id="2148" name="gold coin" chance="58098" countmax="55" />
+		<item id="3976" name="worm" chance="9000" countmax="10" />
+		<item id="2230" name="bone" chance="4948" />
+		<item id="2459" name="iron helmet" chance="2045" />
+		<item id="2227" name="rotten meat" chance="1969" />
+		<item id="2377" name="two handed sword" chance="1961" />
+		<item id="2541" name="bone shield" chance="1036" />
+		<item id="2399" name="throwing star" chance="1007" countmax="3" />
+		<item id="2450" name="bone sword" chance="995" />
+		<item id="2145" name="small diamond" chance="490" />
 	</loot>
 </monster>

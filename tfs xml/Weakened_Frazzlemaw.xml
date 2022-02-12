@@ -54,23 +54,23 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="60446" />
-		<item id="28350" name="fairy wings" chance="15209" />
-		<item id="2229" name="skull (item)" chance="12096" />
-		<item id="22532" name="frazzle tongue" chance="11605" />
-		<item id="22533" name="frazzle skin" chance="10243" />
-		<item id="7590" name="great mana potion" chance="9924" countmax="3" />
-		<item id="2230" name="bone" chance="9865" />
-		<item id="7591" name="great health potion" chance="9849" countmax="2" />
-		<item id="2240" name="remains of a fish" chance="9803" />
-		<item id="2667" name="fish" chance="6413" countmax="3" />
-		<item id="2671" name="ham" chance="6031" />
-		<item id="2231" name="big bone" chance="5352" />
-		<item id="5895" name="fish fin" chance="5157" />
-		<item id="2225" name="piece of iron" chance="4884" />
-		<item id="5880" name="iron ore" chance="2699" />
-		<item id="7418" name="nightmare blade" chance="351" />
-		<item id="11306" name="sai" chance="289" />
-		<item id="22396" name="cluster of solace" chance="183" />
+		<item id="2152" name="platinum coin" chance="60453" />
+		<item id="28350" name="fairy wings" chance="15141" />
+		<item id="2229" name="skull (item)" chance="12018" />
+		<item id="22532" name="frazzle tongue" chance="11689" />
+		<item id="22533" name="frazzle skin" chance="10283" />
+		<item id="7590" name="great mana potion" chance="9972" countmax="3" />
+		<item id="2230" name="bone" chance="9902" />
+		<item id="7591" name="great health potion" chance="9863" countmax="2" />
+		<item id="2240" name="remains of a fish" chance="9842" />
+		<item id="2667" name="fish" chance="6460" countmax="3" />
+		<item id="2671" name="ham" chance="6061" />
+		<item id="2231" name="big bone" chance="5309" />
+		<item id="5895" name="fish fin" chance="5093" />
+		<item id="2225" name="piece of iron" chance="4886" />
+		<item id="5880" name="iron ore" chance="2753" />
+		<item id="7418" name="nightmare blade" chance="346" />
+		<item id="11306" name="sai" chance="283" />
+		<item id="22396" name="cluster of solace" chance="189" />
 	</loot>
 </monster>

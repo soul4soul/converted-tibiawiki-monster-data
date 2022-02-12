@@ -53,9 +53,10 @@
 		<voice sentence="Crunch crunch" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="96552" countmax="175" />
-		<item id="7589" name="strong mana potion" chance="8046" />
-		<item id="13304" name="giant crab pincer" chance="4598" countmax="2" />
-		<item id="7588" name="strong health potion" chance="3448" />
+		<item id="2148" name="gold coin" chance="96667" countmax="175" />
+		<item id="7589" name="strong mana potion" chance="7778" />
+		<item id="13304" name="giant crab pincer" chance="4444" countmax="2" />
+		<item id="7588" name="strong health potion" chance="3333" />
+		<item id="2214" name="ring of healing" chance="1111" />
 	</loot>
 </monster>

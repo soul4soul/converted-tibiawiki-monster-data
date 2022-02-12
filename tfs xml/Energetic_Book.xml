@@ -40,22 +40,33 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
+	<attacks>
+		<attack name="energy" interval="2000" chance="15" min="-600" max="-750" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="energy" />
+		</attack>
+		<attack name="energy" interval="2000" chance="15" min="-800" max="-1000" radius="3" target="0">
+			<attribute key="areaEffect" value="energyarea" />
+		</attack>
+		<attack name="holy" interval="2000" chance="15" min="-650" max="-800" length="6" spread="0">
+			<attribute key="areaEffect" value="stun" />
+		</attack>
+	</attacks>
 	<defenses armor="82" defense="82" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="75117" countmax="35" />
-		<item id="31226" name="glowing rune" chance="60198" countmax="6" />
-		<item id="31225" name="book page" chance="45252" countmax="8" />
-		<item id="26029" name="ultimate mana potion" chance="15153" />
-		<item id="31222" name="silken bookmark" chance="12731" />
-		<item id="8473" name="ultimate health potion" chance="11382" />
-		<item id="26179" name="energy ball" chance="11079" />
-		<item id="7901" name="lightning headband" chance="3097" />
-		<item id="7889" name="lightning pendant" chance="2711" />
-		<item id="18390" name="wand of defiance" chance="1734" />
-		<item id="7895" name="lightning legs" chance="1693" />
-		<item id="2164" name="might ring" chance="1638" />
-		<item id="7893" name="lightning boots" chance="1555" />
-		<item id="11355" name="spellweaver's robe" chance="922" />
-		<item id="7407" name="haunted blade" chance="606" />
+		<item id="2152" name="platinum coin" chance="75436" countmax="35" />
+		<item id="31226" name="glowing rune" chance="60117" countmax="6" />
+		<item id="31225" name="book page" chance="45164" countmax="8" />
+		<item id="26029" name="ultimate mana potion" chance="15343" />
+		<item id="31222" name="silken bookmark" chance="12733" />
+		<item id="8473" name="ultimate health potion" chance="11318" />
+		<item id="26179" name="energy ball" chance="10965" />
+		<item id="7901" name="lightning headband" chance="3122" />
+		<item id="7889" name="lightning pendant" chance="2659" />
+		<item id="2164" name="might ring" chance="1732" />
+		<item id="18390" name="wand of defiance" chance="1683" />
+		<item id="7895" name="lightning legs" chance="1659" />
+		<item id="7893" name="lightning boots" chance="1512" />
+		<item id="11355" name="spellweaver's robe" chance="878" />
+		<item id="7407" name="haunted blade" chance="610" />
 	</loot>
 </monster>

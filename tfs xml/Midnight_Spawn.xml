@@ -18,8 +18,8 @@
 		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
-		<flag canwalkonfire="0" />
-		<flag canwalkonpoison="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -45,6 +45,6 @@
 	</attacks>
 	<defenses armor="40" defense="40" />
 	<loot>
-		<item id="10531" name="midnight shard" chance="8125" />
+		<item id="10531" name="midnight shard" chance="7982" />
 	</loot>
 </monster>

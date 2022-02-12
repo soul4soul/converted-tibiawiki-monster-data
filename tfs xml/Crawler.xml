@@ -50,15 +50,15 @@
 	</defenses>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="190" />
-		<item id="2152" name="platinum coin" chance="50347" />
-		<item id="15482" name="crawler head plating" chance="17976" />
-		<item id="15486" name="compound eye" chance="14669" />
-		<item id="9970" name="small topaz" chance="10084" countmax="2" />
-		<item id="7590" name="great mana potion" chance="8930" />
-		<item id="7591" name="great health potion" chance="6194" />
-		<item id="2391" name="war hammer" chance="1868" />
+		<item id="2152" name="platinum coin" chance="50328" />
+		<item id="15482" name="crawler head plating" chance="17967" />
+		<item id="15486" name="compound eye" chance="14666" />
+		<item id="9970" name="small topaz" chance="10076" countmax="2" />
+		<item id="7590" name="great mana potion" chance="8927" />
+		<item id="7591" name="great health potion" chance="6176" />
+		<item id="2391" name="war hammer" chance="1864" />
 		<item id="8912" name="springsprout rod" chance="614" />
-		<item id="2154" name="yellow gem" chance="463" />
+		<item id="2154" name="yellow gem" chance="464" />
 		<item id="15490" name="grasshopper legs" chance="93" />
 	</loot>
 </monster>

@@ -49,11 +49,11 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="66202" countmax="15" />
-		<item id="2666" name="meat" chance="40817" />
-		<item id="2671" name="ham" chance="39856" />
-		<item id="24663" name="gloom wolf fur" chance="8077" />
-		<item id="2129" name="wolf tooth chain" chance="7067" />
-		<item id="5897" name="wolf paw" chance="3221" />
+		<item id="2148" name="gold coin" chance="66019" countmax="15" />
+		<item id="2666" name="meat" chance="40900" />
+		<item id="2671" name="ham" chance="39763" />
+		<item id="24663" name="gloom wolf fur" chance="8104" />
+		<item id="2129" name="wolf tooth chain" chance="7251" />
+		<item id="5897" name="wolf paw" chance="3223" />
 	</loot>
 </monster>

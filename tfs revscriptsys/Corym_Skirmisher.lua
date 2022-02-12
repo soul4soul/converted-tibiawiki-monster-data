@@ -80,7 +80,8 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -150}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -150},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -90, range = 5, radius = 1, target = true, shootEffect = CONST_ANI_WHIRLWINDCLUB}
 }
 
 monster.defenses = {
@@ -89,18 +90,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 78310, maxCount = 45},
-	{id = 3607, chance = 19616},
-	{id = 20100, chance = 14672},
-	{id = 20101, chance = 12835},
-	{id = 20099, chance = 9077},
-	{id = 20097, chance = 7931},
-	{id = 20089, chance = 7679},
-	{id = 20093, chance = 1526},
-	{id = 20092, chance = 1393},
-	{id = 20098, chance = 1052},
-	{id = 20090, chance = 578},
-	{id = 20126, chance = 499},
+	{id = 2148, chance = 78307, maxCount = 45},
+	{id = 3607, chance = 19604},
+	{id = 20100, chance = 14684},
+	{id = 20101, chance = 12817},
+	{id = 20099, chance = 9062},
+	{id = 20097, chance = 7922},
+	{id = 20089, chance = 7691},
+	{id = 20093, chance = 1528},
+	{id = 20092, chance = 1396},
+	{id = 20098, chance = 1057},
+	{id = 20090, chance = 580},
+	{id = 20126, chance = 501},
 	{id = 20105, chance = 5}
 }
 

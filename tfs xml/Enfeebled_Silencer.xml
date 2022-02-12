@@ -57,17 +57,17 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="39883" />
-		<item id="28350" name="fairy wings" chance="11763" />
-		<item id="7368" name="assassin star" chance="7072" countmax="10" />
-		<item id="22534" name="silencer claws" chance="3822" />
-		<item id="7407" name="haunted blade" chance="1492" />
-		<item id="2165" name="stealth ring" chance="1270" />
-		<item id="7886" name="terra boots" chance="912" />
-		<item id="7454" name="glorious axe" chance="906" />
-		<item id="7451" name="shadow sceptre" chance="882" />
-		<item id="7885" name="terra legs" chance="857" />
-		<item id="7387" name="diamond sceptre" chance="715" />
-		<item id="2195" name="boots of haste" chance="493" />
+		<item id="2152" name="platinum coin" chance="39973" />
+		<item id="28350" name="fairy wings" chance="11778" />
+		<item id="7368" name="assassin star" chance="7016" countmax="10" />
+		<item id="22534" name="silencer claws" chance="3891" />
+		<item id="7407" name="haunted blade" chance="1521" />
+		<item id="2165" name="stealth ring" chance="1238" />
+		<item id="7454" name="glorious axe" chance="927" />
+		<item id="7451" name="shadow sceptre" chance="916" />
+		<item id="7886" name="terra boots" chance="888" />
+		<item id="7885" name="terra legs" chance="871" />
+		<item id="7387" name="diamond sceptre" chance="727" />
+		<item id="2195" name="boots of haste" chance="500" />
 	</loot>
 </monster>

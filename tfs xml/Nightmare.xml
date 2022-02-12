@@ -58,21 +58,21 @@
 		<voice sentence="Weeeheeheeeheee!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="96790" countmax="155" />
-		<item id="2671" name="ham" chance="29928" />
-		<item id="6558" name="flask of demonic blood" chance="20750" />
-		<item id="5944" name="soul orb" chance="20660" />
-		<item id="11223" name="essence of a bad dream" chance="15552" />
-		<item id="11229" name="scythe leg" chance="10172" />
-		<item id="6500" name="demonic essence" chance="9448" />
-		<item id="2152" name="platinum coin" chance="2893" countmax="3" />
-		<item id="2547" name="power bolt" chance="1266" countmax="4" />
-		<item id="6300" name="death ring" chance="1175" />
-		<item id="2532" name="ancient shield" chance="995" />
-		<item id="2477" name="knight legs" chance="949" />
-		<item id="6526" name="skeleton decoration" chance="588" />
-		<item id="2195" name="boots of haste" chance="316" />
-		<item id="5669" name="mysterious voodoo skull" chance="181" />
-		<item id="2454" name="war axe" chance="90" />
+		<item id="2148" name="gold coin" chance="97107" countmax="155" />
+		<item id="2671" name="ham" chance="29746" />
+		<item id="6558" name="flask of demonic blood" chance="20748" />
+		<item id="5944" name="soul orb" chance="20360" />
+		<item id="11223" name="essence of a bad dream" chance="15420" />
+		<item id="11229" name="scythe leg" chance="10198" />
+		<item id="6500" name="demonic essence" chance="9809" />
+		<item id="2152" name="platinum coin" chance="2752" countmax="3" />
+		<item id="6300" name="death ring" chance="1094" />
+		<item id="2547" name="power bolt" chance="1094" countmax="4" />
+		<item id="2532" name="ancient shield" chance="1059" />
+		<item id="2477" name="knight legs" chance="917" />
+		<item id="6526" name="skeleton decoration" chance="600" />
+		<item id="2195" name="boots of haste" chance="318" />
+		<item id="5669" name="mysterious voodoo skull" chance="176" />
+		<item id="2454" name="war axe" chance="106" />
 	</loot>
 </monster>

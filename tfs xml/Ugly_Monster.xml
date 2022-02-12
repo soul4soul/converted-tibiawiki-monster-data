@@ -42,8 +42,8 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="33052" name="cobra axe" chance="769" />
-		<item id="33049" name="cobra crossbow" chance="769" />
-		<item id="33053" name="cobra hood" chance="769" />
+		<item id="33052" name="cobra axe" chance="719" />
+		<item id="33049" name="cobra crossbow" chance="719" />
+		<item id="33053" name="cobra hood" chance="719" />
 	</loot>
 </monster>

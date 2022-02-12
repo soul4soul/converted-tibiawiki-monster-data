@@ -46,9 +46,9 @@
 		<voice sentence="Gokgoooook" yell="false" />
 	</voices>
 	<loot>
-		<item id="5890" name="chicken feather" chance="19640" />
-		<item id="3976" name="worm" chance="9623" />
-		<item id="2666" name="meat" chance="1995" />
-		<item id="3606" name="egg" chance="964" />
+		<item id="5890" name="chicken feather" chance="19648" />
+		<item id="3976" name="worm" chance="9600" />
+		<item id="2666" name="meat" chance="1986" />
+		<item id="3606" name="egg" chance="981" />
 	</loot>
 </monster>

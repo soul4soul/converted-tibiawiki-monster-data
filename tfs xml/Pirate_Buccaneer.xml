@@ -42,7 +42,7 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-160" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-100" range="7">
+		<attack name="physical" interval="2000" chance="15" min="0" max="-100" range="5" radius="1" target="1">
 			<attribute key="shootEffect" value="throwingknife" />
 		</attack>
 	</attacks>
@@ -53,22 +53,22 @@
 		<voice sentence="Plundeeeeer!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="67805" countmax="60" />
-		<item name="torch" chance="10022" />
-		<item id="2385" name="sabre" chance="9971" />
-		<item id="3123" name="worn leather boots" chance="9940" />
-		<item id="11219" name="compass" chance="9859" />
-		<item id="2410" name="throwing knife" chance="8889" countmax="5" />
-		<item id="2513" name="battle shield" chance="4018" />
-		<item id="6095" name="pirate shirt" chance="1128" />
-		<item id="14337" name="treasure map (pirate)" chance="1062" />
-		<item id="2463" name="plate armor" chance="1011" />
-		<item id="7588" name="strong health potion" chance="735" />
-		<item id="6126" name="peg leg" chance="485" />
-		<item id="5926" name="pirate backpack" chance="480" />
-		<item id="6097" name="hook" chance="459" />
-		<item id="6098" name="eye patch" chance="429" />
-		<item id="5553" name="rum flask" chance="143" />
-		<item name="die" chance="61" />
+		<item id="2148" name="gold coin" chance="67799" countmax="60" />
+		<item name="torch" chance="10023" />
+		<item id="2385" name="sabre" chance="9989" />
+		<item id="3123" name="worn leather boots" chance="9935" />
+		<item id="11219" name="compass" chance="9866" />
+		<item id="2410" name="throwing knife" chance="8915" countmax="5" />
+		<item id="2513" name="battle shield" chance="4039" />
+		<item id="6095" name="pirate shirt" chance="1147" />
+		<item id="14337" name="treasure map (pirate)" chance="1049" />
+		<item id="2463" name="plate armor" chance="1024" />
+		<item id="7588" name="strong health potion" chance="716" />
+		<item id="6126" name="peg leg" chance="495" />
+		<item id="5926" name="pirate backpack" chance="475" />
+		<item id="6097" name="hook" chance="456" />
+		<item id="6098" name="eye patch" chance="451" />
+		<item id="5553" name="rum flask" chance="137" />
+		<item name="die" chance="59" />
 	</loot>
 </monster>

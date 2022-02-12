@@ -54,16 +54,16 @@
 		<voice sentence="Aaaahh" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="88052" countmax="200" />
-		<item id="2152" name="platinum coin" chance="49733" countmax="6" />
-		<item id="12636" name="lizard essence" chance="15006" />
-		<item id="8473" name="ultimate health potion" chance="9168" />
-		<item id="7590" name="great mana potion" chance="7921" />
-		<item id="12637" name="ectoplasmic sushi" chance="2006" />
-		<item id="2185" name="necrotic rod" chance="975" />
-		<item id="2189" name="wand of cosmic energy" chance="947" />
-		<item id="6300" name="death ring" chance="310" />
-		<item id="5884" name="spirit container" chance="130" />
+		<item id="2148" name="gold coin" chance="88042" countmax="200" />
+		<item id="2152" name="platinum coin" chance="49730" countmax="6" />
+		<item id="12636" name="lizard essence" chance="15016" />
+		<item id="8473" name="ultimate health potion" chance="9140" />
+		<item id="7590" name="great mana potion" chance="7914" />
+		<item id="12637" name="ectoplasmic sushi" chance="2008" />
+		<item id="2185" name="necrotic rod" chance="972" />
+		<item id="2189" name="wand of cosmic energy" chance="948" />
+		<item id="6300" name="death ring" chance="319" />
+		<item id="5884" name="spirit container" chance="131" />
 		<item id="12635" name="souleater trophy" chance="14" />
 	</loot>
 </monster>

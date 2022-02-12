@@ -45,7 +45,7 @@
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="2148" name="gold coin" chance="49945" countmax="6" />
-		<item id="2679" name="cherry" chance="3060" countmax="3" />
+		<item id="2148" name="gold coin" chance="49948" countmax="6" />
+		<item id="2679" name="cherry" chance="3067" countmax="3" />
 	</loot>
 </monster>

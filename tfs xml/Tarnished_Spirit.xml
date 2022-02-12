@@ -48,14 +48,14 @@
 		<voice sentence="Huh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2804" name="shadow herb" chance="14351" />
-		<item id="2394" name="morning star" chance="10638" />
-		<item id="2654" name="cape" chance="10346" />
-		<item id="2404" name="combat knife" chance="6884" />
-		<item id="5909" name="white piece of cloth" chance="2295" />
-		<item id="10607" name="ghostly tissue" chance="1877" />
-		<item name="book (orange)" chance="1794" />
-		<item id="2532" name="ancient shield" chance="501" />
-		<item id="2165" name="stealth ring" chance="167" />
+		<item id="2804" name="shadow herb" chance="14397" />
+		<item id="2394" name="morning star" chance="10652" />
+		<item id="2654" name="cape" chance="10222" />
+		<item id="2404" name="combat knife" chance="6711" />
+		<item id="5909" name="white piece of cloth" chance="2302" />
+		<item name="book (orange)" chance="1834" />
+		<item id="10607" name="ghostly tissue" chance="1834" />
+		<item id="2532" name="ancient shield" chance="468" />
+		<item id="2165" name="stealth ring" chance="156" />
 	</loot>
 </monster>

@@ -64,38 +64,17 @@
 		<voice name="Fire Elemental" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="Gold Coin" chance="35000" countmax="100" />
-		<item id="2152" name="Platinum Coin" chance="35000" countmax="6" />
-		<item id="7590" name="Great Mana Potion" chance="35000" countmax="3" />
-		<item id="8472" name="Great Spirit Potion" chance="35000" countmax="3" />
-		<item id="6500" name="Demonic Essence" chance="15000" />
-		<item id="8473" name="Ultimate Health Potion" chance="15000" countmax="3" />
-		<item id="5954" name="Demon Horn" chance="15000" />
-		<item id="2795" name="Fire Mushroom" chance="15000" countmax="6" />
-		<item id="7368" name="Assassin Star" chance="15000" countmax="10" />
-		<item id="9970" name="Small Topaz" chance="15000" countmax="5" />
-		<item id="2147" name="Small Ruby" chance="15000" countmax="5" />
-		<item id="2150" name="Small Amethyst" chance="15000" countmax="5" />
-		<item id="2149" name="Small Emerald" chance="15000" countmax="5" />
-		<item id="2151" name="Talon" chance="2500" />
-		<item id="2176" name="Orb" chance="2500" />
-		<item id="2432" name="Fire Axe" chance="2500" />
-		<item id="2165" name="Stealth Ring" chance="2500" />
-		<item id="2156" name="Red Gem" chance="2500" />
-		<item id="2214" name="Ring of Healing" chance="2500" />
-		<item id="2164" name="Might Ring" chance="2500" />
-		<item id="2393" name="Giant Sword" chance="2500" />
-		<item id="2396" name="Ice Rapier" chance="2500" />
-		<item id="2418" name="Golden Sickle" chance="2500" />
-		<item id="1982" name="Purple Tome" chance="2500" />
-		<item id="2462" name="Devil Helmet" chance="2500" />
-		<item id="2179" name="Gold Ring" chance="2500" />
-		<item id="2520" name="Demon Shield" chance="7500" />
-		<item id="2171" name="Platinum Amulet" chance="7500" />
-		<item id="2514" name="Mastermind Shield" chance="7500" />
-		<item id="2470" name="Golden Legs" chance="4000" />
-		<item id="2472" name="Magic Plate Armor" chance="4000" />
-		<item id="7393" name="Demon Trophy" chance="4000" />
-		<item id="7382" name="Demonrage Sword" chance="4000" />
+		<item id="2148" name="gold coin" chance="100000" countmax="84" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
+		<item id="2795" name="fire mushroom" chance="40000" countmax="6" />
+		<item id="2164" name="might ring" chance="40000" />
+		<item id="2150" name="small amethyst" chance="40000" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="40000" countmax="3" />
+		<item id="6500" name="demonic essence" chance="20000" />
+		<item id="2462" name="devil helmet" chance="20000" />
+		<item id="8472" name="great spirit potion" chance="20000" countmax="3" />
+		<item id="2176" name="orb" chance="20000" />
+		<item id="2149" name="small emerald" chance="20000" countmax="5" />
+		<item id="2151" name="talon" chance="20000" />
 	</loot>
 </monster>

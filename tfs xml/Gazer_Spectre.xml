@@ -49,22 +49,22 @@
 		<voice sentence="Tiiimeee... is... a... windowww!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="74452" countmax="5" />
-		<item id="2145" name="small diamond" chance="13452" />
-		<item id="18417" name="brown crystal splinter" chance="10671" />
-		<item id="2146" name="small sapphire" chance="10397" />
-		<item id="2156" name="red gem" chance="10082" />
-		<item id="18420" name="red crystal fragment" chance="7863" />
-		<item id="7760" name="small enchanted ruby" chance="5233" />
-		<item name="golden idol of tukh" chance="5151" />
-		<item id="2154" name="yellow gem" chance="4411" />
-		<item id="8921" name="wand of draconia" chance="2945" />
-		<item id="2187" name="wand of inferno" chance="2507" />
-		<item id="32861" name="red ectoplasm" chance="2370" />
-		<item id="27618" name="prismatic quartz" chance="1411" />
-		<item id="7899" name="magma coat" chance="1301" />
-		<item id="24849" name="onyx chip" chance="1205" countmax="2" />
-		<item id="7761" name="small enchanted emerald" chance="1123" countmax="3" />
-		<item id="32836" name="hexagonal ruby" chance="712" />
+		<item id="2152" name="platinum coin" chance="74401" countmax="5" />
+		<item id="2145" name="small diamond" chance="13389" />
+		<item id="18417" name="brown crystal splinter" chance="10609" />
+		<item id="2146" name="small sapphire" chance="10349" />
+		<item id="2156" name="red gem" chance="9952" />
+		<item id="18420" name="red crystal fragment" chance="7817" />
+		<item id="7760" name="small enchanted ruby" chance="5199" />
+		<item name="golden idol of tukh" chance="5112" />
+		<item id="2154" name="yellow gem" chance="4417" />
+		<item id="8921" name="wand of draconia" chance="2928" />
+		<item id="2187" name="wand of inferno" chance="2420" />
+		<item id="32861" name="red ectoplasm" chance="2345" />
+		<item id="27618" name="prismatic quartz" chance="1377" />
+		<item id="7899" name="magma coat" chance="1353" />
+		<item id="24849" name="onyx chip" chance="1216" countmax="2" />
+		<item id="7761" name="small enchanted emerald" chance="1154" countmax="3" />
+		<item id="32836" name="hexagonal ruby" chance="769" />
 	</loot>
 </monster>

@@ -51,14 +51,14 @@
 		<voice sentence="Rraaar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98960" countmax="132" />
-		<item id="12447" name="quara bone" chance="10121" />
+		<item id="2148" name="gold coin" chance="98962" countmax="132" />
+		<item id="12447" name="quara bone" chance="10108" />
 		<item id="2483" name="scale armor" chance="8968" />
-		<item id="2387" name="double axe" chance="5761" />
-		<item id="2670" name="shrimp" chance="5056" />
-		<item id="2145" name="small diamond" chance="5014" countmax="2" />
-		<item id="2377" name="two handed sword" chance="3013" />
-		<item id="5895" name="fish fin" chance="1073" />
-		<item id="8911" name="northwind rod" chance="951" />
+		<item id="2387" name="double axe" chance="5769" />
+		<item id="2670" name="shrimp" chance="5062" />
+		<item id="2145" name="small diamond" chance="5020" countmax="2" />
+		<item id="2377" name="two handed sword" chance="3015" />
+		<item id="5895" name="fish fin" chance="1071" />
+		<item id="8911" name="northwind rod" chance="952" />
 	</loot>
 </monster>

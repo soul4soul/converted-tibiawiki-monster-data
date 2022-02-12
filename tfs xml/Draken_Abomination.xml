@@ -56,24 +56,24 @@
 		<voice name="Death Blob" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="97106" countmax="199" />
-		<item id="2666" name="meat" chance="50268" />
-		<item id="2152" name="platinum coin" chance="50042" countmax="8" />
-		<item id="12627" name="eye of corruption" chance="12032" />
-		<item id="12629" name="scale of corruption" chance="10957" />
-		<item id="8473" name="ultimate health potion" chance="9229" countmax="3" />
-		<item id="7590" name="great mana potion" chance="9112" countmax="3" />
-		<item id="7903" name="terra hood" chance="8389" />
-		<item id="12628" name="tail of corruption" chance="6221" />
-		<item id="8472" name="great spirit potion" chance="4909" countmax="3" />
-		<item id="9970" name="small topaz" chance="2818" countmax="4" />
-		<item id="8922" name="wand of voodoo" chance="1019" />
-		<item id="11304" name="zaoan legs" chance="823" />
-		<item id="11301" name="zaoan armor" chance="747" />
-		<item id="11302" name="zaoan helmet" chance="609" />
-		<item id="12646" name="draken boots" chance="559" />
-		<item id="13538" name="bamboo leaves" chance="316" />
-		<item id="12644" name="shield of corruption" chance="15" />
+		<item id="2148" name="gold coin" chance="97104" countmax="199" />
+		<item id="2666" name="meat" chance="50236" />
+		<item id="2152" name="platinum coin" chance="50032" countmax="8" />
+		<item id="12627" name="eye of corruption" chance="12055" />
+		<item id="12629" name="scale of corruption" chance="10992" />
+		<item id="8473" name="ultimate health potion" chance="9222" countmax="3" />
+		<item id="7590" name="great mana potion" chance="9078" countmax="3" />
+		<item id="7903" name="terra hood" chance="8362" />
+		<item id="12628" name="tail of corruption" chance="6229" />
+		<item id="8472" name="great spirit potion" chance="4925" countmax="3" />
+		<item id="9970" name="small topaz" chance="2824" countmax="4" />
+		<item id="8922" name="wand of voodoo" chance="1028" />
+		<item id="11304" name="zaoan legs" chance="829" />
+		<item id="11301" name="zaoan armor" chance="757" />
+		<item id="11302" name="zaoan helmet" chance="613" />
+		<item id="12646" name="draken boots" chance="556" />
+		<item id="13538" name="bamboo leaves" chance="319" />
+		<item id="12644" name="shield of corruption" chance="14" />
 		<item id="12647" name="snake god's wristguard" chance="12" />
 	</loot>
 </monster>

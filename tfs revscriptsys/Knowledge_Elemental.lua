@@ -78,6 +78,11 @@ monster.elements = {
 }
 
 monster.attacks = {
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -600, maxDamage = -900, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_ENERGYBALL},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -600, maxDamage = -900, radius = 2, target = , effect = CONST_ME_PURPLEENERGY},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -600, maxDamage = -800, radius = 3, target = true, shootEffect = CONST_ANI_HOLY, effect = CONST_ME_HOLYDAMAGE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -500, maxDamage = -700, length = 5, spread = 0, effect = CONST_ME_YELLOWENERGY},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -700, maxDamage = -750, radius = 2, target = , effect = CONST_ME_YELLOWENERGY}
 }
 
 monster.defenses = {
@@ -86,28 +91,28 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2150, chance = 74656, maxCount = 6},
-	{id = 2152, chance = 67903, maxCount = 15},
-	{id = 31225, chance = 37770, maxCount = 5},
-	{id = 31226, chance = 33019, maxCount = 10},
-	{id = 31222, chance = 26678},
-	{id = 31223, chance = 22634},
-	{id = 26029, chance = 15391},
-	{id = 7838, chance = 15194, maxCount = 15},
-	{id = 8473, chance = 11268, maxCount = 2},
-	{id = 2515, chance = 9717},
-	{id = 7620, chance = 8971},
-	{id = 2167, chance = 6930},
-	{id = 2399, chance = 6930, maxCount = 15},
-	{id = 2189, chance = 4868},
-	{id = 7449, chance = 4437},
-	{id = 2425, chance = 2709},
-	{id = 2170, chance = 2395},
-	{id = 7889, chance = 1826},
-	{id = 2164, chance = 1786},
-	{id = 2124, chance = 1237},
-	{id = 18390, chance = 1237},
-	{id = 11355, chance = 393}
+	{id = 2150, chance = 75087, maxCount = 6},
+	{id = 2152, chance = 67971, maxCount = 15},
+	{id = 31225, chance = 37898, maxCount = 5},
+	{id = 31226, chance = 33276, maxCount = 10},
+	{id = 31222, chance = 26506},
+	{id = 31223, chance = 22542},
+	{id = 26029, chance = 15322},
+	{id = 7838, chance = 15062, maxCount = 15},
+	{id = 8473, chance = 11323, maxCount = 2},
+	{id = 2515, chance = 9539},
+	{id = 7620, chance = 8864},
+	{id = 2167, chance = 7116},
+	{id = 2399, chance = 6891, maxCount = 15},
+	{id = 2189, chance = 4640},
+	{id = 7449, chance = 4553},
+	{id = 2425, chance = 2805},
+	{id = 2170, chance = 2337},
+	{id = 2164, chance = 1887},
+	{id = 7889, chance = 1801},
+	{id = 2124, chance = 1229},
+	{id = 18390, chance = 1229},
+	{id = 11355, chance = 364}
 }
 
 mType:register(monster)

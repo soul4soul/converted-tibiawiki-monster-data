@@ -48,14 +48,14 @@
 		<voice sentence="Rrrawk! Rrrrawk!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64018" countmax="25" />
-		<item id="2667" name="fish" chance="20248" countmax="2" />
-		<item id="2666" name="meat" chance="19969" />
-		<item id="3976" name="worm" chance="14663" countmax="2" />
-		<item id="19742" name="marsh stalker feather" chance="8655" />
-		<item id="2397" name="longsword" chance="7487" />
-		<item id="19741" name="marsh stalker beak" chance="6111" />
-		<item id="2120" name="rope" chance="4882" />
+		<item id="2148" name="gold coin" chance="64016" countmax="25" />
+		<item id="2667" name="fish" chance="20273" countmax="2" />
+		<item id="2666" name="meat" chance="19960" />
+		<item id="3976" name="worm" chance="14660" countmax="2" />
+		<item id="19742" name="marsh stalker feather" chance="8646" />
+		<item id="2397" name="longsword" chance="7477" />
+		<item id="19741" name="marsh stalker beak" chance="6107" />
+		<item id="2120" name="rope" chance="4887" />
 		<item id="7732" name="seeds" chance="106" />
 	</loot>
 </monster>

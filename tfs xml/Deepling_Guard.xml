@@ -51,19 +51,19 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="180" />
-		<item id="2152" name="platinum coin" chance="70134" countmax="2" />
-		<item id="7591" name="great health potion" chance="15089" countmax="3" />
-		<item id="7590" name="great mana potion" chance="15025" countmax="3" />
-		<item id="15424" name="deepling breaktime snack" chance="14992" />
-		<item id="15423" name="deepling guard belt buckle" chance="11957" />
-		<item id="13870" name="eye of a deepling" chance="9830" />
-		<item id="15455" name="deepling claw" chance="8940" />
-		<item id="2146" name="small sapphire" chance="2839" countmax="3" />
-		<item id="13838" name="heavy trident" chance="1493" />
-		<item id="15454" name="guardian axe" chance="881" />
-		<item id="15647" name="deepling squelcher" chance="716" />
-		<item id="15644" name="ornate crossbow" chance="406" />
-		<item id="15645" name="deepling backpack" chance="312" />
-		<item id="15545" name="foxtail" chance="17" />
+		<item id="2152" name="platinum coin" chance="70166" countmax="2" />
+		<item id="7591" name="great health potion" chance="15076" countmax="3" />
+		<item id="7590" name="great mana potion" chance="15016" countmax="3" />
+		<item id="15424" name="deepling breaktime snack" chance="15001" />
+		<item id="15423" name="deepling guard belt buckle" chance="11946" />
+		<item id="13870" name="eye of a deepling" chance="9834" />
+		<item id="15455" name="deepling claw" chance="8951" />
+		<item id="2146" name="small sapphire" chance="2841" countmax="3" />
+		<item id="13838" name="heavy trident" chance="1496" />
+		<item id="15454" name="guardian axe" chance="878" />
+		<item id="15647" name="deepling squelcher" chance="715" />
+		<item id="15644" name="ornate crossbow" chance="408" />
+		<item id="15645" name="deepling backpack" chance="313" />
+		<item id="15545" name="foxtail" chance="16" />
 	</loot>
 </monster>

@@ -56,22 +56,22 @@
 		<voice name="Fire Elemental" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="97527" countmax="151" />
-		<item id="7590" name="great mana potion" chance="19500" />
-		<item id="7591" name="great health potion" chance="18533" />
-		<item id="8840" name="raspberry" chance="8243" countmax="5" />
-		<item id="2436" name="skull staff" chance="6538" />
-		<item id="7760" name="small enchanted ruby" chance="4605" />
-		<item id="2167" name="energy ring" chance="2246" />
-		<item id="5911" name="red piece of cloth" chance="1222" />
-		<item id="9958" name="royal tapestry" chance="767" />
-		<item id="5904" name="magic sulphur" chance="654" />
-		<item id="9969" name="black skull (item)" chance="455" />
-		<item id="8902" name="spellbook of mind control" chance="455" />
-		<item id="1986" name="red tome" chance="256" />
-		<item id="7891" name="magma boots" chance="227" />
-		<item id="9971" name="gold ingot" chance="142" />
-		<item id="2114" name="piggy bank" chance="114" />
-		<item id="9980" name="crystal of power" chance="85" />
+		<item id="2148" name="gold coin" chance="97556" countmax="151" />
+		<item id="7590" name="great mana potion" chance="19359" />
+		<item id="7591" name="great health potion" chance="18300" />
+		<item id="8840" name="raspberry" chance="8200" countmax="5" />
+		<item id="2436" name="skull staff" chance="6598" />
+		<item id="7760" name="small enchanted ruby" chance="4589" />
+		<item id="2167" name="energy ring" chance="2145" />
+		<item id="5911" name="red piece of cloth" chance="1195" />
+		<item id="9958" name="royal tapestry" chance="733" />
+		<item id="5904" name="magic sulphur" chance="624" />
+		<item id="8902" name="spellbook of mind control" chance="462" />
+		<item id="9969" name="black skull (item)" chance="434" />
+		<item id="1986" name="red tome" chance="244" />
+		<item id="7891" name="magma boots" chance="217" />
+		<item id="9971" name="gold ingot" chance="136" />
+		<item id="2114" name="piggy bank" chance="109" />
+		<item id="9980" name="crystal of power" chance="81" />
 	</loot>
 </monster>

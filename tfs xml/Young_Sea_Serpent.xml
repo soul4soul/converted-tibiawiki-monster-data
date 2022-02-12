@@ -53,17 +53,17 @@
 		<voice sentence="CHHHRRRR" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98043" countmax="174" />
-		<item id="2394" name="morning star" chance="40250" />
-		<item id="2378" name="battle axe" chance="7827" />
-		<item id="9808" name="heavily rusted armor" chance="7463" />
-		<item id="7588" name="strong health potion" chance="4960" />
-		<item id="2417" name="battle hammer" chance="4846" />
-		<item id="10583" name="sea serpent scale" chance="4801" />
-		<item id="7589" name="strong mana potion" chance="4619" />
-		<item id="2146" name="small sapphire" chance="1843" countmax="2" />
-		<item id="2165" name="stealth ring" chance="910" />
-		<item id="9809" name="rusted armor" chance="842" />
-		<item id="2177" name="life crystal" chance="159" />
+		<item id="2148" name="gold coin" chance="98194" countmax="174" />
+		<item id="2394" name="morning star" chance="39904" />
+		<item id="2378" name="battle axe" chance="7800" />
+		<item id="9808" name="heavily rusted armor" chance="7185" />
+		<item id="2417" name="battle hammer" chance="4957" />
+		<item id="7588" name="strong health potion" chance="4861" />
+		<item id="10583" name="sea serpent scale" chance="4630" />
+		<item id="7589" name="strong mana potion" chance="4515" />
+		<item id="2146" name="small sapphire" chance="1921" countmax="2" />
+		<item id="2165" name="stealth ring" chance="941" />
+		<item id="9809" name="rusted armor" chance="788" />
+		<item id="2177" name="life crystal" chance="154" />
 	</loot>
 </monster>

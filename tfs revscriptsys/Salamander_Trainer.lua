@@ -78,13 +78,19 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -23}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -23},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = 0, radius = 2, target = , effect = CONST_ME_SOUND_RED}
 }
 
 monster.defenses = {
 	defense = 7,
 	armor = 7,
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 11, maxDamage = 25}
+}
+
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Troll-Trained Salamander", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {

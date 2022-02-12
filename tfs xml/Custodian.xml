@@ -46,7 +46,7 @@
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="23" />
-		<item id="34334" name="cobra crest" chance="13333" />
-		<item id="2432" name="fire axe" chance="6667" />
+		<item id="34334" name="cobra crest" chance="21053" />
+		<item id="2432" name="fire axe" chance="10526" />
 	</loot>
 </monster>

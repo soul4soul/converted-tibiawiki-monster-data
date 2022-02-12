@@ -49,9 +49,9 @@
 		<voice sentence="Groar" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="39968" />
-		<item id="2671" name="ham" chance="19992" />
-		<item id="5896" name="bear paw" chance="1977" />
-		<item id="5902" name="honeycomb" chance="472" />
+		<item id="2666" name="meat" chance="39982" />
+		<item id="2671" name="ham" chance="19985" />
+		<item id="5896" name="bear paw" chance="1976" />
+		<item id="5902" name="honeycomb" chance="480" />
 	</loot>
 </monster>

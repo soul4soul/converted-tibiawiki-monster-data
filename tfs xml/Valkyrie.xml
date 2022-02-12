@@ -42,7 +42,7 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-70" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-50" range="7">
+		<attack name="physical" interval="2000" chance="15" min="0" max="-50" range="5" radius="1" target="1">
 			<attribute key="shootEffect" value="spear" />
 		</attack>
 	</attacks>
@@ -55,19 +55,19 @@
 		<voice sentence="One more head for me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2389" name="spear" chance="55388" countmax="3" />
-		<item id="2148" name="gold coin" chance="32701" countmax="12" />
-		<item id="2666" name="meat" chance="30105" />
-		<item id="2464" name="chain armor" chance="10144" />
-		<item id="2674" name="red apple" chance="7590" countmax="2" />
-		<item id="12399" name="girlish hair decoration" chance="5973" />
-		<item id="3965" name="hunting spear" chance="5060" />
-		<item id="12400" name="protective charm" chance="3187" />
-		<item id="2200" name="protection amulet" chance="1098" />
-		<item id="2463" name="plate armor" chance="818" />
-		<item id="2229" name="skull (item)" chance="752" />
-		<item id="7618" name="health potion" chance="471" />
-		<item id="2387" name="double axe" chance="400" />
-		<item id="2145" name="small diamond" chance="113" />
+		<item id="2389" name="spear" chance="55371" countmax="3" />
+		<item id="2148" name="gold coin" chance="32708" countmax="12" />
+		<item id="2666" name="meat" chance="30064" />
+		<item id="2464" name="chain armor" chance="10145" />
+		<item id="2674" name="red apple" chance="7584" countmax="2" />
+		<item id="12399" name="girlish hair decoration" chance="6020" />
+		<item id="3965" name="hunting spear" chance="5058" />
+		<item id="12400" name="protective charm" chance="3193" />
+		<item id="2200" name="protection amulet" chance="1092" />
+		<item id="2463" name="plate armor" chance="820" />
+		<item id="2229" name="skull (item)" chance="744" />
+		<item id="7618" name="health potion" chance="466" />
+		<item id="2387" name="double axe" chance="401" />
+		<item id="2145" name="small diamond" chance="112" />
 	</loot>
 </monster>

@@ -45,13 +45,13 @@
 	</attacks>
 	<defenses armor="60" defense="60" />
 	<loot>
-		<item id="7590" name="great mana potion" chance="10781" />
-		<item id="2187" name="wand of inferno" chance="7999" />
-		<item id="38244" name="grappling hook" chance="7240" />
-		<item id="38228" name="pirate coin" chance="6418" countmax="10" />
-		<item id="38229" name="pirat's tail" chance="4995" />
-		<item id="8920" name="wand of starstorm" chance="4553" />
-		<item id="8912" name="springsprout rod" chance="3857" />
-		<item id="8922" name="wand of voodoo" chance="2909" />
+		<item id="7590" name="great mana potion" chance="10553" />
+		<item id="2187" name="wand of inferno" chance="7987" />
+		<item id="38244" name="grappling hook" chance="7141" />
+		<item id="38228" name="pirate coin" chance="6586" countmax="10" />
+		<item id="38229" name="pirat's tail" chance="4999" />
+		<item id="8920" name="wand of starstorm" chance="4655" />
+		<item id="8912" name="springsprout rod" chance="3703" />
+		<item id="8922" name="wand of voodoo" chance="2962" />
 	</loot>
 </monster>

@@ -40,6 +40,9 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" />
+	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="500" max="650" />
 	</defenses>

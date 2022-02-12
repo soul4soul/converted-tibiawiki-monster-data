@@ -51,9 +51,9 @@
 		<voice sentence="Rooawwrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="81643" countmax="55" />
-		<item id="2672" name="dragon ham" chance="74146" />
-		<item id="12413" name="dragon's tail" chance="4647" />
-		<item id="7618" name="health potion" chance="475" />
+		<item id="2148" name="gold coin" chance="81717" countmax="55" />
+		<item id="2672" name="dragon ham" chance="74166" />
+		<item id="12413" name="dragon's tail" chance="4633" />
+		<item id="7618" name="health potion" chance="477" />
 	</loot>
 </monster>

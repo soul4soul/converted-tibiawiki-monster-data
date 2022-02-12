@@ -49,14 +49,14 @@
 		<voice sentence="Your money or your life!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="48980" countmax="30" />
-		<item id="2386" name="axe" chance="29968" />
-		<item id="2511" name="brass shield" chance="16773" />
-		<item id="2649" name="leather legs" chance="14967" />
-		<item id="2398" name="mace" chance="10321" />
-		<item id="2685" name="tomato" chance="7700" countmax="2" />
-		<item id="2458" name="chain helmet" chance="4956" />
-		<item id="2465" name="brass armor" chance="2373" />
-		<item id="2459" name="iron helmet" chance="538" />
+		<item id="2148" name="gold coin" chance="48957" countmax="30" />
+		<item id="2386" name="axe" chance="29905" />
+		<item id="2511" name="brass shield" chance="16790" />
+		<item id="2649" name="leather legs" chance="14964" />
+		<item id="2398" name="mace" chance="10341" />
+		<item id="2685" name="tomato" chance="7696" countmax="2" />
+		<item id="2458" name="chain helmet" chance="4964" />
+		<item id="2465" name="brass armor" chance="2371" />
+		<item id="2459" name="iron helmet" chance="541" />
 	</loot>
 </monster>

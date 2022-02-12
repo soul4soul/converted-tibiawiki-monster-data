@@ -53,18 +53,18 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="125" />
-		<item id="2684" name="carrot" chance="20556" countmax="2" />
-		<item id="7588" name="strong health potion" chance="12549" />
-		<item id="28349" name="shimmering beetles" chance="9808" />
-		<item id="28350" name="fairy wings" chance="9084" />
-		<item id="2799" name="stone herb" chance="7283" />
-		<item id="1294" name="small stone" chance="5031" countmax="5" />
-		<item id="2687" name="cookie" chance="4346" countmax="5" />
-		<item id="2790" name="orange mushroom" chance="3328" />
-		<item id="7760" name="small enchanted ruby" chance="3328" countmax="2" />
-		<item id="27618" name="prismatic quartz" chance="2702" />
-		<item id="2165" name="stealth ring" chance="822" />
-		<item id="13298" name="carrot on a stick" chance="137" />
-		<item id="9941" name="crystal of focus" chance="78" />
+		<item id="2684" name="carrot" chance="20642" countmax="2" />
+		<item id="7588" name="strong health potion" chance="12430" />
+		<item id="28349" name="shimmering beetles" chance="9745" />
+		<item id="28350" name="fairy wings" chance="9205" />
+		<item id="2799" name="stone herb" chance="7322" />
+		<item id="1294" name="small stone" chance="4899" countmax="5" />
+		<item id="2687" name="cookie" chance="4341" countmax="5" />
+		<item id="7760" name="small enchanted ruby" chance="3469" countmax="2" />
+		<item id="2790" name="orange mushroom" chance="3295" />
+		<item id="27618" name="prismatic quartz" chance="2667" />
+		<item id="2165" name="stealth ring" chance="802" />
+		<item id="13298" name="carrot on a stick" chance="139" />
+		<item id="9941" name="crystal of focus" chance="70" />
 	</loot>
 </monster>

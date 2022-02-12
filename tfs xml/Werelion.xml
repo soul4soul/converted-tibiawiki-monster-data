@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Werelion" nameDescription="a werelion" experience="2400" speed="0" manacost="0">
+<monster name="Werelion" nameDescription="a werelion" experience="2200" speed="220" manacost="0">
 	<health now="2800" max="2800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -43,31 +43,31 @@
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-325" />
 	</attacks>
-	<defenses armor="10" defense="5" />
+	<defenses armor="38" defense="38" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="8472" name="great spirit potion" chance="63600" countmax="2" />
-		<item id="2489" name="dark armor" chance="25880" />
-		<item id="10608" name="lion's mane" chance="16497" />
-		<item id="2666" name="meat" chance="11349" />
-		<item id="7449" name="crystal sword" chance="7097" />
-		<item id="7760" name="small enchanted ruby" chance="6019" countmax="5" />
-		<item id="2134" name="silver brooch" chance="4829" />
-		<item id="2145" name="small diamond" chance="4545" />
-		<item id="36601" name="ivory carving" chance="3915" />
-		<item id="2391" name="war hammer" chance="3527" />
-		<item id="2521" name="dark shield" chance="3303" />
-		<item id="7454" name="glorious axe" chance="2932" />
-		<item id="28393" name="rainbow quartz" chance="2665" countmax="3" />
-		<item id="24849" name="onyx chip" chance="2492" />
-		<item id="2485" name="doublet" chance="2484" />
-		<item id="8870" name="spirit cloak" chance="2285" />
-		<item id="24739" name="moonlight crystals" chance="2009" />
-		<item id="27047" name="coral brooch" chance="1949" />
-		<item id="7413" name="titan axe" chance="1707" />
-		<item id="7452" name="spiked squelcher" chance="1587" />
-		<item id="7456" name="noble axe" chance="923" />
-		<item id="36664" name="white silk flower" chance="586" />
-		<item id="36437" name="lion figurine" chance="509" />
+		<item id="8472" name="great spirit potion" chance="63546" countmax="2" />
+		<item id="2489" name="dark armor" chance="25925" />
+		<item id="10608" name="lion's mane" chance="16532" />
+		<item id="2666" name="meat" chance="11384" />
+		<item id="7449" name="crystal sword" chance="7053" />
+		<item id="7760" name="small enchanted ruby" chance="5941" countmax="5" />
+		<item id="2134" name="silver brooch" chance="4953" />
+		<item id="2145" name="small diamond" chance="4557" />
+		<item id="36601" name="ivory carving" chance="3849" />
+		<item id="2391" name="war hammer" chance="3647" />
+		<item id="2521" name="dark shield" chance="3289" />
+		<item id="7454" name="glorious axe" chance="3040" />
+		<item id="28393" name="rainbow quartz" chance="2714" countmax="3" />
+		<item id="24849" name="onyx chip" chance="2527" />
+		<item id="2485" name="doublet" chance="2372" />
+		<item id="8870" name="spirit cloak" chance="2294" />
+		<item id="27047" name="coral brooch" chance="1936" />
+		<item id="24739" name="moonlight crystals" chance="1835" />
+		<item id="7413" name="titan axe" chance="1672" />
+		<item id="7452" name="spiked squelcher" chance="1532" />
+		<item id="7456" name="noble axe" chance="910" />
+		<item id="36664" name="white silk flower" chance="575" />
+		<item id="36437" name="lion figurine" chance="490" />
 	</loot>
 </monster>

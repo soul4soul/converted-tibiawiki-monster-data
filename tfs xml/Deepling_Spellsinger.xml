@@ -50,17 +50,17 @@
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="80110" />
-		<item id="2148" name="gold coin" chance="75121" countmax="60" />
-		<item id="15421" name="spellsinger's seal" chance="15197" />
-		<item id="15488" name="deepling filet" chance="14948" />
-		<item id="15422" name="key to the drowned library" chance="10762" />
-		<item id="2667" name="fish" chance="3523" />
-		<item id="2146" name="small sapphire" chance="2933" />
-		<item id="13870" name="eye of a deepling" chance="2534" />
-		<item id="2168" name="life ring" chance="2445" />
-		<item id="15400" name="deepling staff" chance="2019" />
-		<item id="15403" name="necklace of the deep" chance="788" />
-		<item id="5895" name="fish fin" chance="511" />
-		<item id="15644" name="ornate crossbow" chance="207" />
+		<item id="2148" name="gold coin" chance="75110" countmax="60" />
+		<item id="15421" name="spellsinger's seal" chance="15204" />
+		<item id="15488" name="deepling filet" chance="14951" />
+		<item id="15422" name="key to the drowned library" chance="10764" />
+		<item id="2667" name="fish" chance="3531" />
+		<item id="2146" name="small sapphire" chance="2938" />
+		<item id="13870" name="eye of a deepling" chance="2541" />
+		<item id="2168" name="life ring" chance="2442" />
+		<item id="15400" name="deepling staff" chance="2015" />
+		<item id="15403" name="necklace of the deep" chance="784" />
+		<item id="5895" name="fish fin" chance="510" />
+		<item id="15644" name="ornate crossbow" chance="206" />
 	</loot>
 </monster>

@@ -43,7 +43,7 @@
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-80" />
 	</attacks>
-	<defenses armor="1" defense="1" />
+	<defenses armor="3" defense="3" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Kzzchhhh" yell="false" />
 	</voices>
@@ -51,6 +51,6 @@
 		<voice name="Acid Blob" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="9967" name="glob of acid slime" chance="18947" />
+		<item id="9967" name="glob of acid slime" chance="18942" />
 	</loot>
 </monster>

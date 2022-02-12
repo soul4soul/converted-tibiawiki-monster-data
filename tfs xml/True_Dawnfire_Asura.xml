@@ -46,31 +46,31 @@
 	<defenses armor="77" defense="77" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="12" />
-		<item id="6558" name="flask of demonic blood" chance="30437" />
-		<item id="24630" name="golden lotus brooch" chance="22199" />
-		<item id="6500" name="demonic essence" chance="21787" />
-		<item id="24631" name="peacock feather fan" chance="21787" />
-		<item id="5944" name="soul orb" chance="19522" />
-		<item id="7590" name="great mana potion" chance="17298" countmax="2" />
-		<item id="2149" name="small emerald" chance="17216" countmax="5" />
-		<item id="2147" name="small ruby" chance="11944" countmax="3" />
-		<item id="7760" name="small enchanted ruby" chance="9679" countmax="3" />
-		<item id="9970" name="small topaz" chance="9102" countmax="2" />
-		<item id="2145" name="small diamond" chance="7949" countmax="2" />
-		<item id="2150" name="small amethyst" chance="6837" countmax="2" />
-		<item id="2160" name="crystal coin" chance="4283" />
-		<item id="2133" name="ruby necklace" chance="4283" />
-		<item id="28415" name="royal star" chance="3995" countmax="3" />
-		<item id="2156" name="red gem" chance="3583" />
-		<item id="2663" name="mystic turban" chance="3501" />
-		<item id="5911" name="red piece of cloth" chance="3171" />
-		<item id="2194" name="mysterious fetish" chance="3007" />
-		<item id="2158" name="blue gem" chance="2842" />
-		<item id="24637" name="oriental shoes" chance="2842" />
-		<item id="8871" name="focus cape" chance="2265" />
+		<item id="6558" name="flask of demonic blood" chance="30588" />
+		<item id="24630" name="golden lotus brooch" chance="22538" />
+		<item id="6500" name="demonic essence" chance="21977" />
+		<item id="24631" name="peacock feather fan" chance="21902" />
+		<item id="5944" name="soul orb" chance="19843" />
+		<item id="2149" name="small emerald" chance="17784" countmax="5" />
+		<item id="7590" name="great mana potion" chance="17147" countmax="2" />
+		<item id="2147" name="small ruby" chance="11868" countmax="3" />
+		<item id="7760" name="small enchanted ruby" chance="9472" countmax="3" />
+		<item id="9970" name="small topaz" chance="8836" countmax="2" />
+		<item id="2145" name="small diamond" chance="7825" countmax="2" />
+		<item id="2150" name="small amethyst" chance="6739" countmax="2" />
+		<item id="2160" name="crystal coin" chance="4380" />
+		<item id="2133" name="ruby necklace" chance="4231" />
+		<item id="28415" name="royal star" chance="3931" countmax="3" />
+		<item id="2156" name="red gem" chance="3557" />
+		<item id="2663" name="mystic turban" chance="3295" />
+		<item id="5911" name="red piece of cloth" chance="3145" />
+		<item id="2194" name="mysterious fetish" chance="2958" />
+		<item id="24637" name="oriental shoes" chance="2920" />
+		<item id="2158" name="blue gem" chance="2733" />
+		<item id="8871" name="focus cape" chance="2209" />
 		<item id="7899" name="magma coat" chance="2059" />
-		<item id="2187" name="wand of inferno" chance="1318" />
-		<item id="8902" name="spellbook of mind control" chance="1071" />
-		<item id="6300" name="death ring" chance="947" />
+		<item id="2187" name="wand of inferno" chance="1310" />
+		<item id="8902" name="spellbook of mind control" chance="1123" />
+		<item id="6300" name="death ring" chance="1011" />
 	</loot>
 </monster>

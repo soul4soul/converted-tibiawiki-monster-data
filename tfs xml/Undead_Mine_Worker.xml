@@ -50,11 +50,11 @@
 		<voice sentence="Urrrgh... gnarrr..." yell="false" />
 	</voices>
 	<loot>
-		<item id="2230" name="bone" chance="50295" />
-		<item id="2148" name="gold coin" chance="44724" countmax="10" />
-		<item id="2398" name="mace" chance="20246" />
-		<item id="2787" name="white mushroom" chance="17300" countmax="3" />
-		<item id="2789" name="brown mushroom" chance="4928" />
-		<item id="2376" name="sword" chance="1821" />
+		<item id="2230" name="bone" chance="50272" />
+		<item id="2148" name="gold coin" chance="44823" countmax="10" />
+		<item id="2398" name="mace" chance="20209" />
+		<item id="2787" name="white mushroom" chance="16848" countmax="3" />
+		<item id="2789" name="brown mushroom" chance="4905" />
+		<item id="2376" name="sword" chance="2044" />
 	</loot>
 </monster>

@@ -42,7 +42,7 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-20" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-100" range="7">
+		<attack name="physical" interval="2000" chance="15" min="0" max="-100" range="5" radius="1" target="1">
 			<attribute key="shootEffect" value="arrow" />
 		</attack>
 	</attacks>
@@ -54,22 +54,22 @@
 		<voice sentence="You'll make a nice trophy!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2544" name="arrow" chance="82464" countmax="22" />
-		<item id="2675" name="orange" chance="20119" countmax="2" />
-		<item id="2690" name="roll" chance="11170" countmax="2" />
-		<item id="12425" name="hunter's quiver" chance="10161" />
-		<item id="2456" name="bow" chance="5851" />
-		<item id="2546" name="burst arrow" chance="5183" countmax="3" />
-		<item id="2465" name="brass armor" chance="5117" />
-		<item id="2460" name="brass helmet" chance="5002" />
-		<item id="2545" name="poison arrow" chance="4339" countmax="4" />
-		<item id="2201" name="dragon necklace" chance="3111" />
-		<item name="torch" chance="3078" />
-		<item id="5875" name="sniper gloves" chance="532" />
-		<item id="7397" name="deer trophy" chance="461" />
-		<item id="2147" name="small ruby" chance="177" />
-		<item id="7400" name="lion trophy" chance="136" />
-		<item id="7394" name="wolf trophy" chance="124" />
-		<item id="5907" name="slingshot" chance="111" />
+		<item id="2544" name="arrow" chance="82449" countmax="22" />
+		<item id="2675" name="orange" chance="20145" countmax="2" />
+		<item id="2690" name="roll" chance="11164" countmax="2" />
+		<item id="12425" name="hunter's quiver" chance="10156" />
+		<item id="2456" name="bow" chance="5861" />
+		<item id="2546" name="burst arrow" chance="5188" countmax="3" />
+		<item id="2465" name="brass armor" chance="5111" />
+		<item id="2460" name="brass helmet" chance="4997" />
+		<item id="2545" name="poison arrow" chance="4348" countmax="4" />
+		<item id="2201" name="dragon necklace" chance="3112" />
+		<item name="torch" chance="3092" />
+		<item id="5875" name="sniper gloves" chance="530" />
+		<item id="7397" name="deer trophy" chance="457" />
+		<item id="2147" name="small ruby" chance="175" />
+		<item id="7400" name="lion trophy" chance="139" />
+		<item id="7394" name="wolf trophy" chance="126" />
+		<item id="5907" name="slingshot" chance="114" />
 	</loot>
 </monster>

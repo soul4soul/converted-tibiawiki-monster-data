@@ -49,28 +49,28 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="155" />
-		<item id="2152" name="platinum coin" chance="65159" countmax="3" />
-		<item id="2671" name="ham" chance="59411" />
-		<item id="23575" name="cowbell" chance="22299" />
-		<item id="2510" name="plate shield" chance="20019" />
-		<item id="10556" name="cultish robe" chance="15135" />
-		<item id="2172" name="bronze amulet" chance="15069" />
-		<item id="12428" name="minotaur horn" chance="14204" countmax="2" />
-		<item id="23546" name="mino shield" chance="12352" />
-		<item id="5878" name="minotaur leather" chance="11800" />
-		<item id="7591" name="great health potion" chance="11781" />
-		<item id="2666" name="meat" chance="7639" />
-		<item id="2214" name="ring of healing" chance="3249" />
-		<item id="2147" name="small ruby" chance="3154" countmax="2" />
-		<item id="2149" name="small emerald" chance="3135" countmax="2" />
-		<item id="2150" name="small amethyst" chance="2964" countmax="2" />
-		<item id="9970" name="small topaz" chance="2698" countmax="2" />
-		<item id="23545" name="mino lance" chance="1929" />
-		<item id="9971" name="gold ingot" chance="979" />
-		<item id="5911" name="red piece of cloth" chance="912" />
-		<item id="2475" name="warrior helmet" chance="532" />
-		<item id="2154" name="yellow gem" chance="219" />
-		<item id="7401" name="minotaur trophy" chance="200" />
-		<item id="2156" name="red gem" chance="152" />
+		<item id="2152" name="platinum coin" chance="65107" countmax="3" />
+		<item id="2671" name="ham" chance="59356" />
+		<item id="23575" name="cowbell" chance="22239" />
+		<item id="2510" name="plate shield" chance="20071" />
+		<item id="10556" name="cultish robe" chance="15195" />
+		<item id="2172" name="bronze amulet" chance="15037" />
+		<item id="12428" name="minotaur horn" chance="14199" countmax="2" />
+		<item id="23546" name="mino shield" chance="12376" />
+		<item id="5878" name="minotaur leather" chance="11789" />
+		<item id="7591" name="great health potion" chance="11761" />
+		<item id="2666" name="meat" chance="7704" />
+		<item id="2214" name="ring of healing" chance="3266" />
+		<item id="2149" name="small emerald" chance="3154" countmax="2" />
+		<item id="2147" name="small ruby" chance="3126" countmax="2" />
+		<item id="2150" name="small amethyst" chance="2959" countmax="2" />
+		<item id="9970" name="small topaz" chance="2736" countmax="2" />
+		<item id="23545" name="mino lance" chance="1898" />
+		<item id="9971" name="gold ingot" chance="977" />
+		<item id="5911" name="red piece of cloth" chance="903" />
+		<item id="2475" name="warrior helmet" chance="530" />
+		<item id="2154" name="yellow gem" chance="223" />
+		<item id="7401" name="minotaur trophy" chance="205" />
+		<item id="2156" name="red gem" chance="149" />
 	</loot>
 </monster>

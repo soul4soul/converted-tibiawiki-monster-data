@@ -53,16 +53,16 @@
 		<voice sentence="I will study your corpse!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="59979" countmax="115" />
-		<item id="7618" name="health potion" chance="19927" />
-		<item id="7620" name="mana potion" chance="19648" />
-		<item id="2787" name="white mushroom" chance="8009" countmax="3" />
-		<item id="2803" name="powder herb" chance="6104" />
-		<item id="2162" name="magic light wand" chance="2031" />
+		<item id="2148" name="gold coin" chance="59955" countmax="115" />
+		<item id="7618" name="health potion" chance="19950" />
+		<item id="7620" name="mana potion" chance="19650" />
+		<item id="2787" name="white mushroom" chance="8003" countmax="3" />
+		<item id="2803" name="powder herb" chance="6113" />
+		<item id="2162" name="magic light wand" chance="2035" />
 		<item id="2177" name="life crystal" chance="2015" />
-		<item id="2687" name="cookie" chance="1206" countmax="5" />
-		<item id="6393" name="cream cake" chance="806" />
-		<item id="7762" name="small enchanted amethyst" chance="500" />
-		<item id="7440" name="mastermind potion" chance="120" />
+		<item id="2687" name="cookie" chance="1202" countmax="5" />
+		<item id="6393" name="cream cake" chance="797" />
+		<item id="7762" name="small enchanted amethyst" chance="497" />
+		<item id="7440" name="mastermind potion" chance="119" />
 	</loot>
 </monster>

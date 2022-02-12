@@ -50,20 +50,20 @@
 	</attacks>
 	<defenses armor="82" defense="82" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="60941" countmax="35" />
-		<item id="31225" name="book page" chance="49251" countmax="4" />
-		<item id="6558" name="flask of demonic blood" chance="42293" />
-		<item id="31222" name="silken bookmark" chance="19227" />
-		<item id="6500" name="demonic essence" chance="18900" />
-		<item id="7899" name="magma coat" chance="11627" />
-		<item id="2515" name="guardian shield" chance="8481" />
-		<item id="2150" name="small amethyst" chance="5600" countmax="7" />
-		<item id="5944" name="soul orb" chance="5222" />
-		<item id="2419" name="scimitar" chance="4568" />
-		<item id="2185" name="necrotic rod" chance="3838" />
-		<item id="6300" name="death ring" chance="2441" />
-		<item id="7900" name="magma monocle" chance="1409" />
-		<item id="2165" name="stealth ring" chance="705" />
-		<item id="7451" name="shadow sceptre" chance="340" />
+		<item id="2152" name="platinum coin" chance="60929" countmax="35" />
+		<item id="31225" name="book page" chance="49249" countmax="4" />
+		<item id="6558" name="flask of demonic blood" chance="42251" />
+		<item id="31222" name="silken bookmark" chance="19291" />
+		<item id="6500" name="demonic essence" chance="18891" />
+		<item id="7899" name="magma coat" chance="11617" />
+		<item id="2515" name="guardian shield" chance="8525" />
+		<item id="2150" name="small amethyst" chance="5608" countmax="7" />
+		<item id="5944" name="soul orb" chance="5208" />
+		<item id="2419" name="scimitar" chance="4557" />
+		<item id="2185" name="necrotic rod" chance="3868" />
+		<item id="6300" name="death ring" chance="2429" />
+		<item id="7900" name="magma monocle" chance="1415" />
+		<item id="2165" name="stealth ring" chance="714" />
+		<item id="7451" name="shadow sceptre" chance="351" />
 	</loot>
 </monster>

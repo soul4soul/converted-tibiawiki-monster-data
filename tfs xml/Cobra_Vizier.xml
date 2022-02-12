@@ -50,22 +50,22 @@
 		<voice sentence="OH NO, YOU WON'T!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="71094" countmax="4" />
-		<item id="2181" name="terra rod" chance="32067" />
-		<item id="34334" name="cobra crest" chance="14574" />
-		<item id="7886" name="terra boots" chance="14107" />
-		<item id="7903" name="terra hood" chance="12947" />
-		<item id="2182" name="snakebite rod" chance="12385" />
-		<item id="18419" name="cyan crystal fragment" chance="11225" />
-		<item id="2156" name="red gem" chance="7259" />
-		<item id="7633" name="giant shimmering pearl (brown)" chance="6586" />
-		<item id="18421" name="green crystal fragment" chance="5070" />
-		<item id="27048" name="gemmed figurine" chance="4509" />
-		<item id="18414" name="violet crystal shard" chance="3555" />
+		<item id="2152" name="platinum coin" chance="71264" countmax="4" />
+		<item id="2181" name="terra rod" chance="32171" />
+		<item id="34334" name="cobra crest" chance="14825" />
+		<item id="7886" name="terra boots" chance="14199" />
+		<item id="7903" name="terra hood" chance="13099" />
+		<item id="2182" name="snakebite rod" chance="12405" />
+		<item id="18419" name="cyan crystal fragment" chance="11288" />
+		<item id="2156" name="red gem" chance="7412" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="6532" />
+		<item id="18421" name="green crystal fragment" chance="5077" />
+		<item id="27048" name="gemmed figurine" chance="4468" />
+		<item id="18414" name="violet crystal shard" chance="3757" />
 		<item id="2127" name="emerald bangle" chance="3368" />
-		<item id="2155" name="green gem" chance="3162" />
-		<item id="18420" name="red crystal fragment" chance="2900" />
-		<item id="2409" name="serpent sword" chance="2638" />
-		<item id="24849" name="onyx chip" chance="898" countmax="3" />
+		<item id="2155" name="green gem" chance="3182" />
+		<item id="18420" name="red crystal fragment" chance="2843" />
+		<item id="2409" name="serpent sword" chance="2572" />
+		<item id="24849" name="onyx chip" chance="914" countmax="3" />
 	</loot>
 </monster>

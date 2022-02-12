@@ -48,23 +48,23 @@
 		<voice sentence="Ulderek futgyr human!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2667" name="fish" chance="30099" />
-		<item id="2148" name="gold coin" chance="28247" countmax="35" />
-		<item id="12435" name="orc leather" chance="19732" />
-		<item id="2510" name="plate shield" chance="10146" />
-		<item id="2410" name="throwing knife" chance="9998" countmax="4" />
-		<item id="2789" name="brown mushroom" chance="9813" />
-		<item id="2207" name="sword ring" chance="3779" />
-		<item id="2397" name="longsword" chance="2958" />
-		<item id="7378" name="royal spear" chance="2642" />
+		<item id="2667" name="fish" chance="30096" />
+		<item id="2148" name="gold coin" chance="28223" countmax="35" />
+		<item id="12435" name="orc leather" chance="19741" />
+		<item id="2510" name="plate shield" chance="10145" />
+		<item id="2410" name="throwing knife" chance="10001" countmax="4" />
+		<item id="2789" name="brown mushroom" chance="9819" />
+		<item id="2207" name="sword ring" chance="3775" />
+		<item id="2397" name="longsword" chance="2955" />
+		<item id="7378" name="royal spear" chance="2645" />
 		<item id="2478" name="brass legs" chance="2438" />
-		<item id="2419" name="scimitar" chance="2189" />
-		<item id="12436" name="skull belt" chance="2110" />
-		<item id="2463" name="plate armor" chance="1595" />
-		<item id="11113" name="orc tooth" chance="1025" />
-		<item id="2413" name="broadsword" chance="753" />
-		<item id="7618" name="health potion" chance="583" />
-		<item id="2647" name="plate legs" chance="398" />
-		<item id="2475" name="warrior helmet" chance="115" />
+		<item id="2419" name="scimitar" chance="2193" />
+		<item id="12436" name="skull belt" chance="2115" />
+		<item id="2463" name="plate armor" chance="1592" />
+		<item id="11113" name="orc tooth" chance="1023" />
+		<item id="2413" name="broadsword" chance="751" />
+		<item id="7618" name="health potion" chance="582" />
+		<item id="2647" name="plate legs" chance="397" />
+		<item id="2475" name="warrior helmet" chance="114" />
 	</loot>
 </monster>

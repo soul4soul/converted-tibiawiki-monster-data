@@ -49,11 +49,11 @@
 		<voice sentence="Remain. Obedient." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82111" countmax="55" />
-		<item id="9690" name="gear wheel" chance="4819" />
-		<item id="7618" name="health potion" chance="1958" />
-		<item id="2381" name="halberd" chance="1014" />
-		<item id="9808" name="heavily rusted armor" chance="507" />
-		<item id="13758" name="slime mould" chance="314" />
+		<item id="2148" name="gold coin" chance="82114" countmax="55" />
+		<item id="9690" name="gear wheel" chance="4811" />
+		<item id="7618" name="health potion" chance="1957" />
+		<item id="2381" name="halberd" chance="1015" />
+		<item id="9808" name="heavily rusted armor" chance="506" />
+		<item id="13758" name="slime mould" chance="312" />
 	</loot>
 </monster>

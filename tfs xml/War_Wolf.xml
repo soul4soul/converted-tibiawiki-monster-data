@@ -49,9 +49,9 @@
 		<voice sentence="Grrrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2671" name="ham" chance="39142" />
-		<item id="11235" name="warwolf fur" chance="4971" />
-		<item id="5897" name="wolf paw" chance="1003" />
-		<item id="7394" name="wolf trophy" chance="49" />
+		<item id="2671" name="ham" chance="39141" />
+		<item id="11235" name="warwolf fur" chance="4960" />
+		<item id="5897" name="wolf paw" chance="998" />
+		<item id="7394" name="wolf trophy" chance="48" />
 	</loot>
 </monster>

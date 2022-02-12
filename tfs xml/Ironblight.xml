@@ -51,28 +51,28 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="199" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="8" />
-		<item id="10571" name="war crystal" chance="21277" />
-		<item id="8473" name="ultimate health potion" chance="18628" />
-		<item id="18432" name="crystalline spikes" chance="17846" />
-		<item id="7590" name="great mana potion" chance="17108" />
-		<item id="2150" name="small amethyst" chance="15067" countmax="3" />
-		<item id="11227" name="shiny stone" chance="14199" />
-		<item id="18417" name="brown crystal splinter" chance="12636" countmax="2" />
-		<item id="18420" name="red crystal fragment" chance="10855" />
-		<item id="2149" name="small emerald" chance="10551" countmax="3" />
-		<item id="18415" name="green crystal shard" chance="5558" />
-		<item id="9942" name="crystal of balance" chance="4907" />
-		<item id="2156" name="red gem" chance="3474" />
-		<item id="9980" name="crystal of power" chance="2388" />
-		<item id="8912" name="springsprout rod" chance="1693" />
-		<item id="18412" name="glacial rod" chance="912" />
-		<item id="5904" name="magic sulphur" chance="912" />
-		<item id="7885" name="terra legs" chance="912" />
-		<item id="7437" name="sapphire hammer" chance="782" />
-		<item id="2158" name="blue gem" chance="608" />
-		<item id="2438" name="epee" chance="608" />
-		<item id="2445" name="crystal mace" chance="521" />
-		<item id="11368" name="jade hat" chance="261" />
-		<item id="8855" name="composite hornbow" chance="174" />
+		<item id="10571" name="war crystal" chance="21195" />
+		<item id="8473" name="ultimate health potion" chance="18573" />
+		<item id="18432" name="crystalline spikes" chance="17885" />
+		<item id="7590" name="great mana potion" chance="17111" />
+		<item id="2150" name="small amethyst" chance="15090" countmax="3" />
+		<item id="11227" name="shiny stone" chance="14230" />
+		<item id="18417" name="brown crystal splinter" chance="12726" countmax="2" />
+		<item id="18420" name="red crystal fragment" chance="10791" />
+		<item id="2149" name="small emerald" chance="10576" countmax="3" />
+		<item id="18415" name="green crystal shard" chance="5503" />
+		<item id="9942" name="crystal of balance" chance="4944" />
+		<item id="2156" name="red gem" chance="3439" />
+		<item id="9980" name="crystal of power" chance="2365" />
+		<item id="8912" name="springsprout rod" chance="1677" />
+		<item id="18412" name="glacial rod" chance="903" />
+		<item id="5904" name="magic sulphur" chance="903" />
+		<item id="7885" name="terra legs" chance="903" />
+		<item id="7437" name="sapphire hammer" chance="774" />
+		<item id="2158" name="blue gem" chance="602" />
+		<item id="2438" name="epee" chance="602" />
+		<item id="2445" name="crystal mace" chance="516" />
+		<item id="11368" name="jade hat" chance="258" />
+		<item id="8855" name="composite hornbow" chance="172" />
 	</loot>
 </monster>

@@ -49,23 +49,23 @@
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="3" />
-		<item id="2148" name="gold coin" chance="80628" countmax="75" />
-		<item id="8845" name="beetroot" chance="25401" />
-		<item id="24707" name="werebadger claws" chance="14894" />
-		<item id="24711" name="werebadger skull" chance="14106" />
-		<item id="2789" name="brown mushroom" chance="7499" />
-		<item id="7620" name="mana potion" chance="5214" />
-		<item id="2805" name="troll green" chance="5135" />
-		<item id="7589" name="strong mana potion" chance="3861" />
-		<item id="24739" name="moonlight crystals" chance="2049" />
-		<item id="7590" name="great mana potion" chance="2036" />
-		<item id="7762" name="small enchanted amethyst" chance="1642" countmax="2" />
-		<item id="2214" name="ring of healing" chance="972" />
-		<item id="24742" name="badger boots" chance="867" />
-		<item id="24716" name="werewolf amulet" chance="657" />
-		<item id="2171" name="platinum amulet" chance="525" />
-		<item id="8922" name="wand of voodoo" chance="394" />
-		<item id="8910" name="underworld rod" chance="355" />
-		<item id="24757" name="werebadger trophy" chance="302" />
+		<item id="2148" name="gold coin" chance="80713" countmax="75" />
+		<item id="8845" name="beetroot" chance="25461" />
+		<item id="24707" name="werebadger claws" chance="14933" />
+		<item id="24711" name="werebadger skull" chance="14155" />
+		<item id="2789" name="brown mushroom" chance="7504" />
+		<item id="7620" name="mana potion" chance="5220" />
+		<item id="2805" name="troll green" chance="5107" />
+		<item id="7589" name="strong mana potion" chance="3815" />
+		<item id="24739" name="moonlight crystals" chance="2020" />
+		<item id="7590" name="great mana potion" chance="1995" />
+		<item id="7762" name="small enchanted amethyst" chance="1644" countmax="2" />
+		<item id="2214" name="ring of healing" chance="941" />
+		<item id="24742" name="badger boots" chance="878" />
+		<item id="24716" name="werewolf amulet" chance="640" />
+		<item id="2171" name="platinum amulet" chance="552" />
+		<item id="8922" name="wand of voodoo" chance="389" />
+		<item id="8910" name="underworld rod" chance="364" />
+		<item id="24757" name="werebadger trophy" chance="314" />
 	</loot>
 </monster>

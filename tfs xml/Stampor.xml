@@ -50,16 +50,16 @@
 		<voice sentence="KRRRRRNG" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="94595" countmax="242" />
-		<item id="2152" name="platinum coin" chance="10011" countmax="2" />
-		<item id="13300" name="stampor talons" chance="9798" />
-		<item id="9970" name="small topaz" chance="7872" countmax="2" />
-		<item id="7589" name="strong mana potion" chance="5061" countmax="2" />
-		<item id="13299" name="stampor horn" chance="4960" />
-		<item id="7588" name="strong health potion" chance="4869" countmax="2" />
-		<item id="13301" name="hollow stampor hoof" chance="3064" />
-		<item id="2391" name="war hammer" chance="1031" />
-		<item id="2476" name="knight armor" chance="839" />
-		<item id="7452" name="spiked squelcher" chance="192" />
+		<item id="2148" name="gold coin" chance="94575" countmax="242" />
+		<item id="2152" name="platinum coin" chance="10021" countmax="2" />
+		<item id="13300" name="stampor talons" chance="9810" />
+		<item id="9970" name="small topaz" chance="7859" countmax="2" />
+		<item id="7589" name="strong mana potion" chance="5058" countmax="2" />
+		<item id="13299" name="stampor horn" chance="4958" />
+		<item id="7588" name="strong health potion" chance="4857" countmax="2" />
+		<item id="13301" name="hollow stampor hoof" chance="3067" />
+		<item id="2391" name="war hammer" chance="1026" />
+		<item id="2476" name="knight armor" chance="835" />
+		<item id="7452" name="spiked squelcher" chance="191" />
 	</loot>
 </monster>

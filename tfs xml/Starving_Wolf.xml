@@ -50,8 +50,8 @@
 		<voice sentence="Yoooohhuuuu!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2220" name="dirty fur" chance="65359" />
-		<item id="2666" name="meat" chance="5179" />
-		<item id="5897" name="wolf paw" chance="1452" />
+		<item id="2220" name="dirty fur" chance="65285" />
+		<item id="2666" name="meat" chance="5199" />
+		<item id="5897" name="wolf paw" chance="1446" />
 	</loot>
 </monster>

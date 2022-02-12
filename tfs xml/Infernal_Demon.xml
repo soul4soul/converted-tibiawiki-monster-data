@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Infernal Demon" nameDescription="an infernal demon" experience="15560" speed="400" manacost="0">
+<monster name="Infernal Demon" nameDescription="an infernal demon" experience="17430" speed="400" manacost="0">
 	<health now="32000" max="32000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -50,4 +50,7 @@
 		<voice sentence="The smell of fear follows you." yell="false" />
 		<voice sentence="Your soul will burn." yell="false" />
 	</voices>
+	<loot>
+		<item id="2160" name="crystal coin" chance="100000" />
+	</loot>
 </monster>

@@ -52,17 +52,17 @@
 		<voice sentence="Me have him!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="50264" countmax="9" />
-		<item id="1294" name="small stone" chance="15286" />
-		<item id="2667" name="fish" chance="12992" />
-		<item id="2559" name="small axe" chance="9868" />
-		<item id="2406" name="short sword" chance="8843" />
-		<item id="2449" name="bone club" chance="4926" />
-		<item id="2467" name="leather armor" chance="2500" />
-		<item id="2461" name="leather helmet" chance="1943" />
-		<item id="2379" name="dagger" chance="1799" />
-		<item id="2230" name="bone" chance="1066" />
+		<item id="2148" name="gold coin" chance="50276" countmax="9" />
+		<item id="1294" name="small stone" chance="15280" />
+		<item id="2667" name="fish" chance="13002" />
+		<item id="2559" name="small axe" chance="9859" />
+		<item id="2406" name="short sword" chance="8848" />
+		<item id="2449" name="bone club" chance="4927" />
+		<item id="2467" name="leather armor" chance="2506" />
+		<item id="2461" name="leather helmet" chance="1941" />
+		<item id="2379" name="dagger" chance="1798" />
+		<item id="2230" name="bone" chance="1071" />
 		<item id="2235" name="mouldy cheese" chance="999" />
-		<item id="12495" name="goblin ear" chance="946" />
+		<item id="12495" name="goblin ear" chance="944" />
 	</loot>
 </monster>

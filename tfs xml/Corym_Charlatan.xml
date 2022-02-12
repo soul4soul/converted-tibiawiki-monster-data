@@ -41,7 +41,7 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
 	</attacks>
 	<defenses armor="17" defense="17" />
 	<voices interval="5000" chance="10">
@@ -49,17 +49,17 @@
 		<voice sentence="Beware! Me hexing you!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="81447" countmax="35" />
-		<item id="20101" name="rat cheese" chance="14794" />
+		<item id="2148" name="gold coin" chance="81466" countmax="35" />
+		<item id="20101" name="rat cheese" chance="14780" />
 		<item id="20100" name="soft cheese" chance="12483" />
-		<item id="3607" name="cheese" chance="9679" />
-		<item id="20089" name="bola" chance="7834" />
-		<item id="20099" name="earflap" chance="7260" />
-		<item id="20097" name="cheese cutter" chance="6510" />
-		<item id="20092" name="ratana" chance="654" />
-		<item id="20093" name="life preserver" chance="601" />
-		<item id="20098" name="cheesy figurine" chance="536" />
-		<item id="20126" name="leather harness" chance="461" />
+		<item id="3607" name="cheese" chance="9651" />
+		<item id="20089" name="bola" chance="7845" />
+		<item id="20099" name="earflap" chance="7300" />
+		<item id="20097" name="cheese cutter" chance="6511" />
+		<item id="20092" name="ratana" chance="646" />
+		<item id="20093" name="life preserver" chance="603" />
+		<item id="20098" name="cheesy figurine" chance="529" />
+		<item id="20126" name="leather harness" chance="466" />
 		<item id="20090" name="spike shield" chance="424" />
 		<item id="20105" name="rat god doll" chance="5" />
 	</loot>

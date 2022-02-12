@@ -43,13 +43,16 @@
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="250" />
-		<item id="2152" name="platinum coin" chance="94444" countmax="12" />
-		<item id="2114" name="piggy bank" chance="50000" />
+		<item id="2152" name="platinum coin" chance="96296" countmax="12" />
+		<item id="2114" name="piggy bank" chance="44444" />
 		<item id="7591" name="great health potion" chance="33333" countmax="5" />
-		<item id="7368" name="assassin star" chance="22222" countmax="10" />
-		<item id="7590" name="great mana potion" chance="16667" countmax="5" />
-		<item id="2146" name="small sapphire" chance="16667" countmax="5" />
+		<item id="7590" name="great mana potion" chance="25926" countmax="5" />
+		<item id="2146" name="small sapphire" chance="18519" countmax="5" />
+		<item id="7368" name="assassin star" chance="14815" countmax="10" />
 		<item id="2178" name="mind stone" chance="11111" />
-		<item id="12410" name="luminous orb" chance="5556" />
+		<item id="7443" name="bullseye potion" chance="3704" />
+		<item id="9980" name="crystal of power" chance="3704" />
+		<item id="2792" name="dark mushroom" chance="3704" countmax="2" />
+		<item id="12410" name="luminous orb" chance="3704" />
 	</loot>
 </monster>

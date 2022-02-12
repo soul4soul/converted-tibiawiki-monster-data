@@ -55,22 +55,22 @@
 		<voice sentence="You won't regret you came to me, sweetheart." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="93586" countmax="149" />
-		<item id="7589" name="strong mana potion" chance="10343" />
-		<item id="10602" name="vampire teeth" chance="10046" />
+		<item id="2148" name="gold coin" chance="93603" countmax="149" />
+		<item id="7589" name="strong mana potion" chance="10349" />
+		<item id="10602" name="vampire teeth" chance="10035" />
 		<item id="2152" name="platinum coin" chance="10007" />
-		<item id="2186" name="moonlight rod" chance="5205" />
-		<item id="12405" name="blood preservation" chance="5035" />
-		<item id="7588" name="strong health potion" chance="4844" />
-		<item id="9837" name="velvet tapestry" chance="1031" />
-		<item id="2127" name="emerald bangle" chance="1021" />
-		<item id="9809" name="rusted armor" chance="1017" />
-		<item id="2145" name="small diamond" chance="1013" countmax="2" />
-		<item id="8873" name="hibiscus dress" chance="982" />
-		<item id="2195" name="boots of haste" chance="202" />
-		<item id="7733" name="flower bouquet" chance="177" />
-		<item id="5669" name="mysterious voodoo skull" chance="149" />
-		<item id="9447" name="blood goblet" chance="92" />
+		<item id="2186" name="moonlight rod" chance="5204" />
+		<item id="12405" name="blood preservation" chance="5040" />
+		<item id="7588" name="strong health potion" chance="4834" />
+		<item id="9837" name="velvet tapestry" chance="1032" />
+		<item id="2127" name="emerald bangle" chance="1029" />
+		<item id="2145" name="small diamond" chance="1015" countmax="2" />
+		<item id="9809" name="rusted armor" chance="1012" />
+		<item id="8873" name="hibiscus dress" chance="977" />
+		<item id="2195" name="boots of haste" chance="199" />
+		<item id="7733" name="flower bouquet" chance="174" />
+		<item id="5669" name="mysterious voodoo skull" chance="146" />
+		<item id="9447" name="blood goblet" chance="91" />
 		<item id="13293" name="leather whip" chance="35" />
 	</loot>
 </monster>

@@ -50,10 +50,10 @@
 		<voice sentence="Snarl!" yell="false" />
 	</voices>
 	<loot>
-		<item id="24842" name="raw meat" chance="18001" />
-		<item id="5925" name="hardened bone" chance="7238" />
-		<item id="11224" name="thick fur" chance="6719" />
-		<item id="3973" name="tusk shield" chance="546" />
-		<item id="7432" name="furry club" chance="464" />
+		<item id="24842" name="raw meat" chance="17812" />
+		<item id="5925" name="hardened bone" chance="7095" />
+		<item id="11224" name="thick fur" chance="7045" />
+		<item id="3973" name="tusk shield" chance="571" />
+		<item id="7432" name="furry club" chance="422" />
 	</loot>
 </monster>

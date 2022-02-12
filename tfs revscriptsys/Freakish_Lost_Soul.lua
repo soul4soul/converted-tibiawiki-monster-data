@@ -88,15 +88,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 34883, chance = 45944},
-	{id = 2127, chance = 7544},
-	{id = 35359, chance = 5615},
-	{id = 27048, chance = 4594},
-	{id = 35354, chance = 3403},
-	{id = "ring of blue plasma", chance = 1872},
-	{id = 35428, chance = 1134},
-	{id = 15644, chance = 964},
-	{id = 18453, chance = 737}
+	{id = 34883, chance = 45886},
+	{id = 2127, chance = 8017},
+	{id = 35359, chance = 5643},
+	{id = 27048, chance = 4694},
+	{id = 35354, chance = 3428},
+	{id = "ring of blue plasma", chance = 1846},
+	{id = 35428, chance = 1213},
+	{id = 15644, chance = 949},
+	{id = 18453, chance = 738}
 }
 
 mType:register(monster)

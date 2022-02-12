@@ -43,16 +43,20 @@
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
 	</attacks>
-	<defenses armor="20" defense="20" />
+	<defenses armor="20" defense="20">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="Hooooot-Toooooot!" yell="false" />
 		<voice sentence="Tooooot!" yell="false" />
 		<voice sentence="Trooooot!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="40816" />
-		<item id="2671" name="ham" chance="29178" />
-		<item id="3956" name="tusk" chance="8654" countmax="2" />
+		<item id="2666" name="meat" chance="40768" />
+		<item id="2671" name="ham" chance="29219" />
+		<item id="3956" name="tusk" chance="8637" countmax="2" />
 		<item id="3973" name="tusk shield" chance="99" />
 	</loot>
 </monster>

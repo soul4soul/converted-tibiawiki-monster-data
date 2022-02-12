@@ -46,6 +46,6 @@
 	<defenses armor="2" defense="2" />
 	<loot>
 		<item id="2148" name="gold coin" chance="74634" countmax="4" />
-		<item id="12441" name="poison spider shell" chance="1065" />
+		<item id="12441" name="poison spider shell" chance="1059" />
 	</loot>
 </monster>

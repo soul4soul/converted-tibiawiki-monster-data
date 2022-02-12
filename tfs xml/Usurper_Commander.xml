@@ -46,22 +46,22 @@
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="36820" name="fur shred" chance="16787" />
-		<item id="2386" name="axe" chance="16064" />
-		<item id="36818" name="lion cloak patch" chance="9783" />
-		<item id="36816" name="lion crest" chance="8727" />
-		<item id="2456" name="bow" chance="8505" />
-		<item id="7633" name="giant shimmering pearl (brown)" chance="8060" />
-		<item id="9971" name="gold ingot" chance="8060" />
-		<item id="8901" name="spellbook of warding" chance="5003" />
-		<item id="8922" name="wand of voodoo" chance="4002" />
-		<item id="8912" name="springsprout rod" chance="3613" />
-		<item id="2155" name="green gem" chance="2835" />
-		<item id="2153" name="violet gem" chance="2335" />
-		<item name="ring of blue plasma" chance="2001" />
-		<item name="ring of red plasma" chance="2001" />
-		<item id="18413" name="blue crystal shard" chance="1556" />
-		<item id="7443" name="bullseye potion" chance="278" />
-		<item name="giant shimmering pearl" chance="222" />
+		<item id="36820" name="fur shred" chance="16704" />
+		<item id="2386" name="axe" chance="15632" />
+		<item id="36818" name="lion cloak patch" chance="9603" />
+		<item id="9971" name="gold ingot" chance="8754" />
+		<item id="36816" name="lion crest" chance="8754" />
+		<item id="2456" name="bow" chance="8397" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="7682" />
+		<item id="8901" name="spellbook of warding" chance="5181" />
+		<item id="8922" name="wand of voodoo" chance="3930" />
+		<item id="8912" name="springsprout rod" chance="3752" />
+		<item id="2155" name="green gem" chance="2858" />
+		<item id="2153" name="violet gem" chance="2546" />
+		<item name="ring of red plasma" chance="2054" />
+		<item name="ring of blue plasma" chance="1921" />
+		<item id="18413" name="blue crystal shard" chance="1608" />
+		<item id="7443" name="bullseye potion" chance="357" />
+		<item name="giant shimmering pearl" chance="179" />
 	</loot>
 </monster>

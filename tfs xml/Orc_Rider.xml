@@ -53,16 +53,16 @@
 		<voice sentence="Grrrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="48173" countmax="81" />
-		<item id="2666" name="meat" chance="24200" />
-		<item id="2129" name="wolf tooth chain" chance="10163" />
-		<item id="12435" name="orc leather" chance="10018" />
-		<item id="11235" name="warwolf fur" chance="9708" />
-		<item id="2428" name="orcish axe" chance="7047" countmax="2" />
-		<item id="11113" name="orc tooth" chance="2098" />
-		<item id="2513" name="battle shield" chance="1018" />
-		<item id="2425" name="obsidian lance" chance="999" />
-		<item name="torch" chance="999" />
-		<item id="2483" name="scale armor" chance="626" />
+		<item id="2148" name="gold coin" chance="48219" countmax="81" />
+		<item id="2666" name="meat" chance="24137" />
+		<item id="2129" name="wolf tooth chain" chance="10198" />
+		<item id="12435" name="orc leather" chance="10056" />
+		<item id="11235" name="warwolf fur" chance="9716" />
+		<item id="2428" name="orcish axe" chance="7019" countmax="2" />
+		<item id="11113" name="orc tooth" chance="2127" />
+		<item name="torch" chance="1027" />
+		<item id="2513" name="battle shield" chance="1008" />
+		<item id="2425" name="obsidian lance" chance="1002" />
+		<item id="2483" name="scale armor" chance="618" />
 	</loot>
 </monster>

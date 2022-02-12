@@ -51,15 +51,15 @@
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="3" />
-		<item id="34099" name="fafnar symbol" chance="8683" />
-		<item name="secret instruction" chance="6852" />
-		<item id="33987" name="empty honey glass" chance="2835" />
-		<item id="2454" name="war axe" chance="2776" />
-		<item id="2188" name="wand of decay" chance="2569" />
-		<item id="2418" name="golden sickle" chance="1920" />
-		<item id="7383" name="relic sword" chance="1536" />
-		<item id="18409" name="wand of everblazing" chance="1152" />
-		<item id="33980" name="golden mask" chance="561" />
-		<item id="33979" name="sea horse figurine" chance="473" />
+		<item id="34099" name="fafnar symbol" chance="8865" />
+		<item name="secret instruction" chance="7138" />
+		<item id="33987" name="empty honey glass" chance="2924" />
+		<item id="2454" name="war axe" chance="2602" />
+		<item id="2188" name="wand of decay" chance="2487" />
+		<item id="2418" name="golden sickle" chance="1819" />
+		<item id="7383" name="relic sword" chance="1566" />
+		<item id="18409" name="wand of everblazing" chance="1220" />
+		<item id="33979" name="sea horse figurine" chance="622" />
+		<item id="33980" name="golden mask" chance="576" />
 	</loot>
 </monster>

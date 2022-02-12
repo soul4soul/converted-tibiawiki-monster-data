@@ -45,15 +45,15 @@
 	</attacks>
 	<defenses armor="29" defense="29" />
 	<loot>
-		<item id="2148" name="gold coin" chance="85509" countmax="137" />
-		<item id="7620" name="mana potion" chance="5266" />
-		<item id="7618" name="health potion" chance="4680" />
-		<item id="2381" name="halberd" chance="2340" />
-		<item id="2796" name="green mushroom" chance="1620" />
-		<item id="9690" name="gear wheel" chance="990" />
-		<item id="8900" name="spellbook of enlightenment" chance="405" />
-		<item id="2165" name="stealth ring" chance="315" />
-		<item id="13758" name="slime mould" chance="270" />
-		<item id="13938" name="golden can of oil" chance="45" />
+		<item id="2148" name="gold coin" chance="85419" countmax="137" />
+		<item id="7620" name="mana potion" chance="5290" />
+		<item id="7618" name="health potion" chance="4559" />
+		<item id="2381" name="halberd" chance="2280" />
+		<item id="2796" name="green mushroom" chance="1634" />
+		<item id="9690" name="gear wheel" chance="989" />
+		<item id="8900" name="spellbook of enlightenment" chance="430" />
+		<item id="2165" name="stealth ring" chance="301" />
+		<item id="13758" name="slime mould" chance="258" />
+		<item id="13938" name="golden can of oil" chance="43" />
 	</loot>
 </monster>

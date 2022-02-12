@@ -56,13 +56,13 @@
 		<voice sentence="From the spirits that I called Sir, deliver me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75045" countmax="45" />
+		<item id="2148" name="gold coin" chance="75053" countmax="45" />
 		<item name="dead frog" chance="11918" />
 		<item id="2260" name="blank rune" chance="8034" countmax="3" />
-		<item id="7620" name="mana potion" chance="2994" />
-		<item id="7618" name="health potion" chance="2889" />
-		<item id="2191" name="wand of dragonbreath" chance="2003" />
-		<item id="2188" name="wand of decay" chance="107" />
+		<item id="7620" name="mana potion" chance="2996" />
+		<item id="7618" name="health potion" chance="2886" />
+		<item id="2191" name="wand of dragonbreath" chance="2002" />
+		<item id="2188" name="wand of decay" chance="108" />
 		<item id="13295" name="reins" chance="7" />
 	</loot>
 </monster>

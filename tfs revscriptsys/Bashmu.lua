@@ -86,23 +86,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 76329, maxCount = 19},
-	{id = 2427, chance = 8696},
-	{id = 39479, chance = 6280},
-	{id = 39477, chance = 5797},
-	{id = 18413, chance = 5797},
-	{id = 10219, chance = 3865},
-	{id = 2153, chance = 3865},
-	{id = 2145, chance = 3382},
-	{id = 8472, chance = 2415},
-	{id = 18415, chance = 2415},
-	{id = 7454, chance = 1932},
-	{id = 7887, chance = 1932},
-	{id = 39476, chance = 1449},
-	{id = 28393, chance = 966},
-	{id = 26200, chance = 483},
-	{id = 7407, chance = 483},
-	{id = 7890, chance = 483}
+	{id = 2152, chance = 69350, maxCount = 19},
+	{id = 2427, chance = 9158},
+	{id = 39479, chance = 5318},
+	{id = 39477, chance = 4948},
+	{id = 10219, chance = 4284},
+	{id = 8472, chance = 3840},
+	{id = 18415, chance = 3471},
+	{id = 18413, chance = 2954},
+	{id = 2145, chance = 2954},
+	{id = 2153, chance = 2733},
+	{id = 39476, chance = 2068},
+	{id = 28393, chance = 1773},
+	{id = 7887, chance = 1773},
+	{id = 7888, chance = 960},
+	{id = 7454, chance = 812},
+	{id = 26200, chance = 665},
+	{id = 7407, chance = 591},
+	{id = 7890, chance = 517},
+	{id = "collar of blue plasma", chance = 443}
 }
 
 mType:register(monster)

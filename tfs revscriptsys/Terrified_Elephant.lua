@@ -86,13 +86,14 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 20,
-	armor = 20
+	armor = 20,
+	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
 }
 
 monster.loot = {
-	{id = 2666, chance = 40816},
-	{id = 2671, chance = 29178},
-	{id = 3956, chance = 8654, maxCount = 2},
+	{id = 2666, chance = 40768},
+	{id = 2671, chance = 29219},
+	{id = 3956, chance = 8637, maxCount = 2},
 	{id = 3973, chance = 99}
 }
 

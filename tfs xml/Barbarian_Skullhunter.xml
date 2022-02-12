@@ -50,17 +50,17 @@
 		<voice sentence="Show that you are a worthy opponent." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="74392" countmax="30" />
-		<item name="torch" chance="60300" />
-		<item id="2460" name="brass helmet" chance="19951" />
-		<item id="2403" name="knife" chance="15056" />
-		<item id="2473" name="viking helmet" chance="7876" />
-		<item id="2483" name="scale armor" chance="4001" />
-		<item id="2229" name="skull (item)" chance="3015" />
-		<item id="7618" name="health potion" chance="923" />
-		<item id="5913" name="brown piece of cloth" chance="520" />
-		<item id="2168" name="life ring" chance="231" />
-		<item id="7457" name="fur boots" chance="101" />
+		<item id="2148" name="gold coin" chance="74381" countmax="30" />
+		<item name="torch" chance="60286" />
+		<item id="2460" name="brass helmet" chance="19949" />
+		<item id="2403" name="knife" chance="15049" />
+		<item id="2473" name="viking helmet" chance="7888" />
+		<item id="2483" name="scale armor" chance="4005" />
+		<item id="2229" name="skull (item)" chance="3013" />
+		<item id="7618" name="health potion" chance="925" />
+		<item id="5913" name="brown piece of cloth" chance="519" />
+		<item id="2168" name="life ring" chance="230" />
+		<item id="7457" name="fur boots" chance="100" />
 		<item id="7462" name="ragnir helmet" chance="96" />
 		<item id="7449" name="crystal sword" chance="84" />
 	</loot>

@@ -45,20 +45,20 @@
 		<item id="28350" name="fairy wings" chance="100000" />
 		<item id="2148" name="gold coin" chance="100000" countmax="365" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
-		<item id="7588" name="strong health potion" chance="91207" countmax="2" />
-		<item id="7591" name="great health potion" chance="76552" countmax="3" />
-		<item id="7762" name="small enchanted amethyst" chance="52931" countmax="5" />
-		<item id="27046" name="ancient coin" chance="47414" countmax="3" />
-		<item id="27048" name="gemmed figurine" chance="31724" />
-		<item id="7761" name="small enchanted emerald" chance="26379" countmax="5" />
-		<item id="7760" name="small enchanted ruby" chance="11897" countmax="5" />
+		<item id="7588" name="strong health potion" chance="91167" countmax="2" />
+		<item id="7591" name="great health potion" chance="77000" countmax="3" />
+		<item id="7762" name="small enchanted amethyst" chance="52000" countmax="5" />
+		<item id="27046" name="ancient coin" chance="47000" countmax="3" />
+		<item id="27048" name="gemmed figurine" chance="32167" />
+		<item id="7761" name="small enchanted emerald" chance="26333" countmax="5" />
+		<item id="7760" name="small enchanted ruby" chance="12667" countmax="5" />
+		<item id="22396" name="cluster of solace" chance="10000" />
 		<item id="25172" name="silver token" chance="10000" />
-		<item id="22396" name="cluster of solace" chance="9828" />
-		<item id="18420" name="red crystal fragment" chance="9655" countmax="3" />
-		<item id="7759" name="small enchanted sapphire" chance="8793" countmax="5" />
-		<item id="7368" name="assassin star" chance="8621" countmax="8" />
-		<item id="25377" name="gold token" chance="6552" />
-		<item id="9971" name="gold ingot" chance="6207" />
-		<item id="7418" name="nightmare blade" chance="2931" />
+		<item id="18420" name="red crystal fragment" chance="9333" countmax="3" />
+		<item id="7759" name="small enchanted sapphire" chance="9000" countmax="5" />
+		<item id="7368" name="assassin star" chance="8333" countmax="8" />
+		<item id="25377" name="gold token" chance="6500" />
+		<item id="9971" name="gold ingot" chance="6167" />
+		<item id="7418" name="nightmare blade" chance="2833" />
 	</loot>
 </monster>

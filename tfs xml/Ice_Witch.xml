@@ -52,16 +52,16 @@
 		<voice sentence="Freeze!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="29891" countmax="90" />
-		<item id="7441" name="ice cube" chance="9998" />
-		<item id="2796" name="green mushroom" chance="1297" />
-		<item id="2423" name="clerical mace" chance="1041" />
-		<item id="7589" name="strong mana potion" chance="869" />
-		<item id="7290" name="shard" chance="632" />
-		<item id="2663" name="mystic turban" chance="423" />
-		<item id="7449" name="crystal sword" chance="390" />
-		<item id="7892" name="glacier shoes" chance="321" />
+		<item id="2148" name="gold coin" chance="29897" countmax="90" />
+		<item id="7441" name="ice cube" chance="9986" />
+		<item id="2796" name="green mushroom" chance="1307" />
+		<item id="2423" name="clerical mace" chance="1048" />
+		<item id="7589" name="strong mana potion" chance="881" />
+		<item id="7290" name="shard" chance="630" />
+		<item id="2663" name="mystic turban" chance="422" />
+		<item id="7449" name="crystal sword" chance="389" />
+		<item id="7892" name="glacier shoes" chance="320" />
 		<item id="7387" name="diamond sceptre" chance="311" />
-		<item id="7459" name="pair of earmuffs" chance="84" />
+		<item id="7459" name="pair of earmuffs" chance="83" />
 	</loot>
 </monster>

@@ -45,8 +45,8 @@
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="2667" name="fish" chance="7780" countmax="2" />
+		<item id="2667" name="fish" chance="7840" countmax="2" />
 		<item id="7159" name="green perch" chance="141" />
-		<item id="7158" name="rainbow trout" chance="63" />
+		<item id="7158" name="rainbow trout" chance="61" />
 	</loot>
 </monster>

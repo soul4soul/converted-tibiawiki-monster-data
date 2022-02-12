@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Tzumrah The Dazzler"
 monster.description = ""
-monster.experience = 0
+monster.experience = 1700
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 1600
-monster.maxHealth = 1600
+monster.health = 1700
+monster.maxHealth = 1700
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -82,13 +82,13 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -150}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 70}
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 200, maxDamage = 230}
 }
 
 monster.loot = {

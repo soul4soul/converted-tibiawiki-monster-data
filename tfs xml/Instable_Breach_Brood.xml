@@ -48,18 +48,18 @@
 		<voice sentence="Hisss!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98165" countmax="100" />
-		<item id="2152" name="platinum coin" chance="68874" countmax="2" />
-		<item id="26177" name="crystal bone" chance="10112" />
-		<item id="26162" name="plasma pearls" chance="10076" />
-		<item id="7590" name="great mana potion" chance="5757" />
-		<item id="26191" name="energy bar" chance="5434" />
-		<item id="26201" name="energy drink" chance="5038" />
-		<item id="8472" name="great spirit potion" chance="5002" />
-		<item id="7591" name="great health potion" chance="4786" />
-		<item id="18418" name="blue crystal splinter" chance="3383" />
-		<item id="18415" name="green crystal shard" chance="3383" />
-		<item id="18419" name="cyan crystal fragment" chance="3095" />
-		<item id="18413" name="blue crystal shard" chance="2159" />
+		<item id="2148" name="gold coin" chance="98075" countmax="100" />
+		<item id="2152" name="platinum coin" chance="68806" countmax="2" />
+		<item id="26177" name="crystal bone" chance="10089" />
+		<item id="26162" name="plasma pearls" chance="10053" />
+		<item id="7590" name="great mana potion" chance="5847" />
+		<item id="26191" name="energy bar" chance="5419" />
+		<item id="26201" name="energy drink" chance="5062" />
+		<item id="8472" name="great spirit potion" chance="5027" />
+		<item id="7591" name="great health potion" chance="4742" />
+		<item id="18415" name="green crystal shard" chance="3387" />
+		<item id="18418" name="blue crystal splinter" chance="3351" />
+		<item id="18419" name="cyan crystal fragment" chance="3102" />
+		<item id="18413" name="blue crystal shard" chance="2139" />
 	</loot>
 </monster>

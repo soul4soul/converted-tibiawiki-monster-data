@@ -95,15 +95,18 @@ monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 8},
 	{id = 26174, chance = 100000},
 	{id = 26170, chance = 100000},
-	{id = 26191, chance = 66667, maxCount = 3},
-	{id = 7591, chance = 66667},
-	{id = "ring of red plasma", chance = 66667},
-	{id = 18418, chance = 33333},
-	{id = 26199, chance = 33333},
-	{id = 26200, chance = 33333},
-	{id = 26201, chance = 33333, maxCount = 3},
-	{id = 7590, chance = 33333},
-	{id = 18415, chance = 33333}
+	{id = 26191, chance = 50000, maxCount = 3},
+	{id = 26201, chance = 50000, maxCount = 3},
+	{id = 7591, chance = 50000},
+	{id = "ring of red plasma", chance = 50000},
+	{id = 18418, chance = 25000},
+	{id = "collar of blue plasma", chance = 25000},
+	{id = 26199, chance = 25000},
+	{id = 26200, chance = 25000},
+	{id = 7590, chance = 25000},
+	{id = 8472, chance = 25000, maxCount = 2},
+	{id = 18415, chance = 25000},
+	{id = "ring of green plasma", chance = 25000}
 }
 
 mType:register(monster)

@@ -52,23 +52,23 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="99982" countmax="180" />
-		<item id="11237" name="book of necromantic rituals" chance="15325" />
-		<item id="21246" name="incantation notes" chance="14690" />
-		<item id="21242" name="lancet" chance="14672" />
-		<item id="21245" name="blood tincture in a vial" chance="14128" />
-		<item id="21243" name="horoscope" chance="9830" />
-		<item id="21247" name="pieces of magic chalk" chance="7417" />
-		<item id="7589" name="strong mana potion" chance="6075" />
-		<item id="2147" name="small ruby" chance="3246" countmax="2" />
-		<item id="5909" name="white piece of cloth" chance="2811" />
-		<item id="2663" name="mystic turban" chance="2775" />
-		<item id="2156" name="red gem" chance="780" />
-		<item id="5911" name="red piece of cloth" chance="689" />
-		<item id="8910" name="underworld rod" chance="326" />
-		<item id="8902" name="spellbook of mind control" chance="272" />
-		<item id="8901" name="spellbook of warding" chance="272" />
-		<item id="2195" name="boots of haste" chance="181" />
-		<item id="2436" name="skull staff" chance="181" />
-		<item id="7456" name="noble axe" chance="73" />
+		<item id="11237" name="book of necromantic rituals" chance="15234" />
+		<item id="21246" name="incantation notes" chance="14645" />
+		<item id="21242" name="lancet" chance="14627" />
+		<item id="21245" name="blood tincture in a vial" chance="14199" />
+		<item id="21243" name="horoscope" chance="9829" />
+		<item id="21247" name="pieces of magic chalk" chance="7385" />
+		<item id="7589" name="strong mana potion" chance="6083" />
+		<item id="2147" name="small ruby" chance="3211" countmax="2" />
+		<item id="5909" name="white piece of cloth" chance="2818" />
+		<item id="2663" name="mystic turban" chance="2783" />
+		<item id="2156" name="red gem" chance="785" />
+		<item id="5911" name="red piece of cloth" chance="678" />
+		<item id="8910" name="underworld rod" chance="321" />
+		<item id="8902" name="spellbook of mind control" chance="268" />
+		<item id="8901" name="spellbook of warding" chance="268" />
+		<item id="2195" name="boots of haste" chance="178" />
+		<item id="2436" name="skull staff" chance="178" />
+		<item id="7456" name="noble axe" chance="71" />
 	</loot>
 </monster>

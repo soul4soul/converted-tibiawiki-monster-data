@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Werelioness"
 monster.description = "a werelioness"
-monster.experience = 2500
+monster.experience = 2300
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -19,7 +19,7 @@ monster.maxHealth = 3000
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
-monster.speed = 0
+monster.speed = 220
 monster.summonCost = 0
 
 monster.changeTarget = {
@@ -82,33 +82,33 @@ monster.attacks = {
 }
 
 monster.defenses = {
-	defense = 5,
-	armor = 10
+	defense = 38,
+	armor = 38
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 99},
 	{id = 2152, chance = 100000, maxCount = 8},
-	{id = 2671, chance = 79255},
-	{id = 5944, chance = 20117},
-	{id = 2666, chance = 18474},
-	{id = 10608, chance = 15313},
-	{id = 2384, chance = 12597},
-	{id = 2461, chance = 11417},
-	{id = 7449, chance = 10236},
-	{id = 2193, chance = 10079},
-	{id = 7759, chance = 8585, maxCount = 6},
-	{id = 2144, chance = 7372},
-	{id = 2409, chance = 5374},
-	{id = 3351, chance = 3822},
-	{id = 36601, chance = 3467},
-	{id = 2143, chance = 3071},
-	{id = 7901, chance = 2088},
-	{id = 24739, chance = 1164},
-	{id = 7894, chance = 999},
-	{id = 2491, chance = 916},
-	{id = 36437, chance = 594},
-	{id = 36664, chance = 413}
+	{id = 2671, chance = 79261},
+	{id = 5944, chance = 20028},
+	{id = 2666, chance = 18568},
+	{id = 10608, chance = 15449},
+	{id = 2384, chance = 12670},
+	{id = 2461, chance = 11366},
+	{id = 7449, chance = 10210},
+	{id = 2193, chance = 10070},
+	{id = 7759, chance = 8580, maxCount = 6},
+	{id = 2144, chance = 7432},
+	{id = 2409, chance = 5379},
+	{id = 3351, chance = 3860},
+	{id = 36601, chance = 3445},
+	{id = 2143, chance = 3179},
+	{id = 7901, chance = 2067},
+	{id = 24739, chance = 1067},
+	{id = 7894, chance = 1030},
+	{id = 2491, chance = 926},
+	{id = 36437, chance = 622},
+	{id = 36664, chance = 415}
 }
 
 mType:register(monster)

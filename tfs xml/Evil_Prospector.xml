@@ -46,12 +46,12 @@
 	<defenses armor="100" defense="100" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="35381" name="spectral silver nugget" chance="10661" />
-		<item id="8920" name="wand of starstorm" chance="8095" />
-		<item id="2127" name="emerald bangle" chance="5133" />
-		<item id="7889" name="lightning pendant" chance="4640" />
-		<item id="2161" name="strange talisman" chance="3356" />
-		<item id="7901" name="lightning headband" chance="3060" />
-		<item id="18390" name="wand of defiance" chance="1678" />
+		<item id="35381" name="spectral silver nugget" chance="10297" />
+		<item id="8920" name="wand of starstorm" chance="8610" />
+		<item id="2127" name="emerald bangle" chance="4654" />
+		<item id="7889" name="lightning pendant" chance="4421" />
+		<item id="2161" name="strange talisman" chance="3490" />
+		<item id="7901" name="lightning headband" chance="3141" />
+		<item id="18390" name="wand of defiance" chance="1862" />
 	</loot>
 </monster>

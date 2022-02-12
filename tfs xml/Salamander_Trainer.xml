@@ -42,10 +42,16 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-23" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="0" radius="2" target="0">
+			<attribute key="areaEffect" value="rednote" />
+		</attack>
 	</attacks>
 	<defenses armor="7" defense="7">
 		<defense name="healing" interval="2000" chance="20" min="11" max="25" />
 	</defenses>
+	<summons maxSummons="1">
+		<voice name="Troll-Trained Salamander" interval="2000" chance="15" max="1" />
+	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="14" />
 		<item id="2666" name="meat" chance="35714" />

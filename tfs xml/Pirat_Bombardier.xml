@@ -45,14 +45,14 @@
 	</attacks>
 	<defenses armor="65" defense="65" />
 	<loot>
-		<item id="7590" name="great mana potion" chance="35273" countmax="2" />
-		<item id="38228" name="pirate coin" chance="7542" countmax="10" />
-		<item id="7886" name="terra boots" chance="6209" />
-		<item id="38229" name="pirat's tail" chance="4811" />
-		<item id="38252" name="mouldy powder" chance="4096" />
-		<item id="7891" name="magma boots" chance="3576" />
-		<item name="ring of blue plasma" chance="2146" />
-		<item id="7893" name="lightning boots" chance="1658" />
-		<item id="2664" name="wood cape" chance="1495" />
+		<item id="7590" name="great mana potion" chance="34681" countmax="2" />
+		<item id="38228" name="pirate coin" chance="7537" countmax="10" />
+		<item id="7886" name="terra boots" chance="6199" />
+		<item id="38229" name="pirat's tail" chance="4888" />
+		<item id="38252" name="mouldy powder" chance="4069" />
+		<item id="7891" name="magma boots" chance="3796" />
+		<item name="ring of blue plasma" chance="2185" />
+		<item id="7893" name="lightning boots" chance="1720" />
+		<item id="2664" name="wood cape" chance="1529" />
 	</loot>
 </monster>

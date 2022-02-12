@@ -56,21 +56,21 @@
 		<voice sentence="Buuuuuh" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99855" countmax="270" />
-		<item id="2260" name="blank rune" chance="29971" countmax="2" />
-		<item id="2071" name="lyre" chance="10766" />
-		<item id="2189" name="wand of cosmic energy" chance="9893" />
-		<item id="5944" name="soul orb" chance="6984" />
-		<item id="6500" name="demonic essence" chance="6741" />
-		<item id="5909" name="white piece of cloth" chance="3492" />
-		<item id="2152" name="platinum coin" chance="3346" countmax="7" />
-		<item id="7590" name="great mana potion" chance="1115" />
-		<item id="11227" name="shiny stone" chance="873" />
-		<item id="2134" name="silver brooch" chance="776" />
-		<item id="7383" name="relic sword" chance="485" />
-		<item id="6300" name="death ring" chance="339" />
-		<item id="2165" name="stealth ring" chance="291" />
-		<item id="2136" name="demonbone amulet" chance="242" />
-		<item id="7451" name="shadow sceptre" chance="48" />
+		<item id="2148" name="gold coin" chance="99870" countmax="270" />
+		<item id="2260" name="blank rune" chance="29783" countmax="2" />
+		<item id="2071" name="lyre" chance="10652" />
+		<item id="2189" name="wand of cosmic energy" chance="9957" />
+		<item id="6500" name="demonic essence" chance="7043" />
+		<item id="5944" name="soul orb" chance="6913" />
+		<item id="5909" name="white piece of cloth" chance="3478" />
+		<item id="2152" name="platinum coin" chance="3435" countmax="7" />
+		<item id="7590" name="great mana potion" chance="1087" />
+		<item id="11227" name="shiny stone" chance="783" />
+		<item id="2134" name="silver brooch" chance="739" />
+		<item id="7383" name="relic sword" chance="478" />
+		<item id="2165" name="stealth ring" chance="435" />
+		<item id="6300" name="death ring" chance="391" />
+		<item id="2136" name="demonbone amulet" chance="261" />
+		<item id="7451" name="shadow sceptre" chance="43" />
 	</loot>
 </monster>

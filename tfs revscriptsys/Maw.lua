@@ -93,17 +93,17 @@ monster.loot = {
 	{id = 15486, chance = 100000},
 	{id = 2148, chance = 100000, maxCount = 196},
 	{id = 15480, chance = 100000},
-	{id = 2152, chance = 88095, maxCount = 6},
-	{id = 7590, chance = 66667, maxCount = 2},
-	{id = 16096, chance = 57143, maxCount = 2},
-	{id = 8473, chance = 33333},
-	{id = 2147, chance = 30952, maxCount = 4},
-	{id = 2144, chance = 28571, maxCount = 4},
-	{id = 2156, chance = 23810},
-	{id = 15572, chance = 16667, maxCount = 2},
-	{id = "giant shimmering pearl", chance = 11905},
-	{id = 9971, chance = 4762},
-	{id = 15643, chance = 2381}
+	{id = 2152, chance = 88372, maxCount = 6},
+	{id = 7590, chance = 67442, maxCount = 2},
+	{id = 16096, chance = 58140, maxCount = 2},
+	{id = 8473, chance = 32558},
+	{id = 2147, chance = 30233, maxCount = 4},
+	{id = 2144, chance = 27907, maxCount = 4},
+	{id = 2156, chance = 25581},
+	{id = 15572, chance = 18605, maxCount = 2},
+	{id = "giant shimmering pearl", chance = 11628},
+	{id = 9971, chance = 4651},
+	{id = 15643, chance = 2326}
 }
 
 mType:register(monster)

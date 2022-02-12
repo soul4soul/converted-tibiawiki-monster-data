@@ -92,19 +92,19 @@ monster.loot = {
 	{id = 6300, chance = 100000},
 	{id = 2148, chance = 100000, maxCount = 100},
 	{id = 11233, chance = 100000, maxCount = 2},
-	{id = 9971, chance = 76111},
-	{id = 2152, chance = 66667, maxCount = 3},
-	{id = 7590, chance = 36667, maxCount = 3},
-	{id = 7430, chance = 33889},
-	{id = 8472, chance = 33333, maxCount = 3},
-	{id = 7591, chance = 32778, maxCount = 4},
-	{id = 5925, chance = 30000},
-	{id = 9810, chance = 28889},
-	{id = 6500, chance = 25000},
-	{id = 5741, chance = 5000},
-	{id = 5944, chance = 4444},
-	{id = 2173, chance = 1667},
-	{id = 13291, chance = 1111}
+	{id = 9971, chance = 76440},
+	{id = 2152, chance = 65969, maxCount = 3},
+	{id = 7430, chance = 35602},
+	{id = 7590, chance = 35602, maxCount = 3},
+	{id = 7591, chance = 33508, maxCount = 4},
+	{id = 8472, chance = 33508, maxCount = 3},
+	{id = 5925, chance = 30366},
+	{id = 9810, chance = 27749},
+	{id = 6500, chance = 25131},
+	{id = 5741, chance = 5759},
+	{id = 5944, chance = 4188},
+	{id = 2173, chance = 1571},
+	{id = 13291, chance = 1047}
 }
 
 mType:register(monster)

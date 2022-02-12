@@ -50,16 +50,16 @@
 		<voice sentence="Knorrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="92135" countmax="95" />
-		<item name="wooden trash" chance="29093" />
-		<item id="2788" name="red mushroom" chance="7818" />
-		<item id="7618" name="health potion" chance="5098" />
+		<item id="2148" name="gold coin" chance="92008" countmax="95" />
+		<item name="wooden trash" chance="29140" />
+		<item id="2788" name="red mushroom" chance="7816" />
+		<item id="7618" name="health potion" chance="5065" />
 		<item id="2787" name="white mushroom" chance="5047" countmax="2" />
-		<item id="10600" name="haunted piece of wood" chance="4958" />
-		<item id="2790" name="orange mushroom" chance="1791" />
-		<item id="7588" name="strong health potion" chance="1073" />
+		<item id="10600" name="haunted piece of wood" chance="4984" />
+		<item id="2790" name="orange mushroom" chance="1818" />
+		<item id="7588" name="strong health potion" chance="1087" />
 		<item id="2213" name="dwarven ring" chance="658" />
-		<item id="2149" name="small emerald" chance="653" />
-		<item id="7443" name="bullseye potion" chance="98" />
+		<item id="2149" name="small emerald" chance="645" />
+		<item id="7443" name="bullseye potion" chance="99" />
 	</loot>
 </monster>

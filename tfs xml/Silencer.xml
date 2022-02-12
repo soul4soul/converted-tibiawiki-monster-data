@@ -53,21 +53,21 @@
 		<voice sentence="Hussssssh!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="99761" countmax="8" />
-		<item id="2148" name="gold coin" chance="99522" countmax="100" />
-		<item id="22534" name="silencer claws" chance="16129" />
-		<item id="7368" name="assassin star" chance="10036" countmax="10" />
-		<item id="22535" name="silencer resonating chamber" chance="9677" />
-		<item id="7454" name="glorious axe" chance="2509" />
-		<item id="7413" name="titan axe" chance="2509" />
-		<item id="2521" name="dark shield" chance="1673" />
-		<item id="7407" name="haunted blade" chance="1553" />
-		<item id="7387" name="diamond sceptre" chance="1314" />
-		<item id="2165" name="stealth ring" chance="1195" />
-		<item id="7451" name="shadow sceptre" chance="836" />
-		<item id="22396" name="cluster of solace" chance="717" />
-		<item id="7886" name="terra boots" chance="717" />
-		<item id="7885" name="terra legs" chance="717" />
-		<item id="2195" name="boots of haste" chance="358" />
+		<item id="2152" name="platinum coin" chance="99894" countmax="8" />
+		<item id="2148" name="gold coin" chance="99627" countmax="100" />
+		<item id="22534" name="silencer claws" chance="16605" />
+		<item id="22535" name="silencer resonating chamber" chance="9367" />
+		<item id="7368" name="assassin star" chance="8249" countmax="10" />
+		<item id="7454" name="glorious axe" chance="2501" />
+		<item id="7413" name="titan axe" chance="2182" />
+		<item id="7407" name="haunted blade" chance="2076" />
+		<item id="2165" name="stealth ring" chance="1384" />
+		<item id="2521" name="dark shield" chance="1277" />
+		<item id="7387" name="diamond sceptre" chance="1224" />
+		<item id="7451" name="shadow sceptre" chance="1171" />
+		<item id="7885" name="terra legs" chance="905" />
+		<item id="7886" name="terra boots" chance="852" />
+		<item id="22396" name="cluster of solace" chance="639" />
+		<item id="2195" name="boots of haste" chance="585" />
 	</loot>
 </monster>

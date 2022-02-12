@@ -90,7 +90,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 10531, chance = 5092}
+	{id = 10531, chance = 5066}
 }
 
 mType:register(monster)

@@ -54,21 +54,21 @@
 		<item id="24708" name="werewolf fangs" chance="100000" />
 		<item id="11234" name="werewolf fur" chance="100000" />
 		<item id="5897" name="wolf paw" chance="100000" />
-		<item id="24849" name="onyx chip" chance="84188" countmax="3" />
-		<item id="7439" name="berserk potion" chance="83761" countmax="2" />
-		<item id="2144" name="black pearl" chance="80342" countmax="5" />
-		<item id="7759" name="small enchanted sapphire" chance="79915" countmax="2" />
-		<item id="2197" name="stone skin amulet" chance="24786" />
-		<item id="2805" name="troll green" chance="24359" />
-		<item id="7394" name="wolf trophy" chance="9615" />
-		<item id="7428" name="bonebreaker" chance="9188" />
-		<item id="7419" name="dreaded cleaver" chance="7265" />
-		<item id="2169" name="time ring" chance="6624" />
-		<item id="11306" name="sai" chance="4915" />
-		<item id="24716" name="werewolf amulet" chance="2991" />
-		<item id="24739" name="moonlight crystals" chance="2778" />
-		<item id="2171" name="platinum amulet" chance="2778" />
-		<item id="25172" name="silver token" chance="1282" />
-		<item id="24740" name="wolf backpack" chance="427" />
+		<item id="24849" name="onyx chip" chance="84244" countmax="3" />
+		<item id="7439" name="berserk potion" chance="83824" countmax="2" />
+		<item id="2144" name="black pearl" chance="80672" countmax="5" />
+		<item id="7759" name="small enchanted sapphire" chance="80042" countmax="2" />
+		<item id="2197" name="stone skin amulet" chance="25210" />
+		<item id="2805" name="troll green" chance="24790" />
+		<item id="7394" name="wolf trophy" chance="9664" />
+		<item id="7428" name="bonebreaker" chance="9034" />
+		<item id="7419" name="dreaded cleaver" chance="7353" />
+		<item id="2169" name="time ring" chance="6513" />
+		<item id="11306" name="sai" chance="4832" />
+		<item id="24739" name="moonlight crystals" chance="2941" />
+		<item id="24716" name="werewolf amulet" chance="2941" />
+		<item id="2171" name="platinum amulet" chance="2731" />
+		<item id="25172" name="silver token" chance="1261" />
+		<item id="24740" name="wolf backpack" chance="420" />
 	</loot>
 </monster>

@@ -50,15 +50,15 @@
 		<voice sentence="Stomp." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="92957" countmax="130" />
-		<item id="7850" name="earth arrow" chance="20145" countmax="30" />
-		<item id="11222" name="lump of earth" chance="19958" />
-		<item id="1294" name="small stone" chance="10095" countmax="10" />
-		<item id="2260" name="blank rune" chance="9786" />
-		<item id="9808" name="heavily rusted armor" chance="5123" />
-		<item id="7589" name="strong mana potion" chance="1994" />
-		<item id="11339" name="clay lump" chance="611" />
-		<item id="13757" name="coal" chance="483" />
-		<item id="9970" name="small topaz" chance="471" />
+		<item id="2148" name="gold coin" chance="92946" countmax="130" />
+		<item id="7850" name="earth arrow" chance="20157" countmax="30" />
+		<item id="11222" name="lump of earth" chance="19959" />
+		<item id="1294" name="small stone" chance="10102" countmax="10" />
+		<item id="2260" name="blank rune" chance="9779" />
+		<item id="9808" name="heavily rusted armor" chance="5121" />
+		<item id="7589" name="strong mana potion" chance="1990" />
+		<item id="11339" name="clay lump" chance="610" />
+		<item id="13757" name="coal" chance="484" />
+		<item id="9970" name="small topaz" chance="469" />
 	</loot>
 </monster>

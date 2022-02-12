@@ -49,16 +49,16 @@
 		<voice sentence="I will silence you forever!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="79836" countmax="10" />
-		<item name="torch" chance="30218" countmax="2" />
-		<item id="2649" name="leather legs" chance="14784" />
-		<item id="2671" name="ham" chance="10192" />
-		<item id="2406" name="short sword" chance="10049" />
-		<item id="2461" name="leather helmet" chance="10034" />
-		<item id="2403" name="knife" chance="9998" />
-		<item id="2376" name="sword" chance="5025" />
-		<item id="8840" name="raspberry" chance="4911" countmax="5" />
-		<item id="2404" name="combat knife" chance="4040" />
-		<item id="7397" name="deer trophy" chance="113" />
+		<item id="2148" name="gold coin" chance="79814" countmax="10" />
+		<item name="torch" chance="30207" countmax="2" />
+		<item id="2649" name="leather legs" chance="14779" />
+		<item id="2671" name="ham" chance="10182" />
+		<item id="2406" name="short sword" chance="10052" />
+		<item id="2461" name="leather helmet" chance="10039" />
+		<item id="2403" name="knife" chance="10010" />
+		<item id="2376" name="sword" chance="5013" />
+		<item id="8840" name="raspberry" chance="4897" countmax="5" />
+		<item id="2404" name="combat knife" chance="4041" />
+		<item id="7397" name="deer trophy" chance="112" />
 	</loot>
 </monster>

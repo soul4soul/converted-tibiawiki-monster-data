@@ -42,8 +42,15 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-70" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-45" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="largerock" />
+		</attack>
 	</attacks>
-	<defenses armor="11" defense="11" />
+	<defenses armor="11" defense="11">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="25" />
 		<item id="2666" name="meat" chance="22495" />

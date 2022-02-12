@@ -42,6 +42,6 @@
 	</elements>
 	<defenses armor="9" defense="9" />
 	<loot>
-		<item id="10531" name="midnight shard" chance="1832" />
+		<item id="10531" name="midnight shard" chance="1643" />
 	</loot>
 </monster>

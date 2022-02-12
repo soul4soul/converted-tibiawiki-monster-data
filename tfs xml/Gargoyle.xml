@@ -54,18 +54,18 @@
 		<voice sentence="Chhhhhrrrrk!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87696" countmax="30" />
-		<item id="1294" name="small stone" chance="15026" countmax="10" />
-		<item id="11195" name="stone wing" chance="11834" />
-		<item id="8838" name="potato" chance="9884" countmax="2" />
-		<item id="2680" name="strawberry" chance="2016" countmax="5" />
-		<item id="2394" name="morning star" chance="1510" />
-		<item id="2513" name="battle shield" chance="1339" />
-		<item id="2129" name="wolf tooth chain" chance="1090" />
-		<item id="3351" name="steel helmet" chance="804" />
-		<item id="11343" name="piece of marble rock" chance="457" />
+		<item id="2148" name="gold coin" chance="87691" countmax="30" />
+		<item id="1294" name="small stone" chance="15027" countmax="10" />
+		<item id="11195" name="stone wing" chance="11821" />
+		<item id="8838" name="potato" chance="9900" countmax="2" />
+		<item id="2680" name="strawberry" chance="2010" countmax="5" />
+		<item id="2394" name="morning star" chance="1518" />
+		<item id="2513" name="battle shield" chance="1337" />
+		<item id="2129" name="wolf tooth chain" chance="1092" />
+		<item id="3351" name="steel helmet" chance="793" />
+		<item id="11343" name="piece of marble rock" chance="459" />
 		<item id="2489" name="dark armor" chance="290" />
-		<item id="2209" name="club ring" chance="212" />
-		<item id="11227" name="shiny stone" chance="184" />
+		<item id="2209" name="club ring" chance="213" />
+		<item id="11227" name="shiny stone" chance="189" />
 	</loot>
 </monster>

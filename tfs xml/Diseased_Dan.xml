@@ -52,6 +52,6 @@
 		<voice sentence="Phew, what an awful smell ... oh, that's me." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="43478" countmax="25" />
+		<item id="2148" name="gold coin" chance="42553" countmax="25" />
 	</loot>
 </monster>

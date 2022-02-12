@@ -93,19 +93,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 39563, maxCount = 80},
-	{id = 3976, chance = 19848, maxCount = 3},
-	{id = 12422, chance = 12108},
-	{id = 10566, chance = 10006},
-	{id = 2162, chance = 6042},
-	{id = 2161, chance = 4990},
-	{id = 2134, chance = 3949},
-	{id = 2124, chance = 1496},
-	{id = 2144, chance = 995},
+	{id = 2148, chance = 39565, maxCount = 80},
+	{id = 3976, chance = 19864, maxCount = 3},
+	{id = 12422, chance = 12113},
+	{id = 10566, chance = 10005},
+	{id = 2162, chance = 6045},
+	{id = 2161, chance = 4987},
+	{id = 2134, chance = 3942},
+	{id = 2124, chance = 1492},
+	{id = 2144, chance = 998},
 	{id = 5914, chance = 948},
-	{id = 2411, chance = 506},
-	{id = 2529, chance = 184},
-	{id = 2170, chance = 92},
+	{id = 2411, chance = 507},
+	{id = 2529, chance = 185},
+	{id = 2170, chance = 91},
 	{id = 11207, chance = 2}
 }
 

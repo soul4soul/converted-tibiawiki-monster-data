@@ -46,18 +46,18 @@
 	<defenses armor="25" defense="25" />
 	<loot>
 		<item id="2148" name="gold coin" chance="97515" countmax="75" />
-		<item id="10564" name="demonic skeletal hand" chance="11983" />
-		<item id="2399" name="throwing star" chance="9994" countmax="3" />
-		<item id="7618" name="health potion" chance="9689" countmax="2" />
-		<item id="7620" name="mana potion" chance="5059" />
-		<item id="2513" name="battle shield" chance="4959" />
-		<item name="torch" chance="4868" />
-		<item id="2417" name="battle hammer" chance="4063" />
-		<item id="2459" name="iron helmet" chance="3379" />
-		<item id="2144" name="black pearl" chance="2983" />
-		<item id="2147" name="small ruby" chance="1527" />
-		<item id="2194" name="mysterious fetish" chance="536" />
+		<item id="10564" name="demonic skeletal hand" chance="11975" />
+		<item id="2399" name="throwing star" chance="9982" countmax="3" />
+		<item id="7618" name="health potion" chance="9694" countmax="2" />
+		<item id="7620" name="mana potion" chance="5054" />
+		<item id="2513" name="battle shield" chance="4962" />
+		<item name="torch" chance="4858" />
+		<item id="2417" name="battle hammer" chance="4067" />
+		<item id="2459" name="iron helmet" chance="3380" />
+		<item id="2144" name="black pearl" chance="2979" />
+		<item id="2147" name="small ruby" chance="1529" />
+		<item id="2194" name="mysterious fetish" chance="537" />
 		<item id="2178" name="mind stone" chance="468" />
-		<item id="2515" name="guardian shield" chance="112" />
+		<item id="2515" name="guardian shield" chance="113" />
 	</loot>
 </monster>

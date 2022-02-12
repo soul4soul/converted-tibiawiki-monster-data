@@ -82,17 +82,19 @@ monster.elements = {
 }
 
 monster.attacks = {
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -45}
 }
 
 monster.defenses = {
 	defense = 1,
-	armor = 1
+	armor = 1,
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 1, maxDamage = 40}
 }
 
 monster.loot = {
-	{id = 13534, chance = 20064},
-	{id = 2671, chance = 19823},
-	{id = 13533, chance = 19662}
+	{id = 13534, chance = 20000},
+	{id = 2671, chance = 19759},
+	{id = 13533, chance = 19679}
 }
 
 mType:register(monster)

@@ -82,23 +82,23 @@ monster.elements = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -40},
-	{name ="combat", interval = 2000, chance = 100, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -55, range = 7, shootEffect = CONST_ANI_SMALLSTONE}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -55, range = 5, radius = 1, target = true, shootEffect = CONST_ANI_SMALLSTONE}
 }
 
 monster.defenses = {
 	defense = 15,
 	armor = 15,
-	{name ="speed", interval = 2000, chance = 15, speed = {min = 450, max = 450}, duration = 4000, effect = CONST_ME_MAGIC_RED}
+	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
 }
 
 monster.loot = {
 	{id = 2148, chance = 88771, maxCount = 35},
-	{id = 2676, chance = 30455, maxCount = 12},
-	{id = 1294, chance = 29964, maxCount = 3},
-	{id = 2675, chance = 19971, maxCount = 5},
-	{id = 12467, chance = 4949},
-	{id = 2678, chance = 1967, maxCount = 3},
-	{id = 2682, chance = 1000},
+	{id = 2676, chance = 30453, maxCount = 12},
+	{id = 1294, chance = 29966, maxCount = 3},
+	{id = 2675, chance = 19970, maxCount = 5},
+	{id = 12467, chance = 4948},
+	{id = 2678, chance = 1968, maxCount = 3},
+	{id = 2682, chance = 1001},
 	{id = 5883, chance = 988}
 }
 

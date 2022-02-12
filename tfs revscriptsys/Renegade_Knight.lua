@@ -83,7 +83,8 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -245}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -245},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -125, radius = 3, target = , effect = CONST_ME_BLOCKHIT}
 }
 
 monster.defenses = {
@@ -93,22 +94,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 99985, maxCount = 100},
-	{id = 2152, chance = 25649, maxCount = 2},
-	{id = 2666, chance = 9372},
-	{id = 7591, chance = 7217},
-	{id = 12466, chance = 5934},
-	{id = 2377, chance = 5201},
-	{id = 2147, chance = 3663},
-	{id = 5911, chance = 1821},
-	{id = 12406, chance = 1581},
+	{id = 2148, chance = 99986, maxCount = 100},
+	{id = 2152, chance = 25511, maxCount = 2},
+	{id = 2666, chance = 9373},
+	{id = 7591, chance = 7259},
+	{id = 12466, chance = 5962},
+	{id = 2377, chance = 5180},
+	{id = 2147, chance = 3629},
+	{id = 5911, chance = 1811},
+	{id = 12406, chance = 1564},
 	{id = 2391, chance = 965},
-	{id = 2488, chance = 646},
-	{id = 2487, chance = 624},
-	{id = 2491, chance = 609},
-	{id = 2392, chance = 544},
-	{id = 2519, chance = 203},
-	{id = 2114, chance = 116}
+	{id = 2488, chance = 648},
+	{id = 2487, chance = 613},
+	{id = 2491, chance = 606},
+	{id = 2392, chance = 543},
+	{id = 2519, chance = 204},
+	{id = 2114, chance = 113}
 }
 
 mType:register(monster)

@@ -42,6 +42,16 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-230" />
+		<attack name="fire" interval="2000" chance="15" min="-100" max="-200" radius="4" target="1">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" radius="4" target="1">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="-150" max="-230" length="8" spread="3">
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
 	</attacks>
 	<defenses armor="34" defense="34">
 		<defense name="healing" interval="2000" chance="20" min="57" max="93" />
@@ -51,25 +61,25 @@
 		<voice sentence="ZCHHHHHHH" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="95281" countmax="246" />
-		<item id="2672" name="dragon ham" chance="79743" />
-		<item id="2796" name="green mushroom" chance="12107" />
-		<item id="7378" name="royal spear" chance="9141" countmax="3" />
-		<item id="1976" name="book (gemmed)" chance="9065" />
-		<item id="2547" name="power bolt" chance="6567" countmax="7" />
-		<item id="2167" name="energy ring" chance="5089" />
-		<item id="2146" name="small sapphire" chance="4998" />
-		<item id="2033" name="golden mug" chance="3071" />
-		<item id="5882" name="red dragon scale" chance="1968" />
-		<item id="5948" name="red dragon leather" chance="1020" />
-		<item id="7588" name="strong health potion" chance="981" />
-		<item id="2177" name="life crystal" chance="628" />
-		<item id="2479" name="strange helmet" chance="375" />
-		<item id="2392" name="fire sword" chance="287" />
+		<item id="2148" name="gold coin" chance="95272" countmax="246" />
+		<item id="2672" name="dragon ham" chance="79726" />
+		<item id="2796" name="green mushroom" chance="12113" />
+		<item id="7378" name="royal spear" chance="9160" countmax="3" />
+		<item id="1976" name="book (gemmed)" chance="9089" />
+		<item id="2547" name="power bolt" chance="6569" countmax="7" />
+		<item id="2167" name="energy ring" chance="5087" />
+		<item id="2146" name="small sapphire" chance="4990" />
+		<item id="2033" name="golden mug" chance="3064" />
+		<item id="5882" name="red dragon scale" chance="1966" />
+		<item id="5948" name="red dragon leather" chance="1025" />
+		<item id="7588" name="strong health potion" chance="975" />
+		<item id="2177" name="life crystal" chance="629" />
+		<item id="2479" name="strange helmet" chance="374" />
+		<item id="2392" name="fire sword" chance="284" />
 		<item id="2528" name="tower shield" chance="267" />
-		<item id="2498" name="royal helmet" chance="232" />
-		<item id="2492" name="dragon scale mail" chance="134" />
-		<item id="7402" name="dragon slayer" chance="107" />
-		<item id="7399" name="dragon lord trophy" chance="93" />
+		<item id="2498" name="royal helmet" chance="234" />
+		<item id="2492" name="dragon scale mail" chance="137" />
+		<item id="7402" name="dragon slayer" chance="106" />
+		<item id="7399" name="dragon lord trophy" chance="95" />
 	</loot>
 </monster>

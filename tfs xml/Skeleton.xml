@@ -45,15 +45,15 @@
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="2230" name="bone" chance="50748" />
-		<item id="2148" name="gold coin" chance="45086" countmax="10" />
-		<item name="torch" chance="10292" />
-		<item id="12437" name="pelvis bone" chance="10109" />
-		<item id="2473" name="viking helmet" chance="7503" />
-		<item id="2388" name="hatchet" chance="5415" />
-		<item id="2398" name="mace" chance="4640" />
-		<item id="26642" name="heavy old tome" chance="2099" />
-		<item id="2376" name="sword" chance="2002" />
-		<item id="2511" name="brass shield" chance="969" />
+		<item id="2230" name="bone" chance="50801" />
+		<item id="2148" name="gold coin" chance="44910" countmax="10" />
+		<item name="torch" chance="10347" />
+		<item id="12437" name="pelvis bone" chance="10153" />
+		<item id="2473" name="viking helmet" chance="7698" />
+		<item id="2388" name="hatchet" chance="5364" />
+		<item id="2398" name="mace" chance="4650" />
+		<item id="2376" name="sword" chance="2112" />
+		<item id="26642" name="heavy old tome" chance="2029" />
+		<item id="2511" name="brass shield" chance="936" />
 	</loot>
 </monster>

@@ -52,25 +52,25 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="90" />
-		<item id="7589" name="strong mana potion" chance="15562" />
-		<item id="24844" name="ogre ear stud" chance="13972" />
-		<item id="24847" name="skull fetish" chance="10867" />
-		<item id="24840" name="shamanic talisman" chance="10337" />
-		<item id="24845" name="ogre nose ring" chance="10034" />
-		<item id="2229" name="skull (item)" chance="9655" />
-		<item id="24841" name="prickly pear" chance="9239" countmax="2" />
-		<item id="12408" name="broken shamanic staff" chance="6702" />
-		<item id="20111" name="bone fetish" chance="5036" />
-		<item id="2147" name="small ruby" chance="3143" />
-		<item id="2185" name="necrotic rod" chance="2613" />
-		<item id="2144" name="black pearl" chance="2575" />
-		<item id="2188" name="wand of decay" chance="2310" />
-		<item id="2031" name="waterskin" chance="2045" />
-		<item id="24850" name="opal" chance="1666" countmax="2" />
-		<item id="24849" name="onyx chip" chance="1325" countmax="2" />
-		<item id="24848" name="shamanic mask" chance="871" />
-		<item id="24839" name="ogre scepta" chance="492" />
-		<item id="3952" name="didgeridoo" chance="454" />
-		<item id="3955" name="voodoo doll" chance="38" />
+		<item id="7589" name="strong mana potion" chance="15236" />
+		<item id="24844" name="ogre ear stud" chance="13946" />
+		<item id="24847" name="skull fetish" chance="11164" />
+		<item id="24840" name="shamanic talisman" chance="10485" />
+		<item id="24845" name="ogre nose ring" chance="10044" />
+		<item id="2229" name="skull (item)" chance="9637" />
+		<item id="24841" name="prickly pear" chance="8924" countmax="2" />
+		<item id="12408" name="broken shamanic staff" chance="6922" />
+		<item id="20111" name="bone fetish" chance="5124" />
+		<item id="2147" name="small ruby" chance="3190" />
+		<item id="2144" name="black pearl" chance="2647" />
+		<item id="2185" name="necrotic rod" chance="2511" />
+		<item id="2188" name="wand of decay" chance="2307" />
+		<item id="2031" name="waterskin" chance="2002" />
+		<item id="24850" name="opal" chance="1595" countmax="2" />
+		<item id="24849" name="onyx chip" chance="1357" countmax="2" />
+		<item id="24848" name="shamanic mask" chance="814" />
+		<item id="3952" name="didgeridoo" chance="509" />
+		<item id="24839" name="ogre scepta" chance="475" />
+		<item id="3955" name="voodoo doll" chance="34" />
 	</loot>
 </monster>

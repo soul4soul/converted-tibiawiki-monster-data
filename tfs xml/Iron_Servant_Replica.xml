@@ -45,11 +45,11 @@
 	</attacks>
 	<defenses armor="17" defense="17" />
 	<loot>
-		<item id="2148" name="gold coin" chance="82512" countmax="55" />
-		<item id="9690" name="gear wheel" chance="5290" />
-		<item id="7618" name="health potion" chance="2363" />
-		<item id="2381" name="halberd" chance="976" />
-		<item id="9808" name="heavily rusted armor" chance="488" />
-		<item id="13758" name="slime mould" chance="282" />
+		<item id="2148" name="gold coin" chance="82462" countmax="55" />
+		<item id="9690" name="gear wheel" chance="5374" />
+		<item id="7618" name="health potion" chance="2320" />
+		<item id="2381" name="halberd" chance="953" />
+		<item id="9808" name="heavily rusted armor" chance="489" />
+		<item id="13758" name="slime mould" chance="269" />
 	</loot>
 </monster>

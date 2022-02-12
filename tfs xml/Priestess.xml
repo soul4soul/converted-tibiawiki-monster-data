@@ -52,23 +52,23 @@
 		<voice sentence="Throw the soul on the altar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2802" name="sling herb" chance="13484" />
-		<item id="2760" name="goat grass" chance="12093" />
-		<item id="11220" name="dark rosary" chance="9815" />
-		<item id="2674" name="red apple" chance="7413" countmax="2" />
-		<item id="2803" name="powder herb" chance="6190" />
-		<item id="10562" name="black hood" chance="5046" />
-		<item id="2791" name="wood mushroom" chance="3352" />
-		<item id="10556" name="cultish robe" chance="1798" />
-		<item id="2423" name="clerical mace" chance="1491" />
-		<item id="2070" name="wooden flute" chance="1416" />
-		<item id="2192" name="crystal ball" chance="1124" />
+		<item id="2802" name="sling herb" chance="13467" />
+		<item id="2760" name="goat grass" chance="12098" />
+		<item id="11220" name="dark rosary" chance="9811" />
+		<item id="2674" name="red apple" chance="7411" countmax="2" />
+		<item id="2803" name="powder herb" chance="6194" />
+		<item id="10562" name="black hood" chance="5036" />
+		<item id="2791" name="wood mushroom" chance="3357" />
+		<item id="10556" name="cultish robe" chance="1791" />
+		<item id="2423" name="clerical mace" chance="1482" />
+		<item id="2070" name="wooden flute" chance="1423" />
+		<item id="2192" name="crystal ball" chance="1119" />
 		<item id="2183" name="hailstorm rod" chance="1075" />
-		<item name="book (orange)" chance="931" />
-		<item id="7620" name="mana potion" chance="911" />
-		<item id="2151" name="talon" chance="718" />
-		<item id="2125" name="crystal necklace" chance="619" />
-		<item id="2529" name="black shield" chance="213" />
+		<item name="book (orange)" chance="937" />
+		<item id="7620" name="mana potion" chance="933" />
+		<item id="2151" name="talon" chance="721" />
+		<item id="2125" name="crystal necklace" chance="618" />
+		<item id="2529" name="black shield" chance="211" />
 		<item id="2114" name="piggy bank" chance="69" />
 	</loot>
 </monster>

@@ -49,8 +49,8 @@
 		<voice sentence="Grrrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="70245" />
-		<item id="5897" name="wolf paw" chance="1024" />
+		<item id="2666" name="meat" chance="70253" />
+		<item id="5897" name="wolf paw" chance="1025" />
 		<item id="27071" name="old rag" chance="2" />
 	</loot>
 </monster>

@@ -43,13 +43,14 @@
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="9" />
-		<item id="18418" name="blue crystal splinter" chance="18750" />
-		<item id="18421" name="green crystal fragment" chance="18750" />
-		<item id="18415" name="green crystal shard" chance="18750" />
-		<item id="2156" name="red gem" chance="12500" />
-		<item id="2197" name="stone skin amulet" chance="12500" />
-		<item id="7759" name="small enchanted sapphire" chance="6250" countmax="2" />
-		<item id="8921" name="wand of draconia" chance="6250" />
-		<item id="2187" name="wand of inferno" chance="6250" />
+		<item id="18418" name="blue crystal splinter" chance="16667" />
+		<item id="18421" name="green crystal fragment" chance="16667" />
+		<item id="18415" name="green crystal shard" chance="16667" />
+		<item id="2156" name="red gem" chance="11111" />
+		<item id="2197" name="stone skin amulet" chance="11111" />
+		<item id="6300" name="death ring" chance="5556" />
+		<item id="7759" name="small enchanted sapphire" chance="5556" countmax="2" />
+		<item id="8921" name="wand of draconia" chance="5556" />
+		<item id="2187" name="wand of inferno" chance="5556" />
 	</loot>
 </monster>

@@ -52,11 +52,11 @@
 		<voice name="Rat" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2449" name="bone club" chance="85714" />
-		<item id="2148" name="gold coin" chance="79832" countmax="24" />
-		<item id="3607" name="cheese" chance="64706" />
-		<item id="3976" name="worm" chance="47059" countmax="4" />
-		<item name="die" chance="1681" />
-		<item id="2687" name="cookie" chance="840" countmax="2" />
+		<item id="2449" name="bone club" chance="86567" />
+		<item id="2148" name="gold coin" chance="80597" countmax="24" />
+		<item id="3607" name="cheese" chance="66418" />
+		<item id="3976" name="worm" chance="48507" countmax="4" />
+		<item name="die" chance="1493" />
+		<item id="2687" name="cookie" chance="746" countmax="2" />
 	</loot>
 </monster>

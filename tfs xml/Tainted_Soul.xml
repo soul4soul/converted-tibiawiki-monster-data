@@ -51,6 +51,6 @@
 		<voice sentence="*Sizzle*" yell="false" />
 	</voices>
 	<loot>
-		<item id="2147" name="small ruby" chance="1281" />
+		<item id="2147" name="small ruby" chance="1266" />
 	</loot>
 </monster>

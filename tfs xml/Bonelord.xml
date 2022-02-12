@@ -55,16 +55,16 @@
 		<voice name="Skeleton" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="99401" countmax="48" />
-		<item id="2397" name="longsword" chance="9074" />
-		<item id="2394" name="morning star" chance="7025" />
-		<item id="12468" name="small flask of eyedrops" chance="5057" />
+		<item id="2148" name="gold coin" chance="99400" countmax="48" />
+		<item id="2397" name="longsword" chance="9077" />
+		<item id="2394" name="morning star" chance="7031" />
+		<item id="12468" name="small flask of eyedrops" chance="5052" />
 		<item id="2175" name="spellbook" chance="4996" />
-		<item id="2509" name="steel shield" chance="3992" />
+		<item id="2509" name="steel shield" chance="3991" />
 		<item id="2377" name="two handed sword" chance="3952" />
-		<item id="5898" name="bonelord eye" chance="1008" />
+		<item id="5898" name="bonelord eye" chance="1007" />
 		<item id="2181" name="terra rod" chance="510" />
 		<item id="7620" name="mana potion" chance="296" />
-		<item id="2518" name="bonelord shield" chance="107" />
+		<item id="2518" name="bonelord shield" chance="108" />
 	</loot>
 </monster>

@@ -45,9 +45,9 @@
 	</attacks>
 	<defenses armor="30" defense="30" />
 	<loot>
-		<item id="2148" name="gold coin" chance="49500" countmax="100" />
-		<item id="28398" name="fig leaf" chance="4532" />
-		<item id="28399" name="bed of nails" chance="1178" />
-		<item id="28400" name="torn shirt" chance="928" />
+		<item id="2148" name="gold coin" chance="50088" countmax="100" />
+		<item id="28398" name="fig leaf" chance="4605" />
+		<item id="28399" name="bed of nails" chance="1132" />
+		<item id="28400" name="torn shirt" chance="1034" />
 	</loot>
 </monster>

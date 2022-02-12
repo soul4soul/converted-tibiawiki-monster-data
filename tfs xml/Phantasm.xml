@@ -57,21 +57,21 @@
 		<voice sentence="Give in." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87595" countmax="238" />
-		<item id="2152" name="platinum coin" chance="87595" countmax="4" />
-		<item id="7590" name="great mana potion" chance="30235" countmax="2" />
-		<item id="2804" name="shadow herb" chance="26261" />
-		<item id="2260" name="blank rune" chance="21493" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="17623" />
-		<item id="6500" name="demonic essence" chance="17173" />
-		<item id="2150" name="small amethyst" chance="14582" countmax="3" />
-		<item id="9970" name="small topaz" chance="13131" countmax="3" />
-		<item id="2147" name="small ruby" chance="11645" countmax="3" />
-		<item id="2149" name="small emerald" chance="10781" countmax="3" />
-		<item id="7451" name="shadow sceptre" chance="864" />
-		<item id="2165" name="stealth ring" chance="760" />
-		<item id="2487" name="crown armor" chance="657" />
-		<item id="7414" name="abyss hammer" chance="518" />
-		<item id="6300" name="death ring" chance="346" />
+		<item id="2148" name="gold coin" chance="87789" countmax="238" />
+		<item id="2152" name="platinum coin" chance="87789" countmax="4" />
+		<item id="7590" name="great mana potion" chance="30398" countmax="2" />
+		<item id="2804" name="shadow herb" chance="25739" />
+		<item id="2260" name="blank rune" chance="21433" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="17674" />
+		<item id="6500" name="demonic essence" chance="17127" />
+		<item id="2150" name="small amethyst" chance="14364" countmax="3" />
+		<item id="9970" name="small topaz" chance="13271" countmax="3" />
+		<item id="2147" name="small ruby" chance="11472" countmax="3" />
+		<item id="2149" name="small emerald" chance="11086" countmax="3" />
+		<item id="7451" name="shadow sceptre" chance="835" />
+		<item id="2165" name="stealth ring" chance="835" />
+		<item id="2487" name="crown armor" chance="707" />
+		<item id="7414" name="abyss hammer" chance="514" />
+		<item id="6300" name="death ring" chance="353" />
 	</loot>
 </monster>

@@ -53,51 +53,51 @@
 		<item id="10549" name="ancient stone" chance="100000" />
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
 		<item id="24849" name="onyx chip" chance="100000" />
-		<item id="25377" name="gold token" chance="99558" countmax="3" />
-		<item id="5880" name="iron ore" chance="99558" />
-		<item id="5887" name="piece of royal steel" chance="99558" />
-		<item id="2152" name="platinum coin" chance="99558" countmax="35" />
-		<item id="25172" name="silver token" chance="99558" countmax="4" />
-		<item id="18413" name="blue crystal shard" chance="73451" countmax="6" />
-		<item id="18414" name="violet crystal shard" chance="69027" countmax="10" />
-		<item id="18415" name="green crystal shard" chance="63717" countmax="3" />
-		<item id="7590" name="great mana potion" chance="57522" countmax="10" />
-		<item id="8473" name="ultimate health potion" chance="55752" countmax="10" />
-		<item id="8472" name="great spirit potion" chance="53097" countmax="10" />
-		<item id="2156" name="red gem" chance="28319" />
-		<item id="2146" name="small sapphire" chance="28319" countmax="20" />
-		<item id="2154" name="yellow gem" chance="25664" />
-		<item id="9971" name="gold ingot" chance="22124" />
-		<item id="2149" name="small emerald" chance="21239" countmax="20" />
-		<item id="2158" name="blue gem" chance="19027" />
-		<item id="10577" name="mystical hourglass" chance="18584" />
-		<item id="24850" name="opal" chance="15929" countmax="2" />
-		<item id="9970" name="small topaz" chance="15929" countmax="20" />
-		<item id="2155" name="green gem" chance="15487" />
-		<item id="5909" name="white piece of cloth" chance="15487" countmax="4" />
-		<item name="giant shimmering pearl" chance="14159" />
-		<item id="2147" name="small ruby" chance="14159" countmax="20" />
-		<item id="5904" name="magic sulphur" chance="13717" />
-		<item name="ring of red plasma" chance="12389" />
-		<item id="2150" name="small amethyst" chance="12389" countmax="20" />
-		<item id="5891" name="enchanted chicken wing" chance="11947" />
-		<item id="2436" name="skull staff" chance="11062" />
-		<item id="2153" name="violet gem" chance="11062" />
-		<item id="7437" name="sapphire hammer" chance="9735" />
-		<item name="part of a rune" chance="5752" />
-		<item id="8857" name="silkweaver bow" chance="4425" />
-		<item id="8879" name="voltage armor" chance="3097" />
-		<item id="3972" name="bonelord helmet" chance="2212" />
-		<item id="8904" name="spellscroll of prophecies" chance="1770" />
-		<item id="2466" name="golden armor" chance="1327" />
-		<item id="2452" name="heavy mace" chance="1327" />
-		<item id="27631" name="astral source" chance="885" />
-		<item id="27627" name="forbidden tome" chance="885" />
-		<item id="27628" name="key to knowledge" chance="885" />
-		<item id="7418" name="nightmare blade" chance="885" />
-		<item id="27632" name="astral glyph" chance="442" />
-		<item id="18450" name="crystalline sword" chance="442" />
-		<item id="5809" name="soul stone" chance="442" />
-		<item id="22414" name="umbral hammer" chance="442" />
+		<item id="25377" name="gold token" chance="99627" countmax="3" />
+		<item id="5880" name="iron ore" chance="99627" />
+		<item id="5887" name="piece of royal steel" chance="99627" />
+		<item id="2152" name="platinum coin" chance="99627" countmax="35" />
+		<item id="25172" name="silver token" chance="99627" countmax="4" />
+		<item id="18413" name="blue crystal shard" chance="73881" countmax="6" />
+		<item id="18414" name="violet crystal shard" chance="67164" countmax="10" />
+		<item id="18415" name="green crystal shard" chance="64925" countmax="3" />
+		<item id="7590" name="great mana potion" chance="57836" countmax="10" />
+		<item id="8473" name="ultimate health potion" chance="54104" countmax="10" />
+		<item id="8472" name="great spirit potion" chance="53358" countmax="10" />
+		<item id="2156" name="red gem" chance="27985" />
+		<item id="2146" name="small sapphire" chance="27612" countmax="20" />
+		<item id="2154" name="yellow gem" chance="26119" />
+		<item id="2149" name="small emerald" chance="20896" countmax="20" />
+		<item id="9971" name="gold ingot" chance="20522" />
+		<item id="2158" name="blue gem" chance="19030" />
+		<item id="24850" name="opal" chance="17164" countmax="2" />
+		<item id="10577" name="mystical hourglass" chance="16791" />
+		<item id="9970" name="small topaz" chance="16418" countmax="20" />
+		<item name="giant shimmering pearl" chance="15672" />
+		<item id="2155" name="green gem" chance="15672" />
+		<item id="5909" name="white piece of cloth" chance="14925" countmax="4" />
+		<item id="5904" name="magic sulphur" chance="14552" />
+		<item id="2150" name="small amethyst" chance="14179" countmax="20" />
+		<item id="2147" name="small ruby" chance="14179" countmax="20" />
+		<item name="ring of red plasma" chance="12687" />
+		<item id="5891" name="enchanted chicken wing" chance="11567" />
+		<item id="2436" name="skull staff" chance="11194" />
+		<item id="2153" name="violet gem" chance="10821" />
+		<item id="7437" name="sapphire hammer" chance="9701" />
+		<item name="part of a rune" chance="5597" />
+		<item id="8857" name="silkweaver bow" chance="3731" />
+		<item id="8879" name="voltage armor" chance="2985" />
+		<item id="3972" name="bonelord helmet" chance="1866" />
+		<item id="2466" name="golden armor" chance="1866" />
+		<item id="2452" name="heavy mace" chance="1493" />
+		<item id="8904" name="spellscroll of prophecies" chance="1493" />
+		<item id="27632" name="astral glyph" chance="746" />
+		<item id="27631" name="astral source" chance="746" />
+		<item id="27627" name="forbidden tome" chance="746" />
+		<item id="27628" name="key to knowledge" chance="746" />
+		<item id="7418" name="nightmare blade" chance="746" />
+		<item id="18450" name="crystalline sword" chance="373" />
+		<item id="5809" name="soul stone" chance="373" />
+		<item id="22414" name="umbral hammer" chance="373" />
 	</loot>
 </monster>

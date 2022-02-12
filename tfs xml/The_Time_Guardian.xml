@@ -53,37 +53,38 @@
 		<item id="2152" name="platinum coin" chance="100000" countmax="30" />
 		<item id="2214" name="ring of healing" chance="100000" />
 		<item id="2436" name="skull staff" chance="100000" />
-		<item id="7590" name="great mana potion" chance="75000" countmax="10" />
-		<item id="18415" name="green crystal shard" chance="75000" countmax="3" />
-		<item id="8472" name="great spirit potion" chance="70000" countmax="10" />
-		<item id="18413" name="blue crystal shard" chance="65000" countmax="3" />
-		<item id="18414" name="violet crystal shard" chance="60000" countmax="3" />
-		<item id="22396" name="cluster of solace" chance="40000" />
-		<item id="2197" name="stone skin amulet" chance="40000" />
-		<item id="25172" name="silver token" chance="35000" />
-		<item id="2149" name="small emerald" chance="35000" countmax="10" />
-		<item id="8473" name="ultimate health potion" chance="35000" countmax="10" />
-		<item id="12410" name="luminous orb" chance="25000" />
-		<item id="2158" name="blue gem" chance="20000" />
-		<item id="7387" name="diamond sceptre" chance="20000" />
-		<item id="2155" name="green gem" chance="20000" />
-		<item id="5904" name="magic sulphur" chance="20000" />
-		<item id="9970" name="small topaz" chance="20000" countmax="10" />
-		<item id="2154" name="yellow gem" chance="20000" />
-		<item id="25377" name="gold token" chance="15000" />
-		<item id="11240" name="guardian boots" chance="15000" />
-		<item id="2147" name="small ruby" chance="15000" countmax="10" />
-		<item name="giant shimmering pearl" chance="10000" />
-		<item id="2156" name="red gem" chance="10000" />
-		<item id="2150" name="small amethyst" chance="10000" countmax="10" />
-		<item id="7896" name="glacier kilt" chance="5000" />
-		<item id="7897" name="glacier robe" chance="5000" />
-		<item id="5892" name="huge chunk of crude iron" chance="5000" />
-		<item id="13293" name="leather whip" chance="5000" />
-		<item id="27612" name="part of a rune (three)" chance="5000" />
-		<item id="2539" name="phoenix shield" chance="5000" />
-		<item id="2145" name="small diamond" chance="5000" countmax="10" />
-		<item id="5809" name="soul stone" chance="5000" />
-		<item id="2153" name="violet gem" chance="5000" />
+		<item id="18415" name="green crystal shard" chance="73913" countmax="3" />
+		<item id="18413" name="blue crystal shard" chance="69565" countmax="3" />
+		<item id="7590" name="great mana potion" chance="69565" countmax="10" />
+		<item id="18414" name="violet crystal shard" chance="65217" countmax="3" />
+		<item id="8472" name="great spirit potion" chance="60870" countmax="10" />
+		<item id="8473" name="ultimate health potion" chance="43478" countmax="10" />
+		<item id="22396" name="cluster of solace" chance="34783" />
+		<item id="2197" name="stone skin amulet" chance="34783" />
+		<item id="12410" name="luminous orb" chance="30435" />
+		<item id="25172" name="silver token" chance="30435" />
+		<item id="2149" name="small emerald" chance="30435" countmax="10" />
+		<item id="25377" name="gold token" chance="26087" />
+		<item id="2158" name="blue gem" chance="21739" />
+		<item id="2155" name="green gem" chance="21739" />
+		<item id="9970" name="small topaz" chance="21739" countmax="10" />
+		<item id="2154" name="yellow gem" chance="21739" />
+		<item id="7387" name="diamond sceptre" chance="17391" />
+		<item id="5904" name="magic sulphur" chance="17391" />
+		<item id="11240" name="guardian boots" chance="13043" />
+		<item id="2145" name="small diamond" chance="13043" countmax="10" />
+		<item id="2147" name="small ruby" chance="13043" countmax="10" />
+		<item name="giant shimmering pearl" chance="8696" />
+		<item id="2156" name="red gem" chance="8696" />
+		<item id="2150" name="small amethyst" chance="8696" countmax="10" />
+		<item id="5809" name="soul stone" chance="8696" />
+		<item id="7896" name="glacier kilt" chance="4348" />
+		<item id="7897" name="glacier robe" chance="4348" />
+		<item id="5892" name="huge chunk of crude iron" chance="4348" />
+		<item id="13293" name="leather whip" chance="4348" />
+		<item id="7894" name="magma legs" chance="4348" />
+		<item id="27612" name="part of a rune (three)" chance="4348" />
+		<item id="2539" name="phoenix shield" chance="4348" />
+		<item id="2153" name="violet gem" chance="4348" />
 	</loot>
 </monster>

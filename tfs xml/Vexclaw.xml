@@ -50,36 +50,36 @@
 		<voice sentence="Will Prove my power!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87162" countmax="197" />
-		<item id="2152" name="platinum coin" chance="86726" countmax="9" />
-		<item id="7590" name="great mana potion" chance="16500" countmax="5" />
-		<item id="8472" name="great spirit potion" chance="15998" countmax="5" />
-		<item id="25384" name="vexclaw talon" chance="13448" />
-		<item id="8473" name="ultimate health potion" chance="13121" countmax="5" />
-		<item id="6500" name="demonic essence" chance="12642" />
-		<item id="2795" name="fire mushroom" chance="12620" countmax="6" />
-		<item id="2149" name="small emerald" chance="7258" countmax="5" />
-		<item id="2147" name="small ruby" chance="6953" countmax="5" />
-		<item id="2150" name="small amethyst" chance="6255" countmax="5" />
-		<item id="9970" name="small topaz" chance="6081" countmax="5" />
-		<item id="2156" name="red gem" chance="3313" />
-		<item id="2396" name="ice rapier" chance="3073" />
-		<item id="2154" name="yellow gem" chance="2921" />
-		<item id="2432" name="fire axe" chance="2659" />
-		<item id="2167" name="energy ring" chance="1831" />
-		<item id="2164" name="might ring" chance="1613" />
-		<item id="2393" name="giant sword" chance="1155" />
-		<item id="2214" name="ring of healing" chance="937" />
-		<item id="2462" name="devil helmet" chance="806" />
-		<item id="2520" name="demon shield" chance="610" />
-		<item id="2171" name="platinum amulet" chance="458" />
-		<item id="25383" name="rift lance" chance="436" />
-		<item id="25523" name="rift crossbow" chance="371" />
-		<item id="2514" name="mastermind shield" chance="349" />
-		<item id="25382" name="rift shield" chance="305" />
-		<item id="2470" name="golden legs" chance="240" />
-		<item id="25522" name="rift bow" chance="109" />
-		<item id="2472" name="magic plate armor" chance="87" />
-		<item id="7382" name="demonrage sword" chance="65" />
+		<item id="2148" name="gold coin" chance="87216" countmax="197" />
+		<item id="2152" name="platinum coin" chance="87131" countmax="9" />
+		<item id="8472" name="great spirit potion" chance="16078" countmax="5" />
+		<item id="7590" name="great mana potion" chance="16044" countmax="5" />
+		<item id="25384" name="vexclaw talon" chance="13313" />
+		<item id="8473" name="ultimate health potion" chance="12954" countmax="5" />
+		<item id="6500" name="demonic essence" chance="12715" />
+		<item id="2795" name="fire mushroom" chance="12391" countmax="6" />
+		<item id="2149" name="small emerald" chance="7100" countmax="5" />
+		<item id="2147" name="small ruby" chance="6639" countmax="5" />
+		<item id="2150" name="small amethyst" chance="6622" countmax="5" />
+		<item id="9970" name="small topaz" chance="6213" countmax="5" />
+		<item id="2156" name="red gem" chance="3175" />
+		<item id="2154" name="yellow gem" chance="3072" />
+		<item id="2396" name="ice rapier" chance="3038" />
+		<item id="2432" name="fire axe" chance="2714" />
+		<item id="2167" name="energy ring" chance="1741" />
+		<item id="2164" name="might ring" chance="1741" />
+		<item id="2393" name="giant sword" chance="1246" />
+		<item id="2214" name="ring of healing" chance="956" />
+		<item id="2462" name="devil helmet" chance="853" />
+		<item id="2520" name="demon shield" chance="546" />
+		<item id="2171" name="platinum amulet" chance="461" />
+		<item id="25383" name="rift lance" chance="444" />
+		<item id="25523" name="rift crossbow" chance="358" />
+		<item id="25382" name="rift shield" chance="324" />
+		<item id="2514" name="mastermind shield" chance="307" />
+		<item id="2470" name="golden legs" chance="273" />
+		<item id="2472" name="magic plate armor" chance="102" />
+		<item id="25522" name="rift bow" chance="85" />
+		<item id="7382" name="demonrage sword" chance="68" />
 	</loot>
 </monster>

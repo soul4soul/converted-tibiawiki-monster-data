@@ -42,6 +42,9 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-45" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-70" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="spear" />
+		</attack>
 	</attacks>
 	<defenses armor="17" defense="17" />
 	<voices interval="5000" chance="10">
@@ -49,16 +52,16 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="86480" countmax="54" />
-		<item id="2389" name="spear" chance="10090" countmax="3" />
-		<item id="2464" name="chain armor" chance="9180" />
-		<item id="2483" name="scale armor" chance="8059" />
-		<item id="3965" name="hunting spear" chance="4407" />
-		<item id="5876" name="lizard leather" chance="2231" />
-		<item id="5881" name="lizard scale" chance="2031" />
-		<item id="2381" name="halberd" chance="1499" />
-		<item id="2425" name="obsidian lance" chance="1321" />
+		<item id="2389" name="spear" chance="10110" countmax="3" />
+		<item id="2464" name="chain armor" chance="9186" />
+		<item id="2483" name="scale armor" chance="8064" />
+		<item id="3965" name="hunting spear" chance="4422" />
+		<item id="5876" name="lizard leather" chance="2211" />
+		<item id="5881" name="lizard scale" chance="2024" />
+		<item id="2381" name="halberd" chance="1507" />
+		<item id="2425" name="obsidian lance" chance="1320" />
 		<item id="7618" name="health potion" chance="1221" />
-		<item id="3974" name="sentinel shield" chance="366" />
-		<item id="2145" name="small diamond" chance="89" />
+		<item id="3974" name="sentinel shield" chance="374" />
+		<item id="2145" name="small diamond" chance="88" />
 	</loot>
 </monster>

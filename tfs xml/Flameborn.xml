@@ -51,21 +51,21 @@
 	</defenses>
 	<loot>
 		<item id="11221" name="hellspawn tail" chance="100000" />
-		<item id="2152" name="platinum coin" chance="98718" countmax="14" />
-		<item id="8473" name="ultimate health potion" chance="78205" />
-		<item id="7591" name="great health potion" chance="74359" />
-		<item id="2788" name="red mushroom" chance="67949" countmax="2" />
-		<item id="2477" name="knight legs" chance="61538" />
-		<item id="9970" name="small topaz" chance="42308" countmax="4" />
-		<item id="6500" name="demonic essence" chance="35897" />
-		<item id="7439" name="berserk potion" chance="33333" />
-		<item id="2519" name="crown shield" chance="26923" />
-		<item id="7368" name="assassin star" chance="23077" countmax="5" />
-		<item id="9969" name="black skull (item)" chance="20513" />
-		<item id="2475" name="warrior helmet" chance="20513" />
-		<item id="13298" name="carrot on a stick" chance="6410" />
-		<item id="7452" name="spiked squelcher" chance="5128" />
-		<item id="7421" name="onyx flail" chance="2564" />
-		<item name="dracoyle statue" chance="1282" />
+		<item id="2152" name="platinum coin" chance="98734" countmax="14" />
+		<item id="8473" name="ultimate health potion" chance="78481" />
+		<item id="7591" name="great health potion" chance="74684" />
+		<item id="2788" name="red mushroom" chance="68354" countmax="2" />
+		<item id="2477" name="knight legs" chance="60759" />
+		<item id="9970" name="small topaz" chance="43038" countmax="4" />
+		<item id="6500" name="demonic essence" chance="36709" />
+		<item id="7439" name="berserk potion" chance="32911" />
+		<item id="2519" name="crown shield" chance="27848" />
+		<item id="7368" name="assassin star" chance="22785" countmax="5" />
+		<item id="9969" name="black skull (item)" chance="20253" />
+		<item id="2475" name="warrior helmet" chance="20253" />
+		<item id="13298" name="carrot on a stick" chance="6329" />
+		<item id="7452" name="spiked squelcher" chance="5063" />
+		<item id="7421" name="onyx flail" chance="2532" />
+		<item name="dracoyle statue" chance="1266" />
 	</loot>
 </monster>

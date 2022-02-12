@@ -54,19 +54,19 @@
 		<voice sentence="Gimme money!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99399" countmax="9" />
-		<item id="2237" name="dirty cape" chance="60373" />
-		<item id="2690" name="roll" chance="19302" />
-		<item id="2666" name="meat" chance="9591" />
-		<item id="2567" name="wooden spoon" chance="9531" />
-		<item id="2556" name="wooden hammer" chance="6765" />
-		<item id="2744" name="red rose" chance="4991" />
-		<item id="2570" name="rolling pin" chance="4781" />
-		<item id="2802" name="sling herb" chance="631" />
-		<item id="1681" name="small blue pillow" chance="631" />
-		<item id="5553" name="rum flask" chance="511" />
-		<item id="2072" name="lute" chance="361" />
-		<item id="9808" name="heavily rusted armor" chance="301" />
-		<item id="2213" name="dwarven ring" chance="150" />
+		<item id="2148" name="gold coin" chance="99385" countmax="9" />
+		<item id="2237" name="dirty cape" chance="60492" />
+		<item id="2690" name="roll" chance="19285" />
+		<item id="2666" name="meat" chance="9760" />
+		<item id="2567" name="wooden spoon" chance="9584" />
+		<item id="2556" name="wooden hammer" chance="6712" />
+		<item id="2744" name="red rose" chance="5070" />
+		<item id="2570" name="rolling pin" chance="4748" />
+		<item id="2802" name="sling herb" chance="615" />
+		<item id="1681" name="small blue pillow" chance="615" />
+		<item id="5553" name="rum flask" chance="498" />
+		<item id="2072" name="lute" chance="352" />
+		<item id="9808" name="heavily rusted armor" chance="293" />
+		<item id="2213" name="dwarven ring" chance="147" />
 	</loot>
 </monster>

@@ -52,19 +52,19 @@
 		<voice sentence="Jinx!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="133" />
-		<item id="2684" name="carrot" chance="19060" countmax="3" />
-		<item id="7588" name="strong health potion" chance="12307" />
-		<item id="28349" name="shimmering beetles" chance="10325" />
-		<item id="1294" name="small stone" chance="4991" countmax="5" />
-		<item id="28393" name="rainbow quartz" chance="4649" countmax="2" />
-		<item id="2687" name="cookie" chance="3890" countmax="5" />
-		<item id="7760" name="small enchanted ruby" chance="3499" countmax="2" />
-		<item id="24850" name="opal" chance="3132" countmax="2" />
-		<item id="2790" name="orange mushroom" chance="2765" />
-		<item id="2801" name="fern" chance="2618" />
-		<item id="2165" name="stealth ring" chance="1028" />
-		<item id="28356" name="dream blossom staff" chance="294" />
-		<item id="13298" name="carrot on a stick" chance="73" />
+		<item id="2148" name="gold coin" chance="100000" countmax="134" />
+		<item id="2684" name="carrot" chance="19053" countmax="3" />
+		<item id="7588" name="strong health potion" chance="12366" />
+		<item id="28349" name="shimmering beetles" chance="10371" />
+		<item id="1294" name="small stone" chance="5152" countmax="5" />
+		<item id="28393" name="rainbow quartz" chance="4560" countmax="2" />
+		<item id="2687" name="cookie" chance="3727" countmax="5" />
+		<item id="7760" name="small enchanted ruby" chance="3420" countmax="2" />
+		<item id="24850" name="opal" chance="3355" countmax="2" />
+		<item id="2790" name="orange mushroom" chance="2938" />
+		<item id="2801" name="fern" chance="2763" />
+		<item id="2165" name="stealth ring" chance="1030" />
+		<item id="28356" name="dream blossom staff" chance="329" />
+		<item id="13298" name="carrot on a stick" chance="66" />
 	</loot>
 </monster>

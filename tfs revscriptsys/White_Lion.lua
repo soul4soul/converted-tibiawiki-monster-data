@@ -19,7 +19,7 @@ monster.maxHealth = 2700
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
-monster.speed = 0
+monster.speed = 220
 monster.summonCost = 0
 
 monster.changeTarget = {
@@ -82,24 +82,24 @@ monster.attacks = {
 }
 
 monster.defenses = {
-	defense = 5,
-	armor = 10
+	defense = 38,
+	armor = 38
 }
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 8472, chance = 24607, maxCount = 2},
-	{id = 10608, chance = 18804},
-	{id = 2386, chance = 15238},
-	{id = 7886, chance = 14950},
-	{id = 2643, chance = 14529},
-	{id = 11309, chance = 12802},
-	{id = 18415, chance = 6091},
-	{id = 18419, chance = 4673},
-	{id = 2391, chance = 3477},
-	{id = 2154, chance = 2746},
-	{id = 2404, chance = 2148},
-	{id = 18421, chance = 2082}
+	{id = 8472, chance = 24428, maxCount = 2},
+	{id = 10608, chance = 18847},
+	{id = 2386, chance = 15270},
+	{id = 7886, chance = 14922},
+	{id = 2643, chance = 14575},
+	{id = 11309, chance = 12735},
+	{id = 18415, chance = 5928},
+	{id = 18419, chance = 4620},
+	{id = 2391, chance = 3598},
+	{id = 2154, chance = 2719},
+	{id = 18421, chance = 2105},
+	{id = 2404, chance = 2065}
 }
 
 mType:register(monster)

@@ -55,24 +55,24 @@
 	</attacks>
 	<defenses armor="79" defense="79" />
 	<loot>
-		<item id="31226" name="glowing rune" chance="77951" countmax="5" />
-		<item id="2152" name="platinum coin" chance="77435" countmax="21" />
-		<item id="2146" name="small sapphire" chance="39791" countmax="12" />
-		<item id="26029" name="ultimate mana potion" chance="17375" countmax="2" />
-		<item id="2167" name="energy ring" chance="14088" />
-		<item id="7441" name="ice cube" chance="13925" />
-		<item id="31223" name="quill" chance="13191" />
-		<item id="7902" name="glacier mask" chance="7227" />
-		<item id="2145" name="small diamond" chance="4687" countmax="12" />
-		<item id="7387" name="diamond sceptre" chance="4592" />
-		<item id="2177" name="life crystal" chance="3559" />
-		<item id="7888" name="glacier amulet" chance="3084" />
-		<item id="2445" name="crystal mace" chance="2785" />
-		<item id="2033" name="golden mug" chance="2527" />
-		<item id="2183" name="hailstorm rod" chance="2350" />
-		<item id="18412" name="glacial rod" chance="924" />
-		<item id="7437" name="sapphire hammer" chance="842" />
-		<item id="10220" name="leviathan's amulet" chance="475" />
-		<item id="8878" name="crystalline armor" chance="163" />
+		<item id="31226" name="glowing rune" chance="77954" countmax="5" />
+		<item id="2152" name="platinum coin" chance="77430" countmax="21" />
+		<item id="2146" name="small sapphire" chance="39742" countmax="12" />
+		<item id="26029" name="ultimate mana potion" chance="17360" countmax="2" />
+		<item id="2167" name="energy ring" chance="14017" />
+		<item id="7441" name="ice cube" chance="13856" />
+		<item id="31223" name="quill" chance="13144" />
+		<item id="7902" name="glacier mask" chance="7237" />
+		<item id="2145" name="small diamond" chance="4686" countmax="12" />
+		<item id="7387" name="diamond sceptre" chance="4619" />
+		<item id="2177" name="life crystal" chance="3558" />
+		<item id="7888" name="glacier amulet" chance="3088" />
+		<item id="2445" name="crystal mace" chance="2820" />
+		<item id="2033" name="golden mug" chance="2497" />
+		<item id="2183" name="hailstorm rod" chance="2336" />
+		<item id="18412" name="glacial rod" chance="953" />
+		<item id="7437" name="sapphire hammer" chance="846" />
+		<item id="10220" name="leviathan's amulet" chance="470" />
+		<item id="8878" name="crystalline armor" chance="161" />
 	</loot>
 </monster>

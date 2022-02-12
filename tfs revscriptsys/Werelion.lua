@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Werelion"
 monster.description = "a werelion"
-monster.experience = 2400
+monster.experience = 2200
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -19,7 +19,7 @@ monster.maxHealth = 2800
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
-monster.speed = 0
+monster.speed = 220
 monster.summonCost = 0
 
 monster.changeTarget = {
@@ -82,35 +82,35 @@ monster.attacks = {
 }
 
 monster.defenses = {
-	defense = 5,
-	armor = 10
+	defense = 38,
+	armor = 38
 }
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 8472, chance = 63600, maxCount = 2},
-	{id = 2489, chance = 25880},
-	{id = 10608, chance = 16497},
-	{id = 2666, chance = 11349},
-	{id = 7449, chance = 7097},
-	{id = 7760, chance = 6019, maxCount = 5},
-	{id = 2134, chance = 4829},
-	{id = 2145, chance = 4545},
-	{id = 36601, chance = 3915},
-	{id = 2391, chance = 3527},
-	{id = 2521, chance = 3303},
-	{id = 7454, chance = 2932},
-	{id = 28393, chance = 2665, maxCount = 3},
-	{id = 24849, chance = 2492},
-	{id = 2485, chance = 2484},
-	{id = 8870, chance = 2285},
-	{id = 24739, chance = 2009},
-	{id = 27047, chance = 1949},
-	{id = 7413, chance = 1707},
-	{id = 7452, chance = 1587},
-	{id = 7456, chance = 923},
-	{id = 36664, chance = 586},
-	{id = 36437, chance = 509}
+	{id = 8472, chance = 63546, maxCount = 2},
+	{id = 2489, chance = 25925},
+	{id = 10608, chance = 16532},
+	{id = 2666, chance = 11384},
+	{id = 7449, chance = 7053},
+	{id = 7760, chance = 5941, maxCount = 5},
+	{id = 2134, chance = 4953},
+	{id = 2145, chance = 4557},
+	{id = 36601, chance = 3849},
+	{id = 2391, chance = 3647},
+	{id = 2521, chance = 3289},
+	{id = 7454, chance = 3040},
+	{id = 28393, chance = 2714, maxCount = 3},
+	{id = 24849, chance = 2527},
+	{id = 2485, chance = 2372},
+	{id = 8870, chance = 2294},
+	{id = 27047, chance = 1936},
+	{id = 24739, chance = 1835},
+	{id = 7413, chance = 1672},
+	{id = 7452, chance = 1532},
+	{id = 7456, chance = 910},
+	{id = 36664, chance = 575},
+	{id = 36437, chance = 490}
 }
 
 mType:register(monster)

@@ -56,12 +56,12 @@
 	</voices>
 	<loot>
 		<item id="2348" name="ancient rune" chance="100000" />
-		<item id="2148" name="gold coin" chance="89810" countmax="242" />
-		<item id="7590" name="great mana potion" chance="9071" />
-		<item id="2150" name="small amethyst" chance="8063" countmax="3" />
-		<item id="2214" name="ring of healing" chance="4031" />
-		<item id="3573" name="magician hat" chance="1680" />
-		<item id="2153" name="violet gem" chance="1176" />
+		<item id="2148" name="gold coin" chance="89815" countmax="242" />
+		<item id="7590" name="great mana potion" chance="9065" />
+		<item id="2150" name="small amethyst" chance="8058" countmax="3" />
+		<item id="2214" name="ring of healing" chance="4029" />
+		<item id="3573" name="magician hat" chance="1679" />
+		<item id="2153" name="violet gem" chance="1175" />
 		<item id="2176" name="orb" chance="280" />
 		<item id="2447" name="twin axe" chance="168" />
 		<item id="2184" name="crystal wand" chance="112" />

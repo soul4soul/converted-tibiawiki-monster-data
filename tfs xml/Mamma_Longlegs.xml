@@ -49,16 +49,16 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="10" />
-		<item id="5879" name="spider silk" chance="75771" />
-		<item id="7591" name="great health potion" chance="55507" countmax="4" />
-		<item id="2169" name="time ring" chance="37445" />
-		<item id="2165" name="stealth ring" chance="31278" />
-		<item id="2167" name="energy ring" chance="29956" />
-		<item id="3351" name="steel helmet" chance="12775" />
-		<item id="2171" name="platinum amulet" chance="8811" />
-		<item id="2477" name="knight legs" chance="7930" />
-		<item id="2476" name="knight armor" chance="4846" />
-		<item id="5886" name="spool of yarn" chance="1322" />
-		<item id="7416" name="bloody edge" chance="441" />
+		<item id="5879" name="spider silk" chance="75217" />
+		<item id="7591" name="great health potion" chance="55217" countmax="4" />
+		<item id="2169" name="time ring" chance="36957" />
+		<item id="2165" name="stealth ring" chance="31304" />
+		<item id="2167" name="energy ring" chance="30435" />
+		<item id="3351" name="steel helmet" chance="12609" />
+		<item id="2171" name="platinum amulet" chance="8696" />
+		<item id="2477" name="knight legs" chance="7826" />
+		<item id="2476" name="knight armor" chance="4783" />
+		<item id="5886" name="spool of yarn" chance="1304" />
+		<item id="7416" name="bloody edge" chance="435" />
 	</loot>
 </monster>

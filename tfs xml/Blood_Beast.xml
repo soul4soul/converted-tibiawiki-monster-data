@@ -51,16 +51,16 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="150" />
-		<item id="23565" name="slime heart" chance="19181" />
-		<item id="23566" name="poisoned fang" chance="16766" />
-		<item id="7366" name="viper star" chance="7994" countmax="5" />
-		<item id="7588" name="strong health potion" chance="7424" />
-		<item id="10557" name="poisonous slime" chance="4936" />
-		<item id="23517" name="glooth steak" chance="3531" />
-		<item id="23551" name="glooth axe" chance="963" />
-		<item id="23554" name="glooth amulet" chance="883" />
-		<item id="23549" name="glooth club" chance="819" />
-		<item id="23529" name="glooth spear" chance="811" />
-		<item id="23550" name="glooth blade" chance="778" />
+		<item id="23565" name="slime heart" chance="19214" />
+		<item id="23566" name="poisoned fang" chance="16641" />
+		<item id="7366" name="viper star" chance="7977" countmax="5" />
+		<item id="7588" name="strong health potion" chance="7431" />
+		<item id="10557" name="poisonous slime" chance="4881" />
+		<item id="23517" name="glooth steak" chance="3525" />
+		<item id="23551" name="glooth axe" chance="951" />
+		<item id="23554" name="glooth amulet" chance="889" />
+		<item id="23549" name="glooth club" chance="811" />
+		<item id="23529" name="glooth spear" chance="803" />
+		<item id="23550" name="glooth blade" chance="772" />
 	</loot>
 </monster>

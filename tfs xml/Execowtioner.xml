@@ -54,22 +54,22 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="2152" name="platinum coin" chance="65456" countmax="3" />
-		<item id="23572" name="execowtioner mask" chance="16404" />
-		<item id="5878" name="minotaur leather" chance="15914" />
-		<item id="7591" name="great health potion" chance="10657" />
-		<item id="7590" name="great mana potion" chance="9867" />
-		<item id="2666" name="meat" chance="8304" />
-		<item id="2147" name="small ruby" chance="5447" countmax="2" />
-		<item id="9970" name="small topaz" chance="4894" countmax="2" />
-		<item id="12428" name="minotaur horn" chance="4721" countmax="2" />
-		<item id="5911" name="red piece of cloth" chance="2826" />
-		<item id="23547" name="execowtioner axe" chance="1121" />
-		<item id="2430" name="knight axe" chance="868" />
-		<item id="2487" name="crown armor" chance="632" />
-		<item id="7413" name="titan axe" chance="616" />
-		<item id="7412" name="butcher's axe" chance="505" />
-		<item id="9971" name="gold ingot" chance="363" />
-		<item id="7401" name="minotaur trophy" chance="316" />
+		<item id="2152" name="platinum coin" chance="65460" countmax="3" />
+		<item id="23572" name="execowtioner mask" chance="16420" />
+		<item id="5878" name="minotaur leather" chance="15901" />
+		<item id="7591" name="great health potion" chance="10627" />
+		<item id="7590" name="great mana potion" chance="9871" />
+		<item id="2666" name="meat" chance="8328" />
+		<item id="2147" name="small ruby" chance="5463" countmax="2" />
+		<item id="9970" name="small topaz" chance="4880" countmax="2" />
+		<item id="12428" name="minotaur horn" chance="4739" countmax="2" />
+		<item id="5911" name="red piece of cloth" chance="2818" />
+		<item id="23547" name="execowtioner axe" chance="1118" />
+		<item id="2430" name="knight axe" chance="866" />
+		<item id="2487" name="crown armor" chance="630" />
+		<item id="7413" name="titan axe" chance="614" />
+		<item id="7412" name="butcher's axe" chance="504" />
+		<item id="9971" name="gold ingot" chance="362" />
+		<item id="7401" name="minotaur trophy" chance="315" />
 	</loot>
 </monster>

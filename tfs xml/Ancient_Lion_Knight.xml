@@ -41,4 +41,24 @@
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
+		<item id="2671" name="ham" chance="55418" />
+		<item id="2220" name="dirty fur" chance="54180" />
+		<item id="2237" name="dirty cape" chance="34365" />
+		<item id="2229" name="skull (item)" chance="30960" />
+		<item id="12409" name="broken helmet" chance="29102" />
+		<item id="2403" name="knife" chance="26625" />
+		<item id="27038" name="bug meat" chance="17957" />
+		<item id="2489" name="dark armor" chance="16409" />
+		<item id="2463" name="plate armor" chance="8050" />
+		<item id="20093" name="life preserver" chance="5573" />
+		<item id="2526" name="studded shield" chance="5263" />
+		<item id="2404" name="combat knife" chance="4954" />
+		<item id="2654" name="cape" chance="4644" />
+		<item id="2231" name="big bone" chance="4025" />
+		<item id="2525" name="dwarven shield" chance="3715" />
+		<item id="2521" name="dark shield" chance="3096" />
+		<item id="2226" name="fishbone" chance="1858" />
+	</loot>
 </monster>

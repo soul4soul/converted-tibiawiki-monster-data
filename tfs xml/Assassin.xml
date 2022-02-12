@@ -42,6 +42,9 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-120" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-40" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="throwingstar" />
+		</attack>
 	</attacks>
 	<defenses armor="17" defense="17" />
 	<voices interval="5000" chance="10">
@@ -50,18 +53,18 @@
 		<voice sentence="Feel the hand of death!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="83038" countmax="50" />
-		<item name="torch" chance="30097" countmax="2" />
-		<item id="2403" name="knife" chance="9857" />
-		<item id="2399" name="throwing star" chance="7002" countmax="14" />
-		<item id="7366" name="viper star" chance="4171" countmax="7" />
-		<item id="2404" name="combat knife" chance="4009" />
-		<item id="3351" name="steel helmet" chance="3047" />
-		<item id="2510" name="plate shield" chance="1928" />
-		<item id="2513" name="battle shield" chance="1642" />
-		<item id="2509" name="steel shield" chance="976" />
+		<item id="2148" name="gold coin" chance="83056" countmax="50" />
+		<item name="torch" chance="30112" countmax="2" />
+		<item id="2403" name="knife" chance="9860" />
+		<item id="2399" name="throwing star" chance="7005" countmax="14" />
+		<item id="7366" name="viper star" chance="4170" countmax="7" />
+		<item id="2404" name="combat knife" chance="4017" />
+		<item id="3351" name="steel helmet" chance="3042" />
+		<item id="2510" name="plate shield" chance="1925" />
+		<item id="2513" name="battle shield" chance="1649" />
+		<item id="2509" name="steel shield" chance="975" />
 		<item id="3968" name="leopard armor" chance="473" />
-		<item id="3969" name="horseman helmet" chance="242" />
+		<item id="3969" name="horseman helmet" chance="241" />
 		<item id="2145" name="small diamond" chance="222" />
 	</loot>
 </monster>

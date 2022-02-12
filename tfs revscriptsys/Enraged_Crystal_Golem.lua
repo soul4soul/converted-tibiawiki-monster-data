@@ -85,19 +85,19 @@ monster.attacks = {
 monster.defenses = {
 	defense = 38,
 	armor = 38,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 6}
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 2, maxDamage = 8}
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 18432, chance = 8260},
-	{id = 7589, chance = 8156},
-	{id = 7588, chance = 8107},
-	{id = 18304, chance = 5084, maxCount = 5},
-	{id = 7449, chance = 4785},
-	{id = 18418, chance = 4109},
-	{id = 18419, chance = 947},
-	{id = 7454, chance = 390}
+	{id = 18432, chance = 8235},
+	{id = 7589, chance = 8166},
+	{id = 7588, chance = 8090},
+	{id = 18304, chance = 5073, maxCount = 5},
+	{id = 7449, chance = 4768},
+	{id = 18418, chance = 4104},
+	{id = 18419, chance = 941},
+	{id = 7454, chance = 388}
 }
 
 mType:register(monster)

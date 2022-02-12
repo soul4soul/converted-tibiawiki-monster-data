@@ -55,23 +55,23 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="199" />
-		<item id="2671" name="ham" chance="66471" />
-		<item id="2152" name="platinum coin" chance="57217" countmax="8" />
-		<item id="6558" name="flask of demonic blood" chance="35191" />
-		<item id="5944" name="soul orb" chance="24080" />
-		<item id="7590" name="great mana potion" chance="15314" countmax="2" />
-		<item id="7591" name="great health potion" chance="9580" countmax="2" />
-		<item id="6500" name="demonic essence" chance="8863" />
-		<item id="2558" name="saw" chance="4953" />
-		<item id="2645" name="steel boots" chance="4822" />
-		<item id="9971" name="gold ingot" chance="2965" />
-		<item id="5022" name="orichalcum pearl" chance="2933" countmax="2" />
-		<item id="5480" name="cat's paw" chance="2118" />
-		<item id="6300" name="death ring" chance="1825" />
-		<item id="7368" name="assassin star" chance="1662" countmax="5" />
-		<item id="7412" name="butcher's axe" chance="847" />
-		<item id="5801" name="jewelled backpack" chance="749" />
-		<item id="7388" name="vile axe" chance="489" />
-		<item id="2470" name="golden legs" chance="98" />
+		<item id="2671" name="ham" chance="66155" />
+		<item id="2152" name="platinum coin" chance="57351" countmax="8" />
+		<item id="6558" name="flask of demonic blood" chance="34929" />
+		<item id="5944" name="soul orb" chance="24590" />
+		<item id="7590" name="great mana potion" chance="15336" countmax="2" />
+		<item id="7591" name="great health potion" chance="9545" countmax="2" />
+		<item id="6500" name="demonic essence" chance="8831" />
+		<item id="2558" name="saw" chance="5209" />
+		<item id="2645" name="steel boots" chance="4865" />
+		<item id="9971" name="gold ingot" chance="3120" />
+		<item id="5022" name="orichalcum pearl" chance="2750" countmax="2" />
+		<item id="5480" name="cat's paw" chance="2168" />
+		<item id="6300" name="death ring" chance="1851" />
+		<item id="7368" name="assassin star" chance="1798" countmax="5" />
+		<item id="5801" name="jewelled backpack" chance="873" />
+		<item id="7412" name="butcher's axe" chance="793" />
+		<item id="7388" name="vile axe" chance="529" />
+		<item id="2470" name="golden legs" chance="106" />
 	</loot>
 </monster>

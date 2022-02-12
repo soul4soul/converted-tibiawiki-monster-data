@@ -45,10 +45,10 @@
 	</attacks>
 	<defenses armor="27" defense="27" />
 	<loot>
-		<item id="2148" name="gold coin" chance="89637" countmax="119" />
-		<item id="8859" name="spider fangs" chance="25162" />
-		<item id="2159" name="scarab coin" chance="6706" countmax="4" />
-		<item id="2463" name="plate armor" chance="4760" />
-		<item id="9971" name="gold ingot" chance="52" />
+		<item id="2148" name="gold coin" chance="89646" countmax="119" />
+		<item id="8859" name="spider fangs" chance="25134" />
+		<item id="2159" name="scarab coin" chance="6652" countmax="4" />
+		<item id="2463" name="plate armor" chance="4732" />
+		<item id="9971" name="gold ingot" chance="64" />
 	</loot>
 </monster>

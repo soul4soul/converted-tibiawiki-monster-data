@@ -48,31 +48,31 @@
 		<voice sentence="There is nothing here for you and you will die alone." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="94052" countmax="200" />
-		<item id="2152" name="platinum coin" chance="94052" countmax="15" />
-		<item id="2671" name="ham" chance="70260" />
-		<item id="6500" name="demonic essence" chance="48327" />
-		<item id="7591" name="great health potion" chance="37175" countmax="3" />
-		<item id="5944" name="soul orb" chance="32342" />
-		<item id="6558" name="flask of demonic blood" chance="26766" />
-		<item id="7368" name="assassin star" chance="26022" countmax="10" />
-		<item id="7590" name="great mana potion" chance="23792" countmax="3" />
-		<item id="2145" name="small diamond" chance="21933" countmax="5" />
-		<item id="2147" name="small ruby" chance="19331" countmax="5" />
-		<item id="9970" name="small topaz" chance="18959" countmax="5" />
-		<item id="2149" name="small emerald" chance="18216" countmax="5" />
-		<item id="2150" name="small amethyst" chance="15613" countmax="5" />
-		<item id="2156" name="red gem" chance="13011" />
-		<item id="7365" name="onyx arrow" chance="12268" countmax="15" />
-		<item name="giant shimmering pearl" chance="7063" />
-		<item id="9971" name="gold ingot" chance="7063" countmax="2" />
-		<item id="7413" name="titan axe" chance="7063" />
-		<item id="7762" name="small enchanted amethyst" chance="5948" />
-		<item id="7452" name="spiked squelcher" chance="5576" />
-		<item id="2476" name="knight armor" chance="4461" />
-		<item id="2153" name="violet gem" chance="3346" />
-		<item id="2454" name="war axe" chance="3346" />
-		<item id="2155" name="green gem" chance="2230" />
-		<item id="2466" name="golden armor" chance="743" />
+		<item id="2148" name="gold coin" chance="94771" countmax="200" />
+		<item id="2152" name="platinum coin" chance="94771" countmax="15" />
+		<item id="2671" name="ham" chance="67647" />
+		<item id="6500" name="demonic essence" chance="49020" />
+		<item id="7591" name="great health potion" chance="35948" countmax="3" />
+		<item id="5944" name="soul orb" chance="32353" />
+		<item id="7368" name="assassin star" chance="27124" countmax="10" />
+		<item id="7590" name="great mana potion" chance="26144" countmax="3" />
+		<item id="6558" name="flask of demonic blood" chance="25817" />
+		<item id="2145" name="small diamond" chance="20915" countmax="5" />
+		<item id="9970" name="small topaz" chance="19935" countmax="5" />
+		<item id="2149" name="small emerald" chance="19608" countmax="5" />
+		<item id="2147" name="small ruby" chance="18301" countmax="5" />
+		<item id="2150" name="small amethyst" chance="16013" countmax="5" />
+		<item id="2156" name="red gem" chance="14052" />
+		<item id="7365" name="onyx arrow" chance="11765" countmax="15" />
+		<item name="giant shimmering pearl" chance="7516" />
+		<item id="9971" name="gold ingot" chance="6863" countmax="2" />
+		<item id="7413" name="titan axe" chance="6863" />
+		<item id="2476" name="knight armor" chance="5229" />
+		<item id="7762" name="small enchanted amethyst" chance="5229" />
+		<item id="7452" name="spiked squelcher" chance="5229" />
+		<item id="2153" name="violet gem" chance="2941" />
+		<item id="2454" name="war axe" chance="2941" />
+		<item id="2155" name="green gem" chance="1961" />
+		<item id="2466" name="golden armor" chance="980" />
 	</loot>
 </monster>

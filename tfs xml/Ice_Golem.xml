@@ -57,17 +57,17 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="120" />
-		<item id="10578" name="frosty heart" chance="14279" />
-		<item id="7441" name="ice cube" chance="5106" />
-		<item id="7589" name="strong mana potion" chance="3033" />
-		<item id="7588" name="strong health potion" chance="2458" />
-		<item id="2144" name="black pearl" chance="1491" />
-		<item id="2145" name="small diamond" chance="737" />
-		<item id="2146" name="small sapphire" chance="573" />
+		<item id="10578" name="frosty heart" chance="14257" />
+		<item id="7441" name="ice cube" chance="5098" />
+		<item id="7589" name="strong mana potion" chance="3034" />
+		<item id="7588" name="strong health potion" chance="2461" />
+		<item id="2144" name="black pearl" chance="1495" />
+		<item id="2145" name="small diamond" chance="744" />
+		<item id="2146" name="small sapphire" chance="576" />
 		<item id="7449" name="crystal sword" chance="564" />
-		<item id="2479" name="strange helmet" chance="355" />
-		<item id="2396" name="ice rapier" chance="317" />
-		<item id="7290" name="shard" chance="202" />
-		<item id="7902" name="glacier mask" chance="192" />
+		<item id="2479" name="strange helmet" chance="354" />
+		<item id="2396" name="ice rapier" chance="319" />
+		<item id="7290" name="shard" chance="203" />
+		<item id="7902" name="glacier mask" chance="193" />
 	</loot>
 </monster>

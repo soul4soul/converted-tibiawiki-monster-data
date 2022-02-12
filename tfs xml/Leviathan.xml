@@ -51,13 +51,13 @@
 	<loot>
 		<item id="10220" name="leviathan's amulet" chance="100000" />
 		<item id="10529" name="sea serpent trophy" chance="100000" />
-		<item id="9809" name="rusted armor" chance="84211" />
-		<item id="2152" name="platinum coin" chance="83459" countmax="7" />
-		<item id="9812" name="rusted legs" chance="82707" />
-		<item id="7428" name="bonebreaker" chance="53383" />
-		<item id="7589" name="strong mana potion" chance="50376" />
-		<item id="2146" name="small sapphire" chance="49624" countmax="5" />
-		<item id="10521" name="moon backpack" chance="15789" />
-		<item id="8887" name="frozen plate" chance="752" />
+		<item id="9809" name="rusted armor" chance="84559" />
+		<item id="2152" name="platinum coin" chance="83088" countmax="7" />
+		<item id="9812" name="rusted legs" chance="83088" />
+		<item id="7428" name="bonebreaker" chance="53676" />
+		<item id="2146" name="small sapphire" chance="50735" countmax="5" />
+		<item id="7589" name="strong mana potion" chance="49265" />
+		<item id="10521" name="moon backpack" chance="15441" />
+		<item id="8887" name="frozen plate" chance="735" />
 	</loot>
 </monster>

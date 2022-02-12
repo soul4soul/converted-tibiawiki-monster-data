@@ -45,11 +45,11 @@
 	</attacks>
 	<defenses armor="28" defense="28" />
 	<loot>
-		<item id="2148" name="gold coin" chance="85827" countmax="20" />
-		<item id="2667" name="fish" chance="14848" />
-		<item id="10550" name="bloody pincers" chance="6108" />
-		<item id="2464" name="chain armor" chance="5101" />
-		<item id="2478" name="brass legs" chance="2147" />
-		<item id="2143" name="white pearl" chance="522" />
+		<item id="2148" name="gold coin" chance="85811" countmax="20" />
+		<item id="2667" name="fish" chance="14802" />
+		<item id="10550" name="bloody pincers" chance="6062" />
+		<item id="2464" name="chain armor" chance="5129" />
+		<item id="2478" name="brass legs" chance="2140" />
+		<item id="2143" name="white pearl" chance="519" />
 	</loot>
 </monster>

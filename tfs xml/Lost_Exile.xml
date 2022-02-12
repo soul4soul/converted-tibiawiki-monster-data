@@ -46,32 +46,32 @@
 	<defenses armor="55" defense="55" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="58197" countmax="2" />
-		<item id="2789" name="brown mushroom" chance="14421" countmax="2" />
-		<item id="20135" name="red hair dye" chance="14249" />
-		<item id="20127" name="wimp tooth chain" chance="13734" />
-		<item id="20130" name="holy ash" chance="13391" />
-		<item id="13757" name="coal" chance="11845" />
-		<item id="9970" name="small topaz" chance="10129" />
-		<item id="7588" name="strong health potion" chance="10043" countmax="3" />
-		<item id="7590" name="great mana potion" chance="9614" countmax="2" />
-		<item id="20129" name="skull shatterer" chance="9185" />
-		<item id="20128" name="lost husher's staff" chance="9099" />
-		<item id="20111" name="bone fetish" chance="8841" />
-		<item id="20137" name="basalt figurine" chance="8240" />
-		<item id="20110" name="bonecarving knife" chance="8069" />
-		<item id="20136" name="basalt fetish" chance="7296" />
-		<item id="2213" name="dwarven ring" chance="1974" />
-		<item id="2430" name="knight axe" chance="1288" />
-		<item id="20109" name="buckle" chance="1202" />
-		<item id="2515" name="guardian shield" chance="1202" />
-		<item id="2436" name="skull staff" chance="687" />
-		<item id="11339" name="clay lump" chance="601" />
-		<item id="2432" name="fire axe" chance="601" />
-		<item id="7886" name="terra boots" chance="429" />
-		<item id="7452" name="spiked squelcher" chance="343" />
-		<item id="30309" name="suspicious device" chance="258" />
-		<item id="7885" name="terra legs" chance="258" />
-		<item id="2528" name="tower shield" chance="172" />
+		<item id="2152" name="platinum coin" chance="59182" countmax="2" />
+		<item id="20135" name="red hair dye" chance="15202" />
+		<item id="2789" name="brown mushroom" chance="14040" countmax="2" />
+		<item id="20127" name="wimp tooth chain" chance="13064" />
+		<item id="13757" name="coal" chance="12413" />
+		<item id="20130" name="holy ash" chance="12134" />
+		<item id="9970" name="small topaz" chance="10367" />
+		<item id="7590" name="great mana potion" chance="9856" countmax="2" />
+		<item id="7588" name="strong health potion" chance="9856" countmax="3" />
+		<item id="20110" name="bonecarving knife" chance="9809" />
+		<item id="20111" name="bone fetish" chance="9298" />
+		<item id="20128" name="lost husher's staff" chance="9205" />
+		<item id="20129" name="skull shatterer" chance="8415" />
+		<item id="20137" name="basalt figurine" chance="7810" />
+		<item id="20136" name="basalt fetish" chance="6323" />
+		<item id="2213" name="dwarven ring" chance="2371" />
+		<item id="2430" name="knight axe" chance="1302" />
+		<item id="2515" name="guardian shield" chance="883" />
+		<item id="20109" name="buckle" chance="837" />
+		<item id="11339" name="clay lump" chance="697" />
+		<item id="7886" name="terra boots" chance="697" />
+		<item id="2436" name="skull staff" chance="558" />
+		<item id="2432" name="fire axe" chance="372" />
+		<item id="30309" name="suspicious device" chance="372" />
+		<item id="7885" name="terra legs" chance="232" />
+		<item id="7452" name="spiked squelcher" chance="186" />
+		<item id="2528" name="tower shield" chance="139" />
 	</loot>
 </monster>

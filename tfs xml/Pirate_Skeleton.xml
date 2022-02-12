@@ -45,13 +45,13 @@
 	</attacks>
 	<defenses armor="12" defense="12" />
 	<loot>
-		<item id="2148" name="gold coin" chance="49733" countmax="25" />
-		<item id="10559" name="spooky blue eye" chance="5279" />
-		<item id="2229" name="skull (item)" chance="4830" />
-		<item id="2231" name="big bone" chance="4690" />
-		<item id="2230" name="bone" chance="4690" />
-		<item id="2449" name="bone club" chance="1123" />
-		<item id="2406" name="short sword" chance="871" />
-		<item id="2376" name="sword" chance="730" />
+		<item id="2148" name="gold coin" chance="49730" countmax="25" />
+		<item id="10559" name="spooky blue eye" chance="5216" />
+		<item id="2229" name="skull (item)" chance="4838" />
+		<item id="2231" name="big bone" chance="4730" />
+		<item id="2230" name="bone" chance="4703" />
+		<item id="2449" name="bone club" chance="1081" />
+		<item id="2406" name="short sword" chance="865" />
+		<item id="2376" name="sword" chance="703" />
 	</loot>
 </monster>

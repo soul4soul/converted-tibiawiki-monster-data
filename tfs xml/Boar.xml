@@ -49,7 +49,7 @@
 		<voice sentence="Grunt" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="25249" countmax="20" />
-		<item id="13297" name="haunch of boar" chance="20016" countmax="2" />
+		<item id="2148" name="gold coin" chance="25226" countmax="20" />
+		<item id="13297" name="haunch of boar" chance="19855" countmax="2" />
 	</loot>
 </monster>

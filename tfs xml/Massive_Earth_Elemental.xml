@@ -47,18 +47,18 @@
 		<defense name="healing" interval="2000" chance="20" min="133" max="332" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="94062" countmax="241" />
-		<item id="11222" name="lump of earth" chance="40032" />
-		<item id="1294" name="small stone" chance="24830" countmax="10" />
-		<item id="9809" name="rusted armor" chance="5004" />
-		<item id="9970" name="small topaz" chance="4925" countmax="2" />
-		<item id="2145" name="small diamond" chance="4545" countmax="2" />
-		<item id="2213" name="dwarven ring" chance="2898" />
-		<item id="2200" name="protection amulet" chance="1853" />
-		<item id="2197" name="stone skin amulet" chance="934" />
-		<item id="7887" name="terra amulet" chance="554" />
-		<item id="11339" name="clay lump" chance="459" />
-		<item id="13757" name="coal" chance="459" />
-		<item id="7387" name="diamond sceptre" chance="174" />
+		<item id="2148" name="gold coin" chance="94103" countmax="241" />
+		<item id="11222" name="lump of earth" chance="40120" />
+		<item id="1294" name="small stone" chance="24853" countmax="10" />
+		<item id="9809" name="rusted armor" chance="5017" />
+		<item id="9970" name="small topaz" chance="4878" countmax="2" />
+		<item id="2145" name="small diamond" chance="4523" countmax="2" />
+		<item id="2213" name="dwarven ring" chance="2887" />
+		<item id="2200" name="protection amulet" chance="1883" />
+		<item id="2197" name="stone skin amulet" chance="942" />
+		<item id="7887" name="terra amulet" chance="540" />
+		<item id="11339" name="clay lump" chance="463" />
+		<item id="13757" name="coal" chance="448" />
+		<item id="7387" name="diamond sceptre" chance="170" />
 	</loot>
 </monster>

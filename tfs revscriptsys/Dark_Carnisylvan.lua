@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Dark Carnisylvan"
 monster.description = "a dark carnisylvan"
-monster.experience = 3900
+monster.experience = 4400
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -87,19 +87,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 19},
-	{id = 2230, chance = 30137},
-	{id = 39461, chance = 11306},
-	{id = 39462, chance = 9725},
-	{id = 7590, chance = 8660},
-	{id = 8910, chance = 4433},
-	{id = 8920, chance = 3711},
-	{id = 2183, chance = 2715},
-	{id = 2175, chance = 2612},
-	{id = 8912, chance = 2577},
-	{id = 8901, chance = 1787},
-	{id = 2179, chance = 756},
-	{id = 28354, chance = 550},
-	{id = 39463, chance = 481}
+	{id = 2230, chance = 29378},
+	{id = 39461, chance = 11637},
+	{id = 39462, chance = 9774},
+	{id = 7590, chance = 8283},
+	{id = 8910, chance = 4299},
+	{id = 8920, chance = 3869},
+	{id = 2183, chance = 2809},
+	{id = 8912, chance = 2723},
+	{id = 2175, chance = 2694},
+	{id = 8901, chance = 1691},
+	{id = 2179, chance = 745},
+	{id = 28354, chance = 631},
+	{id = 39463, chance = 573}
 }
 
 mType:register(monster)

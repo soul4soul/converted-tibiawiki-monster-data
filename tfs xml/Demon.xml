@@ -64,38 +64,38 @@
 		<voice name="Fire Elemental" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="99493" countmax="200" />
-		<item id="2152" name="platinum coin" chance="99487" countmax="8" />
-		<item id="7590" name="great mana potion" chance="25100" countmax="3" />
-		<item id="8472" name="great spirit potion" chance="24833" countmax="3" />
-		<item id="5954" name="demon horn" chance="20166" />
-		<item id="8473" name="ultimate health potion" chance="19727" countmax="3" />
-		<item id="2795" name="fire mushroom" chance="19724" countmax="6" />
-		<item id="6500" name="demonic essence" chance="19697" />
-		<item id="7368" name="assassin star" chance="15471" countmax="10" />
-		<item id="9970" name="small topaz" chance="10131" countmax="5" />
-		<item id="2147" name="small ruby" chance="10008" countmax="5" />
-		<item id="2149" name="small emerald" chance="9855" countmax="5" />
-		<item id="2150" name="small amethyst" chance="9825" countmax="5" />
-		<item id="2432" name="fire axe" chance="4012" />
-		<item id="2151" name="talon" chance="3361" />
-		<item id="2156" name="red gem" chance="2998" />
-		<item id="2176" name="orb" chance="2900" />
-		<item id="2214" name="ring of healing" chance="2657" />
-		<item id="2164" name="might ring" chance="2499" />
-		<item id="2165" name="stealth ring" chance="2409" />
-		<item id="2393" name="giant sword" chance="1961" />
-		<item id="2396" name="ice rapier" chance="1907" />
+		<item id="2148" name="gold coin" chance="99502" countmax="200" />
+		<item id="2152" name="platinum coin" chance="99496" countmax="8" />
+		<item id="7590" name="great mana potion" chance="25086" countmax="3" />
+		<item id="8472" name="great spirit potion" chance="24818" countmax="3" />
+		<item id="5954" name="demon horn" chance="20172" />
+		<item id="8473" name="ultimate health potion" chance="19751" countmax="3" />
+		<item id="2795" name="fire mushroom" chance="19733" countmax="6" />
+		<item id="6500" name="demonic essence" chance="19695" />
+		<item id="7368" name="assassin star" chance="15437" countmax="10" />
+		<item id="9970" name="small topaz" chance="10150" countmax="5" />
+		<item id="2147" name="small ruby" chance="9998" countmax="5" />
+		<item id="2149" name="small emerald" chance="9853" countmax="5" />
+		<item id="2150" name="small amethyst" chance="9770" countmax="5" />
+		<item id="2432" name="fire axe" chance="4041" />
+		<item id="2151" name="talon" chance="3382" />
+		<item id="2156" name="red gem" chance="2980" />
+		<item id="2176" name="orb" chance="2870" />
+		<item id="2214" name="ring of healing" chance="2664" />
+		<item id="2164" name="might ring" chance="2500" />
+		<item id="2165" name="stealth ring" chance="2404" />
+		<item id="2393" name="giant sword" chance="1959" />
+		<item id="2396" name="ice rapier" chance="1913" />
 		<item id="2418" name="golden sickle" chance="1369" />
-		<item id="1982" name="purple tome" chance="1238" />
-		<item id="2462" name="devil helmet" chance="1225" />
-		<item id="2179" name="gold ring" chance="1028" />
+		<item id="1982" name="purple tome" chance="1241" />
+		<item id="2462" name="devil helmet" chance="1233" />
+		<item id="2179" name="gold ring" chance="1029" />
 		<item id="2520" name="demon shield" chance="764" />
-		<item id="2171" name="platinum amulet" chance="701" />
-		<item id="2514" name="mastermind shield" chance="466" />
-		<item id="2470" name="golden legs" chance="406" />
-		<item id="7393" name="demon trophy" chance="87" />
-		<item id="2472" name="magic plate armor" chance="87" />
-		<item id="7382" name="demonrage sword" chance="55" />
+		<item id="2171" name="platinum amulet" chance="713" />
+		<item id="2514" name="mastermind shield" chance="472" />
+		<item id="2470" name="golden legs" chance="399" />
+		<item id="7393" name="demon trophy" chance="88" />
+		<item id="2472" name="magic plate armor" chance="88" />
+		<item id="7382" name="demonrage sword" chance="56" />
 	</loot>
 </monster>

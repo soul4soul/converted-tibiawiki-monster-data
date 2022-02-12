@@ -52,15 +52,15 @@
 		<voice sentence="These mine is ours... you shall not pass." yell="false" />
 	</voices>
 	<loot>
-		<item id="3976" name="worm" chance="80726" countmax="6" />
-		<item id="2148" name="gold coin" chance="70806" countmax="30" />
-		<item name="torch" chance="61210" />
-		<item id="2460" name="brass helmet" chance="18145" />
-		<item id="2403" name="knife" chance="14839" />
-		<item id="2473" name="viking helmet" chance="5161" />
-		<item id="2483" name="scale armor" chance="3468" />
-		<item id="2229" name="skull (item)" chance="2661" />
-		<item id="5913" name="brown piece of cloth" chance="726" />
-		<item id="2168" name="life ring" chance="81" />
+		<item id="3976" name="worm" chance="80740" countmax="6" />
+		<item id="2148" name="gold coin" chance="71076" countmax="30" />
+		<item name="torch" chance="61206" />
+		<item id="2460" name="brass helmet" chance="18163" />
+		<item id="2403" name="knife" chance="14668" />
+		<item id="2473" name="viking helmet" chance="5415" />
+		<item id="2483" name="scale armor" chance="3564" />
+		<item id="2229" name="skull (item)" chance="2742" />
+		<item id="5913" name="brown piece of cloth" chance="960" />
+		<item id="2168" name="life ring" chance="137" />
 	</loot>
 </monster>

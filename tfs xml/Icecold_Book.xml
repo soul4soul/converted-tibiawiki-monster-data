@@ -55,26 +55,26 @@
 	</defenses>
 	<loot>
 		<item id="2152" name="platinum coin" chance="91092" countmax="5" />
-		<item id="31225" name="book page" chance="62166" />
-		<item id="2145" name="small diamond" chance="46308" />
-		<item id="2146" name="small sapphire" chance="27369" countmax="9" />
-		<item id="26029" name="ultimate mana potion" chance="21230" />
-		<item id="2396" name="ice rapier" chance="21085" />
-		<item id="8473" name="ultimate health potion" chance="18461" />
-		<item id="31223" name="quill" chance="18272" />
-		<item id="31222" name="silken bookmark" chance="16882" />
-		<item id="7902" name="glacier mask" chance="13312" />
-		<item id="10578" name="frosty heart" chance="12900" />
-		<item id="7387" name="diamond sceptre" chance="6328" />
-		<item id="7896" name="glacier kilt" chance="4749" />
-		<item id="7441" name="ice cube" chance="4671" />
-		<item id="7892" name="glacier shoes" chance="3281" />
-		<item id="2445" name="crystal mace" chance="2647" />
-		<item id="7897" name="glacier robe" chance="1768" />
-		<item id="7437" name="sapphire hammer" chance="1668" />
-		<item id="2479" name="strange helmet" chance="1668" />
-		<item id="8878" name="crystalline armor" chance="923" />
-		<item id="18412" name="glacial rod" chance="589" />
-		<item id="10220" name="leviathan's amulet" chance="133" />
+		<item id="31225" name="book page" chance="62213" />
+		<item id="2145" name="small diamond" chance="46321" />
+		<item id="2146" name="small sapphire" chance="27362" countmax="9" />
+		<item id="26029" name="ultimate mana potion" chance="21258" />
+		<item id="2396" name="ice rapier" chance="21115" />
+		<item id="8473" name="ultimate health potion" chance="18509" />
+		<item id="31223" name="quill" chance="18223" />
+		<item id="31222" name="silken bookmark" chance="16925" />
+		<item id="7902" name="glacier mask" chance="13406" />
+		<item id="10578" name="frosty heart" chance="12933" />
+		<item id="7387" name="diamond sceptre" chance="6324" />
+		<item id="7896" name="glacier kilt" chance="4762" />
+		<item id="7441" name="ice cube" chance="4663" />
+		<item id="7892" name="glacier shoes" chance="3288" />
+		<item id="2445" name="crystal mace" chance="2639" />
+		<item id="7897" name="glacier robe" chance="1760" />
+		<item id="2479" name="strange helmet" chance="1661" />
+		<item id="7437" name="sapphire hammer" chance="1650" />
+		<item id="8878" name="crystalline armor" chance="935" />
+		<item id="18412" name="glacial rod" chance="605" />
+		<item id="10220" name="leviathan's amulet" chance="132" />
 	</loot>
 </monster>

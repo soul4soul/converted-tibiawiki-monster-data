@@ -51,7 +51,7 @@
 		<voice sentence="Your riches will be mine!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="Gold Coin" chance="20000" countmax="40" />
+		<item id="2148" name="Gold Coin" chance="35000" countmax="40" />
 		<item id="12448" name="Rope Belt" chance="15000" />
 		<item id="2386" name="Axe" chance="2500" />
 		<item id="2465" name="Brass Armor" chance="2500" />

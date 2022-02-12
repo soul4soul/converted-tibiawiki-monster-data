@@ -47,15 +47,15 @@
 		<defense name="healing" interval="2000" chance="20" min="35" max="65" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="12524" countmax="88" />
-		<item id="2230" name="bone" chance="10057" />
-		<item id="2463" name="plate armor" chance="3416" />
-		<item id="2229" name="skull (item)" chance="3036" />
-		<item id="2231" name="big bone" chance="2087" />
-		<item id="2449" name="bone club" chance="2087" />
-		<item id="2541" name="bone shield" chance="1328" />
-		<item id="2796" name="green mushroom" chance="1139" />
-		<item id="5925" name="hardened bone" chance="759" />
-		<item id="7618" name="health potion" chance="759" />
+		<item id="2148" name="gold coin" chance="12618" countmax="88" />
+		<item id="2230" name="bone" chance="10169" />
+		<item id="2463" name="plate armor" chance="3390" />
+		<item id="2229" name="skull (item)" chance="3013" />
+		<item id="2231" name="big bone" chance="2260" />
+		<item id="2449" name="bone club" chance="2072" />
+		<item id="2541" name="bone shield" chance="1318" />
+		<item id="2796" name="green mushroom" chance="1130" />
+		<item id="5925" name="hardened bone" chance="753" />
+		<item id="7618" name="health potion" chance="753" />
 	</loot>
 </monster>

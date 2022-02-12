@@ -45,20 +45,20 @@
 	</attacks>
 	<defenses armor="75" defense="75" />
 	<loot>
-		<item id="18419" name="cyan crystal fragment" chance="15701" />
-		<item id="2145" name="small diamond" chance="12601" />
-		<item id="38228" name="pirate coin" chance="11590" countmax="10" />
-		<item id="18420" name="red crystal fragment" chance="10040" />
-		<item id="38252" name="mouldy powder" chance="8962" />
-		<item id="38229" name="pirat's tail" chance="7682" />
-		<item id="2156" name="red gem" chance="6739" />
-		<item id="2392" name="fire sword" chance="6334" />
-		<item id="2149" name="small emerald" chance="5593" />
-		<item id="24849" name="onyx chip" chance="4650" />
-		<item id="38230" name="shark fins" chance="3908" />
-		<item id="2154" name="yellow gem" chance="3774" />
-		<item id="2396" name="ice rapier" chance="3100" />
-		<item id="18415" name="green crystal shard" chance="2830" />
-		<item id="38227" name="small treasure chest" chance="2224" />
+		<item id="18419" name="cyan crystal fragment" chance="15667" />
+		<item id="2145" name="small diamond" chance="11881" />
+		<item id="38228" name="pirate coin" chance="11182" countmax="10" />
+		<item id="18420" name="red crystal fragment" chance="10309" />
+		<item id="38252" name="mouldy powder" chance="9086" />
+		<item id="38229" name="pirat's tail" chance="8037" />
+		<item id="2156" name="red gem" chance="6872" />
+		<item id="2392" name="fire sword" chance="6232" />
+		<item id="2149" name="small emerald" chance="5708" />
+		<item id="24849" name="onyx chip" chance="4543" />
+		<item id="38230" name="shark fins" chance="3960" />
+		<item id="2154" name="yellow gem" chance="3844" />
+		<item id="2396" name="ice rapier" chance="3029" />
+		<item id="18415" name="green crystal shard" chance="2854" />
+		<item id="38227" name="small treasure chest" chance="2330" />
 	</loot>
 </monster>

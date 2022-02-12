@@ -52,26 +52,26 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="198" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="2694" name="bunch of wheat" chance="50272" countmax="2" />
-		<item id="7590" name="great mana potion" chance="30398" countmax="3" />
-		<item id="6500" name="demonic essence" chance="29462" />
-		<item id="5944" name="soul orb" chance="25414" />
-		<item id="2260" name="blank rune" chance="25237" countmax="2" />
-		<item id="10605" name="bundle of cursed straw" chance="14813" />
-		<item id="8473" name="ultimate health potion" chance="14573" countmax="2" />
-		<item id="2183" name="hailstorm rod" chance="9766" />
-		<item id="7368" name="assassin star" chance="6996" countmax="10" />
-		<item id="9971" name="gold ingot" chance="5262" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="4605" />
-		<item id="7732" name="seeds" chance="3770" />
-		<item id="2550" name="scythe" chance="3150" />
-		<item id="7885" name="terra legs" chance="2720" />
-		<item id="2199" name="garlic necklace" chance="2075" />
-		<item id="2436" name="skull staff" chance="1796" />
-		<item id="2179" name="gold ring" chance="1455" />
-		<item id="6300" name="death ring" chance="1341" />
-		<item id="7884" name="terra mantle" chance="1139" />
-		<item id="2418" name="golden sickle" chance="177" />
-		<item id="2173" name="amulet of loss" chance="152" />
+		<item id="2694" name="bunch of wheat" chance="50296" countmax="2" />
+		<item id="7590" name="great mana potion" chance="30308" countmax="3" />
+		<item id="6500" name="demonic essence" chance="29557" />
+		<item id="2260" name="blank rune" chance="25345" countmax="2" />
+		<item id="5944" name="soul orb" chance="25320" />
+		<item id="10605" name="bundle of cursed straw" chance="14692" />
+		<item id="8473" name="ultimate health potion" chance="14618" countmax="2" />
+		<item id="2183" name="hailstorm rod" chance="9606" />
+		<item id="7368" name="assassin star" chance="7057" countmax="10" />
+		<item id="9971" name="gold ingot" chance="5209" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="4594" />
+		<item id="7732" name="seeds" chance="3756" />
+		<item id="2550" name="scythe" chance="3116" />
+		<item id="7885" name="terra legs" chance="2734" />
+		<item id="2199" name="garlic necklace" chance="2081" />
+		<item id="2436" name="skull staff" chance="1810" />
+		<item id="2179" name="gold ring" chance="1453" />
+		<item id="6300" name="death ring" chance="1342" />
+		<item id="7884" name="terra mantle" chance="1145" />
+		<item id="2418" name="golden sickle" chance="172" />
+		<item id="2173" name="amulet of loss" chance="160" />
 	</loot>
 </monster>

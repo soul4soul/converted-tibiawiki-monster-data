@@ -50,16 +50,16 @@
 		<voice sentence="Grrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2667" name="fish" chance="59937" />
-		<item id="2148" name="gold coin" chance="49960" countmax="5" />
-		<item name="torch" chance="15240" />
+		<item id="2667" name="fish" chance="59946" />
+		<item id="2148" name="gold coin" chance="49958" countmax="5" />
+		<item name="torch" chance="15249" />
 		<item id="2389" name="spear" chance="13072" />
-		<item id="2235" name="mouldy cheese" chance="10115" />
-		<item id="2643" name="leather boots" chance="9859" />
+		<item id="2235" name="mouldy cheese" chance="10113" />
+		<item id="2643" name="leather boots" chance="9853" />
 		<item id="10603" name="swamp grass" chance="3079" />
-		<item id="13506" name="medicine pouch" chance="2411" />
+		<item id="13506" name="medicine pouch" chance="2410" />
 		<item id="5901" name="wood" chance="2057" />
-		<item id="2805" name="troll green" chance="1082" />
+		<item id="2805" name="troll green" chance="1081" />
 		<item id="2580" name="fishing rod" chance="79" />
 	</loot>
 </monster>

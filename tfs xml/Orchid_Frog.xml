@@ -49,7 +49,7 @@
 		<voice sentence="Ribbit! Ribbit!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75475" countmax="10" />
-		<item id="3976" name="worm" chance="9746" />
+		<item id="2148" name="gold coin" chance="75248" countmax="10" />
+		<item id="3976" name="worm" chance="9974" />
 	</loot>
 </monster>

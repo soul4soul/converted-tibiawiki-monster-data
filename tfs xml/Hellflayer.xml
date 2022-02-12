@@ -49,37 +49,37 @@
 		<voice sentence="You should consider bargaining for your life!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="90446" countmax="198" />
-		<item id="2152" name="platinum coin" chance="89243" countmax="12" />
-		<item id="6558" name="flask of demonic blood" chance="21444" />
-		<item id="6500" name="demonic essence" chance="17728" />
-		<item id="7590" name="great mana potion" chance="14650" countmax="5" />
-		<item id="25385" name="pair of hellflayer horns" chance="13907" />
-		<item id="8472" name="great spirit potion" chance="13694" countmax="5" />
-		<item id="8473" name="ultimate health potion" chance="12527" countmax="5" />
-		<item id="9970" name="small topaz" chance="7325" countmax="5" />
-		<item id="2147" name="small ruby" chance="7289" countmax="5" />
-		<item id="2150" name="small amethyst" chance="6936" countmax="5" />
-		<item id="2145" name="small diamond" chance="6759" countmax="5" />
-		<item id="2149" name="small emerald" chance="6653" countmax="5" />
-		<item id="9971" name="gold ingot" chance="6299" countmax="2" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="3928" />
-		<item id="2156" name="red gem" chance="2017" />
-		<item id="2153" name="violet gem" chance="1309" />
-		<item id="25383" name="rift lance" chance="849" />
-		<item id="2155" name="green gem" chance="814" />
-		<item id="7891" name="magma boots" chance="778" />
-		<item id="7894" name="magma legs" chance="672" />
-		<item id="7413" name="titan axe" chance="672" />
-		<item id="2466" name="golden armor" chance="602" />
-		<item id="25522" name="rift bow" chance="460" />
-		<item id="25523" name="rift crossbow" chance="425" />
-		<item id="2514" name="mastermind shield" chance="248" />
-		<item id="5741" name="skull helmet" chance="248" />
-		<item id="2472" name="magic plate armor" chance="212" />
-		<item id="2136" name="demonbone amulet" chance="142" />
-		<item id="25382" name="rift shield" chance="106" />
-		<item id="2452" name="heavy mace" chance="35" />
-		<item id="8902" name="spellbook of mind control" chance="35" />
+		<item id="2148" name="gold coin" chance="90342" countmax="198" />
+		<item id="2152" name="platinum coin" chance="89201" countmax="12" />
+		<item id="6558" name="flask of demonic blood" chance="21458" />
+		<item id="6500" name="demonic essence" chance="17924" />
+		<item id="7590" name="great mana potion" chance="14612" countmax="5" />
+		<item id="25385" name="pair of hellflayer horns" chance="14194" />
+		<item id="8472" name="great spirit potion" chance="13526" countmax="5" />
+		<item id="8473" name="ultimate health potion" chance="12274" countmax="5" />
+		<item id="2147" name="small ruby" chance="7348" countmax="5" />
+		<item id="9970" name="small topaz" chance="7264" countmax="5" />
+		<item id="2145" name="small diamond" chance="7014" countmax="5" />
+		<item id="2150" name="small amethyst" chance="6707" countmax="5" />
+		<item id="2149" name="small emerald" chance="6652" countmax="5" />
+		<item id="9971" name="gold ingot" chance="6067" countmax="2" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="3813" />
+		<item id="2156" name="red gem" chance="2004" />
+		<item id="2153" name="violet gem" chance="1252" />
+		<item id="25383" name="rift lance" chance="891" />
+		<item id="2155" name="green gem" chance="863" />
+		<item id="7894" name="magma legs" chance="835" />
+		<item id="7891" name="magma boots" chance="751" />
+		<item id="7413" name="titan axe" chance="668" />
+		<item id="2466" name="golden armor" chance="529" />
+		<item id="25522" name="rift bow" chance="445" />
+		<item id="25523" name="rift crossbow" chance="417" />
+		<item id="2514" name="mastermind shield" chance="306" />
+		<item id="5741" name="skull helmet" chance="278" />
+		<item id="2472" name="magic plate armor" chance="250" />
+		<item id="2136" name="demonbone amulet" chance="195" />
+		<item id="25382" name="rift shield" chance="195" />
+		<item id="8902" name="spellbook of mind control" chance="83" />
+		<item id="2452" name="heavy mace" chance="28" />
 	</loot>
 </monster>

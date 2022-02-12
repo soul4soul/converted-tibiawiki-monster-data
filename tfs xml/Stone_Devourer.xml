@@ -46,26 +46,26 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="91368" countmax="7" />
-		<item id="18431" name="stone nose" chance="19100" />
-		<item id="18432" name="crystalline spikes" chance="16667" />
-		<item id="7620" name="mana potion" chance="15519" countmax="2" />
-		<item id="7590" name="great mana potion" chance="15243" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="15152" />
-		<item id="7589" name="strong mana potion" chance="14233" countmax="2" />
-		<item id="7588" name="strong health potion" chance="14096" countmax="2" />
-		<item id="10549" name="ancient stone" chance="12305" />
-		<item id="13757" name="coal" chance="11570" />
-		<item id="18304" name="crystalline arrow" chance="9734" countmax="10" />
-		<item id="18419" name="cyan crystal fragment" chance="6795" />
-		<item id="18416" name="green crystal splinter" chance="6795" />
-		<item id="2213" name="dwarven ring" chance="2801" />
-		<item id="7454" name="glorious axe" chance="2801" />
-		<item id="2197" name="stone skin amulet" chance="2158" />
-		<item id="7437" name="sapphire hammer" chance="1423" />
-		<item id="7452" name="spiked squelcher" chance="1377" />
-		<item id="2454" name="war axe" chance="918" />
-		<item id="2445" name="crystal mace" chance="735" />
-		<item id="2393" name="giant sword" chance="459" />
+		<item id="2152" name="platinum coin" chance="91356" countmax="7" />
+		<item id="18431" name="stone nose" chance="19063" />
+		<item id="18432" name="crystalline spikes" chance="16742" />
+		<item id="7620" name="mana potion" chance="15423" countmax="2" />
+		<item id="7590" name="great mana potion" chance="15378" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="15241" />
+		<item id="7589" name="strong mana potion" chance="14286" countmax="2" />
+		<item id="7588" name="strong health potion" chance="14104" countmax="2" />
+		<item id="10549" name="ancient stone" chance="12238" />
+		<item id="13757" name="coal" chance="11556" />
+		<item id="18304" name="crystalline arrow" chance="9645" countmax="10" />
+		<item id="18419" name="cyan crystal fragment" chance="6824" />
+		<item id="18416" name="green crystal splinter" chance="6733" />
+		<item id="2213" name="dwarven ring" chance="2775" />
+		<item id="7454" name="glorious axe" chance="2775" />
+		<item id="2197" name="stone skin amulet" chance="2138" />
+		<item id="7437" name="sapphire hammer" chance="1410" />
+		<item id="7452" name="spiked squelcher" chance="1365" />
+		<item id="2454" name="war axe" chance="910" />
+		<item id="2445" name="crystal mace" chance="728" />
+		<item id="2393" name="giant sword" chance="455" />
 	</loot>
 </monster>

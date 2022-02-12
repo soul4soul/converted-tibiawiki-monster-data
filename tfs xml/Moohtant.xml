@@ -48,23 +48,23 @@
 	</defenses>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="2152" name="platinum coin" chance="55298" countmax="2" />
-		<item id="23571" name="moohtant horn" chance="15073" countmax="2" />
-		<item id="23570" name="giant pacifier" chance="11248" />
-		<item id="7591" name="great health potion" chance="9032" countmax="3" />
-		<item id="7590" name="great mana potion" chance="8652" countmax="3" />
-		<item id="2666" name="meat" chance="7377" />
-		<item id="2147" name="small ruby" chance="5055" countmax="2" />
-		<item id="2145" name="small diamond" chance="5024" countmax="2" />
-		<item id="5878" name="minotaur leather" chance="4766" />
-		<item id="2214" name="ring of healing" chance="2505" />
-		<item id="5911" name="red piece of cloth" chance="2459" />
-		<item id="23544" name="moohtant cudgel" chance="971" />
-		<item id="2156" name="red gem" chance="865" />
-		<item id="7452" name="spiked squelcher" chance="759" />
-		<item id="2154" name="yellow gem" chance="729" />
-		<item id="9971" name="gold ingot" chance="486" />
-		<item id="7427" name="chaos mace" chance="425" />
-		<item id="7401" name="minotaur trophy" chance="319" />
+		<item id="2152" name="platinum coin" chance="55319" countmax="2" />
+		<item id="23571" name="moohtant horn" chance="15101" countmax="2" />
+		<item id="23570" name="giant pacifier" chance="11227" />
+		<item id="7591" name="great health potion" chance="9048" countmax="3" />
+		<item id="7590" name="great mana potion" chance="8655" countmax="3" />
+		<item id="2666" name="meat" chance="7384" />
+		<item id="2147" name="small ruby" chance="5054" countmax="2" />
+		<item id="2145" name="small diamond" chance="5023" countmax="2" />
+		<item id="5878" name="minotaur leather" chance="4751" />
+		<item id="2214" name="ring of healing" chance="2497" />
+		<item id="5911" name="red piece of cloth" chance="2451" />
+		<item id="23544" name="moohtant cudgel" chance="968" />
+		<item id="2156" name="red gem" chance="862" />
+		<item id="7452" name="spiked squelcher" chance="757" />
+		<item id="2154" name="yellow gem" chance="726" />
+		<item id="9971" name="gold ingot" chance="484" />
+		<item id="7427" name="chaos mace" chance="424" />
+		<item id="7401" name="minotaur trophy" chance="318" />
 	</loot>
 </monster>

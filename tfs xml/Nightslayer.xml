@@ -42,6 +42,9 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-130" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-20" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="throwingstar" />
+		</attack>
 	</attacks>
 	<defenses armor="25" defense="25" />
 	<voices interval="5000" chance="10">
@@ -49,6 +52,6 @@
 		<voice sentence="Here is the darkness... and it's coming for you!" yell="false" />
 	</voices>
 	<loot>
-		<item id="10531" name="midnight shard" chance="2059" />
+		<item id="10531" name="midnight shard" chance="2026" />
 	</loot>
 </monster>

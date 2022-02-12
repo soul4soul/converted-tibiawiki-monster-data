@@ -52,25 +52,25 @@
 		<voice sentence="*omnnommm nomm*" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99461" countmax="165" />
-		<item id="2152" name="platinum coin" chance="55960" countmax="2" />
-		<item id="23553" name="glob of glooth" chance="12945" />
-		<item id="2149" name="small emerald" chance="5798" countmax="3" />
-		<item id="2150" name="small amethyst" chance="5609" countmax="3" />
-		<item id="2147" name="small ruby" chance="5609" countmax="3" />
-		<item id="9970" name="small topaz" chance="5502" countmax="3" />
-		<item id="2145" name="small diamond" chance="5259" countmax="3" />
-		<item id="2146" name="small sapphire" chance="5070" countmax="3" />
-		<item id="23549" name="glooth club" chance="3236" />
+		<item id="2148" name="gold coin" chance="99472" countmax="165" />
+		<item id="2152" name="platinum coin" chance="55580" countmax="2" />
+		<item id="23553" name="glob of glooth" chance="12935" />
+		<item id="2149" name="small emerald" chance="5688" countmax="3" />
+		<item id="2150" name="small amethyst" chance="5640" countmax="3" />
+		<item id="2147" name="small ruby" chance="5592" countmax="3" />
+		<item id="9970" name="small topaz" chance="5520" countmax="3" />
+		<item id="2145" name="small diamond" chance="5304" countmax="3" />
+		<item id="2146" name="small sapphire" chance="5136" countmax="3" />
+		<item id="23549" name="glooth club" chance="3120" />
 		<item id="23551" name="glooth axe" chance="2832" />
-		<item id="23550" name="glooth blade" chance="2562" />
-		<item id="2151" name="talon" chance="2346" />
-		<item id="2154" name="yellow gem" chance="1618" />
-		<item id="23529" name="glooth spear" chance="1510" />
-		<item id="8912" name="springsprout rod" chance="917" />
-		<item id="23554" name="glooth amulet" chance="566" />
-		<item id="2181" name="terra rod" chance="566" />
-		<item id="23535" name="glooth cape" chance="54" />
-		<item id="2155" name="green gem" chance="27" />
+		<item id="2151" name="talon" chance="2616" />
+		<item id="23550" name="glooth blade" chance="2568" />
+		<item id="2154" name="yellow gem" chance="1704" />
+		<item id="23529" name="glooth spear" chance="1464" />
+		<item id="8912" name="springsprout rod" chance="1008" />
+		<item id="2181" name="terra rod" chance="648" />
+		<item id="23554" name="glooth amulet" chance="552" />
+		<item id="23535" name="glooth cape" chance="72" />
+		<item id="2155" name="green gem" chance="24" />
 	</loot>
 </monster>

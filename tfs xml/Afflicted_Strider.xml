@@ -50,27 +50,26 @@
 	</attacks>
 	<defenses armor="68" defense="68" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="100000" countmax="12" />
-		<item id="39446" name="afflicted strider worms" chance="9554" />
-		<item id="2427" name="guardian halberd" chance="6051" />
-		<item id="7449" name="crystal sword" chance="5732" />
-		<item id="2153" name="violet gem" chance="5096" />
-		<item id="18414" name="violet crystal shard" chance="4936" />
-		<item id="18415" name="green crystal shard" chance="4618" />
-		<item id="2485" name="doublet" chance="4299" />
-		<item id="8872" name="belted cape" chance="4140" />
-		<item id="39445" name="afflicted strider head" chance="3662" />
-		<item id="2476" name="knight armor" chance="2866" />
-		<item id="7899" name="magma coat" chance="2548" />
-		<item id="8870" name="spirit cloak" chance="2548" />
-		<item id="2420" name="machete" chance="2229" />
-		<item id="2409" name="serpent sword" chance="2229" />
-		<item id="2413" name="broadsword" chance="1752" />
-		<item id="8871" name="focus cape" chance="1752" />
-		<item id="2396" name="ice rapier" chance="1592" />
-		<item id="7413" name="titan axe" chance="1433" />
-		<item id="7407" name="haunted blade" chance="1274" />
-		<item id="7386" name="mercenary sword" chance="1115" />
-		<item id="2430" name="knight axe" chance="637" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="15" />
+		<item id="39446" name="afflicted strider worms" chance="10000" />
+		<item id="7449" name="crystal sword" chance="8947" />
+		<item id="18415" name="green crystal shard" chance="8947" />
+		<item id="2427" name="guardian halberd" chance="6316" />
+		<item id="2485" name="doublet" chance="5263" />
+		<item id="2420" name="machete" chance="4737" />
+		<item id="2153" name="violet gem" chance="4737" />
+		<item id="39445" name="afflicted strider head" chance="4211" />
+		<item id="8870" name="spirit cloak" chance="4211" />
+		<item id="18414" name="violet crystal shard" chance="4211" />
+		<item id="8872" name="belted cape" chance="3684" />
+		<item id="2476" name="knight armor" chance="3684" />
+		<item id="8871" name="focus cape" chance="3158" />
+		<item id="2396" name="ice rapier" chance="2632" />
+		<item id="7899" name="magma coat" chance="2632" />
+		<item id="2409" name="serpent sword" chance="2632" />
+		<item id="7407" name="haunted blade" chance="1579" />
+		<item id="7386" name="mercenary sword" chance="1579" />
+		<item id="2413" name="broadsword" chance="1053" />
+		<item id="7413" name="titan axe" chance="1053" />
 	</loot>
 </monster>

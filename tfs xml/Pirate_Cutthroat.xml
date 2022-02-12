@@ -50,18 +50,18 @@
 		<voice sentence="Hiyaa!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="77577" countmax="50" />
-		<item id="11219" name="compass" chance="10066" />
-		<item id="2483" name="scale armor" chance="3083" />
-		<item id="2509" name="steel shield" chance="2877" />
-		<item id="5710" name="light shovel" chance="1974" />
-		<item id="14337" name="treasure map (pirate)" chance="1099" />
-		<item id="5918" name="pirate knee breeches" chance="1024" />
-		<item id="5927" name="pirate bag" chance="992" />
-		<item id="6097" name="hook" chance="529" />
-		<item id="6126" name="peg leg" chance="508" />
-		<item id="6098" name="eye patch" chance="468" />
-		<item name="die" chance="96" />
-		<item id="5553" name="rum flask" chance="87" />
+		<item id="2148" name="gold coin" chance="77544" countmax="50" />
+		<item id="11219" name="compass" chance="10072" />
+		<item id="2483" name="scale armor" chance="3071" />
+		<item id="2509" name="steel shield" chance="2884" />
+		<item id="5710" name="light shovel" chance="1961" />
+		<item id="14337" name="treasure map (pirate)" chance="1092" />
+		<item id="5918" name="pirate knee breeches" chance="1019" />
+		<item id="5927" name="pirate bag" chance="987" />
+		<item id="6097" name="hook" chance="535" />
+		<item id="6126" name="peg leg" chance="514" />
+		<item id="6098" name="eye patch" chance="469" />
+		<item name="die" chance="93" />
+		<item id="5553" name="rum flask" chance="89" />
 	</loot>
 </monster>

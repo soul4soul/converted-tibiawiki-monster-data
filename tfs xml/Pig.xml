@@ -46,7 +46,7 @@
 		<voice sentence="Oink" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="65197" />
-		<item id="10610" name="pig foot" chance="1194" />
+		<item id="2666" name="meat" chance="65048" />
+		<item id="10610" name="pig foot" chance="1229" />
 	</loot>
 </monster>

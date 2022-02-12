@@ -60,7 +60,7 @@
 	<loot>
 		<item id="2683" name="pumpkin" chance="100000" countmax="5" />
 		<item id="9005" name="yummy gummy worm" chance="100000" countmax="10" />
-		<item id="6492" name="bat decoration" chance="21429" />
-		<item name="toy spider" chance="14286" />
+		<item id="6492" name="bat decoration" chance="13636" />
+		<item name="toy spider" chance="9091" />
 	</loot>
 </monster>

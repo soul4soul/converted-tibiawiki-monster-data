@@ -56,17 +56,17 @@
 		<voice sentence="You will be punished!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99447" countmax="90" />
-		<item id="2450" name="bone sword" chance="15001" />
-		<item id="7364" name="sniper arrow" chance="9573" countmax="4" />
-		<item id="2509" name="steel shield" chance="5919" />
-		<item id="10580" name="piece of dead brain" chance="5060" />
-		<item id="5898" name="bonelord eye" chance="2973" />
-		<item id="2423" name="clerical mace" chance="1953" />
-		<item id="7407" name="haunted blade" chance="1445" />
-		<item id="2175" name="spellbook" chance="954" />
-		<item id="7452" name="spiked squelcher" chance="181" />
-		<item id="3972" name="bonelord helmet" chance="101" />
-		<item id="2518" name="bonelord shield" chance="101" />
+		<item id="2148" name="gold coin" chance="99443" countmax="90" />
+		<item id="2450" name="bone sword" chance="14987" />
+		<item id="7364" name="sniper arrow" chance="9575" countmax="4" />
+		<item id="2509" name="steel shield" chance="5913" />
+		<item id="10580" name="piece of dead brain" chance="5056" />
+		<item id="5898" name="bonelord eye" chance="2979" />
+		<item id="2423" name="clerical mace" chance="1950" />
+		<item id="7407" name="haunted blade" chance="1438" />
+		<item id="2175" name="spellbook" chance="957" />
+		<item id="7452" name="spiked squelcher" chance="180" />
+		<item id="2518" name="bonelord shield" chance="103" />
+		<item id="3972" name="bonelord helmet" chance="100" />
 	</loot>
 </monster>

@@ -46,26 +46,26 @@
 	<defenses armor="82" defense="82" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="8473" name="ultimate health potion" chance="74014" countmax="3" />
-		<item id="2666" name="meat" chance="44671" />
-		<item id="36817" name="broken longbow" chance="15052" />
-		<item id="36818" name="lion cloak patch" chance="9308" />
+		<item id="8473" name="ultimate health potion" chance="73679" countmax="3" />
+		<item id="2666" name="meat" chance="44258" />
+		<item id="36817" name="broken longbow" chance="14900" />
+		<item id="36818" name="lion cloak patch" chance="9522" />
 		<item id="2144" name="black pearl" chance="8858" />
-		<item id="2475" name="warrior helmet" chance="8166" />
-		<item id="23546" name="mino shield" chance="7612" />
-		<item id="2134" name="silver brooch" chance="7024" />
-		<item id="36816" name="lion crest" chance="6920" />
-		<item id="2403" name="knife" chance="6505" />
-		<item id="27048" name="gemmed figurine" chance="5467" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="4948" />
-		<item id="2143" name="white pearl" chance="3460" />
-		<item id="2476" name="knight armor" chance="2803" />
-		<item id="7892" name="glacier shoes" chance="2076" />
-		<item id="27047" name="coral brooch" chance="1453" />
-		<item id="7404" name="assassin dagger" chance="1038" />
-		<item id="15644" name="ornate crossbow" chance="1003" />
-		<item id="2664" name="wood cape" chance="934" />
-		<item id="2127" name="emerald bangle" chance="554" />
-		<item id="7438" name="elvish bow" chance="242" />
+		<item id="2475" name="warrior helmet" chance="8257" />
+		<item id="23546" name="mino shield" chance="7434" />
+		<item id="36816" name="lion crest" chance="7055" />
+		<item id="2134" name="silver brooch" chance="6960" />
+		<item id="2403" name="knife" chance="6549" />
+		<item id="27048" name="gemmed figurine" chance="5410" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="5062" />
+		<item id="2143" name="white pearl" chance="3353" />
+		<item id="2476" name="knight armor" chance="2847" />
+		<item id="7892" name="glacier shoes" chance="1993" />
+		<item id="27047" name="coral brooch" chance="1424" />
+		<item id="15644" name="ornate crossbow" chance="1107" />
+		<item id="7404" name="assassin dagger" chance="1012" />
+		<item id="2664" name="wood cape" chance="949" />
+		<item id="2127" name="emerald bangle" chance="569" />
+		<item id="7438" name="elvish bow" chance="285" />
 	</loot>
 </monster>

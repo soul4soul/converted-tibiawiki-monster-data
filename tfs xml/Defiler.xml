@@ -52,19 +52,19 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="272" />
-		<item id="2152" name="platinum coin" chance="96791" countmax="6" />
-		<item id="5944" name="soul orb" chance="19595" />
-		<item id="6500" name="demonic essence" chance="19436" />
-		<item id="9967" name="glob of acid slime" chance="11698" />
-		<item id="9968" name="glob of tar" chance="11334" />
-		<item id="2149" name="small emerald" chance="5667" countmax="3" />
-		<item id="2151" name="talon" chance="4324" />
-		<item id="2147" name="small ruby" chance="3505" countmax="2" />
-		<item id="6300" name="death ring" chance="2708" />
-		<item id="2145" name="small diamond" chance="2481" countmax="2" />
-		<item id="2154" name="yellow gem" chance="1639" />
-		<item id="2156" name="red gem" chance="1183" />
-		<item id="2158" name="blue gem" chance="910" />
-		<item id="2155" name="green gem" chance="683" />
+		<item id="2152" name="platinum coin" chance="96805" countmax="6" />
+		<item id="5944" name="soul orb" chance="19622" />
+		<item id="6500" name="demonic essence" chance="19374" />
+		<item id="9967" name="glob of acid slime" chance="11724" />
+		<item id="9968" name="glob of tar" chance="11386" />
+		<item id="2149" name="small emerald" chance="5648" countmax="3" />
+		<item id="2151" name="talon" chance="4298" />
+		<item id="2147" name="small ruby" chance="3488" countmax="2" />
+		<item id="6300" name="death ring" chance="2723" />
+		<item id="2145" name="small diamond" chance="2498" countmax="2" />
+		<item id="2154" name="yellow gem" chance="1620" />
+		<item id="2156" name="red gem" chance="1193" />
+		<item id="2158" name="blue gem" chance="900" />
+		<item id="2155" name="green gem" chance="698" />
 	</loot>
 </monster>

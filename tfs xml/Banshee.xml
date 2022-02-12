@@ -56,27 +56,27 @@
 		<voice sentence="IIIIEEEeeeeeehhhHHHH!" yell="false" />
 	</voices>
 	<loot>
-		<item name="candlestick" chance="72822" />
+		<item name="candlestick" chance="72809" />
 		<item id="2148" name="gold coin" chance="30930" countmax="80" />
-		<item id="2170" name="silver amulet" chance="9406" />
-		<item id="2657" name="simple dress" chance="6307" />
-		<item id="12402" name="hair of a banshee" chance="4974" />
-		<item id="11337" name="petrified scream" chance="4285" />
-		<item id="2144" name="black pearl" chance="2166" />
-		<item id="2134" name="silver brooch" chance="1537" />
-		<item id="2411" name="poison dagger" chance="1514" />
-		<item id="2143" name="white pearl" chance="1130" />
-		<item id="2071" name="lyre" chance="971" />
+		<item id="2170" name="silver amulet" chance="9407" />
+		<item id="2657" name="simple dress" chance="6312" />
+		<item id="12402" name="hair of a banshee" chance="4973" />
+		<item id="11337" name="petrified scream" chance="4288" />
+		<item id="2144" name="black pearl" chance="2168" />
+		<item id="2134" name="silver brooch" chance="1538" />
+		<item id="2411" name="poison dagger" chance="1513" />
+		<item id="2143" name="white pearl" chance="1129" />
+		<item id="2071" name="lyre" chance="972" />
 		<item id="2197" name="stone skin amulet" chance="825" />
 		<item id="7589" name="strong mana potion" chance="769" />
 		<item id="2214" name="ring of healing" chance="748" />
-		<item id="2656" name="blue robe" chance="663" />
+		<item id="2656" name="blue robe" chance="664" />
 		<item id="2121" name="wedding ring" chance="558" />
 		<item id="2175" name="spellbook" chance="509" />
 		<item id="7884" name="terra mantle" chance="337" />
 		<item id="2124" name="crystal ring" chance="190" />
 		<item id="2655" name="red robe" chance="103" />
-		<item id="2177" name="life crystal" chance="102" />
+		<item id="2177" name="life crystal" chance="101" />
 		<item id="13307" name="sweet smelling bait" chance="29" />
 	</loot>
 </monster>

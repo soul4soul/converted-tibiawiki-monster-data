@@ -50,15 +50,15 @@
 		<voice sentence="Grak brrretz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="84792" countmax="14" />
-		<item id="2666" name="meat" chance="9881" />
-		<item id="2484" name="studded armor" chance="8185" />
-		<item id="2526" name="studded shield" chance="6518" />
-		<item id="2385" name="sabre" chance="5595" />
-		<item id="2386" name="axe" chance="5476" />
-		<item id="2482" name="studded helmet" chance="2827" />
-		<item id="26642" name="heavy old tome" chance="2351" />
-		<item id="12435" name="orc leather" chance="387" />
-		<item id="11113" name="orc tooth" chance="60" />
+		<item id="2148" name="gold coin" chance="84809" countmax="14" />
+		<item id="2666" name="meat" chance="9731" />
+		<item id="2484" name="studded armor" chance="8232" />
+		<item id="2526" name="studded shield" chance="6704" />
+		<item id="2385" name="sabre" chance="5573" />
+		<item id="2386" name="axe" chance="5516" />
+		<item id="2482" name="studded helmet" chance="2829" />
+		<item id="26642" name="heavy old tome" chance="2263" />
+		<item id="12435" name="orc leather" chance="368" />
+		<item id="11113" name="orc tooth" chance="57" />
 	</loot>
 </monster>

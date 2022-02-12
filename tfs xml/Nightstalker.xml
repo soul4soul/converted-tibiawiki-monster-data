@@ -58,16 +58,16 @@
 		<voice sentence="Only the sweetest and cruelest dreams for you, my love." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="89965" countmax="110" />
-		<item id="2804" name="shadow herb" chance="4758" />
-		<item id="7589" name="strong mana potion" chance="1525" />
-		<item id="2124" name="crystal ring" chance="962" />
-		<item id="2200" name="protection amulet" chance="895" />
-		<item id="8870" name="spirit cloak" chance="500" />
-		<item id="7407" name="haunted blade" chance="322" />
-		<item id="2171" name="platinum amulet" chance="168" />
+		<item id="2148" name="gold coin" chance="89988" countmax="110" />
+		<item id="2804" name="shadow herb" chance="4750" />
+		<item id="7589" name="strong mana potion" chance="1522" />
+		<item id="2124" name="crystal ring" chance="973" />
+		<item id="2200" name="protection amulet" chance="909" />
+		<item id="8870" name="spirit cloak" chance="489" />
+		<item id="7407" name="haunted blade" chance="318" />
+		<item id="2171" name="platinum amulet" chance="166" />
 		<item id="9942" name="crystal of balance" chance="125" />
-		<item id="2195" name="boots of haste" chance="120" />
-		<item id="7427" name="chaos mace" chance="106" />
+		<item id="2195" name="boots of haste" chance="115" />
+		<item id="7427" name="chaos mace" chance="101" />
 	</loot>
 </monster>

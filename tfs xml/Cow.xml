@@ -49,10 +49,10 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2666" name="meat" chance="16922" />
-		<item id="34665" name="veal" chance="5079" />
-		<item id="34666" name="meat hammer" chance="1159" />
-		<item id="34667" name="milk churn" chance="607" />
-		<item id="34668" name="cow bell" chance="317" />
+		<item id="2666" name="meat" chance="16873" />
+		<item id="34665" name="veal" chance="5088" />
+		<item id="34666" name="meat hammer" chance="1169" />
+		<item id="34667" name="milk churn" chance="605" />
+		<item id="34668" name="cow bell" chance="316" />
 	</loot>
 </monster>

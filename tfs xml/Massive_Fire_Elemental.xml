@@ -45,14 +45,14 @@
 	</attacks>
 	<defenses armor="57" defense="57" />
 	<loot>
-		<item id="2148" name="gold coin" chance="99988" countmax="217" />
-		<item id="2152" name="platinum coin" chance="15067" />
-		<item id="9809" name="rusted armor" chance="7902" />
+		<item id="2148" name="gold coin" chance="99989" countmax="217" />
+		<item id="2152" name="platinum coin" chance="15039" />
+		<item id="9809" name="rusted armor" chance="7776" />
 		<item id="2147" name="small ruby" chance="7036" countmax="2" />
-		<item id="2187" name="wand of inferno" chance="2435" />
-		<item id="7890" name="magma amulet" chance="995" />
-		<item id="7891" name="magma boots" chance="597" />
+		<item id="2187" name="wand of inferno" chance="2436" />
+		<item id="7890" name="magma amulet" chance="979" />
+		<item id="7891" name="magma boots" chance="592" />
 		<item id="2392" name="fire sword" chance="410" />
-		<item id="7894" name="magma legs" chance="199" />
+		<item id="7894" name="magma legs" chance="194" />
 	</loot>
 </monster>

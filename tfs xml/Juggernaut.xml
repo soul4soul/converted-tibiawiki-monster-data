@@ -55,34 +55,34 @@
 		<voice sentence="WAHHHH!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87557" countmax="198" />
-		<item id="2152" name="platinum coin" chance="84977" countmax="15" />
-		<item id="2671" name="ham" chance="47294" />
-		<item id="6500" name="demonic essence" chance="29337" />
-		<item id="5944" name="soul orb" chance="23875" />
-		<item id="7590" name="great mana potion" chance="20991" countmax="3" />
-		<item id="7591" name="great health potion" chance="20435" countmax="3" />
-		<item id="6558" name="flask of demonic blood" chance="19272" />
-		<item id="7368" name="assassin star" chance="15832" countmax="10" />
-		<item id="2149" name="small emerald" chance="13404" countmax="5" />
-		<item id="2147" name="small ruby" chance="13202" countmax="5" />
-		<item id="9970" name="small topaz" chance="12848" countmax="5" />
-		<item id="2150" name="small amethyst" chance="12494" countmax="5" />
-		<item id="2145" name="small diamond" chance="12342" countmax="5" />
-		<item id="7365" name="onyx arrow" chance="10926" countmax="15" />
-		<item id="2156" name="red gem" chance="9408" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="6626" />
-		<item id="7413" name="titan axe" chance="4755" />
-		<item id="9971" name="gold ingot" chance="4502" countmax="2" />
-		<item id="2476" name="knight armor" chance="4198" />
-		<item id="7452" name="spiked squelcher" chance="3794" />
-		<item id="2155" name="green gem" chance="2428" />
-		<item id="2454" name="war axe" chance="1619" />
-		<item id="2153" name="violet gem" chance="1163" />
-		<item id="2514" name="mastermind shield" chance="405" />
-		<item id="2136" name="demonbone amulet" chance="354" />
-		<item id="2452" name="heavy mace" chance="354" />
-		<item id="2466" name="golden armor" chance="253" />
-		<item id="2578" name="closed trap" chance="152" />
+		<item id="2148" name="gold coin" chance="87709" countmax="198" />
+		<item id="2152" name="platinum coin" chance="85284" countmax="15" />
+		<item id="2671" name="ham" chance="45736" />
+		<item id="6500" name="demonic essence" chance="29431" />
+		<item id="5944" name="soul orb" chance="23411" />
+		<item id="7591" name="great health potion" chance="20861" countmax="3" />
+		<item id="7590" name="great mana potion" chance="20736" countmax="3" />
+		<item id="6558" name="flask of demonic blood" chance="19732" />
+		<item id="7368" name="assassin star" chance="16388" countmax="10" />
+		<item id="2149" name="small emerald" chance="13712" countmax="5" />
+		<item id="2147" name="small ruby" chance="12918" countmax="5" />
+		<item id="9970" name="small topaz" chance="12876" countmax="5" />
+		<item id="2150" name="small amethyst" chance="12625" countmax="5" />
+		<item id="2145" name="small diamond" chance="12082" countmax="5" />
+		<item id="7365" name="onyx arrow" chance="10661" countmax="15" />
+		<item id="2156" name="red gem" chance="9657" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="6480" />
+		<item id="9971" name="gold ingot" chance="5017" countmax="2" />
+		<item id="7413" name="titan axe" chance="4766" />
+		<item id="2476" name="knight armor" chance="4473" />
+		<item id="7452" name="spiked squelcher" chance="4013" />
+		<item id="2155" name="green gem" chance="2508" />
+		<item id="2454" name="war axe" chance="1630" />
+		<item id="2153" name="violet gem" chance="1045" />
+		<item id="2514" name="mastermind shield" chance="418" />
+		<item id="2136" name="demonbone amulet" chance="376" />
+		<item id="2466" name="golden armor" chance="334" />
+		<item id="2452" name="heavy mace" chance="334" />
+		<item id="2578" name="closed trap" chance="125" />
 	</loot>
 </monster>

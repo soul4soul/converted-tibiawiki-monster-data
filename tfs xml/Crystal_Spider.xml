@@ -53,19 +53,19 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="197" />
-		<item id="7589" name="strong mana potion" chance="14975" />
-		<item id="2463" name="plate armor" chance="9946" />
-		<item id="7364" name="sniper arrow" chance="5868" countmax="6" />
-		<item id="3351" name="steel helmet" chance="5172" />
-		<item id="7441" name="ice cube" chance="4914" />
-		<item id="7449" name="crystal sword" chance="2522" />
+		<item id="7589" name="strong mana potion" chance="14970" />
+		<item id="2463" name="plate armor" chance="9939" />
+		<item id="7364" name="sniper arrow" chance="5865" countmax="6" />
+		<item id="3351" name="steel helmet" chance="5163" />
+		<item id="7441" name="ice cube" chance="4906" />
+		<item id="7449" name="crystal sword" chance="2516" />
 		<item id="5879" name="spider silk" chance="1988" />
-		<item id="2125" name="crystal necklace" chance="1639" />
-		<item id="2124" name="crystal ring" chance="1586" />
-		<item id="2169" name="time ring" chance="1487" />
-		<item id="2477" name="knight legs" chance="745" />
-		<item id="7290" name="shard" chance="717" />
-		<item id="7902" name="glacier mask" chance="668" />
+		<item id="2125" name="crystal necklace" chance="1638" />
+		<item id="2124" name="crystal ring" chance="1585" />
+		<item id="2169" name="time ring" chance="1485" />
+		<item id="2477" name="knight legs" chance="747" />
+		<item id="7290" name="shard" chance="719" />
+		<item id="7902" name="glacier mask" chance="666" />
 		<item id="2476" name="knight armor" chance="558" />
 		<item id="7437" name="sapphire hammer" chance="142" />
 		<item id="2171" name="platinum amulet" chance="121" />

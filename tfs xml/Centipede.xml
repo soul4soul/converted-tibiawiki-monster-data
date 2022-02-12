@@ -46,6 +46,6 @@
 	<defenses armor="8" defense="8" />
 	<loot>
 		<item id="2148" name="gold coin" chance="80118" countmax="15" />
-		<item id="11218" name="centipede leg" chance="10153" />
+		<item id="11218" name="centipede leg" chance="10161" />
 	</loot>
 </monster>

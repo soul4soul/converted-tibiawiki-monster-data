@@ -11,7 +11,7 @@
 		<flag illusionable="1" />
 		<flag isboss="0" />
 		<flag ignorespawnblock="0" />
-		<flag pushable="0" />
+		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
@@ -40,8 +40,5 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="9" defense="9" />
 </monster>

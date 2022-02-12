@@ -78,12 +78,17 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -40}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10
+}
+
+monster.maxSummons = 5
+monster.summons = {
+	{name = "Troll Champion", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {

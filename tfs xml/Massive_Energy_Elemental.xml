@@ -47,16 +47,16 @@
 		<defense name="healing" interval="2000" chance="20" min="110" max="275" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="99356" countmax="191" />
-		<item id="7589" name="strong mana potion" chance="15044" />
-		<item id="7838" name="flash arrow" chance="8528" countmax="15" />
-		<item id="7590" name="great mana potion" chance="7401" />
-		<item id="9809" name="rusted armor" chance="7401" />
-		<item id="2150" name="small amethyst" chance="3379" countmax="3" />
-		<item id="8920" name="wand of starstorm" chance="724" />
-		<item id="8901" name="spellbook of warding" chance="483" />
-		<item id="7889" name="lightning pendant" chance="402" />
-		<item id="7895" name="lightning legs" chance="161" />
-		<item id="10221" name="shockwave amulet" chance="80" />
+		<item id="2148" name="gold coin" chance="99374" countmax="191" />
+		<item id="7589" name="strong mana potion" chance="15035" />
+		<item id="7838" name="flash arrow" chance="8614" countmax="15" />
+		<item id="7590" name="great mana potion" chance="7361" />
+		<item id="9809" name="rusted armor" chance="7283" />
+		<item id="2150" name="small amethyst" chance="3446" countmax="3" />
+		<item id="8920" name="wand of starstorm" chance="783" />
+		<item id="8901" name="spellbook of warding" chance="470" />
+		<item id="7889" name="lightning pendant" chance="392" />
+		<item id="7895" name="lightning legs" chance="157" />
+		<item id="10221" name="shockwave amulet" chance="78" />
 	</loot>
 </monster>

@@ -42,7 +42,7 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-80" range="7">
+		<attack name="physical" interval="2000" chance="15" min="0" max="-80" range="5" radius="1" target="1">
 			<attribute key="shootEffect" value="arrow" />
 		</attack>
 	</attacks>
@@ -55,16 +55,16 @@
 		<voice sentence="Thy blood will quench the soil's thirst!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75042" countmax="25" />
-		<item id="2544" name="arrow" chance="30516" countmax="12" />
-		<item id="2681" name="grapes" chance="17839" />
-		<item id="2545" name="poison arrow" chance="15131" countmax="4" />
-		<item id="12420" name="elven scouting glass" chance="10080" />
-		<item id="10552" name="elvish talisman" chance="5118" />
-		<item id="2456" name="bow" chance="4055" />
-		<item id="2031" name="waterskin" chance="1254" />
-		<item id="2642" name="sandals" chance="1120" />
-		<item id="5921" name="heaven blossom" chance="1103" />
-		<item id="7438" name="elvish bow" chance="138" />
+		<item id="2148" name="gold coin" chance="75053" countmax="25" />
+		<item id="2544" name="arrow" chance="30506" countmax="12" />
+		<item id="2681" name="grapes" chance="17864" />
+		<item id="2545" name="poison arrow" chance="15150" countmax="4" />
+		<item id="12420" name="elven scouting glass" chance="10089" />
+		<item id="10552" name="elvish talisman" chance="5132" />
+		<item id="2456" name="bow" chance="4028" />
+		<item id="2031" name="waterskin" chance="1244" />
+		<item id="2642" name="sandals" chance="1121" />
+		<item id="5921" name="heaven blossom" chance="1095" />
+		<item id="7438" name="elvish bow" chance="144" />
 	</loot>
 </monster>

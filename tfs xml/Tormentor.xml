@@ -61,13 +61,13 @@
 		<item id="11223" name="essence of a bad dream" chance="100000" />
 		<item id="6558" name="flask of demonic blood" chance="100000" />
 		<item id="2671" name="ham" chance="100000" />
-		<item id="2152" name="platinum coin" chance="92424" countmax="10" />
-		<item id="11229" name="scythe leg" chance="86364" />
-		<item id="2477" name="knight legs" chance="72727" />
-		<item id="5669" name="mysterious voodoo skull" chance="42424" />
-		<item id="6526" name="skeleton decoration" chance="31818" />
-		<item id="2454" name="war axe" chance="16667" />
-		<item id="2195" name="boots of haste" chance="10606" />
-		<item id="7418" name="nightmare blade" chance="10606" />
+		<item id="2152" name="platinum coin" chance="92647" countmax="10" />
+		<item id="11229" name="scythe leg" chance="86765" />
+		<item id="2477" name="knight legs" chance="72059" />
+		<item id="5669" name="mysterious voodoo skull" chance="42647" />
+		<item id="6526" name="skeleton decoration" chance="32353" />
+		<item id="2454" name="war axe" chance="16176" />
+		<item id="2195" name="boots of haste" chance="11765" />
+		<item id="7418" name="nightmare blade" chance="10294" />
 	</loot>
 </monster>

@@ -83,8 +83,8 @@ monster.attacks = {
 }
 
 monster.defenses = {
-	defense = 1,
-	armor = 1
+	defense = 3,
+	armor = 3
 }
 
 monster.maxSummons = 3
@@ -93,7 +93,7 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 9967, chance = 18947}
+	{id = 9967, chance = 18942}
 }
 
 mType:register(monster)

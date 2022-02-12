@@ -44,33 +44,33 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="6" />
-		<item id="24630" name="golden lotus brooch" chance="20373" />
-		<item id="6558" name="flask of demonic blood" chance="19829" />
-		<item id="5944" name="soul orb" chance="18663" />
-		<item id="24631" name="peacock feather fan" chance="17574" />
-		<item id="6500" name="demonic essence" chance="16796" />
-		<item id="7591" name="great health potion" chance="12286" countmax="2" />
-		<item id="7368" name="assassin star" chance="9953" countmax="5" />
-		<item id="2145" name="small diamond" chance="8243" countmax="3" />
-		<item id="2146" name="small sapphire" chance="7776" countmax="3" />
-		<item id="2143" name="white pearl" chance="7232" countmax="2" />
-		<item id="2144" name="black pearl" chance="5365" countmax="2" />
-		<item id="2134" name="silver brooch" chance="5054" />
-		<item id="2147" name="small ruby" chance="4743" countmax="2" />
-		<item id="2149" name="small emerald" chance="4044" countmax="2" />
-		<item id="9970" name="small topaz" chance="3888" countmax="2" />
-		<item id="8911" name="northwind rod" chance="3266" />
-		<item id="3967" name="tribal mask" chance="3033" />
-		<item id="2154" name="yellow gem" chance="2022" />
-		<item id="2183" name="hailstorm rod" chance="1244" />
-		<item id="2170" name="silver amulet" chance="933" />
-		<item id="2656" name="blue robe" chance="855" />
-		<item id="7404" name="assassin dagger" chance="700" />
-		<item id="9971" name="gold ingot" chance="467" />
-		<item id="2158" name="blue gem" chance="311" />
-		<item id="8889" name="skullcracker armor" chance="311" />
-		<item id="8902" name="spellbook of mind control" chance="311" />
-		<item id="24637" name="oriental shoes" chance="233" />
-		<item id="2124" name="crystal ring" chance="78" />
+		<item id="24630" name="golden lotus brooch" chance="20381" />
+		<item id="6558" name="flask of demonic blood" chance="19721" />
+		<item id="5944" name="soul orb" chance="18548" />
+		<item id="24631" name="peacock feather fan" chance="17815" />
+		<item id="6500" name="demonic essence" chance="16716" />
+		<item id="7591" name="great health potion" chance="12537" countmax="2" />
+		<item id="7368" name="assassin star" chance="10117" countmax="5" />
+		<item id="2145" name="small diamond" chance="8284" countmax="3" />
+		<item id="2146" name="small sapphire" chance="7918" countmax="3" />
+		<item id="2143" name="white pearl" chance="7111" countmax="2" />
+		<item id="2144" name="black pearl" chance="5425" countmax="2" />
+		<item id="2134" name="silver brooch" chance="4985" />
+		<item id="2147" name="small ruby" chance="4472" countmax="2" />
+		<item id="9970" name="small topaz" chance="4032" countmax="2" />
+		<item id="2149" name="small emerald" chance="3959" countmax="2" />
+		<item id="8911" name="northwind rod" chance="3079" />
+		<item id="3967" name="tribal mask" chance="3079" />
+		<item id="2154" name="yellow gem" chance="2053" />
+		<item id="2183" name="hailstorm rod" chance="1173" />
+		<item id="2170" name="silver amulet" chance="880" />
+		<item id="2656" name="blue robe" chance="806" />
+		<item id="7404" name="assassin dagger" chance="733" />
+		<item id="9971" name="gold ingot" chance="440" />
+		<item id="24637" name="oriental shoes" chance="367" />
+		<item id="2158" name="blue gem" chance="293" />
+		<item id="8889" name="skullcracker armor" chance="293" />
+		<item id="8902" name="spellbook of mind control" chance="293" />
+		<item id="2124" name="crystal ring" chance="73" />
 	</loot>
 </monster>

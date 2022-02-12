@@ -49,12 +49,12 @@
 	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="70" />
-		<item id="23553" name="glob of glooth" chance="14512" />
-		<item id="2146" name="small sapphire" chance="3164" countmax="2" />
-		<item id="9970" name="small topaz" chance="2820" countmax="2" />
-		<item id="23551" name="glooth axe" chance="619" />
-		<item id="23549" name="glooth club" chance="580" />
-		<item id="23550" name="glooth blade" chance="521" />
-		<item id="23554" name="glooth amulet" chance="501" />
+		<item id="23553" name="glob of glooth" chance="14616" />
+		<item id="2146" name="small sapphire" chance="3146" countmax="2" />
+		<item id="9970" name="small topaz" chance="2868" countmax="2" />
+		<item id="23551" name="glooth axe" chance="633" />
+		<item id="23549" name="glooth club" chance="595" />
+		<item id="23554" name="glooth amulet" chance="508" />
+		<item id="23550" name="glooth blade" chance="508" />
 	</loot>
 </monster>

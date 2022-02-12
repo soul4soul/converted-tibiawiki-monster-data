@@ -47,22 +47,22 @@
 		<voice sentence="The end is near!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99399" countmax="261" />
-		<item id="6558" name="flask of demonic blood" chance="36605" />
-		<item id="6500" name="demonic essence" chance="11918" />
-		<item id="8473" name="ultimate health potion" chance="10516" />
-		<item id="2550" name="scythe" chance="10065" />
-		<item id="7590" name="great mana potion" chance="9965" />
-		<item id="10577" name="mystical hourglass" chance="5408" />
-		<item id="2162" name="magic light wand" chance="5308" />
-		<item id="2152" name="platinum coin" chance="4807" countmax="4" />
-		<item id="2521" name="dark shield" chance="3155" />
-		<item id="9810" name="slightly rusted armor" chance="2704" />
-		<item id="8910" name="underworld rod" chance="1102" />
-		<item id="5022" name="orichalcum pearl" chance="951" countmax="4" />
-		<item id="7418" name="nightmare blade" chance="801" />
-		<item id="7896" name="glacier kilt" chance="351" />
-		<item id="6300" name="death ring" chance="300" />
-		<item id="8889" name="skullcracker armor" chance="300" />
+		<item id="2148" name="gold coin" chance="99394" countmax="261" />
+		<item id="6558" name="flask of demonic blood" chance="36332" />
+		<item id="6500" name="demonic essence" chance="11981" />
+		<item id="8473" name="ultimate health potion" chance="10856" />
+		<item id="7590" name="great mana potion" chance="9948" />
+		<item id="2550" name="scythe" chance="9862" />
+		<item id="2162" name="magic light wand" chance="5234" />
+		<item id="10577" name="mystical hourglass" chance="5234" />
+		<item id="2152" name="platinum coin" chance="5147" countmax="4" />
+		<item id="2521" name="dark shield" chance="3028" />
+		<item id="9810" name="slightly rusted armor" chance="2768" />
+		<item id="5022" name="orichalcum pearl" chance="1125" countmax="4" />
+		<item id="8910" name="underworld rod" chance="1125" />
+		<item id="7418" name="nightmare blade" chance="692" />
+		<item id="7896" name="glacier kilt" chance="389" />
+		<item id="6300" name="death ring" chance="303" />
+		<item id="8889" name="skullcracker armor" chance="303" />
 	</loot>
 </monster>

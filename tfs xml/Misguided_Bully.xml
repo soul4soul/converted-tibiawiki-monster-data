@@ -41,16 +41,19 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-250" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-260" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-210" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="arrow" />
+		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
 		<defense name="healing" interval="2000" chance="20" min="400" max="480" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="81582" countmax="173" />
-		<item id="2666" name="meat" chance="45187" />
-		<item id="27952" name="rubbish amulet" chance="6505" />
-		<item id="9971" name="gold ingot" chance="4879" />
-		<item id="2158" name="blue gem" chance="615" />
+		<item id="2148" name="gold coin" chance="81619" countmax="173" />
+		<item id="2666" name="meat" chance="45164" />
+		<item id="27952" name="rubbish amulet" chance="6521" />
+		<item id="9971" name="gold ingot" chance="4945" />
+		<item id="2158" name="blue gem" chance="656" />
 	</loot>
 </monster>

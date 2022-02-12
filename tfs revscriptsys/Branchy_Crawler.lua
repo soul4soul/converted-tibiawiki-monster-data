@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Branchy Crawler"
 monster.description = "a branchy crawler"
-monster.experience = 19000
+monster.experience = 17860
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,

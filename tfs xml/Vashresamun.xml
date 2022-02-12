@@ -55,14 +55,14 @@
 	</voices>
 	<loot>
 		<item id="2349" name="blue note" chance="100000" />
-		<item id="2148" name="gold coin" chance="91396" />
-		<item id="2143" name="white pearl" chance="9903" />
-		<item id="2072" name="lute" chance="9172" />
-		<item id="7590" name="great mana potion" chance="7955" />
-		<item id="2656" name="blue robe" chance="1136" />
-		<item id="2445" name="crystal mace" chance="974" />
-		<item id="2124" name="crystal ring" chance="974" />
-		<item id="2074" name="panpipes" chance="325" />
+		<item id="2148" name="gold coin" chance="91417" />
+		<item id="2143" name="white pearl" chance="10040" />
+		<item id="2072" name="lute" chance="9150" />
+		<item id="7590" name="great mana potion" chance="7935" />
+		<item id="2656" name="blue robe" chance="1134" />
+		<item id="2445" name="crystal mace" chance="972" />
+		<item id="2124" name="crystal ring" chance="972" />
+		<item id="2074" name="panpipes" chance="324" />
 		<item id="2139" name="ancient tiara" chance="162" />
 		<item id="11207" name="mini mummy" chance="162" />
 	</loot>

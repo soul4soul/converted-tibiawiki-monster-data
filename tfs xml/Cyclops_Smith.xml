@@ -50,19 +50,19 @@
 		<voice sentence="Ai humy phary ty kaynon" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82775" countmax="70" />
-		<item id="2666" name="meat" chance="50290" />
-		<item id="10574" name="cyclops toe" chance="10015" />
-		<item id="2513" name="battle shield" chance="6221" />
-		<item id="2378" name="battle axe" chance="5171" />
-		<item id="2417" name="battle hammer" chance="5113" />
-		<item id="2510" name="plate shield" chance="2085" />
-		<item id="2442" name="heavy machete" chance="2059" />
-		<item id="2387" name="double axe" chance="969" />
-		<item id="7588" name="strong health potion" chance="519" />
-		<item id="2490" name="dark helmet" chance="201" />
-		<item id="7452" name="spiked squelcher" chance="133" />
-		<item id="7398" name="cyclops trophy" chance="123" />
-		<item id="2209" name="club ring" chance="88" />
+		<item id="2148" name="gold coin" chance="82764" countmax="70" />
+		<item id="2666" name="meat" chance="50267" />
+		<item id="10574" name="cyclops toe" chance="10022" />
+		<item id="2513" name="battle shield" chance="6210" />
+		<item id="2378" name="battle axe" chance="5141" />
+		<item id="2417" name="battle hammer" chance="5100" />
+		<item id="2510" name="plate shield" chance="2094" />
+		<item id="2442" name="heavy machete" chance="2063" />
+		<item id="2387" name="double axe" chance="974" />
+		<item id="7588" name="strong health potion" chance="522" />
+		<item id="2490" name="dark helmet" chance="199" />
+		<item id="7452" name="spiked squelcher" chance="142" />
+		<item id="7398" name="cyclops trophy" chance="127" />
+		<item id="2209" name="club ring" chance="89" />
 	</loot>
 </monster>

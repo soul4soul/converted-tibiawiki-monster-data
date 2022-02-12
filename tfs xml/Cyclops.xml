@@ -52,19 +52,19 @@
 		<voice sentence="Il lorstok human!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82279" countmax="47" />
-		<item id="2666" name="meat" chance="29037" />
-		<item id="2406" name="short sword" chance="7883" />
-		<item id="10574" name="cyclops toe" chance="5165" />
-		<item id="2510" name="plate shield" chance="2575" />
-		<item id="26642" name="heavy old tome" chance="2082" />
-		<item id="2513" name="battle shield" chance="1414" />
-		<item id="2381" name="halberd" chance="890" />
-		<item id="27071" name="old rag" chance="350" />
-		<item id="2129" name="wolf tooth chain" chance="302" />
-		<item id="2490" name="dark helmet" chance="254" />
-		<item id="7398" name="cyclops trophy" chance="111" />
-		<item id="7618" name="health potion" chance="111" />
-		<item id="2209" name="club ring" chance="48" />
+		<item id="2148" name="gold coin" chance="82257" countmax="47" />
+		<item id="2666" name="meat" chance="29071" />
+		<item id="2406" name="short sword" chance="7755" />
+		<item id="10574" name="cyclops toe" chance="5240" />
+		<item id="2510" name="plate shield" chance="2471" />
+		<item id="26642" name="heavy old tome" chance="2054" />
+		<item id="2513" name="battle shield" chance="1474" />
+		<item id="2381" name="halberd" chance="893" />
+		<item id="27071" name="old rag" chance="327" />
+		<item id="2129" name="wolf tooth chain" chance="313" />
+		<item id="2490" name="dark helmet" chance="238" />
+		<item id="7618" name="health potion" chance="149" />
+		<item id="7398" name="cyclops trophy" chance="119" />
+		<item id="2209" name="club ring" chance="45" />
 	</loot>
 </monster>

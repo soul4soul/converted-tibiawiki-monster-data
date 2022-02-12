@@ -35,7 +35,7 @@ monster.flags = {
 	illusionable = true,
 	boss = false,
 	ignoreSpawnBlock = false,
-	pushable = false,
+	pushable = true,
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {

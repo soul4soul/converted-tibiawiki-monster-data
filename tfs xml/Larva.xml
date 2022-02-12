@@ -45,7 +45,7 @@
 	</attacks>
 	<defenses armor="5" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="64686" countmax="15" />
-		<item id="2666" name="meat" chance="14920" />
+		<item id="2148" name="gold coin" chance="64696" countmax="15" />
+		<item id="2666" name="meat" chance="14934" />
 	</loot>
 </monster>

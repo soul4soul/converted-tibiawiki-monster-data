@@ -42,6 +42,12 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-75" />
+		<attack name="physical" interval="2000" chance="15" min="-140" max="-190" length="8" spread="0">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="-130" max="-195" radius="3" target="0">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
 	</attacks>
 	<defenses armor="50" defense="50">
 		<defense name="healing" interval="2000" chance="20" min="80" max="100" />
@@ -60,23 +66,23 @@
 	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="139" />
-		<item id="2152" name="platinum coin" chance="19664" />
-		<item id="2175" name="spellbook" chance="10361" />
-		<item id="7589" name="strong mana potion" chance="7891" />
+		<item id="2152" name="platinum coin" chance="19671" />
+		<item id="2175" name="spellbook" chance="10388" />
+		<item id="7589" name="strong mana potion" chance="7828" />
 		<item id="2144" name="black pearl" chance="5225" countmax="3" />
-		<item id="2143" name="white pearl" chance="4878" />
-		<item id="9970" name="small topaz" chance="2479" countmax="3" />
-		<item id="2149" name="small emerald" chance="2355" countmax="3" />
-		<item id="2532" name="ancient shield" chance="2115" />
-		<item id="2214" name="ring of healing" chance="1644" />
-		<item id="2154" name="yellow gem" chance="791" />
-		<item id="2479" name="strange helmet" chance="711" />
-		<item id="2178" name="mind stone" chance="435" />
+		<item id="2143" name="white pearl" chance="4876" />
+		<item id="9970" name="small topaz" chance="2456" countmax="3" />
+		<item id="2149" name="small emerald" chance="2369" countmax="3" />
+		<item id="2532" name="ancient shield" chance="2090" />
+		<item id="2214" name="ring of healing" chance="1628" />
+		<item id="2154" name="yellow gem" chance="775" />
+		<item id="2479" name="strange helmet" chance="705" />
+		<item id="2178" name="mind stone" chance="427" />
 		<item id="2171" name="platinum amulet" chance="409" />
-		<item id="7893" name="lightning boots" chance="284" />
-		<item id="2436" name="skull staff" chance="284" />
-		<item id="2535" name="castle shield" chance="240" />
-		<item id="2656" name="blue robe" chance="204" />
+		<item id="7893" name="lightning boots" chance="279" />
+		<item id="2436" name="skull staff" chance="279" />
+		<item id="2535" name="castle shield" chance="270" />
+		<item id="2656" name="blue robe" chance="200" />
 		<item id="13291" name="maxilla maximus" chance="44" />
 	</loot>
 </monster>

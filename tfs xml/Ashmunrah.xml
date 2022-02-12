@@ -60,13 +60,13 @@
 		<voice name="Ancient Scarab" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="93879" countmax="304" />
-		<item id="7590" name="great mana potion" chance="12066" />
-		<item id="2164" name="might ring" chance="4591" />
-		<item id="2134" name="silver brooch" chance="4120" />
-		<item id="2487" name="crown armor" chance="471" />
-		<item id="11207" name="mini mummy" chance="177" />
-		<item id="2444" name="hammer of wrath" chance="118" />
-		<item id="2140" name="holy scarab" chance="118" />
+		<item id="2148" name="gold coin" chance="93936" countmax="304" />
+		<item id="7590" name="great mana potion" chance="12012" />
+		<item id="2164" name="might ring" chance="4665" />
+		<item id="2134" name="silver brooch" chance="4198" />
+		<item id="2487" name="crown armor" chance="466" />
+		<item id="11207" name="mini mummy" chance="175" />
+		<item id="2444" name="hammer of wrath" chance="117" />
+		<item id="2140" name="holy scarab" chance="117" />
 	</loot>
 </monster>

@@ -42,12 +42,12 @@
 	</elements>
 	<defenses armor="12" defense="12" />
 	<loot>
-		<item id="2667" name="fish" chance="10435" />
-		<item id="2670" name="shrimp" chance="9469" />
-		<item id="2144" name="black pearl" chance="1208" />
-		<item id="2150" name="small amethyst" chance="676" countmax="3" />
-		<item id="2147" name="small ruby" chance="676" countmax="3" />
-		<item id="2143" name="white pearl" chance="580" />
-		<item id="2146" name="small sapphire" chance="193" countmax="3" />
+		<item id="2667" name="fish" chance="10425" />
+		<item id="2670" name="shrimp" chance="9511" />
+		<item id="2144" name="black pearl" chance="1189" />
+		<item id="2150" name="small amethyst" chance="640" countmax="3" />
+		<item id="2147" name="small ruby" chance="640" countmax="3" />
+		<item id="2143" name="white pearl" chance="549" />
+		<item id="2146" name="small sapphire" chance="229" countmax="3" />
 	</loot>
 </monster>

@@ -45,15 +45,15 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2197" name="stone skin amulet" chance="89512" />
-		<item id="7589" name="strong mana potion" chance="81951" countmax="5" />
-		<item id="10219" name="sacred tree amulet" chance="79512" />
-		<item id="2475" name="warrior helmet" chance="79512" />
-		<item id="2146" name="small sapphire" chance="77805" countmax="5" />
-		<item id="9971" name="gold ingot" chance="61463" countmax="3" />
-		<item id="2536" name="medusa shield" chance="53415" />
-		<item id="10523" name="egg of the many" chance="36098" />
-		<item id="2498" name="royal helmet" chance="20488" />
-		<item id="2476" name="knight armor" chance="10488" />
+		<item id="2197" name="stone skin amulet" chance="89538" />
+		<item id="7589" name="strong mana potion" chance="81752" countmax="5" />
+		<item id="10219" name="sacred tree amulet" chance="79562" />
+		<item id="2475" name="warrior helmet" chance="79562" />
+		<item id="2146" name="small sapphire" chance="77859" countmax="5" />
+		<item id="9971" name="gold ingot" chance="61314" countmax="3" />
+		<item id="2536" name="medusa shield" chance="53528" />
+		<item id="10523" name="egg of the many" chance="36010" />
+		<item id="2498" name="royal helmet" chance="20438" />
+		<item id="2476" name="knight armor" chance="10462" />
 	</loot>
 </monster>

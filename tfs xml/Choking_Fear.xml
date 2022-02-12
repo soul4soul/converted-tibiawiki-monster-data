@@ -50,31 +50,31 @@
 		<voice sentence="hsssss" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="90027" countmax="8" />
-		<item id="2148" name="gold coin" chance="83019" countmax="100" />
-		<item id="18417" name="brown crystal splinter" chance="39353" countmax="2" />
-		<item id="8472" name="great spirit potion" chance="16981" countmax="3" />
-		<item id="7590" name="great mana potion" chance="14555" countmax="3" />
-		<item id="22536" name="dead weight" chance="13747" />
-		<item id="8473" name="ultimate health potion" chance="13747" countmax="3" />
-		<item id="18418" name="blue crystal splinter" chance="10782" countmax="3" />
-		<item id="22540" name="hemp rope" chance="10512" />
-		<item id="5913" name="brown piece of cloth" chance="5930" />
-		<item id="2168" name="life ring" chance="3774" />
-		<item id="2214" name="ring of healing" chance="3774" />
-		<item id="3962" name="beastslayer axe" chance="2695" />
-		<item id="2167" name="energy ring" chance="2426" />
-		<item id="18415" name="green crystal shard" chance="2156" />
-		<item id="5914" name="yellow piece of cloth" chance="1617" />
-		<item id="8910" name="underworld rod" chance="1348" />
-		<item id="2515" name="guardian shield" chance="1078" />
-		<item id="11306" name="sai" chance="1078" />
-		<item id="8912" name="springsprout rod" chance="1078" />
-		<item id="5911" name="red piece of cloth" chance="809" />
-		<item id="8902" name="spellbook of mind control" chance="809" />
-		<item id="7886" name="terra boots" chance="809" />
-		<item id="7451" name="shadow sceptre" chance="539" />
-		<item id="22396" name="cluster of solace" chance="270" />
-		<item id="7884" name="terra mantle" chance="270" />
+		<item id="2152" name="platinum coin" chance="90244" countmax="8" />
+		<item id="2148" name="gold coin" chance="81707" countmax="100" />
+		<item id="18417" name="brown crystal splinter" chance="39373" countmax="2" />
+		<item id="8472" name="great spirit potion" chance="17073" countmax="3" />
+		<item id="8473" name="ultimate health potion" chance="14634" countmax="3" />
+		<item id="7590" name="great mana potion" chance="14111" countmax="3" />
+		<item id="22536" name="dead weight" chance="13763" />
+		<item id="22540" name="hemp rope" chance="11847" />
+		<item id="18418" name="blue crystal splinter" chance="9059" countmax="3" />
+		<item id="5913" name="brown piece of cloth" chance="5575" />
+		<item id="2168" name="life ring" chance="4181" />
+		<item id="2214" name="ring of healing" chance="3659" />
+		<item id="3962" name="beastslayer axe" chance="3136" />
+		<item id="2167" name="energy ring" chance="2787" />
+		<item id="18415" name="green crystal shard" chance="1916" />
+		<item id="5914" name="yellow piece of cloth" chance="1220" />
+		<item id="2515" name="guardian shield" chance="1045" />
+		<item id="5911" name="red piece of cloth" chance="1045" />
+		<item id="11306" name="sai" chance="1045" />
+		<item id="8912" name="springsprout rod" chance="1045" />
+		<item id="8902" name="spellbook of mind control" chance="871" />
+		<item id="8910" name="underworld rod" chance="871" />
+		<item id="7451" name="shadow sceptre" chance="523" />
+		<item id="7886" name="terra boots" chance="523" />
+		<item id="22396" name="cluster of solace" chance="348" />
+		<item id="7884" name="terra mantle" chance="174" />
 	</loot>
 </monster>

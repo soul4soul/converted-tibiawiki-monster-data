@@ -83,34 +83,35 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -236}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -236},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -125, range = 5, radius = 1, target = true, shootEffect = CONST_ANI_SMALLSTONE}
 }
 
 monster.defenses = {
 	defense = 35,
 	armor = 35,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 147, maxDamage = 367}
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 200, maxDamage = 250}
 }
 
 monster.loot = {
-	{id = 2148, chance = 93795, maxCount = 139},
-	{id = 8309, chance = 4782, maxCount = 5},
-	{id = 10572, chance = 2171},
-	{id = 7591, chance = 1972},
-	{id = 7590, chance = 1575},
-	{id = 9809, chance = 1549},
-	{id = 9690, chance = 1057},
+	{id = 2148, chance = 93816, maxCount = 139},
+	{id = 8309, chance = 4798, maxCount = 5},
+	{id = 10572, chance = 2180},
+	{id = 7591, chance = 1969},
+	{id = 7590, chance = 1577},
+	{id = 9809, chance = 1551},
+	{id = 9690, chance = 1067},
 	{id = 2177, chance = 1010},
-	{id = 2391, chance = 999},
-	{id = 2145, chance = 978, maxCount = 2},
-	{id = 7452, chance = 926},
-	{id = 9812, chance = 921},
-	{id = 5880, chance = 884},
-	{id = 8472, chance = 821},
-	{id = 7439, chance = 780},
-	{id = 2164, chance = 502},
-	{id = "crystal pedestal", chance = 162},
-	{id = 7428, chance = 115}
+	{id = 2391, chance = 995},
+	{id = 2145, chance = 979, maxCount = 2},
+	{id = 9812, chance = 917},
+	{id = 7452, chance = 912},
+	{id = 5880, chance = 876},
+	{id = 8472, chance = 819},
+	{id = 7439, chance = 788},
+	{id = 2164, chance = 500},
+	{id = "crystal pedestal", chance = 160},
+	{id = 7428, chance = 113}
 }
 
 mType:register(monster)

@@ -42,20 +42,23 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-25" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-30" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="spear" />
+		</attack>
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Ugaar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="30403" />
-		<item id="2148" name="gold coin" chance="25008" countmax="11" />
-		<item id="2389" name="spear" chance="17883" />
-		<item id="2468" name="studded legs" chance="8950" />
-		<item id="2482" name="studded helmet" chance="8299" />
-		<item id="2420" name="machete" chance="3031" />
-		<item id="12435" name="orc leather" chance="2015" />
-		<item id="26642" name="heavy old tome" chance="1841" />
-		<item id="11113" name="orc tooth" chance="95" />
+		<item id="2666" name="meat" chance="30340" />
+		<item id="2148" name="gold coin" chance="24941" countmax="11" />
+		<item id="2389" name="spear" chance="17781" />
+		<item id="2468" name="studded legs" chance="9142" />
+		<item id="2482" name="studded helmet" chance="8195" />
+		<item id="2420" name="machete" chance="3018" />
+		<item id="12435" name="orc leather" chance="2056" />
+		<item id="26642" name="heavy old tome" chance="1923" />
+		<item id="11113" name="orc tooth" chance="89" />
 	</loot>
 </monster>

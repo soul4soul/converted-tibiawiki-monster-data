@@ -42,7 +42,7 @@ monster.flags = {
 	targetDistance = 4,
 	healthHidden = false,
 	canWalkOnEnergy = true,
-	canWalkOnFire = true,
+	canWalkOnFire = false,
 	canWalkOnPoison = true
 }
 
@@ -87,15 +87,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 50},
-	{id = 32993, chance = 89147},
-	{id = 7839, chance = 8140, maxCount = 5},
-	{id = 2396, chance = 6202},
-	{id = 2111, chance = 4264, maxCount = 5},
-	{id = 7888, chance = 3101},
-	{id = 2183, chance = 3101},
-	{id = 7902, chance = 2907},
-	{id = 2186, chance = 2132},
-	{id = 7896, chance = 969}
+	{id = 32993, chance = 89418},
+	{id = 7839, chance = 8289, maxCount = 5},
+	{id = 2396, chance = 5996},
+	{id = 2111, chance = 4233, maxCount = 5},
+	{id = 7888, chance = 2822},
+	{id = 2183, chance = 2822},
+	{id = 7902, chance = 2646},
+	{id = 2186, chance = 1940},
+	{id = 7896, chance = 1235}
 }
 
 mType:register(monster)

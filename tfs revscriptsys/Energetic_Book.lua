@@ -78,6 +78,9 @@ monster.elements = {
 }
 
 monster.attacks = {
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -600, maxDamage = -750, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_ENERGY},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -800, maxDamage = -1000, radius = 3, target = , effect = CONST_ME_ENERGYAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -650, maxDamage = -800, length = 6, spread = 0, effect = CONST_ME_STUN}
 }
 
 monster.defenses = {
@@ -86,21 +89,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 75117, maxCount = 35},
-	{id = 31226, chance = 60198, maxCount = 6},
-	{id = 31225, chance = 45252, maxCount = 8},
-	{id = 26029, chance = 15153},
-	{id = 31222, chance = 12731},
-	{id = 8473, chance = 11382},
-	{id = 26179, chance = 11079},
-	{id = 7901, chance = 3097},
-	{id = 7889, chance = 2711},
-	{id = 18390, chance = 1734},
-	{id = 7895, chance = 1693},
-	{id = 2164, chance = 1638},
-	{id = 7893, chance = 1555},
-	{id = 11355, chance = 922},
-	{id = 7407, chance = 606}
+	{id = 2152, chance = 75436, maxCount = 35},
+	{id = 31226, chance = 60117, maxCount = 6},
+	{id = 31225, chance = 45164, maxCount = 8},
+	{id = 26029, chance = 15343},
+	{id = 31222, chance = 12733},
+	{id = 8473, chance = 11318},
+	{id = 26179, chance = 10965},
+	{id = 7901, chance = 3122},
+	{id = 7889, chance = 2659},
+	{id = 2164, chance = 1732},
+	{id = 18390, chance = 1683},
+	{id = 7895, chance = 1659},
+	{id = 7893, chance = 1512},
+	{id = 11355, chance = 878},
+	{id = 7407, chance = 610}
 }
 
 mType:register(monster)

@@ -45,15 +45,15 @@
 	</attacks>
 	<defenses armor="7" defense="7" />
 	<loot>
-		<item id="2148" name="gold coin" chance="55861" countmax="38" />
-		<item id="12448" name="rope belt" chance="6327" />
-		<item id="8838" name="potato" chance="5297" countmax="3" />
-		<item id="2386" name="axe" chance="2845" />
-		<item id="12412" name="dirty turban" chance="1962" />
-		<item id="2465" name="brass armor" chance="1766" />
-		<item id="2398" name="mace" chance="1422" />
-		<item id="2509" name="steel shield" chance="785" />
-		<item id="2459" name="iron helmet" chance="638" />
+		<item id="2148" name="gold coin" chance="55800" countmax="38" />
+		<item id="12448" name="rope belt" chance="6314" />
+		<item id="8838" name="potato" chance="5286" countmax="3" />
+		<item id="2386" name="axe" chance="2839" />
+		<item id="12412" name="dirty turban" chance="1958" />
+		<item id="2465" name="brass armor" chance="1762" />
+		<item id="2398" name="mace" chance="1419" />
+		<item id="2509" name="steel shield" chance="783" />
+		<item id="2459" name="iron helmet" chance="636" />
 		<item id="8267" name="nomad parchment" chance="343" />
 	</loot>
 </monster>

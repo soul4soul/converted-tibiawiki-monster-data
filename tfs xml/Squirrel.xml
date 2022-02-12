@@ -45,8 +45,8 @@
 		<voice sentence="Chchch" yell="false" />
 	</voices>
 	<loot>
-		<item id="11213" name="acorn" chance="36067" />
-		<item id="7910" name="peanut" chance="600" />
-		<item id="7909" name="walnut" chance="457" />
+		<item id="11213" name="acorn" chance="36404" />
+		<item id="7910" name="peanut" chance="609" />
+		<item id="7909" name="walnut" chance="498" />
 	</loot>
 </monster>

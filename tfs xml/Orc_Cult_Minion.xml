@@ -42,6 +42,9 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-150" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="spear" />
+		</attack>
 	</attacks>
 	<defenses armor="30" defense="30" />
 	<voices interval="5000" chance="10">
@@ -49,12 +52,12 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="195" />
-		<item id="10556" name="cultish robe" chance="20469" />
-		<item id="7588" name="strong health potion" chance="16265" />
-		<item id="9970" name="small topaz" chance="13623" countmax="3" />
-		<item id="2428" name="orcish axe" chance="8339" />
-		<item id="2788" name="red mushroom" chance="7994" countmax="3" />
-		<item id="2666" name="meat" chance="5238" />
-		<item id="7439" name="berserk potion" chance="1103" countmax="2" />
+		<item id="10556" name="cultish robe" chance="20463" />
+		<item id="7588" name="strong health potion" chance="16303" />
+		<item id="9970" name="small topaz" chance="13740" countmax="3" />
+		<item id="2428" name="orcish axe" chance="8455" />
+		<item id="2788" name="red mushroom" chance="7915" countmax="3" />
+		<item id="2666" name="meat" chance="5195" />
+		<item id="7439" name="berserk potion" chance="1079" countmax="2" />
 	</loot>
 </monster>

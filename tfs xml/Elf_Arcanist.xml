@@ -54,26 +54,26 @@
 		<voice sentence="Feel my wrath!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="37126" countmax="49" />
-		<item id="1949" name="scroll" chance="30445" />
-		<item id="2682" name="melon" chance="21828" />
-		<item id="2260" name="blank rune" chance="17915" />
-		<item id="2689" name="bread" chance="13923" />
-		<item id="10552" name="elvish talisman" chance="10085" />
-		<item id="12421" name="elven astral observer" chance="7799" />
-		<item id="2652" name="green tunic" chance="7295" />
-		<item id="2544" name="arrow" chance="6131" countmax="3" />
-		<item id="2802" name="sling herb" chance="4866" />
-		<item id="7618" name="health potion" chance="4033" />
-		<item id="7589" name="strong mana potion" chance="3009" />
-		<item name="candlestick" chance="2181" />
-		<item id="5922" name="holy orchid" chance="2060" />
-		<item id="2198" name="elven amulet" chance="2052" />
-		<item id="2189" name="wand of cosmic energy" chance="1130" />
-		<item id="2177" name="life crystal" chance="1047" />
-		<item id="2642" name="sandals" chance="975" />
-		<item id="2600" name="inkwell" chance="942" />
-		<item id="2747" name="grave flower" chance="806" />
-		<item id="2154" name="yellow gem" chance="49" />
+		<item id="2148" name="gold coin" chance="37112" countmax="49" />
+		<item id="1949" name="scroll" chance="30499" />
+		<item id="2682" name="melon" chance="21818" />
+		<item id="2260" name="blank rune" chance="17948" />
+		<item id="2689" name="bread" chance="13915" />
+		<item id="10552" name="elvish talisman" chance="10071" />
+		<item id="12421" name="elven astral observer" chance="7773" />
+		<item id="2652" name="green tunic" chance="7291" />
+		<item id="2544" name="arrow" chance="6127" countmax="3" />
+		<item id="2802" name="sling herb" chance="4848" />
+		<item id="7618" name="health potion" chance="4048" />
+		<item id="7589" name="strong mana potion" chance="2991" />
+		<item name="candlestick" chance="2191" />
+		<item id="5922" name="holy orchid" chance="2050" />
+		<item id="2198" name="elven amulet" chance="2046" />
+		<item id="2189" name="wand of cosmic energy" chance="1127" />
+		<item id="2177" name="life crystal" chance="1060" />
+		<item id="2642" name="sandals" chance="971" />
+		<item id="2600" name="inkwell" chance="953" />
+		<item id="2747" name="grave flower" chance="801" />
+		<item id="2154" name="yellow gem" chance="48" />
 	</loot>
 </monster>

@@ -48,11 +48,11 @@
 		<voice sentence="Gnark!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="84945" countmax="12" />
-		<item id="20102" name="swampling moss" chance="19933" />
-		<item id="20103" name="piece of swampling wood" chance="14906" />
-		<item id="2787" name="white mushroom" chance="10233" />
-		<item id="20104" name="swampling club" chance="7424" />
-		<item id="2120" name="rope" chance="5085" />
+		<item id="2148" name="gold coin" chance="84939" countmax="12" />
+		<item id="20102" name="swampling moss" chance="19940" />
+		<item id="20103" name="piece of swampling wood" chance="14908" />
+		<item id="2787" name="white mushroom" chance="10231" />
+		<item id="20104" name="swampling club" chance="7428" />
+		<item id="2120" name="rope" chance="5086" />
 	</loot>
 </monster>

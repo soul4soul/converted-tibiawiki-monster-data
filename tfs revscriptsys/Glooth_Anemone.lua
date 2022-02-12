@@ -94,24 +94,24 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 99858, maxCount = 173},
-	{id = 2152, chance = 58322, maxCount = 3},
-	{id = 23568, chance = 18423},
-	{id = 23515, chance = 9788},
-	{id = 2149, chance = 8069, maxCount = 4},
-	{id = 9970, chance = 7887, maxCount = 4},
-	{id = 2147, chance = 7482, maxCount = 4},
-	{id = 7589, chance = 7462, maxCount = 2},
-	{id = 7588, chance = 7199, maxCount = 2},
-	{id = 23543, chance = 4166},
+	{id = 2148, chance = 99873, maxCount = 173},
+	{id = 2152, chance = 58140, maxCount = 3},
+	{id = 23568, chance = 18379},
+	{id = 23515, chance = 9895},
+	{id = 9970, chance = 7959, maxCount = 4},
+	{id = 2149, chance = 7941, maxCount = 4},
+	{id = 2147, chance = 7634, maxCount = 4},
+	{id = 7589, chance = 7489, maxCount = 2},
+	{id = 7588, chance = 7381, maxCount = 2},
+	{id = 23543, chance = 4034},
 	{id = 2796, chance = 2912},
-	{id = 8473, chance = 2305, maxCount = 2},
-	{id = 23549, chance = 1011},
-	{id = 23554, chance = 991},
-	{id = 23550, chance = 849},
-	{id = 23535, chance = 849},
-	{id = 23551, chance = 809},
-	{id = 23529, chance = 789}
+	{id = 8473, chance = 2352, maxCount = 2},
+	{id = 23549, chance = 1049},
+	{id = 23554, chance = 941},
+	{id = 23550, chance = 868},
+	{id = 23535, chance = 868},
+	{id = 23529, chance = 832},
+	{id = 23551, chance = 814}
 }
 
 mType:register(monster)

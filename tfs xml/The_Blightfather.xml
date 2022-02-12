@@ -45,10 +45,10 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="11372" name="lancer beetle shell" chance="82609" />
-		<item id="10557" name="poisonous slime" chance="73913" />
-		<item id="2148" name="gold coin" chance="69565" countmax="74" />
-		<item id="10609" name="lump of dirt" chance="26087" />
-		<item id="11374" name="beetle necklace" chance="17391" />
+		<item id="11372" name="lancer beetle shell" chance="83333" />
+		<item id="10557" name="poisonous slime" chance="75000" />
+		<item id="2148" name="gold coin" chance="70833" countmax="74" />
+		<item id="10609" name="lump of dirt" chance="29167" />
+		<item id="11374" name="beetle necklace" chance="16667" />
 	</loot>
 </monster>

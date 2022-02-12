@@ -49,8 +49,8 @@
 		<voice sentence="Grrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="69325" />
-		<item id="2671" name="ham" chance="36673" />
-		<item id="12401" name="bamboo stick" chance="9339" />
+		<item id="2666" name="meat" chance="69143" />
+		<item id="2671" name="ham" chance="36680" />
+		<item id="12401" name="bamboo stick" chance="9371" />
 	</loot>
 </monster>

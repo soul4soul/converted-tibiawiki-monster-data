@@ -46,50 +46,50 @@
 		<item id="2152" name="platinum coin" chance="100000" countmax="400" />
 		<item id="2214" name="ring of healing" chance="100000" />
 		<item id="10548" name="scarab pincers" chance="100000" />
-		<item id="2440" name="daramian waraxe" chance="75000" />
-		<item id="18415" name="green crystal shard" chance="71250" countmax="6" />
-		<item id="10549" name="ancient stone" chance="70000" countmax="3" />
-		<item id="8912" name="springsprout rod" chance="67500" />
-		<item id="18413" name="blue crystal shard" chance="61250" countmax="6" />
-		<item id="24849" name="onyx chip" chance="60000" countmax="3" />
-		<item id="18414" name="violet crystal shard" chance="60000" countmax="6" />
-		<item id="7590" name="great mana potion" chance="55000" countmax="24" />
-		<item id="8473" name="ultimate health potion" chance="55000" countmax="24" />
-		<item id="25377" name="gold token" chance="53750" countmax="2" />
-		<item id="8472" name="great spirit potion" chance="50000" countmax="24" />
-		<item id="25172" name="silver token" chance="47500" countmax="2" />
-		<item id="2159" name="scarab coin" chance="42500" countmax="50" />
-		<item id="5904" name="magic sulphur" chance="31250" />
-		<item id="12410" name="luminous orb" chance="27500" />
-		<item id="5892" name="huge chunk of crude iron" chance="26250" countmax="6" />
-		<item id="9970" name="small topaz" chance="25000" countmax="20" />
-		<item id="2158" name="blue gem" chance="22500" countmax="2" />
-		<item id="2154" name="yellow gem" chance="20000" countmax="2" />
-		<item id="2155" name="green gem" chance="18750" countmax="2" />
-		<item id="2145" name="small diamond" chance="18750" countmax="20" />
-		<item id="2147" name="small ruby" chance="18750" countmax="20" />
-		<item id="2135" name="scarab amulet" chance="17500" />
-		<item id="8910" name="underworld rod" chance="17500" />
-		<item id="2149" name="small emerald" chance="16250" countmax="20" />
-		<item id="2160" name="crystal coin" chance="15000" countmax="2" />
-		<item id="2150" name="small amethyst" chance="15000" countmax="20" />
-		<item name="giant shimmering pearl" chance="13750" countmax="2" />
-		<item id="2156" name="red gem" chance="12500" countmax="2" />
-		<item id="2451" name="djinn blade" chance="10000" />
-		<item id="2162" name="magic light wand" chance="10000" />
-		<item id="7428" name="bonebreaker" chance="8750" />
-		<item id="7903" name="terra hood" chance="8750" />
-		<item id="2540" name="scarab shield" chance="6250" />
-		<item id="2153" name="violet gem" chance="6250" countmax="2" />
-		<item id="2142" name="ancient amulet" chance="5000" />
-		<item id="30313" name="crude wood planks" chance="3750" />
-		<item id="7885" name="terra legs" chance="3750" />
-		<item id="30312" name="tinged pot" chance="3750" />
-		<item id="13291" name="maxilla maximus" chance="2500" />
-		<item id="15411" name="depth scutum" chance="1250" />
-		<item id="5891" name="enchanted chicken wing" chance="1250" />
-		<item id="24637" name="oriental shoes" chance="1250" />
-		<item id="7884" name="terra mantle" chance="1250" />
-		<item id="15453" name="warrior's shield" chance="1250" />
+		<item id="2440" name="daramian waraxe" chance="76842" />
+		<item id="18415" name="green crystal shard" chance="72632" countmax="6" />
+		<item id="10549" name="ancient stone" chance="67368" countmax="3" />
+		<item id="8912" name="springsprout rod" chance="67368" />
+		<item id="18413" name="blue crystal shard" chance="64211" countmax="6" />
+		<item id="18414" name="violet crystal shard" chance="61053" countmax="6" />
+		<item id="8473" name="ultimate health potion" chance="57895" countmax="24" />
+		<item id="25377" name="gold token" chance="56842" countmax="2" />
+		<item id="24849" name="onyx chip" chance="56842" countmax="3" />
+		<item id="7590" name="great mana potion" chance="52632" countmax="24" />
+		<item id="8472" name="great spirit potion" chance="48421" countmax="24" />
+		<item id="25172" name="silver token" chance="44211" countmax="2" />
+		<item id="2159" name="scarab coin" chance="40000" countmax="50" />
+		<item id="5904" name="magic sulphur" chance="29474" />
+		<item id="5892" name="huge chunk of crude iron" chance="28421" countmax="6" />
+		<item id="12410" name="luminous orb" chance="27368" />
+		<item id="2147" name="small ruby" chance="22105" countmax="20" />
+		<item id="9970" name="small topaz" chance="22105" countmax="20" />
+		<item id="2155" name="green gem" chance="21053" countmax="2" />
+		<item id="2158" name="blue gem" chance="20000" countmax="2" />
+		<item id="2145" name="small diamond" chance="20000" countmax="20" />
+		<item id="2135" name="scarab amulet" chance="18947" />
+		<item id="2154" name="yellow gem" chance="17895" countmax="2" />
+		<item id="2160" name="crystal coin" chance="16842" countmax="2" />
+		<item name="giant shimmering pearl" chance="15789" countmax="2" />
+		<item id="2149" name="small emerald" chance="15789" countmax="20" />
+		<item id="8910" name="underworld rod" chance="15789" />
+		<item id="2150" name="small amethyst" chance="14737" countmax="20" />
+		<item id="2156" name="red gem" chance="12632" countmax="2" />
+		<item id="7428" name="bonebreaker" chance="10526" />
+		<item id="2451" name="djinn blade" chance="10526" />
+		<item id="2162" name="magic light wand" chance="8421" />
+		<item id="7903" name="terra hood" chance="7368" />
+		<item id="2153" name="violet gem" chance="7368" countmax="2" />
+		<item id="2540" name="scarab shield" chance="6316" />
+		<item id="2142" name="ancient amulet" chance="5263" />
+		<item id="30313" name="crude wood planks" chance="3158" />
+		<item id="7885" name="terra legs" chance="3158" />
+		<item id="30312" name="tinged pot" chance="3158" />
+		<item id="15411" name="depth scutum" chance="2105" />
+		<item id="13291" name="maxilla maximus" chance="2105" />
+		<item id="7884" name="terra mantle" chance="2105" />
+		<item id="5891" name="enchanted chicken wing" chance="1053" />
+		<item id="24637" name="oriental shoes" chance="1053" />
+		<item id="15453" name="warrior's shield" chance="1053" />
 	</loot>
 </monster>

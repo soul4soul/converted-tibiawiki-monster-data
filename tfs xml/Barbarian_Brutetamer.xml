@@ -53,12 +53,12 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="90179" countmax="15" />
-		<item id="2686" name="corncob" chance="11015" countmax="2" />
-		<item id="2464" name="chain armor" chance="9147" />
-		<item id="7343" name="fur bag" chance="7642" />
-		<item id="2401" name="staff" chance="6508" />
-		<item id="3965" name="hunting spear" chance="5300" />
-		<item name="book (grey)" chance="4662" />
+		<item id="2686" name="corncob" chance="11013" countmax="2" />
+		<item id="2464" name="chain armor" chance="9139" />
+		<item id="7343" name="fur bag" chance="7636" />
+		<item id="2401" name="staff" chance="6510" />
+		<item id="3965" name="hunting spear" chance="5296" />
+		<item name="book (grey)" chance="4681" />
 		<item id="7620" name="mana potion" chance="615" />
 		<item id="7379" name="brutetamer's staff" chance="304" />
 		<item id="7457" name="fur boots" chance="156" />

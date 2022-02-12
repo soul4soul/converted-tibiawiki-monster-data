@@ -50,20 +50,20 @@
 		<voice sentence="Hihihihi!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="63925" countmax="40" />
-		<item id="2687" name="cookie" chance="29961" countmax="8" />
-		<item id="2129" name="wolf tooth chain" chance="10141" />
-		<item id="10569" name="witch broom" chance="10001" />
-		<item id="2800" name="star herb" chance="8987" />
-		<item id="2643" name="leather boots" chance="4997" />
+		<item id="2148" name="gold coin" chance="63927" countmax="40" />
+		<item id="2687" name="cookie" chance="29997" countmax="8" />
+		<item id="2129" name="wolf tooth chain" chance="10124" />
+		<item id="10569" name="witch broom" chance="10006" />
+		<item id="2800" name="star herb" chance="8992" />
+		<item id="2643" name="leather boots" chance="5016" />
 		<item id="2654" name="cape" chance="4953" />
-		<item id="2405" name="sickle" chance="3887" />
+		<item id="2405" name="sickle" chance="3892" />
 		<item id="2199" name="garlic necklace" chance="2517" />
-		<item id="2651" name="coat" chance="2011" />
-		<item id="2185" name="necrotic rod" chance="1088" />
-		<item id="13537" name="bag of apple slices" chance="891" />
+		<item id="2651" name="coat" chance="2007" />
+		<item id="2185" name="necrotic rod" chance="1083" />
+		<item id="13537" name="bag of apple slices" chance="896" />
 		<item id="2402" name="silver dagger" chance="557" />
-		<item id="10570" name="witch hat" chance="91" />
+		<item id="10570" name="witch hat" chance="90" />
 		<item id="11211" name="stuffed toad" chance="6" />
 	</loot>
 </monster>

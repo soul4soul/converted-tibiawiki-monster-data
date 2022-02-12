@@ -67,24 +67,24 @@
 		<voice sentence="Dieee!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98898" countmax="264" />
-		<item id="6558" name="flask of demonic blood" chance="33740" />
-		<item id="8844" name="jalapeno pepper" chance="31260" countmax="4" />
-		<item id="6500" name="demonic essence" chance="23110" />
-		<item id="2181" name="terra rod" chance="21102" />
-		<item id="5944" name="soul orb" chance="20079" />
-		<item id="7591" name="great health potion" chance="11102" />
-		<item id="9813" name="slightly rusted legs" chance="9646" />
-		<item id="2150" name="small amethyst" chance="8189" countmax="3" />
-		<item id="5911" name="red piece of cloth" chance="4173" />
-		<item id="2152" name="platinum coin" chance="2362" countmax="4" />
-		<item id="5022" name="orichalcum pearl" chance="1654" countmax="4" />
-		<item id="7456" name="noble axe" chance="1496" />
-		<item id="7404" name="assassin dagger" chance="906" />
-		<item id="2124" name="crystal ring" chance="276" />
-		<item id="2645" name="steel boots" chance="276" />
-		<item id="7368" name="assassin star" chance="118" />
-		<item id="6300" name="death ring" chance="79" />
-		<item id="2470" name="golden legs" chance="39" />
+		<item id="2148" name="gold coin" chance="98743" countmax="264" />
+		<item id="6558" name="flask of demonic blood" chance="34110" />
+		<item id="8844" name="jalapeno pepper" chance="31106" countmax="4" />
+		<item id="6500" name="demonic essence" chance="22893" />
+		<item id="2181" name="terra rod" chance="20625" />
+		<item id="5944" name="soul orb" chance="20012" />
+		<item id="7591" name="great health potion" chance="11033" />
+		<item id="9813" name="slightly rusted legs" chance="10175" />
+		<item id="2150" name="small amethyst" chance="8060" countmax="3" />
+		<item id="5911" name="red piece of cloth" chance="4229" />
+		<item id="2152" name="platinum coin" chance="2329" countmax="4" />
+		<item id="7456" name="noble axe" chance="1594" />
+		<item id="5022" name="orichalcum pearl" chance="1410" countmax="4" />
+		<item id="7404" name="assassin dagger" chance="981" />
+		<item id="2645" name="steel boots" chance="368" />
+		<item id="2124" name="crystal ring" chance="337" />
+		<item id="7368" name="assassin star" chance="153" />
+		<item id="6300" name="death ring" chance="61" />
+		<item id="2470" name="golden legs" chance="31" />
 	</loot>
 </monster>

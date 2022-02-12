@@ -50,6 +50,6 @@
 		<voice sentence="Grrrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="10531" name="midnight shard" chance="6849" />
+		<item id="10531" name="midnight shard" chance="6886" />
 	</loot>
 </monster>

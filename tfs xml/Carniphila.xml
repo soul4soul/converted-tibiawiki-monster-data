@@ -45,11 +45,11 @@
 	</attacks>
 	<defenses armor="22" defense="22" />
 	<loot>
-		<item id="2148" name="gold coin" chance="87939" countmax="40" />
-		<item id="2792" name="dark mushroom" chance="7963" />
-		<item id="11217" name="carniphila seeds" chance="4019" />
+		<item id="2148" name="gold coin" chance="87941" countmax="40" />
+		<item id="2792" name="dark mushroom" chance="7962" />
+		<item id="11217" name="carniphila seeds" chance="4018" />
 		<item id="2804" name="shadow herb" chance="1000" />
-		<item id="2686" name="corncob" chance="982" />
+		<item id="2686" name="corncob" chance="984" />
 		<item id="7732" name="seeds" chance="508" />
 		<item id="2802" name="sling herb" chance="502" countmax="2" />
 		<item id="13298" name="carrot on a stick" chance="105" />

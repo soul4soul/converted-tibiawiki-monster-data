@@ -52,18 +52,18 @@
 		<voice sentence="I will punish the sinners!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2689" name="bread" chance="19960" />
-		<item id="2148" name="gold coin" chance="15273" countmax="18" />
-		<item id="10563" name="book of prayers" chance="4874" />
-		<item id="12448" name="rope belt" chance="3086" />
-		<item id="2193" name="ankh" chance="2353" />
-		<item id="1949" name="scroll" chance="1863" />
-		<item id="12449" name="safety pin" chance="1037" />
-		<item id="2177" name="life crystal" chance="1031" />
-		<item id="2015" name="brown flask" chance="832" />
-		<item name="lamp" chance="813" />
-		<item id="2642" name="sandals" chance="646" />
-		<item id="2401" name="staff" chance="478" />
-		<item id="2166" name="power ring" chance="81" />
+		<item id="2689" name="bread" chance="20019" />
+		<item id="2148" name="gold coin" chance="15279" countmax="18" />
+		<item id="10563" name="book of prayers" chance="4880" />
+		<item id="12448" name="rope belt" chance="3118" />
+		<item id="2193" name="ankh" chance="2407" />
+		<item id="1949" name="scroll" chance="1841" />
+		<item id="12449" name="safety pin" chance="1051" />
+		<item id="2177" name="life crystal" chance="1027" />
+		<item id="2015" name="brown flask" chance="851" />
+		<item name="lamp" chance="827" />
+		<item id="2642" name="sandals" chance="644" />
+		<item id="2401" name="staff" chance="486" />
+		<item id="2166" name="power ring" chance="79" />
 	</loot>
 </monster>

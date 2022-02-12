@@ -52,15 +52,15 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="65" />
-		<item id="21243" name="horoscope" chance="15204" />
-		<item id="21246" name="incantation notes" chance="9527" />
-		<item id="11237" name="book of necromantic rituals" chance="7811" />
-		<item id="2789" name="brown mushroom" chance="4620" />
-		<item id="21247" name="pieces of magic chalk" chance="4576" />
-		<item id="2663" name="mystic turban" chance="550" />
-		<item id="7589" name="strong mana potion" chance="528" />
-		<item id="2423" name="clerical mace" chance="286" />
-		<item id="8900" name="spellbook of enlightenment" chance="220" />
-		<item id="2195" name="boots of haste" chance="22" />
+		<item id="21243" name="horoscope" chance="15452" />
+		<item id="21246" name="incantation notes" chance="9595" />
+		<item id="11237" name="book of necromantic rituals" chance="7684" />
+		<item id="2789" name="brown mushroom" chance="4652" />
+		<item id="21247" name="pieces of magic chalk" chance="4631" />
+		<item id="2663" name="mystic turban" chance="540" />
+		<item id="7589" name="strong mana potion" chance="540" />
+		<item id="2423" name="clerical mace" chance="332" />
+		<item id="8900" name="spellbook of enlightenment" chance="208" />
+		<item id="2195" name="boots of haste" chance="21" />
 	</loot>
 </monster>

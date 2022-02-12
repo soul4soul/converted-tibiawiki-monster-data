@@ -87,22 +87,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 78876, maxCount = 4},
-	{id = 9971, chance = 10938},
-	{id = 36816, chance = 7878},
-	{id = 36818, chance = 7275},
-	{id = 2144, chance = 6422},
-	{id = 7903, chance = 5218},
-	{id = 7632, chance = 4867},
-	{id = 2155, chance = 4064},
-	{id = 7901, chance = 3412},
-	{id = 8912, chance = 3211},
-	{id = 2671, chance = 3111},
-	{id = 2477, chance = 1957},
-	{id = 7900, chance = 1957},
-	{id = 2189, chance = 1957},
-	{id = 8910, chance = 1656},
-	{id = 8920, chance = 1405}
+	{id = 2152, chance = 79310, maxCount = 4},
+	{id = 9971, chance = 10844},
+	{id = 36816, chance = 7804},
+	{id = 36818, chance = 7078},
+	{id = 2144, chance = 6488},
+	{id = 7903, chance = 5263},
+	{id = 7632, chance = 4583},
+	{id = 2155, chance = 3857},
+	{id = 7901, chance = 3403},
+	{id = 8912, chance = 3176},
+	{id = 2671, chance = 2995},
+	{id = 7900, chance = 2042},
+	{id = 2189, chance = 1951},
+	{id = 2477, chance = 1815},
+	{id = 8910, chance = 1724},
+	{id = 8920, chance = 1316}
 }
 
 mType:register(monster)

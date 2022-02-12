@@ -42,9 +42,15 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-260" />
+		<attack name="physical" interval="2000" chance="15" min="-150" max="-225" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="whirlwindsword" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="-75" max="-125">
+			<attribute key="areaEffect" value="groundshaker" />
+		</attack>
 	</attacks>
 	<defenses armor="40" defense="40">
-		<defense name="healing" interval="2000" chance="20" min="220" max="280" />
+		<defense name="healing" interval="2000" chance="20" min="200" max="280" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="Is that the best, you can throw at me?" yell="false" />
@@ -54,23 +60,23 @@
 		<voice sentence="You'll make a fine trophy!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99925" countmax="172" />
-		<item id="2152" name="platinum coin" chance="73740" countmax="2" />
-		<item id="2666" name="meat" chance="9610" />
-		<item id="12466" name="scroll of heroic deeds" chance="7730" />
-		<item id="7591" name="great health potion" chance="6888" />
-		<item id="2121" name="wedding ring" chance="4873" />
-		<item id="2146" name="small sapphire" chance="3474" />
-		<item id="2147" name="small ruby" chance="3369" />
-		<item id="12406" name="small notebook" chance="2467" />
-		<item id="2391" name="war hammer" chance="2241" />
-		<item id="5911" name="red piece of cloth" chance="2151" />
-		<item id="2487" name="crown armor" chance="1188" />
-		<item id="2392" name="fire sword" chance="932" />
-		<item id="2488" name="crown legs" chance="872" />
-		<item id="2491" name="crown helmet" chance="662" />
-		<item id="2171" name="platinum amulet" chance="436" />
-		<item id="2519" name="crown shield" chance="271" />
-		<item id="2114" name="piggy bank" chance="150" />
+		<item id="2148" name="gold coin" chance="99927" countmax="172" />
+		<item id="2152" name="platinum coin" chance="73575" countmax="2" />
+		<item id="2666" name="meat" chance="9688" />
+		<item id="12466" name="scroll of heroic deeds" chance="7875" />
+		<item id="7591" name="great health potion" chance="6933" />
+		<item id="2121" name="wedding ring" chance="5047" />
+		<item id="2146" name="small sapphire" chance="3524" />
+		<item id="2147" name="small ruby" chance="3495" />
+		<item id="12406" name="small notebook" chance="2393" />
+		<item id="2391" name="war hammer" chance="2219" />
+		<item id="5911" name="red piece of cloth" chance="2117" />
+		<item id="2487" name="crown armor" chance="1146" />
+		<item id="2392" name="fire sword" chance="914" />
+		<item id="2488" name="crown legs" chance="856" />
+		<item id="2491" name="crown helmet" chance="638" />
+		<item id="2171" name="platinum amulet" chance="421" />
+		<item id="2519" name="crown shield" chance="276" />
+		<item id="2114" name="piggy bank" chance="145" />
 	</loot>
 </monster>

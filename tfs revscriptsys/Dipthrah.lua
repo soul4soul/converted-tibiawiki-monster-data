@@ -98,13 +98,13 @@ monster.summons = {
 
 monster.loot = {
 	{id = 3241, chance = 100000},
-	{id = 2148, chance = 90976, maxCount = 226},
-	{id = 2146, chance = 9810, maxCount = 3},
-	{id = 7590, chance = 8931},
-	{id = 2167, chance = 4859},
+	{id = 2148, chance = 90981, maxCount = 226},
+	{id = 2146, chance = 9806, maxCount = 3},
+	{id = 7590, chance = 8927},
+	{id = 2167, chance = 4857},
 	{id = 2178, chance = 925},
 	{id = 2158, chance = 833},
-	{id = 2193, chance = 602},
+	{id = 2193, chance = 601},
 	{id = 2436, chance = 555},
 	{id = 11207, chance = 93},
 	{id = 2446, chance = 93}

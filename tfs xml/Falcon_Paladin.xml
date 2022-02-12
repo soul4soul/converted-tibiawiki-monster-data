@@ -48,22 +48,22 @@
 		<voice sentence="Uuunngh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="89239" countmax="6" />
-		<item id="8472" name="great spirit potion" chance="48056" countmax="2" />
-		<item id="2145" name="small diamond" chance="47437" countmax="2" />
-		<item id="2150" name="small amethyst" chance="47099" countmax="2" />
-		<item id="2149" name="small emerald" chance="46930" countmax="2" />
-		<item id="7368" name="assassin star" chance="29014" countmax="10" />
-		<item id="2147" name="small ruby" chance="23887" countmax="2" />
-		<item id="9970" name="small topaz" chance="23324" countmax="2" />
-		<item id="7365" name="onyx arrow" chance="18028" countmax="15" />
-		<item id="2156" name="red gem" chance="9239" />
-		<item id="2155" name="green gem" chance="6141" />
-		<item id="2153" name="violet gem" chance="5070" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="1690" />
-		<item id="31478" name="damaged armor plates" chance="1521" />
-		<item id="31479" name="falcon crest" chance="1296" />
-		<item id="2514" name="mastermind shield" chance="507" />
-		<item id="2466" name="golden armor" chance="338" />
+		<item id="2152" name="platinum coin" chance="89491" countmax="6" />
+		<item id="8472" name="great spirit potion" chance="47853" countmax="2" />
+		<item id="2145" name="small diamond" chance="47304" countmax="2" />
+		<item id="2150" name="small amethyst" chance="46786" countmax="2" />
+		<item id="2149" name="small emerald" chance="45751" countmax="2" />
+		<item id="7368" name="assassin star" chance="29333" countmax="10" />
+		<item id="2147" name="small ruby" chance="23576" countmax="2" />
+		<item id="9970" name="small topaz" chance="22906" countmax="2" />
+		<item id="7365" name="onyx arrow" chance="18581" countmax="15" />
+		<item id="2156" name="red gem" chance="9412" />
+		<item id="2155" name="green gem" chance="5879" />
+		<item id="2153" name="violet gem" chance="5239" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="1858" />
+		<item id="31478" name="damaged armor plates" chance="1371" />
+		<item id="31479" name="falcon crest" chance="1036" />
+		<item id="2514" name="mastermind shield" chance="487" />
+		<item id="2466" name="golden armor" chance="366" />
 	</loot>
 </monster>

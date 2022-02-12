@@ -81,7 +81,8 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -120}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -120},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -40, range = 5, radius = 1, target = true, shootEffect = CONST_ANI_THROWINGSTAR}
 }
 
 monster.defenses = {
@@ -90,18 +91,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 83038, maxCount = 50},
-	{id = "torch", chance = 30097, maxCount = 2},
-	{id = 2403, chance = 9857},
-	{id = 2399, chance = 7002, maxCount = 14},
-	{id = 7366, chance = 4171, maxCount = 7},
-	{id = 2404, chance = 4009},
-	{id = 3351, chance = 3047},
-	{id = 2510, chance = 1928},
-	{id = 2513, chance = 1642},
-	{id = 2509, chance = 976},
+	{id = 2148, chance = 83056, maxCount = 50},
+	{id = "torch", chance = 30112, maxCount = 2},
+	{id = 2403, chance = 9860},
+	{id = 2399, chance = 7005, maxCount = 14},
+	{id = 7366, chance = 4170, maxCount = 7},
+	{id = 2404, chance = 4017},
+	{id = 3351, chance = 3042},
+	{id = 2510, chance = 1925},
+	{id = 2513, chance = 1649},
+	{id = 2509, chance = 975},
 	{id = 3968, chance = 473},
-	{id = 3969, chance = 242},
+	{id = 3969, chance = 241},
 	{id = 2145, chance = 222}
 }
 

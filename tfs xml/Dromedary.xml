@@ -49,6 +49,6 @@
 		<voice sentence="Grunt!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="34877" />
+		<item id="2666" name="meat" chance="34571" />
 	</loot>
 </monster>

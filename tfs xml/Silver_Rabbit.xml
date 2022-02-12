@@ -46,8 +46,8 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2666" name="meat" chance="85935" />
-		<item id="11209" name="silky fur" chance="29933" />
-		<item id="2684" name="carrot" chance="10149" />
+		<item id="2666" name="meat" chance="85949" />
+		<item id="11209" name="silky fur" chance="30051" />
+		<item id="2684" name="carrot" chance="10076" />
 	</loot>
 </monster>

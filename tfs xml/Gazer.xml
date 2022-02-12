@@ -50,7 +50,7 @@
 		<voice sentence="Me need mana!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99380" countmax="24" />
-		<item id="12468" name="small flask of eyedrops" chance="3102" />
+		<item id="2148" name="gold coin" chance="99383" countmax="24" />
+		<item id="12468" name="small flask of eyedrops" chance="3087" />
 	</loot>
 </monster>

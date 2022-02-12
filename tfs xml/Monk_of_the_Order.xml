@@ -42,17 +42,17 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2689" name="bread" chance="22353" />
-		<item id="2148" name="gold coin" chance="12353" countmax="16" />
-		<item id="10563" name="book of prayers" chance="6471" />
-		<item id="12448" name="rope belt" chance="1765" />
-		<item id="12449" name="safety pin" chance="1765" />
-		<item id="2193" name="ankh" chance="1176" />
-		<item id="2015" name="brown flask" chance="1176" />
-		<item id="1949" name="scroll" chance="1176" />
-		<item id="2401" name="staff" chance="1176" />
-		<item name="lamp" chance="588" />
-		<item id="2177" name="life crystal" chance="588" />
-		<item id="2642" name="sandals" chance="588" />
+		<item id="2689" name="bread" chance="22283" />
+		<item id="2148" name="gold coin" chance="13587" countmax="16" />
+		<item id="10563" name="book of prayers" chance="6522" />
+		<item id="12448" name="rope belt" chance="2174" />
+		<item id="12449" name="safety pin" chance="1630" />
+		<item id="2193" name="ankh" chance="1087" />
+		<item id="2015" name="brown flask" chance="1087" />
+		<item id="2177" name="life crystal" chance="1087" />
+		<item id="1949" name="scroll" chance="1087" />
+		<item id="2401" name="staff" chance="1087" />
+		<item name="lamp" chance="543" />
+		<item id="2642" name="sandals" chance="543" />
 	</loot>
 </monster>

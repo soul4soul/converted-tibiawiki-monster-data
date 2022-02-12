@@ -53,6 +53,6 @@
 		<voice name="Death Blob" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="9968" name="glob of tar" chance="18655" />
+		<item id="9968" name="glob of tar" chance="18733" />
 	</loot>
 </monster>

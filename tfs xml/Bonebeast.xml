@@ -42,6 +42,18 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
+		<attack name="physical" interval="2000" chance="15" min="-25" max="-47" radius="3" target="0">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="earth" interval="2000" chance="15" min="-50" max="-90" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="poison" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="0" max="-3" radius="3" target="0">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="0" max="-4" length="5" spread="0">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
 	</attacks>
 	<defenses armor="40" defense="40">
 		<defense name="healing" interval="2000" chance="20" min="0" max="50" />
@@ -52,15 +64,15 @@
 	</voices>
 	<loot>
 		<item id="2230" name="bone" chance="49656" />
-		<item id="2148" name="gold coin" chance="29788" countmax="90" />
-		<item id="2229" name="skull (item)" chance="19949" />
-		<item id="11194" name="bony tail" chance="9942" />
-		<item id="2463" name="plate armor" chance="7960" />
-		<item id="2449" name="bone club" chance="4962" />
-		<item id="2541" name="bone shield" chance="2064" />
+		<item id="2148" name="gold coin" chance="29784" countmax="90" />
+		<item id="2229" name="skull (item)" chance="19962" />
+		<item id="11194" name="bony tail" chance="9943" />
+		<item id="2463" name="plate armor" chance="7958" />
+		<item id="2449" name="bone club" chance="4965" />
+		<item id="2541" name="bone shield" chance="2059" />
 		<item id="2796" name="green mushroom" chance="1427" />
-		<item id="5925" name="hardened bone" chance="1014" />
-		<item id="7618" name="health potion" chance="512" />
-		<item id="11161" name="bonebeast trophy" chance="100" />
+		<item id="5925" name="hardened bone" chance="1022" />
+		<item id="7618" name="health potion" chance="513" />
+		<item id="11161" name="bonebeast trophy" chance="99" />
 	</loot>
 </monster>

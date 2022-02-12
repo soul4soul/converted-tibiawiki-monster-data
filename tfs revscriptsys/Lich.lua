@@ -85,7 +85,9 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -75}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -75},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -140, maxDamage = -190, length = 8, spread = 0, effect = CONST_ME_MAGIC_RED},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -130, maxDamage = -195, radius = 3, target = , effect = CONST_ME_MAGIC_RED}
 }
 
 monster.defenses = {
@@ -101,23 +103,23 @@ monster.summons = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 139},
-	{id = 2152, chance = 19664},
-	{id = 2175, chance = 10361},
-	{id = 7589, chance = 7891},
+	{id = 2152, chance = 19671},
+	{id = 2175, chance = 10388},
+	{id = 7589, chance = 7828},
 	{id = 2144, chance = 5225, maxCount = 3},
-	{id = 2143, chance = 4878},
-	{id = 9970, chance = 2479, maxCount = 3},
-	{id = 2149, chance = 2355, maxCount = 3},
-	{id = 2532, chance = 2115},
-	{id = 2214, chance = 1644},
-	{id = 2154, chance = 791},
-	{id = 2479, chance = 711},
-	{id = 2178, chance = 435},
+	{id = 2143, chance = 4876},
+	{id = 9970, chance = 2456, maxCount = 3},
+	{id = 2149, chance = 2369, maxCount = 3},
+	{id = 2532, chance = 2090},
+	{id = 2214, chance = 1628},
+	{id = 2154, chance = 775},
+	{id = 2479, chance = 705},
+	{id = 2178, chance = 427},
 	{id = 2171, chance = 409},
-	{id = 7893, chance = 284},
-	{id = 2436, chance = 284},
-	{id = 2535, chance = 240},
-	{id = 2656, chance = 204},
+	{id = 7893, chance = 279},
+	{id = 2436, chance = 279},
+	{id = 2535, chance = 270},
+	{id = 2656, chance = 200},
 	{id = 13291, chance = 44}
 }
 

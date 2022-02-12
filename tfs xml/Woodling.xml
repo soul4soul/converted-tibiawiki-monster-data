@@ -46,11 +46,11 @@
 	<defenses armor="2" defense="2" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="12" />
-		<item id="2787" name="white mushroom" chance="17647" countmax="4" />
-		<item id="23839" name="simple arrow" chance="7059" countmax="10" />
-		<item id="2120" name="rope" chance="4706" />
-		<item id="2526" name="studded shield" chance="4706" />
-		<item id="2388" name="hatchet" chance="1176" />
-		<item id="2484" name="studded armor" chance="1176" />
+		<item id="2787" name="white mushroom" chance="21233" countmax="4" />
+		<item id="23839" name="simple arrow" chance="8904" countmax="10" />
+		<item id="2120" name="rope" chance="6849" />
+		<item id="2526" name="studded shield" chance="3425" />
+		<item id="2484" name="studded armor" chance="2740" />
+		<item id="2388" name="hatchet" chance="1370" />
 	</loot>
 </monster>

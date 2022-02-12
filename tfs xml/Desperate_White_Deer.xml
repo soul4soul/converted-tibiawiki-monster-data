@@ -41,7 +41,7 @@
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="1" defense="1">
-		<defense name="speed" interval="2000" chance="15" minspeedchange="450" maxspeedchange="450" duration="4000">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 	</defenses>
@@ -52,8 +52,8 @@
 		<voice sentence="*wheeze*" yell="false" />
 	</voices>
 	<loot>
-		<item id="13533" name="white deer antlers" chance="21320" />
-		<item id="13534" name="white deer skin" chance="20428" />
-		<item id="2671" name="ham" chance="19536" />
+		<item id="13533" name="white deer antlers" chance="21286" />
+		<item id="13534" name="white deer skin" chance="20418" />
+		<item id="2671" name="ham" chance="19595" />
 	</loot>
 </monster>

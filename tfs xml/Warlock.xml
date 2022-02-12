@@ -55,29 +55,29 @@
 		<voice name="Stone Golem" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="29971" countmax="80" />
-		<item id="2679" name="cherry" chance="19688" countmax="4" />
-		<item id="2689" name="bread" chance="8939" />
-		<item id="2411" name="poison dagger" chance="7710" />
-		<item id="2436" name="skull staff" chance="6029" />
-		<item id="7591" name="great health potion" chance="5152" />
-		<item id="7590" name="great mana potion" chance="4969" />
-		<item id="7368" name="assassin star" chance="3322" countmax="4" />
-		<item id="2792" name="dark mushroom" chance="2937" />
-		<item id="2178" name="mind stone" chance="2127" />
-		<item id="2167" name="energy ring" chance="1992" />
-		<item name="candlestick" chance="1573" />
-		<item id="2656" name="blue robe" chance="1566" />
-		<item id="2146" name="small sapphire" chance="1276" />
-		<item id="2151" name="talon" chance="1074" />
-		<item id="7898" name="lightning robe" chance="979" />
-		<item id="2600" name="inkwell" chance="918" />
-		<item id="2124" name="crystal ring" chance="749" />
-		<item id="12410" name="luminous orb" chance="486" />
-		<item id="2123" name="ring of the sky" chance="405" />
-		<item id="2197" name="stone skin amulet" chance="344" />
-		<item id="1986" name="red tome" chance="236" />
-		<item id="2466" name="golden armor" chance="216" />
-		<item id="2114" name="piggy bank" chance="74" />
+		<item id="2148" name="gold coin" chance="29968" countmax="80" />
+		<item id="2679" name="cherry" chance="19669" countmax="4" />
+		<item id="2689" name="bread" chance="8945" />
+		<item id="2411" name="poison dagger" chance="7682" />
+		<item id="2436" name="skull staff" chance="6079" />
+		<item id="7591" name="great health potion" chance="5117" />
+		<item id="7590" name="great mana potion" chance="4999" />
+		<item id="7368" name="assassin star" chance="3324" countmax="4" />
+		<item id="2792" name="dark mushroom" chance="2905" />
+		<item id="2178" name="mind stone" chance="2120" />
+		<item id="2167" name="energy ring" chance="1976" />
+		<item id="2656" name="blue robe" chance="1564" />
+		<item name="candlestick" chance="1564" />
+		<item id="2146" name="small sapphire" chance="1282" />
+		<item id="2151" name="talon" chance="1067" />
+		<item id="7898" name="lightning robe" chance="995" />
+		<item id="2600" name="inkwell" chance="942" />
+		<item id="2124" name="crystal ring" chance="746" />
+		<item id="12410" name="luminous orb" chance="478" />
+		<item id="2123" name="ring of the sky" chance="406" />
+		<item id="2197" name="stone skin amulet" chance="353" />
+		<item id="1986" name="red tome" chance="242" />
+		<item id="2466" name="golden armor" chance="209" />
+		<item id="2114" name="piggy bank" chance="72" />
 	</loot>
 </monster>

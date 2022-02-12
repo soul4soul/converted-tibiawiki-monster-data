@@ -44,6 +44,9 @@
 		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
 	</attacks>
 	<defenses armor="10" defense="5" />
+	<summons maxSummons="1">
+		<voice name="Kongra" interval="2000" chance="15" max="1" />
+	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" />
 		<item id="2676" name="banana" chance="25000" />
