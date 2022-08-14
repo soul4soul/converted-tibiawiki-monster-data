@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Vok The Freakish" nameDescription="" experience="27000" speed="0" manacost="0">
+<monster name="Vok The Freakish" nameDescription="Vok the Freakish" race="blood" experience="27000" speed="0" manacost="0">
 	<health now="32000" max="32000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,31 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="50" />
+		<element energyPercent="100" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-10" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
 	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="2152" name="platinum coin" chance="100000" countmax="19" />
+		<item id="35427" name="moonstone" chance="45000" />
+		<item id="35430" name="cursed bone" chance="40000" />
+		<item id="35425" name="white gem" chance="30000" countmax="2" />
+		<item id="2156" name="red gem" chance="20000" countmax="2" />
+		<item id="35359" name="death toll" chance="20000" />
+		<item id="35275" name="pair of nightmare boots" chance="20000" />
+		<item id="35428" name="silver hand mirror" chance="20000" />
+		<item id="35239" name="skull coin" chance="10000" />
+		<item id="1294" name="small stone" chance="10000" countmax="18" />
+		<item id="2127" name="emerald bangle" chance="5000" />
+		<item id="27048" name="gemmed figurine" chance="5000" />
+		<item id="15644" name="ornate crossbow" chance="5000" />
+	</loot>
 </monster>

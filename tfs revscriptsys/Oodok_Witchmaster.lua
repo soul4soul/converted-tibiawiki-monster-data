@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Oodok Witchmaster")
 local monster = {}
 
 monster.name = "Oodok Witchmaster"
-monster.description = ""
+monster.description = "Oodok Witchmaster"
 monster.experience = 550
 monster.outfit = {
 	lookType = 0,
@@ -67,18 +67,18 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_HOLYDAMAGE , percent = 35},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -20}
+	{name ="outfit", interval = 2000, chance = 15, monster = "Chicken", duration = 5000}
 }
 
 monster.defenses = {
@@ -90,19 +90,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 98},
-	{id = 2152, chance = 90909, maxCount = 2},
-	{id = 7618, chance = 52273, maxCount = 3},
-	{id = 7620, chance = 47727, maxCount = 3},
-	{id = 2144, chance = 13636, maxCount = 2},
-	{id = 5910, chance = 11364},
-	{id = 2174, chance = 6818},
-	{id = 2467, chance = 4545},
-	{id = 2411, chance = 4545},
-	{id = 2181, chance = 4545},
-	{id = 2231, chance = 2273},
-	{id = 2230, chance = 2273},
-	{id = 7440, chance = 2273},
-	{id = 3967, chance = 2273}
+	{id = 2152, chance = 91304, maxCount = 2},
+	{id = 7618, chance = 52174, maxCount = 3},
+	{id = 7620, chance = 47826, maxCount = 3},
+	{id = 2144, chance = 13043, maxCount = 2},
+	{id = 5910, chance = 10870},
+	{id = 2411, chance = 6522},
+	{id = 2174, chance = 6522},
+	{id = 2181, chance = 4348},
+	{id = 7440, chance = 4348},
+	{id = 2467, chance = 4348},
+	{id = 3967, chance = 2174},
+	{id = 2231, chance = 2174},
+	{id = 2230, chance = 2174}
 }
 
 mType:register(monster)

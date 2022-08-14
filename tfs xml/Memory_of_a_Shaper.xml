@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Shaper" nameDescription="a memory of a shaper" experience="0" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Shaper" nameDescription="a memory of a shaper" race="blood" experience="1750" speed="0" manacost="0">
+	<health now="3710" max="3710" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -42,19 +42,19 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="171" />
-		<item id="2152" name="platinum coin" chance="74419" countmax="2" />
-		<item id="27039" name="cave turnip" chance="14535" countmax="2" />
-		<item id="2666" name="meat" chance="11628" />
-		<item id="7591" name="great health potion" chance="10465" />
-		<item id="2789" name="brown mushroom" chance="6977" countmax="3" />
-		<item id="2147" name="small ruby" chance="5814" />
-		<item id="15649" name="vortex bolt" chance="5814" countmax="4" />
-		<item id="5022" name="orichalcum pearl" chance="4651" countmax="5" />
-		<item id="27048" name="gemmed figurine" chance="1744" />
-		<item id="24849" name="onyx chip" chance="1163" />
-		<item id="2171" name="platinum amulet" chance="1163" />
-		<item id="37468" name="special fx box" chance="1163" />
-		<item id="2189" name="wand of cosmic energy" chance="1163" />
+		<item id="2148" name="gold coin" chance="100000" countmax="128" />
+		<item id="2152" name="platinum coin" chance="73684" countmax="2" />
+		<item id="27048" name="gemmed figurine" chance="20000" />
+		<item id="15649" name="vortex bolt" chance="20000" />
+		<item id="37468" name="special fx box" chance="20000" />
+		<item id="27039" name="cave turnip" chance="18421" countmax="2" />
+		<item id="2147" name="small ruby" chance="7895" />
+		<item id="2666" name="meat" chance="7895" />
+		<item id="7591" name="great health potion" chance="5263" />
+		<item id="2789" name="brown mushroom" chance="5263" countmax="3" />
+		<item id="5022" name="orichalcum pearl" chance="2632" countmax="4" />
+		<item id="24849" name="onyx chip" chance="2632" />
+		<item id="2171" name="platinum amulet" chance="2632" />
+		<item id="2189" name="wand of cosmic energy" chance="2632" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Grand Master Oberon" nameDescription="" experience="20000" speed="0" manacost="0">
+<monster name="Grand Master Oberon" nameDescription="Grand Master Oberon" race="blood" experience="20000" speed="0" manacost="0">
 	<health now="30000" max="30000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="10" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -37,23 +37,32 @@
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-20" />
+		<element deathPercent="50" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-1200" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2230" name="bone" chance="51659" />
-		<item id="2148" name="gold coin" chance="43723" countmax="10" />
-		<item id="12437" name="pelvis bone" chance="11400" />
-		<item name="torch" chance="8514" />
-		<item id="2473" name="viking helmet" chance="7648" />
-		<item id="2388" name="hatchet" chance="5051" />
-		<item id="2398" name="mace" chance="3175" />
-		<item id="2376" name="sword" chance="2597" />
-		<item id="26642" name="heavy old tome" chance="1587" />
-		<item id="2511" name="brass shield" chance="866" />
+		<item id="31509" name="the spatial warp almanac" chance="100000" />
+		<item id="26642" name="heavy old tome" chance="20000" />
+		<item id="2388" name="hatchet" chance="20000" />
+		<item id="2376" name="sword" chance="20000" />
+		<item id="2148" name="gold coin" chance="20000" />
+		<item id="2398" name="mace" chance="20000" />
+		<item id="12437" name="pelvis bone" chance="20000" />
+		<item name="torch" chance="20000" />
+		<item id="2511" name="brass shield" chance="20000" />
+		<item id="2230" name="bone" chance="20000" />
+		<item id="31372" name="falcon rod" chance="20000" />
+		<item id="31379" name="falcon longsword" chance="20000" />
+		<item id="31381" name="falcon mace" chance="20000" />
+		<item id="31371" name="falcon coif" chance="20000" />
+		<item id="31375" name="falcon plate" chance="20000" />
+		<item id="31377" name="falcon shield" chance="20000" />
+		<item id="31374" name="falcon bow" chance="20000" />
+		<item id="31376" name="falcon greaves" chance="20000" />
+		<item id="2473" name="viking helmet" chance="20000" />
+		<item id="31480" name="grant of arms" chance="307" />
+		<item id="31380" name="falcon battleaxe" chance="307" />
+		<item id="31370" name="falcon circlet" chance="307" />
 	</loot>
 </monster>

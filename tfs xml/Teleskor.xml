@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Teleskor" nameDescription="" experience="70" speed="0" manacost="0">
+<monster name="Teleskor" nameDescription="" race="blood" experience="70" speed="0" manacost="0">
 	<health now="80" max="80" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -53,9 +53,10 @@
 		<item id="2473" name="viking helmet" chance="70000" />
 		<item id="2148" name="gold coin" chance="65000" countmax="79" />
 		<item id="2398" name="mace" chance="55000" />
-		<item id="2511" name="brass shield" chance="45000" />
 		<item id="2388" name="hatchet" chance="45000" />
+		<item id="2511" name="brass shield" chance="45000" />
 		<item id="2376" name="sword" chance="30000" />
+		<item id="2230" name="bone" chance="20000" />
 		<item name="torch" chance="20000" />
 	</loot>
 </monster>

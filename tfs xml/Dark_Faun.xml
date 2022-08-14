@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dark Faun" nameDescription="a dark faun" experience="900" speed="216" manacost="0">
+<monster name="Dark Faun" nameDescription="a dark faun" race="blood" experience="900" speed="216" manacost="0">
 	<health now="1100" max="1100" />
 	<look type="980" head="94" body="95" legs="0" feet="94" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,23 +29,18 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="-10" />
+		<element earthPercent="70" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-10" />
+		<element deathPercent="40" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-450" />
-	</attacks>
-	<defenses armor="50" defense="50">
-		<defense name="healing" interval="2000" chance="20" min="80" max="115" />
-	</defenses>
+	<defenses armor="50" defense="50" />
 	<voices interval="5000" chance="10">
 		<voice sentence="This will be your last dance!" yell="false" />
 		<voice sentence="This is a nightmare and you won't wake up!" yell="false" />
@@ -54,22 +49,22 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="160" />
-		<item id="28350" name="fairy wings" chance="15793" />
-		<item id="7588" name="strong health potion" chance="11841" countmax="2" />
-		<item id="28349" name="shimmering beetles" chance="9762" />
-		<item id="2760" name="goat grass" chance="7418" />
-		<item id="28391" name="leaf star" chance="6697" countmax="8" />
-		<item id="27039" name="cave turnip" chance="5851" countmax="2" />
-		<item id="27618" name="prismatic quartz" chance="5061" />
-		<item id="1294" name="small stone" chance="5019" countmax="5" />
-		<item id="2792" name="dark mushroom" chance="5006" countmax="2" />
-		<item id="7591" name="great health potion" chance="3508" countmax="2" />
-		<item id="2074" name="panpipes" chance="3009" />
-		<item id="7759" name="small enchanted sapphire" chance="2704" countmax="2" />
-		<item id="2664" name="wood cape" chance="1636" />
-		<item id="9928" name="leaf legs" chance="527" />
-		<item id="28355" name="wooden spellbook" chance="388" />
-		<item name="die" chance="139" />
-		<item id="5015" name="mandrake" chance="69" />
+		<item id="28350" name="fairy wings" chance="15703" />
+		<item id="7588" name="strong health potion" chance="12078" countmax="2" />
+		<item id="28349" name="shimmering beetles" chance="9732" />
+		<item id="2760" name="goat grass" chance="7510" />
+		<item id="28391" name="leaf star" chance="6703" countmax="8" />
+		<item id="27039" name="cave turnip" chance="5834" countmax="2" />
+		<item id="1294" name="small stone" chance="5127" countmax="5" />
+		<item id="27618" name="prismatic quartz" chance="5065" />
+		<item id="2792" name="dark mushroom" chance="5015" countmax="2" />
+		<item id="7591" name="great health potion" chance="3525" countmax="2" />
+		<item id="2074" name="panpipes" chance="3054" />
+		<item id="7759" name="small enchanted sapphire" chance="2781" countmax="2" />
+		<item id="2664" name="wood cape" chance="1688" />
+		<item id="9928" name="leaf legs" chance="546" />
+		<item id="28355" name="wooden spellbook" chance="385" />
+		<item name="die" chance="124" />
+		<item id="5015" name="mandrake" chance="62" />
 	</loot>
 </monster>

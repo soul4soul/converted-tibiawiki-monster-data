@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Hydra" nameDescription="a hydra" experience="2100" speed="206" manacost="0">
+<monster name="Hydra" nameDescription="a hydra" race="blood" experience="2100" speed="206" manacost="0">
 	<health now="2350" max="2350" />
 	<look type="121" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,15 +29,15 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element physicalPercent="-5" />
+		<element energyPercent="-10" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element icePercent="50" />
+		<element holyPercent="30" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
@@ -51,21 +51,21 @@
 		<voice sentence="HISSSS" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87752" countmax="246" />
-		<item id="2671" name="ham" chance="60194" />
-		<item id="2152" name="platinum coin" chance="49533" countmax="3" />
-		<item id="11199" name="hydra head" chance="10154" />
-		<item id="2146" name="small sapphire" chance="4957" />
-		<item id="8842" name="cucumber" chance="4932" />
+		<item id="2148" name="gold coin" chance="87762" countmax="246" />
+		<item id="2671" name="ham" chance="60232" countmax="4" />
+		<item id="2152" name="platinum coin" chance="49526" countmax="3" />
+		<item id="11199" name="hydra head" chance="10153" />
+		<item id="2146" name="small sapphire" chance="4949" />
+		<item id="8842" name="cucumber" chance="4938" />
 		<item id="2214" name="ring of healing" chance="1213" />
-		<item id="2476" name="knight armor" chance="1106" />
-		<item id="4850" name="hydra egg" chance="946" />
-		<item id="2197" name="stone skin amulet" chance="900" />
+		<item id="2476" name="knight armor" chance="1097" />
+		<item id="4850" name="hydra egg" chance="941" />
+		<item id="2197" name="stone skin amulet" chance="903" />
 		<item id="2475" name="warrior helmet" chance="824" />
-		<item id="2177" name="life crystal" chance="515" />
-		<item id="7589" name="strong mana potion" chance="464" />
-		<item id="2498" name="royal helmet" chance="220" />
-		<item id="2536" name="medusa shield" chance="218" />
+		<item id="2177" name="life crystal" chance="512" />
+		<item id="7589" name="strong mana potion" chance="468" />
+		<item id="2536" name="medusa shield" chance="223" />
+		<item id="2498" name="royal helmet" chance="223" />
 		<item id="2195" name="boots of haste" chance="95" />
 	</loot>
 </monster>

@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 4,
+	color = 143
 }
 
 monster.voices = {
@@ -65,14 +65,14 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
+	{type = COMBAT_ENERGYDAMAGE, percent = -25},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -87,8 +87,9 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 8300, chance = 100000},
-	{id = 2148, chance = 80000, maxCount = 38},
-	{id = 2152, chance = 80000, maxCount = 3}
+	{id = 2148, chance = 80000, maxCount = 100},
+	{id = 2152, chance = 80000, maxCount = 3},
+	{id = 8878, chance = 7500}
 }
 
 mType:register(monster)

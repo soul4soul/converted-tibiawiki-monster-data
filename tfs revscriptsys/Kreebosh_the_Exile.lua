@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Kreebosh the Exile")
 local monster = {}
 
 monster.name = "Kreebosh The Exile"
-monster.description = ""
+monster.description = "Kreebosh the Exile"
 monster.experience = 350
 monster.outfit = {
 	lookType = 0,
@@ -67,7 +67,7 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 55},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
@@ -75,16 +75,21 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -1}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100}
+	{name ="outfit", interval = 2000, chance = 15, monster = "Rat", duration = 5000}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10
+}
+
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Green Djinn", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {

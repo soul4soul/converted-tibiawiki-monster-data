@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Minotaur Invader" nameDescription="a minotaur invader" experience="1600" speed="240" manacost="0">
+<monster name="Minotaur Invader" nameDescription="a minotaur invader" race="blood" experience="1600" speed="240" manacost="0">
 	<health now="1850" max="1850" />
 	<look type="29" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,13 +32,13 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
@@ -50,22 +50,22 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="2152" name="platinum coin" chance="49094" countmax="4" />
-		<item id="12438" name="piece of warrior armor" chance="14793" />
-		<item id="9970" name="small topaz" chance="10361" countmax="2" />
-		<item id="12428" name="minotaur horn" chance="8267" countmax="2" />
-		<item id="5878" name="minotaur leather" chance="5594" />
-		<item id="2150" name="small amethyst" chance="5172" />
-		<item id="2147" name="small ruby" chance="4591" />
-		<item id="23537" name="mooh'tah plate" chance="932" />
-		<item id="5912" name="blue piece of cloth" chance="792" />
-		<item id="2156" name="red gem" chance="792" />
-		<item id="2430" name="knight axe" chance="774" />
-		<item id="2515" name="guardian shield" chance="704" />
-		<item id="5911" name="red piece of cloth" chance="668" />
-		<item id="2475" name="warrior helmet" chance="616" />
-		<item id="7413" name="titan axe" chance="211" />
-		<item id="7401" name="minotaur trophy" chance="193" />
-		<item id="2158" name="blue gem" chance="176" />
+		<item id="2152" name="platinum coin" chance="49297" countmax="4" />
+		<item id="12438" name="piece of warrior armor" chance="14770" />
+		<item id="9970" name="small topaz" chance="10441" countmax="2" />
+		<item id="12428" name="minotaur horn" chance="8253" countmax="2" />
+		<item id="5878" name="minotaur leather" chance="5361" />
+		<item id="2150" name="small amethyst" chance="5064" />
+		<item id="2147" name="small ruby" chance="4626" />
+		<item id="23537" name="mooh'tah plate" chance="953" />
+		<item id="5912" name="blue piece of cloth" chance="797" />
+		<item id="2156" name="red gem" chance="781" />
+		<item id="2430" name="knight axe" chance="703" />
+		<item id="2515" name="guardian shield" chance="656" />
+		<item id="5911" name="red piece of cloth" chance="641" />
+		<item id="2475" name="warrior helmet" chance="578" />
+		<item id="7413" name="titan axe" chance="234" />
+		<item id="7401" name="minotaur trophy" chance="188" />
+		<item id="2158" name="blue gem" chance="172" />
 	</loot>
 </monster>

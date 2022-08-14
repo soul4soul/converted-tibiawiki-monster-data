@@ -16,7 +16,7 @@ monster.outfit = {
 
 monster.health = 1800
 monster.maxHealth = 1800
-monster.runHealth = 0
+monster.runHealth = 250
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 212
@@ -69,46 +69,45 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -220}
 }
 
 monster.defenses = {
 	defense = 38,
 	armor = 38,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 180, maxDamage = 450},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 200},
 	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
 }
 
 monster.loot = {
-	{id = 2148, chance = 95013, maxCount = 243},
-	{id = 2672, chance = 79862},
-	{id = 2796, chance = 12150},
-	{id = 1976, chance = 8836},
-	{id = 2547, chance = 5898, maxCount = 6},
-	{id = 2146, chance = 5087},
-	{id = 2167, chance = 4946},
-	{id = 7441, chance = 4084},
-	{id = 2033, chance = 3084},
-	{id = 2177, chance = 609},
-	{id = 7290, chance = 524},
-	{id = 2479, chance = 449},
-	{id = 2396, chance = 340},
+	{id = 2148, chance = 95015, maxCount = 243},
+	{id = 2672, chance = 79875, maxCount = 3},
+	{id = 2796, chance = 12152},
+	{id = 1976, chance = 8838},
+	{id = 2547, chance = 5891, maxCount = 6},
+	{id = 2146, chance = 5101},
+	{id = 2167, chance = 4948},
+	{id = 7441, chance = 4086},
+	{id = 2033, chance = 3083},
+	{id = 2177, chance = 608},
+	{id = 7290, chance = 523},
+	{id = 2479, chance = 453},
+	{id = 2396, chance = 342},
 	{id = 2528, chance = 291},
 	{id = 2498, chance = 206},
-	{id = 2492, chance = 112},
+	{id = 2492, chance = 111},
 	{id = 7402, chance = 97}
 }
 

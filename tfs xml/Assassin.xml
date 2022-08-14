@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Assassin" nameDescription="an assassin" experience="105" speed="224" manacost="0">
+<monster name="Assassin" nameDescription="an assassin" race="blood" experience="105" speed="224" manacost="450">
 	<health now="175" max="175" />
 	<look type="152" head="95" body="95" legs="95" feet="95" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-10" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -38,7 +38,7 @@
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-120" />
@@ -53,18 +53,18 @@
 		<voice sentence="Feel the hand of death!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="83056" countmax="50" />
-		<item name="torch" chance="30112" countmax="2" />
-		<item id="2403" name="knife" chance="9860" />
-		<item id="2399" name="throwing star" chance="7005" countmax="14" />
-		<item id="7366" name="viper star" chance="4170" countmax="7" />
-		<item id="2404" name="combat knife" chance="4017" />
-		<item id="3351" name="steel helmet" chance="3042" />
-		<item id="2510" name="plate shield" chance="1925" />
+		<item id="2148" name="gold coin" chance="83050" countmax="50" />
+		<item name="torch" chance="30081" countmax="2" />
+		<item id="2403" name="knife" chance="9863" />
+		<item id="2399" name="throwing star" chance="6990" countmax="14" />
+		<item id="7366" name="viper star" chance="4175" countmax="7" />
+		<item id="2404" name="combat knife" chance="4005" />
+		<item id="3351" name="steel helmet" chance="3039" />
+		<item id="2510" name="plate shield" chance="1912" />
 		<item id="2513" name="battle shield" chance="1649" />
-		<item id="2509" name="steel shield" chance="975" />
+		<item id="2509" name="steel shield" chance="971" />
 		<item id="3968" name="leopard armor" chance="473" />
-		<item id="3969" name="horseman helmet" chance="241" />
-		<item id="2145" name="small diamond" chance="222" />
+		<item id="3969" name="horseman helmet" chance="239" />
+		<item id="2145" name="small diamond" chance="224" />
 	</loot>
 </monster>

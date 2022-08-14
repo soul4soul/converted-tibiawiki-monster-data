@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_HOLYDAMAGE , percent = 100},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
@@ -82,7 +82,21 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 5,
-	armor = 10
+	armor = 10,
+	{name ="outfit", interval = 2000, chance = 15, item = 2112, duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, item = 2520, duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, item = 2408, duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, item = 2114, duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Green Frog", duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Treasure Chest Overfilled", duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Rat", duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Slime", duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, item = 2683, duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, item = 6104, duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Giant Mushroom", duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Present Box", duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, item = 2180, duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Vashresamun", duration = 5000}
 }
 
 monster.loot = {

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Tzumrah the Dazzler")
 local monster = {}
 
 monster.name = "Tzumrah The Dazzler"
-monster.description = ""
+monster.description = "Tzumrah The Dazzler"
 monster.experience = 1700
 monster.outfit = {
 	lookType = 0,
@@ -70,9 +70,9 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -82,18 +82,23 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -150}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 200, maxDamage = 230}
+	armor = 10
+}
+
+monster.maxSummons = 4
+monster.summons = {
+	{name = "Crypt Shambler", chance = 15, interval = 2000, max = 2},
+	{name = "Fire Elemental", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 64},
-	{id = 12411, chance = 50000}
+	{id = 2148, chance = 100000, maxCount = 122},
+	{id = 12411, chance = 33333},
+	{id = 2200, chance = 20000}
 }
 
 mType:register(monster)

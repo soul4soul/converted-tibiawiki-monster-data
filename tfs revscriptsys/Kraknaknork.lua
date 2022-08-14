@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -81,7 +81,7 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
+	{name ="outfit", interval = 2000, chance = 15, monster = "Sheep", duration = 5000}
 }
 
 monster.defenses = {
@@ -89,8 +89,14 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Weakened Demon", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
-	{id = 2148, chance = 95455, maxCount = 15}
+	{id = 2148, chance = 95455, maxCount = 15},
+	{id = 12435, chance = 20000}
 }
 
 mType:register(monster)

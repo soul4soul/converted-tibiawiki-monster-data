@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Damaged Worker Golem" nameDescription="a damaged worker golem" experience="95" speed="150" manacost="0">
+<monster name="Damaged Worker Golem" nameDescription="a damaged worker golem" race="undead" experience="95" speed="150" manacost="0">
 	<health now="260" max="260" />
 	<look type="304" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,23 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="-5" />
+		<element earthPercent="50" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="50" />
+		<element deathPercent="10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-45" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-45" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="smallstone" />
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
 	</attacks>
 	<defenses armor="16" defense="16">
 		<defense name="healing" interval="2000" chance="20" min="5" max="11" />
@@ -57,11 +61,11 @@
 		<voice sentence="Aw... chhhrrr orders." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="68298" countmax="89" />
-		<item id="9808" name="heavily rusted armor" chance="10036" />
-		<item id="8309" name="nail" chance="1248" />
-		<item id="2207" name="sword ring" chance="493" />
-		<item id="5880" name="iron ore" chance="411" />
-		<item id="10572" name="gear crystal" chance="214" />
+		<item id="2148" name="gold coin" chance="68315" countmax="89" />
+		<item id="9808" name="heavily rusted armor" chance="10083" />
+		<item id="8309" name="nail" chance="1240" />
+		<item id="2207" name="sword ring" chance="489" />
+		<item id="5880" name="iron ore" chance="408" />
+		<item id="10572" name="gear crystal" chance="212" />
 	</loot>
 </monster>

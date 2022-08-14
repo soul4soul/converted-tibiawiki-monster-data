@@ -67,20 +67,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 85},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 70},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -30},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -350}
 }
 
 monster.defenses = {
@@ -89,23 +88,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 74401, maxCount = 5},
-	{id = 2145, chance = 13389},
-	{id = 18417, chance = 10609},
-	{id = 2146, chance = 10349},
-	{id = 2156, chance = 9952},
-	{id = 18420, chance = 7817},
-	{id = 7760, chance = 5199},
-	{id = "golden idol of tukh", chance = 5112},
-	{id = 2154, chance = 4417},
-	{id = 8921, chance = 2928},
-	{id = 2187, chance = 2420},
-	{id = 32861, chance = 2345},
-	{id = 27618, chance = 1377},
-	{id = 7899, chance = 1353},
-	{id = 24849, chance = 1216, maxCount = 2},
-	{id = 7761, chance = 1154, maxCount = 3},
-	{id = 32836, chance = 769}
+	{id = 2152, chance = 74540, maxCount = 5},
+	{id = 2145, chance = 13382},
+	{id = 2146, chance = 10885},
+	{id = 18417, chance = 10553},
+	{id = 2156, chance = 9999},
+	{id = 18420, chance = 7715},
+	{id = 7760, chance = 5375},
+	{id = "golden idol of tukh", chance = 5043},
+	{id = 2154, chance = 4545},
+	{id = 8921, chance = 2893},
+	{id = 2187, chance = 2419},
+	{id = 32861, chance = 2182},
+	{id = 7899, chance = 1336},
+	{id = 27618, chance = 1336},
+	{id = 7761, chance = 1273, maxCount = 3},
+	{id = 24849, chance = 1146, maxCount = 2},
+	{id = 32836, chance = 783}
 }
 
 mType:register(monster)

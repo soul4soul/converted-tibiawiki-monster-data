@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Frazzlemaw" nameDescription="a frazzlemaw" experience="3740" speed="400" manacost="0">
+<monster name="Frazzlemaw" nameDescription="a frazzlemaw" race="blood" experience="3740" speed="400" manacost="0">
 	<health now="4100" max="4100" />
 	<look type="594" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,28 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="5" />
+		<element energyPercent="15" />
+		<element earthPercent="20" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="5" />
+		<element holyPercent="-5" />
+		<element deathPercent="10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-450" />
+		<attack name="lifedrain" interval="2000" chance="15" min="-350" max="-600" length="5" spread="0">
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="0" max="-500" radius="3" target="0">
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
 	</attacks>
 	<defenses armor="74" defense="74">
 		<defense name="healing" interval="2000" chance="20" min="250" max="425" />
@@ -53,35 +62,35 @@
 		<voice sentence="Mmmwhamwhamwhah, mwaaah!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="90768" countmax="7" />
-		<item id="2148" name="gold coin" chance="77896" countmax="100" />
-		<item id="22532" name="frazzle tongue" chance="13626" />
-		<item id="7590" name="great mana potion" chance="12517" countmax="3" />
-		<item id="7591" name="great health potion" chance="11940" countmax="2" />
-		<item id="18417" name="brown crystal splinter" chance="11806" />
-		<item id="22533" name="frazzle skin" chance="11718" />
-		<item id="2226" name="fishbone" chance="9854" />
-		<item id="2229" name="skull (item)" chance="9765" />
-		<item id="5951" name="fish tail" chance="8256" />
-		<item id="2230" name="bone" chance="8167" />
-		<item id="2225" name="piece of iron" chance="7723" />
-		<item id="18554" name="crystal rubbish" chance="7501" />
-		<item id="2240" name="remains of a fish" chance="7501" />
-		<item id="2219" name="banana skin" chance="7190" />
-		<item id="2667" name="fish" chance="5282" countmax="3" />
-		<item id="5895" name="fish fin" chance="4439" />
-		<item id="2671" name="ham" chance="4439" />
-		<item id="18420" name="red crystal fragment" chance="3995" />
-		<item id="2231" name="big bone" chance="3906" />
-		<item id="5925" name="hardened bone" chance="3773" />
-		<item id="5880" name="iron ore" chance="2796" />
-		<item id="18414" name="violet crystal shard" chance="2486" />
-		<item id="2377" name="two handed sword" chance="2352" />
-		<item id="9971" name="gold ingot" chance="1598" />
-		<item id="7407" name="haunted blade" chance="1332" />
-		<item id="11306" name="sai" chance="843" />
-		<item id="7404" name="assassin dagger" chance="488" />
-		<item id="22396" name="cluster of solace" chance="399" />
-		<item id="7418" name="nightmare blade" chance="399" />
+		<item id="2152" name="platinum coin" chance="90526" countmax="7" />
+		<item id="2148" name="gold coin" chance="78454" countmax="100" />
+		<item id="22532" name="frazzle tongue" chance="14242" />
+		<item id="22533" name="frazzle skin" chance="12592" />
+		<item id="7591" name="great health potion" chance="12133" countmax="2" />
+		<item id="7590" name="great mana potion" chance="12103" countmax="3" />
+		<item id="18417" name="brown crystal splinter" chance="11950" />
+		<item id="2229" name="skull (item)" chance="9505" />
+		<item id="2226" name="fishbone" chance="9505" />
+		<item id="5951" name="fish tail" chance="8496" />
+		<item id="2225" name="piece of iron" chance="7977" />
+		<item id="2230" name="bone" chance="7885" />
+		<item id="18554" name="crystal rubbish" chance="7763" />
+		<item id="2240" name="remains of a fish" chance="7579" />
+		<item id="2219" name="banana skin" chance="7182" />
+		<item id="2667" name="fish" chance="4951" countmax="3" />
+		<item id="2671" name="ham" chance="4615" countmax="2" />
+		<item id="5895" name="fish fin" chance="4554" />
+		<item id="18420" name="red crystal fragment" chance="4340" />
+		<item id="5925" name="hardened bone" chance="4095" />
+		<item id="2231" name="big bone" chance="3667" />
+		<item id="5880" name="iron ore" chance="2659" />
+		<item id="18414" name="violet crystal shard" chance="2537" />
+		<item id="2377" name="two handed sword" chance="2139" />
+		<item id="9971" name="gold ingot" chance="1803" />
+		<item id="7407" name="haunted blade" chance="1467" />
+		<item id="11306" name="sai" chance="978" />
+		<item id="7418" name="nightmare blade" chance="581" />
+		<item id="22396" name="cluster of solace" chance="458" />
+		<item id="7404" name="assassin dagger" chance="428" />
 	</loot>
 </monster>

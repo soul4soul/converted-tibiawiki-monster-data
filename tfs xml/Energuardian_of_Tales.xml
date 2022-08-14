@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Energuardian Of Tales" nameDescription="an energuardian of tales" experience="11361" speed="420" manacost="0">
+<monster name="Energuardian Of Tales" nameDescription="an energuardian of tales" race="blood" experience="11361" speed="420" manacost="0">
 	<health now="14000" max="14000" />
 	<look type="1063" head="86" body="85" legs="82" feet="93" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,8 +30,8 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="100" />
+		<element earthPercent="-12" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
@@ -57,20 +57,20 @@
 	</attacks>
 	<defenses armor="77" defense="77" />
 	<loot>
-		<item id="31225" name="book page" chance="58678" countmax="6" />
-		<item id="2150" name="small amethyst" chance="55619" countmax="10" />
-		<item id="31226" name="glowing rune" chance="20288" countmax="4" />
-		<item id="8473" name="ultimate health potion" chance="13235" />
-		<item id="8901" name="spellbook of warding" chance="9114" />
-		<item id="26029" name="ultimate mana potion" chance="9003" />
-		<item id="7895" name="lightning legs" chance="7703" />
-		<item id="7838" name="flash arrow" chance="7497" countmax="15" />
-		<item id="8920" name="wand of starstorm" chance="7133" />
-		<item id="7889" name="lightning pendant" chance="4105" countmax="2" />
-		<item id="2164" name="might ring" chance="2441" />
-		<item id="2171" name="platinum amulet" chance="2346" />
-		<item id="18390" name="wand of defiance" chance="1268" />
-		<item id="11355" name="spellweaver's robe" chance="888" />
-		<item id="10221" name="shockwave amulet" chance="697" />
+		<item id="31225" name="book page" chance="58450" countmax="6" />
+		<item id="2150" name="small amethyst" chance="55645" countmax="10" />
+		<item id="31226" name="glowing rune" chance="20381" countmax="4" />
+		<item id="8473" name="ultimate health potion" chance="13249" />
+		<item id="8901" name="spellbook of warding" chance="9105" />
+		<item id="26029" name="ultimate mana potion" chance="8978" />
+		<item id="7895" name="lightning legs" chance="7667" />
+		<item id="7838" name="flash arrow" chance="7583" countmax="15" />
+		<item id="8920" name="wand of starstorm" chance="7132" />
+		<item id="7889" name="lightning pendant" chance="4313" countmax="2" />
+		<item id="2171" name="platinum amulet" chance="2382" />
+		<item id="2164" name="might ring" chance="2340" />
+		<item id="18390" name="wand of defiance" chance="1226" />
+		<item id="11355" name="spellweaver's robe" chance="944" />
+		<item id="10221" name="shockwave amulet" chance="677" />
 	</loot>
 </monster>

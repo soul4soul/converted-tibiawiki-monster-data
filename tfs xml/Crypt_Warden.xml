@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Crypt Warden" nameDescription="a crypt warden" experience="8400" speed="290" manacost="0">
+<monster name="Crypt Warden" nameDescription="a crypt warden" race="blood" experience="8400" speed="290" manacost="0">
 	<health now="8300" max="8300" />
 	<look type="1190" head="41" body="38" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,28 +31,25 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="25" />
+		<element deathPercent="-35" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-570" />
-	</attacks>
 	<defenses armor="84" defense="84" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="90114" countmax="6" />
-		<item id="18419" name="cyan crystal fragment" chance="20757" />
-		<item id="34098" name="lamassu horn" chance="17594" />
-		<item id="34097" name="lamassu hoof" chance="10819" />
-		<item id="2150" name="small amethyst" chance="9367" />
-		<item id="9971" name="gold ingot" chance="5928" />
-		<item id="18421" name="green crystal fragment" chance="3889" />
-		<item id="2155" name="green gem" chance="3543" />
-		<item id="2198" name="elven amulet" chance="830" />
+		<item id="2152" name="platinum coin" chance="89913" countmax="6" />
+		<item id="18419" name="cyan crystal fragment" chance="20744" />
+		<item id="34098" name="lamassu horn" chance="17722" />
+		<item id="34097" name="lamassu hoof" chance="10726" />
+		<item id="2150" name="small amethyst" chance="9460" />
+		<item id="9971" name="gold ingot" chance="6182" />
+		<item id="18421" name="green crystal fragment" chance="3870" />
+		<item id="2155" name="green gem" chance="3579" />
+		<item id="2198" name="elven amulet" chance="872" />
 	</loot>
 </monster>

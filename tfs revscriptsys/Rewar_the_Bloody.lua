@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Rewar the Bloody")
 local monster = {}
 
 monster.name = "Rewar The Bloody"
-monster.description = ""
+monster.description = "Rewar the Bloody"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000}
 }
 
 monster.defenses = {

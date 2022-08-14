@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ogre Rowdy" nameDescription="an ogre rowdy" experience="4200" speed="420" manacost="0">
+<monster name="Ogre Rowdy" nameDescription="an ogre rowdy" race="blood" experience="4200" speed="420" manacost="0">
 	<health now="4500" max="4500" />
 	<look type="1213" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,38 +30,35 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="100" />
+		<element firePercent="30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-30" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="98" defense="98" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" />
-		<item id="7840" name="flaming arrow" chance="24513" countmax="9" />
-		<item id="24845" name="ogre nose ring" chance="18506" />
-		<item id="24844" name="ogre ear stud" chance="17370" />
-		<item id="24847" name="skull fetish" chance="11201" />
-		<item id="2187" name="wand of inferno" chance="8117" />
-		<item id="8921" name="wand of draconia" chance="5032" />
-		<item id="27618" name="prismatic quartz" chance="4545" />
-		<item id="2149" name="small emerald" chance="3734" />
-		<item id="18413" name="blue crystal shard" chance="3084" />
-		<item id="8844" name="jalapeno pepper" chance="2597" countmax="2" />
-		<item id="24849" name="onyx chip" chance="2110" />
-		<item id="18414" name="violet crystal shard" chance="1948" />
-		<item id="18409" name="wand of everblazing" chance="1299" />
-		<item id="2158" name="blue gem" chance="1136" />
-		<item id="24850" name="opal" chance="1136" />
-		<item id="24828" name="ogre choppa" chance="974" />
-		<item id="7633" name="giant shimmering pearl (brown)" chance="812" />
+		<item id="7840" name="flaming arrow" chance="23446" countmax="9" />
+		<item id="24844" name="ogre ear stud" chance="17746" />
+		<item id="24845" name="ogre nose ring" chance="17617" />
+		<item id="24847" name="skull fetish" chance="10751" />
+		<item id="2187" name="wand of inferno" chance="7772" />
+		<item id="8921" name="wand of draconia" chance="5052" />
+		<item id="2149" name="small emerald" chance="4404" />
+		<item id="27618" name="prismatic quartz" chance="4145" />
+		<item id="8844" name="jalapeno pepper" chance="2720" countmax="2" />
+		<item id="18414" name="violet crystal shard" chance="2591" />
+		<item id="18413" name="blue crystal shard" chance="2591" />
+		<item id="24849" name="onyx chip" chance="2461" />
+		<item id="24828" name="ogre choppa" chance="1425" />
+		<item id="18409" name="wand of everblazing" chance="1295" />
+		<item id="24850" name="opal" chance="1166" />
+		<item id="2158" name="blue gem" chance="1036" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="1036" />
 	</loot>
 </monster>

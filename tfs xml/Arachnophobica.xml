@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Arachnophobica" nameDescription="an arachnophobica" experience="4700" speed="400" manacost="0">
+<monster name="Arachnophobica" nameDescription="an arachnophobica" race="blood" experience="4700" speed="400" manacost="0">
 	<health now="5000" max="5000" />
 	<look type="1135" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="50" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-40" />
+		<element deathPercent="50" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
@@ -48,34 +48,34 @@
 		<voice sentence="Tip tap tip tap!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="82276" countmax="13" />
-		<item id="8472" name="great spirit potion" chance="30537" countmax="3" />
-		<item id="8859" name="spider fangs" chance="10021" />
-		<item id="11223" name="essence of a bad dream" chance="7038" />
-		<item id="2170" name="silver amulet" chance="6713" />
-		<item id="2207" name="sword ring" chance="5037" />
-		<item id="2189" name="wand of cosmic energy" chance="4512" />
-		<item id="2178" name="mind stone" chance="4505" />
-		<item id="2167" name="energy ring" chance="4047" />
-		<item id="2198" name="elven amulet" chance="2924" countmax="2" />
-		<item id="2168" name="life ring" chance="2836" />
-		<item id="8910" name="underworld rod" chance="2784" />
-		<item id="2208" name="axe ring" chance="2725" />
-		<item id="2166" name="power ring" chance="2444" />
-		<item id="6300" name="death ring" chance="2090" />
-		<item id="7890" name="magma amulet" chance="2075" />
-		<item id="2176" name="orb" chance="1876" />
-		<item id="2171" name="platinum amulet" chance="1676" />
-		<item id="10219" name="sacred tree amulet" chance="1647" />
-		<item id="26200" name="collar of red plasma" chance="1484" />
-		<item name="ring of blue plasma" chance="1396" />
-		<item id="5879" name="spider silk" chance="1329" />
-		<item id="2214" name="ring of healing" chance="982" />
-		<item id="2199" name="garlic necklace" chance="975" />
-		<item id="15403" name="necklace of the deep" chance="916" />
-		<item id="2197" name="stone skin amulet" chance="908" />
-		<item id="2174" name="strange symbol" chance="679" />
-		<item id="2161" name="strange talisman" chance="517" />
-		<item id="26199" name="collar of green plasma" chance="414" />
+		<item id="2152" name="platinum coin" chance="82281" countmax="14" />
+		<item id="8472" name="great spirit potion" chance="30245" countmax="3" />
+		<item id="8859" name="spider fangs" chance="10161" />
+		<item id="11223" name="essence of a bad dream" chance="7194" />
+		<item id="2170" name="silver amulet" chance="6711" />
+		<item id="2207" name="sword ring" chance="5043" />
+		<item id="2178" name="mind stone" chance="4535" />
+		<item id="2189" name="wand of cosmic energy" chance="4416" />
+		<item id="2167" name="energy ring" chance="4046" />
+		<item id="2198" name="elven amulet" chance="2898" countmax="2" />
+		<item id="8910" name="underworld rod" chance="2823" />
+		<item id="2168" name="life ring" chance="2728" />
+		<item id="2208" name="axe ring" chance="2703" />
+		<item id="2166" name="power ring" chance="2421" />
+		<item id="7890" name="magma amulet" chance="2057" />
+		<item id="6300" name="death ring" chance="2039" />
+		<item id="2176" name="orb" chance="1863" />
+		<item id="10219" name="sacred tree amulet" chance="1725" />
+		<item id="2171" name="platinum amulet" chance="1650" />
+		<item id="26200" name="collar of red plasma" chance="1424" />
+		<item name="ring of blue plasma" chance="1380" />
+		<item id="5879" name="spider silk" chance="1298" />
+		<item id="2199" name="garlic necklace" chance="1060" />
+		<item id="2214" name="ring of healing" chance="1004" />
+		<item id="15403" name="necklace of the deep" chance="960" />
+		<item id="2197" name="stone skin amulet" chance="935" />
+		<item id="2174" name="strange symbol" chance="659" />
+		<item id="2161" name="strange talisman" chance="571" />
+		<item id="26199" name="collar of green plasma" chance="408" />
 	</loot>
 </monster>

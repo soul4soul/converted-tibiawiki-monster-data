@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Phantasm" nameDescription="a phantasm" experience="1" speed="0" manacost="0">
+<monster name="Phantasm" nameDescription="a phantasm" race="blood" experience="1" speed="0" manacost="0">
 	<health now="65" max="65" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,26 +29,18 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="100" />
+		<element energyPercent="40" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-15" />
-	</attacks>
-	<defenses armor="10" defense="5">
-		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
-			<attribute key="areaEffect" value="redshimmer" />
-		</defense>
-		<defense name="healing" interval="2000" chance="20" min="6" max="16" />
-	</defenses>
+	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Oh my, you forgot to put your pants on!" yell="false" />
 		<voice sentence="Weeheeheeheehee!" yell="false" />

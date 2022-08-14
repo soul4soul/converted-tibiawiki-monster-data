@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Redeemed Soul" nameDescription="a redeemed soul" experience="0" speed="140" manacost="0">
+<monster name="Redeemed Soul" nameDescription="a redeemed soul" race="blood" experience="0" speed="140" manacost="0">
 	<health now="250" max="250" />
 	<look type="714" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,15 +29,15 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="60" />
+		<element energyPercent="20" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element holyPercent="100" />
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="12" defense="12">

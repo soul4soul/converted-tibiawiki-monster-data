@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Neferi The Spy" nameDescription="" experience="19650" speed="0" manacost="0">
+<monster name="Neferi The Spy" nameDescription="Neferi the Spy" race="blood" experience="19650" speed="0" manacost="0">
 	<health now="28000" max="28000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -36,37 +36,42 @@
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-10" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="20" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-600" />
 	</attacks>
 	<defenses armor="10" defense="5" />
+	<summons maxSummons="1">
+		<voice name="Skeleton Elite Warrior" interval="2000" chance="15" max="1" />
+	</summons>
 	<loot>
-		<item id="2160" name="crystal coin" chance="44269" />
-		<item id="2181" name="terra rod" chance="22925" />
-		<item id="2379" name="dagger" chance="17787" />
-		<item id="8473" name="ultimate health potion" chance="11462" countmax="4" />
-		<item id="9971" name="gold ingot" chance="10277" />
-		<item id="8472" name="great spirit potion" chance="8300" countmax="2" />
-		<item id="2392" name="fire sword" chance="7510" />
-		<item id="2183" name="hailstorm rod" chance="4743" />
-		<item id="7886" name="terra boots" chance="4743" />
-		<item id="7901" name="lightning headband" chance="4348" />
-		<item id="7903" name="terra hood" chance="3953" />
-		<item id="7895" name="lightning legs" chance="3557" />
-		<item id="2430" name="knight axe" chance="3162" />
-		<item name="ring of red plasma" chance="3162" />
-		<item id="7892" name="glacier shoes" chance="2372" />
-		<item id="8901" name="spellbook of warding" chance="2372" />
-		<item id="2476" name="knight armor" chance="1976" />
-		<item id="18414" name="violet crystal shard" chance="1976" />
-		<item id="33979" name="sea horse figurine" chance="1581" />
-		<item id="2165" name="stealth ring" chance="1581" />
-		<item id="2153" name="violet gem" chance="1581" />
-		<item id="7902" name="glacier mask" chance="1186" />
-		<item id="33980" name="golden mask" chance="791" />
+		<item id="2160" name="crystal coin" chance="44737" />
+		<item id="2181" name="terra rod" chance="23355" />
+		<item id="39659" name="eye-embroidered veil" chance="20000" />
+		<item id="39658" name="tagralt-inlaid scabbard" chance="20000" />
+		<item id="2379" name="dagger" chance="17434" />
+		<item id="8473" name="ultimate health potion" chance="11184" countmax="4" />
+		<item id="9971" name="gold ingot" chance="10855" />
+		<item id="8472" name="great spirit potion" chance="7895" countmax="2" />
+		<item id="2392" name="fire sword" chance="6908" />
+		<item id="2183" name="hailstorm rod" chance="4934" />
+		<item id="7886" name="terra boots" chance="4605" />
+		<item id="7901" name="lightning headband" chance="4276" />
+		<item id="7895" name="lightning legs" chance="3618" />
+		<item id="7903" name="terra hood" chance="3618" />
+		<item id="2430" name="knight axe" chance="3618" />
+		<item name="ring of red plasma" chance="3289" />
+		<item id="7892" name="glacier shoes" chance="2961" />
+		<item id="8901" name="spellbook of warding" chance="2303" />
+		<item id="2476" name="knight armor" chance="1974" />
+		<item id="18414" name="violet crystal shard" chance="1974" />
+		<item id="2165" name="stealth ring" chance="1974" />
+		<item id="33979" name="sea horse figurine" chance="1316" />
+		<item id="7902" name="glacier mask" chance="1316" />
+		<item id="2153" name="violet gem" chance="1316" />
+		<item id="33980" name="golden mask" chance="658" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Bane Of Light" nameDescription="a bane of light" experience="750" speed="230" manacost="0">
+<monster name="Bane Of Light" nameDescription="a bane of light" race="undead" experience="750" speed="230" manacost="0">
 	<health now="1100" max="1100" />
 	<look type="68" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,24 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-20" />
+		<element earthPercent="20" />
+		<element firePercent="100" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-366" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-366" poison="115" />
+		<attack name="death" interval="2000" chance="15" min="-50" max="-250" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="death" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" radius="7" target="0">
+			<attribute key="areaEffect" value="smallclouds" />
+		</attack>
 	</attacks>
 	<defenses armor="38" defense="38" />
 	<loot>

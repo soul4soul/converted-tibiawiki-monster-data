@@ -83,7 +83,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -50}
 }
 
 monster.defenses = {
@@ -92,9 +91,16 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 28, maxDamage = 70}
 }
 
+monster.maxSummons = 3
+monster.summons = {
+	{name = "Wild Warrior", chance = 15, interval = 2000, max = 3}
+}
+
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 30},
-	{id = 2666, chance = 100000}
+	{id = 2666, chance = 100000, maxCount = 2},
+	{id = 2398, chance = 20000},
+	{id = 2406, chance = 20000}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Insane Siren" nameDescription="an insane siren" experience="6000" speed="420" manacost="0">
+<monster name="Insane Siren" nameDescription="an insane siren" race="blood" experience="6000" speed="420" manacost="0">
 	<health now="6500" max="6500" />
 	<look type="1136" head="72" body="94" legs="79" feet="4" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,38 +29,35 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-10" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="55" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element icePercent="-20" />
+		<element holyPercent="25" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-450" />
-	</attacks>
 	<defenses armor="76" defense="76" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Dream or nightmare?" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="70660" countmax="12" />
-		<item id="12430" name="miraculum" chance="12674" />
-		<item id="8473" name="ultimate health potion" chance="12153" />
-		<item id="32661" name="dream essence egg" chance="9375" />
-		<item id="8921" name="wand of draconia" chance="4514" countmax="2" />
-		<item id="2191" name="wand of dragonbreath" chance="3125" />
-		<item id="2432" name="fire axe" chance="2951" />
-		<item id="2187" name="wand of inferno" chance="2951" />
-		<item id="7890" name="magma amulet" chance="2778" />
-		<item id="5922" name="holy orchid" chance="2257" />
-		<item id="7899" name="magma coat" chance="2257" />
-		<item id="32651" name="sun fruit" chance="2257" countmax="2" />
-		<item id="7894" name="magma legs" chance="694" />
-		<item id="7900" name="magma monocle" chance="347" />
+		<item id="2152" name="platinum coin" chance="71845" countmax="12" />
+		<item id="8473" name="ultimate health potion" chance="12303" />
+		<item id="12430" name="miraculum" chance="10331" />
+		<item id="32661" name="dream essence egg" chance="9779" />
+		<item id="8921" name="wand of draconia" chance="5047" countmax="2" />
+		<item id="7890" name="magma amulet" chance="3549" />
+		<item id="5922" name="holy orchid" chance="3391" />
+		<item id="2187" name="wand of inferno" chance="2997" />
+		<item id="2432" name="fire axe" chance="2760" />
+		<item id="2191" name="wand of dragonbreath" chance="2445" />
+		<item id="7899" name="magma coat" chance="2050" />
+		<item id="32651" name="sun fruit" chance="1735" countmax="2" />
+		<item id="7894" name="magma legs" chance="631" />
+		<item id="7900" name="magma monocle" chance="394" />
 	</loot>
 </monster>

@@ -65,20 +65,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -20},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -88,25 +87,25 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000},
-	{id = 24845, chance = 17447},
-	{id = 24844, chance = 16596},
-	{id = 2146, chance = 12340, maxCount = 2},
-	{id = 2666, chance = 10000},
-	{id = 7387, chance = 4894},
-	{id = 2149, chance = 4255},
-	{id = 2197, chance = 3404},
-	{id = 2391, chance = 2979},
-	{id = 2156, chance = 2766},
-	{id = 24847, chance = 2766},
-	{id = 23540, chance = 1702},
-	{id = 20108, chance = 1702},
-	{id = 18419, chance = 1489},
-	{id = 24849, chance = 1489},
-	{id = 2154, chance = 1489},
-	{id = 2158, chance = 1064},
-	{id = 7761, chance = 426},
-	{id = 18416, chance = 213},
-	{id = 24827, chance = 213}
+	{id = 24844, chance = 18198},
+	{id = 24845, chance = 16396},
+	{id = 2146, chance = 14414, maxCount = 2},
+	{id = 2666, chance = 10811},
+	{id = 7387, chance = 5045},
+	{id = 2149, chance = 4324},
+	{id = 2197, chance = 3604},
+	{id = 2156, chance = 2883},
+	{id = 2391, chance = 2883},
+	{id = 24847, chance = 2523},
+	{id = 18419, chance = 1982},
+	{id = 20108, chance = 1982},
+	{id = 23540, chance = 1802},
+	{id = 2154, chance = 1802},
+	{id = 24849, chance = 1622},
+	{id = 2158, chance = 901},
+	{id = 7761, chance = 721, maxCount = 2},
+	{id = 24827, chance = 541},
+	{id = 18416, chance = 360}
 }
 
 mType:register(monster)

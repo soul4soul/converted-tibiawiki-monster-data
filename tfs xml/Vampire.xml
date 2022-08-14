@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Vampire" nameDescription="a vampire" experience="305" speed="238" manacost="0">
+<monster name="Vampire" nameDescription="a vampire" race="undead" experience="305" speed="238" manacost="0">
 	<health now="475" max="475" />
 	<look type="68" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="25" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
+		<element drownPercent="100" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
@@ -48,6 +48,7 @@
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 		<defense name="healing" interval="2000" chance="20" min="15" max="25" />
+		<defense name="outfit" interval="2000" chance="15" monster="Bat" duration="5000" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="BLOOD!" yell="false" />
@@ -56,19 +57,19 @@
 		<voice sentence="I call you, my bats! Come!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="90020" countmax="60" />
-		<item id="10602" name="vampire teeth" chance="7760" />
-		<item id="12405" name="blood preservation" chance="5078" />
-		<item id="2747" name="grave flower" chance="1938" />
-		<item id="2144" name="black pearl" chance="1783" />
-		<item id="7588" name="strong health potion" chance="1513" />
-		<item id="2412" name="katana" chance="1441" />
-		<item id="2229" name="skull (item)" chance="1013" />
-		<item id="2383" name="spike sword" chance="1007" />
-		<item id="2396" name="ice rapier" chance="464" />
-		<item id="2479" name="strange helmet" chance="410" />
-		<item id="2172" name="bronze amulet" chance="228" />
-		<item id="2127" name="emerald bangle" chance="204" />
-		<item id="2534" name="vampire shield" chance="192" />
+		<item id="2148" name="gold coin" chance="89997" countmax="60" />
+		<item id="10602" name="vampire teeth" chance="7783" />
+		<item id="12405" name="blood preservation" chance="5054" />
+		<item id="2747" name="grave flower" chance="1941" />
+		<item id="2144" name="black pearl" chance="1790" />
+		<item id="7588" name="strong health potion" chance="1532" />
+		<item id="2412" name="katana" chance="1447" />
+		<item id="2229" name="skull (item)" chance="1011" />
+		<item id="2383" name="spike sword" chance="1008" />
+		<item id="2396" name="ice rapier" chance="477" />
+		<item id="2479" name="strange helmet" chance="413" />
+		<item id="2172" name="bronze amulet" chance="227" />
+		<item id="2127" name="emerald bangle" chance="206" />
+		<item id="2534" name="vampire shield" chance="195" />
 	</loot>
 </monster>

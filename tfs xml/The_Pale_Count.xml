@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The_Pale_Count" nameDescription="" experience="28000" speed="0" manacost="0">
+<monster name="The_Pale_Count" nameDescription="" race="blood" experience="28000" speed="0" manacost="0">
 	<health now="50000" max="50000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,21 +30,19 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="30" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="30" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="5000" max="12500" />
+		<defense name="outfit" interval="2000" chance="15" monster="Nightfiend" duration="5000" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="Feel the hungry kiss of death!" yell="false" />
@@ -58,32 +56,38 @@
 		<voice name="Nightfiend" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="200" />
+		<item id="9020" name="vampire lord token" chance="100000" />
 		<item id="21244" name="vampire's cape chain" chance="100000" />
-		<item id="9020" name="vampire lord token" chance="95455" />
-		<item id="7588" name="strong health potion" chance="72727" countmax="3" />
-		<item id="7589" name="strong mana potion" chance="68182" countmax="3" />
-		<item id="10602" name="vampire teeth" chance="54545" />
-		<item id="2152" name="platinum coin" chance="45455" countmax="5" />
-		<item id="12405" name="blood preservation" chance="40909" />
-		<item id="5909" name="white piece of cloth" chance="40909" />
-		<item id="2165" name="stealth ring" chance="36364" />
-		<item id="5912" name="blue piece of cloth" chance="27273" />
-		<item id="9970" name="small topaz" chance="22727" countmax="5" />
-		<item id="2438" name="epee" chance="18182" />
-		<item id="5911" name="red piece of cloth" chance="18182" />
-		<item id="2214" name="ring of healing" chance="18182" />
-		<item id="2146" name="small sapphire" chance="18182" countmax="5" />
-		<item id="2534" name="vampire shield" chance="18182" />
-		<item id="2150" name="small amethyst" chance="13636" countmax="5" />
-		<item id="2147" name="small ruby" chance="13636" countmax="5" />
-		<item id="2144" name="black pearl" chance="9091" countmax="5" />
-		<item id="2145" name="small diamond" chance="9091" countmax="5" />
-		<item id="2149" name="small emerald" chance="9091" countmax="5" />
-		<item id="2153" name="violet gem" chance="9091" />
-		<item id="2158" name="blue gem" chance="4545" />
-		<item id="7427" name="chaos mace" chance="4545" />
-		<item id="21253" name="the vampire count's medal" chance="4545" />
-		<item id="21252" name="vampire's signet ring" chance="4545" />
+		<item id="2148" name="gold coin" chance="100000" countmax="171" />
+		<item id="7588" name="strong health potion" chance="100000" countmax="5" />
+		<item id="12405" name="blood preservation" chance="80000" />
+		<item id="7589" name="strong mana potion" chance="80000" countmax="5" />
+		<item id="2152" name="platinum coin" chance="60000" countmax="9" />
+		<item id="2165" name="stealth ring" chance="40000" />
+		<item id="5909" name="white piece of cloth" chance="40000" />
+		<item id="5912" name="blue piece of cloth" chance="40000" />
+		<item id="21253" name="the vampire count's medal" chance="40000" />
+		<item id="2147" name="small ruby" chance="40000" countmax="6" />
+		<item id="10602" name="vampire teeth" chance="40000" />
+		<item id="8903" name="spellbook of lost souls" chance="20000" />
+		<item id="7427" name="chaos mace" chance="20000" />
+		<item id="2534" name="vampire shield" chance="20000" />
+		<item id="5911" name="red piece of cloth" chance="20000" />
+		<item id="7419" name="dreaded cleaver" chance="20000" />
+		<item id="7416" name="bloody edge" chance="20000" />
+		<item id="2214" name="ring of healing" chance="20000" />
+		<item id="2438" name="epee" chance="20000" />
+		<item id="2153" name="violet gem" chance="20000" />
+		<item id="2144" name="black pearl" chance="20000" countmax="5" />
+		<item id="2145" name="small diamond" chance="20000" countmax="5" />
+		<item id="2150" name="small amethyst" chance="20000" countmax="6" />
+		<item id="2146" name="small sapphire" chance="20000" countmax="5" />
+		<item id="2149" name="small emerald" chance="20000" countmax="5" />
+		<item id="9970" name="small topaz" chance="20000" />
+		<item id="2158" name="blue gem" chance="20000" />
+		<item id="21400" name="silver raid token" chance="7500" />
+		<item id="21707" name="haunted mirror piece" chance="7500" />
+		<item id="21708" name="vampire silk slippers" chance="7500" />
+		<item id="21252" name="vampire's signet ring" chance="7500" />
 	</loot>
 </monster>

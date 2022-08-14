@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Orshabaal" nameDescription="" experience="10000" speed="0" manacost="0">
+<monster name="Orshabaal" nameDescription="" race="blood" experience="10000" speed="0" manacost="0">
 	<health now="22500" max="22500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="20" />
+		<element energyPercent="80" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-1" />
+		<element holyPercent="-1" />
+		<element deathPercent="50" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-1800" />
@@ -57,59 +57,73 @@
 		<voice sentence="SOULS FOR ORSHABAAL!" yell="false" />
 	</voices>
 	<summons maxSummons="4">
-		<voice name="Demon" interval="2000" chance="15" max="1" />
+		<voice name="Demon" interval="2000" chance="15" max="4" />
 	</summons>
 	<loot>
-		<item id="2152" name="platinum coin" chance="100000" countmax="72" />
-		<item id="6500" name="demonic essence" chance="94444" />
+		<item id="6500" name="demonic essence" chance="94444" countmax="5" />
+		<item id="2152" name="platinum coin" chance="71429" countmax="72" />
 		<item id="6300" name="death ring" chance="55556" />
 		<item id="5954" name="demon horn" chance="50000" countmax="2" />
-		<item id="7590" name="great mana potion" chance="33333" />
-		<item id="2146" name="small sapphire" chance="33333" countmax="8" />
+		<item id="2148" name="gold coin" chance="42857" countmax="280" />
+		<item id="2402" name="silver dagger" chance="42857" />
+		<item id="7591" name="great health potion" chance="42857" countmax="5" />
 		<item id="2143" name="white pearl" chance="33333" countmax="15" />
-		<item id="2144" name="black pearl" chance="27778" countmax="15" />
+		<item id="2192" name="crystal ball" chance="28571" />
+		<item id="2171" name="platinum amulet" chance="28571" />
+		<item id="2177" name="life crystal" chance="28571" />
+		<item id="7590" name="great mana potion" chance="28571" countmax="5" />
+		<item id="8472" name="great spirit potion" chance="28571" countmax="5" />
+		<item id="2124" name="crystal ring" chance="28571" />
+		<item id="7365" name="onyx arrow" chance="28571" countmax="50" />
+		<item id="9971" name="gold ingot" chance="28571" />
+		<item id="2150" name="small amethyst" chance="28571" countmax="19" />
+		<item id="2200" name="protection amulet" chance="28571" />
 		<item id="2462" name="devil helmet" chance="27778" />
-		<item id="7591" name="great health potion" chance="27778" countmax="5" />
-		<item id="2214" name="ring of healing" chance="27778" />
 		<item id="8473" name="ultimate health potion" chance="27778" />
-		<item id="2158" name="blue gem" chance="22222" />
-		<item id="2520" name="demon shield" chance="22222" />
-		<item id="2393" name="giant sword" chance="22222" />
+		<item id="2144" name="black pearl" chance="27778" countmax="15" />
 		<item id="2178" name="mind stone" chance="22222" />
-		<item id="2145" name="small diamond" chance="22222" countmax="5" />
-		<item id="2149" name="small emerald" chance="22222" countmax="7" />
-		<item id="7368" name="assassin star" chance="16667" countmax="42" />
-		<item id="2195" name="boots of haste" chance="16667" />
-		<item id="2125" name="crystal necklace" chance="16667" />
-		<item id="2200" name="protection amulet" chance="16667" />
+		<item id="2158" name="blue gem" chance="22222" />
+		<item id="2393" name="giant sword" chance="22222" />
+		<item id="2188" name="wand of decay" chance="20000" />
+		<item id="8890" name="robe of the underworld" chance="20000" />
+		<item id="2185" name="necrotic rod" chance="20000" />
+		<item id="2167" name="energy ring" chance="20000" />
+		<item id="2182" name="snakebite rod" chance="20000" />
+		<item id="2123" name="ring of the sky" chance="20000" />
+		<item id="2165" name="stealth ring" chance="20000" />
 		<item id="1982" name="purple tome" chance="16667" />
 		<item id="2170" name="silver amulet" chance="16667" />
-		<item id="2150" name="small amethyst" chance="16667" countmax="17" />
+		<item id="2125" name="crystal necklace" chance="16667" />
 		<item id="2174" name="strange symbol" chance="16667" />
-		<item id="2151" name="talon" chance="16667" countmax="3" />
-		<item id="2377" name="two handed sword" chance="16667" />
+		<item id="2195" name="boots of haste" chance="16667" />
+		<item id="7368" name="assassin star" chance="16667" countmax="42" />
+		<item id="2520" name="demon shield" chance="14286" />
+		<item id="2436" name="skull staff" chance="14286" />
+		<item id="2387" name="double axe" chance="14286" />
+		<item id="2149" name="small emerald" chance="14286" countmax="10" />
+		<item id="2377" name="two handed sword" chance="14286" />
+		<item id="5808" name="orshabaal's brain" chance="14286" />
+		<item id="2214" name="ring of healing" chance="14286" />
+		<item id="2179" name="gold ring" chance="14286" />
+		<item id="2033" name="golden mug" chance="14286" />
+		<item id="2396" name="ice rapier" chance="14286" />
+		<item id="2145" name="small diamond" chance="14286" countmax="5" />
+		<item id="2151" name="talon" chance="14286" countmax="10" />
+		<item id="2162" name="magic light wand" chance="14286" />
+		<item id="2146" name="small sapphire" chance="14286" countmax="10" />
+		<item id="2176" name="orb" chance="11111" />
+		<item id="2197" name="stone skin amulet" chance="11111" />
+		<item id="2514" name="mastermind shield" chance="11111" />
 		<item id="2432" name="fire axe" chance="11111" />
 		<item id="2470" name="golden legs" chance="11111" />
-		<item id="2033" name="golden mug" chance="11111" />
-		<item id="8472" name="great spirit potion" chance="11111" />
-		<item id="2177" name="life crystal" chance="11111" />
-		<item id="2514" name="mastermind shield" chance="11111" />
-		<item id="2176" name="orb" chance="11111" />
-		<item id="2171" name="platinum amulet" chance="11111" />
-		<item id="2197" name="stone skin amulet" chance="11111" />
-		<item id="2142" name="ancient amulet" chance="5556" />
-		<item id="2434" name="dragon hammer" chance="5556" />
-		<item id="9971" name="gold ingot" chance="5556" />
-		<item id="2418" name="golden sickle" chance="5556" />
-		<item id="2155" name="green gem" chance="5556" />
-		<item id="2162" name="magic light wand" chance="5556" />
 		<item id="2472" name="magic plate armor" chance="5556" />
-		<item id="2164" name="might ring" chance="5556" />
-		<item id="7365" name="onyx arrow" chance="5556" countmax="50" />
-		<item id="5808" name="orshabaal's brain" chance="5556" />
-		<item id="2402" name="silver dagger" chance="5556" />
-		<item id="2112" name="teddy bear" chance="5556" />
+		<item id="2434" name="dragon hammer" chance="5556" />
 		<item id="2421" name="thunder hammer" chance="5556" />
+		<item id="2155" name="green gem" chance="5556" />
+		<item id="2112" name="teddy bear" chance="5556" />
+		<item id="2418" name="golden sickle" chance="5556" />
+		<item id="2164" name="might ring" chance="5556" />
 		<item id="3955" name="voodoo doll" chance="5556" />
+		<item id="2142" name="ancient amulet" chance="5556" />
 	</loot>
 </monster>

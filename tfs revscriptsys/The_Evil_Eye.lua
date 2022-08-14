@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Evil Eye")
 local monster = {}
 
 monster.name = "The Evil Eye"
-monster.description = ""
+monster.description = "The Evil Eye"
 monster.experience = 750
 monster.outfit = {
 	lookType = 0,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -69,13 +69,13 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = -1},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -89,17 +89,19 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 5898, chance = 100000},
 	{id = 2148, chance = 100000, maxCount = 229},
 	{id = 12468, chance = 100000},
-	{id = 2394, chance = 51724},
-	{id = 2509, chance = 44828},
-	{id = 2377, chance = 31034},
-	{id = 2397, chance = 24138},
-	{id = 2175, chance = 24138},
-	{id = 7590, chance = 17241},
-	{id = 2518, chance = 10345},
-	{id = 7884, chance = 10345}
+	{id = 5898, chance = 100000},
+	{id = 2394, chance = 50000},
+	{id = 2509, chance = 43333},
+	{id = 2377, chance = 33333},
+	{id = 2175, chance = 26667},
+	{id = 2397, chance = 23333},
+	{id = 7590, chance = 16667},
+	{id = 2518, chance = 13333},
+	{id = 7884, chance = 10000},
+	{id = 2181, chance = 4000},
+	{id = 3972, chance = 4000}
 }
 
 mType:register(monster)

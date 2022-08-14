@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Wild Warrior" nameDescription="a wild warrior" experience="60" speed="190" manacost="420">
+<monster name="Wild Warrior" nameDescription="a wild warrior" race="blood" experience="60" speed="190" manacost="420">
 	<health now="135" max="135" />
 	<look type="131" head="38" body="38" legs="38" feet="38" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-5" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -37,8 +37,8 @@
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-70" />
@@ -53,15 +53,15 @@
 		<voice sentence="An enemy!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="65588" countmax="30" />
-		<item id="2386" name="axe" chance="20913" />
-		<item id="2511" name="brass shield" chance="17468" />
-		<item id="2398" name="mace" chance="13085" />
-		<item id="3606" name="egg" chance="12598" countmax="2" />
-		<item id="2458" name="chain helmet" chance="5140" />
-		<item id="2465" name="brass armor" chance="2796" />
-		<item id="2509" name="steel shield" chance="1317" />
-		<item id="2459" name="iron helmet" chance="1019" />
-		<item id="2110" name="doll" chance="523" />
+		<item id="2148" name="gold coin" chance="65698" countmax="30" />
+		<item id="2386" name="axe" chance="20988" />
+		<item id="2511" name="brass shield" chance="17447" />
+		<item id="2398" name="mace" chance="13090" />
+		<item id="3606" name="egg" chance="12643" countmax="2" />
+		<item id="2458" name="chain helmet" chance="5208" />
+		<item id="2465" name="brass armor" chance="2785" />
+		<item id="2509" name="steel shield" chance="1298" />
+		<item id="2459" name="iron helmet" chance="1014" />
+		<item id="2110" name="doll" chance="541" />
 	</loot>
 </monster>

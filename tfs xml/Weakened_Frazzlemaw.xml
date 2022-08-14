@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Weakened Frazzlemaw" nameDescription="a weakened frazzlemaw" experience="1000" speed="300" manacost="0">
+<monster name="Weakened Frazzlemaw" nameDescription="a weakened frazzlemaw" race="blood" experience="1000" speed="300" manacost="0">
 	<health now="1200" max="1200" />
 	<look type="594" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,28 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="5" />
+		<element energyPercent="15" />
+		<element earthPercent="20" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="5" />
+		<element holyPercent="-5" />
+		<element deathPercent="10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="0" max="-500" length="5" spread="0">
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="0" max="-300" radius="3" target="0">
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
 	</attacks>
 	<defenses armor="45" defense="45">
 		<defense name="healing" interval="2000" chance="20" min="0" max="50" />
@@ -54,23 +63,23 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="60453" />
-		<item id="28350" name="fairy wings" chance="15141" />
-		<item id="2229" name="skull (item)" chance="12018" />
-		<item id="22532" name="frazzle tongue" chance="11689" />
-		<item id="22533" name="frazzle skin" chance="10283" />
-		<item id="7590" name="great mana potion" chance="9972" countmax="3" />
-		<item id="2230" name="bone" chance="9902" />
-		<item id="7591" name="great health potion" chance="9863" countmax="2" />
-		<item id="2240" name="remains of a fish" chance="9842" />
-		<item id="2667" name="fish" chance="6460" countmax="3" />
-		<item id="2671" name="ham" chance="6061" />
-		<item id="2231" name="big bone" chance="5309" />
-		<item id="5895" name="fish fin" chance="5093" />
-		<item id="2225" name="piece of iron" chance="4886" />
-		<item id="5880" name="iron ore" chance="2753" />
+		<item id="2152" name="platinum coin" chance="60510" />
+		<item id="28350" name="fairy wings" chance="15062" />
+		<item id="2229" name="skull (item)" chance="11998" />
+		<item id="22532" name="frazzle tongue" chance="11708" />
+		<item id="22533" name="frazzle skin" chance="10225" />
+		<item id="2230" name="bone" chance="9997" />
+		<item id="7590" name="great mana potion" chance="9922" countmax="3" />
+		<item id="7591" name="great health potion" chance="9876" countmax="2" />
+		<item id="2240" name="remains of a fish" chance="9818" />
+		<item id="2667" name="fish" chance="6477" countmax="3" />
+		<item id="2671" name="ham" chance="6089" countmax="2" />
+		<item id="2231" name="big bone" chance="5294" />
+		<item id="5895" name="fish fin" chance="5043" />
+		<item id="2225" name="piece of iron" chance="4906" />
+		<item id="5880" name="iron ore" chance="2751" />
 		<item id="7418" name="nightmare blade" chance="346" />
-		<item id="11306" name="sai" chance="283" />
+		<item id="11306" name="sai" chance="297" />
 		<item id="22396" name="cluster of solace" chance="189" />
 	</loot>
 </monster>

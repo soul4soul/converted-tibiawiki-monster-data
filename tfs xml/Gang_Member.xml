@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Gang Member" nameDescription="a gang member" experience="70" speed="190" manacost="0">
+<monster name="Gang Member" nameDescription="a gang member" race="blood" experience="70" speed="190" manacost="450">
 	<health now="295" max="295" />
 	<look type="151" head="114" body="19" legs="23" feet="40" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -38,7 +38,7 @@
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-70" />
@@ -55,11 +55,11 @@
 		<voice sentence="Don't mess with us!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="49096" countmax="30" />
-		<item id="2649" name="leather legs" chance="15601" />
-		<item id="2398" name="mace" chance="9123" />
-		<item id="2691" name="brown bread" chance="5263" />
-		<item id="2468" name="studded legs" chance="5074" />
-		<item id="2209" name="club ring" chance="1026" />
+		<item id="2148" name="gold coin" chance="48998" countmax="30" />
+		<item id="2649" name="leather legs" chance="15517" />
+		<item id="2398" name="mace" chance="9164" />
+		<item id="2691" name="brown bread" chance="5207" />
+		<item id="2468" name="studded legs" chance="5051" />
+		<item id="2209" name="club ring" chance="1041" />
 	</loot>
 </monster>

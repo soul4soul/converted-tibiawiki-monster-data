@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Weeper" nameDescription="a weeper" experience="4800" speed="340" manacost="0">
+<monster name="Weeper" nameDescription="a weeper" race="undead" experience="4800" speed="340" manacost="0">
 	<health now="6800" max="6800" />
 	<look type="489" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,17 +29,30 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-5" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-5" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="30" />
 	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
+		<attack name="fire" interval="2000" chance="15" min="-100" max="-200" radius="3" target="0">
+			<attribute key="areaEffect" value="fire" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="-500" max="-1000" length="8" spread="0">
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="-250" max="-350" radius="4" target="1">
+			<attribute key="shootEffect" value="suddendeath" />
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+	</attacks>
 	<defenses armor="76" defense="76">
 		<defense name="healing" interval="2000" chance="20" min="680" max="1700" />
 	</defenses>
@@ -49,22 +62,22 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="199" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
-		<item id="18426" name="eye of a weeper" chance="15423" />
-		<item id="8473" name="ultimate health potion" chance="15175" countmax="2" />
-		<item id="2147" name="small ruby" chance="15065" countmax="3" />
-		<item id="18425" name="blazing bone" chance="15024" />
-		<item id="7590" name="great mana potion" chance="14749" countmax="2" />
-		<item id="10553" name="fiery heart" chance="13237" />
-		<item id="18424" name="magma clump" chance="12715" />
-		<item id="18417" name="brown crystal splinter" chance="11973" countmax="2" />
-		<item id="18435" name="prismatic bolt" chance="11409" countmax="5" />
-		<item id="18420" name="red crystal fragment" chance="8935" />
-		<item id="18414" name="violet crystal shard" chance="5402" />
-		<item id="2392" name="fire sword" chance="3340" />
-		<item id="2432" name="fire axe" chance="2213" />
-		<item id="18409" name="wand of everblazing" chance="1457" />
-		<item id="13757" name="coal" chance="1292" />
-		<item id="7894" name="magma legs" chance="811" />
-		<item id="7899" name="magma coat" chance="701" />
+		<item id="18426" name="eye of a weeper" chance="15444" />
+		<item id="8473" name="ultimate health potion" chance="15197" countmax="2" />
+		<item id="2147" name="small ruby" chance="15073" countmax="3" />
+		<item id="18425" name="blazing bone" chance="15019" />
+		<item id="7590" name="great mana potion" chance="14772" countmax="2" />
+		<item id="10553" name="fiery heart" chance="13249" />
+		<item id="18424" name="magma clump" chance="12687" />
+		<item id="18417" name="brown crystal splinter" chance="12001" countmax="2" />
+		<item id="18435" name="prismatic bolt" chance="11398" countmax="5" />
+		<item id="18420" name="red crystal fragment" chance="8929" />
+		<item id="18414" name="violet crystal shard" chance="5404" />
+		<item id="2392" name="fire sword" chance="3333" />
+		<item id="2432" name="fire axe" chance="2208" />
+		<item id="18409" name="wand of everblazing" chance="1468" />
+		<item id="13757" name="coal" chance="1289" />
+		<item id="7894" name="magma legs" chance="809" />
+		<item id="7899" name="magma coat" chance="699" />
 	</loot>
 </monster>

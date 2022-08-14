@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Minotaur Occultist" nameDescription="a minotaur occultist" experience="100" speed="170" manacost="0">
+<monster name="Minotaur Occultist" nameDescription="a minotaur occultist" race="blood" experience="100" speed="170" manacost="0">
 	<health now="125" max="125" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,9 +30,9 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="10" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -40,15 +40,15 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-29" />
-	</attacks>
 	<defenses armor="8" defense="8" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="21" />
 		<item id="2684" name="carrot" chance="42857" countmax="4" />
+		<item id="2649" name="leather legs" chance="20000" />
 		<item id="20104" name="swampling club" chance="10714" />
 		<item name="torch" chance="10714" />
+		<item id="2162" name="magic light wand" chance="7500" />
 		<item id="2461" name="leather helmet" chance="7143" />
+		<item id="7620" name="mana potion" chance="2500" />
 	</loot>
 </monster>

@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 5,
+	color = 192
 }
 
 monster.voices = {
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
@@ -87,7 +86,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 7760, chance = 14931, maxCount = 2}
+	{id = 7760, chance = 15154, maxCount = 2}
 }
 
 mType:register(monster)

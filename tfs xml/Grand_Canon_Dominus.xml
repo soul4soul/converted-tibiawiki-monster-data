@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Grand Canon Dominus" nameDescription="" experience="11000" speed="0" manacost="0">
+<monster name="Grand Canon Dominus" nameDescription="Grand Canon Dominus" race="blood" experience="11000" speed="0" manacost="0">
 	<health now="15000" max="15000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,40 +29,56 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="60" />
+		<element energyPercent="50" />
+		<element earthPercent="50" />
+		<element firePercent="50" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="50" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="50" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-600" />
+		<attack name="holy" interval="2000" chance="15" min="-550" max="-750" radius="3" target="0">
+			<attribute key="areaEffect" value="holyarea" />
+		</attack>
+		<attack name="energy" interval="2000" chance="15" min="-600" max="-820" range="2" radius="1" target="1">
+			<attribute key="shootEffect" value="etherealspear" />
+		</attack>
+		<attack name="death" interval="2000" chance="15" min="-900" max="-1050" radius="4" target="1">
+			<attribute key="shootEffect" value="death" />
+			<attribute key="areaEffect" value="smallclouds" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" range="7" radius="1" target="1">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</attack>
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="83033" countmax="5" />
-		<item id="7591" name="great health potion" chance="31620" countmax="3" />
-		<item id="7590" name="great mana potion" chance="29306" countmax="3" />
-		<item id="7368" name="assassin star" chance="24936" countmax="10" />
-		<item id="2147" name="small ruby" chance="21851" countmax="2" />
-		<item id="9970" name="small topaz" chance="20566" countmax="2" />
-		<item id="2145" name="small diamond" chance="19023" countmax="2" />
-		<item id="2149" name="small emerald" chance="17995" countmax="2" />
-		<item id="2150" name="small amethyst" chance="15167" countmax="2" />
-		<item id="7365" name="onyx arrow" chance="14910" countmax="15" />
-		<item id="7762" name="small enchanted amethyst" chance="5398" />
-		<item id="2156" name="red gem" chance="2828" />
-		<item name="giant shimmering pearl" chance="1799" />
-		<item id="2153" name="violet gem" chance="1799" />
-		<item id="31479" name="falcon crest" chance="1542" />
-		<item id="31478" name="damaged armor plates" chance="1285" />
-		<item id="2155" name="green gem" chance="771" />
-		<item id="2514" name="mastermind shield" chance="514" />
-		<item id="31477" name="patch of fine cloth" chance="257" />
+		<item id="7762" name="small enchanted amethyst" chance="100000" countmax="2" />
+		<item id="2152" name="platinum coin" chance="88503" countmax="5" />
+		<item id="7590" name="great mana potion" chance="32888" countmax="3" />
+		<item id="7591" name="great health potion" chance="29679" countmax="3" />
+		<item id="7368" name="assassin star" chance="26738" countmax="10" />
+		<item id="2147" name="small ruby" chance="21658" countmax="2" />
+		<item id="2150" name="small amethyst" chance="21123" countmax="2" />
+		<item id="9970" name="small topaz" chance="20321" countmax="2" />
+		<item id="31374" name="falcon bow" chance="20000" />
+		<item id="31373" name="falcon wand" chance="20000" />
+		<item id="31375" name="falcon plate" chance="20000" />
+		<item id="2145" name="small diamond" chance="19519" countmax="2" />
+		<item id="2149" name="small emerald" chance="17380" countmax="2" />
+		<item id="7365" name="onyx arrow" chance="16578" countmax="35" />
+		<item id="2156" name="red gem" chance="2406" />
+		<item id="2153" name="violet gem" chance="1872" />
+		<item id="31479" name="falcon crest" chance="1872" />
+		<item name="giant shimmering pearl" chance="1604" />
+		<item id="31478" name="damaged armor plates" chance="802" />
+		<item id="31477" name="patch of fine cloth" chance="802" />
+		<item id="2155" name="green gem" chance="535" />
+		<item id="2514" name="mastermind shield" chance="267" />
+		<item id="2466" name="golden armor" chance="267" />
 	</loot>
 </monster>

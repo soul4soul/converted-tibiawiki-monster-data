@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Minotaur Cult Prophet" nameDescription="a minotaur cult prophet" experience="1100" speed="240" manacost="0">
+<monster name="Minotaur Cult Prophet" nameDescription="a minotaur cult prophet" race="blood" experience="1100" speed="240" manacost="0">
 	<health now="1700" max="1700" />
 	<look type="23" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="10" />
+		<element deathPercent="-5" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
-	</attacks>
 	<defenses armor="28" defense="28" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Bow to the power of the iron bull!" yell="false" />

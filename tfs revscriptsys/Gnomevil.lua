@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Gnomevil")
 local monster = {}
 
 monster.name = "Gnomevil"
-monster.description = ""
+monster.description = "Gnomevil"
 monster.experience = 45000
 monster.outfit = {
 	lookType = 0,
@@ -69,39 +69,36 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 50},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 50},
+	{type = COMBAT_HOLYDAMAGE , percent = 50},
+	{type = COMBAT_DEATHDAMAGE , percent = 27}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1639}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10,
-	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 1500},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 20000}
+	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
 }
 
 monster.loot = {
 	{id = 18495, chance = 100000},
-	{id = 18450, chance = 12977},
-	{id = 18454, chance = 10687},
-	{id = 18453, chance = 10305},
-	{id = 18465, chance = 9924},
-	{id = 18452, chance = 8969},
-	{id = 18451, chance = 8588},
-	{id = 18449, chance = 1908}
+	{id = 18450, chance = 13118},
+	{id = 18454, chance = 10837},
+	{id = 18453, chance = 10266},
+	{id = 18465, chance = 9886},
+	{id = 18452, chance = 8935},
+	{id = 18451, chance = 8555},
+	{id = 18449, chance = 1901}
 }
 
 mType:register(monster)

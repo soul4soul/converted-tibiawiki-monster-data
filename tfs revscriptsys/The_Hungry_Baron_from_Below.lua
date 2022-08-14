@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Hungry Baron from Below")
 local monster = {}
 
 monster.name = "The Hungry Baron From Below"
-monster.description = ""
+monster.description = "The Hungry Baron From Below"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

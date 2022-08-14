@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Utua Stone Sting")
 local monster = {}
 
 monster.name = "Utua Stone Sting"
-monster.description = ""
+monster.description = "Utua Stone Sting"
 monster.experience = 5100
 monster.outfit = {
 	lookType = 0,
@@ -66,9 +66,9 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 40},
+	{type = COMBAT_FIREDAMAGE, percent = 25},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300}
 }
 
 monster.defenses = {
@@ -87,35 +86,35 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 9},
-	{id = 8473, chance = 100000, maxCount = 3},
-	{id = 10568, chance = 48714, maxCount = 3},
-	{id = 2127, chance = 10857},
-	{id = 7895, chance = 7000},
-	{id = 36757, chance = 6571},
-	{id = 2153, chance = 5143},
-	{id = 27047, chance = 4857},
-	{id = 7896, chance = 4571},
-	{id = 2445, chance = 3857},
-	{id = 27048, chance = 2857},
-	{id = 5741, chance = 2857},
-	{id = 15451, chance = 2857},
-	{id = 9971, chance = 1857},
-	{id = 2155, chance = 1857},
-	{id = 7386, chance = 1857},
-	{id = 7427, chance = 1714},
-	{id = 2520, chance = 1571},
-	{id = 15454, chance = 1571},
-	{id = 11355, chance = 1571},
-	{id = 13535, chance = 1429},
-	{id = 7897, chance = 1286},
-	{id = 7456, chance = 1286},
-	{id = 2472, chance = 1143},
-	{id = 7440, chance = 1143},
-	{id = "ring of green plasma", chance = 1000},
-	{id = 7894, chance = 857},
-	{id = 36434, chance = 286},
-	{id = 36914, chance = 286}
+	{id = 2152, chance = 100000, maxCount = 17},
+	{id = 8473, chance = 100000, maxCount = 5},
+	{id = 10568, chance = 55224, maxCount = 5},
+	{id = 7897, chance = 20000},
+	{id = 36434, chance = 20000},
+	{id = "ring of green plasma", chance = 20000},
+	{id = 13535, chance = 20000},
+	{id = 2155, chance = 20000},
+	{id = 7894, chance = 20000},
+	{id = 2520, chance = 20000},
+	{id = 36914, chance = 20000},
+	{id = 11355, chance = 20000},
+	{id = 2127, chance = 13433},
+	{id = 7895, chance = 8955},
+	{id = 27047, chance = 8955},
+	{id = 36757, chance = 7463},
+	{id = 5741, chance = 4478},
+	{id = 9971, chance = 2985},
+	{id = 27048, chance = 2985},
+	{id = 15451, chance = 2985},
+	{id = 2153, chance = 2985},
+	{id = 2445, chance = 2985},
+	{id = 7427, chance = 2985},
+	{id = 2472, chance = 1493},
+	{id = 15454, chance = 1493},
+	{id = 7386, chance = 1493},
+	{id = 7896, chance = 1493},
+	{id = 7456, chance = 1493},
+	{id = 7440, chance = 1493}
 }
 
 mType:register(monster)

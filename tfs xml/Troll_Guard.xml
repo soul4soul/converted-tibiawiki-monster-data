@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Troll Guard" nameDescription="a troll guard" experience="25" speed="126" manacost="0">
+<monster name="Troll Guard" nameDescription="a troll guard" race="blood" experience="25" speed="126" manacost="0">
 	<health now="60" max="60" />
 	<look type="281" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-9" />
@@ -49,6 +49,7 @@
 		<item id="2666" name="meat" chance="16535" />
 		<item id="2120" name="rope" chance="7612" />
 		<item id="2448" name="studded club" chance="4987" />
+		<item id="2170" name="silver amulet" chance="4000" />
 		<item id="10606" name="bunch of troll hair" chance="787" />
 	</loot>
 </monster>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Aggressive Matter")
 local monster = {}
 
 monster.name = "Aggressive Matter"
-monster.description = ""
+monster.description = "an aggressive matter"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

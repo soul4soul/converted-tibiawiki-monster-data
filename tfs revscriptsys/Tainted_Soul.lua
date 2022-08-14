@@ -67,30 +67,33 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -30}
 }
 
 monster.defenses = {
 	defense = 10,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 20, maxDamage = 30}
+	armor = 10
+}
+
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Tainted Soul", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = 2147, chance = 1266}
+	{id = 2147, chance = 1160}
 }
 
 mType:register(monster)

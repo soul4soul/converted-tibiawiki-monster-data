@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Terrified Elephant" nameDescription="a terrified elephant" experience="160" speed="210" manacost="0">
+<monster name="Terrified Elephant" nameDescription="a terrified elephant" race="blood" experience="160" speed="210" manacost="500">
 	<health now="320" max="320" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="211" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="-10" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -54,9 +54,9 @@
 		<voice sentence="Trooooot!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="40768" />
-		<item id="2671" name="ham" chance="29219" />
-		<item id="3956" name="tusk" chance="8637" countmax="2" />
+		<item id="2666" name="meat" chance="40804" countmax="4" />
+		<item id="2671" name="ham" chance="29202" countmax="3" />
+		<item id="3956" name="tusk" chance="8603" countmax="2" />
 		<item id="3973" name="tusk shield" chance="99" />
 	</loot>
 </monster>

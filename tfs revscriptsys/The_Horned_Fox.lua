@@ -76,9 +76,9 @@ monster.elements = {
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -1},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -1}
 }
 
 monster.attacks = {
@@ -88,7 +88,14 @@ monster.attacks = {
 monster.defenses = {
 	defense = 16,
 	armor = 16,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 26, maxDamage = 66}
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 25, maxDamage = 75}
+}
+
+monster.maxSummons = 6
+monster.summons = {
+	{name = "Minotaur Guard", chance = 15, interval = 2000, max = 2},
+	{name = "Minotaur Archer", chance = 15, interval = 2000, max = 2},
+	{name = "Minotaur Mage", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
@@ -101,8 +108,11 @@ monster.loot = {
 	{id = 2465, chance = 28125},
 	{id = 2666, chance = 15625},
 	{id = 2513, chance = 12500},
-	{id = 2502, chance = 9375},
 	{id = 7588, chance = 9375},
+	{id = 2502, chance = 9375},
+	{id = 2165, chance = 7500},
+	{id = 2388, chance = 7500},
+	{id = 2189, chance = 7500},
 	{id = 2580, chance = 6250},
 	{id = 2387, chance = 3125}
 }

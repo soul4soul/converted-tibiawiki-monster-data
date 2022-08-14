@@ -67,7 +67,7 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -82,28 +82,36 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 17000, maxDamage = 23000}
+	armor = 10
+}
+
+monster.maxSummons = 4
+monster.summons = {
+	{name = "Glooth Anemone", chance = 15, interval = 2000, max = 4}
 }
 
 monster.loot = {
 	{id = 23568, chance = 100000, maxCount = 3},
-	{id = 23549, chance = 44444},
 	{id = 2149, chance = 44444, maxCount = 5},
-	{id = 23514, chance = 33333, maxCount = 5},
-	{id = 7591, chance = 33333, maxCount = 5},
-	{id = 7590, chance = 33333, maxCount = 5},
+	{id = 23549, chance = 44444},
 	{id = 8472, chance = 33333, maxCount = 5},
-	{id = 23515, chance = 22222, maxCount = 5},
+	{id = 23514, chance = 33333, maxCount = 5},
+	{id = 7590, chance = 33333, maxCount = 5},
+	{id = 7591, chance = 33333, maxCount = 5},
 	{id = 23517, chance = 22222, maxCount = 5},
+	{id = 23515, chance = 22222, maxCount = 5},
+	{id = 23589, chance = 20000},
+	{id = 23551, chance = 20000},
+	{id = 2148, chance = 20000},
+	{id = 2150, chance = 20000, maxCount = 5},
+	{id = 9970, chance = 11111, maxCount = 5},
 	{id = 23550, chance = 11111},
-	{id = 23535, chance = 11111},
 	{id = 23543, chance = 11111},
-	{id = 2156, chance = 11111},
-	{id = 2145, chance = 11111, maxCount = 5},
 	{id = 2147, chance = 11111, maxCount = 5},
 	{id = 2146, chance = 11111, maxCount = 5},
-	{id = 9970, chance = 11111, maxCount = 5}
+	{id = 2145, chance = 11111, maxCount = 5},
+	{id = 23535, chance = 11111},
+	{id = 2156, chance = 11111}
 }
 
 mType:register(monster)

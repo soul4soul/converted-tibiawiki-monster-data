@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Orger Treasure" nameDescription="" experience="0" speed="0" manacost="0">
+<monster name="Orger Treasure" nameDescription="orger treasure" race="blood" experience="0" speed="0" manacost="0">
 	<health now="50000" max="50000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -43,5 +43,8 @@
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="2153" name="violet gem" chance="100000" />
+		<item id="34733" name="sight of surrender's plushie" chance="20000" />
+		<item id="34731" name="plushie of devovorga" chance="7500" />
+		<item id="34730" name="plushie of gaz'haragoth" chance="7500" />
 	</loot>
 </monster>

@@ -68,16 +68,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 100},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
@@ -90,15 +90,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2804, chance = 14621},
-	{id = 2394, chance = 10727},
-	{id = 2654, chance = 8977},
-	{id = 2404, chance = 7039},
-	{id = 5909, chance = 1939},
-	{id = 10607, chance = 1842},
-	{id = "book (orange)", chance = 1422},
-	{id = 2532, chance = 799},
-	{id = 2165, chance = 180}
+	{id = 2804, chance = 14592},
+	{id = 2394, chance = 10703},
+	{id = 2654, chance = 8957},
+	{id = 2404, chance = 7031},
+	{id = 5909, chance = 1936},
+	{id = 10607, chance = 1839},
+	{id = "book (orange)", chance = 1428},
+	{id = 2532, chance = 808},
+	{id = 2165, chance = 178}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Instable Breach Brood" nameDescription="an instable breach brood" experience="1100" speed="270" manacost="0">
+<monster name="Instable Breach Brood" nameDescription="an instable breach brood" race="blood" experience="1100" speed="270" manacost="0">
 	<health now="2200" max="2200" />
 	<look type="878" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,36 +30,33 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="75" />
+		<element earthPercent="-15" />
+		<element firePercent="40" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="30" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-240" />
-	</attacks>
 	<defenses armor="43" defense="43" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Hisss!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98075" countmax="100" />
-		<item id="2152" name="platinum coin" chance="68806" countmax="2" />
-		<item id="26177" name="crystal bone" chance="10089" />
-		<item id="26162" name="plasma pearls" chance="10053" />
-		<item id="7590" name="great mana potion" chance="5847" />
-		<item id="26191" name="energy bar" chance="5419" />
-		<item id="26201" name="energy drink" chance="5062" />
-		<item id="8472" name="great spirit potion" chance="5027" />
-		<item id="7591" name="great health potion" chance="4742" />
-		<item id="18415" name="green crystal shard" chance="3387" />
-		<item id="18418" name="blue crystal splinter" chance="3351" />
-		<item id="18419" name="cyan crystal fragment" chance="3102" />
-		<item id="18413" name="blue crystal shard" chance="2139" />
+		<item id="2148" name="gold coin" chance="98192" countmax="100" />
+		<item id="2152" name="platinum coin" chance="69032" countmax="2" />
+		<item id="26162" name="plasma pearls" chance="10110" />
+		<item id="26177" name="crystal bone" chance="10110" />
+		<item id="7590" name="great mana potion" chance="5792" />
+		<item id="26191" name="energy bar" chance="5357" />
+		<item id="26201" name="energy drink" chance="5189" />
+		<item id="8472" name="great spirit potion" chance="5055" />
+		<item id="7591" name="great health potion" chance="4754" />
+		<item id="18418" name="blue crystal splinter" chance="3448" />
+		<item id="18415" name="green crystal shard" chance="3348" />
+		<item id="18419" name="cyan crystal fragment" chance="3180" />
+		<item id="18413" name="blue crystal shard" chance="2176" />
 	</loot>
 </monster>

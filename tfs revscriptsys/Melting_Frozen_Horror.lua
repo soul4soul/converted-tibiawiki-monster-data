@@ -66,20 +66,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 1},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -15},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -1}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -88,6 +87,53 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 370},
+	{id = 2152, chance = 100000, maxCount = 48},
+	{id = 10578, chance = 100000},
+	{id = 26174, chance = 100000},
+	{id = 7441, chance = 100000},
+	{id = 7449, chance = 89474},
+	{id = 2396, chance = 84211},
+	{id = 18413, chance = 73684, maxCount = 5},
+	{id = 18415, chance = 68421, maxCount = 5},
+	{id = 7590, chance = 63158, maxCount = 11},
+	{id = 8472, chance = 63158, maxCount = 11},
+	{id = 18414, chance = 52632, maxCount = 5},
+	{id = 8473, chance = 47368, maxCount = 7},
+	{id = 25377, chance = 31579},
+	{id = 7459, chance = 31579},
+	{id = 2145, chance = 31579, maxCount = 19},
+	{id = 2156, chance = 26316},
+	{id = 2147, chance = 26316, maxCount = 8},
+	{id = 2154, chance = 21053},
+	{id = 2155, chance = 21053},
+	{id = 2158, chance = 21053},
+	{id = 2497, chance = 21053},
+	{id = 2149, chance = 21053, maxCount = 18},
+	{id = 25172, chance = 21053},
+	{id = 2153, chance = 20000},
+	{id = 2444, chance = 20000},
+	{id = 27634, chance = 20000},
+	{id = 27614, chance = 20000},
+	{id = 5892, chance = 20000},
+	{id = 18450, chance = 20000},
+	{id = 18465, chance = 20000},
+	{id = 21697, chance = 20000},
+	{id = 7383, chance = 20000},
+	{id = 12608, chance = 20000},
+	{id = 8878, chance = 20000},
+	{id = 18304, chance = 20000, maxCount = 100},
+	{id = 2183, chance = 15789},
+	{id = 7368, chance = 15789, maxCount = 116},
+	{id = 15644, chance = 15789},
+	{id = 18304, chance = 15789, maxCount = 187},
+	{id = 2150, chance = 15789, maxCount = 18},
+	{id = 7290, chance = 15789, maxCount = 4},
+	{id = "giant shimmering pearl", chance = 10526},
+	{id = 27633, chance = 7500},
+	{id = 9970, chance = 5263, maxCount = 4},
+	{id = 2445, chance = 5263},
+	{id = 8887, chance = 5263}
 }
 
 mType:register(monster)

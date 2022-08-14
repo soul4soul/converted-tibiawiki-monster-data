@@ -5,11 +5,11 @@ monster.name = "Mould Phantom"
 monster.description = "a mould phantom"
 monster.experience = 18330
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 1298,
+	lookHead = 106,
+	lookBody = 60,
+	lookLegs = 131,
+	lookFeet = 116,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -68,9 +68,9 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 50},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -81,6 +81,10 @@ monster.elements = {
 }
 
 monster.attacks = {
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -1000, maxDamage = -1250, range = 2, radius = 1, target = true, shootEffect = CONST_ANI_HOLY, effect = CONST_ME_HOLYAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -1200, maxDamage = -1300, radius = 3, target = true, shootEffect = CONST_ANI_POISON, effect = CONST_ME_HOLYAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -900, maxDamage = -1050, effect = CONST_ME_GREENCHAIN},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -600, maxDamage = -900, effect = CONST_ME_YELLOWCHAIN}
 }
 
 monster.defenses = {
@@ -89,20 +93,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 57558},
-	{id = 9971, chance = 13372},
-	{id = 18390, chance = 6395},
-	{id = 2155, chance = 5814},
-	{id = 36797, chance = 3488},
-	{id = 8920, chance = 2907},
-	{id = 36804, chance = 2326},
-	{id = 2153, chance = 2326},
-	{id = 2158, chance = 1744},
-	{id = 8922, chance = 1744},
-	{id = "collar of blue plasma", chance = 581},
-	{id = 18453, chance = 581},
-	{id = 15644, chance = 581},
-	{id = "ring of blue plasma", chance = 581}
+	{id = 2160, chance = 57493},
+	{id = 9971, chance = 11204},
+	{id = 2155, chance = 4342},
+	{id = 36765, chance = 4000},
+	{id = 8920, chance = 3852},
+	{id = 2153, chance = 3501},
+	{id = 36797, chance = 3501},
+	{id = 18390, chance = 3291, maxCount = 2},
+	{id = 36804, chance = 2451},
+	{id = 8922, chance = 2381},
+	{id = 2158, chance = 1331},
+	{id = "ring of blue plasma", chance = 1261},
+	{id = 18453, chance = 980},
+	{id = 15644, chance = 910},
+	{id = "collar of blue plasma", chance = 910}
 }
 
 mType:register(monster)

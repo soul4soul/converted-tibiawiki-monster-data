@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Elder Wyrm" nameDescription="an elder wyrm" experience="2500" speed="280" manacost="0">
+<monster name="Elder Wyrm" nameDescription="an elder wyrm" race="blood" experience="2500" speed="280" manacost="0">
 	<health now="2700" max="2700" />
 	<look type="561" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="1" />
@@ -30,9 +30,9 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="100" />
+		<element earthPercent="75" />
+		<element firePercent="30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -40,36 +40,31 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
-	</attacks>
-	<defenses armor="48" defense="48">
-		<defense name="healing" interval="2000" chance="20" min="100" max="150" />
-	</defenses>
+	<defenses armor="48" defense="48" />
 	<voices interval="5000" chance="10">
 		<voice sentence="GRROARR" yell="false" />
 		<voice sentence="GRRR" yell="false" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="180" />
-		<item id="2672" name="dragon ham" chance="34481" />
-		<item id="2152" name="platinum coin" chance="24569" countmax="3" />
-		<item id="7589" name="strong mana potion" chance="20632" />
-		<item id="7588" name="strong health potion" chance="19654" />
-		<item id="10582" name="wyrm scale" chance="16905" />
-		<item id="2455" name="crossbow" chance="8157" />
-		<item id="5944" name="soul orb" chance="4689" />
-		<item id="2145" name="small diamond" chance="4641" countmax="5" />
-		<item id="8921" name="wand of draconia" chance="1568" />
-		<item id="7889" name="lightning pendant" chance="849" />
-		<item id="2547" name="power bolt" chance="768" countmax="10" />
-		<item id="7895" name="lightning legs" chance="671" />
-		<item id="8920" name="wand of starstorm" chance="590" />
-		<item id="8855" name="composite hornbow" chance="234" />
-		<item id="7893" name="lightning boots" chance="194" />
-		<item id="7451" name="shadow sceptre" chance="194" />
-		<item id="7430" name="dragonbone staff" chance="178" />
-		<item id="7898" name="lightning robe" chance="154" />
-		<item id="10221" name="shockwave amulet" chance="97" />
+		<item id="2672" name="dragon ham" chance="34503" countmax="2" />
+		<item id="2152" name="platinum coin" chance="24539" countmax="3" />
+		<item id="7589" name="strong mana potion" chance="20575" />
+		<item id="7588" name="strong health potion" chance="19626" />
+		<item id="10582" name="wyrm scale" chance="16876" />
+		<item id="2455" name="crossbow" chance="8133" />
+		<item id="5944" name="soul orb" chance="4772" />
+		<item id="2145" name="small diamond" chance="4655" countmax="5" />
+		<item id="8921" name="wand of draconia" chance="1574" />
+		<item id="7889" name="lightning pendant" chance="816" />
+		<item id="2547" name="power bolt" chance="816" countmax="10" />
+		<item id="7895" name="lightning legs" chance="662" />
+		<item id="8920" name="wand of starstorm" chance="640" />
+		<item id="8855" name="composite hornbow" chance="221" />
+		<item id="7893" name="lightning boots" chance="206" />
+		<item id="7430" name="dragonbone staff" chance="206" />
+		<item id="7451" name="shadow sceptre" chance="184" />
+		<item id="7898" name="lightning robe" chance="162" />
+		<item id="10221" name="shockwave amulet" chance="110" />
 	</loot>
 </monster>

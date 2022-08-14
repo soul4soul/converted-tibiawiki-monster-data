@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The_Mutated_Pumpkin" nameDescription="" experience="30000" speed="0" manacost="0">
+<monster name="The_Mutated_Pumpkin" nameDescription="" race="blood" experience="30000" speed="0" manacost="0">
 	<health now="500000" max="500000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -58,8 +58,10 @@
 		<voice sentence="Fear the spirit of Halloween!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2683" name="pumpkin" chance="100000" countmax="5" />
 		<item id="9005" name="yummy gummy worm" chance="100000" countmax="10" />
+		<item id="2683" name="pumpkin" chance="100000" countmax="5" />
+		<item id="8860" name="spiderwebs" chance="20000" />
+		<item id="6526" name="skeleton decoration" chance="20000" />
 		<item id="6492" name="bat decoration" chance="13636" />
 		<item name="toy spider" chance="9091" />
 	</loot>

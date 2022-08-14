@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Mawhawk" nameDescription="" experience="14000" speed="0" manacost="0">
+<monster name="Mawhawk" nameDescription="" race="blood" experience="14000" speed="0" manacost="0">
 	<health now="45000" max="45000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,18 +31,15 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="20" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element icePercent="15" />
+		<element holyPercent="-5" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="4500" max="11250" />
 	</defenses>
@@ -50,25 +47,28 @@
 		<voice sentence="Better flee now!" yell="false" />
 		<voice sentence="Watch my maws!" yell="false" />
 	</voices>
+	<summons maxSummons="4">
+		<voice name="Guzzlemaw" interval="2000" chance="15" max="4" />
+	</summons>
 	<loot>
-		<item id="22532" name="frazzle tongue" chance="100000" />
 		<item id="2148" name="gold coin" chance="100000" countmax="101" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="25" />
-		<item id="22598" name="unrealized dream" chance="98058" countmax="2" />
-		<item id="22396" name="cluster of solace" chance="98058" countmax="2" />
-		<item id="18417" name="brown crystal splinter" chance="35922" countmax="5" />
-		<item id="18416" name="green crystal splinter" chance="33981" countmax="5" />
-		<item id="18418" name="blue crystal splinter" chance="30097" countmax="5" />
-		<item id="5895" name="fish fin" chance="16505" />
-		<item id="5925" name="hardened bone" chance="15534" />
-		<item id="5880" name="iron ore" chance="14563" />
-		<item id="5911" name="red piece of cloth" chance="12621" />
-		<item id="2392" name="fire sword" chance="10680" />
-		<item id="18414" name="violet crystal shard" chance="10680" countmax="3" />
-		<item id="18413" name="blue crystal shard" chance="9709" countmax="3" />
-		<item id="18415" name="green crystal shard" chance="7767" countmax="3" />
-		<item id="7418" name="nightmare blade" chance="7767" />
-		<item id="7404" name="assassin dagger" chance="3883" />
-		<item id="7407" name="haunted blade" chance="3883" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="28" />
+		<item id="5880" name="iron ore" chance="100000" />
+		<item id="22532" name="frazzle tongue" chance="100000" />
+		<item id="18416" name="green crystal splinter" chance="100000" countmax="5" />
+		<item id="22396" name="cluster of solace" chance="100000" countmax="2" />
+		<item id="22598" name="unrealized dream" chance="100000" countmax="2" />
+		<item id="18413" name="blue crystal shard" chance="20000" />
+		<item id="7404" name="assassin dagger" chance="20000" />
+		<item id="7418" name="nightmare blade" chance="20000" />
+		<item id="7407" name="haunted blade" chance="20000" />
+		<item id="18414" name="violet crystal shard" chance="20000" countmax="3" />
+		<item id="2392" name="fire sword" chance="20000" />
+		<item id="18415" name="green crystal shard" chance="20000" />
+		<item id="5895" name="fish fin" chance="20000" />
+		<item id="18417" name="brown crystal splinter" chance="20000" countmax="5" />
+		<item id="18418" name="blue crystal splinter" chance="20000" countmax="5" />
+		<item id="5911" name="red piece of cloth" chance="20000" />
+		<item id="5925" name="hardened bone" chance="20000" />
 	</loot>
 </monster>

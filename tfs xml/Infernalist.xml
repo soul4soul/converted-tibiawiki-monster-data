@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Infernalist" nameDescription="an infernalist" experience="4000" speed="230" manacost="0">
+<monster name="Infernalist" nameDescription="an infernalist" race="blood" experience="4000" speed="230" manacost="0">
 	<health now="3650" max="3650" />
 	<look type="130" head="78" body="76" legs="94" feet="39" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
-		<flag targetdistance="1" />
+		<flag targetdistance="4" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="1" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-5" />
+		<element energyPercent="100" />
+		<element earthPercent="95" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="20" />
+		<element deathPercent="10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
@@ -56,22 +56,22 @@
 		<voice name="Fire Elemental" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="97556" countmax="151" />
-		<item id="7590" name="great mana potion" chance="19359" />
-		<item id="7591" name="great health potion" chance="18300" />
-		<item id="8840" name="raspberry" chance="8200" countmax="5" />
-		<item id="2436" name="skull staff" chance="6598" />
-		<item id="7760" name="small enchanted ruby" chance="4589" />
-		<item id="2167" name="energy ring" chance="2145" />
-		<item id="5911" name="red piece of cloth" chance="1195" />
-		<item id="9958" name="royal tapestry" chance="733" />
-		<item id="5904" name="magic sulphur" chance="624" />
-		<item id="8902" name="spellbook of mind control" chance="462" />
-		<item id="9969" name="black skull (item)" chance="434" />
-		<item id="1986" name="red tome" chance="244" />
-		<item id="7891" name="magma boots" chance="217" />
-		<item id="9971" name="gold ingot" chance="136" />
-		<item id="2114" name="piggy bank" chance="109" />
-		<item id="9980" name="crystal of power" chance="81" />
+		<item id="2148" name="gold coin" chance="97768" countmax="151" />
+		<item id="7590" name="great mana potion" chance="19355" />
+		<item id="7591" name="great health potion" chance="19071" />
+		<item id="8840" name="raspberry" chance="7973" countmax="5" />
+		<item id="2436" name="skull staff" chance="6533" />
+		<item id="7760" name="small enchanted ruby" chance="4585" />
+		<item id="2167" name="energy ring" chance="2090" />
+		<item id="5911" name="red piece of cloth" chance="1177" />
+		<item id="9958" name="royal tapestry" chance="812" />
+		<item id="5904" name="magic sulphur" chance="670" />
+		<item id="8902" name="spellbook of mind control" chance="446" />
+		<item id="9969" name="black skull (item)" chance="426" />
+		<item id="1986" name="red tome" chance="284" />
+		<item id="7891" name="magma boots" chance="203" />
+		<item id="9971" name="gold ingot" chance="142" />
+		<item id="9980" name="crystal of power" chance="101" />
+		<item id="2114" name="piggy bank" chance="81" />
 	</loot>
 </monster>

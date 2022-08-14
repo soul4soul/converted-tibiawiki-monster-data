@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Anomaly" nameDescription="an anomaly" experience="50000" speed="0" manacost="0">
+<monster name="Anomaly" nameDescription="an anomaly" race="blood" experience="50000" speed="0" manacost="0">
 	<health now="290000" max="290000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,61 +29,58 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="30" />
+		<element energyPercent="30" />
+		<element earthPercent="30" />
+		<element firePercent="30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element drownPercent="30" />
+		<element icePercent="30" />
+		<element holyPercent="30" />
+		<element deathPercent="30" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-1300" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="26167" name="curious matter" chance="100000" />
-		<item id="26201" name="energy drink" chance="100000" countmax="5" />
-		<item id="26175" name="frozen lightning" chance="100000" />
-		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="25377" name="gold token" chance="100000" countmax="4" />
 		<item id="26165" name="mysterious remains" chance="100000" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="35" />
-		<item id="18414" name="violet crystal shard" chance="68586" countmax="3" />
-		<item id="18413" name="blue crystal shard" chance="65445" countmax="3" />
-		<item id="18415" name="green crystal shard" chance="64921" countmax="3" />
-		<item id="7590" name="great mana potion" chance="58115" countmax="10" />
-		<item id="8472" name="great spirit potion" chance="57592" countmax="10" />
-		<item id="8473" name="ultimate health potion" chance="49215" countmax="10" />
-		<item id="2147" name="small ruby" chance="27225" countmax="10" />
-		<item id="2158" name="blue gem" chance="22513" />
-		<item id="9970" name="small topaz" chance="19372" countmax="10" />
-		<item name="void boots" chance="19372" />
-		<item name="giant shimmering pearl" chance="18848" />
-		<item id="2155" name="green gem" chance="18848" />
-		<item id="2149" name="small emerald" chance="18848" countmax="10" />
-		<item name="ring of red plasma" chance="17801" />
-		<item id="2150" name="small amethyst" chance="17801" countmax="10" />
-		<item name="ring of green plasma" chance="17277" />
-		<item id="2154" name="yellow gem" chance="17277" />
-		<item id="2156" name="red gem" chance="16754" />
-		<item id="2145" name="small diamond" chance="16754" countmax="10" />
-		<item name="ring of blue plasma" chance="15707" />
-		<item name="collar of blue plasma" chance="12042" />
-		<item id="7451" name="shadow sceptre" chance="10995" />
-		<item id="7901" name="lightning headband" chance="10471" />
-		<item id="26200" name="collar of red plasma" chance="8377" />
-		<item id="7427" name="chaos mace" chance="7853" />
-		<item id="7895" name="lightning legs" chance="6806" />
-		<item id="7898" name="lightning robe" chance="6283" />
-		<item id="8901" name="spellbook of warding" chance="6283" />
-		<item id="2153" name="violet gem" chance="5759" />
-		<item id="26199" name="collar of green plasma" chance="4712" />
-		<item id="18450" name="crystalline sword" chance="4188" />
-		<item name="tiara of power" chance="4188" />
-		<item id="6553" name="ruthless axe" chance="3141" />
+		<item id="26201" name="energy drink" chance="100000" countmax="9" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="48" />
+		<item id="2148" name="gold coin" chance="100000" countmax="373" />
+		<item id="26175" name="frozen lightning" chance="100000" />
+		<item id="26167" name="curious matter" chance="100000" />
+		<item id="25377" name="gold token" chance="100000" countmax="7" />
+		<item id="18415" name="green crystal shard" chance="72917" countmax="5" />
+		<item id="18413" name="blue crystal shard" chance="70833" countmax="5" />
+		<item id="18414" name="violet crystal shard" chance="61458" countmax="5" />
+		<item id="7590" name="great mana potion" chance="58333" countmax="15" />
+		<item id="8473" name="ultimate health potion" chance="56250" countmax="16" />
+		<item id="8472" name="great spirit potion" chance="44792" countmax="16" />
+		<item id="2147" name="small ruby" chance="25000" countmax="19" />
+		<item id="2154" name="yellow gem" chance="23958" />
+		<item id="9970" name="small topaz" chance="22917" countmax="18" />
+		<item id="2155" name="green gem" chance="22917" />
+		<item id="2145" name="small diamond" chance="20833" countmax="18" />
+		<item id="18450" name="crystalline sword" chance="20000" />
+		<item name="tiara of power" chance="20000" />
+		<item id="6553" name="ruthless axe" chance="20000" />
+		<item name="giant shimmering pearl" chance="19792" />
+		<item id="2149" name="small emerald" chance="17708" countmax="18" />
+		<item id="8901" name="spellbook of warding" chance="16667" />
+		<item id="2156" name="red gem" chance="14583" />
+		<item name="ring of green plasma" chance="14583" />
+		<item name="ring of blue plasma" chance="14583" />
+		<item id="2158" name="blue gem" chance="14583" />
+		<item name="ring of red plasma" chance="13542" />
+		<item id="2150" name="small amethyst" chance="13542" countmax="19" />
+		<item id="7427" name="chaos mace" chance="12500" />
+		<item id="26199" name="collar of green plasma" chance="12500" />
+		<item id="7901" name="lightning headband" chance="12500" />
+		<item id="26200" name="collar of red plasma" chance="11458" />
+		<item name="collar of blue plasma" chance="10417" />
+		<item name="void boots" chance="8333" />
+		<item id="7451" name="shadow sceptre" chance="8333" />
+		<item id="7895" name="lightning legs" chance="6250" />
+		<item id="2153" name="violet gem" chance="4167" />
+		<item id="7898" name="lightning robe" chance="1042" />
 	</loot>
 </monster>

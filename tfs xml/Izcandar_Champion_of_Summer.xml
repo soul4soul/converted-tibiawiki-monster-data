@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Izcandar Champion Of Summer" nameDescription="" experience="0" speed="0" manacost="0">
+<monster name="Izcandar Champion Of Summer" nameDescription="Izcandar Champion of Summer" race="blood" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,50 +30,50 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="5" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-10" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="26191" name="energy bar" chance="100000" />
-		<item id="26165" name="mysterious remains" chance="100000" />
+		<item id="25377" name="gold token" chance="100000" countmax="3" />
 		<item id="2114" name="piggy bank" chance="100000" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="9" />
 		<item id="25172" name="silver token" chance="100000" countmax="3" />
-		<item id="25377" name="gold token" chance="72727" countmax="2" />
-		<item id="26031" name="supreme health potion" chance="72727" countmax="20" />
-		<item id="28415" name="royal star" chance="54545" countmax="100" />
-		<item id="26029" name="ultimate mana potion" chance="45455" countmax="20" />
-		<item id="26030" name="ultimate spirit potion" chance="45455" countmax="6" />
-		<item id="26200" name="collar of red plasma" chance="36364" />
-		<item id="2156" name="red gem" chance="36364" />
-		<item id="2160" name="crystal coin" chance="27273" countmax="3" />
-		<item name="giant shimmering pearl" chance="27273" />
-		<item id="2155" name="green gem" chance="27273" />
-		<item id="5892" name="huge chunk of crude iron" chance="27273" />
-		<item id="7443" name="bullseye potion" chance="18182" countmax="10" />
-		<item id="7439" name="berserk potion" chance="9091" countmax="10" />
-		<item id="2158" name="blue gem" chance="9091" />
-		<item id="9971" name="gold ingot" chance="9091" />
-		<item id="5904" name="magic sulphur" chance="9091" />
-		<item id="7440" name="mastermind potion" chance="9091" countmax="10" />
-		<item id="32825" name="pomegranate" chance="9091" />
-		<item name="ring of blue plasma" chance="9091" />
-		<item name="ring of green plasma" chance="9091" />
-		<item name="ring of red plasma" chance="9091" />
-		<item id="2436" name="skull staff" chance="9091" />
-		<item id="5809" name="soul stone" chance="9091" />
-		<item id="32077" name="summerblade" chance="9091" />
-		<item id="2154" name="yellow gem" chance="9091" />
+		<item id="26165" name="mysterious remains" chance="100000" />
+		<item id="26029" name="ultimate mana potion" chance="100000" countmax="20" />
+		<item id="7440" name="mastermind potion" chance="50000" countmax="5" />
+		<item id="7443" name="bullseye potion" chance="50000" countmax="5" />
+		<item name="ring of blue plasma" chance="50000" />
+		<item id="2154" name="yellow gem" chance="50000" />
+		<item id="2436" name="skull staff" chance="50000" />
+		<item id="7427" name="chaos mace" chance="50000" />
+		<item name="giant shimmering pearl" chance="50000" />
+		<item name="collar of blue plasma" chance="50000" />
+		<item id="26030" name="ultimate spirit potion" chance="50000" countmax="23" />
+		<item id="2156" name="red gem" chance="50000" />
+		<item id="7439" name="berserk potion" chance="20000" countmax="10" />
+		<item id="2158" name="blue gem" chance="20000" />
+		<item id="26031" name="supreme health potion" chance="20000" countmax="20" />
+		<item id="5904" name="magic sulphur" chance="20000" />
+		<item id="9971" name="gold ingot" chance="20000" />
+		<item id="2160" name="crystal coin" chance="20000" countmax="3" />
+		<item id="2155" name="green gem" chance="20000" />
+		<item id="5892" name="huge chunk of crude iron" chance="20000" />
+		<item id="32077" name="summerblade" chance="20000" />
+		<item id="32825" name="pomegranate" chance="20000" />
+		<item id="32601" name="izcandar's sundial" chance="20000" />
+		<item id="5809" name="soul stone" chance="20000" />
+		<item id="28415" name="royal star" chance="20000" countmax="100" />
+		<item name="ring of red plasma" chance="20000" />
+		<item id="26200" name="collar of red plasma" chance="20000" />
+		<item name="ring of green plasma" chance="20000" />
 	</loot>
 </monster>

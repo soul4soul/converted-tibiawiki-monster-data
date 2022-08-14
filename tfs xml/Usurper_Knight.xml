@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Usurper Knight" nameDescription="a usurper knight" experience="6900" speed="260" manacost="0">
+<monster name="Usurper Knight" nameDescription="a usurper knight" race="blood" experience="6900" speed="260" manacost="0">
 	<health now="8200" max="8200" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1316" head="76" body="57" legs="76" feet="95" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -29,40 +29,35 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="35" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="15" />
+		<element deathPercent="-15" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
-	</attacks>
-	<defenses armor="83" defense="83">
-		<defense name="healing" interval="2000" chance="20" min="820" max="2050" />
-	</defenses>
+	<defenses armor="83" defense="83" />
 	<voices interval="5000" chance="10">
 		<voice sentence="This town is ours now!" yell="false" />
 		<voice sentence="Do you really think you can stand?" yell="false" />
 		<voice sentence="You don't deserve Bounac!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="91241" countmax="5" />
-		<item id="2649" name="leather legs" chance="27190" />
-		<item id="2666" name="meat" chance="16577" />
-		<item id="36818" name="lion cloak patch" chance="10559" />
-		<item id="36816" name="lion crest" chance="6368" />
-		<item id="2477" name="knight legs" chance="6018" />
-		<item id="2153" name="violet gem" chance="5373" />
-		<item id="9971" name="gold ingot" chance="5078" />
-		<item id="2158" name="blue gem" chance="3949" />
-		<item id="7590" name="great mana potion" chance="3896" />
-		<item id="2155" name="green gem" chance="2633" />
-		<item id="7894" name="magma legs" chance="967" />
+		<item id="2152" name="platinum coin" chance="91010" countmax="5" />
+		<item id="2649" name="leather legs" chance="27315" />
+		<item id="2666" name="meat" chance="16193" />
+		<item id="36818" name="lion cloak patch" chance="10949" />
+		<item id="36816" name="lion crest" chance="6512" />
+		<item id="2477" name="knight legs" chance="5897" />
+		<item id="2153" name="violet gem" chance="5494" />
+		<item id="9971" name="gold ingot" chance="5186" />
+		<item id="2158" name="blue gem" chance="4053" />
+		<item id="7590" name="great mana potion" chance="3726" />
+		<item id="2155" name="green gem" chance="2593" />
+		<item id="7894" name="magma legs" chance="980" />
 	</loot>
 </monster>

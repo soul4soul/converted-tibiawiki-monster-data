@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dire Penguin" nameDescription="a dire penguin" experience="119" speed="174" manacost="0">
+<monster name="Dire Penguin" nameDescription="a dire penguin" race="blood" experience="119" speed="174" manacost="0">
 	<health now="173" max="173" />
 	<look type="250" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,25 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-5" />
+		<element earthPercent="50" />
+		<element firePercent="50" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="30" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-80" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-35" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="smallstone" />
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" radius="4" target="0">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
 	</attacks>
 	<defenses armor="16" defense="16">
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
@@ -52,7 +59,10 @@
 		<voice sentence="Grrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="65789" countmax="10" />
-		<item id="2667" name="fish" chance="13158" countmax="4" />
+		<item id="2148" name="gold coin" chance="65854" countmax="10" />
+		<item id="2667" name="fish" chance="12195" countmax="4" />
+		<item id="7159" name="green perch" chance="4000" />
+		<item id="7158" name="rainbow trout" chance="4000" />
+		<item id="2434" name="dragon hammer" chance="4000" />
 	</loot>
 </monster>

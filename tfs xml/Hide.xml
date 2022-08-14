@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Hide" nameDescription="" experience="240" speed="0" manacost="0">
+<monster name="Hide" nameDescription="" race="blood" experience="240" speed="0" manacost="0">
 	<health now="500" max="500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="40" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-15" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -49,11 +49,11 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2169" name="time ring" chance="87629" />
-		<item id="2152" name="platinum coin" chance="83505" countmax="8" />
-		<item id="3351" name="steel helmet" chance="72165" />
-		<item id="5879" name="spider silk" chance="62887" />
-		<item id="2477" name="knight legs" chance="35052" />
-		<item id="7903" name="terra hood" chance="27835" />
+		<item id="2169" name="time ring" chance="88000" />
+		<item id="2152" name="platinum coin" chance="83000" countmax="8" />
+		<item id="3351" name="steel helmet" chance="71000" />
+		<item id="5879" name="spider silk" chance="63000" countmax="2" />
+		<item id="2477" name="knight legs" chance="34000" />
+		<item id="7903" name="terra hood" chance="29000" />
 	</loot>
 </monster>

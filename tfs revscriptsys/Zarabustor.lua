@@ -68,21 +68,21 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -1},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 90},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_HOLYDAMAGE , percent = -1},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -130},
-	{name ="combat", interval = 2000, chance = 100, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -250, range = 7}
+	{name ="firefield", interval = 2000, chance = 15, radius = 2, target = true, shootEffect = CONST_ANI_FIRE}
 }
 
 monster.defenses = {
@@ -91,9 +91,25 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 510, maxDamage = 1275}
 }
 
+monster.maxSummons = 5
+monster.summons = {
+	{name = "Warlock", chance = 15, interval = 2000, max = 2},
+	{name = "Green Djinn", chance = 15, interval = 2000, max = 3}
+}
+
 monster.loot = {
-	{id = 2148, chance = 80000, maxCount = 79},
-	{id = 2411, chance = 60000}
+	{id = 2148, chance = 83333, maxCount = 150},
+	{id = 2411, chance = 50000},
+	{id = 2146, chance = 20000, maxCount = 2},
+	{id = 2656, chance = 20000},
+	{id = 2164, chance = 20000},
+	{id = 2436, chance = 20000},
+	{id = 2466, chance = 20000},
+	{id = 7895, chance = 20000},
+	{id = 7898, chance = 20000},
+	{id = 8902, chance = 20000},
+	{id = 2123, chance = 20000},
+	{id = 7368, chance = 16667, maxCount = 3}
 }
 
 mType:register(monster)

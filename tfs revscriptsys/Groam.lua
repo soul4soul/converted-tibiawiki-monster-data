@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Groam")
 local monster = {}
 
 monster.name = "Groam"
-monster.description = ""
+monster.description = "Groam"
 monster.experience = 180
 monster.outfit = {
 	lookType = 0,
@@ -81,8 +81,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -120},
-	{name ="combat", interval = 2000, chance = 100, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -140, range = 7}
 }
 
 monster.defenses = {
@@ -94,6 +92,8 @@ monster.loot = {
 	{id = 2148, chance = 83333, maxCount = 87},
 	{id = 3965, chance = 27778, maxCount = 5},
 	{id = 2168, chance = 22222},
+	{id = 2149, chance = 20000},
+	{id = 5895, chance = 20000},
 	{id = 9809, chance = 11111}
 }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The Souldespoiler" nameDescription="" experience="50000" speed="0" manacost="0">
+<monster name="The Souldespoiler" nameDescription="The Souldespoiler" race="blood" experience="50000" speed="0" manacost="0">
 	<health now="290000" max="290000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="-8" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,42 +40,45 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-600" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="26191" name="energy bar" chance="100000" countmax="5" />
-		<item id="2148" name="gold coin" chance="100000" countmax="200" />
+		<item id="2148" name="gold coin" chance="100000" countmax="348" />
+		<item id="26191" name="energy bar" chance="100000" countmax="6" />
 		<item id="26165" name="mysterious remains" chance="100000" />
-		<item id="26166" name="odd organ" chance="100000" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="37" />
+		<item id="26174" name="spark sphere" chance="100000" countmax="10" />
+		<item id="27618" name="prismatic quartz" chance="100000" countmax="14" />
 		<item id="26162" name="plasma pearls" chance="100000" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="30" />
-		<item id="26167" name="curious matter" chance="61111" />
-		<item id="27618" name="prismatic quartz" chance="61111" countmax="10" />
-		<item id="26174" name="spark sphere" chance="61111" countmax="10" />
-		<item id="8473" name="ultimate health potion" chance="61111" countmax="10" />
-		<item id="7590" name="great mana potion" chance="44444" countmax="10" />
-		<item id="8472" name="great spirit potion" chance="44444" countmax="10" />
-		<item id="2154" name="yellow gem" chance="33333" />
-		<item name="giant shimmering pearl" chance="27778" />
-		<item id="25377" name="gold token" chance="27778" />
-		<item id="2150" name="small amethyst" chance="27778" countmax="10" />
-		<item id="2158" name="blue gem" chance="22222" />
-		<item id="2536" name="medusa shield" chance="22222" />
-		<item id="2149" name="small emerald" chance="22222" countmax="10" />
-		<item id="9970" name="small topaz" chance="22222" countmax="10" />
-		<item id="25172" name="silver token" chance="16667" />
-		<item id="2145" name="small diamond" chance="16667" countmax="10" />
-		<item id="7452" name="spiked squelcher" chance="16667" countmax="2" />
-		<item id="18390" name="wand of defiance" chance="16667" />
-		<item id="2155" name="green gem" chance="11111" />
-		<item id="7407" name="haunted blade" chance="11111" />
-		<item id="2146" name="small sapphire" chance="11111" countmax="10" />
-		<item id="7891" name="magma boots" chance="5556" />
-		<item id="7437" name="sapphire hammer" chance="5556" />
-		<item id="8900" name="spellbook of enlightenment" chance="5556" />
-		<item id="8910" name="underworld rod" chance="5556" />
-		<item id="2153" name="violet gem" chance="5556" />
+		<item id="26166" name="odd organ" chance="100000" />
+		<item id="8473" name="ultimate health potion" chance="66667" countmax="7" />
+		<item id="8472" name="great spirit potion" chance="66667" countmax="6" />
+		<item id="9970" name="small topaz" chance="66667" countmax="11" />
+		<item id="18390" name="wand of defiance" chance="33333" />
+		<item id="7419" name="dreaded cleaver" chance="33333" />
+		<item id="8910" name="underworld rod" chance="33333" />
+		<item id="25377" name="gold token" chance="33333" />
+		<item id="25172" name="silver token" chance="33333" />
+		<item id="7452" name="spiked squelcher" chance="33333" />
+		<item id="7590" name="great mana potion" chance="33333" countmax="5" />
+		<item id="25383" name="rift lance" chance="33333" />
+		<item id="2150" name="small amethyst" chance="33333" countmax="10" />
+		<item id="2158" name="blue gem" chance="33333" />
+		<item id="2155" name="green gem" chance="33333" />
+		<item id="26167" name="curious matter" chance="33333" countmax="10" />
+		<item id="2156" name="red gem" chance="33333" />
+		<item id="28016" name="heart of the mountain (item)" chance="20000" />
+		<item id="7891" name="magma boots" chance="20000" />
+		<item id="2536" name="medusa shield" chance="20000" />
+		<item id="2153" name="violet gem" chance="20000" />
+		<item id="8900" name="spellbook of enlightenment" chance="20000" />
+		<item id="2146" name="small sapphire" chance="20000" />
+		<item id="7435" name="impaler" chance="20000" />
+		<item id="2154" name="yellow gem" chance="20000" />
+		<item id="2145" name="small diamond" chance="20000" countmax="10" />
+		<item name="giant shimmering pearl" chance="20000" />
+		<item id="7407" name="haunted blade" chance="20000" />
+		<item id="7437" name="sapphire hammer" chance="20000" />
+		<item id="12644" name="shield of corruption" chance="20000" />
+		<item id="2149" name="small emerald" chance="20000" countmax="10" />
 	</loot>
 </monster>

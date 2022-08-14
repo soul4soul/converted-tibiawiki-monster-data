@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Feroxa")
 local monster = {}
 
 monster.name = "Feroxa"
-monster.description = ""
+monster.description = "Feroxa"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -66,19 +66,18 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = -10},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1500}
 }
 
 monster.defenses = {
@@ -87,23 +86,45 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2158, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 20},
+	{id = 2147, chance = 100000, maxCount = 4},
+	{id = 18414, chance = 100000},
+	{id = 2145, chance = 100000, maxCount = 5},
+	{id = "moonlight crystal", chance = 100000, maxCount = 2},
 	{id = 7591, chance = 100000, maxCount = 5},
-	{id = 7590, chance = 100000, maxCount = 6},
-	{id = 24739, chance = 100000, maxCount = 6},
-	{id = 2156, chance = 100000},
-	{id = 2145, chance = 100000, maxCount = 3},
-	{id = 2147, chance = 100000, maxCount = 3},
-	{id = 8473, chance = 100000},
-	{id = 24760, chance = 62500},
-	{id = 18414, chance = 62500},
-	{id = 7419, chance = 25000},
-	{id = 2152, chance = 25000, maxCount = 10},
-	{id = 18420, chance = 25000},
-	{id = 8889, chance = 25000},
-	{id = 24740, chance = 25000},
-	{id = 2195, chance = 12500},
-	{id = 24718, chance = 12500}
+	{id = 18420, chance = 100000},
+	{id = 7590, chance = 100000, maxCount = 2},
+	{id = 2197, chance = 20000},
+	{id = 7428, chance = 20000},
+	{id = 8922, chance = 20000},
+	{id = 2150, chance = 20000},
+	{id = 18416, chance = 20000},
+	{id = 2148, chance = 20000},
+	{id = 18417, chance = 20000},
+	{id = 2146, chance = 20000},
+	{id = 8472, chance = 20000},
+	{id = 8910, chance = 20000},
+	{id = 24743, chance = 20000},
+	{id = 2186, chance = 20000},
+	{id = 18415, chance = 20000},
+	{id = 2438, chance = 20000},
+	{id = 18418, chance = 20000},
+	{id = 8889, chance = 20000},
+	{id = 9970, chance = 20000},
+	{id = 24741, chance = 20000},
+	{id = 24742, chance = 20000},
+	{id = 24718, chance = 20000},
+	{id = 24740, chance = 20000},
+	{id = 24760, chance = 20000},
+	{id = 24716, chance = 20000},
+	{id = 24739, chance = 20000, maxCount = 6},
+	{id = 2158, chance = 20000},
+	{id = 2156, chance = 20000},
+	{id = 7419, chance = 20000},
+	{id = 18413, chance = 20000, maxCount = 5},
+	{id = 8473, chance = 20000, maxCount = 5},
+	{id = 2195, chance = 20000},
+	{id = 7436, chance = 20000}
 }
 
 mType:register(monster)

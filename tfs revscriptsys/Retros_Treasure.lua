@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Retros Treasure")
 local monster = {}
 
 monster.name = "Retros Treasure"
-monster.description = ""
+monster.description = "Retros Treasure"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -86,16 +86,26 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 60},
-	{id = 8472, chance = 55556, maxCount = 5},
-	{id = 35279, chance = 33333},
-	{id = 7591, chance = 22222, maxCount = 5},
-	{id = 7590, chance = 22222, maxCount = 5},
-	{id = 2153, chance = 22222, maxCount = 3},
-	{id = 32716, chance = 11111},
-	{id = 32717, chance = 11111},
-	{id = 2155, chance = 11111, maxCount = 3},
-	{id = 2156, chance = 11111, maxCount = 3}
+	{id = 2152, chance = 100000, maxCount = 118},
+	{id = 7590, chance = 37333, maxCount = 9},
+	{id = 37711, chance = 35000},
+	{id = 37712, chance = 35000},
+	{id = 7591, chance = 33333, maxCount = 9},
+	{id = 8472, chance = 29333, maxCount = 9},
+	{id = 2156, chance = 28000, maxCount = 5},
+	{id = 2153, chance = 24000, maxCount = 5},
+	{id = 2155, chance = 22667, maxCount = 5},
+	{id = 36435, chance = 20000},
+	{id = 37536, chance = 20000},
+	{id = 37397, chance = 20000},
+	{id = 35280, chance = 9333},
+	{id = 32717, chance = 6667},
+	{id = 35279, chance = 2667},
+	{id = 32715, chance = 2667},
+	{id = 32716, chance = 2667},
+	{id = 35278, chance = 1333},
+	{id = 37604, chance = 1333},
+	{id = 37605, chance = 1333}
 }
 
 mType:register(monster)

@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of An Elf"
 monster.description = "a memory of an elf"
-monster.experience = 0
+monster.experience = 1440
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3440
+monster.maxHealth = 3440
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -88,21 +88,21 @@ monster.defenses = {
 monster.loot = {
 	{id = 2148, chance = 97122, maxCount = 70},
 	{id = 2260, chance = 38849},
-	{id = 2689, chance = 32374},
 	{id = 1949, chance = 32374},
+	{id = 2689, chance = 32374},
 	{id = 2682, chance = 19424},
 	{id = 2652, chance = 14388},
 	{id = 2802, chance = 10791},
 	{id = 2544, chance = 8633, maxCount = 3},
 	{id = 37531, chance = 8633},
 	{id = 7618, chance = 7914},
-	{id = 2642, chance = 5036},
 	{id = 7589, chance = 5036},
+	{id = 2642, chance = 5036},
 	{id = "candlestick", chance = 4317},
 	{id = 2747, chance = 3597},
 	{id = 2600, chance = 2878},
-	{id = 2198, chance = 2158},
 	{id = 2189, chance = 2158},
+	{id = 2198, chance = 2158},
 	{id = 2177, chance = 1439}
 }
 

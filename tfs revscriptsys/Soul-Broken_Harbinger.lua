@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -30},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 55},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.attacks = {
@@ -87,19 +87,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 12},
-	{id = 32714, chance = 15206, maxCount = 3},
-	{id = 32661, chance = 12716},
-	{id = 10552, chance = 9483},
-	{id = 2396, chance = 4843},
-	{id = 7896, chance = 3274},
-	{id = 7892, chance = 3111},
-	{id = "ring of blue plasma", chance = 2611},
-	{id = 2477, chance = 2394},
-	{id = 2528, chance = 1799},
-	{id = 2664, chance = 1366},
-	{id = 2519, chance = 1272},
-	{id = 8902, chance = 1136},
-	{id = 26199, chance = 1015}
+	{id = 32714, chance = 15214, maxCount = 3},
+	{id = 32661, chance = 12818},
+	{id = 10552, chance = 9522},
+	{id = 2396, chance = 4781},
+	{id = 7896, chance = 3256},
+	{id = 7892, chance = 3087, maxCount = 2},
+	{id = "ring of blue plasma", chance = 2592},
+	{id = 2477, chance = 2397},
+	{id = 2528, chance = 1824},
+	{id = 2664, chance = 1355},
+	{id = 2519, chance = 1264},
+	{id = 8902, chance = 1120},
+	{id = 26199, chance = 1016}
 }
 
 mType:register(monster)

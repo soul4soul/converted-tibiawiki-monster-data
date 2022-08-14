@@ -68,41 +68,44 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 50},
+	{type = COMBAT_HOLYDAMAGE , percent = 10},
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -20}
 }
 
 monster.defenses = {
 	defense = 8,
-	armor = 8,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 14, maxDamage = 36}
+	armor = 8
+}
+
+monster.maxSummons = 2
+monster.summons = {
+	{name = "War Wolf", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
-	{id = 2148, chance = 90179, maxCount = 15},
-	{id = 2686, chance = 11013, maxCount = 2},
-	{id = 2464, chance = 9139},
-	{id = 7343, chance = 7636},
-	{id = 2401, chance = 6510},
-	{id = 3965, chance = 5296},
-	{id = "book (grey)", chance = 4681},
-	{id = 7620, chance = 615},
-	{id = 7379, chance = 304},
-	{id = 7457, chance = 156},
-	{id = 7463, chance = 133},
-	{id = 7464, chance = 89}
+	{id = 2148, chance = 90197, maxCount = 15},
+	{id = 2686, chance = 10966, maxCount = 2},
+	{id = 2464, chance = 9113},
+	{id = 7343, chance = 7638},
+	{id = 2401, chance = 6497},
+	{id = 3965, chance = 5319},
+	{id = "book (grey)", chance = 4694},
+	{id = 7620, chance = 610},
+	{id = 7379, chance = 298},
+	{id = 7457, chance = 153},
+	{id = 7463, chance = 138},
+	{id = 7464, chance = 87}
 }
 
 mType:register(monster)

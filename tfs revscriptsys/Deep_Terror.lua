@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Deep Terror")
 local monster = {}
 
 monster.name = "Deep Terror"
-monster.description = ""
+monster.description = "Deep Terror"
 monster.experience = 35000
 monster.outfit = {
 	lookType = 0,
@@ -74,26 +74,24 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 921}
+	armor = 10
 }
 
 monster.loot = {
-	{id = 23574, chance = 100000, maxCount = 3},
-	{id = 2152, chance = 63636, maxCount = 5},
-	{id = 9809, chance = 45455},
-	{id = 9971, chance = 36364},
-	{id = 24268, chance = 27273},
-	{id = 9812, chance = 9091}
+	{id = 23574, chance = 100000, maxCount = 2},
+	{id = 9971, chance = 100000},
+	{id = 24268, chance = 20000},
+	{id = 2152, chance = 20000},
+	{id = 9809, chance = 20000},
+	{id = 9812, chance = 20000}
 }
 
 mType:register(monster)

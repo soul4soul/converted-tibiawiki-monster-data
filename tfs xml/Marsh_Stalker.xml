@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Marsh Stalker" nameDescription="a marsh stalker" experience="50" speed="150" manacost="0">
+<monster name="Marsh Stalker" nameDescription="a marsh stalker" race="blood" experience="50" speed="150" manacost="0">
 	<health now="100" max="100" />
 	<look type="530" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,31 +31,35 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="-5" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="5" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-12" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="0" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="smallstone" />
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
 	</attacks>
 	<defenses armor="3" defense="3" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Rrrawk! Rrrrawk!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64016" countmax="25" />
-		<item id="2667" name="fish" chance="20273" countmax="2" />
-		<item id="2666" name="meat" chance="19960" />
-		<item id="3976" name="worm" chance="14660" countmax="2" />
-		<item id="19742" name="marsh stalker feather" chance="8646" />
-		<item id="2397" name="longsword" chance="7477" />
-		<item id="19741" name="marsh stalker beak" chance="6107" />
-		<item id="2120" name="rope" chance="4887" />
-		<item id="7732" name="seeds" chance="106" />
+		<item id="2148" name="gold coin" chance="64034" countmax="25" />
+		<item id="2667" name="fish" chance="20254" countmax="2" />
+		<item id="2666" name="meat" chance="19939" countmax="2" />
+		<item id="3976" name="worm" chance="14652" countmax="2" />
+		<item id="19742" name="marsh stalker feather" chance="8648" />
+		<item id="2397" name="longsword" chance="7482" />
+		<item id="19741" name="marsh stalker beak" chance="6112" />
+		<item id="2120" name="rope" chance="4892" />
+		<item id="7732" name="seeds" chance="105" />
 	</loot>
 </monster>

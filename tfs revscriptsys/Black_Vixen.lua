@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Black Vixen")
 local monster = {}
 
 monster.name = "Black Vixen"
-monster.description = ""
+monster.description = "Black Vixen"
 monster.experience = 3200
 monster.outfit = {
 	lookType = 0,
@@ -67,15 +67,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 60},
+	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
@@ -86,31 +86,37 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Werefox", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
 	{id = 30118, chance = 100000},
 	{id = 2152, chance = 100000, maxCount = 10},
 	{id = 30119, chance = 100000},
-	{id = 7368, chance = 81616, maxCount = 10},
-	{id = 2148, chance = 77021, maxCount = 75},
-	{id = 2144, chance = 48336, maxCount = 2},
-	{id = 7590, chance = 41363, maxCount = 2},
-	{id = 8472, chance = 39303, maxCount = 2},
-	{id = 7761, chance = 31854, maxCount = 3},
-	{id = 2155, chance = 19810},
-	{id = 26030, chance = 14739, maxCount = 2},
-	{id = 26029, chance = 13788, maxCount = 2},
-	{id = 2165, chance = 8875},
-	{id = 2186, chance = 7132},
-	{id = 11306, chance = 6498},
-	{id = 30362, chance = 5705},
-	{id = 2805, chance = 5071},
-	{id = 24739, chance = 3328},
-	{id = 24716, chance = 3328},
-	{id = 25172, chance = 2060},
-	{id = 8855, chance = 951},
-	{id = 2171, chance = 317},
-	{id = 15545, chance = 158},
-	{id = 24740, chance = 158}
+	{id = 7368, chance = 81241, maxCount = 10},
+	{id = 2148, chance = 77574, maxCount = 75},
+	{id = 2144, chance = 44852, maxCount = 2},
+	{id = 7590, chance = 41185, maxCount = 2},
+	{id = 8472, chance = 39915, maxCount = 2},
+	{id = 7761, chance = 34979, maxCount = 3},
+	{id = 2155, chance = 20169},
+	{id = 26030, chance = 14669, maxCount = 2},
+	{id = 26029, chance = 13963, maxCount = 2},
+	{id = 2165, chance = 9450},
+	{id = 2186, chance = 7334},
+	{id = 11306, chance = 6347},
+	{id = 30362, chance = 5783},
+	{id = 2805, chance = 5501},
+	{id = 24739, chance = 2962},
+	{id = 24716, chance = 2962},
+	{id = 25172, chance = 2116},
+	{id = 8855, chance = 846},
+	{id = 2171, chance = 282},
+	{id = 15545, chance = 141},
+	{id = 24740, chance = 141},
+	{id = "moonlight crystal", chance = 141, maxCount = 2}
 }
 
 mType:register(monster)

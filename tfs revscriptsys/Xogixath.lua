@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Xogixath")
 local monster = {}
 
 monster.name = "Xogixath"
-monster.description = ""
+monster.description = "Xogixath"
 monster.experience = 22000
 monster.outfit = {
 	lookType = 0,
@@ -68,13 +68,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 50},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -15},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
@@ -86,16 +86,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 9},
-	{id = 18418, chance = 16667},
-	{id = 18421, chance = 16667},
-	{id = 18415, chance = 16667},
-	{id = 2156, chance = 11111},
-	{id = 2197, chance = 11111},
-	{id = 6300, chance = 5556},
-	{id = 7759, chance = 5556, maxCount = 2},
-	{id = 8921, chance = 5556},
-	{id = 2187, chance = 5556}
+	{id = 2156, chance = 50000, maxCount = 2},
+	{id = 33980, chance = 50000},
+	{id = 2146, chance = 20000, maxCount = 3},
+	{id = 2152, chance = 20000, maxCount = 9},
+	{id = 18415, chance = 20000},
+	{id = 2197, chance = 20000},
+	{id = 2432, chance = 20000},
+	{id = 33979, chance = 20000},
+	{id = "enchanted blister ring", chance = 20000},
+	{id = 34273, chance = 20000},
+	{id = 18421, chance = 20000},
+	{id = 8921, chance = 20000},
+	{id = 18418, chance = 20000},
+	{id = 7759, chance = 20000},
+	{id = 2187, chance = 20000},
+	{id = 6300, chance = 20000}
 }
 
 mType:register(monster)

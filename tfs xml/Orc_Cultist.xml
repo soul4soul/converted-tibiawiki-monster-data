@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Orc Cultist" nameDescription="an orc cultist" experience="950" speed="190" manacost="0">
+<monster name="Orc Cultist" nameDescription="an orc cultist" race="blood" experience="950" speed="190" manacost="0">
 	<health now="1350" max="1350" />
 	<look type="7" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -12,8 +12,8 @@
 		<flag isboss="0" />
 		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
-		<flag canpushitems="0" />
-		<flag canpushcreatures="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
 		<flag healthhidden="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="30" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
@@ -46,14 +46,14 @@
 	<defenses armor="30" defense="30" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="217" />
-		<item id="7588" name="strong health potion" chance="17327" />
-		<item id="2428" name="orcish axe" chance="8581" />
-		<item id="2671" name="ham" chance="8292" />
-		<item id="5910" name="green piece of cloth" chance="5776" />
-		<item id="9970" name="small topaz" chance="4290" countmax="2" />
-		<item id="10556" name="cultish robe" chance="3177" />
-		<item id="18417" name="brown crystal splinter" chance="2269" countmax="2" />
-		<item id="8614" name="orc tusk" chance="825" />
-		<item id="7439" name="berserk potion" chance="743" />
+		<item id="7588" name="strong health potion" chance="17312" />
+		<item id="2428" name="orcish axe" chance="8456" />
+		<item id="2671" name="ham" chance="8217" />
+		<item id="5910" name="green piece of cloth" chance="5744" />
+		<item id="9970" name="small topaz" chance="4228" countmax="2" />
+		<item id="10556" name="cultish robe" chance="3191" />
+		<item id="18417" name="brown crystal splinter" chance="2194" countmax="2" />
+		<item id="8614" name="orc tusk" chance="798" />
+		<item id="7439" name="berserk potion" chance="718" />
 	</loot>
 </monster>

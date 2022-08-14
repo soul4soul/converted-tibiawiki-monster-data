@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Banshee" nameDescription="a memory of a banshee" experience="0" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Banshee" nameDescription="a memory of a banshee" race="blood" experience="1430" speed="0" manacost="0">
+	<health now="3600" max="3600" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -47,12 +47,12 @@
 		<item id="2170" name="silver amulet" chance="16901" />
 		<item id="2657" name="simple dress" chance="7042" />
 		<item id="2124" name="crystal ring" chance="4225" />
+		<item id="2121" name="wedding ring" chance="2817" />
 		<item id="37530" name="bottle of champagne" chance="2817" />
 		<item id="37468" name="special fx box" chance="2817" />
-		<item id="2121" name="wedding ring" chance="2817" />
 		<item id="2071" name="lyre" chance="1408" />
 		<item id="2411" name="poison dagger" chance="1408" />
-		<item id="2197" name="stone skin amulet" chance="1408" />
 		<item id="7589" name="strong mana potion" chance="1408" />
+		<item id="2197" name="stone skin amulet" chance="1408" />
 	</loot>
 </monster>

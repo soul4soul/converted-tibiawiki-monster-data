@@ -90,11 +90,11 @@ monster.defenses = {
 
 monster.maxSummons = 2
 monster.summons = {
-	{name = "Mechanical Fighter", chance = 15, interval = 2000, max = 1}
+	{name = "Mechanical Fighter", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
-	{id = 2148, chance = 93324, maxCount = 147},
+	{id = 2148, chance = 93324, maxCount = 149},
 	{id = 2152, chance = 5303},
 	{id = 10606, chance = 4735},
 	{id = 2391, chance = 805}

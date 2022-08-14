@@ -66,19 +66,18 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
+	{type = COMBAT_EARTHDAMAGE, percent = 1},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 50},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400}
 }
 
 monster.defenses = {
@@ -86,17 +85,24 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 8
+monster.summons = {
+	{name = "Canopic Jar", chance = 15, interval = 2000, max = 8}
+}
+
 monster.loot = {
-	{id = 2144, chance = 100000, maxCount = 5},
 	{id = 2152, chance = 100000, maxCount = 15},
-	{id = 2159, chance = 100000, maxCount = 4},
-	{id = 2142, chance = 32787},
-	{id = 7591, chance = 29508, maxCount = 4},
-	{id = 7590, chance = 18033, maxCount = 4},
-	{id = 2440, chance = 6557},
-	{id = 2540, chance = 4918},
-	{id = 2134, chance = 4918},
-	{id = "rusty armor", chance = 1639}
+	{id = 2159, chance = 100000, maxCount = 5},
+	{id = 2144, chance = 100000, maxCount = 5},
+	{id = 2142, chance = 33871},
+	{id = 7591, chance = 29032, maxCount = 5},
+	{id = 2148, chance = 20000, maxCount = 200},
+	{id = "rusty armor", chance = 20000},
+	{id = 7590, chance = 17742, maxCount = 5},
+	{id = 2440, chance = 6452},
+	{id = 2540, chance = 4839},
+	{id = 2134, chance = 4839},
+	{id = "rusty armor (common)", chance = 1613}
 }
 
 mType:register(monster)

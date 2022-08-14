@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Hydra"
 monster.description = "a memory of a hydra"
-monster.experience = 0
+monster.experience = 1800
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3550
+monster.maxHealth = 3550
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,13 +86,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 87826, maxCount = 169},
-	{id = 2671, chance = 63478},
-	{id = 2152, chance = 55652, maxCount = 3},
-	{id = 2146, chance = 5217},
-	{id = 37530, chance = 2609},
-	{id = 8842, chance = 2609},
-	{id = 2197, chance = 1739}
+	{id = 2148, chance = 100000, maxCount = 123},
+	{id = 2671, chance = 75000},
+	{id = 2152, chance = 50000, maxCount = 2},
+	{id = 8842, chance = 25000},
+	{id = 37530, chance = 20000},
+	{id = 2146, chance = 20000},
+	{id = 2197, chance = 20000}
 }
 
 mType:register(monster)

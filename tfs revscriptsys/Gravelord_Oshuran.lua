@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Gravelord Oshuran")
 local monster = {}
 
 monster.name = "Gravelord Oshuran"
-monster.description = ""
+monster.description = "Gravelord Oshuran"
 monster.experience = 2400
 monster.outfit = {
 	lookType = 0,
@@ -67,19 +67,18 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 80},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 35},
+	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250}
 }
 
 monster.defenses = {
@@ -88,14 +87,21 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 310, maxDamage = 775}
 }
 
+monster.maxSummons = 4
+monster.summons = {
+	{name = "Bonebeast", chance = 15, interval = 2000, max = 4}
+}
+
 monster.loot = {
-	{id = 2148, chance = 87500, maxCount = 115},
-	{id = 2214, chance = 25000},
-	{id = 2175, chance = 18750},
-	{id = 8904, chance = 12500},
-	{id = 2143, chance = 12500},
-	{id = 2144, chance = 6250},
-	{id = 2656, chance = 6250}
+	{id = 2148, chance = 88235, maxCount = 115},
+	{id = 2214, chance = 23529},
+	{id = 2175, chance = 23529},
+	{id = 7589, chance = 20000},
+	{id = 7893, chance = 20000},
+	{id = 2143, chance = 11765},
+	{id = 8904, chance = 11765},
+	{id = 2144, chance = 5882},
+	{id = 2656, chance = 5882}
 }
 
 mType:register(monster)

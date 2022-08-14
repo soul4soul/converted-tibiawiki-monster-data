@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500}
 }
 
 monster.defenses = {
@@ -86,25 +85,32 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 15
+monster.summons = {
+	{name = "Hardened Usurper Archer", chance = 15, interval = 2000, max = 5},
+	{name = "Hardened Usurper Knight", chance = 15, interval = 2000, max = 5},
+	{name = "Hardened Usurper Warlock", chance = 15, interval = 2000, max = 5}
+}
+
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 36820, chance = 16704},
-	{id = 2386, chance = 15632},
-	{id = 36818, chance = 9603},
-	{id = 9971, chance = 8754},
-	{id = 36816, chance = 8754},
-	{id = 2456, chance = 8397},
-	{id = 7633, chance = 7682},
-	{id = 8901, chance = 5181},
-	{id = 8922, chance = 3930},
-	{id = 8912, chance = 3752},
-	{id = 2155, chance = 2858},
-	{id = 2153, chance = 2546},
-	{id = "ring of red plasma", chance = 2054},
-	{id = "ring of blue plasma", chance = 1921},
-	{id = 18413, chance = 1608},
-	{id = 7443, chance = 357},
-	{id = "giant shimmering pearl", chance = 179}
+	{id = 36820, chance = 16207},
+	{id = 2386, chance = 15533},
+	{id = 36818, chance = 10447},
+	{id = 36816, chance = 9099},
+	{id = 2456, chance = 8456},
+	{id = 9971, chance = 8364},
+	{id = 7633, chance = 8027},
+	{id = 8901, chance = 5208},
+	{id = 8912, chance = 4289},
+	{id = 8922, chance = 3983},
+	{id = 2155, chance = 2880},
+	{id = 2153, chance = 2635},
+	{id = "ring of blue plasma", chance = 2267},
+	{id = "ring of red plasma", chance = 2022},
+	{id = 18413, chance = 1471},
+	{id = 7443, chance = 398},
+	{id = "giant shimmering pearl", chance = 123}
 }
 
 mType:register(monster)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Werehyaena Shaman" nameDescription="a werehyaena shaman" experience="2200" speed="220" manacost="0">
+<monster name="Werehyaena Shaman" nameDescription="a werehyaena shaman" race="blood" experience="2200" speed="220" manacost="0">
 	<health now="2500" max="2500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1300" head="0" body="0" legs="94" feet="95" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -31,36 +31,33 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="40" />
+		<element firePercent="25" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-20" />
+		<element holyPercent="5" />
+		<element deathPercent="-5" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-260" />
-	</attacks>
 	<defenses armor="38" defense="38" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="3" />
-		<item id="7590" name="great mana potion" chance="20721" />
-		<item id="36599" name="werehyaena nose" chance="14990" />
-		<item id="2150" name="small amethyst" chance="11082" countmax="2" />
-		<item id="18416" name="green crystal splinter" chance="9158" />
-		<item id="2183" name="hailstorm rod" chance="6513" />
-		<item id="8920" name="wand of starstorm" chance="5491" />
-		<item id="2485" name="doublet" chance="5210" />
-		<item id="18417" name="brown crystal splinter" chance="4810" />
-		<item id="7761" name="small enchanted emerald" chance="4629" countmax="5" />
-		<item id="2207" name="sword ring" chance="4208" />
-		<item id="8922" name="wand of voodoo" chance="3727" />
-		<item id="2200" name="protection amulet" chance="2625" />
-		<item id="2529" name="black shield" chance="2385" />
-		<item id="24739" name="moonlight crystals" chance="822" />
-		<item id="36600" name="werehyaena talisman" chance="661" />
-		<item id="36875" name="werehyaena trophy" chance="180" />
+		<item id="7590" name="great mana potion" chance="20451" />
+		<item id="36599" name="werehyaena nose" chance="15103" />
+		<item id="2150" name="small amethyst" chance="10768" countmax="2" />
+		<item id="18416" name="green crystal splinter" chance="9275" />
+		<item id="2183" name="hailstorm rod" chance="6503" />
+		<item id="8920" name="wand of starstorm" chance="5473" />
+		<item id="2485" name="doublet" chance="5171" />
+		<item id="18417" name="brown crystal splinter" chance="4797" />
+		<item id="7761" name="small enchanted emerald" chance="4655" countmax="5" />
+		<item id="2207" name="sword ring" chance="4282" />
+		<item id="8922" name="wand of voodoo" chance="3749" />
+		<item id="2200" name="protection amulet" chance="2736" />
+		<item id="2529" name="black shield" chance="2523" />
+		<item id="24739" name="moonlight crystals" chance="1297" />
+		<item id="36600" name="werehyaena talisman" chance="622" />
+		<item id="36875" name="werehyaena trophy" chance="178" />
 	</loot>
 </monster>

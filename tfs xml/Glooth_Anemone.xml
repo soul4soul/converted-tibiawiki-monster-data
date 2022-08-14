@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Glooth Anemone" nameDescription="a glooth anemone" experience="1755" speed="180" manacost="0">
+<monster name="Glooth Anemone" nameDescription="a glooth anemone" race="blood" experience="1755" speed="180" manacost="0">
 	<health now="2400" max="2400" />
 	<look type="604" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="35" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
@@ -50,26 +50,26 @@
 		<voice sentence="*shglib*" yell="false" />
 	</voices>
 	<summons maxSummons="2">
-		<voice name="Glooth Blob" interval="2000" chance="15" max="1" />
+		<voice name="Glooth Blob" interval="2000" chance="15" max="2" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="99873" countmax="173" />
-		<item id="2152" name="platinum coin" chance="58140" countmax="3" />
-		<item id="23568" name="slimy leaf tentacle" chance="18379" />
-		<item id="23515" name="bowl of glooth soup" chance="9895" />
-		<item id="9970" name="small topaz" chance="7959" countmax="4" />
-		<item id="2149" name="small emerald" chance="7941" countmax="4" />
-		<item id="2147" name="small ruby" chance="7634" countmax="4" />
-		<item id="7589" name="strong mana potion" chance="7489" countmax="2" />
-		<item id="7588" name="strong health potion" chance="7381" countmax="2" />
-		<item id="23543" name="glooth whip" chance="4034" />
-		<item id="2796" name="green mushroom" chance="2912" />
-		<item id="8473" name="ultimate health potion" chance="2352" countmax="2" />
-		<item id="23549" name="glooth club" chance="1049" />
-		<item id="23554" name="glooth amulet" chance="941" />
-		<item id="23550" name="glooth blade" chance="868" />
-		<item id="23535" name="glooth cape" chance="868" />
-		<item id="23529" name="glooth spear" chance="832" />
-		<item id="23551" name="glooth axe" chance="814" />
+		<item id="2148" name="gold coin" chance="99917" countmax="175" />
+		<item id="2152" name="platinum coin" chance="58944" countmax="3" />
+		<item id="23568" name="slimy leaf tentacle" chance="18654" />
+		<item id="23515" name="bowl of glooth soup" chance="9928" />
+		<item id="9970" name="small topaz" chance="8023" countmax="4" />
+		<item id="7589" name="strong mana potion" chance="7878" countmax="2" />
+		<item id="2149" name="small emerald" chance="7785" countmax="4" />
+		<item id="2147" name="small ruby" chance="7764" countmax="4" />
+		<item id="7588" name="strong health potion" chance="7505" countmax="2" />
+		<item id="23543" name="glooth whip" chance="4099" />
+		<item id="2796" name="green mushroom" chance="2795" />
+		<item id="8473" name="ultimate health potion" chance="2205" countmax="2" />
+		<item id="23549" name="glooth club" chance="1035" />
+		<item id="23554" name="glooth amulet" chance="983" />
+		<item id="23550" name="glooth blade" chance="911" />
+		<item id="23551" name="glooth axe" chance="859" />
+		<item id="23529" name="glooth spear" chance="859" />
+		<item id="23535" name="glooth cape" chance="818" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Misguided Bully" nameDescription="a misguided bully" experience="1200" speed="180" manacost="0">
+<monster name="Misguided Bully" nameDescription="a misguided bully" race="blood" experience="1200" speed="180" manacost="0">
 	<health now="2000" max="2000" />
 	<look type="159" head="58" body="21" legs="41" feet="76" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,15 +29,15 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="20" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="30" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="-30" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
@@ -50,10 +50,10 @@
 		<defense name="healing" interval="2000" chance="20" min="400" max="480" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="81619" countmax="173" />
-		<item id="2666" name="meat" chance="45164" />
-		<item id="27952" name="rubbish amulet" chance="6521" />
-		<item id="9971" name="gold ingot" chance="4945" />
-		<item id="2158" name="blue gem" chance="656" />
+		<item id="2148" name="gold coin" chance="80498" countmax="173" />
+		<item id="2666" name="meat" chance="45426" />
+		<item id="27952" name="rubbish amulet" chance="6617" />
+		<item id="9971" name="gold ingot" chance="5060" />
+		<item id="2158" name="blue gem" chance="623" />
 	</loot>
 </monster>

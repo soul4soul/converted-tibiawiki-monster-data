@@ -66,19 +66,18 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -30},
+	{type = COMBAT_EARTHDAMAGE, percent = 25},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -86,22 +85,27 @@ monster.defenses = {
 	armor = 93
 }
 
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Young Goanna", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
 	{id = 2152, chance = 100000},
-	{id = 24845, chance = 12245},
-	{id = 24844, chance = 10884},
-	{id = 24840, chance = 9524},
-	{id = 12408, chance = 9184},
-	{id = 24847, chance = 7823},
-	{id = 7886, chance = 7143},
-	{id = 7887, chance = 6122},
-	{id = 18414, chance = 6122},
-	{id = 18421, chance = 5102},
-	{id = 20111, chance = 3741},
-	{id = 2154, chance = 3741},
-	{id = 10219, chance = 2721},
-	{id = 2153, chance = 2381},
-	{id = 24839, chance = 1020}
+	{id = 24845, chance = 11856},
+	{id = 24840, chance = 10825},
+	{id = 24844, chance = 10567},
+	{id = 24847, chance = 10052},
+	{id = 12408, chance = 9278},
+	{id = 7886, chance = 7216},
+	{id = 7887, chance = 6701},
+	{id = 18414, chance = 5928},
+	{id = 18421, chance = 4897},
+	{id = 2154, chance = 4381},
+	{id = 20111, chance = 4124},
+	{id = 2153, chance = 2835},
+	{id = 10219, chance = 2577},
+	{id = 24839, chance = 773}
 }
 
 mType:register(monster)

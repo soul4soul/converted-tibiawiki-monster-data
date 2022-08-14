@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The Blightfather" nameDescription="" experience="400" speed="0" manacost="0">
+<monster name="The Blightfather" nameDescription="The Blightfather" race="blood" experience="400" speed="0" manacost="0">
 	<health now="400" max="400" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,7 +31,7 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
@@ -40,15 +40,16 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="10" defense="5" />
+	<summons maxSummons="2">
+		<voice name="Lancer Beetle" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
 		<item id="11372" name="lancer beetle shell" chance="83333" />
 		<item id="10557" name="poisonous slime" chance="75000" />
-		<item id="2148" name="gold coin" chance="70833" countmax="74" />
+		<item id="2148" name="gold coin" chance="70833" countmax="91" />
 		<item id="10609" name="lump of dirt" chance="29167" />
+		<item id="2150" name="small amethyst" chance="20000" />
 		<item id="11374" name="beetle necklace" chance="16667" />
 	</loot>
 </monster>

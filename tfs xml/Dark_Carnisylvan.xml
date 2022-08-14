@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dark Carnisylvan" nameDescription="a dark carnisylvan" experience="4400" speed="240" manacost="0">
+<monster name="Dark Carnisylvan" nameDescription="a dark carnisylvan" race="blood" experience="4400" speed="240" manacost="0">
 	<health now="7500" max="7500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1418" head="76" body="57" legs="0" feet="19" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -31,30 +31,30 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="10" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-10" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="20" />
 	</elements>
 	<defenses armor="41" defense="41" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="100000" countmax="19" />
-		<item id="2230" name="bone" chance="29378" />
-		<item id="39461" name="carnisylvan finger" chance="11637" />
-		<item id="39462" name="carnisylvan bark" chance="9774" />
-		<item id="7590" name="great mana potion" chance="8283" />
-		<item id="8910" name="underworld rod" chance="4299" />
-		<item id="8920" name="wand of starstorm" chance="3869" />
-		<item id="2183" name="hailstorm rod" chance="2809" />
-		<item id="8912" name="springsprout rod" chance="2723" />
-		<item id="2175" name="spellbook" chance="2694" />
-		<item id="8901" name="spellbook of warding" chance="1691" />
-		<item id="2179" name="gold ring" chance="745" />
-		<item id="28354" name="butterfly ring" chance="631" />
-		<item id="39463" name="human teeth" chance="573" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="23" />
+		<item id="2230" name="bone" chance="37659" />
+		<item id="39461" name="carnisylvan finger" chance="15649" />
+		<item id="39462" name="carnisylvan bark" chance="11959" />
+		<item id="7590" name="great mana potion" chance="8906" />
+		<item id="2183" name="hailstorm rod" chance="4071" />
+		<item id="8910" name="underworld rod" chance="4071" />
+		<item id="8920" name="wand of starstorm" chance="3944" />
+		<item id="2175" name="spellbook" chance="3181" />
+		<item id="8912" name="springsprout rod" chance="3053" />
+		<item id="8901" name="spellbook of warding" chance="2799" />
+		<item id="39463" name="human teeth" chance="1272" />
+		<item id="28354" name="butterfly ring" chance="636" />
+		<item id="2179" name="gold ring" chance="509" />
 	</loot>
 </monster>

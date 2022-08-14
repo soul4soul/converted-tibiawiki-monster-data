@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Armenius (Creature)")
 local monster = {}
 
 monster.name = "Armenius"
-monster.description = ""
+monster.description = "Armenius"
 monster.experience = 500
 monster.outfit = {
 	lookType = 0,
@@ -83,7 +83,8 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 5,
-	armor = 10
+	armor = 10,
+	{name ="outfit", interval = 2000, chance = 15, monster = "Bat", duration = 5000}
 }
 
 monster.loot = {

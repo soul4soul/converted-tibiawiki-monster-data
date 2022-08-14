@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Werelion" nameDescription="a memory of a werelion" experience="1800" speed="0" manacost="0">
+<monster name="Memory Of A Werelion" nameDescription="a memory of a werelion" race="blood" experience="1800" speed="0" manacost="0">
 	<health now="3880" max="3880" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -42,17 +42,17 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="86388" countmax="100" />
-		<item id="8472" name="great spirit potion" chance="38679" countmax="2" />
-		<item id="2666" name="meat" chance="12668" />
-		<item id="2145" name="small diamond" chance="4852" />
-		<item id="7760" name="small enchanted ruby" chance="3774" countmax="5" />
-		<item id="28393" name="rainbow quartz" chance="3639" countmax="3" />
-		<item id="24849" name="onyx chip" chance="3369" />
-		<item id="37531" name="candy floss (large)" chance="3235" />
-		<item id="27047" name="coral brooch" chance="2830" />
-		<item id="2134" name="silver brooch" chance="2291" />
-		<item id="37468" name="special fx box" chance="1348" />
-		<item id="37530" name="bottle of champagne" chance="809" />
+		<item id="2148" name="gold coin" chance="84375" countmax="100" />
+		<item id="8472" name="great spirit potion" chance="39844" countmax="2" />
+		<item id="37468" name="special fx box" chance="20000" />
+		<item id="37530" name="bottle of champagne" chance="20000" />
+		<item id="2666" name="meat" chance="7812" />
+		<item id="2134" name="silver brooch" chance="6250" />
+		<item id="28393" name="rainbow quartz" chance="4688" countmax="3" />
+		<item id="7760" name="small enchanted ruby" chance="2344" countmax="3" />
+		<item id="27047" name="coral brooch" chance="1562" />
+		<item id="24849" name="onyx chip" chance="1562" />
+		<item id="2145" name="small diamond" chance="1562" />
+		<item id="37531" name="candy floss (large)" chance="781" />
 	</loot>
 </monster>

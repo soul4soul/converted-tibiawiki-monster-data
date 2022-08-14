@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Yalahari" nameDescription="a memory of a yalahari" experience="0" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Yalahari" nameDescription="a memory of a yalahari" race="blood" experience="1640" speed="0" manacost="0">
+	<health now="3540" max="3540" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -42,12 +42,12 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="83236" countmax="3" />
-		<item id="37530" name="bottle of champagne" chance="2144" />
-		<item id="2153" name="violet gem" chance="1949" />
-		<item id="37468" name="special fx box" chance="1365" />
-		<item id="2157" name="gold nugget" chance="975" />
-		<item id="2155" name="green gem" chance="780" />
-		<item id="18414" name="violet crystal shard" chance="585" />
+		<item id="2152" name="platinum coin" chance="75000" countmax="3" />
+		<item id="37468" name="special fx box" chance="20000" />
+		<item id="37530" name="bottle of champagne" chance="20000" />
+		<item id="2153" name="violet gem" chance="20000" />
+		<item id="2157" name="gold nugget" chance="20000" />
+		<item id="18414" name="violet crystal shard" chance="20000" />
+		<item id="2155" name="green gem" chance="20000" />
 	</loot>
 </monster>

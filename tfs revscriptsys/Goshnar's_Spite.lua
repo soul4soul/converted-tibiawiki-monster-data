@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Goshnar's Spite")
 local monster = {}
 
 monster.name = "Goshnar's Spite"
-monster.description = ""
+monster.description = "Goshnar's Spite"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -86,18 +86,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 100000, maxCount = 70},
-	{id = 26031, chance = 100000, maxCount = 90},
-	{id = 2154, chance = 100000},
-	{id = 36765, chance = 50000},
-	{id = 2158, chance = 50000},
-	{id = 7443, chance = 50000, maxCount = 25},
-	{id = 35278, chance = 50000},
-	{id = 35279, chance = 50000},
-	{id = 2155, chance = 50000},
-	{id = 7440, chance = 50000, maxCount = 25},
-	{id = 26029, chance = 50000, maxCount = 20},
-	{id = 26030, chance = 50000, maxCount = 90}
+	{id = 2160, chance = 100000, maxCount = 64},
+	{id = 2153, chance = 100000},
+	{id = 26029, chance = 100000, maxCount = 59},
+	{id = 35279, chance = 100000},
+	{id = "giant shimmering pearl", chance = 100000},
+	{id = 26030, chance = 100000, maxCount = 26},
+	{id = 7443, chance = 100000, maxCount = 49},
+	{id = 2154, chance = 20000},
+	{id = 35278, chance = 20000},
+	{id = 26031, chance = 20000},
+	{id = 2155, chance = 20000},
+	{id = 2156, chance = 20000},
+	{id = 36608, chance = 20000},
+	{id = 36582, chance = 20000},
+	{id = 36731, chance = 20000},
+	{id = 36728, chance = 20000},
+	{id = 36765, chance = 20000},
+	{id = 2158, chance = 20000},
+	{id = 7440, chance = 20000}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Charged Energy Elemental" nameDescription="a charged energy elemental" experience="450" speed="0" manacost="0">
+<monster name="Charged Energy Elemental" nameDescription="a charged energy elemental" race="blood" experience="450" speed="0" manacost="0">
 	<health now="500" max="500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="-5" />
+		<element energyPercent="100" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -45,7 +45,7 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="74074" countmax="122" />
+		<item id="2148" name="gold coin" chance="74074" countmax="128" />
 		<item id="8303" name="energy soil" chance="5185" />
 		<item id="7838" name="flash arrow" chance="4691" countmax="3" />
 	</loot>

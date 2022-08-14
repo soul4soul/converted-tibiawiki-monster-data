@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Lizard Templar" nameDescription="a lizard templar" experience="155" speed="174" manacost="0">
+<monster name="Lizard Templar" nameDescription="a lizard templar" race="blood" experience="155" speed="174" manacost="0">
 	<health now="410" max="410" />
 	<look type="113" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,13 +30,13 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="10" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -48,17 +48,17 @@
 		<voice sentence="Hissss!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="84168" countmax="60" />
-		<item id="2406" name="short sword" chance="9769" />
-		<item id="2376" name="sword" chance="4858" />
-		<item id="3351" name="steel helmet" chance="1972" />
-		<item id="2394" name="morning star" chance="1908" />
-		<item id="2463" name="plate armor" chance="1041" />
-		<item id="5881" name="lizard scale" chance="966" />
-		<item id="5876" name="lizard leather" chance="849" />
-		<item id="7618" name="health potion" chance="826" />
-		<item id="3963" name="templar scytheblade" chance="529" />
-		<item id="2149" name="small emerald" chance="256" />
-		<item id="3975" name="salamander shield" chance="116" />
+		<item id="2148" name="gold coin" chance="84165" countmax="60" />
+		<item id="2406" name="short sword" chance="9813" />
+		<item id="2376" name="sword" chance="4898" />
+		<item id="3351" name="steel helmet" chance="1961" />
+		<item id="2394" name="morning star" chance="1909" />
+		<item id="2463" name="plate armor" chance="1033" />
+		<item id="5881" name="lizard scale" chance="981" />
+		<item id="5876" name="lizard leather" chance="854" />
+		<item id="7618" name="health potion" chance="819" />
+		<item id="3963" name="templar scytheblade" chance="525" />
+		<item id="2149" name="small emerald" chance="254" />
+		<item id="3975" name="salamander shield" chance="115" />
 	</loot>
 </monster>

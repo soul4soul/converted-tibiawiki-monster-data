@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Merlkin" nameDescription="a merlkin" experience="145" speed="194" manacost="0">
+<monster name="Merlkin" nameDescription="a merlkin" race="blood" experience="145" speed="194" manacost="0">
 	<health now="235" max="235" />
 	<look type="117" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,36 +30,31 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="10" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-15" />
+		<element holyPercent="10" />
+		<element deathPercent="-5" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
-	</attacks>
-	<defenses armor="16" defense="16">
-		<defense name="healing" interval="2000" chance="20" min="23" max="58" />
-	</defenses>
+	<defenses armor="16" defense="16" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Ugh! Ugh! Ugh!" yell="false" />
 		<voice sentence="Holy banana!" yell="false" />
 		<voice sentence="Chakka! Chakka!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82947" countmax="45" />
-		<item id="2676" name="banana" chance="30430" countmax="12" />
-		<item id="2162" name="magic light wand" chance="3020" />
-		<item id="12467" name="banana sash" chance="1918" />
+		<item id="2148" name="gold coin" chance="82943" countmax="45" />
+		<item id="2676" name="banana" chance="30426" countmax="12" />
+		<item id="2162" name="magic light wand" chance="3019" />
+		<item id="12467" name="banana sash" chance="1917" />
 		<item id="5883" name="ape fur" chance="1014" />
 		<item id="2675" name="orange" chance="1010" countmax="5" />
-		<item id="2188" name="wand of decay" chance="980" />
-		<item id="7620" name="mana potion" chance="693" />
+		<item id="2188" name="wand of decay" chance="981" />
+		<item id="7620" name="mana potion" chance="694" />
 		<item id="2150" name="small amethyst" chance="310" />
 		<item id="3966" name="banana staff" chance="102" />
 	</loot>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Annihilon" nameDescription="" experience="15000" speed="132" manacost="0">
+<monster name="Annihilon" nameDescription="Annihilon" race="blood" experience="15000" speed="132" manacost="0">
 	<health now="46500" max="46500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="95" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-5" />
+		<element deathPercent="95" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-2000" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Flee as long as you can!" yell="false" />
@@ -50,44 +47,49 @@
 		<voice sentence="I am coming for you!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="9810" name="slightly rusted armor" chance="61943" />
-		<item name="giant shimmering pearl" chance="38057" countmax="2" />
-		<item id="2452" name="heavy mace" chance="28340" />
-		<item id="7368" name="assassin star" chance="23887" countmax="50" />
-		<item id="2158" name="blue gem" chance="22672" />
-		<item id="2127" name="emerald bangle" chance="22267" />
-		<item id="2427" name="guardian halberd" chance="22267" />
-		<item id="2154" name="yellow gem" chance="22267" />
-		<item id="2156" name="red gem" chance="21053" />
-		<item id="9971" name="gold ingot" chance="20648" />
-		<item id="6529" name="infernal bolt" chance="20648" countmax="46" />
-		<item id="7439" name="berserk potion" chance="19838" />
-		<item id="2152" name="platinum coin" chance="19838" countmax="30" />
-		<item id="2547" name="power bolt" chance="19838" countmax="99" />
-		<item id="2381" name="halberd" chance="19433" />
-		<item id="7840" name="flaming arrow" chance="19028" countmax="96" />
-		<item id="5944" name="soul orb" chance="19028" countmax="5" />
-		<item id="2153" name="violet gem" chance="17814" />
-		<item id="7366" name="viper star" chance="16599" countmax="70" />
-		<item id="2155" name="green gem" chance="16194" />
-		<item id="7440" name="mastermind potion" chance="15385" />
-		<item id="7591" name="great health potion" chance="14575" />
-		<item id="7421" name="onyx flail" chance="14170" />
-		<item id="7590" name="great mana potion" chance="12955" />
-		<item id="8473" name="ultimate health potion" chance="12955" />
-		<item id="2519" name="crown shield" chance="12551" />
-		<item id="8472" name="great spirit potion" chance="12551" />
-		<item id="5954" name="demon horn" chance="11741" countmax="2" />
-		<item id="8891" name="paladin armor" chance="10526" />
-		<item id="2528" name="tower shield" chance="10121" />
-		<item id="2515" name="guardian shield" chance="8502" />
-		<item id="7387" name="diamond sceptre" chance="7287" />
-		<item id="2520" name="demon shield" chance="4049" />
-		<item id="2514" name="mastermind shield" chance="3644" />
-		<item id="7431" name="demonbone" chance="1619" />
-		<item id="8877" name="lavos armor" chance="1215" />
-		<item id="8928" name="obsidian truncheon" chance="1215" />
-		<item id="8929" name="the stomper" chance="405" />
+		<item id="2148" name="gold coin" chance="100000" countmax="159" />
+		<item id="9810" name="slightly rusted armor" chance="62000" />
+		<item name="giant shimmering pearl" chance="37600" countmax="4" />
+		<item id="2452" name="heavy mace" chance="28000" />
+		<item id="7368" name="assassin star" chance="23600" countmax="50" />
+		<item id="2154" name="yellow gem" chance="22800" />
+		<item id="2158" name="blue gem" chance="22400" />
+		<item id="2427" name="guardian halberd" chance="22400" />
+		<item id="2127" name="emerald bangle" chance="22000" />
+		<item id="2156" name="red gem" chance="20800" />
+		<item id="9971" name="gold ingot" chance="20800" />
+		<item id="6529" name="infernal bolt" chance="20400" countmax="49" />
+		<item id="2547" name="power bolt" chance="20000" countmax="99" />
+		<item id="2214" name="ring of healing" chance="20000" />
+		<item id="2165" name="stealth ring" chance="20000" />
+		<item id="2150" name="small amethyst" chance="20000" countmax="20" />
+		<item id="2381" name="halberd" chance="20000" />
+		<item id="2170" name="silver amulet" chance="20000" />
+		<item id="7439" name="berserk potion" chance="20000" countmax="2" />
+		<item id="5944" name="soul orb" chance="19600" countmax="5" />
+		<item id="2152" name="platinum coin" chance="19600" countmax="30" />
+		<item id="7840" name="flaming arrow" chance="19200" countmax="99" />
+		<item id="2153" name="violet gem" chance="17600" />
+		<item id="7366" name="viper star" chance="16800" countmax="70" />
+		<item id="2155" name="green gem" chance="16400" />
+		<item id="7440" name="mastermind potion" chance="15200" countmax="2" />
+		<item id="7591" name="great health potion" chance="14400" />
+		<item id="7421" name="onyx flail" chance="14000" />
+		<item id="8473" name="ultimate health potion" chance="13200" />
+		<item id="7590" name="great mana potion" chance="13200" />
+		<item id="8472" name="great spirit potion" chance="12400" />
+		<item id="2519" name="crown shield" chance="12400" />
+		<item id="5954" name="demon horn" chance="12000" countmax="2" />
+		<item id="8891" name="paladin armor" chance="10400" />
+		<item id="2528" name="tower shield" chance="10400" />
+		<item id="2515" name="guardian shield" chance="8400" />
+		<item id="8889" name="skullcracker armor" chance="7500" />
+		<item id="7387" name="diamond sceptre" chance="7200" />
+		<item id="2520" name="demon shield" chance="4000" />
+		<item id="2514" name="mastermind shield" chance="3600" />
+		<item id="7431" name="demonbone" chance="1600" />
+		<item id="8928" name="obsidian truncheon" chance="1200" />
+		<item id="8877" name="lavos armor" chance="1200" />
+		<item id="8929" name="the stomper" chance="400" />
 	</loot>
 </monster>

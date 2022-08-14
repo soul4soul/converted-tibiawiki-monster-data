@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dwarf Guard" nameDescription="a dwarf guard" experience="165" speed="206" manacost="650">
+<monster name="Dwarf Guard" nameDescription="a dwarf guard" race="blood" experience="165" speed="206" manacost="650">
 	<health now="245" max="245" />
 	<look type="70" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="20" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="20" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-140" />
@@ -48,17 +48,17 @@
 		<voice sentence="Hail Durin!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2787" name="white mushroom" chance="55247" countmax="2" />
-		<item id="2643" name="leather boots" chance="40079" />
-		<item id="2148" name="gold coin" chance="39989" countmax="30" />
-		<item id="2483" name="scale armor" chance="9011" />
-		<item id="2513" name="battle shield" chance="6012" />
-		<item id="2417" name="battle hammer" chance="3847" />
-		<item id="3351" name="steel helmet" chance="1549" />
-		<item id="2387" name="double axe" chance="592" />
-		<item id="5880" name="iron ore" chance="481" />
-		<item id="7618" name="health potion" chance="394" />
-		<item id="2208" name="axe ring" chance="199" />
+		<item id="2787" name="white mushroom" chance="55234" countmax="2" />
+		<item id="2643" name="leather boots" chance="40076" />
+		<item id="2148" name="gold coin" chance="39965" countmax="30" />
+		<item id="2483" name="scale armor" chance="8996" />
+		<item id="2513" name="battle shield" chance="6015" />
+		<item id="2417" name="battle hammer" chance="3844" />
+		<item id="3351" name="steel helmet" chance="1547" />
+		<item id="2387" name="double axe" chance="591" />
+		<item id="5880" name="iron ore" chance="480" />
+		<item id="7618" name="health potion" chance="393" />
+		<item id="2208" name="axe ring" chance="198" />
 		<item id="13757" name="coal" chance="195" />
 		<item id="2150" name="small amethyst" chance="120" />
 	</loot>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Crypt Defiler" nameDescription="a crypt defiler" experience="70" speed="190" manacost="450">
+<monster name="Crypt Defiler" nameDescription="a crypt defiler" race="blood" experience="70" speed="190" manacost="450">
 	<health now="185" max="185" />
 	<look type="146" head="62" body="132" legs="42" feet="75" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-10" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="20" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
@@ -55,8 +55,8 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="53396" countmax="39" />
-		<item id="8838" name="potato" chance="4984" countmax="3" />
 		<item id="12448" name="rope belt" chance="4984" />
+		<item id="8838" name="potato" chance="4984" countmax="3" />
 		<item id="2386" name="axe" chance="2928" />
 		<item id="2465" name="brass armor" chance="2928" />
 		<item id="2398" name="mace" chance="1931" />

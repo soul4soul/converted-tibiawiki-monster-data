@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Servant Of Tentugly" nameDescription="a servant of Tentugly" experience="0" speed="0" manacost="0">
+<monster name="Servant Of Tentugly" nameDescription="a servant of Tentugly" race="blood" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,8 +30,8 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="-20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
@@ -40,8 +40,5 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 </monster>

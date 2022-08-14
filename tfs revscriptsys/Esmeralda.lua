@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Esmeralda")
 local monster = {}
 
 monster.name = "Esmeralda"
-monster.description = ""
+monster.description = "Esmeralda"
 monster.experience = 600
 monster.outfit = {
 	lookType = 0,
@@ -68,38 +68,36 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -170}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 30, maxDamage = 50}
+	armor = 10
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 170},
 	{id = 10585, chance = 100000},
 	{id = 2214, chance = 100000},
-	{id = 2152, chance = 94872, maxCount = 4},
-	{id = 2147, chance = 71795, maxCount = 3},
-	{id = 2476, chance = 52564},
-	{id = 2528, chance = 43590},
-	{id = 2381, chance = 28205},
-	{id = 2438, chance = 25641},
-	{id = 7884, chance = 10256},
-	{id = 2799, chance = 5128}
+	{id = 2152, chance = 95062, maxCount = 4},
+	{id = 2147, chance = 72840, maxCount = 3},
+	{id = 2476, chance = 53086},
+	{id = 2528, chance = 41975},
+	{id = 2381, chance = 28395},
+	{id = 2438, chance = 24691},
+	{id = 7884, chance = 9877},
+	{id = 2799, chance = 4938}
 }
 
 mType:register(monster)

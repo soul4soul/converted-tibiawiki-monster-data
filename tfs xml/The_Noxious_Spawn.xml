@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The_Noxious_Spawn" nameDescription="" experience="6000" speed="0" manacost="0">
+<monster name="The_Noxious_Spawn" nameDescription="" race="blood" experience="6000" speed="0" manacost="0">
 	<health now="9500" max="9500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,9 +30,9 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="-10" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -40,11 +40,9 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-250" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="950" max="2375" />
+		<defense name="outfit" interval="2000" chance="15" item="3976" duration="5000" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="I bring you deathhhh, mortalssss" yell="false" />
@@ -60,10 +58,11 @@
 		<item id="7456" name="noble axe" chance="42466" />
 		<item id="7386" name="mercenary sword" chance="36986" />
 		<item id="2033" name="golden mug" chance="32877" />
-		<item id="7368" name="assassin star" chance="31507" countmax="98" />
+		<item id="7368" name="assassin star" chance="31507" countmax="100" />
 		<item id="2487" name="crown armor" chance="30137" />
-		<item id="2796" name="green mushroom" chance="16438" />
+		<item id="2536" name="medusa shield" chance="20000" />
 		<item id="8902" name="spellbook of mind control" chance="16438" />
+		<item id="2796" name="green mushroom" chance="16438" />
 		<item id="2168" name="life ring" chance="12329" />
 		<item id="2498" name="royal helmet" chance="2740" />
 		<item id="8880" name="swamplair armor" chance="2740" />

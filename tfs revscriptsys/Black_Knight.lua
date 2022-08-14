@@ -70,16 +70,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 80},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 95},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_HOLYDAMAGE , percent = -8},
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.attacks = {
@@ -93,26 +93,26 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 48586, maxCount = 143},
-	{id = 2389, chance = 29429, maxCount = 3},
-	{id = 2691, chance = 20600, maxCount = 2},
-	{id = 2120, chance = 14426},
-	{id = 2478, chance = 13070},
-	{id = 2381, chance = 12522},
-	{id = 2463, chance = 10935},
-	{id = 3351, chance = 10531},
-	{id = 2377, chance = 9608},
-	{id = 2417, chance = 6896},
-	{id = 2475, chance = 4703},
-	{id = 2430, chance = 2654},
-	{id = 2490, chance = 2424},
-	{id = 2489, chance = 2020},
-	{id = 2477, chance = 1039},
-	{id = 2476, chance = 750},
-	{id = 2133, chance = 750},
-	{id = 7895, chance = 577},
-	{id = 2195, chance = 404},
-	{id = 2414, chance = 289},
+	{id = 2148, chance = 48562, maxCount = 143},
+	{id = 2389, chance = 29430, maxCount = 3},
+	{id = 2691, chance = 20627, maxCount = 2},
+	{id = 2120, chance = 14442},
+	{id = 2478, chance = 13119},
+	{id = 2381, chance = 12543},
+	{id = 2463, chance = 10961},
+	{id = 3351, chance = 10501},
+	{id = 2377, chance = 9609},
+	{id = 2417, chance = 6933},
+	{id = 2475, chance = 4718},
+	{id = 2430, chance = 2647},
+	{id = 2490, chance = 2417},
+	{id = 2489, chance = 2014},
+	{id = 2477, chance = 1036},
+	{id = 2133, chance = 748},
+	{id = 2476, chance = 748},
+	{id = 7895, chance = 575},
+	{id = 2195, chance = 403},
+	{id = 2414, chance = 288},
 	{id = 2114, chance = 115}
 }
 

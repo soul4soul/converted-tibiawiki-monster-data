@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Skeleton" nameDescription="a skeleton" experience="35" speed="154" manacost="300">
+<monster name="Skeleton" nameDescription="a skeleton" race="undead" experience="35" speed="154" manacost="300">
 	<health now="50" max="50" />
 	<look type="33" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -35,25 +35,25 @@
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
+		<element drownPercent="100" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-17" />
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="2230" name="bone" chance="50801" />
-		<item id="2148" name="gold coin" chance="44910" countmax="10" />
-		<item name="torch" chance="10347" />
-		<item id="12437" name="pelvis bone" chance="10153" />
-		<item id="2473" name="viking helmet" chance="7698" />
-		<item id="2388" name="hatchet" chance="5364" />
-		<item id="2398" name="mace" chance="4650" />
-		<item id="2376" name="sword" chance="2112" />
-		<item id="26642" name="heavy old tome" chance="2029" />
-		<item id="2511" name="brass shield" chance="936" />
+		<item id="2230" name="bone" chance="50833" />
+		<item id="2148" name="gold coin" chance="44968" countmax="10" />
+		<item name="torch" chance="10397" />
+		<item id="12437" name="pelvis bone" chance="10040" />
+		<item id="2473" name="viking helmet" chance="7746" />
+		<item id="2388" name="hatchet" chance="5381" />
+		<item id="2398" name="mace" chance="4643" />
+		<item id="2376" name="sword" chance="2048" />
+		<item id="26642" name="heavy old tome" chance="2032" />
+		<item id="2511" name="brass shield" chance="952" />
 	</loot>
 </monster>

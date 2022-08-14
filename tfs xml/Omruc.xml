@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Omruc" nameDescription="" experience="2950" speed="0" manacost="0">
+<monster name="Omruc" nameDescription="" race="blood" experience="2950" speed="0" manacost="0">
 	<health now="4300" max="4300" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,18 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-5" />
+		<element earthPercent="20" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-116" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-116" poison="54" />
 	</attacks>
 	<defenses armor="60" defense="60">
 		<defense name="healing" interval="2000" chance="20" min="430" max="1075" />
@@ -54,21 +54,22 @@
 		<voice sentence="Die!" yell="false" />
 	</voices>
 	<summons maxSummons="4">
-		<voice name="Stalker" interval="2000" chance="15" max="1" />
+		<voice name="Stalker" interval="2000" chance="15" max="4" />
 	</summons>
 	<loot>
 		<item id="2352" name="crystal arrow" chance="100000" />
-		<item id="2148" name="gold coin" chance="85417" countmax="211" />
-		<item id="2674" name="red apple" chance="78125" countmax="2" />
-		<item id="2545" name="poison arrow" chance="57292" countmax="19" />
-		<item id="2546" name="burst arrow" chance="47917" countmax="15" />
-		<item id="7365" name="onyx arrow" chance="33333" countmax="6" />
-		<item id="2544" name="arrow" chance="22917" countmax="25" />
-		<item id="2547" name="power bolt" chance="17708" countmax="5" />
-		<item id="7591" name="great health potion" chance="11458" />
-		<item id="2145" name="small diamond" chance="9375" countmax="3" />
-		<item id="2165" name="stealth ring" chance="3125" />
-		<item id="11207" name="mini mummy" chance="2083" />
-		<item id="2195" name="boots of haste" chance="1042" />
+		<item id="2148" name="gold coin" chance="86275" countmax="211" />
+		<item id="2674" name="red apple" chance="79412" countmax="2" />
+		<item id="2545" name="poison arrow" chance="57843" countmax="20" />
+		<item id="2546" name="burst arrow" chance="48039" countmax="15" />
+		<item id="7365" name="onyx arrow" chance="32353" countmax="6" />
+		<item id="2544" name="arrow" chance="23529" countmax="25" />
+		<item id="2154" name="yellow gem" chance="20000" />
+		<item id="2547" name="power bolt" chance="16667" countmax="5" />
+		<item id="2145" name="small diamond" chance="10784" countmax="3" />
+		<item id="7591" name="great health potion" chance="10784" />
+		<item id="2165" name="stealth ring" chance="2941" />
+		<item id="11207" name="mini mummy" chance="1961" />
+		<item id="2195" name="boots of haste" chance="980" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Falcon Knight" nameDescription="a falcon knight" experience="5985" speed="220" manacost="0">
+<monster name="Falcon Knight" nameDescription="a falcon knight" race="undead" experience="5985" speed="220" manacost="0">
 	<health now="9000" max="9000" />
 	<look type="1071" head="57" body="96" legs="38" feet="105" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="30" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -37,42 +37,51 @@
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-10" />
+		<element deathPercent="50" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
+		<attack name="earth" interval="2000" chance="15" min="-400" max="-500" radius="3" target="0">
+			<attribute key="areaEffect" value="groundshaker" />
+		</attack>
+		<attack name="holy" interval="2000" chance="15" min="-290" max="-360" length="4" spread="0">
+			<attribute key="areaEffect" value="holydamage" />
+		</attack>
 	</attacks>
-	<defenses armor="86" defense="86" />
+	<defenses armor="86" defense="86">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="Mmmhaarrrgh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2671" name="ham" chance="83273" />
-		<item id="5944" name="soul orb" chance="41379" />
-		<item id="7591" name="great health potion" chance="39762" countmax="3" />
-		<item id="6558" name="flask of demonic blood" chance="36507" countmax="4" />
-		<item id="2150" name="small amethyst" chance="30332" countmax="3" />
-		<item id="7368" name="assassin star" chance="29793" countmax="10" />
-		<item id="7590" name="great mana potion" chance="23731" countmax="3" />
-		<item id="2147" name="small ruby" chance="19623" countmax="3" />
-		<item id="2145" name="small diamond" chance="18208" countmax="3" />
-		<item id="7365" name="onyx arrow" chance="17827" countmax="15" />
-		<item id="2149" name="small emerald" chance="17423" countmax="3" />
-		<item id="9970" name="small topaz" chance="5186" countmax="3" />
-		<item id="7413" name="titan axe" chance="3974" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="3413" />
-		<item id="7452" name="spiked squelcher" chance="2515" />
-		<item id="2476" name="knight armor" chance="2110" />
-		<item id="31479" name="falcon crest" chance="1549" />
-		<item id="31478" name="damaged armor plates" chance="1280" />
-		<item id="2466" name="golden armor" chance="1280" />
-		<item id="2454" name="war axe" chance="1212" />
-		<item id="2153" name="violet gem" chance="1190" />
-		<item id="2514" name="mastermind shield" chance="988" />
-		<item id="2155" name="green gem" chance="965" />
-		<item id="2578" name="closed trap" chance="427" />
-		<item id="2136" name="demonbone amulet" chance="314" />
-		<item id="2452" name="heavy mace" chance="269" />
+		<item id="2671" name="ham" chance="83602" countmax="8" />
+		<item id="5944" name="soul orb" chance="40696" />
+		<item id="7591" name="great health potion" chance="39307" countmax="3" />
+		<item id="6558" name="flask of demonic blood" chance="36320" countmax="4" />
+		<item id="2150" name="small amethyst" chance="30122" countmax="3" />
+		<item id="7368" name="assassin star" chance="30063" countmax="10" />
+		<item id="7590" name="great mana potion" chance="24373" countmax="3" />
+		<item id="2147" name="small ruby" chance="19280" countmax="3" />
+		<item id="2145" name="small diamond" chance="18399" countmax="3" />
+		<item id="7365" name="onyx arrow" chance="17936" countmax="15" />
+		<item id="2149" name="small emerald" chance="17294" countmax="3" />
+		<item id="9970" name="small topaz" chance="5615" countmax="3" />
+		<item id="7413" name="titan axe" chance="3883" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="3300" />
+		<item id="7452" name="spiked squelcher" chance="2614" />
+		<item id="2476" name="knight armor" chance="2195" />
+		<item id="31479" name="falcon crest" chance="1419" />
+		<item id="31478" name="damaged armor plates" chance="1240" />
+		<item id="2153" name="violet gem" chance="1225" />
+		<item id="2466" name="golden armor" chance="1165" />
+		<item id="2155" name="green gem" chance="1120" />
+		<item id="2454" name="war axe" chance="1120" />
+		<item id="2514" name="mastermind shield" chance="896" />
+		<item id="2578" name="closed trap" chance="493" />
+		<item id="2136" name="demonbone amulet" chance="329" />
+		<item id="2452" name="heavy mace" chance="329" />
 	</loot>
 </monster>

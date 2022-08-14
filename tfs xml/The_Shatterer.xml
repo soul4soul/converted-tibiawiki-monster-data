@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The Shatterer" nameDescription="" experience="0" speed="0" manacost="0">
+<monster name="The Shatterer" nameDescription="The Shatterer" race="blood" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -47,12 +47,15 @@
 		<voice sentence="YOU WILL TREMBLE! YOU WILL BREAK! YOU WILL SHATTER INTO PIECES!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="7590" name="great mana potion" chance="100000" countmax="10" />
-		<item id="8472" name="great spirit potion" chance="100000" countmax="10" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="10" />
-		<item id="2145" name="small diamond" chance="100000" countmax="10" />
-		<item id="2147" name="small ruby" chance="100000" countmax="12" />
-		<item id="8473" name="ultimate health potion" chance="100000" countmax="10" />
+		<item id="2148" name="gold coin" chance="100000" countmax="133" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="17" />
+		<item id="2147" name="small ruby" chance="100000" countmax="21" />
+		<item id="8473" name="ultimate health potion" chance="100000" countmax="13" />
+		<item id="8472" name="great spirit potion" chance="100000" countmax="8" />
+		<item id="7590" name="great mana potion" chance="100000" countmax="16" />
+		<item id="2145" name="small diamond" chance="100000" countmax="16" />
+		<item id="2444" name="hammer of wrath" chance="16667" />
+		<item id="7414" name="abyss hammer" chance="16667" />
+		<item id="11227" name="shiny stone" chance="16667" />
 	</loot>
 </monster>

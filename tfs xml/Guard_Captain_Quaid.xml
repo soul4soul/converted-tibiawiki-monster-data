@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Guard Captain Quaid" nameDescription="" experience="28000" speed="0" manacost="0">
+<monster name="Guard Captain Quaid" nameDescription="Guard Captain Quaid" race="blood" experience="28000" speed="0" manacost="0">
 	<health now="55000" max="55000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -29,22 +29,44 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="15" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="40" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element holyPercent="-20" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="2146" name="small sapphire" chance="100000" />
+		<item id="2152" name="platinum coin" chance="35000" countmax="20" />
+		<item id="2154" name="yellow gem" chance="35000" />
+		<item id="2156" name="red gem" chance="35000" />
+		<item id="9971" name="gold ingot" chance="15000" />
+		<item name="giant shimmering pearl" chance="15000" />
+		<item id="34334" name="cobra crest" chance="15000" />
+		<item id="2158" name="blue gem" chance="15000" />
+		<item id="2155" name="green gem" chance="15000" />
+		<item name="ring of blue plasma" chance="7500" />
+		<item id="5741" name="skull helmet" chance="7500" />
+		<item id="18453" name="crystal crossbow" chance="7500" />
+		<item id="2664" name="wood cape" chance="7500" />
+		<item id="7900" name="magma monocle" chance="7500" />
+		<item id="10219" name="sacred tree amulet" chance="7500" />
+		<item id="9970" name="small topaz" chance="7500" />
+		<item id="3965" name="hunting spear" chance="7500" />
+		<item id="33049" name="cobra crossbow" chance="4000" />
+		<item id="33050" name="cobra boots" chance="4000" />
+		<item id="33053" name="cobra hood" chance="4000" />
+		<item id="2399" name="throwing star" chance="2500" countmax="6" />
+		<item id="18413" name="blue crystal shard" chance="2500" />
+		<item id="2456" name="bow" chance="2500" />
+		<item id="2455" name="crossbow" chance="2500" />
+		<item id="7903" name="terra hood" chance="2500" />
+		<item id="18415" name="green crystal shard" chance="2500" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Black Sheep" nameDescription="a black sheep" experience="0" speed="116" manacost="250">
+<monster name="Black Sheep" nameDescription="a black sheep" race="blood" experience="0" speed="116" manacost="250">
 	<health now="20" max="20" />
 	<look type="13" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,7 +32,7 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -45,7 +45,7 @@
 		<voice sentence="Maeh" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="46804" />
-		<item id="12404" name="black wool" chance="688" />
+		<item id="2666" name="meat" chance="46863" countmax="5" />
+		<item id="12404" name="black wool" chance="686" />
 	</loot>
 </monster>

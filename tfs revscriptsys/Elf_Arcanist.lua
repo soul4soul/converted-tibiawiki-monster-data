@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 1,
+	targetDistance = 4,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -71,48 +71,46 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 50},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -35}
 }
 
 monster.defenses = {
 	defense = 15,
-	armor = 15,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 40, maxDamage = 60}
+	armor = 15
 }
 
 monster.loot = {
 	{id = 2148, chance = 37112, maxCount = 49},
-	{id = 1949, chance = 30499},
-	{id = 2682, chance = 21818},
-	{id = 2260, chance = 17948},
-	{id = 2689, chance = 13915},
-	{id = 10552, chance = 10071},
-	{id = 12421, chance = 7773},
-	{id = 2652, chance = 7291},
-	{id = 2544, chance = 6127, maxCount = 3},
-	{id = 2802, chance = 4848},
-	{id = 7618, chance = 4048},
-	{id = 7589, chance = 2991},
-	{id = "candlestick", chance = 2191},
-	{id = 5922, chance = 2050},
-	{id = 2198, chance = 2046},
-	{id = 2189, chance = 1127},
-	{id = 2177, chance = 1060},
-	{id = 2642, chance = 971},
-	{id = 2600, chance = 953},
-	{id = 2747, chance = 801},
+	{id = 1949, chance = 30500},
+	{id = 2682, chance = 21796},
+	{id = 2260, chance = 17945},
+	{id = 2689, chance = 13903},
+	{id = 10552, chance = 10077},
+	{id = 12421, chance = 7801},
+	{id = 2652, chance = 7306},
+	{id = 2544, chance = 6124, maxCount = 3},
+	{id = 2802, chance = 4850},
+	{id = 7618, chance = 4049},
+	{id = 7589, chance = 2981},
+	{id = "candlestick", chance = 2192},
+	{id = 2198, chance = 2049},
+	{id = 5922, chance = 2041},
+	{id = 2189, chance = 1131},
+	{id = 2177, chance = 1050},
+	{id = 2642, chance = 973},
+	{id = 2600, chance = 955},
+	{id = 2747, chance = 804},
 	{id = 2154, chance = 48}
 }
 

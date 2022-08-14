@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Fazzrah")
 local monster = {}
 
 monster.name = "Fazzrah"
-monster.description = ""
+monster.description = "Fazzrah"
 monster.experience = 2600
 monster.outfit = {
 	lookType = 0,
@@ -87,9 +87,9 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 292},
+	{id = 2152, chance = 100000, maxCount = 5},
 	{id = 5876, chance = 100000},
 	{id = 5881, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 5},
 	{id = 7588, chance = 100000},
 	{id = 11330, chance = 100000},
 	{id = 11331, chance = 100000},

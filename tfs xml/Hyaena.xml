@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Hyaena" nameDescription="a hyaena" experience="20" speed="196" manacost="275">
+<monster name="Hyaena" nameDescription="a hyaena" race="blood" experience="20" speed="196" manacost="275">
 	<health now="60" max="60" />
 	<look type="94" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -49,7 +49,7 @@
 		<voice sentence="Hou hou hou!" yell="false" />
 	</voices>
 	<loot>
-		<item id="3976" name="worm" chance="50516" countmax="3" />
-		<item id="2666" name="meat" chance="30726" />
+		<item id="3976" name="worm" chance="50476" countmax="3" />
+		<item id="2666" name="meat" chance="30578" countmax="2" />
 	</loot>
 </monster>

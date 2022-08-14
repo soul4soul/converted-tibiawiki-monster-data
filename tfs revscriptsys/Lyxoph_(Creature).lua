@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Lyxoph (Creature)")
 local monster = {}
 
 monster.name = "Lyxoph"
-monster.description = ""
+monster.description = "Lyxoph"
 monster.experience = 10000
 monster.outfit = {
 	lookType = 0,
@@ -78,11 +78,19 @@ monster.elements = {
 }
 
 monster.attacks = {
+	{name ="melee", interval = 2000, chance = 100, minDamage = -100, maxDamage = -250},
+	{name ="outfit", interval = 2000, chance = 15, item = 2323, duration = 5000}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10
+	armor = 10,
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 600, maxDamage = 900}
+}
+
+monster.maxSummons = 3
+monster.summons = {
+	{name = "Tin Lizzard of Lyxoph", chance = 15, interval = 2000, max = 3}
 }
 
 monster.loot = {

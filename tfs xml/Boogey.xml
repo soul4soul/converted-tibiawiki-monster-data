@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Boogey" nameDescription="" experience="475" speed="0" manacost="0">
+<monster name="Boogey" nameDescription="Boogey" race="blood" experience="475" speed="0" manacost="0">
 	<health now="930" max="930" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="40" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="25" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-120" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="93" max="232" />
 	</defenses>
@@ -55,5 +52,8 @@
 	</voices>
 	<loot>
 		<item id="10302" name="club of the fury" chance="40000" />
+		<item id="10296" name="heavy metal t-shirt" chance="20000" />
+		<item id="10301" name="scythe of the reaper" chance="20000" />
+		<item id="10295" name="musician's bow" chance="20000" />
 	</loot>
 </monster>

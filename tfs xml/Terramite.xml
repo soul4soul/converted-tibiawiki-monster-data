@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Terramite" nameDescription="a terramite" experience="160" speed="222" manacost="505">
+<monster name="Terramite" nameDescription="a terramite" race="blood" experience="160" speed="222" manacost="505">
 	<health now="365" max="365" />
 	<look type="346" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,10 +29,10 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="5" />
+		<element energyPercent="-5" />
+		<element earthPercent="20" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -48,9 +48,9 @@
 		<voice sentence="Zrp zrp!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="97496" countmax="45" />
-		<item id="11371" name="terramite legs" chance="14982" />
-		<item id="11369" name="terramite shell" chance="7452" />
-		<item id="11370" name="terramite eggs" chance="4995" />
+		<item id="2148" name="gold coin" chance="97497" countmax="45" />
+		<item id="11371" name="terramite legs" chance="14976" />
+		<item id="11369" name="terramite shell" chance="7455" />
+		<item id="11370" name="terramite eggs" chance="4994" countmax="3" />
 	</loot>
 </monster>

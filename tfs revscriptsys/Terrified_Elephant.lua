@@ -5,7 +5,7 @@ monster.name = "Terrified Elephant"
 monster.description = "a terrified elephant"
 monster.experience = 160
 monster.outfit = {
-	lookType = 0,
+	lookType = 211,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -20,7 +20,7 @@ monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 210
-monster.summonCost = 0
+monster.summonCost = 500
 
 monster.changeTarget = {
 	interval = 2000,
@@ -68,14 +68,14 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = -10},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 20},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -91,9 +91,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2666, chance = 40768},
-	{id = 2671, chance = 29219},
-	{id = 3956, chance = 8637, maxCount = 2},
+	{id = 2666, chance = 40804, maxCount = 4},
+	{id = 2671, chance = 29202, maxCount = 3},
+	{id = 3956, chance = 8603, maxCount = 2},
 	{id = 3973, chance = 99}
 }
 

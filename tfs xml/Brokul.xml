@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Brokul" nameDescription="" experience="23000" speed="0" manacost="0">
+<monster name="Brokul" nameDescription="Brokul" race="blood" experience="23000" speed="0" manacost="0">
 	<health now="50000" max="50000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,19 +31,43 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
+		<attack name="death" interval="2000" chance="15" min="-300" max="-500" length="8" spread="0">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="-300" max="-500" length="8" spread="0">
+			<attribute key="areaEffect" value="fire" />
+		</attack>
+		<attack name="holy" interval="2000" chance="15" min="-300" max="-500" length="8" spread="0">
+			<attribute key="areaEffect" value="holyarea" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="-157" max="-608" radius="4" target="1">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" range="7" radius="1" target="1">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</attack>
 	</attacks>
-	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="300" max="700" />
-	</defenses>
+	<defenses armor="10" defense="5" />
+	<loot>
+		<item id="31358" name="the true book of death" chance="100000" />
+		<item id="2152" name="platinum coin" chance="50000" countmax="7" />
+		<item id="12417" name="broccoli" chance="37500" />
+		<item id="9971" name="gold ingot" chance="20000" countmax="2" />
+		<item id="2145" name="small diamond" chance="20000" />
+		<item id="31481" name="deepling ceremonial dagger" chance="20000" />
+		<item id="31482" name="deepling fork" chance="12500" />
+		<item id="2144" name="black pearl" chance="12500" />
+		<item id="2156" name="red gem" chance="12500" />
+	</loot>
 </monster>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Knight's Apparition" nameDescription="a knight's apparition" experience="18870" speed="470" manacost="0">
+<monster name="Knight's Apparition" nameDescription="a knight's apparition" race="undead" experience="18870" speed="470" manacost="0">
 	<health now="25000" max="25000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="131" head="19" body="76" legs="74" feet="114" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="1" />
@@ -29,32 +29,33 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="50" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="10" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-20" />
 	</elements>
 	<defenses armor="100" defense="100" />
 	<voices interval="5000" chance="10">
 		<voice sentence="I am you. Just better!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2160" name="crystal coin" chance="79890" />
-		<item id="8473" name="ultimate health potion" chance="9419" />
-		<item id="2438" name="epee" chance="7043" />
-		<item id="2155" name="green gem" chance="6364" />
-		<item id="2153" name="violet gem" chance="3734" />
-		<item id="2445" name="crystal mace" chance="3055" />
-		<item id="7888" name="glacier amulet" chance="2843" />
-		<item id="2393" name="giant sword" chance="2461" />
-		<item id="2519" name="crown shield" chance="1485" />
-		<item id="2197" name="stone skin amulet" chance="1273" />
-		<item id="7422" name="jade hammer" chance="1061" />
+		<item id="2160" name="crystal coin" chance="60070" />
+		<item id="8473" name="ultimate health potion" chance="6961" />
+		<item id="2438" name="epee" chance="4597" />
+		<item id="36765" name="bag you desire" chance="4000" />
+		<item id="2155" name="green gem" chance="3722" />
+		<item id="2153" name="violet gem" chance="2933" />
+		<item id="7888" name="glacier amulet" chance="2846" />
+		<item id="2445" name="crystal mace" chance="2671" />
+		<item id="7422" name="jade hammer" chance="1138" />
+		<item id="2393" name="giant sword" chance="1051" />
+		<item id="2519" name="crown shield" chance="613" />
+		<item id="2197" name="stone skin amulet" chance="438" />
 	</loot>
 </monster>

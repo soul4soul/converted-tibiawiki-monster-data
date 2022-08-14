@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Necromantic Energy")
 local monster = {}
 
 monster.name = "Necromantic Energy"
-monster.description = ""
+monster.description = "an necromantic energy"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

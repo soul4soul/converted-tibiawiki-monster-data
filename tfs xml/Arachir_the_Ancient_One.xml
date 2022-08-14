@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Arachir The Ancient One" nameDescription="" experience="1800" speed="286" manacost="0">
+<monster name="Arachir The Ancient One" nameDescription="Arachir the Ancient One" race="blood" experience="1800" speed="286" manacost="0">
 	<health now="1600" max="1600" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,22 +29,23 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="1" />
+		<element energyPercent="20" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-1" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="5" />
+		<element holyPercent="-5" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
 	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="160" max="400" />
+		<defense name="outfit" interval="2000" chance="15" monster="Bat" duration="5000" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="I was the shadow that haunted the cradle of humanity!" yell="false" />
@@ -53,16 +54,18 @@
 		<voice sentence="Can you feel the passage of time, mortal?" yell="false" />
 	</voices>
 	<summons maxSummons="2">
-		<voice name="Lich" interval="2000" chance="15" max="1" />
+		<voice name="Lich" interval="2000" chance="15" max="2" />
 	</summons>
 	<loot>
-		<item id="12405" name="blood preservation" chance="100000" />
-		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="9020" name="vampire lord token" chance="100000" />
-		<item id="7588" name="strong health potion" chance="21333" />
-		<item id="2214" name="ring of healing" chance="13333" />
-		<item id="2534" name="vampire shield" chance="8000" />
-		<item id="2152" name="platinum coin" chance="6667" countmax="5" />
-		<item id="2229" name="skull (item)" chance="5333" />
+		<item id="2148" name="gold coin" chance="100000" countmax="100" />
+		<item id="12405" name="blood preservation" chance="100000" />
+		<item id="7588" name="strong health potion" chance="20455" />
+		<item id="2214" name="ring of healing" chance="13636" />
+		<item id="2534" name="vampire shield" chance="10227" />
+		<item id="2152" name="platinum coin" chance="7955" countmax="5" />
+		<item id="2229" name="skull (item)" chance="5682" />
+		<item id="2144" name="black pearl" chance="1136" />
+		<item id="7416" name="bloody edge" chance="1136" />
 	</loot>
 </monster>

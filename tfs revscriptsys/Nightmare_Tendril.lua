@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Nightmare Tendril")
 local monster = {}
 
 monster.name = "Nightmare Tendril"
-monster.description = ""
+monster.description = "an nightmare tendril"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

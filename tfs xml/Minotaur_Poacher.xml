@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Minotaur Poacher" nameDescription="a minotaur poacher" experience="55" speed="160" manacost="390">
+<monster name="Minotaur Poacher" nameDescription="a minotaur poacher" race="blood" experience="55" speed="160" manacost="390">
 	<health now="160" max="160" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,9 +30,9 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="20" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -43,8 +43,9 @@
 	<defenses armor="6" defense="6" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="29" />
-		<item id="2543" name="bolt" chance="60656" countmax="15" />
+		<item id="2543" name="bolt" chance="60656" countmax="18" />
 		<item id="2464" name="chain armor" chance="9836" />
+		<item id="2455" name="crossbow" chance="7500" />
 		<item id="2484" name="studded armor" chance="4918" />
 		<item id="2666" name="meat" chance="3279" />
 	</loot>

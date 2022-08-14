@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Retros Treasure" nameDescription="" experience="0" speed="0" manacost="0">
+<monster name="Retros Treasure" nameDescription="Retros Treasure" race="blood" experience="0" speed="0" manacost="0">
 	<health now="37500" max="37500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -42,15 +42,25 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="100000" countmax="60" />
-		<item id="8472" name="great spirit potion" chance="55556" countmax="5" />
-		<item id="35279" name="giant topaz" chance="33333" />
-		<item id="7591" name="great health potion" chance="22222" countmax="5" />
-		<item id="7590" name="great mana potion" chance="22222" countmax="5" />
-		<item id="2153" name="violet gem" chance="22222" countmax="3" />
-		<item id="32716" name="giant emerald" chance="11111" />
-		<item id="32717" name="giant sapphire" chance="11111" />
-		<item id="2155" name="green gem" chance="11111" countmax="3" />
-		<item id="2156" name="red gem" chance="11111" countmax="3" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="118" />
+		<item id="7590" name="great mana potion" chance="37333" countmax="9" />
+		<item id="37711" name="7197 theons" chance="35000" />
+		<item id="37712" name="200 theons" chance="35000" />
+		<item id="7591" name="great health potion" chance="33333" countmax="9" />
+		<item id="8472" name="great spirit potion" chance="29333" countmax="9" />
+		<item id="2156" name="red gem" chance="28000" countmax="5" />
+		<item id="2153" name="violet gem" chance="24000" countmax="5" />
+		<item id="2155" name="green gem" chance="22667" countmax="5" />
+		<item id="36435" name="watermelon tourmaline (slice)" chance="20000" />
+		<item id="37536" name="changing backpack" chance="20000" />
+		<item id="37397" name="wind-up key" chance="20000" />
+		<item id="35280" name="amber with a bug" chance="9333" />
+		<item id="32717" name="giant sapphire" chance="6667" />
+		<item id="35279" name="giant topaz" chance="2667" />
+		<item id="32715" name="giant ruby" chance="2667" />
+		<item id="32716" name="giant emerald" chance="2667" />
+		<item id="35278" name="giant amethyst" chance="1333" />
+		<item id="37604" name="brass button" chance="1333" />
+		<item id="37605" name="decorative plume" chance="1333" />
 	</loot>
 </monster>

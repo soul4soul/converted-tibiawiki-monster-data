@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Young Sea Serpent" nameDescription="a young sea serpent" experience="1000" speed="480" manacost="0">
+<monster name="Young Sea Serpent" nameDescription="a young sea serpent" race="blood" experience="1000" speed="480" manacost="0">
 	<health now="1050" max="1050" />
 	<look type="317" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,21 +29,22 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-20" />
+		<element energyPercent="-10" />
+		<element earthPercent="100" />
+		<element firePercent="30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-15" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
 	</attacks>
 	<defenses armor="20" defense="20">
+		<defense name="healing" interval="2000" chance="20" min="25" max="175" />
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
@@ -53,17 +54,17 @@
 		<voice sentence="CHHHRRRR" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98194" countmax="174" />
-		<item id="2394" name="morning star" chance="39904" />
-		<item id="2378" name="battle axe" chance="7800" />
-		<item id="9808" name="heavily rusted armor" chance="7185" />
-		<item id="2417" name="battle hammer" chance="4957" />
-		<item id="7588" name="strong health potion" chance="4861" />
-		<item id="10583" name="sea serpent scale" chance="4630" />
-		<item id="7589" name="strong mana potion" chance="4515" />
-		<item id="2146" name="small sapphire" chance="1921" countmax="2" />
-		<item id="2165" name="stealth ring" chance="941" />
-		<item id="9809" name="rusted armor" chance="788" />
-		<item id="2177" name="life crystal" chance="154" />
+		<item id="2148" name="gold coin" chance="98184" countmax="174" />
+		<item id="2394" name="morning star" chance="39885" />
+		<item id="2378" name="battle axe" chance="7820" />
+		<item id="9808" name="heavily rusted armor" chance="7170" />
+		<item id="2417" name="battle hammer" chance="4971" />
+		<item id="7588" name="strong health potion" chance="4837" />
+		<item id="10583" name="sea serpent scale" chance="4608" />
+		<item id="7589" name="strong mana potion" chance="4493" />
+		<item id="2146" name="small sapphire" chance="1912" countmax="2" />
+		<item id="2165" name="stealth ring" chance="937" />
+		<item id="9809" name="rusted armor" chance="784" />
+		<item id="2177" name="life crystal" chance="153" />
 	</loot>
 </monster>

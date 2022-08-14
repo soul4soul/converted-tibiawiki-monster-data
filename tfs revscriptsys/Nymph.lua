@@ -69,16 +69,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 60},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = 40},
+	{type = COMBAT_DEATHDAMAGE , percent = 40}
 }
 
 monster.attacks = {
@@ -86,28 +86,27 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 60,
-	armor = 60,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 75, maxDamage = 105}
+	armor = 60
 }
 
 monster.loot = {
-	{id = 2148, chance = 65351, maxCount = 110},
-	{id = 28347, chance = 21840},
-	{id = 28348, chance = 14843},
-	{id = 28352, chance = 12017},
-	{id = 28351, chance = 12017},
-	{id = 7590, chance = 3277},
+	{id = 2148, chance = 65330, maxCount = 110},
+	{id = 28347, chance = 21811},
+	{id = 28348, chance = 14840, maxCount = 2},
+	{id = 28351, chance = 12055},
+	{id = 28352, chance = 12008},
+	{id = 7590, chance = 3289},
 	{id = 9970, chance = 2430, maxCount = 2},
-	{id = 2127, chance = 1940},
-	{id = 7762, chance = 1893, maxCount = 2},
-	{id = 10219, chance = 1130},
-	{id = 7589, chance = 904},
-	{id = 28354, chance = 848},
-	{id = 28356, chance = 725},
-	{id = 9927, chance = 574},
-	{id = 2745, chance = 565},
-	{id = 8873, chance = 556},
-	{id = 2195, chance = 348}
+	{id = 2127, chance = 1934},
+	{id = 7762, chance = 1888, maxCount = 2},
+	{id = 10219, chance = 1131},
+	{id = 7589, chance = 944},
+	{id = 28354, chance = 841},
+	{id = 28356, chance = 720},
+	{id = 9927, chance = 570},
+	{id = 8873, chance = 570},
+	{id = 2745, chance = 561},
+	{id = 2195, chance = 346}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Insectoid Scout" nameDescription="an insectoid scout" experience="150" speed="202" manacost="0">
+<monster name="Insectoid Scout" nameDescription="an insectoid scout" race="blood" experience="150" speed="202" manacost="0">
 	<health now="230" max="230" />
 	<look type="403" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,19 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="5" />
+		<element energyPercent="-5" />
+		<element earthPercent="20" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-10" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-73" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-73" poison="54" />
 	</attacks>
 	<defenses armor="27" defense="27" />
 	<voices interval="5000" chance="10">
@@ -49,9 +49,9 @@
 		<voice sentence="Chrrr! Chrr!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="81307" countmax="78" />
-		<item id="3964" name="ripper lance" chance="402" />
-		<item id="7618" name="health potion" chance="201" />
-		<item id="2209" name="club ring" chance="101" />
+		<item id="2148" name="gold coin" chance="81898" countmax="80" />
+		<item id="3964" name="ripper lance" chance="319" />
+		<item id="7618" name="health potion" chance="159" />
+		<item id="2209" name="club ring" chance="80" />
 	</loot>
 </monster>

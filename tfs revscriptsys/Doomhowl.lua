@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Doomhowl")
 local monster = {}
 
 monster.name = "Doomhowl"
-monster.description = ""
+monster.description = "Doomhowl"
 monster.experience = 3750
 monster.outfit = {
 	lookType = 0,
@@ -65,7 +65,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 15},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {

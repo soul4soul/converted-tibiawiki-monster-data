@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Gloom Wolf" nameDescription="a gloom wolf" experience="70" speed="250" manacost="0">
+<monster name="Gloom Wolf" nameDescription="a gloom wolf" race="blood" experience="70" speed="250" manacost="0">
 	<health now="200" max="200" />
 	<look type="716" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,29 +31,26 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="20" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="-5" />
+		<element deathPercent="10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-92" />
-	</attacks>
 	<defenses armor="10" defense="10">
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="66019" countmax="15" />
-		<item id="2666" name="meat" chance="40900" />
-		<item id="2671" name="ham" chance="39763" />
-		<item id="24663" name="gloom wolf fur" chance="8104" />
-		<item id="2129" name="wolf tooth chain" chance="7251" />
-		<item id="5897" name="wolf paw" chance="3223" />
+		<item id="2148" name="gold coin" chance="66037" countmax="15" />
+		<item id="2666" name="meat" chance="40907" />
+		<item id="2671" name="ham" chance="39679" />
+		<item id="24663" name="gloom wolf fur" chance="8077" />
+		<item id="2129" name="wolf tooth chain" chance="7227" />
+		<item id="5897" name="wolf paw" chance="3212" />
 	</loot>
 </monster>

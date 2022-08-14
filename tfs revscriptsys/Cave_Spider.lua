@@ -68,7 +68,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -30},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -78,7 +78,7 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300, condition = {type = CONDITION_POISON, startDamage = 158, interval = }}
 }
 
 monster.defenses = {
@@ -86,13 +86,18 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 4
+monster.summons = {
+	{name = "Poison Spider", chance = 15, interval = 2000, max = 4}
+}
+
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 56},
+	{id = 2148, chance = 100000, maxCount = 76},
 	{id = 7588, chance = 45455},
 	{id = 2144, chance = 27273},
 	{id = 2145, chance = 27273, maxCount = 3},
-	{id = 2152, chance = 9091},
-	{id = 5879, chance = 9091}
+	{id = 5879, chance = 9091},
+	{id = 2152, chance = 9091}
 }
 
 mType:register(monster)

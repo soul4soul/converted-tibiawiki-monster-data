@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The_Voice_Of_Ruin" nameDescription="" experience="3500" speed="0" manacost="0">
+<monster name="The_Voice_Of_Ruin" nameDescription="" race="blood" experience="3500" speed="0" manacost="0">
 	<health now="5500" max="5500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,15 +40,17 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="550" max="1375" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="43" />
+		<item id="2148" name="gold coin" chance="100000" countmax="95" />
+		<item id="2152" name="platinum coin" chance="50000" countmax="5" />
 		<item id="11326" name="corrupted flag" chance="50000" />
-		<item id="2152" name="platinum coin" chance="50000" countmax="2" />
+		<item id="11325" name="spiked iron ball" chance="20000" />
+		<item id="11327" name="cursed shoulder spikes" chance="20000" />
+		<item id="9971" name="gold ingot" chance="20000" />
+		<item id="11303" name="zaoan shoes" chance="20000" />
+		<item id="11302" name="zaoan helmet" chance="20000" />
 	</loot>
 </monster>

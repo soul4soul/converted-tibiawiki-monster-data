@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Dreadful Disruptor")
 local monster = {}
 
 monster.name = "Dreadful Disruptor"
-monster.description = ""
+monster.description = "Dreadful Disruptor"
 monster.experience = 14000
 monster.outfit = {
 	lookType = 0,
@@ -66,7 +66,7 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
@@ -88,17 +87,21 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = "ring of red plasma", chance = 100000},
 	{id = "collar of blue plasma", chance = 100000},
-	{id = 26171, chance = 100000},
-	{id = 26191, chance = 100000, maxCount = 5},
-	{id = 26201, chance = 100000, maxCount = 4},
-	{id = 26164, chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 50},
-	{id = 7591, chance = 100000, maxCount = 2},
-	{id = 26162, chance = 100000},
-	{id = 26176, chance = 100000},
 	{id = 2152, chance = 100000, maxCount = 20},
-	{id = "ring of red plasma", chance = 100000}
+	{id = 26164, chance = 100000},
+	{id = 26176, chance = 100000},
+	{id = 26162, chance = 100000},
+	{id = 26171, chance = 100000},
+	{id = 7591, chance = 100000, maxCount = 2},
+	{id = 26201, chance = 100000, maxCount = 4},
+	{id = 2148, chance = 100000, maxCount = 50},
+	{id = 26191, chance = 100000, maxCount = 5},
+	{id = "ring of green plasma", chance = 20000},
+	{id = 26200, chance = 20000},
+	{id = 26199, chance = 20000},
+	{id = 18420, chance = 20000}
 }
 
 mType:register(monster)

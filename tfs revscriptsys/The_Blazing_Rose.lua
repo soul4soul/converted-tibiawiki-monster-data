@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Blazing Rose")
 local monster = {}
 
 monster.name = "The Blazing Rose"
-monster.description = ""
+monster.description = "The Blazing Rose"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -66,9 +66,9 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -86,20 +86,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 331},
-	{id = 24630, chance = 100000},
-	{id = 24631, chance = 100000},
 	{id = 31151, chance = 100000},
 	{id = 2152, chance = 100000, maxCount = 7},
-	{id = 7368, chance = 60000, maxCount = 12},
-	{id = 8472, chance = 40000},
-	{id = 5944, chance = 40000},
-	{id = 2124, chance = 20000},
-	{id = 6500, chance = 20000},
-	{id = 6558, chance = 20000},
-	{id = 24637, chance = 20000},
-	{id = 2156, chance = 20000},
-	{id = 2150, chance = 20000, maxCount = 3}
+	{id = 2148, chance = 100000, maxCount = 331},
+	{id = 24631, chance = 100000},
+	{id = 24630, chance = 100000},
+	{id = 7368, chance = 75000, maxCount = 15},
+	{id = 6558, chance = 50000},
+	{id = 2150, chance = 25000, maxCount = 3},
+	{id = 5944, chance = 25000},
+	{id = 8472, chance = 25000},
+	{id = 2124, chance = 25000},
+	{id = 2156, chance = 12500},
+	{id = 24637, chance = 12500},
+	{id = 6500, chance = 12500},
+	{id = 2186, chance = 12500}
 }
 
 mType:register(monster)

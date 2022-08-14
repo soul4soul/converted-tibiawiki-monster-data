@@ -54,6 +54,7 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
+	{text = "You can't escape death forever.", yell = false}
 }
 
 monster.immunities = {
@@ -83,6 +84,11 @@ monster.attacks = {
 monster.defenses = {
 	defense = 5,
 	armor = 10
+}
+
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Orclops Doomhauler", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {

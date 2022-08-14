@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Shadow Pupil" nameDescription="a shadow pupil" experience="410" speed="170" manacost="0">
+<monster name="Shadow Pupil" nameDescription="a shadow pupil" race="blood" experience="410" speed="170" manacost="0">
 	<health now="450" max="450" />
 	<look type="551" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -29,19 +29,19 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-5" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="20" />
+		<element holyPercent="-5" />
+		<element deathPercent="50" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-70" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-70" poison="54" />
 	</attacks>
 	<defenses armor="32" defense="32" />
 	<voices interval="5000" chance="10">
@@ -50,17 +50,21 @@
 		<voice sentence="The shadows follow your every step..." yell="false" />
 		<voice sentence="The shadows will swallow you..." yell="false" />
 	</voices>
+	<summons maxSummons="8">
+		<voice name="Skeleton" interval="2000" chance="15" max="4" />
+		<voice name="Ghosts" interval="2000" chance="15" max="4" />
+	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="65" />
-		<item id="21243" name="horoscope" chance="15452" />
-		<item id="21246" name="incantation notes" chance="9595" />
-		<item id="11237" name="book of necromantic rituals" chance="7684" />
-		<item id="2789" name="brown mushroom" chance="4652" />
-		<item id="21247" name="pieces of magic chalk" chance="4631" />
-		<item id="2663" name="mystic turban" chance="540" />
-		<item id="7589" name="strong mana potion" chance="540" />
-		<item id="2423" name="clerical mace" chance="332" />
-		<item id="8900" name="spellbook of enlightenment" chance="208" />
+		<item id="21243" name="horoscope" chance="15445" />
+		<item id="21246" name="incantation notes" chance="9565" />
+		<item id="11237" name="book of necromantic rituals" chance="7660" />
+		<item id="2789" name="brown mushroom" chance="4638" />
+		<item id="21247" name="pieces of magic chalk" chance="4638" />
+		<item id="2663" name="mystic turban" chance="538" />
+		<item id="7589" name="strong mana potion" chance="538" />
+		<item id="2423" name="clerical mace" chance="331" />
+		<item id="8900" name="spellbook of enlightenment" chance="207" />
 		<item id="2195" name="boots of haste" chance="21" />
 	</loot>
 </monster>

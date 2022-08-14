@@ -78,13 +78,17 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 145, maxDamage = 362}
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 150}
+}
+
+monster.maxSummons = 4
+monster.summons = {
+	{name = "Pirate Cutthroat", chance = 15, interval = 2000, max = 4}
 }
 
 monster.loot = {
@@ -92,12 +96,14 @@ monster.loot = {
 	{id = 6100, chance = 100000},
 	{id = 2229, chance = 78947, maxCount = 2},
 	{id = 2463, chance = 52632},
-	{id = 2666, chance = 26316},
+	{id = 2666, chance = 26316, maxCount = 3},
 	{id = 10103, chance = 21053},
+	{id = 2387, chance = 20000},
+	{id = 2200, chance = 20000},
 	{id = 2476, chance = 15789},
 	{id = 2145, chance = 10526},
-	{id = 7591, chance = 5263},
-	{id = 5926, chance = 5263}
+	{id = 5926, chance = 5263},
+	{id = 7591, chance = 5263}
 }
 
 mType:register(monster)

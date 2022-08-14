@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Water Elemental" nameDescription="a water elemental" experience="650" speed="230" manacost="0">
+<monster name="Water Elemental" nameDescription="a water elemental" race="blood" experience="650" speed="230" manacost="0">
 	<health now="550" max="550" />
 	<look type="286" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,19 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="30" />
+		<element energyPercent="-25" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
+		<element holyPercent="50" />
+		<element deathPercent="50" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-165" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-165" poison="54" />
 	</attacks>
 	<defenses armor="37" defense="37">
 		<defense name="healing" interval="2000" chance="20" min="55" max="137" />
@@ -53,16 +53,16 @@
 		<voice sentence="Splish splash" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99304" countmax="100" />
-		<item id="2152" name="platinum coin" chance="24632" />
-		<item id="2667" name="fish" chance="20150" />
-		<item id="7588" name="strong health potion" chance="9926" />
-		<item id="7589" name="strong mana potion" chance="9884" />
-		<item id="2145" name="small diamond" chance="2586" />
-		<item id="2149" name="small emerald" chance="2572" countmax="2" />
-		<item id="2167" name="energy ring" chance="1078" />
-		<item id="7158" name="rainbow trout" chance="1008" />
-		<item id="2168" name="life ring" chance="1004" />
-		<item id="7159" name="green perch" chance="994" />
+		<item id="2148" name="gold coin" chance="99346" countmax="100" />
+		<item id="2152" name="platinum coin" chance="24585" />
+		<item id="2667" name="fish" chance="20175" />
+		<item id="7588" name="strong health potion" chance="9936" />
+		<item id="7589" name="strong mana potion" chance="9931" />
+		<item id="2149" name="small emerald" chance="2631" countmax="2" />
+		<item id="2145" name="small diamond" chance="2543" />
+		<item id="2167" name="energy ring" chance="1072" />
+		<item id="7158" name="rainbow trout" chance="1019" />
+		<item id="2168" name="life ring" chance="1015" />
+		<item id="7159" name="green perch" chance="993" />
 	</loot>
 </monster>

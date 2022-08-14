@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Fugue")
 local monster = {}
 
 monster.name = "Fugue"
-monster.description = ""
+monster.description = "Fugue"
 monster.experience = 23000
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1444}
 }
 
 monster.defenses = {

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Foreman Kneebiter")
 local monster = {}
 
 monster.name = "Foreman Kneebiter"
-monster.description = ""
+monster.description = "Foreman Kneebiter"
 monster.experience = 445
 monster.outfit = {
 	lookType = 0,
@@ -66,20 +66,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 1},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 1},
+	{type = COMBAT_FIREDAMAGE, percent = -1},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -1}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250}
 }
 
 monster.defenses = {
@@ -89,9 +88,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 43},
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 3351, chance = 33333},
 	{id = 2483, chance = 33333},
-	{id = 3351, chance = 33333}
+	{id = 2513, chance = 20000},
+	{id = 5880, chance = 20000}
 }
 
 mType:register(monster)

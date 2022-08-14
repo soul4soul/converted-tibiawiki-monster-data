@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Kollos" nameDescription="a kollos" experience="2400" speed="230" manacost="0">
+<monster name="Kollos" nameDescription="a kollos" race="blood" experience="2400" speed="230" manacost="0">
 	<health now="3800" max="3800" />
 	<look type="458" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-7" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-5" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-353" />
-	</attacks>
 	<defenses armor="52" defense="52" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Kropp!" yell="false" />
@@ -51,19 +48,19 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="99991" countmax="200" />
 		<item id="2152" name="platinum coin" chance="66024" countmax="3" />
-		<item id="15486" name="compound eye" chance="15717" />
-		<item id="15480" name="kollos shell" chance="15248" />
-		<item id="15648" name="tarsal arrow" chance="10201" countmax="5" />
-		<item id="7590" name="great mana potion" chance="8951" countmax="4" />
-		<item id="2147" name="small ruby" chance="8292" countmax="2" />
-		<item id="9971" name="gold ingot" chance="5186" />
-		<item id="8473" name="ultimate health potion" chance="3855" countmax="3" />
-		<item id="2214" name="ring of healing" chance="3187" />
-		<item id="7633" name="giant shimmering pearl (brown)" chance="2496" />
-		<item id="15492" name="hive scythe" chance="781" />
-		<item id="15646" name="buggy backpack" chance="433" />
-		<item id="15489" name="calopteryx cape" chance="379" />
-		<item id="15491" name="carapace shield" chance="280" />
-		<item id="2645" name="steel boots" chance="131" />
+		<item id="15486" name="compound eye" chance="15750" />
+		<item id="15480" name="kollos shell" chance="15262" />
+		<item id="15648" name="tarsal arrow" chance="10182" countmax="5" />
+		<item id="7590" name="great mana potion" chance="8931" countmax="4" />
+		<item id="2147" name="small ruby" chance="8215" countmax="2" />
+		<item id="9971" name="gold ingot" chance="5177" />
+		<item id="8473" name="ultimate health potion" chance="3859" countmax="3" />
+		<item id="2214" name="ring of healing" chance="3170" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="2490" />
+		<item id="15492" name="hive scythe" chance="799" />
+		<item id="15646" name="buggy backpack" chance="430" />
+		<item id="15489" name="calopteryx cape" chance="373" />
+		<item id="15491" name="carapace shield" chance="285" />
+		<item id="2645" name="steel boots" chance="132" />
 	</loot>
 </monster>

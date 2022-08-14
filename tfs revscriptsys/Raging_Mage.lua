@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Raging Mage")
 local monster = {}
 
 monster.name = "Raging Mage"
-monster.description = "a raging mage"
+monster.description = "a Raging Mage"
 monster.experience = 3250
 monster.outfit = {
 	lookType = 0,
@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 4,
+	color = 167
 }
 
 monster.voices = {
@@ -68,16 +68,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -25},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 15}
 }
 
 monster.attacks = {
@@ -85,33 +85,37 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 350, maxDamage = 875}
+	armor = 10
+}
+
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Golden Servant", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = 2148, chance = 97633, maxCount = 250},
-	{id = 2152, chance = 78107, maxCount = 12},
-	{id = 5911, chance = 30769},
-	{id = 7591, chance = 27219, maxCount = 5},
-	{id = 7590, chance = 23077, maxCount = 5},
-	{id = 2178, chance = 10651},
-	{id = 7443, chance = 6509, maxCount = 2},
-	{id = 8871, chance = 4734},
-	{id = 2165, chance = 4734},
-	{id = 12410, chance = 4142},
-	{id = 2792, chance = 3550, maxCount = 4},
-	{id = 2124, chance = 2367},
-	{id = 2146, chance = 2367, maxCount = 5},
-	{id = 7368, chance = 2367, maxCount = 10},
-	{id = 2123, chance = 1775},
-	{id = 13940, chance = 1183},
-	{id = 2114, chance = 1183},
-	{id = 9958, chance = 1183},
-	{id = 2195, chance = 592},
-	{id = 9980, chance = 592},
-	{id = 5741, chance = 592},
-	{id = 8902, chance = 592}
+	{id = 2148, chance = 100000, maxCount = 169},
+	{id = 7590, chance = 100000, maxCount = 5},
+	{id = 2114, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 8},
+	{id = 9980, chance = 20000},
+	{id = 5911, chance = 20000},
+	{id = 2123, chance = 20000},
+	{id = 8871, chance = 20000},
+	{id = 7591, chance = 20000, maxCount = 5},
+	{id = 2165, chance = 20000},
+	{id = 2124, chance = 20000},
+	{id = 2178, chance = 20000},
+	{id = 12410, chance = 20000},
+	{id = 2792, chance = 20000, maxCount = 3},
+	{id = 7368, chance = 20000, maxCount = 10},
+	{id = 2146, chance = 20000, maxCount = 5},
+	{id = 7443, chance = 20000},
+	{id = 9958, chance = 7500},
+	{id = 8902, chance = 4000},
+	{id = 5741, chance = 4000},
+	{id = 2195, chance = 4000},
+	{id = 13940, chance = 4000}
 }
 
 mType:register(monster)

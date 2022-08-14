@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Baron Brute")
 local monster = {}
 
 monster.name = "Baron Brute"
-monster.description = ""
+monster.description = "Baron Brute"
 monster.experience = 3000
 monster.outfit = {
 	lookType = 0,
@@ -69,7 +69,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 80},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},

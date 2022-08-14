@@ -65,33 +65,39 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -5},
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 70}
+	armor = 10
+}
+
+monster.maxSummons = 6
+monster.summons = {
+	{name = "Ghoul", chance = 15, interval = 2000, max = 2},
+	{name = "Ghost", chance = 15, interval = 2000, max = 2},
+	{name = "Mummies", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
 	{id = 21250, chance = 100000},
 	{id = 2148, chance = 36000, maxCount = 87},
-	{id = 11237, chance = 8000},
+	{id = 2436, chance = 20000},
 	{id = 2545, chance = 8000, maxCount = 5},
+	{id = 11237, chance = 8000},
 	{id = 12431, chance = 4000}
 }
 

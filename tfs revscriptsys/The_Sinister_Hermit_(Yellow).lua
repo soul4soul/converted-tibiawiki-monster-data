@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Sinister Hermit (Yellow)")
 local monster = {}
 
 monster.name = "The Sinister Hermit"
-monster.description = ""
+monster.description = "The Sinister Hermit"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -65,20 +65,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 85},
+	{type = COMBAT_EARTHDAMAGE, percent = 85},
+	{type = COMBAT_FIREDAMAGE, percent = 85},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 85},
+	{type = COMBAT_HOLYDAMAGE , percent = 85},
+	{type = COMBAT_DEATHDAMAGE , percent = 85}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1100}
 }
 
 monster.defenses = {

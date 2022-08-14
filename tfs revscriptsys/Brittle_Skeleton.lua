@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -88,6 +87,7 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 5},
+	{id = 2230, chance = 20000},
 	{id = "torch", chance = 8307},
 	{id = 2473, chance = 5486},
 	{id = 2376, chance = 5329},

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Carniphila" nameDescription="a carniphila" experience="150" speed="110" manacost="0">
+<monster name="Carniphila" nameDescription="a carniphila" race="blood" experience="150" speed="110" manacost="0">
 	<health now="255" max="255" />
 	<look type="120" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,28 +30,28 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-100" poison="97" />
 	</attacks>
 	<defenses armor="22" defense="22" />
 	<loot>
-		<item id="2148" name="gold coin" chance="87941" countmax="40" />
-		<item id="2792" name="dark mushroom" chance="7962" />
-		<item id="11217" name="carniphila seeds" chance="4018" />
-		<item id="2804" name="shadow herb" chance="1000" />
+		<item id="2148" name="gold coin" chance="87932" countmax="40" />
+		<item id="2792" name="dark mushroom" chance="7964" />
+		<item id="11217" name="carniphila seeds" chance="4010" />
+		<item id="2804" name="shadow herb" chance="999" />
 		<item id="2686" name="corncob" chance="984" />
-		<item id="7732" name="seeds" chance="508" />
-		<item id="2802" name="sling herb" chance="502" countmax="2" />
-		<item id="13298" name="carrot on a stick" chance="105" />
+		<item id="7732" name="seeds" chance="511" />
+		<item id="2802" name="sling herb" chance="504" countmax="2" />
+		<item id="13298" name="carrot on a stick" chance="106" />
 	</loot>
 </monster>

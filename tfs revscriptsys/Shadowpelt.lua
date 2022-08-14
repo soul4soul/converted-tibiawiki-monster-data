@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Shadowpelt")
 local monster = {}
 
 monster.name = "Shadowpelt"
-monster.description = ""
+monster.description = "Shadowpelt"
 monster.experience = 4600
 monster.outfit = {
 	lookType = 0,
@@ -66,19 +66,18 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 40},
+	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300}
 }
 
 monster.defenses = {
@@ -86,33 +85,39 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Werebear", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
-	{id = 5896, chance = 100000},
 	{id = 2152, chance = 100000, maxCount = 3},
 	{id = 24713, chance = 100000},
 	{id = 24712, chance = 100000},
-	{id = 2148, chance = 80769, maxCount = 100},
-	{id = 2144, chance = 53671, maxCount = 2},
-	{id = 24850, chance = 46329, maxCount = 2},
-	{id = 7591, chance = 34266},
-	{id = 7432, chance = 29196},
-	{id = 27617, chance = 28497, maxCount = 2},
-	{id = 7759, chance = 20629, maxCount = 2},
-	{id = 5902, chance = 16434},
-	{id = 8473, chance = 13986},
-	{id = 2671, chance = 13112},
-	{id = 7419, chance = 8217},
-	{id = 7633, chance = 7517},
-	{id = 24741, chance = 6643},
-	{id = 24759, chance = 5420},
-	{id = 24716, chance = 3846},
-	{id = 24739, chance = 3322},
-	{id = 2214, chance = 3322},
-	{id = 7452, chance = 2972},
-	{id = 7383, chance = 1923},
-	{id = 7439, chance = 1748},
-	{id = 25172, chance = 1748},
-	{id = 2197, chance = 699}
+	{id = 5896, chance = 100000},
+	{id = 2148, chance = 80691, maxCount = 100},
+	{id = 2144, chance = 52590, maxCount = 2},
+	{id = 24850, chance = 47410, maxCount = 2},
+	{id = 7591, chance = 35636},
+	{id = 27617, chance = 31554, maxCount = 2},
+	{id = 7432, chance = 29827},
+	{id = 7759, chance = 22763, maxCount = 2},
+	{id = 24740, chance = 20000},
+	{id = 5902, chance = 16797},
+	{id = 8473, chance = 13815},
+	{id = 2671, chance = 13187},
+	{id = 7633, chance = 7849},
+	{id = 7419, chance = 7692},
+	{id = 24741, chance = 6750},
+	{id = 24759, chance = 5024},
+	{id = 24716, chance = 4239},
+	{id = 7452, chance = 3768},
+	{id = 2214, chance = 3140},
+	{id = 24739, chance = 2983},
+	{id = 7439, chance = 2355},
+	{id = 7383, chance = 2041},
+	{id = 25172, chance = 1570},
+	{id = 2197, chance = 628}
 }
 
 mType:register(monster)

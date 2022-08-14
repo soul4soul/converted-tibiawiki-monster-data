@@ -20,7 +20,7 @@ monster.runHealth = 20
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 220
-monster.summonCost = 0
+monster.summonCost = 350
 
 monster.changeTarget = {
 	interval = 2000,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {

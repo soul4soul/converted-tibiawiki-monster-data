@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Mirade (Creature)")
 local monster = {}
 
 monster.name = "Mirade"
-monster.description = ""
+monster.description = "Mirade"
 monster.experience = 30000
 monster.outfit = {
 	lookType = 0,
@@ -42,7 +42,7 @@ monster.flags = {
 	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
-	canWalkOnFire = false,
+	canWalkOnFire = true,
 	canWalkOnPoison = false
 }
 
@@ -85,7 +85,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000}
 }
 
 monster.defenses = {

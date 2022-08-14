@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Crypt Warrior" nameDescription="a crypt warrior" experience="4200" speed="310" manacost="0">
+<monster name="Crypt Warrior" nameDescription="a crypt warrior" race="undead" experience="4200" speed="310" manacost="0">
 	<health now="7800" max="7800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,28 +30,28 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-5" />
+		<element earthPercent="5" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
 	<defenses armor="70" defense="70" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="78846" countmax="25" />
-		<item id="2230" name="bone" chance="60585" />
-		<item id="5944" name="soul orb" chance="30823" />
-		<item id="2787" name="white mushroom" chance="20195" countmax="2" />
-		<item id="12437" name="pelvis bone" chance="19545" />
-		<item id="11233" name="unholy bone" chance="11432" />
-		<item id="2789" name="brown mushroom" chance="5271" />
-		<item id="2376" name="sword" chance="4792" />
-		<item id="2398" name="mace" chance="2927" />
-		<item id="7381" name="mammoth whopper" chance="1934" />
-		<item id="6553" name="ruthless axe" chance="531" />
+		<item id="2152" name="platinum coin" chance="78831" countmax="25" />
+		<item id="2230" name="bone" chance="60743" />
+		<item id="5944" name="soul orb" chance="30796" />
+		<item id="2787" name="white mushroom" chance="20170" countmax="2" />
+		<item id="12437" name="pelvis bone" chance="19470" />
+		<item id="11233" name="unholy bone" chance="11509" />
+		<item id="2789" name="brown mushroom" chance="5230" />
+		<item id="2376" name="sword" chance="4797" />
+		<item id="2398" name="mace" chance="2981" />
+		<item id="7381" name="mammoth whopper" chance="1915" />
+		<item id="6553" name="ruthless axe" chance="533" />
 	</loot>
 </monster>

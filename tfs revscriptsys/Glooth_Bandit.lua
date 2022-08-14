@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 15},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.attacks = {
@@ -90,32 +90,32 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 2152, chance = 60032, maxCount = 3},
-	{id = 7591, chance = 8078},
-	{id = 24185, chance = 8011},
-	{id = 7590, chance = 7426, maxCount = 2},
-	{id = 23574, chance = 5087},
-	{id = 8472, chance = 3472},
-	{id = 8473, chance = 3445},
-	{id = 24183, chance = 3030},
-	{id = 23517, chance = 2599},
-	{id = 9970, chance = 2532, maxCount = 2},
-	{id = 23514, chance = 2462},
-	{id = 2149, chance = 2043, maxCount = 2},
+	{id = 2152, chance = 60026, maxCount = 3},
+	{id = 7591, chance = 8081},
+	{id = 24185, chance = 8010},
+	{id = 7590, chance = 7425, maxCount = 2},
+	{id = 23574, chance = 5088},
+	{id = 8472, chance = 3475},
+	{id = 8473, chance = 3443},
+	{id = 24183, chance = 3031},
+	{id = 23517, chance = 2598},
+	{id = 9970, chance = 2533, maxCount = 2},
+	{id = 23514, chance = 2463},
+	{id = 2149, chance = 2042, maxCount = 2},
 	{id = 23551, chance = 1024},
 	{id = 23529, chance = 1009},
 	{id = 23549, chance = 1001},
-	{id = 23554, chance = 997},
-	{id = 23550, chance = 996},
-	{id = 3962, chance = 805},
+	{id = 23554, chance = 998},
+	{id = 23550, chance = 997},
+	{id = 3962, chance = 804},
 	{id = 23536, chance = 729},
 	{id = 7903, chance = 607},
-	{id = 7884, chance = 598},
+	{id = 7884, chance = 600},
 	{id = 23535, chance = 581},
-	{id = 7886, chance = 492},
+	{id = 7886, chance = 491},
 	{id = 7885, chance = 482},
 	{id = 2436, chance = 420},
-	{id = 2155, chance = 156},
+	{id = 2155, chance = 155},
 	{id = 2454, chance = 102}
 }
 

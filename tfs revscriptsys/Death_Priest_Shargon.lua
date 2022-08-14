@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Death Priest Shargon")
 local monster = {}
 
 monster.name = "Death Priest Shargon"
-monster.description = ""
+monster.description = "Death Priest Shargon"
 monster.experience = 20000
 monster.outfit = {
 	lookType = 0,
@@ -78,23 +78,27 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -800}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 699}
+	armor = 10
+}
+
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Lesser Death Minion", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 91},
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 2152, chance = 100000, maxCount = 15},
 	{id = 2185, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 14},
-	{id = 7590, chance = 33333, maxCount = 3},
-	{id = 9969, chance = 22222},
-	{id = 9971, chance = 22222},
-	{id = 7591, chance = 22222, maxCount = 5}
+	{id = 7590, chance = 30000, maxCount = 5},
+	{id = 7591, chance = 20000, maxCount = 5},
+	{id = 9971, chance = 20000},
+	{id = 9969, chance = 20000},
+	{id = 9447, chance = 7500}
 }
 
 mType:register(monster)

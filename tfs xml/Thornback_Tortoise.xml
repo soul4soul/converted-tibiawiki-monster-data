@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Thornback Tortoise" nameDescription="a thornback tortoise" experience="150" speed="150" manacost="0">
+<monster name="Thornback Tortoise" nameDescription="a thornback tortoise" race="blood" experience="150" speed="150" manacost="490">
 	<health now="300" max="300" />
 	<look type="198" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,32 +29,29 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="30" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="20" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
-	</attacks>
 	<defenses armor="24" defense="24" />
 	<loot>
-		<item id="2148" name="gold coin" chance="87823" countmax="50" />
-		<item id="10560" name="thorn" chance="15476" />
-		<item id="2667" name="fish" chance="10435" countmax="2" />
-		<item id="7618" name="health potion" chance="1605" />
-		<item id="2143" name="white pearl" chance="1341" />
-		<item id="2787" name="white mushroom" chance="1126" />
-		<item id="5899" name="turtle shell" chance="1116" />
-		<item id="5678" name="tortoise egg" chance="940" countmax="3" />
+		<item id="2148" name="gold coin" chance="87780" countmax="50" />
+		<item id="10560" name="thorn" chance="15622" />
+		<item id="2667" name="fish" chance="10365" countmax="2" />
+		<item id="7618" name="health potion" chance="1585" />
+		<item id="2143" name="white pearl" chance="1307" />
+		<item id="2787" name="white mushroom" chance="1131" />
+		<item id="5899" name="turtle shell" chance="1075" />
+		<item id="5678" name="tortoise egg" chance="936" countmax="3" />
 		<item id="2789" name="brown mushroom" chance="695" />
-		<item id="2144" name="black pearl" chance="646" />
-		<item id="2391" name="war hammer" chance="294" />
+		<item id="2144" name="black pearl" chance="621" />
+		<item id="2391" name="war hammer" chance="297" />
 	</loot>
 </monster>

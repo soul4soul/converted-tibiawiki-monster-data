@@ -20,7 +20,7 @@ monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 204
-monster.summonCost = 0
+monster.summonCost = 695
 
 monster.changeTarget = {
 	interval = 2000,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -69,15 +69,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = 20},
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
@@ -90,20 +90,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 82764, maxCount = 70},
-	{id = 2666, chance = 50267},
-	{id = 10574, chance = 10022},
-	{id = 2513, chance = 6210},
-	{id = 2378, chance = 5141},
-	{id = 2417, chance = 5100},
-	{id = 2510, chance = 2094},
-	{id = 2442, chance = 2063},
-	{id = 2387, chance = 974},
+	{id = 2148, chance = 82779, maxCount = 70},
+	{id = 2666, chance = 50238},
+	{id = 10574, chance = 10011},
+	{id = 2513, chance = 6219},
+	{id = 2378, chance = 5139},
+	{id = 2417, chance = 5117},
+	{id = 2510, chance = 2096},
+	{id = 2442, chance = 2068},
+	{id = 2387, chance = 979},
 	{id = 7588, chance = 522},
-	{id = 2490, chance = 199},
+	{id = 2490, chance = 198},
 	{id = 7452, chance = 142},
-	{id = 7398, chance = 127},
-	{id = 2209, chance = 89}
+	{id = 7398, chance = 126},
+	{id = 2209, chance = 88}
 }
 
 mType:register(monster)

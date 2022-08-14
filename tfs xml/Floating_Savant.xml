@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Floating Savant" nameDescription="a floating savant" experience="8000" speed="330" manacost="0">
+<monster name="Floating Savant" nameDescription="a floating savant" race="blood" experience="8000" speed="330" manacost="0">
 	<health now="8000" max="8000" />
 	<look type="1063" head="113" body="94" legs="78" feet="78" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="1" />
@@ -32,13 +32,13 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-10" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="50" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
@@ -52,15 +52,15 @@
 		<voice name="Lava Lurker Attendant" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2156" name="red gem" chance="71670" countmax="4" />
-		<item id="5911" name="red piece of cloth" chance="30670" countmax="3" />
-		<item id="6500" name="demonic essence" chance="23778" />
-		<item id="7760" name="small enchanted ruby" chance="20595" countmax="14" />
-		<item id="11237" name="book of necromantic rituals" chance="19784" />
-		<item id="18420" name="red crystal fragment" chance="19417" countmax="8" />
-		<item id="6558" name="flask of demonic blood" chance="15343" />
-		<item id="3456" name="pick" chance="4998" />
-		<item id="9969" name="black skull (item)" chance="255" />
-		<item id="30530" name="sample of monster blood" chance="111" />
+		<item id="2156" name="red gem" chance="71492" countmax="4" />
+		<item id="5911" name="red piece of cloth" chance="30524" countmax="3" />
+		<item id="6500" name="demonic essence" chance="23744" countmax="3" />
+		<item id="7760" name="small enchanted ruby" chance="20629" countmax="14" />
+		<item id="11237" name="book of necromantic rituals" chance="20049" />
+		<item id="18420" name="red crystal fragment" chance="19346" countmax="8" />
+		<item id="6558" name="flask of demonic blood" chance="15453" />
+		<item id="3456" name="pick" chance="5237" />
+		<item id="9969" name="black skull (item)" chance="260" />
+		<item id="30530" name="sample of monster blood" chance="107" />
 	</loot>
 </monster>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Kesar")
 local monster = {}
 
 monster.name = "Kesar"
-monster.description = ""
+monster.description = "Kesar"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -78,13 +78,11 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 0}
+	armor = 10
 }
 
 monster.loot = {

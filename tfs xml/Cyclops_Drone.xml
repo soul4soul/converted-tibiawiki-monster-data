@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Cyclops Drone" nameDescription="a cyclops drone" experience="200" speed="198" manacost="0">
+<monster name="Cyclops Drone" nameDescription="a cyclops drone" race="blood" experience="200" speed="198" manacost="525">
 	<health now="325" max="325" />
 	<look type="280" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="10" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="20" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
@@ -54,16 +54,16 @@
 		<voice sentence="Humy tasy! Hum hum!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82060" countmax="30" />
-		<item id="2666" name="meat" chance="50256" />
-		<item id="2406" name="short sword" chance="7878" />
-		<item id="10574" name="cyclops toe" chance="6890" />
-		<item id="2510" name="plate shield" chance="2030" />
-		<item id="2513" name="battle shield" chance="1569" />
-		<item id="2381" name="halberd" chance="675" />
-		<item id="7588" name="strong health potion" chance="517" />
-		<item id="2490" name="dark helmet" chance="196" />
-		<item id="7398" name="cyclops trophy" chance="122" />
-		<item id="2209" name="club ring" chance="74" />
+		<item id="2148" name="gold coin" chance="82056" countmax="30" />
+		<item id="2666" name="meat" chance="50297" />
+		<item id="2406" name="short sword" chance="7870" />
+		<item id="10574" name="cyclops toe" chance="6888" />
+		<item id="2510" name="plate shield" chance="2026" />
+		<item id="2513" name="battle shield" chance="1580" />
+		<item id="2381" name="halberd" chance="678" />
+		<item id="7588" name="strong health potion" chance="516" />
+		<item id="2490" name="dark helmet" chance="197" />
+		<item id="7398" name="cyclops trophy" chance="124" />
+		<item id="2209" name="club ring" chance="73" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Barbarian Brutetamer" nameDescription="a barbarian brutetamer" experience="90" speed="178" manacost="0">
+<monster name="Barbarian Brutetamer" nameDescription="a barbarian brutetamer" race="blood" experience="90" speed="178" manacost="0">
 	<health now="145" max="145" />
 	<look type="264" head="78" body="97" legs="95" feet="121" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,40 +29,38 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="-10" />
+		<element energyPercent="20" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="50" />
+		<element holyPercent="10" />
+		<element deathPercent="-5" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-20" />
-	</attacks>
-	<defenses armor="8" defense="8">
-		<defense name="healing" interval="2000" chance="20" min="14" max="36" />
-	</defenses>
+	<defenses armor="8" defense="8" />
 	<voices interval="5000" chance="10">
 		<voice sentence="To me, creatures of the wild!" yell="false" />
 		<voice sentence="My instincts tell me about your cowardice." yell="false" />
 		<voice sentence="Feel the power of the beast!" yell="false" />
 	</voices>
+	<summons maxSummons="2">
+		<voice name="War Wolf" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="90179" countmax="15" />
-		<item id="2686" name="corncob" chance="11013" countmax="2" />
-		<item id="2464" name="chain armor" chance="9139" />
-		<item id="7343" name="fur bag" chance="7636" />
-		<item id="2401" name="staff" chance="6510" />
-		<item id="3965" name="hunting spear" chance="5296" />
-		<item name="book (grey)" chance="4681" />
-		<item id="7620" name="mana potion" chance="615" />
-		<item id="7379" name="brutetamer's staff" chance="304" />
-		<item id="7457" name="fur boots" chance="156" />
-		<item id="7463" name="mammoth fur cape" chance="133" />
-		<item id="7464" name="mammoth fur shorts" chance="89" />
+		<item id="2148" name="gold coin" chance="90197" countmax="15" />
+		<item id="2686" name="corncob" chance="10966" countmax="2" />
+		<item id="2464" name="chain armor" chance="9113" />
+		<item id="7343" name="fur bag" chance="7638" />
+		<item id="2401" name="staff" chance="6497" />
+		<item id="3965" name="hunting spear" chance="5319" />
+		<item name="book (grey)" chance="4694" />
+		<item id="7620" name="mana potion" chance="610" />
+		<item id="7379" name="brutetamer's staff" chance="298" />
+		<item id="7457" name="fur boots" chance="153" />
+		<item id="7463" name="mammoth fur cape" chance="138" />
+		<item id="7464" name="mammoth fur shorts" chance="87" />
 	</loot>
 </monster>

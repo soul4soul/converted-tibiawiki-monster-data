@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Pixie" nameDescription="a pixie" experience="700" speed="240" manacost="0">
+<monster name="Pixie" nameDescription="a pixie" race="blood" experience="700" speed="240" manacost="0">
 	<health now="770" max="770" />
 	<look type="982" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,24 +29,18 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-5" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="60" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="60" />
+		<element deathPercent="30" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
-	<defenses armor="52" defense="52">
-		<defense name="healing" interval="2000" chance="20" min="45" max="75" />
-	</defenses>
+	<defenses armor="52" defense="52" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Sweet dreams!" yell="false" />
 		<voice sentence="Let's try a step or two!" yell="false" />
@@ -54,22 +48,23 @@
 		<voice sentence="You might be a threat! I'm sorry but I can't allow you to linger here." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="60239" countmax="166" />
-		<item id="28347" name="wild flowers" chance="17870" />
-		<item id="28351" name="dandelion seeds" chance="14871" />
-		<item id="28348" name="fresh fruit" chance="9765" />
-		<item id="28352" name="colourful snail shell" chance="9664" />
-		<item id="28391" name="leaf star" chance="8926" countmax="5" />
-		<item id="2800" name="star herb" chance="5042" />
-		<item id="2162" name="magic light wand" chance="4641" />
-		<item id="7590" name="great mana potion" chance="3337" />
-		<item id="2744" name="red rose" chance="3091" />
-		<item id="28393" name="rainbow quartz" chance="3082" countmax="3" />
+		<item id="2148" name="gold coin" chance="60285" countmax="166" />
+		<item id="9970" name="small topaz" chance="20000" />
+		<item id="28347" name="wild flowers" chance="17910" />
+		<item id="28351" name="dandelion seeds" chance="14833" />
+		<item id="28348" name="fresh fruit" chance="9749" countmax="2" />
+		<item id="28352" name="colourful snail shell" chance="9659" />
+		<item id="28391" name="leaf star" chance="8960" countmax="5" />
+		<item id="2800" name="star herb" chance="5038" />
+		<item id="2162" name="magic light wand" chance="4621" />
+		<item id="7590" name="great mana potion" chance="3341" />
+		<item id="2744" name="red rose" chance="3077" />
+		<item id="28393" name="rainbow quartz" chance="3068" countmax="3" />
 		<item id="7762" name="small enchanted amethyst" chance="2197" countmax="2" />
-		<item id="2796" name="green mushroom" chance="1796" />
-		<item id="7589" name="strong mana potion" chance="848" />
-		<item id="28354" name="butterfly ring" chance="602" />
-		<item id="28356" name="dream blossom staff" chance="538" />
-		<item id="28355" name="wooden spellbook" chance="356" />
+		<item id="2796" name="green mushroom" chance="1797" />
+		<item id="7589" name="strong mana potion" chance="844" />
+		<item id="28354" name="butterfly ring" chance="608" />
+		<item id="28356" name="dream blossom staff" chance="536" />
+		<item id="28355" name="wooden spellbook" chance="354" />
 	</loot>
 </monster>

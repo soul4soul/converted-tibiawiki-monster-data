@@ -68,16 +68,18 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 20},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = 0, maxDamage = -30, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_SNOWBALL, effect = CONST_ME_ICEATTACK},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = 0, maxDamage = -120, radius = 4, target = false, effect = CONST_ME_ICETORNADO}
 }
 
 monster.defenses = {
@@ -91,8 +93,8 @@ monster.loot = {
 	{id = 7839, chance = 8289, maxCount = 5},
 	{id = 2396, chance = 5996},
 	{id = 2111, chance = 4233, maxCount = 5},
-	{id = 7888, chance = 2822},
 	{id = 2183, chance = 2822},
+	{id = 7888, chance = 2822},
 	{id = 7902, chance = 2646},
 	{id = 2186, chance = 1940},
 	{id = 7896, chance = 1235}

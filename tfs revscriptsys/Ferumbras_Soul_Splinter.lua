@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Ferumbras Soul Splinter")
 local monster = {}
 
 monster.name = "Ferumbras Soul Splinter"
-monster.description = ""
+monster.description = "Ferumbras Soul Splinter"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -66,14 +66,14 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 25},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 25},
+	{type = COMBAT_HOLYDAMAGE , percent = 25},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -82,8 +82,7 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 400, maxDamage = 700}
+	armor = 10
 }
 
 monster.loot = {

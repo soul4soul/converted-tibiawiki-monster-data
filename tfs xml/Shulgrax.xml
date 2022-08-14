@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Shulgrax" nameDescription="" experience="50000" speed="0" manacost="0">
+<monster name="Shulgrax" nameDescription="Shulgrax" race="blood" experience="50000" speed="0" manacost="0">
 	<health now="290000" max="290000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,42 +30,46 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="-10" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="10" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-1500" />
-	</attacks>
-	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="100" max="600" />
-	</defenses>
+	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="YOUR SOULS WILL BE MINE!" yell="false" />
 	</voices>
 	<loot>
-		<item id="6500" name="demonic essence" chance="100000" />
-		<item id="6558" name="flask of demonic blood" chance="100000" />
-		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="24849" name="onyx chip" chance="100000" countmax="5" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="30" />
 		<item id="25172" name="silver token" chance="100000" />
-		<item id="2158" name="blue gem" chance="66667" />
-		<item id="7590" name="great mana potion" chance="66667" countmax="5" />
-		<item id="8472" name="great spirit potion" chance="66667" countmax="5" />
-		<item id="24850" name="opal" chance="66667" countmax="5" />
-		<item id="25523" name="rift crossbow" chance="66667" />
-		<item id="2147" name="small ruby" chance="66667" countmax="5" />
-		<item id="8473" name="ultimate health potion" chance="66667" countmax="5" />
-		<item id="6300" name="death ring" chance="33333" />
-		<item id="2155" name="green gem" chance="33333" />
-		<item id="7889" name="lightning pendant" chance="33333" />
-		<item id="2149" name="small emerald" chance="33333" countmax="5" />
+		<item id="2148" name="gold coin" chance="100000" countmax="315" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="32" />
+		<item id="24849" name="onyx chip" chance="80000" countmax="9" />
+		<item id="24850" name="opal" chance="80000" countmax="7" />
+		<item id="7590" name="great mana potion" chance="60000" countmax="7" />
+		<item id="8472" name="great spirit potion" chance="60000" countmax="6" />
+		<item id="20108" name="pair of iron fists" chance="40000" />
+		<item id="2158" name="blue gem" chance="40000" />
+		<item id="8473" name="ultimate health potion" chance="40000" />
+		<item id="6558" name="flask of demonic blood" chance="40000" countmax="3" />
+		<item id="2149" name="small emerald" chance="40000" countmax="2" />
+		<item id="8910" name="underworld rod" chance="40000" />
+		<item id="6500" name="demonic essence" chance="40000" />
+		<item id="2150" name="small amethyst" chance="20000" countmax="7" />
+		<item id="25523" name="rift crossbow" chance="20000" />
+		<item id="2155" name="green gem" chance="20000" />
+		<item id="2147" name="small ruby" chance="20000" countmax="4" />
+		<item id="7889" name="lightning pendant" chance="20000" />
+		<item id="6300" name="death ring" chance="20000" />
+		<item id="9970" name="small topaz" chance="20000" countmax="5" />
+		<item name="giant shimmering pearl" chance="20000" />
+		<item id="25383" name="rift lance" chance="20000" />
+		<item id="25418" name="maimer" chance="20000" />
+		<item id="2156" name="red gem" chance="20000" />
+		<item id="25412" name="treader of torment" chance="4000" />
 	</loot>
 </monster>

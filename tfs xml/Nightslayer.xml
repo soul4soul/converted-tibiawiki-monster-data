@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Nightslayer" nameDescription="a nightslayer" experience="250" speed="180" manacost="0">
+<monster name="Nightslayer" nameDescription="a nightslayer" race="blood" experience="250" speed="180" manacost="0">
 	<health now="400" max="400" />
 	<look type="152" head="95" body="95" legs="95" feet="95" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,19 +31,19 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-130" />
-		<attack name="physical" interval="2000" chance="15" min="0" max="-20" range="5" radius="1" target="1">
-			<attribute key="shootEffect" value="throwingstar" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-20" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="redstar" />
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="25" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Neutral Deepling Warrior" nameDescription="a neutral deepling warrior" experience="1500" speed="290" manacost="0">
+<monster name="Neutral Deepling Warrior" nameDescription="a neutral deepling warrior" race="blood" experience="1500" speed="290" manacost="0">
 	<health now="1600" max="1600" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-280" />
@@ -48,10 +48,10 @@
 	</defenses>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="145" />
-		<item id="15488" name="deepling filet" chance="30769" />
-		<item id="7591" name="great health potion" chance="23077" />
-		<item id="15426" name="deeptags" chance="15385" />
-		<item id="15425" name="deepling warts" chance="11538" />
-		<item id="2168" name="life ring" chance="7692" />
+		<item id="15488" name="deepling filet" chance="29630" />
+		<item id="7591" name="great health potion" chance="22222" />
+		<item id="15426" name="deeptags" chance="14815" />
+		<item id="15425" name="deepling warts" chance="11111" />
+		<item id="2168" name="life ring" chance="7407" />
 	</loot>
 </monster>

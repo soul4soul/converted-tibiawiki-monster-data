@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Goshnar's Megalomania")
 local monster = {}
 
 monster.name = "Goshnar's Megalomania"
-monster.description = ""
+monster.description = "Goshnar's Megalomania"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -93,18 +93,27 @@ monster.loot = {
 	{id = 26031, chance = 45455, maxCount = 120},
 	{id = 32717, chance = 36364, maxCount = 4},
 	{id = 2158, chance = 27273, maxCount = 5},
-	{id = 7443, chance = 27273, maxCount = 50},
-	{id = 2155, chance = 27273, maxCount = 5},
-	{id = 7440, chance = 27273, maxCount = 50},
 	{id = 2156, chance = 27273, maxCount = 6},
-	{id = 7439, chance = 18182, maxCount = 50},
-	{id = 32716, chance = 18182, maxCount = 4},
+	{id = 7440, chance = 27273, maxCount = 50},
+	{id = 2155, chance = 27273, maxCount = 5},
+	{id = 7443, chance = 27273, maxCount = 50},
+	{id = 36674, chance = 20000},
+	{id = 36581, chance = 20000},
+	{id = 36584, chance = 20000},
+	{id = 36609, chance = 20000},
+	{id = 36675, chance = 20000},
+	{id = 36677, chance = 20000},
+	{id = 36765, chance = 20000},
+	{id = 36676, chance = 20000},
+	{id = 36608, chance = 20000},
 	{id = 32715, chance = 18182, maxCount = 4},
+	{id = 7439, chance = 18182, maxCount = 50},
 	{id = "giant shimmering pearl", chance = 18182},
-	{id = 35279, chance = 18182, maxCount = 4},
 	{id = 9971, chance = 18182},
-	{id = 35278, chance = 9091, maxCount = 4},
-	{id = 2153, chance = 9091, maxCount = 5}
+	{id = 35279, chance = 18182, maxCount = 4},
+	{id = 32716, chance = 18182, maxCount = 4},
+	{id = 2153, chance = 9091, maxCount = 5},
+	{id = 35278, chance = 9091, maxCount = 4}
 }
 
 mType:register(monster)

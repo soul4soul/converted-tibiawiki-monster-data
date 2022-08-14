@@ -5,12 +5,12 @@ monster.name = "Dark Carnisylvan"
 monster.description = "a dark carnisylvan"
 monster.experience = 4400
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
+	lookType = 1418,
+	lookHead = 76,
+	lookBody = 57,
 	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookFeet = 19,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -67,14 +67,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 10},
+	{type = COMBAT_FIREDAMAGE, percent = -20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.attacks = {
@@ -86,20 +86,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 19},
-	{id = 2230, chance = 29378},
-	{id = 39461, chance = 11637},
-	{id = 39462, chance = 9774},
-	{id = 7590, chance = 8283},
-	{id = 8910, chance = 4299},
-	{id = 8920, chance = 3869},
-	{id = 2183, chance = 2809},
-	{id = 8912, chance = 2723},
-	{id = 2175, chance = 2694},
-	{id = 8901, chance = 1691},
-	{id = 2179, chance = 745},
-	{id = 28354, chance = 631},
-	{id = 39463, chance = 573}
+	{id = 2152, chance = 100000, maxCount = 23},
+	{id = 2230, chance = 37659},
+	{id = 39461, chance = 15649},
+	{id = 39462, chance = 11959},
+	{id = 7590, chance = 8906},
+	{id = 2183, chance = 4071},
+	{id = 8910, chance = 4071},
+	{id = 8920, chance = 3944},
+	{id = 2175, chance = 3181},
+	{id = 8912, chance = 3053},
+	{id = 8901, chance = 2799},
+	{id = 39463, chance = 1272},
+	{id = 28354, chance = 636},
+	{id = 2179, chance = 509}
 }
 
 mType:register(monster)

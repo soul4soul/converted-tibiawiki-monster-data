@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Mean Lost Soul" nameDescription="a mean lost soul" experience="5580" speed="500" manacost="0">
+<monster name="Mean Lost Soul" nameDescription="a mean lost soul" race="undead" experience="5580" speed="500" manacost="0">
 	<health now="5000" max="5000" />
 	<look type="1268" head="0" body="14" legs="0" feet="83" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,33 +29,30 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element physicalPercent="55" />
+		<element energyPercent="30" />
+		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-30" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
 	<defenses armor="80" defense="80" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="65283" />
-		<item id="34883" name="lost soul (item)" chance="35866" />
-		<item id="35359" name="death toll" chance="4827" />
-		<item id="2436" name="skull staff" chance="4790" />
-		<item id="2420" name="machete" chance="4651" />
-		<item id="35354" name="ensouled essence" chance="3234" />
-		<item id="2432" name="fire axe" chance="1612" />
-		<item id="35429" name="ivory comb" chance="1529" />
-		<item id="7386" name="mercenary sword" chance="1325" />
-		<item id="7407" name="haunted blade" chance="1084" />
-		<item id="15451" name="warrior's axe" chance="927" />
-		<item id="12613" name="twiceslicer" chance="435" />
+		<item id="2152" name="platinum coin" chance="66360" />
+		<item id="34883" name="lost soul (item)" chance="36103" />
+		<item id="2436" name="skull staff" chance="4859" />
+		<item id="2420" name="machete" chance="4664" />
+		<item id="35359" name="death toll" chance="4641" />
+		<item id="35354" name="ensouled essence" chance="3255" />
+		<item id="2432" name="fire axe" chance="1627" />
+		<item id="35429" name="ivory comb" chance="1620" />
+		<item id="7386" name="mercenary sword" chance="1371" />
+		<item id="7407" name="haunted blade" chance="1055" />
+		<item id="15451" name="warrior's axe" chance="1010" />
+		<item id="12613" name="twiceslicer" chance="460" />
 	</loot>
 </monster>

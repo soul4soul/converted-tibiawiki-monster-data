@@ -16,7 +16,7 @@ monster.outfit = {
 
 monster.health = 1600
 monster.maxHealth = 1600
-monster.runHealth = 0
+monster.runHealth = 32
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 290
@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
@@ -89,11 +89,11 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 145},
-	{id = 15488, chance = 30769},
-	{id = 7591, chance = 23077},
-	{id = 15426, chance = 15385},
-	{id = 15425, chance = 11538},
-	{id = 2168, chance = 7692}
+	{id = 15488, chance = 29630},
+	{id = 7591, chance = 22222},
+	{id = 15426, chance = 14815},
+	{id = 15425, chance = 11111},
+	{id = 2168, chance = 7407}
 }
 
 mType:register(monster)

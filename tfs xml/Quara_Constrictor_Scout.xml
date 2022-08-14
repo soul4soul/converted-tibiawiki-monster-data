@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Quara Constrictor Scout" nameDescription="a quara constrictor scout" experience="200" speed="150" manacost="0">
+<monster name="Quara Constrictor Scout" nameDescription="a quara constrictor scout" race="blood" experience="200" speed="150" manacost="600">
 	<health now="450" max="450" />
 	<look type="46" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,21 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-130" />
+		<attack name="lifedrain" interval="2000" chance="15" min="0" max="-80" radius="3" target="0">
+			<attribute key="areaEffect" value="blackspark" />
+		</attack>
 	</attacks>
 	<defenses armor="14" defense="14" />
 	<voices interval="5000" chance="10">
@@ -51,12 +54,12 @@
 		<voice sentence="Boohaa!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99952" countmax="50" />
-		<item id="12443" name="quara tentacle" chance="15101" />
-		<item id="2670" name="shrimp" chance="10030" />
-		<item id="2397" name="longsword" chance="8068" />
-		<item id="2465" name="brass armor" chance="5070" />
-		<item id="2150" name="small amethyst" chance="4002" />
-		<item id="5895" name="fish fin" chance="509" />
+		<item id="2148" name="gold coin" chance="99953" countmax="50" />
+		<item id="12443" name="quara tentacle" chance="15123" />
+		<item id="2670" name="shrimp" chance="10011" countmax="3" />
+		<item id="2397" name="longsword" chance="8091" />
+		<item id="2465" name="brass armor" chance="5080" />
+		<item id="2150" name="small amethyst" chance="4012" />
+		<item id="5895" name="fish fin" chance="507" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Guardian Of Tales" nameDescription="a guardian of tales" experience="9204" speed="420" manacost="0">
+<monster name="Guardian Of Tales" nameDescription="a guardian of tales" race="blood" experience="9204" speed="420" manacost="0">
 	<health now="15000" max="15000" />
 	<look type="1063" head="92" body="52" legs="0" feet="79" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,13 +32,13 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-12" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="50" />
 	</elements>
 	<attacks>
 		<attack name="death" interval="2000" chance="15" min="-1000" max="-1600" range="3" radius="1" target="1">
@@ -57,19 +57,19 @@
 	</attacks>
 	<defenses armor="77" defense="77" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="85002" countmax="32" />
-		<item id="2145" name="small diamond" chance="57698" countmax="5" />
-		<item id="31225" name="book page" chance="43896" countmax="4" />
-		<item id="31226" name="glowing rune" chance="38216" countmax="8" />
-		<item id="2239" name="burnt scroll" chance="37818" />
-		<item id="5944" name="soul orb" chance="9965" />
-		<item id="2187" name="wand of inferno" chance="9168" />
-		<item id="8901" name="spellbook of warding" chance="5531" />
-		<item id="10581" name="piece of hellfire armor" chance="5232" />
-		<item id="2432" name="fire axe" chance="3737" />
-		<item id="2392" name="fire sword" chance="1445" />
-		<item id="7894" name="magma legs" chance="997" />
-		<item id="7899" name="magma coat" chance="847" />
-		<item id="13757" name="coal" chance="299" />
+		<item id="2152" name="platinum coin" chance="85074" countmax="32" />
+		<item id="2145" name="small diamond" chance="57823" countmax="5" />
+		<item id="31225" name="book page" chance="44058" countmax="4" />
+		<item id="31226" name="glowing rune" chance="38295" countmax="8" />
+		<item id="2239" name="burnt scroll" chance="37775" />
+		<item id="5944" name="soul orb" chance="9644" />
+		<item id="2187" name="wand of inferno" chance="9404" />
+		<item id="8901" name="spellbook of warding" chance="5442" />
+		<item id="10581" name="piece of hellfire armor" chance="5242" />
+		<item id="2432" name="fire axe" chance="4082" />
+		<item id="2392" name="fire sword" chance="1281" />
+		<item id="7894" name="magma legs" chance="1000" />
+		<item id="7899" name="magma coat" chance="920" />
+		<item id="13757" name="coal" chance="280" />
 	</loot>
 </monster>

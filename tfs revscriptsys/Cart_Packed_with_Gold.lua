@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 4,
+	color = 206
 }
 
 monster.voices = {
@@ -74,7 +74,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
@@ -86,7 +86,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2145, chance = 100000}
+	{id = 2145, chance = 100000},
+	{id = 2197, chance = 20000},
+	{id = 8473, chance = 20000},
+	{id = 2181, chance = 20000}
 }
 
 mType:register(monster)

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Enusat the Onyx Wing")
 local monster = {}
 
 monster.name = "Enusat The Onyx Wing"
-monster.description = ""
+monster.description = "Enusat the Onyx Wing"
 monster.experience = 21500
 monster.outfit = {
 	lookType = 0,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -86,21 +86,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 66667},
-	{id = 2379, chance = 40000},
-	{id = 7886, chance = 20000},
-	{id = 2392, chance = 13333},
-	{id = 8912, chance = 13333},
-	{id = 2153, chance = 13333},
-	{id = 9971, chance = 6667},
-	{id = 2427, chance = 6667},
-	{id = 2476, chance = 6667},
-	{id = 7901, chance = 6667},
-	{id = 34096, chance = 6667},
-	{id = 24849, chance = 6667},
-	{id = 10219, chance = 6667},
-	{id = 2149, chance = 6667},
-	{id = 2181, chance = 6667}
+	{id = 2160, chance = 64706},
+	{id = 2379, chance = 35294},
+	{id = 7886, chance = 17647},
+	{id = 2392, chance = 11765},
+	{id = 9971, chance = 11765},
+	{id = 7901, chance = 11765},
+	{id = 8912, chance = 11765},
+	{id = 2427, chance = 11765},
+	{id = 34096, chance = 11765},
+	{id = 2153, chance = 11765},
+	{id = 2476, chance = 5882},
+	{id = 10219, chance = 5882},
+	{id = 2149, chance = 5882},
+	{id = 24849, chance = 5882},
+	{id = 2181, chance = 5882}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Glooth Golem" nameDescription="a glooth golem" experience="1606" speed="260" manacost="0">
+<monster name="Glooth Golem" nameDescription="a glooth golem" race="undead" experience="1606" speed="260" manacost="0">
 	<health now="2700" max="2700" />
 	<look type="600" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,25 +29,29 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="5" />
+		<element energyPercent="5" />
+		<element earthPercent="100" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="15" />
+		<element deathPercent="30" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-250" />
+		<attack name="energy" interval="2000" chance="15" min="0" max="-245" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="energy" />
+		</attack>
 	</attacks>
 	<defenses armor="43" defense="43">
+		<defense name="healing" interval="2000" chance="20" min="100" max="250" />
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
-		<defense name="healing" interval="2000" chance="20" min="100" max="250" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="*slosh*" yell="false" />
@@ -55,25 +59,25 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="2152" name="platinum coin" chance="59401" countmax="4" />
-		<item id="23474" name="glooth injection tube" chance="15243" />
-		<item id="7590" name="great mana potion" chance="12139" />
-		<item id="23514" name="glooth sandwich" chance="10405" />
-		<item id="2149" name="small emerald" chance="8269" countmax="4" />
-		<item id="9970" name="small topaz" chance="7320" countmax="4" />
-		<item id="8473" name="ultimate health potion" chance="5549" />
-		<item id="24124" name="bronze gear wheel" chance="3049" />
-		<item id="9690" name="gear wheel" chance="1972" />
-		<item id="5880" name="iron ore" chance="1771" />
-		<item id="23551" name="glooth axe" chance="1643" />
-		<item id="23554" name="glooth amulet" chance="1533" />
-		<item id="23550" name="glooth blade" chance="1533" />
-		<item id="23529" name="glooth spear" chance="1497" />
-		<item id="23538" name="heat core" chance="1497" />
-		<item id="23536" name="rubber cap" chance="1095" />
-		<item id="23541" name="gearwheel chain" chance="1004" />
-		<item id="23549" name="glooth club" chance="1004" />
-		<item id="2154" name="yellow gem" chance="931" />
-		<item id="2155" name="green gem" chance="18" />
+		<item id="2152" name="platinum coin" chance="59611" countmax="4" />
+		<item id="23474" name="glooth injection tube" chance="15285" />
+		<item id="7590" name="great mana potion" chance="12053" />
+		<item id="23514" name="glooth sandwich" chance="10351" />
+		<item id="2149" name="small emerald" chance="8236" countmax="4" />
+		<item id="9970" name="small topaz" chance="7359" countmax="4" />
+		<item id="8473" name="ultimate health potion" chance="5485" />
+		<item id="24124" name="bronze gear wheel" chance="3026" />
+		<item id="9690" name="gear wheel" chance="1909" />
+		<item id="5880" name="iron ore" chance="1754" />
+		<item id="23529" name="glooth spear" chance="1582" />
+		<item id="23551" name="glooth axe" chance="1565" />
+		<item id="23554" name="glooth amulet" chance="1565" />
+		<item id="23538" name="heat core" chance="1530" />
+		<item id="23550" name="glooth blade" chance="1513" />
+		<item id="23536" name="rubber cap" chance="1083" />
+		<item id="23541" name="gearwheel chain" chance="980" />
+		<item id="23549" name="glooth club" chance="963" />
+		<item id="2154" name="yellow gem" chance="911" />
+		<item id="2155" name="green gem" chance="17" />
 	</loot>
 </monster>

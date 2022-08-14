@@ -5,12 +5,12 @@ monster.name = "Poisonous Carnisylvan"
 monster.description = "a poisonous carnisylvan"
 monster.experience = 4400
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1418,
+	lookHead = 23,
+	lookBody = 98,
+	lookLegs = 22,
+	lookFeet = 61,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -67,14 +67,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 25},
+	{type = COMBAT_FIREDAMAGE, percent = -15},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -5},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 5}
 }
 
 monster.attacks = {
@@ -85,26 +85,31 @@ monster.defenses = {
 	armor = 37
 }
 
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Carnisylvan Sapling", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
-	{id = 2152, chance = 81463, maxCount = 17},
-	{id = 39462, chance = 10284},
-	{id = 18397, chance = 8034},
-	{id = 39461, chance = 7815},
-	{id = 2127, chance = 6908},
-	{id = "wooden trash", chance = 6877},
-	{id = 8472, chance = 6346},
-	{id = 2427, chance = 5564},
-	{id = "collar of blue plasma", chance = 4658},
-	{id = 2181, chance = 3907},
-	{id = 8910, chance = 3595},
-	{id = 7387, chance = 3532},
-	{id = 2795, chance = 3501, maxCount = 3},
-	{id = 2430, chance = 3501},
-	{id = 8920, chance = 3032},
-	{id = 10219, chance = 2001},
-	{id = 7632, chance = 1532},
-	{id = 27048, chance = 750},
-	{id = 39463, chance = 250}
+	{id = 2152, chance = 94459, maxCount = 17},
+	{id = 39462, chance = 13325},
+	{id = 18397, chance = 9763},
+	{id = 39461, chance = 8839},
+	{id = "wooden trash", chance = 7388},
+	{id = 8472, chance = 7256},
+	{id = 2127, chance = 6728},
+	{id = 2181, chance = 5673},
+	{id = 2427, chance = 5673},
+	{id = 2430, chance = 5277},
+	{id = "collar of blue plasma", chance = 5013},
+	{id = 8910, chance = 4881},
+	{id = 7387, chance = 4354},
+	{id = 8920, chance = 4090},
+	{id = 2795, chance = 3694, maxCount = 3},
+	{id = 10219, chance = 2243},
+	{id = 7632, chance = 2111},
+	{id = 27048, chance = 792},
+	{id = 39463, chance = 264}
 }
 
 mType:register(monster)

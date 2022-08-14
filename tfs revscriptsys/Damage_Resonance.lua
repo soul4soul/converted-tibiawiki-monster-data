@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Damage Resonance")
 local monster = {}
 
 monster.name = "Damage Resonance"
-monster.description = ""
+monster.description = "Damage Resonance"
 monster.experience = 560
 monster.outfit = {
 	lookType = 0,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -82,8 +82,7 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 228}
+	armor = 10
 }
 
 monster.loot = {

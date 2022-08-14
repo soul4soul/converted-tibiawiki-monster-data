@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Izcandar the Banished")
 local monster = {}
 
 monster.name = "Izcandar The Banished"
-monster.description = ""
+monster.description = "Izcandar the Banished"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -66,7 +66,7 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 5},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
@@ -74,11 +74,10 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500}
 }
 
 monster.defenses = {
@@ -88,46 +87,47 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 26191, chance = 100000},
-	{id = 26165, chance = 100000},
 	{id = 2114, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 25172, chance = 100000, maxCount = 3},
-	{id = 25377, chance = 81579, maxCount = 2},
-	{id = 26029, chance = 57895, maxCount = 20},
-	{id = 26031, chance = 55263, maxCount = 20},
-	{id = 26030, chance = 50000, maxCount = 20},
-	{id = 7443, chance = 36842, maxCount = 10},
-	{id = 2155, chance = 31579, maxCount = 2},
-	{id = 5892, chance = 28947},
-	{id = 28415, chance = 28947, maxCount = 100},
-	{id = 2436, chance = 26316},
-	{id = 2154, chance = 23684, maxCount = 2},
-	{id = 7439, chance = 21053, maxCount = 10},
-	{id = "collar of blue plasma", chance = 21053},
-	{id = "giant shimmering pearl", chance = 21053},
-	{id = 7440, chance = 18421, maxCount = 10},
-	{id = 32825, chance = 18421},
-	{id = 2156, chance = 18421, maxCount = 2},
-	{id = 9971, chance = 15789},
-	{id = 2158, chance = 13158},
-	{id = 7427, chance = 13158},
-	{id = 2160, chance = 13158, maxCount = 3},
-	{id = 5904, chance = 10526},
-	{id = "ring of green plasma", chance = 10526},
-	{id = 2153, chance = 10526},
-	{id = 26199, chance = 7895},
-	{id = 26200, chance = 7895},
-	{id = 32712, chance = 7895},
-	{id = "ring of blue plasma", chance = 7895},
-	{id = 32717, chance = 5263},
-	{id = "ring of red plasma", chance = 5263},
-	{id = 2123, chance = 5263},
-	{id = 5809, chance = 5263},
-	{id = 32077, chance = 5263},
-	{id = 32078, chance = 5263},
-	{id = 2453, chance = 2632},
-	{id = 32715, chance = 2632},
-	{id = 32601, chance = 2632}
+	{id = 2152, chance = 100000, maxCount = 9},
+	{id = 25172, chance = 100000, maxCount = 4},
+	{id = 26165, chance = 100000},
+	{id = 26031, chance = 66667, maxCount = 27},
+	{id = 25377, chance = 66667, maxCount = 3},
+	{id = 5892, chance = 55556},
+	{id = 26030, chance = 50000, maxCount = 24},
+	{id = 26029, chance = 44444, maxCount = 20},
+	{id = 2156, chance = 44444, maxCount = 2},
+	{id = 32825, chance = 38889},
+	{id = 2154, chance = 38889, maxCount = 2},
+	{id = 28415, chance = 38889, maxCount = 192},
+	{id = 9971, chance = 33333},
+	{id = 7440, chance = 27778, maxCount = 19},
+	{id = 2436, chance = 27778},
+	{id = 7439, chance = 22222, maxCount = 17},
+	{id = 32715, chance = 20000},
+	{id = 32712, chance = 20000},
+	{id = 32601, chance = 20000},
+	{id = 32600, chance = 20000},
+	{id = 2453, chance = 20000},
+	{id = 26199, chance = 20000},
+	{id = "ring of red plasma", chance = 20000},
+	{id = 5809, chance = 20000},
+	{id = 32077, chance = 20000},
+	{id = 7443, chance = 16667, maxCount = 18},
+	{id = "giant shimmering pearl", chance = 11111},
+	{id = 7427, chance = 11111},
+	{id = 2160, chance = 11111},
+	{id = 2158, chance = 11111},
+	{id = "ring of green plasma", chance = 11111},
+	{id = "collar of blue plasma", chance = 11111},
+	{id = 2153, chance = 11111},
+	{id = 26200, chance = 11111},
+	{id = 2155, chance = 11111, maxCount = 2},
+	{id = 5904, chance = 5556},
+	{id = "ring of blue plasma", chance = 5556},
+	{id = 32078, chance = 5556},
+	{id = 2123, chance = 5556},
+	{id = 32717, chance = 5556}
 }
 
 mType:register(monster)

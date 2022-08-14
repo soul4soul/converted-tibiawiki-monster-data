@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -69,42 +69,40 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 10},
+	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100}
 }
 
 monster.defenses = {
 	defense = 48,
-	armor = 48,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 70, maxDamage = 175}
+	armor = 48
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 135},
-	{id = 21245, chance = 15674},
-	{id = 11237, chance = 10196},
-	{id = 21242, chance = 9998},
-	{id = 21246, chance = 9668},
-	{id = 21243, chance = 7969},
-	{id = 21247, chance = 6385},
-	{id = 7589, chance = 5890},
-	{id = 2185, chance = 3069},
-	{id = 2663, chance = 1089},
-	{id = 8900, chance = 1006},
-	{id = 5909, chance = 940},
-	{id = 5911, chance = 676},
-	{id = 2156, chance = 528},
+	{id = 21245, chance = 15672},
+	{id = 11237, chance = 10163},
+	{id = 21242, chance = 10015},
+	{id = 21246, chance = 9653},
+	{id = 21243, chance = 7992},
+	{id = 21247, chance = 6381},
+	{id = 7589, chance = 5871},
+	{id = 2185, chance = 3108},
+	{id = 2663, chance = 1102},
+	{id = 8900, chance = 1020},
+	{id = 5909, chance = 937},
+	{id = 5911, chance = 674},
+	{id = 2156, chance = 526},
 	{id = 2195, chance = 115},
 	{id = 2436, chance = 49},
 	{id = 7456, chance = 16}

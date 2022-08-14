@@ -68,20 +68,22 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -20}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -20},
+	{name ="firefield", interval = 2000, chance = 15, range = 5, radius = 1, target = true, shootEffect = CONST_ANI_FIRE},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Green Frog", duration = 5000}
 }
 
 monster.defenses = {
@@ -90,20 +92,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 63927, maxCount = 40},
-	{id = 2687, chance = 29997, maxCount = 8},
-	{id = 2129, chance = 10124},
-	{id = 10569, chance = 10006},
-	{id = 2800, chance = 8992},
-	{id = 2643, chance = 5016},
-	{id = 2654, chance = 4953},
-	{id = 2405, chance = 3892},
-	{id = 2199, chance = 2517},
-	{id = 2651, chance = 2007},
-	{id = 2185, chance = 1083},
-	{id = 13537, chance = 896},
-	{id = 2402, chance = 557},
-	{id = 10570, chance = 90},
+	{id = 2148, chance = 63926, maxCount = 40},
+	{id = 2687, chance = 29965, maxCount = 8},
+	{id = 2129, chance = 10108},
+	{id = 10569, chance = 10012},
+	{id = 2800, chance = 8998},
+	{id = 2643, chance = 5038},
+	{id = 2654, chance = 4955},
+	{id = 2405, chance = 3891},
+	{id = 2199, chance = 2519},
+	{id = 2651, chance = 2014},
+	{id = 2185, chance = 1082},
+	{id = 13537, chance = 888},
+	{id = 2402, chance = 552},
+	{id = 10570, chance = 93},
 	{id = 11211, chance = 6}
 }
 

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Lord Retro")
 local monster = {}
 
 monster.name = "Lord Retro"
-monster.description = ""
+monster.description = "Lord Retro"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -54,7 +54,12 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
-	{text = "THE PRINCESS IS MINE ALONE!", yell = false}
+	{text = "THE PRINCESS IS MINE ALONE!", yell = false},
+	{text = "I'll make you all outdated!", yell = false},
+	{text = "My daughter Nostalgia will avenge me!", yell = false},
+	{text = "I will reset this game and Tibia 1.0 wrill rule!", yell = false},
+	{text = "One retro version to rule them all!", yell = false},
+	{text = "One day Lord Retro will rule!", yell = false}
 }
 
 monster.immunities = {
@@ -66,16 +71,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_HOLYDAMAGE , percent = 100},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {

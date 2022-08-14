@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Chopper")
 local monster = {}
 
 monster.name = "Chopper"
-monster.description = ""
+monster.description = "Chopper"
 monster.experience = 5400
 monster.outfit = {
 	lookType = 0,
@@ -67,7 +67,7 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -78,28 +78,26 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -200}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 5, maxDamage = 20}
+	armor = 10
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 207},
 	{id = 15483, chance = 100000},
-	{id = 2152, chance = 94340, maxCount = 4},
-	{id = 15486, chance = 81132},
-	{id = 15484, chance = 81132},
-	{id = 16096, chance = 73585, maxCount = 2},
-	{id = 9970, chance = 56604, maxCount = 2},
-	{id = 7591, chance = 45283, maxCount = 2},
-	{id = 2144, chance = 30189},
-	{id = 7590, chance = 30189, maxCount = 2},
-	{id = 2154, chance = 13208},
-	{id = 2127, chance = 9434}
+	{id = 2152, chance = 94737, maxCount = 4},
+	{id = 15484, chance = 78947},
+	{id = 15486, chance = 77193},
+	{id = 16096, chance = 70175, maxCount = 2},
+	{id = 9970, chance = 57895, maxCount = 2},
+	{id = 7591, chance = 45614, maxCount = 2},
+	{id = 2144, chance = 29825},
+	{id = 7590, chance = 29825, maxCount = 2},
+	{id = 2154, chance = 12281},
+	{id = 2127, chance = 8772}
 }
 
 mType:register(monster)

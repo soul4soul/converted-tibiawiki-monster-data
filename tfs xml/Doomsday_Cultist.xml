@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Doomsday Cultist" nameDescription="a doomsday cultist" experience="100" speed="150" manacost="0">
+<monster name="Doomsday Cultist" nameDescription="a doomsday cultist" race="blood" experience="100" speed="150" manacost="0">
 	<health now="125" max="125" />
 	<look type="194" head="95" body="76" legs="95" feet="76" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,16 +30,22 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="30" />
+		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-50" />
+		<attack name="lifedrain" interval="2000" chance="15" min="0" max="-80" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="death" />
+		</attack>
+	</attacks>
 	<defenses armor="9" defense="9" />
 	<loot>
 		<item id="10531" name="midnight shard" chance="1643" />

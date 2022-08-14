@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Grandfather Tridian" nameDescription="" experience="1400" speed="0" manacost="0">
+<monster name="Grandfather Tridian" nameDescription="Grandfather Tridian" race="blood" experience="1400" speed="0" manacost="0">
 	<health now="1800" max="1800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="35" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -40,17 +40,29 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="I will bring peace to your misguided soul!" yell="false" />
 		<voice sentence="Your intrusion can't be tolerated!" yell="false" />
 	</voices>
+	<summons maxSummons="4">
+		<voice name="Crypt Shambler" interval="2000" chance="15" max="2" />
+		<voice name="Ghost" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="64" />
-		<item name="music sheet" chance="100000" countmax="2" />
+		<item id="2148" name="gold coin" chance="100000" countmax="80" />
 		<item id="2114" name="piggy bank" chance="100000" />
+		<item name="music sheet" chance="100000" countmax="2" />
+		<item id="7589" name="strong mana potion" chance="20000" />
+		<item id="2789" name="brown mushroom" chance="20000" />
+		<item id="2187" name="wand of inferno" chance="20000" />
+		<item id="2436" name="skull staff" chance="20000" />
+		<item id="3955" name="voodoo doll" chance="20000" />
+		<item id="7426" name="amber staff" chance="20000" />
+		<item id="6087" name="music sheet (first verse)" chance="20000" />
+		<item id="6088" name="music sheet (second verse)" chance="20000" />
+		<item id="6089" name="music sheet (third verse)" chance="20000" />
+		<item id="6090" name="music sheet (fourth verse)" chance="20000" />
+		<item id="8922" name="wand of voodoo" chance="7500" />
 	</loot>
 </monster>

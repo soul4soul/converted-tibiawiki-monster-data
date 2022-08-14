@@ -68,37 +68,34 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 1},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 15}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -2000}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 9000, maxDamage = 22500},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 9000, maxDamage = 22500}
+	armor = 10
 }
 
 monster.loot = {
-	{id = 15413, chance = 42614},
-	{id = 15407, chance = 27841},
-	{id = "depth galea", chance = 27273},
-	{id = 15410, chance = 22727},
-	{id = 15404, chance = 22159},
-	{id = 15412, chance = 21023},
-	{id = 15414, chance = 21023},
-	{id = 15406, chance = 14773}
+	{id = 15413, chance = 33333},
+	{id = "depth galea", chance = 33333},
+	{id = 15414, chance = 33333},
+	{id = 15410, chance = 33333},
+	{id = 15404, chance = 20000},
+	{id = 15407, chance = 7500},
+	{id = 15406, chance = 7500},
+	{id = 15412, chance = 4000}
 }
 
 mType:register(monster)

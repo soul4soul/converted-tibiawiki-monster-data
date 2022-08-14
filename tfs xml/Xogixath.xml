@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Xogixath" nameDescription="" experience="22000" speed="0" manacost="0">
+<monster name="Xogixath" nameDescription="Xogixath" race="blood" experience="22000" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,25 +32,31 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="50" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-15" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="50" />
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="100000" countmax="9" />
-		<item id="18418" name="blue crystal splinter" chance="16667" />
-		<item id="18421" name="green crystal fragment" chance="16667" />
-		<item id="18415" name="green crystal shard" chance="16667" />
-		<item id="2156" name="red gem" chance="11111" />
-		<item id="2197" name="stone skin amulet" chance="11111" />
-		<item id="6300" name="death ring" chance="5556" />
-		<item id="7759" name="small enchanted sapphire" chance="5556" countmax="2" />
-		<item id="8921" name="wand of draconia" chance="5556" />
-		<item id="2187" name="wand of inferno" chance="5556" />
+		<item id="2156" name="red gem" chance="50000" countmax="2" />
+		<item id="33980" name="golden mask" chance="50000" />
+		<item id="2146" name="small sapphire" chance="20000" countmax="3" />
+		<item id="2152" name="platinum coin" chance="20000" countmax="9" />
+		<item id="18415" name="green crystal shard" chance="20000" />
+		<item id="2197" name="stone skin amulet" chance="20000" />
+		<item id="2432" name="fire axe" chance="20000" />
+		<item id="33979" name="sea horse figurine" chance="20000" />
+		<item name="enchanted blister ring" chance="20000" />
+		<item id="34273" name="winged boots" chance="20000" />
+		<item id="18421" name="green crystal fragment" chance="20000" />
+		<item id="8921" name="wand of draconia" chance="20000" />
+		<item id="18418" name="blue crystal splinter" chance="20000" />
+		<item id="7759" name="small enchanted sapphire" chance="20000" />
+		<item id="2187" name="wand of inferno" chance="20000" />
+		<item id="6300" name="death ring" chance="20000" />
 	</loot>
 </monster>

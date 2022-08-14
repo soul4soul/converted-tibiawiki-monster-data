@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Cliff Strider" nameDescription="a cliff strider" experience="5700" speed="246" manacost="0">
+<monster name="Cliff Strider" nameDescription="a cliff strider" race="blood" experience="5700" speed="246" manacost="0">
 	<health now="9400" max="9400" />
 	<look type="497" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,20 +29,17 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="100" />
+		<element earthPercent="100" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="35" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
-	</attacks>
 	<defenses armor="89" defense="89" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Knorrrr" yell="false" />
@@ -50,35 +47,36 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="196" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="10" />
-		<item id="7590" name="great mana potion" chance="33620" countmax="4" />
-		<item id="8473" name="ultimate health potion" chance="24421" countmax="2" />
-		<item id="18429" name="vein of ore" chance="18001" countmax="2" />
-		<item id="5944" name="soul orb" chance="16942" />
-		<item id="18427" name="pulverized ore" chance="15685" />
-		<item id="18428" name="cliff strider claw" chance="15222" />
-		<item id="5880" name="iron ore" chance="13832" />
-		<item id="11227" name="shiny stone" chance="12111" />
-		<item id="2144" name="black pearl" chance="9332" />
-		<item id="18435" name="prismatic bolt" chance="9199" countmax="8" />
-		<item id="18419" name="cyan crystal fragment" chance="9067" />
-		<item id="2143" name="white pearl" chance="9001" countmax="3" />
-		<item id="18418" name="blue crystal splinter" chance="8934" countmax="2" />
-		<item id="18413" name="blue crystal shard" chance="6750" />
-		<item id="2156" name="red gem" chance="5758" />
-		<item id="9942" name="crystal of balance" chance="2713" />
-		<item id="18390" name="wand of defiance" chance="1919" />
-		<item id="7437" name="sapphire hammer" chance="1522" />
-		<item id="5904" name="magic sulphur" chance="1456" />
-		<item id="18412" name="glacial rod" chance="1125" />
-		<item id="7452" name="spiked squelcher" chance="1059" />
-		<item id="18453" name="crystal crossbow" chance="927" />
-		<item id="2477" name="knight legs" chance="860" />
-		<item id="9980" name="crystal of power" chance="794" />
-		<item id="2158" name="blue gem" chance="728" />
-		<item id="2393" name="giant sword" chance="662" />
-		<item id="18450" name="crystalline sword" chance="596" />
-		<item id="2497" name="crusader helmet" chance="529" />
-		<item id="2487" name="crown armor" chance="463" />
+		<item id="7590" name="great mana potion" chance="33596" countmax="4" />
+		<item id="8473" name="ultimate health potion" chance="24409" countmax="2" />
+		<item id="18429" name="vein of ore" chance="17979" countmax="2" />
+		<item id="5944" name="soul orb" chance="16864" />
+		<item id="18427" name="pulverized ore" chance="15748" />
+		<item id="18428" name="cliff strider claw" chance="15289" />
+		<item id="5880" name="iron ore" chance="13911" />
+		<item id="11227" name="shiny stone" chance="12073" />
+		<item id="2144" name="black pearl" chance="9252" />
+		<item id="18419" name="cyan crystal fragment" chance="9252" />
+		<item id="18435" name="prismatic bolt" chance="9252" countmax="8" />
+		<item id="2143" name="white pearl" chance="8990" countmax="3" />
+		<item id="18418" name="blue crystal splinter" chance="8924" countmax="2" />
+		<item id="18413" name="blue crystal shard" chance="6693" />
+		<item id="2156" name="red gem" chance="5840" />
+		<item id="2444" name="hammer of wrath" chance="4000" />
+		<item id="9942" name="crystal of balance" chance="2756" />
+		<item id="18390" name="wand of defiance" chance="1903" />
+		<item id="7437" name="sapphire hammer" chance="1509" />
+		<item id="5904" name="magic sulphur" chance="1444" />
+		<item id="18412" name="glacial rod" chance="1181" />
+		<item id="7452" name="spiked squelcher" chance="1115" />
+		<item id="18453" name="crystal crossbow" chance="919" />
+		<item id="9980" name="crystal of power" chance="853" />
+		<item id="2477" name="knight legs" chance="853" />
+		<item id="2158" name="blue gem" chance="722" />
+		<item id="2393" name="giant sword" chance="656" />
+		<item id="18450" name="crystalline sword" chance="591" />
+		<item id="2497" name="crusader helmet" chance="525" />
+		<item id="2487" name="crown armor" chance="459" />
 		<item id="2645" name="steel boots" chance="66" />
 	</loot>
 </monster>

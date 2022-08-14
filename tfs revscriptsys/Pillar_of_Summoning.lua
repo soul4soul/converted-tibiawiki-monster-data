@@ -87,7 +87,7 @@ monster.defenses = {
 
 monster.maxSummons = 0
 monster.summons = {
-	{name = "Dread Minion", chance = 15, interval = 2000, max = 1}
+	{name = "Dread Minion", chance = 15, interval = 2000}
 }
 
 monster.loot = {

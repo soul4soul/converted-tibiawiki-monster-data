@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Cave Rat" nameDescription="a cave rat" experience="10" speed="150" manacost="250">
+<monster name="Cave Rat" nameDescription="a cave rat" race="blood" experience="10" speed="150" manacost="250">
 	<health now="30" max="30" />
 	<look type="56" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,7 +32,7 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -49,9 +49,9 @@
 		<voice sentence="Meeeeep!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="85094" countmax="2" />
-		<item id="3607" name="cheese" chance="29998" />
-		<item id="3976" name="worm" chance="9998" countmax="2" />
-		<item id="2687" name="cookie" chance="932" />
+		<item id="2148" name="gold coin" chance="85109" countmax="2" />
+		<item id="3607" name="cheese" chance="30022" />
+		<item id="3976" name="worm" chance="10046" countmax="2" />
+		<item id="2687" name="cookie" chance="937" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Travelling Merchant" nameDescription="a travelling merchant" experience="65" speed="180" manacost="0">
+<monster name="Travelling Merchant" nameDescription="a travelling merchant" race="blood" experience="65" speed="180" manacost="0">
 	<health now="100" max="100" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-10" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -38,7 +38,7 @@
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-5" />
 	</elements>
 	<defenses armor="11" defense="11" />
 	<voices interval="5000" chance="10">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Firestarter" nameDescription="a firestarter" experience="80" speed="200" manacost="0">
+<monster name="Firestarter" nameDescription="a firestarter" race="blood" experience="80" speed="200" manacost="0">
 	<health now="180" max="180" />
 	<look type="159" head="94" body="77" legs="78" feet="79" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="20" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="5" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="20" />
+		<element deathPercent="-5" />
 	</elements>
 	<defenses armor="15" defense="15" />
 	<voices interval="5000" chance="10">
@@ -51,15 +51,15 @@
 		<voice sentence="Set everything on fire!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="78454" countmax="35" />
-		<item id="7840" name="flaming arrow" chance="29554" countmax="12" />
-		<item id="2681" name="grapes" chance="19938" />
-		<item id="13757" name="coal" chance="15290" />
-		<item id="2397" name="longsword" chance="6009" />
-		<item id="10552" name="elvish talisman" chance="5013" />
-		<item id="2456" name="bow" chance="3885" />
-		<item id="5921" name="heaven blossom" chance="908" />
+		<item id="2148" name="gold coin" chance="78458" countmax="35" />
+		<item id="7840" name="flaming arrow" chance="29532" countmax="12" />
+		<item id="2681" name="grapes" chance="19933" />
+		<item id="13757" name="coal" chance="15298" />
+		<item id="2397" name="longsword" chance="6005" />
+		<item id="10552" name="elvish talisman" chance="5004" />
+		<item id="2456" name="bow" chance="3881" />
+		<item id="5921" name="heaven blossom" chance="905" />
 		<item id="13943" name="flintstone" chance="356" />
-		<item id="7438" name="elvish bow" chance="109" />
+		<item id="7438" name="elvish bow" chance="108" />
 	</loot>
 </monster>

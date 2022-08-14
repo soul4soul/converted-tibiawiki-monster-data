@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Goshnar's Malice")
 local monster = {}
 
 monster.name = "Goshnar's Malice"
-monster.description = ""
+monster.description = "Goshnar's Malice"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -66,9 +66,9 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 15},
+	{type = COMBAT_FIREDAMAGE, percent = 15},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -89,22 +89,25 @@ monster.loot = {
 	{id = 2160, chance = 100000, maxCount = 75},
 	{id = 26029, chance = 62500, maxCount = 110},
 	{id = 35278, chance = 50000},
-	{id = 26031, chance = 50000, maxCount = 110},
 	{id = 26030, chance = 50000, maxCount = 20},
-	{id = 7439, chance = 37500, maxCount = 25},
+	{id = 26031, chance = 50000, maxCount = 110},
 	{id = 2158, chance = 37500},
-	{id = 7443, chance = 37500, maxCount = 25},
+	{id = 7439, chance = 37500, maxCount = 25},
 	{id = 35425, chance = 37500},
+	{id = 7443, chance = 37500, maxCount = 25},
 	{id = 2154, chance = 37500, maxCount = 2},
-	{id = 32717, chance = 25000},
-	{id = 35279, chance = 25000},
-	{id = 9971, chance = 25000},
 	{id = 7440, chance = 25000, maxCount = 25},
+	{id = 32717, chance = 25000},
 	{id = 2156, chance = 25000},
-	{id = 36674, chance = 12500},
+	{id = 9971, chance = 25000},
+	{id = 35279, chance = 25000},
+	{id = 36765, chance = 20000},
+	{id = 36731, chance = 20000},
+	{id = 36577, chance = 20000},
 	{id = "giant shimmering pearl", chance = 12500},
+	{id = 36576, chance = 12500},
 	{id = 2155, chance = 12500},
-	{id = 36576, chance = 12500}
+	{id = 36674, chance = 12500}
 }
 
 mType:register(monster)

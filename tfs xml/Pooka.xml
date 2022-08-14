@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Pooka" nameDescription="a pooka" experience="500" speed="230" manacost="0">
+<monster name="Pooka" nameDescription="a pooka" race="blood" experience="500" speed="230" manacost="0">
 	<health now="500" max="500" />
 	<look type="977" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,22 +30,17 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="70" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="20" />
+		<element deathPercent="10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-120" />
-	</attacks>
-	<defenses armor="38" defense="38">
-		<defense name="healing" interval="2000" chance="20" min="40" max="60" />
-	</defenses>
+	<defenses armor="38" defense="38" />
 	<voices interval="5000" chance="10">
 		<voice sentence="This was the initial trick, but the second follows quick!" yell="false" />
 		<voice sentence="Hoppel-di-hopp!" yell="false" />
@@ -53,18 +48,18 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="134" />
-		<item id="2684" name="carrot" chance="19053" countmax="3" />
-		<item id="7588" name="strong health potion" chance="12366" />
-		<item id="28349" name="shimmering beetles" chance="10371" />
-		<item id="1294" name="small stone" chance="5152" countmax="5" />
-		<item id="28393" name="rainbow quartz" chance="4560" countmax="2" />
-		<item id="2687" name="cookie" chance="3727" countmax="5" />
-		<item id="7760" name="small enchanted ruby" chance="3420" countmax="2" />
-		<item id="24850" name="opal" chance="3355" countmax="2" />
-		<item id="2790" name="orange mushroom" chance="2938" />
-		<item id="2801" name="fern" chance="2763" />
-		<item id="2165" name="stealth ring" chance="1030" />
-		<item id="28356" name="dream blossom staff" chance="329" />
-		<item id="13298" name="carrot on a stick" chance="66" />
+		<item id="2684" name="carrot" chance="19152" countmax="3" />
+		<item id="7588" name="strong health potion" chance="12438" />
+		<item id="28349" name="shimmering beetles" chance="10415" />
+		<item id="1294" name="small stone" chance="5229" countmax="5" />
+		<item id="28393" name="rainbow quartz" chance="4541" countmax="2" />
+		<item id="2687" name="cookie" chance="3766" countmax="5" />
+		<item id="7760" name="small enchanted ruby" chance="3379" countmax="2" />
+		<item id="24850" name="opal" chance="3379" countmax="2" />
+		<item id="2790" name="orange mushroom" chance="2970" />
+		<item id="2801" name="fern" chance="2776" />
+		<item id="2165" name="stealth ring" chance="1011" />
+		<item id="28356" name="dream blossom staff" chance="323" />
+		<item id="13298" name="carrot on a stick" chance="65" />
 	</loot>
 </monster>

@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 2,
+	color = 35
 }
 
 monster.voices = {
@@ -66,13 +66,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -25},
+	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -86,25 +86,28 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 80396, maxCount = 4},
-	{id = 12444, chance = 17896},
-	{id = 2178, chance = 10738},
-	{id = 2149, chance = 7324, maxCount = 2},
-	{id = 2670, chance = 7214},
-	{id = 9970, chance = 6388, maxCount = 2},
-	{id = 7590, chance = 5727, maxCount = 2},
-	{id = 7591, chance = 5176, maxCount = 2},
-	{id = 8870, chance = 5176},
-	{id = 5910, chance = 3029},
-	{id = 5914, chance = 2698},
-	{id = 18415, chance = 2533},
-	{id = 2168, chance = 1982},
-	{id = 5895, chance = 1267},
-	{id = 7632, chance = 1211},
-	{id = 2189, chance = 1101},
-	{id = 2476, chance = 716},
-	{id = 2155, chance = 551},
-	{id = "giant shimmering pearl", chance = 55}
+	{id = 2152, chance = 80430, maxCount = 4},
+	{id = 2214, chance = 20000},
+	{id = 2143, chance = 20000},
+	{id = 2144, chance = 20000},
+	{id = 12444, chance = 17879},
+	{id = 2178, chance = 10861},
+	{id = 2670, chance = 7223},
+	{id = 2149, chance = 7121, maxCount = 2},
+	{id = 9970, chance = 6506, maxCount = 2},
+	{id = 7590, chance = 5686, maxCount = 2},
+	{id = 8870, chance = 5328},
+	{id = 7591, chance = 5123, maxCount = 2},
+	{id = 5910, chance = 2920},
+	{id = 5914, chance = 2869},
+	{id = 18415, chance = 2613},
+	{id = 2168, chance = 1998},
+	{id = 5895, chance = 1230},
+	{id = 7632, chance = 1178},
+	{id = 2189, chance = 1127},
+	{id = 2476, chance = 717},
+	{id = 2155, chance = 512},
+	{id = "giant shimmering pearl", chance = 51}
 }
 
 mType:register(monster)

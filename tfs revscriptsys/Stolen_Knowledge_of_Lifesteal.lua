@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Stolen Knowledge of Lifesteal")
 local monster = {}
 
 monster.name = "Stolen Knowledge Of Lifesteal"
-monster.description = ""
+monster.description = "an stolen knowledge of lifesteal"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

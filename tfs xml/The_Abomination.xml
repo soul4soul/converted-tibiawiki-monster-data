@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The Abomination" nameDescription="" experience="1500000" speed="0" manacost="0">
+<monster name="The Abomination" nameDescription="The Abomination" race="blood" experience="1500000" speed="0" manacost="0">
 	<health now="750000" max="750000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="50" />
+		<element energyPercent="50" />
+		<element earthPercent="50" />
+		<element firePercent="50" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="50" />
+		<element holyPercent="50" />
+		<element deathPercent="50" />
 	</elements>
 	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
@@ -61,26 +61,34 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" />
-		<item id="2160" name="crystal coin" chance="89474" countmax="20" />
-		<item id="26029" name="ultimate mana potion" chance="36842" countmax="6" />
-		<item id="26031" name="supreme health potion" chance="31579" countmax="6" />
-		<item id="7439" name="berserk potion" chance="21053" countmax="10" />
-		<item id="7440" name="mastermind potion" chance="21053" countmax="10" />
-		<item id="26030" name="ultimate spirit potion" chance="21053" countmax="6" />
-		<item id="7443" name="bullseye potion" chance="13158" countmax="10" />
-		<item id="39448" name="abomination's eye" chance="10526" />
-		<item id="36679" name="brooch of embracement" chance="5263" />
-		<item id="32716" name="giant emerald" chance="5263" />
-		<item id="32715" name="giant ruby" chance="5263" />
-		<item id="36680" name="gruesome fan" chance="5263" />
-		<item id="39447" name="abomination's tail" chance="2632" />
-		<item id="35280" name="amber with a bug" chance="2632" />
-		<item id="35281" name="amber with a dragonfly" chance="2632" />
-		<item id="36681" name="diabolic skull" chance="2632" />
-		<item id="39594" name="fiery horseshoe" chance="2632" />
-		<item id="32717" name="giant sapphire" chance="2632" />
-		<item id="36434" name="raw watermelon tourmaline" chance="2632" />
-		<item id="2153" name="violet gem" chance="2632" />
-		<item id="35425" name="white gem" chance="2632" />
+		<item id="2160" name="crystal coin" chance="70833" countmax="39" />
+		<item id="26029" name="ultimate mana potion" chance="29167" countmax="20" />
+		<item id="26030" name="ultimate spirit potion" chance="25000" countmax="11" />
+		<item id="7440" name="mastermind potion" chance="20833" countmax="19" />
+		<item id="2149" name="small emerald" chance="20000" />
+		<item id="36681" name="diabolic skull" chance="20000" />
+		<item id="36680" name="gruesome fan" chance="20000" />
+		<item id="32717" name="giant sapphire" chance="20000" />
+		<item id="32716" name="giant emerald" chance="20000" />
+		<item id="35280" name="amber with a bug" chance="20000" />
+		<item id="35281" name="amber with a dragonfly" chance="20000" />
+		<item id="2147" name="small ruby" chance="20000" />
+		<item id="36679" name="brooch of embracement" chance="20000" />
+		<item id="36434" name="raw watermelon tourmaline" chance="20000" />
+		<item id="39594" name="fiery horseshoe" chance="20000" />
+		<item id="39447" name="abomination's tail" chance="20000" />
+		<item id="9810" name="slightly rusted armor" chance="20000" />
+		<item id="5944" name="soul orb" chance="20000" />
+		<item id="6300" name="death ring" chance="20000" />
+		<item id="6500" name="demonic essence" chance="20000" />
+		<item id="2144" name="black pearl" chance="20000" />
+		<item id="2153" name="violet gem" chance="20000" />
+		<item id="26031" name="supreme health potion" chance="16667" countmax="11" />
+		<item id="7443" name="bullseye potion" chance="12500" countmax="19" />
+		<item id="39448" name="abomination's eye" chance="8333" />
+		<item id="32715" name="giant ruby" chance="8333" />
+		<item id="39449" name="abomination's tongue" chance="4167" />
+		<item id="7439" name="berserk potion" chance="4167" countmax="19" />
+		<item id="35425" name="white gem" chance="4167" />
 	</loot>
 </monster>

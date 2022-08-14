@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Depowered Minotaur" nameDescription="a depowered minotaur" experience="1100" speed="212" manacost="0">
+<monster name="Depowered Minotaur" nameDescription="a depowered minotaur" race="blood" experience="1100" speed="212" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,12 +32,12 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element holyPercent="10" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
@@ -49,21 +49,22 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="58092" countmax="5" />
-		<item id="12428" name="minotaur horn" chance="14451" countmax="2" />
-		<item id="5878" name="minotaur leather" chance="10405" />
-		<item id="7589" name="strong mana potion" chance="10116" countmax="3" />
-		<item id="7588" name="strong health potion" chance="9538" countmax="3" />
-		<item id="2666" name="meat" chance="8092" />
-		<item id="2145" name="small diamond" chance="5780" />
-		<item id="2149" name="small emerald" chance="4335" />
-		<item id="2147" name="small ruby" chance="4335" />
-		<item id="2146" name="small sapphire" chance="4335" />
-		<item id="23537" name="mooh'tah plate" chance="1734" />
-		<item id="5911" name="red piece of cloth" chance="1156" />
-		<item id="2209" name="club ring" chance="867" />
-		<item id="7401" name="minotaur trophy" chance="867" />
-		<item id="23548" name="cowtana" chance="578" />
-		<item id="7452" name="spiked squelcher" chance="289" />
+		<item id="2152" name="platinum coin" chance="58656" countmax="5" />
+		<item id="2146" name="small sapphire" chance="20000" />
+		<item id="12428" name="minotaur horn" chance="13695" countmax="2" />
+		<item id="5878" name="minotaur leather" chance="10078" />
+		<item id="7589" name="strong mana potion" chance="10078" countmax="3" />
+		<item id="7588" name="strong health potion" chance="9819" countmax="3" />
+		<item id="2666" name="meat" chance="8269" />
+		<item id="2145" name="small diamond" chance="5685" />
+		<item id="2147" name="small ruby" chance="4651" />
+		<item id="2146" name="small sapphire" chance="3876" />
+		<item id="2149" name="small emerald" chance="3876" />
+		<item id="23537" name="mooh'tah plate" chance="1809" />
+		<item id="5911" name="red piece of cloth" chance="1034" />
+		<item id="2209" name="club ring" chance="775" />
+		<item id="7401" name="minotaur trophy" chance="775" />
+		<item id="23548" name="cowtana" chance="775" />
+		<item id="7452" name="spiked squelcher" chance="258" />
 	</loot>
 </monster>

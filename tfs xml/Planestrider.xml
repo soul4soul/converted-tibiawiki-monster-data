@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Planestrider" nameDescription="" experience="9000" speed="0" manacost="0">
+<monster name="Planestrider" nameDescription="Planestrider" race="blood" experience="9000" speed="0" manacost="0">
 	<health now="30000" max="30000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -41,4 +41,7 @@
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="10" defense="5" />
+	<summons maxSummons="3">
+		<voice name="Lost Ghost Of A Planegazer" interval="2000" chance="15" max="3" />
+	</summons>
 </monster>

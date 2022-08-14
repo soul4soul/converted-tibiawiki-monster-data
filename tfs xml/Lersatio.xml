@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Lersatio" nameDescription="" experience="2500" speed="270" manacost="0">
+<monster name="Lersatio" nameDescription="Lersatio" race="blood" experience="2500" speed="270" manacost="0">
 	<health now="1645" max="1645" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="40" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-1" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-1" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-392" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="The monsters in the mirrors will come eat your dreams." yell="false" />
@@ -51,12 +48,12 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="12405" name="blood preservation" chance="89327" />
-		<item id="7588" name="strong health potion" chance="22368" />
-		<item id="2214" name="ring of healing" chance="11842" />
-		<item id="2152" name="platinum coin" chance="8918" countmax="5" />
-		<item id="2144" name="black pearl" chance="1754" />
-		<item id="2534" name="vampire shield" chance="585" />
+		<item id="12405" name="blood preservation" chance="89343" />
+		<item id="7588" name="strong health potion" chance="22336" />
+		<item id="2214" name="ring of healing" chance="11825" />
+		<item id="2152" name="platinum coin" chance="8905" countmax="5" />
+		<item id="2144" name="black pearl" chance="1752" />
+		<item id="2534" name="vampire shield" chance="584" />
 		<item id="7419" name="dreaded cleaver" chance="292" />
 	</loot>
 </monster>

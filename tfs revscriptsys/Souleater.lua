@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 3,
+	color = 137
 }
 
 monster.voices = {
@@ -70,20 +70,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 60},
+	{type = COMBAT_ENERGYDAMAGE, percent = -10},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 50},
+	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -209}
 }
 
 monster.defenses = {
@@ -93,16 +92,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 88042, maxCount = 200},
-	{id = 2152, chance = 49730, maxCount = 6},
-	{id = 12636, chance = 15016},
-	{id = 8473, chance = 9140},
-	{id = 7590, chance = 7914},
-	{id = 12637, chance = 2008},
+	{id = 2148, chance = 88016, maxCount = 200},
+	{id = 2152, chance = 49756, maxCount = 6},
+	{id = 12636, chance = 15025},
+	{id = 8473, chance = 9145},
+	{id = 7590, chance = 7928},
+	{id = 12637, chance = 1998},
 	{id = 2185, chance = 972},
-	{id = 2189, chance = 948},
-	{id = 6300, chance = 319},
-	{id = 5884, chance = 131},
+	{id = 2189, chance = 946},
+	{id = 6300, chance = 321},
+	{id = 5884, chance = 132},
 	{id = 12635, chance = 14}
 }
 

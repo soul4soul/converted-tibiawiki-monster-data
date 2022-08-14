@@ -71,19 +71,23 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 65},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 65},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = 0, maxDamage = 0, effect = CONST_ME_GREEN_RINGS},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = 0, maxDamage = 0, effect = CONST_ME_GREEN_RINGS},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = 0, maxDamage = 0, length = 5, spread = 0, effect = CONST_ME_GREEN_RINGS},
+	{name ="speed", interval = 2000, chance = 15, speed = {min = -400, max = -400}, duration = 20000, range = 3, radius = 1, target = true}
 }
 
 monster.defenses = {
@@ -92,16 +96,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 96148, maxCount = 190},
-	{id = 2152, chance = 35869, maxCount = 2},
-	{id = 7589, chance = 7800},
-	{id = 2149, chance = 6596, maxCount = 5},
-	{id = 7588, chance = 6115},
-	{id = 2789, chance = 4815, maxCount = 5},
-	{id = 8912, chance = 867},
-	{id = 7440, chance = 770},
-	{id = 2167, chance = 578},
-	{id = 5904, chance = 578},
+	{id = 2148, chance = 96048, maxCount = 190},
+	{id = 2152, chance = 35857, maxCount = 2},
+	{id = 7589, chance = 7714},
+	{id = 2149, chance = 6619, maxCount = 5},
+	{id = 7588, chance = 6095},
+	{id = 2789, chance = 4810, maxCount = 5},
+	{id = 8912, chance = 857},
+	{id = 7440, chance = 762},
+	{id = 2167, chance = 571},
+	{id = 5904, chance = 571},
 	{id = 7368, chance = 48, maxCount = 5},
 	{id = 7884, chance = 48}
 }

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("General Murius")
 local monster = {}
 
 monster.name = "General Murius"
-monster.description = ""
+monster.description = "General Murius"
 monster.experience = 450
 monster.outfit = {
 	lookType = 0,
@@ -82,7 +82,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -170}
 }
 
 monster.defenses = {
@@ -92,6 +91,12 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 55, maxDamage = 137}
 }
 
+monster.maxSummons = 0
+monster.summons = {
+	{name = "Minotaur Guard", chance = 15, interval = 2000},
+	{name = "Minotaur Archer", chance = 15, interval = 2000}
+}
+
 monster.loot = {
 	{id = 12428, chance = 100000, maxCount = 2},
 	{id = 5878, chance = 100000},
@@ -99,14 +104,18 @@ monster.loot = {
 	{id = 2152, chance = 93333, maxCount = 3},
 	{id = 2387, chance = 80000},
 	{id = 2465, chance = 66667},
-	{id = 2513, chance = 33333},
 	{id = 7363, chance = 33333, maxCount = 11},
+	{id = 2513, chance = 33333},
 	{id = 2666, chance = 26667},
-	{id = 2648, chance = 20000},
-	{id = 7401, chance = 20000},
 	{id = 2547, chance = 20000, maxCount = 7},
-	{id = 2580, chance = 6667},
-	{id = 7588, chance = 6667}
+	{id = 7401, chance = 20000},
+	{id = 2648, chance = 20000},
+	{id = 2464, chance = 20000},
+	{id = 2189, chance = 20000},
+	{id = 2509, chance = 20000},
+	{id = 2483, chance = 20000},
+	{id = 7588, chance = 6667},
+	{id = 2580, chance = 6667}
 }
 
 mType:register(monster)

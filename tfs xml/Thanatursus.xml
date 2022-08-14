@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Thanatursus" nameDescription="a thanatursus" experience="6300" speed="400" manacost="0">
+<monster name="Thanatursus" nameDescription="a thanatursus" race="blood" experience="6300" speed="400" manacost="0">
 	<health now="7200" max="7200" />
 	<look type="1134" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="30" />
+		<element energyPercent="50" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="20" />
+		<element deathPercent="-20" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
@@ -49,26 +49,26 @@
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="12" />
-		<item id="2666" name="meat" chance="50448" />
-		<item id="2671" name="ham" chance="14824" />
-		<item id="11223" name="essence of a bad dream" chance="12668" countmax="6" />
-		<item id="2381" name="halberd" chance="12444" />
-		<item id="7886" name="terra boots" chance="9588" />
-		<item id="8473" name="ultimate health potion" chance="8609" />
-		<item id="7903" name="terra hood" chance="6341" />
-		<item id="8472" name="great spirit potion" chance="6313" countmax="3" />
-		<item id="2430" name="knight axe" chance="5459" />
-		<item id="23546" name="mino shield" chance="5053" />
-		<item id="2189" name="wand of cosmic energy" chance="4199" />
-		<item id="3962" name="beastslayer axe" chance="3919" />
-		<item id="2521" name="dark shield" chance="3597" />
-		<item id="15453" name="warrior's shield" chance="2940" />
-		<item id="2529" name="black shield" chance="2912" />
-		<item id="2405" name="sickle" chance="2660" />
-		<item id="2425" name="obsidian lance" chance="2534" />
-		<item id="10550" name="bloody pincers" chance="2016" />
-		<item id="15451" name="warrior's axe" chance="1792" />
-		<item id="7413" name="titan axe" chance="1722" />
-		<item id="18390" name="wand of defiance" chance="1554" />
+		<item id="2666" name="meat" chance="50296" countmax="3" />
+		<item id="2671" name="ham" chance="14856" />
+		<item id="11223" name="essence of a bad dream" chance="12642" countmax="6" />
+		<item id="2381" name="halberd" chance="12436" />
+		<item id="7886" name="terra boots" chance="9436" />
+		<item id="8473" name="ultimate health potion" chance="8625" />
+		<item id="8472" name="great spirit potion" chance="6398" countmax="3" />
+		<item id="7903" name="terra hood" chance="6334" />
+		<item id="2430" name="knight axe" chance="5433" />
+		<item id="23546" name="mino shield" chance="5085" />
+		<item id="2189" name="wand of cosmic energy" chance="4145" />
+		<item id="3962" name="beastslayer axe" chance="4029" />
+		<item id="2521" name="dark shield" chance="3708" />
+		<item id="15453" name="warrior's shield" chance="2948" />
+		<item id="2529" name="black shield" chance="2845" />
+		<item id="2405" name="sickle" chance="2716" />
+		<item id="2425" name="obsidian lance" chance="2562" />
+		<item id="10550" name="bloody pincers" chance="1970" />
+		<item id="15451" name="warrior's axe" chance="1802" />
+		<item id="7413" name="titan axe" chance="1738" />
+		<item id="18390" name="wand of defiance" chance="1545" />
 	</loot>
 </monster>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Diamond Blossom")
 local monster = {}
 
 monster.name = "The Diamond Blossom"
-monster.description = ""
+monster.description = "The Diamond Blossom"
 monster.experience = 10000
 monster.outfit = {
 	lookType = 0,
@@ -86,16 +86,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 341},
-	{id = 24630, chance = 100000},
-	{id = 24631, chance = 100000},
 	{id = 2152, chance = 100000, maxCount = 8},
-	{id = 7368, chance = 66667, maxCount = 6},
+	{id = 2148, chance = 100000, maxCount = 341},
+	{id = 24631, chance = 100000},
+	{id = 24630, chance = 100000},
 	{id = 6558, chance = 66667},
-	{id = 2124, chance = 33333},
+	{id = 7368, chance = 66667, maxCount = 6},
+	{id = 5944, chance = 33333},
 	{id = 6500, chance = 33333},
 	{id = 8472, chance = 33333, maxCount = 2},
-	{id = 5944, chance = 33333}
+	{id = 2124, chance = 33333}
 }
 
 mType:register(monster)

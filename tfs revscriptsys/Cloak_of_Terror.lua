@@ -5,7 +5,7 @@ monster.name = "Cloak Of Terror"
 monster.description = "a cloak of terror"
 monster.experience = 19700
 monster.outfit = {
-	lookType = 0,
+	lookType = 1295,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = true,
 	canWalkOnFire = true,
@@ -69,15 +69,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 60},
+	{type = COMBAT_EARTHDAMAGE, percent = -5},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = 40},
+	{type = COMBAT_DEATHDAMAGE , percent = -20}
 }
 
 monster.attacks = {
@@ -90,20 +90,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 55624},
-	{id = 8473, chance = 14843, maxCount = 6},
-	{id = 9971, chance = 12176},
-	{id = 36590, chance = 5573},
-	{id = 8920, chance = 4728},
-	{id = 2153, chance = 4326},
-	{id = 2187, chance = 3564},
-	{id = 18390, chance = 3039},
-	{id = 2155, chance = 2874},
-	{id = 36591, chance = 2802},
-	{id = 8922, chance = 2534},
-	{id = 2158, chance = 2482},
-	{id = 7901, chance = 1473},
-	{id = 36679, chance = 783}
+	{id = 2160, chance = 55532},
+	{id = 8473, chance = 14864, maxCount = 6},
+	{id = 9971, chance = 12018},
+	{id = 36590, chance = 5552},
+	{id = 8920, chance = 4648},
+	{id = 2153, chance = 4187},
+	{id = 36765, chance = 4000},
+	{id = 2187, chance = 3521},
+	{id = 18390, chance = 3044, maxCount = 2},
+	{id = 36591, chance = 2928},
+	{id = 2155, chance = 2854},
+	{id = 8922, chance = 2624},
+	{id = 2158, chance = 2525},
+	{id = 7901, chance = 1489},
+	{id = 36679, chance = 798}
 }
 
 mType:register(monster)

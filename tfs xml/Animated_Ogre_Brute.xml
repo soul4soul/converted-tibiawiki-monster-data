@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Animated Ogre Brute" nameDescription="an animated ogre brute" experience="800" speed="0" manacost="0">
+<monster name="Animated Ogre Brute" nameDescription="an animated ogre brute" race="blood" experience="800" speed="0" manacost="0">
 	<health now="1000" max="1000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,21 +40,18 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="98" />
-		<item id="2666" name="meat" chance="26667" />
-		<item id="24845" name="ogre nose ring" chance="20000" />
-		<item id="12403" name="battle stone" chance="13333" />
-		<item id="24844" name="ogre ear stud" chance="13333" />
-		<item id="7588" name="strong health potion" chance="13333" />
-		<item id="2143" name="white pearl" chance="13333" />
-		<item id="2687" name="cookie" chance="6667" countmax="4" />
-		<item id="24849" name="onyx chip" chance="6667" countmax="2" />
-		<item id="2147" name="small ruby" chance="6667" />
-		<item id="1294" name="small stone" chance="6667" countmax="3" />
+		<item id="24845" name="ogre nose ring" chance="23529" />
+		<item id="2666" name="meat" chance="23529" />
+		<item id="24844" name="ogre ear stud" chance="17647" />
+		<item id="2143" name="white pearl" chance="11765" />
+		<item id="12403" name="battle stone" chance="11765" />
+		<item id="7588" name="strong health potion" chance="11765" />
+		<item id="24849" name="onyx chip" chance="5882" countmax="2" />
+		<item id="1294" name="small stone" chance="5882" countmax="3" />
+		<item id="2687" name="cookie" chance="5882" countmax="4" />
+		<item id="2147" name="small ruby" chance="5882" />
 	</loot>
 </monster>

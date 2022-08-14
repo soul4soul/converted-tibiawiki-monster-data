@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Starving Wolf" nameDescription="a starving wolf" experience="65" speed="188" manacost="0">
+<monster name="Starving Wolf" nameDescription="a starving wolf" race="blood" experience="65" speed="188" manacost="0">
 	<health now="85" max="85" />
 	<look type="27" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -36,9 +36,9 @@
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="30" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-25" />
@@ -50,8 +50,8 @@
 		<voice sentence="Yoooohhuuuu!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2220" name="dirty fur" chance="65285" />
-		<item id="2666" name="meat" chance="5199" />
-		<item id="5897" name="wolf paw" chance="1446" />
+		<item id="2220" name="dirty fur" chance="65361" />
+		<item id="2666" name="meat" chance="5247" />
+		<item id="5897" name="wolf paw" chance="1407" />
 	</loot>
 </monster>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Source of Corruption")
 local monster = {}
 
 monster.name = "The Source Of Corruption"
-monster.description = ""
+monster.description = "The Source Of Corruption"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500}
 }
 
 monster.defenses = {
@@ -86,22 +85,52 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Soul Reaper", chance = 15, interval = 2000, max = 2}
+}
+
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 348},
+	{id = 2152, chance = 100000, maxCount = 36},
 	{id = 10549, chance = 100000},
-	{id = 26163, chance = 100000},
-	{id = "giant shimmering pearl", chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 200},
-	{id = 25377, chance = 100000},
-	{id = 5904, chance = 100000},
-	{id = 7418, chance = 100000},
 	{id = 24849, chance = 100000},
-	{id = 5888, chance = 100000, maxCount = 5},
-	{id = 2152, chance = 100000, maxCount = 30},
-	{id = 25172, chance = 100000, maxCount = 2},
-	{id = 2146, chance = 100000, maxCount = 20},
-	{id = 26173, chance = 100000},
-	{id = 8473, chance = 100000, maxCount = 10},
-	{id = 2154, chance = 100000}
+	{id = 26173, chance = 100000, maxCount = 19},
+	{id = 25172, chance = 100000, maxCount = 3},
+	{id = 25377, chance = 100000, maxCount = 4},
+	{id = 5904, chance = 100000, maxCount = 5},
+	{id = 5888, chance = 100000, maxCount = 9},
+	{id = 2154, chance = 60000},
+	{id = 7590, chance = 60000, maxCount = 15},
+	{id = 26163, chance = 60000, maxCount = 10},
+	{id = 8472, chance = 60000, maxCount = 9},
+	{id = "giant shimmering pearl", chance = 40000},
+	{id = 7437, chance = 40000},
+	{id = 9970, chance = 40000, maxCount = 20},
+	{id = 2147, chance = 40000, maxCount = 22},
+	{id = 2452, chance = 20000},
+	{id = 8926, chance = 20000},
+	{id = 9981, chance = 20000},
+	{id = 2436, chance = 20000},
+	{id = "ring of red plasma", chance = 20000},
+	{id = 7418, chance = 20000},
+	{id = 9971, chance = 20000},
+	{id = 5891, chance = 20000},
+	{id = 2462, chance = 20000},
+	{id = 24850, chance = 20000, maxCount = 2},
+	{id = 2156, chance = 20000},
+	{id = 5906, chance = 20000},
+	{id = 2158, chance = 20000},
+	{id = 5909, chance = 20000, maxCount = 4},
+	{id = 7591, chance = 20000, maxCount = 3},
+	{id = 8473, chance = 20000, maxCount = 5},
+	{id = 7588, chance = 20000, maxCount = 2},
+	{id = 18414, chance = 20000, maxCount = 7},
+	{id = 2149, chance = 20000, maxCount = 20},
+	{id = 2150, chance = 20000, maxCount = 20},
+	{id = 2146, chance = 20000, maxCount = 20},
+	{id = 2155, chance = 20000},
+	{id = 22401, chance = 20000}
 }
 
 mType:register(monster)

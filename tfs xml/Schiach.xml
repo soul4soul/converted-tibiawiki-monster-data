@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Schiach" nameDescription="a schiach" experience="580" speed="280" manacost="0">
+<monster name="Schiach" nameDescription="a schiach" race="blood" experience="580" speed="280" manacost="0">
 	<health now="600" max="600" />
 	<look type="1162" head="0" body="10" legs="38" feet="57" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,16 +32,30 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="-20" />
+		<element deathPercent="10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-34" />
+		<attack name="ice" interval="2000" chance="15" min="0" max="-70" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="snowball" />
+			<attribute key="areaEffect" value="iceattack" />
+		</attack>
+		<attack name="ice" interval="2000" chance="15" min="0" max="-124" length="4" spread="0">
+			<attribute key="areaEffect" value="giantice" />
+		</attack>
+		<attack name="ice" interval="2000" chance="15" min="0" max="-60" radius="4" target="0">
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+		<attack name="ice" interval="2000" chance="15" min="0" max="-120" radius="3" target="1">
+			<attribute key="shootEffect" value="ice" />
+			<attribute key="areaEffect" value="icetornado" />
+		</attack>
 	</attacks>
 	<defenses armor="43" defense="43" />
 	<voices interval="5000" chance="10">

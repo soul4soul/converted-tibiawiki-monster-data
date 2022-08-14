@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Spider" nameDescription="a spider" experience="12" speed="152" manacost="210">
+<monster name="Spider" nameDescription="a spider" race="blood" experience="12" speed="152" manacost="210">
 	<health now="20" max="20" />
 	<look type="30" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,7 +32,7 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -45,7 +45,7 @@
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="2148" name="gold coin" chance="65481" countmax="5" />
-		<item id="8859" name="spider fangs" chance="987" />
+		<item id="2148" name="gold coin" chance="65134" countmax="5" />
+		<item id="8859" name="spider fangs" chance="962" />
 	</loot>
 </monster>

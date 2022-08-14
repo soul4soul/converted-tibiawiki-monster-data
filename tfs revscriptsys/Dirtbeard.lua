@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Dirtbeard")
 local monster = {}
 
 monster.name = "Dirtbeard"
-monster.description = ""
+monster.description = "Dirtbeard"
 monster.experience = 375
 monster.outfit = {
 	lookType = 0,
@@ -70,18 +70,17 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -5},
+	{type = COMBAT_HOLYDAMAGE , percent = 10},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -125}
 }
 
 monster.defenses = {
@@ -91,7 +90,9 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 10299, chance = 60000},
-	{id = 10292, chance = 40000}
+	{id = 10292, chance = 40000},
+	{id = 10291, chance = 20000},
+	{id = "the shield nevermourn", chance = 20000}
 }
 
 mType:register(monster)

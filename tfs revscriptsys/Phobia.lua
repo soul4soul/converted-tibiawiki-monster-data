@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Phobia")
 local monster = {}
 
 monster.name = "Phobia"
-monster.description = ""
+monster.description = "phobia"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {

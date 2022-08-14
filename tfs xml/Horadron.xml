@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Horadron" nameDescription="" experience="18000" speed="0" manacost="0">
+<monster name="Horadron" nameDescription="" race="blood" experience="18000" speed="0" manacost="0">
 	<health now="30000" max="30000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,15 +29,15 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="30" />
+		<element earthPercent="30" />
+		<element firePercent="30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element icePercent="30" />
+		<element holyPercent="-40" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
@@ -52,18 +52,19 @@
 		<voice sentence="After all those aeons I smell freedom at last!" yell="false" />
 	</voices>
 	<summons maxSummons="2">
-		<voice name="Defiler" interval="2000" chance="15" max="1" />
+		<voice name="Defiler" interval="2000" chance="15" max="2" />
 	</summons>
 	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="200" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="50" />
 		<item id="22396" name="cluster of solace" chance="100000" />
 		<item id="5954" name="demon horn" chance="100000" />
 		<item id="6500" name="demonic essence" chance="100000" />
-		<item id="2148" name="gold coin" chance="100000" countmax="197" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="50" />
 		<item id="22598" name="unrealized dream" chance="100000" />
 		<item id="22397" name="dream matter" chance="49338" />
 		<item id="3962" name="beastslayer axe" chance="35596" />
 		<item id="8901" name="spellbook of warding" chance="29801" />
+		<item id="8926" name="demonwing axe" chance="20000" />
 		<item id="2146" name="small sapphire" chance="18377" countmax="25" />
 		<item id="2656" name="blue robe" chance="17881" />
 		<item id="9970" name="small topaz" chance="17219" countmax="25" />
@@ -76,8 +77,8 @@
 		<item id="7895" name="lightning legs" chance="13742" />
 		<item id="2645" name="steel boots" chance="12914" />
 		<item id="7456" name="noble axe" chance="12417" />
-		<item id="2488" name="crown legs" chance="11424" />
 		<item id="22610" name="dream warden mask" chance="11424" />
+		<item id="2488" name="crown legs" chance="11424" />
 		<item id="8902" name="spellbook of mind control" chance="9603" />
 		<item id="8903" name="spellbook of lost souls" chance="9437" />
 		<item id="2466" name="golden armor" chance="8940" />

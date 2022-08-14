@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The Bloodtusk" nameDescription="" experience="300" speed="0" manacost="0">
+<monster name="The Bloodtusk" nameDescription="The Bloodtusk" race="blood" experience="300" speed="0" manacost="0">
 	<health now="600" max="600" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,12 +31,12 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="15" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-10" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -46,12 +46,12 @@
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="11238" name="mammoth tusk" chance="100000" countmax="2" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="3973" name="tusk shield" chance="62500" />
-		<item id="7432" name="furry club" chance="58750" />
-		<item id="5911" name="red piece of cloth" chance="56250" />
-		<item id="3956" name="tusk" chance="43750" countmax="4" />
-		<item id="7463" name="mammoth fur cape" chance="22500" />
+		<item id="11238" name="mammoth tusk" chance="100000" countmax="2" />
+		<item id="3973" name="tusk shield" chance="63415" />
+		<item id="7432" name="furry club" chance="59756" />
+		<item id="5911" name="red piece of cloth" chance="57317" />
+		<item id="3956" name="tusk" chance="42683" countmax="4" />
+		<item id="7463" name="mammoth fur cape" chance="21951" />
 	</loot>
 </monster>

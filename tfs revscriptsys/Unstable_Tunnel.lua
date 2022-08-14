@@ -73,7 +73,7 @@ monster.elements = {
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 65},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -85,10 +85,10 @@ monster.defenses = {
 	armor = 10
 }
 
-monster.maxSummons = 4
+monster.maxSummons = 8
 monster.summons = {
-	{name = "Drillworm", chance = 15, interval = 2000, max = 1},
-	{name = "Glooth Anemone", chance = 15, interval = 2000, max = 1}
+	{name = "Drillworm", chance = 15, interval = 2000, max = 4},
+	{name = "Glooth Anemone", chance = 15, interval = 2000, max = 4}
 }
 
 monster.loot = {

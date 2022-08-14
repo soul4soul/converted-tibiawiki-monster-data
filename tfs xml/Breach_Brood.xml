@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Breach Brood" nameDescription="a breach brood" experience="1760" speed="270" manacost="0">
+<monster name="Breach Brood" nameDescription="a breach brood" race="blood" experience="1760" speed="270" manacost="0">
 	<health now="3500" max="3500" />
 	<look type="878" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,20 +29,17 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-5" />
+		<element energyPercent="80" />
+		<element earthPercent="-5" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="25" />
+		<element holyPercent="-5" />
+		<element deathPercent="-5" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
-	</attacks>
 	<defenses armor="53" defense="53" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Hisss!" yell="false" />
@@ -50,27 +47,27 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="26201" name="energy drink" chance="18331" />
-		<item id="26191" name="energy bar" chance="18199" />
-		<item id="26174" name="spark sphere" chance="14777" />
-		<item id="7591" name="great health potion" chance="12394" />
-		<item id="8472" name="great spirit potion" chance="11936" />
-		<item id="7590" name="great mana potion" chance="11812" />
-		<item id="26163" name="crystallized anger" chance="10718" />
-		<item id="26167" name="curious matter" chance="9965" />
-		<item id="26162" name="plasma pearls" chance="9950" />
-		<item id="26170" name="volatile proto matter" chance="9903" />
-		<item id="18418" name="blue crystal splinter" chance="8141" countmax="2" />
-		<item id="18419" name="cyan crystal fragment" chance="5999" />
-		<item id="18415" name="green crystal shard" chance="4206" />
-		<item id="18413" name="blue crystal shard" chance="3997" />
-		<item id="2158" name="blue gem" chance="357" />
-		<item name="ring of blue plasma" chance="357" />
-		<item name="collar of blue plasma" chance="287" />
-		<item id="26199" name="collar of green plasma" chance="272" />
-		<item id="26200" name="collar of red plasma" chance="264" />
-		<item name="ring of red plasma" chance="225" />
-		<item name="ring of green plasma" chance="210" />
-		<item id="7895" name="lightning legs" chance="62" />
+		<item id="26201" name="energy drink" chance="18464" />
+		<item id="26191" name="energy bar" chance="18185" />
+		<item id="26174" name="spark sphere" chance="14594" />
+		<item id="7591" name="great health potion" chance="12279" />
+		<item id="7590" name="great mana potion" chance="12102" />
+		<item id="8472" name="great spirit potion" chance="11863" />
+		<item id="26163" name="crystallized anger" chance="10329" />
+		<item id="26170" name="volatile proto matter" chance="9993" />
+		<item id="26162" name="plasma pearls" chance="9965" />
+		<item id="26167" name="curious matter" chance="9948" />
+		<item id="18418" name="blue crystal splinter" chance="7987" countmax="2" />
+		<item id="18419" name="cyan crystal fragment" chance="5883" />
+		<item id="18415" name="green crystal shard" chance="4161" />
+		<item id="18413" name="blue crystal shard" chance="3973" />
+		<item name="ring of blue plasma" chance="336" />
+		<item id="2158" name="blue gem" chance="331" />
+		<item name="collar of blue plasma" chance="251" />
+		<item id="26199" name="collar of green plasma" chance="245" />
+		<item name="ring of red plasma" chance="245" />
+		<item id="26200" name="collar of red plasma" chance="217" />
+		<item name="ring of green plasma" chance="217" />
+		<item id="7895" name="lightning legs" chance="68" />
 	</loot>
 </monster>

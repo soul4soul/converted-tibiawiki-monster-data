@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Mutated Human" nameDescription="a mutated human" experience="150" speed="154" manacost="0">
+<monster name="Mutated Human" nameDescription="a mutated human" race="blood" experience="150" speed="154" manacost="0">
 	<health now="240" max="240" />
 	<look type="323" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,17 +31,17 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="20" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-90" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-90" poison="54" />
 		<attack name="death" interval="2000" chance="15" min="-50" max="-60" length="3" spread="1">
 			<attribute key="areaEffect" value="poison" />
 		</attack>
@@ -60,15 +60,15 @@
 		<voice sentence="Oh by the gods! What is this... aaaaaargh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="88220" countmax="130" />
+		<item id="2148" name="gold coin" chance="88222" countmax="130" />
 		<item id="11225" name="mutated flesh" chance="19938" />
-		<item id="2226" name="fishbone" chance="10059" />
-		<item id="3607" name="cheese" chance="8073" />
-		<item id="2483" name="scale armor" chance="7832" />
-		<item id="3976" name="worm" chance="7081" countmax="2" />
-		<item id="2376" name="sword" chance="5073" />
-		<item id="2161" name="strange talisman" chance="4940" />
-		<item id="9808" name="heavily rusted armor" chance="2007" />
+		<item id="2226" name="fishbone" chance="10066" />
+		<item id="3607" name="cheese" chance="8072" />
+		<item id="2483" name="scale armor" chance="7833" />
+		<item id="3976" name="worm" chance="7079" countmax="2" />
+		<item id="2376" name="sword" chance="5067" />
+		<item id="2161" name="strange talisman" chance="4949" />
+		<item id="9808" name="heavily rusted armor" chance="2008" />
 		<item id="7910" name="peanut" chance="534" />
 		<item id="2801" name="fern" chance="422" />
 		<item id="2170" name="silver amulet" chance="102" />

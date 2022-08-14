@@ -5,7 +5,7 @@ monster.name = "Exotic Cave Spider"
 monster.description = "an exotic cave spider"
 monster.experience = 1400
 monster.outfit = {
-	lookType = 0,
+	lookType = 1344,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 3,
+	color = 68
 }
 
 monster.voices = {
@@ -66,19 +66,19 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 20},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300, condition = {type = CONDITION_POISON, startDamage = 176, interval = }}
 }
 
 monster.defenses = {
@@ -88,12 +88,12 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000},
-	{id = 2545, chance = 15060, maxCount = 15},
-	{id = 7591, chance = 9960},
-	{id = 7886, chance = 4268},
-	{id = 2170, chance = 4188},
-	{id = 5879, chance = 2792},
-	{id = 7884, chance = 832}
+	{id = 2545, chance = 14772, maxCount = 15},
+	{id = 7591, chance = 9672},
+	{id = 2170, chance = 4485},
+	{id = 7886, chance = 4353},
+	{id = 5879, chance = 2880},
+	{id = 7884, chance = 857}
 }
 
 mType:register(monster)

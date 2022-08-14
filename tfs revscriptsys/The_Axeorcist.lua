@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Axeorcist")
 local monster = {}
 
 monster.name = "The Axeorcist"
-monster.description = ""
+monster.description = "The Axeorcist"
 monster.experience = 3000
 monster.outfit = {
 	lookType = 0,
@@ -80,7 +80,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -276}
 }
 
 monster.defenses = {

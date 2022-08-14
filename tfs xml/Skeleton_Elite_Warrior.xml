@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Skeleton Elite Warrior" nameDescription="a skeleton elite warrior" experience="4500" speed="310" manacost="0">
+<monster name="Skeleton Elite Warrior" nameDescription="a skeleton elite warrior" race="undead" experience="4500" speed="310" manacost="0">
 	<health now="7800" max="7800" />
 	<look type="298" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,31 +30,31 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-5" />
+		<element earthPercent="5" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
 	<defenses armor="75" defense="75" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="15" />
-		<item id="2230" name="bone" chance="50190" />
-		<item id="5944" name="soul orb" chance="25698" countmax="5" />
-		<item id="2787" name="white mushroom" chance="25054" />
-		<item id="12437" name="pelvis bone" chance="15651" countmax="3" />
-		<item id="11233" name="unholy bone" chance="10211" />
-		<item id="2430" name="knight axe" chance="6249" />
-		<item id="7381" name="mammoth whopper" chance="5225" />
-		<item id="27036" name="bone toothpick" chance="5052" />
-		<item id="5741" name="skull helmet" chance="3145" />
-		<item id="2376" name="sword" chance="1923" />
-		<item id="2789" name="brown mushroom" chance="1907" />
-		<item id="2398" name="mace" chance="1841" />
-		<item id="6553" name="ruthless axe" chance="363" />
+		<item id="2230" name="bone" chance="50127" />
+		<item id="5944" name="soul orb" chance="25616" countmax="5" />
+		<item id="2787" name="white mushroom" chance="25052" />
+		<item id="12437" name="pelvis bone" chance="15678" countmax="3" />
+		<item id="11233" name="unholy bone" chance="10248" />
+		<item id="2430" name="knight axe" chance="6225" />
+		<item id="7381" name="mammoth whopper" chance="5136" />
+		<item id="27036" name="bone toothpick" chance="5017" />
+		<item id="5741" name="skull helmet" chance="3148" />
+		<item id="2789" name="brown mushroom" chance="1948" />
+		<item id="2376" name="sword" chance="1948" />
+		<item id="2398" name="mace" chance="1868" />
+		<item id="6553" name="ruthless axe" chance="374" />
 	</loot>
 </monster>

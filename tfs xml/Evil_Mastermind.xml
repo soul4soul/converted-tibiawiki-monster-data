@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Evil Mastermind" nameDescription="" experience="675" speed="0" manacost="0">
+<monster name="Evil Mastermind" nameDescription="Evil Mastermind" race="blood" experience="675" speed="0" manacost="0">
 	<health now="1295" max="1295" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -29,20 +29,17 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element physicalPercent="5" />
+		<element energyPercent="90" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-5" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-77" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="129" max="323" />
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
@@ -55,7 +52,10 @@
 		<voice sentence="You can't stop me!" yell="false" />
 		<voice sentence="Beware! My evil monolog is coming!" yell="false" />
 	</voices>
+	<summons maxSummons="1">
+		<voice name="Vampire" interval="2000" chance="15" max="1" />
+	</summons>
 	<loot>
-		<item id="10308" name="Fan Club Membership Card" chance="20000" />
+		<item id="10308" name="fan club membership card" chance="20000" />
 	</loot>
 </monster>

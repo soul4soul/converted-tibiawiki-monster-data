@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 6,
+	color = 198
 }
 
 monster.voices = {
@@ -97,8 +97,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2683, chance = 100000, maxCount = 5},
 	{id = 9005, chance = 100000, maxCount = 10},
+	{id = 2683, chance = 100000, maxCount = 5},
+	{id = 8860, chance = 20000},
+	{id = 6526, chance = 20000},
 	{id = 6492, chance = 13636},
 	{id = "toy spider", chance = 9091}
 }

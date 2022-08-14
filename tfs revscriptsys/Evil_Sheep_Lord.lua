@@ -71,7 +71,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -81,17 +81,19 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -118}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -118},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Sheep", duration = 5000}
 }
 
 monster.defenses = {
 	defense = 24,
 	armor = 24,
+	{name ="outfit", interval = 2000, chance = 15, monster = "Werewolf", duration = 5000},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 50, maxDamage = 100}
 }
 
 monster.loot = {
-	{id = 2148, chance = 77712, maxCount = 60}
+	{id = 2148, chance = 77997, maxCount = 60}
 }
 
 mType:register(monster)

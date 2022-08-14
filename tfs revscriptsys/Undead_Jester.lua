@@ -82,42 +82,44 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 20},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 30},
+	{type = COMBAT_HOLYDAMAGE , percent = -20},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -3}
 }
 
 monster.defenses = {
 	defense = 3,
-	armor = 3,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 35, maxDamage = 88}
+	armor = 3
 }
 
 monster.loot = {
-	{id = 2667, chance = 59343},
-	{id = 9108, chance = 40303},
-	{id = "part of a jester doll", chance = 3838},
-	{id = 5909, chance = 1364},
-	{id = 5913, chance = 1162},
-	{id = 7158, chance = 1061},
-	{id = 5910, chance = 1010},
-	{id = 9695, chance = 1010},
-	{id = 5912, chance = 859},
-	{id = 7159, chance = 859},
-	{id = 5914, chance = 758},
-	{id = 5911, chance = 455},
-	{id = 9694, chance = 354},
-	{id = 7963, chance = 202}
+	{id = 2667, chance = 59315},
+	{id = 9108, chance = 40147},
+	{id = 9696, chance = 7500},
+	{id = 9697, chance = 7500},
+	{id = 9698, chance = 7500},
+	{id = 9699, chance = 7500},
+	{id = "part of a jester doll", chance = 3814},
+	{id = 5909, chance = 1320},
+	{id = 5913, chance = 1125},
+	{id = 5910, chance = 1027},
+	{id = 7158, chance = 1027},
+	{id = 9695, chance = 978},
+	{id = 7159, chance = 880},
+	{id = 5912, chance = 831},
+	{id = 5914, chance = 782},
+	{id = 5911, chance = 440},
+	{id = 9694, chance = 342},
+	{id = 7963, chance = 196}
 }
 
 mType:register(monster)

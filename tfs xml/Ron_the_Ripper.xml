@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ron_The_Ripper" nameDescription="" experience="500" speed="0" manacost="0">
+<monster name="Ron_The_Ripper" nameDescription="" race="blood" experience="500" speed="0" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,9 +40,6 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-250" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="150" max="375" />
 	</defenses>
@@ -52,14 +49,15 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="128" />
 		<item id="6101" name="ron the ripper's sabre" chance="100000" />
-		<item id="2229" name="skull (item)" chance="81250" countmax="2" />
-		<item id="2463" name="plate armor" chance="56250" />
-		<item id="2379" name="dagger" chance="50000" />
-		<item id="10103" name="very old piece of paper" chance="31250" />
-		<item id="7591" name="great health potion" chance="18750" />
-		<item id="2666" name="meat" chance="18750" />
-		<item id="2476" name="knight armor" chance="12500" />
-		<item id="5926" name="pirate backpack" chance="12500" />
-		<item id="2145" name="small diamond" chance="6250" />
+		<item id="2229" name="skull (item)" chance="82353" countmax="2" />
+		<item id="2463" name="plate armor" chance="58824" />
+		<item id="2379" name="dagger" chance="47059" />
+		<item id="10103" name="very old piece of paper" chance="29412" />
+		<item id="2387" name="double axe" chance="20000" />
+		<item id="7591" name="great health potion" chance="17647" />
+		<item id="2666" name="meat" chance="17647" />
+		<item id="2476" name="knight armor" chance="11765" />
+		<item id="5926" name="pirate backpack" chance="11765" />
+		<item id="2145" name="small diamond" chance="5882" />
 	</loot>
 </monster>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Fire Empowered Duke")
 local monster = {}
 
 monster.name = "The Fire Empowered Duke"
-monster.description = ""
+monster.description = "The fire empowered Duke"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

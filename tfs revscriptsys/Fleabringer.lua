@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Fleabringer")
 local monster = {}
 
 monster.name = "Fleabringer"
-monster.description = ""
+monster.description = "Fleabringer"
 monster.experience = 100
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -88,8 +87,8 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 11324, chance = 100000},
-	{id = 3976, chance = 80000, maxCount = 2},
-	{id = 2666, chance = 20000}
+	{id = 3976, chance = 80000, maxCount = 3},
+	{id = 2666, chance = 20000, maxCount = 3}
 }
 
 mType:register(monster)

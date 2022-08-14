@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Nargol the Impaler")
 local monster = {}
 
 monster.name = "Nargol The Impaler"
-monster.description = ""
+monster.description = "Nargol the Impaler"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000}
 }
 
 monster.defenses = {

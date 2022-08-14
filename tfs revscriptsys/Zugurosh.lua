@@ -70,16 +70,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
+	{type = COMBAT_ENERGYDAMAGE, percent = 30},
+	{type = COMBAT_EARTHDAMAGE, percent = 30},
+	{type = COMBAT_FIREDAMAGE, percent = 30},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 30},
+	{type = COMBAT_HOLYDAMAGE , percent = 30},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
@@ -93,31 +93,37 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 6500, chance = 100000},
 	{id = 2148, chance = 100000, maxCount = 195},
-	{id = 9813, chance = 52304},
-	{id = 9810, chance = 47696},
-	{id = 7590, chance = 25823},
-	{id = 8472, chance = 25604},
-	{id = 7591, chance = 24799},
-	{id = 8473, chance = 23775},
-	{id = 2152, chance = 21068, maxCount = 30},
-	{id = 5944, chance = 20849, maxCount = 10},
-	{id = 6104, chance = 20629},
-	{id = 9971, chance = 20263},
-	{id = 2134, chance = 19605},
-	{id = 2151, chance = 18727, maxCount = 30},
-	{id = 5911, chance = 17484, maxCount = 10},
-	{id = 5912, chance = 15582, maxCount = 10},
-	{id = 5909, chance = 15069, maxCount = 10},
-	{id = 5913, chance = 14119, maxCount = 10},
-	{id = 5910, chance = 13826, maxCount = 10},
-	{id = 5914, chance = 13753, maxCount = 10},
-	{id = 5954, chance = 9217, maxCount = 2},
-	{id = 2195, chance = 8998},
-	{id = 2173, chance = 4901},
-	{id = 2645, chance = 4901},
-	{id = 2646, chance = 1317}
+	{id = 6500, chance = 100000},
+	{id = 9813, chance = 52294},
+	{id = 9810, chance = 47706},
+	{id = 7590, chance = 25710},
+	{id = 8472, chance = 25637},
+	{id = 7591, chance = 24763, maxCount = 2},
+	{id = 8473, chance = 23889},
+	{id = 2152, chance = 21122, maxCount = 30},
+	{id = 5944, chance = 20757, maxCount = 10},
+	{id = 6104, chance = 20612},
+	{id = 9971, chance = 20248},
+	{id = 2192, chance = 20000},
+	{id = 2158, chance = 20000},
+	{id = 2144, chance = 20000, maxCount = 11},
+	{id = 2146, chance = 20000, maxCount = 7},
+	{id = 7365, chance = 20000, maxCount = 8},
+	{id = 2197, chance = 20000},
+	{id = 2134, chance = 19665},
+	{id = 2151, chance = 18791, maxCount = 30},
+	{id = 5911, chance = 17407, maxCount = 10},
+	{id = 5912, chance = 15586, maxCount = 10},
+	{id = 5909, chance = 15004, maxCount = 10},
+	{id = 5913, chance = 14202, maxCount = 10},
+	{id = 5910, chance = 13911, maxCount = 10},
+	{id = 5914, chance = 13693, maxCount = 10},
+	{id = 5954, chance = 9250, maxCount = 2},
+	{id = 2195, chance = 8958},
+	{id = 2173, chance = 4880},
+	{id = 2645, chance = 4880},
+	{id = 2646, chance = 1311}
 }
 
 mType:register(monster)

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Lord of the Lice")
 local monster = {}
 
 monster.name = "The Lord Of The Lice"
-monster.description = ""
+monster.description = "The Lord of the Lice"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 80000
+monster.maxHealth = 80000
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -87,15 +86,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 7590, chance = 100000, maxCount = 10},
-	{id = 8472, chance = 100000, maxCount = 10},
-	{id = 2152, chance = 100000, maxCount = 10},
-	{id = 8473, chance = 100000, maxCount = 10},
-	{id = 2168, chance = 75000},
-	{id = 9970, chance = 50000, maxCount = 10},
-	{id = 2438, chance = 25000},
-	{id = 2149, chance = 25000, maxCount = 10},
-	{id = 2147, chance = 25000, maxCount = 10}
+	{id = 2152, chance = 100000, maxCount = 17},
+	{id = 8473, chance = 100000, maxCount = 13},
+	{id = 8472, chance = 100000, maxCount = 19},
+	{id = 7590, chance = 100000, maxCount = 16},
+	{id = 2168, chance = 50000},
+	{id = 2147, chance = 50000, maxCount = 16},
+	{id = 2150, chance = 50000, maxCount = 13},
+	{id = 9970, chance = 20000},
+	{id = 2438, chance = 20000},
+	{id = 2149, chance = 20000}
 }
 
 mType:register(monster)

@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Banshee"
 monster.description = "a memory of a banshee"
-monster.experience = 0
+monster.experience = 1430
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3600
+monster.maxHealth = 3600
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -91,13 +91,13 @@ monster.loot = {
 	{id = 2170, chance = 16901},
 	{id = 2657, chance = 7042},
 	{id = 2124, chance = 4225},
+	{id = 2121, chance = 2817},
 	{id = 37530, chance = 2817},
 	{id = 37468, chance = 2817},
-	{id = 2121, chance = 2817},
 	{id = 2071, chance = 1408},
 	{id = 2411, chance = 1408},
-	{id = 2197, chance = 1408},
-	{id = 7589, chance = 1408}
+	{id = 7589, chance = 1408},
+	{id = 2197, chance = 1408}
 }
 
 mType:register(monster)

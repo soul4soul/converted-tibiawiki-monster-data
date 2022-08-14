@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Salamander" nameDescription="a salamander" experience="25" speed="120" manacost="0">
+<monster name="Salamander" nameDescription="a salamander" race="blood" experience="25" speed="120" manacost="0">
 	<health now="70" max="70" />
 	<look type="529" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,7 +31,7 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
@@ -41,7 +41,7 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-10" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-10" poison="14" />
 	</attacks>
 	<defenses armor="3" defense="3">
 		<defense name="healing" interval="2000" chance="20" min="0" max="4" />
@@ -50,13 +50,13 @@
 		<voice sentence="Chrrch!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="71933" countmax="15" />
-		<item id="19737" name="insectoid eggs" chance="34928" />
-		<item id="2544" name="arrow" chance="7985" countmax="3" />
-		<item id="2120" name="rope" chance="5076" />
-		<item id="2398" name="mace" chance="3978" />
-		<item id="2460" name="brass helmet" chance="1976" />
-		<item id="7618" name="health potion" chance="1481" />
+		<item id="2148" name="gold coin" chance="71935" countmax="15" />
+		<item id="19737" name="insectoid eggs" chance="34924" countmax="5" />
+		<item id="2544" name="arrow" chance="7988" countmax="3" />
+		<item id="2120" name="rope" chance="5077" />
+		<item id="2398" name="mace" chance="3977" />
+		<item id="2460" name="brass helmet" chance="1975" />
+		<item id="7618" name="health potion" chance="1479" />
 		<item id="2456" name="bow" chance="739" />
 		<item id="2419" name="scimitar" chance="487" />
 	</loot>

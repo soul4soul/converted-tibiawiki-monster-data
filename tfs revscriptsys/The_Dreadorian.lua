@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Dreadorian")
 local monster = {}
 
 monster.name = "The Dreadorian"
-monster.description = ""
+monster.description = "The Dreadorian"
 monster.experience = 4000
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -368}
 }
 
 monster.defenses = {

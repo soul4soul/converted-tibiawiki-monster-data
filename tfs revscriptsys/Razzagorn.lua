@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Razzagorn")
 local monster = {}
 
 monster.name = "Razzagorn"
-monster.description = ""
+monster.description = "Razzagorn"
 monster.experience = 50000
 monster.outfit = {
 	lookType = 0,
@@ -68,46 +68,55 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 40},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 10},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1250}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 0}
+	armor = 10
+}
+
+monster.maxSummons = 0
+monster.summons = {
+	{name = "Eruption of Destruction", chance = 15, interval = 2000}
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 200},
-	{id = 24849, chance = 100000, maxCount = 5},
-	{id = 24850, chance = 100000, maxCount = 5},
-	{id = 2152, chance = 100000, maxCount = 30},
+	{id = 2152, chance = 100000, maxCount = 31},
 	{id = 25172, chance = 100000},
-	{id = 6500, chance = 75000},
-	{id = 7590, chance = 75000, maxCount = 5},
-	{id = 8473, chance = 75000, maxCount = 5},
-	{id = 6558, chance = 50000},
-	{id = 8472, chance = 50000, maxCount = 5},
-	{id = 2149, chance = 50000, maxCount = 5},
-	{id = 2158, chance = 25000},
-	{id = 2155, chance = 25000},
-	{id = 5022, chance = 25000, maxCount = 5},
-	{id = 2156, chance = 25000},
-	{id = 25523, chance = 25000},
-	{id = 25383, chance = 25000},
-	{id = 2145, chance = 25000, maxCount = 5},
-	{id = 2147, chance = 25000, maxCount = 5},
-	{id = 2153, chance = 25000}
+	{id = 24849, chance = 100000, maxCount = 9},
+	{id = 24850, chance = 100000, maxCount = 9},
+	{id = 2148, chance = 100000, maxCount = 308},
+	{id = 6558, chance = 80000, maxCount = 8},
+	{id = 6500, chance = 80000},
+	{id = 2154, chance = 80000},
+	{id = 2146, chance = 60000, maxCount = 4},
+	{id = 8472, chance = 60000, maxCount = 9},
+	{id = 8473, chance = 60000, maxCount = 12},
+	{id = 7590, chance = 60000, maxCount = 8},
+	{id = 2145, chance = 40000, maxCount = 6},
+	{id = 2149, chance = 20000, maxCount = 5},
+	{id = 2155, chance = 20000},
+	{id = 25523, chance = 20000},
+	{id = 5022, chance = 20000, maxCount = 3},
+	{id = 2147, chance = 20000},
+	{id = 2158, chance = 20000},
+	{id = 2522, chance = 20000},
+	{id = 25410, chance = 20000},
+	{id = 7443, chance = 20000},
+	{id = 25383, chance = 20000},
+	{id = 2156, chance = 20000},
+	{id = 2153, chance = 20000},
+	{id = 25418, chance = 20000}
 }
 
 mType:register(monster)

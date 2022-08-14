@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Leiden")
 local monster = {}
 
 monster.name = "Leiden"
-monster.description = ""
+monster.description = "Leiden"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -79,12 +79,16 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -600}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10
+}
+
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Barkless Fanatic", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {

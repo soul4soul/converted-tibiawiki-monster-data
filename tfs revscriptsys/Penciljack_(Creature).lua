@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Penciljack (Creature)")
 local monster = {}
 
 monster.name = "Penciljack"
-monster.description = ""
+monster.description = "Penciljack"
 monster.experience = 35000
 monster.outfit = {
 	lookType = 0,
@@ -66,24 +66,28 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 61},
+	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -5},
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10
+}
+
+monster.maxSummons = 4
+monster.summons = {
+	{name = "Muse of Penciljack", chance = 15, interval = 2000, max = 4}
 }
 
 monster.loot = {

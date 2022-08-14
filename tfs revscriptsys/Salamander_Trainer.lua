@@ -66,9 +66,9 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 15},
+	{type = COMBAT_FIREDAMAGE, percent = 15},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -78,8 +78,7 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -23},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = 0, radius = 2, target = , effect = CONST_ME_SOUND_RED}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -23}
 }
 
 monster.defenses = {
@@ -94,10 +93,11 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 14},
-	{id = 2666, chance = 35714},
+	{id = 2148, chance = 100000, maxCount = 18},
+	{id = 2666, chance = 35714, maxCount = 4},
 	{id = 2406, chance = 28571},
 	{id = 2386, chance = 25000},
+	{id = 10606, chance = 20000},
 	{id = 2389, chance = 17857, maxCount = 3},
 	{id = 2449, chance = 7143},
 	{id = 2120, chance = 3571}

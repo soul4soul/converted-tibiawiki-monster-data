@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Lost Berserker" nameDescription="a lost berserker" experience="4400" speed="300" manacost="0">
+<monster name="Lost Berserker" nameDescription="a lost berserker" race="blood" experience="4400" speed="300" manacost="0">
 	<health now="5900" max="5900" />
 	<look type="496" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,20 +29,17 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="20" />
+		<element energyPercent="17" />
+		<element earthPercent="100" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="40" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="15" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
-	</attacks>
 	<defenses armor="80" defense="80" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Kill! Kiill! Kill!" yell="false" />
@@ -52,28 +49,28 @@
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
 		<item id="2152" name="platinum coin" chance="99965" countmax="9" />
 		<item id="2789" name="brown mushroom" chance="15479" countmax="2" />
-		<item id="7590" name="great mana potion" chance="14216" />
-		<item id="7591" name="great health potion" chance="13525" />
-		<item id="5880" name="iron ore" chance="8635" />
-		<item id="9970" name="small topaz" chance="8038" countmax="2" />
-		<item id="18436" name="drill bolt" chance="7979" countmax="10" />
-		<item id="18417" name="brown crystal splinter" chance="7535" countmax="2" />
-		<item id="18421" name="green crystal fragment" chance="6681" />
-		<item id="18418" name="blue crystal splinter" chance="4762" />
-		<item id="2114" name="piggy bank" chance="3779" />
-		<item id="18414" name="violet crystal shard" chance="3580" />
-		<item id="2213" name="dwarven ring" chance="2340" />
-		<item id="2430" name="knight axe" chance="2118" />
-		<item id="13757" name="coal" chance="1872" />
-		<item id="2515" name="guardian shield" chance="1287" />
-		<item id="11339" name="clay lump" chance="995" />
-		<item id="2528" name="tower shield" chance="901" />
-		<item id="7452" name="spiked squelcher" chance="796" />
-		<item id="5904" name="magic sulphur" chance="725" />
-		<item id="2529" name="black shield" chance="620" />
-		<item id="7886" name="terra boots" chance="620" />
-		<item id="7427" name="chaos mace" chance="480" />
-		<item id="2432" name="fire axe" chance="410" />
-		<item id="2498" name="royal helmet" chance="199" />
+		<item id="7590" name="great mana potion" chance="14209" />
+		<item id="7591" name="great health potion" chance="13499" />
+		<item id="5880" name="iron ore" chance="8665" />
+		<item id="9970" name="small topaz" chance="8025" countmax="2" />
+		<item id="18436" name="drill bolt" chance="7978" countmax="10" />
+		<item id="18417" name="brown crystal splinter" chance="7559" countmax="2" />
+		<item id="18421" name="green crystal fragment" chance="6662" />
+		<item id="18418" name="blue crystal splinter" chance="4764" />
+		<item id="2114" name="piggy bank" chance="3785" />
+		<item id="18414" name="violet crystal shard" chance="3587" />
+		<item id="2213" name="dwarven ring" chance="2341" />
+		<item id="2430" name="knight axe" chance="2131" />
+		<item id="13757" name="coal" chance="1875" />
+		<item id="2515" name="guardian shield" chance="1304" />
+		<item id="11339" name="clay lump" chance="990" />
+		<item id="2528" name="tower shield" chance="897" />
+		<item id="7452" name="spiked squelcher" chance="792" />
+		<item id="5904" name="magic sulphur" chance="722" />
+		<item id="2529" name="black shield" chance="641" />
+		<item id="7886" name="terra boots" chance="617" />
+		<item id="7427" name="chaos mace" chance="478" />
+		<item id="2432" name="fire axe" chance="408" />
+		<item id="2498" name="royal helmet" chance="198" />
 	</loot>
 </monster>

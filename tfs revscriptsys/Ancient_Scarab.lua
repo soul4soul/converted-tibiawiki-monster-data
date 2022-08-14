@@ -65,14 +65,14 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -5},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -87,21 +87,26 @@ monster.defenses = {
 	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
 }
 
+monster.maxSummons = 3
+monster.summons = {
+	{name = "Larva", chance = 15, interval = 2000, max = 3}
+}
+
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 187},
-	{id = 2162, chance = 10215},
-	{id = 2159, chance = 8090, maxCount = 2},
-	{id = 10548, chance = 7134},
-	{id = 2149, chance = 6035, maxCount = 3},
-	{id = 2150, chance = 6004, maxCount = 4},
-	{id = 2463, chance = 4925},
-	{id = 2135, chance = 3595},
-	{id = 2142, chance = 2524},
-	{id = 7588, chance = 1628},
-	{id = 8912, chance = 973},
-	{id = 2540, chance = 501},
-	{id = 7903, chance = 424},
-	{id = 2440, chance = 284}
+	{id = 2162, chance = 10206},
+	{id = 2159, chance = 8072, maxCount = 2},
+	{id = 10548, chance = 7118},
+	{id = 2149, chance = 6059, maxCount = 3},
+	{id = 2150, chance = 5982, maxCount = 4},
+	{id = 2463, chance = 4937},
+	{id = 2135, chance = 3629},
+	{id = 2142, chance = 2490},
+	{id = 7588, chance = 1613},
+	{id = 8912, chance = 958},
+	{id = 2540, chance = 514},
+	{id = 7903, chance = 434},
+	{id = 2440, chance = 286}
 }
 
 mType:register(monster)

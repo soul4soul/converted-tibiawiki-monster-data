@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Srezz Yellow Eyes")
 local monster = {}
 
 monster.name = "Srezz Yellow Eyes"
-monster.description = ""
+monster.description = "Srezz Yellow Eyes"
 monster.experience = 4800
 monster.outfit = {
 	lookType = 0,
@@ -66,9 +66,9 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
+	{type = COMBAT_EARTHDAMAGE, percent = 40},
+	{type = COMBAT_FIREDAMAGE, percent = 30},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -200}
 }
 
 monster.defenses = {
@@ -87,30 +86,30 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 9},
-	{id = 8473, chance = 100000, maxCount = 3},
-	{id = 9971, chance = 21532},
-	{id = 10611, chance = 21098, maxCount = 2},
-	{id = 7440, chance = 16763},
-	{id = 7633, chance = 15462},
-	{id = 18413, chance = 9682},
-	{id = 2144, chance = 8237},
-	{id = 11230, chance = 6647},
-	{id = 36759, chance = 6069},
-	{id = 2153, chance = 6069},
-	{id = 27048, chance = 4769},
-	{id = 2155, chance = 4480},
-	{id = 2158, chance = 3902},
-	{id = 7897, chance = 3613},
-	{id = 7896, chance = 3468},
-	{id = 2393, chance = 2890},
-	{id = 5741, chance = 1879},
-	{id = 2454, chance = 1879},
-	{id = 7382, chance = 1734},
-	{id = "ring of green plasma", chance = 1734},
-	{id = 2157, chance = 1012},
-	{id = 36914, chance = 434},
-	{id = 36434, chance = 289}
+	{id = 2152, chance = 100000, maxCount = 17},
+	{id = 8473, chance = 100000, maxCount = 5},
+	{id = 10611, chance = 25373, maxCount = 3},
+	{id = 2454, chance = 20000},
+	{id = 2157, chance = 20000},
+	{id = 36914, chance = 20000},
+	{id = 36434, chance = 20000},
+	{id = 7440, chance = 16418},
+	{id = 18413, chance = 11940},
+	{id = 2144, chance = 10448},
+	{id = 7633, chance = 10448},
+	{id = 2155, chance = 10448},
+	{id = 9971, chance = 8955},
+	{id = 27048, chance = 8955},
+	{id = 2153, chance = 8955},
+	{id = 7896, chance = 5970},
+	{id = 11230, chance = 4478},
+	{id = 2158, chance = 4478},
+	{id = 7897, chance = 4478},
+	{id = "ring of green plasma", chance = 2985},
+	{id = 2393, chance = 1493},
+	{id = 7382, chance = 1493},
+	{id = 5741, chance = 1493},
+	{id = 36759, chance = 1493}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Deepling Tyrant" nameDescription="a deepling tyrant" experience="4200" speed="310" manacost="0">
+<monster name="Deepling Tyrant" nameDescription="a deepling tyrant" race="blood" experience="4200" speed="310" manacost="0">
 	<health now="4500" max="4500" />
 	<look type="442" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,26 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-375" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="whirlwindaxe" />
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="0" max="-215" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="spear" />
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
 	</attacks>
 	<defenses armor="54" defense="54" />
 	<voices interval="5000" chance="10">
@@ -49,19 +57,19 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="2152" name="platinum coin" chance="70331" countmax="4" />
-		<item id="15424" name="deepling breaktime snack" chance="35419" />
-		<item id="7590" name="great mana potion" chance="32797" countmax="3" />
-		<item id="7591" name="great health potion" chance="32618" countmax="3" />
-		<item id="13870" name="eye of a deepling" chance="29848" />
-		<item id="15455" name="deepling claw" chance="29669" />
-		<item id="15423" name="deepling guard belt buckle" chance="23861" />
-		<item id="2146" name="small sapphire" chance="9413" countmax="5" />
-		<item id="13838" name="heavy trident" chance="3485" />
-		<item id="15647" name="deepling squelcher" chance="1519" />
-		<item id="15454" name="guardian axe" chance="1311" />
-		<item id="15644" name="ornate crossbow" chance="1221" />
-		<item id="15645" name="deepling backpack" chance="447" />
-		<item id="15545" name="foxtail" chance="30" />
+		<item id="2152" name="platinum coin" chance="70258" countmax="4" />
+		<item id="15424" name="deepling breaktime snack" chance="35347" />
+		<item id="7590" name="great mana potion" chance="33082" countmax="3" />
+		<item id="7591" name="great health potion" chance="32297" countmax="3" />
+		<item id="13870" name="eye of a deepling" chance="29858" />
+		<item id="15455" name="deepling claw" chance="29771" />
+		<item id="15423" name="deepling guard belt buckle" chance="23787" />
+		<item id="2146" name="small sapphire" chance="9381" countmax="5" />
+		<item id="13838" name="heavy trident" chance="3427" />
+		<item id="15647" name="deepling squelcher" chance="1481" />
+		<item id="15454" name="guardian axe" chance="1307" />
+		<item id="15644" name="ornate crossbow" chance="1191" />
+		<item id="15645" name="deepling backpack" chance="465" />
+		<item id="15545" name="foxtail" chance="29" />
 	</loot>
 </monster>

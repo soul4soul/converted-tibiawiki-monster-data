@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Cave Chimera" nameDescription="a cave chimera" experience="6800" speed="230" manacost="0">
+<monster name="Cave Chimera" nameDescription="a cave chimera" race="blood" experience="6800" speed="230" manacost="0">
 	<health now="8000" max="8000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1406" head="60" body="77" legs="64" feet="70" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="1" />
@@ -30,40 +30,37 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="10" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-600" />
-	</attacks>
 	<defenses armor="60" defense="60" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="100000" countmax="24" />
-		<item id="8472" name="great spirit potion" chance="25378" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="18899" />
-		<item id="9971" name="gold ingot" chance="18310" />
-		<item id="18414" name="violet crystal shard" chance="6095" />
-		<item id="2153" name="violet gem" chance="5147" />
-		<item id="39444" name="cave chimera leg" chance="4200" />
-		<item id="39443" name="cave chimera head" chance="3099" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="2919" />
-		<item id="2154" name="yellow gem" chance="2663" />
-		<item id="7888" name="glacier amulet" chance="2484" />
-		<item name="ring of blue plasma" chance="1716" />
-		<item id="7896" name="glacier kilt" chance="1536" />
-		<item id="2179" name="gold ring" chance="1434" />
-		<item id="24741" name="fur armor" chance="973" />
-		<item id="27048" name="gemmed figurine" chance="973" />
-		<item id="15644" name="ornate crossbow" chance="845" />
-		<item id="18453" name="crystal crossbow" chance="179" />
-		<item id="8855" name="composite hornbow" chance="102" />
-		<item id="7438" name="elvish bow" chance="77" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="29" />
+		<item id="8472" name="great spirit potion" chance="29227" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="20773" />
+		<item id="9971" name="gold ingot" chance="18961" />
+		<item id="18414" name="violet crystal shard" chance="6159" />
+		<item id="2153" name="violet gem" chance="6039" />
+		<item id="39444" name="cave chimera leg" chance="5435" />
+		<item id="7888" name="glacier amulet" chance="3502" />
+		<item id="39443" name="cave chimera head" chance="3019" />
+		<item id="2154" name="yellow gem" chance="2778" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="2536" />
+		<item name="ring of blue plasma" chance="2415" />
+		<item id="7896" name="glacier kilt" chance="2295" />
+		<item id="2179" name="gold ring" chance="1449" />
+		<item id="24741" name="fur armor" chance="1087" />
+		<item id="15644" name="ornate crossbow" chance="483" />
+		<item id="7438" name="elvish bow" chance="483" />
+		<item id="27048" name="gemmed figurine" chance="362" />
+		<item id="18453" name="crystal crossbow" chance="362" />
+		<item id="8855" name="composite hornbow" chance="121" />
 	</loot>
 </monster>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Dread Maiden")
 local monster = {}
 
 monster.name = "The Dread Maiden"
-monster.description = ""
+monster.description = "The Dread Maiden"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -68,7 +68,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
@@ -87,32 +86,32 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 99265, maxCount = 2},
-	{id = 35427, chance = 49265, maxCount = 2},
-	{id = 26030, chance = 42647, maxCount = 6},
-	{id = 35425, chance = 42647, maxCount = 2},
-	{id = 35426, chance = 41176},
-	{id = 26031, chance = 33824, maxCount = 6},
-	{id = 26029, chance = 22794, maxCount = 6},
-	{id = 7439, chance = 19118, maxCount = 10},
-	{id = 7440, chance = 19118, maxCount = 10},
-	{id = 7443, chance = 16912, maxCount = 10},
-	{id = 35247, chance = 16176},
-	{id = 35429, chance = 12500},
-	{id = 35359, chance = 11029, maxCount = 2},
-	{id = 35430, chance = 10294},
-	{id = 35428, chance = 9559},
-	{id = 35245, chance = 8088},
-	{id = 35282, chance = 5882},
-	{id = 35251, chance = 5147},
-	{id = 35286, chance = 4412},
-	{id = 35281, chance = 2941},
-	{id = 35278, chance = 2941},
-	{id = 35279, chance = 2941},
-	{id = 35280, chance = 2206},
-	{id = 35287, chance = 2206},
-	{id = 35252, chance = 1471},
-	{id = 35275, chance = 735}
+	{id = 2160, chance = 100000, maxCount = 3},
+	{id = 26029, chance = 71429, maxCount = 8},
+	{id = 35427, chance = 57143, maxCount = 2},
+	{id = 35425, chance = 42857},
+	{id = 35426, chance = 42857},
+	{id = 26030, chance = 28571, maxCount = 9},
+	{id = 7439, chance = 28571, maxCount = 12},
+	{id = 7443, chance = 28571, maxCount = 12},
+	{id = 35429, chance = 28571},
+	{id = 35287, chance = 20000},
+	{id = 35275, chance = 20000},
+	{id = 35286, chance = 20000},
+	{id = 35247, chance = 20000},
+	{id = 35280, chance = 20000},
+	{id = 35281, chance = 20000},
+	{id = 35430, chance = 20000},
+	{id = 35245, chance = 20000},
+	{id = 35252, chance = 20000},
+	{id = 35278, chance = 20000},
+	{id = 7440, chance = 20000, maxCount = 10},
+	{id = 26031, chance = 20000, maxCount = 6},
+	{id = 35359, chance = 20000, maxCount = 2},
+	{id = 35279, chance = 20000},
+	{id = 35251, chance = 14286},
+	{id = 35282, chance = 14286},
+	{id = 35428, chance = 14286}
 }
 
 mType:register(monster)

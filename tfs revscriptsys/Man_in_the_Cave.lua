@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Man in the Cave")
 local monster = {}
 
 monster.name = "Man In The Cave"
-monster.description = ""
+monster.description = "man in the cave"
 monster.experience = 777
 monster.outfit = {
 	lookType = 0,
@@ -82,7 +82,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -62}
 }
 
 monster.defenses = {
@@ -92,13 +91,20 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 48, maxDamage = 121}
 }
 
+monster.maxSummons = 0
+monster.summons = {
+	{name = "Monk", chance = 15, interval = 2000}
+}
+
 monster.loot = {
 	{id = 2120, chance = 100000, maxCount = 3},
-	{id = 7386, chance = 34615},
-	{id = 5913, chance = 26923},
-	{id = 2148, chance = 23077, maxCount = 59},
-	{id = 7458, chance = 15385},
-	{id = 7290, chance = 11538}
+	{id = 7386, chance = 33333},
+	{id = 5913, chance = 29630},
+	{id = 2148, chance = 25926, maxCount = 59},
+	{id = 7463, chance = 20000},
+	{id = 7458, chance = 18519},
+	{id = 7290, chance = 11111},
+	{id = 2691, chance = 3704}
 }
 
 mType:register(monster)

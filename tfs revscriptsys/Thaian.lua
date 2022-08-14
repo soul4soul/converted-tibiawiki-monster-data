@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Thaian")
 local monster = {}
 
 monster.name = "Thaian"
-monster.description = ""
+monster.description = "Thaian"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -65,20 +65,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 90},
+	{type = COMBAT_ENERGYDAMAGE, percent = 90},
+	{type = COMBAT_EARTHDAMAGE, percent = 90},
+	{type = COMBAT_FIREDAMAGE, percent = 90},
 	{type = COMBAT_LIFEDRAIN, percent = 90},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 90},
+	{type = COMBAT_HOLYDAMAGE , percent = 90},
+	{type = COMBAT_DEATHDAMAGE , percent = 85}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
@@ -87,13 +86,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2155, chance = 92000},
-	{id = 35289, chance = 60000},
-	{id = 2154, chance = 60000},
-	{id = 35282, chance = 12000},
-	{id = 2158, chance = 8000},
-	{id = 35359, chance = 8000, maxCount = 2},
-	{id = 35361, chance = 4000}
+	{id = 2155, chance = 66667},
+	{id = 2158, chance = 33333},
+	{id = 2154, chance = 20000},
+	{id = 35282, chance = 20000},
+	{id = 35359, chance = 20000},
+	{id = 35361, chance = 20000},
+	{id = 35367, chance = 20000},
+	{id = 35289, chance = 20000},
+	{id = 35360, chance = 20000}
 }
 
 mType:register(monster)

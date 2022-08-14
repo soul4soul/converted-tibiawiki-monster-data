@@ -67,8 +67,8 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -89,6 +89,7 @@ monster.defenses = {
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 42},
 	{id = 5902, chance = 100000, maxCount = 3},
+	{id = 21400, chance = 20000},
 	{id = 2170, chance = 12500},
 	{id = 2149, chance = 4167},
 	{id = 9970, chance = 4167}

@@ -69,20 +69,23 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 5},
+	{type = COMBAT_HOLYDAMAGE , percent = -5},
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400},
+	{name ="speed", interval = 2000, chance = 15, speed = {min = -400, max = -400}, duration = 20000, effect = CONST_ME_MAGIC_RED},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = 0, maxDamage = -500, length = 5, spread = 0, effect = CONST_ME_EXPLOSIONAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -300, radius = 3, target = , effect = CONST_ME_DRAWBLOOD}
 }
 
 monster.defenses = {
@@ -93,23 +96,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 2152, chance = 60453},
-	{id = 28350, chance = 15141},
-	{id = 2229, chance = 12018},
-	{id = 22532, chance = 11689},
-	{id = 22533, chance = 10283},
-	{id = 7590, chance = 9972, maxCount = 3},
-	{id = 2230, chance = 9902},
-	{id = 7591, chance = 9863, maxCount = 2},
-	{id = 2240, chance = 9842},
-	{id = 2667, chance = 6460, maxCount = 3},
-	{id = 2671, chance = 6061},
-	{id = 2231, chance = 5309},
-	{id = 5895, chance = 5093},
-	{id = 2225, chance = 4886},
-	{id = 5880, chance = 2753},
+	{id = 2152, chance = 60510},
+	{id = 28350, chance = 15062},
+	{id = 2229, chance = 11998},
+	{id = 22532, chance = 11708},
+	{id = 22533, chance = 10225},
+	{id = 2230, chance = 9997},
+	{id = 7590, chance = 9922, maxCount = 3},
+	{id = 7591, chance = 9876, maxCount = 2},
+	{id = 2240, chance = 9818},
+	{id = 2667, chance = 6477, maxCount = 3},
+	{id = 2671, chance = 6089, maxCount = 2},
+	{id = 2231, chance = 5294},
+	{id = 5895, chance = 5043},
+	{id = 2225, chance = 4906},
+	{id = 5880, chance = 2751},
 	{id = 7418, chance = 346},
-	{id = 11306, chance = 283},
+	{id = 11306, chance = 297},
 	{id = 22396, chance = 189}
 }
 

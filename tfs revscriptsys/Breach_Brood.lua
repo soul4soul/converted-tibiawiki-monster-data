@@ -66,20 +66,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 80},
+	{type = COMBAT_EARTHDAMAGE, percent = -5},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 25},
+	{type = COMBAT_HOLYDAMAGE , percent = -5},
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300}
 }
 
 monster.defenses = {
@@ -90,28 +89,28 @@ monster.defenses = {
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 100},
 	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 26201, chance = 18331},
-	{id = 26191, chance = 18199},
-	{id = 26174, chance = 14777},
-	{id = 7591, chance = 12394},
-	{id = 8472, chance = 11936},
-	{id = 7590, chance = 11812},
-	{id = 26163, chance = 10718},
-	{id = 26167, chance = 9965},
-	{id = 26162, chance = 9950},
-	{id = 26170, chance = 9903},
-	{id = 18418, chance = 8141, maxCount = 2},
-	{id = 18419, chance = 5999},
-	{id = 18415, chance = 4206},
-	{id = 18413, chance = 3997},
-	{id = 2158, chance = 357},
-	{id = "ring of blue plasma", chance = 357},
-	{id = "collar of blue plasma", chance = 287},
-	{id = 26199, chance = 272},
-	{id = 26200, chance = 264},
-	{id = "ring of red plasma", chance = 225},
-	{id = "ring of green plasma", chance = 210},
-	{id = 7895, chance = 62}
+	{id = 26201, chance = 18464},
+	{id = 26191, chance = 18185},
+	{id = 26174, chance = 14594},
+	{id = 7591, chance = 12279},
+	{id = 7590, chance = 12102},
+	{id = 8472, chance = 11863},
+	{id = 26163, chance = 10329},
+	{id = 26170, chance = 9993},
+	{id = 26162, chance = 9965},
+	{id = 26167, chance = 9948},
+	{id = 18418, chance = 7987, maxCount = 2},
+	{id = 18419, chance = 5883},
+	{id = 18415, chance = 4161},
+	{id = 18413, chance = 3973},
+	{id = "ring of blue plasma", chance = 336},
+	{id = 2158, chance = 331},
+	{id = "collar of blue plasma", chance = 251},
+	{id = 26199, chance = 245},
+	{id = "ring of red plasma", chance = 245},
+	{id = 26200, chance = 217},
+	{id = "ring of green plasma", chance = 217},
+	{id = 7895, chance = 68}
 }
 
 mType:register(monster)

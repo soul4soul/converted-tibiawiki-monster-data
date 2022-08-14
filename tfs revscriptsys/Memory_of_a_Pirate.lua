@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Pirate"
 monster.description = "a memory of a pirate"
-monster.experience = 0
+monster.experience = 1500
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3750
+monster.maxHealth = 3750
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,24 +86,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 41538, maxCount = 100},
-	{id = 2147, chance = 13846},
-	{id = 3123, chance = 12308},
-	{id = 2149, chance = 10000},
-	{id = 2385, chance = 9038},
-	{id = 2410, chance = 8654, maxCount = 5},
-	{id = 7588, chance = 8269},
-	{id = 2513, chance = 8077},
-	{id = "torch", chance = 7115},
-	{id = 37531, chance = 3846},
-	{id = 2463, chance = 3846},
-	{id = 6095, chance = 2308},
-	{id = 37530, chance = 1346},
-	{id = 5926, chance = 1346},
-	{id = "die", chance = 1154},
-	{id = 5553, chance = 1154},
-	{id = 5090, chance = 577},
-	{id = 37468, chance = 385}
+	{id = 2148, chance = 39216, maxCount = 98},
+	{id = "die", chance = 20000},
+	{id = 2463, chance = 20000},
+	{id = 37468, chance = 20000},
+	{id = 5090, chance = 20000},
+	{id = 37530, chance = 20000},
+	{id = 6095, chance = 20000},
+	{id = 37531, chance = 20000},
+	{id = 2410, chance = 13725, maxCount = 5},
+	{id = 3123, chance = 11765},
+	{id = 2385, chance = 11765},
+	{id = 2147, chance = 9804},
+	{id = "torch", chance = 7843},
+	{id = 2149, chance = 7843},
+	{id = 2513, chance = 7843},
+	{id = 7588, chance = 5882},
+	{id = 5926, chance = 1961},
+	{id = 5553, chance = 1961}
 }
 
 mType:register(monster)

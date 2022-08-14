@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Defiler" nameDescription="a defiler" experience="3700" speed="160" manacost="0">
+<monster name="Defiler" nameDescription="a defiler" race="blood" experience="3700" speed="160" manacost="0">
 	<health now="3650" max="3650" />
 	<look type="238" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,13 +30,13 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-25" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -52,19 +52,19 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="272" />
-		<item id="2152" name="platinum coin" chance="96805" countmax="6" />
-		<item id="5944" name="soul orb" chance="19622" />
-		<item id="6500" name="demonic essence" chance="19374" />
-		<item id="9967" name="glob of acid slime" chance="11724" />
-		<item id="9968" name="glob of tar" chance="11386" />
-		<item id="2149" name="small emerald" chance="5648" countmax="3" />
-		<item id="2151" name="talon" chance="4298" />
-		<item id="2147" name="small ruby" chance="3488" countmax="2" />
-		<item id="6300" name="death ring" chance="2723" />
-		<item id="2145" name="small diamond" chance="2498" countmax="2" />
-		<item id="2154" name="yellow gem" chance="1620" />
-		<item id="2156" name="red gem" chance="1193" />
-		<item id="2158" name="blue gem" chance="900" />
-		<item id="2155" name="green gem" chance="698" />
+		<item id="2152" name="platinum coin" chance="96693" countmax="6" />
+		<item id="5944" name="soul orb" chance="19584" />
+		<item id="6500" name="demonic essence" chance="19307" />
+		<item id="9967" name="glob of acid slime" chance="11624" />
+		<item id="9968" name="glob of tar" chance="11248" />
+		<item id="2149" name="small emerald" chance="5743" countmax="3" />
+		<item id="2151" name="talon" chance="4376" />
+		<item id="2147" name="small ruby" chance="3703" countmax="2" />
+		<item id="6300" name="death ring" chance="2812" />
+		<item id="2145" name="small diamond" chance="2495" countmax="2" />
+		<item id="2154" name="yellow gem" chance="1782" />
+		<item id="2156" name="red gem" chance="1149" />
+		<item id="2158" name="blue gem" chance="832" />
+		<item id="2155" name="green gem" chance="713" />
 	</loot>
 </monster>

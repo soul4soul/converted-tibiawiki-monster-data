@@ -5,11 +5,11 @@ monster.name = "Hulking Carnisylvan"
 monster.description = "a hulking carnisylvan"
 monster.experience = 4700
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 1418,
+	lookHead = 21,
+	lookBody = 3,
+	lookLegs = 20,
+	lookFeet = 57,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = -20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
@@ -90,20 +90,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 19},
-	{id = 2230, chance = 23542},
-	{id = 7591, chance = 12289, maxCount = 2},
-	{id = 39462, chance = 11717},
-	{id = 39461, chance = 10354},
-	{id = 7903, chance = 6185},
-	{id = 7886, chance = 4714},
-	{id = 2430, chance = 3951},
-	{id = 7901, chance = 3869},
-	{id = 7430, chance = 3651},
-	{id = 7387, chance = 3597},
-	{id = 2438, chance = 3324},
-	{id = 2391, chance = 2670},
-	{id = 39463, chance = 463}
+	{id = 2152, chance = 100000, maxCount = 23},
+	{id = 2230, chance = 28356},
+	{id = 7591, chance = 14658, maxCount = 2},
+	{id = 39462, chance = 12329},
+	{id = 39461, chance = 11233},
+	{id = 7903, chance = 6712},
+	{id = 7886, chance = 5890},
+	{id = 7430, chance = 4658},
+	{id = 7387, chance = 4384},
+	{id = 2438, chance = 4110},
+	{id = 7901, chance = 3699},
+	{id = 2391, chance = 3699},
+	{id = 2430, chance = 3699},
+	{id = 39463, chance = 685}
 }
 
 mType:register(monster)

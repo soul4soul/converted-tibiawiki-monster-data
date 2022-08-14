@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ink Blob" nameDescription="an ink blob" experience="14450" speed="380" manacost="0">
+<monster name="Ink Blob" nameDescription="an ink blob" race="blood" experience="14450" speed="380" manacost="0">
 	<health now="9500" max="9500" />
 	<look type="1064" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,8 +30,8 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="-8" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
@@ -42,37 +42,40 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-550" />
-		<attack name="earth" interval="2000" chance="15" min="-600" max="-800" radius="3" target="1">
+		<attack name="earth" interval="2000" chance="15" min="-600" max="-900" radius="3" target="1">
 			<attribute key="shootEffect" value="poisonarrow" />
 			<attribute key="areaEffect" value="greenspark" />
 		</attack>
-		<attack name="earth" interval="2000" chance="15" min="-500" max="-700">
+		<attack name="earth" interval="2000" chance="15" min="-600" max="-850">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</attack>
-		<attack name="earth" interval="2000" chance="15" min="-1000" max="-1300" length="3" spread="2">
+		<attack name="earth" interval="2000" chance="15" min="-700" max="-950" radius="4" target="0">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</attack>
+		<attack name="earth" interval="2000" chance="15" min="-1200" max="-1650" length="3" spread="2">
 			<attribute key="areaEffect" value="bluebubble" />
 		</attack>
 	</attacks>
 	<defenses armor="70" defense="70" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="74513" countmax="25" />
-		<item id="18437" name="envenomed arrow" chance="69680" countmax="50" />
-		<item id="2145" name="small diamond" chance="68355" countmax="7" />
-		<item id="9970" name="small topaz" chance="49649" countmax="3" />
-		<item id="31224" name="inkwell (black)" chance="44661" countmax="4" />
-		<item id="10557" name="poisonous slime" chance="34762" />
-		<item id="7633" name="giant shimmering pearl (brown)" chance="14965" />
-		<item id="7886" name="terra boots" chance="6157" />
-		<item id="7903" name="terra hood" chance="6002" />
-		<item id="2158" name="blue gem" chance="5378" />
-		<item id="7885" name="terra legs" chance="2650" />
-		<item id="10219" name="sacred tree amulet" chance="1793" />
-		<item id="2197" name="stone skin amulet" chance="1793" />
-		<item id="2200" name="protection amulet" chance="1247" />
-		<item id="7884" name="terra mantle" chance="1169" />
-		<item id="8912" name="springsprout rod" chance="701" />
-		<item id="11339" name="clay lump" chance="624" />
-		<item id="7887" name="terra amulet" chance="546" />
-		<item id="8880" name="swamplair armor" chance="78" />
+		<item id="2152" name="platinum coin" chance="74692" countmax="25" />
+		<item id="18437" name="envenomed arrow" chance="69851" countmax="50" />
+		<item id="2145" name="small diamond" chance="66582" countmax="7" />
+		<item id="9970" name="small topaz" chance="49512" countmax="3" />
+		<item id="31224" name="inkwell (black)" chance="43779" countmax="4" />
+		<item id="10557" name="poisonous slime" chance="34862" countmax="9" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="15372" countmax="3" />
+		<item id="7903" name="terra hood" chance="5648" />
+		<item id="7886" name="terra boots" chance="5393" />
+		<item id="2158" name="blue gem" chance="4926" />
+		<item id="7885" name="terra legs" chance="2845" />
+		<item id="2197" name="stone skin amulet" chance="1826" />
+		<item id="10219" name="sacred tree amulet" chance="1826" />
+		<item id="2200" name="protection amulet" chance="1231" />
+		<item id="7884" name="terra mantle" chance="1062" />
+		<item id="8912" name="springsprout rod" chance="637" />
+		<item id="11339" name="clay lump" chance="594" />
+		<item id="7887" name="terra amulet" chance="510" />
+		<item id="8880" name="swamplair armor" chance="42" />
 	</loot>
 </monster>

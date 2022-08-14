@@ -54,6 +54,7 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
+	{text = "Intruder! You must not enter our halls!", yell = false}
 }
 
 monster.immunities = {
@@ -83,6 +84,11 @@ monster.attacks = {
 monster.defenses = {
 	defense = 5,
 	armor = 10
+}
+
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Werelion", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {

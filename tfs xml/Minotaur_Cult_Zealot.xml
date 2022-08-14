@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Minotaur Cult Zealot" nameDescription="a minotaur cult zealot" experience="1350" speed="250" manacost="0">
+<monster name="Minotaur Cult Zealot" nameDescription="a minotaur cult zealot" race="blood" experience="1350" speed="250" manacost="0">
 	<health now="1800" max="1800" />
 	<look type="29" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,35 +32,40 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-250" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-350" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="whirlwindaxe" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="0" max="-250" length="3" spread="0">
+			<attribute key="areaEffect" value="groundshaker" />
+		</attack>
 	</attacks>
 	<defenses armor="35" defense="35" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="150" />
-		<item id="2152" name="platinum coin" chance="39263" countmax="3" />
-		<item id="12429" name="purple robe" chance="16616" />
-		<item id="2182" name="snakebite rod" chance="12133" />
-		<item id="7589" name="strong mana potion" chance="11781" countmax="3" />
-		<item id="10556" name="cultish robe" chance="9786" />
-		<item id="7425" name="taurus mace" chance="6477" />
-		<item id="5878" name="minotaur leather" chance="5116" />
-		<item id="2150" name="small amethyst" chance="2981" countmax="2" />
-		<item id="2149" name="small emerald" chance="2816" countmax="2" />
-		<item id="12428" name="minotaur horn" chance="2722" countmax="2" />
-		<item id="2146" name="small sapphire" chance="2652" countmax="2" />
-		<item id="2145" name="small diamond" chance="2323" countmax="2" />
-		<item id="9970" name="small topaz" chance="2276" countmax="2" />
-		<item id="5911" name="red piece of cloth" chance="2065" />
-		<item id="2147" name="small ruby" chance="2065" countmax="2" />
+		<item id="2152" name="platinum coin" chance="39306" countmax="3" />
+		<item id="12429" name="purple robe" chance="16604" />
+		<item id="2182" name="snakebite rod" chance="12125" />
+		<item id="7589" name="strong mana potion" chance="11773" countmax="3" />
+		<item id="10556" name="cultish robe" chance="9780" />
+		<item id="7425" name="taurus mace" chance="6473" />
+		<item id="5878" name="minotaur leather" chance="5113" />
+		<item id="2150" name="small amethyst" chance="3002" countmax="2" />
+		<item id="2149" name="small emerald" chance="2814" countmax="2" />
+		<item id="12428" name="minotaur horn" chance="2744" countmax="2" />
+		<item id="2146" name="small sapphire" chance="2650" countmax="2" />
+		<item id="2145" name="small diamond" chance="2322" countmax="2" />
+		<item id="9970" name="small topaz" chance="2275" countmax="2" />
+		<item id="5911" name="red piece of cloth" chance="2064" />
+		<item id="2147" name="small ruby" chance="2064" countmax="2" />
 		<item id="2156" name="red gem" chance="516" />
 		<item id="2154" name="yellow gem" chance="446" />
 		<item id="7401" name="minotaur trophy" chance="94" />

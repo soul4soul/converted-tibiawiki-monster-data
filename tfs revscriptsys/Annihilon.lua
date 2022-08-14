@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Annihilon")
 local monster = {}
 
 monster.name = "Annihilon"
-monster.description = ""
+monster.description = "Annihilon"
 monster.experience = 15000
 monster.outfit = {
 	lookType = 0,
@@ -69,19 +69,18 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 95},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_HOLYDAMAGE , percent = -5},
+	{type = COMBAT_DEATHDAMAGE , percent = 95}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -2000}
 }
 
 monster.defenses = {
@@ -90,45 +89,50 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 9810, chance = 61943},
-	{id = "giant shimmering pearl", chance = 38057, maxCount = 2},
-	{id = 2452, chance = 28340},
-	{id = 7368, chance = 23887, maxCount = 50},
-	{id = 2158, chance = 22672},
-	{id = 2127, chance = 22267},
-	{id = 2427, chance = 22267},
-	{id = 2154, chance = 22267},
-	{id = 2156, chance = 21053},
-	{id = 9971, chance = 20648},
-	{id = 6529, chance = 20648, maxCount = 46},
-	{id = 7439, chance = 19838},
-	{id = 2152, chance = 19838, maxCount = 30},
-	{id = 2547, chance = 19838, maxCount = 99},
-	{id = 2381, chance = 19433},
-	{id = 7840, chance = 19028, maxCount = 96},
-	{id = 5944, chance = 19028, maxCount = 5},
-	{id = 2153, chance = 17814},
-	{id = 7366, chance = 16599, maxCount = 70},
-	{id = 2155, chance = 16194},
-	{id = 7440, chance = 15385},
-	{id = 7591, chance = 14575},
-	{id = 7421, chance = 14170},
-	{id = 7590, chance = 12955},
-	{id = 8473, chance = 12955},
-	{id = 2519, chance = 12551},
-	{id = 8472, chance = 12551},
-	{id = 5954, chance = 11741, maxCount = 2},
-	{id = 8891, chance = 10526},
-	{id = 2528, chance = 10121},
-	{id = 2515, chance = 8502},
-	{id = 7387, chance = 7287},
-	{id = 2520, chance = 4049},
-	{id = 2514, chance = 3644},
-	{id = 7431, chance = 1619},
-	{id = 8877, chance = 1215},
-	{id = 8928, chance = 1215},
-	{id = 8929, chance = 405}
+	{id = 2148, chance = 100000, maxCount = 159},
+	{id = 9810, chance = 62000},
+	{id = "giant shimmering pearl", chance = 37600, maxCount = 4},
+	{id = 2452, chance = 28000},
+	{id = 7368, chance = 23600, maxCount = 50},
+	{id = 2154, chance = 22800},
+	{id = 2158, chance = 22400},
+	{id = 2427, chance = 22400},
+	{id = 2127, chance = 22000},
+	{id = 2156, chance = 20800},
+	{id = 9971, chance = 20800},
+	{id = 6529, chance = 20400, maxCount = 49},
+	{id = 2547, chance = 20000, maxCount = 99},
+	{id = 2214, chance = 20000},
+	{id = 2165, chance = 20000},
+	{id = 2150, chance = 20000, maxCount = 20},
+	{id = 2381, chance = 20000},
+	{id = 2170, chance = 20000},
+	{id = 7439, chance = 20000, maxCount = 2},
+	{id = 5944, chance = 19600, maxCount = 5},
+	{id = 2152, chance = 19600, maxCount = 30},
+	{id = 7840, chance = 19200, maxCount = 99},
+	{id = 2153, chance = 17600},
+	{id = 7366, chance = 16800, maxCount = 70},
+	{id = 2155, chance = 16400},
+	{id = 7440, chance = 15200, maxCount = 2},
+	{id = 7591, chance = 14400},
+	{id = 7421, chance = 14000},
+	{id = 8473, chance = 13200},
+	{id = 7590, chance = 13200},
+	{id = 8472, chance = 12400},
+	{id = 2519, chance = 12400},
+	{id = 5954, chance = 12000, maxCount = 2},
+	{id = 8891, chance = 10400},
+	{id = 2528, chance = 10400},
+	{id = 2515, chance = 8400},
+	{id = 8889, chance = 7500},
+	{id = 7387, chance = 7200},
+	{id = 2520, chance = 4000},
+	{id = 2514, chance = 3600},
+	{id = 7431, chance = 1600},
+	{id = 8928, chance = 1200},
+	{id = 8877, chance = 1200},
+	{id = 8929, chance = 400}
 }
 
 mType:register(monster)

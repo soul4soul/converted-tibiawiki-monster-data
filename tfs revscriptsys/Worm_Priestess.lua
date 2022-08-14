@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 1,
+	targetDistance = 4,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -70,14 +70,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 5},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 5}
 }
 
 monster.attacks = {
@@ -90,26 +90,26 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 150},
-	{id = 2152, chance = 39887, maxCount = 3},
-	{id = 12429, chance = 15978},
-	{id = 7589, chance = 12293, maxCount = 3},
-	{id = 2182, chance = 11911},
+	{id = 2152, chance = 39890, maxCount = 3},
+	{id = 12429, chance = 15986},
+	{id = 7589, chance = 12282, maxCount = 3},
+	{id = 2182, chance = 11909},
 	{id = 7425, chance = 5093},
-	{id = "torch", chance = 4966},
+	{id = "torch", chance = 4971},
 	{id = 5878, chance = 4964},
-	{id = 12428, chance = 2880, maxCount = 2},
-	{id = 2150, chance = 2610, maxCount = 2},
-	{id = 9970, chance = 2484, maxCount = 2},
-	{id = 2149, chance = 2443, maxCount = 2},
-	{id = 2147, chance = 2422, maxCount = 2},
-	{id = 2145, chance = 2409, maxCount = 2},
-	{id = 2146, chance = 2408, maxCount = 2},
-	{id = 5912, chance = 1559},
-	{id = 8910, chance = 1536},
-	{id = 5911, chance = 1490},
-	{id = 5910, chance = 1466},
-	{id = 2154, chance = 516},
-	{id = 2156, chance = 477},
+	{id = 12428, chance = 2883, maxCount = 2},
+	{id = 2150, chance = 2619, maxCount = 2},
+	{id = 9970, chance = 2488, maxCount = 2},
+	{id = 2149, chance = 2444, maxCount = 2},
+	{id = 2147, chance = 2423, maxCount = 2},
+	{id = 2145, chance = 2406, maxCount = 2},
+	{id = 2146, chance = 2406, maxCount = 2},
+	{id = 5912, chance = 1558},
+	{id = 8910, chance = 1534},
+	{id = 5911, chance = 1491},
+	{id = 5910, chance = 1477},
+	{id = 2154, chance = 518},
+	{id = 2156, chance = 475},
 	{id = 7401, chance = 141}
 }
 

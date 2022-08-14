@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -78,18 +78,20 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1200}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1200, condition = {type = CONDITION_POISON, startDamage = 360, interval = }}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 3500, maxDamage = 8750}
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 1000, maxDamage = 2000}
 }
 
 monster.loot = {
-	{id = 15404, chance = 75000},
-	{id = 13870, chance = 25000}
+	{id = "giant shimmering pearl", chance = 66667},
+	{id = 15436, chance = 33333},
+	{id = 15404, chance = 20000},
+	{id = 13870, chance = 20000}
 }
 
 mType:register(monster)

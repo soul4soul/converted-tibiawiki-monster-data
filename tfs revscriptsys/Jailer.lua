@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Jailer")
 local monster = {}
 
 monster.name = "Jailer"
-monster.description = ""
+monster.description = "Jailer"
 monster.experience = 45
 monster.outfit = {
 	lookType = 0,
@@ -86,13 +86,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2230, chance = 50000},
-	{id = 2148, chance = 44059, maxCount = 10},
-	{id = 2787, chance = 22772},
-	{id = 12437, chance = 10891},
-	{id = 2376, chance = 2970},
-	{id = 2789, chance = 1980},
-	{id = 2398, chance = 990}
+	{id = 2230, chance = 51917},
+	{id = 2148, chance = 43068, maxCount = 10},
+	{id = 2787, chance = 22124},
+	{id = 12437, chance = 10914},
+	{id = 2376, chance = 2950},
+	{id = 2789, chance = 2655},
+	{id = 2398, chance = 1180}
 }
 
 mType:register(monster)

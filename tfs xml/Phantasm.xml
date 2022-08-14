@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Phantasm" nameDescription="" experience="4400" speed="340" manacost="0">
+<monster name="Phantasm" nameDescription="" race="blood" experience="4400" speed="340" manacost="0">
 	<health now="3950" max="3950" />
 	<look type="241" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,20 +29,17 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="100" />
+		<element energyPercent="-10" />
+		<element earthPercent="20" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-470" />
-	</attacks>
 	<defenses armor="80" defense="80">
 		<defense name="healing" interval="2000" chance="20" min="228" max="449" />
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
@@ -56,22 +53,25 @@
 		<voice sentence="Dream a little dream with me!" yell="false" />
 		<voice sentence="Give in." yell="false" />
 	</voices>
+	<summons maxSummons="3">
+		<voice name="Phantasm (Weak)" interval="2000" chance="15" max="3" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="87789" countmax="238" />
-		<item id="2152" name="platinum coin" chance="87789" countmax="4" />
-		<item id="7590" name="great mana potion" chance="30398" countmax="2" />
-		<item id="2804" name="shadow herb" chance="25739" />
-		<item id="2260" name="blank rune" chance="21433" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="17674" />
-		<item id="6500" name="demonic essence" chance="17127" />
-		<item id="2150" name="small amethyst" chance="14364" countmax="3" />
-		<item id="9970" name="small topaz" chance="13271" countmax="3" />
-		<item id="2147" name="small ruby" chance="11472" countmax="3" />
-		<item id="2149" name="small emerald" chance="11086" countmax="3" />
-		<item id="7451" name="shadow sceptre" chance="835" />
-		<item id="2165" name="stealth ring" chance="835" />
-		<item id="2487" name="crown armor" chance="707" />
-		<item id="7414" name="abyss hammer" chance="514" />
-		<item id="6300" name="death ring" chance="353" />
+		<item id="2148" name="gold coin" chance="87814" countmax="238" />
+		<item id="2152" name="platinum coin" chance="87814" countmax="4" />
+		<item id="7590" name="great mana potion" chance="30419" countmax="2" />
+		<item id="2804" name="shadow herb" chance="25778" />
+		<item id="2260" name="blank rune" chance="21377" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="17934" />
+		<item id="6500" name="demonic essence" chance="16796" />
+		<item id="2150" name="small amethyst" chance="14192" countmax="3" />
+		<item id="9970" name="small topaz" chance="13024" countmax="3" />
+		<item id="2147" name="small ruby" chance="11527" countmax="3" />
+		<item id="2149" name="small emerald" chance="11048" countmax="3" />
+		<item id="7451" name="shadow sceptre" chance="838" />
+		<item id="2165" name="stealth ring" chance="808" />
+		<item id="2487" name="crown armor" chance="689" />
+		<item id="7414" name="abyss hammer" chance="479" />
+		<item id="6300" name="death ring" chance="359" />
 	</loot>
 </monster>

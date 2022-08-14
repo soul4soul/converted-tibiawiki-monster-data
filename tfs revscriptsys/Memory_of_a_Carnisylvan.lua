@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3800
+monster.maxHealth = 3800
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,18 +86,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 99371, maxCount = 100},
-	{id = 8472, chance = 14465},
-	{id = 9970, chance = 6289},
-	{id = "wooden trash", chance = 5660},
-	{id = 2795, chance = 5031, maxCount = 3},
-	{id = "giant shimmering pearl", chance = 3774},
-	{id = 37531, chance = 3145},
-	{id = 2127, chance = 2516},
-	{id = 18397, chance = 2516},
-	{id = 37530, chance = 1258},
-	{id = 27048, chance = 629},
-	{id = 37468, chance = 629}
+	{id = 2148, chance = 92308, maxCount = 98},
+	{id = 9970, chance = 20000},
+	{id = 27048, chance = 20000},
+	{id = 37531, chance = 20000},
+	{id = 37530, chance = 20000},
+	{id = 2127, chance = 20000},
+	{id = 37468, chance = 20000},
+	{id = 8472, chance = 15385},
+	{id = 18397, chance = 7692},
+	{id = 2795, chance = 7692, maxCount = 2},
+	{id = "wooden trash", chance = 7692},
+	{id = "giant shimmering pearl", chance = 7692}
 }
 
 mType:register(monster)

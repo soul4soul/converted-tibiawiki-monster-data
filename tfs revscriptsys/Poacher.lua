@@ -20,7 +20,7 @@ monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 198
-monster.summonCost = 0
+monster.summonCost = 530
 
 monster.changeTarget = {
 	interval = 2000,
@@ -91,14 +91,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2544, chance = 47220, maxCount = 18},
-	{id = 2461, chance = 30675},
-	{id = 2649, chance = 27829},
-	{id = 2456, chance = 14962},
-	{id = 2690, chance = 11068, maxCount = 2},
-	{id = "torch", chance = 5077},
-	{id = 2545, chance = 2549, maxCount = 3},
-	{id = 2578, chance = 1017}
+	{id = 2544, chance = 47068, maxCount = 18},
+	{id = 2461, chance = 30720},
+	{id = 2649, chance = 27961},
+	{id = 2456, chance = 15017},
+	{id = 2690, chance = 11063, maxCount = 2},
+	{id = "torch", chance = 5170},
+	{id = 2545, chance = 2527, maxCount = 3},
+	{id = 2578, chance = 1042}
 }
 
 mType:register(monster)

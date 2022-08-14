@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Deathbine" nameDescription="" experience="340" speed="0" manacost="0">
+<monster name="Deathbine" nameDescription="Deathbine" race="blood" experience="340" speed="0" manacost="0">
 	<health now="525" max="525" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,31 +30,31 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="35" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-100" poison="97" />
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="11217" name="carniphila seeds" chance="100000" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
+		<item id="11217" name="carniphila seeds" chance="100000" countmax="5" />
 		<item id="2804" name="shadow herb" chance="100000" />
 		<item id="2149" name="small emerald" chance="100000" countmax="4" />
-		<item id="2792" name="dark mushroom" chance="80120" />
-		<item id="7732" name="seeds" chance="77711" />
-		<item id="7887" name="terra amulet" chance="56024" />
-		<item id="8912" name="springsprout rod" chance="54819" />
-		<item id="7886" name="terra boots" chance="46386" />
-		<item id="13307" name="sweet smelling bait" chance="4819" />
-		<item id="5015" name="mandrake" chance="3012" />
+		<item id="2792" name="dark mushroom" chance="79882" />
+		<item id="7732" name="seeds" chance="78107" />
+		<item id="7887" name="terra amulet" chance="55621" />
+		<item id="8912" name="springsprout rod" chance="54438" />
+		<item id="7886" name="terra boots" chance="46154" />
+		<item id="13307" name="sweet smelling bait" chance="4734" />
+		<item id="5015" name="mandrake" chance="2959" />
 	</loot>
 </monster>

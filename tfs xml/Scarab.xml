@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Scarab" nameDescription="a scarab" experience="120" speed="160" manacost="395">
+<monster name="Scarab" nameDescription="a scarab" race="blood" experience="120" speed="160" manacost="395">
 	<health now="320" max="320" />
 	<look type="83" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,32 +29,29 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="5" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-18" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-75" />
-	</attacks>
 	<defenses armor="21" defense="21">
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="87340" countmax="52" />
-		<item id="2666" name="meat" chance="39928" />
-		<item id="10558" name="piece of scarab shell" chance="5027" />
-		<item id="2159" name="scarab coin" chance="1113" />
-		<item id="2150" name="small amethyst" chance="510" />
-		<item id="2149" name="small emerald" chance="347" />
-		<item id="2439" name="daramian mace" chance="304" />
+		<item id="2148" name="gold coin" chance="87342" countmax="52" />
+		<item id="2666" name="meat" chance="39921" countmax="2" />
+		<item id="10558" name="piece of scarab shell" chance="5033" />
+		<item id="2159" name="scarab coin" chance="1111" />
+		<item id="2150" name="small amethyst" chance="508" />
+		<item id="2149" name="small emerald" chance="348" />
+		<item id="2439" name="daramian mace" chance="305" />
 	</loot>
 </monster>

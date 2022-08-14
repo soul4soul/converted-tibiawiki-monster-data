@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Lizard"
 monster.description = "a memory of a lizard"
-monster.experience = 0
+monster.experience = 1450
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3520
+monster.maxHealth = 3520
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,17 +86,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 97002, maxCount = 206},
-	{id = 7588, chance = 10582},
-	{id = 7591, chance = 6173},
-	{id = 37531, chance = 5467},
-	{id = 2152, chance = 5115, maxCount = 2},
-	{id = 11245, chance = 4233},
-	{id = 2149, chance = 2646, maxCount = 4},
-	{id = 37468, chance = 1058},
-	{id = 2528, chance = 705},
-	{id = 11304, chance = 529},
-	{id = 11303, chance = 353}
+	{id = 2148, chance = 92308, maxCount = 128},
+	{id = 2152, chance = 23077, maxCount = 2},
+	{id = 7591, chance = 23077},
+	{id = 11304, chance = 20000},
+	{id = 37468, chance = 20000},
+	{id = 2528, chance = 20000},
+	{id = 2149, chance = 20000},
+	{id = 11303, chance = 20000},
+	{id = 37531, chance = 20000},
+	{id = 7588, chance = 15385},
+	{id = 11245, chance = 7692}
 }
 
 mType:register(monster)

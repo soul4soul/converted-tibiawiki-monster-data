@@ -73,34 +73,40 @@ monster.elements = {
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 50},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 25}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -600}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 100, maxDamage = 750},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 17000}
+	armor = 10
 }
 
 monster.loot = {
-	{id = "giant shimmering pearl", chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 50},
-	{id = 4850, chance = 25000},
+	{id = 2148, chance = 100000, maxCount = 150},
 	{id = 2152, chance = 100000, maxCount = 20},
-	{id = 2498, chance = 25000},
+	{id = 9971, chance = 100000},
+	{id = "giant shimmering pearl", chance = 100000},
 	{id = 2197, chance = 75000},
-	{id = 7589, chance = 75000, maxCount = 3},
-	{id = 7588, chance = 25000, maxCount = 3},
-	{id = 2146, chance = 25000, maxCount = 5},
+	{id = 7588, chance = 50000, maxCount = 3},
+	{id = 7589, chance = 50000, maxCount = 3},
+	{id = 4850, chance = 50000},
+	{id = 2475, chance = 25000},
+	{id = 2498, chance = 25000},
 	{id = 21400, chance = 25000},
-	{id = 2475, chance = 25000}
+	{id = 2146, chance = 25000, maxCount = 5},
+	{id = 2536, chance = 20000},
+	{id = 2476, chance = 20000},
+	{id = 2396, chance = 20000},
+	{id = 10219, chance = 20000},
+	{id = 8902, chance = 20000},
+	{id = 21690, chance = 20000},
+	{id = 21691, chance = 20000},
+	{id = 2195, chance = 20000}
 }
 
 mType:register(monster)

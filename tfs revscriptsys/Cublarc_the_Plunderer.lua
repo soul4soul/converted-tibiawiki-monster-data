@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Cublarc the Plunderer")
 local monster = {}
 
 monster.name = "Cublarc The Plunderer"
-monster.description = ""
+monster.description = "Cublarc the Plunderer"
 monster.experience = 400
 monster.outfit = {
 	lookType = 0,
@@ -79,7 +79,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -88,15 +87,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 54135, maxCount = 85},
-	{id = 2666, chance = 24812},
-	{id = 2428, chance = 18045},
-	{id = 11324, chance = 12782},
-	{id = 2456, chance = 4511},
-	{id = 11338, chance = 4511},
-	{id = 11113, chance = 2256},
-	{id = 8857, chance = 2256},
-	{id = 2455, chance = 1504}
+	{id = 2148, chance = 53957, maxCount = 85},
+	{id = 2666, chance = 25899},
+	{id = 12435, chance = 20000},
+	{id = 11324, chance = 13669},
+	{id = 11338, chance = 5036},
+	{id = 2456, chance = 4317},
+	{id = 11113, chance = 2158},
+	{id = 8857, chance = 2158},
+	{id = 2455, chance = 1439},
+	{id = 2428, chance = 719}
 }
 
 mType:register(monster)

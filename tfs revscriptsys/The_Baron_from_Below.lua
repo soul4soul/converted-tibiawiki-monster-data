@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Baron from Below")
 local monster = {}
 
 monster.name = "The Baron From Below"
-monster.description = ""
+monster.description = "The Baron From Below"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -2000}
 }
 
 monster.defenses = {
@@ -87,6 +86,50 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = 2152, chance = 91667, maxCount = 71},
+	{id = "heavy crystal fragment", chance = 91667},
+	{id = 7440, chance = 91667, maxCount = 3},
+	{id = 2197, chance = 91667},
+	{id = 18414, chance = 75000, maxCount = 7},
+	{id = 8472, chance = 66667, maxCount = 18},
+	{id = 2392, chance = 66667},
+	{id = 7590, chance = 58333, maxCount = 15},
+	{id = 2187, chance = 58333},
+	{id = 8473, chance = 50000, maxCount = 13},
+	{id = 2155, chance = 50000},
+	{id = 5904, chance = 50000},
+	{id = 2150, chance = 33333, maxCount = 16},
+	{id = 2445, chance = 25000},
+	{id = 30280, chance = 25000},
+	{id = 30261, chance = 20000},
+	{id = 2158, chance = 20000},
+	{id = 30180, chance = 20000},
+	{id = 30311, chance = 20000},
+	{id = 30304, chance = 20000},
+	{id = 30277, chance = 20000},
+	{id = 8901, chance = 20000},
+	{id = 30279, chance = 20000},
+	{id = 30307, chance = 20000},
+	{id = 15489, chance = 20000},
+	{id = 7899, chance = 20000},
+	{id = 12410, chance = 20000},
+	{id = 9971, chance = 20000},
+	{id = 30306, chance = 16667},
+	{id = 9970, chance = 16667, maxCount = 6},
+	{id = 2156, chance = 16667},
+	{id = 2154, chance = 16667},
+	{id = 5892, chance = 16667, maxCount = 3},
+	{id = 2147, chance = 16667, maxCount = 18},
+	{id = 2145, chance = 16667, maxCount = 18},
+	{id = 30278, chance = 16667},
+	{id = 9816, chance = 16667},
+	{id = 24742, chance = 16667},
+	{id = 25172, chance = 8333},
+	{id = 25377, chance = 8333},
+	{id = 9822, chance = 8333},
+	{id = 2149, chance = 8333, maxCount = 12},
+	{id = 2153, chance = 8333},
+	{id = 2160, chance = 8333}
 }
 
 mType:register(monster)

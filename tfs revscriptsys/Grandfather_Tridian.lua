@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Grandfather Tridian")
 local monster = {}
 
 monster.name = "Grandfather Tridian"
-monster.description = ""
+monster.description = "Grandfather Tridian"
 monster.experience = 1400
 monster.outfit = {
 	lookType = 0,
@@ -67,7 +67,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 35},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -80,7 +80,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100}
 }
 
 monster.defenses = {
@@ -88,10 +87,27 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 4
+monster.summons = {
+	{name = "Crypt Shambler", chance = 15, interval = 2000, max = 2},
+	{name = "Ghost", chance = 15, interval = 2000, max = 2}
+}
+
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 64},
+	{id = 2148, chance = 100000, maxCount = 80},
+	{id = 2114, chance = 100000},
 	{id = "music sheet", chance = 100000, maxCount = 2},
-	{id = 2114, chance = 100000}
+	{id = 7589, chance = 20000},
+	{id = 2789, chance = 20000},
+	{id = 2187, chance = 20000},
+	{id = 2436, chance = 20000},
+	{id = 3955, chance = 20000},
+	{id = 7426, chance = 20000},
+	{id = 6087, chance = 20000},
+	{id = 6088, chance = 20000},
+	{id = 6089, chance = 20000},
+	{id = 6090, chance = 20000},
+	{id = 8922, chance = 7500}
 }
 
 mType:register(monster)

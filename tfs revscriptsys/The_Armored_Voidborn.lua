@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Armored Voidborn")
 local monster = {}
 
 monster.name = "The Armored Voidborn"
-monster.description = ""
+monster.description = "The Armored Voidborn"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -65,20 +65,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 97},
+	{type = COMBAT_ENERGYDAMAGE, percent = 97},
+	{type = COMBAT_EARTHDAMAGE, percent = 97},
+	{type = COMBAT_FIREDAMAGE, percent = 97},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DROWNDAMAGE, percent = -1400},
+	{type = COMBAT_ICEDAMAGE, percent = 97},
+	{type = COMBAT_HOLYDAMAGE , percent = 97},
+	{type = COMBAT_DEATHDAMAGE , percent = 97}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1300}
 }
 
 monster.defenses = {

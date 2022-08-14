@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Cyclops" nameDescription="a cyclops" experience="150" speed="190" manacost="490">
+<monster name="Cyclops" nameDescription="a cyclops" race="blood" experience="150" speed="190" manacost="490">
 	<health now="260" max="260" />
 	<look type="22" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="25" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="20" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-105" />
@@ -52,19 +52,19 @@
 		<voice sentence="Il lorstok human!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82257" countmax="47" />
-		<item id="2666" name="meat" chance="29071" />
-		<item id="2406" name="short sword" chance="7755" />
-		<item id="10574" name="cyclops toe" chance="5240" />
-		<item id="2510" name="plate shield" chance="2471" />
-		<item id="26642" name="heavy old tome" chance="2054" />
-		<item id="2513" name="battle shield" chance="1474" />
-		<item id="2381" name="halberd" chance="893" />
-		<item id="27071" name="old rag" chance="327" />
-		<item id="2129" name="wolf tooth chain" chance="313" />
-		<item id="2490" name="dark helmet" chance="238" />
-		<item id="7618" name="health potion" chance="149" />
-		<item id="7398" name="cyclops trophy" chance="119" />
-		<item id="2209" name="club ring" chance="45" />
+		<item id="2148" name="gold coin" chance="82228" countmax="47" />
+		<item id="2666" name="meat" chance="29083" />
+		<item id="2406" name="short sword" chance="7915" />
+		<item id="10574" name="cyclops toe" chance="5325" />
+		<item id="2510" name="plate shield" chance="2461" />
+		<item id="26642" name="heavy old tome" chance="2087" />
+		<item id="2513" name="battle shield" chance="1468" />
+		<item id="2381" name="halberd" chance="907" />
+		<item id="2129" name="wolf tooth chain" chance="317" />
+		<item id="27071" name="old rag" chance="317" />
+		<item id="2490" name="dark helmet" chance="230" />
+		<item id="7618" name="health potion" chance="144" />
+		<item id="7398" name="cyclops trophy" chance="115" />
+		<item id="2209" name="club ring" chance="43" />
 	</loot>
 </monster>

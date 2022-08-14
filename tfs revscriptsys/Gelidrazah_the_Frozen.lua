@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Gelidrazah the Frozen")
 local monster = {}
 
 monster.name = "Gelidrazah The Frozen"
-monster.description = ""
+monster.description = "Gelidrazah the Frozen"
 monster.experience = 9000
 monster.outfit = {
 	lookType = 0,
@@ -67,46 +67,44 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -380}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 180, maxDamage = 240}
+	armor = 10
 }
 
 monster.loot = {
 	{id = 27593, chance = 100000},
 	{id = 27594, chance = 100000},
 	{id = 27595, chance = 100000},
-	{id = 2148, chance = 87243, maxCount = 138},
-	{id = 2672, chance = 81481},
-	{id = 2152, chance = 66667, maxCount = 3},
-	{id = 7290, chance = 30453},
-	{id = 7888, chance = 26337},
-	{id = 2146, chance = 11523},
-	{id = 7902, chance = 10700},
-	{id = 21696, chance = 9465},
-	{id = 21697, chance = 6173},
-	{id = 2167, chance = 5761},
-	{id = 7441, chance = 5350},
-	{id = 18412, chance = 3704},
-	{id = 2033, chance = 3292},
-	{id = 8887, chance = 1646},
-	{id = 7409, chance = 823},
-	{id = 2177, chance = 412}
+	{id = 2148, chance = 87449, maxCount = 138},
+	{id = 2672, chance = 81781},
+	{id = 2152, chance = 66802, maxCount = 3},
+	{id = 7290, chance = 30769},
+	{id = 7888, chance = 25911},
+	{id = 2146, chance = 12146},
+	{id = 7902, chance = 10931},
+	{id = 21696, chance = 9312},
+	{id = 21697, chance = 7287},
+	{id = 2167, chance = 5668},
+	{id = 7441, chance = 5263},
+	{id = 18412, chance = 3644},
+	{id = 2033, chance = 3644},
+	{id = 8887, chance = 1619},
+	{id = 7409, chance = 810},
+	{id = 2177, chance = 810}
 }
 
 mType:register(monster)

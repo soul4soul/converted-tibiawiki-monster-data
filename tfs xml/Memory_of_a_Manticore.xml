@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Manticore" nameDescription="a memory of a manticore" experience="1590" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Manticore" nameDescription="a memory of a manticore" race="blood" experience="1590" speed="0" manacost="0">
+	<health now="3730" max="3730" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -42,16 +42,16 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="85652" countmax="70" />
-		<item id="37531" name="candy floss (large)" chance="5000" />
-		<item id="2149" name="small emerald" chance="4457" />
-		<item id="18421" name="green crystal fragment" chance="4239" />
-		<item id="7840" name="flaming arrow" chance="3587" countmax="9" />
-		<item id="28393" name="rainbow quartz" chance="3370" countmax="3" />
-		<item id="27618" name="prismatic quartz" chance="2283" />
-		<item id="2153" name="violet gem" chance="2283" />
-		<item id="37530" name="bottle of champagne" chance="1413" />
-		<item id="37468" name="special fx box" chance="1304" />
-		<item id="28415" name="royal star" chance="761" countmax="3" />
+		<item id="2148" name="gold coin" chance="89286" countmax="67" />
+		<item id="37468" name="special fx box" chance="20000" />
+		<item id="37530" name="bottle of champagne" chance="20000" />
+		<item id="27618" name="prismatic quartz" chance="20000" />
+		<item id="28415" name="royal star" chance="20000" />
+		<item id="37531" name="candy floss (large)" chance="20000" />
+		<item id="28393" name="rainbow quartz" chance="5357" countmax="3" />
+		<item id="2149" name="small emerald" chance="5357" />
+		<item id="2153" name="violet gem" chance="1786" />
+		<item id="18421" name="green crystal fragment" chance="1786" />
+		<item id="7840" name="flaming arrow" chance="1786" countmax="6" />
 	</loot>
 </monster>

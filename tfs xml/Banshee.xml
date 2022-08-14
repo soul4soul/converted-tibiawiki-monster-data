@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Banshee" nameDescription="a banshee" experience="900" speed="220" manacost="0">
+<monster name="Banshee" nameDescription="a banshee" race="undead" experience="900" speed="220" manacost="0">
 	<health now="1000" max="1000" />
 	<look type="78" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,17 +31,26 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
+		<element drownPercent="100" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-100" poison="75" />
+		<attack name="lifedrain" interval="2000" chance="15" min="-100" max="-200" radius="4" target="0">
+			<attribute key="areaEffect" value="rednote" />
+		</attack>
+		<attack name="death" interval="2000" chance="15" min="-55" max="-350" range="1" radius="1" target="1">
+			<attribute key="areaEffect" value="smallclouds" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" range="7" radius="1" target="1">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
 	</attacks>
 	<defenses armor="25" defense="25">
 		<defense name="healing" interval="2000" chance="20" min="120" max="190" />
@@ -56,25 +65,25 @@
 		<voice sentence="IIIIEEEeeeeeehhhHHHH!" yell="false" />
 	</voices>
 	<loot>
-		<item name="candlestick" chance="72809" />
-		<item id="2148" name="gold coin" chance="30930" countmax="80" />
-		<item id="2170" name="silver amulet" chance="9407" />
+		<item name="candlestick" chance="72805" />
+		<item id="2148" name="gold coin" chance="30923" countmax="80" />
+		<item id="2170" name="silver amulet" chance="9404" />
 		<item id="2657" name="simple dress" chance="6312" />
-		<item id="12402" name="hair of a banshee" chance="4973" />
-		<item id="11337" name="petrified scream" chance="4288" />
-		<item id="2144" name="black pearl" chance="2168" />
+		<item id="12402" name="hair of a banshee" chance="4974" />
+		<item id="11337" name="petrified scream" chance="4285" />
+		<item id="2144" name="black pearl" chance="2167" />
 		<item id="2134" name="silver brooch" chance="1538" />
-		<item id="2411" name="poison dagger" chance="1513" />
-		<item id="2143" name="white pearl" chance="1129" />
-		<item id="2071" name="lyre" chance="972" />
+		<item id="2411" name="poison dagger" chance="1512" />
+		<item id="2143" name="white pearl" chance="1131" />
+		<item id="2071" name="lyre" chance="971" />
 		<item id="2197" name="stone skin amulet" chance="825" />
-		<item id="7589" name="strong mana potion" chance="769" />
-		<item id="2214" name="ring of healing" chance="748" />
+		<item id="7589" name="strong mana potion" chance="768" />
+		<item id="2214" name="ring of healing" chance="749" />
 		<item id="2656" name="blue robe" chance="664" />
-		<item id="2121" name="wedding ring" chance="558" />
-		<item id="2175" name="spellbook" chance="509" />
+		<item id="2121" name="wedding ring" chance="559" />
+		<item id="2175" name="spellbook" chance="510" />
 		<item id="7884" name="terra mantle" chance="337" />
-		<item id="2124" name="crystal ring" chance="190" />
+		<item id="2124" name="crystal ring" chance="196" />
 		<item id="2655" name="red robe" chance="103" />
 		<item id="2177" name="life crystal" chance="101" />
 		<item id="13307" name="sweet smelling bait" chance="29" />

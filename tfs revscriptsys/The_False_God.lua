@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The False God")
 local monster = {}
 
 monster.name = "The False God"
-monster.description = ""
+monster.description = "The False God"
 monster.experience = 50000
 monster.outfit = {
 	lookType = 0,
@@ -65,20 +65,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000}
 }
 
 monster.defenses = {
@@ -87,37 +86,43 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 200},
+	{id = 2148, chance = 100000, maxCount = 275},
+	{id = 5888, chance = 100000, maxCount = 9},
+	{id = 2152, chance = 100000, maxCount = 30},
 	{id = 5880, chance = 100000},
 	{id = 26165, chance = 100000},
+	{id = 26191, chance = 100000, maxCount = 9},
 	{id = 23567, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 35},
-	{id = 26191, chance = 96552, maxCount = 5},
-	{id = 7590, chance = 68966, maxCount = 10},
-	{id = 5888, chance = 68966, maxCount = 9},
-	{id = 8472, chance = 51724, maxCount = 10},
-	{id = 8473, chance = 41379, maxCount = 10},
-	{id = 5904, chance = 37931},
-	{id = 5911, chance = 37931, maxCount = 6},
-	{id = 25377, chance = 34483},
-	{id = 2156, chance = 27586},
-	{id = 2158, chance = 24138},
-	{id = 20108, chance = 24138},
-	{id = 2150, chance = 24138, maxCount = 10},
-	{id = 2145, chance = 24138, maxCount = 10},
-	{id = 2149, chance = 24138, maxCount = 10},
-	{id = 2154, chance = 24138},
-	{id = 5887, chance = 20690},
-	{id = 25172, chance = 20690},
-	{id = 8910, chance = 20690},
-	{id = 2155, chance = 13793},
-	{id = 5892, chance = 13793},
-	{id = 2146, chance = 13793, maxCount = 10},
-	{id = 9970, chance = 13793, maxCount = 10},
-	{id = "giant shimmering pearl", chance = 10345},
-	{id = 5889, chance = 10345, maxCount = 2},
-	{id = 2393, chance = 6897},
-	{id = 2454, chance = 3448}
+	{id = 2393, chance = 50000},
+	{id = 25377, chance = 50000},
+	{id = "giant shimmering pearl", chance = 50000},
+	{id = 8473, chance = 50000, maxCount = 7},
+	{id = 8472, chance = 50000, maxCount = 5},
+	{id = 7590, chance = 50000, maxCount = 9},
+	{id = 23546, chance = 50000},
+	{id = 5889, chance = 50000, maxCount = 2},
+	{id = 2150, chance = 50000, maxCount = 12},
+	{id = 5911, chance = 20000, maxCount = 9},
+	{id = 7383, chance = 20000},
+	{id = 2145, chance = 20000, maxCount = 10},
+	{id = 25172, chance = 20000},
+	{id = 20108, chance = 20000},
+	{id = 2454, chance = 20000},
+	{id = 5892, chance = 20000},
+	{id = 2153, chance = 20000},
+	{id = 8910, chance = 20000},
+	{id = 2155, chance = 20000},
+	{id = 2154, chance = 20000},
+	{id = 2149, chance = 20000, maxCount = 10},
+	{id = 5904, chance = 20000},
+	{id = 2146, chance = 20000, maxCount = 10},
+	{id = 9970, chance = 20000, maxCount = 10},
+	{id = 5887, chance = 20000},
+	{id = 2158, chance = 20000},
+	{id = 2156, chance = 20000},
+	{id = 25418, chance = 7500},
+	{id = 8868, chance = 7500},
+	{id = 28017, chance = 4000}
 }
 
 mType:register(monster)

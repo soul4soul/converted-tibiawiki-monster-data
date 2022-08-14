@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Twisted Pooka" nameDescription="a twisted pooka" experience="600" speed="230" manacost="0">
+<monster name="Twisted Pooka" nameDescription="a twisted pooka" race="blood" experience="600" speed="230" manacost="0">
 	<health now="700" max="700" />
 	<look type="978" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,23 +29,18 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="20" />
+		<element energyPercent="-10" />
+		<element earthPercent="40" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-20" />
+		<element deathPercent="30" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-180" />
-	</attacks>
-	<defenses armor="41" defense="41">
-		<defense name="healing" interval="2000" chance="20" min="40" max="60" />
-	</defenses>
+	<defenses armor="41" defense="41" />
 	<voices interval="5000" chance="10">
 		<voice sentence="*sniff sniff* Mhmmm ... mortal flesh." yell="false" />
 		<voice sentence="Hoppel-di-hopp!" yell="false" />
@@ -53,18 +48,18 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="125" />
-		<item id="2684" name="carrot" chance="20642" countmax="2" />
-		<item id="7588" name="strong health potion" chance="12430" />
-		<item id="28349" name="shimmering beetles" chance="9745" />
-		<item id="28350" name="fairy wings" chance="9205" />
-		<item id="2799" name="stone herb" chance="7322" />
-		<item id="1294" name="small stone" chance="4899" countmax="5" />
-		<item id="2687" name="cookie" chance="4341" countmax="5" />
-		<item id="7760" name="small enchanted ruby" chance="3469" countmax="2" />
-		<item id="2790" name="orange mushroom" chance="3295" />
-		<item id="27618" name="prismatic quartz" chance="2667" />
-		<item id="2165" name="stealth ring" chance="802" />
-		<item id="13298" name="carrot on a stick" chance="139" />
-		<item id="9941" name="crystal of focus" chance="70" />
+		<item id="2684" name="carrot" chance="20314" countmax="2" />
+		<item id="7588" name="strong health potion" chance="12485" />
+		<item id="28349" name="shimmering beetles" chance="9779" />
+		<item id="28350" name="fairy wings" chance="9386" />
+		<item id="2799" name="stone herb" chance="7316" />
+		<item id="1294" name="small stone" chance="4791" countmax="5" />
+		<item id="2687" name="cookie" chance="4353" countmax="5" />
+		<item id="7760" name="small enchanted ruby" chance="3340" countmax="2" />
+		<item id="2790" name="orange mushroom" chance="3189" />
+		<item id="27618" name="prismatic quartz" chance="2675" />
+		<item id="2165" name="stealth ring" chance="816" />
+		<item id="13298" name="carrot on a stick" chance="151" />
+		<item id="9941" name="crystal of focus" chance="60" />
 	</loot>
 </monster>

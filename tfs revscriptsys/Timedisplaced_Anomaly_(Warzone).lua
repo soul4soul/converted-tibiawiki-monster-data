@@ -85,6 +85,11 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Draken Warmaster", chance = 15, interval = 2000, max = 2}
+}
+
 monster.loot = {
 	{id = 37710, chance = 20000, maxCount = 3}
 }

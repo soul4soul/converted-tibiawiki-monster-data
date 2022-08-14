@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Frost Flower Asura" nameDescription="a frost flower asura" experience="4200" speed="220" manacost="0">
+<monster name="Frost Flower Asura" nameDescription="a frost flower asura" race="blood" experience="4200" speed="220" manacost="0">
 	<health now="3500" max="3500" />
 	<look type="150" head="0" body="0" legs="0" feet="86" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,48 +29,48 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-5" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="-10" />
+		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="30" />
+		<element deathPercent="20" />
 	</elements>
 	<defenses armor="56" defense="56" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="6" />
-		<item id="24630" name="golden lotus brooch" chance="20381" />
-		<item id="6558" name="flask of demonic blood" chance="19721" />
-		<item id="5944" name="soul orb" chance="18548" />
-		<item id="24631" name="peacock feather fan" chance="17815" />
-		<item id="6500" name="demonic essence" chance="16716" />
-		<item id="7591" name="great health potion" chance="12537" countmax="2" />
-		<item id="7368" name="assassin star" chance="10117" countmax="5" />
-		<item id="2145" name="small diamond" chance="8284" countmax="3" />
-		<item id="2146" name="small sapphire" chance="7918" countmax="3" />
-		<item id="2143" name="white pearl" chance="7111" countmax="2" />
-		<item id="2144" name="black pearl" chance="5425" countmax="2" />
-		<item id="2134" name="silver brooch" chance="4985" />
-		<item id="2147" name="small ruby" chance="4472" countmax="2" />
-		<item id="9970" name="small topaz" chance="4032" countmax="2" />
-		<item id="2149" name="small emerald" chance="3959" countmax="2" />
-		<item id="8911" name="northwind rod" chance="3079" />
-		<item id="3967" name="tribal mask" chance="3079" />
-		<item id="2154" name="yellow gem" chance="2053" />
-		<item id="2183" name="hailstorm rod" chance="1173" />
-		<item id="2170" name="silver amulet" chance="880" />
-		<item id="2656" name="blue robe" chance="806" />
-		<item id="7404" name="assassin dagger" chance="733" />
-		<item id="9971" name="gold ingot" chance="440" />
-		<item id="24637" name="oriental shoes" chance="367" />
-		<item id="2158" name="blue gem" chance="293" />
-		<item id="8889" name="skullcracker armor" chance="293" />
-		<item id="8902" name="spellbook of mind control" chance="293" />
-		<item id="2124" name="crystal ring" chance="73" />
+		<item id="6558" name="flask of demonic blood" chance="20159" />
+		<item id="24630" name="golden lotus brooch" chance="20045" />
+		<item id="5944" name="soul orb" chance="18743" />
+		<item id="24631" name="peacock feather fan" chance="17780" />
+		<item id="6500" name="demonic essence" chance="16138" />
+		<item id="7591" name="great health potion" chance="11835" countmax="2" />
+		<item id="7368" name="assassin star" chance="10193" countmax="5" />
+		<item id="2145" name="small diamond" chance="7984" countmax="3" />
+		<item id="2146" name="small sapphire" chance="7531" countmax="3" />
+		<item id="2143" name="white pearl" chance="7418" countmax="2" />
+		<item id="2134" name="silver brooch" chance="5663" />
+		<item id="2144" name="black pearl" chance="5493" countmax="2" />
+		<item id="2147" name="small ruby" chance="4360" countmax="2" />
+		<item id="9970" name="small topaz" chance="4247" countmax="2" />
+		<item id="2149" name="small emerald" chance="3794" countmax="2" />
+		<item id="3967" name="tribal mask" chance="3398" />
+		<item id="8911" name="northwind rod" chance="3058" />
+		<item id="2154" name="yellow gem" chance="1982" />
+		<item id="2183" name="hailstorm rod" chance="963" />
+		<item id="2170" name="silver amulet" chance="963" />
+		<item id="2656" name="blue robe" chance="680" />
+		<item id="7404" name="assassin dagger" chance="566" />
+		<item id="9971" name="gold ingot" chance="396" />
+		<item id="8902" name="spellbook of mind control" chance="396" />
+		<item id="24637" name="oriental shoes" chance="340" />
+		<item id="2158" name="blue gem" chance="283" />
+		<item id="8889" name="skullcracker armor" chance="283" />
+		<item id="2124" name="crystal ring" chance="170" />
 	</loot>
 </monster>

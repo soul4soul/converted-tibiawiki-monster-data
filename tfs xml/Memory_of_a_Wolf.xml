@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Wolf" nameDescription="a memory of a wolf" experience="1640" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Wolf" nameDescription="a memory of a wolf" race="blood" experience="1640" speed="0" manacost="0">
+	<health now="3640" max="3640" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -40,5 +40,14 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<defenses armor="10" defense="5" />
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-186" />
+		<attack name="physical" interval="2000" chance="15" min="-101" max="-250" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="suddendeath" />
+			<attribute key="areaEffect" value="blackspark" />
+		</attack>
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="364" max="910" />
+	</defenses>
 </monster>

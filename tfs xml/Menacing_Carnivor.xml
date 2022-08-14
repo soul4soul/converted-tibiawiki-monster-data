@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Menacing Carnivor" nameDescription="a menacing carnivor" experience="2112" speed="340" manacost="0">
+<monster name="Menacing Carnivor" nameDescription="a menacing carnivor" race="blood" experience="2112" speed="340" manacost="0">
 	<health now="3500" max="3500" />
 	<look type="1138" head="86" body="51" legs="83" feet="91" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,43 +29,40 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="50" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
-	</attacks>
 	<defenses armor="68" defense="68" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="65806" countmax="8" />
-		<item id="2394" name="morning star" chance="17419" />
-		<item id="26029" name="ultimate mana potion" chance="9770" />
-		<item id="32003" name="violet glass plate" chance="7097" />
-		<item id="2181" name="terra rod" chance="5253" />
-		<item id="7449" name="crystal sword" chance="4977" />
-		<item id="2147" name="small ruby" chance="4147" />
-		<item id="18421" name="green crystal fragment" chance="3318" />
-		<item id="24849" name="onyx chip" chance="2581" />
-		<item id="7885" name="terra legs" chance="2396" />
-		<item id="7760" name="small enchanted ruby" chance="2028" />
-		<item id="8922" name="wand of voodoo" chance="1751" />
-		<item id="2420" name="machete" chance="1659" />
-		<item id="2442" name="heavy machete" chance="1567" />
-		<item id="2477" name="knight legs" chance="1198" />
-		<item id="27617" name="tiger eye" chance="1014" />
-		<item id="8920" name="wand of starstorm" chance="1014" />
-		<item id="2459" name="iron helmet" chance="922" />
-		<item id="2191" name="wand of dragonbreath" chance="922" />
-		<item id="2409" name="serpent sword" chance="829" />
-		<item id="24850" name="opal" chance="645" />
-		<item id="2188" name="wand of decay" chance="553" />
+		<item id="2152" name="platinum coin" chance="64664" countmax="8" />
+		<item id="2394" name="morning star" chance="17167" />
+		<item id="26029" name="ultimate mana potion" chance="9943" />
+		<item id="32003" name="violet glass plate" chance="7153" />
+		<item id="7449" name="crystal sword" chance="4864" />
+		<item id="2181" name="terra rod" chance="4721" />
+		<item id="2147" name="small ruby" chance="4292" />
+		<item id="18421" name="green crystal fragment" chance="3290" />
+		<item id="24849" name="onyx chip" chance="3076" />
+		<item id="7760" name="small enchanted ruby" chance="2217" />
+		<item id="7885" name="terra legs" chance="2146" />
+		<item id="2477" name="knight legs" chance="1788" />
+		<item id="8922" name="wand of voodoo" chance="1717" />
+		<item id="2420" name="machete" chance="1645" />
+		<item id="2442" name="heavy machete" chance="1288" />
+		<item id="2191" name="wand of dragonbreath" chance="1144" />
+		<item id="8920" name="wand of starstorm" chance="1073" />
+		<item id="27617" name="tiger eye" chance="1001" />
+		<item id="2409" name="serpent sword" chance="787" />
+		<item id="2459" name="iron helmet" chance="787" />
+		<item id="24850" name="opal" chance="501" />
+		<item id="2188" name="wand of decay" chance="501" />
 	</loot>
 </monster>

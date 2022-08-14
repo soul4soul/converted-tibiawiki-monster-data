@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Undead Mine Worker" nameDescription="an undead mine worker" experience="45" speed="154" manacost="435">
+<monster name="Undead Mine Worker" nameDescription="an undead mine worker" race="undead" experience="45" speed="154" manacost="435">
 	<health now="65" max="65" />
 	<look type="33" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -37,12 +37,9 @@
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-20" />
-	</attacks>
 	<defenses armor="5" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Ahrrr... uhmmm... hmm..." yell="false" />
@@ -50,11 +47,11 @@
 		<voice sentence="Urrrgh... gnarrr..." yell="false" />
 	</voices>
 	<loot>
-		<item id="2230" name="bone" chance="50272" />
-		<item id="2148" name="gold coin" chance="44823" countmax="10" />
-		<item id="2398" name="mace" chance="20209" />
-		<item id="2787" name="white mushroom" chance="16848" countmax="3" />
-		<item id="2789" name="brown mushroom" chance="4905" />
-		<item id="2376" name="sword" chance="2044" />
+		<item id="2230" name="bone" chance="50156" />
+		<item id="2148" name="gold coin" chance="44766" countmax="10" />
+		<item id="2398" name="mace" chance="20312" />
+		<item id="2787" name="white mushroom" chance="16927" countmax="3" />
+		<item id="2789" name="brown mushroom" chance="4900" />
+		<item id="2376" name="sword" chance="2094" />
 	</loot>
 </monster>

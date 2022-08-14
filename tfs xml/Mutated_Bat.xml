@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Mutated Bat" nameDescription="a mutated bat" experience="615" speed="186" manacost="0">
+<monster name="Mutated Bat" nameDescription="a mutated bat" race="blood" experience="615" speed="186" manacost="0">
 	<health now="900" max="900" />
 	<look type="307" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,17 +31,17 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
+		<element drownPercent="100" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-169" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-169" poison="115" />
 	</attacks>
 	<defenses armor="19" defense="19">
 		<defense name="healing" interval="2000" chance="20" min="90" max="225" />
@@ -50,19 +50,19 @@
 		<voice sentence="Shriiiiiek" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="92609" countmax="130" />
-		<item id="9808" name="heavily rusted armor" chance="12638" />
-		<item id="2513" name="battle shield" chance="8536" />
-		<item id="2425" name="obsidian lance" chance="6475" />
-		<item id="10579" name="mutated bat ear" chance="5184" />
-		<item id="2800" name="star herb" chance="4851" />
-		<item id="5894" name="bat wing" chance="4789" countmax="2" />
-		<item id="2167" name="energy ring" chance="1020" />
-		<item id="2144" name="black pearl" chance="937" countmax="3" />
-		<item id="9809" name="rusted armor" chance="708" />
-		<item id="2150" name="small amethyst" chance="645" countmax="2" />
-		<item id="10016" name="batwing hat" chance="146" />
-		<item id="2529" name="black shield" chance="125" />
-		<item id="7386" name="mercenary sword" chance="104" />
+		<item id="2148" name="gold coin" chance="92537" countmax="130" />
+		<item id="9808" name="heavily rusted armor" chance="12684" />
+		<item id="2513" name="battle shield" chance="8469" />
+		<item id="2425" name="obsidian lance" chance="6535" />
+		<item id="10579" name="mutated bat ear" chance="5201" />
+		<item id="5894" name="bat wing" chance="4795" countmax="2" />
+		<item id="2800" name="star herb" chance="4718" />
+		<item id="2167" name="energy ring" chance="986" />
+		<item id="2144" name="black pearl" chance="889" countmax="3" />
+		<item id="9809" name="rusted armor" chance="715" />
+		<item id="2150" name="small amethyst" chance="619" countmax="2" />
+		<item id="10016" name="batwing hat" chance="155" />
+		<item id="2529" name="black shield" chance="116" />
+		<item id="7386" name="mercenary sword" chance="116" />
 	</loot>
 </monster>

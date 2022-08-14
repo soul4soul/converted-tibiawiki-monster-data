@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Fernfang" nameDescription="" experience="600" speed="0" manacost="0">
+<monster name="Fernfang" nameDescription="" race="blood" experience="600" speed="0" manacost="0">
 	<health now="400" max="400" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,12 +31,12 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="50" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="70" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -45,6 +45,7 @@
 	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="10" max="200" />
+		<defense name="outfit" interval="2000" chance="15" monster="War Wolf" duration="5000" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="You desacrated this place!" yell="false" />
@@ -53,27 +54,34 @@
 		<voice sentence="Grrrrrrr" yell="false" />
 	</voices>
 	<summons maxSummons="3">
-		<voice name="War Wolf" interval="2000" chance="15" max="1" />
+		<voice name="War Wolf" interval="2000" chance="15" max="3" />
 	</summons>
 	<loot>
-		<item id="10563" name="book of prayers" chance="100000" />
 		<item id="2148" name="gold coin" chance="100000" countmax="96" />
+		<item id="10563" name="book of prayers" chance="100000" />
 		<item id="2152" name="platinum coin" chance="97727" countmax="3" />
 		<item id="2800" name="star herb" chance="90909" />
 		<item id="12448" name="rope belt" chance="56818" />
 		<item id="2154" name="yellow gem" chance="45455" />
 		<item id="2166" name="power ring" chance="43182" />
 		<item id="12449" name="safety pin" chance="40909" />
+		<item id="2193" name="ankh" chance="20000" />
+		<item id="2220" name="dirty fur" chance="20000" />
+		<item id="2035" name="plate" chance="20000" />
+		<item id="2747" name="grave flower" chance="20000" />
+		<item id="1949" name="scroll" chance="20000" />
+		<item id="2032" name="bowl" chance="20000" />
+		<item id="2642" name="sandals" chance="20000" />
 		<item id="2260" name="blank rune" chance="18182" />
 		<item id="2689" name="bread" chance="13636" />
 		<item id="2652" name="green tunic" chance="13636" />
+		<item id="7589" name="strong mana potion" chance="11364" />
+		<item id="2401" name="staff" chance="11364" countmax="2" />
 		<item id="2015" name="brown flask" chance="11364" />
 		<item name="lamp" chance="11364" />
-		<item id="2401" name="staff" chance="11364" />
-		<item id="7589" name="strong mana potion" chance="11364" />
 		<item id="2129" name="wolf tooth chain" chance="9091" />
-		<item id="2802" name="sling herb" chance="6818" />
 		<item id="5786" name="wooden whistle" chance="6818" />
+		<item id="2802" name="sling herb" chance="6818" />
 		<item id="2177" name="life crystal" chance="2273" />
 	</loot>
 </monster>

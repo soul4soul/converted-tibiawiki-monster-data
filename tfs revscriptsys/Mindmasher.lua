@@ -83,27 +83,27 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 5, maxDamage = 20}
+	armor = 10
 }
 
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 233},
 	{id = 15486, chance = 100000, maxCount = 2},
 	{id = 16096, chance = 100000, maxCount = 3},
-	{id = 2148, chance = 100000, maxCount = 233},
-	{id = 2152, chance = 69231, maxCount = 4},
-	{id = 7590, chance = 57692, maxCount = 2},
-	{id = 7591, chance = 42308, maxCount = 2},
-	{id = 2149, chance = 42308, maxCount = 2},
-	{id = 3964, chance = 38462},
-	{id = 2146, chance = 34615, maxCount = 2},
-	{id = 2154, chance = 19231},
-	{id = 2213, chance = 15385},
-	{id = 11309, chance = 15385},
-	{id = 2438, chance = 7692},
-	{id = 2383, chance = 7692},
-	{id = 15491, chance = 3846},
-	{id = "giant shimmering pearl", chance = 3846}
+	{id = 2152, chance = 72414, maxCount = 4},
+	{id = 7590, chance = 58621, maxCount = 2},
+	{id = 2146, chance = 41379, maxCount = 2},
+	{id = 7591, chance = 41379, maxCount = 2},
+	{id = 2149, chance = 37931, maxCount = 2},
+	{id = 3964, chance = 34483},
+	{id = 15622, chance = 20000},
+	{id = 11309, chance = 17241},
+	{id = 2154, chance = 17241},
+	{id = 2213, chance = 17241},
+	{id = 2438, chance = 6897},
+	{id = 2383, chance = 6897},
+	{id = "giant shimmering pearl", chance = 3448},
+	{id = 15491, chance = 3448}
 }
 
 mType:register(monster)

@@ -20,7 +20,7 @@ monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 190
-monster.summonCost = 0
+monster.summonCost = 320
 
 monster.changeTarget = {
 	interval = 2000,
@@ -78,8 +78,8 @@ monster.elements = {
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = 20},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
@@ -93,16 +93,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 44653, maxCount = 30},
-	{id = 8839, chance = 20018, maxCount = 2},
-	{id = 2482, chance = 15052},
-	{id = 2643, chance = 11113},
-	{id = 2397, chance = 10920},
-	{id = 2484, chance = 9010},
-	{id = 2510, chance = 8960},
-	{id = 2544, chance = 7028, maxCount = 3},
-	{id = 10552, chance = 1982},
-	{id = 5921, chance = 1011}
+	{id = 2148, chance = 44677, maxCount = 30},
+	{id = 8839, chance = 20003, maxCount = 2},
+	{id = 2482, chance = 15053},
+	{id = 2643, chance = 11112},
+	{id = 2397, chance = 10930},
+	{id = 2484, chance = 8998},
+	{id = 2510, chance = 8945},
+	{id = 2544, chance = 7025, maxCount = 3},
+	{id = 10552, chance = 1978},
+	{id = 5921, chance = 1015}
 }
 
 mType:register(monster)

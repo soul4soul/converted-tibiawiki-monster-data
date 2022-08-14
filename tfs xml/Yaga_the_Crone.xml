@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Yaga_The_Crone" nameDescription="" experience="375" speed="0" manacost="0">
+<monster name="Yaga_The_Crone" nameDescription="" race="blood" experience="375" speed="0" manacost="0">
 	<health now="620" max="620" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,19 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element physicalPercent="-1" />
+		<element energyPercent="100" />
+		<element earthPercent="1" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-50" />
+		<attack name="outfit" interval="2000" chance="15" monster="Green Frog" duration="5000" />
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
@@ -51,15 +51,16 @@
 	</voices>
 	<loot>
 		<item id="2654" name="cape" chance="68000" />
-		<item id="2324" name="broom" chance="64000" />
 		<item id="2687" name="cookie" chance="64000" countmax="8" />
+		<item id="2324" name="broom" chance="64000" />
 		<item id="2148" name="gold coin" chance="32000" countmax="74" />
 		<item id="2129" name="wolf tooth chain" chance="24000" />
 		<item id="2800" name="star herb" chance="20000" />
+		<item id="13537" name="bag of apple slices" chance="20000" />
 		<item id="2651" name="coat" chance="8000" />
 		<item id="2199" name="garlic necklace" chance="8000" />
 		<item id="8902" name="spellbook of mind control" chance="8000" />
-		<item id="2185" name="necrotic rod" chance="4000" />
 		<item id="2402" name="silver dagger" chance="4000" />
+		<item id="2185" name="necrotic rod" chance="4000" />
 	</loot>
 </monster>

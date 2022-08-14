@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Goblin Scavenger" nameDescription="a goblin scavenger" experience="37" speed="132" manacost="0">
+<monster name="Goblin Scavenger" nameDescription="a goblin scavenger" race="blood" experience="37" speed="132" manacost="310">
 	<health now="60" max="60" />
 	<look type="297" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,24 +30,18 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="20" />
+		<element deathPercent="-10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-15" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-30" range="7">
-			<attribute key="shootEffect" value="spear" />
-		</attack>
-	</attacks>
 	<defenses armor="7" defense="7">
-		<defense name="healing" interval="2000" chance="20" min="10" max="16" />
+		<defense name="healing" interval="2000" chance="20" min="6" max="15" />
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
@@ -60,16 +54,16 @@
 		<voice sentence="Gimme gimme!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="50068" countmax="9" />
-		<item id="1294" name="small stone" chance="25005" countmax="2" />
-		<item id="2379" name="dagger" chance="18177" />
-		<item id="2667" name="fish" chance="13014" />
-		<item id="2230" name="bone" chance="12653" />
-		<item id="2461" name="leather helmet" chance="9819" />
-		<item id="2559" name="small axe" chance="9468" />
-		<item id="2406" name="short sword" chance="8981" />
-		<item id="2467" name="leather armor" chance="7715" />
-		<item id="2235" name="mouldy cheese" chance="7013" />
-		<item id="2449" name="bone club" chance="5056" />
+		<item id="2148" name="gold coin" chance="50097" countmax="9" />
+		<item id="1294" name="small stone" chance="24957" countmax="2" />
+		<item id="2379" name="dagger" chance="18174" />
+		<item id="2667" name="fish" chance="12995" />
+		<item id="2230" name="bone" chance="12676" />
+		<item id="2461" name="leather helmet" chance="9903" />
+		<item id="2559" name="small axe" chance="9430" />
+		<item id="2406" name="short sword" chance="8995" />
+		<item id="2467" name="leather armor" chance="7700" />
+		<item id="2235" name="mouldy cheese" chance="7014" />
+		<item id="2449" name="bone club" chance="5034" />
 	</loot>
 </monster>

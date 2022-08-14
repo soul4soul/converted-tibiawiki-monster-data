@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Vicious Squire" nameDescription="a vicious squire" experience="900" speed="260" manacost="0">
+<monster name="Vicious Squire" nameDescription="a vicious squire" race="blood" experience="900" speed="260" manacost="0">
 	<health now="1000" max="1000" />
 	<look type="131" head="97" body="24" legs="73" feet="116" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="40" />
+		<element earthPercent="50" />
+		<element firePercent="30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="50" />
+		<element deathPercent="-20" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-230" />
@@ -57,20 +57,20 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="70" />
-		<item id="2543" name="bolt" chance="20065" countmax="10" />
-		<item id="2455" name="crossbow" chance="12950" />
-		<item id="2666" name="meat" chance="10766" />
-		<item id="7591" name="great health potion" chance="5910" />
-		<item id="2150" name="small amethyst" chance="2545" />
-		<item id="2381" name="halberd" chance="2459" />
-		<item id="2145" name="small diamond" chance="2383" />
-		<item id="2149" name="small emerald" chance="2373" />
-		<item id="2391" name="war hammer" chance="755" />
-		<item id="2661" name="scarf" chance="632" />
-		<item id="2164" name="might ring" chance="426" />
-		<item id="2477" name="knight legs" chance="364" />
-		<item id="2515" name="guardian shield" chance="330" />
-		<item id="2475" name="warrior helmet" chance="213" />
-		<item id="2114" name="piggy bank" chance="52" />
+		<item id="2543" name="bolt" chance="20135" countmax="10" />
+		<item id="2455" name="crossbow" chance="12941" />
+		<item id="2666" name="meat" chance="10732" />
+		<item id="7591" name="great health potion" chance="5903" />
+		<item id="2150" name="small amethyst" chance="2556" />
+		<item id="2381" name="halberd" chance="2436" />
+		<item id="2149" name="small emerald" chance="2390" />
+		<item id="2145" name="small diamond" chance="2358" />
+		<item id="2391" name="war hammer" chance="746" />
+		<item id="2661" name="scarf" chance="613" />
+		<item id="2164" name="might ring" chance="428" />
+		<item id="2477" name="knight legs" chance="354" />
+		<item id="2515" name="guardian shield" chance="321" />
+		<item id="2475" name="warrior helmet" chance="204" />
+		<item id="2114" name="piggy bank" chance="49" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Mad Mage" nameDescription="a mad mage" experience="1800" speed="0" manacost="0">
+<monster name="Mad Mage" nameDescription="a mad mage" race="blood" experience="1800" speed="0" manacost="0">
 	<health now="2500" max="2500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,10 +29,10 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="-20" />
+		<element energyPercent="100" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -46,25 +46,29 @@
 		<voice sentence="Now I have to create new servants! Do you want to spread this pest beyond these safe walls?" yell="false" />
 		<voice sentence="What have you done!" yell="false" />
 	</voices>
+	<summons maxSummons="2">
+		<voice name="Golden Servant" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="99329" countmax="338" />
-		<item id="2152" name="platinum coin" chance="51342" countmax="5" />
-		<item id="7589" name="strong mana potion" chance="23826" countmax="5" />
-		<item id="7588" name="strong health potion" chance="20470" countmax="5" />
-		<item id="2165" name="stealth ring" chance="6040" />
-		<item id="7368" name="assassin star" chance="5369" countmax="5" />
-		<item id="2178" name="mind stone" chance="5034" />
-		<item id="2792" name="dark mushroom" chance="4698" countmax="3" />
-		<item id="5911" name="red piece of cloth" chance="4698" />
-		<item id="2150" name="small amethyst" chance="2685" countmax="3" />
-		<item id="13756" name="mage's cap" chance="1678" />
-		<item id="7443" name="bullseye potion" chance="1342" />
-		<item id="12410" name="luminous orb" chance="1342" />
-		<item id="2114" name="piggy bank" chance="1007" />
-		<item id="2195" name="boots of haste" chance="671" />
-		<item id="9941" name="crystal of focus" chance="671" />
-		<item id="7898" name="lightning robe" chance="336" />
-		<item id="2123" name="ring of the sky" chance="336" />
-		<item id="8901" name="spellbook of warding" chance="336" />
+		<item id="2148" name="gold coin" chance="100000" countmax="340" />
+		<item id="7588" name="strong health potion" chance="73333" countmax="9" />
+		<item id="2152" name="platinum coin" chance="60000" countmax="5" />
+		<item id="7589" name="strong mana potion" chance="26667" countmax="9" />
+		<item id="2165" name="stealth ring" chance="26667" />
+		<item id="12410" name="luminous orb" chance="20000" />
+		<item id="13756" name="mage's cap" chance="20000" />
+		<item id="2792" name="dark mushroom" chance="20000" countmax="3" />
+		<item id="7368" name="assassin star" chance="13333" countmax="5" />
+		<item id="5911" name="red piece of cloth" chance="13333" />
+		<item id="2150" name="small amethyst" chance="13333" countmax="3" />
+		<item id="2178" name="mind stone" chance="13333" />
+		<item id="9941" name="crystal of focus" chance="7500" />
+		<item id="8901" name="spellbook of warding" chance="7500" />
+		<item id="2114" name="piggy bank" chance="6667" />
+		<item id="2123" name="ring of the sky" chance="4000" />
+		<item id="2195" name="boots of haste" chance="4000" />
+		<item id="7898" name="lightning robe" chance="4000" />
+		<item id="5741" name="skull helmet" chance="4000" />
+		<item id="7443" name="bullseye potion" chance="2500" />
 	</loot>
 </monster>

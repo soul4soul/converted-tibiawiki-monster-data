@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Marziel")
 local monster = {}
 
 monster.name = "Marziel"
-monster.description = ""
+monster.description = "Marziel"
 monster.experience = 3000
 monster.outfit = {
 	lookType = 0,
@@ -71,16 +71,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 43},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = -5},
+	{type = COMBAT_HOLYDAMAGE , percent = -5},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
@@ -92,12 +92,18 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 190, maxDamage = 475}
 }
 
+monster.maxSummons = 3
+monster.summons = {
+	{name = "Vampire", chance = 15, interval = 2000, max = 3}
+}
+
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 80},
-	{id = 2152, chance = 23077, maxCount = 5},
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 2152, chance = 23077, maxCount = 7},
 	{id = 7588, chance = 15385},
 	{id = 2214, chance = 7692},
-	{id = 2534, chance = 7692}
+	{id = 2534, chance = 7692},
+	{id = 7419, chance = 4000}
 }
 
 mType:register(monster)

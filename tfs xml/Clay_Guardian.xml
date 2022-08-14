@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Clay Guardian" nameDescription="a clay guardian" experience="400" speed="230" manacost="0">
+<monster name="Clay Guardian" nameDescription="a clay guardian" race="undead" experience="400" speed="230" manacost="0">
 	<health now="625" max="625" />
 	<look type="333" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -29,30 +29,36 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element physicalPercent="25" />
+		<element energyPercent="30" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="35" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="40" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-120" />
+		<attack name="earth" interval="2000" chance="15" min="-30" max="-150" range="3" radius="1" target="1">
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+		<attack name="earth" interval="2000" chance="15" min="-20" max="-30" radius="3" target="0">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
 	</attacks>
 	<defenses armor="42" defense="42">
 		<defense name="healing" interval="2000" chance="20" min="40" max="130" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="97664" countmax="164" />
-		<item id="2260" name="blank rune" chance="25551" />
-		<item id="11222" name="lump of earth" chance="24959" />
-		<item id="1294" name="small stone" chance="10192" countmax="10" />
-		<item id="7850" name="earth arrow" chance="5196" countmax="8" />
-		<item id="11339" name="clay lump" chance="972" />
-		<item id="9970" name="small topaz" chance="429" />
+		<item id="2148" name="gold coin" chance="97670" countmax="164" />
+		<item id="2260" name="blank rune" chance="25492" />
+		<item id="11222" name="lump of earth" chance="24861" />
+		<item id="1294" name="small stone" chance="10193" countmax="10" />
+		<item id="7850" name="earth arrow" chance="5124" countmax="8" />
+		<item id="11339" name="clay lump" chance="993" />
+		<item id="9970" name="small topaz" chance="418" />
 	</loot>
 </monster>

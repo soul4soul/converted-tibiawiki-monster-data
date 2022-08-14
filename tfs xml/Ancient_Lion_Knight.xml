@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ancient Lion Knight" nameDescription="an ancient lion knight" experience="8100" speed="0" manacost="0">
+<monster name="Ancient Lion Knight" nameDescription="an ancient lion knight" race="blood" experience="8100" speed="0" manacost="0">
 	<health now="9100" max="9100" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,33 +32,45 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-30" />
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="2671" name="ham" chance="55418" />
-		<item id="2220" name="dirty fur" chance="54180" />
-		<item id="2237" name="dirty cape" chance="34365" />
-		<item id="2229" name="skull (item)" chance="30960" />
-		<item id="12409" name="broken helmet" chance="29102" />
-		<item id="2403" name="knife" chance="26625" />
-		<item id="27038" name="bug meat" chance="17957" />
-		<item id="2489" name="dark armor" chance="16409" />
-		<item id="2463" name="plate armor" chance="8050" />
-		<item id="20093" name="life preserver" chance="5573" />
-		<item id="2526" name="studded shield" chance="5263" />
-		<item id="2404" name="combat knife" chance="4954" />
-		<item id="2654" name="cape" chance="4644" />
-		<item id="2231" name="big bone" chance="4025" />
-		<item id="2525" name="dwarven shield" chance="3715" />
-		<item id="2521" name="dark shield" chance="3096" />
-		<item id="2226" name="fishbone" chance="1858" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="9" />
+		<item id="2671" name="ham" chance="56357" countmax="3" />
+		<item id="2220" name="dirty fur" chance="49485" />
+		<item id="2229" name="skull (item)" chance="31615" />
+		<item id="2237" name="dirty cape" chance="31271" />
+		<item id="12409" name="broken helmet" chance="27835" />
+		<item id="2403" name="knife" chance="25086" />
+		<item id="36808" name="lion wand" chance="20000" />
+		<item id="36809" name="lion spellbook" chance="20000" />
+		<item id="36806" name="lion longbow" chance="20000" />
+		<item id="36909" name="lion axe" chance="20000" />
+		<item id="36910" name="lion hammer" chance="20000" />
+		<item id="36811" name="lion longsword" chance="20000" />
+		<item id="36813" name="lion plate" chance="20000" />
+		<item id="36812" name="lion spangenhelm" chance="20000" />
+		<item id="36814" name="lion amulet" chance="20000" />
+		<item id="36807" name="lion rod" chance="20000" />
+		<item id="2245" name="twigs" chance="20000" />
+		<item id="2489" name="dark armor" chance="17869" />
+		<item id="27038" name="bug meat" chance="17526" />
+		<item id="2404" name="combat knife" chance="8591" />
+		<item id="2521" name="dark shield" chance="6529" />
+		<item id="2463" name="plate armor" chance="5842" />
+		<item id="20093" name="life preserver" chance="4811" />
+		<item id="2526" name="studded shield" chance="4811" />
+		<item id="2231" name="big bone" chance="4811" />
+		<item id="2654" name="cape" chance="4467" />
+		<item id="2525" name="dwarven shield" chance="4467" />
+		<item id="2226" name="fishbone" chance="2749" />
+		<item id="36810" name="lion shield" chance="344" />
 	</loot>
 </monster>

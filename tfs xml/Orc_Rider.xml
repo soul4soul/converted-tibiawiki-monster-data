@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Orc Rider" nameDescription="an orc rider" experience="110" speed="260" manacost="0">
+<monster name="Orc Rider" nameDescription="an orc rider" race="blood" experience="110" speed="260" manacost="490">
 	<health now="180" max="180" />
 	<look type="4" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-130" />
@@ -53,16 +53,16 @@
 		<voice sentence="Grrrrrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="48219" countmax="81" />
-		<item id="2666" name="meat" chance="24137" />
-		<item id="2129" name="wolf tooth chain" chance="10198" />
-		<item id="12435" name="orc leather" chance="10056" />
-		<item id="11235" name="warwolf fur" chance="9716" />
-		<item id="2428" name="orcish axe" chance="7019" countmax="2" />
-		<item id="11113" name="orc tooth" chance="2127" />
-		<item name="torch" chance="1027" />
-		<item id="2513" name="battle shield" chance="1008" />
-		<item id="2425" name="obsidian lance" chance="1002" />
-		<item id="2483" name="scale armor" chance="618" />
+		<item id="2148" name="gold coin" chance="48305" countmax="81" />
+		<item id="2666" name="meat" chance="24138" countmax="3" />
+		<item id="2129" name="wolf tooth chain" chance="10143" />
+		<item id="12435" name="orc leather" chance="10066" />
+		<item id="11235" name="warwolf fur" chance="9752" />
+		<item id="2428" name="orcish axe" chance="6989" countmax="2" />
+		<item id="11113" name="orc tooth" chance="2107" />
+		<item name="torch" chance="1053" />
+		<item id="2513" name="battle shield" chance="1024" />
+		<item id="2425" name="obsidian lance" chance="1024" />
+		<item id="2483" name="scale armor" chance="610" />
 	</loot>
 </monster>

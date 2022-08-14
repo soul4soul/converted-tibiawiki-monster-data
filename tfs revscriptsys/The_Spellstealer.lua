@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Spellstealer")
 local monster = {}
 
 monster.name = "The Spellstealer"
-monster.description = ""
+monster.description = "The Spellstealer"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

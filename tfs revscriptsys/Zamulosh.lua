@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Zamulosh")
 local monster = {}
 
 monster.name = "Zamulosh"
-monster.description = ""
+monster.description = "Zamulosh"
 monster.experience = 50000
 monster.outfit = {
 	lookType = 0,
@@ -67,13 +67,13 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = -1},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = -1},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -86,24 +86,36 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 18417, chance = 100000, maxCount = 6},
-	{id = 2148, chance = 100000, maxCount = 101},
-	{id = 2152, chance = 100000, maxCount = 35},
+	{id = 2148, chance = 100000, maxCount = 179},
 	{id = 25172, chance = 100000},
-	{id = 2165, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 28},
 	{id = 2169, chance = 100000},
-	{id = 6500, chance = 80000},
-	{id = 8472, chance = 80000, maxCount = 10},
-	{id = 18416, chance = 80000, maxCount = 6},
-	{id = 18418, chance = 60000, maxCount = 6},
-	{id = 6558, chance = 40000, maxCount = 5},
-	{id = 7590, chance = 40000, maxCount = 5},
-	{id = 2154, chance = 40000},
+	{id = 2165, chance = 100000},
+	{id = 18418, chance = 100000, maxCount = 10},
+	{id = 8473, chance = 66667, maxCount = 13},
+	{id = 18417, chance = 66667, maxCount = 6},
+	{id = 6500, chance = 66667},
+	{id = 8472, chance = 66667, maxCount = 15},
+	{id = "giant shimmering pearl", chance = 50000},
+	{id = 2149, chance = 50000, maxCount = 4},
+	{id = 18416, chance = 50000, maxCount = 11},
+	{id = 6558, chance = 33333, maxCount = 6},
+	{id = 9970, chance = 20000},
+	{id = 25418, chance = 20000},
+	{id = 25382, chance = 20000},
+	{id = 2154, chance = 20000},
 	{id = 2156, chance = 20000},
-	{id = 2150, chance = 20000, maxCount = 5},
-	{id = 2146, chance = 20000, maxCount = 5},
-	{id = 9970, chance = 20000, maxCount = 5},
-	{id = 8473, chance = 20000, maxCount = 10}
+	{id = 8878, chance = 20000},
+	{id = 2147, chance = 20000, maxCount = 5},
+	{id = 2155, chance = 16667},
+	{id = 25411, chance = 16667},
+	{id = 2146, chance = 16667, maxCount = 3},
+	{id = 2150, chance = 16667, maxCount = 9},
+	{id = 2158, chance = 16667},
+	{id = 7590, chance = 16667, maxCount = 6},
+	{id = 2214, chance = 16667},
+	{id = 8902, chance = 16667},
+	{id = 25523, chance = 16667}
 }
 
 mType:register(monster)

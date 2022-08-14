@@ -5,11 +5,11 @@ monster.name = "Druid's Apparition"
 monster.description = "a druid's apparition"
 monster.experience = 18870
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 148,
+	lookHead = 114,
+	lookBody = 48,
+	lookLegs = 114,
+	lookFeet = 95,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = true,
 	canWalkOnFire = true,
@@ -67,16 +67,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -20},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 30},
+	{type = COMBAT_HOLYDAMAGE , percent = 40},
+	{type = COMBAT_DEATHDAMAGE , percent = -20}
 }
 
 monster.attacks = {
@@ -88,19 +88,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 80476},
-	{id = 2181, chance = 21252},
-	{id = 7590, chance = 14339, maxCount = 3},
-	{id = 2155, chance = 9528},
-	{id = 2158, chance = 9248},
-	{id = 2197, chance = 4904},
-	{id = 10219, chance = 4250},
-	{id = 7888, chance = 4017},
-	{id = 8910, chance = 2616},
-	{id = 8912, chance = 2522},
-	{id = 26200, chance = 1822},
-	{id = 2171, chance = 1355},
-	{id = 7897, chance = 1028}
+	{id = 2160, chance = 58516},
+	{id = 2181, chance = 15847},
+	{id = 7590, chance = 11677, maxCount = 3},
+	{id = 2158, chance = 7024},
+	{id = 2155, chance = 6629},
+	{id = 2197, chance = 4609},
+	{id = 36765, chance = 4000},
+	{id = 10219, chance = 3380},
+	{id = 7890, chance = 2500},
+	{id = 7888, chance = 2371},
+	{id = 8910, chance = 1844},
+	{id = 2171, chance = 1097},
+	{id = 8912, chance = 1054},
+	{id = 7897, chance = 834},
+	{id = 26200, chance = 746}
 }
 
 mType:register(monster)

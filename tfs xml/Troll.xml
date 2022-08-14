@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Troll" nameDescription="a troll" experience="20" speed="126" manacost="290">
+<monster name="Troll" nameDescription="a troll" race="blood" experience="20" speed="126" manacost="290">
 	<health now="50" max="50" />
 	<look type="15" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-15" />
@@ -52,17 +52,18 @@
 		<voice sentence="Gruntz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="65503" countmax="12" />
-		<item id="2380" name="hand axe" chance="19634" />
-		<item id="2666" name="meat" chance="15474" />
-		<item id="2389" name="spear" chance="12973" />
-		<item id="2461" name="leather helmet" chance="11955" />
-		<item id="2643" name="leather boots" chance="9889" />
-		<item id="2120" name="rope" chance="8144" />
-		<item id="2512" name="wooden shield" chance="5410" />
-		<item id="2448" name="studded club" chance="5352" />
-		<item id="26642" name="heavy old tome" chance="2269" />
-		<item id="10606" name="bunch of troll hair" chance="1251" />
-		<item id="27071" name="old rag" chance="29" />
+		<item id="2148" name="gold coin" chance="65567" countmax="12" />
+		<item id="2380" name="hand axe" chance="19656" />
+		<item id="2666" name="meat" chance="15304" />
+		<item id="2389" name="spear" chance="13150" />
+		<item id="2461" name="leather helmet" chance="11913" />
+		<item id="2643" name="leather boots" chance="9805" />
+		<item id="2120" name="rope" chance="8293" />
+		<item id="2512" name="wooden shield" chance="5361" />
+		<item id="2448" name="studded club" chance="5292" />
+		<item id="26642" name="heavy old tome" chance="2360" />
+		<item id="10606" name="bunch of troll hair" chance="1100" />
+		<item id="2170" name="silver amulet" chance="23" />
+		<item id="27071" name="old rag" chance="23" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Gravedigger" nameDescription="a gravedigger" experience="950" speed="240" manacost="0">
+<monster name="Gravedigger" nameDescription="a gravedigger" race="undead" experience="950" speed="240" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="558" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="0" />
@@ -30,25 +30,17 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="100" />
+		<element earthPercent="-5" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="-5" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-320" />
-	</attacks>
-	<defenses armor="58" defense="58">
-		<defense name="healing" interval="2000" chance="20" min="150" max="375" />
-		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
-			<attribute key="areaEffect" value="redshimmer" />
-		</defense>
-	</defenses>
+	<defenses armor="58" defense="58" />
 	<voices interval="5000" chance="10">
 		<voice sentence="High Five!" yell="false" />
 		<voice sentence="scrabble" yell="false" />
@@ -56,17 +48,17 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="149" />
-		<item id="2152" name="platinum coin" chance="23868" />
-		<item id="11233" name="unholy bone" chance="10213" />
-		<item id="12440" name="pile of grave earth" chance="7071" />
-		<item id="12449" name="safety pin" chance="6884" />
-		<item id="2268" name="sudden death rune" chance="5013" countmax="8" />
-		<item id="2187" name="wand of inferno" chance="4938" />
-		<item id="7588" name="strong health potion" chance="2694" countmax="2" />
-		<item id="7589" name="strong mana potion" chance="2694" countmax="2" />
-		<item id="2154" name="yellow gem" chance="935" />
-		<item id="6300" name="death ring" chance="561" />
-		<item id="5669" name="mysterious voodoo skull" chance="187" />
+		<item id="2152" name="platinum coin" chance="23864" />
+		<item id="11233" name="unholy bone" chance="10164" />
+		<item id="12440" name="pile of grave earth" chance="7111" />
+		<item id="12449" name="safety pin" chance="6962" />
+		<item id="2268" name="sudden death rune" chance="4989" countmax="8" />
+		<item id="2187" name="wand of inferno" chance="4952" />
+		<item id="7589" name="strong mana potion" chance="2718" countmax="2" />
+		<item id="7588" name="strong health potion" chance="2681" countmax="2" />
+		<item id="2154" name="yellow gem" chance="931" />
+		<item id="6300" name="death ring" chance="558" />
+		<item id="5669" name="mysterious voodoo skull" chance="186" />
 		<item id="2436" name="skull staff" chance="112" />
 	</loot>
 </monster>

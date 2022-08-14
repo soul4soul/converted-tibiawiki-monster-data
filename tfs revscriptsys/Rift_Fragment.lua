@@ -20,7 +20,7 @@ monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 0
-monster.summonCost = 0
+monster.summonCost = 50
 
 monster.changeTarget = {
 	interval = 2000,

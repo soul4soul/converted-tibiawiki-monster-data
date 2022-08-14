@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Elephant" nameDescription="an elephant" experience="160" speed="190" manacost="500">
+<monster name="Elephant" nameDescription="an elephant" race="blood" experience="160" speed="190" manacost="500">
 	<health now="320" max="320" />
 	<look type="211" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="25" />
+		<element energyPercent="-10" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -50,9 +50,9 @@
 		<voice sentence="Trooooot!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="40523" />
-		<item id="2671" name="ham" chance="29326" />
-		<item id="3956" name="tusk" chance="1093" countmax="2" />
-		<item id="3973" name="tusk shield" chance="151" />
+		<item id="2666" name="meat" chance="40564" countmax="4" />
+		<item id="2671" name="ham" chance="29321" countmax="3" />
+		<item id="3956" name="tusk" chance="1111" countmax="2" />
+		<item id="3973" name="tusk shield" chance="159" />
 	</loot>
 </monster>

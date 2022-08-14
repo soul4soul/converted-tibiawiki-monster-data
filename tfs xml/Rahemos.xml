@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Rahemos" nameDescription="" experience="3100" speed="0" manacost="0">
+<monster name="Rahemos" nameDescription="" race="blood" experience="3100" speed="0" manacost="0">
 	<health now="3700" max="3700" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,21 +29,23 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-40" />
+		<element energyPercent="95" />
+		<element earthPercent="100" />
+		<element firePercent="95" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="-1" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-800" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-800" poison="54" />
+		<attack name="outfit" interval="2000" chance="15" monster="Pig" duration="5000" />
 	</attacks>
 	<defenses armor="40" defense="40">
+		<defense name="outfit" interval="2000" chance="15" monster="Demon" duration="5000" />
 		<defense name="healing" interval="2000" chance="20" min="370" max="925" />
 	</defenses>
 	<voices interval="5000" chance="10">
@@ -54,6 +56,9 @@
 		<voice sentence="I will make you believe in magic." yell="false" />
 		<voice sentence="Nothing hidden in my wrappings." yell="false" />
 	</voices>
+	<summons maxSummons="1">
+		<voice name="Demon" interval="2000" chance="15" max="1" />
+	</summons>
 	<loot>
 		<item id="2348" name="ancient rune" chance="100000" />
 		<item id="2148" name="gold coin" chance="89815" countmax="242" />
@@ -64,7 +69,7 @@
 		<item id="2153" name="violet gem" chance="1175" />
 		<item id="2176" name="orb" chance="280" />
 		<item id="2447" name="twin axe" chance="168" />
-		<item id="2184" name="crystal wand" chance="112" />
 		<item id="11207" name="mini mummy" chance="112" />
+		<item id="2184" name="crystal wand" chance="112" />
 	</loot>
 </monster>

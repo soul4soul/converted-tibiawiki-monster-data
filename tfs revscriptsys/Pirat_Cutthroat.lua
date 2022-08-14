@@ -5,12 +5,12 @@ monster.name = "Pirat Cutthroat"
 monster.description = "a pirat cutthroat"
 monster.experience = 1800
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1346,
+	lookHead = 2,
+	lookBody = 96,
+	lookLegs = 78,
+	lookFeet = 96,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -65,9 +65,9 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = -20},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -78,7 +78,8 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -100, maxDamage = -140, effect = CONST_ME_GROUNDSHAKER},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -120, maxDamage = -160, radius = 3, target = , effect = CONST_ME_DRAWBLOOD}
 }
 
 monster.defenses = {
@@ -87,16 +88,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 7591, chance = 19977, maxCount = 4},
-	{id = 2396, chance = 13193},
-	{id = 7449, chance = 8450},
-	{id = 38228, chance = 7016, maxCount = 10},
-	{id = 2430, chance = 4883},
-	{id = 2416, chance = 4848},
-	{id = 38229, chance = 4767},
-	{id = 38230, chance = 4161},
-	{id = 2476, chance = 2855},
-	{id = 8871, chance = 2028}
+	{id = 7591, chance = 20299, maxCount = 4},
+	{id = 2396, chance = 12928},
+	{id = 7449, chance = 8352},
+	{id = 38228, chance = 6907, maxCount = 10},
+	{id = 2430, chance = 4886},
+	{id = 38229, chance = 4808},
+	{id = 2416, chance = 4800},
+	{id = 38230, chance = 3982},
+	{id = 2476, chance = 2967},
+	{id = 8871, chance = 2021}
 }
 
 mType:register(monster)

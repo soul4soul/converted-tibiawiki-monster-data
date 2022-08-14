@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Silver Rabbit" nameDescription="a silver rabbit" experience="0" speed="184" manacost="220">
+<monster name="Silver Rabbit" nameDescription="a silver rabbit" race="blood" experience="0" speed="184" manacost="220">
 	<health now="15" max="15" />
 	<look type="262" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -46,8 +46,8 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2666" name="meat" chance="85949" />
-		<item id="11209" name="silky fur" chance="30051" />
-		<item id="2684" name="carrot" chance="10076" />
+		<item id="2666" name="meat" chance="85980" countmax="2" />
+		<item id="11209" name="silky fur" chance="29715" />
+		<item id="2684" name="carrot" chance="9913" />
 	</loot>
 </monster>

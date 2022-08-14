@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Devovorga")
 local monster = {}
 
 monster.name = "Devovorga"
-monster.description = ""
+monster.description = "Devovorga"
 monster.experience = 65000
 monster.outfit = {
 	lookType = 0,
@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 6,
+	color = 113
 }
 
 monster.voices = {
@@ -87,13 +87,11 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -3000}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 5000, maxDamage = 23000}
+	armor = 10
 }
 
 monster.loot = {

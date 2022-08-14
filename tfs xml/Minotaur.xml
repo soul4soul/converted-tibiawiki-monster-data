@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Minotaur" nameDescription="a minotaur" experience="50" speed="168" manacost="330">
+<monster name="Minotaur" nameDescription="a minotaur" race="blood" experience="50" speed="168" manacost="330">
 	<health now="100" max="100" />
 	<look type="25" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,13 +32,13 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-45" />
@@ -49,14 +49,14 @@
 		<voice sentence="Hurr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="66302" countmax="25" />
-		<item id="2510" name="plate shield" chance="20040" />
-		<item id="2398" name="mace" chance="13078" />
-		<item id="2464" name="chain armor" chance="10051" />
+		<item id="2148" name="gold coin" chance="66301" countmax="25" />
+		<item id="2510" name="plate shield" chance="20038" />
+		<item id="2398" name="mace" chance="13077" />
+		<item id="2464" name="chain armor" chance="10057" />
 		<item id="2460" name="brass helmet" chance="7992" />
-		<item id="2376" name="sword" chance="4966" />
+		<item id="2376" name="sword" chance="4968" />
 		<item id="2666" name="meat" chance="4958" />
-		<item id="2386" name="axe" chance="3975" />
+		<item id="2386" name="axe" chance="3972" />
 		<item id="12428" name="minotaur horn" chance="2026" countmax="2" />
 		<item id="5878" name="minotaur leather" chance="1005" />
 		<item id="2554" name="shovel" chance="307" />

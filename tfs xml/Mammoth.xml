@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Mammoth" nameDescription="a mammoth" experience="160" speed="190" manacost="0">
+<monster name="Mammoth" nameDescription="a mammoth" race="blood" experience="160" speed="190" manacost="500">
 	<health now="320" max="320" />
 	<look type="199" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="10" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="20" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -50,13 +50,13 @@
 		<voice sentence="Tooooot." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="89854" countmax="40" />
-		<item id="2666" name="meat" chance="40278" />
-		<item id="2671" name="ham" chance="29909" />
-		<item id="11224" name="thick fur" chance="7700" />
-		<item id="11238" name="mammoth tusk" chance="7476" countmax="2" />
-		<item id="7381" name="mammoth whopper" chance="2519" />
-		<item id="7432" name="furry club" chance="525" />
-		<item id="3973" name="tusk shield" chance="497" />
+		<item id="2148" name="gold coin" chance="89853" countmax="40" />
+		<item id="2666" name="meat" chance="40270" />
+		<item id="2671" name="ham" chance="29837" countmax="3" />
+		<item id="11224" name="thick fur" chance="7660" />
+		<item id="11238" name="mammoth tusk" chance="7459" countmax="2" />
+		<item id="7381" name="mammoth whopper" chance="2450" />
+		<item id="7432" name="furry club" chance="520" />
+		<item id="3973" name="tusk shield" chance="494" />
 	</loot>
 </monster>

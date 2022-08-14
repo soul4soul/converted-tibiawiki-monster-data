@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Fury" nameDescription="a fury" experience="3600" speed="400" manacost="0">
+<monster name="Fury" nameDescription="a fury" race="blood" experience="3600" speed="400" manacost="0">
 	<health now="4100" max="4100" />
 	<look type="149" head="94" body="77" legs="78" feet="79" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,26 +29,34 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-10" />
+		<element energyPercent="-10" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="30" />
+		<element holyPercent="30" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-509" />
+		<attack name="death" interval="2000" chance="15" min="0" max="-250" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="throwingstar" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="throwingstar" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
 		<attack name="lifedrain" interval="2000" chance="15" min="0" max="-300" radius="3" target="0">
 			<attribute key="areaEffect" value="blackspark" />
 		</attack>
 		<attack name="fire" interval="2000" chance="15" min="-200" max="-300" length="8" spread="3">
 			<attribute key="areaEffect" value="explosionarea" />
 		</attack>
-		<attack name="death" interval="2000" chance="15" min="0" max="-700" length="8" spread="0">
+		<attack name="death" interval="2000" chance="15" min="0" max="-700" length="9" spread="0">
 			<attribute key="areaEffect" value="redspark" />
 		</attack>
 		<attack name="death" interval="2000" chance="15" min="0" max="-300" radius="4" target="0">
@@ -67,24 +75,24 @@
 		<voice sentence="Dieee!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98743" countmax="264" />
-		<item id="6558" name="flask of demonic blood" chance="34110" />
-		<item id="8844" name="jalapeno pepper" chance="31106" countmax="4" />
-		<item id="6500" name="demonic essence" chance="22893" />
-		<item id="2181" name="terra rod" chance="20625" />
-		<item id="5944" name="soul orb" chance="20012" />
-		<item id="7591" name="great health potion" chance="11033" />
-		<item id="9813" name="slightly rusted legs" chance="10175" />
-		<item id="2150" name="small amethyst" chance="8060" countmax="3" />
-		<item id="5911" name="red piece of cloth" chance="4229" />
-		<item id="2152" name="platinum coin" chance="2329" countmax="4" />
-		<item id="7456" name="noble axe" chance="1594" />
+		<item id="2148" name="gold coin" chance="98797" countmax="269" />
+		<item id="6558" name="flask of demonic blood" chance="34176" countmax="3" />
+		<item id="8844" name="jalapeno pepper" chance="29981" countmax="4" />
+		<item id="6500" name="demonic essence" chance="22400" />
+		<item id="2181" name="terra rod" chance="20578" />
+		<item id="5944" name="soul orb" chance="19220" />
+		<item id="7591" name="great health potion" chance="10641" />
+		<item id="9813" name="slightly rusted legs" chance="10005" />
+		<item id="2150" name="small amethyst" chance="7959" countmax="3" />
+		<item id="5911" name="red piece of cloth" chance="4057" />
+		<item id="2152" name="platinum coin" chance="2424" countmax="4" />
+		<item id="7456" name="noble axe" chance="1771" />
 		<item id="5022" name="orichalcum pearl" chance="1410" countmax="4" />
-		<item id="7404" name="assassin dagger" chance="981" />
-		<item id="2645" name="steel boots" chance="368" />
-		<item id="2124" name="crystal ring" chance="337" />
-		<item id="7368" name="assassin star" chance="153" />
-		<item id="6300" name="death ring" chance="61" />
-		<item id="2470" name="golden legs" chance="31" />
+		<item id="7404" name="assassin dagger" chance="894" />
+		<item id="2645" name="steel boots" chance="584" />
+		<item id="2124" name="crystal ring" chance="447" />
+		<item id="7368" name="assassin star" chance="189" />
+		<item id="6300" name="death ring" chance="52" />
+		<item id="2470" name="golden legs" chance="34" />
 	</loot>
 </monster>

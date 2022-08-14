@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Water Buffalo" nameDescription="a water buffalo" experience="20" speed="150" manacost="0">
+<monster name="Water Buffalo" nameDescription="a water buffalo" race="blood" experience="20" speed="150" manacost="0">
 	<health now="390" max="390" />
 	<look type="523" head="0" body="0" legs="0" feet="0" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="20" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -52,7 +52,7 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="20" />
-		<item id="2666" name="meat" chance="34081" />
-		<item id="2671" name="ham" chance="32960" />
+		<item id="2666" name="meat" chance="35054" countmax="4" />
+		<item id="2671" name="ham" chance="32688" countmax="3" />
 	</loot>
 </monster>

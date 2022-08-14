@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Renegade Quara Constrictor" nameDescription="a renegade quara constrictor" experience="1250" speed="380" manacost="0">
+<monster name="Renegade Quara Constrictor" nameDescription="a renegade quara constrictor" race="blood" experience="1250" speed="380" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="46" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,31 +30,31 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-25" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="35" defense="35" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="80756" countmax="3" />
-		<item id="12443" name="quara tentacle" chance="14590" />
-		<item id="2178" name="mind stone" chance="6835" />
-		<item id="7590" name="great mana potion" chance="6350" />
-		<item id="2214" name="ring of healing" chance="5090" />
-		<item id="2670" name="shrimp" chance="4993" />
-		<item id="2150" name="small amethyst" chance="4944" countmax="2" />
-		<item id="7368" name="assassin star" chance="4702" countmax="7" />
-		<item id="2147" name="small ruby" chance="4169" countmax="2" />
-		<item id="15649" name="vortex bolt" chance="3393" countmax="10" />
-		<item id="18414" name="violet crystal shard" chance="1115" />
-		<item id="8911" name="northwind rod" chance="921" />
-		<item id="5895" name="fish fin" chance="291" />
-		<item id="2114" name="piggy bank" chance="242" />
+		<item id="2152" name="platinum coin" chance="80794" countmax="3" />
+		<item id="12443" name="quara tentacle" chance="14884" />
+		<item id="2178" name="mind stone" chance="6591" />
+		<item id="7590" name="great mana potion" chance="6460" />
+		<item id="2214" name="ring of healing" chance="5238" />
+		<item id="2670" name="shrimp" chance="5020" countmax="5" />
+		<item id="2150" name="small amethyst" chance="5020" countmax="2" />
+		<item id="7368" name="assassin star" chance="4583" countmax="7" />
+		<item id="2147" name="small ruby" chance="4103" countmax="2" />
+		<item id="15649" name="vortex bolt" chance="3492" countmax="10" />
+		<item id="18414" name="violet crystal shard" chance="1091" />
+		<item id="8911" name="northwind rod" chance="1004" />
+		<item id="5895" name="fish fin" chance="306" />
+		<item id="2114" name="piggy bank" chance="262" />
 	</loot>
 </monster>

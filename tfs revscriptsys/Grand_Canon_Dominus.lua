@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Grand Canon Dominus")
 local monster = {}
 
 monster.name = "Grand Canon Dominus"
-monster.description = ""
+monster.description = "Grand Canon Dominus"
 monster.experience = 11000
 monster.outfit = {
 	lookType = 0,
@@ -65,20 +65,23 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 60},
+	{type = COMBAT_ENERGYDAMAGE, percent = 50},
+	{type = COMBAT_EARTHDAMAGE, percent = 50},
+	{type = COMBAT_FIREDAMAGE, percent = 50},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 50},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -600}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -550, maxDamage = -750, radius = 3, target = , effect = CONST_ME_HOLYAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -600, maxDamage = -820, range = 2, radius = 1, target = true, shootEffect = CONST_ANI_ETHEREALSPEAR},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = -900, maxDamage = -1050, radius = 4, target = true, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_SMALLCLOUDS},
+	{name ="speed", interval = 2000, chance = 15, speed = {min = -400, max = -400}, duration = 20000, range = 7, radius = 1, target = true, effect = CONST_ME_MAGIC_GREEN}
 }
 
 monster.defenses = {
@@ -87,25 +90,29 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 83033, maxCount = 5},
-	{id = 7591, chance = 31620, maxCount = 3},
-	{id = 7590, chance = 29306, maxCount = 3},
-	{id = 7368, chance = 24936, maxCount = 10},
-	{id = 2147, chance = 21851, maxCount = 2},
-	{id = 9970, chance = 20566, maxCount = 2},
-	{id = 2145, chance = 19023, maxCount = 2},
-	{id = 2149, chance = 17995, maxCount = 2},
-	{id = 2150, chance = 15167, maxCount = 2},
-	{id = 7365, chance = 14910, maxCount = 15},
-	{id = 7762, chance = 5398},
-	{id = 2156, chance = 2828},
-	{id = "giant shimmering pearl", chance = 1799},
-	{id = 2153, chance = 1799},
-	{id = 31479, chance = 1542},
-	{id = 31478, chance = 1285},
-	{id = 2155, chance = 771},
-	{id = 2514, chance = 514},
-	{id = 31477, chance = 257}
+	{id = 7762, chance = 100000, maxCount = 2},
+	{id = 2152, chance = 88503, maxCount = 5},
+	{id = 7590, chance = 32888, maxCount = 3},
+	{id = 7591, chance = 29679, maxCount = 3},
+	{id = 7368, chance = 26738, maxCount = 10},
+	{id = 2147, chance = 21658, maxCount = 2},
+	{id = 2150, chance = 21123, maxCount = 2},
+	{id = 9970, chance = 20321, maxCount = 2},
+	{id = 31374, chance = 20000},
+	{id = 31373, chance = 20000},
+	{id = 31375, chance = 20000},
+	{id = 2145, chance = 19519, maxCount = 2},
+	{id = 2149, chance = 17380, maxCount = 2},
+	{id = 7365, chance = 16578, maxCount = 35},
+	{id = 2156, chance = 2406},
+	{id = 2153, chance = 1872},
+	{id = 31479, chance = 1872},
+	{id = "giant shimmering pearl", chance = 1604},
+	{id = 31478, chance = 802},
+	{id = 31477, chance = 802},
+	{id = 2155, chance = 535},
+	{id = 2514, chance = 267},
+	{id = 2466, chance = 267}
 }
 
 mType:register(monster)

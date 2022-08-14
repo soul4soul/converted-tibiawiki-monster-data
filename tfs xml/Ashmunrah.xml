@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ashmunrah" nameDescription="" experience="3100" speed="430" manacost="0">
+<monster name="Ashmunrah" nameDescription="" race="blood" experience="3100" speed="430" manacost="0">
 	<health now="5000" max="5000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,21 +29,22 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="20" />
+		<element earthPercent="25" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-1001" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-1001" poison="135" />
 	</attacks>
 	<defenses armor="10" defense="5">
+		<defense name="outfit" interval="2000" chance="15" monster="Ancient Scarab" duration="5000" />
 		<defense name="healing" interval="2000" chance="20" min="200" max="450" />
 	</defenses>
 	<voices interval="5000" chance="10">
@@ -56,17 +57,17 @@
 		<voice sentence="You will be history soon." yell="false" />
 	</voices>
 	<summons maxSummons="6">
-		<voice name="Green Djinn" interval="2000" chance="15" max="1" />
-		<voice name="Ancient Scarab" interval="2000" chance="15" max="1" />
+		<voice name="Green Djinn" interval="2000" chance="15" max="4" />
+		<voice name="Ancient Scarab" interval="2000" chance="15" max="2" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="93936" countmax="304" />
-		<item id="7590" name="great mana potion" chance="12012" />
-		<item id="2164" name="might ring" chance="4665" />
-		<item id="2134" name="silver brooch" chance="4198" />
-		<item id="2487" name="crown armor" chance="466" />
-		<item id="11207" name="mini mummy" chance="175" />
-		<item id="2444" name="hammer of wrath" chance="117" />
-		<item id="2140" name="holy scarab" chance="117" />
+		<item id="2148" name="gold coin" chance="93826" countmax="319" />
+		<item id="7590" name="great mana potion" chance="12060" />
+		<item id="2164" name="might ring" chance="4674" />
+		<item id="2134" name="silver brooch" chance="4155" />
+		<item id="2487" name="crown armor" chance="462" />
+		<item id="11207" name="mini mummy" chance="173" />
+		<item id="2140" name="holy scarab" chance="115" />
+		<item id="2444" name="hammer of wrath" chance="115" />
 	</loot>
 </monster>

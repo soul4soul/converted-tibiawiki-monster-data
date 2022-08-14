@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Tortoise" nameDescription="a tortoise" experience="90" speed="130" manacost="0">
+<monster name="Tortoise" nameDescription="a tortoise" race="blood" experience="90" speed="130" manacost="445">
 	<health now="185" max="185" />
 	<look type="197" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="20" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="20" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -45,12 +45,12 @@
 	</attacks>
 	<defenses armor="22" defense="22" />
 	<loot>
-		<item id="2148" name="gold coin" chance="60203" countmax="30" />
-		<item id="2667" name="fish" chance="5045" />
-		<item id="2510" name="plate shield" chance="2898" />
-		<item id="5678" name="tortoise egg" chance="1100" countmax="2" />
-		<item id="2417" name="battle hammer" chance="865" />
-		<item id="5899" name="turtle shell" chance="808" />
+		<item id="2148" name="gold coin" chance="60176" countmax="30" />
+		<item id="2667" name="fish" chance="5036" />
+		<item id="2510" name="plate shield" chance="2917" />
+		<item id="5678" name="tortoise egg" chance="1099" countmax="2" />
+		<item id="2417" name="battle hammer" chance="886" />
+		<item id="5899" name="turtle shell" chance="797" />
 		<item id="6131" name="tortoise shield" chance="154" />
 	</loot>
 </monster>

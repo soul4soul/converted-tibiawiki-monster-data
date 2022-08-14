@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Many Faces" nameDescription="" experience="18870" speed="430" manacost="0">
+<monster name="Many Faces" nameDescription="an many faces" race="blood" experience="18870" speed="430" manacost="0">
 	<health now="30000" max="30000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1296" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -32,17 +32,14 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="30" />
+		<element holyPercent="50" />
+		<element deathPercent="-30" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="105" defense="105" />
 	<voices interval="5000" chance="10">
 		<voice sentence="I have a head start." yell="false" />
@@ -50,21 +47,22 @@
 		<voice sentence="The mirrors can't contain the night!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2160" name="crystal coin" chance="75247" />
-		<item id="8473" name="ultimate health potion" chance="14792" countmax="7" />
-		<item id="36589" name="apron" chance="7836" />
-		<item id="2183" name="hailstorm rod" chance="6526" />
-		<item id="2155" name="green gem" chance="5754" />
-		<item id="10219" name="sacred tree amulet" chance="5432" />
-		<item id="2153" name="violet gem" chance="5303" />
-		<item id="8911" name="northwind rod" chance="4895" />
-		<item id="2158" name="blue gem" chance="4787" />
-		<item name="ring of red plasma" chance="4530" />
-		<item id="2197" name="stone skin amulet" chance="4208" />
-		<item id="36588" name="head (many faces)" chance="3864" />
-		<item id="7892" name="glacier shoes" chance="2598" />
-		<item id="7897" name="glacier robe" chance="1846" />
-		<item id="18412" name="glacial rod" chance="1073" />
-		<item id="36680" name="gruesome fan" chance="880" />
+		<item id="2160" name="crystal coin" chance="56379" />
+		<item id="8473" name="ultimate health potion" chance="11878" countmax="7" />
+		<item id="36589" name="apron" chance="5851" />
+		<item id="2183" name="hailstorm rod" chance="4947" />
+		<item id="2197" name="stone skin amulet" chance="4219" />
+		<item id="36765" name="bag you desire" chance="4000" />
+		<item id="2155" name="green gem" chance="3993" />
+		<item id="10219" name="sacred tree amulet" chance="3867" />
+		<item id="8911" name="northwind rod" chance="3717" />
+		<item id="2153" name="violet gem" chance="3717" />
+		<item id="2158" name="blue gem" chance="3466" />
+		<item name="ring of red plasma" chance="3214" />
+		<item id="36588" name="head (many faces)" chance="2888" />
+		<item id="7892" name="glacier shoes" chance="1909" />
+		<item id="7897" name="glacier robe" chance="1482" />
+		<item id="18412" name="glacial rod" chance="552" />
+		<item id="36680" name="gruesome fan" chance="527" />
 	</loot>
 </monster>

@@ -69,22 +69,20 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -25},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -200},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -25, maxDamage = -47, radius = 3, target = , effect = CONST_ME_MAGIC_RED},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -50, maxDamage = -90, range = 5, radius = 1, target = true, shootEffect = CONST_ANI_POISON},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -3, radius = 3, target = , effect = CONST_ME_POISONAREA},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -4, length = 5, spread = 0, effect = CONST_ME_POISONAREA}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -200, condition = {type = CONDITION_POISON, startDamage = 97, interval = }},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -25, maxDamage = -47, radius = 3, target = , effect = CONST_ME_MAGIC_RED},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -50, maxDamage = -90, range = 5, radius = 1, target = true, shootEffect = CONST_ANI_POISON}
 }
 
 monster.defenses = {
@@ -94,16 +92,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2230, chance = 49656},
-	{id = 2148, chance = 29784, maxCount = 90},
-	{id = 2229, chance = 19962},
-	{id = 11194, chance = 9943},
-	{id = 2463, chance = 7958},
-	{id = 2449, chance = 4965},
-	{id = 2541, chance = 2059},
-	{id = 2796, chance = 1427},
-	{id = 5925, chance = 1022},
-	{id = 7618, chance = 513},
+	{id = 2230, chance = 49623},
+	{id = 2148, chance = 29767, maxCount = 90},
+	{id = 2229, chance = 20009},
+	{id = 11194, chance = 9948},
+	{id = 2463, chance = 7963},
+	{id = 2449, chance = 4964},
+	{id = 2541, chance = 2069},
+	{id = 2796, chance = 1426},
+	{id = 5925, chance = 1020},
+	{id = 7618, chance = 515},
 	{id = 11161, chance = 99}
 }
 

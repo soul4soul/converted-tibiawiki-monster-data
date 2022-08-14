@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Barbaria" nameDescription="" experience="355" speed="0" manacost="0">
+<monster name="Barbaria" nameDescription="Barbaria" race="blood" experience="355" speed="0" manacost="0">
 	<health now="345" max="345" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,9 +40,6 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="34" max="86" />
 	</defenses>
@@ -51,9 +48,20 @@
 		<voice sentence="My instincts tell me about your cowardice." yell="false" />
 		<voice sentence="Mine is the power of rage!" yell="false" />
 	</voices>
+	<summons maxSummons="2">
+		<voice name="War Wolf" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="35" />
-		<item id="2464" name="chain armor" chance="33333" />
 		<item id="2671" name="ham" chance="33333" />
+		<item id="2464" name="chain armor" chance="33333" />
+		<item id="2686" name="corncob" chance="20000" />
+		<item id="7620" name="mana potion" chance="20000" />
+		<item id="2401" name="staff" chance="20000" />
+		<item name="torch" chance="20000" />
+		<item id="7343" name="fur bag" chance="20000" />
+		<item name="book (grey)" chance="20000" />
+		<item id="3965" name="hunting spear" chance="20000" />
+		<item id="7463" name="mammoth fur cape" chance="20000" />
 	</loot>
 </monster>

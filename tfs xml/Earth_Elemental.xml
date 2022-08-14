@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Earth Elemental" nameDescription="an earth elemental" experience="450" speed="230" manacost="0">
+<monster name="Earth Elemental" nameDescription="an earth elemental" race="blood" experience="450" speed="230" manacost="0">
 	<health now="650" max="650" />
 	<look type="301" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,36 +29,31 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="35" />
+		<element energyPercent="100" />
+		<element earthPercent="100" />
+		<element firePercent="-25" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="85" />
+		<element holyPercent="50" />
+		<element deathPercent="40" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
-	</attacks>
-	<defenses armor="45" defense="45">
-		<defense name="healing" interval="2000" chance="20" min="60" max="80" />
-	</defenses>
+	<defenses armor="45" defense="45" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Stomp." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="92946" countmax="130" />
-		<item id="7850" name="earth arrow" chance="20157" countmax="30" />
-		<item id="11222" name="lump of earth" chance="19959" />
-		<item id="1294" name="small stone" chance="10102" countmax="10" />
-		<item id="2260" name="blank rune" chance="9779" />
-		<item id="9808" name="heavily rusted armor" chance="5121" />
-		<item id="7589" name="strong mana potion" chance="1990" />
-		<item id="11339" name="clay lump" chance="610" />
-		<item id="13757" name="coal" chance="484" />
+		<item id="2148" name="gold coin" chance="92948" countmax="130" />
+		<item id="7850" name="earth arrow" chance="20155" countmax="30" />
+		<item id="11222" name="lump of earth" chance="19957" />
+		<item id="1294" name="small stone" chance="10106" countmax="10" />
+		<item id="2260" name="blank rune" chance="9775" />
+		<item id="9808" name="heavily rusted armor" chance="5122" />
+		<item id="7589" name="strong mana potion" chance="1993" />
+		<item id="11339" name="clay lump" chance="612" />
+		<item id="13757" name="coal" chance="482" />
 		<item id="9970" name="small topaz" chance="469" />
 	</loot>
 </monster>

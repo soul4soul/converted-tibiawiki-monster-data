@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Feversleep" nameDescription="a feversleep" experience="4400" speed="360" manacost="0">
+<monster name="Feversleep" nameDescription="a feversleep" race="blood" experience="4400" speed="360" manacost="0">
 	<health now="5900" max="5900" />
 	<look type="593" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,20 +29,18 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="15" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="35" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-10" />
+		<element deathPercent="55" />
 	</elements>
-	<defenses armor="73" defense="73">
-		<defense name="healing" interval="2000" chance="20" min="0" max="250" />
-	</defenses>
+	<defenses armor="73" defense="73" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="9" />

@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -66,13 +66,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 20},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -87,13 +87,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2804, chance = 10957},
-	{id = 2148, chance = 10657, maxCount = 5},
-	{id = 12432, chance = 9836},
-	{id = 2802, chance = 5526, maxCount = 2},
-	{id = 2747, chance = 979},
-	{id = 11231, chance = 916},
-	{id = 7732, chance = 363}
+	{id = 2804, chance = 10991},
+	{id = 2148, chance = 10665, maxCount = 5},
+	{id = 12432, chance = 9874},
+	{id = 2802, chance = 5581, maxCount = 2},
+	{id = 2747, chance = 977},
+	{id = 11231, chance = 899},
+	{id = 7732, chance = 372}
 }
 
 mType:register(monster)

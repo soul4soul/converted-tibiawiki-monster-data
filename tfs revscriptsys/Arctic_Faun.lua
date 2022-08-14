@@ -68,16 +68,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 70},
+	{type = COMBAT_FIREDAMAGE, percent = -15},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 80},
+	{type = COMBAT_HOLYDAMAGE , percent = 30},
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.attacks = {
@@ -90,22 +90,22 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 105},
-	{id = 28351, chance = 15133},
-	{id = 7588, chance = 11406},
-	{id = 28348, chance = 9923},
-	{id = 28349, chance = 9713},
-	{id = 28391, chance = 8282, maxCount = 3},
-	{id = 2760, chance = 8046},
-	{id = 2687, chance = 6103, maxCount = 5},
-	{id = 2681, chance = 5276},
-	{id = 2074, chance = 5079},
-	{id = 28393, chance = 4988, maxCount = 2},
-	{id = 1294, chance = 4935, maxCount = 2},
-	{id = 7591, chance = 3570},
-	{id = 2664, chance = 1024},
-	{id = 9928, chance = 341},
-	{id = "die", chance = 210},
-	{id = 28355, chance = 210}
+	{id = 28351, chance = 15121},
+	{id = 7588, chance = 11396},
+	{id = 28348, chance = 9990, maxCount = 2},
+	{id = 28349, chance = 9729},
+	{id = 28391, chance = 8270, maxCount = 3},
+	{id = 2760, chance = 8049},
+	{id = 2687, chance = 6095, maxCount = 5},
+	{id = 2681, chance = 5288},
+	{id = 2074, chance = 5053},
+	{id = 28393, chance = 4975, maxCount = 2},
+	{id = 1294, chance = 4923, maxCount = 2},
+	{id = 7591, chance = 3543},
+	{id = 2664, chance = 1016},
+	{id = 9928, chance = 339},
+	{id = 28355, chance = 208},
+	{id = "die", chance = 208}
 }
 
 mType:register(monster)

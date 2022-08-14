@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Murmillion" nameDescription="a murmillion" experience="0" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Murmillion" nameDescription="a murmillion" race="blood" experience="0" speed="0" manacost="0">
+	<health now="1100" max="1100" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>

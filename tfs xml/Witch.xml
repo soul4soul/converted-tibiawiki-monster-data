@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Witch" nameDescription="a witch" experience="120" speed="204" manacost="0">
+<monster name="Witch" nameDescription="a witch" race="blood" experience="120" speed="204" manacost="0">
 	<health now="300" max="300" />
 	<look type="54" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,23 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element physicalPercent="-5" />
+		<element energyPercent="100" />
+		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-20" />
+		<attack name="firefield" interval="2000" chance="15" range="5" radius="1" target="1">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="outfit" interval="2000" chance="15" monster="Green Frog" duration="5000" />
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<voices interval="5000" chance="10">
@@ -50,20 +54,20 @@
 		<voice sentence="Hihihihi!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="63927" countmax="40" />
-		<item id="2687" name="cookie" chance="29997" countmax="8" />
-		<item id="2129" name="wolf tooth chain" chance="10124" />
-		<item id="10569" name="witch broom" chance="10006" />
-		<item id="2800" name="star herb" chance="8992" />
-		<item id="2643" name="leather boots" chance="5016" />
-		<item id="2654" name="cape" chance="4953" />
-		<item id="2405" name="sickle" chance="3892" />
-		<item id="2199" name="garlic necklace" chance="2517" />
-		<item id="2651" name="coat" chance="2007" />
-		<item id="2185" name="necrotic rod" chance="1083" />
-		<item id="13537" name="bag of apple slices" chance="896" />
-		<item id="2402" name="silver dagger" chance="557" />
-		<item id="10570" name="witch hat" chance="90" />
+		<item id="2148" name="gold coin" chance="63926" countmax="40" />
+		<item id="2687" name="cookie" chance="29965" countmax="8" />
+		<item id="2129" name="wolf tooth chain" chance="10108" />
+		<item id="10569" name="witch broom" chance="10012" />
+		<item id="2800" name="star herb" chance="8998" />
+		<item id="2643" name="leather boots" chance="5038" />
+		<item id="2654" name="cape" chance="4955" />
+		<item id="2405" name="sickle" chance="3891" />
+		<item id="2199" name="garlic necklace" chance="2519" />
+		<item id="2651" name="coat" chance="2014" />
+		<item id="2185" name="necrotic rod" chance="1082" />
+		<item id="13537" name="bag of apple slices" chance="888" />
+		<item id="2402" name="silver dagger" chance="552" />
+		<item id="10570" name="witch hat" chance="93" />
 		<item id="11211" name="stuffed toad" chance="6" />
 	</loot>
 </monster>

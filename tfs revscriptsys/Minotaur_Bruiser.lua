@@ -68,7 +68,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -94,6 +94,7 @@ monster.loot = {
 	{id = 2376, chance = 10959},
 	{id = 2460, chance = 9589},
 	{id = 2464, chance = 9589},
+	{id = 2554, chance = 7500},
 	{id = 2398, chance = 6849},
 	{id = 2666, chance = 2740}
 }

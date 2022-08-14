@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Werehyaena" nameDescription="a werehyaena" experience="2200" speed="240" manacost="0">
+<monster name="Werehyaena" nameDescription="a werehyaena" race="blood" experience="2200" speed="240" manacost="0">
 	<health now="2700" max="2700" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1300" head="57" body="77" legs="1" feet="1" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -31,40 +31,37 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="40" />
+		<element firePercent="50" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element icePercent="-20" />
+		<element holyPercent="-25" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
-	</attacks>
 	<defenses armor="36" defense="36" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Snarl!" yell="false" />
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="3" />
-		<item id="7591" name="great health potion" chance="49832" countmax="3" />
-		<item id="2666" name="meat" chance="19199" />
-		<item id="2403" name="knife" chance="17326" />
-		<item id="2386" name="axe" chance="16117" />
-		<item id="36599" name="werehyaena nose" chance="12509" />
-		<item id="2381" name="halberd" chance="11572" />
-		<item id="18420" name="red crystal fragment" chance="9665" />
-		<item id="7762" name="small enchanted amethyst" chance="5877" countmax="5" />
-		<item id="2156" name="red gem" chance="5679" />
-		<item id="2154" name="yellow gem" chance="5564" />
-		<item id="20093" name="life preserver" chance="5408" />
-		<item id="2404" name="combat knife" chance="4825" />
-		<item id="18421" name="green crystal fragment" chance="4446" />
-		<item id="20092" name="ratana" chance="4290" />
-		<item id="24739" name="moonlight crystals" chance="1077" />
-		<item id="36600" name="werehyaena talisman" chance="649" />
-		<item id="36875" name="werehyaena trophy" chance="205" />
+		<item id="7591" name="great health potion" chance="49778" countmax="3" />
+		<item id="2666" name="meat" chance="19095" />
+		<item id="2403" name="knife" chance="17178" />
+		<item id="2386" name="axe" chance="15954" />
+		<item id="36599" name="werehyaena nose" chance="12579" />
+		<item id="2381" name="halberd" chance="11486" />
+		<item id="18420" name="red crystal fragment" chance="9635" />
+		<item id="7762" name="small enchanted amethyst" chance="5758" countmax="5" />
+		<item id="2156" name="red gem" chance="5677" />
+		<item id="2154" name="yellow gem" chance="5597" />
+		<item id="20093" name="life preserver" chance="5328" />
+		<item id="2404" name="combat knife" chance="4890" />
+		<item id="18421" name="green crystal fragment" chance="4417" />
+		<item id="20092" name="ratana" chance="4278" />
+		<item id="24739" name="moonlight crystals" chance="1443" />
+		<item id="36600" name="werehyaena talisman" chance="663" />
+		<item id="36875" name="werehyaena trophy" chance="197" />
 	</loot>
 </monster>

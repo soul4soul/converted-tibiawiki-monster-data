@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Poison Spider" nameDescription="a poison spider" experience="22" speed="160" manacost="270">
+<monster name="Poison Spider" nameDescription="a poison spider" race="blood" experience="22" speed="160" manacost="270">
 	<health now="26" max="26" />
 	<look type="36" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,8 +31,8 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -41,11 +41,11 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-20" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-20" poison="34" />
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="2148" name="gold coin" chance="74634" countmax="4" />
-		<item id="12441" name="poison spider shell" chance="1059" />
+		<item id="2148" name="gold coin" chance="74629" countmax="4" />
+		<item id="12441" name="poison spider shell" chance="1078" />
 	</loot>
 </monster>

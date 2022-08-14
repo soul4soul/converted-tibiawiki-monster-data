@@ -5,11 +5,11 @@ monster.name = "Knight's Apparition"
 monster.description = "a knight's apparition"
 monster.experience = 18870
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 131,
+	lookHead = 19,
+	lookBody = 76,
+	lookLegs = 74,
+	lookFeet = 114,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = true,
 	canWalkOnFire = true,
@@ -66,16 +66,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -20}
 }
 
 monster.attacks = {
@@ -87,17 +87,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 79890},
-	{id = 8473, chance = 9419},
-	{id = 2438, chance = 7043},
-	{id = 2155, chance = 6364},
-	{id = 2153, chance = 3734},
-	{id = 2445, chance = 3055},
-	{id = 7888, chance = 2843},
-	{id = 2393, chance = 2461},
-	{id = 2519, chance = 1485},
-	{id = 2197, chance = 1273},
-	{id = 7422, chance = 1061}
+	{id = 2160, chance = 60070},
+	{id = 8473, chance = 6961},
+	{id = 2438, chance = 4597},
+	{id = 36765, chance = 4000},
+	{id = 2155, chance = 3722},
+	{id = 2153, chance = 2933},
+	{id = 7888, chance = 2846},
+	{id = 2445, chance = 2671},
+	{id = 7422, chance = 1138},
+	{id = 2393, chance = 1051},
+	{id = 2519, chance = 613},
+	{id = 2197, chance = 438}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Fox" nameDescription="a fox" experience="15" speed="170" manacost="255">
+<monster name="Fox" nameDescription="a fox" race="blood" experience="15" speed="170" manacost="255">
 	<health now="22" max="22" />
 	<look type="1029" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,25 +31,22 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="5" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element holyPercent="30" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="2" defense="2" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Grrrrrrr" yell="false" />
 		<voice sentence="Yip! Yip!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="47493" />
-		<item id="30118" name="fox paw" chance="1441" />
+		<item id="2666" name="meat" chance="47161" countmax="2" />
+		<item id="30118" name="fox paw" chance="1525" />
 	</loot>
 </monster>

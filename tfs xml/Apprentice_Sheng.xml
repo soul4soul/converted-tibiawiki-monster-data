@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Apprentice Sheng" nameDescription="" experience="150" speed="170" manacost="0">
+<monster name="Apprentice Sheng" nameDescription="Apprentice Sheng" race="blood" experience="150" speed="170" manacost="0">
 	<health now="95" max="95" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -30,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="100" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,12 +40,7 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
-	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="9" max="23" />
-	</defenses>
+	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="I will protect the secrets of my master!" yell="false" />
 		<voice sentence="Kaplar!" yell="false" />
@@ -54,12 +49,17 @@
 	</voices>
 	<loot>
 		<item id="5878" name="minotaur leather" chance="100000" />
-		<item id="2162" name="magic light wand" chance="82222" />
-		<item id="2148" name="gold coin" chance="71111" countmax="10" />
-		<item name="torch" chance="24444" countmax="2" />
-		<item id="2649" name="leather legs" chance="13333" />
-		<item id="2403" name="knife" chance="11111" />
-		<item id="2684" name="carrot" chance="6667" countmax="7" />
-		<item id="2461" name="leather helmet" chance="6667" />
+		<item id="2162" name="magic light wand" chance="84314" />
+		<item id="2148" name="gold coin" chance="68627" countmax="10" />
+		<item name="torch" chance="23529" countmax="2" />
+		<item id="2666" name="meat" chance="20000" />
+		<item name="dead snake (item)" chance="20000" countmax="2" />
+		<item id="2120" name="rope" chance="20000" />
+		<item id="2554" name="shovel" chance="20000" />
+		<item id="12428" name="minotaur horn" chance="20000" />
+		<item id="2649" name="leather legs" chance="15686" />
+		<item id="2403" name="knife" chance="9804" />
+		<item id="2684" name="carrot" chance="5882" countmax="7" />
+		<item id="2461" name="leather helmet" chance="5882" />
 	</loot>
 </monster>

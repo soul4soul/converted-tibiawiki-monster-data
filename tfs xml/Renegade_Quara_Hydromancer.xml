@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Renegade Quara Hydromancer" nameDescription="a renegade quara hydromancer" experience="1800" speed="490" manacost="0">
+<monster name="Renegade Quara Hydromancer" nameDescription="a renegade quara hydromancer" race="blood" experience="1800" speed="490" manacost="0">
 	<health now="2000" max="2000" />
 	<look type="47" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,36 +30,39 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-25" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="30" defense="30" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="80396" countmax="4" />
-		<item id="12444" name="quara eye" chance="17896" />
-		<item id="2178" name="mind stone" chance="10738" />
-		<item id="2149" name="small emerald" chance="7324" countmax="2" />
-		<item id="2670" name="shrimp" chance="7214" />
-		<item id="9970" name="small topaz" chance="6388" countmax="2" />
-		<item id="7590" name="great mana potion" chance="5727" countmax="2" />
-		<item id="7591" name="great health potion" chance="5176" countmax="2" />
-		<item id="8870" name="spirit cloak" chance="5176" />
-		<item id="5910" name="green piece of cloth" chance="3029" />
-		<item id="5914" name="yellow piece of cloth" chance="2698" />
-		<item id="18415" name="green crystal shard" chance="2533" />
-		<item id="2168" name="life ring" chance="1982" />
-		<item id="5895" name="fish fin" chance="1267" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="1211" />
-		<item id="2189" name="wand of cosmic energy" chance="1101" />
-		<item id="2476" name="knight armor" chance="716" />
-		<item id="2155" name="green gem" chance="551" />
-		<item name="giant shimmering pearl" chance="55" />
+		<item id="2152" name="platinum coin" chance="80430" countmax="4" />
+		<item id="2214" name="ring of healing" chance="20000" />
+		<item id="2143" name="white pearl" chance="20000" />
+		<item id="2144" name="black pearl" chance="20000" />
+		<item id="12444" name="quara eye" chance="17879" />
+		<item id="2178" name="mind stone" chance="10861" />
+		<item id="2670" name="shrimp" chance="7223" />
+		<item id="2149" name="small emerald" chance="7121" countmax="2" />
+		<item id="9970" name="small topaz" chance="6506" countmax="2" />
+		<item id="7590" name="great mana potion" chance="5686" countmax="2" />
+		<item id="8870" name="spirit cloak" chance="5328" />
+		<item id="7591" name="great health potion" chance="5123" countmax="2" />
+		<item id="5910" name="green piece of cloth" chance="2920" />
+		<item id="5914" name="yellow piece of cloth" chance="2869" />
+		<item id="18415" name="green crystal shard" chance="2613" />
+		<item id="2168" name="life ring" chance="1998" />
+		<item id="5895" name="fish fin" chance="1230" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="1178" />
+		<item id="2189" name="wand of cosmic energy" chance="1127" />
+		<item id="2476" name="knight armor" chance="717" />
+		<item id="2155" name="green gem" chance="512" />
+		<item name="giant shimmering pearl" chance="51" />
 	</loot>
 </monster>

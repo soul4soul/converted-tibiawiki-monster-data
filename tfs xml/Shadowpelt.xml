@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Shadowpelt" nameDescription="" experience="4600" speed="0" manacost="0">
+<monster name="Shadowpelt" nameDescription="Shadowpelt" race="blood" experience="4600" speed="0" manacost="0">
 	<health now="6000" max="6000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,46 +30,47 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="15" />
+		<element earthPercent="40" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="10" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
-	</attacks>
 	<defenses armor="10" defense="5" />
+	<summons maxSummons="1">
+		<voice name="Werebear" interval="2000" chance="15" max="1" />
+	</summons>
 	<loot>
-		<item id="5896" name="bear paw" chance="100000" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="3" />
 		<item id="24713" name="werebear fur" chance="100000" />
 		<item id="24712" name="werebear skull" chance="100000" />
-		<item id="2148" name="gold coin" chance="80769" countmax="100" />
-		<item id="2144" name="black pearl" chance="53671" countmax="2" />
-		<item id="24850" name="opal" chance="46329" countmax="2" />
-		<item id="7591" name="great health potion" chance="34266" />
-		<item id="7432" name="furry club" chance="29196" />
-		<item id="27617" name="tiger eye" chance="28497" countmax="2" />
-		<item id="7759" name="small enchanted sapphire" chance="20629" countmax="2" />
-		<item id="5902" name="honeycomb" chance="16434" />
-		<item id="8473" name="ultimate health potion" chance="13986" />
-		<item id="2671" name="ham" chance="13112" />
-		<item id="7419" name="dreaded cleaver" chance="8217" />
-		<item id="7633" name="giant shimmering pearl (brown)" chance="7517" />
-		<item id="24741" name="fur armor" chance="6643" />
-		<item id="24759" name="werebear trophy" chance="5420" />
-		<item id="24716" name="werewolf amulet" chance="3846" />
-		<item id="24739" name="moonlight crystals" chance="3322" />
-		<item id="2214" name="ring of healing" chance="3322" />
-		<item id="7452" name="spiked squelcher" chance="2972" />
-		<item id="7383" name="relic sword" chance="1923" />
-		<item id="7439" name="berserk potion" chance="1748" />
-		<item id="25172" name="silver token" chance="1748" />
-		<item id="2197" name="stone skin amulet" chance="699" />
+		<item id="5896" name="bear paw" chance="100000" />
+		<item id="2148" name="gold coin" chance="80691" countmax="100" />
+		<item id="2144" name="black pearl" chance="52590" countmax="2" />
+		<item id="24850" name="opal" chance="47410" countmax="2" />
+		<item id="7591" name="great health potion" chance="35636" />
+		<item id="27617" name="tiger eye" chance="31554" countmax="2" />
+		<item id="7432" name="furry club" chance="29827" />
+		<item id="7759" name="small enchanted sapphire" chance="22763" countmax="2" />
+		<item id="24740" name="wolf backpack" chance="20000" />
+		<item id="5902" name="honeycomb" chance="16797" />
+		<item id="8473" name="ultimate health potion" chance="13815" />
+		<item id="2671" name="ham" chance="13187" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="7849" />
+		<item id="7419" name="dreaded cleaver" chance="7692" />
+		<item id="24741" name="fur armor" chance="6750" />
+		<item id="24759" name="werebear trophy" chance="5024" />
+		<item id="24716" name="werewolf amulet" chance="4239" />
+		<item id="7452" name="spiked squelcher" chance="3768" />
+		<item id="2214" name="ring of healing" chance="3140" />
+		<item id="24739" name="moonlight crystals" chance="2983" />
+		<item id="7439" name="berserk potion" chance="2355" />
+		<item id="7383" name="relic sword" chance="2041" />
+		<item id="25172" name="silver token" chance="1570" />
+		<item id="2197" name="stone skin amulet" chance="628" />
 	</loot>
 </monster>

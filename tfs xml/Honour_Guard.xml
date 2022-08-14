@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Honour Guard" nameDescription="an honour guard" experience="55" speed="154" manacost="0">
+<monster name="Honour Guard" nameDescription="an honour guard" race="undead" experience="55" speed="154" manacost="0">
 	<health now="85" max="85" />
 	<look type="298" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -37,12 +37,9 @@
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-25" />
-	</attacks>
 	<defenses armor="4" defense="4" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Horestis curse upon you!" yell="false" />
@@ -51,11 +48,11 @@
 		<voice sentence="For the pharao!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="49583" countmax="15" />
-		<item id="12437" name="pelvis bone" chance="8893" />
-		<item id="2789" name="brown mushroom" chance="6151" countmax="2" />
-		<item id="2398" name="mace" chance="3560" />
-		<item id="2159" name="scarab coin" chance="2742" />
-		<item id="2419" name="scimitar" chance="1348" />
+		<item id="2148" name="gold coin" chance="49652" countmax="15" />
+		<item id="12437" name="pelvis bone" chance="8819" />
+		<item id="2789" name="brown mushroom" chance="6223" countmax="2" />
+		<item id="2398" name="mace" chance="3554" />
+		<item id="2159" name="scarab coin" chance="2713" />
+		<item id="2419" name="scimitar" chance="1320" />
 	</loot>
 </monster>

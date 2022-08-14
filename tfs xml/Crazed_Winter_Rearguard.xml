@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Crazed Winter Rearguard" nameDescription="a crazed winter rearguard" experience="4700" speed="400" manacost="0">
+<monster name="Crazed Winter Rearguard" nameDescription="a crazed winter rearguard" race="blood" experience="4700" speed="400" manacost="0">
 	<health now="5200" max="5200" />
 	<look type="1136" head="47" body="7" legs="0" feet="85" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,38 +30,35 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-15" />
+		<element earthPercent="-20" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="40" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="20" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
-	</attacks>
 	<defenses armor="76" defense="76" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="86091" countmax="5" />
-		<item id="2396" name="ice rapier" chance="17286" />
-		<item id="8473" name="ultimate health potion" chance="16855" />
-		<item id="8472" name="great spirit potion" chance="15808" />
-		<item id="32714" name="ice flower (item)" chance="9177" countmax="2" />
-		<item id="32661" name="dream essence egg" chance="8869" />
-		<item id="2177" name="life crystal" chance="7863" />
-		<item id="12421" name="elven astral observer" chance="7586" />
-		<item id="7902" name="glacier mask" chance="6015" />
-		<item id="2186" name="moonlight rod" chance="5461" />
-		<item id="7759" name="small enchanted sapphire" chance="4650" countmax="7" />
-		<item id="7888" name="glacier amulet" chance="2967" />
-		<item id="2183" name="hailstorm rod" chance="2648" />
-		<item id="8911" name="northwind rod" chance="2381" />
-		<item id="18419" name="cyan crystal fragment" chance="2002" />
-		<item id="7897" name="glacier robe" chance="1930" />
-		<item id="2198" name="elven amulet" chance="1191" />
-		<item id="2158" name="blue gem" chance="339" />
+		<item id="2152" name="platinum coin" chance="86059" countmax="5" />
+		<item id="2396" name="ice rapier" chance="17227" />
+		<item id="8473" name="ultimate health potion" chance="16877" />
+		<item id="8472" name="great spirit potion" chance="15730" />
+		<item id="32714" name="ice flower (item)" chance="9139" countmax="2" />
+		<item id="32661" name="dream essence egg" chance="8808" />
+		<item id="2177" name="life crystal" chance="7855" />
+		<item id="12421" name="elven astral observer" chance="7603" />
+		<item id="7902" name="glacier mask" chance="6037" />
+		<item id="2186" name="moonlight rod" chance="5396" />
+		<item id="7759" name="small enchanted sapphire" chance="4637" countmax="7" />
+		<item id="7888" name="glacier amulet" chance="2946" />
+		<item id="2183" name="hailstorm rod" chance="2615" />
+		<item id="8911" name="northwind rod" chance="2353" />
+		<item id="18419" name="cyan crystal fragment" chance="2061" />
+		<item id="7897" name="glacier robe" chance="1954" />
+		<item id="2198" name="elven amulet" chance="1196" />
+		<item id="2158" name="blue gem" chance="321" />
 	</loot>
 </monster>

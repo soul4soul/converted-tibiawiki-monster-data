@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("A Weak Spot")
 local monster = {}
 
 monster.name = "A Weak Spot"
-monster.description = ""
+monster.description = "a Weak Spot"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {

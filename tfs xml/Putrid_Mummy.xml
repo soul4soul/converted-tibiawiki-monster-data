@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Putrid Mummy" nameDescription="a putrid mummy" experience="900" speed="170" manacost="0">
+<monster name="Putrid Mummy" nameDescription="a putrid mummy" race="undead" experience="900" speed="170" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="976" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,35 +31,31 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
-	</attacks>
-	<defenses armor="40" defense="40">
-		<defense name="healing" interval="2000" chance="20" min="150" max="200" />
-	</defenses>
+	<defenses armor="40" defense="40" />
 	<voices interval="5000" chance="10">
 		<voice sentence="We will make you one of us!" yell="false" />
 		<voice sentence="Come to mummy!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="62293" countmax="64" />
-		<item id="28358" name="little bowl of myrrh" chance="13769" />
-		<item id="28353" name="green bandage" chance="10999" />
-		<item id="28357" name="single human eye" chance="9871" />
-		<item id="2024" name="broken flask" chance="9622" />
-		<item id="2159" name="scarab coin" chance="8991" countmax="3" />
-		<item id="13472" name="pharaoh banner" chance="2140" />
-		<item id="2155" name="green gem" chance="1841" />
-		<item id="2144" name="black pearl" chance="1078" />
-		<item id="2411" name="poison dagger" chance="597" />
+		<item id="2148" name="gold coin" chance="62513" countmax="64" />
+		<item id="28358" name="little bowl of myrrh" chance="13836" />
+		<item id="28353" name="green bandage" chance="10835" />
+		<item id="28357" name="single human eye" chance="9860" />
+		<item id="2024" name="broken flask" chance="9712" />
+		<item id="2159" name="scarab coin" chance="8973" countmax="3" />
+		<item id="11207" name="mini mummy" chance="4000" />
+		<item id="13472" name="pharaoh banner" chance="2158" />
+		<item id="2155" name="green gem" chance="1863" />
+		<item id="2144" name="black pearl" chance="1020" />
+		<item id="2411" name="poison dagger" chance="576" />
 	</loot>
 </monster>

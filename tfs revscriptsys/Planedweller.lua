@@ -68,38 +68,38 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
+	{type = COMBAT_ENERGYDAMAGE, percent = 50},
+	{type = COMBAT_EARTHDAMAGE, percent = 95},
+	{type = COMBAT_FIREDAMAGE, percent = 40},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 70},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 80}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -200}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 200, maxDamage = 400},
-	{name ="speed", interval = 2000, chance = 15, speed = {min = 450, max = 450}, duration = 4000, effect = CONST_ME_MAGIC_RED}
+	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
 }
 
 monster.loot = {
-	{id = 35962, chance = 10938},
-	{id = 35960, chance = 7813},
-	{id = 35961, chance = 7813},
-	{id = 35963, chance = 7813},
-	{id = 35959, chance = 6250},
-	{id = 35965, chance = 3125},
-	{id = 30263, chance = 3125},
-	{id = 35964, chance = 1563}
+	{id = 35959, chance = 9677},
+	{id = 35961, chance = 9140},
+	{id = 35960, chance = 8065},
+	{id = 35962, chance = 7527},
+	{id = 30263, chance = 5376},
+	{id = 35963, chance = 4301},
+	{id = 35964, chance = 2688},
+	{id = 35965, chance = 2688},
+	{id = 35967, chance = 1075},
+	{id = 35966, chance = 538}
 }
 
 mType:register(monster)

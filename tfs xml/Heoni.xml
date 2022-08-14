@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Heoni" nameDescription="" experience="515" speed="0" manacost="0">
+<monster name="Heoni" nameDescription="" race="blood" experience="515" speed="0" manacost="0">
 	<health now="900" max="900" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,7 +31,7 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
@@ -40,9 +40,6 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="70" max="80" />
 	</defenses>
@@ -50,6 +47,6 @@
 		<voice sentence="Shriiiek" yell="false" />
 	</voices>
 	<loot>
-		<item id="12504" name="Strong Sinew" chance="20000" />
+		<item id="12504" name="strong sinew" chance="20000" />
 	</loot>
 </monster>

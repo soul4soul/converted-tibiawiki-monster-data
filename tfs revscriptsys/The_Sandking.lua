@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Sandking")
 local monster = {}
 
 monster.name = "The Sandking"
-monster.description = ""
+monster.description = "The Sandking"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -700}
 }
 
 monster.defenses = {
@@ -87,6 +86,44 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 200},
+	{id = 5892, chance = 100000},
+	{id = 7440, chance = 100000},
+	{id = 8473, chance = 100000, maxCount = 10},
+	{id = 18413, chance = 100000, maxCount = 3},
+	{id = 2183, chance = 100000},
+	{id = 18415, chance = 100000, maxCount = 3},
+	{id = 2436, chance = 100000},
+	{id = 18414, chance = 100000, maxCount = 4},
+	{id = "giant shimmering pearl", chance = 100000},
+	{id = 9970, chance = 100000, maxCount = 11},
+	{id = 2152, chance = 100000, maxCount = 30},
+	{id = 2214, chance = 100000},
+	{id = 12630, chance = 20000},
+	{id = 7404, chance = 20000},
+	{id = 28016, chance = 20000},
+	{id = 2451, chance = 20000},
+	{id = 25377, chance = 20000},
+	{id = 25172, chance = 20000},
+	{id = 5904, chance = 20000},
+	{id = 2453, chance = 20000},
+	{id = 15490, chance = 20000},
+	{id = 7417, chance = 20000},
+	{id = 2158, chance = 20000},
+	{id = 2154, chance = 20000},
+	{id = 2153, chance = 20000},
+	{id = 2155, chance = 20000},
+	{id = 18451, chance = 20000},
+	{id = 2156, chance = 20000},
+	{id = 7590, chance = 20000, maxCount = 10},
+	{id = 8472, chance = 20000, maxCount = 10},
+	{id = 12410, chance = 20000},
+	{id = 2149, chance = 20000, maxCount = 10},
+	{id = 2147, chance = 20000, maxCount = 10},
+	{id = 2150, chance = 20000, maxCount = 10},
+	{id = 2145, chance = 20000, maxCount = 10},
+	{id = 22396, chance = 20000},
+	{id = 15489, chance = 20000}
 }
 
 mType:register(monster)

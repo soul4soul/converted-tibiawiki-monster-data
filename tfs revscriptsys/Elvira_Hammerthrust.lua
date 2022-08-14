@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Elvira Hammerthrust")
 local monster = {}
 
 monster.name = "Elvira Hammerthrust"
-monster.description = ""
+monster.description = "Elvira Hammerthrust"
 monster.experience = 165
 monster.outfit = {
 	lookType = 0,
@@ -70,8 +70,8 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -89,8 +89,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 14903, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 96}
+	{id = 2152, chance = 100000, maxCount = 100},
+	{id = 14903, chance = 100000}
 }
 
 mType:register(monster)

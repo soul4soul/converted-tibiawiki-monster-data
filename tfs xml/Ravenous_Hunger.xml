@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ravenous Hunger" nameDescription="" experience="0" speed="0" manacost="0">
+<monster name="Ravenous Hunger" nameDescription="Ravenous Hunger" race="blood" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,20 +31,64 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<summons maxSummons="4">
-		<voice name="Mutated Bat" interval="2000" chance="15" max="1" />
+		<voice name="Mutated Bat" interval="2000" chance="15" max="4" />
 	</summons>
+	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="387" />
+		<item id="28399" name="bed of nails" chance="100000" />
+		<item id="26191" name="energy bar" chance="100000" countmax="9" />
+		<item id="26165" name="mysterious remains" chance="100000" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="40" />
+		<item id="2664" name="wood cape" chance="65789" />
+		<item id="18411" name="muck rod" chance="65789" />
+		<item id="8473" name="ultimate health potion" chance="55263" countmax="16" />
+		<item id="10219" name="sacred tree amulet" chance="55263" />
+		<item id="7590" name="great mana potion" chance="53947" countmax="16" />
+		<item id="8472" name="great spirit potion" chance="52632" countmax="15" />
+		<item id="28398" name="fig leaf" chance="52632" />
+		<item id="28400" name="torn shirt" chance="44737" />
+		<item id="2155" name="green gem" chance="31579" countmax="2" />
+		<item id="25172" name="silver token" chance="26316" />
+		<item id="25377" name="gold token" chance="25000" />
+		<item id="2158" name="blue gem" chance="23684" />
+		<item id="2156" name="red gem" chance="23684" />
+		<item id="2145" name="small diamond" chance="23684" countmax="19" />
+		<item id="9970" name="small topaz" chance="22368" countmax="18" />
+		<item id="2195" name="boots of haste" chance="20000" />
+		<item id="5904" name="magic sulphur" chance="19737" />
+		<item id="2146" name="small sapphire" chance="19737" countmax="19" />
+		<item id="2149" name="small emerald" chance="19737" countmax="18" />
+		<item id="28355" name="wooden spellbook" chance="17105" />
+		<item id="12410" name="luminous orb" chance="17105" />
+		<item name="giant shimmering pearl" chance="15789" />
+		<item id="7886" name="terra boots" chance="15789" />
+		<item id="2154" name="yellow gem" chance="14474" />
+		<item id="2150" name="small amethyst" chance="13158" countmax="19" />
+		<item id="12608" name="broken key ring" chance="11842" />
+		<item id="11368" name="jade hat" chance="9211" />
+		<item id="24637" name="oriental shoes" chance="7895" />
+		<item id="7884" name="terra mantle" chance="7895" />
+		<item id="7463" name="mammoth fur cape" chance="7895" />
+		<item id="2153" name="violet gem" chance="7895" />
+		<item id="12630" name="cobra crown" chance="7895" />
+		<item id="8878" name="crystalline armor" chance="7895" />
+		<item id="7895" name="lightning legs" chance="2632" />
+		<item id="2507" name="elven legs" chance="1316" />
+		<item id="2505" name="elven mail" chance="1316" />
+		<item id="28017" name="blood of the mountain (item)" chance="1316" />
+	</loot>
 </monster>

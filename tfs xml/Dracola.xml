@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dracola" nameDescription="" experience="11000" speed="370" manacost="0">
+<monster name="Dracola" nameDescription="Dracola" race="blood" experience="11000" speed="370" manacost="0">
 	<health now="16200" max="16200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,41 +31,37 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-700" />
-	</attacks>
-	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="1620" max="4050" />
-	</defenses>
+	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="DEATH CAN'T STOP MY HUNGER!" yell="false" />
 		<voice sentence="Your new name is breakfast." yell="false" />
 		<voice sentence="I'm bad to the bone." yell="false" />
 	</voices>
 	<loot>
-		<item id="6546" name="dracola's eye" chance="100000" />
-		<item id="2148" name="gold coin" chance="100000" countmax="144" />
+		<item id="2148" name="gold coin" chance="100000" countmax="210" />
 		<item id="5944" name="soul orb" chance="100000" />
+		<item id="6546" name="dracola's eye" chance="100000" />
 		<item id="6500" name="demonic essence" chance="94118" />
 		<item id="2177" name="life crystal" chance="70588" />
 		<item id="2152" name="platinum coin" chance="41176" countmax="4" />
 		<item id="2489" name="dark armor" chance="29412" />
+		<item id="2146" name="small sapphire" chance="17647" countmax="4" />
 		<item id="7591" name="great health potion" chance="17647" />
 		<item id="7420" name="reaper's axe" chance="17647" />
-		<item id="2146" name="small sapphire" chance="17647" countmax="4" />
-		<item id="6300" name="death ring" chance="11765" />
 		<item id="7590" name="great mana potion" chance="11765" />
 		<item id="5925" name="hardened bone" chance="11765" />
-		<item id="2214" name="ring of healing" chance="5882" />
+		<item id="6300" name="death ring" chance="11765" />
 		<item id="5741" name="skull helmet" chance="5882" />
+		<item id="2214" name="ring of healing" chance="5882" />
+		<item id="2472" name="magic plate armor" chance="4000" />
 	</loot>
 </monster>

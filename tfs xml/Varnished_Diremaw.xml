@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Varnished Diremaw" nameDescription="a varnished diremaw" experience="5900" speed="240" manacost="0">
+<monster name="Varnished Diremaw" nameDescription="a varnished diremaw" race="blood" experience="5900" speed="240" manacost="0">
 	<health now="9000" max="9000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1397" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -29,46 +29,43 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element physicalPercent="-5" />
+		<element energyPercent="15" />
+		<element earthPercent="-5" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="5" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
-	</attacks>
 	<defenses armor="50" defense="50" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="100000" countmax="9" />
-		<item id="2181" name="terra rod" chance="29041" />
-		<item id="2127" name="emerald bangle" chance="11706" />
-		<item id="18417" name="brown crystal splinter" chance="9671" />
-		<item id="2156" name="red gem" chance="8278" />
-		<item id="18416" name="green crystal splinter" chance="7999" />
-		<item id="2145" name="small diamond" chance="7414" />
-		<item id="39438" name="varnished diremaw legs" chance="6940" />
-		<item id="18414" name="violet crystal shard" chance="6745" />
-		<item id="18419" name="cyan crystal fragment" chance="6299" />
-		<item id="39437" name="varnished diremaw brainpan" chance="5936" />
-		<item id="2155" name="green gem" chance="5602" />
-		<item id="2149" name="small emerald" chance="5379" />
-		<item id="18415" name="green crystal shard" chance="5323" />
-		<item id="2183" name="hailstorm rod" chance="4961" />
-		<item id="7387" name="diamond sceptre" chance="4013" />
-		<item id="8920" name="wand of starstorm" chance="3456" />
-		<item id="8912" name="springsprout rod" chance="3149" />
-		<item id="7892" name="glacier shoes" chance="2146" />
-		<item id="8901" name="spellbook of warding" chance="2146" />
-		<item id="24741" name="fur armor" chance="1644" />
-		<item id="2664" name="wood cape" chance="1589" />
-		<item id="7407" name="haunted blade" chance="1366" />
-		<item id="7896" name="glacier kilt" chance="1282" />
-		<item id="2519" name="crown shield" chance="1198" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="11" />
+		<item id="2181" name="terra rod" chance="34068" />
+		<item id="2127" name="emerald bangle" chance="13510" />
+		<item id="18417" name="brown crystal splinter" chance="11013" />
+		<item id="39438" name="varnished diremaw legs" chance="8664" />
+		<item id="18416" name="green crystal splinter" chance="8370" />
+		<item id="2156" name="red gem" chance="8076" />
+		<item id="2149" name="small emerald" chance="7930" />
+		<item id="18414" name="violet crystal shard" chance="7930" />
+		<item id="18419" name="cyan crystal fragment" chance="7489" />
+		<item id="2145" name="small diamond" chance="7342" />
+		<item id="18415" name="green crystal shard" chance="7342" />
+		<item id="2155" name="green gem" chance="7048" />
+		<item id="2183" name="hailstorm rod" chance="6314" />
+		<item id="39437" name="varnished diremaw brainpan" chance="5580" />
+		<item id="7387" name="diamond sceptre" chance="3818" />
+		<item id="8912" name="springsprout rod" chance="3671" />
+		<item id="7892" name="glacier shoes" chance="3377" />
+		<item id="8920" name="wand of starstorm" chance="3231" />
+		<item id="2664" name="wood cape" chance="2349" />
+		<item id="7407" name="haunted blade" chance="2203" />
+		<item id="7896" name="glacier kilt" chance="1468" />
+		<item id="8901" name="spellbook of warding" chance="1468" />
+		<item id="24741" name="fur armor" chance="1175" />
+		<item id="2519" name="crown shield" chance="1028" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ghost" nameDescription="a ghost" experience="120" speed="160" manacost="0">
+<monster name="Ghost" nameDescription="a ghost" race="undead" experience="120" speed="160" manacost="0">
 	<health now="150" max="150" />
 	<look type="48" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="100" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
+		<element drownPercent="100" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-80" />
@@ -50,14 +50,14 @@
 		<voice sentence="Buuuuuh" yell="false" />
 	</voices>
 	<loot>
-		<item id="2804" name="shadow herb" chance="14621" />
-		<item id="2394" name="morning star" chance="10727" />
-		<item id="2654" name="cape" chance="8977" />
-		<item id="2404" name="combat knife" chance="7039" />
-		<item id="5909" name="white piece of cloth" chance="1939" />
-		<item id="10607" name="ghostly tissue" chance="1842" />
-		<item name="book (orange)" chance="1422" />
-		<item id="2532" name="ancient shield" chance="799" />
-		<item id="2165" name="stealth ring" chance="180" />
+		<item id="2804" name="shadow herb" chance="14592" />
+		<item id="2394" name="morning star" chance="10703" />
+		<item id="2654" name="cape" chance="8957" />
+		<item id="2404" name="combat knife" chance="7031" />
+		<item id="5909" name="white piece of cloth" chance="1936" />
+		<item id="10607" name="ghostly tissue" chance="1839" />
+		<item name="book (orange)" chance="1428" />
+		<item id="2532" name="ancient shield" chance="808" />
+		<item id="2165" name="stealth ring" chance="178" />
 	</loot>
 </monster>

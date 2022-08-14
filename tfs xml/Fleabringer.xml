@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Fleabringer" nameDescription="" experience="100" speed="0" manacost="0">
+<monster name="Fleabringer" nameDescription="Fleabringer" race="blood" experience="100" speed="0" manacost="0">
 	<health now="265" max="265" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,13 +40,10 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="11324" name="shaggy tail" chance="100000" />
-		<item id="3976" name="worm" chance="80000" countmax="2" />
-		<item id="2666" name="meat" chance="20000" />
+		<item id="3976" name="worm" chance="80000" countmax="3" />
+		<item id="2666" name="meat" chance="20000" countmax="3" />
 	</loot>
 </monster>

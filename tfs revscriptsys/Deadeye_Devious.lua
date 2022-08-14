@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Deadeye Devious")
 local monster = {}
 
 monster.name = "Deadeye Devious"
-monster.description = ""
+monster.description = "Deadeye Devious"
 monster.experience = 750
 monster.outfit = {
 	lookType = 0,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -83,7 +83,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -93,16 +92,16 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 140},
 	{id = 6102, chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 121},
 	{id = 2463, chance = 81250},
 	{id = 2229, chance = 81250, maxCount = 2},
-	{id = 2666, chance = 43750},
+	{id = 2666, chance = 43750, maxCount = 3},
 	{id = 2379, chance = 25000},
 	{id = 2476, chance = 25000},
 	{id = 2145, chance = 18750},
-	{id = 2387, chance = 6250},
 	{id = 7591, chance = 6250},
+	{id = 2387, chance = 6250},
 	{id = 5926, chance = 6250},
 	{id = 10103, chance = 6250}
 }

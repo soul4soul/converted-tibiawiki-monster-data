@@ -74,16 +74,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 35},
+	{type = COMBAT_ENERGYDAMAGE, percent = 35},
+	{type = COMBAT_EARTHDAMAGE, percent = 35},
+	{type = COMBAT_FIREDAMAGE, percent = 35},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 35},
+	{type = COMBAT_HOLYDAMAGE , percent = 35},
+	{type = COMBAT_DEATHDAMAGE , percent = 35}
 }
 
 monster.attacks = {
@@ -98,42 +98,49 @@ monster.defenses = {
 
 monster.maxSummons = 3
 monster.summons = {
-	{name = "Demon", chance = 15, interval = 2000, max = 1}
+	{name = "Demon", chance = 15, interval = 2000, max = 3}
 }
 
 monster.loot = {
+	{id = 2152, chance = 100000, maxCount = 20},
+	{id = 2155, chance = 100000},
 	{id = 22396, chance = 100000, maxCount = 2},
-	{id = 22598, chance = 93750, maxCount = 3},
-	{id = 6500, chance = 90625},
-	{id = 2152, chance = 87500, maxCount = 20},
+	{id = 22598, chance = 100000, maxCount = 3},
+	{id = 6500, chance = 100000},
+	{id = 8472, chance = 50000, maxCount = 8},
+	{id = 18420, chance = 50000, maxCount = 3},
+	{id = 2214, chance = 50000},
+	{id = 7456, chance = 50000},
+	{id = 18415, chance = 50000, maxCount = 5},
+	{id = 18414, chance = 50000, maxCount = 5},
+	{id = 18419, chance = 50000, maxCount = 3},
 	{id = 18421, chance = 43750, maxCount = 3},
 	{id = 18413, chance = 40625, maxCount = 5},
-	{id = 2155, chance = 40625},
 	{id = 7633, chance = 34375},
-	{id = 18414, chance = 34375, maxCount = 5},
-	{id = 7590, chance = 31250, maxCount = 8},
-	{id = 18419, chance = 31250, maxCount = 3},
 	{id = 22610, chance = 28125},
-	{id = 8472, chance = 28125, maxCount = 8},
+	{id = 5741, chance = 25000},
 	{id = 7898, chance = 25000},
-	{id = 18420, chance = 25000, maxCount = 3},
+	{id = 8878, chance = 25000},
+	{id = 2645, chance = 25000},
 	{id = 5954, chance = 25000},
+	{id = 7590, chance = 25000, maxCount = 8},
+	{id = 8473, chance = 25000, maxCount = 8},
 	{id = 2148, chance = 25000, maxCount = 100},
-	{id = 18415, chance = 25000, maxCount = 5},
-	{id = 8473, chance = 21875, maxCount = 8},
-	{id = 2214, chance = 18750},
-	{id = 2645, chance = 15625},
+	{id = 22616, chance = 25000},
+	{id = 8918, chance = 20000},
+	{id = 7453, chance = 20000},
+	{id = 22608, chance = 20000},
+	{id = 22397, chance = 20000},
+	{id = 8926, chance = 20000},
+	{id = "giant shimmering pearl", chance = 20000},
+	{id = 2487, chance = 20000},
 	{id = 7893, chance = 15625},
 	{id = 22612, chance = 12500},
-	{id = 22613, chance = 9375},
-	{id = 7456, chance = 9375},
-	{id = 5741, chance = 9375},
 	{id = 7418, chance = 9375},
-	{id = 22616, chance = 9375},
-	{id = 22611, chance = 6250},
+	{id = 22613, chance = 9375},
 	{id = 7417, chance = 6250},
+	{id = 22611, chance = 6250},
 	{id = 7414, chance = 3125},
-	{id = 8878, chance = 3125},
 	{id = 2136, chance = 3125}
 }
 

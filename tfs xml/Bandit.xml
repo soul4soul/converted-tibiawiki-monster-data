@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Bandit" nameDescription="a bandit" experience="65" speed="180" manacost="450">
+<monster name="Bandit" nameDescription="a bandit" race="blood" experience="65" speed="180" manacost="450">
 	<health now="245" max="245" />
 	<look type="129" head="58" body="40" legs="24" feet="95" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-10" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -38,7 +38,7 @@
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-43" />
@@ -49,14 +49,14 @@
 		<voice sentence="Your money or your life!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="48957" countmax="30" />
-		<item id="2386" name="axe" chance="29905" />
-		<item id="2511" name="brass shield" chance="16790" />
-		<item id="2649" name="leather legs" chance="14964" />
-		<item id="2398" name="mace" chance="10341" />
-		<item id="2685" name="tomato" chance="7696" countmax="2" />
-		<item id="2458" name="chain helmet" chance="4964" />
-		<item id="2465" name="brass armor" chance="2371" />
-		<item id="2459" name="iron helmet" chance="541" />
+		<item id="2148" name="gold coin" chance="48936" countmax="30" />
+		<item id="2386" name="axe" chance="29907" />
+		<item id="2511" name="brass shield" chance="16778" />
+		<item id="2649" name="leather legs" chance="14961" />
+		<item id="2398" name="mace" chance="10350" />
+		<item id="2685" name="tomato" chance="7697" countmax="2" />
+		<item id="2458" name="chain helmet" chance="4960" />
+		<item id="2465" name="brass armor" chance="2383" />
+		<item id="2459" name="iron helmet" chance="543" />
 	</loot>
 </monster>

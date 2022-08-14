@@ -70,34 +70,32 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 50},
+	{type = COMBAT_EARTHDAMAGE, percent = 50},
+	{type = COMBAT_FIREDAMAGE, percent = 50},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 50},
+	{type = COMBAT_HOLYDAMAGE , percent = 50},
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1800}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 500}
+	armor = 10
 }
 
 monster.loot = {
+	{id = 2152, chance = 100000, maxCount = 60},
+	{id = 22397, chance = 100000},
+	{id = 22598, chance = 100000},
+	{id = 6500, chance = 100000},
 	{id = 22396, chance = 100000},
 	{id = 5954, chance = 100000},
-	{id = 6500, chance = 100000},
-	{id = 22397, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 60},
-	{id = 22598, chance = 100000},
 	{id = "giant shimmering pearl", chance = 41811},
 	{id = 18414, chance = 37958, maxCount = 8},
 	{id = 7590, chance = 33526, maxCount = 10},
@@ -106,6 +104,7 @@ monster.loot = {
 	{id = 18413, chance = 31599, maxCount = 8},
 	{id = 18415, chance = 30058, maxCount = 8},
 	{id = 2155, chance = 25626},
+	{id = 8882, chance = 20000},
 	{id = 2145, chance = 17726, maxCount = 25},
 	{id = 2147, chance = 15029, maxCount = 25},
 	{id = 9970, chance = 14836, maxCount = 25},
@@ -120,8 +119,8 @@ monster.loot = {
 	{id = 2519, chance = 10405},
 	{id = 22610, chance = 10019},
 	{id = 2520, chance = 6166},
-	{id = 2195, chance = 5395},
 	{id = 2645, chance = 5395},
+	{id = 2195, chance = 5395},
 	{id = 5741, chance = 4239},
 	{id = 2498, chance = 2697},
 	{id = 2472, chance = 1734},

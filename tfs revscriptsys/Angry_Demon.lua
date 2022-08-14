@@ -70,22 +70,26 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 25},
+	{type = COMBAT_ENERGYDAMAGE, percent = 50},
+	{type = COMBAT_EARTHDAMAGE, percent = 40},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = -12},
+	{type = COMBAT_HOLYDAMAGE , percent = -12},
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -150, maxDamage = -250, radius = 7, target = true, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -300, maxDamage = -480, length = 8, spread = 0, effect = CONST_ME_ENERGYHIT}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -300, maxDamage = -480, length = 8, spread = 0, effect = CONST_ME_PURPLEENERGY},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -210, maxDamage = -300, range = 1, radius = 1, target = true, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYHIT},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_MANADRAIN, minDamage = -30, maxDamage = -120, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_SMALLCLOUDS},
+	{name ="firefield", interval = 2000, chance = 15, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_FIRE},
+	{name ="speed", interval = 2000, chance = 15, speed = {min = -400, max = -400}, duration = 20000, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_SMALLCLOUDS}
 }
 
 monster.defenses = {
@@ -100,18 +104,39 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 84},
-	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 2795, chance = 40000, maxCount = 6},
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 2152, chance = 100000, maxCount = 6},
 	{id = 2164, chance = 40000},
-	{id = 2150, chance = 40000, maxCount = 2},
 	{id = 8473, chance = 40000, maxCount = 3},
-	{id = 6500, chance = 20000},
-	{id = 2462, chance = 20000},
-	{id = 8472, chance = 20000, maxCount = 3},
+	{id = 2795, chance = 40000, maxCount = 6},
+	{id = 2150, chance = 40000, maxCount = 5},
+	{id = 7590, chance = 35000, maxCount = 3},
 	{id = 2176, chance = 20000},
+	{id = 2151, chance = 20000},
 	{id = 2149, chance = 20000, maxCount = 5},
-	{id = 2151, chance = 20000}
+	{id = 2462, chance = 20000},
+	{id = 6500, chance = 20000},
+	{id = 8472, chance = 20000, maxCount = 3},
+	{id = 9970, chance = 15000, maxCount = 5},
+	{id = 7368, chance = 15000, maxCount = 10},
+	{id = 5954, chance = 15000},
+	{id = 2147, chance = 15000, maxCount = 5},
+	{id = 2514, chance = 7500},
+	{id = 2171, chance = 7500},
+	{id = 2520, chance = 7500},
+	{id = 2472, chance = 4000},
+	{id = 2470, chance = 4000},
+	{id = 7382, chance = 4000},
+	{id = 7393, chance = 4000},
+	{id = 1982, chance = 2500},
+	{id = 2396, chance = 2500},
+	{id = 2179, chance = 2500},
+	{id = 2393, chance = 2500},
+	{id = 2214, chance = 2500},
+	{id = 2156, chance = 2500},
+	{id = 2432, chance = 2500},
+	{id = 2418, chance = 2500},
+	{id = 2165, chance = 2500}
 }
 
 mType:register(monster)

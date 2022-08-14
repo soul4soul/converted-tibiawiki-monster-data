@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Burning Gladiator" nameDescription="a burning gladiator" experience="7350" speed="290" manacost="0">
+<monster name="Burning Gladiator" nameDescription="a burning gladiator" race="blood" experience="7350" speed="290" manacost="0">
 	<health now="10000" max="10000" />
 	<look type="541" head="95" body="113" legs="3" feet="3" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="1" />
@@ -29,19 +29,30 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="20" />
+		<element energyPercent="20" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-550" />
+		<attack name="fire" interval="2000" chance="15" min="-300" max="-500" ring="3" target="0">
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="-300" max="-500" radius="2" target="0">
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="-300" max="-500" ring="2" target="0">
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="energy" interval="2000" chance="15" min="-300" max="-500" length="3" spread="0">
+			<attribute key="areaEffect" value="energy" />
+		</attack>
 	</attacks>
 	<defenses armor="89" defense="89" />
 	<voices interval="5000" chance="10">
@@ -51,20 +62,23 @@
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="4" />
-		<item id="34099" name="fafnar symbol" chance="10111" />
-		<item name="secret instruction" chance="7386" />
-		<item id="2201" name="dragon necklace" chance="5933" />
-		<item id="2161" name="strange talisman" chance="5005" />
-		<item id="7889" name="lightning pendant" chance="4642" />
-		<item id="7890" name="magma amulet" chance="4420" />
-		<item id="7901" name="lightning headband" chance="4258" />
-		<item id="7891" name="magma boots" chance="4238" />
-		<item id="7895" name="lightning legs" chance="4016" />
-		<item id="33987" name="empty honey glass" chance="2563" />
-		<item id="2198" name="elven amulet" chance="2543" />
-		<item id="7893" name="lightning boots" chance="1655" />
-		<item id="11355" name="spellweaver's robe" chance="1130" />
-		<item id="33980" name="golden mask" chance="908" />
-		<item id="33979" name="sea horse figurine" chance="585" />
+		<item id="34099" name="fafnar symbol" chance="10107" />
+		<item name="secret instruction" chance="7372" />
+		<item id="2201" name="dragon necklace" chance="6122" />
+		<item id="2161" name="strange talisman" chance="4872" />
+		<item id="7889" name="lightning pendant" chance="4673" />
+		<item id="7890" name="magma amulet" chance="4510" />
+		<item id="7901" name="lightning headband" chance="4347" />
+		<item id="7891" name="magma boots" chance="4256" />
+		<item id="7895" name="lightning legs" chance="3894" />
+		<item id="2198" name="elven amulet" chance="2572" />
+		<item id="33987" name="empty honey glass" chance="2572" />
+		<item id="34089" name="secret instruction (gryphon)" chance="2500" />
+		<item id="34092" name="secret instruction (mirror)" chance="2500" />
+		<item id="34091" name="secret instruction (silver)" chance="2500" />
+		<item id="7893" name="lightning boots" chance="1666" />
+		<item id="11355" name="spellweaver's robe" chance="1087" />
+		<item id="33980" name="golden mask" chance="833" />
+		<item id="33979" name="sea horse figurine" chance="580" />
 	</loot>
 </monster>

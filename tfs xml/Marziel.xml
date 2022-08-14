@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Marziel" nameDescription="" experience="3000" speed="0" manacost="0">
+<monster name="Marziel" nameDescription="Marziel" race="blood" experience="3000" speed="0" manacost="0">
 	<health now="1900" max="1900" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="43" />
+		<element energyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="-5" />
+		<element deathPercent="100" />
 	</elements>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="190" max="475" />
@@ -51,11 +51,15 @@
 		<voice sentence="You! You had no right to read my diary!" yell="false" />
 		<voice sentence="I... want... your... blood!" yell="false" />
 	</voices>
+	<summons maxSummons="3">
+		<voice name="Vampire" interval="2000" chance="15" max="3" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="80" />
-		<item id="2152" name="platinum coin" chance="23077" countmax="5" />
+		<item id="2148" name="gold coin" chance="100000" countmax="100" />
+		<item id="2152" name="platinum coin" chance="23077" countmax="7" />
 		<item id="7588" name="strong health potion" chance="15385" />
 		<item id="2214" name="ring of healing" chance="7692" />
 		<item id="2534" name="vampire shield" chance="7692" />
+		<item id="7419" name="dreaded cleaver" chance="4000" />
 	</loot>
 </monster>

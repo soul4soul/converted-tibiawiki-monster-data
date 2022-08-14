@@ -66,19 +66,21 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 20},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -110}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -110},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -180, radius = 3, target = true, shootEffect = CONST_ANI_ENVENOMEDARROW, effect = CONST_ME_GREEN_RINGS},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = 0, maxDamage = -150, range = 7, radius = 1, target = true, shootEffect = CONST_ANI_POISON, effect = CONST_ME_GREEN_RINGS}
 }
 
 monster.defenses = {
@@ -93,13 +95,13 @@ monster.summons = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 70},
-	{id = 23553, chance = 14616},
-	{id = 2146, chance = 3146, maxCount = 2},
-	{id = 9970, chance = 2868, maxCount = 2},
-	{id = 23551, chance = 633},
-	{id = 23549, chance = 595},
-	{id = 23554, chance = 508},
-	{id = 23550, chance = 508}
+	{id = 23553, chance = 14688},
+	{id = 2146, chance = 3091, maxCount = 2},
+	{id = 9970, chance = 2872, maxCount = 2},
+	{id = 23549, chance = 615},
+	{id = 23551, chance = 581},
+	{id = 23554, chance = 531},
+	{id = 23550, chance = 497}
 }
 
 mType:register(monster)

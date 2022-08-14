@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Carnisylvan" nameDescription="a memory of a carnisylvan" experience="1850" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Carnisylvan" nameDescription="a memory of a carnisylvan" race="blood" experience="1850" speed="0" manacost="0">
+	<health now="3800" max="3800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -42,17 +42,17 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="99371" countmax="100" />
-		<item id="8472" name="great spirit potion" chance="14465" />
-		<item id="9970" name="small topaz" chance="6289" />
-		<item name="wooden trash" chance="5660" />
-		<item id="2795" name="fire mushroom" chance="5031" countmax="3" />
-		<item name="giant shimmering pearl" chance="3774" />
-		<item id="37531" name="candy floss (large)" chance="3145" />
-		<item id="2127" name="emerald bangle" chance="2516" />
-		<item id="18397" name="mushroom pie" chance="2516" />
-		<item id="37530" name="bottle of champagne" chance="1258" />
-		<item id="27048" name="gemmed figurine" chance="629" />
-		<item id="37468" name="special fx box" chance="629" />
+		<item id="2148" name="gold coin" chance="92308" countmax="98" />
+		<item id="9970" name="small topaz" chance="20000" />
+		<item id="27048" name="gemmed figurine" chance="20000" />
+		<item id="37531" name="candy floss (large)" chance="20000" />
+		<item id="37530" name="bottle of champagne" chance="20000" />
+		<item id="2127" name="emerald bangle" chance="20000" />
+		<item id="37468" name="special fx box" chance="20000" />
+		<item id="8472" name="great spirit potion" chance="15385" />
+		<item id="18397" name="mushroom pie" chance="7692" />
+		<item id="2795" name="fire mushroom" chance="7692" countmax="2" />
+		<item name="wooden trash" chance="7692" />
+		<item name="giant shimmering pearl" chance="7692" />
 	</loot>
 </monster>

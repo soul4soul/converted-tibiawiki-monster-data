@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Rotspit" nameDescription="" experience="0" speed="0" manacost="0">
+<monster name="Rotspit" nameDescription="" race="blood" experience="0" speed="0" manacost="0">
 	<health now="6800" max="6800" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,28 +40,24 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="5" max="20" />
-		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
-			<attribute key="areaEffect" value="redshimmer" />
-		</defense>
-	</defenses>
+	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Spotz!" yell="false" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="167" />
 		<item id="15481" name="spitter nose" chance="100000" />
-		<item id="15486" name="compound eye" chance="86667" />
-		<item id="2152" name="platinum coin" chance="83333" countmax="5" />
-		<item id="16096" name="dung ball (quest)" chance="63333" countmax="2" />
-		<item id="7590" name="great mana potion" chance="53333" countmax="2" />
-		<item id="2149" name="small emerald" chance="50000" countmax="2" />
-		<item id="2150" name="small amethyst" chance="46667" countmax="2" />
+		<item id="15486" name="compound eye" chance="85714" />
+		<item id="2152" name="platinum coin" chance="82857" countmax="5" />
+		<item id="16096" name="dung ball (quest)" chance="62857" countmax="2" />
+		<item id="7590" name="great mana potion" chance="54286" countmax="2" />
+		<item id="2150" name="small amethyst" chance="48571" countmax="2" />
+		<item id="2149" name="small emerald" chance="48571" countmax="2" />
 		<item id="7591" name="great health potion" chance="40000" countmax="2" />
-		<item id="2789" name="brown mushroom" chance="36667" countmax="3" />
-		<item id="7449" name="crystal sword" chance="13333" />
-		<item id="2497" name="crusader helmet" chance="3333" />
-		<item name="giant shimmering pearl" chance="3333" />
+		<item id="2789" name="brown mushroom" chance="37143" countmax="3" />
+		<item id="7449" name="crystal sword" chance="14286" />
+		<item id="2497" name="crusader helmet" chance="2857" />
+		<item name="giant shimmering pearl" chance="2857" />
+		<item id="2169" name="time ring" chance="2857" />
 	</loot>
 </monster>

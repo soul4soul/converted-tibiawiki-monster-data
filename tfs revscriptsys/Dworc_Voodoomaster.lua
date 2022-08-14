@@ -70,18 +70,19 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -15},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = -10},
+	{type = COMBAT_HOLYDAMAGE , percent = 35},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -20}
+	{name ="outfit", interval = 2000, chance = 15, monster = "Chicken", duration = 5000},
+	{name ="poisonfield", interval = 2000, chance = 15, range = 7, radius = 1, target = true, shootEffect = CONST_ANI_POISON}
 }
 
 monster.defenses = {
@@ -92,17 +93,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 74832, maxCount = 17},
-	{id = 2467, chance = 10090},
-	{id = 2230, chance = 5814},
-	{id = "torch", chance = 5546},
-	{id = 2231, chance = 3065},
-	{id = 2229, chance = 1973, maxCount = 3},
-	{id = 2411, chance = 1009},
-	{id = 7618, chance = 586},
-	{id = 2174, chance = 503},
-	{id = 3967, chance = 486},
-	{id = 3955, chance = 120}
+	{id = 2148, chance = 74837, maxCount = 17},
+	{id = 2467, chance = 10096},
+	{id = 2230, chance = 5804},
+	{id = "torch", chance = 5527},
+	{id = 2231, chance = 3068},
+	{id = 2229, chance = 1979, maxCount = 3},
+	{id = 2411, chance = 1008},
+	{id = 7618, chance = 584},
+	{id = 2174, chance = 508},
+	{id = 3967, chance = 485},
+	{id = 3955, chance = 119}
 }
 
 mType:register(monster)

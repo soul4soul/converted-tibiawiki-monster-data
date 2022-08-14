@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Dwarf"
 monster.description = "a memory of a dwarf"
-monster.experience = 0
+monster.experience = 1460
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3730
+monster.maxHealth = 3730
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -97,8 +97,8 @@ monster.loot = {
 	{id = 2387, chance = 3093},
 	{id = 2214, chance = 2577},
 	{id = 2208, chance = 1546},
-	{id = 7891, chance = 1546},
-	{id = 3351, chance = 1546}
+	{id = 3351, chance = 1546},
+	{id = 7891, chance = 1546}
 }
 
 mType:register(monster)

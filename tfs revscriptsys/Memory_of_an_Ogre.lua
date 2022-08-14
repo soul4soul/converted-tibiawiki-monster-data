@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of An Ogre"
 monster.description = "a memory of an ogre"
-monster.experience = 0
+monster.experience = 1680
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3570
+monster.maxHealth = 3570
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,22 +86,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 123},
-	{id = 2666, chance = 29603},
-	{id = 7588, chance = 24549},
-	{id = 2147, chance = 7942, maxCount = 2},
-	{id = 1294, chance = 7942, maxCount = 5},
-	{id = 24849, chance = 7220, maxCount = 2},
-	{id = 2687, chance = 6498, maxCount = 5},
-	{id = 24850, chance = 5776, maxCount = 2},
-	{id = 2143, chance = 5415},
-	{id = 2209, chance = 4693},
-	{id = 2166, chance = 3249},
-	{id = 37531, chance = 2166},
-	{id = 37530, chance = 1083},
-	{id = 2562, chance = 1083},
-	{id = 37468, chance = 722},
-	{id = 9821, chance = 361}
+	{id = 2148, chance = 100000, maxCount = 112},
+	{id = 2666, chance = 30303},
+	{id = 7588, chance = 27273},
+	{id = 2143, chance = 20000},
+	{id = 37468, chance = 20000},
+	{id = 2562, chance = 20000},
+	{id = 37531, chance = 20000},
+	{id = 37530, chance = 20000},
+	{id = 9821, chance = 20000},
+	{id = 2687, chance = 12121, maxCount = 3},
+	{id = 1294, chance = 12121, maxCount = 4},
+	{id = 2166, chance = 12121},
+	{id = 2147, chance = 6061, maxCount = 2},
+	{id = 24850, chance = 3030},
+	{id = 24849, chance = 3030, maxCount = 2},
+	{id = 2209, chance = 3030}
 }
 
 mType:register(monster)

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Grand Mother Foulscale")
 local monster = {}
 
 monster.name = "Grand Mother Foulscale"
-monster.description = ""
+monster.description = "Grand Mother Foulscale"
 monster.experience = 1400
 monster.outfit = {
 	lookType = 0,
@@ -69,17 +69,16 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -5},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -89,19 +88,24 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 5877, chance = 100000},
 	{id = 5920, chance = 100000},
-	{id = 2148, chance = 86111, maxCount = 97},
-	{id = 2672, chance = 33333},
-	{id = 2387, chance = 16667},
-	{id = 2647, chance = 16667},
-	{id = 2434, chance = 11111},
-	{id = 2455, chance = 8333},
-	{id = 2546, chance = 5556, maxCount = 7},
-	{id = 2516, chance = 5556},
-	{id = 3351, chance = 5556},
-	{id = 2413, chance = 2778},
-	{id = 7430, chance = 2778}
+	{id = 5877, chance = 100000},
+	{id = 2148, chance = 86486, maxCount = 97},
+	{id = 2672, chance = 32432},
+	{id = 2406, chance = 20000},
+	{id = 2509, chance = 20000},
+	{id = 2398, chance = 20000},
+	{id = 2397, chance = 20000},
+	{id = 2187, chance = 20000},
+	{id = 2647, chance = 16216},
+	{id = 2387, chance = 16216},
+	{id = 2434, chance = 13514},
+	{id = 2455, chance = 8108},
+	{id = 2516, chance = 5405},
+	{id = 3351, chance = 5405},
+	{id = 2546, chance = 5405, maxCount = 8},
+	{id = 7430, chance = 2703},
+	{id = 2413, chance = 2703}
 }
 
 mType:register(monster)

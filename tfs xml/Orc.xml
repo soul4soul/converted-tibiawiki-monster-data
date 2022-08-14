@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Orc" nameDescription="an orc" experience="25" speed="150" manacost="300">
+<monster name="Orc" nameDescription="an orc" race="blood" experience="25" speed="150" manacost="300">
 	<health now="70" max="70" />
 	<look type="5" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-35" />
@@ -50,15 +50,15 @@
 		<voice sentence="Grak brrretz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="84809" countmax="14" />
-		<item id="2666" name="meat" chance="9731" />
-		<item id="2484" name="studded armor" chance="8232" />
-		<item id="2526" name="studded shield" chance="6704" />
-		<item id="2385" name="sabre" chance="5573" />
-		<item id="2386" name="axe" chance="5516" />
-		<item id="2482" name="studded helmet" chance="2829" />
-		<item id="26642" name="heavy old tome" chance="2263" />
-		<item id="12435" name="orc leather" chance="368" />
-		<item id="11113" name="orc tooth" chance="57" />
+		<item id="2148" name="gold coin" chance="84754" countmax="14" />
+		<item id="2666" name="meat" chance="9565" />
+		<item id="2484" name="studded armor" chance="8210" />
+		<item id="2526" name="studded shield" chance="6672" />
+		<item id="2386" name="axe" chance="5551" />
+		<item id="2385" name="sabre" chance="5499" />
+		<item id="2482" name="studded helmet" chance="2789" />
+		<item id="26642" name="heavy old tome" chance="2163" />
+		<item id="12435" name="orc leather" chance="339" />
+		<item id="11113" name="orc tooth" chance="52" />
 	</loot>
 </monster>

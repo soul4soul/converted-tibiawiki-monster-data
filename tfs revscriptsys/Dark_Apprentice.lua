@@ -78,28 +78,28 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -30},
-	{name ="combat", interval = 2000, chance = 100, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -24, range = 7, shootEffect = CONST_ANI_SMALLSTONE}
 }
 
 monster.defenses = {
 	defense = 16,
 	armor = 16,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 22, maxDamage = 56}
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 22, maxDamage = 56},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Green Frog", duration = 5000}
 }
 
 monster.loot = {
-	{id = 2148, chance = 75053, maxCount = 45},
-	{id = "dead frog", chance = 11918},
-	{id = 2260, chance = 8034, maxCount = 3},
-	{id = 7620, chance = 2996},
-	{id = 7618, chance = 2886},
-	{id = 2191, chance = 2002},
-	{id = 2188, chance = 108},
+	{id = 2148, chance = 75043, maxCount = 45},
+	{id = 36893, chance = 15000},
+	{id = "dead frog", chance = 11915},
+	{id = 2260, chance = 8031, maxCount = 3},
+	{id = 7620, chance = 2993},
+	{id = 7618, chance = 2884},
+	{id = 2191, chance = 2004},
+	{id = 2188, chance = 107},
 	{id = 13295, chance = 7}
 }
 

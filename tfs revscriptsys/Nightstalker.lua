@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -71,20 +71,20 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_HOLYDAMAGE , percent = 20},
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -90}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -90, condition = {type = CONDITION_POISON, startDamage = 75, interval = }}
 }
 
 monster.defenses = {
@@ -95,15 +95,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 89988, maxCount = 110},
-	{id = 2804, chance = 4750},
-	{id = 7589, chance = 1522},
-	{id = 2124, chance = 973},
-	{id = 2200, chance = 909},
-	{id = 8870, chance = 489},
+	{id = 2148, chance = 89993, maxCount = 110},
+	{id = 2804, chance = 4757},
+	{id = 7589, chance = 1524},
+	{id = 2124, chance = 972},
+	{id = 2200, chance = 907},
+	{id = 8870, chance = 488},
 	{id = 7407, chance = 318},
 	{id = 2171, chance = 166},
-	{id = 9942, chance = 125},
+	{id = 9942, chance = 124},
 	{id = 2195, chance = 115},
 	{id = 7427, chance = 101}
 }

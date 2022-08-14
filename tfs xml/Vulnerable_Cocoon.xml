@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Vulnerable Cocoon" nameDescription="a vulnerable cocoon" experience="0" speed="0" manacost="0">
+<monster name="Vulnerable Cocoon" nameDescription="a vulnerable cocoon" race="blood" experience="0" speed="0" manacost="0">
 	<health now="200000" max="200000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,12 +40,7 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
-	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="4500" max="5500" />
-	</defenses>
+	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="GO AWAY!" yell="false" />
 		<voice sentence="GET OUT ME!" yell="false" />

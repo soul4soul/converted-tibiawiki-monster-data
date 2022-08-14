@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 4,
+	color = 139
 }
 
 monster.voices = {
@@ -69,19 +69,19 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 15},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -260}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -260, condition = {type = CONDITION_POISON, startDamage = 360, interval = }}
 }
 
 monster.defenses = {
@@ -91,26 +91,26 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 99472, maxCount = 165},
-	{id = 2152, chance = 55580, maxCount = 2},
-	{id = 23553, chance = 12935},
-	{id = 2149, chance = 5688, maxCount = 3},
-	{id = 2150, chance = 5640, maxCount = 3},
-	{id = 2147, chance = 5592, maxCount = 3},
-	{id = 9970, chance = 5520, maxCount = 3},
-	{id = 2145, chance = 5304, maxCount = 3},
-	{id = 2146, chance = 5136, maxCount = 3},
-	{id = 23549, chance = 3120},
-	{id = 23551, chance = 2832},
-	{id = 2151, chance = 2616},
-	{id = 23550, chance = 2568},
-	{id = 2154, chance = 1704},
-	{id = 23529, chance = 1464},
-	{id = 8912, chance = 1008},
-	{id = 2181, chance = 648},
-	{id = 23554, chance = 552},
-	{id = 23535, chance = 72},
-	{id = 2155, chance = 24}
+	{id = 2148, chance = 99460, maxCount = 165},
+	{id = 2152, chance = 56100, maxCount = 2},
+	{id = 23553, chance = 13309},
+	{id = 2149, chance = 5710, maxCount = 3},
+	{id = 2147, chance = 5680, maxCount = 3},
+	{id = 9970, chance = 5591, maxCount = 3},
+	{id = 2146, chance = 5351, maxCount = 3},
+	{id = 2150, chance = 5351, maxCount = 3},
+	{id = 2145, chance = 5171, maxCount = 3},
+	{id = 23551, chance = 2908},
+	{id = 23549, chance = 2803},
+	{id = 23550, chance = 2638},
+	{id = 2151, chance = 2488},
+	{id = 2154, chance = 1709, maxCount = 2},
+	{id = 23529, chance = 1604},
+	{id = 8912, chance = 1034},
+	{id = 23554, chance = 719},
+	{id = 2181, chance = 719},
+	{id = 23535, chance = 195},
+	{id = 2155, chance = 60}
 }
 
 mType:register(monster)

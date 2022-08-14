@@ -66,8 +66,8 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -8},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -79,9 +79,10 @@ monster.elements = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -550},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -600, maxDamage = -800, radius = 3, target = true, shootEffect = CONST_ANI_POISONARROW, effect = CONST_ME_HITBYPOISON},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -500, maxDamage = -700, effect = CONST_ME_MAGIC_BLUE},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -1000, maxDamage = -1300, length = 3, spread = 2, effect = CONST_ME_LOSEENERGY}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -600, maxDamage = -900, radius = 3, target = true, shootEffect = CONST_ANI_POISONARROW, effect = CONST_ME_HITBYPOISON},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -600, maxDamage = -850, effect = CONST_ME_MAGIC_BLUE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -700, maxDamage = -950, radius = 4, target = false, effect = CONST_ME_MAGIC_BLUE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -1200, maxDamage = -1650, length = 3, spread = 2, effect = CONST_ME_LOSEENERGY}
 }
 
 monster.defenses = {
@@ -90,25 +91,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 74513, maxCount = 25},
-	{id = 18437, chance = 69680, maxCount = 50},
-	{id = 2145, chance = 68355, maxCount = 7},
-	{id = 9970, chance = 49649, maxCount = 3},
-	{id = 31224, chance = 44661, maxCount = 4},
-	{id = 10557, chance = 34762},
-	{id = 7633, chance = 14965},
-	{id = 7886, chance = 6157},
-	{id = 7903, chance = 6002},
-	{id = 2158, chance = 5378},
-	{id = 7885, chance = 2650},
-	{id = 10219, chance = 1793},
-	{id = 2197, chance = 1793},
-	{id = 2200, chance = 1247},
-	{id = 7884, chance = 1169},
-	{id = 8912, chance = 701},
-	{id = 11339, chance = 624},
-	{id = 7887, chance = 546},
-	{id = 8880, chance = 78}
+	{id = 2152, chance = 74692, maxCount = 25},
+	{id = 18437, chance = 69851, maxCount = 50},
+	{id = 2145, chance = 66582, maxCount = 7},
+	{id = 9970, chance = 49512, maxCount = 3},
+	{id = 31224, chance = 43779, maxCount = 4},
+	{id = 10557, chance = 34862, maxCount = 9},
+	{id = 7633, chance = 15372, maxCount = 3},
+	{id = 7903, chance = 5648},
+	{id = 7886, chance = 5393},
+	{id = 2158, chance = 4926},
+	{id = 7885, chance = 2845},
+	{id = 2197, chance = 1826},
+	{id = 10219, chance = 1826},
+	{id = 2200, chance = 1231},
+	{id = 7884, chance = 1062},
+	{id = 8912, chance = 637},
+	{id = 11339, chance = 594},
+	{id = 7887, chance = 510},
+	{id = 8880, chance = 42}
 }
 
 mType:register(monster)

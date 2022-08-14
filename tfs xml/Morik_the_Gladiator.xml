@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Morik_The_Gladiator" nameDescription="" experience="160" speed="0" manacost="0">
+<monster name="Morik_The_Gladiator" nameDescription="" race="blood" experience="160" speed="0" manacost="0">
 	<health now="1235" max="1235" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="10" />
+		<element earthPercent="10" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="10" />
+		<element deathPercent="-1" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="To be the one you'll have to beat the one!" yell="false" />
@@ -50,6 +47,9 @@
 		<voice sentence="I am the best!" yell="false" />
 		<voice sentence="I'll take your ears as a trophy!" yell="false" />
 	</voices>
+	<summons maxSummons="2">
+		<voice name="Gladiator" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
 		<item id="9735" name="morik's helmet" chance="100000" />
 	</loot>

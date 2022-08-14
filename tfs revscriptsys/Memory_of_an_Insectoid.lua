@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of An Insectoid"
 monster.description = "a memory of an insectoid"
-monster.experience = 0
+monster.experience = 1610
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3630
+monster.maxHealth = 3630
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,15 +86,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 90},
-	{id = 7590, chance = 13508},
-	{id = 7618, chance = 7843},
-	{id = 37531, chance = 7190},
-	{id = 2155, chance = 3704},
-	{id = 2149, chance = 3268},
-	{id = 37530, chance = 871},
-	{id = 37468, chance = 436},
-	{id = 2438, chance = 218}
+	{id = 2148, chance = 100000, maxCount = 87},
+	{id = 2438, chance = 20000},
+	{id = 7590, chance = 20000},
+	{id = 37530, chance = 20000},
+	{id = 37468, chance = 20000},
+	{id = 2149, chance = 20000},
+	{id = 2155, chance = 20000},
+	{id = 37531, chance = 20000},
+	{id = 7618, chance = 10000}
 }
 
 mType:register(monster)

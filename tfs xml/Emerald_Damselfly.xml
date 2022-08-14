@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Emerald Damselfly" nameDescription="an emerald damselfly" experience="35" speed="200" manacost="0">
+<monster name="Emerald Damselfly" nameDescription="an emerald damselfly" race="blood" experience="35" speed="200" manacost="0">
 	<health now="90" max="90" />
 	<look type="528" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -41,21 +41,19 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-12" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-12" poison="14" />
 	</attacks>
-	<defenses armor="6" defense="6">
-		<defense name="healing" interval="2000" chance="20" min="4" max="10" />
-	</defenses>
+	<defenses armor="6" defense="6" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Bzzzzz!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="90901" countmax="18" />
-		<item id="19738" name="damselfly wing" chance="11823" />
-		<item id="19743" name="damselfly eye" chance="9992" />
-		<item id="2544" name="arrow" chance="7544" countmax="5" />
-		<item id="2120" name="rope" chance="5027" />
-		<item id="7618" name="health potion" chance="3590" />
-		<item id="7620" name="mana potion" chance="3562" />
+		<item id="2148" name="gold coin" chance="90894" countmax="18" />
+		<item id="19738" name="damselfly wing" chance="11815" />
+		<item id="19743" name="damselfly eye" chance="9985" />
+		<item id="2544" name="arrow" chance="7540" countmax="5" />
+		<item id="2120" name="rope" chance="5032" />
+		<item id="7618" name="health potion" chance="3585" />
+		<item id="7620" name="mana potion" chance="3561" />
 	</loot>
 </monster>

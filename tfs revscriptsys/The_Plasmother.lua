@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 3,
+	color = 30
 }
 
 monster.voices = {
@@ -68,16 +68,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -15},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
@@ -91,17 +91,17 @@ monster.defenses = {
 
 monster.maxSummons = 2
 monster.summons = {
-	{name = "Defiler", chance = 15, interval = 2000, max = 1}
+	{name = "Defiler", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 149},
+	{id = 2148, chance = 100000, maxCount = 177},
 	{id = 6535, chance = 100000},
-	{id = 2152, chance = 77778, maxCount = 11},
+	{id = 2152, chance = 77778, maxCount = 20},
 	{id = 6500, chance = 55556},
 	{id = 2146, chance = 44444, maxCount = 3},
 	{id = 2150, chance = 33333, maxCount = 2},
-	{id = 2144, chance = 11111},
+	{id = 2144, chance = 11111, maxCount = 3},
 	{id = 2149, chance = 11111, maxCount = 3},
 	{id = 5944, chance = 11111}
 }

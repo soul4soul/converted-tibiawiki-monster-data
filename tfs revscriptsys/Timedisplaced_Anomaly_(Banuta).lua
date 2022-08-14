@@ -54,6 +54,7 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
+	{text = "Killing is such a splendid diversion from my studies.", yell = false}
 }
 
 monster.immunities = {
@@ -83,6 +84,11 @@ monster.attacks = {
 monster.defenses = {
 	defense = 5,
 	armor = 10
+}
+
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Pirat Mate", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {

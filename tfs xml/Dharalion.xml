@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dharalion" nameDescription="" experience="570" speed="0" manacost="0">
+<monster name="Dharalion" nameDescription="Dharalion" race="blood" experience="570" speed="0" manacost="0">
 	<health now="380" max="380" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -37,14 +37,14 @@
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element holyPercent="-10" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
 	</attacks>
 	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="0" max="150" />
+		<defense name="healing" interval="2000" chance="20" min="90" max="120" />
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
@@ -56,21 +56,27 @@
 		<voice sentence="You desecrated this temple!" yell="false" />
 		<voice sentence="Muahahaha!" yell="false" />
 	</voices>
+	<summons maxSummons="2">
+		<voice name="Demon Skeleton" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="5922" name="holy orchid" chance="100000" />
-		<item id="10552" name="elvish talisman" chance="87671" />
-		<item id="12421" name="elven astral observer" chance="83562" />
-		<item id="2154" name="yellow gem" chance="41096" />
-		<item id="2682" name="melon" chance="24658" />
-		<item id="2260" name="blank rune" chance="23288" />
-		<item id="2198" name="elven amulet" chance="16438" />
-		<item id="2689" name="bread" chance="15068" />
-		<item id="7590" name="great mana potion" chance="13699" />
-		<item id="2177" name="life crystal" chance="12329" />
-		<item id="2802" name="sling herb" chance="10959" />
-		<item id="3957" name="cornucopia" chance="9589" />
-		<item id="2652" name="green tunic" chance="5479" />
-		<item id="7378" name="royal spear" chance="1370" countmax="2" />
+		<item id="2148" name="gold coin" chance="100000" countmax="100" />
+		<item id="10552" name="elvish talisman" chance="87838" />
+		<item id="12421" name="elven astral observer" chance="83784" />
+		<item id="2154" name="yellow gem" chance="40541" />
+		<item id="2682" name="melon" chance="25676" />
+		<item id="2260" name="blank rune" chance="22973" />
+		<item id="5805" name="golden goblet" chance="20000" />
+		<item name="candlestick" chance="20000" />
+		<item id="2032" name="bowl" chance="20000" />
+		<item id="2198" name="elven amulet" chance="16216" />
+		<item id="2689" name="bread" chance="14865" />
+		<item id="7590" name="great mana potion" chance="13514" />
+		<item id="2177" name="life crystal" chance="12162" />
+		<item id="2802" name="sling herb" chance="10811" />
+		<item id="3957" name="cornucopia" chance="9459" />
+		<item id="2652" name="green tunic" chance="6757" />
+		<item id="7378" name="royal spear" chance="1351" countmax="2" />
 	</loot>
 </monster>

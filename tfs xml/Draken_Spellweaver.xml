@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Draken Spellweaver" nameDescription="a draken spellweaver" experience="3100" speed="336" manacost="0">
+<monster name="Draken Spellweaver" nameDescription="a draken spellweaver" race="blood" experience="3100" speed="336" manacost="0">
 	<health now="5000" max="5000" />
 	<look type="340" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,23 +29,18 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-10" />
+		<element energyPercent="-10" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="-5" />
+		<element deathPercent="80" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-250" />
-	</attacks>
-	<defenses armor="25" defense="25">
-		<defense name="healing" interval="2000" chance="20" min="370" max="530" />
-	</defenses>
+	<defenses armor="25" defense="25" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Zzzzzooom!" yell="false" />
 		<voice sentence="Fissziss!" yell="false" />
@@ -53,22 +48,22 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="99997" countmax="200" />
-		<item id="2666" name="meat" chance="29907" />
-		<item id="2152" name="platinum coin" chance="25012" countmax="5" />
-		<item id="11314" name="weaver's wandtip" chance="20006" />
-		<item id="2147" name="small ruby" chance="7013" countmax="5" />
-		<item id="7590" name="great mana potion" chance="5030" />
-		<item id="12614" name="draken sulphur" chance="3937" />
-		<item id="12410" name="luminous orb" chance="2020" />
-		<item id="11303" name="zaoan shoes" chance="1994" />
-		<item id="2187" name="wand of inferno" chance="1592" />
-		<item id="8871" name="focus cape" chance="1481" />
-		<item id="2155" name="green gem" chance="1003" />
+		<item id="2666" name="meat" chance="29916" />
+		<item id="2152" name="platinum coin" chance="25017" countmax="5" />
+		<item id="11314" name="weaver's wandtip" chance="20004" />
+		<item id="2147" name="small ruby" chance="7017" countmax="5" />
+		<item id="7590" name="great mana potion" chance="5029" />
+		<item id="12614" name="draken sulphur" chance="3941" />
+		<item id="12410" name="luminous orb" chance="2022" />
+		<item id="11303" name="zaoan shoes" chance="1997" />
+		<item id="2187" name="wand of inferno" chance="1590" />
+		<item id="8871" name="focus cape" chance="1478" />
+		<item id="2155" name="green gem" chance="1004" />
 		<item id="11304" name="zaoan legs" chance="900" />
-		<item id="11356" name="zaoan robe" chance="802" />
+		<item id="11356" name="zaoan robe" chance="800" />
 		<item id="11355" name="spellweaver's robe" chance="664" />
 		<item id="2123" name="ring of the sky" chance="382" />
-		<item id="13538" name="bamboo leaves" chance="215" />
+		<item id="13538" name="bamboo leaves" chance="218" />
 		<item id="13294" name="harness" chance="25" />
 		<item id="11315" name="draken trophy" chance="10" />
 	</loot>

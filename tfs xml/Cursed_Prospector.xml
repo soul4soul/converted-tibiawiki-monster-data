@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Cursed Prospector" nameDescription="a cursed prospector" experience="5250" speed="420" manacost="0">
+<monster name="Cursed Prospector" nameDescription="a cursed prospector" race="undead" experience="5250" speed="420" manacost="0">
 	<health now="3900" max="3900" />
 	<look type="1268" head="0" body="19" legs="0" feet="38" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="60" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -37,25 +37,22 @@
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element holyPercent="50" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
-	</attacks>
 	<defenses armor="85" defense="85" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="7838" name="flash arrow" chance="18729" countmax="20" />
-		<item id="8472" name="great spirit potion" chance="17306" countmax="2" />
-		<item id="35381" name="spectral silver nugget" chance="9581" />
-		<item id="35380" name="spectral gold nugget" chance="4828" />
-		<item id="2127" name="emerald bangle" chance="1728" />
-		<item id="7895" name="lightning legs" chance="1194" />
-		<item id="35426" name="diamond" chance="1144" />
-		<item id="2198" name="elven amulet" chance="864" />
-		<item id="7893" name="lightning boots" chance="864" />
-		<item id="10221" name="shockwave amulet" chance="762" />
-		<item id="7898" name="lightning robe" chance="661" />
+		<item id="7838" name="flash arrow" chance="18675" countmax="20" />
+		<item id="8472" name="great spirit potion" chance="17133" countmax="2" />
+		<item id="35381" name="spectral silver nugget" chance="9663" />
+		<item id="35380" name="spectral gold nugget" chance="4819" />
+		<item id="2127" name="emerald bangle" chance="1783" />
+		<item id="7895" name="lightning legs" chance="1181" />
+		<item id="35426" name="diamond" chance="1084" />
+		<item id="7893" name="lightning boots" chance="940" />
+		<item id="2198" name="elven amulet" chance="819" />
+		<item id="10221" name="shockwave amulet" chance="723" />
+		<item id="7898" name="lightning robe" chance="675" />
 	</loot>
 </monster>

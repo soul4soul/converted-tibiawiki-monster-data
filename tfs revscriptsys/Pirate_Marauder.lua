@@ -20,7 +20,7 @@ monster.runHealth = 20
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 210
-monster.summonCost = 0
+monster.summonCost = 490
 
 monster.changeTarget = {
 	interval = 2000,
@@ -69,15 +69,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -3},
+	{type = COMBAT_EARTHDAMAGE, percent = 10},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = 20},
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
@@ -91,21 +91,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 77634, maxCount = 40},
-	{id = "torch", chance = 9842},
+	{id = 2148, chance = 77636, maxCount = 40},
+	{id = "torch", chance = 9825},
 	{id = 11219, chance = 9672},
-	{id = 2389, chance = 5068, maxCount = 2},
-	{id = 2510, chance = 5017},
-	{id = 2464, chance = 3050},
-	{id = 14337, chance = 945},
-	{id = 5917, chance = 926},
-	{id = 6098, chance = 536},
+	{id = 2389, chance = 5078, maxCount = 2},
+	{id = 2510, chance = 5014},
+	{id = 2464, chance = 3056},
+	{id = 14337, chance = 946},
+	{id = 5917, chance = 928},
+	{id = 6098, chance = 535},
 	{id = 6097, chance = 515},
-	{id = 6126, chance = 496},
+	{id = 6126, chance = 494},
 	{id = 5927, chance = 457},
-	{id = 5553, chance = 103},
-	{id = "die", chance = 99},
-	{id = 5928, chance = 83}
+	{id = 5553, chance = 102},
+	{id = "die", chance = 101},
+	{id = 5928, chance = 85}
 }
 
 mType:register(monster)

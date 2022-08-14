@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Demon Outcast" nameDescription="a demon outcast" experience="6200" speed="296" manacost="0">
+<monster name="Demon Outcast" nameDescription="a demon outcast" race="blood" experience="6200" speed="296" manacost="0">
 	<health now="6900" max="6900" />
 	<look type="590" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,29 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="15" />
+		<element energyPercent="-8" />
+		<element earthPercent="40" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="5" />
+		<element holyPercent="-6" />
+		<element deathPercent="30" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
+		<attack name="energy" interval="2000" chance="15" min="0" max="-450" length="6" spread="0">
+			<attribute key="areaEffect" value="purpleenergy" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="0" max="-400" length="8" spread="0">
+			<attribute key="areaEffect" value="yellowenergy" />
+		</attack>
+		<attack name="manadrain" interval="2000" chance="15" min="-55" max="-150" radius="3" target="1">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="energy" />
+		</attack>
 	</attacks>
 	<defenses armor="49" defense="49">
 		<defense name="healing" interval="2000" chance="20" min="690" max="1725" />
@@ -53,33 +63,33 @@
 		<voice sentence="No one will imprison me again!" yell="false" />
 	</voices>
 	<summons maxSummons="2">
-		<voice name="Energy Elemental" interval="2000" chance="15" max="1" />
+		<voice name="Energy Elemental" interval="2000" chance="15" max="2" />
 	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="6" />
-		<item id="2795" name="fire mushroom" chance="20270" countmax="6" />
-		<item id="8473" name="ultimate health potion" chance="20067" countmax="3" />
-		<item id="7590" name="great mana potion" chance="19845" countmax="2" />
-		<item id="2145" name="small diamond" chance="10285" countmax="5" />
-		<item id="2147" name="small ruby" chance="10030" countmax="5" />
-		<item id="2146" name="small sapphire" chance="9965" countmax="5" />
-		<item id="2149" name="small emerald" chance="9942" countmax="5" />
-		<item id="9970" name="small topaz" chance="9808" countmax="5" />
-		<item id="7368" name="assassin star" chance="8622" countmax="10" />
-		<item id="2214" name="ring of healing" chance="2434" />
-		<item id="2393" name="giant sword" chance="1996" />
-		<item id="2165" name="stealth ring" chance="1398" />
-		<item id="2519" name="crown shield" chance="898" />
+		<item id="2795" name="fire mushroom" chance="20235" countmax="6" />
+		<item id="8473" name="ultimate health potion" chance="20023" countmax="3" />
+		<item id="7590" name="great mana potion" chance="19833" countmax="2" />
+		<item id="2145" name="small diamond" chance="10312" countmax="5" />
+		<item id="2147" name="small ruby" chance="10051" countmax="5" />
+		<item id="2146" name="small sapphire" chance="9997" countmax="5" />
+		<item id="2149" name="small emerald" chance="9920" countmax="5" />
+		<item id="9970" name="small topaz" chance="9804" countmax="5" />
+		<item id="7368" name="assassin star" chance="8655" countmax="10" />
+		<item id="2214" name="ring of healing" chance="2446" />
+		<item id="2393" name="giant sword" chance="2005" />
+		<item id="2165" name="stealth ring" chance="1403" />
+		<item id="2519" name="crown shield" chance="904" />
 		<item id="2396" name="ice rapier" chance="882" />
-		<item id="2164" name="might ring" chance="670" />
+		<item id="2164" name="might ring" chance="660" />
 		<item id="2171" name="platinum amulet" chance="660" />
-		<item id="2497" name="crusader helmet" chance="568" />
-		<item id="2462" name="devil helmet" chance="549" />
-		<item id="5906" name="demon dust" chance="536" />
-		<item id="22396" name="cluster of solace" chance="474" />
-		<item id="2520" name="demon shield" chance="454" />
+		<item id="2497" name="crusader helmet" chance="570" />
+		<item id="2462" name="devil helmet" chance="557" />
+		<item id="5906" name="demon dust" chance="531" />
+		<item id="22396" name="cluster of solace" chance="470" />
+		<item id="2520" name="demon shield" chance="457" />
 		<item id="2487" name="crown armor" chance="274" />
-		<item id="7382" name="demonrage sword" chance="88" />
+		<item id="7382" name="demonrage sword" chance="87" />
 	</loot>
 </monster>

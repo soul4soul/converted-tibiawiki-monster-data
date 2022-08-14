@@ -70,7 +70,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -84,24 +84,31 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 5,
-	armor = 10
+	armor = 10,
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 1500, maxDamage = 3750}
+}
+
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Diabolic Imp", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 150},
 	{id = 6500, chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 148},
 	{id = 5944, chance = 100000},
 	{id = 6534, chance = 100000},
-	{id = 2548, chance = 52632},
-	{id = 2152, chance = 47368, maxCount = 3},
-	{id = 2150, chance = 36842, maxCount = 4},
-	{id = 2488, chance = 31579},
-	{id = 2136, chance = 10526},
-	{id = 7899, chance = 10526},
-	{id = 2432, chance = 5263},
-	{id = 2470, chance = 5263},
-	{id = 2147, chance = 5263, maxCount = 4},
-	{id = 2542, chance = 5263}
+	{id = 2548, chance = 55000},
+	{id = 2152, chance = 45000, maxCount = 3},
+	{id = 2150, chance = 40000, maxCount = 4},
+	{id = 2488, chance = 30000},
+	{id = 2515, chance = 20000},
+	{id = 7899, chance = 10000},
+	{id = 2136, chance = 10000},
+	{id = 2432, chance = 5000},
+	{id = 2470, chance = 5000},
+	{id = 2147, chance = 5000, maxCount = 4},
+	{id = 2542, chance = 5000}
 }
 
 mType:register(monster)

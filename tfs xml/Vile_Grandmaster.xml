@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Vile Grandmaster" nameDescription="a vile grandmaster" experience="1500" speed="280" manacost="0">
+<monster name="Vile Grandmaster" nameDescription="a vile grandmaster" race="blood" experience="1500" speed="280" manacost="0">
 	<health now="1700" max="1700" />
 	<look type="268" head="59" body="19" legs="95" feet="94" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,15 +29,15 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="20" />
+		<element energyPercent="25" />
+		<element earthPercent="25" />
+		<element firePercent="25" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="50" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
@@ -60,23 +60,23 @@
 		<voice sentence="You'll make a fine trophy!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99927" countmax="172" />
-		<item id="2152" name="platinum coin" chance="73575" countmax="2" />
-		<item id="2666" name="meat" chance="9688" />
-		<item id="12466" name="scroll of heroic deeds" chance="7875" />
-		<item id="7591" name="great health potion" chance="6933" />
-		<item id="2121" name="wedding ring" chance="5047" />
-		<item id="2146" name="small sapphire" chance="3524" />
-		<item id="2147" name="small ruby" chance="3495" />
-		<item id="12406" name="small notebook" chance="2393" />
-		<item id="2391" name="war hammer" chance="2219" />
-		<item id="5911" name="red piece of cloth" chance="2117" />
-		<item id="2487" name="crown armor" chance="1146" />
-		<item id="2392" name="fire sword" chance="914" />
-		<item id="2488" name="crown legs" chance="856" />
-		<item id="2491" name="crown helmet" chance="638" />
-		<item id="2171" name="platinum amulet" chance="421" />
-		<item id="2519" name="crown shield" chance="276" />
-		<item id="2114" name="piggy bank" chance="145" />
+		<item id="2148" name="gold coin" chance="99932" countmax="173" />
+		<item id="2152" name="platinum coin" chance="73825" countmax="2" />
+		<item id="2666" name="meat" chance="9765" />
+		<item id="12466" name="scroll of heroic deeds" chance="7834" />
+		<item id="7591" name="great health potion" chance="6821" />
+		<item id="2121" name="wedding ring" chance="5078" />
+		<item id="2147" name="small ruby" chance="3525" />
+		<item id="2146" name="small sapphire" chance="3458" />
+		<item id="12406" name="small notebook" chance="2458" />
+		<item id="5911" name="red piece of cloth" chance="2202" />
+		<item id="2391" name="war hammer" chance="2188" />
+		<item id="2487" name="crown armor" chance="1175" />
+		<item id="2392" name="fire sword" chance="905" />
+		<item id="2488" name="crown legs" chance="824" />
+		<item id="2491" name="crown helmet" chance="648" />
+		<item id="2171" name="platinum amulet" chance="392" />
+		<item id="2519" name="crown shield" chance="324" />
+		<item id="2114" name="piggy bank" chance="162" />
 	</loot>
 </monster>

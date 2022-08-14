@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Manhunter")
 local monster = {}
 
 monster.name = "The Manhunter"
-monster.description = ""
+monster.description = "the manhunter"
 monster.experience = 3000
 monster.outfit = {
 	lookType = 0,
@@ -78,13 +78,11 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 200, maxDamage = 260}
+	armor = 10
 }
 
 monster.loot = {

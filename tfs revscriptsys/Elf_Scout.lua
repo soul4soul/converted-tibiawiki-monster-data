@@ -20,7 +20,7 @@ monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 220
-monster.summonCost = 0
+monster.summonCost = 360
 
 monster.changeTarget = {
 	interval = 2000,
@@ -55,7 +55,7 @@ monster.voices = {
 	interval = 5000,
 	chance = 10,
 	{text = "Tha'shi Ab'Dendriel!", yell = false},
-	{text = "[[Evicor]] guide my arrow!", yell = false},
+	{text = "Evicor guide my arrow!", yell = false},
 	{text = "Your existence will end here!", yell = false},
 	{text = "Feel the sting of my arrows!", yell = false},
 	{text = "Thy blood will quench the soil's thirst!", yell = false}
@@ -78,8 +78,8 @@ monster.elements = {
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = 20},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
@@ -93,17 +93,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 75053, maxCount = 25},
+	{id = 2148, chance = 75043, maxCount = 25},
 	{id = 2544, chance = 30506, maxCount = 12},
-	{id = 2681, chance = 17864},
-	{id = 2545, chance = 15150, maxCount = 4},
-	{id = 12420, chance = 10089},
-	{id = 10552, chance = 5132},
-	{id = 2456, chance = 4028},
-	{id = 2031, chance = 1244},
-	{id = 2642, chance = 1121},
-	{id = 5921, chance = 1095},
-	{id = 7438, chance = 144}
+	{id = 2681, chance = 17816},
+	{id = 2545, chance = 15149, maxCount = 4},
+	{id = 12420, chance = 10079},
+	{id = 10552, chance = 5122},
+	{id = 2456, chance = 4021},
+	{id = 2031, chance = 1247},
+	{id = 2642, chance = 1122},
+	{id = 5921, chance = 1105},
+	{id = 7438, chance = 142}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ladybug" nameDescription="a ladybug" experience="70" speed="104" manacost="0">
+<monster name="Ladybug" nameDescription="a ladybug" race="blood" experience="70" speed="104" manacost="0">
 	<health now="255" max="255" />
 	<look type="448" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,25 +29,22 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-10" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="50" />
+		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-5" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-5" />
-	</attacks>
 	<defenses armor="8" defense="8" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Nee Pah!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64837" countmax="40" />
+		<item id="2148" name="gold coin" chance="64828" countmax="40" />
 	</loot>
 </monster>

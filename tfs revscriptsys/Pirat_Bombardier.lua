@@ -5,12 +5,12 @@ monster.name = "Pirat Bombardier"
 monster.description = "a pirat bombardier"
 monster.experience = 1700
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1346,
+	lookHead = 57,
+	lookBody = 125,
+	lookLegs = 86,
+	lookFeet = 67,
+	lookAddons = 2,
 	lookMount = 0
 }
 
@@ -65,9 +65,9 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
+	{type = COMBAT_EARTHDAMAGE, percent = -20},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -78,7 +78,10 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -350}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -350},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -80, maxDamage = -160, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_BURSTARROW, effect = CONST_ME_PURPLEENERGY},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -110, maxDamage = -160, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_ENERGYBALL, effect = CONST_ME_ENERGYAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -70, maxDamage = -120, effect = CONST_ME_ENERGYHIT}
 }
 
 monster.defenses = {
@@ -87,15 +90,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 7590, chance = 34681, maxCount = 2},
-	{id = 38228, chance = 7537, maxCount = 10},
-	{id = 7886, chance = 6199},
-	{id = 38229, chance = 4888},
-	{id = 38252, chance = 4069},
-	{id = 7891, chance = 3796},
-	{id = "ring of blue plasma", chance = 2185},
-	{id = 7893, chance = 1720},
-	{id = 2664, chance = 1529}
+	{id = 7590, chance = 34850, maxCount = 2},
+	{id = 38228, chance = 7421, maxCount = 10},
+	{id = 7886, chance = 6135},
+	{id = 38229, chance = 4829},
+	{id = 38252, chance = 4065},
+	{id = 7891, chance = 3767},
+	{id = "ring of blue plasma", chance = 2312},
+	{id = 7893, chance = 1622},
+	{id = 2664, chance = 1622}
 }
 
 mType:register(monster)

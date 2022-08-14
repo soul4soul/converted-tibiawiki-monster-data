@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Deathbine")
 local monster = {}
 
 monster.name = "Deathbine"
-monster.description = ""
+monster.description = "Deathbine"
 monster.experience = 340
 monster.outfit = {
 	lookType = 0,
@@ -66,19 +66,19 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 35},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100, condition = {type = CONDITION_POISON, startDamage = 97, interval = }}
 }
 
 monster.defenses = {
@@ -87,17 +87,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 11217, chance = 100000},
 	{id = 2152, chance = 100000, maxCount = 5},
+	{id = 11217, chance = 100000, maxCount = 5},
 	{id = 2804, chance = 100000},
 	{id = 2149, chance = 100000, maxCount = 4},
-	{id = 2792, chance = 80120},
-	{id = 7732, chance = 77711},
-	{id = 7887, chance = 56024},
-	{id = 8912, chance = 54819},
-	{id = 7886, chance = 46386},
-	{id = 13307, chance = 4819},
-	{id = 5015, chance = 3012}
+	{id = 2792, chance = 79882},
+	{id = 7732, chance = 78107},
+	{id = 7887, chance = 55621},
+	{id = 8912, chance = 54438},
+	{id = 7886, chance = 46154},
+	{id = 13307, chance = 4734},
+	{id = 5015, chance = 2959}
 }
 
 mType:register(monster)

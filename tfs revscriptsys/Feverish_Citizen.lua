@@ -75,39 +75,39 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -15},
+	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 10},
+	{type = COMBAT_FIREDAMAGE, percent = -15},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 10},
+	{type = COMBAT_HOLYDAMAGE , percent = 75},
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -19},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, effect = CONST_ME_POISONAREA},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, radius = 3, target = , effect = CONST_ME_GREEN_RINGS}
+	{name ="drunk", interval = 2000, chance = 15, drunkenness = 50, duration = 15000, effect = CONST_ME_POISONAREA}
 }
 
 monster.defenses = {
 	defense = 14,
-	armor = 14
+	armor = 14,
+	{name ="outfit", interval = 2000, chance = 15, monster = "Bog Raider", duration = 5000}
 }
 
 monster.loot = {
-	{id = 2148, chance = 29698, maxCount = 35},
-	{id = 3976, chance = 24611, maxCount = 3},
-	{id = 2230, chance = 5077},
-	{id = 13542, chance = 2179},
-	{id = 13545, chance = 2015},
-	{id = 13543, chance = 1983},
-	{id = 13544, chance = 1896},
-	{id = 13540, chance = 1885},
-	{id = 13541, chance = 1667}
+	{id = 2148, chance = 29855, maxCount = 35},
+	{id = 3976, chance = 24646, maxCount = 3},
+	{id = 2230, chance = 5170},
+	{id = 13542, chance = 2114},
+	{id = 13545, chance = 2027},
+	{id = 13543, chance = 1950},
+	{id = 13544, chance = 1901},
+	{id = 13540, chance = 1901},
+	{id = 13541, chance = 1678}
 }
 
 mType:register(monster)

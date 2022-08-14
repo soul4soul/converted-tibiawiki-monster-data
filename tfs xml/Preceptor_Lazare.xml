@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Preceptor Lazare" nameDescription="" experience="9" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Preceptor Lazare" nameDescription="Preceptor Lazare" race="blood" experience="10000" speed="0" manacost="0">
+	<health now="16000" max="16000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -29,50 +29,70 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="20" />
+		<element energyPercent="50" />
+		<element earthPercent="50" />
+		<element firePercent="50" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="50" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="50" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
+		<attack name="energy" interval="2000" chance="15" min="-400" max="-500" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="infernalbolt" />
+		</attack>
+		<attack name="holy" interval="2000" chance="15" min="-549" max="-561" radius="4" target="0">
+			<attribute key="areaEffect" value="holydamage" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" range="7" radius="1" target="1">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</attack>
 	</attacks>
-	<defenses armor="10" defense="5" />
+	<defenses armor="10" defense="5">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="healing" interval="2000" chance="20" min="500" max="800" />
+	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="There is nothing here for you and you will die alone." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="94771" countmax="200" />
-		<item id="2152" name="platinum coin" chance="94771" countmax="15" />
-		<item id="2671" name="ham" chance="67647" />
-		<item id="6500" name="demonic essence" chance="49020" />
-		<item id="7591" name="great health potion" chance="35948" countmax="3" />
-		<item id="5944" name="soul orb" chance="32353" />
-		<item id="7368" name="assassin star" chance="27124" countmax="10" />
-		<item id="7590" name="great mana potion" chance="26144" countmax="3" />
-		<item id="6558" name="flask of demonic blood" chance="25817" />
-		<item id="2145" name="small diamond" chance="20915" countmax="5" />
-		<item id="9970" name="small topaz" chance="19935" countmax="5" />
-		<item id="2149" name="small emerald" chance="19608" countmax="5" />
-		<item id="2147" name="small ruby" chance="18301" countmax="5" />
-		<item id="2150" name="small amethyst" chance="16013" countmax="5" />
-		<item id="2156" name="red gem" chance="14052" />
-		<item id="7365" name="onyx arrow" chance="11765" countmax="15" />
-		<item name="giant shimmering pearl" chance="7516" />
-		<item id="9971" name="gold ingot" chance="6863" countmax="2" />
-		<item id="7413" name="titan axe" chance="6863" />
-		<item id="2476" name="knight armor" chance="5229" />
-		<item id="7762" name="small enchanted amethyst" chance="5229" />
-		<item id="7452" name="spiked squelcher" chance="5229" />
-		<item id="2153" name="violet gem" chance="2941" />
-		<item id="2454" name="war axe" chance="2941" />
-		<item id="2155" name="green gem" chance="1961" />
-		<item id="2466" name="golden armor" chance="980" />
+		<item id="7762" name="small enchanted amethyst" chance="100000" />
+		<item id="2148" name="gold coin" chance="20000" countmax="182" />
+		<item id="7365" name="onyx arrow" chance="20000" />
+		<item id="2156" name="red gem" chance="20000" />
+		<item id="2150" name="small amethyst" chance="20000" />
+		<item name="giant shimmering pearl" chance="20000" />
+		<item id="6558" name="flask of demonic blood" chance="20000" />
+		<item id="5944" name="soul orb" chance="20000" />
+		<item id="2454" name="war axe" chance="20000" />
+		<item id="2147" name="small ruby" chance="20000" />
+		<item id="2514" name="mastermind shield" chance="20000" />
+		<item id="7413" name="titan axe" chance="20000" />
+		<item id="2136" name="demonbone amulet" chance="20000" />
+		<item id="2466" name="golden armor" chance="20000" />
+		<item id="2476" name="knight armor" chance="20000" />
+		<item id="9971" name="gold ingot" chance="20000" countmax="2" />
+		<item id="2152" name="platinum coin" chance="20000" countmax="15" />
+		<item id="7368" name="assassin star" chance="20000" countmax="8" />
+		<item id="7591" name="great health potion" chance="20000" countmax="3" />
+		<item id="7590" name="great mana potion" chance="20000" countmax="3" />
+		<item id="2671" name="ham" chance="20000" />
+		<item id="6500" name="demonic essence" chance="20000" />
+		<item id="7452" name="spiked squelcher" chance="20000" />
+		<item id="2153" name="violet gem" chance="20000" />
+		<item id="2145" name="small diamond" chance="20000" countmax="2" />
+		<item id="2149" name="small emerald" chance="20000" countmax="2" />
+		<item id="9970" name="small topaz" chance="20000" countmax="2" />
+		<item id="2155" name="green gem" chance="20000" />
+		<item id="2452" name="heavy mace" chance="7500" />
+		<item id="31376" name="falcon greaves" chance="4000" />
+		<item id="31477" name="patch of fine cloth" chance="1633" />
+		<item id="31372" name="falcon rod" chance="126" />
 	</loot>
 </monster>

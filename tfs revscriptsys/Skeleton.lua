@@ -71,10 +71,10 @@ monster.elements = {
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -25},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
@@ -87,16 +87,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2230, chance = 50801},
-	{id = 2148, chance = 44910, maxCount = 10},
-	{id = "torch", chance = 10347},
-	{id = 12437, chance = 10153},
-	{id = 2473, chance = 7698},
-	{id = 2388, chance = 5364},
-	{id = 2398, chance = 4650},
-	{id = 2376, chance = 2112},
-	{id = 26642, chance = 2029},
-	{id = 2511, chance = 936}
+	{id = 2230, chance = 50833},
+	{id = 2148, chance = 44968, maxCount = 10},
+	{id = "torch", chance = 10397},
+	{id = 12437, chance = 10040},
+	{id = 2473, chance = 7746},
+	{id = 2388, chance = 5381},
+	{id = 2398, chance = 4643},
+	{id = 2376, chance = 2048},
+	{id = 26642, chance = 2032},
+	{id = 2511, chance = 952}
 }
 
 mType:register(monster)

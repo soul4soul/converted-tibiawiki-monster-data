@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Polar Bear" nameDescription="a polar bear" experience="28" speed="156" manacost="315">
+<monster name="Polar Bear" nameDescription="a polar bear" race="blood" experience="28" speed="156" manacost="315">
 	<health now="85" max="85" />
 	<look type="42" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
@@ -48,8 +48,8 @@
 		<voice sentence="GROARRR!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="50380" />
-		<item id="2671" name="ham" chance="50200" />
-		<item id="10567" name="polar bear paw" chance="1018" />
+		<item id="2666" name="meat" chance="50383" countmax="4" />
+		<item id="2671" name="ham" chance="50198" countmax="2" />
+		<item id="10567" name="polar bear paw" chance="1045" />
 	</loot>
 </monster>

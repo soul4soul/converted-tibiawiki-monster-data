@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Vexclaw" nameDescription="a vexclaw" experience="6248" speed="270" manacost="0">
+<monster name="Vexclaw" nameDescription="a vexclaw" race="blood" experience="6248" speed="270" manacost="0">
 	<health now="8500" max="8500" />
 	<look type="854" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="1" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="5" />
+		<element energyPercent="10" />
+		<element earthPercent="40" />
+		<element firePercent="75" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="-5" />
+		<element holyPercent="-10" />
+		<element deathPercent="20" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-550" />
@@ -50,36 +50,36 @@
 		<voice sentence="Will Prove my power!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87216" countmax="197" />
-		<item id="2152" name="platinum coin" chance="87131" countmax="9" />
-		<item id="8472" name="great spirit potion" chance="16078" countmax="5" />
-		<item id="7590" name="great mana potion" chance="16044" countmax="5" />
-		<item id="25384" name="vexclaw talon" chance="13313" />
-		<item id="8473" name="ultimate health potion" chance="12954" countmax="5" />
-		<item id="6500" name="demonic essence" chance="12715" />
-		<item id="2795" name="fire mushroom" chance="12391" countmax="6" />
-		<item id="2149" name="small emerald" chance="7100" countmax="5" />
-		<item id="2147" name="small ruby" chance="6639" countmax="5" />
-		<item id="2150" name="small amethyst" chance="6622" countmax="5" />
-		<item id="9970" name="small topaz" chance="6213" countmax="5" />
-		<item id="2156" name="red gem" chance="3175" />
-		<item id="2154" name="yellow gem" chance="3072" />
-		<item id="2396" name="ice rapier" chance="3038" />
-		<item id="2432" name="fire axe" chance="2714" />
-		<item id="2167" name="energy ring" chance="1741" />
-		<item id="2164" name="might ring" chance="1741" />
-		<item id="2393" name="giant sword" chance="1246" />
-		<item id="2214" name="ring of healing" chance="956" />
-		<item id="2462" name="devil helmet" chance="853" />
-		<item id="2520" name="demon shield" chance="546" />
-		<item id="2171" name="platinum amulet" chance="461" />
-		<item id="25383" name="rift lance" chance="444" />
-		<item id="25523" name="rift crossbow" chance="358" />
-		<item id="25382" name="rift shield" chance="324" />
-		<item id="2514" name="mastermind shield" chance="307" />
-		<item id="2470" name="golden legs" chance="273" />
-		<item id="2472" name="magic plate armor" chance="102" />
-		<item id="25522" name="rift bow" chance="85" />
-		<item id="7382" name="demonrage sword" chance="68" />
+		<item id="2148" name="gold coin" chance="87393" countmax="200" />
+		<item id="2152" name="platinum coin" chance="87359" countmax="9" />
+		<item id="7590" name="great mana potion" chance="16101" countmax="5" />
+		<item id="8472" name="great spirit potion" chance="15958" countmax="5" />
+		<item id="8473" name="ultimate health potion" chance="13114" countmax="5" />
+		<item id="25384" name="vexclaw talon" chance="13092" />
+		<item id="6500" name="demonic essence" chance="12817" />
+		<item id="2795" name="fire mushroom" chance="12431" countmax="6" />
+		<item id="2149" name="small emerald" chance="6689" countmax="5" />
+		<item id="2147" name="small ruby" chance="6568" countmax="5" />
+		<item id="2150" name="small amethyst" chance="6436" countmax="5" />
+		<item id="9970" name="small topaz" chance="6061" countmax="5" />
+		<item id="2154" name="yellow gem" chance="3262" />
+		<item id="2156" name="red gem" chance="3262" />
+		<item id="2396" name="ice rapier" chance="3141" />
+		<item id="2432" name="fire axe" chance="2535" />
+		<item id="2164" name="might ring" chance="1840" />
+		<item id="2167" name="energy ring" chance="1774" />
+		<item id="2393" name="giant sword" chance="1333" />
+		<item id="2214" name="ring of healing" chance="1036" />
+		<item id="2462" name="devil helmet" chance="849" />
+		<item id="2520" name="demon shield" chance="551" />
+		<item id="2171" name="platinum amulet" chance="485" />
+		<item id="25383" name="rift lance" chance="463" />
+		<item id="2470" name="golden legs" chance="309" />
+		<item id="25382" name="rift shield" chance="309" />
+		<item id="25523" name="rift crossbow" chance="309" />
+		<item id="2514" name="mastermind shield" chance="287" />
+		<item id="25522" name="rift bow" chance="165" />
+		<item id="2472" name="magic plate armor" chance="88" />
+		<item id="7382" name="demonrage sword" chance="77" />
 	</loot>
 </monster>

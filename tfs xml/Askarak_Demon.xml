@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Askarak Demon" nameDescription="an askarak demon" experience="900" speed="230" manacost="0">
+<monster name="Askarak Demon" nameDescription="an askarak demon" race="blood" experience="900" speed="230" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="420" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,28 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="60" />
+		<element earthPercent="100" />
+		<element firePercent="-25" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="60" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="-20" max="-140" />
+		<attack name="earth" interval="2000" chance="15" min="-25" max="-60">
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+		<attack name="earth" interval="2000" chance="15" min="-130" max="-170">
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+		<attack name="earth" interval="2000" chance="15" min="-75" max="-140" length="5" spread="0">
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" range="3" radius="1" target="1" />
 	</attacks>
 	<defenses armor="35" defense="35" />
 	<voices interval="5000" chance="10">
@@ -52,17 +62,17 @@
 		<voice sentence="WE RULE!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="94644" countmax="244" />
-		<item id="2149" name="small emerald" chance="6115" countmax="4" />
-		<item id="7588" name="strong health potion" chance="5257" />
-		<item id="7589" name="strong mana potion" chance="5097" />
-		<item id="7368" name="assassin star" chance="4850" countmax="5" />
-		<item id="2789" name="brown mushroom" chance="3844" countmax="5" />
-		<item id="2114" name="piggy bank" chance="1105" />
-		<item id="2167" name="energy ring" chance="1018" />
-		<item id="7440" name="mastermind potion" chance="487" />
-		<item id="8912" name="springsprout rod" chance="469" />
-		<item id="7885" name="terra legs" chance="123" />
-		<item id="5904" name="magic sulphur" chance="105" />
+		<item id="2148" name="gold coin" chance="94637" countmax="244" />
+		<item id="2149" name="small emerald" chance="6133" countmax="4" />
+		<item id="7588" name="strong health potion" chance="5284" />
+		<item id="7589" name="strong mana potion" chance="5076" />
+		<item id="7368" name="assassin star" chance="4844" countmax="5" />
+		<item id="2789" name="brown mushroom" chance="3836" countmax="5" />
+		<item id="2114" name="piggy bank" chance="1100" />
+		<item id="2167" name="energy ring" chance="1008" />
+		<item id="7440" name="mastermind potion" chance="483" />
+		<item id="8912" name="springsprout rod" chance="470" />
+		<item id="7885" name="terra legs" chance="122" />
+		<item id="5904" name="magic sulphur" chance="104" />
 	</loot>
 </monster>

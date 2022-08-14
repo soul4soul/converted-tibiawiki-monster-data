@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Shaper"
 monster.description = "a memory of a shaper"
-monster.experience = 0
+monster.experience = 1750
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3710
+monster.maxHealth = 3710
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,20 +86,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 171},
-	{id = 2152, chance = 74419, maxCount = 2},
-	{id = 27039, chance = 14535, maxCount = 2},
-	{id = 2666, chance = 11628},
-	{id = 7591, chance = 10465},
-	{id = 2789, chance = 6977, maxCount = 3},
-	{id = 2147, chance = 5814},
-	{id = 15649, chance = 5814, maxCount = 4},
-	{id = 5022, chance = 4651, maxCount = 5},
-	{id = 27048, chance = 1744},
-	{id = 24849, chance = 1163},
-	{id = 2171, chance = 1163},
-	{id = 37468, chance = 1163},
-	{id = 2189, chance = 1163}
+	{id = 2148, chance = 100000, maxCount = 128},
+	{id = 2152, chance = 73684, maxCount = 2},
+	{id = 27048, chance = 20000},
+	{id = 15649, chance = 20000},
+	{id = 37468, chance = 20000},
+	{id = 27039, chance = 18421, maxCount = 2},
+	{id = 2147, chance = 7895},
+	{id = 2666, chance = 7895},
+	{id = 7591, chance = 5263},
+	{id = 2789, chance = 5263, maxCount = 3},
+	{id = 5022, chance = 2632, maxCount = 4},
+	{id = 24849, chance = 2632},
+	{id = 2171, chance = 2632},
+	{id = 2189, chance = 2632}
 }
 
 mType:register(monster)

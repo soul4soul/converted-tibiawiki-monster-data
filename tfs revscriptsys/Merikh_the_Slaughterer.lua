@@ -69,23 +69,27 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 1},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = -1},
+	{type = COMBAT_HOLYDAMAGE , percent = -1},
+	{type = COMBAT_DEATHDAMAGE , percent = 1}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -304}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10,
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 50, maxDamage = 100}
+}
+
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Green Djinn", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
@@ -98,9 +102,12 @@ monster.loot = {
 	{id = 2442, chance = 41667},
 	{id = 7589, chance = 41667, maxCount = 3},
 	{id = 2663, chance = 36111},
+	{id = 7732, chance = 20000},
+	{id = 2063, chance = 20000},
+	{id = 2673, chance = 20000, maxCount = 8},
 	{id = 7900, chance = 8333},
-	{id = 2155, chance = 2778},
-	{id = 2149, chance = 2778, maxCount = 2}
+	{id = 2149, chance = 2778, maxCount = 2},
+	{id = 2155, chance = 2778}
 }
 
 mType:register(monster)

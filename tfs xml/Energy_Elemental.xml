@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Energy Elemental" nameDescription="an energy elemental" experience="550" speed="230" manacost="0">
+<monster name="Energy Elemental" nameDescription="an energy elemental" race="blood" experience="550" speed="230" manacost="0">
 	<health now="500" max="500" />
 	<look type="293" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="35" />
+		<element energyPercent="100" />
+		<element earthPercent="-15" />
+		<element firePercent="100" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="5" />
+		<element deathPercent="5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-175" />
@@ -47,18 +47,18 @@
 		<defense name="healing" interval="2000" chance="20" min="50" max="125" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="98052" countmax="170" />
-		<item id="7620" name="mana potion" chance="11978" />
-		<item id="7838" name="flash arrow" chance="10174" countmax="10" />
-		<item id="2399" name="throwing star" chance="9991" countmax="5" />
-		<item id="7589" name="strong mana potion" chance="7931" />
-		<item id="7449" name="crystal sword" chance="6017" />
-		<item id="2150" name="small amethyst" chance="5029" countmax="2" />
-		<item id="2425" name="obsidian lance" chance="3663" />
-		<item id="2124" name="crystal ring" chance="2054" />
-		<item id="2170" name="silver amulet" chance="1088" />
-		<item id="2167" name="energy ring" chance="932" />
-		<item id="2189" name="wand of cosmic energy" chance="583" />
+		<item id="2148" name="gold coin" chance="98055" countmax="170" />
+		<item id="7620" name="mana potion" chance="11976" />
+		<item id="7838" name="flash arrow" chance="10170" countmax="10" />
+		<item id="2399" name="throwing star" chance="9992" countmax="5" />
+		<item id="7589" name="strong mana potion" chance="7936" />
+		<item id="7449" name="crystal sword" chance="6019" />
+		<item id="2150" name="small amethyst" chance="5032" countmax="2" />
+		<item id="2425" name="obsidian lance" chance="3658" />
+		<item id="2124" name="crystal ring" chance="2056" />
+		<item id="2170" name="silver amulet" chance="1086" />
+		<item id="2167" name="energy ring" chance="937" />
+		<item id="2189" name="wand of cosmic energy" chance="587" />
 		<item id="2515" name="guardian shield" chance="283" />
 	</loot>
 </monster>

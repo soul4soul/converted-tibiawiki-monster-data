@@ -5,11 +5,11 @@ monster.name = "Usurper Warlock"
 monster.description = "a usurper warlock"
 monster.experience = 7000
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 1316,
+	lookHead = 57,
+	lookBody = 2,
+	lookLegs = 21,
+	lookFeet = 95,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = true,
 	canWalkOnFire = true,
@@ -65,20 +65,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 30},
+	{type = COMBAT_HOLYDAMAGE , percent = 32},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500}
 }
 
 monster.defenses = {
@@ -87,22 +86,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 79310, maxCount = 4},
-	{id = 9971, chance = 10844},
-	{id = 36816, chance = 7804},
-	{id = 36818, chance = 7078},
-	{id = 2144, chance = 6488},
-	{id = 7903, chance = 5263},
-	{id = 7632, chance = 4583},
-	{id = 2155, chance = 3857},
-	{id = 7901, chance = 3403},
-	{id = 8912, chance = 3176},
-	{id = 2671, chance = 2995},
-	{id = 7900, chance = 2042},
-	{id = 2189, chance = 1951},
-	{id = 2477, chance = 1815},
-	{id = 8910, chance = 1724},
-	{id = 8920, chance = 1316}
+	{id = 2152, chance = 79235, maxCount = 4},
+	{id = 9971, chance = 11015},
+	{id = 36816, chance = 7521},
+	{id = 36818, chance = 6955},
+	{id = 2144, chance = 6389},
+	{id = 7903, chance = 5158},
+	{id = 7632, chance = 4293},
+	{id = 2155, chance = 3727},
+	{id = 7901, chance = 3527},
+	{id = 8912, chance = 3361},
+	{id = 2671, chance = 2928},
+	{id = 2477, chance = 2429},
+	{id = 7900, chance = 1963},
+	{id = 2189, chance = 1830},
+	{id = 8910, chance = 1697},
+	{id = 8920, chance = 1364}
 }
 
 mType:register(monster)

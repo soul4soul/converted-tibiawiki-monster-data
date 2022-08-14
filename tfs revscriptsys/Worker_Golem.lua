@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 3,
+	color = 35
 }
 
 monster.voices = {
@@ -70,16 +70,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
+	{type = COMBAT_EARTHDAMAGE, percent = 50},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 10},
+	{type = COMBAT_HOLYDAMAGE , percent = 50},
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
@@ -94,23 +94,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 93816, maxCount = 139},
-	{id = 8309, chance = 4798, maxCount = 5},
-	{id = 10572, chance = 2180},
-	{id = 7591, chance = 1969},
-	{id = 7590, chance = 1577},
-	{id = 9809, chance = 1551},
-	{id = 9690, chance = 1067},
-	{id = 2177, chance = 1010},
-	{id = 2391, chance = 995},
-	{id = 2145, chance = 979, maxCount = 2},
-	{id = 9812, chance = 917},
+	{id = 2148, chance = 93815, maxCount = 140},
+	{id = 8309, chance = 4812, maxCount = 5},
+	{id = 10572, chance = 2173},
+	{id = 7591, chance = 1973},
+	{id = 7590, chance = 1573},
+	{id = 9809, chance = 1558},
+	{id = 9690, chance = 1066},
+	{id = 2177, chance = 1009},
+	{id = 2391, chance = 989},
+	{id = 2145, chance = 974, maxCount = 2},
+	{id = 9812, chance = 927},
 	{id = 7452, chance = 912},
-	{id = 5880, chance = 876},
-	{id = 8472, chance = 819},
-	{id = 7439, chance = 788},
-	{id = 2164, chance = 500},
-	{id = "crystal pedestal", chance = 160},
+	{id = 5880, chance = 871},
+	{id = 8472, chance = 820},
+	{id = 7439, chance = 784},
+	{id = 2164, chance = 502},
+	{id = "crystal pedestal", chance = 159},
 	{id = 7428, chance = 113}
 }
 

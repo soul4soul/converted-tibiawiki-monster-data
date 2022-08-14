@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Planestrider")
 local monster = {}
 
 monster.name = "Planestrider"
-monster.description = ""
+monster.description = "Planestrider"
 monster.experience = 9000
 monster.outfit = {
 	lookType = 0,
@@ -83,6 +83,11 @@ monster.attacks = {
 monster.defenses = {
 	defense = 5,
 	armor = 10
+}
+
+monster.maxSummons = 3
+monster.summons = {
+	{name = "Lost Ghost Of A Planegazer", chance = 15, interval = 2000, max = 3}
 }
 
 monster.loot = {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dread Intruder" nameDescription="a dread intruder" experience="2400" speed="330" manacost="0">
+<monster name="Dread Intruder" nameDescription="a dread intruder" race="blood" experience="2400" speed="330" manacost="0">
 	<health now="4500" max="4500" />
 	<look type="882" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="90" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="5" />
+		<element holyPercent="-10" />
+		<element deathPercent="80" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
-	</attacks>
 	<defenses armor="50" defense="50" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Whirr!" yell="false" />
@@ -50,27 +47,27 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="8" />
-		<item id="26201" name="energy drink" chance="21006" />
-		<item id="26191" name="energy bar" chance="20076" />
-		<item id="26175" name="frozen lightning" chance="16080" />
-		<item id="26172" name="instable proto matter" chance="15496" />
-		<item id="7590" name="great mana potion" chance="13449" />
-		<item id="8472" name="great spirit potion" chance="12661" />
-		<item id="8473" name="ultimate health potion" chance="12386" />
-		<item id="26179" name="energy ball" chance="12076" />
-		<item id="26166" name="odd organ" chance="9622" />
-		<item id="18418" name="blue crystal splinter" chance="9055" />
-		<item id="18419" name="cyan crystal fragment" chance="5901" />
-		<item id="2147" name="small ruby" chance="4864" countmax="2" />
-		<item id="2146" name="small sapphire" chance="4802" countmax="2" />
-		<item id="2150" name="small amethyst" chance="4430" countmax="2" />
-		<item id="18414" name="violet crystal shard" chance="4332" />
-		<item id="2153" name="violet gem" chance="1010" />
-		<item name="ring of red plasma" chance="310" />
-		<item name="ring of green plasma" chance="284" />
-		<item id="26199" name="collar of green plasma" chance="266" />
-		<item name="ring of blue plasma" chance="248" />
-		<item name="collar of blue plasma" chance="239" />
-		<item id="26200" name="collar of red plasma" chance="230" />
+		<item id="26201" name="energy drink" chance="20944" />
+		<item id="26191" name="energy bar" chance="20173" />
+		<item id="26175" name="frozen lightning" chance="15968" />
+		<item id="26172" name="instable proto matter" chance="15083" />
+		<item id="7590" name="great mana potion" chance="13299" />
+		<item id="8472" name="great spirit potion" chance="13024" />
+		<item id="8473" name="ultimate health potion" chance="12541" />
+		<item id="26179" name="energy ball" chance="11958" />
+		<item id="26166" name="odd organ" chance="9805" />
+		<item id="18418" name="blue crystal splinter" chance="8866" />
+		<item id="18419" name="cyan crystal fragment" chance="5660" />
+		<item id="2147" name="small ruby" chance="4762" countmax="2" />
+		<item id="2146" name="small sapphire" chance="4701" countmax="2" />
+		<item id="2150" name="small amethyst" chance="4413" countmax="2" />
+		<item id="18414" name="violet crystal shard" chance="4373" />
+		<item id="2153" name="violet gem" chance="979" />
+		<item name="ring of red plasma" chance="302" />
+		<item name="ring of blue plasma" chance="275" />
+		<item id="26199" name="collar of green plasma" chance="255" />
+		<item name="collar of blue plasma" chance="248" />
+		<item name="ring of green plasma" chance="248" />
+		<item id="26200" name="collar of red plasma" chance="221" />
 	</loot>
 </monster>

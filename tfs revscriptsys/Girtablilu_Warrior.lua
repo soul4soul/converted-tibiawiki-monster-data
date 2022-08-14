@@ -5,12 +5,12 @@ monster.name = "Girtablilu Warrior"
 monster.description = "a girtablilu warrior"
 monster.experience = 5800
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1407,
+	lookHead = 114,
+	lookBody = 39,
+	lookLegs = 113,
+	lookFeet = 114,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -15},
+	{type = COMBAT_EARTHDAMAGE, percent = 10},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_DEATHDAMAGE , percent = 15}
 }
 
 monster.attacks = {
@@ -87,34 +87,34 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 77104, maxCount = 16},
-	{id = 8473, chance = 15362, maxCount = 4},
-	{id = 9971, chance = 14126},
-	{id = 18415, chance = 6416},
-	{id = 18420, chance = 5827},
-	{id = 39627, chance = 4650},
-	{id = 18419, chance = 4532},
-	{id = 39478, chance = 4238},
-	{id = 2155, chance = 4061},
-	{id = 2153, chance = 3414},
-	{id = 18413, chance = 2884},
-	{id = 2416, chance = 2825},
-	{id = 7387, chance = 2590},
-	{id = 18414, chance = 2472},
-	{id = 2154, chance = 2354},
-	{id = 2396, chance = 2237},
-	{id = 7899, chance = 2178},
-	{id = 2438, chance = 2119},
-	{id = 7430, chance = 2001},
-	{id = 2430, chance = 2001},
-	{id = 3962, chance = 1942},
-	{id = 18421, chance = 1707},
-	{id = 2158, chance = 1530},
-	{id = 2156, chance = 1530},
-	{id = 2656, chance = 1059},
-	{id = 8871, chance = 1059},
-	{id = 24741, chance = 824},
-	{id = 7897, chance = 647}
+	{id = 2152, chance = 76677, maxCount = 16},
+	{id = 8473, chance = 15751, maxCount = 4},
+	{id = 9971, chance = 14089},
+	{id = 18415, chance = 6134},
+	{id = 18420, chance = 5431},
+	{id = 39627, chance = 4505},
+	{id = 18419, chance = 4473},
+	{id = 39478, chance = 4089},
+	{id = 2155, chance = 3866},
+	{id = 2153, chance = 3482},
+	{id = 18413, chance = 3131},
+	{id = 2416, chance = 3003},
+	{id = 18414, chance = 2875},
+	{id = 2396, chance = 2524},
+	{id = 7430, chance = 2492},
+	{id = 7387, chance = 2460},
+	{id = 2438, chance = 2173},
+	{id = 2430, chance = 2109},
+	{id = 2154, chance = 2109},
+	{id = 7899, chance = 2109},
+	{id = 18421, chance = 1725},
+	{id = 2156, chance = 1565},
+	{id = 3962, chance = 1374},
+	{id = 2158, chance = 1374},
+	{id = 2656, chance = 1118},
+	{id = 24741, chance = 990},
+	{id = 7897, chance = 895},
+	{id = 8871, chance = 831}
 }
 
 mType:register(monster)

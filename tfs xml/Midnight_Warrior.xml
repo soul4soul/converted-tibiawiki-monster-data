@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Midnight Warrior" nameDescription="a midnight warrior" experience="750" speed="240" manacost="0">
+<monster name="Midnight Warrior" nameDescription="a midnight warrior" race="blood" experience="750" speed="240" manacost="0">
 	<health now="1000" max="1000" />
 	<look type="268" head="95" body="95" legs="95" feet="95" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,24 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-180" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-180" poison="135" />
+		<attack name="physical" interval="2000" chance="15" min="-90" max="-110" radius="3" target="0">
+			<attribute key="areaEffect" value="yellowspark" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="0" max="-50" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="whirlwindaxe" />
+		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">

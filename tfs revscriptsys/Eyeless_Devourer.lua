@@ -5,7 +5,7 @@ monster.name = "Eyeless Devourer"
 monster.description = "an eyeless devourer"
 monster.experience = 6000
 monster.outfit = {
-	lookType = 0,
+	lookType = 1399,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -65,9 +65,9 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 5},
+	{type = COMBAT_EARTHDAMAGE, percent = 10},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -90,26 +90,28 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 21},
-	{id = 8473, chance = 29630},
-	{id = 39431, chance = 16162},
-	{id = 18413, chance = 9764},
-	{id = 39432, chance = 7744},
-	{id = 2155, chance = 6061},
-	{id = 18414, chance = 6061},
-	{id = 18415, chance = 5387},
-	{id = 39433, chance = 3030},
-	{id = 7383, chance = 2694},
-	{id = 2454, chance = 2694},
-	{id = 7888, chance = 2357},
-	{id = 10219, chance = 2357},
-	{id = 2445, chance = 2020},
-	{id = 7422, chance = 2020},
-	{id = 7456, chance = 1684},
-	{id = 15451, chance = 1684},
-	{id = 23547, chance = 1347},
-	{id = 15644, chance = 1347},
-	{id = 2393, chance = 673},
-	{id = 23542, chance = 673}
+	{id = 8473, chance = 29866},
+	{id = 39431, chance = 13553},
+	{id = 39432, chance = 8457},
+	{id = 18413, chance = 7679},
+	{id = 18415, chance = 6723},
+	{id = 18414, chance = 6476},
+	{id = 2155, chance = 6263},
+	{id = 39433, chance = 3539},
+	{id = 10219, chance = 3149},
+	{id = 7888, chance = 2477},
+	{id = 2445, chance = 2335},
+	{id = 15451, chance = 1840},
+	{id = 2454, chance = 1309},
+	{id = 7386, chance = 1309},
+	{id = 7456, chance = 1309},
+	{id = 7383, chance = 1238},
+	{id = 2393, chance = 1026},
+	{id = 7422, chance = 991},
+	{id = 15644, chance = 885},
+	{id = 23547, chance = 672},
+	{id = 7451, chance = 602},
+	{id = 23542, chance = 531}
 }
 
 mType:register(monster)

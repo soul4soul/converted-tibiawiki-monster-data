@@ -78,18 +78,17 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -50}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10,
-	{name ="speed", interval = 2000, chance = 15, speed = {min = 450, max = 450}, duration = 4000, effect = CONST_ME_MAGIC_RED}
+	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
 }
 
 monster.loot = {
 	{id = 2229, chance = 100000, maxCount = 2},
-	{id = 2148, chance = 66667, maxCount = 34},
+	{id = 2148, chance = 66667, maxCount = 45},
 	{id = 2385, chance = 33333},
 	{id = 2526, chance = 33333}
 }

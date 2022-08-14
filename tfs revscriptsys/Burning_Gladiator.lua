@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = true,
 	canWalkOnFire = true,
@@ -68,20 +68,23 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 30},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -20},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -550}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -300, maxDamage = -500, ring = 3, target = , effect = CONST_ME_FIREATTACK},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -300, maxDamage = -500, radius = 2, target = , effect = CONST_ME_FIREATTACK},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -300, maxDamage = -500, ring = 2, target = , effect = CONST_ME_FIREATTACK},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -300, maxDamage = -500, length = 3, spread = 0, effect = CONST_ME_ENERGYHIT}
 }
 
 monster.defenses = {
@@ -91,21 +94,24 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 4},
-	{id = 34099, chance = 10111},
-	{id = "secret instruction", chance = 7386},
-	{id = 2201, chance = 5933},
-	{id = 2161, chance = 5005},
-	{id = 7889, chance = 4642},
-	{id = 7890, chance = 4420},
-	{id = 7901, chance = 4258},
-	{id = 7891, chance = 4238},
-	{id = 7895, chance = 4016},
-	{id = 33987, chance = 2563},
-	{id = 2198, chance = 2543},
-	{id = 7893, chance = 1655},
-	{id = 11355, chance = 1130},
-	{id = 33980, chance = 908},
-	{id = 33979, chance = 585}
+	{id = 34099, chance = 10107},
+	{id = "secret instruction", chance = 7372},
+	{id = 2201, chance = 6122},
+	{id = 2161, chance = 4872},
+	{id = 7889, chance = 4673},
+	{id = 7890, chance = 4510},
+	{id = 7901, chance = 4347},
+	{id = 7891, chance = 4256},
+	{id = 7895, chance = 3894},
+	{id = 2198, chance = 2572},
+	{id = 33987, chance = 2572},
+	{id = 34089, chance = 2500},
+	{id = 34092, chance = 2500},
+	{id = 34091, chance = 2500},
+	{id = 7893, chance = 1666},
+	{id = 11355, chance = 1087},
+	{id = 33980, chance = 833},
+	{id = 33979, chance = 580}
 }
 
 mType:register(monster)

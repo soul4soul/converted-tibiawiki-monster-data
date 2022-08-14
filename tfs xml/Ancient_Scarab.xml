@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ancient Scarab" nameDescription="an ancient scarab" experience="720" speed="218" manacost="0">
+<monster name="Ancient Scarab" nameDescription="an ancient scarab" race="blood" experience="720" speed="218" manacost="0">
 	<health now="1000" max="1000" />
 	<look type="79" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-5" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -48,20 +48,23 @@
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 	</defenses>
+	<summons maxSummons="3">
+		<voice name="Larva" interval="2000" chance="15" max="3" />
+	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="187" />
-		<item id="2162" name="magic light wand" chance="10215" />
-		<item id="2159" name="scarab coin" chance="8090" countmax="2" />
-		<item id="10548" name="scarab pincers" chance="7134" />
-		<item id="2149" name="small emerald" chance="6035" countmax="3" />
-		<item id="2150" name="small amethyst" chance="6004" countmax="4" />
-		<item id="2463" name="plate armor" chance="4925" />
-		<item id="2135" name="scarab amulet" chance="3595" />
-		<item id="2142" name="ancient amulet" chance="2524" />
-		<item id="7588" name="strong health potion" chance="1628" />
-		<item id="8912" name="springsprout rod" chance="973" />
-		<item id="2540" name="scarab shield" chance="501" />
-		<item id="7903" name="terra hood" chance="424" />
-		<item id="2440" name="daramian waraxe" chance="284" />
+		<item id="2162" name="magic light wand" chance="10206" />
+		<item id="2159" name="scarab coin" chance="8072" countmax="2" />
+		<item id="10548" name="scarab pincers" chance="7118" />
+		<item id="2149" name="small emerald" chance="6059" countmax="3" />
+		<item id="2150" name="small amethyst" chance="5982" countmax="4" />
+		<item id="2463" name="plate armor" chance="4937" />
+		<item id="2135" name="scarab amulet" chance="3629" />
+		<item id="2142" name="ancient amulet" chance="2490" />
+		<item id="7588" name="strong health potion" chance="1613" />
+		<item id="8912" name="springsprout rod" chance="958" />
+		<item id="2540" name="scarab shield" chance="514" />
+		<item id="7903" name="terra hood" chance="434" />
+		<item id="2440" name="daramian waraxe" chance="286" />
 	</loot>
 </monster>

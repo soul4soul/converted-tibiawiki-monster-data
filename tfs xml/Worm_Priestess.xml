@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Worm Priestess" nameDescription="a worm priestess" experience="1500" speed="198" manacost="0">
+<monster name="Worm Priestess" nameDescription="a worm priestess" race="blood" experience="1500" speed="198" manacost="0">
 	<health now="1100" max="1100" />
 	<look type="613" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="1" />
+		<flag targetdistance="4" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -31,14 +31,14 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="20" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="5" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="5" />
 	</elements>
 	<defenses armor="36" defense="36" />
 	<voices interval="5000" chance="10">
@@ -48,26 +48,26 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="150" />
-		<item id="2152" name="platinum coin" chance="39887" countmax="3" />
-		<item id="12429" name="purple robe" chance="15978" />
-		<item id="7589" name="strong mana potion" chance="12293" countmax="3" />
-		<item id="2182" name="snakebite rod" chance="11911" />
+		<item id="2152" name="platinum coin" chance="39890" countmax="3" />
+		<item id="12429" name="purple robe" chance="15986" />
+		<item id="7589" name="strong mana potion" chance="12282" countmax="3" />
+		<item id="2182" name="snakebite rod" chance="11909" />
 		<item id="7425" name="taurus mace" chance="5093" />
-		<item name="torch" chance="4966" />
+		<item name="torch" chance="4971" />
 		<item id="5878" name="minotaur leather" chance="4964" />
-		<item id="12428" name="minotaur horn" chance="2880" countmax="2" />
-		<item id="2150" name="small amethyst" chance="2610" countmax="2" />
-		<item id="9970" name="small topaz" chance="2484" countmax="2" />
-		<item id="2149" name="small emerald" chance="2443" countmax="2" />
-		<item id="2147" name="small ruby" chance="2422" countmax="2" />
-		<item id="2145" name="small diamond" chance="2409" countmax="2" />
-		<item id="2146" name="small sapphire" chance="2408" countmax="2" />
-		<item id="5912" name="blue piece of cloth" chance="1559" />
-		<item id="8910" name="underworld rod" chance="1536" />
-		<item id="5911" name="red piece of cloth" chance="1490" />
-		<item id="5910" name="green piece of cloth" chance="1466" />
-		<item id="2154" name="yellow gem" chance="516" />
-		<item id="2156" name="red gem" chance="477" />
+		<item id="12428" name="minotaur horn" chance="2883" countmax="2" />
+		<item id="2150" name="small amethyst" chance="2619" countmax="2" />
+		<item id="9970" name="small topaz" chance="2488" countmax="2" />
+		<item id="2149" name="small emerald" chance="2444" countmax="2" />
+		<item id="2147" name="small ruby" chance="2423" countmax="2" />
+		<item id="2145" name="small diamond" chance="2406" countmax="2" />
+		<item id="2146" name="small sapphire" chance="2406" countmax="2" />
+		<item id="5912" name="blue piece of cloth" chance="1558" />
+		<item id="8910" name="underworld rod" chance="1534" />
+		<item id="5911" name="red piece of cloth" chance="1491" />
+		<item id="5910" name="green piece of cloth" chance="1477" />
+		<item id="2154" name="yellow gem" chance="518" />
+		<item id="2156" name="red gem" chance="475" />
 		<item id="7401" name="minotaur trophy" chance="141" />
 	</loot>
 </monster>

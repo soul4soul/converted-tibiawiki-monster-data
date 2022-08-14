@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -88,20 +88,30 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 10584, chance = 100000},
 	{id = 2148, chance = 100000, maxCount = 105},
-	{id = 8872, chance = 75000},
-	{id = 8473, chance = 50000, maxCount = 3},
+	{id = 10584, chance = 100000, maxCount = 2},
+	{id = 8872, chance = 50000},
+	{id = 5911, chance = 50000},
+	{id = 21706, chance = 50000},
+	{id = 7590, chance = 50000, maxCount = 3},
 	{id = 5914, chance = 50000},
-	{id = 7590, chance = 25000, maxCount = 3},
+	{id = 2152, chance = 50000, maxCount = 13},
+	{id = 8912, chance = 25000},
 	{id = 8472, chance = 25000, maxCount = 3},
 	{id = 5910, chance = 25000},
-	{id = 2152, chance = 25000, maxCount = 5},
-	{id = 2409, chance = 25000},
-	{id = 2149, chance = 25000, maxCount = 5},
 	{id = 9970, chance = 25000, maxCount = 5},
-	{id = 8912, chance = 25000},
-	{id = 2154, chance = 25000}
+	{id = 2149, chance = 25000, maxCount = 5},
+	{id = 2154, chance = 25000},
+	{id = 8473, chance = 25000, maxCount = 3},
+	{id = 2409, chance = 25000},
+	{id = 7436, chance = 25000},
+	{id = 8891, chance = 20000},
+	{id = 7427, chance = 20000},
+	{id = 21400, chance = 20000, maxCount = 2},
+	{id = 2155, chance = 20000},
+	{id = 5912, chance = 20000},
+	{id = 7454, chance = 20000},
+	{id = 21705, chance = 20000}
 }
 
 mType:register(monster)

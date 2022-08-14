@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Fahim the Wise")
 local monster = {}
 
 monster.name = "Fahim The Wise"
-monster.description = ""
+monster.description = "Fahim the Wise"
 monster.experience = 1500
 monster.outfit = {
 	lookType = 0,
@@ -69,17 +69,16 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 1},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = -15},
+	{type = COMBAT_HOLYDAMAGE , percent = 1},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -130}
 }
 
 monster.defenses = {
@@ -88,21 +87,28 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 173}
 }
 
+monster.maxSummons = 3
+monster.summons = {
+	{name = "Blue Djinn", chance = 15, interval = 2000, max = 3}
+}
+
 monster.loot = {
 	{id = 5912, chance = 100000, maxCount = 4},
 	{id = 12426, chance = 100000},
 	{id = 2148, chance = 95918, maxCount = 118},
 	{id = 12442, chance = 65306},
 	{id = 7378, chance = 55102, maxCount = 3},
-	{id = 2677, chance = 40816, maxCount = 21},
-	{id = 11227, chance = 40816},
+	{id = 2677, chance = 40816, maxCount = 22},
 	{id = 7589, chance = 40816, maxCount = 3},
+	{id = 11227, chance = 40816},
 	{id = 2663, chance = 34694},
+	{id = 2063, chance = 20000},
+	{id = 2442, chance = 20000},
 	{id = 2146, chance = 14286, maxCount = 2},
 	{id = 7732, chance = 8163},
 	{id = 7900, chance = 4082},
-	{id = 2158, chance = 2041},
-	{id = 2070, chance = 2041}
+	{id = 2070, chance = 2041},
+	{id = 2158, chance = 2041}
 }
 
 mType:register(monster)

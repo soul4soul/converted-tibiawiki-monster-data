@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Tarbaz" nameDescription="a Tarbaz" experience="55000" speed="0" manacost="0">
+<monster name="Tarbaz" nameDescription="a Tarbaz" race="blood" experience="55000" speed="0" manacost="0">
 	<health now="290000" max="290000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,28 +40,33 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="6558" name="flask of demonic blood" chance="100000" />
-		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="18415" name="green crystal shard" chance="100000" countmax="3" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="30" />
 		<item id="25172" name="silver token" chance="100000" />
-		<item id="9970" name="small topaz" chance="100000" countmax="5" />
-		<item id="8473" name="ultimate health potion" chance="100000" countmax="5" />
-		<item id="7427" name="chaos mace" chance="66667" />
-		<item id="6500" name="demonic essence" chance="66667" />
-		<item id="2167" name="energy ring" chance="66667" />
-		<item id="7590" name="great mana potion" chance="66667" countmax="5" />
-		<item id="25382" name="rift shield" chance="66667" />
-		<item id="2154" name="yellow gem" chance="66667" />
-		<item id="18413" name="blue crystal shard" chance="33333" countmax="3" />
-		<item id="8472" name="great spirit potion" chance="33333" countmax="5" />
-		<item id="2155" name="green gem" chance="33333" />
-		<item id="8910" name="underworld rod" chance="33333" />
-		<item id="18414" name="violet crystal shard" chance="33333" countmax="3" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="34" />
+		<item id="2148" name="gold coin" chance="100000" countmax="318" />
+		<item id="6500" name="demonic essence" chance="100000" />
+		<item id="18413" name="blue crystal shard" chance="75000" countmax="3" />
+		<item id="7590" name="great mana potion" chance="75000" countmax="9" />
+		<item id="8472" name="great spirit potion" chance="75000" countmax="9" />
+		<item id="2167" name="energy ring" chance="50000" />
+		<item id="2145" name="small diamond" chance="50000" countmax="7" />
+		<item id="2156" name="red gem" chance="25000" />
+		<item id="7896" name="glacier kilt" chance="25000" />
+		<item id="2158" name="blue gem" chance="25000" />
+		<item id="2149" name="small emerald" chance="25000" countmax="9" />
+		<item id="18414" name="violet crystal shard" chance="25000" countmax="2" />
+		<item id="2155" name="green gem" chance="25000" />
+		<item id="7897" name="glacier robe" chance="25000" />
+		<item id="8473" name="ultimate health potion" chance="25000" countmax="5" />
+		<item id="6558" name="flask of demonic blood" chance="25000" countmax="8" />
+		<item id="18415" name="green crystal shard" chance="25000" />
+		<item id="25382" name="rift shield" chance="25000" />
+		<item id="9970" name="small topaz" chance="20000" />
+		<item id="2154" name="yellow gem" chance="20000" />
+		<item id="7427" name="chaos mace" chance="20000" />
+		<item id="25413" name="shroud of despair" chance="20000" />
+		<item id="8910" name="underworld rod" chance="20000" />
+		<item id="25418" name="maimer" chance="20000" />
 	</loot>
 </monster>

@@ -67,15 +67,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 15},
+	{type = COMBAT_HOLYDAMAGE , percent = 5},
+	{type = COMBAT_DEATHDAMAGE , percent = 35}
 }
 
 monster.attacks = {
@@ -83,30 +83,34 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 60,
-	armor = 60,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 275, maxDamage = 350}
+	armor = 60
+}
+
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Humorless Fungus", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 199},
 	{id = 2152, chance = 100000, maxCount = 7},
-	{id = 18437, chance = 15019, maxCount = 15},
-	{id = 18397, chance = 14850, maxCount = 3},
-	{id = 18434, chance = 14783},
-	{id = 7620, chance = 9018},
-	{id = 7590, chance = 7397},
-	{id = 7591, chance = 7386},
-	{id = 5909, chance = 6023},
-	{id = 5912, chance = 3603},
-	{id = 2391, chance = 3580},
-	{id = 5910, chance = 2939},
-	{id = 7887, chance = 2072},
-	{id = 7886, chance = 1835},
-	{id = 5911, chance = 1756},
-	{id = 7884, chance = 1013},
-	{id = 7885, chance = 889},
-	{id = 18411, chance = 597},
-	{id = 18454, chance = 68},
+	{id = 18437, chance = 15018, maxCount = 15},
+	{id = 18397, chance = 14885, maxCount = 3},
+	{id = 18434, chance = 14751},
+	{id = 7620, chance = 8975},
+	{id = 7591, chance = 7392},
+	{id = 7590, chance = 7359},
+	{id = 5909, chance = 6010},
+	{id = 5912, chance = 3624},
+	{id = 2391, chance = 3546},
+	{id = 5910, chance = 2955},
+	{id = 7887, chance = 2063},
+	{id = 7886, chance = 1829},
+	{id = 5911, chance = 1784},
+	{id = 7884, chance = 1026},
+	{id = 7885, chance = 892},
+	{id = 18411, chance = 591},
+	{id = 18454, chance = 67},
 	{id = 18393, chance = 11}
 }
 

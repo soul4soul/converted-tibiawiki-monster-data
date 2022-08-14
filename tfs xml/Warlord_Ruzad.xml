@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Warlord_Ruzad" nameDescription="" experience="1700" speed="0" manacost="0">
+<monster name="Warlord_Ruzad" nameDescription="" race="blood" experience="1700" speed="0" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,30 +30,35 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="1" />
+		<element earthPercent="-10" />
+		<element firePercent="80" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
-	</attacks>
 	<defenses armor="10" defense="5" />
+	<summons maxSummons="2">
+		<voice name="Orc Berserker" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
 		<item id="2478" name="brass legs" chance="50000" />
-		<item id="2148" name="gold coin" chance="25000" countmax="54" />
+		<item id="2148" name="gold coin" chance="25000" countmax="59" />
 		<item id="2428" name="orcish axe" chance="25000" />
 		<item id="2463" name="plate armor" chance="25000" />
 		<item id="2377" name="two handed sword" chance="25000" />
-		<item id="2490" name="dark helmet" chance="12500" />
-		<item id="3965" name="hunting spear" chance="12500" />
+		<item id="2399" name="throwing star" chance="20000" countmax="14" />
+		<item id="2667" name="fish" chance="20000" />
+		<item id="12435" name="orc leather" chance="20000" />
+		<item id="2200" name="protection amulet" chance="20000" />
+		<item id="7891" name="magma boots" chance="20000" />
 		<item id="2666" name="meat" chance="12500" />
-		<item id="2647" name="plate legs" chance="12500" />
+		<item id="3965" name="hunting spear" chance="12500" />
 		<item id="2419" name="scimitar" chance="12500" />
+		<item id="2647" name="plate legs" chance="12500" />
+		<item id="2490" name="dark helmet" chance="12500" />
 	</loot>
 </monster>

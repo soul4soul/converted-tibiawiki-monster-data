@@ -71,43 +71,54 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 60},
+	{type = COMBAT_EARTHDAMAGE, percent = 10},
+	{type = COMBAT_FIREDAMAGE, percent = 90},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = -5},
+	{type = COMBAT_HOLYDAMAGE , percent = -8},
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -110}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -114},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -40, maxDamage = -110, range = 7, radius = 1, target = true, shootEffect = CONST_ANI_FIRE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -65, maxDamage = -115, range = 7, radius = 1, target = true, shootEffect = CONST_ANI_ENERGY},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -60, maxDamage = -120, range = 7, radius = 1, target = true, shootEffect = CONST_ANI_DEATH},
+	{name ="speed", interval = 2000, chance = 15, speed = {min = -400, max = -400}, duration = 20000, range = 7, radius = 1, target = true, effect = CONST_ME_MAGIC_RED},
+	{name ="drunk", interval = 2000, chance = 15, drunkenness = 50, duration = 15000, range = 7, radius = 1, target = true, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_TELEPORT},
+	{name ="outfit", interval = 2000, chance = 15, monster = "rat", duration = 5000}
 }
 
 monster.defenses = {
 	defense = 24,
 	armor = 24,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 55, maxDamage = 137}
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 50, maxDamage = 80}
+}
+
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Green Djinn", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
-	{id = 2148, chance = 97599, maxCount = 129},
-	{id = 7378, chance = 15040, maxCount = 3},
-	{id = 7589, chance = 10521},
-	{id = 2673, chance = 9603, maxCount = 5},
-	{id = 12426, chance = 7626},
-	{id = 2149, chance = 7220},
-	{id = 2442, chance = 4837},
-	{id = 5910, chance = 2683},
-	{id = 1860, chance = 2136},
-	{id = 12442, chance = 1006},
-	{id = 7900, chance = 388},
-	{id = 2187, chance = 353},
-	{id = 2663, chance = 229},
-	{id = 2063, chance = 194},
-	{id = 2155, chance = 124}
+	{id = 2148, chance = 97579, maxCount = 130},
+	{id = 7378, chance = 15007, maxCount = 3},
+	{id = 7589, chance = 10422},
+	{id = 2673, chance = 9598, maxCount = 5},
+	{id = 12426, chance = 7538},
+	{id = 2149, chance = 7263},
+	{id = 2442, chance = 4928},
+	{id = 5910, chance = 2679},
+	{id = 1860, chance = 2198},
+	{id = 12442, chance = 1030},
+	{id = 7900, chance = 395},
+	{id = 2187, chance = 343},
+	{id = 2663, chance = 223},
+	{id = 2063, chance = 206},
+	{id = 2155, chance = 120}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Mechanical Fighter" nameDescription="a mechanical fighter" experience="255" speed="0" manacost="0">
+<monster name="Mechanical Fighter" nameDescription="a mechanical fighter" race="blood" experience="255" speed="0" manacost="0">
 	<health now="420" max="420" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,14 +30,14 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="50" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element holyPercent="100" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
@@ -49,6 +49,6 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item name="Wooden Trash" chance="20000" />
+		<item name="wooden trash" chance="20000" />
 	</loot>
 </monster>

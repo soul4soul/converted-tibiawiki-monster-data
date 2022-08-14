@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The Blazing Rose" nameDescription="" experience="0" speed="0" manacost="0">
+<monster name="The Blazing Rose" nameDescription="The Blazing Rose" race="blood" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,9 +30,9 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="20" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -42,19 +42,20 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="331" />
-		<item id="24630" name="golden lotus brooch" chance="100000" />
-		<item id="24631" name="peacock feather fan" chance="100000" />
 		<item id="31151" name="perfume flacon" chance="100000" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
-		<item id="7368" name="assassin star" chance="60000" countmax="12" />
-		<item id="8472" name="great spirit potion" chance="40000" />
-		<item id="5944" name="soul orb" chance="40000" />
-		<item id="2124" name="crystal ring" chance="20000" />
-		<item id="6500" name="demonic essence" chance="20000" />
-		<item id="6558" name="flask of demonic blood" chance="20000" />
-		<item id="24637" name="oriental shoes" chance="20000" />
-		<item id="2156" name="red gem" chance="20000" />
-		<item id="2150" name="small amethyst" chance="20000" countmax="3" />
+		<item id="2148" name="gold coin" chance="100000" countmax="331" />
+		<item id="24631" name="peacock feather fan" chance="100000" />
+		<item id="24630" name="golden lotus brooch" chance="100000" />
+		<item id="7368" name="assassin star" chance="75000" countmax="15" />
+		<item id="6558" name="flask of demonic blood" chance="50000" />
+		<item id="2150" name="small amethyst" chance="25000" countmax="3" />
+		<item id="5944" name="soul orb" chance="25000" />
+		<item id="8472" name="great spirit potion" chance="25000" />
+		<item id="2124" name="crystal ring" chance="25000" />
+		<item id="2156" name="red gem" chance="12500" />
+		<item id="24637" name="oriental shoes" chance="12500" />
+		<item id="6500" name="demonic essence" chance="12500" />
+		<item id="2186" name="moonlight rod" chance="12500" />
 	</loot>
 </monster>

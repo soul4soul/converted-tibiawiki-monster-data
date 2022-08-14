@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Elf Scout" nameDescription="an elf scout" experience="75" speed="220" manacost="0">
+<monster name="Elf Scout" nameDescription="an elf scout" race="blood" experience="75" speed="220" manacost="360">
 	<health now="160" max="160" />
 	<look type="64" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -37,8 +37,8 @@
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="20" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
@@ -49,22 +49,22 @@
 	<defenses armor="7" defense="7" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Tha'shi Ab'Dendriel!" yell="false" />
-		<voice sentence="[[Evicor]] guide my arrow!" yell="false" />
+		<voice sentence="Evicor guide my arrow!" yell="false" />
 		<voice sentence="Your existence will end here!" yell="false" />
 		<voice sentence="Feel the sting of my arrows!" yell="false" />
 		<voice sentence="Thy blood will quench the soil's thirst!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75053" countmax="25" />
+		<item id="2148" name="gold coin" chance="75043" countmax="25" />
 		<item id="2544" name="arrow" chance="30506" countmax="12" />
-		<item id="2681" name="grapes" chance="17864" />
-		<item id="2545" name="poison arrow" chance="15150" countmax="4" />
-		<item id="12420" name="elven scouting glass" chance="10089" />
-		<item id="10552" name="elvish talisman" chance="5132" />
-		<item id="2456" name="bow" chance="4028" />
-		<item id="2031" name="waterskin" chance="1244" />
-		<item id="2642" name="sandals" chance="1121" />
-		<item id="5921" name="heaven blossom" chance="1095" />
-		<item id="7438" name="elvish bow" chance="144" />
+		<item id="2681" name="grapes" chance="17816" />
+		<item id="2545" name="poison arrow" chance="15149" countmax="4" />
+		<item id="12420" name="elven scouting glass" chance="10079" />
+		<item id="10552" name="elvish talisman" chance="5122" />
+		<item id="2456" name="bow" chance="4021" />
+		<item id="2031" name="waterskin" chance="1247" />
+		<item id="2642" name="sandals" chance="1122" />
+		<item id="5921" name="heaven blossom" chance="1105" />
+		<item id="7438" name="elvish bow" chance="142" />
 	</loot>
 </monster>

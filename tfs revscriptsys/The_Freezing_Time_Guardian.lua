@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Freezing Time Guardian")
 local monster = {}
 
 monster.name = "The Freezing Time Guardian"
-monster.description = ""
+monster.description = "The Freezing Time Guardian"
 monster.experience = 50000
 monster.outfit = {
 	lookType = 0,
@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 5,
+	color = 107
 }
 
 monster.voices = {
@@ -68,17 +68,16 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -1},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -87,36 +86,41 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 200},
-	{id = 7440, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 35},
-	{id = 2214, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 24},
+	{id = 2147, chance = 100000, maxCount = 15},
 	{id = 2436, chance = 100000},
-	{id = 18415, chance = 90909, maxCount = 3},
-	{id = 8473, chance = 90909, maxCount = 10},
-	{id = 12410, chance = 63636},
-	{id = 25172, chance = 54545},
-	{id = 7590, chance = 45455, maxCount = 5},
-	{id = 18413, chance = 36364, maxCount = 3},
-	{id = 2145, chance = 36364, maxCount = 10},
-	{id = 2197, chance = 36364},
-	{id = "giant shimmering pearl", chance = 27273},
-	{id = 25377, chance = 27273},
-	{id = 8472, chance = 27273, maxCount = 10},
-	{id = 2156, chance = 27273},
-	{id = 2149, chance = 27273, maxCount = 10},
-	{id = 18414, chance = 27273, maxCount = 3},
-	{id = 7387, chance = 18182},
-	{id = 2150, chance = 18182, maxCount = 10},
-	{id = 5809, chance = 18182},
-	{id = 2154, chance = 18182},
-	{id = 2158, chance = 9091},
-	{id = 22396, chance = 9091},
-	{id = 5892, chance = 9091},
-	{id = 2539, chance = 9091},
-	{id = 7417, chance = 9091},
-	{id = 9970, chance = 9091, maxCount = 10},
-	{id = 2153, chance = 9091}
+	{id = 12410, chance = 100000},
+	{id = 18415, chance = 100000, maxCount = 5},
+	{id = 2214, chance = 100000},
+	{id = 25377, chance = 100000},
+	{id = 7590, chance = 100000, maxCount = 5},
+	{id = 2148, chance = 100000, maxCount = 280},
+	{id = 7440, chance = 100000},
+	{id = 13293, chance = 50000},
+	{id = 7896, chance = 50000},
+	{id = 18413, chance = 50000, maxCount = 3},
+	{id = 18414, chance = 50000, maxCount = 3},
+	{id = 2156, chance = 50000},
+	{id = 2155, chance = 50000},
+	{id = 8472, chance = 50000, maxCount = 5},
+	{id = 8473, chance = 50000, maxCount = 5},
+	{id = 7899, chance = 20000},
+	{id = 9970, chance = 20000},
+	{id = 5892, chance = 20000},
+	{id = "giant shimmering pearl", chance = 20000},
+	{id = 5809, chance = 20000},
+	{id = 7387, chance = 20000},
+	{id = 2158, chance = 20000},
+	{id = 2154, chance = 20000},
+	{id = 22396, chance = 20000},
+	{id = 2197, chance = 20000},
+	{id = 7417, chance = 20000},
+	{id = 2153, chance = 20000},
+	{id = 2150, chance = 20000},
+	{id = 25172, chance = 20000},
+	{id = 2539, chance = 20000},
+	{id = 2149, chance = 20000},
+	{id = 2145, chance = 20000}
 }
 
 mType:register(monster)

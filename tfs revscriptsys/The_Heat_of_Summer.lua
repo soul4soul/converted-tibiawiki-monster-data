@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Heat of Summer")
 local monster = {}
 
 monster.name = "The Heat Of Summer"
-monster.description = ""
+monster.description = "an the heat of summer"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

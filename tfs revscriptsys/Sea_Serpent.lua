@@ -67,20 +67,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 30},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250}
 }
 
 monster.defenses = {
@@ -90,25 +89,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 98303, maxCount = 236},
-	{id = 2672, chance = 60536},
-	{id = 2152, chance = 26702, maxCount = 3},
-	{id = 10583, chance = 10134},
+	{id = 2148, chance = 98306, maxCount = 236},
+	{id = 2672, chance = 60552, maxCount = 2},
+	{id = 2152, chance = 26706, maxCount = 3},
+	{id = 10583, chance = 10130},
 	{id = 2647, chance = 7107},
-	{id = 2146, chance = 5895, maxCount = 3},
-	{id = 7588, chance = 4981},
-	{id = 2409, chance = 4058},
-	{id = 7589, chance = 3958},
-	{id = 8870, chance = 2895},
+	{id = 2146, chance = 5902, maxCount = 3},
+	{id = 7588, chance = 4976},
+	{id = 2409, chance = 4054},
+	{id = 7589, chance = 3961},
+	{id = 8870, chance = 2896},
 	{id = 2214, chance = 1139},
-	{id = 8911, chance = 1019},
-	{id = 7590, chance = 928},
-	{id = 7888, chance = 879},
-	{id = 7896, chance = 436},
-	{id = 8871, chance = 411},
+	{id = 8911, chance = 1017},
+	{id = 7590, chance = 929},
+	{id = 7888, chance = 877},
+	{id = 7896, chance = 435},
 	{id = 2165, chance = 411},
+	{id = 8871, chance = 411},
 	{id = 10220, chance = 115},
-	{id = 8878, chance = 96}
+	{id = 8878, chance = 95}
 }
 
 mType:register(monster)

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The First Dragon")
 local monster = {}
 
 monster.name = "The First Dragon"
-monster.description = ""
+monster.description = "The First Dragon"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

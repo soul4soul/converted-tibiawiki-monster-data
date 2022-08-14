@@ -68,18 +68,17 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = -15},
+	{type = COMBAT_HOLYDAMAGE , percent = 20},
+	{type = COMBAT_DEATHDAMAGE , percent = -8}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -70}
 }
 
 monster.defenses = {
@@ -92,10 +91,12 @@ monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 29},
 	{id = 10608, chance = 100000, maxCount = 2},
 	{id = 2152, chance = 34615},
+	{id = 2666, chance = 20000, maxCount = 4},
 	{id = 2168, chance = 19231},
-	{id = 2671, chance = 15385},
-	{id = 2515, chance = 3846},
-	{id = 2200, chance = 3846}
+	{id = 2671, chance = 15385, maxCount = 2},
+	{id = 21400, chance = 7500},
+	{id = 2200, chance = 3846},
+	{id = 2515, chance = 3846}
 }
 
 mType:register(monster)

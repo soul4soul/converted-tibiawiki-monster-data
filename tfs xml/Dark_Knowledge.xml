@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dark Knowledge" nameDescription="" experience="0" speed="0" manacost="0">
+<monster name="Dark Knowledge" nameDescription="an dark knowledge" race="blood" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -42,6 +42,6 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="31144" name="Parchment of Dark Knowledge" chance="20000" />
+		<item id="31144" name="parchment of dark knowledge" chance="20000" />
 	</loot>
 </monster>

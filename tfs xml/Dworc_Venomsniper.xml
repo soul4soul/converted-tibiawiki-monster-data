@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dworc Venomsniper" nameDescription="a dworc venomsniper" experience="35" speed="152" manacost="0">
+<monster name="Dworc Venomsniper" nameDescription="a dworc venomsniper" race="blood" experience="35" speed="152" manacost="0">
 	<health now="80" max="80" />
 	<look type="216" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,18 +31,15 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-13" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-13" />
+		<element holyPercent="15" />
+		<element deathPercent="-8" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-15" />
-	</attacks>
 	<defenses armor="3" defense="3" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Grow truk grrrrr." yell="false" />
@@ -50,16 +47,16 @@
 		<voice sentence="Prek tars, dekklep zurk." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="74990" countmax="13" />
-		<item id="2467" name="leather armor" chance="10049" />
-		<item id="2410" name="throwing knife" chance="7907" countmax="2" />
-		<item name="torch" chance="5485" />
-		<item id="2545" name="poison arrow" chance="4959" countmax="3" />
-		<item id="2411" name="poison dagger" chance="1501" />
-		<item id="2229" name="skull (item)" chance="981" countmax="2" />
-		<item id="3967" name="tribal mask" chance="503" />
-		<item id="7732" name="seeds" chance="193" />
-		<item id="3983" name="bast skirt" chance="100" />
+		<item id="2148" name="gold coin" chance="74975" countmax="13" />
+		<item id="2467" name="leather armor" chance="10045" />
+		<item id="2410" name="throwing knife" chance="7908" countmax="2" />
+		<item name="torch" chance="5491" />
+		<item id="2545" name="poison arrow" chance="4955" countmax="3" />
+		<item id="2411" name="poison dagger" chance="1500" />
+		<item id="2229" name="skull (item)" chance="984" countmax="2" />
+		<item id="3967" name="tribal mask" chance="501" />
+		<item id="7732" name="seeds" chance="194" />
+		<item id="3983" name="bast skirt" chance="99" />
 		<item id="2172" name="bronze amulet" chance="98" />
 	</loot>
 </monster>

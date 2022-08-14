@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Golden Servant Replica" nameDescription="a golden servant replica" experience="450" speed="210" manacost="0">
+<monster name="Golden Servant Replica" nameDescription="a golden servant replica" race="undead" experience="450" speed="210" manacost="0">
 	<health now="2000" max="2000" />
 	<look type="396" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,30 +30,29 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="25" />
+		<element earthPercent="80" />
+		<element firePercent="15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="100" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="29" defense="29" />
 	<loot>
-		<item id="2148" name="gold coin" chance="85419" countmax="137" />
-		<item id="7620" name="mana potion" chance="5290" />
-		<item id="7618" name="health potion" chance="4559" />
-		<item id="2381" name="halberd" chance="2280" />
-		<item id="2796" name="green mushroom" chance="1634" />
-		<item id="9690" name="gear wheel" chance="989" />
-		<item id="8900" name="spellbook of enlightenment" chance="430" />
-		<item id="2165" name="stealth ring" chance="301" />
-		<item id="13758" name="slime mould" chance="258" />
-		<item id="13938" name="golden can of oil" chance="43" />
+		<item id="2148" name="gold coin" chance="85337" countmax="139" />
+		<item id="7620" name="mana potion" chance="5337" />
+		<item id="7618" name="health potion" chance="4759" />
+		<item id="2179" name="gold ring" chance="4000" />
+		<item id="2466" name="golden armor" chance="4000" />
+		<item id="2381" name="halberd" chance="2366" />
+		<item id="2796" name="green mushroom" chance="1486" />
+		<item id="9690" name="gear wheel" chance="1018" />
+		<item id="2165" name="stealth ring" chance="468" />
+		<item id="8900" name="spellbook of enlightenment" chance="385" />
+		<item id="13758" name="slime mould" chance="330" />
+		<item id="13938" name="golden can of oil" chance="28" />
 	</loot>
 </monster>

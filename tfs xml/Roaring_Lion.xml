@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Roaring Lion" nameDescription="a roaring lion" experience="800" speed="210" manacost="0">
+<monster name="Roaring Lion" nameDescription="a roaring lion" race="blood" experience="800" speed="210" manacost="0">
 	<health now="1000" max="1000" />
 	<look type="570" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,18 +31,15 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="20" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="50" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-121" />
-	</attacks>
 	<defenses armor="28" defense="28" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Groarrrr! Rwarrrr!" yell="false" />
@@ -50,16 +47,16 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="115" />
-		<item id="2666" name="meat" chance="25342" />
-		<item id="2671" name="ham" chance="24799" />
-		<item id="10608" name="lion's mane" chance="20077" />
-		<item id="2152" name="platinum coin" chance="9980" />
-		<item id="2146" name="small sapphire" chance="7155" />
-		<item id="9970" name="small topaz" chance="6935" />
-		<item id="2147" name="small ruby" chance="6833" />
-		<item id="2150" name="small amethyst" chance="6697" />
-		<item id="2193" name="ankh" chance="2861" />
-		<item id="2164" name="might ring" chance="729" />
-		<item id="2491" name="crown helmet" chance="579" />
+		<item id="2666" name="meat" chance="25248" countmax="4" />
+		<item id="2671" name="ham" chance="24835" />
+		<item id="10608" name="lion's mane" chance="20163" />
+		<item id="2152" name="platinum coin" chance="9960" />
+		<item id="2146" name="small sapphire" chance="7115" />
+		<item id="9970" name="small topaz" chance="6930" />
+		<item id="2147" name="small ruby" chance="6862" />
+		<item id="2150" name="small amethyst" chance="6720" />
+		<item id="2193" name="ankh" chance="2892" />
+		<item id="2164" name="might ring" chance="716" />
+		<item id="2491" name="crown helmet" chance="577" />
 	</loot>
 </monster>

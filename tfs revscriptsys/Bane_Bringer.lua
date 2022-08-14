@@ -67,31 +67,30 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 90},
+	{type = COMBAT_EARTHDAMAGE, percent = 90},
+	{type = COMBAT_FIREDAMAGE, percent = 90},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 90},
+	{type = COMBAT_HOLYDAMAGE , percent = 90},
+	{type = COMBAT_DEATHDAMAGE , percent = 90}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -55}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -55, condition = {type = CONDITION_POISON, startDamage = 176, interval = }}
 }
 
 monster.defenses = {
 	defense = 17,
-	armor = 17,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 100, maxDamage = 300}
+	armor = 17
 }
 
 monster.loot = {
 	{id = 12969, chance = 100000},
-	{id = "wooden trash", chance = 15244}
+	{id = "wooden trash", chance = 15117}
 }
 
 mType:register(monster)

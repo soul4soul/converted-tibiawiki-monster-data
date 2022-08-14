@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -87,24 +86,32 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 6558, chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 200},
-	{id = 18415, chance = 100000, maxCount = 3},
-	{id = 2152, chance = 100000, maxCount = 30},
 	{id = 25172, chance = 100000},
-	{id = 9970, chance = 100000, maxCount = 5},
-	{id = 8473, chance = 100000, maxCount = 5},
-	{id = 7427, chance = 66667},
-	{id = 6500, chance = 66667},
-	{id = 2167, chance = 66667},
-	{id = 7590, chance = 66667, maxCount = 5},
-	{id = 25382, chance = 66667},
-	{id = 2154, chance = 66667},
-	{id = 18413, chance = 33333, maxCount = 3},
-	{id = 8472, chance = 33333, maxCount = 5},
-	{id = 2155, chance = 33333},
-	{id = 8910, chance = 33333},
-	{id = 18414, chance = 33333, maxCount = 3}
+	{id = 2152, chance = 100000, maxCount = 34},
+	{id = 2148, chance = 100000, maxCount = 318},
+	{id = 6500, chance = 100000},
+	{id = 18413, chance = 75000, maxCount = 3},
+	{id = 7590, chance = 75000, maxCount = 9},
+	{id = 8472, chance = 75000, maxCount = 9},
+	{id = 2167, chance = 50000},
+	{id = 2145, chance = 50000, maxCount = 7},
+	{id = 2156, chance = 25000},
+	{id = 7896, chance = 25000},
+	{id = 2158, chance = 25000},
+	{id = 2149, chance = 25000, maxCount = 9},
+	{id = 18414, chance = 25000, maxCount = 2},
+	{id = 2155, chance = 25000},
+	{id = 7897, chance = 25000},
+	{id = 8473, chance = 25000, maxCount = 5},
+	{id = 6558, chance = 25000, maxCount = 8},
+	{id = 18415, chance = 25000},
+	{id = 25382, chance = 25000},
+	{id = 9970, chance = 20000},
+	{id = 2154, chance = 20000},
+	{id = 7427, chance = 20000},
+	{id = 25413, chance = 20000},
+	{id = 8910, chance = 20000},
+	{id = 25418, chance = 20000}
 }
 
 mType:register(monster)

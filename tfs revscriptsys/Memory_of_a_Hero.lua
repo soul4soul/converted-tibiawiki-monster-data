@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Hero"
 monster.description = "a memory of a hero"
-monster.experience = 0
+monster.experience = 1750
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3850
+monster.maxHealth = 3850
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -95,8 +95,8 @@ monster.loot = {
 	{id = 7591, chance = 7907},
 	{id = 2652, chance = 6512},
 	{id = 2121, chance = 3721},
-	{id = 37530, chance = 2791},
 	{id = 2391, chance = 2791},
+	{id = 37530, chance = 2791},
 	{id = 2392, chance = 2326},
 	{id = 2120, chance = 2326},
 	{id = 37531, chance = 1860},

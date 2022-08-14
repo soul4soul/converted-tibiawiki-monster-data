@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Blightwalker" nameDescription="a blightwalker" experience="5850" speed="350" manacost="0">
+<monster name="Blightwalker" nameDescription="a blightwalker" race="undead" experience="5850" speed="350" manacost="0">
 	<health now="8900" max="8900" />
 	<look type="246" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,31 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-10" />
+		<element energyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="50" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="50" />
+		<element holyPercent="-30" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-490" />
+		<attack name="earth" interval="2000" chance="15" min="-220" max="-405" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="poison" />
+		</attack>
+		<attack name="drunk" interval="2000" chance="15" drunkenness="50" duration="15000" radius="3" target="0">
+			<attribute key="areaEffect" value="greenspark" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="-65" max="-135" radius="4" target="0">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="poison" />
+		</attack>
 	</attacks>
 	<defenses armor="63" defense="63" />
 	<voices interval="5000" chance="10">
@@ -50,28 +62,28 @@
 		<voice sentence="Your lifeforce is waning!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="198" />
+		<item id="2148" name="gold coin" chance="100000" countmax="199" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="2694" name="bunch of wheat" chance="50296" countmax="2" />
-		<item id="7590" name="great mana potion" chance="30308" countmax="3" />
-		<item id="6500" name="demonic essence" chance="29557" />
-		<item id="2260" name="blank rune" chance="25345" countmax="2" />
-		<item id="5944" name="soul orb" chance="25320" />
-		<item id="10605" name="bundle of cursed straw" chance="14692" />
-		<item id="8473" name="ultimate health potion" chance="14618" countmax="2" />
-		<item id="2183" name="hailstorm rod" chance="9606" />
-		<item id="7368" name="assassin star" chance="7057" countmax="10" />
-		<item id="9971" name="gold ingot" chance="5209" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="4594" />
-		<item id="7732" name="seeds" chance="3756" />
-		<item id="2550" name="scythe" chance="3116" />
-		<item id="7885" name="terra legs" chance="2734" />
-		<item id="2199" name="garlic necklace" chance="2081" />
-		<item id="2436" name="skull staff" chance="1810" />
-		<item id="2179" name="gold ring" chance="1453" />
-		<item id="6300" name="death ring" chance="1342" />
-		<item id="7884" name="terra mantle" chance="1145" />
-		<item id="2418" name="golden sickle" chance="172" />
-		<item id="2173" name="amulet of loss" chance="160" />
+		<item id="2694" name="bunch of wheat" chance="50209" countmax="2" />
+		<item id="7590" name="great mana potion" chance="30354" countmax="3" />
+		<item id="6500" name="demonic essence" chance="29639" />
+		<item id="2260" name="blank rune" chance="25600" countmax="2" />
+		<item id="5944" name="soul orb" chance="25501" />
+		<item id="10605" name="bundle of cursed straw" chance="14737" />
+		<item id="8473" name="ultimate health potion" chance="14451" countmax="2" />
+		<item id="2183" name="hailstorm rod" chance="9608" />
+		<item id="7368" name="assassin star" chance="7044" countmax="10" />
+		<item id="9971" name="gold ingot" chance="5272" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="4512" />
+		<item id="7732" name="seeds" chance="3841" />
+		<item id="2550" name="scythe" chance="3082" />
+		<item id="7885" name="terra legs" chance="2685" />
+		<item id="2199" name="garlic necklace" chance="2047" />
+		<item id="2436" name="skull staff" chance="1871" />
+		<item id="2179" name="gold ring" chance="1464" />
+		<item id="6300" name="death ring" chance="1354" />
+		<item id="7884" name="terra mantle" chance="1101" />
+		<item id="2418" name="golden sickle" chance="165" />
+		<item id="2173" name="amulet of loss" chance="143" />
 	</loot>
 </monster>

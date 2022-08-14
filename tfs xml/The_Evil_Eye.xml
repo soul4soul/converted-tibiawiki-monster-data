@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The Evil Eye" nameDescription="" experience="750" speed="0" manacost="0">
+<monster name="The Evil Eye" nameDescription="The Evil Eye" race="blood" experience="750" speed="0" manacost="0">
 	<health now="1200" max="1200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -31,13 +31,13 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element holyPercent="-1" />
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="10" defense="5">
@@ -48,16 +48,18 @@
 		<voice sentence="653768764!" yell="false" />
 	</voices>
 	<loot>
-		<item id="5898" name="bonelord eye" chance="100000" />
 		<item id="2148" name="gold coin" chance="100000" countmax="229" />
 		<item id="12468" name="small flask of eyedrops" chance="100000" />
-		<item id="2394" name="morning star" chance="51724" />
-		<item id="2509" name="steel shield" chance="44828" />
-		<item id="2377" name="two handed sword" chance="31034" />
-		<item id="2397" name="longsword" chance="24138" />
-		<item id="2175" name="spellbook" chance="24138" />
-		<item id="7590" name="great mana potion" chance="17241" />
-		<item id="2518" name="bonelord shield" chance="10345" />
-		<item id="7884" name="terra mantle" chance="10345" />
+		<item id="5898" name="bonelord eye" chance="100000" />
+		<item id="2394" name="morning star" chance="50000" />
+		<item id="2509" name="steel shield" chance="43333" />
+		<item id="2377" name="two handed sword" chance="33333" />
+		<item id="2175" name="spellbook" chance="26667" />
+		<item id="2397" name="longsword" chance="23333" />
+		<item id="7590" name="great mana potion" chance="16667" />
+		<item id="2518" name="bonelord shield" chance="13333" />
+		<item id="7884" name="terra mantle" chance="10000" />
+		<item id="2181" name="terra rod" chance="4000" />
+		<item id="3972" name="bonelord helmet" chance="4000" />
 	</loot>
 </monster>

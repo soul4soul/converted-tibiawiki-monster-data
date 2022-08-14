@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Deepling Guard" nameDescription="a deepling guard" experience="2100" speed="270" manacost="0">
+<monster name="Deepling Guard" nameDescription="a deepling guard" race="blood" experience="2100" speed="270" manacost="0">
 	<health now="1900" max="1900" />
 	<look type="442" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="1" />
@@ -30,18 +30,26 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-200" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="whirlwindaxe" />
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" min="0" max="-150" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="spear" />
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
 	</attacks>
 	<defenses armor="53" defense="53">
 		<defense name="healing" interval="2000" chance="20" min="100" max="200" />
@@ -51,19 +59,19 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="180" />
-		<item id="2152" name="platinum coin" chance="70166" countmax="2" />
-		<item id="7591" name="great health potion" chance="15076" countmax="3" />
-		<item id="7590" name="great mana potion" chance="15016" countmax="3" />
-		<item id="15424" name="deepling breaktime snack" chance="15001" />
-		<item id="15423" name="deepling guard belt buckle" chance="11946" />
-		<item id="13870" name="eye of a deepling" chance="9834" />
-		<item id="15455" name="deepling claw" chance="8951" />
-		<item id="2146" name="small sapphire" chance="2841" countmax="3" />
-		<item id="13838" name="heavy trident" chance="1496" />
-		<item id="15454" name="guardian axe" chance="878" />
-		<item id="15647" name="deepling squelcher" chance="715" />
-		<item id="15644" name="ornate crossbow" chance="408" />
-		<item id="15645" name="deepling backpack" chance="313" />
+		<item id="2152" name="platinum coin" chance="70162" countmax="2" />
+		<item id="7591" name="great health potion" chance="15063" countmax="3" />
+		<item id="7590" name="great mana potion" chance="15023" countmax="3" />
+		<item id="15424" name="deepling breaktime snack" chance="15011" />
+		<item id="15423" name="deepling guard belt buckle" chance="11941" />
+		<item id="13870" name="eye of a deepling" chance="9844" />
+		<item id="15455" name="deepling claw" chance="8963" />
+		<item id="2146" name="small sapphire" chance="2839" countmax="3" />
+		<item id="13838" name="heavy trident" chance="1498" />
+		<item id="15454" name="guardian axe" chance="879" />
+		<item id="15647" name="deepling squelcher" chance="717" />
+		<item id="15644" name="ornate crossbow" chance="410" />
+		<item id="15645" name="deepling backpack" chance="310" />
 		<item id="15545" name="foxtail" chance="16" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Diabolic Imp" nameDescription="a diabolic imp" experience="2900" speed="210" manacost="0">
+<monster name="Diabolic Imp" nameDescription="a diabolic imp" race="blood" experience="2900" speed="210" manacost="0">
 	<health now="1950" max="1950" />
 	<look type="237" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,45 +31,48 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="50" />
+		<element firePercent="100" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="-5" />
+		<element deathPercent="10" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-240" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-240" poison="158" />
+		<attack name="fire" interval="2000" chance="15" min="-100" max="-240" radius="2" target="1">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="-300" max="-430" radius="4" target="1">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
 	</attacks>
-	<defenses armor="29" defense="29">
-		<defense name="speed" interval="2000" chance="15" minspeedchange="450" maxspeedchange="450" duration="4000">
-			<attribute key="areaEffect" value="redshimmer" />
-		</defense>
-		<defense name="healing" interval="2000" chance="20" min="195" max="487" />
-	</defenses>
+	<defenses armor="29" defense="29" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Muahaha!" yell="false" />
 		<voice sentence="He he he." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99362" countmax="200" />
-		<item id="2548" name="pitchfork" chance="50514" />
-		<item id="6558" name="flask of demonic blood" chance="24556" />
-		<item id="2260" name="blank rune" chance="15064" countmax="2" />
-		<item id="2568" name="cleaver" chance="8870" />
-		<item id="2515" name="guardian shield" chance="8232" />
-		<item id="6500" name="demonic essence" chance="7843" />
-		<item id="5944" name="soul orb" chance="7065" />
-		<item id="2419" name="scimitar" chance="5524" />
-		<item id="2152" name="platinum coin" chance="3377" countmax="7" />
-		<item id="2165" name="stealth ring" chance="2739" />
-		<item id="2150" name="small amethyst" chance="2614" countmax="3" />
-		<item id="2387" name="double axe" chance="1774" />
-		<item id="2185" name="necrotic rod" chance="794" />
-		<item id="7900" name="magma monocle" chance="482" />
-		<item id="7899" name="magma coat" chance="342" />
-		<item id="6300" name="death ring" chance="93" />
+		<item id="2148" name="gold coin" chance="99349" countmax="200" />
+		<item id="2548" name="pitchfork" chance="50460" />
+		<item id="6558" name="flask of demonic blood" chance="24657" countmax="2" />
+		<item id="2260" name="blank rune" chance="15009" countmax="2" />
+		<item id="2568" name="cleaver" chance="8827" />
+		<item id="2515" name="guardian shield" chance="8318" />
+		<item id="6500" name="demonic essence" chance="7752" />
+		<item id="5944" name="soul orb" chance="6903" />
+		<item id="2419" name="scimitar" chance="5333" />
+		<item id="2152" name="platinum coin" chance="3395" countmax="7" />
+		<item id="2165" name="stealth ring" chance="2744" />
+		<item id="2150" name="small amethyst" chance="2575" countmax="3" />
+		<item id="2387" name="double axe" chance="1740" />
+		<item id="2185" name="necrotic rod" chance="778" />
+		<item id="7900" name="magma monocle" chance="523" />
+		<item id="7899" name="magma coat" chance="354" />
+		<item id="6300" name="death ring" chance="99" />
 	</loot>
 </monster>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Ragiaz")
 local monster = {}
 
 monster.name = "Ragiaz"
-monster.description = ""
+monster.description = "Ragiaz"
 monster.experience = 50000
 monster.outfit = {
 	lookType = 0,
@@ -74,11 +74,10 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 1}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -87,27 +86,34 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 6500, chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 200},
-	{id = 2152, chance = 100000, maxCount = 30},
-	{id = 18420, chance = 100000, maxCount = 4},
+	{id = 7590, chance = 100000, maxCount = 9},
+	{id = 2148, chance = 100000, maxCount = 360},
+	{id = 18421, chance = 100000, maxCount = 6},
+	{id = 2152, chance = 100000, maxCount = 40},
 	{id = 25172, chance = 100000},
-	{id = 6558, chance = 66667},
-	{id = 18421, chance = 66667, maxCount = 4},
-	{id = 2155, chance = 66667},
-	{id = 2150, chance = 66667, maxCount = 5},
-	{id = 8473, chance = 66667, maxCount = 10},
-	{id = 7426, chance = 33333},
-	{id = 18419, chance = 33333, maxCount = 4},
-	{id = 6300, chance = 33333},
-	{id = "giant shimmering pearl", chance = 33333},
-	{id = 7590, chance = 33333, maxCount = 5},
-	{id = 8472, chance = 33333, maxCount = 5},
-	{id = 25522, chance = 33333},
-	{id = 25383, chance = 33333},
-	{id = 2214, chance = 33333},
-	{id = 2436, chance = 33333},
-	{id = 2147, chance = 33333, maxCount = 5}
+	{id = 18419, chance = 75000, maxCount = 6},
+	{id = 18420, chance = 50000, maxCount = 4},
+	{id = 8472, chance = 50000, maxCount = 10},
+	{id = 2214, chance = 50000},
+	{id = 2155, chance = 50000},
+	{id = 6500, chance = 50000},
+	{id = 8473, chance = 50000, maxCount = 8},
+	{id = 6558, chance = 50000, maxCount = 7},
+	{id = 2146, chance = 25000, maxCount = 7},
+	{id = 2154, chance = 25000},
+	{id = 25382, chance = 25000},
+	{id = 7426, chance = 25000},
+	{id = 2147, chance = 25000, maxCount = 9},
+	{id = 9970, chance = 25000, maxCount = 4},
+	{id = 2150, chance = 20000},
+	{id = 25522, chance = 20000},
+	{id = 25414, chance = 20000},
+	{id = 7420, chance = 20000},
+	{id = 25418, chance = 20000},
+	{id = "giant shimmering pearl", chance = 20000},
+	{id = 25383, chance = 20000},
+	{id = 2436, chance = 20000},
+	{id = 6300, chance = 20000}
 }
 
 mType:register(monster)

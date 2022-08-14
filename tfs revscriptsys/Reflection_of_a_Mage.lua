@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -85,19 +85,25 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Golden Servant", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 250},
-	{id = 2152, chance = 96296, maxCount = 12},
-	{id = 2114, chance = 44444},
-	{id = 7591, chance = 33333, maxCount = 5},
-	{id = 7590, chance = 25926, maxCount = 5},
-	{id = 2146, chance = 18519, maxCount = 5},
-	{id = 7368, chance = 14815, maxCount = 10},
+	{id = 2148, chance = 100000, maxCount = 373},
+	{id = 2152, chance = 66667, maxCount = 12},
+	{id = 2114, chance = 55556},
+	{id = 7368, chance = 44444, maxCount = 15},
+	{id = 7590, chance = 33333, maxCount = 9},
+	{id = 2146, chance = 33333, maxCount = 7},
+	{id = 7591, chance = 22222, maxCount = 8},
+	{id = 12410, chance = 20000},
+	{id = 2165, chance = 20000},
+	{id = 9980, chance = 20000},
+	{id = 2792, chance = 20000},
 	{id = 2178, chance = 11111},
-	{id = 7443, chance = 3704},
-	{id = 9980, chance = 3704},
-	{id = 2792, chance = 3704, maxCount = 2},
-	{id = 12410, chance = 3704}
+	{id = 7443, chance = 11111}
 }
 
 mType:register(monster)

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Yirkas Blue Scales")
 local monster = {}
 
 monster.name = "Yirkas Blue Scales"
-monster.description = ""
+monster.description = "Yirkas Blue Scales"
 monster.experience = 4900
 monster.outfit = {
 	lookType = 0,
@@ -66,9 +66,9 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 40},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100}
 }
 
 monster.defenses = {
@@ -87,33 +86,33 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 9},
-	{id = 8473, chance = 100000, maxCount = 3},
-	{id = 34215, chance = 99858, maxCount = 4},
-	{id = 9971, chance = 11915},
-	{id = 36758, chance = 6241},
-	{id = 27048, chance = 5106},
-	{id = 33996, chance = 5106},
-	{id = 2158, chance = 4397},
-	{id = 2155, chance = 4255},
-	{id = 7422, chance = 2979},
-	{id = 7894, chance = 2837},
-	{id = "ring of green plasma", chance = 2553},
-	{id = 5741, chance = 2553},
-	{id = 2393, chance = 2270},
-	{id = 7404, chance = 1560},
-	{id = 2520, chance = 1560},
-	{id = 7440, chance = 1418},
-	{id = 11355, chance = 1418},
-	{id = 2454, chance = 1418},
-	{id = 23539, chance = 993},
-	{id = 7382, chance = 993},
-	{id = 2179, chance = 993},
-	{id = 8902, chance = 993},
-	{id = 2472, chance = 851},
-	{id = 15644, chance = 851},
-	{id = 36914, chance = 709},
-	{id = 36434, chance = 284}
+	{id = 34215, chance = 100000, maxCount = 6},
+	{id = 2152, chance = 100000, maxCount = 17},
+	{id = 8473, chance = 100000, maxCount = 5},
+	{id = 23539, chance = 20000},
+	{id = 7382, chance = 20000},
+	{id = 36914, chance = 20000},
+	{id = 36434, chance = 20000},
+	{id = 2520, chance = 20000},
+	{id = 9971, chance = 13235},
+	{id = 27048, chance = 10294},
+	{id = 7404, chance = 4412},
+	{id = 36758, chance = 4412},
+	{id = 2155, chance = 4412},
+	{id = 7422, chance = 2941},
+	{id = 5741, chance = 2941},
+	{id = 7894, chance = 2941},
+	{id = 2472, chance = 2941},
+	{id = "ring of green plasma", chance = 2941},
+	{id = 33996, chance = 2941},
+	{id = 2158, chance = 2941},
+	{id = 8902, chance = 1471},
+	{id = 7440, chance = 1471},
+	{id = 2454, chance = 1471},
+	{id = 2179, chance = 1471},
+	{id = 2393, chance = 1471},
+	{id = 11355, chance = 1471},
+	{id = 15644, chance = 1471}
 }
 
 mType:register(monster)

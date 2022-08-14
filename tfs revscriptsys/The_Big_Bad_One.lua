@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Big Bad One")
 local monster = {}
 
 monster.name = "The Big Bad One"
-monster.description = ""
+monster.description = "The Big Bad One"
 monster.experience = 170
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100}
 }
 
 monster.defenses = {
@@ -86,10 +85,16 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Wolf", chance = 15, interval = 2000, max = 2}
+}
+
 monster.loot = {
 	{id = 7394, chance = 50000},
-	{id = 2671, chance = 25000},
-	{id = 2666, chance = 25000}
+	{id = 2671, chance = 25000, maxCount = 2},
+	{id = 2666, chance = 25000, maxCount = 4},
+	{id = 5897, chance = 20000, maxCount = 2}
 }
 
 mType:register(monster)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Sorcerer's Apparition" nameDescription="a sorcerer's apparition" experience="18870" speed="470" manacost="0">
+<monster name="Sorcerer's Apparition" nameDescription="a sorcerer's apparition" race="undead" experience="18870" speed="470" manacost="0">
 	<health now="25000" max="25000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="138" head="95" body="114" legs="52" feet="76" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="1" />
@@ -29,33 +29,34 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-20" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="30" />
+		<element holyPercent="40" />
+		<element deathPercent="-20" />
 	</elements>
 	<defenses armor="100" defense="100" />
 	<loot>
-		<item id="2160" name="crystal coin" chance="76020" />
-		<item id="7590" name="great mana potion" chance="67111" countmax="3" />
-		<item id="2158" name="blue gem" chance="6078" />
-		<item id="7633" name="giant shimmering pearl (brown)" chance="7327" />
-		<item name="ring of red plasma" chance="5329" />
-		<item id="7888" name="glacier amulet" chance="3830" />
-		<item id="8922" name="wand of voodoo" chance="2831" />
-		<item name="ring of green plasma" chance="2331" />
-		<item id="2153" name="violet gem" chance="2082" />
-		<item id="18409" name="wand of everblazing" chance="1998" />
-		<item id="23539" name="alloy legs" chance="1332" />
-		<item id="8920" name="wand of starstorm" chance="1249" />
-		<item id="18390" name="wand of defiance" chance="1166" />
-		<item name="ring of blue plasma" chance="916" />
-		<item id="2197" name="stone skin amulet" chance="916" />
+		<item id="2160" name="crystal coin" chance="57036" />
+		<item id="7590" name="great mana potion" chance="49250" countmax="3" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="5206" />
+		<item name="ring of red plasma" chance="4503" />
+		<item id="36765" name="bag you desire" chance="4000" />
+		<item id="2158" name="blue gem" chance="3659" />
+		<item id="8922" name="wand of voodoo" chance="2251" />
+		<item id="7888" name="glacier amulet" chance="2064" />
+		<item id="2153" name="violet gem" chance="1829" />
+		<item id="18409" name="wand of everblazing" chance="1782" />
+		<item name="ring of blue plasma" chance="1454" />
+		<item name="ring of green plasma" chance="1220" />
+		<item id="18390" name="wand of defiance" chance="1079" />
+		<item id="23539" name="alloy legs" chance="985" />
+		<item id="2197" name="stone skin amulet" chance="750" />
+		<item id="8920" name="wand of starstorm" chance="610" />
 	</loot>
 </monster>

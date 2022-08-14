@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dryad" nameDescription="a dryad" experience="190" speed="230" manacost="0">
+<monster name="Dryad" nameDescription="a dryad" race="blood" experience="190" speed="230" manacost="0">
 	<health now="310" max="310" />
 	<look type="137" head="99" body="41" legs="5" feet="102" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,36 +30,31 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="30" />
+		<element earthPercent="100" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-90" />
-	</attacks>
-	<defenses armor="15" defense="15">
-		<defense name="healing" interval="2000" chance="20" min="31" max="77" />
-	</defenses>
+	<defenses armor="15" defense="15" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Feel the wrath of mother Tibia!" yell="false" />
 		<voice sentence="Defiler of nature!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2787" name="white mushroom" chance="55709" countmax="2" />
-		<item id="2148" name="gold coin" chance="39717" countmax="30" />
-		<item id="7732" name="seeds" chance="10355" />
-		<item id="9928" name="leaf legs" chance="1198" />
-		<item id="9931" name="coconut shoes" chance="1062" />
-		<item id="9927" name="flower wreath" chance="1062" />
-		<item id="9929" name="flower dress" chance="981" />
-		<item id="2790" name="orange mushroom" chance="720" countmax="2" />
-		<item id="13298" name="carrot on a stick" chance="216" />
-		<item id="2150" name="small amethyst" chance="90" />
+		<item id="2787" name="white mushroom" chance="55637" countmax="2" />
+		<item id="2148" name="gold coin" chance="39994" countmax="30" />
+		<item id="7732" name="seeds" chance="10211" countmax="3" />
+		<item id="9928" name="leaf legs" chance="1171" />
+		<item id="9931" name="coconut shoes" chance="1092" />
+		<item id="9927" name="flower wreath" chance="1042" />
+		<item id="9929" name="flower dress" chance="963" />
+		<item id="2790" name="orange mushroom" chance="769" countmax="2" />
+		<item id="13298" name="carrot on a stick" chance="201" />
+		<item id="2150" name="small amethyst" chance="93" />
 	</loot>
 </monster>

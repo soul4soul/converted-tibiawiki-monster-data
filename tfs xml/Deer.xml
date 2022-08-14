@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Deer" nameDescription="a deer" experience="0" speed="196" manacost="260">
+<monster name="Deer" nameDescription="a deer" race="blood" experience="0" speed="196" manacost="260">
 	<health now="25" max="25" />
 	<look type="31" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -45,8 +45,8 @@
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="2666" name="meat" chance="80385" />
-		<item id="2671" name="ham" chance="51175" />
-		<item id="11214" name="antlers" chance="1039" />
+		<item id="2666" name="meat" chance="80325" countmax="4" />
+		<item id="2671" name="ham" chance="50985" />
+		<item id="11214" name="antlers" chance="1051" />
 	</loot>
 </monster>

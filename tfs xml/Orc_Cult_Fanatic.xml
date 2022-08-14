@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Orc Cult Fanatic" nameDescription="an orc cult fanatic" experience="1100" speed="230" manacost="0">
+<monster name="Orc Cult Fanatic" nameDescription="an orc cult fanatic" race="blood" experience="1100" speed="230" manacost="0">
 	<health now="1300" max="1300" />
 	<look type="59" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -12,8 +12,8 @@
 		<flag isboss="0" />
 		<flag ignorespawnblock="0" />
 		<flag pushable="0" />
-		<flag canpushitems="0" />
-		<flag canpushcreatures="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
 		<flag healthhidden="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-10" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="20" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
@@ -46,19 +46,19 @@
 	<defenses armor="22" defense="22" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="135" />
-		<item id="2667" name="fish" chance="31132" />
-		<item id="12435" name="orc leather" chance="20008" />
-		<item id="2789" name="brown mushroom" chance="15373" countmax="4" />
-		<item id="2510" name="plate shield" chance="15102" />
-		<item id="12436" name="skull belt" chance="12553" />
-		<item id="2475" name="warrior helmet" chance="10776" />
-		<item id="10556" name="cultish robe" chance="10699" />
-		<item id="7591" name="great health potion" chance="10622" />
-		<item id="2147" name="small ruby" chance="10622" countmax="3" />
-		<item id="2207" name="sword ring" chance="8227" />
-		<item id="2463" name="plate armor" chance="5601" />
-		<item id="2647" name="plate legs" chance="4171" />
-		<item id="2478" name="brass legs" chance="2511" />
-		<item id="11113" name="orc tooth" chance="1120" />
+		<item id="2667" name="fish" chance="31198" />
+		<item id="12435" name="orc leather" chance="20079" />
+		<item id="2789" name="brown mushroom" chance="15329" countmax="4" />
+		<item id="2510" name="plate shield" chance="15077" />
+		<item id="12436" name="skull belt" chance="12307" />
+		<item id="2475" name="warrior helmet" chance="10795" />
+		<item id="2147" name="small ruby" chance="10759" countmax="3" />
+		<item id="10556" name="cultish robe" chance="10615" />
+		<item id="7591" name="great health potion" chance="10579" />
+		<item id="2207" name="sword ring" chance="8492" />
+		<item id="2463" name="plate armor" chance="5650" />
+		<item id="2647" name="plate legs" chance="4318" />
+		<item id="2478" name="brass legs" chance="2447" />
+		<item id="11113" name="orc tooth" chance="1116" />
 	</loot>
 </monster>

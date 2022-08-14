@@ -5,11 +5,11 @@ monster.name = "Pirat Scoundrel"
 monster.description = "a pirat scoundrel"
 monster.experience = 1600
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 1346,
+	lookHead = 97,
+	lookBody = 119,
+	lookLegs = 80,
+	lookFeet = 80,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -65,9 +65,9 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 26},
+	{type = COMBAT_EARTHDAMAGE, percent = -30},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -78,7 +78,9 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -350}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -110, maxDamage = -160, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_ENERGYBALL, effect = CONST_ME_ENERGYAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -100, maxDamage = -130, radius = 3, target = true, shootEffect = CONST_ANI_ETHEREALSPEAR, effect = CONST_ME_ENERGYHIT},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -90, maxDamage = -110, radius = 3, target = , effect = CONST_ME_ENERGYHIT}
 }
 
 monster.defenses = {
@@ -87,14 +89,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 7590, chance = 10553},
-	{id = 2187, chance = 7987},
-	{id = 38244, chance = 7141},
-	{id = 38228, chance = 6586, maxCount = 10},
-	{id = 38229, chance = 4999},
+	{id = 7590, chance = 10602},
+	{id = 2187, chance = 7765},
+	{id = 38244, chance = 7492},
+	{id = 38228, chance = 6492, maxCount = 10},
+	{id = 38229, chance = 5219},
 	{id = 8920, chance = 4655},
-	{id = 8912, chance = 3703},
-	{id = 8922, chance = 2962}
+	{id = 8912, chance = 3546},
+	{id = 8922, chance = 2891}
 }
 
 mType:register(monster)

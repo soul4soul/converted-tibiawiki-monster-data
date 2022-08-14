@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Megasylvan Yselda")
 local monster = {}
 
 monster.name = "Megasylvan Yselda"
-monster.description = ""
+monster.description = "Megasylvan Yselda"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -66,16 +66,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 85},
+	{type = COMBAT_ENERGYDAMAGE, percent = 80},
+	{type = COMBAT_EARTHDAMAGE, percent = 90},
+	{type = COMBAT_FIREDAMAGE, percent = 60},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 90},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 70}
 }
 
 monster.attacks = {
@@ -87,31 +87,31 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 8838, chance = 100000, maxCount = 3},
-	{id = 26029, chance = 57792, maxCount = 20},
-	{id = 26031, chance = 51948, maxCount = 22},
-	{id = 26030, chance = 36364, maxCount = 6},
-	{id = 7439, chance = 23377, maxCount = 9},
-	{id = 7440, chance = 20779, maxCount = 11},
-	{id = 2155, chance = 18831},
-	{id = 2153, chance = 17532, maxCount = 2},
-	{id = 2154, chance = 17532, maxCount = 2},
-	{id = 2156, chance = 14286, maxCount = 2},
-	{id = 15515, chance = 12987},
-	{id = 7443, chance = 12987, maxCount = 10},
-	{id = 2158, chance = 12338},
-	{id = 2160, chance = 9091, maxCount = 3},
-	{id = 32716, chance = 5195},
-	{id = 39465, chance = 4545},
-	{id = 39464, chance = 4545},
-	{id = 35279, chance = 2597},
-	{id = 7884, chance = 1948},
-	{id = 39467, chance = 1299},
-	{id = 7887, chance = 1299},
-	{id = 7885, chance = 1299},
-	{id = 2181, chance = 1299},
-	{id = 7903, chance = 649}
+	{id = 2152, chance = 100000, maxCount = 9},
+	{id = 8838, chance = 100000, maxCount = 5},
+	{id = 26029, chance = 58621, maxCount = 26},
+	{id = 26031, chance = 58621, maxCount = 29},
+	{id = 2155, chance = 24138, maxCount = 2},
+	{id = 2158, chance = 20690},
+	{id = 7439, chance = 20690, maxCount = 15},
+	{id = 2153, chance = 20690},
+	{id = 7440, chance = 20690, maxCount = 12},
+	{id = 7443, chance = 20690, maxCount = 17},
+	{id = 26030, chance = 20690, maxCount = 11},
+	{id = 39467, chance = 20000},
+	{id = 7887, chance = 20000},
+	{id = 7884, chance = 20000},
+	{id = 39464, chance = 20000},
+	{id = 39465, chance = 20000},
+	{id = 35279, chance = 20000},
+	{id = 2156, chance = 13793, maxCount = 2},
+	{id = 2154, chance = 10345},
+	{id = 2160, chance = 10345},
+	{id = 32716, chance = 10345},
+	{id = 7885, chance = 3448},
+	{id = 15515, chance = 3448},
+	{id = 2181, chance = 3448},
+	{id = 7903, chance = 3448}
 }
 
 mType:register(monster)

@@ -74,7 +74,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
@@ -92,9 +92,10 @@ monster.loot = {
 	{id = 2379, chance = 17323},
 	{id = 2667, chance = 16535, maxCount = 2},
 	{id = 1294, chance = 16535},
-	{id = 2449, chance = 11024},
 	{id = 2406, chance = 11024},
+	{id = 2449, chance = 11024},
 	{id = 2559, chance = 10236},
+	{id = 2235, chance = 7500},
 	{id = 2467, chance = 5512},
 	{id = 2461, chance = 3937},
 	{id = 2230, chance = 1575}

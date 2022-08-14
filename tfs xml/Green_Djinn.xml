@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Green Djinn" nameDescription="a green djinn" experience="215" speed="220" manacost="0">
+<monster name="Green Djinn" nameDescription="a green djinn" race="blood" experience="215" speed="220" manacost="0">
 	<health now="330" max="330" />
 	<look type="51" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -29,19 +29,30 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="20" />
+		<element energyPercent="50" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="80" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="-13" />
+		<element deathPercent="20" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
+		<attack name="fire" interval="2000" chance="15" min="-45" max="-75" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="-55" max="-105" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="death" />
+		</attack>
+		<attack name="drunk" interval="2000" chance="15" drunkenness="50" duration="15000" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="teleport" />
+		</attack>
+		<attack name="outfit" interval="2000" chance="15" monster="rat" duration="5000" />
 	</attacks>
 	<defenses armor="20" defense="20" />
 	<voices interval="5000" chance="10">
@@ -52,16 +63,16 @@
 		<voice sentence="Tell me your last wish!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="88230" countmax="115" />
-		<item id="3607" name="cheese" chance="24321" />
-		<item id="7378" name="royal spear" chance="5037" countmax="2" />
-		<item id="2149" name="small emerald" chance="2934" countmax="4" />
-		<item name="book (green)" chance="2294" />
-		<item id="12412" name="dirty turban" chance="2111" />
-		<item id="5910" name="green piece of cloth" chance="2011" />
-		<item id="2747" name="grave flower" chance="956" />
-		<item id="2063" name="small oil lamp" chance="873" />
-		<item id="7620" name="mana potion" chance="482" />
-		<item id="2663" name="mystic turban" chance="116" />
+		<item id="2148" name="gold coin" chance="88289" countmax="115" />
+		<item id="3607" name="cheese" chance="24252" />
+		<item id="7378" name="royal spear" chance="5050" countmax="2" />
+		<item id="2149" name="small emerald" chance="2936" countmax="4" />
+		<item name="book (green)" chance="2310" />
+		<item id="12412" name="dirty turban" chance="2131" />
+		<item id="5910" name="green piece of cloth" chance="2017" />
+		<item id="2747" name="grave flower" chance="968" />
+		<item id="2063" name="small oil lamp" chance="862" />
+		<item id="7620" name="mana potion" chance="480" />
+		<item id="2663" name="mystic turban" chance="114" />
 	</loot>
 </monster>

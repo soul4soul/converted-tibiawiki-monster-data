@@ -5,12 +5,12 @@ monster.name = "Usurper Knight"
 monster.description = "a usurper knight"
 monster.experience = 6900
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1316,
+	lookHead = 76,
+	lookBody = 57,
+	lookLegs = 76,
+	lookFeet = 95,
+	lookAddons = 1,
 	lookMount = 0
 }
 
@@ -68,41 +68,39 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 35},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_HOLYDAMAGE , percent = 15},
+	{type = COMBAT_DEATHDAMAGE , percent = -15}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500}
 }
 
 monster.defenses = {
 	defense = 83,
-	armor = 83,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 820, maxDamage = 2050}
+	armor = 83
 }
 
 monster.loot = {
-	{id = 2152, chance = 91241, maxCount = 5},
-	{id = 2649, chance = 27190},
-	{id = 2666, chance = 16577},
-	{id = 36818, chance = 10559},
-	{id = 36816, chance = 6368},
-	{id = 2477, chance = 6018},
-	{id = 2153, chance = 5373},
-	{id = 9971, chance = 5078},
-	{id = 2158, chance = 3949},
-	{id = 7590, chance = 3896},
-	{id = 2155, chance = 2633},
-	{id = 7894, chance = 967}
+	{id = 2152, chance = 91010, maxCount = 5},
+	{id = 2649, chance = 27315},
+	{id = 2666, chance = 16193},
+	{id = 36818, chance = 10949},
+	{id = 36816, chance = 6512},
+	{id = 2477, chance = 5897},
+	{id = 2153, chance = 5494},
+	{id = 9971, chance = 5186},
+	{id = 2158, chance = 4053},
+	{id = 7590, chance = 3726},
+	{id = 2155, chance = 2593},
+	{id = 7894, chance = 980}
 }
 
 mType:register(monster)

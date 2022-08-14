@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 5,
+	color = 107
 }
 
 monster.voices = {
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300}
 }
 
 monster.defenses = {
@@ -87,21 +86,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 12},
 	{id = 32004, chance = 100000},
+	{id = 2152, chance = 100000, maxCount = 12},
+	{id = 2427, chance = 15385},
 	{id = 7449, chance = 15385},
 	{id = 7590, chance = 15385},
-	{id = 2427, chance = 15385},
 	{id = 18413, chance = 7692},
-	{id = 2125, chance = 7692},
-	{id = 18419, chance = 7692},
-	{id = "giant shimmering pearl", chance = 7692},
 	{id = 9971, chance = 7692},
 	{id = 2381, chance = 7692},
-	{id = 7441, chance = 7692},
-	{id = 2425, chance = 7692},
 	{id = 2463, chance = 7692},
-	{id = 2169, chance = 7692}
+	{id = 18419, chance = 7692},
+	{id = "giant shimmering pearl", chance = 7692},
+	{id = 2169, chance = 7692},
+	{id = 2125, chance = 7692},
+	{id = 2425, chance = 7692},
+	{id = 7441, chance = 7692}
 }
 
 mType:register(monster)

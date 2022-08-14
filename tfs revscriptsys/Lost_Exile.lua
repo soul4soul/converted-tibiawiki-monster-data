@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 1,
+	targetDistance = 4,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -65,20 +65,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 25},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 15},
+	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -200}
 }
 
 monster.defenses = {
@@ -88,30 +87,30 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 2152, chance = 59182, maxCount = 2},
-	{id = 20135, chance = 15202},
-	{id = 2789, chance = 14040, maxCount = 2},
-	{id = 20127, chance = 13064},
-	{id = 13757, chance = 12413},
-	{id = 20130, chance = 12134},
-	{id = 9970, chance = 10367},
-	{id = 7590, chance = 9856, maxCount = 2},
-	{id = 7588, chance = 9856, maxCount = 3},
-	{id = 20110, chance = 9809},
-	{id = 20111, chance = 9298},
-	{id = 20128, chance = 9205},
-	{id = 20129, chance = 8415},
-	{id = 20137, chance = 7810},
-	{id = 20136, chance = 6323},
-	{id = 2213, chance = 2371},
-	{id = 2430, chance = 1302},
-	{id = 2515, chance = 883},
-	{id = 20109, chance = 837},
-	{id = 11339, chance = 697},
+	{id = 2152, chance = 59173, maxCount = 2},
+	{id = 20135, chance = 15235},
+	{id = 2789, chance = 14027, maxCount = 2},
+	{id = 20127, chance = 13098},
+	{id = 13757, chance = 12401},
+	{id = 20130, chance = 12123},
+	{id = 9970, chance = 10358},
+	{id = 7590, chance = 9893, maxCount = 2},
+	{id = 7588, chance = 9847, maxCount = 3},
+	{id = 20110, chance = 9847},
+	{id = 20111, chance = 9336},
+	{id = 20128, chance = 9196},
+	{id = 20129, chance = 8407},
+	{id = 20137, chance = 7803},
+	{id = 20136, chance = 6317},
+	{id = 2213, chance = 2369},
+	{id = 2430, chance = 1301},
+	{id = 2515, chance = 882},
+	{id = 20109, chance = 836},
 	{id = 7886, chance = 697},
-	{id = 2436, chance = 558},
-	{id = 2432, chance = 372},
+	{id = 11339, chance = 697},
+	{id = 2436, chance = 557},
 	{id = 30309, chance = 372},
+	{id = 2432, chance = 372},
 	{id = 7885, chance = 232},
 	{id = 7452, chance = 186},
 	{id = 2528, chance = 139}

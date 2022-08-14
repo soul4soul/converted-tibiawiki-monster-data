@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Zombie" nameDescription="a zombie" experience="280" speed="180" manacost="0">
+<monster name="Zombie" nameDescription="a zombie" race="undead" experience="280" speed="180" manacost="0">
 	<health now="500" max="500" />
 	<look type="311" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="100" />
+		<element earthPercent="100" />
+		<element firePercent="50" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-130" />
-	</attacks>
 	<defenses armor="20" defense="20" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Mst.... klll...." yell="false" />
@@ -51,15 +48,16 @@
 		<voice sentence="Httt.... hmnnsss..." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82036" countmax="65" />
-		<item id="2460" name="brass helmet" chance="9799" />
-		<item id="2398" name="mace" chance="7847" />
-		<item id="2417" name="battle hammer" chance="6860" />
-		<item id="9808" name="heavily rusted armor" chance="5793" />
-		<item id="3351" name="steel helmet" chance="4801" />
-		<item id="2381" name="halberd" chance="3804" />
-		<item id="2168" name="life ring" chance="960" />
-		<item id="7620" name="mana potion" chance="748" />
-		<item id="2657" name="simple dress" chance="531" />
+		<item id="2148" name="gold coin" chance="82052" countmax="65" />
+		<item id="10576" name="half-eaten brain" chance="15000" />
+		<item id="2460" name="brass helmet" chance="9784" />
+		<item id="2398" name="mace" chance="7838" />
+		<item id="2417" name="battle hammer" chance="6828" />
+		<item id="9808" name="heavily rusted armor" chance="5786" />
+		<item id="3351" name="steel helmet" chance="4819" />
+		<item id="2381" name="halberd" chance="3798" />
+		<item id="2168" name="life ring" chance="957" />
+		<item id="7620" name="mana potion" chance="742" />
+		<item id="2657" name="simple dress" chance="526" />
 	</loot>
 </monster>

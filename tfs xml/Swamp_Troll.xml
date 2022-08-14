@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Swamp Troll" nameDescription="a swamp troll" experience="25" speed="128" manacost="320">
+<monster name="Swamp Troll" nameDescription="a swamp troll" race="blood" experience="25" speed="128" manacost="320">
 	<health now="55" max="55" />
 	<look type="76" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,8 +31,8 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="15" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -41,7 +41,7 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-13" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-13" poison="14" />
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<voices interval="5000" chance="10">
@@ -50,16 +50,16 @@
 		<voice sentence="Grrrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2667" name="fish" chance="59946" />
-		<item id="2148" name="gold coin" chance="49958" countmax="5" />
-		<item name="torch" chance="15249" />
-		<item id="2389" name="spear" chance="13072" />
-		<item id="2235" name="mouldy cheese" chance="10113" />
-		<item id="2643" name="leather boots" chance="9853" />
-		<item id="10603" name="swamp grass" chance="3079" />
-		<item id="13506" name="medicine pouch" chance="2410" />
-		<item id="5901" name="wood" chance="2057" />
-		<item id="2805" name="troll green" chance="1081" />
+		<item id="2667" name="fish" chance="59952" />
+		<item id="2148" name="gold coin" chance="49976" countmax="5" />
+		<item name="torch" chance="15255" />
+		<item id="2389" name="spear" chance="13074" />
+		<item id="2235" name="mouldy cheese" chance="10123" />
+		<item id="2643" name="leather boots" chance="9861" />
+		<item id="10603" name="swamp grass" chance="3086" />
+		<item id="13506" name="medicine pouch" chance="2411" />
+		<item id="5901" name="wood" chance="2055" />
+		<item id="2805" name="troll green" chance="1084" />
 		<item id="2580" name="fishing rod" chance="79" />
 	</loot>
 </monster>

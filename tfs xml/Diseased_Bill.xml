@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Diseased Bill" nameDescription="a diseased Bill" experience="300" speed="0" manacost="0">
+<monster name="Diseased Bill" nameDescription="a diseased Bill" race="blood" experience="300" speed="0" manacost="0">
 	<health now="1000" max="1000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,19 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="25" />
+		<element earthPercent="100" />
+		<element firePercent="25" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="25" />
+		<element holyPercent="25" />
+		<element deathPercent="75" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-240" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-240" poison="54" />
 	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="100" max="250" />
@@ -53,6 +53,6 @@
 		<voice sentence="Desolate! Everything is so desolate!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="42105" countmax="25" />
+		<item id="2148" name="gold coin" chance="43077" countmax="25" />
 	</loot>
 </monster>

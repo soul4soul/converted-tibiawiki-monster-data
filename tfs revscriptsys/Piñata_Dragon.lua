@@ -71,7 +71,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -30},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -84,6 +84,7 @@ monster.elements = {
 }
 
 monster.attacks = {
+	{name ="outfit", interval = 2000, chance = 15, monster = "Chicken", duration = 5000}
 }
 
 monster.defenses = {
@@ -96,8 +97,12 @@ monster.loot = {
 	{id = 6569, chance = 100000, maxCount = 3},
 	{id = "surprise bag", chance = 52950, maxCount = 2},
 	{id = 2687, chance = 50552, maxCount = 5},
+	{id = 6570, chance = 20000},
+	{id = 2114, chance = 20000},
 	{id = 32858, chance = 13909},
 	{id = 32854, chance = 11127},
+	{id = 6576, chance = 7500},
+	{id = 6571, chance = 7500},
 	{id = 6574, chance = 6859},
 	{id = 32971, chance = 6523},
 	{id = 6280, chance = 6379},
@@ -106,8 +111,8 @@ monster.loot = {
 	{id = 27058, chance = 2734},
 	{id = 27053, chance = 2302},
 	{id = 2110, chance = 1487},
-	{id = 32973, chance = 240},
 	{id = 7487, chance = 240},
+	{id = 32973, chance = 240},
 	{id = "stuffed dragon", chance = 192}
 }
 

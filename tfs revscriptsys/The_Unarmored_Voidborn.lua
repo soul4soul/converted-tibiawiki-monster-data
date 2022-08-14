@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Unarmored Voidborn")
 local monster = {}
 
 monster.name = "The Unarmored Voidborn"
-monster.description = ""
+monster.description = "The Unarmored Voidborn"
 monster.experience = 15000
 monster.outfit = {
 	lookType = 0,
@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -300},
+	{type = COMBAT_ENERGYDAMAGE, percent = -300},
+	{type = COMBAT_EARTHDAMAGE, percent = -300},
+	{type = COMBAT_FIREDAMAGE, percent = -300},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = -300},
+	{type = COMBAT_HOLYDAMAGE , percent = -300},
+	{type = COMBAT_DEATHDAMAGE , percent = -300}
 }
 
 monster.attacks = {
@@ -87,37 +87,38 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 26191, chance = 100000, maxCount = 5},
 	{id = 2148, chance = 100000, maxCount = 200},
-	{id = 26165, chance = 100000},
 	{id = 2152, chance = 100000, maxCount = 30},
+	{id = 26191, chance = 100000, maxCount = 6},
+	{id = 8472, chance = 100000, maxCount = 5},
+	{id = 8473, chance = 100000, maxCount = 7},
+	{id = 2146, chance = 100000, maxCount = 13},
+	{id = 26165, chance = 100000},
+	{id = 5904, chance = 100000},
+	{id = 2156, chance = 100000},
 	{id = 24847, chance = 100000},
-	{id = 5904, chance = 90000},
-	{id = 7590, chance = 80000, maxCount = 10},
-	{id = 26200, chance = 50000},
-	{id = 9971, chance = 50000},
-	{id = 8472, chance = 50000, maxCount = 10},
-	{id = 2149, chance = 50000, maxCount = 10},
-	{id = 25172, chance = 40000},
-	{id = 8473, chance = 40000, maxCount = 5},
-	{id = 23542, chance = 30000},
-	{id = 5887, chance = 30000},
-	{id = 2156, chance = 30000},
-	{id = 2158, chance = 20000},
+	{id = "ring of blue plasma", chance = 100000},
+	{id = 26200, chance = 20000},
+	{id = 2149, chance = 20000},
+	{id = 23542, chance = 20000},
+	{id = 7885, chance = 20000},
 	{id = 7428, chance = 20000},
+	{id = 7388, chance = 20000},
+	{id = "collar of blue plasma", chance = 20000},
 	{id = "giant shimmering pearl", chance = 20000},
-	{id = 2150, chance = 20000, maxCount = 10},
-	{id = 2146, chance = 20000, maxCount = 10},
+	{id = 25377, chance = 20000},
+	{id = 8614, chance = 20000},
+	{id = 5887, chance = 20000},
 	{id = 7903, chance = 20000},
+	{id = 2158, chance = 20000},
+	{id = 26199, chance = 20000},
+	{id = 9971, chance = 20000},
 	{id = 2154, chance = 20000},
-	{id = "collar of blue plasma", chance = 10000},
-	{id = 26199, chance = 10000},
-	{id = 25377, chance = 10000},
-	{id = 2155, chance = 10000},
-	{id = "ring of blue plasma", chance = 10000},
-	{id = 9970, chance = 10000, maxCount = 10},
-	{id = 7885, chance = 10000},
-	{id = 7388, chance = 10000}
+	{id = 2155, chance = 20000},
+	{id = 2150, chance = 20000, maxCount = 10},
+	{id = 7590, chance = 20000, maxCount = 5},
+	{id = 25172, chance = 20000},
+	{id = 9970, chance = 20000}
 }
 
 mType:register(monster)

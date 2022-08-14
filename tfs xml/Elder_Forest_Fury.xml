@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Elder Forest Fury" nameDescription="an elder forest fury" experience="330" speed="240" manacost="0">
+<monster name="Elder Forest Fury" nameDescription="an elder forest fury" race="blood" experience="330" speed="240" manacost="0">
 	<health now="670" max="670" />
 	<look type="569" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,30 +32,28 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="40" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-53" />
-	</attacks>
 	<defenses armor="25" defense="25" />
 	<loot>
-		<item id="2148" name="gold coin" chance="90625" countmax="68" />
-		<item id="2543" name="bolt" chance="45433" countmax="15" />
-		<item id="2666" name="meat" chance="20192" />
-		<item id="21312" name="venison" chance="19952" />
-		<item id="7363" name="piercing bolt" chance="16587" countmax="5" />
-		<item id="21311" name="elven hoof" chance="12019" />
-		<item id="3965" name="hunting spear" chance="9375" countmax="2" />
-		<item id="2455" name="crossbow" chance="3365" />
-		<item id="2149" name="small emerald" chance="3365" />
-		<item id="8840" name="raspberry" chance="721" countmax="3" />
-		<item id="7443" name="bullseye potion" chance="481" />
-		<item id="2181" name="terra rod" chance="240" />
+		<item id="2148" name="gold coin" chance="90189" countmax="68" />
+		<item id="2543" name="bolt" chance="44528" countmax="15" />
+		<item id="2666" name="meat" chance="22075" countmax="2" />
+		<item id="21312" name="venison" chance="18302" />
+		<item id="7363" name="piercing bolt" chance="17358" countmax="5" />
+		<item id="21311" name="elven hoof" chance="12830" />
+		<item id="3965" name="hunting spear" chance="8302" countmax="2" />
+		<item id="7438" name="elvish bow" chance="7500" />
+		<item id="2455" name="crossbow" chance="3585" />
+		<item id="2149" name="small emerald" chance="3019" />
+		<item id="8840" name="raspberry" chance="755" countmax="3" />
+		<item id="7443" name="bullseye potion" chance="566" />
+		<item id="2181" name="terra rod" chance="377" />
 	</loot>
 </monster>

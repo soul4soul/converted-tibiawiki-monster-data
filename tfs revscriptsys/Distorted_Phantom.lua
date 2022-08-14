@@ -5,11 +5,11 @@ monster.name = "Distorted Phantom"
 monster.description = "a distorted phantom"
 monster.experience = 18870
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 1298,
+	lookHead = 113,
+	lookBody = 94,
+	lookLegs = 132,
+	lookFeet = 76,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -68,9 +68,9 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 50},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
@@ -89,19 +89,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 79829},
-	{id = 8472, chance = 25201, maxCount = 5},
-	{id = 36798, chance = 4955},
-	{id = 9971, chance = 4829},
-	{id = 8910, chance = 4603},
-	{id = 8901, chance = 3898},
-	{id = 2153, chance = 3320},
-	{id = 36805, chance = 2817},
-	{id = 8912, chance = 2817},
-	{id = "ring of red plasma", chance = 2641},
-	{id = "ring of green plasma", chance = 2540},
-	{id = 18412, chance = 2314},
-	{id = "ring of blue plasma", chance = 2062}
+	{id = 2160, chance = 59195},
+	{id = 8472, chance = 18216, maxCount = 5},
+	{id = 36765, chance = 4000},
+	{id = 8910, chance = 3707},
+	{id = 36798, chance = 3244},
+	{id = 8901, chance = 3215},
+	{id = 9971, chance = 3186},
+	{id = 2153, chance = 3041},
+	{id = 8912, chance = 2722},
+	{id = "ring of red plasma", chance = 2404},
+	{id = 36805, chance = 2143},
+	{id = "ring of blue plasma", chance = 1911},
+	{id = 18412, chance = 1738},
+	{id = "ring of green plasma", chance = 1593}
 }
 
 mType:register(monster)

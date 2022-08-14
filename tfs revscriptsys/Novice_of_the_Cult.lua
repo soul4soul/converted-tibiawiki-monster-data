@@ -68,40 +68,43 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = -8},
+	{type = COMBAT_EARTHDAMAGE, percent = 10},
+	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 10},
+	{type = COMBAT_HOLYDAMAGE , percent = 10},
+	{type = COMBAT_DEATHDAMAGE , percent = -8}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -65}
 }
 
 monster.defenses = {
 	defense = 15,
-	armor = 15,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 20, maxDamage = 40}
+	armor = 15
+}
+
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Chicken", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
-	{id = 2148, chance = 43492, maxCount = 40},
-	{id = 12448, chance = 5904},
-	{id = 2661, chance = 2938},
-	{id = 6087, chance = 1064},
-	{id = 10556, chance = 1031},
-	{id = "book (orange)", chance = 695},
-	{id = 2213, chance = 518},
-	{id = 5810, chance = 491},
-	{id = 2190, chance = 447},
-	{id = 2199, chance = 430},
-	{id = 2145, chance = 187}
+	{id = 2148, chance = 43516, maxCount = 40},
+	{id = 12448, chance = 5875},
+	{id = 2661, chance = 2965},
+	{id = 6087, chance = 1061},
+	{id = 10556, chance = 1023},
+	{id = "book (orange)", chance = 691},
+	{id = 2213, chance = 511},
+	{id = 5810, chance = 484},
+	{id = 2190, chance = 451},
+	{id = 2199, chance = 424},
+	{id = 2145, chance = 196}
 }
 
 mType:register(monster)

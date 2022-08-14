@@ -20,7 +20,7 @@ monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 210
-monster.summonCost = 0
+monster.summonCost = 530
 
 monster.changeTarget = {
 	interval = 2000,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 1,
+	targetDistance = 4,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -69,7 +69,7 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
@@ -77,7 +77,7 @@ monster.elements = {
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 20},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -92,23 +92,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2544, chance = 82449, maxCount = 22},
-	{id = 2675, chance = 20145, maxCount = 2},
-	{id = 2690, chance = 11164, maxCount = 2},
-	{id = 12425, chance = 10156},
-	{id = 2456, chance = 5861},
-	{id = 2546, chance = 5188, maxCount = 3},
-	{id = 2465, chance = 5111},
-	{id = 2460, chance = 4997},
-	{id = 2545, chance = 4348, maxCount = 4},
-	{id = 2201, chance = 3112},
-	{id = "torch", chance = 3092},
-	{id = 5875, chance = 530},
-	{id = 7397, chance = 457},
-	{id = 2147, chance = 175},
-	{id = 7400, chance = 139},
-	{id = 7394, chance = 126},
-	{id = 5907, chance = 114}
+	{id = 2544, chance = 82461, maxCount = 22},
+	{id = 2675, chance = 20144, maxCount = 2},
+	{id = 2690, chance = 11132, maxCount = 2},
+	{id = 12425, chance = 10161},
+	{id = 2456, chance = 5866},
+	{id = 2546, chance = 5158, maxCount = 3},
+	{id = 2465, chance = 5126},
+	{id = 2460, chance = 5003},
+	{id = 2545, chance = 4355, maxCount = 4},
+	{id = 2201, chance = 3122},
+	{id = "torch", chance = 3078},
+	{id = 5875, chance = 537},
+	{id = 7397, chance = 449},
+	{id = 2147, chance = 171},
+	{id = 7400, chance = 135},
+	{id = 7394, chance = 127},
+	{id = 5907, chance = 111}
 }
 
 mType:register(monster)

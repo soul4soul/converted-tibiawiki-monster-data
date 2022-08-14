@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of An Amazon"
 monster.description = "a memory of an amazon"
-monster.experience = 0
+monster.experience = 1480
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3600
+monster.maxHealth = 3600
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0

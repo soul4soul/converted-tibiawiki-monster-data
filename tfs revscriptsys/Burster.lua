@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Burster")
 local monster = {}
 
 monster.name = "Burster"
-monster.description = ""
+monster.description = "Burster"
 monster.experience = 10000
 monster.outfit = {
 	lookType = 0,
@@ -66,7 +66,7 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -800}
 }
 
 monster.defenses = {
@@ -88,25 +87,27 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 95},
+	{id = 2152, chance = 100000, maxCount = 10},
 	{id = 26163, chance = 100000},
 	{id = 26167, chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 95},
 	{id = 26162, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 8},
 	{id = 26174, chance = 100000},
 	{id = 26170, chance = 100000},
-	{id = 26191, chance = 50000, maxCount = 3},
-	{id = 26201, chance = 50000, maxCount = 3},
-	{id = 7591, chance = 50000},
-	{id = "ring of red plasma", chance = 50000},
-	{id = 18418, chance = 25000},
-	{id = "collar of blue plasma", chance = 25000},
-	{id = 26199, chance = 25000},
-	{id = 26200, chance = 25000},
-	{id = 7590, chance = 25000},
-	{id = 8472, chance = 25000, maxCount = 2},
-	{id = 18415, chance = 25000},
-	{id = "ring of green plasma", chance = 25000}
+	{id = 7591, chance = 60000, maxCount = 3},
+	{id = 26191, chance = 40000, maxCount = 3},
+	{id = 26201, chance = 40000, maxCount = 3},
+	{id = "ring of red plasma", chance = 40000},
+	{id = "collar of blue plasma", chance = 40000},
+	{id = 18415, chance = 20000},
+	{id = 7590, chance = 20000},
+	{id = 7895, chance = 20000},
+	{id = "ring of green plasma", chance = 20000},
+	{id = 26199, chance = 20000},
+	{id = 26200, chance = 20000},
+	{id = 8472, chance = 20000, maxCount = 2},
+	{id = "ring of blue plasma", chance = 20000},
+	{id = 18418, chance = 20000}
 }
 
 mType:register(monster)

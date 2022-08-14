@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Jailer" nameDescription="" experience="45" speed="0" manacost="0">
+<monster name="Jailer" nameDescription="Jailer" race="blood" experience="45" speed="0" manacost="0">
 	<health now="65" max="65" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -42,12 +42,12 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2230" name="bone" chance="50000" />
-		<item id="2148" name="gold coin" chance="44059" countmax="10" />
-		<item id="2787" name="white mushroom" chance="22772" />
-		<item id="12437" name="pelvis bone" chance="10891" />
-		<item id="2376" name="sword" chance="2970" />
-		<item id="2789" name="brown mushroom" chance="1980" />
-		<item id="2398" name="mace" chance="990" />
+		<item id="2230" name="bone" chance="51917" />
+		<item id="2148" name="gold coin" chance="43068" countmax="10" />
+		<item id="2787" name="white mushroom" chance="22124" />
+		<item id="12437" name="pelvis bone" chance="10914" />
+		<item id="2376" name="sword" chance="2950" />
+		<item id="2789" name="brown mushroom" chance="2655" />
+		<item id="2398" name="mace" chance="1180" />
 	</loot>
 </monster>

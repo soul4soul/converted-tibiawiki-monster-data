@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Soul-Broken Harbinger" nameDescription="a soul-broken harbinger" experience="5800" speed="420" manacost="0">
+<monster name="Soul-Broken Harbinger" nameDescription="a soul-broken harbinger" race="blood" experience="5800" speed="420" manacost="0">
 	<health now="6300" max="6300" />
 	<look type="1137" head="85" body="10" legs="16" feet="83" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,31 +30,31 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="55" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="20" />
 	</elements>
 	<defenses armor="76" defense="76" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="12" />
-		<item id="32714" name="ice flower (item)" chance="15206" countmax="3" />
-		<item id="32661" name="dream essence egg" chance="12716" />
-		<item id="10552" name="elvish talisman" chance="9483" />
-		<item id="2396" name="ice rapier" chance="4843" />
-		<item id="7896" name="glacier kilt" chance="3274" />
-		<item id="7892" name="glacier shoes" chance="3111" />
-		<item name="ring of blue plasma" chance="2611" />
-		<item id="2477" name="knight legs" chance="2394" />
-		<item id="2528" name="tower shield" chance="1799" />
-		<item id="2664" name="wood cape" chance="1366" />
-		<item id="2519" name="crown shield" chance="1272" />
-		<item id="8902" name="spellbook of mind control" chance="1136" />
-		<item id="26199" name="collar of green plasma" chance="1015" />
+		<item id="32714" name="ice flower (item)" chance="15214" countmax="3" />
+		<item id="32661" name="dream essence egg" chance="12818" />
+		<item id="10552" name="elvish talisman" chance="9522" />
+		<item id="2396" name="ice rapier" chance="4781" />
+		<item id="7896" name="glacier kilt" chance="3256" />
+		<item id="7892" name="glacier shoes" chance="3087" countmax="2" />
+		<item name="ring of blue plasma" chance="2592" />
+		<item id="2477" name="knight legs" chance="2397" />
+		<item id="2528" name="tower shield" chance="1824" />
+		<item id="2664" name="wood cape" chance="1355" />
+		<item id="2519" name="crown shield" chance="1264" />
+		<item id="8902" name="spellbook of mind control" chance="1120" />
+		<item id="26199" name="collar of green plasma" chance="1016" />
 	</loot>
 </monster>

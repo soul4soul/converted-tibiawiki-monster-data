@@ -71,12 +71,12 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 50},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 70},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -88,33 +88,41 @@ monster.attacks = {
 monster.defenses = {
 	defense = 5,
 	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 10, maxDamage = 200}
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 10, maxDamage = 200},
+	{name ="outfit", interval = 2000, chance = 15, monster = "War Wolf", duration = 5000}
 }
 
 monster.maxSummons = 3
 monster.summons = {
-	{name = "War Wolf", chance = 15, interval = 2000, max = 1}
+	{name = "War Wolf", chance = 15, interval = 2000, max = 3}
 }
 
 monster.loot = {
-	{id = 10563, chance = 100000},
 	{id = 2148, chance = 100000, maxCount = 96},
+	{id = 10563, chance = 100000},
 	{id = 2152, chance = 97727, maxCount = 3},
 	{id = 2800, chance = 90909},
 	{id = 12448, chance = 56818},
 	{id = 2154, chance = 45455},
 	{id = 2166, chance = 43182},
 	{id = 12449, chance = 40909},
+	{id = 2193, chance = 20000},
+	{id = 2220, chance = 20000},
+	{id = 2035, chance = 20000},
+	{id = 2747, chance = 20000},
+	{id = 1949, chance = 20000},
+	{id = 2032, chance = 20000},
+	{id = 2642, chance = 20000},
 	{id = 2260, chance = 18182},
 	{id = 2689, chance = 13636},
 	{id = 2652, chance = 13636},
+	{id = 7589, chance = 11364},
+	{id = 2401, chance = 11364, maxCount = 2},
 	{id = 2015, chance = 11364},
 	{id = "lamp", chance = 11364},
-	{id = 2401, chance = 11364},
-	{id = 7589, chance = 11364},
 	{id = 2129, chance = 9091},
-	{id = 2802, chance = 6818},
 	{id = 5786, chance = 6818},
+	{id = 2802, chance = 6818},
 	{id = 2177, chance = 2273}
 }
 

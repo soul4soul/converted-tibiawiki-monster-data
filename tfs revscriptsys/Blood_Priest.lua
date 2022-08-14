@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -67,20 +67,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -8},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -8},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 15},
+	{type = COMBAT_HOLYDAMAGE , percent = -8},
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -80}
 }
 
 monster.defenses = {
@@ -91,24 +90,24 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 99982, maxCount = 180},
-	{id = 11237, chance = 15234},
-	{id = 21246, chance = 14645},
-	{id = 21242, chance = 14627},
-	{id = 21245, chance = 14199},
-	{id = 21243, chance = 9829},
-	{id = 21247, chance = 7385},
-	{id = 7589, chance = 6083},
-	{id = 2147, chance = 3211, maxCount = 2},
-	{id = 5909, chance = 2818},
-	{id = 2663, chance = 2783},
-	{id = 2156, chance = 785},
-	{id = 5911, chance = 678},
-	{id = 8910, chance = 321},
-	{id = 8902, chance = 268},
-	{id = 8901, chance = 268},
-	{id = 2195, chance = 178},
-	{id = 2436, chance = 178},
-	{id = 7456, chance = 71}
+	{id = 11237, chance = 15212},
+	{id = 21246, chance = 14597},
+	{id = 21242, chance = 14579},
+	{id = 21245, chance = 14175},
+	{id = 21243, chance = 9854},
+	{id = 21247, chance = 7430},
+	{id = 7589, chance = 6095},
+	{id = 2147, chance = 3214, maxCount = 2},
+	{id = 5909, chance = 2828},
+	{id = 2663, chance = 2793},
+	{id = 2156, chance = 773},
+	{id = 5911, chance = 667},
+	{id = 8910, chance = 316},
+	{id = 8901, chance = 299},
+	{id = 8902, chance = 263},
+	{id = 2436, chance = 193},
+	{id = 2195, chance = 176},
+	{id = 7456, chance = 70}
 }
 
 mType:register(monster)

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Goshnar's Hatred")
 local monster = {}
 
 monster.name = "Goshnar's Hatred"
-monster.description = ""
+monster.description = "Goshnar's Hatred"
 monster.experience = 75000
 monster.outfit = {
 	lookType = 0,
@@ -86,25 +86,31 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 100000, maxCount = 70},
-	{id = 26031, chance = 83333, maxCount = 90},
-	{id = 26029, chance = 66667, maxCount = 110},
-	{id = 35278, chance = 41667},
-	{id = 7440, chance = 41667, maxCount = 25},
-	{id = 2156, chance = 41667, maxCount = 2},
-	{id = 7439, chance = 33333, maxCount = 25},
-	{id = 2158, chance = 33333},
-	{id = 32715, chance = 33333},
-	{id = 26030, chance = 33333, maxCount = 110},
-	{id = 2153, chance = 33333, maxCount = 2},
-	{id = 7443, chance = 25000, maxCount = 25},
+	{id = 2160, chance = 100000, maxCount = 127},
+	{id = 26030, chance = 75000, maxCount = 126},
+	{id = 26029, chance = 62500, maxCount = 106},
+	{id = 2155, chance = 50000},
+	{id = 7443, chance = 50000, maxCount = 42},
+	{id = 32715, chance = 50000},
+	{id = 26031, chance = 37500, maxCount = 130},
+	{id = 2158, chance = 37500},
+	{id = 7439, chance = 37500, maxCount = 29},
+	{id = 2154, chance = 25000},
 	{id = 32716, chance = 25000},
-	{id = 2155, chance = 25000},
-	{id = 35425, chance = 16667},
-	{id = 2154, chance = 16667},
-	{id = 27047, chance = 8333},
-	{id = 9971, chance = 8333},
-	{id = 36583, chance = 8333}
+	{id = 35278, chance = 25000},
+	{id = 2153, chance = 25000},
+	{id = 36676, chance = 20000},
+	{id = 35425, chance = 20000},
+	{id = 36730, chance = 20000},
+	{id = 36728, chance = 20000},
+	{id = 36765, chance = 20000},
+	{id = 36583, chance = 20000},
+	{id = 36732, chance = 20000},
+	{id = 2156, chance = 12500, maxCount = 2},
+	{id = 7440, chance = 12500, maxCount = 10},
+	{id = 9971, chance = 12500},
+	{id = 27047, chance = 12500},
+	{id = "giant shimmering pearl", chance = 12500}
 }
 
 mType:register(monster)

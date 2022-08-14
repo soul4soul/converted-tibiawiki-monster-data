@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Nightmare" nameDescription="a nightmare" experience="1666" speed="464" manacost="0">
+<monster name="Nightmare" nameDescription="a nightmare" race="blood" experience="1666" speed="464" manacost="0">
 	<health now="2700" max="2700" />
 	<look type="245" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,21 +30,17 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="20" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
-	</attacks>
 	<defenses armor="25" defense="25">
-		<defense name="healing" interval="2000" chance="20" min="60" max="100" />
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
@@ -58,21 +54,21 @@
 		<voice sentence="Weeeheeheeeheee!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="97107" countmax="155" />
-		<item id="2671" name="ham" chance="29746" />
-		<item id="6558" name="flask of demonic blood" chance="20748" />
-		<item id="5944" name="soul orb" chance="20360" />
-		<item id="11223" name="essence of a bad dream" chance="15420" />
-		<item id="11229" name="scythe leg" chance="10198" />
-		<item id="6500" name="demonic essence" chance="9809" />
-		<item id="2152" name="platinum coin" chance="2752" countmax="3" />
-		<item id="6300" name="death ring" chance="1094" />
-		<item id="2547" name="power bolt" chance="1094" countmax="4" />
-		<item id="2532" name="ancient shield" chance="1059" />
-		<item id="2477" name="knight legs" chance="917" />
-		<item id="6526" name="skeleton decoration" chance="600" />
-		<item id="2195" name="boots of haste" chance="318" />
-		<item id="5669" name="mysterious voodoo skull" chance="176" />
-		<item id="2454" name="war axe" chance="106" />
+		<item id="2148" name="gold coin" chance="97228" countmax="155" />
+		<item id="2671" name="ham" chance="29467" />
+		<item id="5944" name="soul orb" chance="20578" />
+		<item id="6558" name="flask of demonic blood" chance="20337" countmax="2" />
+		<item id="11223" name="essence of a bad dream" chance="15487" />
+		<item id="11229" name="scythe leg" chance="10124" />
+		<item id="6500" name="demonic essence" chance="9672" />
+		<item id="2152" name="platinum coin" chance="2772" countmax="3" />
+		<item id="2532" name="ancient shield" chance="1085" />
+		<item id="2547" name="power bolt" chance="1055" countmax="4" />
+		<item id="6300" name="death ring" chance="1024" />
+		<item id="2477" name="knight legs" chance="813" />
+		<item id="6526" name="skeleton decoration" chance="512" />
+		<item id="2195" name="boots of haste" chance="271" />
+		<item id="5669" name="mysterious voodoo skull" chance="151" />
+		<item id="2454" name="war axe" chance="90" />
 	</loot>
 </monster>

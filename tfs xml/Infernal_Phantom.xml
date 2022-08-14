@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Infernal Phantom" nameDescription="an infernal phantom" experience="15770" speed="400" manacost="0">
+<monster name="Infernal Phantom" nameDescription="an infernal phantom" race="undead" experience="15770" speed="400" manacost="0">
 	<health now="26000" max="26000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1298" head="114" body="80" legs="94" feet="78" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-10" />
+		<element energyPercent="1" />
+		<element earthPercent="-10" />
+		<element firePercent="80" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-20" />
+		<element holyPercent="-20" />
+		<element deathPercent="100" />
 	</elements>
 	<defenses armor="100" defense="100" />
 	<voices interval="5000" chance="10">
@@ -46,8 +46,23 @@
 		<voice sentence="Burn, baby! Burn!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2160" name="crystal coin" chance="55556" />
-		<item id="2181" name="terra rod" chance="44444" />
-		<item id="2183" name="hailstorm rod" chance="11111" />
+		<item id="2160" name="crystal coin" chance="51215" />
+		<item id="2181" name="terra rod" chance="25347" />
+		<item id="8473" name="ultimate health potion" chance="18692" countmax="4" />
+		<item id="2183" name="hailstorm rod" chance="6308" />
+		<item id="36765" name="bag you desire" chance="4000" />
+		<item id="8912" name="springsprout rod" chance="3935" />
+		<item id="36795" name="infernal heart" chance="3848" />
+		<item id="8910" name="underworld rod" chance="3414" />
+		<item id="2432" name="fire axe" chance="3270" />
+		<item id="8920" name="wand of starstorm" chance="3241" />
+		<item id="2445" name="crystal mace" chance="2083" />
+		<item id="15451" name="warrior's axe" chance="1910" />
+		<item id="8922" name="wand of voodoo" chance="1881" />
+		<item id="36802" name="infernal robe" chance="1823" />
+		<item id="7413" name="titan axe" chance="1707" />
+		<item id="7454" name="glorious axe" chance="1707" />
+		<item id="7427" name="chaos mace" chance="1215" />
+		<item id="2454" name="war axe" chance="1071" />
 	</loot>
 </monster>

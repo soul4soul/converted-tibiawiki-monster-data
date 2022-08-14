@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Queen Nostalgia (5)")
 local monster = {}
 
 monster.name = "Queen Nostalgia"
-monster.description = ""
+monster.description = "an Queen Nostalgia"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 5,
+	color = 180
 }
 
 monster.voices = {
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {

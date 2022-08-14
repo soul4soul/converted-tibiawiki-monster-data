@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Crazed Summer Vanguard" nameDescription="a crazed summer vanguard" experience="5000" speed="390" manacost="0">
+<monster name="Crazed Summer Vanguard" nameDescription="a crazed summer vanguard" race="blood" experience="5000" speed="390" manacost="0">
 	<health now="5500" max="5500" />
 	<look type="1137" head="114" body="93" legs="3" feet="83" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,37 +32,34 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="50" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element icePercent="-30" />
+		<element holyPercent="20" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-450" />
-	</attacks>
 	<defenses armor="77" defense="77" />
 	<voices interval="5000" chance="10">
 		<voice sentence="I see colours, all colours! Or are these just illusions?" yell="false" />
 		<voice sentence="La di da di doo!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="85363" countmax="13" />
-		<item id="12421" name="elven astral observer" chance="29249" />
-		<item id="8872" name="belted cape" chance="9263" />
-		<item id="32661" name="dream essence egg" chance="8899" />
-		<item id="7732" name="seeds" chance="8437" />
-		<item id="2377" name="two handed sword" chance="7610" />
-		<item id="2201" name="dragon necklace" chance="7221" />
-		<item id="2419" name="scimitar" chance="6868" />
-		<item id="2403" name="knife" chance="6589" />
-		<item id="7890" name="magma amulet" chance="5373" />
-		<item id="2191" name="wand of dragonbreath" chance="4741" />
-		<item id="8921" name="wand of draconia" chance="4692" />
-		<item id="7891" name="magma boots" chance="2857" />
-		<item id="32651" name="sun fruit" chance="924" />
-		<item id="7443" name="bullseye potion" chance="292" />
+		<item id="2152" name="platinum coin" chance="85035" countmax="13" />
+		<item id="12421" name="elven astral observer" chance="29645" />
+		<item id="8872" name="belted cape" chance="9295" />
+		<item id="32661" name="dream essence egg" chance="8623" />
+		<item id="7732" name="seeds" chance="8572" />
+		<item id="2377" name="two handed sword" chance="7340" />
+		<item id="2201" name="dragon necklace" chance="7126" />
+		<item id="2419" name="scimitar" chance="6831" />
+		<item id="2403" name="knife" chance="6658" />
+		<item id="7890" name="magma amulet" chance="5406" />
+		<item id="8921" name="wand of draconia" chance="4754" />
+		<item id="2191" name="wand of dragonbreath" chance="4703" />
+		<item id="7891" name="magma boots" chance="2800" />
+		<item id="32651" name="sun fruit" chance="916" />
+		<item id="7443" name="bullseye potion" chance="336" />
 	</loot>
 </monster>

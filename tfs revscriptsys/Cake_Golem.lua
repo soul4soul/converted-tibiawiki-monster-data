@@ -65,20 +65,21 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 90},
+	{type = COMBAT_EARTHDAMAGE, percent = 95},
+	{type = COMBAT_FIREDAMAGE, percent = 85},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 95},
+	{type = COMBAT_HOLYDAMAGE , percent = 95},
+	{type = COMBAT_DEATHDAMAGE , percent = 85}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
+	{name ="drunk", interval = 2000, chance = 15, drunkenness = 50, duration = 15000, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_CAKE, effect = CONST_ME_CAKE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = 0, maxDamage = -40, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_CAKE, effect = CONST_ME_GREEN_RINGS}
 }
 
 monster.defenses = {

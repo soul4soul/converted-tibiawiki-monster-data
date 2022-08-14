@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Feroxa (Gloom Wolf)")
 local monster = {}
 
 monster.name = "Feroxa"
-monster.description = ""
+monster.description = "Feroxa"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
@@ -87,29 +86,29 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 24739, chance = 85714, maxCount = 3},
 	{id = 2152, chance = 85714, maxCount = 20},
+	{id = 24739, chance = 85714, maxCount = 3},
 	{id = 18417, chance = 42857, maxCount = 5},
-	{id = 24741, chance = 42857},
 	{id = 2186, chance = 42857},
+	{id = 24741, chance = 42857},
 	{id = 2145, chance = 42857, maxCount = 5},
 	{id = 18414, chance = 42857, maxCount = 5},
-	{id = 24742, chance = 28571},
-	{id = 18418, chance = 28571, maxCount = 5},
-	{id = 8472, chance = 28571, maxCount = 5},
 	{id = 18415, chance = 28571, maxCount = 5},
-	{id = 2148, chance = 28571, maxCount = 200},
 	{id = 7590, chance = 28571, maxCount = 5},
-	{id = 2146, chance = 28571, maxCount = 5},
+	{id = 24742, chance = 28571},
+	{id = 8472, chance = 28571, maxCount = 5},
+	{id = 2148, chance = 28571, maxCount = 200},
 	{id = 8473, chance = 28571, maxCount = 5},
-	{id = 18413, chance = 14286, maxCount = 5},
-	{id = 18416, chance = 14286, maxCount = 5},
+	{id = 2146, chance = 28571, maxCount = 5},
+	{id = 18418, chance = 28571, maxCount = 5},
 	{id = 9970, chance = 14286, maxCount = 5},
 	{id = 2197, chance = 14286},
-	{id = 8910, chance = 14286},
 	{id = 8922, chance = 14286},
+	{id = 18413, chance = 14286, maxCount = 5},
 	{id = 24743, chance = 14286},
-	{id = 24716, chance = 14286}
+	{id = 8910, chance = 14286},
+	{id = 24716, chance = 14286},
+	{id = 18416, chance = 14286, maxCount = 5}
 }
 
 mType:register(monster)

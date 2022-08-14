@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Hazardous Phantom" nameDescription="a hazardous phantom" experience="66000" speed="0" manacost="0">
+<monster name="Hazardous Phantom" nameDescription="a hazardous phantom" race="blood" experience="66000" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -42,8 +42,17 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="36796" name="Hazardous Heart" chance="20000" />
-		<item id="36803" name="Hazardous Robe" chance="20000" />
-		<item id="36765" name="Bag You Desire" chance="20000" />
+		<item id="2160" name="crystal coin" chance="84444" countmax="4" />
+		<item id="8473" name="ultimate health potion" chance="71111" countmax="5" />
+		<item id="9971" name="gold ingot" chance="22222" />
+		<item id="36765" name="bag you desire" chance="20000" />
+		<item id="36796" name="hazardous heart" chance="11111" />
+		<item id="2153" name="violet gem" chance="6667" />
+		<item id="2183" name="hailstorm rod" chance="6667" />
+		<item id="2158" name="blue gem" chance="6667" />
+		<item id="2155" name="green gem" chance="6667" />
+		<item id="36803" name="hazardous robe" chance="4444" />
+		<item id="8911" name="northwind rod" chance="4444" />
+		<item name="giant shimmering pearl" chance="2222" />
 	</loot>
 </monster>

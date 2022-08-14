@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Fallen Mooh'Tah Master Ghar")
 local monster = {}
 
 monster.name = "Fallen Mooh'tah Master Ghar"
-monster.description = ""
+monster.description = "Fallen Mooh'Tah Master Ghar"
 monster.experience = 4400
 monster.outfit = {
 	lookType = 0,
@@ -71,7 +71,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 60},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -81,7 +81,7 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -525, condition = {type = CONDITION_POISON, startDamage = 360, interval = }}
 }
 
 monster.defenses = {

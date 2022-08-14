@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Hairman_The_Huge" nameDescription="" experience="335" speed="0" manacost="0">
+<monster name="Hairman_The_Huge" nameDescription="" race="blood" experience="335" speed="0" manacost="0">
 	<health now="600" max="600" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="1" />
+		<element energyPercent="1" />
+		<element earthPercent="1" />
+		<element firePercent="1" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-1" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-1" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
@@ -48,8 +48,12 @@
 		<voice name="Kongra" interval="2000" chance="15" max="1" />
 	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" />
-		<item id="2676" name="banana" chance="25000" />
+		<item id="2148" name="gold coin" chance="100000" countmax="60" />
+		<item id="2676" name="banana" chance="25000" countmax="2" />
 		<item id="2209" name="club ring" chance="25000" />
+		<item id="5883" name="ape fur" chance="20000" />
+		<item id="2463" name="plate armor" chance="20000" />
+		<item id="2166" name="power ring" chance="20000" />
+		<item id="2200" name="protection amulet" chance="20000" />
 	</loot>
 </monster>

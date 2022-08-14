@@ -71,26 +71,33 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -40},
+	{type = COMBAT_ENERGYDAMAGE, percent = 95},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 95},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_HOLYDAMAGE , percent = -1},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -800}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -800, condition = {type = CONDITION_POISON, startDamage = 54, interval = }},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Pig", duration = 5000}
 }
 
 monster.defenses = {
 	defense = 40,
 	armor = 40,
+	{name ="outfit", interval = 2000, chance = 15, monster = "Demon", duration = 5000},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 370, maxDamage = 925}
+}
+
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Demon", chance = 15, interval = 2000, max = 1}
 }
 
 monster.loot = {
@@ -103,8 +110,8 @@ monster.loot = {
 	{id = 2153, chance = 1175},
 	{id = 2176, chance = 280},
 	{id = 2447, chance = 168},
-	{id = 2184, chance = 112},
-	{id = 11207, chance = 112}
+	{id = 11207, chance = 112},
+	{id = 2184, chance = 112}
 }
 
 mType:register(monster)

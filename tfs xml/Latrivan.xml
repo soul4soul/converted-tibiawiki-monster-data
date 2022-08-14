@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Latrivan" nameDescription="" experience="10000" speed="390" manacost="0">
+<monster name="Latrivan" nameDescription="" race="blood" experience="10000" speed="390" manacost="0">
 	<health now="25000" max="25000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="1" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-1" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-1" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="I might reward you for killing my brother ~ with a swift death!" yell="false" />
@@ -52,46 +49,50 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="273" />
-		<item id="7591" name="great health potion" chance="38028" countmax="2" />
-		<item id="2214" name="ring of healing" chance="26761" />
-		<item id="2387" name="double axe" chance="19718" />
-		<item id="2165" name="stealth ring" chance="19249" />
-		<item id="2162" name="magic light wand" chance="17840" />
-		<item id="2144" name="black pearl" chance="15962" countmax="15" />
-		<item id="2150" name="small amethyst" chance="15962" countmax="19" />
-		<item id="2143" name="white pearl" chance="15962" countmax="13" />
-		<item id="2170" name="silver amulet" chance="14085" />
-		<item id="2402" name="silver dagger" chance="14085" />
-		<item id="6300" name="death ring" chance="13615" />
-		<item id="2146" name="small sapphire" chance="13615" countmax="10" />
-		<item id="2197" name="stone skin amulet" chance="13615" />
-		<item id="2149" name="small emerald" chance="12676" countmax="10" />
-		<item id="2520" name="demon shield" chance="11737" />
-		<item id="2432" name="fire axe" chance="10798" />
-		<item id="6500" name="demonic essence" chance="10329" />
-		<item id="9971" name="gold ingot" chance="10329" />
-		<item id="2167" name="energy ring" chance="9859" />
-		<item id="2145" name="small diamond" chance="8451" countmax="5" />
-		<item id="2393" name="giant sword" chance="7042" />
-		<item id="2396" name="ice rapier" chance="7042" />
-		<item id="2179" name="gold ring" chance="6573" />
-		<item id="2462" name="devil helmet" chance="5634" />
-		<item id="2164" name="might ring" chance="5634" />
-		<item id="7365" name="onyx arrow" chance="4225" countmax="8" />
-		<item id="2200" name="protection amulet" chance="4225" />
-		<item id="2182" name="snakebite rod" chance="4225" />
-		<item id="2436" name="skull staff" chance="3286" />
-		<item id="2192" name="crystal ball" chance="2817" />
-		<item id="2178" name="mind stone" chance="2817" />
-		<item id="2195" name="boots of haste" chance="2347" />
-		<item id="2155" name="green gem" chance="2347" />
-		<item id="2186" name="moonlight rod" chance="2347" />
-		<item id="2188" name="wand of decay" chance="2347" />
-		<item id="2158" name="blue gem" chance="1408" />
-		<item id="2185" name="necrotic rod" chance="1408" />
-		<item id="2470" name="golden legs" chance="939" />
-		<item id="2418" name="golden sickle" chance="939" />
-		<item id="2514" name="mastermind shield" chance="939" />
-		<item id="7368" name="assassin star" chance="469" />
+		<item id="7591" name="great health potion" chance="36986" countmax="2" />
+		<item id="2214" name="ring of healing" chance="26484" />
+		<item id="2165" name="stealth ring" chance="20548" />
+		<item id="2387" name="double axe" chance="20091" />
+		<item id="2171" name="platinum amulet" chance="20000" />
+		<item id="2151" name="talon" chance="20000" countmax="13" />
+		<item id="2152" name="platinum coin" chance="20000" countmax="6" />
+		<item id="7440" name="mastermind potion" chance="20000" />
+		<item id="2162" name="magic light wand" chance="18721" />
+		<item id="2150" name="small amethyst" chance="16438" countmax="19" />
+		<item id="2143" name="white pearl" chance="16438" countmax="13" />
+		<item id="2144" name="black pearl" chance="15525" countmax="28" />
+		<item id="2402" name="silver dagger" chance="14612" />
+		<item id="2170" name="silver amulet" chance="14155" />
+		<item id="2146" name="small sapphire" chance="13699" countmax="10" />
+		<item id="2197" name="stone skin amulet" chance="13242" />
+		<item id="6300" name="death ring" chance="13242" />
+		<item id="2149" name="small emerald" chance="12329" countmax="10" />
+		<item id="2520" name="demon shield" chance="11416" />
+		<item id="9971" name="gold ingot" chance="10502" />
+		<item id="2432" name="fire axe" chance="10502" />
+		<item id="6500" name="demonic essence" chance="10046" />
+		<item id="2167" name="energy ring" chance="9589" />
+		<item id="2145" name="small diamond" chance="8219" countmax="5" />
+		<item id="2396" name="ice rapier" chance="7306" />
+		<item id="2393" name="giant sword" chance="6849" />
+		<item id="2179" name="gold ring" chance="6849" />
+		<item id="2462" name="devil helmet" chance="5479" />
+		<item id="2164" name="might ring" chance="5479" />
+		<item id="2200" name="protection amulet" chance="4110" />
+		<item id="7365" name="onyx arrow" chance="4110" countmax="8" />
+		<item id="2182" name="snakebite rod" chance="4110" />
+		<item id="2178" name="mind stone" chance="3196" />
+		<item id="2436" name="skull staff" chance="3196" />
+		<item id="2192" name="crystal ball" chance="2740" />
+		<item id="2186" name="moonlight rod" chance="2740" />
+		<item id="2155" name="green gem" chance="2283" />
+		<item id="2195" name="boots of haste" chance="2283" />
+		<item id="2188" name="wand of decay" chance="2283" />
+		<item id="2158" name="blue gem" chance="1370" />
+		<item id="2185" name="necrotic rod" chance="1370" />
+		<item id="2470" name="golden legs" chance="913" />
+		<item id="2514" name="mastermind shield" chance="913" />
+		<item id="2418" name="golden sickle" chance="913" />
+		<item id="7368" name="assassin star" chance="457" />
 	</loot>
 </monster>

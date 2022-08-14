@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Diblis the Fair")
 local monster = {}
 
 monster.name = "Diblis The Fair"
-monster.description = ""
+monster.description = "Diblis The Fair"
 monster.experience = 1800
 monster.outfit = {
 	lookType = 0,
@@ -69,16 +69,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 40},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -5},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
@@ -93,20 +93,20 @@ monster.defenses = {
 
 monster.maxSummons = 4
 monster.summons = {
-	{name = "Banshee", chance = 15, interval = 2000, max = 1}
+	{name = "Banshee", chance = 15, interval = 2000, max = 4}
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 99},
 	{id = 9020, chance = 100000},
-	{id = 12405, chance = 91667},
-	{id = 7588, chance = 19444},
-	{id = 2534, chance = 18056},
-	{id = 2214, chance = 12500},
-	{id = 2229, chance = 12500},
-	{id = 2152, chance = 9722, maxCount = 5},
-	{id = 8903, chance = 2778},
-	{id = 2144, chance = 1389}
+	{id = 12405, chance = 91011},
+	{id = 7588, chance = 21348},
+	{id = 2534, chance = 15730},
+	{id = 2229, chance = 12360},
+	{id = 2214, chance = 12360},
+	{id = 2152, chance = 7865, maxCount = 5},
+	{id = 8903, chance = 2247},
+	{id = 2144, chance = 1124}
 }
 
 mType:register(monster)

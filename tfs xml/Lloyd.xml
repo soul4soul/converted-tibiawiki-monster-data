@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Lloyd" nameDescription="" experience="50000" speed="0" manacost="0">
+<monster name="Lloyd" nameDescription="Lloyd" race="blood" experience="50000" speed="0" manacost="0">
 	<health now="64000" max="64000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,35 +32,57 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="50" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-1200" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="9970" name="small topaz" chance="100000" countmax="10" />
+		<item id="2148" name="gold coin" chance="100000" countmax="354" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="43" />
+		<item id="2214" name="ring of healing" chance="100000" />
+		<item id="7440" name="mastermind potion" chance="100000" />
 		<item id="8920" name="wand of starstorm" chance="100000" />
-		<item id="18413" name="blue crystal shard" chance="66667" countmax="3" />
-		<item name="collar of blue plasma" chance="66667" />
-		<item id="18415" name="green crystal shard" chance="66667" countmax="3" />
-		<item id="18414" name="violet crystal shard" chance="66667" countmax="3" />
-		<item id="5891" name="enchanted chicken wing" chance="33333" />
-		<item name="giant shimmering pearl" chance="33333" />
-		<item id="7590" name="great mana potion" chance="33333" countmax="5" />
-		<item id="8472" name="great spirit potion" chance="33333" countmax="5" />
-		<item id="2155" name="green gem" chance="33333" />
-		<item id="12410" name="luminous orb" chance="33333" />
-		<item id="7440" name="mastermind potion" chance="33333" />
-		<item id="2156" name="red gem" chance="33333" />
-		<item id="9809" name="rusted armor" chance="33333" />
-		<item id="5909" name="white piece of cloth" chance="33333" countmax="3" />
+		<item id="8472" name="great spirit potion" chance="61765" countmax="12" />
+		<item id="18414" name="violet crystal shard" chance="61765" countmax="5" />
+		<item id="18413" name="blue crystal shard" chance="58824" countmax="5" />
+		<item id="8473" name="ultimate health potion" chance="55882" countmax="10" />
+		<item id="18415" name="green crystal shard" chance="52941" countmax="5" />
+		<item name="collar of blue plasma" chance="47059" />
+		<item id="7590" name="great mana potion" chance="44118" countmax="14" />
+		<item id="2150" name="small amethyst" chance="32353" countmax="16" />
+		<item id="2158" name="blue gem" chance="32353" />
+		<item id="25172" name="silver token" chance="29412" countmax="2" />
+		<item id="9809" name="rusted armor" chance="29412" />
+		<item id="12410" name="luminous orb" chance="29412" />
+		<item id="2156" name="red gem" chance="29412" />
+		<item id="2149" name="small emerald" chance="26471" countmax="17" />
+		<item id="2154" name="yellow gem" chance="23529" />
+		<item id="5888" name="piece of hell steel" chance="23529" countmax="3" />
+		<item id="25377" name="gold token" chance="20588" />
+		<item id="2145" name="small diamond" chance="20588" countmax="19" />
+		<item id="2195" name="boots of haste" chance="20000" />
+		<item id="5891" name="enchanted chicken wing" chance="20000" />
+		<item id="8900" name="spellbook of enlightenment" chance="20000" />
+		<item id="5887" name="piece of royal steel" chance="20000" countmax="2" />
+		<item id="2147" name="small ruby" chance="14706" countmax="19" />
+		<item id="8901" name="spellbook of warding" chance="11765" />
+		<item id="5909" name="white piece of cloth" chance="11765" countmax="5" />
+		<item id="2155" name="green gem" chance="8824" />
+		<item id="9970" name="small topaz" chance="5882" countmax="13" />
+		<item id="27049" name="pillow backpack" chance="5882" />
+		<item id="7895" name="lightning legs" chance="5882" />
+		<item id="5904" name="magic sulphur" chance="5882" />
+		<item id="2493" name="demon helmet" chance="2941" />
+		<item id="11355" name="spellweaver's robe" chance="2941" />
+		<item id="7424" name="lunar staff" chance="2941" />
+		<item id="25383" name="rift lance" chance="2941" />
+		<item name="giant shimmering pearl" chance="2941" />
+		<item id="27615" name="part of a rune (six)" chance="2941" />
+		<item id="2153" name="violet gem" chance="2941" />
 	</loot>
 </monster>

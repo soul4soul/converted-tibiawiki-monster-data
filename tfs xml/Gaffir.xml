@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Gaffir" nameDescription="" experience="25000" speed="0" manacost="0">
+<monster name="Gaffir" nameDescription="Gaffir" race="blood" experience="25000" speed="0" manacost="0">
 	<health now="48500" max="48500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,10 +29,10 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="20" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -40,16 +40,26 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
-	</attacks>
 	<defenses armor="10" defense="5" />
+	<summons maxSummons="1">
+		<voice name="Black Cobra" interval="2000" chance="15" max="1" />
+	</summons>
 	<loot>
-		<item id="9970" name="small topaz" chance="20163" />
-		<item id="2146" name="small sapphire" chance="19619" />
-		<item id="2145" name="small diamond" chance="17439" />
-		<item id="2149" name="small emerald" chance="14714" />
-		<item id="2147" name="small ruby" chance="14169" />
-		<item id="2150" name="small amethyst" chance="13896" />
+		<item id="2150" name="small amethyst" chance="27273" />
+		<item id="2145" name="small diamond" chance="24242" />
+		<item id="2181" name="terra rod" chance="20000" />
+		<item id="8912" name="springsprout rod" chance="20000" />
+		<item id="2152" name="platinum coin" chance="20000" countmax="17" />
+		<item id="8472" name="great spirit potion" chance="20000" />
+		<item id="8901" name="spellbook of warding" chance="20000" />
+		<item id="2214" name="ring of healing" chance="20000" />
+		<item id="2173" name="amulet of loss" chance="20000" />
+		<item id="34334" name="cobra crest" chance="20000" />
+		<item id="33055" name="cobra wand" chance="20000" />
+		<item id="33056" name="cobra rod" chance="20000" />
+		<item id="2147" name="small ruby" chance="15152" />
+		<item id="2146" name="small sapphire" chance="12121" />
+		<item id="9970" name="small topaz" chance="12121" />
+		<item id="2149" name="small emerald" chance="9091" />
 	</loot>
 </monster>

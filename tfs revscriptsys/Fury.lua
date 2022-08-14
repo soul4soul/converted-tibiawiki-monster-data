@@ -69,23 +69,25 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 30},
+	{type = COMBAT_HOLYDAMAGE , percent = 30},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -509},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = 0, maxDamage = -250, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_THROWINGSTAR, effect = CONST_ME_MORTAREA},
+	{name ="speed", interval = 2000, chance = 15, speed = {min = -400, max = -400}, duration = 20000, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_THROWINGSTAR, effect = CONST_ME_MORTAREA},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = 0, maxDamage = -300, radius = 3, target = , effect = CONST_ME_HITAREA},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -300, length = 8, spread = 3, effect = CONST_ME_EXPLOSIONAREA},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = 0, maxDamage = -700, length = 8, spread = 0, effect = CONST_ME_DRAWBLOOD},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = 0, maxDamage = -700, length = 9, spread = 0, effect = CONST_ME_DRAWBLOOD},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = 0, maxDamage = -300, radius = 4, target = false, effect = CONST_ME_DRAWBLOOD}
 }
 
@@ -96,25 +98,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 98743, maxCount = 264},
-	{id = 6558, chance = 34110},
-	{id = 8844, chance = 31106, maxCount = 4},
-	{id = 6500, chance = 22893},
-	{id = 2181, chance = 20625},
-	{id = 5944, chance = 20012},
-	{id = 7591, chance = 11033},
-	{id = 9813, chance = 10175},
-	{id = 2150, chance = 8060, maxCount = 3},
-	{id = 5911, chance = 4229},
-	{id = 2152, chance = 2329, maxCount = 4},
-	{id = 7456, chance = 1594},
+	{id = 2148, chance = 98797, maxCount = 269},
+	{id = 6558, chance = 34176, maxCount = 3},
+	{id = 8844, chance = 29981, maxCount = 4},
+	{id = 6500, chance = 22400},
+	{id = 2181, chance = 20578},
+	{id = 5944, chance = 19220},
+	{id = 7591, chance = 10641},
+	{id = 9813, chance = 10005},
+	{id = 2150, chance = 7959, maxCount = 3},
+	{id = 5911, chance = 4057},
+	{id = 2152, chance = 2424, maxCount = 4},
+	{id = 7456, chance = 1771},
 	{id = 5022, chance = 1410, maxCount = 4},
-	{id = 7404, chance = 981},
-	{id = 2645, chance = 368},
-	{id = 2124, chance = 337},
-	{id = 7368, chance = 153},
-	{id = 6300, chance = 61},
-	{id = 2470, chance = 31}
+	{id = 7404, chance = 894},
+	{id = 2645, chance = 584},
+	{id = 2124, chance = 447},
+	{id = 7368, chance = 189},
+	{id = 6300, chance = 52},
+	{id = 2470, chance = 34}
 }
 
 mType:register(monster)

@@ -5,12 +5,12 @@ monster.name = "Bashmu"
 monster.description = "a bashmu"
 monster.experience = 5000
 monster.outfit = {
-	lookType = 0,
+	lookType = 1408,
 	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookBody = 50,
+	lookLegs = 42,
+	lookFeet = 79,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -65,19 +65,20 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
+	{type = COMBAT_ENERGYDAMAGE, percent = 5},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = -5},
+	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -600}
 }
 
 monster.defenses = {
@@ -86,25 +87,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 69350, maxCount = 19},
-	{id = 2427, chance = 9158},
-	{id = 39479, chance = 5318},
-	{id = 39477, chance = 4948},
-	{id = 10219, chance = 4284},
-	{id = 8472, chance = 3840},
-	{id = 18415, chance = 3471},
-	{id = 18413, chance = 2954},
-	{id = 2145, chance = 2954},
-	{id = 2153, chance = 2733},
-	{id = 39476, chance = 2068},
-	{id = 28393, chance = 1773},
-	{id = 7887, chance = 1773},
-	{id = 7888, chance = 960},
-	{id = 7454, chance = 812},
-	{id = 26200, chance = 665},
-	{id = 7407, chance = 591},
-	{id = 7890, chance = 517},
-	{id = "collar of blue plasma", chance = 443}
+	{id = 2152, chance = 69822, maxCount = 19},
+	{id = 2427, chance = 9068},
+	{id = 39479, chance = 5600},
+	{id = 10219, chance = 4658},
+	{id = 39477, chance = 4311},
+	{id = 8472, chance = 3816},
+	{id = 18415, chance = 3469},
+	{id = 2153, chance = 3221},
+	{id = 2145, chance = 3023},
+	{id = 18413, chance = 2725},
+	{id = 28393, chance = 2131},
+	{id = 39476, chance = 2032},
+	{id = 7887, chance = 1635},
+	{id = 7454, chance = 1041},
+	{id = 7888, chance = 892},
+	{id = 26200, chance = 743},
+	{id = 7890, chance = 644},
+	{id = "collar of blue plasma", chance = 644},
+	{id = 7407, chance = 545}
 }
 
 mType:register(monster)

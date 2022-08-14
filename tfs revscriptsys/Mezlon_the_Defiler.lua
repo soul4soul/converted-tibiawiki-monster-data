@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Mezlon the Defiler")
 local monster = {}
 
 monster.name = "Mezlon The Defiler"
-monster.description = ""
+monster.description = "Mezlon The Defiler"
 monster.experience = 50000
 monster.outfit = {
 	lookType = 0,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Grand Commander Soeren" nameDescription="" experience="10" speed="0" manacost="0">
-	<health now="17" max="17" />
+<monster name="Grand Commander Soeren" nameDescription="Grand Commander Soeren" race="blood" experience="12000" speed="0" manacost="0">
+	<health now="17000" max="17000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -29,40 +29,60 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="50" />
+		<element energyPercent="50" />
+		<element earthPercent="50" />
+		<element firePercent="50" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="50" />
+		<element holyPercent="-25" />
+		<element deathPercent="50" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-1200" />
+		<attack name="holy" interval="2000" chance="15" min="0" max="-900" radius="4" target="0">
+			<attribute key="areaEffect" value="holyarea" />
+		</attack>
+		<attack name="death" interval="2000" chance="15" min="0" max="-900" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="sniperarrow" />
+		</attack>
+		<attack name="energy" interval="2000" chance="15" min="0" max="-900" length="5" spread="0">
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="0" max="-900" radius="5" target="1">
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="0" max="-900" radius="3" target="1">
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="energy" interval="2000" chance="15" min="0" max="-1490" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="infernalbolt" />
+		</attack>
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="68209" countmax="5" />
-		<item id="7591" name="great health potion" chance="26861" countmax="3" />
-		<item id="7590" name="great mana potion" chance="26056" countmax="3" />
-		<item id="7762" name="small enchanted amethyst" chance="22535" />
-		<item id="7368" name="assassin star" chance="19115" countmax="10" />
-		<item id="9970" name="small topaz" chance="16901" countmax="2" />
-		<item id="2145" name="small diamond" chance="15594" countmax="2" />
-		<item id="2147" name="small ruby" chance="15392" countmax="2" />
-		<item id="2149" name="small emerald" chance="14688" countmax="2" />
-		<item id="2150" name="small amethyst" chance="14286" countmax="2" />
-		<item id="7365" name="onyx arrow" chance="12173" countmax="15" />
-		<item id="2156" name="red gem" chance="2515" />
-		<item name="giant shimmering pearl" chance="1509" />
-		<item id="31479" name="falcon crest" chance="1107" />
-		<item id="2155" name="green gem" chance="805" />
-		<item id="2153" name="violet gem" chance="704" />
-		<item id="31477" name="patch of fine cloth" chance="604" />
-		<item id="31478" name="damaged armor plates" chance="402" />
-		<item id="2466" name="golden armor" chance="101" />
+		<item id="7762" name="small enchanted amethyst" chance="100000" />
+		<item id="2155" name="green gem" chance="20000" />
+		<item id="31478" name="damaged armor plates" chance="20000" />
+		<item id="2466" name="golden armor" chance="20000" />
+		<item id="7365" name="onyx arrow" chance="20000" countmax="15" />
+		<item id="2145" name="small diamond" chance="20000" countmax="2" />
+		<item id="2150" name="small amethyst" chance="20000" countmax="2" />
+		<item id="2152" name="platinum coin" chance="20000" countmax="5" />
+		<item id="2149" name="small emerald" chance="20000" countmax="2" />
+		<item id="9970" name="small topaz" chance="20000" countmax="2" />
+		<item id="7368" name="assassin star" chance="20000" countmax="9" />
+		<item id="7591" name="great health potion" chance="20000" countmax="3" />
+		<item id="7590" name="great mana potion" chance="20000" countmax="3" />
+		<item id="2147" name="small ruby" chance="20000" countmax="2" />
+		<item id="31371" name="falcon coif" chance="4000" />
+		<item id="2514" name="mastermind shield" chance="4000" />
+		<item name="giant shimmering pearl" chance="2500" />
+		<item id="31479" name="falcon crest" chance="2500" />
+		<item id="2156" name="red gem" chance="2500" />
+		<item id="2153" name="violet gem" chance="2500" />
+		<item id="31477" name="patch of fine cloth" chance="1359" />
+		<item id="31374" name="falcon bow" chance="136" />
 	</loot>
 </monster>

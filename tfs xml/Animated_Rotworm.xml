@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Animated Rotworm" nameDescription="an animated rotworm" experience="40" speed="0" manacost="0">
+<monster name="Animated Rotworm" nameDescription="an animated rotworm" race="blood" experience="40" speed="0" manacost="0">
 	<health now="65" max="65" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -45,12 +45,12 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="71111" countmax="17" />
-		<item id="2666" name="meat" chance="23333" />
-		<item id="2671" name="ham" chance="20000" />
-		<item id="10609" name="lump of dirt" chance="11111" />
-		<item id="2398" name="mace" chance="3333" />
-		<item id="3976" name="worm" chance="3333" countmax="2" />
-		<item id="2376" name="sword" chance="1111" />
+		<item id="2148" name="gold coin" chance="70707" countmax="17" />
+		<item id="2666" name="meat" chance="22222" />
+		<item id="2671" name="ham" chance="19192" />
+		<item id="10609" name="lump of dirt" chance="13131" />
+		<item id="3976" name="worm" chance="4040" countmax="3" />
+		<item id="2398" name="mace" chance="3030" />
+		<item id="2376" name="sword" chance="2020" />
 	</loot>
 </monster>

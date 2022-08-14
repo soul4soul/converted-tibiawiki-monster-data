@@ -69,48 +69,53 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -5},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_HOLYDAMAGE , percent = 20},
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100, condition = {type = CONDITION_POISON, startDamage = 75, interval = }}
 }
 
 monster.defenses = {
 	defense = 40,
-	armor = 40,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 70, maxDamage = 175}
+	armor = 40
+}
+
+monster.maxSummons = 4
+monster.summons = {
+	{name = "Ghost", chance = 15, interval = 2000, max = 2},
+	{name = "Crypt Shambler", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
-	{id = 2148, chance = 64974, maxCount = 92},
-	{id = 10555, chance = 10211},
-	{id = 12411, chance = 1041},
-	{id = 2200, chance = 872},
-	{id = 7589, chance = 846},
-	{id = "book (orange)", chance = 819},
-	{id = 2146, chance = 560},
-	{id = 6090, chance = 555},
-	{id = 5810, chance = 418},
-	{id = 2167, chance = 407},
-	{id = 2436, chance = 349},
-	{id = 2171, chance = 201},
-	{id = 2187, chance = 153},
-	{id = 12608, chance = 143},
-	{id = 5801, chance = 127},
-	{id = 2114, chance = 111},
-	{id = 7426, chance = 100},
-	{id = 5669, chance = 90},
-	{id = 2656, chance = 85}
+	{id = 2148, chance = 65002, maxCount = 92},
+	{id = 10555, chance = 10257},
+	{id = 12411, chance = 1035},
+	{id = 2200, chance = 875},
+	{id = 7589, chance = 844},
+	{id = "book (orange)", chance = 807},
+	{id = 2146, chance = 549},
+	{id = 6090, chance = 549},
+	{id = 5810, chance = 419},
+	{id = 2167, chance = 409},
+	{id = 2436, chance = 357},
+	{id = 2171, chance = 202},
+	{id = 2187, chance = 155},
+	{id = 12608, chance = 140},
+	{id = 5801, chance = 124},
+	{id = 2114, chance = 109},
+	{id = 7426, chance = 98},
+	{id = 5669, chance = 88},
+	{id = 2656, chance = 83}
 }
 
 mType:register(monster)

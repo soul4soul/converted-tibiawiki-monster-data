@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Orger Treasure")
 local monster = {}
 
 monster.name = "Orger Treasure"
-monster.description = ""
+monster.description = "orger treasure"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -86,7 +86,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2153, chance = 100000}
+	{id = 2153, chance = 100000},
+	{id = 34733, chance = 20000},
+	{id = 34731, chance = 7500},
+	{id = 34730, chance = 7500}
 }
 
 mType:register(monster)

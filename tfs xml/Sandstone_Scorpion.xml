@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Sandstone Scorpion" nameDescription="a sandstone scorpion" experience="680" speed="220" manacost="0">
+<monster name="Sandstone Scorpion" nameDescription="a sandstone scorpion" race="undead" experience="680" speed="220" manacost="0">
 	<health now="900" max="900" />
 	<look type="398" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="90" />
+		<element firePercent="40" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="-10" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
-	</attacks>
 	<defenses armor="42" defense="42">
 		<defense name="healing" interval="2000" chance="20" min="90" max="225" />
 	</defenses>
@@ -52,12 +49,12 @@
 		<voice sentence="*tak tak tak*" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="92786" countmax="129" />
-		<item id="2152" name="platinum coin" chance="10939" countmax="2" />
-		<item id="2149" name="small emerald" chance="10034" countmax="2" />
-		<item id="2439" name="daramian mace" chance="5036" />
-		<item id="3351" name="steel helmet" chance="4687" />
-		<item id="2529" name="black shield" chance="1839" />
-		<item id="13535" name="fist on a stick" chance="198" />
+		<item id="2148" name="gold coin" chance="92816" countmax="129" />
+		<item id="2152" name="platinum coin" chance="10960" countmax="2" />
+		<item id="2149" name="small emerald" chance="10011" countmax="2" />
+		<item id="2439" name="daramian mace" chance="5034" />
+		<item id="3351" name="steel helmet" chance="4677" />
+		<item id="2529" name="black shield" chance="1841" />
+		<item id="13535" name="fist on a stick" chance="197" />
 	</loot>
 </monster>

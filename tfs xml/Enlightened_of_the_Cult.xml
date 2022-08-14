@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Enlightened Of The Cult" nameDescription="an enlightened of the cult" experience="500" speed="200" manacost="0">
+<monster name="Enlightened Of The Cult" nameDescription="an enlightened of the cult" race="blood" experience="500" speed="200" manacost="0">
 	<health now="700" max="700" />
 	<look type="193" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,48 +29,50 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="20" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-100" poison="75" />
 	</attacks>
-	<defenses armor="40" defense="40">
-		<defense name="healing" interval="2000" chance="20" min="70" max="175" />
-	</defenses>
+	<defenses armor="40" defense="40" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Praise to my master Urgith!" yell="false" />
 		<voice sentence="You will rise as my servant!" yell="false" />
 		<voice sentence="Praise to my masters! Long live the triangle!" yell="false" />
 		<voice sentence="You will die in the name of the triangle!" yell="false" />
 	</voices>
+	<summons maxSummons="4">
+		<voice name="Ghost" interval="2000" chance="15" max="2" />
+		<voice name="Crypt Shambler" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="64974" countmax="92" />
-		<item id="10555" name="cultish mask" chance="10211" />
-		<item id="12411" name="cultish symbol" chance="1041" />
-		<item id="2200" name="protection amulet" chance="872" />
-		<item id="7589" name="strong mana potion" chance="846" />
-		<item name="book (orange)" chance="819" />
-		<item id="2146" name="small sapphire" chance="560" />
-		<item id="6090" name="music sheet (fourth verse)" chance="555" />
-		<item id="5810" name="pirate voodoo doll" chance="418" />
-		<item id="2167" name="energy ring" chance="407" />
-		<item id="2436" name="skull staff" chance="349" />
-		<item id="2171" name="platinum amulet" chance="201" />
-		<item id="2187" name="wand of inferno" chance="153" />
-		<item id="12608" name="broken key ring" chance="143" />
-		<item id="5801" name="jewelled backpack" chance="127" />
-		<item id="2114" name="piggy bank" chance="111" />
-		<item id="7426" name="amber staff" chance="100" />
-		<item id="5669" name="mysterious voodoo skull" chance="90" />
-		<item id="2656" name="blue robe" chance="85" />
+		<item id="2148" name="gold coin" chance="65002" countmax="92" />
+		<item id="10555" name="cultish mask" chance="10257" />
+		<item id="12411" name="cultish symbol" chance="1035" />
+		<item id="2200" name="protection amulet" chance="875" />
+		<item id="7589" name="strong mana potion" chance="844" />
+		<item name="book (orange)" chance="807" />
+		<item id="2146" name="small sapphire" chance="549" />
+		<item id="6090" name="music sheet (fourth verse)" chance="549" />
+		<item id="5810" name="pirate voodoo doll" chance="419" />
+		<item id="2167" name="energy ring" chance="409" />
+		<item id="2436" name="skull staff" chance="357" />
+		<item id="2171" name="platinum amulet" chance="202" />
+		<item id="2187" name="wand of inferno" chance="155" />
+		<item id="12608" name="broken key ring" chance="140" />
+		<item id="5801" name="jewelled backpack" chance="124" />
+		<item id="2114" name="piggy bank" chance="109" />
+		<item id="7426" name="amber staff" chance="98" />
+		<item id="5669" name="mysterious voodoo skull" chance="88" />
+		<item id="2656" name="blue robe" chance="83" />
 	</loot>
 </monster>

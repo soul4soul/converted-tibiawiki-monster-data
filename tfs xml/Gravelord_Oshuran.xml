@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Gravelord Oshuran" nameDescription="" experience="2400" speed="0" manacost="0">
+<monster name="Gravelord Oshuran" nameDescription="Gravelord Oshuran" race="blood" experience="2400" speed="0" manacost="0">
 	<health now="3100" max="3100" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,32 +30,34 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="80" />
+		<element earthPercent="100" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="35" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-250" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="310" max="775" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="Your mortality is disgusting!" yell="false" />
 	</voices>
+	<summons maxSummons="4">
+		<voice name="Bonebeast" interval="2000" chance="15" max="4" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="87500" countmax="115" />
-		<item id="2214" name="ring of healing" chance="25000" />
-		<item id="2175" name="spellbook" chance="18750" />
-		<item id="8904" name="spellscroll of prophecies" chance="12500" />
-		<item id="2143" name="white pearl" chance="12500" />
-		<item id="2144" name="black pearl" chance="6250" />
-		<item id="2656" name="blue robe" chance="6250" />
+		<item id="2148" name="gold coin" chance="88235" countmax="115" />
+		<item id="2214" name="ring of healing" chance="23529" />
+		<item id="2175" name="spellbook" chance="23529" />
+		<item id="7589" name="strong mana potion" chance="20000" />
+		<item id="7893" name="lightning boots" chance="20000" />
+		<item id="2143" name="white pearl" chance="11765" />
+		<item id="8904" name="spellscroll of prophecies" chance="11765" />
+		<item id="2144" name="black pearl" chance="5882" />
+		<item id="2656" name="blue robe" chance="5882" />
 	</loot>
 </monster>

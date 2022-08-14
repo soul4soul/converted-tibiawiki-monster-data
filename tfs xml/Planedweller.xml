@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Planedweller" nameDescription="a planedweller" experience="0" speed="0" manacost="0">
+<monster name="Planedweller" nameDescription="a planedweller" race="blood" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,23 +29,19 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="50" />
+		<element energyPercent="50" />
+		<element earthPercent="95" />
+		<element firePercent="40" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="70" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="80" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
-	</attacks>
 	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="200" max="400" />
-		<defense name="speed" interval="2000" chance="15" minspeedchange="450" maxspeedchange="450" duration="4000">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 	</defenses>
@@ -55,13 +51,15 @@
 		<voice sentence="Who are you...? Show yourself!" yell="false" />
 	</voices>
 	<loot>
-		<item id="35962" name="onyx marble" chance="10938" />
-		<item id="35960" name="green marble" chance="7812" />
-		<item id="35961" name="red marble" chance="7812" />
-		<item id="35963" name="versicoloured marble" chance="7812" />
-		<item id="35959" name="blue marble" chance="6250" />
-		<item id="35965" name="golden marble" chance="3125" />
-		<item id="30263" name="withered pauldrons" chance="3125" />
-		<item id="35964" name="turquoise marble" chance="1562" />
+		<item id="35959" name="blue marble" chance="9677" />
+		<item id="35961" name="red marble" chance="9140" />
+		<item id="35960" name="green marble" chance="8065" />
+		<item id="35962" name="onyx marble" chance="7527" />
+		<item id="30263" name="withered pauldrons" chance="5376" />
+		<item id="35963" name="versicoloured marble" chance="4301" />
+		<item id="35964" name="turquoise marble" chance="2688" />
+		<item id="35965" name="golden marble" chance="2688" />
+		<item id="35967" name="psychedelic marble" chance="1075" />
+		<item id="35966" name="orange marble" chance="538" />
 	</loot>
 </monster>

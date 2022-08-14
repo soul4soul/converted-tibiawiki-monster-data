@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Distorted Phantom" nameDescription="a distorted phantom" experience="18870" speed="480" manacost="0">
+<monster name="Distorted Phantom" nameDescription="a distorted phantom" race="undead" experience="18870" speed="480" manacost="0">
 	<health now="26000" max="26000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1298" head="113" body="94" legs="132" feet="76" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -29,9 +29,9 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-10" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="50" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
@@ -47,18 +47,19 @@
 		<voice sentence="Too late... No turning back now." yell="false" />
 	</voices>
 	<loot>
-		<item id="2160" name="crystal coin" chance="79829" />
-		<item id="8472" name="great spirit potion" chance="25201" countmax="5" />
-		<item id="36798" name="distorted heart" chance="4955" />
-		<item id="9971" name="gold ingot" chance="4829" />
-		<item id="8910" name="underworld rod" chance="4603" />
-		<item id="8901" name="spellbook of warding" chance="3898" />
-		<item id="2153" name="violet gem" chance="3320" />
-		<item id="36805" name="distorted robe" chance="2817" />
-		<item id="8912" name="springsprout rod" chance="2817" />
-		<item name="ring of red plasma" chance="2641" />
-		<item name="ring of green plasma" chance="2540" />
-		<item id="18412" name="glacial rod" chance="2314" />
-		<item name="ring of blue plasma" chance="2062" />
+		<item id="2160" name="crystal coin" chance="59195" />
+		<item id="8472" name="great spirit potion" chance="18216" countmax="5" />
+		<item id="36765" name="bag you desire" chance="4000" />
+		<item id="8910" name="underworld rod" chance="3707" />
+		<item id="36798" name="distorted heart" chance="3244" />
+		<item id="8901" name="spellbook of warding" chance="3215" />
+		<item id="9971" name="gold ingot" chance="3186" />
+		<item id="2153" name="violet gem" chance="3041" />
+		<item id="8912" name="springsprout rod" chance="2722" />
+		<item name="ring of red plasma" chance="2404" />
+		<item id="36805" name="distorted robe" chance="2143" />
+		<item name="ring of blue plasma" chance="1911" />
+		<item id="18412" name="glacial rod" chance="1738" />
+		<item name="ring of green plasma" chance="1593" />
 	</loot>
 </monster>

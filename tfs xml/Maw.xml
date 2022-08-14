@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Maw" nameDescription="" experience="6500" speed="0" manacost="0">
+<monster name="Maw" nameDescription="" race="blood" experience="6500" speed="0" manacost="0">
 	<health now="8200" max="8200" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="1" />
@@ -29,41 +29,35 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="60" />
+		<element energyPercent="50" />
+		<element earthPercent="100" />
+		<element firePercent="50" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="50" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="40" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
-	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="5" max="15" />
-		<defense name="healing" interval="2000" chance="20" min="500" max="600" />
-	</defenses>
+	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Kropp!" yell="false" />
 	</voices>
 	<loot>
-		<item id="15486" name="compound eye" chance="100000" />
 		<item id="2148" name="gold coin" chance="100000" countmax="196" />
+		<item id="15486" name="compound eye" chance="100000" />
 		<item id="15480" name="kollos shell" chance="100000" />
-		<item id="2152" name="platinum coin" chance="88372" countmax="6" />
-		<item id="7590" name="great mana potion" chance="67442" countmax="2" />
-		<item id="16096" name="dung ball (quest)" chance="58140" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="32558" />
-		<item id="2147" name="small ruby" chance="30233" countmax="4" />
-		<item id="2144" name="black pearl" chance="27907" countmax="4" />
-		<item id="2156" name="red gem" chance="25581" />
-		<item id="15572" name="gooey mass" chance="18605" countmax="2" />
-		<item name="giant shimmering pearl" chance="11628" />
-		<item id="9971" name="gold ingot" chance="4651" />
-		<item id="15643" name="hive bow" chance="2326" />
+		<item id="2152" name="platinum coin" chance="86957" countmax="6" />
+		<item id="7590" name="great mana potion" chance="69565" countmax="2" />
+		<item id="16096" name="dung ball (quest)" chance="60870" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="30435" />
+		<item id="2147" name="small ruby" chance="30435" countmax="4" />
+		<item id="2144" name="black pearl" chance="26087" countmax="4" />
+		<item id="2156" name="red gem" chance="26087" />
+		<item id="15572" name="gooey mass" chance="19565" countmax="2" />
+		<item name="giant shimmering pearl" chance="10870" />
+		<item id="9971" name="gold ingot" chance="6522" />
+		<item id="15643" name="hive bow" chance="2174" />
 	</loot>
 </monster>

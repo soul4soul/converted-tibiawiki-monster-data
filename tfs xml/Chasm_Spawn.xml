@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Chasm Spawn" nameDescription="a chasm spawn" experience="2700" speed="230" manacost="0">
+<monster name="Chasm Spawn" nameDescription="a chasm spawn" race="blood" experience="2700" speed="230" manacost="0">
 	<health now="4500" max="4500" />
 	<look type="1037" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,7 +32,7 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -45,18 +45,18 @@
 	</attacks>
 	<defenses armor="74" defense="74" />
 	<loot>
-		<item id="30260" name="chasm spawn tail" chance="64359" />
-		<item id="30258" name="chasm spawn head" chance="33560" />
-		<item id="2791" name="wood mushroom" chance="28039" countmax="4" />
-		<item id="30259" name="chasm spawn abdomen" chance="26259" />
-		<item id="2789" name="brown mushroom" chance="19065" countmax="5" />
-		<item id="2790" name="orange mushroom" chance="15219" countmax="3" />
-		<item id="7761" name="small enchanted emerald" chance="10814" />
-		<item id="18413" name="blue crystal shard" chance="8311" />
-		<item id="7762" name="small enchanted amethyst" chance="7934" countmax="3" />
-		<item id="18415" name="green crystal shard" chance="7210" />
-		<item id="18414" name="violet crystal shard" chance="4842" />
-		<item id="30309" name="suspicious device" chance="1463" />
-		<item id="18393" name="mushroom backpack" chance="452" />
+		<item id="30260" name="chasm spawn tail" chance="64500" />
+		<item id="30258" name="chasm spawn head" chance="33647" />
+		<item id="2791" name="wood mushroom" chance="27944" countmax="4" />
+		<item id="30259" name="chasm spawn abdomen" chance="26162" />
+		<item id="2789" name="brown mushroom" chance="19319" countmax="5" />
+		<item id="2790" name="orange mushroom" chance="15198" countmax="3" />
+		<item id="7761" name="small enchanted emerald" chance="10935" />
+		<item id="18413" name="blue crystal shard" chance="8326" />
+		<item id="7762" name="small enchanted amethyst" chance="7998" countmax="3" />
+		<item id="18415" name="green crystal shard" chance="7186" />
+		<item id="18414" name="violet crystal shard" chance="4904" />
+		<item id="30309" name="suspicious device" chance="1454" />
+		<item id="18393" name="mushroom backpack" chance="456" />
 	</loot>
 </monster>

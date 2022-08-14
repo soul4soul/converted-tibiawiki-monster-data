@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Stampor" nameDescription="a stampor" experience="780" speed="440" manacost="0">
+<monster name="Stampor" nameDescription="a stampor" race="blood" experience="780" speed="440" manacost="0">
 	<health now="1200" max="1200" />
 	<look type="381" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,29 +30,24 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="30" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="50" />
+		<element deathPercent="10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-130" />
-	</attacks>
-	<defenses armor="60" defense="60">
-		<defense name="healing" interval="2000" chance="20" min="90" max="120" />
-	</defenses>
+	<defenses armor="60" defense="60" />
 	<voices interval="5000" chance="10">
 		<voice sentence="KRRRRRNG" yell="false" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="94575" countmax="242" />
 		<item id="2152" name="platinum coin" chance="10021" countmax="2" />
-		<item id="13300" name="stampor talons" chance="9810" />
+		<item id="13300" name="stampor talons" chance="9810" countmax="2" />
 		<item id="9970" name="small topaz" chance="7859" countmax="2" />
 		<item id="7589" name="strong mana potion" chance="5058" countmax="2" />
 		<item id="13299" name="stampor horn" chance="4958" />

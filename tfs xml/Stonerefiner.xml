@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Stonerefiner" nameDescription="a stonerefiner" experience="500" speed="220" manacost="0">
+<monster name="Stonerefiner" nameDescription="a stonerefiner" race="blood" experience="500" speed="220" manacost="0">
 	<health now="800" max="800" />
 	<look type="1032" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,32 +29,30 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-20" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="20" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-115" />
-	</attacks>
 	<defenses armor="20" defense="20" />
 	<voices interval="5000" chance="10">
 		<voice sentence="knak knak knak" yell="false" />
 		<voice sentence="nomnomnom" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="50783" countmax="4" />
-		<item id="29957" name="rare earth" chance="39831" />
-		<item id="13757" name="coal" chance="29832" />
-		<item id="9967" name="glob of acid slime" chance="24959" />
-		<item id="30262" name="stonerefiner's skull" chance="20115" />
-		<item id="10557" name="poisonous slime" chance="19463" />
-		<item id="20101" name="rat cheese" chance="10408" />
+		<item id="2152" name="platinum coin" chance="50816" countmax="4" />
+		<item id="29957" name="rare earth" chance="39833" />
+		<item id="13757" name="coal" chance="29841" />
+		<item id="9967" name="glob of acid slime" chance="24966" />
+		<item id="30262" name="stonerefiner's skull" chance="20111" />
+		<item id="10557" name="poisonous slime" chance="19460" countmax="3" />
+		<item id="30025" name="half-digested stones" chance="15000" countmax="5" />
+		<item id="20101" name="rat cheese" chance="10410" />
 	</loot>
 </monster>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Robby the Reckless")
 local monster = {}
 
 monster.name = "Robby The Reckless"
-monster.description = ""
+monster.description = "Robby the Reckless"
 monster.experience = 110
 monster.outfit = {
 	lookType = 0,
@@ -86,8 +86,8 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 14903, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 100}
+	{id = 2152, chance = 100000, maxCount = 100},
+	{id = 14903, chance = 100000}
 }
 
 mType:register(monster)

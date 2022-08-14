@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Emerald Tortoise" nameDescription="an emerald tortoise" race="blood" experience="12129" speed="358" manacost="0">
+	<health now="21040" max="21040" />
+	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<targetchange interval="2000" chance="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag isboss="0" />
+		<flag ignorespawnblock="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag healthhidden="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity outfit="0" />
+		<immunity invisible="1" />
+		<immunity drunk="1" />
+		<immunity bleed="0" />
+	</immunities>
+	<elements>
+		<element physicalPercent="20" />
+		<element energyPercent="10" />
+		<element earthPercent="10" />
+		<element firePercent="10" />
+		<element lifedrainPercent="0" />
+		<element manadrainPercent="0" />
+		<element drownPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="10" />
+		<element deathPercent="0" />
+	</elements>
+	<defenses armor="97" defense="97" />
+	<voices interval="5000" chance="10">
+		<voice sentence="Shllpp..." yell="false" />
+	</voices>
+	<loot>
+		<item id="39379" name="emerald tortoise shell" chance="27098" />
+		<item id="2160" name="crystal coin" chance="14510" countmax="3" />
+		<item id="8472" name="great spirit potion" chance="12063" countmax="2" />
+		<item id="2154" name="yellow gem" chance="4196" />
+		<item id="2153" name="violet gem" chance="3846" />
+		<item id="2156" name="red gem" chance="3846" />
+		<item id="2143" name="white pearl" chance="3671" />
+		<item id="18420" name="red crystal fragment" chance="3147" />
+		<item id="18421" name="green crystal fragment" chance="2797" />
+		<item id="5022" name="orichalcum pearl" chance="2797" countmax="2" />
+		<item id="2144" name="black pearl" chance="2448" countmax="2" />
+		<item id="18413" name="blue crystal shard" chance="2448" />
+		<item id="2155" name="green gem" chance="2273" />
+		<item id="18415" name="green crystal shard" chance="2098" />
+		<item name="giant shimmering pearl" chance="2098" />
+	</loot>
+</monster>

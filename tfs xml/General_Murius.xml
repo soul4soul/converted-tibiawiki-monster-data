@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="General Murius" nameDescription="" experience="450" speed="0" manacost="0">
+<monster name="General Murius" nameDescription="General Murius" race="blood" experience="450" speed="0" manacost="0">
 	<health now="550" max="550" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,9 +40,6 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-170" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
@@ -55,6 +52,10 @@
 		<voice sentence="For the king!" yell="false" />
 		<voice sentence="Guards!" yell="false" />
 	</voices>
+	<summons maxSummons="0">
+		<voice name="Minotaur Guard" interval="2000" chance="15" />
+		<voice name="Minotaur Archer" interval="2000" chance="15" />
+	</summons>
 	<loot>
 		<item id="12428" name="minotaur horn" chance="100000" countmax="2" />
 		<item id="5878" name="minotaur leather" chance="100000" />
@@ -62,13 +63,17 @@
 		<item id="2152" name="platinum coin" chance="93333" countmax="3" />
 		<item id="2387" name="double axe" chance="80000" />
 		<item id="2465" name="brass armor" chance="66667" />
-		<item id="2513" name="battle shield" chance="33333" />
 		<item id="7363" name="piercing bolt" chance="33333" countmax="11" />
+		<item id="2513" name="battle shield" chance="33333" />
 		<item id="2666" name="meat" chance="26667" />
-		<item id="2648" name="chain legs" chance="20000" />
-		<item id="7401" name="minotaur trophy" chance="20000" />
 		<item id="2547" name="power bolt" chance="20000" countmax="7" />
-		<item id="2580" name="fishing rod" chance="6667" />
+		<item id="7401" name="minotaur trophy" chance="20000" />
+		<item id="2648" name="chain legs" chance="20000" />
+		<item id="2464" name="chain armor" chance="20000" />
+		<item id="2189" name="wand of cosmic energy" chance="20000" />
+		<item id="2509" name="steel shield" chance="20000" />
+		<item id="2483" name="scale armor" chance="20000" />
 		<item id="7588" name="strong health potion" chance="6667" />
+		<item id="2580" name="fishing rod" chance="6667" />
 	</loot>
 </monster>

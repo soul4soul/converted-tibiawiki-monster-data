@@ -68,20 +68,20 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_HOLYDAMAGE , percent = 20},
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100, condition = {type = CONDITION_POISON, startDamage = 34, interval = }}
 }
 
 monster.defenses = {
@@ -90,20 +90,25 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 50}
 }
 
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Skeleton", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
 	{id = 2148, chance = 65946, maxCount = 40},
-	{id = 12448, chance = 10249},
+	{id = 12448, chance = 10237},
 	{id = 10556, chance = 8025},
-	{id = 2394, chance = 4905},
-	{id = 5810, chance = 1097},
-	{id = 2201, chance = 1068},
-	{id = "book (orange)", chance = 788},
-	{id = 2168, chance = 539},
-	{id = 2149, chance = 515},
-	{id = 6088, chance = 449},
+	{id = 2394, chance = 4953},
+	{id = 5810, chance = 1088},
+	{id = 2201, chance = 1079},
+	{id = "book (orange)", chance = 783},
+	{id = 2168, chance = 538},
+	{id = 2149, chance = 518},
+	{id = 6088, chance = 444},
 	{id = 2181, chance = 203},
-	{id = 12411, chance = 73},
-	{id = 12608, chance = 57}
+	{id = 12411, chance = 71},
+	{id = 12608, chance = 55}
 }
 
 mType:register(monster)

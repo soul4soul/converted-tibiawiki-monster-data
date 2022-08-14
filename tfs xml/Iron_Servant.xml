@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Iron Servant" nameDescription="an iron servant" experience="210" speed="190" manacost="0">
+<monster name="Iron Servant" nameDescription="an iron servant" race="undead" experience="210" speed="190" manacost="0">
 	<health now="350" max="350" />
 	<look type="395" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,30 +30,27 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="25" />
+		<element earthPercent="-10" />
+		<element firePercent="25" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="20" />
+		<element deathPercent="-10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-45" />
-	</attacks>
 	<defenses armor="17" defense="17" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Error. LOAD 'PROGRAM',8,1" yell="false" />
 		<voice sentence="Remain. Obedient." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82114" countmax="55" />
-		<item id="9690" name="gear wheel" chance="4811" />
-		<item id="7618" name="health potion" chance="1957" />
-		<item id="2381" name="halberd" chance="1015" />
-		<item id="9808" name="heavily rusted armor" chance="506" />
-		<item id="13758" name="slime mould" chance="312" />
+		<item id="2148" name="gold coin" chance="82107" countmax="55" />
+		<item id="9690" name="gear wheel" chance="4842" />
+		<item id="7618" name="health potion" chance="1968" />
+		<item id="2381" name="halberd" chance="1014" />
+		<item id="9808" name="heavily rusted armor" chance="502" />
+		<item id="13758" name="slime mould" chance="313" />
 	</loot>
 </monster>

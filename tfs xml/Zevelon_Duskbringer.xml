@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Zevelon Duskbringer" nameDescription="" experience="1800" speed="0" manacost="0">
+<monster name="Zevelon Duskbringer" nameDescription="Zevelon Duskbringer" race="blood" experience="1800" speed="0" manacost="0">
 	<health now="1400" max="1400" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,22 +29,19 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="50" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-5" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
-	</attacks>
 	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="60" max="70" />
+		<defense name="outfit" interval="2000" chance="15" monster="Bat" duration="5000" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="I want Your Blood" yell="false" />
@@ -58,12 +55,12 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="9020" name="vampire lord token" chance="100000" />
-		<item id="7588" name="strong health potion" chance="15625" />
-		<item id="2534" name="vampire shield" chance="10417" />
-		<item id="2229" name="skull (item)" chance="6250" />
-		<item id="2152" name="platinum coin" chance="5208" countmax="5" />
-		<item id="2214" name="ring of healing" chance="4167" />
-		<item id="7419" name="dreaded cleaver" chance="3125" />
-		<item id="2144" name="black pearl" chance="1042" />
+		<item id="7588" name="strong health potion" chance="15652" />
+		<item id="2534" name="vampire shield" chance="10435" />
+		<item id="2229" name="skull (item)" chance="6087" />
+		<item id="2152" name="platinum coin" chance="4348" countmax="5" />
+		<item id="2214" name="ring of healing" chance="4348" />
+		<item id="7419" name="dreaded cleaver" chance="2609" />
+		<item id="2144" name="black pearl" chance="870" />
 	</loot>
 </monster>

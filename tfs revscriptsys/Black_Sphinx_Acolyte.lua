@@ -70,18 +70,19 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 10},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -30},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -300, maxDamage = -482, radius = 3, target = , effect = CONST_ME_SMALLPLANTS},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = -391, maxDamage = -450, radius = 3, target = true, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA}
 }
 
 monster.defenses = {
@@ -89,16 +90,21 @@ monster.defenses = {
 	armor = 82
 }
 
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Skeleton Elite Warrior", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 7},
-	{id = 2182, chance = 7184},
-	{id = 8910, chance = 6742},
-	{id = 18413, chance = 6333},
-	{id = 24850, chance = 3303, maxCount = 2},
-	{id = 2153, chance = 3235},
-	{id = 8922, chance = 2417},
-	{id = 33987, chance = 2315},
-	{id = 7761, chance = 2179, maxCount = 3}
+	{id = 2182, chance = 7049},
+	{id = 8910, chance = 6469},
+	{id = 18413, chance = 6286},
+	{id = 2153, chance = 3143},
+	{id = 24850, chance = 3143, maxCount = 2},
+	{id = 33987, chance = 2472},
+	{id = 8922, chance = 2472},
+	{id = 7761, chance = 2289, maxCount = 3}
 }
 
 mType:register(monster)

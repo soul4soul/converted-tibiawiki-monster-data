@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Dwarf" nameDescription="a memory of a dwarf" experience="0" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Dwarf" nameDescription="a memory of a dwarf" race="blood" experience="1460" speed="0" manacost="0">
+	<health now="3730" max="3730" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -53,7 +53,7 @@
 		<item id="2387" name="double axe" chance="3093" />
 		<item id="2214" name="ring of healing" chance="2577" />
 		<item id="2208" name="axe ring" chance="1546" />
-		<item id="7891" name="magma boots" chance="1546" />
 		<item id="3351" name="steel helmet" chance="1546" />
+		<item id="7891" name="magma boots" chance="1546" />
 	</loot>
 </monster>

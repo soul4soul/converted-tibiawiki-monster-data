@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Bloodtusk")
 local monster = {}
 
 monster.name = "The Bloodtusk"
-monster.description = ""
+monster.description = "The Bloodtusk"
 monster.experience = 300
 monster.outfit = {
 	lookType = 0,
@@ -67,12 +67,12 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 15},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -88,13 +88,13 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 11238, chance = 100000, maxCount = 2},
 	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 3973, chance = 62500},
-	{id = 7432, chance = 58750},
-	{id = 5911, chance = 56250},
-	{id = 3956, chance = 43750, maxCount = 4},
-	{id = 7463, chance = 22500}
+	{id = 11238, chance = 100000, maxCount = 2},
+	{id = 3973, chance = 63415},
+	{id = 7432, chance = 59756},
+	{id = 5911, chance = 57317},
+	{id = 3956, chance = 42683, maxCount = 4},
+	{id = 7463, chance = 21951}
 }
 
 mType:register(monster)

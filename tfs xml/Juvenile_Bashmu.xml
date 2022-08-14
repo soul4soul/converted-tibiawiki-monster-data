@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Juvenile Bashmu" nameDescription="a juvenile bashmu" experience="4500" speed="390" manacost="0">
+<monster name="Juvenile Bashmu" nameDescription="a juvenile bashmu" race="blood" experience="4500" speed="390" manacost="0">
 	<health now="7500" max="7500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1408" head="0" body="50" legs="42" feet="79" addons="3" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -30,46 +30,43 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="5" />
+		<element earthPercent="5" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="-20" />
+		<element deathPercent="5" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
-	</attacks>
 	<defenses armor="75" defense="75" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="73089" countmax="19" />
-		<item id="8472" name="great spirit potion" chance="14703" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="10297" countmax="4" />
-		<item id="18413" name="blue crystal shard" chance="6157" />
-		<item id="39477" name="bashmu tongue" chance="5839" />
-		<item id="39479" name="bashmu feather" chance="4618" />
-		<item id="18415" name="green crystal shard" chance="3662" />
-		<item id="18419" name="cyan crystal fragment" chance="3344" />
-		<item id="2156" name="red gem" chance="2389" />
-		<item id="2153" name="violet gem" chance="2335" />
-		<item id="7895" name="lightning legs" chance="2229" />
-		<item id="7387" name="diamond sceptre" chance="2176" />
-		<item id="7889" name="lightning pendant" chance="2176" />
-		<item id="39476" name="bashmu fang" chance="2123" />
-		<item id="2154" name="yellow gem" chance="2070" />
-		<item id="2391" name="war hammer" chance="1539" />
-		<item id="18414" name="violet crystal shard" chance="1486" />
-		<item id="7430" name="dragonbone staff" chance="1433" />
-		<item id="7426" name="amber staff" chance="1274" />
-		<item id="7893" name="lightning boots" chance="1274" />
-		<item id="2155" name="green gem" chance="1221" />
-		<item id="11355" name="spellweaver's robe" chance="1115" />
-		<item id="20108" name="pair of iron fists" chance="1008" />
-		<item id="2436" name="skull staff" chance="955" />
-		<item id="2445" name="crystal mace" chance="796" />
-		<item id="7427" name="chaos mace" chance="531" />
+		<item id="2152" name="platinum coin" chance="73129" countmax="19" />
+		<item id="8472" name="great spirit potion" chance="14018" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="10629" countmax="4" />
+		<item id="18413" name="blue crystal shard" chance="6038" />
+		<item id="39477" name="bashmu tongue" chance="5650" />
+		<item id="39479" name="bashmu feather" chance="4061" />
+		<item id="18415" name="green crystal shard" chance="3814" />
+		<item id="18419" name="cyan crystal fragment" chance="3213" />
+		<item id="7889" name="lightning pendant" chance="2366" />
+		<item id="2156" name="red gem" chance="2225" />
+		<item id="2154" name="yellow gem" chance="2189" />
+		<item id="2153" name="violet gem" chance="2119" />
+		<item id="7387" name="diamond sceptre" chance="2119" />
+		<item id="7895" name="lightning legs" chance="2083" />
+		<item id="39476" name="bashmu fang" chance="1836" />
+		<item id="18414" name="violet crystal shard" chance="1660" />
+		<item id="2391" name="war hammer" chance="1624" />
+		<item id="7430" name="dragonbone staff" chance="1483" />
+		<item id="7893" name="lightning boots" chance="1377" />
+		<item id="2155" name="green gem" chance="1342" />
+		<item id="7426" name="amber staff" chance="1130" />
+		<item id="20108" name="pair of iron fists" chance="1024" />
+		<item id="11355" name="spellweaver's robe" chance="989" />
+		<item id="2436" name="skull staff" chance="883" />
+		<item id="2445" name="crystal mace" chance="812" />
+		<item id="7427" name="chaos mace" chance="671" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Chakoya Windcaller" nameDescription="a chakoya windcaller" experience="48" speed="142" manacost="0">
+<monster name="Chakoya Windcaller" nameDescription="a chakoya windcaller" race="blood" experience="48" speed="142" manacost="305">
 	<health now="84" max="84" />
 	<look type="260" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="-15" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="50" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="20" />
+		<element deathPercent="-8" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-22" />
-	</attacks>
 	<defenses armor="7" defense="7" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Siqsiq ji jusipa!" yell="false" />
@@ -51,13 +48,13 @@
 		<voice sentence="Quatu nguraka!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="71992" countmax="27" />
-		<item id="2667" name="fish" chance="29783" countmax="3" />
-		<item id="2460" name="brass helmet" chance="4590" />
-		<item id="2541" name="bone shield" chance="1040" />
-		<item id="22727" name="fireproof horn" chance="448" />
-		<item id="7159" name="green perch" chance="90" />
-		<item id="2669" name="northern pike" chance="54" />
-		<item id="7158" name="rainbow trout" chance="36" />
+		<item id="2148" name="gold coin" chance="72051" countmax="27" />
+		<item id="2667" name="fish" chance="29729" countmax="3" />
+		<item id="2460" name="brass helmet" chance="4525" />
+		<item id="2541" name="bone shield" chance="1017" />
+		<item id="22727" name="fireproof horn" chance="441" />
+		<item id="7159" name="green perch" chance="119" />
+		<item id="2669" name="northern pike" chance="51" />
+		<item id="7158" name="rainbow trout" chance="34" />
 	</loot>
 </monster>

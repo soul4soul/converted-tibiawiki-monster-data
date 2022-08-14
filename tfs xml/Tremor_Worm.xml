@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Tremor Worm" nameDescription="a tremor worm" experience="80000" speed="0" manacost="0">
+<monster name="Tremor Worm" nameDescription="a tremor worm" race="blood" experience="80000" speed="0" manacost="0">
 	<health now="125000" max="125000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,41 +29,42 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="75" />
+		<element energyPercent="75" />
+		<element earthPercent="75" />
+		<element firePercent="75" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="75" />
+		<element holyPercent="75" />
+		<element deathPercent="75" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="23574" name="glooth bag" chance="100000" countmax="3" />
-		<item id="7591" name="great health potion" chance="100000" countmax="15" />
+		<item id="7591" name="great health potion" chance="100000" countmax="17" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="33" />
+		<item id="18420" name="red crystal fragment" chance="100000" />
+		<item id="18419" name="cyan crystal fragment" chance="100000" />
+		<item id="18421" name="green crystal fragment" chance="100000" />
 		<item id="7590" name="great mana potion" chance="100000" countmax="15" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="25" />
-		<item id="8473" name="ultimate health potion" chance="100000" countmax="10" />
-		<item id="2148" name="gold coin" chance="70000" countmax="100" />
-		<item id="18420" name="red crystal fragment" chance="50000" />
-		<item id="18419" name="cyan crystal fragment" chance="30000" />
-		<item id="2145" name="small diamond" chance="30000" countmax="5" />
-		<item id="2169" name="time ring" chance="30000" />
+		<item id="8473" name="ultimate health potion" chance="100000" countmax="16" />
+		<item id="24271" name="glooth glider crank" chance="20000" />
+		<item id="2147" name="small ruby" chance="20000" />
+		<item id="2154" name="yellow gem" chance="20000" />
+		<item id="23574" name="glooth bag" chance="20000" countmax="3" />
+		<item id="2169" name="time ring" chance="20000" />
+		<item id="8910" name="underworld rod" chance="20000" />
+		<item id="2148" name="gold coin" chance="20000" countmax="100" />
 		<item id="23535" name="glooth cape" chance="20000" />
 		<item id="8472" name="great spirit potion" chance="20000" />
-		<item id="18421" name="green crystal fragment" chance="20000" />
-		<item id="18415" name="green crystal shard" chance="20000" countmax="2" />
-		<item id="2214" name="ring of healing" chance="20000" />
+		<item id="2145" name="small diamond" chance="20000" countmax="5" />
 		<item id="18414" name="violet crystal shard" chance="20000" countmax="2" />
-		<item id="24271" name="glooth glider crank" chance="10000" />
-		<item id="2156" name="red gem" chance="10000" />
-		<item id="2147" name="small ruby" chance="10000" />
-		<item id="2154" name="yellow gem" chance="10000" />
+		<item id="18415" name="green crystal shard" chance="20000" />
+		<item id="2214" name="ring of healing" chance="20000" />
+		<item id="2156" name="red gem" chance="20000" />
 	</loot>
 </monster>

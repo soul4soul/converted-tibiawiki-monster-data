@@ -5,12 +5,12 @@ monster.name = "Tremendous Tyrant"
 monster.description = "a tremendous tyrant"
 monster.experience = 6100
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookType = 1396,
+	lookHead = 60,
+	lookBody = 84,
+	lookLegs = 40,
+	lookFeet = 94,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 3,
+	color = 106
 }
 
 monster.voices = {
@@ -66,13 +66,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = -20},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 15},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -86,27 +86,27 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 24},
-	{id = 9971, chance = 10446},
-	{id = 2156, chance = 7935},
-	{id = 18414, chance = 7507},
-	{id = 18415, chance = 6813},
-	{id = 18413, chance = 5744},
-	{id = 39440, chance = 4889},
-	{id = 8901, chance = 4061},
-	{id = 2154, chance = 4061},
-	{id = 8920, chance = 3981},
-	{id = 2396, chance = 3527},
-	{id = 2183, chance = 3366},
-	{id = 2430, chance = 3233},
-	{id = 39439, chance = 3099},
-	{id = 7430, chance = 3046},
-	{id = 7895, chance = 3019},
-	{id = 2189, chance = 2645},
-	{id = 15453, chance = 2244},
-	{id = 2198, chance = 1977},
-	{id = 7897, chance = 1950},
-	{id = 8871, chance = 1897}
+	{id = 2152, chance = 100000, maxCount = 28},
+	{id = 9971, chance = 14710},
+	{id = 2156, chance = 10401},
+	{id = 18415, chance = 7578},
+	{id = 18414, chance = 6686},
+	{id = 2154, chance = 6538},
+	{id = 8901, chance = 6389},
+	{id = 18413, chance = 6092},
+	{id = 39440, chance = 5795},
+	{id = 2396, chance = 4309},
+	{id = 2430, chance = 3863},
+	{id = 39439, chance = 3715},
+	{id = 2189, chance = 3269},
+	{id = 7430, chance = 3120},
+	{id = 7895, chance = 3120},
+	{id = 15453, chance = 2972},
+	{id = 8871, chance = 2972},
+	{id = 2198, chance = 2675},
+	{id = 8920, chance = 2675},
+	{id = 2183, chance = 2377},
+	{id = 7897, chance = 2080}
 }
 
 mType:register(monster)

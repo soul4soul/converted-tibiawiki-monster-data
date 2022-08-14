@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 30},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = 20},
+	{type = COMBAT_DEATHDAMAGE , percent = -1}
 }
 
 monster.attacks = {
@@ -89,17 +89,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 98},
-	{id = 2152, chance = 100000, maxCount = 6},
 	{id = 11227, chance = 100000},
-	{id = 2150, chance = 73077, maxCount = 2},
-	{id = 2509, chance = 65385},
-	{id = 11232, chance = 65385},
-	{id = 2156, chance = 57692},
-	{id = 2166, chance = 42308},
-	{id = 2645, chance = 11538},
-	{id = 2124, chance = 3846},
-	{id = 1294, chance = 3846, maxCount = 3}
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 2152, chance = 100000, maxCount = 6},
+	{id = 2150, chance = 68966, maxCount = 2},
+	{id = 2509, chance = 68966},
+	{id = 11232, chance = 65517},
+	{id = 2156, chance = 55172},
+	{id = 2166, chance = 48276},
+	{id = 5880, chance = 20000},
+	{id = 2483, chance = 20000},
+	{id = 2395, chance = 20000},
+	{id = 2645, chance = 10345},
+	{id = 1294, chance = 3448, maxCount = 20},
+	{id = 2124, chance = 3448}
 }
 
 mType:register(monster)

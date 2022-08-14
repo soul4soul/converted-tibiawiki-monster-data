@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Earth Overlord" nameDescription="an Earth Overlord" experience="2800" speed="0" manacost="0">
+<monster name="Earth Overlord" nameDescription="an Earth Overlord" race="blood" experience="2800" speed="0" manacost="0">
 	<health now="4000" max="4000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,18 +31,15 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-25" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="20" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="168" />
@@ -50,6 +47,7 @@
 		<item id="11222" name="lump of earth" chance="47741" />
 		<item id="2152" name="platinum coin" chance="40864" countmax="3" />
 		<item id="11227" name="shiny stone" chance="9037" />
+		<item id="8880" name="swamplair armor" chance="4000" />
 		<item id="7884" name="terra mantle" chance="1965" />
 		<item id="13757" name="coal" chance="589" />
 	</loot>

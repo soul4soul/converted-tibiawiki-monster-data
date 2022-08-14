@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Mozradek")
 local monster = {}
 
 monster.name = "Mozradek"
-monster.description = ""
+monster.description = "Mozradek"
 monster.experience = 21000
 monster.outfit = {
 	lookType = 0,
@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 3,
+	color = 206
 }
 
 monster.voices = {
@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -30},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 25}
 }
 
 monster.attacks = {
@@ -87,11 +87,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2156, chance = 85294},
-	{id = 33980, chance = 8824},
-	{id = 33979, chance = 2941},
-	{id = "enchanted theurgic amulet", chance = 1471},
-	{id = 34273, chance = 1471}
+	{id = 2156, chance = 84375},
+	{id = "enchanted blister ring", chance = 20000},
+	{id = "enchanted theurgic amulet", chance = 20000},
+	{id = 34273, chance = 20000},
+	{id = 33979, chance = 9375},
+	{id = 33980, chance = 6250}
 }
 
 mType:register(monster)

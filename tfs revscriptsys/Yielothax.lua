@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 5,
+	color = 59
 }
 
 monster.voices = {
@@ -67,23 +67,23 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 25},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -5},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -200},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -150, maxDamage = -250, radius = 3, target = true, shootEffect = CONST_ANI_EARTH, effect = CONST_ME_HITBYPOISON},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -50, maxDamage = -150, length = 5, spread = 3, effect = CONST_ME_MAGIC_RED},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -100, maxDamage = -130, length = 4, spread = 0, effect = CONST_ME_ENERGYAREA}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -150, maxDamage = -250, radius = 3, target = true, effect = CONST_ME_HITBYPOISON},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_MANADRAIN, minDamage = -50, maxDamage = -150, length = 5, spread = 3, effect = CONST_ME_MAGIC_RED},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -100, maxDamage = -130, length = 4, spread = 0, effect = CONST_ME_ENERGYAREA}
 }
 
 monster.defenses = {
@@ -93,22 +93,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 99792, maxCount = 227},
-	{id = 7588, chance = 19935},
-	{id = 7589, chance = 19901},
-	{id = 2789, chance = 9934, maxCount = 3},
+	{id = 2148, chance = 99791, maxCount = 227},
+	{id = 7588, chance = 19958},
+	{id = 7589, chance = 19908},
+	{id = 2789, chance = 9933, maxCount = 3},
 	{id = 2145, chance = 4929, maxCount = 5},
-	{id = 2164, chance = 4006},
-	{id = 2151, chance = 985},
-	{id = 7889, chance = 777},
+	{id = 2164, chance = 4007},
+	{id = 2151, chance = 983},
+	{id = 7889, chance = 780},
 	{id = 10221, chance = 572},
-	{id = 2189, chance = 523},
-	{id = 2438, chance = 511},
-	{id = 7895, chance = 495},
-	{id = 7440, chance = 491},
+	{id = 2189, chance = 525},
+	{id = 2438, chance = 509},
+	{id = 7895, chance = 497},
+	{id = 7440, chance = 493},
+	{id = 13877, chance = 293},
 	{id = 13942, chance = 291},
-	{id = 13877, chance = 290},
-	{id = 13881, chance = 278}
+	{id = 13881, chance = 276}
 }
 
 mType:register(monster)

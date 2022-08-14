@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Feral Sphinx" nameDescription="a feral sphinx" experience="8800" speed="320" manacost="0">
+<monster name="Feral Sphinx" nameDescription="a feral sphinx" race="blood" experience="8800" speed="320" manacost="0">
 	<health now="9800" max="9800" />
 	<look type="1188" head="76" body="75" legs="57" feet="0" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,39 +32,36 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-15" />
+		<element holyPercent="20" />
+		<element deathPercent="-15" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-450" />
-	</attacks>
 	<defenses armor="90" defense="90" />
 	<voices interval="5000" chance="10">
 		<voice sentence="I am not as kind as my sisters!" yell="false" />
 	</voices>
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="3" />
-		<item id="18419" name="cyan crystal fragment" chance="8036" />
-		<item id="2156" name="red gem" chance="7664" />
-		<item id="2201" name="dragon necklace" chance="7451" />
-		<item id="7890" name="magma amulet" chance="6812" />
-		<item id="18415" name="green crystal shard" chance="5907" />
-		<item id="34093" name="sphinx feather" chance="5588" />
-		<item id="2187" name="wand of inferno" chance="5482" />
-		<item id="34094" name="sphinx tiara" chance="4790" />
-		<item id="2146" name="small sapphire" chance="4630" countmax="2" />
-		<item id="8921" name="wand of draconia" chance="4204" />
-		<item id="2432" name="fire axe" chance="3459" />
-		<item id="2158" name="blue gem" chance="3353" />
-		<item id="7891" name="magma boots" chance="2076" />
-		<item id="7900" name="magma monocle" chance="1543" />
-		<item id="7894" name="magma legs" chance="1437" />
-		<item id="7761" name="small enchanted emerald" chance="1277" countmax="2" />
-		<item id="2155" name="green gem" chance="745" />
+		<item id="18419" name="cyan crystal fragment" chance="8724" />
+		<item id="2156" name="red gem" chance="8222" />
+		<item id="18415" name="green crystal shard" chance="7003" />
+		<item id="2201" name="dragon necklace" chance="6836" />
+		<item id="7890" name="magma amulet" chance="6477" />
+		<item id="34093" name="sphinx feather" chance="5903" />
+		<item id="2187" name="wand of inferno" chance="5688" />
+		<item id="2146" name="small sapphire" chance="5091" countmax="2" />
+		<item id="34094" name="sphinx tiara" chance="4661" />
+		<item id="8921" name="wand of draconia" chance="4613" />
+		<item id="2158" name="blue gem" chance="3944" />
+		<item id="2432" name="fire axe" chance="3633" />
+		<item id="7891" name="magma boots" chance="1840" />
+		<item id="7900" name="magma monocle" chance="1673" />
+		<item id="2155" name="green gem" chance="1386" />
+		<item id="7894" name="magma legs" chance="1291" />
+		<item id="7761" name="small enchanted emerald" chance="1076" countmax="2" />
 	</loot>
 </monster>

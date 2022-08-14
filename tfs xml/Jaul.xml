@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Jaul" nameDescription="" experience="30000" speed="440" manacost="0">
+<monster name="Jaul" nameDescription="" race="blood" experience="30000" speed="440" manacost="0">
 	<health now="90000" max="90000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,35 +30,29 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="1" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="15" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-2000" />
-	</attacks>
-	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="9000" max="22500" />
-		<defense name="healing" interval="2000" chance="20" min="9000" max="22500" />
-	</defenses>
+	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="DIE!! KENH!!" yell="false" />
 		<voice sentence="QJELL AFAR GOU JEY!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="15413" name="ornate shield" chance="42614" />
-		<item id="15407" name="depth lorica" chance="27841" />
-		<item name="depth galea" chance="27273" />
-		<item id="15410" name="depth calcei" chance="22727" />
-		<item id="15404" name="deepling axe" chance="22159" />
-		<item id="15412" name="ornate legs" chance="21023" />
-		<item id="15414" name="ornate mace" chance="21023" />
-		<item id="15406" name="ornate chestplate" chance="14773" />
+		<item id="15413" name="ornate shield" chance="33333" />
+		<item name="depth galea" chance="33333" />
+		<item id="15414" name="ornate mace" chance="33333" />
+		<item id="15410" name="depth calcei" chance="33333" />
+		<item id="15404" name="deepling axe" chance="20000" />
+		<item id="15407" name="depth lorica" chance="7500" />
+		<item id="15406" name="ornate chestplate" chance="7500" />
+		<item id="15412" name="ornate legs" chance="4000" />
 	</loot>
 </monster>

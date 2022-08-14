@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 3,
+	color = 206
 }
 
 monster.voices = {
@@ -66,14 +66,14 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -5},
+	{type = COMBAT_HOLYDAMAGE , percent = -25},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -87,15 +87,15 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = 2152, chance = 100000, maxCount = 19},
+	{id = 10554, chance = 100000},
 	{id = 6558, chance = 100000},
 	{id = 9971, chance = 100000, maxCount = 5},
-	{id = 10554, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 19},
 	{id = 2144, chance = 97619, maxCount = 5},
 	{id = 7590, chance = 97619, maxCount = 3},
 	{id = 7890, chance = 97619},
 	{id = 2430, chance = 71429},
-	{id = 6500, chance = 69048},
+	{id = 6500, chance = 69048, maxCount = 3},
 	{id = 4873, chance = 66667},
 	{id = 2392, chance = 52381},
 	{id = 2155, chance = 45238},

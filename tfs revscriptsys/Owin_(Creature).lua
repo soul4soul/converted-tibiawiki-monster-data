@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Owin (Creature)")
 local monster = {}
 
 monster.name = "Owin"
-monster.description = ""
+monster.description = "Owin"
 monster.experience = 5000
 monster.outfit = {
 	lookType = 0,
@@ -43,7 +43,7 @@ monster.flags = {
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
-	canWalkOnPoison = false
+	canWalkOnPoison = true
 }
 
 monster.light = {
@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
@@ -82,22 +82,25 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 5,
-	armor = 10
+	armor = 10,
+	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 117},
-	{id = 24739, chance = 100000},
 	{id = 2152, chance = 100000, maxCount = 7},
 	{id = 24709, chance = 100000},
 	{id = 24710, chance = 100000},
-	{id = 2789, chance = 90000, maxCount = 2},
-	{id = 7588, chance = 80000, maxCount = 5},
-	{id = 7432, chance = 70000},
-	{id = 24743, chance = 30000},
-	{id = 8473, chance = 20000, maxCount = 2},
-	{id = 2197, chance = 10000},
-	{id = 24758, chance = 10000}
+	{id = 24739, chance = 100000},
+	{id = 2789, chance = 81481, maxCount = 2},
+	{id = 7588, chance = 77778, maxCount = 5},
+	{id = 7432, chance = 48148},
+	{id = 24743, chance = 33333},
+	{id = 8473, chance = 22222, maxCount = 2},
+	{id = 24716, chance = 20000},
+	{id = 2197, chance = 14815},
+	{id = 24741, chance = 3704},
+	{id = 24758, chance = 3704}
 }
 
 mType:register(monster)

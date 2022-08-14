@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Evil Sheep Lord" nameDescription="an evil sheep lord" experience="340" speed="178" manacost="0">
+<monster name="Evil Sheep Lord" nameDescription="an evil sheep lord" race="blood" experience="340" speed="178" manacost="0">
 	<health now="400" max="400" />
 	<look type="13" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,7 +32,7 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -42,8 +42,10 @@
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-118" />
+		<attack name="outfit" interval="2000" chance="15" monster="Sheep" duration="5000" />
 	</attacks>
 	<defenses armor="24" defense="24">
+		<defense name="outfit" interval="2000" chance="15" monster="Werewolf" duration="5000" />
 		<defense name="healing" interval="2000" chance="20" min="50" max="100" />
 	</defenses>
 	<voices interval="5000" chance="10">
@@ -52,6 +54,6 @@
 		<voice sentence="I feel you're getting sleepy! Maeh!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="77712" countmax="60" />
+		<item id="2148" name="gold coin" chance="77997" countmax="60" />
 	</loot>
 </monster>

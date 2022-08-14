@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The Scourge Of Oblivion" nameDescription="" experience="75000" speed="0" manacost="0">
+<monster name="The Scourge Of Oblivion" nameDescription="The Scourge Of Oblivion" race="blood" experience="75000" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -46,60 +46,64 @@
 		<voice sentence="The Scourge Of Oblivion activates its reflective shields!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2127" name="emerald bangle" chance="99293" />
-		<item id="26176" name="plasmatic lightning" chance="99293" />
-		<item id="2152" name="platinum coin" chance="99293" countmax="15" />
-		<item id="26174" name="spark sphere" chance="99293" />
-		<item id="2160" name="crystal coin" chance="96113" countmax="14" />
-		<item id="25172" name="silver token" chance="94700" countmax="14" />
-		<item id="18413" name="blue crystal shard" chance="66078" countmax="3" />
-		<item id="18415" name="green crystal shard" chance="62898" countmax="3" />
-		<item id="18414" name="violet crystal shard" chance="61484" countmax="3" />
-		<item id="32717" name="giant sapphire" chance="45936" />
-		<item id="25377" name="gold token" chance="42756" countmax="8" />
-		<item id="28415" name="royal star" chance="38869" countmax="100" />
-		<item id="26031" name="supreme health potion" chance="36749" countmax="6" />
-		<item id="26029" name="ultimate mana potion" chance="35689" countmax="6" />
-		<item id="5892" name="huge chunk of crude iron" chance="35336" />
-		<item id="32715" name="giant ruby" chance="30389" />
-		<item id="26030" name="ultimate spirit potion" chance="26855" countmax="6" />
-		<item id="7443" name="bullseye potion" chance="25442" countmax="10" />
-		<item id="2150" name="small amethyst" chance="23322" countmax="12" />
-		<item id="9971" name="gold ingot" chance="20848" />
-		<item id="32716" name="giant emerald" chance="19788" />
-		<item id="7440" name="mastermind potion" chance="19788" countmax="10" />
-		<item id="2145" name="small diamond" chance="19788" countmax="12" />
-		<item id="2149" name="small emerald" chance="19081" countmax="12" />
-		<item id="7439" name="berserk potion" chance="18021" countmax="10" />
-		<item id="2156" name="red gem" chance="18021" />
-		<item id="2436" name="skull staff" chance="18021" />
-		<item id="2147" name="small ruby" chance="18021" countmax="12" />
-		<item id="2154" name="yellow gem" chance="18021" />
-		<item id="9970" name="small topaz" chance="15901" countmax="12" />
-		<item name="collar of blue plasma" chance="14134" />
-		<item id="26199" name="collar of green plasma" chance="13074" />
-		<item id="7633" name="giant shimmering pearl (brown)" chance="12367" />
-		<item id="7427" name="chaos mace" chance="11661" />
-		<item id="2155" name="green gem" chance="11307" />
-		<item id="5480" name="cat's paw" chance="10954" />
-		<item id="26200" name="collar of red plasma" chance="10954" />
-		<item id="2158" name="blue gem" chance="10247" />
-		<item id="5904" name="magic sulphur" chance="7420" />
-		<item id="2123" name="ring of the sky" chance="7420" />
-		<item name="void boots" chance="7420" />
-		<item id="25382" name="rift shield" chance="7067" />
-		<item name="ring of red plasma" chance="6714" />
-		<item id="5809" name="soul stone" chance="6360" />
-		<item name="ring of green plasma" chance="6007" />
-		<item id="25522" name="rift bow" chance="5654" />
-		<item name="ring of blue plasma" chance="5654" />
-		<item id="8903" name="spellbook of lost souls" chance="5300" />
-		<item id="2153" name="violet gem" chance="5300" />
-		<item id="25523" name="rift crossbow" chance="4594" />
-		<item id="25383" name="rift lance" chance="2827" />
-		<item id="8889" name="skullcracker armor" chance="2827" />
-		<item id="31447" name="library ticket" chance="1060" />
-		<item id="7414" name="abyss hammer" chance="353" />
-		<item id="8932" name="the calamity" chance="353" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="25" />
+		<item id="26176" name="plasmatic lightning" chance="100000" />
+		<item id="2127" name="emerald bangle" chance="100000" />
+		<item id="25172" name="silver token" chance="100000" countmax="22" />
+		<item id="26174" name="spark sphere" chance="100000" />
+		<item id="2160" name="crystal coin" chance="94737" countmax="22" />
+		<item id="18413" name="blue crystal shard" chance="73684" countmax="5" />
+		<item id="18414" name="violet crystal shard" chance="55263" countmax="5" />
+		<item id="28415" name="royal star" chance="52632" countmax="179" />
+		<item id="18415" name="green crystal shard" chance="52632" countmax="5" />
+		<item id="32717" name="giant sapphire" chance="47368" />
+		<item id="26029" name="ultimate mana potion" chance="36842" countmax="11" />
+		<item id="5892" name="huge chunk of crude iron" chance="36842" />
+		<item id="25377" name="gold token" chance="36842" countmax="8" />
+		<item id="26031" name="supreme health potion" chance="34211" countmax="11" />
+		<item id="2154" name="yellow gem" chance="28947" />
+		<item id="26030" name="ultimate spirit potion" chance="28947" countmax="20" />
+		<item id="2147" name="small ruby" chance="26316" countmax="21" />
+		<item id="32716" name="giant emerald" chance="23684" />
+		<item id="32715" name="giant ruby" chance="23684" />
+		<item id="2145" name="small diamond" chance="21053" countmax="20" />
+		<item id="2156" name="red gem" chance="21053" />
+		<item id="26165" name="mysterious remains" chance="20000" />
+		<item id="26191" name="energy bar" chance="20000" />
+		<item id="2114" name="piggy bank" chance="20000" />
+		<item id="25383" name="rift lance" chance="20000" />
+		<item id="8889" name="skullcracker armor" chance="20000" />
+		<item id="2453" name="arcane staff" chance="20000" />
+		<item id="7439" name="berserk potion" chance="18421" countmax="17" />
+		<item id="2149" name="small emerald" chance="18421" countmax="21" />
+		<item id="25523" name="rift crossbow" chance="18421" />
+		<item id="7443" name="bullseye potion" chance="18421" countmax="19" />
+		<item id="2436" name="skull staff" chance="18421" />
+		<item name="collar of blue plasma" chance="15789" />
+		<item id="9970" name="small topaz" chance="15789" countmax="19" />
+		<item id="7440" name="mastermind potion" chance="15789" countmax="19" />
+		<item id="2150" name="small amethyst" chance="13158" countmax="23" />
+		<item id="2158" name="blue gem" chance="13158" />
+		<item id="2155" name="green gem" chance="10526" />
+		<item name="void boots" chance="10526" />
+		<item id="7633" name="giant shimmering pearl (brown)" chance="10526" />
+		<item id="25522" name="rift bow" chance="10526" />
+		<item id="26199" name="collar of green plasma" chance="10526" />
+		<item name="ring of green plasma" chance="7895" />
+		<item id="5904" name="magic sulphur" chance="7895" />
+		<item id="5809" name="soul stone" chance="7895" />
+		<item id="26200" name="collar of red plasma" chance="7895" />
+		<item id="9971" name="gold ingot" chance="7895" />
+		<item id="25382" name="rift shield" chance="7895" />
+		<item id="8903" name="spellbook of lost souls" chance="7895" />
+		<item id="2123" name="ring of the sky" chance="7895" />
+		<item name="ring of blue plasma" chance="7895" />
+		<item name="ring of red plasma" chance="5263" />
+		<item id="7427" name="chaos mace" chance="5263" />
+		<item id="31447" name="library ticket" chance="5263" />
+		<item id="8932" name="the calamity" chance="4000" />
+		<item id="5480" name="cat's paw" chance="2632" />
+		<item id="2153" name="violet gem" chance="2632" />
+		<item id="7414" name="abyss hammer" chance="2632" />
 	</loot>
 </monster>

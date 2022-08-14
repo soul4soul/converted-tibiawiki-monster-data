@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Shielded Thorn Knight")
 local monster = {}
 
 monster.name = "The Shielded Thorn Knight"
-monster.description = ""
+monster.description = "the shielded Thorn Knight"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {

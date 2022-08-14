@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dark Apprentice" nameDescription="a dark apprentice" experience="100" speed="172" manacost="0">
+<monster name="Dark Apprentice" nameDescription="a dark apprentice" race="blood" experience="100" speed="172" manacost="0">
 	<health now="225" max="225" />
 	<look type="133" head="78" body="57" legs="95" feet="115" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -38,16 +38,11 @@
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-5" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-24" range="7">
-			<attribute key="shootEffect" value="smallstone" />
-		</attack>
-	</attacks>
 	<defenses armor="16" defense="16">
 		<defense name="healing" interval="2000" chance="20" min="22" max="56" />
+		<defense name="outfit" interval="2000" chance="15" monster="Green Frog" duration="5000" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="Outch!" yell="false" />
@@ -56,13 +51,14 @@
 		<voice sentence="From the spirits that I called Sir, deliver me!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75053" countmax="45" />
-		<item name="dead frog" chance="11918" />
-		<item id="2260" name="blank rune" chance="8034" countmax="3" />
-		<item id="7620" name="mana potion" chance="2996" />
-		<item id="7618" name="health potion" chance="2886" />
-		<item id="2191" name="wand of dragonbreath" chance="2002" />
-		<item id="2188" name="wand of decay" chance="108" />
+		<item id="2148" name="gold coin" chance="75043" countmax="45" />
+		<item id="36893" name="dead frog (item)" chance="15000" />
+		<item name="dead frog" chance="11915" />
+		<item id="2260" name="blank rune" chance="8031" countmax="3" />
+		<item id="7620" name="mana potion" chance="2993" />
+		<item id="7618" name="health potion" chance="2884" />
+		<item id="2191" name="wand of dragonbreath" chance="2004" />
+		<item id="2188" name="wand of decay" chance="107" />
 		<item id="13295" name="reins" chance="7" />
 	</loot>
 </monster>

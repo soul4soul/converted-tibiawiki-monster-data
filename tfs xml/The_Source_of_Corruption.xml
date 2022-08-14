@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The Source Of Corruption" nameDescription="" experience="0" speed="0" manacost="0">
+<monster name="The Source Of Corruption" nameDescription="The Source Of Corruption" race="blood" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,25 +40,50 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
-	</attacks>
 	<defenses armor="10" defense="5" />
+	<summons maxSummons="2">
+		<voice name="Soul Reaper" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="348" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="36" />
 		<item id="10549" name="ancient stone" chance="100000" />
-		<item id="26163" name="crystallized anger" chance="100000" />
-		<item name="giant shimmering pearl" chance="100000" />
-		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="25377" name="gold token" chance="100000" />
-		<item id="5904" name="magic sulphur" chance="100000" />
-		<item id="7418" name="nightmare blade" chance="100000" />
 		<item id="24849" name="onyx chip" chance="100000" />
-		<item id="5888" name="piece of hell steel" chance="100000" countmax="5" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="30" />
-		<item id="25172" name="silver token" chance="100000" countmax="2" />
-		<item id="2146" name="small sapphire" chance="100000" countmax="20" />
-		<item id="26173" name="solid rage" chance="100000" />
-		<item id="8473" name="ultimate health potion" chance="100000" countmax="10" />
-		<item id="2154" name="yellow gem" chance="100000" />
+		<item id="26173" name="solid rage" chance="100000" countmax="19" />
+		<item id="25172" name="silver token" chance="100000" countmax="3" />
+		<item id="25377" name="gold token" chance="100000" countmax="4" />
+		<item id="5904" name="magic sulphur" chance="100000" countmax="5" />
+		<item id="5888" name="piece of hell steel" chance="100000" countmax="9" />
+		<item id="2154" name="yellow gem" chance="60000" />
+		<item id="7590" name="great mana potion" chance="60000" countmax="15" />
+		<item id="26163" name="crystallized anger" chance="60000" countmax="10" />
+		<item id="8472" name="great spirit potion" chance="60000" countmax="9" />
+		<item name="giant shimmering pearl" chance="40000" />
+		<item id="7437" name="sapphire hammer" chance="40000" />
+		<item id="9970" name="small topaz" chance="40000" countmax="20" />
+		<item id="2147" name="small ruby" chance="40000" countmax="22" />
+		<item id="2452" name="heavy mace" chance="20000" />
+		<item id="8926" name="demonwing axe" chance="20000" />
+		<item id="9981" name="yalahari figurine" chance="20000" />
+		<item id="2436" name="skull staff" chance="20000" />
+		<item name="ring of red plasma" chance="20000" />
+		<item id="7418" name="nightmare blade" chance="20000" />
+		<item id="9971" name="gold ingot" chance="20000" />
+		<item id="5891" name="enchanted chicken wing" chance="20000" />
+		<item id="2462" name="devil helmet" chance="20000" />
+		<item id="24850" name="opal" chance="20000" countmax="2" />
+		<item id="2156" name="red gem" chance="20000" />
+		<item id="5906" name="demon dust" chance="20000" />
+		<item id="2158" name="blue gem" chance="20000" />
+		<item id="5909" name="white piece of cloth" chance="20000" countmax="4" />
+		<item id="7591" name="great health potion" chance="20000" countmax="3" />
+		<item id="8473" name="ultimate health potion" chance="20000" countmax="5" />
+		<item id="7588" name="strong health potion" chance="20000" countmax="2" />
+		<item id="18414" name="violet crystal shard" chance="20000" countmax="7" />
+		<item id="2149" name="small emerald" chance="20000" countmax="20" />
+		<item id="2150" name="small amethyst" chance="20000" countmax="20" />
+		<item id="2146" name="small sapphire" chance="20000" countmax="20" />
+		<item id="2155" name="green gem" chance="20000" />
+		<item id="22401" name="crude umbral slayer" chance="20000" />
 	</loot>
 </monster>

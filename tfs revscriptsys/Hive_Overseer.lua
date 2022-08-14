@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 1,
+	targetDistance = 4,
 	healthHidden = false,
 	canWalkOnEnergy = true,
 	canWalkOnFire = true,
@@ -67,45 +67,47 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 30},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 40},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 5},
+	{type = COMBAT_HOLYDAMAGE , percent = 10},
+	{type = COMBAT_DEATHDAMAGE , percent = 15}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -450}
 }
 
 monster.defenses = {
 	defense = 57,
-	armor = 57,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 50, maxDamage = 100},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 500, maxDamage = 700}
+	armor = 57
+}
+
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Spidris Elite", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
-	{id = 2148, chance = 98330, maxCount = 199},
-	{id = 2152, chance = 84493, maxCount = 6},
-	{id = 15480, chance = 28814},
-	{id = 9971, chance = 28285},
-	{id = 15486, chance = 18291},
-	{id = 7590, chance = 18012},
-	{id = 2147, chance = 16258, maxCount = 2},
-	{id = 15572, chance = 12973, maxCount = 2},
-	{id = 8473, chance = 12277},
-	{id = 7633, chance = 6320},
-	{id = 15492, chance = 1476},
-	{id = 15489, chance = 1448},
-	{id = 15491, chance = 919},
-	{id = 15643, chance = 640},
-	{id = 2645, chance = 501}
+	{id = 2148, chance = 98310, maxCount = 199},
+	{id = 2152, chance = 84741, maxCount = 6},
+	{id = 15480, chance = 29054},
+	{id = 9971, chance = 28398},
+	{id = 15486, chance = 18613},
+	{id = 7590, chance = 18386},
+	{id = 2147, chance = 15889, maxCount = 2},
+	{id = 15572, chance = 12762, maxCount = 2},
+	{id = 8473, chance = 12182},
+	{id = 7633, chance = 6356},
+	{id = 15492, chance = 1538},
+	{id = 15489, chance = 1488},
+	{id = 15491, chance = 908},
+	{id = 15643, chance = 580},
+	{id = 2645, chance = 479}
 }
 
 mType:register(monster)

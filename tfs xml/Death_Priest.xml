@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Death Priest" nameDescription="a death priest" experience="750" speed="204" manacost="0">
+<monster name="Death Priest" nameDescription="a death priest" race="undead" experience="750" speed="204" manacost="0">
 	<health now="800" max="800" />
 	<look type="99" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,31 +30,26 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="80" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-20" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-80" />
-	</attacks>
-	<defenses armor="38" defense="38">
-		<defense name="healing" interval="2000" chance="20" min="80" max="200" />
-	</defenses>
+	<defenses armor="38" defense="38" />
 	<loot>
-		<item id="2148" name="gold coin" chance="69822" countmax="152" />
-		<item id="13739" name="hieroglyph banner" chance="25932" />
-		<item id="7620" name="mana potion" chance="16140" />
-		<item id="7618" name="health potion" chance="14796" />
-		<item id="2159" name="scarab coin" chance="9229" countmax="3" />
-		<item id="5022" name="orichalcum pearl" chance="6304" countmax="4" />
-		<item id="2175" name="spellbook" chance="5416" />
-		<item id="2143" name="white pearl" chance="2665" />
-		<item id="2214" name="ring of healing" chance="1105" />
+		<item id="2148" name="gold coin" chance="69821" countmax="152" />
+		<item id="13739" name="hieroglyph banner" chance="26019" />
+		<item id="7620" name="mana potion" chance="16146" />
+		<item id="7618" name="health potion" chance="14766" />
+		<item id="2159" name="scarab coin" chance="9248" countmax="3" />
+		<item id="5022" name="orichalcum pearl" chance="6273" countmax="4" />
+		<item id="2175" name="spellbook" chance="5411" />
+		<item id="2143" name="white pearl" chance="2651" />
+		<item id="2214" name="ring of healing" chance="1099" />
 	</loot>
 </monster>

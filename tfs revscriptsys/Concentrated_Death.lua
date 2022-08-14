@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Concentrated Death")
 local monster = {}
 
 monster.name = "Concentrated Death"
-monster.description = ""
+monster.description = "an Concentrated Death"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

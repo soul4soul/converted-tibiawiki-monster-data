@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Bragrumol")
 local monster = {}
 
 monster.name = "Bragrumol"
-monster.description = ""
+monster.description = "Bragrumol"
 monster.experience = 18000
 monster.outfit = {
 	lookType = 0,
@@ -68,13 +68,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 70},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
@@ -87,9 +87,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2156, chance = 85156},
-	{id = 33979, chance = 10938},
-	{id = 33980, chance = 3906}
+	{id = 2156, chance = 92857},
+	{id = 7840, chance = 20000, maxCount = 12},
+	{id = 2152, chance = 20000, maxCount = 8},
+	{id = 8910, chance = 20000},
+	{id = 2197, chance = 20000},
+	{id = 7632, chance = 20000},
+	{id = 7899, chance = 20000},
+	{id = 33979, chance = 20000},
+	{id = "enchanted theurgic amulet", chance = 20000},
+	{id = "enchanted blister ring", chance = 20000},
+	{id = 34273, chance = 20000},
+	{id = 33980, chance = 7143}
 }
 
 mType:register(monster)

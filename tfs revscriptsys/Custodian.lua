@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Custodian")
 local monster = {}
 
 monster.name = "Custodian"
-monster.description = ""
+monster.description = "Custodian"
 monster.experience = 27500
 monster.outfit = {
 	lookType = 0,
@@ -65,10 +65,10 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 70},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -87,9 +87,12 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 23},
-	{id = 34334, chance = 21053},
-	{id = 2432, chance = 10526}
+	{id = 2146, chance = 100000},
+	{id = 2152, chance = 20000},
+	{id = 2209, chance = 20000},
+	{id = 33051, chance = 20000},
+	{id = 34334, chance = 20000},
+	{id = 2432, chance = 20000}
 }
 
 mType:register(monster)

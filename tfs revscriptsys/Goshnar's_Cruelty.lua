@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Goshnar's Cruelty")
 local monster = {}
 
 monster.name = "Goshnar's Cruelty"
-monster.description = ""
+monster.description = "Goshnar's Cruelty"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -91,20 +91,25 @@ monster.loot = {
 	{id = 26030, chance = 63636, maxCount = 110},
 	{id = 26031, chance = 54545, maxCount = 90},
 	{id = 2154, chance = 45455, maxCount = 2},
-	{id = 35278, chance = 40909},
-	{id = 32717, chance = 40909},
 	{id = 2155, chance = 40909, maxCount = 2},
+	{id = 32717, chance = 40909},
+	{id = 35278, chance = 40909},
 	{id = 7440, chance = 40909, maxCount = 25},
 	{id = 7439, chance = 36364, maxCount = 25},
 	{id = 2156, chance = 27273},
 	{id = 2158, chance = 22727, maxCount = 2},
 	{id = 7443, chance = 22727, maxCount = 25},
-	{id = 32716, chance = 18182},
+	{id = 36579, chance = 20000},
+	{id = 27047, chance = 20000},
+	{id = 36730, chance = 20000},
+	{id = 36729, chance = 20000},
+	{id = 36675, chance = 20000},
 	{id = 35425, chance = 18182},
+	{id = 32716, chance = 18182},
 	{id = 2153, chance = 13636},
 	{id = 9971, chance = 9091},
-	{id = 36765, chance = 4545},
-	{id = 36578, chance = 4545}
+	{id = 36578, chance = 4545},
+	{id = 36765, chance = 4545}
 }
 
 mType:register(monster)

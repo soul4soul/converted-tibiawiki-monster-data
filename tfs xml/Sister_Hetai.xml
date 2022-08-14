@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Sister Hetai" nameDescription="" experience="20500" speed="0" manacost="0">
+<monster name="Sister Hetai" nameDescription="Sister Hetai" race="blood" experience="20500" speed="0" manacost="0">
 	<health now="25000" max="25000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="5" />
+		<element energyPercent="15" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-25" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -45,35 +45,37 @@
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2379" name="dagger" chance="50532" />
-		<item id="2160" name="crystal coin" chance="43617" />
-		<item id="10219" name="sacred tree amulet" chance="7979" />
-		<item id="9971" name="gold ingot" chance="6915" />
-		<item id="7901" name="lightning headband" chance="4787" />
-		<item id="8910" name="underworld rod" chance="4787" />
-		<item id="2153" name="violet gem" chance="4787" />
-		<item id="2189" name="wand of cosmic energy" chance="4787" />
-		<item id="24849" name="onyx chip" chance="4255" />
-		<item id="28393" name="rainbow quartz" chance="4255" />
-		<item id="2145" name="small diamond" chance="4255" />
-		<item id="2187" name="wand of inferno" chance="4255" />
-		<item id="2476" name="knight armor" chance="3723" />
-		<item id="7889" name="lightning pendant" chance="3723" />
-		<item id="2149" name="small emerald" chance="3723" />
-		<item id="8871" name="focus cape" chance="3191" />
-		<item id="7899" name="magma coat" chance="3191" />
-		<item id="2214" name="ring of healing" chance="3191" />
-		<item id="8920" name="wand of starstorm" chance="3191" />
-		<item id="23540" name="metal spats" chance="2660" />
-		<item id="15453" name="warrior's shield" chance="2660" />
-		<item id="2213" name="dwarven ring" chance="2128" />
-		<item id="33980" name="golden mask" chance="2128" />
-		<item id="7891" name="magma boots" chance="2128" />
-		<item id="7903" name="terra hood" chance="2128" />
-		<item name="ring of green plasma" chance="1596" />
-		<item id="7886" name="terra boots" chance="1596" />
-		<item id="2154" name="yellow gem" chance="1596" />
-		<item id="7895" name="lightning legs" chance="1064" />
-		<item id="33979" name="sea horse figurine" chance="1064" />
+		<item id="2379" name="dagger" chance="51628" />
+		<item id="2160" name="crystal coin" chance="43256" />
+		<item id="39658" name="tagralt-inlaid scabbard" chance="20000" />
+		<item id="39659" name="eye-embroidered veil" chance="20000" />
+		<item id="10219" name="sacred tree amulet" chance="8372" />
+		<item id="9971" name="gold ingot" chance="7442" />
+		<item id="7901" name="lightning headband" chance="4651" />
+		<item id="2153" name="violet gem" chance="4651" />
+		<item id="8910" name="underworld rod" chance="4186" />
+		<item id="2189" name="wand of cosmic energy" chance="4186" />
+		<item id="2149" name="small emerald" chance="4186" />
+		<item id="28393" name="rainbow quartz" chance="4186" />
+		<item id="2145" name="small diamond" chance="3721" />
+		<item id="2187" name="wand of inferno" chance="3721" />
+		<item id="24849" name="onyx chip" chance="3721" />
+		<item id="8871" name="focus cape" chance="3721" />
+		<item id="2476" name="knight armor" chance="3721" />
+		<item id="7889" name="lightning pendant" chance="3256" />
+		<item id="15453" name="warrior's shield" chance="3256" />
+		<item id="8920" name="wand of starstorm" chance="3256" />
+		<item id="2214" name="ring of healing" chance="2791" />
+		<item id="7899" name="magma coat" chance="2791" />
+		<item id="23540" name="metal spats" chance="2326" />
+		<item id="7903" name="terra hood" chance="2326" />
+		<item id="7891" name="magma boots" chance="2326" />
+		<item id="2213" name="dwarven ring" chance="1860" />
+		<item id="33980" name="golden mask" chance="1860" />
+		<item id="33979" name="sea horse figurine" chance="1860" />
+		<item name="ring of green plasma" chance="1395" />
+		<item id="2154" name="yellow gem" chance="1395" />
+		<item id="7886" name="terra boots" chance="1395" />
+		<item id="7895" name="lightning legs" chance="930" />
 	</loot>
 </monster>

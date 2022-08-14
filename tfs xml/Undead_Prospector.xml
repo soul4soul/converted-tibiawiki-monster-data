@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Undead Prospector" nameDescription="an undead prospector" experience="85" speed="144" manacost="440">
+<monster name="Undead Prospector" nameDescription="an undead prospector" race="undead" experience="85" speed="144" manacost="440">
 	<health now="100" max="100" />
 	<look type="18" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="30" />
+		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="10" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-50" />
@@ -52,15 +52,15 @@
 		<voice sentence="These mine is ours... you shall not pass." yell="false" />
 	</voices>
 	<loot>
-		<item id="3976" name="worm" chance="80740" countmax="6" />
-		<item id="2148" name="gold coin" chance="71076" countmax="30" />
-		<item name="torch" chance="61206" />
-		<item id="2460" name="brass helmet" chance="18163" />
-		<item id="2403" name="knife" chance="14668" />
-		<item id="2473" name="viking helmet" chance="5415" />
-		<item id="2483" name="scale armor" chance="3564" />
-		<item id="2229" name="skull (item)" chance="2742" />
-		<item id="5913" name="brown piece of cloth" chance="960" />
-		<item id="2168" name="life ring" chance="137" />
+		<item id="3976" name="worm" chance="80621" countmax="6" />
+		<item id="2148" name="gold coin" chance="71168" countmax="30" />
+		<item name="torch" chance="61040" />
+		<item id="2460" name="brass helmet" chance="18501" />
+		<item id="2403" name="knife" chance="14720" />
+		<item id="2473" name="viking helmet" chance="5334" />
+		<item id="2483" name="scale armor" chance="3646" />
+		<item id="2229" name="skull (item)" chance="2701" />
+		<item id="5913" name="brown piece of cloth" chance="945" />
+		<item id="2168" name="life ring" chance="135" />
 	</loot>
 </monster>

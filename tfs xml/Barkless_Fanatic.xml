@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Barkless Fanatic" nameDescription="a barkless fanatic" experience="2500" speed="300" manacost="0">
+<monster name="Barkless Fanatic" nameDescription="a barkless fanatic" race="blood" experience="2500" speed="300" manacost="0">
 	<health now="3200" max="3200" />
 	<look type="990" head="0" body="0" legs="0" feet="0" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,28 +30,25 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="17" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="15" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="15" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
-	</attacks>
 	<defenses armor="30" defense="30" />
 	<voices interval="5000" chance="10">
 		<voice sentence="PAIN PURIFIES! PAIN PURIFIES!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="50247" countmax="200" />
-		<item id="28398" name="fig leaf" chance="9399" />
-		<item id="27617" name="tiger eye" chance="4688" />
-		<item id="28399" name="bed of nails" chance="1720" />
-		<item id="28400" name="torn shirt" chance="1201" />
+		<item id="2148" name="gold coin" chance="50074" countmax="200" />
+		<item id="28398" name="fig leaf" chance="9939" />
+		<item id="27617" name="tiger eye" chance="4939" />
+		<item id="28399" name="bed of nails" chance="1892" />
+		<item id="28400" name="torn shirt" chance="1093" />
 	</loot>
 </monster>

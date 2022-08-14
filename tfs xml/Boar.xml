@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Boar" nameDescription="a boar" experience="60" speed="410" manacost="465">
+<monster name="Boar" nameDescription="a boar" race="blood" experience="60" speed="410" manacost="465">
 	<health now="198" max="198" />
 	<look type="380" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -49,7 +49,7 @@
 		<voice sentence="Grunt" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="25226" countmax="20" />
-		<item id="13297" name="haunch of boar" chance="19855" countmax="2" />
+		<item id="2148" name="gold coin" chance="25352" countmax="20" />
+		<item id="13297" name="haunch of boar" chance="19975" countmax="2" />
 	</loot>
 </monster>

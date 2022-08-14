@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Lava Lurker" nameDescription="a lava lurker" experience="4000" speed="116" manacost="0">
+<monster name="Lava Lurker" nameDescription="a lava lurker" race="blood" experience="4000" speed="116" manacost="0">
 	<health now="5900" max="5900" />
 	<look type="1041" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,11 +40,8 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
 	<defenses armor="82" defense="82" />
 	<loot>
-		<item id="7760" name="small enchanted ruby" chance="14931" countmax="2" />
+		<item id="7760" name="small enchanted ruby" chance="15154" countmax="2" />
 	</loot>
 </monster>

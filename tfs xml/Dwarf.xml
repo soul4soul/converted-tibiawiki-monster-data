@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dwarf" nameDescription="a dwarf" experience="45" speed="170" manacost="320">
+<monster name="Dwarf" nameDescription="a dwarf" race="blood" experience="45" speed="170" manacost="320">
 	<health now="90" max="90" />
 	<look type="69" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,14 +31,14 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="10" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-31" />
@@ -48,16 +48,16 @@
 		<voice sentence="Hail Durin!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2787" name="white mushroom" chance="50154" />
-		<item id="2148" name="gold coin" chance="35341" countmax="8" />
-		<item id="2388" name="hatchet" chance="24749" />
-		<item id="2386" name="axe" chance="14593" />
-		<item id="3456" name="pick" chance="10143" />
-		<item id="2530" name="copper shield" chance="10101" />
-		<item id="2649" name="leather legs" chance="9683" />
-		<item id="2484" name="studded armor" chance="8008" />
-		<item id="2597" name="letter" chance="7930" />
+		<item id="2787" name="white mushroom" chance="50134" />
+		<item id="2148" name="gold coin" chance="35351" countmax="8" />
+		<item id="2388" name="hatchet" chance="24744" />
+		<item id="2386" name="axe" chance="14586" />
+		<item id="3456" name="pick" chance="10155" />
+		<item id="2530" name="copper shield" chance="10100" />
+		<item id="2649" name="leather legs" chance="9704" />
+		<item id="2484" name="studded armor" chance="8025" />
+		<item id="2597" name="letter" chance="7940" />
 		<item id="2213" name="dwarven ring" chance="95" />
-		<item id="5880" name="iron ore" chance="83" />
+		<item id="5880" name="iron ore" chance="85" />
 	</loot>
 </monster>

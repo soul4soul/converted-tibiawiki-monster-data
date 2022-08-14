@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Crocodile" nameDescription="a crocodile" experience="40" speed="156" manacost="350">
+<monster name="Crocodile" nameDescription="a crocodile" race="blood" experience="40" speed="156" manacost="350">
 	<health now="105" max="105" />
 	<look type="119" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,14 +29,14 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-10" />
+		<element energyPercent="-5" />
+		<element earthPercent="20" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="10" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -45,9 +45,9 @@
 	</attacks>
 	<defenses armor="13" defense="13" />
 	<loot>
-		<item id="2148" name="gold coin" chance="49805" countmax="10" />
-		<item id="2671" name="ham" chance="39785" />
-		<item id="11196" name="piece of crocodile leather" chance="20043" />
-		<item id="3982" name="crocodile boots" chance="84" />
+		<item id="2148" name="gold coin" chance="49777" countmax="10" />
+		<item id="2671" name="ham" chance="39810" />
+		<item id="11196" name="piece of crocodile leather" chance="20040" />
+		<item id="3982" name="crocodile boots" chance="86" />
 	</loot>
 </monster>

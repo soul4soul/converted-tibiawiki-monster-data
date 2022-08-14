@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Vok the Freakish")
 local monster = {}
 
 monster.name = "Vok The Freakish"
-monster.description = ""
+monster.description = "Vok the Freakish"
 monster.experience = 27000
 monster.outfit = {
 	lookType = 0,
@@ -65,20 +65,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
@@ -87,6 +86,19 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = 2152, chance = 100000, maxCount = 19},
+	{id = 35427, chance = 45000},
+	{id = 35430, chance = 40000},
+	{id = 35425, chance = 30000, maxCount = 2},
+	{id = 2156, chance = 20000, maxCount = 2},
+	{id = 35359, chance = 20000},
+	{id = 35275, chance = 20000},
+	{id = 35428, chance = 20000},
+	{id = 35239, chance = 10000},
+	{id = 1294, chance = 10000, maxCount = 18},
+	{id = 2127, chance = 5000},
+	{id = 27048, chance = 5000},
+	{id = 15644, chance = 5000}
 }
 
 mType:register(monster)

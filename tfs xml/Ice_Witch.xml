@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ice_Witch" nameDescription="" experience="580" speed="228" manacost="0">
+<monster name="Ice_Witch" nameDescription="" race="blood" experience="580" speed="228" manacost="0">
 	<health now="650" max="650" />
 	<look type="149" head="0" body="9" legs="86" feet="86" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,27 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="40" />
+		<element firePercent="50" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="30" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-60" />
+		<attack name="ice" interval="2000" chance="15" min="-50" max="-124">
+			<attribute key="areaEffect" value="icetornado" />
+		</attack>
+		<attack name="ice" interval="2000" chance="15" min="-51" max="-99" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="ice" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="ice" />
+		</attack>
+		<attack name="outfit" interval="2000" chance="15" item="7172" duration="5000" />
 	</attacks>
 	<defenses armor="70" defense="70">
 		<defense name="healing" interval="2000" chance="20" min="65" max="162" />
@@ -52,16 +61,16 @@
 		<voice sentence="Freeze!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="29897" countmax="90" />
-		<item id="7441" name="ice cube" chance="9986" />
+		<item id="2148" name="gold coin" chance="29878" countmax="90" />
+		<item id="7441" name="ice cube" chance="9973" />
 		<item id="2796" name="green mushroom" chance="1307" />
-		<item id="2423" name="clerical mace" chance="1048" />
-		<item id="7589" name="strong mana potion" chance="881" />
-		<item id="7290" name="shard" chance="630" />
-		<item id="2663" name="mystic turban" chance="422" />
-		<item id="7449" name="crystal sword" chance="389" />
-		<item id="7892" name="glacier shoes" chance="320" />
-		<item id="7387" name="diamond sceptre" chance="311" />
-		<item id="7459" name="pair of earmuffs" chance="83" />
+		<item id="2423" name="clerical mace" chance="1047" />
+		<item id="7589" name="strong mana potion" chance="887" />
+		<item id="7290" name="shard" chance="631" />
+		<item id="2663" name="mystic turban" chance="430" />
+		<item id="7449" name="crystal sword" chance="384" />
+		<item id="7892" name="glacier shoes" chance="325" />
+		<item id="7387" name="diamond sceptre" chance="306" />
+		<item id="7459" name="pair of earmuffs" chance="82" />
 	</loot>
 </monster>

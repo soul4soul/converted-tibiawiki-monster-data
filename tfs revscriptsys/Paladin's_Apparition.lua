@@ -5,11 +5,11 @@ monster.name = "Paladin's Apparition"
 monster.description = "a paladin's apparition"
 monster.experience = 18870
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 129,
+	lookHead = 57,
+	lookBody = 42,
+	lookLegs = 114,
+	lookFeet = 114,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = true,
 	canWalkOnFire = true,
@@ -66,16 +66,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -11},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 30},
+	{type = COMBAT_HOLYDAMAGE , percent = 40},
+	{type = COMBAT_DEATHDAMAGE , percent = -20}
 }
 
 monster.attacks = {
@@ -87,20 +87,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 78415},
-	{id = 2475, chance = 7057},
-	{id = 2155, chance = 5811},
-	{id = 8472, chance = 5774},
-	{id = 2153, chance = 5208},
-	{id = 2158, chance = 4792},
-	{id = 7902, chance = 4528},
-	{id = 7888, chance = 2717},
-	{id = 2664, chance = 2226},
-	{id = 5741, chance = 1811},
-	{id = "collar of blue plasma", chance = 1698},
-	{id = "ring of blue plasma", chance = 1434},
-	{id = 2197, chance = 830},
-	{id = 8855, chance = 264}
+	{id = 2160, chance = 58484},
+	{id = 2475, chance = 5964},
+	{id = 8472, chance = 5039},
+	{id = 2155, chance = 4392},
+	{id = 2153, chance = 4253},
+	{id = 36765, chance = 4000},
+	{id = 7902, chance = 3514},
+	{id = 2158, chance = 3098},
+	{id = 7888, chance = 2219},
+	{id = 5741, chance = 1988},
+	{id = 2664, chance = 1572},
+	{id = "ring of blue plasma", chance = 1479},
+	{id = "collar of blue plasma", chance = 832},
+	{id = 2197, chance = 601},
+	{id = 8855, chance = 185}
 }
 
 mType:register(monster)

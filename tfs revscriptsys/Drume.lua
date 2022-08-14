@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Drume")
 local monster = {}
 
 monster.name = "Drume"
-monster.description = ""
+monster.description = "Drume"
 monster.experience = 25000
 monster.outfit = {
 	lookType = 0,
@@ -54,6 +54,9 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
+	{text = "I've studied the Cobras - I wield the secrets of the snake!", yell = false},
+	{text = "I am a true knight of the lion, you will never defeat the true order!", yell = false},
+	{text = "The Falcons will come to my aid in need!", yell = false}
 }
 
 monster.immunities = {
@@ -65,20 +68,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 35},
+	{type = COMBAT_ENERGYDAMAGE, percent = -20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -20},
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -600}
 }
 
 monster.defenses = {
@@ -86,43 +88,54 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 3
+monster.summons = {
+	{name = "Preceptor Lazare", chance = 15, interval = 2000, max = 1},
+	{name = "Grand Commander Soeren", chance = 15, interval = 2000, max = 1},
+	{name = "Grand Chaplain Gaunder", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
 	{id = 26191, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 26031, chance = 56197, maxCount = 20},
-	{id = 26029, chance = 55020, maxCount = 20},
-	{id = 2156, chance = 35278, maxCount = 2},
-	{id = 2154, chance = 35165, maxCount = 2},
-	{id = 26030, chance = 32978, maxCount = 6},
-	{id = 28415, chance = 30230, maxCount = 100},
-	{id = 7439, chance = 20639, maxCount = 10},
-	{id = 7443, chance = 19910, maxCount = 10},
-	{id = 7440, chance = 19349, maxCount = 10},
-	{id = 2158, chance = 18340, maxCount = 2},
-	{id = 2155, chance = 16265, maxCount = 2},
-	{id = "giant shimmering pearl", chance = 15984},
-	{id = 9971, chance = 14133},
-	{id = 2181, chance = 13068},
-	{id = 25172, chance = 11049, maxCount = 5},
-	{id = 2160, chance = 10095},
-	{id = 2197, chance = 9927},
-	{id = 2153, chance = 8805, maxCount = 2},
-	{id = 7885, chance = 8469},
-	{id = 7884, chance = 7179},
-	{id = 7903, chance = 5552},
-	{id = 8922, chance = 4823},
-	{id = 7887, chance = 4543},
-	{id = 32717, chance = 4262},
-	{id = 36434, chance = 3870},
-	{id = 32715, chance = 2748},
-	{id = 8910, chance = 2636},
-	{id = 36909, chance = 168},
-	{id = 36809, chance = 168},
-	{id = 36910, chance = 112},
-	{id = 36806, chance = 112},
-	{id = 36811, chance = 112},
-	{id = 36808, chance = 112},
-	{id = 36814, chance = 56}
+	{id = 2152, chance = 100000, maxCount = 9},
+	{id = 26029, chance = 58530, maxCount = 35},
+	{id = 26031, chance = 56693, maxCount = 37},
+	{id = 2156, chance = 36745, maxCount = 2},
+	{id = 2154, chance = 33596, maxCount = 2},
+	{id = 26030, chance = 31759, maxCount = 11},
+	{id = 28415, chance = 27559, maxCount = 199},
+	{id = 7443, chance = 20210, maxCount = 19},
+	{id = 36808, chance = 20000},
+	{id = 36812, chance = 20000},
+	{id = 36813, chance = 20000},
+	{id = 36806, chance = 20000},
+	{id = 36814, chance = 20000},
+	{id = 7440, chance = 19948, maxCount = 19},
+	{id = 2155, chance = 18373, maxCount = 2},
+	{id = 2158, chance = 17585, maxCount = 2},
+	{id = 7439, chance = 16273, maxCount = 19},
+	{id = "giant shimmering pearl", chance = 15223},
+	{id = 9971, chance = 15223},
+	{id = 2181, chance = 13123},
+	{id = 2160, chance = 9974},
+	{id = 2153, chance = 9449},
+	{id = 25172, chance = 8924, maxCount = 5},
+	{id = 2197, chance = 8924},
+	{id = 7884, chance = 8399},
+	{id = 7885, chance = 6299},
+	{id = 7903, chance = 6037},
+	{id = 32717, chance = 6037},
+	{id = 7887, chance = 4987},
+	{id = 36434, chance = 4462},
+	{id = 8922, chance = 3937},
+	{id = 8910, chance = 2100},
+	{id = 32715, chance = 2100},
+	{id = 36807, chance = 262},
+	{id = 36909, chance = 262},
+	{id = 36809, chance = 262},
+	{id = 36910, chance = 262},
+	{id = 36811, chance = 262},
+	{id = 36810, chance = 262}
 }
 
 mType:register(monster)

@@ -68,15 +68,15 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = -7},
+	{type = COMBAT_EARTHDAMAGE, percent = 30},
+	{type = COMBAT_FIREDAMAGE, percent = 50},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 10},
+	{type = COMBAT_HOLYDAMAGE , percent = -3},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -92,11 +92,13 @@ monster.defenses = {
 
 monster.maxSummons = 3
 monster.summons = {
-	{name = "Acid Blob", chance = 15, interval = 2000, max = 1}
+	{name = "Acid Blob", chance = 15, interval = 2000, max = 3}
 }
 
 monster.loot = {
 	{id = 10298, chance = 80000},
+	{id = 10303, chance = 20000},
+	{id = 10297, chance = 20000},
 	{id = 10313, chance = 20000}
 }
 

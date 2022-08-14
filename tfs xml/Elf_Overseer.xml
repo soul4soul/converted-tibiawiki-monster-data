@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Elf Overseer" nameDescription="an elf overseer" experience="290" speed="176" manacost="0">
+<monster name="Elf Overseer" nameDescription="an elf overseer" race="blood" experience="290" speed="176" manacost="0">
 	<health now="500" max="500" />
 	<look type="159" head="21" body="76" legs="95" feet="116" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,34 +30,29 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="20" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="-5" />
+		<element deathPercent="10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-75" />
-	</attacks>
-	<defenses armor="15" defense="15">
-		<defense name="healing" interval="2000" chance="20" min="50" max="72" />
-	</defenses>
+	<defenses armor="15" defense="15" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Do YOU want some more water, yes? YES?" yell="false" />
 		<voice sentence="DOWN WITH THE FIRES OF IGNORANCE!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="51429" countmax="50" />
-		<item id="10552" name="elvish talisman" chance="20000" />
-		<item id="2689" name="bread" chance="14286" countmax="3" />
-		<item id="7618" name="health potion" chance="14286" />
-		<item id="2513" name="battle shield" chance="11429" />
-		<item id="5922" name="holy orchid" chance="8571" />
-		<item id="7620" name="mana potion" chance="8571" />
-		<item id="7449" name="crystal sword" chance="5714" />
+		<item id="2148" name="gold coin" chance="52778" countmax="50" />
+		<item id="10552" name="elvish talisman" chance="19444" />
+		<item id="2689" name="bread" chance="13889" countmax="3" />
+		<item id="7618" name="health potion" chance="13889" />
+		<item id="2513" name="battle shield" chance="11111" />
+		<item id="7620" name="mana potion" chance="8333" />
+		<item id="5922" name="holy orchid" chance="8333" />
+		<item id="7449" name="crystal sword" chance="5556" />
 	</loot>
 </monster>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Scion of Havoc")
 local monster = {}
 
 monster.name = "The Scion Of Havoc"
-monster.description = ""
+monster.description = "The Scion of Havoc"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

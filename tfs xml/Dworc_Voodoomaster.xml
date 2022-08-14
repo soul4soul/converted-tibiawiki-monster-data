@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dworc Voodoomaster" nameDescription="a dworc voodoomaster" experience="55" speed="150" manacost="0">
+<monster name="Dworc Voodoomaster" nameDescription="a dworc voodoomaster" race="blood" experience="55" speed="150" manacost="0">
 	<health now="80" max="80" />
 	<look type="214" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,17 +31,20 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="35" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-20" />
+		<attack name="outfit" interval="2000" chance="15" monster="Chicken" duration="5000" />
+		<attack name="poisonfield" interval="2000" chance="15" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="poison" />
+		</attack>
 	</attacks>
 	<defenses armor="3" defense="3">
 		<defense name="healing" interval="2000" chance="20" min="8" max="20" />
@@ -55,16 +58,16 @@
 		<voice sentence="Prek tars, dekklep zurk." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="74832" countmax="17" />
-		<item id="2467" name="leather armor" chance="10090" />
-		<item id="2230" name="bone" chance="5814" />
-		<item name="torch" chance="5546" />
-		<item id="2231" name="big bone" chance="3065" />
-		<item id="2229" name="skull (item)" chance="1973" countmax="3" />
-		<item id="2411" name="poison dagger" chance="1009" />
-		<item id="7618" name="health potion" chance="586" />
-		<item id="2174" name="strange symbol" chance="503" />
-		<item id="3967" name="tribal mask" chance="486" />
-		<item id="3955" name="voodoo doll" chance="120" />
+		<item id="2148" name="gold coin" chance="74837" countmax="17" />
+		<item id="2467" name="leather armor" chance="10096" />
+		<item id="2230" name="bone" chance="5804" />
+		<item name="torch" chance="5527" />
+		<item id="2231" name="big bone" chance="3068" />
+		<item id="2229" name="skull (item)" chance="1979" countmax="3" />
+		<item id="2411" name="poison dagger" chance="1008" />
+		<item id="7618" name="health potion" chance="584" />
+		<item id="2174" name="strange symbol" chance="508" />
+		<item id="3967" name="tribal mask" chance="485" />
+		<item id="3955" name="voodoo doll" chance="119" />
 	</loot>
 </monster>

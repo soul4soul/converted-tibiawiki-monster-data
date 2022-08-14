@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Zamulosh" nameDescription="" experience="50000" speed="0" manacost="0">
+<monster name="Zamulosh" nameDescription="Zamulosh" race="blood" experience="50000" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,34 +31,46 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="-1" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element holyPercent="-1" />
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="18417" name="brown crystal splinter" chance="100000" countmax="6" />
-		<item id="2148" name="gold coin" chance="100000" countmax="101" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="35" />
+		<item id="2148" name="gold coin" chance="100000" countmax="179" />
 		<item id="25172" name="silver token" chance="100000" />
-		<item id="2165" name="stealth ring" chance="100000" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="28" />
 		<item id="2169" name="time ring" chance="100000" />
-		<item id="6500" name="demonic essence" chance="80000" />
-		<item id="8472" name="great spirit potion" chance="80000" countmax="10" />
-		<item id="18416" name="green crystal splinter" chance="80000" countmax="6" />
-		<item id="18418" name="blue crystal splinter" chance="60000" countmax="6" />
-		<item id="6558" name="flask of demonic blood" chance="40000" countmax="5" />
-		<item id="7590" name="great mana potion" chance="40000" countmax="5" />
-		<item id="2154" name="yellow gem" chance="40000" />
+		<item id="2165" name="stealth ring" chance="100000" />
+		<item id="18418" name="blue crystal splinter" chance="100000" countmax="10" />
+		<item id="8473" name="ultimate health potion" chance="66667" countmax="13" />
+		<item id="18417" name="brown crystal splinter" chance="66667" countmax="6" />
+		<item id="6500" name="demonic essence" chance="66667" />
+		<item id="8472" name="great spirit potion" chance="66667" countmax="15" />
+		<item name="giant shimmering pearl" chance="50000" />
+		<item id="2149" name="small emerald" chance="50000" countmax="4" />
+		<item id="18416" name="green crystal splinter" chance="50000" countmax="11" />
+		<item id="6558" name="flask of demonic blood" chance="33333" countmax="6" />
+		<item id="9970" name="small topaz" chance="20000" />
+		<item id="25418" name="maimer" chance="20000" />
+		<item id="25382" name="rift shield" chance="20000" />
+		<item id="2154" name="yellow gem" chance="20000" />
 		<item id="2156" name="red gem" chance="20000" />
-		<item id="2150" name="small amethyst" chance="20000" countmax="5" />
-		<item id="2146" name="small sapphire" chance="20000" countmax="5" />
-		<item id="9970" name="small topaz" chance="20000" countmax="5" />
-		<item id="8473" name="ultimate health potion" chance="20000" countmax="10" />
+		<item id="8878" name="crystalline armor" chance="20000" />
+		<item id="2147" name="small ruby" chance="20000" countmax="5" />
+		<item id="2155" name="green gem" chance="16667" />
+		<item id="25411" name="book of lies" chance="16667" />
+		<item id="2146" name="small sapphire" chance="16667" countmax="3" />
+		<item id="2150" name="small amethyst" chance="16667" countmax="9" />
+		<item id="2158" name="blue gem" chance="16667" />
+		<item id="7590" name="great mana potion" chance="16667" countmax="6" />
+		<item id="2214" name="ring of healing" chance="16667" />
+		<item id="8902" name="spellbook of mind control" chance="16667" />
+		<item id="25523" name="rift crossbow" chance="16667" />
 	</loot>
 </monster>

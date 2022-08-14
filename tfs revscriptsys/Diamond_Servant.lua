@@ -68,14 +68,14 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 75},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = -15},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -89,23 +89,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 94021, maxCount = 179},
-	{id = 5944, chance = 44956},
-	{id = 2177, chance = 9410},
-	{id = 7589, chance = 6069},
-	{id = 7588, chance = 5832},
-	{id = "crystal pedestal", chance = 5244},
-	{id = 9690, chance = 5028},
-	{id = 10572, chance = 4971},
-	{id = 2164, chance = 909},
-	{id = 7889, chance = 699},
-	{id = 2154, chance = 557},
-	{id = 13758, chance = 552},
-	{id = 2189, chance = 552},
-	{id = 7440, chance = 415},
-	{id = 10221, chance = 110},
-	{id = 8878, chance = 16},
-	{id = 7428, chance = 11}
+	{id = 2148, chance = 94013, maxCount = 179},
+	{id = 5944, chance = 44921},
+	{id = 2177, chance = 9419},
+	{id = 7589, chance = 6058},
+	{id = 7588, chance = 5880},
+	{id = "crystal pedestal", chance = 5222},
+	{id = 9690, chance = 4997},
+	{id = 10572, chance = 4962},
+	{id = 2164, chance = 903},
+	{id = 7889, chance = 714},
+	{id = 2154, chance = 556},
+	{id = 2189, chance = 546},
+	{id = 13758, chance = 546},
+	{id = 7440, chance = 413},
+	{id = 10221, chance = 117},
+	{id = 8878, chance = 15},
+	{id = 7428, chance = 10}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The Obliverator" nameDescription="" experience="6000" speed="0" manacost="0">
+<monster name="The Obliverator" nameDescription="The Obliverator" race="blood" experience="6000" speed="0" manacost="0">
 	<health now="9020" max="9020" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="50" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="-1" />
+		<element deathPercent="1" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-700" />
@@ -48,6 +48,6 @@
 		<voice sentence="NO ONE WILL BEAT ME" yell="false" />
 	</voices>
 	<summons maxSummons="4">
-		<voice name="Fire Elemental" interval="2000" chance="15" max="1" />
+		<voice name="Fire Elemental" interval="2000" chance="15" max="4" />
 	</summons>
 </monster>

@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Faun"
 monster.description = "a memory of a faun"
-monster.experience = 0
+monster.experience = 1600
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3500
+monster.maxHealth = 3500
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,21 +86,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 159},
-	{id = 7588, chance = 18483, maxCount = 2},
-	{id = 27618, chance = 12690},
-	{id = 2792, chance = 12138, maxCount = 2},
-	{id = 7759, chance = 11724, maxCount = 2},
-	{id = 7591, chance = 9379, maxCount = 2},
-	{id = 2760, chance = 9241},
-	{id = 27039, chance = 7448, maxCount = 2},
-	{id = 2074, chance = 5517},
-	{id = 37531, chance = 4000},
-	{id = 1294, chance = 3172, maxCount = 5},
-	{id = 37468, chance = 1379},
-	{id = 37530, chance = 828},
-	{id = "die", chance = 276},
-	{id = 5015, chance = 276}
+	{id = 2148, chance = 100000, maxCount = 148},
+	{id = 7588, chance = 20192, maxCount = 2},
+	{id = 2792, chance = 15385, maxCount = 2},
+	{id = 7591, chance = 12500, maxCount = 2},
+	{id = 27618, chance = 12019},
+	{id = 2760, chance = 9615},
+	{id = 7759, chance = 8654, maxCount = 2},
+	{id = 2074, chance = 7692},
+	{id = 27039, chance = 6250, maxCount = 2},
+	{id = 1294, chance = 6250, maxCount = 5},
+	{id = 37531, chance = 4808},
+	{id = 5015, chance = 4000},
+	{id = 37530, chance = 962},
+	{id = 37468, chance = 481},
+	{id = "die", chance = 481}
 }
 
 mType:register(monster)

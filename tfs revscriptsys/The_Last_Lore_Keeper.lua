@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Last Lore Keeper")
 local monster = {}
 
 monster.name = "The Last Lore Keeper"
-monster.description = ""
+monster.description = "The Last Lore Keeper"
 monster.experience = 45000
 monster.outfit = {
 	lookType = 0,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = true,
 	canWalkOnFire = true,
@@ -68,20 +68,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 25},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = 15},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 35},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 60}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000}
 }
 
 monster.defenses = {
@@ -90,55 +89,62 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 364},
 	{id = 10549, chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 200},
 	{id = 24849, chance = 100000},
-	{id = 25377, chance = 99627, maxCount = 3},
-	{id = 5880, chance = 99627},
-	{id = 5887, chance = 99627},
-	{id = 2152, chance = 99627, maxCount = 35},
-	{id = 25172, chance = 99627, maxCount = 4},
-	{id = 18413, chance = 73881, maxCount = 6},
-	{id = 18414, chance = 67164, maxCount = 10},
-	{id = 18415, chance = 64925, maxCount = 3},
-	{id = 7590, chance = 57836, maxCount = 10},
-	{id = 8473, chance = 54104, maxCount = 10},
-	{id = 8472, chance = 53358, maxCount = 10},
-	{id = 2156, chance = 27985},
-	{id = 2146, chance = 27612, maxCount = 20},
-	{id = 2154, chance = 26119},
-	{id = 2149, chance = 20896, maxCount = 20},
-	{id = 9971, chance = 20522},
-	{id = 2158, chance = 19030},
-	{id = 24850, chance = 17164, maxCount = 2},
-	{id = 10577, chance = 16791},
-	{id = 9970, chance = 16418, maxCount = 20},
-	{id = "giant shimmering pearl", chance = 15672},
-	{id = 2155, chance = 15672},
-	{id = 5909, chance = 14925, maxCount = 4},
-	{id = 5904, chance = 14552},
-	{id = 2150, chance = 14179, maxCount = 20},
-	{id = 2147, chance = 14179, maxCount = 20},
-	{id = "ring of red plasma", chance = 12687},
-	{id = 5891, chance = 11567},
-	{id = 2436, chance = 11194},
-	{id = 2153, chance = 10821},
-	{id = 7437, chance = 9701},
-	{id = "part of a rune", chance = 5597},
-	{id = 8857, chance = 3731},
-	{id = 8879, chance = 2985},
-	{id = 3972, chance = 1866},
-	{id = 2466, chance = 1866},
-	{id = 2452, chance = 1493},
-	{id = 8904, chance = 1493},
-	{id = 27632, chance = 746},
-	{id = 27631, chance = 746},
-	{id = 27627, chance = 746},
-	{id = 27628, chance = 746},
-	{id = 7418, chance = 746},
-	{id = 18450, chance = 373},
-	{id = 5809, chance = 373},
-	{id = 22414, chance = 373}
+	{id = 25377, chance = 96875, maxCount = 3},
+	{id = 5880, chance = 96875, maxCount = 5},
+	{id = 5887, chance = 96875},
+	{id = 2152, chance = 96875, maxCount = 35},
+	{id = 25172, chance = 96875, maxCount = 4},
+	{id = 18413, chance = 75000, maxCount = 9},
+	{id = 7590, chance = 71875, maxCount = 10},
+	{id = 18414, chance = 68750, maxCount = 10},
+	{id = 8472, chance = 65625, maxCount = 12},
+	{id = 18415, chance = 62500, maxCount = 5},
+	{id = 8473, chance = 40625, maxCount = 15},
+	{id = 5904, chance = 28125},
+	{id = 2156, chance = 28125},
+	{id = 9970, chance = 25000, maxCount = 35},
+	{id = 2149, chance = 25000, maxCount = 36},
+	{id = "giant shimmering pearl", chance = 25000},
+	{id = 2154, chance = 25000},
+	{id = 2146, chance = 25000, maxCount = 37},
+	{id = 9971, chance = 25000},
+	{id = 10577, chance = 21875},
+	{id = 2155, chance = 21875},
+	{id = 27613, chance = 20000},
+	{id = 7418, chance = 20000},
+	{id = 27615, chance = 20000},
+	{id = 27614, chance = 20000},
+	{id = 27612, chance = 20000},
+	{id = 27611, chance = 20000},
+	{id = 27610, chance = 20000},
+	{id = 27628, chance = 20000},
+	{id = 18450, chance = 20000},
+	{id = 2436, chance = 20000},
+	{id = 2466, chance = 20000},
+	{id = 22414, chance = 20000},
+	{id = 5809, chance = 20000},
+	{id = 7450, chance = 20000},
+	{id = 27632, chance = 20000},
+	{id = 8904, chance = 20000},
+	{id = 2147, chance = 15625, maxCount = 23},
+	{id = 5909, chance = 15625, maxCount = 7},
+	{id = 24850, chance = 15625, maxCount = 3},
+	{id = 2158, chance = 12500},
+	{id = "ring of red plasma", chance = 12500},
+	{id = 7437, chance = 9375},
+	{id = 2153, chance = 9375},
+	{id = 5891, chance = 9375},
+	{id = 2150, chance = 9375, maxCount = 37},
+	{id = 2452, chance = 6250},
+	{id = 8857, chance = 6250},
+	{id = 3972, chance = 6250},
+	{id = "part of a rune", chance = 6250},
+	{id = 8879, chance = 3125},
+	{id = 27631, chance = 3125},
+	{id = 27627, chance = 3125}
 }
 
 mType:register(monster)

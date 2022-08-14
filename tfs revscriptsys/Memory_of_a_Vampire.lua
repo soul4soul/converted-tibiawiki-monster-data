@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Vampire"
 monster.description = "a memory of a vampire"
-monster.experience = 0
+monster.experience = 1550
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3650
+monster.maxHealth = 3650
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,21 +86,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 92000, maxCount = 60},
-	{id = 2152, chance = 49333},
-	{id = 2396, chance = 8000},
-	{id = 2229, chance = 6222},
-	{id = 2747, chance = 5333},
-	{id = 7588, chance = 4889},
-	{id = 2383, chance = 4000},
-	{id = 37531, chance = 2222},
-	{id = 2412, chance = 1778},
-	{id = 37468, chance = 1778},
-	{id = 2144, chance = 1333},
-	{id = 37530, chance = 889},
-	{id = 2479, chance = 889},
-	{id = 2172, chance = 444},
-	{id = 2534, chance = 444}
+	{id = 2148, chance = 66667, maxCount = 31},
+	{id = 2172, chance = 20000},
+	{id = 2152, chance = 20000},
+	{id = 2747, chance = 20000},
+	{id = 2144, chance = 20000},
+	{id = 37531, chance = 20000},
+	{id = 7588, chance = 20000},
+	{id = 2479, chance = 20000},
+	{id = 37530, chance = 20000},
+	{id = 37468, chance = 20000},
+	{id = 2383, chance = 20000},
+	{id = 2396, chance = 20000},
+	{id = 2229, chance = 20000},
+	{id = 2412, chance = 20000},
+	{id = 2534, chance = 20000}
 }
 
 mType:register(monster)

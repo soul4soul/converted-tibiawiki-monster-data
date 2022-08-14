@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("High Templar Cobrass")
 local monster = {}
 
 monster.name = "High Templar Cobrass"
-monster.description = ""
+monster.description = "High Templar Cobrass"
 monster.experience = 515
 monster.outfit = {
 	lookType = 0,
@@ -66,13 +66,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 1},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -87,9 +87,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 10},
+	{id = 2148, chance = 100000, maxCount = 100},
+	{id = 5881, chance = 100000},
 	{id = 5876, chance = 100000},
-	{id = 5881, chance = 100000}
+	{id = 3975, chance = 20000},
+	{id = 2463, chance = 20000},
+	{id = 3351, chance = 20000},
+	{id = 2008, chance = 7500}
 }
 
 mType:register(monster)

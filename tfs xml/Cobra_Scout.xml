@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Cobra Scout" nameDescription="a cobra scout" experience="7310" speed="300" manacost="0">
+<monster name="Cobra Scout" nameDescription="a cobra scout" race="blood" experience="7310" speed="300" manacost="0">
 	<health now="8500" max="8500" />
 	<look type="1217" head="1" body="1" legs="102" feet="78" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,7 +31,7 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
@@ -40,9 +40,6 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
-	</attacks>
 	<defenses armor="81" defense="81" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Think I can't see you? Think again..." yell="false" />
@@ -50,20 +47,20 @@
 		<voice sentence="What are you looking for?" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="73337" countmax="9" />
-		<item id="24850" name="opal" chance="23057" countmax="5" />
-		<item id="7850" name="earth arrow" chance="20721" countmax="28" />
-		<item id="34334" name="cobra crest" chance="14119" />
-		<item id="20098" name="cheesy figurine" chance="13763" />
-		<item id="9971" name="gold ingot" chance="6399" />
-		<item id="2197" name="stone skin amulet" chance="5942" />
-		<item id="10219" name="sacred tree amulet" chance="4926" />
-		<item id="2156" name="red gem" chance="3809" />
-		<item id="2149" name="small emerald" chance="3454" countmax="2" />
-		<item id="2154" name="yellow gem" chance="3149" />
-		<item id="2155" name="green gem" chance="2235" />
-		<item id="18415" name="green crystal shard" chance="2133" />
-		<item id="2153" name="violet gem" chance="1727" />
-		<item name="ring of red plasma" chance="609" />
+		<item id="2152" name="platinum coin" chance="73415" countmax="9" />
+		<item id="24850" name="opal" chance="22707" countmax="5" />
+		<item id="7850" name="earth arrow" chance="20694" countmax="28" />
+		<item id="34334" name="cobra crest" chance="14392" />
+		<item id="20098" name="cheesy figurine" chance="13721" />
+		<item id="2197" name="stone skin amulet" chance="6152" />
+		<item id="9971" name="gold ingot" chance="6078" />
+		<item id="10219" name="sacred tree amulet" chance="4735" />
+		<item id="2156" name="red gem" chance="4288" />
+		<item id="2149" name="small emerald" chance="3393" countmax="2" />
+		<item id="2154" name="yellow gem" chance="2946" />
+		<item id="18415" name="green crystal shard" chance="2163" />
+		<item id="2155" name="green gem" chance="2088" />
+		<item id="2153" name="violet gem" chance="1641" />
+		<item name="ring of red plasma" chance="522" />
 	</loot>
 </monster>

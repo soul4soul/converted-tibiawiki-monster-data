@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Lyxoph" nameDescription="" experience="10000" speed="0" manacost="0">
+<monster name="Lyxoph" nameDescription="Lyxoph" race="blood" experience="10000" speed="0" manacost="0">
 	<health now="45000" max="45000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,5 +40,14 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<defenses armor="10" defense="5" />
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="-100" max="-250" />
+		<attack name="outfit" interval="2000" chance="15" item="2323" duration="5000" />
+	</attacks>
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="600" max="900" />
+	</defenses>
+	<summons maxSummons="3">
+		<voice name="Tin Lizzard of Lyxoph" interval="2000" chance="15" max="3" />
+	</summons>
 </monster>

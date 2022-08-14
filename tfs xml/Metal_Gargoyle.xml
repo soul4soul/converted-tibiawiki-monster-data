@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Metal Gargoyle" nameDescription="a metal gargoyle" experience="1278" speed="190" manacost="0">
+<monster name="Metal Gargoyle" nameDescription="a metal gargoyle" race="undead" experience="1278" speed="190" manacost="0">
 	<health now="2100" max="2100" />
 	<look type="601" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,26 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="15" />
+		<element energyPercent="-10" />
+		<element earthPercent="100" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-5" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="80" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
+		<attack name="death" interval="2000" chance="15" min="0" max="-200" length="8" spread="0">
+			<attribute key="areaEffect" value="yellowenergy" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="0" max="-100" radius="3" target="1">
+			<attribute key="shootEffect" value="suddendeath" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
 	</attacks>
 	<defenses armor="60" defense="60" />
 	<voices interval="5000" chance="10">
@@ -49,20 +56,20 @@
 		<voice sentence="*stomp*" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="98919" countmax="198" />
-		<item id="2152" name="platinum coin" chance="39244" countmax="2" />
-		<item id="23564" name="metal jaw" chance="14931" />
-		<item id="7589" name="strong mana potion" chance="8104" countmax="2" />
-		<item id="7588" name="strong health potion" chance="7269" countmax="2" />
-		<item id="24124" name="bronze gear wheel" chance="2554" />
-		<item id="9810" name="slightly rusted armor" chance="2554" />
-		<item id="23540" name="metal spats" chance="2505" />
-		<item id="11227" name="shiny stone" chance="1081" />
-		<item id="8910" name="underworld rod" chance="1081" />
-		<item id="23542" name="metal bat" chance="982" />
-		<item id="23539" name="alloy legs" chance="884" />
-		<item id="5880" name="iron ore" chance="688" />
-		<item id="2168" name="life ring" chance="491" />
-		<item id="2167" name="energy ring" chance="246" />
+		<item id="2148" name="gold coin" chance="98959" countmax="200" />
+		<item id="2152" name="platinum coin" chance="39469" countmax="2" />
+		<item id="23564" name="metal jaw" chance="15213" />
+		<item id="7589" name="strong mana potion" chance="8001" countmax="2" />
+		<item id="7588" name="strong health potion" chance="7284" countmax="2" />
+		<item id="24124" name="bronze gear wheel" chance="2619" />
+		<item id="9810" name="slightly rusted armor" chance="2548" />
+		<item id="23540" name="metal spats" chance="2332" />
+		<item id="11227" name="shiny stone" chance="1256" />
+		<item id="8910" name="underworld rod" chance="1041" />
+		<item id="23542" name="metal bat" chance="861" />
+		<item id="23539" name="alloy legs" chance="825" />
+		<item id="5880" name="iron ore" chance="610" />
+		<item id="2168" name="life ring" chance="466" />
+		<item id="2167" name="energy ring" chance="251" />
 	</loot>
 </monster>

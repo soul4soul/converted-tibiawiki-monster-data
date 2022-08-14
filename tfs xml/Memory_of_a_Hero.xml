@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Hero" nameDescription="a memory of a hero" experience="0" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Hero" nameDescription="a memory of a hero" race="blood" experience="1750" speed="0" manacost="0">
+	<health now="3850" max="3850" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -51,8 +51,8 @@
 		<item id="7591" name="great health potion" chance="7907" />
 		<item id="2652" name="green tunic" chance="6512" />
 		<item id="2121" name="wedding ring" chance="3721" />
-		<item id="37530" name="bottle of champagne" chance="2791" />
 		<item id="2391" name="war hammer" chance="2791" />
+		<item id="37530" name="bottle of champagne" chance="2791" />
 		<item id="2392" name="fire sword" chance="2326" />
 		<item id="2120" name="rope" chance="2326" />
 		<item id="37531" name="candy floss (large)" chance="1860" />

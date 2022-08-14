@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Glooth Brigand" nameDescription="a glooth brigand" experience="1900" speed="320" manacost="0">
+<monster name="Glooth Brigand" nameDescription="a glooth brigand" race="blood" experience="1900" speed="320" manacost="0">
 	<health now="2400" max="2400" />
 	<look type="137" head="114" body="114" legs="110" feet="114" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="25" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="-5" />
+		<element deathPercent="15" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
@@ -51,31 +51,31 @@
 	</defenses>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="79914" countmax="3" />
-		<item id="23574" name="glooth bag" chance="9825" countmax="2" />
-		<item id="24185" name="tainted glooth capsule" chance="8048" />
-		<item id="8472" name="great spirit potion" chance="3542" />
+		<item id="2152" name="platinum coin" chance="79915" countmax="3" />
+		<item id="23574" name="glooth bag" chance="9824" countmax="2" />
+		<item id="24185" name="tainted glooth capsule" chance="8047" />
+		<item id="8472" name="great spirit potion" chance="3540" />
 		<item id="7590" name="great mana potion" chance="3489" />
-		<item id="8473" name="ultimate health potion" chance="3441" />
-		<item id="24183" name="glooth capsule" chance="3116" />
+		<item id="8473" name="ultimate health potion" chance="3444" />
+		<item id="24183" name="glooth capsule" chance="3115" />
 		<item id="23517" name="glooth steak" chance="2502" />
 		<item id="23514" name="glooth sandwich" chance="2487" />
-		<item id="7632" name="giant shimmering pearl (green)" chance="1496" />
-		<item id="23529" name="glooth spear" chance="999" />
-		<item id="23549" name="glooth club" chance="999" />
-		<item id="23550" name="glooth blade" chance="996" />
-		<item id="23551" name="glooth axe" chance="982" />
-		<item id="23554" name="glooth amulet" chance="969" />
+		<item id="7632" name="giant shimmering pearl (green)" chance="1495" />
+		<item id="23549" name="glooth club" chance="1001" />
+		<item id="23529" name="glooth spear" chance="1000" />
+		<item id="23550" name="glooth blade" chance="998" />
+		<item id="23551" name="glooth axe" chance="981" />
+		<item id="23554" name="glooth amulet" chance="968" />
 		<item id="7903" name="terra hood" chance="705" />
-		<item id="23536" name="rubber cap" chance="636" />
-		<item id="7884" name="terra mantle" chance="601" />
+		<item id="23536" name="rubber cap" chance="637" />
+		<item id="7884" name="terra mantle" chance="602" />
 		<item id="7885" name="terra legs" chance="499" />
-		<item id="7886" name="terra boots" chance="490" />
+		<item id="7886" name="terra boots" chance="489" />
 		<item id="7887" name="terra amulet" chance="399" />
 		<item id="2155" name="green gem" chance="198" />
 		<item id="23538" name="heat core" chance="157" />
 		<item id="7386" name="mercenary sword" chance="146" />
-		<item id="7419" name="dreaded cleaver" chance="102" />
+		<item id="7419" name="dreaded cleaver" chance="101" />
 		<item id="7412" name="butcher's axe" chance="53" />
 	</loot>
 </monster>

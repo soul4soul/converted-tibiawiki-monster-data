@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 2,
+	color = 35
 }
 
 monster.voices = {
@@ -66,13 +66,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -25},
+	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -89,22 +89,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 80075, maxCount = 4},
-	{id = 12447, chance = 10150},
-	{id = 7378, chance = 8224, maxCount = 7},
-	{id = 2178, chance = 6955},
-	{id = 7591, chance = 6532, maxCount = 2},
-	{id = 7368, chance = 4981, maxCount = 10},
-	{id = 2670, chance = 4558},
-	{id = 2145, chance = 3947, maxCount = 3},
-	{id = 5895, chance = 2068},
-	{id = 7383, chance = 1175},
-	{id = 18413, chance = 1081},
-	{id = 7897, chance = 517},
-	{id = 5741, chance = 517},
-	{id = 7414, chance = 470},
-	{id = 8887, chance = 188},
-	{id = 13305, chance = 47}
+	{id = 2152, chance = 80235, maxCount = 4},
+	{id = 12447, chance = 9798},
+	{id = 7378, chance = 8032, maxCount = 7},
+	{id = 2178, chance = 7023},
+	{id = 7591, chance = 6350, maxCount = 2},
+	{id = 7368, chance = 5004, maxCount = 10},
+	{id = 2670, chance = 4794, maxCount = 3},
+	{id = 2145, chance = 3827, maxCount = 3},
+	{id = 5895, chance = 1976},
+	{id = 7383, chance = 1135},
+	{id = 18413, chance = 1009},
+	{id = 7897, chance = 547},
+	{id = 5741, chance = 463},
+	{id = 7414, chance = 421},
+	{id = 8887, chance = 168},
+	{id = 13305, chance = 42}
 }
 
 mType:register(monster)

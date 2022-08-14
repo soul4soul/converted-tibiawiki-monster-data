@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Thul" nameDescription="" experience="2700" speed="0" manacost="0">
+<monster name="Thul" nameDescription="" race="blood" experience="2700" speed="0" manacost="0">
 	<health now="2950" max="2950" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,13 +30,13 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="-15" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -51,7 +51,7 @@
 		<voice sentence="Boohaa!" yell="false" />
 	</voices>
 	<summons maxSummons="2">
-		<voice name="Massive Water Elemental" interval="2000" chance="15" max="1" />
+		<voice name="Massive Water Elemental" interval="2000" chance="15" max="2" />
 	</summons>
 	<loot>
 		<item id="5895" name="fish fin" chance="100000" />
@@ -62,5 +62,7 @@
 		<item id="7383" name="relic sword" chance="33000" />
 		<item id="2497" name="crusader helmet" chance="18000" />
 		<item id="2487" name="crown armor" chance="8000" />
+		<item id="2189" name="wand of cosmic energy" chance="7500" />
+		<item id="5741" name="skull helmet" chance="7500" />
 	</loot>
 </monster>

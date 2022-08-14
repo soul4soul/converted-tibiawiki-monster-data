@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Wasp" nameDescription="a wasp" experience="24" speed="320" manacost="280">
+<monster name="Wasp" nameDescription="a wasp" race="blood" experience="24" speed="320" manacost="280">
 	<health now="35" max="35" />
 	<look type="44" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,8 +31,8 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -41,13 +41,13 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-20" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-20" poison="34" />
 	</attacks>
 	<defenses armor="4" defense="4" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Bssssss" yell="false" />
 	</voices>
 	<loot>
-		<item id="5902" name="honeycomb" chance="3042" />
+		<item id="5902" name="honeycomb" chance="2984" />
 	</loot>
 </monster>

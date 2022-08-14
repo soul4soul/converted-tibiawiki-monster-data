@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Feroxa" nameDescription="" experience="0" speed="0" manacost="0">
+<monster name="Feroxa" nameDescription="Feroxa" race="blood" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -30,37 +30,56 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
+		<element holyPercent="-10" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-1500" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2158" name="blue gem" chance="100000" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="20" />
+		<item id="2147" name="small ruby" chance="100000" countmax="4" />
+		<item id="18414" name="violet crystal shard" chance="100000" />
+		<item id="2145" name="small diamond" chance="100000" countmax="5" />
+		<item name="moonlight crystal" chance="100000" countmax="2" />
 		<item id="7591" name="great health potion" chance="100000" countmax="5" />
-		<item id="7590" name="great mana potion" chance="100000" countmax="6" />
-		<item id="24739" name="moonlight crystals" chance="100000" countmax="6" />
-		<item id="2156" name="red gem" chance="100000" />
-		<item id="2145" name="small diamond" chance="100000" countmax="3" />
-		<item id="2147" name="small ruby" chance="100000" countmax="3" />
-		<item id="8473" name="ultimate health potion" chance="100000" />
-		<item id="24760" name="trophy of feroxa" chance="62500" />
-		<item id="18414" name="violet crystal shard" chance="62500" />
-		<item id="7419" name="dreaded cleaver" chance="25000" />
-		<item id="2152" name="platinum coin" chance="25000" countmax="10" />
-		<item id="18420" name="red crystal fragment" chance="25000" />
-		<item id="8889" name="skullcracker armor" chance="25000" />
-		<item id="24740" name="wolf backpack" chance="25000" />
-		<item id="2195" name="boots of haste" chance="12500" />
-		<item id="24718" name="werewolf helmet" chance="12500" />
+		<item id="18420" name="red crystal fragment" chance="100000" />
+		<item id="7590" name="great mana potion" chance="100000" countmax="2" />
+		<item id="2197" name="stone skin amulet" chance="20000" />
+		<item id="7428" name="bonebreaker" chance="20000" />
+		<item id="8922" name="wand of voodoo" chance="20000" />
+		<item id="2150" name="small amethyst" chance="20000" />
+		<item id="18416" name="green crystal splinter" chance="20000" />
+		<item id="2148" name="gold coin" chance="20000" />
+		<item id="18417" name="brown crystal splinter" chance="20000" />
+		<item id="2146" name="small sapphire" chance="20000" />
+		<item id="8472" name="great spirit potion" chance="20000" />
+		<item id="8910" name="underworld rod" chance="20000" />
+		<item id="24743" name="wereboar loincloth" chance="20000" />
+		<item id="2186" name="moonlight rod" chance="20000" />
+		<item id="18415" name="green crystal shard" chance="20000" />
+		<item id="2438" name="epee" chance="20000" />
+		<item id="18418" name="blue crystal splinter" chance="20000" />
+		<item id="8889" name="skullcracker armor" chance="20000" />
+		<item id="9970" name="small topaz" chance="20000" />
+		<item id="24741" name="fur armor" chance="20000" />
+		<item id="24742" name="badger boots" chance="20000" />
+		<item id="24718" name="werewolf helmet" chance="20000" />
+		<item id="24740" name="wolf backpack" chance="20000" />
+		<item id="24760" name="trophy of feroxa" chance="20000" />
+		<item id="24716" name="werewolf amulet" chance="20000" />
+		<item id="24739" name="moonlight crystals" chance="20000" countmax="6" />
+		<item id="2158" name="blue gem" chance="20000" />
+		<item id="2156" name="red gem" chance="20000" />
+		<item id="7419" name="dreaded cleaver" chance="20000" />
+		<item id="18413" name="blue crystal shard" chance="20000" countmax="5" />
+		<item id="8473" name="ultimate health potion" chance="20000" countmax="5" />
+		<item id="2195" name="boots of haste" chance="20000" />
+		<item id="7436" name="angelic axe" chance="20000" />
 	</loot>
 </monster>

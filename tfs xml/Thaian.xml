@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Thaian" nameDescription="" experience="0" speed="0" manacost="0">
+<monster name="Thaian" nameDescription="Thaian" race="blood" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,28 +29,27 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="90" />
+		<element energyPercent="90" />
+		<element earthPercent="90" />
+		<element firePercent="90" />
 		<element lifedrainPercent="90" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="90" />
+		<element holyPercent="90" />
+		<element deathPercent="85" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2155" name="green gem" chance="92000" />
-		<item id="35289" name="eye of the chasm" chance="60000" />
-		<item id="2154" name="yellow gem" chance="60000" />
-		<item id="35282" name="amber (item)" chance="12000" />
-		<item id="2158" name="blue gem" chance="8000" />
-		<item id="35359" name="death toll" chance="8000" countmax="2" />
-		<item id="35361" name="pair of old bracers" chance="4000" />
+		<item id="2155" name="green gem" chance="66667" />
+		<item id="2158" name="blue gem" chance="33333" />
+		<item id="2154" name="yellow gem" chance="20000" />
+		<item id="35282" name="amber (item)" chance="20000" />
+		<item id="35359" name="death toll" chance="20000" />
+		<item id="35361" name="pair of old bracers" chance="20000" />
+		<item id="35367" name="luminescent crystal pickaxe" chance="20000" />
+		<item id="35289" name="eye of the chasm" chance="20000" />
+		<item id="35360" name="phantasmal hair" chance="20000" />
 	</loot>
 </monster>

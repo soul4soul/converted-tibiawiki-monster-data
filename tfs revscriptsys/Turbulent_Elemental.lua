@@ -5,7 +5,7 @@ monster.name = "Turbulent Elemental"
 monster.description = "a turbulent elemental"
 monster.experience = 19360
 monster.outfit = {
-	lookType = 0,
+	lookType = 1314,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -65,14 +65,14 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = 40},
+	{type = COMBAT_FIREDAMAGE, percent = -20},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 30},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -86,22 +86,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 35000},
-	{id = 8473, chance = 15000},
-	{id = 9971, chance = 15000},
-	{id = 7888, chance = 2500},
-	{id = 7897, chance = 2500},
-	{id = 2153, chance = 2500},
-	{id = 2158, chance = 2500},
-	{id = 2664, chance = 2500},
-	{id = 8911, chance = 2500},
-	{id = 8912, chance = 2500},
-	{id = 10219, chance = 2500},
-	{id = 2197, chance = 7500},
-	{id = 23536, chance = 7500},
-	{id = 24741, chance = 7500},
-	{id = 8878, chance = 4000},
-	{id = 36765, chance = 4000}
+	{id = 2160, chance = 54860},
+	{id = 9971, chance = 16648},
+	{id = 8473, chance = 13631, maxCount = 4},
+	{id = 36765, chance = 4000},
+	{id = 10219, chance = 3799},
+	{id = 2153, chance = 3575},
+	{id = 2158, chance = 3575},
+	{id = 8911, chance = 2793},
+	{id = 8912, chance = 2793},
+	{id = 7888, chance = 2346},
+	{id = 7897, chance = 1453},
+	{id = 2197, chance = 1117},
+	{id = 24741, chance = 1006},
+	{id = 2664, chance = 782},
+	{id = 23536, chance = 670},
+	{id = 8878, chance = 335}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Melting Frozen Horror" nameDescription="a melting frozen horror" experience="0" speed="0" manacost="0">
+<monster name="Melting Frozen Horror" nameDescription="a melting frozen horror" race="blood" experience="0" speed="0" manacost="0">
 	<health now="0" max="0" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,22 +29,68 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="1" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-1" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Chrrrrrk! Chrrrk!" yell="false" />
 	</voices>
+	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="370" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="48" />
+		<item id="10578" name="frosty heart" chance="100000" />
+		<item id="26174" name="spark sphere" chance="100000" />
+		<item id="7441" name="ice cube" chance="100000" />
+		<item id="7449" name="crystal sword" chance="89474" />
+		<item id="2396" name="ice rapier" chance="84211" />
+		<item id="18413" name="blue crystal shard" chance="73684" countmax="5" />
+		<item id="18415" name="green crystal shard" chance="68421" countmax="5" />
+		<item id="7590" name="great mana potion" chance="63158" countmax="11" />
+		<item id="8472" name="great spirit potion" chance="63158" countmax="11" />
+		<item id="18414" name="violet crystal shard" chance="52632" countmax="5" />
+		<item id="8473" name="ultimate health potion" chance="47368" countmax="7" />
+		<item id="25377" name="gold token" chance="31579" />
+		<item id="7459" name="pair of earmuffs" chance="31579" />
+		<item id="2145" name="small diamond" chance="31579" countmax="19" />
+		<item id="2156" name="red gem" chance="26316" />
+		<item id="2147" name="small ruby" chance="26316" countmax="8" />
+		<item id="2154" name="yellow gem" chance="21053" />
+		<item id="2155" name="green gem" chance="21053" />
+		<item id="2158" name="blue gem" chance="21053" />
+		<item id="2497" name="crusader helmet" chance="21053" />
+		<item id="2149" name="small emerald" chance="21053" countmax="18" />
+		<item id="25172" name="silver token" chance="21053" />
+		<item id="2153" name="violet gem" chance="20000" />
+		<item id="2444" name="hammer of wrath" chance="20000" />
+		<item id="27634" name="coal eyes" chance="20000" />
+		<item id="27614" name="part of a rune (five)" chance="20000" />
+		<item id="5892" name="huge chunk of crude iron" chance="20000" />
+		<item id="18450" name="crystalline sword" chance="20000" />
+		<item id="18465" name="shiny blade" chance="20000" />
+		<item id="21697" name="runic ice shield" chance="20000" />
+		<item id="7383" name="relic sword" chance="20000" />
+		<item id="12608" name="broken key ring" chance="20000" />
+		<item id="8878" name="crystalline armor" chance="20000" />
+		<item id="18304" name="crystalline arrow" chance="20000" countmax="100" />
+		<item id="2183" name="hailstorm rod" chance="15789" />
+		<item id="7368" name="assassin star" chance="15789" countmax="116" />
+		<item id="15644" name="ornate crossbow" chance="15789" />
+		<item id="18304" name="crystalline arrow" chance="15789" countmax="187" />
+		<item id="2150" name="small amethyst" chance="15789" countmax="18" />
+		<item id="7290" name="shard" chance="15789" countmax="4" />
+		<item name="giant shimmering pearl" chance="10526" />
+		<item id="27633" name="glowing carrot" chance="7500" />
+		<item id="9970" name="small topaz" chance="5263" countmax="4" />
+		<item id="2445" name="crystal mace" chance="5263" />
+		<item id="8887" name="frozen plate" chance="5263" />
+	</loot>
 </monster>

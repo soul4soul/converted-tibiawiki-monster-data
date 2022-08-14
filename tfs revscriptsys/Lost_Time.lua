@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Lost Time")
 local monster = {}
 
 monster.name = "Lost Time"
-monster.description = ""
+monster.description = "an lost time"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Glitterscale" nameDescription="" experience="700" speed="0" manacost="0">
+<monster name="Glitterscale" nameDescription="Glitterscale" race="blood" experience="700" speed="0" manacost="0">
 	<health now="1000" max="1000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,8 +31,8 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="80" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -41,10 +41,12 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-120" />
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" range="7" radius="1" target="1">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</attack>
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="12506" name="Flexible Dragon Scale" chance="20000" />
+		<item id="12506" name="flexible dragon scale" chance="20000" />
 	</loot>
 </monster>

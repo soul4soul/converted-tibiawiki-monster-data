@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000}
 }
 
 monster.defenses = {
@@ -88,14 +87,14 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 200},
+	{id = 2152, chance = 100000, maxCount = 46},
 	{id = 22396, chance = 100000, maxCount = 2},
 	{id = 22532, chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 101},
-	{id = 2152, chance = 100000, maxCount = 25},
 	{id = 22598, chance = 100000, maxCount = 2},
-	{id = 18417, chance = 47619, maxCount = 5},
-	{id = 18418, chance = 42857, maxCount = 5},
-	{id = 18416, chance = 9524, maxCount = 5}
+	{id = 18417, chance = 44444, maxCount = 9},
+	{id = 18418, chance = 33333, maxCount = 6},
+	{id = 18416, chance = 22222, maxCount = 6}
 }
 
 mType:register(monster)

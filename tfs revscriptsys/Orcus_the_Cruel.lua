@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Orcus the Cruel")
 local monster = {}
 
 monster.name = "Orcus The Cruel"
-monster.description = ""
+monster.description = "Orcus the cruel"
 monster.experience = 280
 monster.outfit = {
 	lookType = 0,
@@ -67,9 +67,9 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = -20},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},

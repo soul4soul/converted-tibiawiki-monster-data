@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Jagged Earth Elemental" nameDescription="a jagged earth elemental" experience="1300" speed="0" manacost="0">
+<monster name="Jagged Earth Elemental" nameDescription="a jagged earth elemental" race="blood" experience="1300" speed="0" manacost="0">
 	<health now="1500" max="1500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,27 +30,22 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="85" />
+		<element earthPercent="100" />
+		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="45" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
-	</attacks>
-	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="150" max="375" />
-	</defenses>
+	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="*STOMP STOMP*" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87298" countmax="175" />
+		<item id="2148" name="gold coin" chance="87298" countmax="180" />
 		<item id="11222" name="lump of earth" chance="48625" />
 		<item id="1294" name="small stone" chance="24919" countmax="10" />
 		<item id="2245" name="twigs" chance="20874" />

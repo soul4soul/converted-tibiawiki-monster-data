@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Muglex Clan Assassin" nameDescription="a muglex clan assassin" experience="48" speed="140" manacost="0">
+<monster name="Muglex Clan Assassin" nameDescription="a muglex clan assassin" race="blood" experience="48" speed="140" manacost="360">
 	<health now="75" max="75" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,16 +40,19 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="6" defense="6" />
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="11" />
+		<item id="2148" name="gold coin" chance="100000" countmax="18" />
 		<item id="2667" name="fish" chance="30000" countmax="2" />
 		<item id="2379" name="dagger" chance="20000" />
-		<item id="2461" name="leather helmet" chance="10000" />
+		<item id="1294" name="small stone" chance="20000" countmax="3" />
+		<item id="2230" name="bone" chance="20000" />
+		<item id="2235" name="mouldy cheese" chance="20000" />
+		<item id="2467" name="leather armor" chance="20000" />
 		<item id="2406" name="short sword" chance="10000" />
 		<item id="2559" name="small axe" chance="10000" />
+		<item id="2461" name="leather helmet" chance="10000" />
+		<item id="2484" name="studded armor" chance="7500" />
+		<item id="2449" name="bone club" chance="2500" />
 	</loot>
 </monster>

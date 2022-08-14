@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Skunk" nameDescription="a skunk" experience="3" speed="136" manacost="200">
+<monster name="Skunk" nameDescription="a skunk" race="blood" experience="3" speed="136" manacost="200">
 	<health now="20" max="20" />
 	<look type="106" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -47,7 +47,7 @@
 		<defense name="healing" interval="2000" chance="20" min="2" max="5" />
 	</defenses>
 	<loot>
-		<item id="9114" name="bulb of garlic" chance="4471" />
-		<item id="11191" name="skunk tail" chance="887" />
+		<item id="9114" name="bulb of garlic" chance="4527" />
+		<item id="11191" name="skunk tail" chance="902" />
 	</loot>
 </monster>

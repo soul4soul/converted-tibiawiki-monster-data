@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Neferi the Spy")
 local monster = {}
 
 monster.name = "Neferi The Spy"
-monster.description = ""
+monster.description = "Neferi the Spy"
 monster.experience = 19650
 monster.outfit = {
 	lookType = 0,
@@ -72,9 +72,9 @@ monster.elements = {
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.attacks = {
@@ -86,30 +86,37 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Skeleton Elite Warrior", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
-	{id = 2160, chance = 44269},
-	{id = 2181, chance = 22925},
-	{id = 2379, chance = 17787},
-	{id = 8473, chance = 11462, maxCount = 4},
-	{id = 9971, chance = 10277},
-	{id = 8472, chance = 8300, maxCount = 2},
-	{id = 2392, chance = 7510},
-	{id = 2183, chance = 4743},
-	{id = 7886, chance = 4743},
-	{id = 7901, chance = 4348},
-	{id = 7903, chance = 3953},
-	{id = 7895, chance = 3557},
-	{id = 2430, chance = 3162},
-	{id = "ring of red plasma", chance = 3162},
-	{id = 7892, chance = 2372},
-	{id = 8901, chance = 2372},
-	{id = 2476, chance = 1976},
-	{id = 18414, chance = 1976},
-	{id = 33979, chance = 1581},
-	{id = 2165, chance = 1581},
-	{id = 2153, chance = 1581},
-	{id = 7902, chance = 1186},
-	{id = 33980, chance = 791}
+	{id = 2160, chance = 44737},
+	{id = 2181, chance = 23355},
+	{id = 39659, chance = 20000},
+	{id = 39658, chance = 20000},
+	{id = 2379, chance = 17434},
+	{id = 8473, chance = 11184, maxCount = 4},
+	{id = 9971, chance = 10855},
+	{id = 8472, chance = 7895, maxCount = 2},
+	{id = 2392, chance = 6908},
+	{id = 2183, chance = 4934},
+	{id = 7886, chance = 4605},
+	{id = 7901, chance = 4276},
+	{id = 7895, chance = 3618},
+	{id = 7903, chance = 3618},
+	{id = 2430, chance = 3618},
+	{id = "ring of red plasma", chance = 3289},
+	{id = 7892, chance = 2961},
+	{id = 8901, chance = 2303},
+	{id = 2476, chance = 1974},
+	{id = 18414, chance = 1974},
+	{id = 2165, chance = 1974},
+	{id = 33979, chance = 1316},
+	{id = 7902, chance = 1316},
+	{id = 2153, chance = 1316},
+	{id = 33980, chance = 658}
 }
 
 mType:register(monster)

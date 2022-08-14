@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Fleshslicer")
 local monster = {}
 
 monster.name = "Fleshslicer"
-monster.description = ""
+monster.description = "Fleshslicer"
 monster.experience = 5500
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300}
 }
 
 monster.defenses = {
@@ -88,20 +87,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 15486, chance = 100000, maxCount = 2},
-	{id = 2148, chance = 100000, maxCount = 185},
+	{id = 2148, chance = 100000, maxCount = 186},
 	{id = 2152, chance = 100000, maxCount = 5},
+	{id = 15486, chance = 100000, maxCount = 2},
 	{id = 15485, chance = 100000},
-	{id = 7590, chance = 82353, maxCount = 2},
-	{id = 16096, chance = 76471, maxCount = 2},
-	{id = 2147, chance = 35294, maxCount = 5},
-	{id = 3964, chance = 29412},
-	{id = 2143, chance = 29412, maxCount = 5},
-	{id = 2156, chance = 23529},
-	{id = 8473, chance = 17647},
-	{id = "giant shimmering pearl", chance = 11765},
-	{id = 7413, chance = 11765},
-	{id = 6300, chance = 5882}
+	{id = 7590, chance = 80000, maxCount = 2},
+	{id = 16096, chance = 70000, maxCount = 2},
+	{id = 2147, chance = 45000, maxCount = 5},
+	{id = 2143, chance = 25000, maxCount = 5},
+	{id = 3964, chance = 25000},
+	{id = 8473, chance = 20000},
+	{id = 2156, chance = 20000},
+	{id = 15643, chance = 20000},
+	{id = "giant shimmering pearl", chance = 10000},
+	{id = 7413, chance = 10000},
+	{id = 6300, chance = 5000}
 }
 
 mType:register(monster)

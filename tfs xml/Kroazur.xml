@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Kroazur" nameDescription="" experience="2700" speed="0" manacost="0">
+<monster name="Kroazur" nameDescription="Kroazur" race="blood" experience="2700" speed="0" manacost="0">
 	<health now="3000" max="3000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,9 +30,9 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="60" />
+		<element firePercent="55" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -42,23 +42,23 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="28350" name="fairy wings" chance="100000" />
 		<item id="2148" name="gold coin" chance="100000" countmax="365" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
-		<item id="7588" name="strong health potion" chance="91167" countmax="2" />
-		<item id="7591" name="great health potion" chance="77000" countmax="3" />
-		<item id="7762" name="small enchanted amethyst" chance="52000" countmax="5" />
-		<item id="27046" name="ancient coin" chance="47000" countmax="3" />
-		<item id="27048" name="gemmed figurine" chance="32167" />
-		<item id="7761" name="small enchanted emerald" chance="26333" countmax="5" />
-		<item id="7760" name="small enchanted ruby" chance="12667" countmax="5" />
-		<item id="22396" name="cluster of solace" chance="10000" />
-		<item id="25172" name="silver token" chance="10000" />
-		<item id="18420" name="red crystal fragment" chance="9333" countmax="3" />
-		<item id="7759" name="small enchanted sapphire" chance="9000" countmax="5" />
-		<item id="7368" name="assassin star" chance="8333" countmax="8" />
-		<item id="25377" name="gold token" chance="6500" />
-		<item id="9971" name="gold ingot" chance="6167" />
-		<item id="7418" name="nightmare blade" chance="2833" />
+		<item id="28350" name="fairy wings" chance="100000" />
+		<item id="7588" name="strong health potion" chance="90581" countmax="2" />
+		<item id="7591" name="great health potion" chance="76766" countmax="3" />
+		<item id="7762" name="small enchanted amethyst" chance="49922" countmax="5" />
+		<item id="27046" name="ancient coin" chance="46782" countmax="3" />
+		<item id="27048" name="gemmed figurine" chance="31868" />
+		<item id="7761" name="small enchanted emerald" chance="27159" countmax="5" />
+		<item id="7760" name="small enchanted ruby" chance="13030" countmax="5" />
+		<item id="22396" name="cluster of solace" chance="10204" />
+		<item id="25172" name="silver token" chance="10047" />
+		<item id="7759" name="small enchanted sapphire" chance="9890" countmax="5" />
+		<item id="18420" name="red crystal fragment" chance="9419" countmax="3" />
+		<item id="7368" name="assassin star" chance="8477" countmax="8" />
+		<item id="25377" name="gold token" chance="6279" />
+		<item id="9971" name="gold ingot" chance="6122" />
+		<item id="7418" name="nightmare blade" chance="2826" />
 	</loot>
 </monster>

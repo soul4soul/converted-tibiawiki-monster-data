@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Execowtioner" nameDescription="an execowtioner" experience="2400" speed="270" manacost="0">
+<monster name="Execowtioner" nameDescription="an execowtioner" race="blood" experience="2400" speed="270" manacost="0">
 	<health now="3500" max="3500" />
 	<look type="609" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,20 +29,17 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="10" />
+		<element earthPercent="15" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="10" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="15" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-260" />
-	</attacks>
 	<defenses armor="41" defense="41" />
 	<voices interval="5000" chance="10">
 		<voice sentence="I'm the one who puts the cute into execute!" yell="false" />
@@ -54,22 +51,22 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="2152" name="platinum coin" chance="65460" countmax="3" />
-		<item id="23572" name="execowtioner mask" chance="16420" />
-		<item id="5878" name="minotaur leather" chance="15901" />
-		<item id="7591" name="great health potion" chance="10627" />
+		<item id="2152" name="platinum coin" chance="65452" countmax="3" />
+		<item id="23572" name="execowtioner mask" chance="16363" />
+		<item id="5878" name="minotaur leather" chance="15865" />
+		<item id="7591" name="great health potion" chance="10556" />
 		<item id="7590" name="great mana potion" chance="9871" />
-		<item id="2666" name="meat" chance="8328" />
-		<item id="2147" name="small ruby" chance="5463" countmax="2" />
-		<item id="9970" name="small topaz" chance="4880" countmax="2" />
-		<item id="12428" name="minotaur horn" chance="4739" countmax="2" />
-		<item id="5911" name="red piece of cloth" chance="2818" />
-		<item id="23547" name="execowtioner axe" chance="1118" />
-		<item id="2430" name="knight axe" chance="866" />
-		<item id="2487" name="crown armor" chance="630" />
-		<item id="7413" name="titan axe" chance="614" />
-		<item id="7412" name="butcher's axe" chance="504" />
-		<item id="9971" name="gold ingot" chance="362" />
-		<item id="7401" name="minotaur trophy" chance="315" />
+		<item id="2666" name="meat" chance="8329" />
+		<item id="2147" name="small ruby" chance="5434" countmax="2" />
+		<item id="9970" name="small topaz" chance="4873" countmax="2" />
+		<item id="12428" name="minotaur horn" chance="4795" countmax="2" />
+		<item id="5911" name="red piece of cloth" chance="2849" />
+		<item id="23547" name="execowtioner axe" chance="1105" />
+		<item id="2430" name="knight axe" chance="856" />
+		<item id="2487" name="crown armor" chance="638" />
+		<item id="7413" name="titan axe" chance="607" />
+		<item id="7412" name="butcher's axe" chance="498" />
+		<item id="9971" name="gold ingot" chance="358" />
+		<item id="7401" name="minotaur trophy" chance="311" />
 	</loot>
 </monster>

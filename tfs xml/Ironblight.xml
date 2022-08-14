@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ironblight" nameDescription="an ironblight" experience="4400" speed="286" manacost="0">
+<monster name="Ironblight" nameDescription="an ironblight" race="blood" experience="4400" speed="286" manacost="0">
 	<health now="6600" max="6600" />
 	<look type="498" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,20 +29,17 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="15" />
+		<element energyPercent="25" />
+		<element earthPercent="100" />
+		<element firePercent="60" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="40" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
-	</attacks>
 	<defenses armor="84" defense="84" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Yowl!" yell="false" />
@@ -51,28 +48,28 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="199" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="8" />
-		<item id="10571" name="war crystal" chance="21195" />
-		<item id="8473" name="ultimate health potion" chance="18573" />
-		<item id="18432" name="crystalline spikes" chance="17885" />
-		<item id="7590" name="great mana potion" chance="17111" />
-		<item id="2150" name="small amethyst" chance="15090" countmax="3" />
-		<item id="11227" name="shiny stone" chance="14230" />
-		<item id="18417" name="brown crystal splinter" chance="12726" countmax="2" />
-		<item id="18420" name="red crystal fragment" chance="10791" />
-		<item id="2149" name="small emerald" chance="10576" countmax="3" />
-		<item id="18415" name="green crystal shard" chance="5503" />
-		<item id="9942" name="crystal of balance" chance="4944" />
-		<item id="2156" name="red gem" chance="3439" />
-		<item id="9980" name="crystal of power" chance="2365" />
-		<item id="8912" name="springsprout rod" chance="1677" />
-		<item id="18412" name="glacial rod" chance="903" />
-		<item id="5904" name="magic sulphur" chance="903" />
-		<item id="7885" name="terra legs" chance="903" />
-		<item id="7437" name="sapphire hammer" chance="774" />
-		<item id="2158" name="blue gem" chance="602" />
-		<item id="2438" name="epee" chance="602" />
-		<item id="2445" name="crystal mace" chance="516" />
-		<item id="11368" name="jade hat" chance="258" />
-		<item id="8855" name="composite hornbow" chance="172" />
+		<item id="10571" name="war crystal" chance="21149" />
+		<item id="8473" name="ultimate health potion" chance="18553" />
+		<item id="18432" name="crystalline spikes" chance="17915" />
+		<item id="7590" name="great mana potion" chance="17106" />
+		<item id="2150" name="small amethyst" chance="15064" countmax="3" />
+		<item id="11227" name="shiny stone" chance="14298" />
+		<item id="18417" name="brown crystal splinter" chance="12851" countmax="2" />
+		<item id="18420" name="red crystal fragment" chance="10723" />
+		<item id="2149" name="small emerald" chance="10553" countmax="3" />
+		<item id="18415" name="green crystal shard" chance="5489" />
+		<item id="9942" name="crystal of balance" chance="4936" />
+		<item id="2156" name="red gem" chance="3447" />
+		<item id="9980" name="crystal of power" chance="2340" />
+		<item id="8912" name="springsprout rod" chance="1702" />
+		<item id="18412" name="glacial rod" chance="894" />
+		<item id="5904" name="magic sulphur" chance="894" />
+		<item id="7885" name="terra legs" chance="894" />
+		<item id="7437" name="sapphire hammer" chance="766" />
+		<item id="2158" name="blue gem" chance="638" />
+		<item id="2438" name="epee" chance="596" />
+		<item id="2445" name="crystal mace" chance="553" />
+		<item id="11368" name="jade hat" chance="255" />
+		<item id="8855" name="composite hornbow" chance="213" />
 	</loot>
 </monster>

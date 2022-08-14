@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Obujos")
 local monster = {}
 
 monster.name = "Obujos"
-monster.description = ""
+monster.description = "Obujos"
 monster.experience = 20000
 monster.outfit = {
 	lookType = 0,
@@ -67,20 +67,20 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 25},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 60},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 20},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 60}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1200}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1200, condition = {type = CONDITION_POISON, startDamage = 360, interval = }}
 }
 
 monster.defenses = {
@@ -90,9 +90,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 15404, chance = 42857},
-	{id = 15411, chance = 39394},
-	{id = 15412, chance = 17749}
+	{id = 15404, chance = 50000},
+	{id = 15412, chance = 33333},
+	{id = 15411, chance = 16667}
 }
 
 mType:register(monster)

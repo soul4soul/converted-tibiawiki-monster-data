@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Barbaria")
 local monster = {}
 
 monster.name = "Barbaria"
-monster.description = ""
+monster.description = "Barbaria"
 monster.experience = 355
 monster.outfit = {
 	lookType = 0,
@@ -81,7 +81,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
@@ -90,10 +89,23 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 34, maxDamage = 86}
 }
 
+monster.maxSummons = 2
+monster.summons = {
+	{name = "War Wolf", chance = 15, interval = 2000, max = 2}
+}
+
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 35},
+	{id = 2671, chance = 33333},
 	{id = 2464, chance = 33333},
-	{id = 2671, chance = 33333}
+	{id = 2686, chance = 20000},
+	{id = 7620, chance = 20000},
+	{id = 2401, chance = 20000},
+	{id = "torch", chance = 20000},
+	{id = 7343, chance = 20000},
+	{id = "book (grey)", chance = 20000},
+	{id = 3965, chance = 20000},
+	{id = 7463, chance = 20000}
 }
 
 mType:register(monster)

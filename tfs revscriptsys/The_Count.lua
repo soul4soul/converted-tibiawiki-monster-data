@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Count")
 local monster = {}
 
 monster.name = "The Count"
-monster.description = ""
+monster.description = "The Count"
 monster.experience = 450
 monster.outfit = {
 	lookType = 0,
@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 60},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -1},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
@@ -85,9 +85,17 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 1
+monster.summons = {
+	{name = "Banshee", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
 	{id = 8752, chance = 100000},
-	{id = 2148, chance = 72222, maxCount = 100}
+	{id = 2148, chance = 72222, maxCount = 100},
+	{id = 2229, chance = 20000},
+	{id = 2391, chance = 20000},
+	{id = 2534, chance = 20000}
 }
 
 mType:register(monster)

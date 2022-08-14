@@ -2,10 +2,10 @@ local mType = Game.createMonsterType("Many Faces")
 local monster = {}
 
 monster.name = "Many Faces"
-monster.description = ""
+monster.description = "an many faces"
 monster.experience = 18870
 monster.outfit = {
-	lookType = 0,
+	lookType = 1296,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -71,17 +71,16 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 30},
+	{type = COMBAT_HOLYDAMAGE , percent = 50},
+	{type = COMBAT_DEATHDAMAGE , percent = -30}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -90,22 +89,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 75247},
-	{id = 8473, chance = 14792, maxCount = 7},
-	{id = 36589, chance = 7836},
-	{id = 2183, chance = 6526},
-	{id = 2155, chance = 5754},
-	{id = 10219, chance = 5432},
-	{id = 2153, chance = 5303},
-	{id = 8911, chance = 4895},
-	{id = 2158, chance = 4787},
-	{id = "ring of red plasma", chance = 4530},
-	{id = 2197, chance = 4208},
-	{id = 36588, chance = 3864},
-	{id = 7892, chance = 2598},
-	{id = 7897, chance = 1846},
-	{id = 18412, chance = 1073},
-	{id = 36680, chance = 880}
+	{id = 2160, chance = 56379},
+	{id = 8473, chance = 11878, maxCount = 7},
+	{id = 36589, chance = 5851},
+	{id = 2183, chance = 4947},
+	{id = 2197, chance = 4219},
+	{id = 36765, chance = 4000},
+	{id = 2155, chance = 3993},
+	{id = 10219, chance = 3867},
+	{id = 8911, chance = 3717},
+	{id = 2153, chance = 3717},
+	{id = 2158, chance = 3466},
+	{id = "ring of red plasma", chance = 3214},
+	{id = 36588, chance = 2888},
+	{id = 7892, chance = 1909},
+	{id = 7897, chance = 1482},
+	{id = 18412, chance = 552},
+	{id = 36680, chance = 527}
 }
 
 mType:register(monster)

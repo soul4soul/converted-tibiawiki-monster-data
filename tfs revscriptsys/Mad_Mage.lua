@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 4,
+	color = 204
 }
 
 monster.voices = {
@@ -68,10 +68,10 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -88,26 +88,32 @@ monster.defenses = {
 	armor = 10
 }
 
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Golden Servant", chance = 15, interval = 2000, max = 2}
+}
+
 monster.loot = {
-	{id = 2148, chance = 99329, maxCount = 338},
-	{id = 2152, chance = 51342, maxCount = 5},
-	{id = 7589, chance = 23826, maxCount = 5},
-	{id = 7588, chance = 20470, maxCount = 5},
-	{id = 2165, chance = 6040},
-	{id = 7368, chance = 5369, maxCount = 5},
-	{id = 2178, chance = 5034},
-	{id = 2792, chance = 4698, maxCount = 3},
-	{id = 5911, chance = 4698},
-	{id = 2150, chance = 2685, maxCount = 3},
-	{id = 13756, chance = 1678},
-	{id = 7443, chance = 1342},
-	{id = 12410, chance = 1342},
-	{id = 2114, chance = 1007},
-	{id = 2195, chance = 671},
-	{id = 9941, chance = 671},
-	{id = 7898, chance = 336},
-	{id = 2123, chance = 336},
-	{id = 8901, chance = 336}
+	{id = 2148, chance = 100000, maxCount = 340},
+	{id = 7588, chance = 73333, maxCount = 9},
+	{id = 2152, chance = 60000, maxCount = 5},
+	{id = 7589, chance = 26667, maxCount = 9},
+	{id = 2165, chance = 26667},
+	{id = 12410, chance = 20000},
+	{id = 13756, chance = 20000},
+	{id = 2792, chance = 20000, maxCount = 3},
+	{id = 7368, chance = 13333, maxCount = 5},
+	{id = 5911, chance = 13333},
+	{id = 2150, chance = 13333, maxCount = 3},
+	{id = 2178, chance = 13333},
+	{id = 9941, chance = 7500},
+	{id = 8901, chance = 7500},
+	{id = 2114, chance = 6667},
+	{id = 2123, chance = 4000},
+	{id = 2195, chance = 4000},
+	{id = 7898, chance = 4000},
+	{id = 5741, chance = 4000},
+	{id = 7443, chance = 2500}
 }
 
 mType:register(monster)

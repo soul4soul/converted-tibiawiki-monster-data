@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Rotworm Queen" nameDescription="a rotworm queen" experience="75" speed="0" manacost="0">
+<monster name="Rotworm Queen" nameDescription="a rotworm queen" race="blood" experience="75" speed="0" manacost="0">
 	<health now="105" max="105" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,8 +31,8 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="40" />
+		<element firePercent="-20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -40,10 +40,10 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-80" />
-	</attacks>
 	<defenses armor="10" defense="5" />
+	<summons maxSummons="3">
+		<voice name="Rotworm" interval="2000" chance="15" max="3" />
+	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="75000" countmax="110" />
 		<item id="3976" name="worm" chance="46154" countmax="50" />

@@ -72,43 +72,44 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 25},
+	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 20},
+	{type = COMBAT_HOLYDAMAGE , percent = -10},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1001}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1001, condition = {type = CONDITION_POISON, startDamage = 135, interval = }}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10,
+	{name ="outfit", interval = 2000, chance = 15, monster = "Ancient Scarab", duration = 5000},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 200, maxDamage = 450}
 }
 
 monster.maxSummons = 6
 monster.summons = {
-	{name = "Green Djinn", chance = 15, interval = 2000, max = 1},
-	{name = "Ancient Scarab", chance = 15, interval = 2000, max = 1}
+	{name = "Green Djinn", chance = 15, interval = 2000, max = 4},
+	{name = "Ancient Scarab", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
-	{id = 2148, chance = 93936, maxCount = 304},
-	{id = 7590, chance = 12012},
-	{id = 2164, chance = 4665},
-	{id = 2134, chance = 4198},
-	{id = 2487, chance = 466},
-	{id = 11207, chance = 175},
-	{id = 2444, chance = 117},
-	{id = 2140, chance = 117}
+	{id = 2148, chance = 93826, maxCount = 319},
+	{id = 7590, chance = 12060},
+	{id = 2164, chance = 4674},
+	{id = 2134, chance = 4155},
+	{id = 2487, chance = 462},
+	{id = 11207, chance = 173},
+	{id = 2140, chance = 115},
+	{id = 2444, chance = 115}
 }
 
 mType:register(monster)

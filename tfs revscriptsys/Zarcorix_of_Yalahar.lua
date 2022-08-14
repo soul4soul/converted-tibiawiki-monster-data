@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Zarcorix of Yalahar")
 local monster = {}
 
 monster.name = "Zarcorix Of Yalahar"
-monster.description = ""
+monster.description = "Zarcorix Of Yalahar"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

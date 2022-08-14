@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Groam" nameDescription="" experience="180" speed="0" manacost="0">
+<monster name="Groam" nameDescription="Groam" race="blood" experience="180" speed="0" manacost="0">
 	<health now="400" max="400" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,10 +40,6 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-120" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-140" range="7" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="I sjaw the eyes of the djeep!" yell="false" />
@@ -54,6 +50,8 @@
 		<item id="2148" name="gold coin" chance="83333" countmax="87" />
 		<item id="3965" name="hunting spear" chance="27778" countmax="5" />
 		<item id="2168" name="life ring" chance="22222" />
+		<item id="2149" name="small emerald" chance="20000" />
+		<item id="5895" name="fish fin" chance="20000" />
 		<item id="9809" name="rusted armor" chance="11111" />
 	</loot>
 </monster>

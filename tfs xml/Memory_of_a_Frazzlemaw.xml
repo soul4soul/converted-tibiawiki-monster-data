@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Frazzlemaw" nameDescription="a memory of a frazzlemaw" experience="0" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Frazzlemaw" nameDescription="a memory of a frazzlemaw" race="blood" experience="1810" speed="0" manacost="0">
+	<health now="3770" max="3770" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -42,24 +42,24 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="82991" countmax="100" />
-		<item id="18417" name="brown crystal splinter" chance="14663" />
-		<item id="7590" name="great mana potion" chance="14076" countmax="3" />
-		<item id="7591" name="great health potion" chance="12023" countmax="2" />
-		<item id="2230" name="bone" chance="9971" />
-		<item id="2225" name="piece of iron" chance="9677" />
-		<item id="5951" name="fish tail" chance="7918" />
-		<item id="2219" name="banana skin" chance="7038" />
-		<item id="2667" name="fish" chance="5865" countmax="3" />
-		<item id="18554" name="crystal rubbish" chance="5279" />
-		<item id="2226" name="fishbone" chance="5279" />
-		<item id="2671" name="ham" chance="4985" />
-		<item id="2231" name="big bone" chance="4399" />
-		<item id="18420" name="red crystal fragment" chance="4399" />
-		<item id="18414" name="violet crystal shard" chance="2639" />
-		<item id="9971" name="gold ingot" chance="2346" />
-		<item id="37530" name="bottle of champagne" chance="2053" />
-		<item id="22396" name="cluster of solace" chance="293" />
-		<item id="37468" name="special fx box" chance="293" />
+		<item id="2148" name="gold coin" chance="76923" countmax="99" />
+		<item id="7591" name="great health potion" chance="30769" countmax="2" />
+		<item id="2226" name="fishbone" chance="23077" />
+		<item id="2225" name="piece of iron" chance="20000" />
+		<item id="2667" name="fish" chance="20000" />
+		<item id="18414" name="violet crystal shard" chance="20000" />
+		<item id="37530" name="bottle of champagne" chance="20000" />
+		<item id="9971" name="gold ingot" chance="20000" />
+		<item id="22396" name="cluster of solace" chance="20000" />
+		<item id="37468" name="special fx box" chance="20000" />
+		<item id="5951" name="fish tail" chance="15385" />
+		<item id="18554" name="crystal rubbish" chance="7692" />
+		<item id="7590" name="great mana potion" chance="7692" countmax="2" />
+		<item id="2671" name="ham" chance="7692" />
+		<item id="2219" name="banana skin" chance="7692" />
+		<item id="18417" name="brown crystal splinter" chance="7692" />
+		<item id="2231" name="big bone" chance="7692" />
+		<item id="2230" name="bone" chance="7692" />
+		<item id="18420" name="red crystal fragment" chance="7692" />
 	</loot>
 </monster>

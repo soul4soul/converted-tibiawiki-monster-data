@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Scar Tribe Warrior" nameDescription="a scar tribe warrior" experience="85" speed="160" manacost="0">
+<monster name="Scar Tribe Warrior" nameDescription="a scar tribe warrior" race="blood" experience="85" speed="160" manacost="0">
 	<health now="125" max="125" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -45,6 +45,7 @@
 		<item id="2148" name="gold coin" chance="100000" countmax="8" />
 		<item id="2666" name="meat" chance="20000" />
 		<item id="2464" name="chain armor" chance="16667" />
+		<item id="2510" name="plate shield" chance="7500" />
 		<item id="2468" name="studded legs" chance="6667" />
 	</loot>
 </monster>

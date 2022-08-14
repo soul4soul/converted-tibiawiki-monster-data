@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Sparkion" nameDescription="a sparkion" experience="1520" speed="302" manacost="0">
+<monster name="Sparkion" nameDescription="a sparkion" race="blood" experience="1520" speed="302" manacost="0">
 	<health now="2700" max="2700" />
 	<look type="877" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,20 +29,17 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="5" />
+		<element energyPercent="90" />
+		<element earthPercent="-15" />
+		<element firePercent="15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="70" />
+		<element holyPercent="5" />
+		<element deathPercent="5" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
-	</attacks>
 	<defenses armor="40" defense="40" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Zzing!" yell="false" />
@@ -50,27 +47,27 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="90108" countmax="3" />
-		<item id="26191" name="energy bar" chance="15137" />
-		<item id="26158" name="sparkion claw" chance="14846" />
-		<item id="26201" name="energy drink" chance="14546" />
-		<item id="26161" name="sparkion stings" chance="14176" />
-		<item id="26160" name="sparkion legs" chance="11240" />
-		<item id="26159" name="sparkion tail" chance="9971" />
-		<item id="8472" name="great spirit potion" chance="9856" countmax="2" />
-		<item id="7591" name="great health potion" chance="9812" countmax="2" />
-		<item id="7590" name="great mana potion" chance="9654" countmax="2" />
-		<item id="18418" name="blue crystal splinter" chance="8463" />
-		<item id="18419" name="cyan crystal fragment" chance="5298" />
-		<item id="2146" name="small sapphire" chance="4725" countmax="2" />
-		<item id="18413" name="blue crystal shard" chance="4637" />
-		<item id="2158" name="blue gem" chance="943" />
-		<item id="2189" name="wand of cosmic energy" chance="714" />
-		<item name="ring of green plasma" chance="361" />
-		<item name="ring of blue plasma" chance="344" />
-		<item name="ring of red plasma" chance="291" />
-		<item id="26199" name="collar of green plasma" chance="273" />
-		<item name="collar of blue plasma" chance="212" />
-		<item id="26200" name="collar of red plasma" chance="168" />
+		<item id="2152" name="platinum coin" chance="90139" countmax="3" />
+		<item id="26158" name="sparkion claw" chance="14988" />
+		<item id="26191" name="energy bar" chance="14969" />
+		<item id="26201" name="energy drink" chance="14490" />
+		<item id="26161" name="sparkion stings" chance="13837" />
+		<item id="26160" name="sparkion legs" chance="11087" />
+		<item id="26159" name="sparkion tail" chance="9923" />
+		<item id="8472" name="great spirit potion" chance="9892" countmax="2" />
+		<item id="7591" name="great health potion" chance="9830" countmax="2" />
+		<item id="7590" name="great mana potion" chance="9755" countmax="2" />
+		<item id="18418" name="blue crystal splinter" chance="8399" />
+		<item id="18419" name="cyan crystal fragment" chance="5326" />
+		<item id="2146" name="small sapphire" chance="4928" countmax="2" />
+		<item id="18413" name="blue crystal shard" chance="4666" />
+		<item id="2158" name="blue gem" chance="964" />
+		<item id="2189" name="wand of cosmic energy" chance="722" />
+		<item name="ring of green plasma" chance="398" />
+		<item name="ring of blue plasma" chance="311" />
+		<item name="ring of red plasma" chance="311" />
+		<item id="26199" name="collar of green plasma" chance="249" />
+		<item name="collar of blue plasma" chance="193" />
+		<item id="26200" name="collar of red plasma" chance="180" />
 	</loot>
 </monster>

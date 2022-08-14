@@ -67,9 +67,9 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -85,6 +85,10 @@ monster.attacks = {
 monster.defenses = {
 	defense = 48,
 	armor = 48,
+	{name ="outfit", interval = 2000, chance = 15, monster = "Rat", duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Larva", duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Scorpion", duration = 5000},
+	{name ="outfit", interval = 2000, chance = 15, monster = "Slime", duration = 5000},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 250, maxDamage = 350}
 }
 

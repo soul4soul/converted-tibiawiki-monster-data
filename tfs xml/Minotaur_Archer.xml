@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Minotaur Archer" nameDescription="a minotaur archer" experience="65" speed="160" manacost="390">
+<monster name="Minotaur Archer" nameDescription="a minotaur archer" race="blood" experience="65" speed="160" manacost="390">
 	<health now="100" max="100" />
 	<look type="24" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,13 +32,13 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="10" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-25" />
@@ -52,16 +52,16 @@
 		<voice sentence="Kaplar!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2543" name="bolt" chance="90112" countmax="20" />
-		<item id="2148" name="gold coin" chance="75047" countmax="30" />
-		<item id="12407" name="broken crossbow" chance="15321" />
-		<item id="7363" name="piercing bolt" chance="12189" countmax="4" />
-		<item id="12439" name="piece of archer armor" chance="8025" />
-		<item id="2666" name="meat" chance="4951" />
-		<item id="12428" name="minotaur horn" chance="1976" countmax="2" />
-		<item id="5878" name="minotaur leather" chance="1928" />
+		<item id="2543" name="bolt" chance="90127" countmax="20" />
+		<item id="2148" name="gold coin" chance="75016" countmax="30" />
+		<item id="12407" name="broken crossbow" chance="15322" />
+		<item id="7363" name="piercing bolt" chance="12185" countmax="4" />
+		<item id="12439" name="piece of archer armor" chance="8037" />
+		<item id="2666" name="meat" chance="4955" />
+		<item id="12428" name="minotaur horn" chance="1975" countmax="2" />
+		<item id="5878" name="minotaur leather" chance="1931" />
 		<item id="2455" name="crossbow" chance="879" />
-		<item id="2483" name="scale armor" chance="537" />
-		<item id="2465" name="brass armor" chance="520" />
+		<item id="2483" name="scale armor" chance="538" />
+		<item id="2465" name="brass armor" chance="518" />
 	</loot>
 </monster>

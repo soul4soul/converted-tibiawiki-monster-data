@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Hungerer")
 local monster = {}
 
 monster.name = "The Hungerer"
-monster.description = ""
+monster.description = "The Hungerer"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -11},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -5},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 15}
 }
 
 monster.attacks = {
@@ -86,10 +86,22 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 190},
+	{id = 2152, chance = 100000},
 	{id = 15486, chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 156},
 	{id = 7590, chance = 100000},
-	{id = 2152, chance = 100000}
+	{id = 2789, chance = 20000, maxCount = 3},
+	{id = 7591, chance = 20000},
+	{id = 2150, chance = 20000, maxCount = 2},
+	{id = 15481, chance = 20000},
+	{id = 7449, chance = 7500},
+	{id = 15489, chance = 4000},
+	{id = 2497, chance = 4000},
+	{id = 15490, chance = 4000},
+	{id = 2155, chance = 4000},
+	{id = 7440, chance = 4000},
+	{id = 2171, chance = 4000},
+	{id = 2169, chance = 2500}
 }
 
 mType:register(monster)

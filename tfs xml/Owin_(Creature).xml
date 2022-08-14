@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Owin" nameDescription="" experience="5000" speed="0" manacost="0">
+<monster name="Owin" nameDescription="Owin" race="blood" experience="5000" speed="0" manacost="0">
 	<health now="9600" max="9600" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -19,7 +19,7 @@
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
-		<flag canwalkonpoison="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -30,29 +30,35 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="10" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="50" />
 	</elements>
-	<defenses armor="10" defense="5" />
+	<defenses armor="10" defense="5">
+		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="117" />
-		<item id="24739" name="moonlight crystals" chance="100000" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="7" />
 		<item id="24709" name="wereboar hooves" chance="100000" />
 		<item id="24710" name="wereboar tusks" chance="100000" />
-		<item id="2789" name="brown mushroom" chance="90000" countmax="2" />
+		<item id="24739" name="moonlight crystals" chance="100000" />
+		<item id="2789" name="brown mushroom" chance="84000" countmax="2" />
 		<item id="7588" name="strong health potion" chance="80000" countmax="5" />
-		<item id="7432" name="furry club" chance="70000" />
-		<item id="24743" name="wereboar loincloth" chance="30000" />
+		<item id="7432" name="furry club" chance="48000" />
+		<item id="24743" name="wereboar loincloth" chance="36000" />
 		<item id="8473" name="ultimate health potion" chance="20000" countmax="2" />
-		<item id="2197" name="stone skin amulet" chance="10000" />
-		<item id="24758" name="wereboar trophy" chance="10000" />
+		<item id="24716" name="werewolf amulet" chance="20000" />
+		<item id="2197" name="stone skin amulet" chance="12000" />
+		<item id="24741" name="fur armor" chance="4000" />
+		<item id="24758" name="wereboar trophy" chance="4000" />
 	</loot>
 </monster>

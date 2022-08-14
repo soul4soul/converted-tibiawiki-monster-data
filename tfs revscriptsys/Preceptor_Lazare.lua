@@ -2,8 +2,8 @@ local mType = Game.createMonsterType("Preceptor Lazare")
 local monster = {}
 
 monster.name = "Preceptor Lazare"
-monster.description = ""
-monster.experience = 9
+monster.description = "Preceptor Lazare"
+monster.experience = 10000
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 16000
+monster.maxHealth = 16000
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -66,54 +66,65 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 50},
+	{type = COMBAT_EARTHDAMAGE, percent = 50},
+	{type = COMBAT_FIREDAMAGE, percent = 50},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 50},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -400, maxDamage = -500, range = 7, radius = 1, target = true, shootEffect = CONST_ANI_INFERNALBOLT},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -549, maxDamage = -561, radius = 4, target = false, effect = CONST_ME_HOLYDAMAGE},
+	{name ="speed", interval = 2000, chance = 15, speed = {min = -400, max = -400}, duration = 20000, range = 7, radius = 1, target = true, effect = CONST_ME_MAGIC_GREEN}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10
+	armor = 10,
+	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 500, maxDamage = 800}
 }
 
 monster.loot = {
-	{id = 2148, chance = 94771, maxCount = 200},
-	{id = 2152, chance = 94771, maxCount = 15},
-	{id = 2671, chance = 67647},
-	{id = 6500, chance = 49020},
-	{id = 7591, chance = 35948, maxCount = 3},
-	{id = 5944, chance = 32353},
-	{id = 7368, chance = 27124, maxCount = 10},
-	{id = 7590, chance = 26144, maxCount = 3},
-	{id = 6558, chance = 25817},
-	{id = 2145, chance = 20915, maxCount = 5},
-	{id = 9970, chance = 19935, maxCount = 5},
-	{id = 2149, chance = 19608, maxCount = 5},
-	{id = 2147, chance = 18301, maxCount = 5},
-	{id = 2150, chance = 16013, maxCount = 5},
-	{id = 2156, chance = 14052},
-	{id = 7365, chance = 11765, maxCount = 15},
-	{id = "giant shimmering pearl", chance = 7516},
-	{id = 9971, chance = 6863, maxCount = 2},
-	{id = 7413, chance = 6863},
-	{id = 2476, chance = 5229},
-	{id = 7762, chance = 5229},
-	{id = 7452, chance = 5229},
-	{id = 2153, chance = 2941},
-	{id = 2454, chance = 2941},
-	{id = 2155, chance = 1961},
-	{id = 2466, chance = 980}
+	{id = 7762, chance = 100000},
+	{id = 2148, chance = 20000, maxCount = 182},
+	{id = 7365, chance = 20000},
+	{id = 2156, chance = 20000},
+	{id = 2150, chance = 20000},
+	{id = "giant shimmering pearl", chance = 20000},
+	{id = 6558, chance = 20000},
+	{id = 5944, chance = 20000},
+	{id = 2454, chance = 20000},
+	{id = 2147, chance = 20000},
+	{id = 2514, chance = 20000},
+	{id = 7413, chance = 20000},
+	{id = 2136, chance = 20000},
+	{id = 2466, chance = 20000},
+	{id = 2476, chance = 20000},
+	{id = 9971, chance = 20000, maxCount = 2},
+	{id = 2152, chance = 20000, maxCount = 15},
+	{id = 7368, chance = 20000, maxCount = 8},
+	{id = 7591, chance = 20000, maxCount = 3},
+	{id = 7590, chance = 20000, maxCount = 3},
+	{id = 2671, chance = 20000},
+	{id = 6500, chance = 20000},
+	{id = 7452, chance = 20000},
+	{id = 2153, chance = 20000},
+	{id = 2145, chance = 20000, maxCount = 2},
+	{id = 2149, chance = 20000, maxCount = 2},
+	{id = 9970, chance = 20000, maxCount = 2},
+	{id = 2155, chance = 20000},
+	{id = 2452, chance = 7500},
+	{id = 31376, chance = 4000},
+	{id = 31477, chance = 1633},
+	{id = 31372, chance = 126}
 }
 
 mType:register(monster)

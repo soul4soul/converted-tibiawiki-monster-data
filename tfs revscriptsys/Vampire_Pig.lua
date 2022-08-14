@@ -73,23 +73,26 @@ monster.elements = {
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -15, maxDamage = -25, radius = 4, target = false, effect = CONST_ME_BATS},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -35, maxDamage = -55, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MAGIC_RED}
 }
 
 monster.defenses = {
 	defense = 20,
-	armor = 20
+	armor = 20,
+	{name ="outfit", interval = 2000, chance = 15, monster = "Mutated Bat", duration = 5000}
 }
 
 monster.loot = {
-	{id = 2148, chance = 88962, maxCount = 40}
+	{id = 2148, chance = 88782, maxCount = 40}
 }
 
 mType:register(monster)

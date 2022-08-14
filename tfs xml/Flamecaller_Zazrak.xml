@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Flamecaller Zazrak" nameDescription="" experience="3031" speed="0" manacost="0">
+<monster name="Flamecaller Zazrak" nameDescription="Flamecaller Zazrak" race="blood" experience="3031" speed="0" manacost="0">
 	<health now="2690" max="2690" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -31,26 +31,25 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element earthPercent="100" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-10" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
-	</attacks>
-	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="269" max="672" />
-	</defenses>
+	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="11361" name="dragon priest's wandtip" chance="100000" />
 		<item id="2148" name="gold coin" chance="75000" countmax="51" />
+		<item id="7590" name="great mana potion" chance="20000" />
+		<item id="11356" name="zaoan robe" chance="20000" />
+		<item id="11303" name="zaoan shoes" chance="20000" />
 		<item id="11245" name="bunch of ripe rice" chance="12500" />
-		<item id="2168" name="life ring" chance="12500" />
 		<item id="5881" name="lizard scale" chance="12500" />
+		<item id="2168" name="life ring" chance="12500" />
+		<item id="2154" name="yellow gem" chance="7500" />
 	</loot>
 </monster>

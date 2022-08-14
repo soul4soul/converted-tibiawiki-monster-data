@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Fire Devil" nameDescription="a fire devil" experience="145" speed="180" manacost="530">
+<monster name="Fire Devil" nameDescription="a fire devil" race="blood" experience="145" speed="180" manacost="530">
 	<health now="200" max="200" />
 	<look type="40" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,19 +29,27 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="10" />
+		<element energyPercent="30" />
+		<element earthPercent="20" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-20" />
+		<element holyPercent="-10" />
+		<element deathPercent="20" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-35" />
+		<attack name="fire" interval="2000" chance="15" min="-60" max="-95" radius="2" target="1">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" min="-60" max="-95" radius="4" target="1">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
 	</attacks>
 	<defenses armor="13" defense="13" />
 	<voices interval="5000" chance="10">
@@ -49,14 +57,14 @@
 		<voice sentence="Hell, oh, hell!" yell="false" />
 	</voices>
 	<loot>
-		<item id="12469" name="small pitchfork" chance="19462" />
-		<item id="2260" name="blank rune" chance="11059" />
-		<item id="2419" name="scimitar" chance="3028" />
-		<item name="torch" chance="1377" countmax="2" />
-		<item id="2387" name="double axe" chance="1356" />
-		<item id="2568" name="cleaver" chance="906" />
-		<item id="2185" name="necrotic rod" chance="457" />
-		<item id="2150" name="small amethyst" chance="267" />
-		<item id="2515" name="guardian shield" chance="204" />
+		<item id="12469" name="small pitchfork" chance="19432" />
+		<item id="2260" name="blank rune" chance="11042" />
+		<item id="2419" name="scimitar" chance="3017" />
+		<item name="torch" chance="1388" countmax="2" />
+		<item id="2387" name="double axe" chance="1388" />
+		<item id="2568" name="cleaver" chance="907" />
+		<item id="2185" name="necrotic rod" chance="467" />
+		<item id="2150" name="small amethyst" chance="282" />
+		<item id="2515" name="guardian shield" chance="206" />
 	</loot>
 </monster>

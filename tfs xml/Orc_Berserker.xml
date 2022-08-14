@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Orc Berserker" nameDescription="an orc berserker" experience="195" speed="250" manacost="590">
+<monster name="Orc Berserker" nameDescription="an orc berserker" race="blood" experience="195" speed="250" manacost="590">
 	<health now="210" max="210" />
 	<look type="8" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="15" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
@@ -52,15 +52,15 @@
 		<voice sentence="KRAK ORRRRRRK!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="54956" countmax="25" />
-		<item id="12433" name="orcish gear" chance="10413" />
-		<item id="2671" name="ham" chance="9773" />
-		<item id="2381" name="halberd" chance="6968" />
-		<item id="2378" name="battle axe" chance="5738" />
-		<item id="3965" name="hunting spear" chance="4954" />
-		<item id="12435" name="orc leather" chance="4101" />
-		<item id="11113" name="orc tooth" chance="2752" />
-		<item id="2464" name="chain armor" chance="976" />
-		<item name="lamp" chance="833" />
+		<item id="2148" name="gold coin" chance="54953" countmax="25" />
+		<item id="12433" name="orcish gear" chance="10349" />
+		<item id="2671" name="ham" chance="9755" />
+		<item id="2381" name="halberd" chance="6946" />
+		<item id="2378" name="battle axe" chance="5729" />
+		<item id="3965" name="hunting spear" chance="4955" />
+		<item id="12435" name="orc leather" chance="4165" />
+		<item id="11113" name="orc tooth" chance="2781" />
+		<item id="2464" name="chain armor" chance="981" />
+		<item name="lamp" chance="834" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Piñata Dragon" nameDescription="a Piñata Dragon" experience="50" speed="0" manacost="0">
+<monster name="Piñata Dragon" nameDescription="a Piñata Dragon" race="blood" experience="50" speed="0" manacost="0">
 	<health now="10000" max="10000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,7 +29,7 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-30" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
@@ -40,6 +40,9 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
+	<attacks>
+		<attack name="outfit" interval="2000" chance="15" monster="Chicken" duration="5000" />
+	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="130" max="170" />
 	</defenses>
@@ -55,8 +58,12 @@
 		<item id="6569" name="candy" chance="100000" countmax="3" />
 		<item name="surprise bag" chance="52950" countmax="2" />
 		<item id="2687" name="cookie" chance="50552" countmax="5" />
+		<item id="6570" name="surprise bag (blue)" chance="20000" />
+		<item id="2114" name="piggy bank" chance="20000" />
 		<item id="32858" name="winterberry liquor" chance="13909" />
 		<item id="32854" name="meringue cake" chance="11127" />
+		<item id="6576" name="fireworks rocket" chance="7500" />
+		<item id="6571" name="surprise bag (red)" chance="7500" />
 		<item id="6574" name="bar of chocolate" chance="6859" />
 		<item id="32971" name="pinata" chance="6523" />
 		<item id="6280" name="party cake" chance="6379" />
@@ -65,8 +72,8 @@
 		<item id="27058" name="chocolatey dragon scale legs" chance="2734" />
 		<item id="27053" name="ferumbras' candy hat" chance="2302" />
 		<item id="2110" name="doll" chance="1487" />
-		<item id="32973" name="ferumbras puppet" chance="240" />
 		<item id="7487" name="toy mouse" chance="240" />
+		<item id="32973" name="ferumbras puppet" chance="240" />
 		<item name="stuffed dragon" chance="192" />
 	</loot>
 </monster>

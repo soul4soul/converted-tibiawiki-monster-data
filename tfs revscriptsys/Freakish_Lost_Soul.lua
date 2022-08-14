@@ -65,20 +65,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 60},
+	{type = COMBAT_ENERGYDAMAGE, percent = 35},
+	{type = COMBAT_EARTHDAMAGE, percent = 70},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -40},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
@@ -88,15 +87,15 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 34883, chance = 45886},
-	{id = 2127, chance = 8017},
-	{id = 35359, chance = 5643},
-	{id = 27048, chance = 4694},
-	{id = 35354, chance = 3428},
-	{id = "ring of blue plasma", chance = 1846},
+	{id = 34883, chance = 45855},
+	{id = 2127, chance = 7521},
+	{id = 35359, chance = 5661},
+	{id = 27048, chance = 4974},
+	{id = 35354, chance = 3599},
+	{id = "ring of blue plasma", chance = 1537},
 	{id = 35428, chance = 1213},
-	{id = 15644, chance = 949},
-	{id = 18453, chance = 738}
+	{id = 15644, chance = 890},
+	{id = 18453, chance = 809}
 }
 
 mType:register(monster)

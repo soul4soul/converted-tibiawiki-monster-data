@@ -20,7 +20,7 @@ monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 390
-monster.summonCost = 0
+monster.summonCost = 490
 
 monster.changeTarget = {
 	interval = 2000,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 1,
+	targetDistance = 4,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -67,15 +67,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = -10},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = 10},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
@@ -90,17 +90,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 55182, maxCount = 90},
-	{id = 2666, chance = 24717},
-	{id = 11324, chance = 9999},
-	{id = 2456, chance = 5241},
-	{id = 12407, chance = 4996},
-	{id = 12435, chance = 3923},
-	{id = 11113, chance = 3909},
-	{id = 2428, chance = 1362},
-	{id = 2425, chance = 1117},
-	{id = 2455, chance = 469},
-	{id = 8857, chance = 60}
+	{id = 2148, chance = 55199, maxCount = 90},
+	{id = 2666, chance = 24714},
+	{id = 11324, chance = 10062},
+	{id = 2456, chance = 5156},
+	{id = 12407, chance = 5020},
+	{id = 11113, chance = 3953},
+	{id = 12435, chance = 3874},
+	{id = 2428, chance = 1375},
+	{id = 2425, chance = 1103},
+	{id = 2455, chance = 501},
+	{id = 8857, chance = 64}
 }
 
 mType:register(monster)

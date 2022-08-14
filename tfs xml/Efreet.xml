@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Efreet" nameDescription="an efreet" experience="410" speed="234" manacost="0">
+<monster name="Efreet" nameDescription="an efreet" race="blood" experience="410" speed="234" manacost="0">
 	<health now="550" max="550" />
 	<look type="103" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,21 +30,38 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="60" />
+		<element earthPercent="10" />
+		<element firePercent="90" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="-8" />
+		<element deathPercent="20" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-114" />
+		<attack name="fire" interval="2000" chance="15" min="-40" max="-110" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="energy" interval="2000" chance="15" min="-65" max="-115" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="energy" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="-60" max="-120" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="death" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" range="7" radius="1" target="1">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="drunk" interval="2000" chance="15" drunkenness="50" duration="15000" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="teleport" />
+		</attack>
+		<attack name="outfit" interval="2000" chance="15" monster="rat" duration="5000" />
 	</attacks>
 	<defenses armor="24" defense="24">
-		<defense name="healing" interval="2000" chance="20" min="55" max="137" />
+		<defense name="healing" interval="2000" chance="20" min="50" max="80" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="I grant you a deathwish!" yell="false" />
@@ -53,21 +70,24 @@
 		<voice sentence="Muhahahaha!" yell="false" />
 		<voice sentence="Tell me your last wish!" yell="false" />
 	</voices>
+	<summons maxSummons="2">
+		<voice name="Green Djinn" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="97599" countmax="129" />
-		<item id="7378" name="royal spear" chance="15040" countmax="3" />
-		<item id="7589" name="strong mana potion" chance="10521" />
-		<item id="2673" name="pear" chance="9603" countmax="5" />
-		<item id="12426" name="jewelled belt" chance="7626" />
-		<item id="2149" name="small emerald" chance="7220" />
-		<item id="2442" name="heavy machete" chance="4837" />
-		<item id="5910" name="green piece of cloth" chance="2683" />
-		<item id="1860" name="green tapestry" chance="2136" />
-		<item id="12442" name="noble turban" chance="1006" />
-		<item id="7900" name="magma monocle" chance="388" />
-		<item id="2187" name="wand of inferno" chance="353" />
-		<item id="2663" name="mystic turban" chance="229" />
-		<item id="2063" name="small oil lamp" chance="194" />
-		<item id="2155" name="green gem" chance="124" />
+		<item id="2148" name="gold coin" chance="97579" countmax="130" />
+		<item id="7378" name="royal spear" chance="15007" countmax="3" />
+		<item id="7589" name="strong mana potion" chance="10422" />
+		<item id="2673" name="pear" chance="9598" countmax="5" />
+		<item id="12426" name="jewelled belt" chance="7538" />
+		<item id="2149" name="small emerald" chance="7263" />
+		<item id="2442" name="heavy machete" chance="4928" />
+		<item id="5910" name="green piece of cloth" chance="2679" />
+		<item id="1860" name="green tapestry" chance="2198" />
+		<item id="12442" name="noble turban" chance="1030" />
+		<item id="7900" name="magma monocle" chance="395" />
+		<item id="2187" name="wand of inferno" chance="343" />
+		<item id="2663" name="mystic turban" chance="223" />
+		<item id="2063" name="small oil lamp" chance="206" />
+		<item id="2155" name="green gem" chance="120" />
 	</loot>
 </monster>

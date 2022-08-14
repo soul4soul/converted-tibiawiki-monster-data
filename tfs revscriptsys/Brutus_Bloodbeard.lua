@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Brutus Bloodbeard")
 local monster = {}
 
 monster.name = "Brutus Bloodbeard"
-monster.description = ""
+monster.description = "Brutus Bloodbeard"
 monster.experience = 795
 monster.outfit = {
 	lookType = 0,
@@ -66,19 +66,18 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -1},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -1},
+	{type = COMBAT_HOLYDAMAGE , percent = 1},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -100}
 }
 
 monster.defenses = {
@@ -87,17 +86,17 @@ monster.defenses = {
 }
 
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 200},
 	{id = 6099, chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 154},
 	{id = 2229, chance = 63636, maxCount = 2},
 	{id = 2463, chance = 45455},
 	{id = 2666, chance = 36364},
 	{id = 2145, chance = 27273},
 	{id = 2476, chance = 18182},
 	{id = 10103, chance = 18182},
-	{id = 2379, chance = 9091},
 	{id = 7591, chance = 9091},
 	{id = 5926, chance = 9091},
+	{id = 2379, chance = 9091},
 	{id = 2200, chance = 9091}
 }
 

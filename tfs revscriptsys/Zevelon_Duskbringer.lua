@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Zevelon Duskbringer")
 local monster = {}
 
 monster.name = "Zevelon Duskbringer"
-monster.description = ""
+monster.description = "Zevelon Duskbringer"
 monster.experience = 1800
 monster.outfit = {
 	lookType = 0,
@@ -72,38 +72,37 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -5},
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 60, maxDamage = 70}
+	{name ="outfit", interval = 2000, chance = 15, monster = "Bat", duration = 5000}
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 100},
 	{id = 9020, chance = 100000},
-	{id = 7588, chance = 15625},
-	{id = 2534, chance = 10417},
-	{id = 2229, chance = 6250},
-	{id = 2152, chance = 5208, maxCount = 5},
-	{id = 2214, chance = 4167},
-	{id = 7419, chance = 3125},
-	{id = 2144, chance = 1042}
+	{id = 7588, chance = 15652},
+	{id = 2534, chance = 10435},
+	{id = 2229, chance = 6087},
+	{id = 2152, chance = 4348, maxCount = 5},
+	{id = 2214, chance = 4348},
+	{id = 7419, chance = 2609},
+	{id = 2144, chance = 870}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dark Magician" nameDescription="a dark magician" experience="185" speed="180" manacost="0">
+<monster name="Dark Magician" nameDescription="a dark magician" race="blood" experience="185" speed="180" manacost="0">
 	<health now="325" max="325" />
 	<look type="133" head="58" body="95" legs="51" feet="131" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="20" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="20" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-30" />
@@ -56,14 +56,14 @@
 		<voice sentence="Stand still!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="74976" countmax="55" />
+		<item id="2148" name="gold coin" chance="74981" countmax="55" />
 		<item id="7618" name="health potion" chance="11998" />
-		<item id="7620" name="mana potion" chance="11930" />
-		<item id="2260" name="blank rune" chance="9959" />
-		<item id="7588" name="strong health potion" chance="2953" />
+		<item id="7620" name="mana potion" chance="11939" />
+		<item id="2260" name="blank rune" chance="9974" />
+		<item id="7588" name="strong health potion" chance="2959" />
 		<item id="7589" name="strong mana potion" chance="2892" />
-		<item id="7762" name="small enchanted amethyst" chance="518" />
-		<item id="2185" name="necrotic rod" chance="286" />
+		<item id="7762" name="small enchanted amethyst" chance="517" />
+		<item id="2185" name="necrotic rod" chance="287" />
 		<item id="13295" name="reins" chance="22" />
 	</loot>
 </monster>

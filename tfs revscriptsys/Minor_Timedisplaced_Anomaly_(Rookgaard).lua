@@ -54,6 +54,8 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
+	{text = "You desecrated this temple!", yell = false},
+	{text = "I WILL SET THE WORLD ON FIRE!", yell = false}
 }
 
 monster.immunities = {

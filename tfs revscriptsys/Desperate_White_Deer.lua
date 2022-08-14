@@ -75,7 +75,7 @@ monster.elements = {
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
@@ -91,9 +91,9 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 13533, chance = 21286},
-	{id = 13534, chance = 20418},
-	{id = 2671, chance = 19595}
+	{id = 13533, chance = 21417},
+	{id = 13534, chance = 20285},
+	{id = 2671, chance = 19384, maxCount = 3}
 }
 
 mType:register(monster)

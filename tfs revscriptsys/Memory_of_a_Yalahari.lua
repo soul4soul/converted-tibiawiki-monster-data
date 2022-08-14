@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Yalahari"
 monster.description = "a memory of a yalahari"
-monster.experience = 0
+monster.experience = 1640
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3540
+monster.maxHealth = 3540
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,13 +86,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 83236, maxCount = 3},
-	{id = 37530, chance = 2144},
-	{id = 2153, chance = 1949},
-	{id = 37468, chance = 1365},
-	{id = 2157, chance = 975},
-	{id = 2155, chance = 780},
-	{id = 18414, chance = 585}
+	{id = 2152, chance = 75000, maxCount = 3},
+	{id = 37468, chance = 20000},
+	{id = 37530, chance = 20000},
+	{id = 2153, chance = 20000},
+	{id = 2157, chance = 20000},
+	{id = 18414, chance = 20000},
+	{id = 2155, chance = 20000}
 }
 
 mType:register(monster)

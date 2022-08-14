@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Bonelord" nameDescription="a bonelord" experience="157" speed="0" manacost="0">
+<monster name="Bonelord" nameDescription="a bonelord" race="blood" experience="157" speed="0" manacost="0">
 	<health now="260" max="260" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -31,25 +31,30 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-5" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
 		<voice sentence="You've got the look!" yell="false" />
 		<voice sentence="Eye for eye!" yell="false" />
 		<voice sentence="Here's looking at you!" yell="false" />
 	</voices>
+	<summons maxSummons="4">
+		<voice name="Skeleton" interval="2000" chance="15" max="4" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="66667" countmax="34" />
+		<item id="2148" name="gold coin" chance="66667" countmax="82" />
+		<item id="2397" name="longsword" chance="20000" />
+		<item id="2377" name="two handed sword" chance="20000" />
+		<item id="2394" name="morning star" chance="20000" />
+		<item id="2509" name="steel shield" chance="20000" />
+		<item id="2175" name="spellbook" chance="20000" />
 	</loot>
 </monster>

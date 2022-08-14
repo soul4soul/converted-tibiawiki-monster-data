@@ -69,20 +69,23 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 15},
+	{type = COMBAT_ENERGYDAMAGE, percent = -8},
+	{type = COMBAT_EARTHDAMAGE, percent = 40},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 5},
+	{type = COMBAT_HOLYDAMAGE , percent = -6},
+	{type = COMBAT_DEATHDAMAGE , percent = 30}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = 0, maxDamage = -450, length = 6, spread = 0, effect = CONST_ME_PURPLEENERGY},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = 0, maxDamage = -400, length = 8, spread = 0, effect = CONST_ME_YELLOWENERGY},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_MANADRAIN, minDamage = -55, maxDamage = -150, radius = 3, target = true, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYHIT}
 }
 
 monster.defenses = {
@@ -93,35 +96,35 @@ monster.defenses = {
 
 monster.maxSummons = 2
 monster.summons = {
-	{name = "Energy Elemental", chance = 15, interval = 2000, max = 1}
+	{name = "Energy Elemental", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 100},
 	{id = 2152, chance = 100000, maxCount = 6},
-	{id = 2795, chance = 20270, maxCount = 6},
-	{id = 8473, chance = 20067, maxCount = 3},
-	{id = 7590, chance = 19845, maxCount = 2},
-	{id = 2145, chance = 10285, maxCount = 5},
-	{id = 2147, chance = 10030, maxCount = 5},
-	{id = 2146, chance = 9965, maxCount = 5},
-	{id = 2149, chance = 9942, maxCount = 5},
-	{id = 9970, chance = 9808, maxCount = 5},
-	{id = 7368, chance = 8622, maxCount = 10},
-	{id = 2214, chance = 2434},
-	{id = 2393, chance = 1996},
-	{id = 2165, chance = 1398},
-	{id = 2519, chance = 898},
+	{id = 2795, chance = 20235, maxCount = 6},
+	{id = 8473, chance = 20023, maxCount = 3},
+	{id = 7590, chance = 19833, maxCount = 2},
+	{id = 2145, chance = 10312, maxCount = 5},
+	{id = 2147, chance = 10051, maxCount = 5},
+	{id = 2146, chance = 9997, maxCount = 5},
+	{id = 2149, chance = 9920, maxCount = 5},
+	{id = 9970, chance = 9804, maxCount = 5},
+	{id = 7368, chance = 8655, maxCount = 10},
+	{id = 2214, chance = 2446},
+	{id = 2393, chance = 2005},
+	{id = 2165, chance = 1403},
+	{id = 2519, chance = 904},
 	{id = 2396, chance = 882},
-	{id = 2164, chance = 670},
+	{id = 2164, chance = 660},
 	{id = 2171, chance = 660},
-	{id = 2497, chance = 568},
-	{id = 2462, chance = 549},
-	{id = 5906, chance = 536},
-	{id = 22396, chance = 474},
-	{id = 2520, chance = 454},
+	{id = 2497, chance = 570},
+	{id = 2462, chance = 557},
+	{id = 5906, chance = 531},
+	{id = 22396, chance = 470},
+	{id = 2520, chance = 457},
 	{id = 2487, chance = 274},
-	{id = 7382, chance = 88}
+	{id = 7382, chance = 87}
 }
 
 mType:register(monster)

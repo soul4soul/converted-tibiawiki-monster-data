@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Reflection Of A Mage" nameDescription="a reflection of a Mage" experience="3250" speed="0" manacost="0">
+<monster name="Reflection Of A Mage" nameDescription="a reflection of a Mage" race="blood" experience="3250" speed="0" manacost="0">
 	<health now="3500" max="3500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -41,18 +41,22 @@
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="10" defense="5" />
+	<summons maxSummons="1">
+		<voice name="Golden Servant" interval="2000" chance="15" max="1" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="250" />
-		<item id="2152" name="platinum coin" chance="96296" countmax="12" />
-		<item id="2114" name="piggy bank" chance="44444" />
-		<item id="7591" name="great health potion" chance="33333" countmax="5" />
-		<item id="7590" name="great mana potion" chance="25926" countmax="5" />
-		<item id="2146" name="small sapphire" chance="18519" countmax="5" />
-		<item id="7368" name="assassin star" chance="14815" countmax="10" />
+		<item id="2148" name="gold coin" chance="100000" countmax="373" />
+		<item id="2152" name="platinum coin" chance="66667" countmax="12" />
+		<item id="2114" name="piggy bank" chance="55556" />
+		<item id="7368" name="assassin star" chance="44444" countmax="15" />
+		<item id="7590" name="great mana potion" chance="33333" countmax="9" />
+		<item id="2146" name="small sapphire" chance="33333" countmax="7" />
+		<item id="7591" name="great health potion" chance="22222" countmax="8" />
+		<item id="12410" name="luminous orb" chance="20000" />
+		<item id="2165" name="stealth ring" chance="20000" />
+		<item id="9980" name="crystal of power" chance="20000" />
+		<item id="2792" name="dark mushroom" chance="20000" />
 		<item id="2178" name="mind stone" chance="11111" />
-		<item id="7443" name="bullseye potion" chance="3704" />
-		<item id="9980" name="crystal of power" chance="3704" />
-		<item id="2792" name="dark mushroom" chance="3704" countmax="2" />
-		<item id="12410" name="luminous orb" chance="3704" />
+		<item id="7443" name="bullseye potion" chance="11111" />
 	</loot>
 </monster>

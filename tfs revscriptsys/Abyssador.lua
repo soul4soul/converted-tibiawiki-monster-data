@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Abyssador")
 local monster = {}
 
 monster.name = "Abyssador"
-monster.description = ""
+monster.description = "Abyssador"
 monster.experience = 50000
 monster.outfit = {
 	lookType = 0,
@@ -73,15 +73,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 15},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 15},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 15}
 }
 
 monster.attacks = {
@@ -98,13 +98,13 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 18496, chance = 100000},
-	{id = 18451, chance = 12000},
-	{id = 18453, chance = 11000},
-	{id = 18450, chance = 11000},
-	{id = 18465, chance = 10000},
-	{id = 18454, chance = 5000},
-	{id = 18452, chance = 2000},
-	{id = 18449, chance = 1000}
+	{id = 18451, chance = 12871},
+	{id = 18450, chance = 11881},
+	{id = 18453, chance = 10891},
+	{id = 18465, chance = 9901},
+	{id = 18454, chance = 4950},
+	{id = 18452, chance = 1980},
+	{id = 18449, chance = 990}
 }
 
 mType:register(monster)

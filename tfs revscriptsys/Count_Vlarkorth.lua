@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Count Vlarkorth")
 local monster = {}
 
 monster.name = "Count Vlarkorth"
-monster.description = ""
+monster.description = "Count Vlarkorth"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -66,15 +66,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 5},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
@@ -82,46 +82,51 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 189}
+	armor = 10
+}
+
+monster.maxSummons = 4
+monster.summons = {
+	{name = "Soulless Minion", chance = 15, interval = 2000, max = 4}
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 25172, chance = 100000, maxCount = 2},
-	{id = 26031, chance = 58095, maxCount = 20},
-	{id = 26030, chance = 56190, maxCount = 20},
-	{id = 26029, chance = 52381, maxCount = 20},
-	{id = 2156, chance = 38095, maxCount = 2},
-	{id = 2154, chance = 29524, maxCount = 2},
-	{id = 2477, chance = 27619},
-	{id = 7439, chance = 24762, maxCount = 10},
-	{id = 2160, chance = 20952, maxCount = 2},
-	{id = 2158, chance = 20000},
-	{id = 7443, chance = 17143, maxCount = 10},
-	{id = 9971, chance = 15238},
-	{id = 2155, chance = 14286, maxCount = 2},
+	{id = 2152, chance = 100000, maxCount = 9},
+	{id = 25172, chance = 100000, maxCount = 3},
+	{id = 26031, chance = 61905, maxCount = 30},
+	{id = 26029, chance = 55556, maxCount = 26},
+	{id = 26030, chance = 55556, maxCount = 32},
+	{id = 2156, chance = 39683, maxCount = 2},
+	{id = 2477, chance = 34921},
+	{id = 2154, chance = 30159, maxCount = 2},
+	{id = 2155, chance = 25397, maxCount = 2},
+	{id = 7443, chance = 20635, maxCount = 19},
+	{id = 7440, chance = 20635, maxCount = 19},
+	{id = 7439, chance = 20635, maxCount = 18},
+	{id = 34234, chance = 20000},
+	{id = 34394, chance = 20000},
+	{id = 2160, chance = 19048, maxCount = 3},
+	{id = 9971, chance = 17460},
 	{id = 2436, chance = 14286},
-	{id = 7440, chance = 13333, maxCount = 10},
-	{id = 26200, chance = 12381},
-	{id = 5904, chance = 12381},
-	{id = 26199, chance = 11429},
-	{id = 7891, chance = 10476},
-	{id = "collar of blue plasma", chance = 9524},
-	{id = 34246, chance = 9524},
-	{id = "ring of blue plasma", chance = 8571},
-	{id = "ring of green plasma", chance = 7619},
-	{id = 2153, chance = 6667},
-	{id = "ring of red plasma", chance = 5714},
-	{id = 34244, chance = 4762},
-	{id = 32716, chance = 4762},
-	{id = 34245, chance = 4762},
-	{id = 34234, chance = 1905},
-	{id = 34394, chance = 1905},
-	{id = 34247, chance = 1905},
-	{id = 34235, chance = 952},
-	{id = 32717, chance = 952},
-	{id = 34233, chance = 952}
+	{id = 2158, chance = 12698, maxCount = 2},
+	{id = "collar of blue plasma", chance = 12698},
+	{id = 34246, chance = 12698},
+	{id = 26200, chance = 11111},
+	{id = "ring of red plasma", chance = 11111},
+	{id = 7891, chance = 9524},
+	{id = "ring of blue plasma", chance = 9524},
+	{id = "ring of green plasma", chance = 7937},
+	{id = 5904, chance = 6349},
+	{id = 34245, chance = 6349},
+	{id = 2153, chance = 4762},
+	{id = 32717, chance = 4762},
+	{id = 32715, chance = 4762},
+	{id = 26199, chance = 3175},
+	{id = 34244, chance = 3175},
+	{id = 34235, chance = 1587},
+	{id = 34247, chance = 1587},
+	{id = 32716, chance = 1587},
+	{id = 34233, chance = 1587}
 }
 
 mType:register(monster)

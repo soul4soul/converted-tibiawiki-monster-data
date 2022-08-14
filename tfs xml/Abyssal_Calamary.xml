@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Abyssal Calamary" nameDescription="an abyssal calamary" experience="200" speed="280" manacost="0">
+<monster name="Abyssal Calamary" nameDescription="an abyssal calamary" race="blood" experience="200" speed="280" manacost="0">
 	<health now="300" max="300" />
 	<look type="451" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,25 +29,25 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="-5" />
+		<element energyPercent="-5" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
+		<element drownPercent="100" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<defenses armor="12" defense="12" />
 	<loot>
-		<item id="2667" name="fish" chance="10425" />
-		<item id="2670" name="shrimp" chance="9511" />
-		<item id="2144" name="black pearl" chance="1189" />
-		<item id="2150" name="small amethyst" chance="640" countmax="3" />
-		<item id="2147" name="small ruby" chance="640" countmax="3" />
-		<item id="2143" name="white pearl" chance="549" />
-		<item id="2146" name="small sapphire" chance="229" countmax="3" />
+		<item id="2667" name="fish" chance="10251" />
+		<item id="2670" name="shrimp" chance="9445" />
+		<item id="2144" name="black pearl" chance="1209" />
+		<item id="2147" name="small ruby" chance="627" countmax="3" />
+		<item id="2150" name="small amethyst" chance="627" countmax="3" />
+		<item id="2143" name="white pearl" chance="582" />
+		<item id="2146" name="small sapphire" chance="269" countmax="3" />
 	</loot>
 </monster>

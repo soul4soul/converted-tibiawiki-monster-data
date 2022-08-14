@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Bullwark" nameDescription="" experience="22000" speed="0" manacost="0">
+<monster name="Bullwark" nameDescription="Bullwark" race="blood" experience="22000" speed="0" manacost="0">
 	<health now="72000" max="72000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,28 +30,38 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="15" />
+		<element earthPercent="100" />
+		<element firePercent="5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="15" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="10" />
 	</elements>
-	<defenses armor="10" defense="5" />
+	<defenses armor="10" defense="5">
+		<defense name="healing" interval="2000" chance="20" min="2000" max="5000" />
+	</defenses>
+	<summons maxSummons="4">
+		<voice name="Moohtant" interval="2000" chance="15" max="4" />
+	</summons>
 	<loot>
-		<item id="23570" name="giant pacifier" chance="100000" />
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
-		<item id="7591" name="great health potion" chance="100000" countmax="5" />
-		<item id="5878" name="minotaur leather" chance="100000" />
-		<item id="23571" name="moohtant horn" chance="100000" countmax="2" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="2671" name="ham" chance="50000" />
-		<item id="2666" name="meat" chance="50000" />
-		<item id="23537" name="mooh'tah plate" chance="50000" />
+		<item id="7591" name="great health potion" chance="100000" countmax="5" />
+		<item id="23570" name="giant pacifier" chance="100000" />
+		<item id="23571" name="moohtant horn" chance="100000" countmax="2" />
+		<item id="5878" name="minotaur leather" chance="100000" />
 		<item id="2150" name="small amethyst" chance="50000" countmax="5" />
+		<item id="2666" name="meat" chance="50000" />
+		<item id="2671" name="ham" chance="50000" />
+		<item id="23537" name="mooh'tah plate" chance="50000" />
 		<item id="9970" name="small topaz" chance="50000" countmax="5" />
+		<item id="2145" name="small diamond" chance="20000" countmax="5" />
+		<item id="7590" name="great mana potion" chance="20000" countmax="5" />
+		<item id="23544" name="moohtant cudgel" chance="20000" />
+		<item id="5911" name="red piece of cloth" chance="20000" />
+		<item id="23590" name="one hit wonder" chance="7500" />
 	</loot>
 </monster>

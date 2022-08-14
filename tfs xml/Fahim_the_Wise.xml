@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Fahim The Wise" nameDescription="" experience="1500" speed="0" manacost="0">
+<monster name="Fahim The Wise" nameDescription="Fahim the Wise" race="blood" experience="1500" speed="0" manacost="0">
 	<health now="2000" max="2000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,37 +32,39 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="1" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-15" />
+		<element holyPercent="1" />
+		<element deathPercent="-10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-130" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="0" max="173" />
 	</defenses>
 	<voices interval="5000" chance="10">
 		<voice sentence="You should know better than to be an enemy of the Marid" yell="false" />
 	</voices>
+	<summons maxSummons="3">
+		<voice name="Blue Djinn" interval="2000" chance="15" max="3" />
+	</summons>
 	<loot>
 		<item id="5912" name="blue piece of cloth" chance="100000" countmax="4" />
 		<item id="12426" name="jewelled belt" chance="100000" />
 		<item id="2148" name="gold coin" chance="95918" countmax="118" />
 		<item id="12442" name="noble turban" chance="65306" />
 		<item id="7378" name="royal spear" chance="55102" countmax="3" />
-		<item id="2677" name="blueberry" chance="40816" countmax="21" />
-		<item id="11227" name="shiny stone" chance="40816" />
+		<item id="2677" name="blueberry" chance="40816" countmax="22" />
 		<item id="7589" name="strong mana potion" chance="40816" countmax="3" />
+		<item id="11227" name="shiny stone" chance="40816" />
 		<item id="2663" name="mystic turban" chance="34694" />
+		<item id="2063" name="small oil lamp" chance="20000" />
+		<item id="2442" name="heavy machete" chance="20000" />
 		<item id="2146" name="small sapphire" chance="14286" countmax="2" />
 		<item id="7732" name="seeds" chance="8163" />
 		<item id="7900" name="magma monocle" chance="4082" />
-		<item id="2158" name="blue gem" chance="2041" />
 		<item id="2070" name="wooden flute" chance="2041" />
+		<item id="2158" name="blue gem" chance="2041" />
 	</loot>
 </monster>

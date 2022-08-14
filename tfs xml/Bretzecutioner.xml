@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Bretzecutioner" nameDescription="" experience="3700" speed="0" manacost="0">
+<monster name="Bretzecutioner" nameDescription="Bretzecutioner" race="blood" experience="3700" speed="0" manacost="0">
 	<health now="5600" max="5600" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -49,25 +49,25 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="7368" name="assassin star" chance="100000" countmax="10" />
-		<item id="6300" name="death ring" chance="100000" />
 		<item id="2148" name="gold coin" chance="100000" countmax="99" />
-		<item id="2666" name="meat" chance="100000" />
-		<item id="11215" name="metal spike" chance="100000" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="8" />
+		<item id="6300" name="death ring" chance="100000" />
+		<item id="7368" name="assassin star" chance="100000" countmax="10" />
+		<item id="11215" name="metal spike" chance="100000" />
+		<item id="2666" name="meat" chance="100000" countmax="6" />
 		<item id="2489" name="dark armor" chance="66667" />
-		<item id="6500" name="demonic essence" chance="61111" />
+		<item id="6500" name="demonic essence" chance="61111" countmax="2" />
 		<item id="7591" name="great health potion" chance="47222" countmax="3" />
 		<item name="giant shimmering pearl" chance="41667" />
-		<item id="2146" name="small sapphire" chance="38889" countmax="5" />
 		<item id="7452" name="spiked squelcher" chance="38889" />
+		<item id="2146" name="small sapphire" chance="38889" countmax="5" />
 		<item id="2145" name="small diamond" chance="33333" countmax="5" />
 		<item id="8472" name="great spirit potion" chance="30556" countmax="3" />
 		<item id="2125" name="crystal necklace" chance="27778" />
 		<item id="2150" name="small amethyst" chance="27778" countmax="5" />
 		<item id="7590" name="great mana potion" chance="22222" countmax="3" />
-		<item id="7427" name="chaos mace" chance="19444" />
 		<item id="2521" name="dark shield" chance="19444" />
+		<item id="7427" name="chaos mace" chance="19444" />
 		<item id="2393" name="giant sword" chance="16667" />
 		<item id="7419" name="dreaded cleaver" chance="13889" />
 		<item id="2645" name="steel boots" chance="5556" />

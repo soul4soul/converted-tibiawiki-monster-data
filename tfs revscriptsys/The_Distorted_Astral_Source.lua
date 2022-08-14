@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Distorted Astral Source")
 local monster = {}
 
 monster.name = "The Distorted Astral Source"
-monster.description = ""
+monster.description = "The Distorted Astral Source"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {

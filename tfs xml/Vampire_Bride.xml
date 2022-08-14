@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Vampire Bride" nameDescription="a vampire bride" experience="1050" speed="200" manacost="0">
+<monster name="Vampire Bride" nameDescription="a vampire bride" race="undead" experience="1050" speed="200" manacost="0">
 	<health now="1200" max="1200" />
 	<look type="312" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="10" />
+		<element earthPercent="20" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element drownPercent="10" />
+		<element icePercent="20" />
+		<element holyPercent="-10" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-190" />
@@ -55,22 +55,22 @@
 		<voice sentence="You won't regret you came to me, sweetheart." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="93603" countmax="149" />
-		<item id="7589" name="strong mana potion" chance="10349" />
-		<item id="10602" name="vampire teeth" chance="10035" />
-		<item id="2152" name="platinum coin" chance="10007" />
-		<item id="2186" name="moonlight rod" chance="5204" />
-		<item id="12405" name="blood preservation" chance="5040" />
-		<item id="7588" name="strong health potion" chance="4834" />
-		<item id="9837" name="velvet tapestry" chance="1032" />
-		<item id="2127" name="emerald bangle" chance="1029" />
-		<item id="2145" name="small diamond" chance="1015" countmax="2" />
-		<item id="9809" name="rusted armor" chance="1012" />
-		<item id="8873" name="hibiscus dress" chance="977" />
-		<item id="2195" name="boots of haste" chance="199" />
-		<item id="7733" name="flower bouquet" chance="174" />
-		<item id="5669" name="mysterious voodoo skull" chance="146" />
-		<item id="9447" name="blood goblet" chance="91" />
-		<item id="13293" name="leather whip" chance="35" />
+		<item id="2148" name="gold coin" chance="93625" countmax="149" />
+		<item id="7589" name="strong mana potion" chance="10308" />
+		<item id="10602" name="vampire teeth" chance="9995" />
+		<item id="2152" name="platinum coin" chance="9978" />
+		<item id="2186" name="moonlight rod" chance="5200" />
+		<item id="12405" name="blood preservation" chance="5018" />
+		<item id="7588" name="strong health potion" chance="4826" />
+		<item id="2127" name="emerald bangle" chance="1041" />
+		<item id="9837" name="velvet tapestry" chance="1037" />
+		<item id="2145" name="small diamond" chance="1034" countmax="2" />
+		<item id="9809" name="rusted armor" chance="1010" />
+		<item id="8873" name="hibiscus dress" chance="973" />
+		<item id="2195" name="boots of haste" chance="212" />
+		<item id="7733" name="flower bouquet" chance="175" />
+		<item id="5669" name="mysterious voodoo skull" chance="141" />
+		<item id="9447" name="blood goblet" chance="101" />
+		<item id="13293" name="leather whip" chance="34" />
 	</loot>
 </monster>

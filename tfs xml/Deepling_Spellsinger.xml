@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Deepling Spellsinger" nameDescription="a deepling spellsinger" experience="1000" speed="190" manacost="0">
+<monster name="Deepling Spellsinger" nameDescription="a deepling spellsinger" race="blood" experience="1000" speed="190" manacost="0">
 	<health now="850" max="850" />
 	<look type="443" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,29 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="50" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
+		<attack name="manadrain" interval="2000" chance="15" min="-60" max="-140" range="3" radius="1" target="1">
+			<attribute key="areaEffect" value="smallplants" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="0" max="-100" range="3" radius="1" target="1">
+			<attribute key="areaEffect" value="smallplants" />
+		</attack>
+		<attack name="ice" interval="2000" chance="15" min="-100" max="-350" length="5" spread="3" />
+		<attack name="ice" interval="2000" chance="15" min="-50" max="-130" radius="4" target="1">
+			<attribute key="shootEffect" value="ice" />
+			<attribute key="areaEffect" value="bubbles" />
+		</attack>
 	</attacks>
 	<defenses armor="42" defense="42" />
 	<voices interval="5000" chance="10">
@@ -49,18 +60,18 @@
 		<voice sentence="Mmmmmoooaaaaaahaaa!!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2152" name="platinum coin" chance="80110" />
-		<item id="2148" name="gold coin" chance="75110" countmax="60" />
-		<item id="15421" name="spellsinger's seal" chance="15204" />
-		<item id="15488" name="deepling filet" chance="14951" />
-		<item id="15422" name="key to the drowned library" chance="10764" />
-		<item id="2667" name="fish" chance="3531" />
-		<item id="2146" name="small sapphire" chance="2938" />
-		<item id="13870" name="eye of a deepling" chance="2541" />
-		<item id="2168" name="life ring" chance="2442" />
-		<item id="15400" name="deepling staff" chance="2015" />
-		<item id="15403" name="necklace of the deep" chance="784" />
-		<item id="5895" name="fish fin" chance="510" />
-		<item id="15644" name="ornate crossbow" chance="206" />
+		<item id="2152" name="platinum coin" chance="80108" />
+		<item id="2148" name="gold coin" chance="75105" countmax="60" />
+		<item id="15421" name="spellsinger's seal" chance="15248" />
+		<item id="15488" name="deepling filet" chance="14943" />
+		<item id="15422" name="key to the drowned library" chance="10737" />
+		<item id="2667" name="fish" chance="3533" />
+		<item id="2146" name="small sapphire" chance="2947" />
+		<item id="13870" name="eye of a deepling" chance="2533" />
+		<item id="2168" name="life ring" chance="2439" />
+		<item id="15400" name="deepling staff" chance="2007" />
+		<item id="15403" name="necklace of the deep" chance="785" />
+		<item id="5895" name="fish fin" chance="507" />
+		<item id="15644" name="ornate crossbow" chance="205" />
 	</loot>
 </monster>

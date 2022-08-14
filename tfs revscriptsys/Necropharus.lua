@@ -80,7 +80,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
@@ -89,22 +88,34 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 300}
 }
 
+monster.maxSummons = 4
+monster.summons = {
+	{name = "Ghoul", chance = 15, interval = 2000, max = 2},
+	{name = "Ghost", chance = 15, interval = 2000, max = 1},
+	{name = "Mummy", chance = 15, interval = 2000, max = 1}
+}
+
 monster.loot = {
-	{id = 11237, chance = 100000},
 	{id = 2148, chance = 100000, maxCount = 100},
 	{id = 12431, chance = 100000},
 	{id = 5809, chance = 100000},
+	{id = 11237, chance = 100000},
 	{id = 2423, chance = 56757},
 	{id = 2436, chance = 43243},
 	{id = 2449, chance = 35135},
 	{id = 2796, chance = 27027},
+	{id = 2483, chance = 20000},
+	{id = 2406, chance = 20000},
+	{id = 2182, chance = 20000},
+	{id = 2032, chance = 20000},
+	{id = 2747, chance = 20000},
 	{id = 2229, chance = 13514},
 	{id = 2663, chance = 10811},
-	{id = 2541, chance = 8108},
 	{id = 2186, chance = 8108},
+	{id = 2541, chance = 8108},
 	{id = 2231, chance = 5405},
-	{id = 2195, chance = 2703},
-	{id = 7589, chance = 2703}
+	{id = 7589, chance = 2703},
+	{id = 2195, chance = 2703}
 }
 
 mType:register(monster)

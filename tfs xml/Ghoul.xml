@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ghoul" nameDescription="a ghoul" experience="85" speed="144" manacost="450">
+<monster name="Ghoul" nameDescription="a ghoul" race="undead" experience="85" speed="144" manacost="450">
 	<health now="100" max="100" />
 	<look type="18" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="30" />
+		<element earthPercent="20" />
 		<element firePercent="0" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="10" />
+		<element holyPercent="-25" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-70" />
@@ -47,17 +47,17 @@
 		<defense name="healing" interval="2000" chance="20" min="10" max="25" />
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="69851" countmax="30" />
-		<item id="11208" name="rotten piece of cloth" chance="14668" />
-		<item id="3976" name="worm" chance="9775" countmax="2" />
-		<item name="torch" chance="5175" />
-		<item id="12423" name="ghoul snack" chance="5059" />
-		<item id="26642" name="heavy old tome" chance="2077" />
-		<item id="12440" name="pile of grave earth" chance="1022" />
-		<item id="5913" name="brown piece of cloth" chance="1005" />
-		<item id="2473" name="viking helmet" chance="1005" />
-		<item id="2483" name="scale armor" chance="978" />
-		<item id="2229" name="skull (item)" chance="315" />
-		<item id="2168" name="life ring" chance="177" />
+		<item id="2148" name="gold coin" chance="69879" countmax="30" />
+		<item id="11208" name="rotten piece of cloth" chance="14671" />
+		<item id="3976" name="worm" chance="9789" countmax="2" />
+		<item name="torch" chance="5226" />
+		<item id="12423" name="ghoul snack" chance="5110" />
+		<item id="26642" name="heavy old tome" chance="2066" />
+		<item id="12440" name="pile of grave earth" chance="1003" />
+		<item id="5913" name="brown piece of cloth" chance="998" />
+		<item id="2473" name="viking helmet" chance="998" />
+		<item id="2483" name="scale armor" chance="993" />
+		<item id="2229" name="skull (item)" chance="324" />
+		<item id="2168" name="life ring" chance="187" />
 	</loot>
 </monster>

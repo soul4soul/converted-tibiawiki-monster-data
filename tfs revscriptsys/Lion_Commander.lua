@@ -78,12 +78,18 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
 	defense = 5,
 	armor = 10
+}
+
+monster.maxSummons = 0
+monster.summons = {
+	{name = "Lion Knight", chance = 15, interval = 2000},
+	{name = "Lion Archer", chance = 15, interval = 2000},
+	{name = "Lion Warlock", chance = 15, interval = 2000}
 }
 
 monster.loot = {

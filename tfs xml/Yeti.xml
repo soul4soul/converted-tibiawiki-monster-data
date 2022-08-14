@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Yeti" nameDescription="a yeti" experience="460" speed="250" manacost="0">
+<monster name="Yeti" nameDescription="a yeti" race="blood" experience="460" speed="250" manacost="0">
 	<health now="950" max="950" />
 	<look type="110" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,9 +30,9 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="-8" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -40,21 +40,17 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-200" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-180" range="7" />
-	</attacks>
 	<defenses armor="28" defense="28" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Yooodelaaahooohooo" yell="false" />
 		<voice sentence="Yooodelaaaheehee" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="79310" countmax="27" />
-		<item id="2666" name="meat" chance="71264" />
+		<item id="2148" name="gold coin" chance="79310" countmax="30" />
+		<item id="2666" name="meat" chance="71264" countmax="4" />
 		<item id="2111" name="snowball" chance="52874" countmax="22" />
-		<item id="2671" name="ham" chance="39080" />
-		<item id="2644" name="bunnyslippers" chance="1149" />
+		<item id="2671" name="ham" chance="39080" countmax="6" />
 		<item id="2129" name="wolf tooth chain" chance="1149" />
+		<item id="2644" name="bunnyslippers" chance="1149" />
 	</loot>
 </monster>

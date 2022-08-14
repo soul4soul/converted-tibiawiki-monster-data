@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dwarf Geomancer" nameDescription="a dwarf geomancer" experience="265" speed="200" manacost="0">
+<monster name="Dwarf Geomancer" nameDescription="a dwarf geomancer" race="blood" experience="265" speed="200" manacost="0">
 	<health now="380" max="380" />
 	<look type="66" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="1" />
+		<flag targetdistance="4" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="1" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="10" />
+		<element earthPercent="20" />
+		<element firePercent="60" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-5" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
@@ -52,18 +52,18 @@
 		<voice sentence="Dust to dust." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75530" countmax="45" />
-		<item id="2787" name="white mushroom" chance="59163" countmax="2" />
-		<item id="2260" name="blank rune" chance="33475" />
-		<item id="2673" name="pear" chance="24815" />
-		<item id="2162" name="magic light wand" chance="13745" />
-		<item id="12414" name="geomancer's robe" chance="8236" />
-		<item id="12419" name="geomancer's staff" chance="6780" />
-		<item id="2423" name="clerical mace" chance="1059" />
-		<item id="2213" name="dwarven ring" chance="689" />
-		<item id="2146" name="small sapphire" chance="583" />
-		<item id="2175" name="spellbook" chance="477" />
-		<item id="7886" name="terra boots" chance="424" />
+		<item id="2148" name="gold coin" chance="75523" countmax="45" />
+		<item id="2787" name="white mushroom" chance="59116" countmax="2" />
+		<item id="2260" name="blank rune" chance="33474" />
+		<item id="2673" name="pear" chance="24795" />
+		<item id="2162" name="magic light wand" chance="13760" />
+		<item id="12414" name="geomancer's robe" chance="8230" />
+		<item id="12419" name="geomancer's staff" chance="6774" />
+		<item id="2423" name="clerical mace" chance="1058" />
+		<item id="2213" name="dwarven ring" chance="688" />
+		<item id="2146" name="small sapphire" chance="582" />
+		<item id="2175" name="spellbook" chance="476" />
+		<item id="7886" name="terra boots" chance="423" />
 		<item id="5880" name="iron ore" chance="318" />
 	</loot>
 </monster>

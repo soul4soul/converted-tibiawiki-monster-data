@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Renegade Orc" nameDescription="a renegade orc" experience="270" speed="0" manacost="0">
+<monster name="Renegade Orc" nameDescription="a renegade orc" race="blood" experience="270" speed="0" manacost="0">
 	<health now="450" max="450" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,7 +32,7 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -53,15 +53,18 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="35484" countmax="35" />
 		<item id="2667" name="fish" chance="29032" />
-		<item id="2510" name="plate shield" chance="9677" />
+		<item id="12435" name="orc leather" chance="20000" />
+		<item id="2413" name="broadsword" chance="20000" />
+		<item id="7618" name="health potion" chance="20000" />
 		<item id="2419" name="scimitar" chance="9677" />
+		<item id="2510" name="plate shield" chance="9677" />
 		<item id="2789" name="brown mushroom" chance="6452" />
 		<item id="2647" name="plate legs" chance="6452" />
+		<item id="2410" name="throwing knife" chance="3226" countmax="2" />
+		<item id="2207" name="sword ring" chance="3226" />
 		<item id="2397" name="longsword" chance="3226" />
 		<item id="11113" name="orc tooth" chance="3226" />
-		<item id="7378" name="royal spear" chance="3226" />
-		<item id="2207" name="sword ring" chance="3226" />
-		<item id="2410" name="throwing knife" chance="3226" countmax="2" />
 		<item id="2475" name="warrior helmet" chance="3226" />
+		<item id="7378" name="royal spear" chance="3226" />
 	</loot>
 </monster>

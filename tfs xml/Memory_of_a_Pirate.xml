@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Pirate" nameDescription="a memory of a pirate" experience="0" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Pirate" nameDescription="a memory of a pirate" race="blood" experience="1500" speed="0" manacost="0">
+	<health now="3750" max="3750" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -42,23 +42,23 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="41538" countmax="100" />
-		<item id="2147" name="small ruby" chance="13846" />
-		<item id="3123" name="worn leather boots" chance="12308" />
-		<item id="2149" name="small emerald" chance="10000" />
-		<item id="2385" name="sabre" chance="9038" />
-		<item id="2410" name="throwing knife" chance="8654" countmax="5" />
-		<item id="7588" name="strong health potion" chance="8269" />
-		<item id="2513" name="battle shield" chance="8077" />
-		<item name="torch" chance="7115" />
-		<item id="37531" name="candy floss (large)" chance="3846" />
-		<item id="2463" name="plate armor" chance="3846" />
-		<item id="6095" name="pirate shirt" chance="2308" />
-		<item id="37530" name="bottle of champagne" chance="1346" />
-		<item id="5926" name="pirate backpack" chance="1346" />
-		<item name="die" chance="1154" />
-		<item id="5553" name="rum flask" chance="1154" />
-		<item id="5090" name="treasure map" chance="577" />
-		<item id="37468" name="special fx box" chance="385" />
+		<item id="2148" name="gold coin" chance="39216" countmax="98" />
+		<item name="die" chance="20000" />
+		<item id="2463" name="plate armor" chance="20000" />
+		<item id="37468" name="special fx box" chance="20000" />
+		<item id="5090" name="treasure map" chance="20000" />
+		<item id="37530" name="bottle of champagne" chance="20000" />
+		<item id="6095" name="pirate shirt" chance="20000" />
+		<item id="37531" name="candy floss (large)" chance="20000" />
+		<item id="2410" name="throwing knife" chance="13725" countmax="5" />
+		<item id="3123" name="worn leather boots" chance="11765" />
+		<item id="2385" name="sabre" chance="11765" />
+		<item id="2147" name="small ruby" chance="9804" />
+		<item name="torch" chance="7843" />
+		<item id="2149" name="small emerald" chance="7843" />
+		<item id="2513" name="battle shield" chance="7843" />
+		<item id="7588" name="strong health potion" chance="5882" />
+		<item id="5926" name="pirate backpack" chance="1961" />
+		<item id="5553" name="rum flask" chance="1961" />
 	</loot>
 </monster>

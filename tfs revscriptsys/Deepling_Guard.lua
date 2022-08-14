@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = true,
@@ -67,19 +67,21 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -10},
+	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
-	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -200, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_WHIRLWINDAXE, effect = CONST_ME_DRAWBLOOD},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -150, range = 3, radius = 1, target = true, shootEffect = CONST_ANI_SPEAR, effect = CONST_ME_DRAWBLOOD}
 }
 
 monster.defenses = {
@@ -90,19 +92,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 180},
-	{id = 2152, chance = 70166, maxCount = 2},
-	{id = 7591, chance = 15076, maxCount = 3},
-	{id = 7590, chance = 15016, maxCount = 3},
-	{id = 15424, chance = 15001},
-	{id = 15423, chance = 11946},
-	{id = 13870, chance = 9834},
-	{id = 15455, chance = 8951},
-	{id = 2146, chance = 2841, maxCount = 3},
-	{id = 13838, chance = 1496},
-	{id = 15454, chance = 878},
-	{id = 15647, chance = 715},
-	{id = 15644, chance = 408},
-	{id = 15645, chance = 313},
+	{id = 2152, chance = 70162, maxCount = 2},
+	{id = 7591, chance = 15063, maxCount = 3},
+	{id = 7590, chance = 15023, maxCount = 3},
+	{id = 15424, chance = 15011},
+	{id = 15423, chance = 11941},
+	{id = 13870, chance = 9844},
+	{id = 15455, chance = 8963},
+	{id = 2146, chance = 2839, maxCount = 3},
+	{id = 13838, chance = 1498},
+	{id = 15454, chance = 879},
+	{id = 15647, chance = 717},
+	{id = 15644, chance = 410},
+	{id = 15645, chance = 310},
 	{id = 15545, chance = 16}
 }
 

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Superior Death Minion")
 local monster = {}
 
 monster.name = "Superior Death Minion"
-monster.description = ""
+monster.description = "an superior death minion"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

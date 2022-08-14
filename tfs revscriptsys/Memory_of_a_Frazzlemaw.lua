@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Frazzlemaw"
 monster.description = "a memory of a frazzlemaw"
-monster.experience = 0
+monster.experience = 1810
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3770
+monster.maxHealth = 3770
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,25 +86,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 82991, maxCount = 100},
-	{id = 18417, chance = 14663},
-	{id = 7590, chance = 14076, maxCount = 3},
-	{id = 7591, chance = 12023, maxCount = 2},
-	{id = 2230, chance = 9971},
-	{id = 2225, chance = 9677},
-	{id = 5951, chance = 7918},
-	{id = 2219, chance = 7038},
-	{id = 2667, chance = 5865, maxCount = 3},
-	{id = 18554, chance = 5279},
-	{id = 2226, chance = 5279},
-	{id = 2671, chance = 4985},
-	{id = 2231, chance = 4399},
-	{id = 18420, chance = 4399},
-	{id = 18414, chance = 2639},
-	{id = 9971, chance = 2346},
-	{id = 37530, chance = 2053},
-	{id = 22396, chance = 293},
-	{id = 37468, chance = 293}
+	{id = 2148, chance = 76923, maxCount = 99},
+	{id = 7591, chance = 30769, maxCount = 2},
+	{id = 2226, chance = 23077},
+	{id = 2225, chance = 20000},
+	{id = 2667, chance = 20000},
+	{id = 18414, chance = 20000},
+	{id = 37530, chance = 20000},
+	{id = 9971, chance = 20000},
+	{id = 22396, chance = 20000},
+	{id = 37468, chance = 20000},
+	{id = 5951, chance = 15385},
+	{id = 18554, chance = 7692},
+	{id = 7590, chance = 7692, maxCount = 2},
+	{id = 2671, chance = 7692},
+	{id = 2219, chance = 7692},
+	{id = 18417, chance = 7692},
+	{id = 2231, chance = 7692},
+	{id = 2230, chance = 7692},
+	{id = 18420, chance = 7692}
 }
 
 mType:register(monster)

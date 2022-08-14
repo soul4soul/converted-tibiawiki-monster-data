@@ -68,15 +68,15 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 30},
+	{type = COMBAT_EARTHDAMAGE, percent = 30},
+	{type = COMBAT_FIREDAMAGE, percent = 30},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 30},
+	{type = COMBAT_HOLYDAMAGE , percent = -40},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
@@ -92,19 +92,20 @@ monster.defenses = {
 
 monster.maxSummons = 2
 monster.summons = {
-	{name = "Defiler", chance = 15, interval = 2000, max = 1}
+	{name = "Defiler", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
+	{id = 2148, chance = 100000, maxCount = 200},
+	{id = 2152, chance = 100000, maxCount = 50},
 	{id = 22396, chance = 100000},
 	{id = 5954, chance = 100000},
 	{id = 6500, chance = 100000},
-	{id = 2148, chance = 100000, maxCount = 197},
-	{id = 2152, chance = 100000, maxCount = 50},
 	{id = 22598, chance = 100000},
 	{id = 22397, chance = 49338},
 	{id = 3962, chance = 35596},
 	{id = 8901, chance = 29801},
+	{id = 8926, chance = 20000},
 	{id = 2146, chance = 18377, maxCount = 25},
 	{id = 2656, chance = 17881},
 	{id = 9970, chance = 17219, maxCount = 25},
@@ -117,8 +118,8 @@ monster.loot = {
 	{id = 7895, chance = 13742},
 	{id = 2645, chance = 12914},
 	{id = 7456, chance = 12417},
-	{id = 2488, chance = 11424},
 	{id = 22610, chance = 11424},
+	{id = 2488, chance = 11424},
 	{id = 8902, chance = 9603},
 	{id = 8903, chance = 9437},
 	{id = 2466, chance = 8940},

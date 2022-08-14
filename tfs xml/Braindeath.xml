@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Braindeath" nameDescription="a braindeath" experience="985" speed="218" manacost="0">
+<monster name="Braindeath" nameDescription="a braindeath" race="undead" experience="985" speed="218" manacost="0">
 	<health now="1225" max="1225" />
 	<look type="256" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,20 +29,17 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="15" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-20" />
+		<element deathPercent="100" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
-	</attacks>
 	<defenses armor="12" defense="12">
 		<defense name="healing" interval="2000" chance="20" min="122" max="306" />
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
@@ -55,18 +52,21 @@
 		<voice sentence="Let me taste your brain!" yell="false" />
 		<voice sentence="You will be punished!" yell="false" />
 	</voices>
+	<summons maxSummons="2">
+		<voice name="Vampire" interval="2000" chance="15" max="2" />
+	</summons>
 	<loot>
-		<item id="2148" name="gold coin" chance="99443" countmax="90" />
-		<item id="2450" name="bone sword" chance="14987" />
-		<item id="7364" name="sniper arrow" chance="9575" countmax="4" />
-		<item id="2509" name="steel shield" chance="5913" />
-		<item id="10580" name="piece of dead brain" chance="5056" />
-		<item id="5898" name="bonelord eye" chance="2979" />
-		<item id="2423" name="clerical mace" chance="1950" />
-		<item id="7407" name="haunted blade" chance="1438" />
-		<item id="2175" name="spellbook" chance="957" />
-		<item id="7452" name="spiked squelcher" chance="180" />
-		<item id="2518" name="bonelord shield" chance="103" />
-		<item id="3972" name="bonelord helmet" chance="100" />
+		<item id="2148" name="gold coin" chance="99448" countmax="90" />
+		<item id="2450" name="bone sword" chance="14982" />
+		<item id="7364" name="sniper arrow" chance="9592" countmax="4" />
+		<item id="2509" name="steel shield" chance="5898" />
+		<item id="10580" name="piece of dead brain" chance="5040" />
+		<item id="5898" name="bonelord eye" chance="2967" />
+		<item id="2423" name="clerical mace" chance="1965" />
+		<item id="7407" name="haunted blade" chance="1445" />
+		<item id="2175" name="spellbook" chance="958" />
+		<item id="7452" name="spiked squelcher" chance="178" />
+		<item id="2518" name="bonelord shield" chance="102" />
+		<item id="3972" name="bonelord helmet" chance="99" />
 	</loot>
 </monster>

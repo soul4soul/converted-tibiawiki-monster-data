@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Cyclops Smith" nameDescription="a cyclops smith" experience="255" speed="204" manacost="0">
+<monster name="Cyclops Smith" nameDescription="a cyclops smith" race="blood" experience="255" speed="204" manacost="695">
 	<health now="435" max="435" />
 	<look type="277" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="20" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-150" />
@@ -50,19 +50,19 @@
 		<voice sentence="Ai humy phary ty kaynon" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82764" countmax="70" />
-		<item id="2666" name="meat" chance="50267" />
-		<item id="10574" name="cyclops toe" chance="10022" />
-		<item id="2513" name="battle shield" chance="6210" />
-		<item id="2378" name="battle axe" chance="5141" />
-		<item id="2417" name="battle hammer" chance="5100" />
-		<item id="2510" name="plate shield" chance="2094" />
-		<item id="2442" name="heavy machete" chance="2063" />
-		<item id="2387" name="double axe" chance="974" />
+		<item id="2148" name="gold coin" chance="82779" countmax="70" />
+		<item id="2666" name="meat" chance="50238" />
+		<item id="10574" name="cyclops toe" chance="10011" />
+		<item id="2513" name="battle shield" chance="6219" />
+		<item id="2378" name="battle axe" chance="5139" />
+		<item id="2417" name="battle hammer" chance="5117" />
+		<item id="2510" name="plate shield" chance="2096" />
+		<item id="2442" name="heavy machete" chance="2068" />
+		<item id="2387" name="double axe" chance="979" />
 		<item id="7588" name="strong health potion" chance="522" />
-		<item id="2490" name="dark helmet" chance="199" />
+		<item id="2490" name="dark helmet" chance="198" />
 		<item id="7452" name="spiked squelcher" chance="142" />
-		<item id="7398" name="cyclops trophy" chance="127" />
-		<item id="2209" name="club ring" chance="89" />
+		<item id="7398" name="cyclops trophy" chance="126" />
+		<item id="2209" name="club ring" chance="88" />
 	</loot>
 </monster>

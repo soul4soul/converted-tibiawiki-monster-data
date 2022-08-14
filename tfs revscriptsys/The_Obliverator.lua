@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Obliverator")
 local monster = {}
 
 monster.name = "The Obliverator"
-monster.description = ""
+monster.description = "The Obliverator"
 monster.experience = 6000
 monster.outfit = {
 	lookType = 0,
@@ -67,15 +67,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 50},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = -1},
+	{type = COMBAT_DEATHDAMAGE , percent = 1}
 }
 
 monster.attacks = {
@@ -89,7 +89,7 @@ monster.defenses = {
 
 monster.maxSummons = 4
 monster.summons = {
-	{name = "Fire Elemental", chance = 15, interval = 2000, max = 1}
+	{name = "Fire Elemental", chance = 15, interval = 2000, max = 4}
 }
 
 monster.loot = {

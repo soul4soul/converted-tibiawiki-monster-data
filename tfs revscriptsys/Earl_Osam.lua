@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Earl Osam")
 local monster = {}
 
 monster.name = "Earl Osam"
-monster.description = ""
+monster.description = "Earl Osam"
 monster.experience = 55000
 monster.outfit = {
 	lookType = 0,
@@ -66,19 +66,18 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
+	{type = COMBAT_EARTHDAMAGE, percent = 50},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 50},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000}
 }
 
 monster.defenses = {
@@ -87,40 +86,42 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 25172, chance = 100000, maxCount = 2},
-	{id = 2152, chance = 99468, maxCount = 5},
-	{id = 26030, chance = 59574, maxCount = 20},
-	{id = 26029, chance = 56915, maxCount = 20},
-	{id = 26031, chance = 51064, maxCount = 20},
-	{id = 2156, chance = 39362, maxCount = 2},
-	{id = 2154, chance = 37234, maxCount = 2},
-	{id = 2158, chance = 23404, maxCount = 2},
-	{id = 5889, chance = 22872, maxCount = 3},
-	{id = 7439, chance = 22340, maxCount = 10},
-	{id = 2160, chance = 20745, maxCount = 3},
-	{id = 15454, chance = 20213},
-	{id = 2155, chance = 18617, maxCount = 2},
-	{id = 5888, chance = 18617, maxCount = 4},
-	{id = 7443, chance = 18085, maxCount = 10},
-	{id = 7440, chance = 18085, maxCount = 10},
-	{id = 2475, chance = 16489},
-	{id = 26199, chance = 14894},
-	{id = 7902, chance = 14362},
-	{id = 34246, chance = 10106},
-	{id = 2153, chance = 8511},
-	{id = "ring of blue plasma", chance = 7979},
-	{id = "ring of red plasma", chance = 7979},
-	{id = "collar of blue plasma", chance = 7447},
-	{id = 9971, chance = 7447},
-	{id = 26200, chance = 6915},
-	{id = "ring of green plasma", chance = 6383},
-	{id = 34245, chance = 5319},
-	{id = 34244, chance = 4255},
-	{id = 32716, chance = 3191},
-	{id = 32717, chance = 2128},
-	{id = 34235, chance = 1596},
-	{id = 34234, chance = 1064},
-	{id = 34250, chance = 1064}
+	{id = 25172, chance = 100000, maxCount = 3},
+	{id = 2152, chance = 100000, maxCount = 9},
+	{id = 26030, chance = 65753, maxCount = 33},
+	{id = 26029, chance = 56164, maxCount = 27},
+	{id = 26031, chance = 53425, maxCount = 28},
+	{id = 2154, chance = 34247, maxCount = 2},
+	{id = 2158, chance = 30137, maxCount = 2},
+	{id = 2156, chance = 26027, maxCount = 2},
+	{id = 7440, chance = 26027, maxCount = 19},
+	{id = 2160, chance = 20548, maxCount = 3},
+	{id = 7439, chance = 20548, maxCount = 18},
+	{id = 15454, chance = 20548},
+	{id = 34233, chance = 20000},
+	{id = 34250, chance = 20000},
+	{id = 5889, chance = 19178, maxCount = 5},
+	{id = 5888, chance = 17808, maxCount = 6},
+	{id = 9971, chance = 16438},
+	{id = 7443, chance = 16438, maxCount = 18},
+	{id = 2155, chance = 15068, maxCount = 2},
+	{id = 2475, chance = 13699},
+	{id = 2153, chance = 12329},
+	{id = 34244, chance = 10959},
+	{id = 26199, chance = 10959},
+	{id = "ring of red plasma", chance = 10959},
+	{id = "collar of blue plasma", chance = 9589},
+	{id = 26200, chance = 9589},
+	{id = 34246, chance = 9589},
+	{id = "ring of blue plasma", chance = 8219},
+	{id = "ring of green plasma", chance = 8219},
+	{id = 7902, chance = 5479},
+	{id = 32717, chance = 2740},
+	{id = 34234, chance = 2740},
+	{id = 34245, chance = 1370},
+	{id = 34235, chance = 1370},
+	{id = 34394, chance = 1370},
+	{id = 32716, chance = 1370}
 }
 
 mType:register(monster)

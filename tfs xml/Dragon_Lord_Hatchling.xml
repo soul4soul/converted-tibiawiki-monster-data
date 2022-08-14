@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dragon Lord Hatchling" nameDescription="a dragon lord hatchling" experience="645" speed="168" manacost="0">
+<monster name="Dragon Lord Hatchling" nameDescription="a dragon lord hatchling" race="blood" experience="645" speed="168" manacost="0">
 	<health now="750" max="750" />
 	<look type="272" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-5" />
+		<element earthPercent="75" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-10" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-86" />
-	</attacks>
 	<defenses armor="29" defense="29">
 		<defense name="healing" interval="2000" chance="20" min="75" max="187" />
 	</defenses>
@@ -51,10 +48,10 @@
 		<voice sentence="Rooawwrr" yell="false" />
 	</voices>
 	<loot>
-		<item id="2672" name="dragon ham" chance="79696" />
-		<item id="2148" name="gold coin" chance="75087" countmax="169" />
-		<item id="2796" name="green mushroom" chance="489" />
-		<item id="7620" name="mana potion" chance="405" />
-		<item id="7891" name="magma boots" chance="84" />
+		<item id="2672" name="dragon ham" chance="79628" />
+		<item id="2148" name="gold coin" chance="75096" countmax="169" />
+		<item id="2796" name="green mushroom" chance="479" />
+		<item id="7620" name="mana potion" chance="411" />
+		<item id="7891" name="magma boots" chance="82" />
 	</loot>
 </monster>

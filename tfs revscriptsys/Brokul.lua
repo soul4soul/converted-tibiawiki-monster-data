@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Brokul")
 local monster = {}
 
 monster.name = "Brokul"
-monster.description = ""
+monster.description = "Brokul"
 monster.experience = 23000
 monster.outfit = {
 	lookType = 0,
@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 4,
+	color = 215
 }
 
 monster.voices = {
@@ -67,27 +67,39 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_DEATHDAMAGE, minDamage = -300, maxDamage = -500, length = 8, spread = 0, effect = CONST_ME_MORTAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -300, maxDamage = -500, length = 8, spread = 0, effect = CONST_ME_HITBYFIRE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -300, maxDamage = -500, length = 8, spread = 0, effect = CONST_ME_HOLYAREA},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -157, maxDamage = -608, radius = 4, target = true, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA},
+	{name ="speed", interval = 2000, chance = 15, speed = {min = -400, max = -400}, duration = 20000, range = 7, radius = 1, target = true, effect = CONST_ME_MAGIC_GREEN}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 300, maxDamage = 700}
+	armor = 10
 }
 
 monster.loot = {
+	{id = 31358, chance = 100000},
+	{id = 2152, chance = 50000, maxCount = 7},
+	{id = 12417, chance = 37500},
+	{id = 9971, chance = 20000, maxCount = 2},
+	{id = 2145, chance = 20000},
+	{id = 31481, chance = 20000},
+	{id = 31482, chance = 12500},
+	{id = 2144, chance = 12500},
+	{id = 2156, chance = 12500}
 }
 
 mType:register(monster)

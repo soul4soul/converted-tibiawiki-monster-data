@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Goblin" nameDescription="a goblin" experience="25" speed="120" manacost="290">
+<monster name="Goblin" nameDescription="a goblin" race="blood" experience="25" speed="120" manacost="290">
 	<health now="50" max="50" />
 	<look type="61" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="20" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-10" />
@@ -52,17 +52,17 @@
 		<voice sentence="Me have him!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="50276" countmax="9" />
-		<item id="1294" name="small stone" chance="15280" />
-		<item id="2667" name="fish" chance="13002" />
-		<item id="2559" name="small axe" chance="9859" />
-		<item id="2406" name="short sword" chance="8848" />
-		<item id="2449" name="bone club" chance="4927" />
-		<item id="2467" name="leather armor" chance="2506" />
-		<item id="2461" name="leather helmet" chance="1941" />
-		<item id="2379" name="dagger" chance="1798" />
-		<item id="2230" name="bone" chance="1071" />
-		<item id="2235" name="mouldy cheese" chance="999" />
-		<item id="12495" name="goblin ear" chance="944" />
+		<item id="2148" name="gold coin" chance="50250" countmax="9" />
+		<item id="1294" name="small stone" chance="15265" />
+		<item id="2667" name="fish" chance="13014" />
+		<item id="2559" name="small axe" chance="9853" />
+		<item id="2406" name="short sword" chance="8824" />
+		<item id="2449" name="bone club" chance="4936" />
+		<item id="2467" name="leather armor" chance="2516" />
+		<item id="2461" name="leather helmet" chance="1949" />
+		<item id="2379" name="dagger" chance="1795" />
+		<item id="2230" name="bone" chance="1068" />
+		<item id="2235" name="mouldy cheese" chance="1002" />
+		<item id="12495" name="goblin ear" chance="949" />
 	</loot>
 </monster>

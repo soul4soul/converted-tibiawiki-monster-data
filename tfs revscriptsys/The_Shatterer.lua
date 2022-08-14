@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Shatterer")
 local monster = {}
 
 monster.name = "The Shatterer"
-monster.description = ""
+monster.description = "The Shatterer"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -89,13 +89,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 7590, chance = 100000, maxCount = 10},
-	{id = 8472, chance = 100000, maxCount = 10},
-	{id = 2152, chance = 100000, maxCount = 10},
-	{id = 2145, chance = 100000, maxCount = 10},
-	{id = 2147, chance = 100000, maxCount = 12},
-	{id = 8473, chance = 100000, maxCount = 10}
+	{id = 2148, chance = 100000, maxCount = 133},
+	{id = 2152, chance = 100000, maxCount = 17},
+	{id = 2147, chance = 100000, maxCount = 21},
+	{id = 8473, chance = 100000, maxCount = 13},
+	{id = 8472, chance = 100000, maxCount = 8},
+	{id = 7590, chance = 100000, maxCount = 16},
+	{id = 2145, chance = 100000, maxCount = 16},
+	{id = 2444, chance = 16667},
+	{id = 7414, chance = 16667},
+	{id = 11227, chance = 16667}
 }
 
 mType:register(monster)

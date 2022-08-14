@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ugly Monster" nameDescription="an ugly monster" experience="1000" speed="0" manacost="0">
+<monster name="Ugly Monster" nameDescription="an ugly monster" race="blood" experience="1000" speed="0" manacost="0">
 	<health now="10000" max="10000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,20 +30,25 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="100" />
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="33052" name="cobra axe" chance="719" />
-		<item id="33049" name="cobra crossbow" chance="719" />
-		<item id="33053" name="cobra hood" chance="719" />
+		<item id="33050" name="cobra boots" chance="20000" />
+		<item id="33054" name="cobra sword" chance="20000" />
+		<item id="33055" name="cobra wand" chance="20000" />
+		<item id="33056" name="cobra rod" chance="20000" />
+		<item id="33051" name="cobra club" chance="20000" />
+		<item id="33049" name="cobra crossbow" chance="667" />
+		<item id="33053" name="cobra hood" chance="667" />
+		<item id="33052" name="cobra axe" chance="667" />
 	</loot>
 </monster>

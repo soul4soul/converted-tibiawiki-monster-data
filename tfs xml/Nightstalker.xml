@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Nightstalker" nameDescription="" experience="500" speed="260" manacost="0">
+<monster name="Nightstalker" nameDescription="" race="blood" experience="500" speed="260" manacost="0">
 	<health now="700" max="700" />
 	<look type="320" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -29,19 +29,19 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="-5" />
+		<element energyPercent="-5" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="20" />
+		<element deathPercent="-5" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-90" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-90" poison="75" />
 	</attacks>
 	<defenses armor="40" defense="40">
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
@@ -58,15 +58,15 @@
 		<voice sentence="Only the sweetest and cruelest dreams for you, my love." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="89988" countmax="110" />
-		<item id="2804" name="shadow herb" chance="4750" />
-		<item id="7589" name="strong mana potion" chance="1522" />
-		<item id="2124" name="crystal ring" chance="973" />
-		<item id="2200" name="protection amulet" chance="909" />
-		<item id="8870" name="spirit cloak" chance="489" />
+		<item id="2148" name="gold coin" chance="89993" countmax="110" />
+		<item id="2804" name="shadow herb" chance="4757" />
+		<item id="7589" name="strong mana potion" chance="1524" />
+		<item id="2124" name="crystal ring" chance="972" />
+		<item id="2200" name="protection amulet" chance="907" />
+		<item id="8870" name="spirit cloak" chance="488" />
 		<item id="7407" name="haunted blade" chance="318" />
 		<item id="2171" name="platinum amulet" chance="166" />
-		<item id="9942" name="crystal of balance" chance="125" />
+		<item id="9942" name="crystal of balance" chance="124" />
 		<item id="2195" name="boots of haste" chance="115" />
 		<item id="7427" name="chaos mace" chance="101" />
 	</loot>

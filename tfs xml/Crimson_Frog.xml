@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Crimson Frog" nameDescription="a crimson frog" experience="20" speed="320" manacost="0">
+<monster name="Crimson Frog" nameDescription="a crimson frog" race="blood" experience="20" speed="320" manacost="305">
 	<health now="60" max="60" />
 	<look type="226" head="94" body="78" legs="77" feet="112" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,11 +32,11 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="10" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -49,7 +49,7 @@
 		<voice sentence="Ribbit! Ribbit!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75419" countmax="10" />
-		<item id="3976" name="worm" chance="9921" />
+		<item id="2148" name="gold coin" chance="75586" countmax="10" />
+		<item id="3976" name="worm" chance="9920" />
 	</loot>
 </monster>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Afflicted Strider" nameDescription="an afflicted strider" experience="5700" speed="270" manacost="0">
+<monster name="Afflicted Strider" nameDescription="an afflicted strider" race="blood" experience="5700" speed="270" manacost="0">
 	<health now="10000" max="10000" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1403" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -29,47 +29,49 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="5" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="10" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="15" />
 	</elements>
 	<attacks>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-600" />
 		<attack name="death" interval="2000" chance="15" min="-650" max="-800" radius="5" target="0">
 			<attribute key="areaEffect" value="groundshaker" />
 		</attack>
-		<attack name="physical" interval="2000" chance="15" min="-550" max="-650" range="2" radius="1" target="1">
+		<attack name="earth" interval="2000" chance="15" min="-550" max="-650" range="2" radius="1" target="1">
 			<attribute key="shootEffect" value="poison" />
 		</attack>
 	</attacks>
 	<defenses armor="68" defense="68" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="15" />
-		<item id="39446" name="afflicted strider worms" chance="10000" />
-		<item id="7449" name="crystal sword" chance="8947" />
-		<item id="18415" name="green crystal shard" chance="8947" />
-		<item id="2427" name="guardian halberd" chance="6316" />
-		<item id="2485" name="doublet" chance="5263" />
-		<item id="2420" name="machete" chance="4737" />
-		<item id="2153" name="violet gem" chance="4737" />
-		<item id="39445" name="afflicted strider head" chance="4211" />
-		<item id="8870" name="spirit cloak" chance="4211" />
-		<item id="18414" name="violet crystal shard" chance="4211" />
-		<item id="8872" name="belted cape" chance="3684" />
-		<item id="2476" name="knight armor" chance="3684" />
-		<item id="8871" name="focus cape" chance="3158" />
-		<item id="2396" name="ice rapier" chance="2632" />
-		<item id="7899" name="magma coat" chance="2632" />
-		<item id="2409" name="serpent sword" chance="2632" />
-		<item id="7407" name="haunted blade" chance="1579" />
-		<item id="7386" name="mercenary sword" chance="1579" />
-		<item id="2413" name="broadsword" chance="1053" />
-		<item id="7413" name="titan axe" chance="1053" />
+		<item id="39446" name="afflicted strider worms" chance="9995" />
+		<item id="2427" name="guardian halberd" chance="8726" />
+		<item id="7449" name="crystal sword" chance="8355" />
+		<item id="2153" name="violet gem" chance="6769" />
+		<item id="18415" name="green crystal shard" chance="6610" />
+		<item id="18414" name="violet crystal shard" chance="6029" />
+		<item id="2485" name="doublet" chance="5024" />
+		<item id="39445" name="afflicted strider head" chance="5024" />
+		<item id="8872" name="belted cape" chance="4178" />
+		<item id="2476" name="knight armor" chance="4125" />
+		<item id="2420" name="machete" chance="3596" />
+		<item id="8870" name="spirit cloak" chance="3067" />
+		<item id="8871" name="focus cape" chance="2538" />
+		<item id="2396" name="ice rapier" chance="2115" />
+		<item id="2413" name="broadsword" chance="2115" />
+		<item id="7899" name="magma coat" chance="2062" />
+		<item id="2409" name="serpent sword" chance="2010" />
+		<item id="7386" name="mercenary sword" chance="1428" />
+		<item id="7413" name="titan axe" chance="1428" />
+		<item id="2430" name="knight axe" chance="1269" />
+		<item id="7407" name="haunted blade" chance="1216" />
 	</loot>
 </monster>

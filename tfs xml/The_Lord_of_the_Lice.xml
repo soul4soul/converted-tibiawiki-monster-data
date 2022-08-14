@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="The Lord Of The Lice" nameDescription="" experience="0" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="The Lord Of The Lice" nameDescription="The Lord of the Lice" race="blood" experience="0" speed="0" manacost="0">
+	<health now="80000" max="80000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -40,19 +40,17 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="7590" name="great mana potion" chance="100000" countmax="10" />
-		<item id="8472" name="great spirit potion" chance="100000" countmax="10" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="10" />
-		<item id="8473" name="ultimate health potion" chance="100000" countmax="10" />
-		<item id="2168" name="life ring" chance="75000" />
-		<item id="9970" name="small topaz" chance="50000" countmax="10" />
-		<item id="2438" name="epee" chance="25000" />
-		<item id="2149" name="small emerald" chance="25000" countmax="10" />
-		<item id="2147" name="small ruby" chance="25000" countmax="10" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="17" />
+		<item id="8473" name="ultimate health potion" chance="100000" countmax="13" />
+		<item id="8472" name="great spirit potion" chance="100000" countmax="19" />
+		<item id="7590" name="great mana potion" chance="100000" countmax="16" />
+		<item id="2168" name="life ring" chance="50000" />
+		<item id="2147" name="small ruby" chance="50000" countmax="16" />
+		<item id="2150" name="small amethyst" chance="50000" countmax="13" />
+		<item id="9970" name="small topaz" chance="20000" />
+		<item id="2438" name="epee" chance="20000" />
+		<item id="2149" name="small emerald" chance="20000" />
 	</loot>
 </monster>

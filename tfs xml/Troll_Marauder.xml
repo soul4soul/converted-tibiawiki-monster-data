@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Troll Marauder" nameDescription="a troll marauder" experience="40" speed="0" manacost="350">
+<monster name="Troll Marauder" nameDescription="a troll marauder" race="blood" experience="40" speed="0" manacost="350">
 	<health now="70" max="70" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element physicalPercent="-15" />
+		<element energyPercent="10" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="10" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-29" />
@@ -46,12 +46,13 @@
 	<defenses armor="8" defense="8" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="8" />
-		<item id="2389" name="spear" chance="28814" />
-		<item id="2484" name="studded armor" chance="16949" />
-		<item id="2448" name="studded club" chance="11864" />
-		<item id="2643" name="leather boots" chance="10169" />
-		<item id="2666" name="meat" chance="10169" />
-		<item id="2512" name="wooden shield" chance="8475" />
-		<item id="23839" name="simple arrow" chance="6780" countmax="7" />
+		<item id="2389" name="spear" chance="25373" />
+		<item id="2484" name="studded armor" chance="14925" />
+		<item id="2448" name="studded club" chance="11940" />
+		<item id="2666" name="meat" chance="10448" />
+		<item id="2643" name="leather boots" chance="8955" />
+		<item id="2512" name="wooden shield" chance="7463" />
+		<item id="23839" name="simple arrow" chance="7463" countmax="7" />
+		<item id="2170" name="silver amulet" chance="4000" />
 	</loot>
 </monster>

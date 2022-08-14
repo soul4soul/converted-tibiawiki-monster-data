@@ -5,7 +5,7 @@ monster.name = "Agrestic Chicken"
 monster.description = "an agrestic chicken"
 monster.experience = 0
 monster.outfit = {
-	lookType = 0,
+	lookType = 111,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -86,10 +86,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 5890, chance = 15137, maxCount = 2},
-	{id = 3976, chance = 8789},
-	{id = 2666, chance = 2295},
-	{id = 3606, chance = 781, maxCount = 2}
+	{id = 5890, chance = 15295, maxCount = 2},
+	{id = 3976, chance = 9087},
+	{id = 2666, chance = 2249},
+	{id = 3606, chance = 765, maxCount = 2}
 }
 
 mType:register(monster)

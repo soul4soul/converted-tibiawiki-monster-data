@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Vampire" nameDescription="a memory of a vampire" experience="0" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Vampire" nameDescription="a memory of a vampire" race="blood" experience="1550" speed="0" manacost="0">
+	<health now="3650" max="3650" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -42,20 +42,20 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="92000" countmax="60" />
-		<item id="2152" name="platinum coin" chance="49333" />
-		<item id="2396" name="ice rapier" chance="8000" />
-		<item id="2229" name="skull (item)" chance="6222" />
-		<item id="2747" name="grave flower" chance="5333" />
-		<item id="7588" name="strong health potion" chance="4889" />
-		<item id="2383" name="spike sword" chance="4000" />
-		<item id="37531" name="candy floss (large)" chance="2222" />
-		<item id="2412" name="katana" chance="1778" />
-		<item id="37468" name="special fx box" chance="1778" />
-		<item id="2144" name="black pearl" chance="1333" />
-		<item id="37530" name="bottle of champagne" chance="889" />
-		<item id="2479" name="strange helmet" chance="889" />
-		<item id="2172" name="bronze amulet" chance="444" />
-		<item id="2534" name="vampire shield" chance="444" />
+		<item id="2148" name="gold coin" chance="66667" countmax="31" />
+		<item id="2172" name="bronze amulet" chance="20000" />
+		<item id="2152" name="platinum coin" chance="20000" />
+		<item id="2747" name="grave flower" chance="20000" />
+		<item id="2144" name="black pearl" chance="20000" />
+		<item id="37531" name="candy floss (large)" chance="20000" />
+		<item id="7588" name="strong health potion" chance="20000" />
+		<item id="2479" name="strange helmet" chance="20000" />
+		<item id="37530" name="bottle of champagne" chance="20000" />
+		<item id="37468" name="special fx box" chance="20000" />
+		<item id="2383" name="spike sword" chance="20000" />
+		<item id="2396" name="ice rapier" chance="20000" />
+		<item id="2229" name="skull (item)" chance="20000" />
+		<item id="2412" name="katana" chance="20000" />
+		<item id="2534" name="vampire shield" chance="20000" />
 	</loot>
 </monster>

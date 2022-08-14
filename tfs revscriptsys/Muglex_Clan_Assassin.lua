@@ -20,7 +20,7 @@ monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
 monster.speed = 140
-monster.summonCost = 0
+monster.summonCost = 360
 
 monster.changeTarget = {
 	interval = 2000,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -87,12 +86,18 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 11},
+	{id = 2148, chance = 100000, maxCount = 18},
 	{id = 2667, chance = 30000, maxCount = 2},
 	{id = 2379, chance = 20000},
-	{id = 2461, chance = 10000},
+	{id = 1294, chance = 20000, maxCount = 3},
+	{id = 2230, chance = 20000},
+	{id = 2235, chance = 20000},
+	{id = 2467, chance = 20000},
 	{id = 2406, chance = 10000},
-	{id = 2559, chance = 10000}
+	{id = 2559, chance = 10000},
+	{id = 2461, chance = 10000},
+	{id = 2484, chance = 7500},
+	{id = 2449, chance = 2500}
 }
 
 mType:register(monster)

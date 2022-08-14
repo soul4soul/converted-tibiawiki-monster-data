@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Memory Of A Scarab"
 monster.description = "a memory of a scarab"
-monster.experience = 0
+monster.experience = 1590
 monster.outfit = {
 	lookType = 0,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 3620
+monster.maxHealth = 3620
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,21 +86,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 165},
-	{id = 2162, chance = 11150},
-	{id = 2159, chance = 8014, maxCount = 2},
-	{id = 2149, chance = 7317, maxCount = 3},
-	{id = 2150, chance = 5575, maxCount = 4},
-	{id = 2135, chance = 5226},
-	{id = 2463, chance = 4878},
-	{id = 37531, chance = 3833},
-	{id = 37468, chance = 2091},
-	{id = 2142, chance = 1394},
-	{id = 7588, chance = 1045},
-	{id = 37530, chance = 697},
-	{id = 8912, chance = 697},
-	{id = 2440, chance = 348},
-	{id = 2540, chance = 348}
+	{id = 2148, chance = 100000, maxCount = 49},
+	{id = 2150, chance = 20000},
+	{id = 2135, chance = 20000},
+	{id = 7588, chance = 20000},
+	{id = 2142, chance = 20000},
+	{id = 37530, chance = 20000},
+	{id = 37468, chance = 20000},
+	{id = 2149, chance = 20000},
+	{id = 2159, chance = 20000},
+	{id = 2463, chance = 20000},
+	{id = 2162, chance = 20000},
+	{id = 37531, chance = 20000},
+	{id = 2540, chance = 20000},
+	{id = 2440, chance = 20000},
+	{id = 8912, chance = 20000}
 }
 
 mType:register(monster)

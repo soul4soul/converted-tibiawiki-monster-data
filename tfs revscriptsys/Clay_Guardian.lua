@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -65,20 +65,22 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 25},
+	{type = COMBAT_ENERGYDAMAGE, percent = 30},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 35},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 40}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -120}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -120},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -30, maxDamage = -150, range = 3, radius = 1, target = true, effect = CONST_ME_GREEN_RINGS},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -20, maxDamage = -30, radius = 3, target = , effect = CONST_ME_POFF}
 }
 
 monster.defenses = {
@@ -88,13 +90,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 97664, maxCount = 164},
-	{id = 2260, chance = 25551},
-	{id = 11222, chance = 24959},
-	{id = 1294, chance = 10192, maxCount = 10},
-	{id = 7850, chance = 5196, maxCount = 8},
-	{id = 11339, chance = 972},
-	{id = 9970, chance = 429}
+	{id = 2148, chance = 97670, maxCount = 164},
+	{id = 2260, chance = 25492},
+	{id = 11222, chance = 24861},
+	{id = 1294, chance = 10193, maxCount = 10},
+	{id = 7850, chance = 5124, maxCount = 8},
+	{id = 11339, chance = 993},
+	{id = 9970, chance = 418}
 }
 
 mType:register(monster)

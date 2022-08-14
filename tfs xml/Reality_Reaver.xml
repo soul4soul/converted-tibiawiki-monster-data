@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Reality Reaver" nameDescription="a reality reaver" experience="2480" speed="340" manacost="0">
+<monster name="Reality Reaver" nameDescription="a reality reaver" race="blood" experience="2480" speed="340" manacost="0">
 	<health now="3900" max="3900" />
 	<look type="879" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="1" />
@@ -30,19 +30,16 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="85" />
+		<element earthPercent="-10" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="5" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-500" />
-	</attacks>
 	<defenses armor="51" defense="51" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Ssshhh!" yell="false" />
@@ -50,29 +47,29 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="100" />
 		<item id="2152" name="platinum coin" chance="100000" countmax="6" />
-		<item id="26201" name="energy drink" chance="17862" countmax="2" />
-		<item id="26191" name="energy bar" chance="17585" countmax="2" />
-		<item id="26164" name="energy vein" chance="15034" />
-		<item id="26176" name="plasmatic lightning" chance="14518" />
-		<item id="8472" name="great spirit potion" chance="10973" countmax="2" />
-		<item id="7591" name="great health potion" chance="10958" countmax="2" />
-		<item id="7590" name="great mana potion" chance="10942" countmax="2" />
-		<item id="26171" name="dangerous proto matter" chance="9979" />
-		<item id="26162" name="plasma pearls" chance="9763" />
-		<item id="18418" name="blue crystal splinter" chance="8153" countmax="2" />
-		<item id="18420" name="red crystal fragment" chance="6219" />
-		<item id="18414" name="violet crystal shard" chance="4100" />
-		<item id="18413" name="blue crystal shard" chance="4007" />
-		<item id="2156" name="red gem" chance="2520" />
-		<item id="8920" name="wand of starstorm" chance="1117" />
-		<item id="7901" name="lightning headband" chance="439" />
-		<item id="8871" name="focus cape" chance="378" />
-		<item name="ring of green plasma" chance="378" />
-		<item name="ring of blue plasma" chance="362" />
-		<item id="2153" name="violet gem" chance="331" />
-		<item name="collar of blue plasma" chance="277" />
-		<item id="26199" name="collar of green plasma" chance="270" />
-		<item name="ring of red plasma" chance="262" />
-		<item id="26200" name="collar of red plasma" chance="223" />
+		<item id="26201" name="energy drink" chance="17798" countmax="2" />
+		<item id="26191" name="energy bar" chance="17689" countmax="2" />
+		<item id="26164" name="energy vein" chance="15183" />
+		<item id="26176" name="plasmatic lightning" chance="14728" />
+		<item id="7590" name="great mana potion" chance="11015" countmax="2" />
+		<item id="8472" name="great spirit potion" chance="10997" countmax="2" />
+		<item id="7591" name="great health potion" chance="10917" countmax="2" />
+		<item id="26171" name="dangerous proto matter" chance="9922" />
+		<item id="26162" name="plasma pearls" chance="9796" />
+		<item id="18418" name="blue crystal splinter" chance="8129" countmax="2" />
+		<item id="18420" name="red crystal fragment" chance="6295" />
+		<item id="18414" name="violet crystal shard" chance="4105" />
+		<item id="18413" name="blue crystal shard" chance="4030" />
+		<item id="2156" name="red gem" chance="2610" />
+		<item id="8920" name="wand of starstorm" chance="1081" />
+		<item id="7901" name="lightning headband" chance="494" />
+		<item id="8871" name="focus cape" chance="402" />
+		<item name="ring of blue plasma" chance="385" />
+		<item name="ring of green plasma" chance="368" />
+		<item id="2153" name="violet gem" chance="362" />
+		<item name="collar of blue plasma" chance="310" />
+		<item id="26199" name="collar of green plasma" chance="282" />
+		<item name="ring of red plasma" chance="282" />
+		<item id="26200" name="collar of red plasma" chance="230" />
 	</loot>
 </monster>

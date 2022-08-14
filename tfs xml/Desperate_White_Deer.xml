@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Desperate White Deer" nameDescription="a desperate white deer" experience="35" speed="0" manacost="0">
+<monster name="Desperate White Deer" nameDescription="a desperate white deer" race="blood" experience="35" speed="0" manacost="0">
 	<health now="55" max="55" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -35,7 +35,7 @@
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
+		<element drownPercent="100" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
@@ -52,8 +52,8 @@
 		<voice sentence="*wheeze*" yell="false" />
 	</voices>
 	<loot>
-		<item id="13533" name="white deer antlers" chance="21286" />
-		<item id="13534" name="white deer skin" chance="20418" />
-		<item id="2671" name="ham" chance="19595" />
+		<item id="13533" name="white deer antlers" chance="21417" />
+		<item id="13534" name="white deer skin" chance="20285" />
+		<item id="2671" name="ham" chance="19384" countmax="3" />
 	</loot>
 </monster>

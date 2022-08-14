@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Burster" nameDescription="" experience="10000" speed="0" manacost="0">
+<monster name="Burster" nameDescription="Burster" race="blood" experience="10000" speed="0" manacost="0">
 	<health now="10000" max="10000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,7 +30,7 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="100" />
 		<element earthPercent="0" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
@@ -40,31 +40,30 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-800" />
-	</attacks>
 	<defenses armor="10" defense="5">
 		<defense name="healing" interval="2000" chance="20" min="1000" max="2500" />
 	</defenses>
 	<loot>
+		<item id="2148" name="gold coin" chance="100000" countmax="95" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="10" />
 		<item id="26163" name="crystallized anger" chance="100000" />
 		<item id="26167" name="curious matter" chance="100000" />
-		<item id="2148" name="gold coin" chance="100000" countmax="95" />
 		<item id="26162" name="plasma pearls" chance="100000" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="8" />
 		<item id="26174" name="spark sphere" chance="100000" />
 		<item id="26170" name="volatile proto matter" chance="100000" />
-		<item id="26191" name="energy bar" chance="50000" countmax="3" />
-		<item id="26201" name="energy drink" chance="50000" countmax="3" />
-		<item id="7591" name="great health potion" chance="50000" />
-		<item name="ring of red plasma" chance="50000" />
-		<item id="18418" name="blue crystal splinter" chance="25000" />
-		<item name="collar of blue plasma" chance="25000" />
-		<item id="26199" name="collar of green plasma" chance="25000" />
-		<item id="26200" name="collar of red plasma" chance="25000" />
-		<item id="7590" name="great mana potion" chance="25000" />
-		<item id="8472" name="great spirit potion" chance="25000" countmax="2" />
-		<item id="18415" name="green crystal shard" chance="25000" />
-		<item name="ring of green plasma" chance="25000" />
+		<item id="7591" name="great health potion" chance="60000" countmax="3" />
+		<item id="26191" name="energy bar" chance="40000" countmax="3" />
+		<item id="26201" name="energy drink" chance="40000" countmax="3" />
+		<item name="ring of red plasma" chance="40000" />
+		<item name="collar of blue plasma" chance="40000" />
+		<item id="18415" name="green crystal shard" chance="20000" />
+		<item id="7590" name="great mana potion" chance="20000" />
+		<item id="7895" name="lightning legs" chance="20000" />
+		<item name="ring of green plasma" chance="20000" />
+		<item id="26199" name="collar of green plasma" chance="20000" />
+		<item id="26200" name="collar of red plasma" chance="20000" />
+		<item id="8472" name="great spirit potion" chance="20000" countmax="2" />
+		<item name="ring of blue plasma" chance="20000" />
+		<item id="18418" name="blue crystal splinter" chance="20000" />
 	</loot>
 </monster>

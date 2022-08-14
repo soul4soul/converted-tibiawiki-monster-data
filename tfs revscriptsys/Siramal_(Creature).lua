@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Siramal (Creature)")
 local monster = {}
 
 monster.name = "Siramal"
-monster.description = ""
+monster.description = "Siramal"
 monster.experience = 35000
 monster.outfit = {
 	lookType = 0,
@@ -87,7 +87,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {

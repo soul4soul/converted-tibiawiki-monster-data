@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Terrorsleep" nameDescription="a terrorsleep" experience="6900" speed="360" manacost="0">
+<monster name="Terrorsleep" nameDescription="a terrorsleep" race="blood" experience="6900" speed="360" manacost="0">
 	<health now="7200" max="7200" />
 	<look type="587" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,22 +29,18 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="15" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="35" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-10" />
+		<element deathPercent="55" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
-	</attacks>
 	<defenses armor="80" defense="80">
-		<defense name="healing" interval="2000" chance="20" min="0" max="600" />
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
@@ -57,26 +53,26 @@
 	<loot>
 		<item id="2148" name="gold coin" chance="99960" countmax="197" />
 		<item id="2152" name="platinum coin" chance="99960" countmax="9" />
-		<item id="7590" name="great mana potion" chance="34907" countmax="2" />
-		<item id="8473" name="ultimate health potion" chance="21751" />
-		<item id="22538" name="bowl of terror sweat" chance="16667" />
-		<item id="18419" name="cyan crystal fragment" chance="16667" />
-		<item id="2150" name="small amethyst" chance="14931" countmax="3" />
-		<item id="9970" name="small topaz" chance="14407" countmax="3" />
-		<item id="2149" name="small emerald" chance="13600" countmax="3" />
-		<item id="2147" name="small ruby" chance="12793" countmax="3" />
-		<item id="18418" name="blue crystal splinter" chance="12308" />
-		<item id="22537" name="trapped bad dream monster" chance="12187" />
-		<item id="18413" name="blue crystal shard" chance="8959" />
-		<item id="5909" name="white piece of cloth" chance="4036" />
-		<item id="5912" name="blue piece of cloth" chance="3471" />
-		<item id="2476" name="knight armor" chance="2300" />
-		<item id="5895" name="fish fin" chance="2179" />
-		<item id="22363" name="broken dream" chance="2098" />
-		<item id="2393" name="giant sword" chance="1655" />
-		<item id="2475" name="warrior helmet" chance="1655" />
-		<item id="2656" name="blue robe" chance="1211" />
-		<item id="5911" name="red piece of cloth" chance="1130" />
-		<item id="22396" name="cluster of solace" chance="807" />
+		<item id="7590" name="great mana potion" chance="34835" countmax="2" />
+		<item id="8473" name="ultimate health potion" chance="21842" />
+		<item id="18419" name="cyan crystal fragment" chance="16693" />
+		<item id="22538" name="bowl of terror sweat" chance="16653" />
+		<item id="2150" name="small amethyst" chance="14883" countmax="3" />
+		<item id="9970" name="small topaz" chance="14441" countmax="3" />
+		<item id="2149" name="small emerald" chance="13556" countmax="3" />
+		<item id="2147" name="small ruby" chance="12832" countmax="3" />
+		<item id="18418" name="blue crystal splinter" chance="12269" />
+		<item id="22537" name="trapped bad dream monster" chance="12228" />
+		<item id="18413" name="blue crystal shard" chance="8970" />
+		<item id="5909" name="white piece of cloth" chance="4023" />
+		<item id="5912" name="blue piece of cloth" chance="3459" />
+		<item id="2476" name="knight armor" chance="2293" />
+		<item id="5895" name="fish fin" chance="2172" />
+		<item id="22363" name="broken dream" chance="2092" />
+		<item id="2475" name="warrior helmet" chance="1649" />
+		<item id="2393" name="giant sword" chance="1649" />
+		<item id="2656" name="blue robe" chance="1207" />
+		<item id="5911" name="red piece of cloth" chance="1126" />
+		<item id="22396" name="cluster of solace" chance="805" />
 	</loot>
 </monster>

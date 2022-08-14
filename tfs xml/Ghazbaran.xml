@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ghazbaran" nameDescription="" experience="15000" speed="0" manacost="0">
-	<health now="60000" max="60000" />
+<monster name="Ghazbaran" nameDescription="Ghazbaran" race="blood" experience="15000" speed="0" manacost="0">
+	<health now="77000" max="77000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -17,9 +17,9 @@
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
 		<flag healthhidden="0" />
-		<flag canwalkonenergy="0" />
-		<flag canwalkonfire="0" />
-		<flag canwalkonpoison="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<immunities>
 		<immunity paralyze="1" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="30" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="100" />
+		<element holyPercent="-5" />
+		<element deathPercent="1" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-3000" />
@@ -53,68 +53,83 @@
 		<voice sentence="FLAWLESS VICTORY!" yell="false" />
 	</voices>
 	<summons maxSummons="4">
-		<voice name="Deathslicer" interval="2000" chance="15" max="1" />
+		<voice name="Deathslicer" interval="2000" chance="15" max="4" />
 	</summons>
 	<loot>
-		<item id="6500" name="demonic essence" chance="100000" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="69" />
-		<item id="5954" name="demon horn" chance="32609" countmax="2" />
-		<item id="2145" name="small diamond" chance="30435" countmax="5" />
-		<item id="6300" name="death ring" chance="28261" />
-		<item id="7591" name="great health potion" chance="26087" />
-		<item id="8472" name="great spirit potion" chance="26087" />
-		<item id="8904" name="spellscroll of prophecies" chance="26087" />
-		<item id="8473" name="ultimate health potion" chance="26087" />
-		<item id="2143" name="white pearl" chance="26087" countmax="15" />
-		<item id="2178" name="mind stone" chance="23913" />
-		<item id="2214" name="ring of healing" chance="23913" />
-		<item id="2150" name="small amethyst" chance="23913" countmax="17" />
-		<item id="2149" name="small emerald" chance="23913" countmax="10" />
-		<item id="1984" name="blue tome" chance="21739" />
-		<item id="7590" name="great mana potion" chance="21739" />
-		<item id="2155" name="green gem" chance="21739" />
-		<item id="2176" name="orb" chance="21739" />
-		<item id="2146" name="small sapphire" chance="21739" countmax="10" />
-		<item id="8918" name="spellbook of dark mysteries" chance="21739" />
-		<item id="8901" name="spellbook of warding" chance="21739" />
-		<item id="2179" name="gold ring" chance="19565" />
-		<item id="7405" name="havoc blade" chance="17391" />
-		<item id="8884" name="oceanborn leviathan armor" chance="17391" />
-		<item id="8903" name="spellbook of lost souls" chance="17391" />
-		<item id="7368" name="assassin star" chance="15217" countmax="44" />
-		<item id="2158" name="blue gem" chance="15217" />
-		<item id="7433" name="ravenwing" chance="15217" />
-		<item id="6553" name="ruthless axe" chance="15217" />
-		<item id="2112" name="teddy bear" chance="15217" />
-		<item id="2520" name="demon shield" chance="13043" />
-		<item id="2177" name="life crystal" chance="13043" />
-		<item id="2164" name="might ring" chance="13043" />
-		<item id="2165" name="stealth ring" chance="13043" />
-		<item id="2151" name="talon" chance="13043" countmax="7" />
-		<item id="2144" name="black pearl" chance="10870" countmax="14" />
-		<item id="2124" name="crystal ring" chance="10870" />
-		<item id="7896" name="glacier kilt" chance="10870" />
-		<item id="8902" name="spellbook of mind control" chance="10870" />
-		<item id="2174" name="strange symbol" chance="10870" />
-		<item id="2447" name="twin axe" chance="10870" />
-		<item id="8887" name="frozen plate" chance="8696" />
-		<item id="2466" name="golden armor" chance="8696" />
-		<item id="2646" name="golden boots" chance="8696" />
-		<item id="2472" name="magic plate armor" chance="8696" />
-		<item id="8866" name="robe of the ice queen" chance="8696" />
-		<item id="7428" name="bonebreaker" chance="6522" />
-		<item id="8878" name="crystalline armor" chance="6522" />
-		<item id="7454" name="glorious axe" chance="6522" />
-		<item id="9971" name="gold ingot" chance="6522" />
-		<item id="2470" name="golden legs" chance="6522" />
-		<item id="2033" name="golden mug" chance="6522" />
-		<item id="2162" name="magic light wand" chance="6522" />
-		<item id="7455" name="mythril axe" chance="6522" />
-		<item id="2192" name="crystal ball" chance="4348" />
-		<item id="2167" name="energy ring" chance="4348" />
-		<item id="2393" name="giant sword" chance="4348" />
-		<item id="2123" name="ring of the sky" chance="4348" />
-		<item id="2514" name="mastermind shield" chance="2174" />
-		<item id="7365" name="onyx arrow" chance="2174" countmax="30" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="73" />
+		<item id="7838" name="flash arrow" chance="66667" countmax="90" />
+		<item id="2164" name="might ring" chance="66667" />
+		<item id="7364" name="sniper arrow" chance="33333" countmax="54" />
+		<item id="2033" name="golden mug" chance="33333" />
+		<item id="2178" name="mind stone" chance="33333" />
+		<item id="8473" name="ultimate health potion" chance="33333" />
+		<item id="7590" name="great mana potion" chance="33333" countmax="2" />
+		<item id="6500" name="demonic essence" chance="33333" countmax="500" />
+		<item id="7428" name="bonebreaker" chance="33333" />
+		<item id="2150" name="small amethyst" chance="33333" countmax="15" />
+		<item id="2144" name="black pearl" chance="33333" countmax="15" />
+		<item id="2112" name="teddy bear" chance="20000" />
+		<item id="7839" name="shiver arrow" chance="20000" />
+		<item id="2466" name="golden armor" chance="20000" />
+		<item id="2470" name="golden legs" chance="20000" />
+		<item id="2646" name="golden boots" chance="20000" />
+		<item id="2231" name="big bone" chance="20000" />
+		<item id="2174" name="strange symbol" chance="20000" />
+		<item id="7455" name="mythril axe" chance="20000" />
+		<item id="2162" name="magic light wand" chance="20000" />
+		<item id="2170" name="silver amulet" chance="20000" />
+		<item id="2200" name="protection amulet" chance="20000" />
+		<item id="2171" name="platinum amulet" chance="20000" />
+		<item id="2142" name="ancient amulet" chance="20000" />
+		<item id="2123" name="ring of the sky" chance="20000" />
+		<item id="7433" name="ravenwing" chance="20000" />
+		<item id="2179" name="gold ring" chance="20000" />
+		<item id="6300" name="death ring" chance="20000" />
+		<item id="7431" name="demonbone" chance="20000" />
+		<item id="2165" name="stealth ring" chance="20000" />
+		<item id="2124" name="crystal ring" chance="20000" />
+		<item id="6553" name="ruthless axe" chance="20000" />
+		<item id="8472" name="great spirit potion" chance="20000" />
+		<item id="7591" name="great health potion" chance="20000" />
+		<item id="1984" name="blue tome" chance="20000" />
+		<item id="7588" name="strong health potion" chance="20000" />
+		<item id="7439" name="berserk potion" chance="20000" />
+		<item id="2167" name="energy ring" chance="20000" />
+		<item id="2214" name="ring of healing" chance="20000" />
+		<item id="7454" name="glorious axe" chance="20000" />
+		<item id="2447" name="twin axe" chance="20000" />
+		<item id="2160" name="crystal coin" chance="20000" countmax="2" />
+		<item id="2149" name="small emerald" chance="20000" countmax="6" />
+		<item id="2145" name="small diamond" chance="20000" countmax="5" />
+		<item id="2146" name="small sapphire" chance="20000" countmax="4" />
+		<item id="2151" name="talon" chance="20000" countmax="4" />
+		<item id="2143" name="white pearl" chance="20000" countmax="15" />
+		<item id="5954" name="demon horn" chance="20000" countmax="2" />
+		<item id="7365" name="onyx arrow" chance="20000" countmax="82" />
+		<item id="7368" name="assassin star" chance="20000" countmax="47" />
+		<item id="9971" name="gold ingot" chance="20000" />
+		<item id="2192" name="crystal ball" chance="20000" />
+		<item id="2155" name="green gem" chance="20000" />
+		<item id="2158" name="blue gem" chance="20000" />
+		<item id="2177" name="life crystal" chance="20000" />
+		<item id="2176" name="orb" chance="20000" />
+		<item id="2472" name="magic plate armor" chance="20000" />
+		<item id="8884" name="oceanborn leviathan armor" chance="20000" />
+		<item id="2436" name="skull staff" chance="20000" />
+		<item id="2387" name="double axe" chance="20000" />
+		<item id="2520" name="demon shield" chance="20000" />
+		<item id="7896" name="glacier kilt" chance="20000" />
+		<item id="8902" name="spellbook of mind control" chance="20000" />
+		<item id="8903" name="spellbook of lost souls" chance="20000" />
+		<item id="7405" name="havoc blade" chance="20000" />
+		<item id="8918" name="spellbook of dark mysteries" chance="20000" />
+		<item id="8904" name="spellscroll of prophecies" chance="20000" />
+		<item id="2393" name="giant sword" chance="20000" />
+		<item id="2514" name="mastermind shield" chance="20000" />
+		<item id="8878" name="crystalline armor" chance="20000" />
+		<item id="8887" name="frozen plate" chance="20000" />
+		<item id="8866" name="robe of the ice queen" chance="20000" />
+		<item id="8901" name="spellbook of warding" chance="20000" />
+		<item id="2148" name="gold coin" chance="20000" countmax="200" />
 	</loot>
 </monster>

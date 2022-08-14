@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("World Devourer")
 local monster = {}
 
 monster.name = "World Devourer"
-monster.description = ""
+monster.description = "World Devourer"
 monster.experience = 77700
 monster.outfit = {
 	lookType = 0,
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
@@ -87,48 +86,50 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 26191, chance = 100000, maxCount = 5},
-	{id = 26201, chance = 100000, maxCount = 5},
-	{id = 2148, chance = 100000, maxCount = 200},
-	{id = 25377, chance = 100000, maxCount = 17},
+	{id = 2148, chance = 100000, maxCount = 353},
+	{id = 2152, chance = 100000, maxCount = 46},
+	{id = 26201, chance = 100000, maxCount = 9},
+	{id = 26191, chance = 100000, maxCount = 9},
+	{id = 25377, chance = 100000, maxCount = 25},
 	{id = 26165, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 35},
-	{id = 26163, chance = 94565},
-	{id = 26164, chance = 94565},
-	{id = "void boots", chance = 75272},
-	{id = 18415, chance = 66304, maxCount = 3},
-	{id = 18413, chance = 64130, maxCount = 3},
-	{id = 18414, chance = 60054, maxCount = 3},
-	{id = "tiara of power", chance = 59511},
-	{id = 7590, chance = 58152, maxCount = 10},
-	{id = 8473, chance = 53261, maxCount = 10},
-	{id = 8472, chance = 51630, maxCount = 10},
-	{id = 2158, chance = 19565},
-	{id = 2147, chance = 17391, maxCount = 20},
-	{id = 2146, chance = 16304, maxCount = 20},
-	{id = 2150, chance = 15217, maxCount = 20},
-	{id = 2154, chance = 14946},
-	{id = "ring of blue plasma", chance = 14402},
-	{id = 9970, chance = 14402, maxCount = 20},
-	{id = 2155, chance = 13587},
-	{id = 2156, chance = 12772},
-	{id = "ring of red plasma", chance = 12772},
-	{id = 2149, chance = 11957, maxCount = 20},
-	{id = 2436, chance = 11685},
-	{id = "giant shimmering pearl", chance = 11413},
-	{id = 26200, chance = 10598},
-	{id = 26199, chance = 10054},
-	{id = "ring of green plasma", chance = 9783},
-	{id = "collar of blue plasma", chance = 8967},
-	{id = 7428, chance = 7609},
-	{id = 7426, chance = 7337},
-	{id = 7901, chance = 7337},
-	{id = 2153, chance = 2989},
-	{id = 8878, chance = 2446},
-	{id = 2470, chance = 1902},
-	{id = 8855, chance = 1087},
-	{id = 26342, chance = 1087},
-	{id = 7417, chance = 272}
+	{id = 26163, chance = 90000},
+	{id = 26164, chance = 90000},
+	{id = "void boots", chance = 70000},
+	{id = 18415, chance = 62857, maxCount = 5},
+	{id = 18413, chance = 61429, maxCount = 5},
+	{id = 7590, chance = 58571, maxCount = 18},
+	{id = 18414, chance = 52857, maxCount = 5},
+	{id = 8473, chance = 51429, maxCount = 15},
+	{id = 8472, chance = 50000, maxCount = 14},
+	{id = "tiara of power", chance = 48571},
+	{id = 2147, chance = 22857, maxCount = 39},
+	{id = 2154, chance = 21429},
+	{id = 2470, chance = 20000},
+	{id = 8855, chance = 20000},
+	{id = 7417, chance = 20000},
+	{id = 2149, chance = 17143, maxCount = 39},
+	{id = 2155, chance = 17143},
+	{id = "ring of red plasma", chance = 15714},
+	{id = 2150, chance = 12857, maxCount = 39},
+	{id = 2146, chance = 11429, maxCount = 33},
+	{id = 2436, chance = 11429},
+	{id = "ring of green plasma", chance = 10000},
+	{id = "collar of blue plasma", chance = 10000},
+	{id = 2156, chance = 10000},
+	{id = 7428, chance = 8571},
+	{id = 2158, chance = 8571},
+	{id = 8878, chance = 8571},
+	{id = 7901, chance = 8571},
+	{id = "giant shimmering pearl", chance = 8571},
+	{id = "ring of blue plasma", chance = 8571},
+	{id = 7426, chance = 7143},
+	{id = 26199, chance = 7143},
+	{id = 9970, chance = 5714, maxCount = 31},
+	{id = 26200, chance = 5714},
+	{id = 2153, chance = 4286},
+	{id = 26340, chance = 4000},
+	{id = 26341, chance = 4000},
+	{id = 26342, chance = 1429}
 }
 
 mType:register(monster)

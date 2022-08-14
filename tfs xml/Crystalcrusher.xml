@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Crystalcrusher" nameDescription="a crystalcrusher" experience="500" speed="390" manacost="0">
+<monster name="Crystalcrusher" nameDescription="a crystalcrusher" race="blood" experience="500" speed="390" manacost="0">
 	<health now="570" max="570" />
 	<look type="511" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,33 +30,27 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-5" />
+		<element earthPercent="100" />
+		<element firePercent="15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-3" />
+		<element holyPercent="-10" />
+		<element deathPercent="10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-170" />
-	</attacks>
-	<defenses armor="48" defense="48">
-		<defense name="healing" interval="2000" chance="20" min="5" max="15" />
-		<defense name="healing" interval="2000" chance="20" min="120" max="180" />
-	</defenses>
+	<defenses armor="48" defense="48" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Creak!" yell="false" />
 		<voice sentence="Crackle!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="84674" countmax="90" />
-		<item id="18417" name="brown crystal splinter" chance="5143" />
-		<item id="18416" name="green crystal splinter" chance="4997" />
-		<item id="18304" name="crystalline arrow" chance="4973" countmax="3" />
-		<item id="18418" name="blue crystal splinter" chance="4969" />
-		<item id="18432" name="crystalline spikes" chance="3662" />
+		<item id="2148" name="gold coin" chance="84696" countmax="90" />
+		<item id="18417" name="brown crystal splinter" chance="5151" />
+		<item id="18416" name="green crystal splinter" chance="5025" />
+		<item id="18418" name="blue crystal splinter" chance="4987" />
+		<item id="18304" name="crystalline arrow" chance="4983" countmax="3" />
+		<item id="18432" name="crystalline spikes" chance="3647" />
 	</loot>
 </monster>

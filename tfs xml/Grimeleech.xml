@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Grimeleech" nameDescription="a grimeleech" experience="7216" speed="340" manacost="0">
+<monster name="Grimeleech" nameDescription="a grimeleech" race="blood" experience="7216" speed="340" manacost="0">
 	<health now="9500" max="9500" />
 	<look type="855" head="0" body="0" legs="0" feet="0" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,30 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-5" />
+		<element earthPercent="40" />
+		<element firePercent="20" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
+		<element drownPercent="100" />
 		<element icePercent="0" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="60" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-450" />
+		<attack name="death" interval="2000" chance="15" min="-350" max="-400" radius="3" target="1">
+			<attribute key="shootEffect" value="death" />
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="-50" max="-200" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="greenstar" />
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="drunk" interval="2000" chance="15" drunkenness="50" duration="15000" radius="3" target="1">
+			<attribute key="shootEffect" value="gloothspear" />
+			<attribute key="areaEffect" value="stun" />
+		</attack>
 	</attacks>
 	<defenses armor="65" defense="65">
 		<defense name="healing" interval="2000" chance="20" min="200" max="300" />
@@ -50,36 +62,36 @@
 		<voice sentence="Death... Taste!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="93531" countmax="199" />
-		<item id="2152" name="platinum coin" chance="90015" countmax="8" />
-		<item id="7591" name="great health potion" chance="25091" countmax="3" />
-		<item id="8472" name="great spirit potion" chance="24472" countmax="3" />
-		<item id="7590" name="great mana potion" chance="24271" countmax="3" />
-		<item id="6558" name="flask of demonic blood" chance="18367" />
-		<item id="6500" name="demonic essence" chance="14978" />
-		<item id="25386" name="some grimeleech wings" chance="14541" />
-		<item id="2795" name="fire mushroom" chance="11625" countmax="5" />
-		<item id="2796" name="green mushroom" chance="11261" countmax="5" />
-		<item id="2150" name="small amethyst" chance="8163" countmax="5" />
-		<item id="2147" name="small ruby" chance="7908" countmax="5" />
-		<item id="9970" name="small topaz" chance="7526" countmax="5" />
-		<item id="2145" name="small diamond" chance="7088" countmax="5" />
-		<item id="8910" name="underworld rod" chance="5630" />
-		<item id="8922" name="wand of voodoo" chance="3335" />
-		<item id="2154" name="yellow gem" chance="2733" />
-		<item id="2156" name="red gem" chance="2095" />
-		<item id="7894" name="magma legs" chance="984" />
-		<item id="2158" name="blue gem" chance="765" />
-		<item id="2520" name="demon shield" chance="765" />
-		<item id="2462" name="devil helmet" chance="601" />
-		<item id="7418" name="nightmare blade" chance="565" />
-		<item id="25383" name="rift lance" chance="547" />
-		<item id="25523" name="rift crossbow" chance="364" />
-		<item id="25382" name="rift shield" chance="346" />
-		<item id="25522" name="rift bow" chance="310" />
-		<item id="7414" name="abyss hammer" chance="128" />
-		<item id="2472" name="magic plate armor" chance="128" />
-		<item id="2645" name="steel boots" chance="128" />
-		<item id="7388" name="vile axe" chance="109" />
+		<item id="2148" name="gold coin" chance="93644" countmax="199" />
+		<item id="2152" name="platinum coin" chance="90328" countmax="8" />
+		<item id="7591" name="great health potion" chance="24648" countmax="3" />
+		<item id="7590" name="great mana potion" chance="24591" countmax="3" />
+		<item id="8472" name="great spirit potion" chance="24466" countmax="3" />
+		<item id="6558" name="flask of demonic blood" chance="18383" countmax="3" />
+		<item id="6500" name="demonic essence" chance="14874" />
+		<item id="25386" name="some grimeleech wings" chance="13890" />
+		<item id="2795" name="fire mushroom" chance="11661" countmax="5" />
+		<item id="2796" name="green mushroom" chance="11067" countmax="5" />
+		<item id="2147" name="small ruby" chance="7763" countmax="5" />
+		<item id="2150" name="small amethyst" chance="7717" countmax="5" />
+		<item id="9970" name="small topaz" chance="7534" countmax="5" />
+		<item id="2145" name="small diamond" chance="7202" countmax="5" />
+		<item id="8910" name="underworld rod" chance="5785" />
+		<item id="8922" name="wand of voodoo" chance="3727" />
+		<item id="2154" name="yellow gem" chance="2561" />
+		<item id="2156" name="red gem" chance="2401" />
+		<item id="7894" name="magma legs" chance="892" />
+		<item id="2462" name="devil helmet" chance="743" />
+		<item id="2158" name="blue gem" chance="697" />
+		<item id="2520" name="demon shield" chance="686" />
+		<item id="25383" name="rift lance" chance="606" />
+		<item id="7418" name="nightmare blade" chance="583" />
+		<item id="25382" name="rift shield" chance="366" />
+		<item id="25523" name="rift crossbow" chance="332" />
+		<item id="25522" name="rift bow" chance="320" />
+		<item id="2645" name="steel boots" chance="217" />
+		<item id="7414" name="abyss hammer" chance="183" />
+		<item id="7388" name="vile axe" chance="149" />
+		<item id="2472" name="magic plate armor" chance="103" />
 	</loot>
 </monster>

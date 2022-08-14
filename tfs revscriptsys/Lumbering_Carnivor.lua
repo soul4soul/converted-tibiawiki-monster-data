@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = true,
 	canWalkOnFire = false,
@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 4,
+	color = 107
 }
 
 monster.voices = {
@@ -65,10 +65,10 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -40},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -78,7 +78,6 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300}
 }
 
 monster.defenses = {
@@ -87,21 +86,21 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 64483, maxCount = 3},
-	{id = 32001, chance = 20477, maxCount = 3},
-	{id = 2386, chance = 15711},
-	{id = 2396, chance = 6925},
-	{id = 2376, chance = 4914},
-	{id = 7633, chance = 2159},
-	{id = 2155, chance = 2085},
-	{id = 2377, chance = 1787},
-	{id = 2153, chance = 1713},
-	{id = 7454, chance = 1564},
-	{id = 2158, chance = 1042},
-	{id = 24741, chance = 1042},
-	{id = 18415, chance = 968},
-	{id = 2656, chance = 521},
-	{id = 8871, chance = 74}
+	{id = 2152, chance = 65327, maxCount = 3},
+	{id = 32001, chance = 20363, maxCount = 3},
+	{id = 2386, chance = 15245},
+	{id = 2396, chance = 7155},
+	{id = 2376, chance = 5063},
+	{id = 7633, chance = 2036},
+	{id = 2155, chance = 1926},
+	{id = 2153, chance = 1706},
+	{id = 2377, chance = 1651},
+	{id = 7454, chance = 1431},
+	{id = 24741, chance = 1046},
+	{id = 2158, chance = 881},
+	{id = 18415, chance = 826},
+	{id = 2656, chance = 715},
+	{id = 8871, chance = 55}
 }
 
 mType:register(monster)

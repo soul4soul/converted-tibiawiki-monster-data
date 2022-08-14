@@ -5,7 +5,7 @@ monster.name = "Infernal Demon"
 monster.description = "an infernal demon"
 monster.experience = 17430
 monster.outfit = {
-	lookType = 0,
+	lookType = 1313,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -67,16 +67,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 30},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 40},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = -20},
+	{type = COMBAT_HOLYDAMAGE , percent = -25},
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.attacks = {
@@ -90,7 +90,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 100000}
+	{id = 2160, chance = 53032},
+	{id = 8473, chance = 17828, maxCount = 5},
+	{id = 9971, chance = 15712},
+	{id = 2145, chance = 6629},
+	{id = 18420, chance = 6601},
+	{id = 18413, chance = 6573},
+	{id = 18419, chance = 5529},
+	{id = 36765, chance = 4000},
+	{id = 24849, chance = 3583},
+	{id = 2158, chance = 2426},
+	{id = 7891, chance = 2370},
+	{id = 18421, chance = 2200},
+	{id = 7890, chance = 1834},
+	{id = 7386, chance = 1636},
+	{id = 2393, chance = 1467},
+	{id = 2454, chance = 1269},
+	{id = 2197, chance = 762}
 }
 
 mType:register(monster)

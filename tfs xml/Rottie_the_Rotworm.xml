@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Rottie_The_Rotworm" nameDescription="" experience="40" speed="0" manacost="0">
+<monster name="Rottie_The_Rotworm" nameDescription="" race="blood" experience="40" speed="0" manacost="0">
 	<health now="65" max="65" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -46,13 +46,13 @@
 	<defenses armor="10" defense="5" />
 	<loot>
 		<item id="10609" name="lump of dirt" chance="100000" />
-		<item id="2148" name="gold coin" chance="84211" countmax="18" />
+		<item id="2148" name="gold coin" chance="84211" countmax="27" />
 		<item id="2398" name="mace" chance="63158" />
 		<item id="3976" name="worm" chance="47368" countmax="5" />
 		<item id="2376" name="sword" chance="26316" />
-		<item id="2671" name="ham" chance="21053" />
+		<item id="2671" name="ham" chance="21053" countmax="2" />
+		<item id="2666" name="meat" chance="15789" countmax="2" />
 		<item id="2530" name="copper shield" chance="15789" />
-		<item id="2666" name="meat" chance="15789" />
 		<item id="2480" name="legion helmet" chance="10526" />
 		<item id="2412" name="katana" chance="5263" />
 	</loot>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Lethal_Lissy" nameDescription="" experience="500" speed="0" manacost="0">
+<monster name="Lethal_Lissy" nameDescription="" race="blood" experience="500" speed="0" manacost="0">
 	<health now="1450" max="1450" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,22 +40,24 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" />
-	</attacks>
 	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="145" max="362" />
+		<defense name="healing" interval="2000" chance="20" min="0" max="150" />
 	</defenses>
+	<summons maxSummons="4">
+		<voice name="Pirate Cutthroat" interval="2000" chance="15" max="4" />
+	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="139" />
 		<item id="6100" name="the lethal lissy's shirt" chance="100000" />
 		<item id="2229" name="skull (item)" chance="78947" countmax="2" />
 		<item id="2463" name="plate armor" chance="52632" />
-		<item id="2666" name="meat" chance="26316" />
+		<item id="2666" name="meat" chance="26316" countmax="3" />
 		<item id="10103" name="very old piece of paper" chance="21053" />
+		<item id="2387" name="double axe" chance="20000" />
+		<item id="2200" name="protection amulet" chance="20000" />
 		<item id="2476" name="knight armor" chance="15789" />
 		<item id="2145" name="small diamond" chance="10526" />
-		<item id="7591" name="great health potion" chance="5263" />
 		<item id="5926" name="pirate backpack" chance="5263" />
+		<item id="7591" name="great health potion" chance="5263" />
 	</loot>
 </monster>

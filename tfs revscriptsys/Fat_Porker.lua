@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 0
-monster.maxHealth = 0
+monster.health = 20000
+monster.maxHealth = 20000
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -86,9 +86,10 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2671, chance = 35294},
-	{id = 2666, chance = 29412},
-	{id = 13297, chance = 23529, maxCount = 15}
+	{id = 2671, chance = 100000, maxCount = 40},
+	{id = 2666, chance = 50000, maxCount = 35},
+	{id = 13297, chance = 50000, maxCount = 16},
+	{id = 24843, chance = 20000, maxCount = 25}
 }
 
 mType:register(monster)

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Izcandar Champion of Summer")
 local monster = {}
 
 monster.name = "Izcandar Champion Of Summer"
-monster.description = ""
+monster.description = "Izcandar Champion of Summer"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -66,19 +66,18 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 5},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -10},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500}
 }
 
 monster.defenses = {
@@ -88,35 +87,38 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 26191, chance = 100000},
-	{id = 26165, chance = 100000},
+	{id = 25377, chance = 100000, maxCount = 3},
 	{id = 2114, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 5},
+	{id = 2152, chance = 100000, maxCount = 9},
 	{id = 25172, chance = 100000, maxCount = 3},
-	{id = 25377, chance = 72727, maxCount = 2},
-	{id = 26031, chance = 72727, maxCount = 20},
-	{id = 28415, chance = 54545, maxCount = 100},
-	{id = 26029, chance = 45455, maxCount = 20},
-	{id = 26030, chance = 45455, maxCount = 6},
-	{id = 26200, chance = 36364},
-	{id = 2156, chance = 36364},
-	{id = 2160, chance = 27273, maxCount = 3},
-	{id = "giant shimmering pearl", chance = 27273},
-	{id = 2155, chance = 27273},
-	{id = 5892, chance = 27273},
-	{id = 7443, chance = 18182, maxCount = 10},
-	{id = 7439, chance = 9091, maxCount = 10},
-	{id = 2158, chance = 9091},
-	{id = 9971, chance = 9091},
-	{id = 5904, chance = 9091},
-	{id = 7440, chance = 9091, maxCount = 10},
-	{id = 32825, chance = 9091},
-	{id = "ring of blue plasma", chance = 9091},
-	{id = "ring of green plasma", chance = 9091},
-	{id = "ring of red plasma", chance = 9091},
-	{id = 2436, chance = 9091},
-	{id = 5809, chance = 9091},
-	{id = 32077, chance = 9091},
-	{id = 2154, chance = 9091}
+	{id = 26165, chance = 100000},
+	{id = 26029, chance = 100000, maxCount = 20},
+	{id = 7440, chance = 50000, maxCount = 5},
+	{id = 7443, chance = 50000, maxCount = 5},
+	{id = "ring of blue plasma", chance = 50000},
+	{id = 2154, chance = 50000},
+	{id = 2436, chance = 50000},
+	{id = 7427, chance = 50000},
+	{id = "giant shimmering pearl", chance = 50000},
+	{id = "collar of blue plasma", chance = 50000},
+	{id = 26030, chance = 50000, maxCount = 23},
+	{id = 2156, chance = 50000},
+	{id = 7439, chance = 20000, maxCount = 10},
+	{id = 2158, chance = 20000},
+	{id = 26031, chance = 20000, maxCount = 20},
+	{id = 5904, chance = 20000},
+	{id = 9971, chance = 20000},
+	{id = 2160, chance = 20000, maxCount = 3},
+	{id = 2155, chance = 20000},
+	{id = 5892, chance = 20000},
+	{id = 32077, chance = 20000},
+	{id = 32825, chance = 20000},
+	{id = 32601, chance = 20000},
+	{id = 5809, chance = 20000},
+	{id = 28415, chance = 20000, maxCount = 100},
+	{id = "ring of red plasma", chance = 20000},
+	{id = 26200, chance = 20000},
+	{id = "ring of green plasma", chance = 20000}
 }
 
 mType:register(monster)

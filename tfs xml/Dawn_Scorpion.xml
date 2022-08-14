@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dawn Scorpion" nameDescription="a dawn scorpion" experience="45" speed="144" manacost="310">
+<monster name="Dawn Scorpion" nameDescription="a dawn scorpion" race="blood" experience="45" speed="144" manacost="310">
 	<health now="65" max="65" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,9 +30,9 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="5" />
+		<element earthPercent="100" />
+		<element firePercent="5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
@@ -40,9 +40,6 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="11" defense="11" />
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="4" />

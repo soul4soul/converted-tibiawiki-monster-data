@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Glooth Fairy" nameDescription="" experience="19000" speed="0" manacost="0">
+<monster name="Glooth Fairy" nameDescription="Glooth Fairy" race="blood" experience="19000" speed="0" manacost="0">
 	<health now="59000" max="59000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="0" />
@@ -30,52 +30,46 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="5" />
+		<element earthPercent="100" />
+		<element firePercent="-5" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="15" />
+		<element deathPercent="30" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-1900" />
-	</attacks>
-	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="200" max="250" />
-		<defense name="healing" interval="2000" chance="20" min="7500" max="8000" />
-	</defenses>
+	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="23474" name="glooth injection tube" chance="100000" countmax="3" />
-		<item id="2148" name="gold coin" chance="100000" countmax="100" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="5" />
-		<item id="8472" name="great spirit potion" chance="39167" countmax="5" />
-		<item id="7591" name="great health potion" chance="32500" countmax="5" />
-		<item id="7590" name="great mana potion" chance="28333" countmax="5" />
-		<item id="23514" name="glooth sandwich" chance="27500" countmax="5" />
-		<item id="23554" name="glooth amulet" chance="23333" />
-		<item id="23515" name="bowl of glooth soup" chance="22500" countmax="5" />
-		<item id="23550" name="glooth blade" chance="21667" />
-		<item id="23517" name="glooth steak" chance="21667" countmax="5" />
-		<item id="5880" name="iron ore" chance="20833" />
+		<item id="2148" name="gold coin" chance="100000" countmax="189" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="8" />
+		<item id="23474" name="glooth injection tube" chance="100000" countmax="5" />
+		<item id="23551" name="glooth axe" chance="66667" />
+		<item id="8472" name="great spirit potion" chance="66667" countmax="5" />
+		<item id="23517" name="glooth steak" chance="66667" countmax="8" />
+		<item id="23554" name="glooth amulet" chance="33333" />
+		<item id="23538" name="heat core" chance="33333" />
+		<item id="2149" name="small emerald" chance="33333" countmax="5" />
+		<item id="2146" name="small sapphire" chance="33333" countmax="5" />
+		<item id="23514" name="glooth sandwich" chance="33333" countmax="6" />
+		<item id="7590" name="great mana potion" chance="33333" countmax="6" />
+		<item id="2150" name="small amethyst" chance="33333" countmax="5" />
+		<item id="2145" name="small diamond" chance="20000" countmax="5" />
+		<item id="23536" name="rubber cap" chance="20000" />
+		<item id="23535" name="glooth cape" chance="20000" />
+		<item id="23529" name="glooth spear" chance="20000" />
+		<item id="7591" name="great health potion" chance="20000" countmax="5" />
+		<item id="23550" name="glooth blade" chance="20000" />
 		<item id="23549" name="glooth club" chance="20000" />
-		<item id="2149" name="small emerald" chance="20000" countmax="5" />
-		<item id="23529" name="glooth spear" chance="19167" countmax="5" />
-		<item id="9690" name="gear wheel" chance="17500" />
-		<item id="23551" name="glooth axe" chance="15833" />
-		<item id="2145" name="small diamond" chance="15833" countmax="5" />
-		<item id="2147" name="small ruby" chance="16667" countmax="5" />
-		<item id="9970" name="small topaz" chance="14167" countmax="5" />
-		<item id="2146" name="small sapphire" chance="12500" countmax="5" />
-		<item id="2150" name="small amethyst" chance="10833" countmax="5" />
-		<item id="23535" name="glooth cape" chance="7500" />
-		<item id="23536" name="rubber cap" chance="7500" />
-		<item id="23538" name="heat core" chance="5000" />
-		<item id="2158" name="blue gem" chance="4167" />
-		<item id="2156" name="red gem" chance="3333" />
-		<item id="2154" name="yellow gem" chance="2500" />
-		<item id="23663" name="feedbag" chance="1667" />
+		<item id="9690" name="gear wheel" chance="20000" />
+		<item id="2158" name="blue gem" chance="20000" />
+		<item id="2156" name="red gem" chance="20000" />
+		<item id="5880" name="iron ore" chance="20000" />
+		<item id="23515" name="bowl of glooth soup" chance="20000" countmax="5" />
+		<item id="9970" name="small topaz" chance="20000" countmax="5" />
+		<item id="2147" name="small ruby" chance="20000" countmax="5" />
+		<item id="2154" name="yellow gem" chance="20000" />
+		<item id="23663" name="feedbag" chance="20000" />
 	</loot>
 </monster>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Bretzecutioner")
 local monster = {}
 
 monster.name = "Bretzecutioner"
-monster.description = ""
+monster.description = "Bretzecutioner"
 monster.experience = 3700
 monster.outfit = {
 	lookType = 0,
@@ -88,25 +88,25 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 7368, chance = 100000, maxCount = 10},
-	{id = 6300, chance = 100000},
 	{id = 2148, chance = 100000, maxCount = 99},
-	{id = 2666, chance = 100000},
-	{id = 11215, chance = 100000},
 	{id = 2152, chance = 100000, maxCount = 8},
+	{id = 6300, chance = 100000},
+	{id = 7368, chance = 100000, maxCount = 10},
+	{id = 11215, chance = 100000},
+	{id = 2666, chance = 100000, maxCount = 6},
 	{id = 2489, chance = 66667},
-	{id = 6500, chance = 61111},
+	{id = 6500, chance = 61111, maxCount = 2},
 	{id = 7591, chance = 47222, maxCount = 3},
 	{id = "giant shimmering pearl", chance = 41667},
-	{id = 2146, chance = 38889, maxCount = 5},
 	{id = 7452, chance = 38889},
+	{id = 2146, chance = 38889, maxCount = 5},
 	{id = 2145, chance = 33333, maxCount = 5},
 	{id = 8472, chance = 30556, maxCount = 3},
 	{id = 2125, chance = 27778},
 	{id = 2150, chance = 27778, maxCount = 5},
 	{id = 7590, chance = 22222, maxCount = 3},
-	{id = 7427, chance = 19444},
 	{id = 2521, chance = 19444},
+	{id = 7427, chance = 19444},
 	{id = 2393, chance = 16667},
 	{id = 7419, chance = 13889},
 	{id = 2645, chance = 5556},

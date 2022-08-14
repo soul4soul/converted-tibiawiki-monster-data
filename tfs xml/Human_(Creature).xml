@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Human" nameDescription="a human" experience="50" speed="220" manacost="0">
+<monster name="Human" nameDescription="a human" race="blood" experience="50" speed="220" manacost="350">
 	<health now="150" max="150" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -40,18 +40,15 @@
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
-	</attacks>
 	<defenses armor="0" defense="0" />
 	<loot>
-		<item id="2148" name="Gold Coin" chance="35000" countmax="20" />
-		<item id="2689" name="Bread" chance="35000" countmax="3" />
-		<item id="2666" name="Meat" chance="35000" countmax="3" />
-		<item id="1988" name="Backpack" chance="35000" />
-		<item id="3607" name="Cheese" chance="35000" />
-		<item id="2467" name="Leather Armor" chance="35000" />
-		<item id="2376" name="Sword" chance="35000" />
-		<item id="2461" name="Leather Helmet" chance="15000" />
+		<item id="2148" name="gold coin" chance="35000" countmax="20" />
+		<item id="2689" name="bread" chance="35000" countmax="3" />
+		<item id="2666" name="meat" chance="35000" countmax="3" />
+		<item id="1988" name="backpack" chance="35000" />
+		<item id="3607" name="cheese" chance="35000" />
+		<item id="2467" name="leather armor" chance="35000" />
+		<item id="2376" name="sword" chance="35000" />
+		<item id="2461" name="leather helmet" chance="15000" />
 	</loot>
 </monster>

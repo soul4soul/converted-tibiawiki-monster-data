@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Unwelcome")
 local monster = {}
 
 monster.name = "The Unwelcome"
-monster.description = ""
+monster.description = "The Unwelcome"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -65,20 +65,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 90},
+	{type = COMBAT_ENERGYDAMAGE, percent = 90},
+	{type = COMBAT_EARTHDAMAGE, percent = 90},
+	{type = COMBAT_FIREDAMAGE, percent = 90},
 	{type = COMBAT_LIFEDRAIN, percent = 90},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 90},
+	{type = COMBAT_HOLYDAMAGE , percent = 90},
+	{type = COMBAT_DEATHDAMAGE , percent = 90}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
@@ -87,33 +86,33 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 100000, maxCount = 2},
-	{id = 35426, chance = 56471, maxCount = 2},
-	{id = 35427, chance = 51765, maxCount = 2},
-	{id = 26031, chance = 37647, maxCount = 6},
-	{id = 26030, chance = 31765, maxCount = 6},
-	{id = 26029, chance = 30588, maxCount = 6},
-	{id = 7440, chance = 25882, maxCount = 10},
-	{id = 7443, chance = 20000, maxCount = 10},
-	{id = 7439, chance = 19412, maxCount = 10},
-	{id = 35247, chance = 17647},
-	{id = 35429, chance = 14706},
-	{id = 35425, chance = 12941},
-	{id = 35245, chance = 12353, maxCount = 2},
-	{id = 35430, chance = 11765},
-	{id = 35428, chance = 8235},
-	{id = 35359, chance = 7647, maxCount = 2},
-	{id = 35279, chance = 5882},
-	{id = 35278, chance = 4118},
-	{id = 35255, chance = 4118},
-	{id = 35286, chance = 3529},
-	{id = 35281, chance = 2353},
-	{id = 35274, chance = 2353},
-	{id = 35282, chance = 1176},
-	{id = 35280, chance = 1176},
-	{id = 35273, chance = 1176},
-	{id = 35256, chance = 1176},
-	{id = 35280, chance = 588}
+	{id = 2160, chance = 97500, maxCount = 3},
+	{id = 35427, chance = 60000, maxCount = 2},
+	{id = 35426, chance = 55000, maxCount = 2},
+	{id = 26031, chance = 37500, maxCount = 10},
+	{id = 26030, chance = 32500, maxCount = 10},
+	{id = 26029, chance = 30000, maxCount = 11},
+	{id = 7440, chance = 27500, maxCount = 18},
+	{id = 7439, chance = 22500, maxCount = 19},
+	{id = 35274, chance = 20000},
+	{id = 35286, chance = 20000},
+	{id = 35256, chance = 20000},
+	{id = 35279, chance = 20000},
+	{id = 35359, chance = 20000},
+	{id = 35280, chance = 20000},
+	{id = 35273, chance = 20000},
+	{id = 35430, chance = 17500},
+	{id = 7443, chance = 15000, maxCount = 19},
+	{id = 35429, chance = 12500},
+	{id = 35245, chance = 10000},
+	{id = 35278, chance = 7500},
+	{id = 35425, chance = 7500},
+	{id = 35428, chance = 7500},
+	{id = 35247, chance = 5000},
+	{id = 35282, chance = 2500},
+	{id = 35281, chance = 2500},
+	{id = 35255, chance = 2500},
+	{id = 35287, chance = 2500}
 }
 
 mType:register(monster)

@@ -5,12 +5,12 @@ monster.name = "Juvenile Bashmu"
 monster.description = "a juvenile bashmu"
 monster.experience = 4500
 monster.outfit = {
-	lookType = 0,
+	lookType = 1408,
 	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
-	lookAddons = 0,
+	lookBody = 50,
+	lookLegs = 42,
+	lookFeet = 79,
+	lookAddons = 3,
 	lookMount = 0
 }
 
@@ -66,19 +66,18 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 5},
+	{type = COMBAT_EARTHDAMAGE, percent = 5},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = -10},
+	{type = COMBAT_HOLYDAMAGE , percent = -20},
+	{type = COMBAT_DEATHDAMAGE , percent = 5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400}
 }
 
 monster.defenses = {
@@ -87,32 +86,32 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 73089, maxCount = 19},
-	{id = 8472, chance = 14703, maxCount = 2},
-	{id = 8473, chance = 10297, maxCount = 4},
-	{id = 18413, chance = 6157},
-	{id = 39477, chance = 5839},
-	{id = 39479, chance = 4618},
-	{id = 18415, chance = 3662},
-	{id = 18419, chance = 3344},
-	{id = 2156, chance = 2389},
-	{id = 2153, chance = 2335},
-	{id = 7895, chance = 2229},
-	{id = 7387, chance = 2176},
-	{id = 7889, chance = 2176},
-	{id = 39476, chance = 2123},
-	{id = 2154, chance = 2070},
-	{id = 2391, chance = 1539},
-	{id = 18414, chance = 1486},
-	{id = 7430, chance = 1433},
-	{id = 7426, chance = 1274},
-	{id = 7893, chance = 1274},
-	{id = 2155, chance = 1221},
-	{id = 11355, chance = 1115},
-	{id = 20108, chance = 1008},
-	{id = 2436, chance = 955},
-	{id = 2445, chance = 796},
-	{id = 7427, chance = 531}
+	{id = 2152, chance = 73129, maxCount = 19},
+	{id = 8472, chance = 14018, maxCount = 2},
+	{id = 8473, chance = 10629, maxCount = 4},
+	{id = 18413, chance = 6038},
+	{id = 39477, chance = 5650},
+	{id = 39479, chance = 4061},
+	{id = 18415, chance = 3814},
+	{id = 18419, chance = 3213},
+	{id = 7889, chance = 2366},
+	{id = 2156, chance = 2225},
+	{id = 2154, chance = 2189},
+	{id = 2153, chance = 2119},
+	{id = 7387, chance = 2119},
+	{id = 7895, chance = 2083},
+	{id = 39476, chance = 1836},
+	{id = 18414, chance = 1660},
+	{id = 2391, chance = 1624},
+	{id = 7430, chance = 1483},
+	{id = 7893, chance = 1377},
+	{id = 2155, chance = 1342},
+	{id = 7426, chance = 1130},
+	{id = 20108, chance = 1024},
+	{id = 11355, chance = 989},
+	{id = 2436, chance = 883},
+	{id = 2445, chance = 812},
+	{id = 7427, chance = 671}
 }
 
 mType:register(monster)

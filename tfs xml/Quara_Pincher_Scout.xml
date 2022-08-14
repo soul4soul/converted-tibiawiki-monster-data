@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Quara Pincher Scout" nameDescription="a quara pincher scout" experience="600" speed="156" manacost="0">
+<monster name="Quara Pincher Scout" nameDescription="a quara pincher scout" race="blood" experience="600" speed="156" manacost="0">
 	<health now="775" max="775" />
 	<look type="77" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,13 +30,13 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -50,12 +50,12 @@
 		<voice sentence="Crrrk! Crrrk!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="89913" countmax="129" />
-		<item id="12446" name="quara pincers" chance="9884" />
-		<item id="2463" name="plate armor" chance="4949" />
-		<item id="2147" name="small ruby" chance="3856" countmax="2" />
-		<item id="2381" name="halberd" chance="2057" />
-		<item id="5895" name="fish fin" chance="805" />
-		<item id="2177" name="life crystal" chance="782" />
+		<item id="2148" name="gold coin" chance="89906" countmax="143" />
+		<item id="12446" name="quara pincers" chance="9912" />
+		<item id="2463" name="plate armor" chance="4960" />
+		<item id="2147" name="small ruby" chance="3839" countmax="2" />
+		<item id="2381" name="halberd" chance="2053" />
+		<item id="5895" name="fish fin" chance="809" />
+		<item id="2177" name="life crystal" chance="779" />
 	</loot>
 </monster>

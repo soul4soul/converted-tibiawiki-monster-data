@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Demodras")
 local monster = {}
 
 monster.name = "Demodras"
-monster.description = ""
+monster.description = "Demodras"
 monster.experience = 6000
 monster.outfit = {
 	lookType = 0,
@@ -70,7 +70,7 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
@@ -89,18 +89,23 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 400, maxDamage = 600}
 }
 
+monster.maxSummons = 2
+monster.summons = {
+	{name = "Dragon", chance = 15, interval = 2000, max = 2}
+}
+
 monster.loot = {
 	{id = 5919, chance = 100000},
 	{id = 2152, chance = 99145, maxCount = 10},
-	{id = 2672, chance = 75214},
+	{id = 2672, chance = 75214, maxCount = 10},
 	{id = 2796, chance = 25641, maxCount = 7},
 	{id = 2547, chance = 19658, maxCount = 10},
 	{id = 5948, chance = 13675},
 	{id = 2146, chance = 11966},
-	{id = 1976, chance = 10256},
 	{id = 2167, chance = 10256},
-	{id = 7591, chance = 9402},
+	{id = 1976, chance = 10256},
 	{id = 7590, chance = 9402},
+	{id = 7591, chance = 9402},
 	{id = 2033, chance = 5983},
 	{id = 7365, chance = 4274, maxCount = 5},
 	{id = 2492, chance = 1709},

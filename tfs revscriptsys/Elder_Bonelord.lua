@@ -70,15 +70,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 30},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 30}
 }
 
 monster.attacks = {
@@ -90,19 +90,25 @@ monster.defenses = {
 	armor = 13
 }
 
+monster.maxSummons = 12
+monster.summons = {
+	{name = "Gazer", chance = 15, interval = 2000, max = 6},
+	{name = "Crypt Shambler", chance = 15, interval = 2000, max = 6}
+}
+
 monster.loot = {
 	{id = 2148, chance = 99298, maxCount = 90},
-	{id = 11193, chance = 20026},
-	{id = 12468, chance = 9697},
-	{id = 7364, chance = 8786, maxCount = 4},
-	{id = 2377, chance = 2966},
-	{id = 2509, chance = 2033},
-	{id = 5898, chance = 1928},
-	{id = 2175, chance = 1017},
-	{id = 7589, chance = 836},
-	{id = 11197, chance = 458},
-	{id = 2518, chance = 86},
-	{id = 3972, chance = 84}
+	{id = 11193, chance = 20033},
+	{id = 12468, chance = 9714},
+	{id = 7364, chance = 8793, maxCount = 4},
+	{id = 2377, chance = 2973},
+	{id = 2509, chance = 2030},
+	{id = 5898, chance = 1925},
+	{id = 2175, chance = 1013},
+	{id = 7589, chance = 835},
+	{id = 11197, chance = 456},
+	{id = 3972, chance = 86},
+	{id = 2518, chance = 86}
 }
 
 mType:register(monster)

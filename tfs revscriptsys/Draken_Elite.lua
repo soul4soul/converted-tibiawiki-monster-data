@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 3,
+	color = 161
 }
 
 monster.voices = {
@@ -68,15 +68,15 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 40},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = 30},
+	{type = COMBAT_DEATHDAMAGE , percent = 30}
 }
 
 monster.attacks = {
@@ -89,26 +89,26 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 97148, maxCount = 200},
-	{id = 2152, chance = 50088, maxCount = 8},
-	{id = 2666, chance = 30018},
-	{id = 12617, chance = 24923},
-	{id = 12616, chance = 17674},
-	{id = 12615, chance = 14146},
-	{id = 8473, chance = 9316, maxCount = 3},
-	{id = 7590, chance = 8971, maxCount = 3},
-	{id = 12614, chance = 8107},
-	{id = 2145, chance = 2461, maxCount = 4},
-	{id = 5904, chance = 2024},
-	{id = 7404, chance = 878},
-	{id = 12613, chance = 878},
-	{id = 11304, chance = 861},
-	{id = 12646, chance = 583},
+	{id = 2148, chance = 97129, maxCount = 200},
+	{id = 2152, chance = 50171, maxCount = 8},
+	{id = 2666, chance = 29987},
+	{id = 12617, chance = 24928},
+	{id = 12616, chance = 17743},
+	{id = 12615, chance = 14165},
+	{id = 8473, chance = 9288, maxCount = 3},
+	{id = 7590, chance = 8985, maxCount = 3},
+	{id = 12614, chance = 8090},
+	{id = 2145, chance = 2455, maxCount = 4},
+	{id = 5904, chance = 2051},
+	{id = 7404, chance = 879},
+	{id = 12613, chance = 876},
+	{id = 11304, chance = 856},
+	{id = 12646, chance = 579},
 	{id = 11301, chance = 570},
-	{id = 11307, chance = 504},
-	{id = 11302, chance = 149},
-	{id = 12607, chance = 96},
-	{id = 12647, chance = 50},
+	{id = 11307, chance = 498},
+	{id = 11302, chance = 146},
+	{id = 12607, chance = 94},
+	{id = 12647, chance = 49},
 	{id = 12649, chance = 36},
 	{id = 12630, chance = 10}
 }

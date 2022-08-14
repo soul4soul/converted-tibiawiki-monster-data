@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Guard Captain Quaid")
 local monster = {}
 
 monster.name = "Guard Captain Quaid"
-monster.description = ""
+monster.description = "Guard Captain Quaid"
 monster.experience = 28000
 monster.outfit = {
 	lookType = 0,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -65,20 +65,19 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 15},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 40},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = -20},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500}
 }
 
 monster.defenses = {
@@ -87,7 +86,32 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2146, chance = 100000}
+	{id = 2146, chance = 100000},
+	{id = 2152, chance = 35000, maxCount = 20},
+	{id = 2154, chance = 35000},
+	{id = 2156, chance = 35000},
+	{id = 9971, chance = 15000},
+	{id = "giant shimmering pearl", chance = 15000},
+	{id = 34334, chance = 15000},
+	{id = 2158, chance = 15000},
+	{id = 2155, chance = 15000},
+	{id = "ring of blue plasma", chance = 7500},
+	{id = 5741, chance = 7500},
+	{id = 18453, chance = 7500},
+	{id = 2664, chance = 7500},
+	{id = 7900, chance = 7500},
+	{id = 10219, chance = 7500},
+	{id = 9970, chance = 7500},
+	{id = 3965, chance = 7500},
+	{id = 33049, chance = 4000},
+	{id = 33050, chance = 4000},
+	{id = 33053, chance = 4000},
+	{id = 2399, chance = 2500, maxCount = 6},
+	{id = 18413, chance = 2500},
+	{id = 2456, chance = 2500},
+	{id = 2455, chance = 2500},
+	{id = 7903, chance = 2500},
+	{id = 18415, chance = 2500}
 }
 
 mType:register(monster)

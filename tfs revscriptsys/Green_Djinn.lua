@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -70,20 +70,24 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
+	{type = COMBAT_ENERGYDAMAGE, percent = 50},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 80},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = -10},
+	{type = COMBAT_HOLYDAMAGE , percent = -13},
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -110}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -110},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -45, maxDamage = -75, range = 7, radius = 1, target = true, shootEffect = CONST_ANI_FIRE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -55, maxDamage = -105, range = 7, radius = 1, target = true, shootEffect = CONST_ANI_DEATH},
+	{name ="drunk", interval = 2000, chance = 15, drunkenness = 50, duration = 15000, range = 7, radius = 1, target = true, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_TELEPORT},
+	{name ="outfit", interval = 2000, chance = 15, monster = "rat", duration = 5000}
 }
 
 monster.defenses = {
@@ -92,17 +96,17 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 88230, maxCount = 115},
-	{id = 3607, chance = 24321},
-	{id = 7378, chance = 5037, maxCount = 2},
-	{id = 2149, chance = 2934, maxCount = 4},
-	{id = "book (green)", chance = 2294},
-	{id = 12412, chance = 2111},
-	{id = 5910, chance = 2011},
-	{id = 2747, chance = 956},
-	{id = 2063, chance = 873},
-	{id = 7620, chance = 482},
-	{id = 2663, chance = 116}
+	{id = 2148, chance = 88289, maxCount = 115},
+	{id = 3607, chance = 24252},
+	{id = 7378, chance = 5050, maxCount = 2},
+	{id = 2149, chance = 2936, maxCount = 4},
+	{id = "book (green)", chance = 2310},
+	{id = 12412, chance = 2131},
+	{id = 5910, chance = 2017},
+	{id = 2747, chance = 968},
+	{id = 2063, chance = 862},
+	{id = 7620, chance = 480},
+	{id = 2663, chance = 114}
 }
 
 mType:register(monster)

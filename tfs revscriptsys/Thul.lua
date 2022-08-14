@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 2,
+	color = 35
 }
 
 monster.voices = {
@@ -68,13 +68,13 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -15},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
@@ -91,7 +91,7 @@ monster.defenses = {
 
 monster.maxSummons = 2
 monster.summons = {
-	{name = "Massive Water Elemental", chance = 15, interval = 2000, max = 1}
+	{name = "Massive Water Elemental", chance = 15, interval = 2000, max = 2}
 }
 
 monster.loot = {
@@ -102,7 +102,9 @@ monster.loot = {
 	{id = 2150, chance = 39000, maxCount = 4},
 	{id = 7383, chance = 33000},
 	{id = 2497, chance = 18000},
-	{id = 2487, chance = 8000}
+	{id = 2487, chance = 8000},
+	{id = 2189, chance = 7500},
+	{id = 5741, chance = 7500}
 }
 
 mType:register(monster)

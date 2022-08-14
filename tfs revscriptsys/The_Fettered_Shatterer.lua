@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Fettered Shatterer")
 local monster = {}
 
 monster.name = "The Fettered Shatterer"
-monster.description = ""
+monster.description = "The Fettered Shatterer"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

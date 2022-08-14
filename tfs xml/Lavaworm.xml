@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Lavaworm" nameDescription="a lavaworm" experience="6500" speed="240" manacost="0">
+<monster name="Lavaworm" nameDescription="a lavaworm" race="blood" experience="6500" speed="240" manacost="0">
 	<health now="7500" max="7500" />
-	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
+	<look type="1394" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
 		<flag attackable="1" />
@@ -32,33 +32,30 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-15" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="10" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-600" />
-	</attacks>
 	<defenses armor="60" defense="60" />
 	<loot>
-		<item id="2152" name="platinum coin" chance="100000" countmax="18" />
-		<item id="9971" name="gold ingot" chance="18429" />
-		<item id="18414" name="violet crystal shard" chance="11480" />
-		<item id="39425" name="lavaworm spike roots" chance="7452" />
-		<item id="2153" name="violet gem" chance="6747" />
-		<item id="39426" name="lavaworm spikes" chance="4230" />
-		<item id="2155" name="green gem" chance="4129" />
-		<item id="28354" name="butterfly ring" chance="3122" />
-		<item id="8910" name="underworld rod" chance="2920" />
-		<item id="39427" name="lavaworm jaws" chance="2618" />
-		<item id="18413" name="blue crystal shard" chance="2518" />
-		<item id="2475" name="warrior helmet" chance="1410" />
-		<item id="8922" name="wand of voodoo" chance="1309" />
-		<item id="2497" name="crusader helmet" chance="806" />
-		<item id="2479" name="strange helmet" chance="504" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="21" />
+		<item id="9971" name="gold ingot" chance="16919" />
+		<item id="18414" name="violet crystal shard" chance="13313" />
+		<item id="2153" name="violet gem" chance="9261" />
+		<item id="39425" name="lavaworm spike roots" chance="8905" />
+		<item id="39426" name="lavaworm spikes" chance="6278" />
+		<item id="2155" name="green gem" chance="5565" />
+		<item id="18413" name="blue crystal shard" chance="4274" />
+		<item id="8910" name="underworld rod" chance="4141" />
+		<item id="39427" name="lavaworm jaws" chance="3963" />
+		<item id="28354" name="butterfly ring" chance="2939" />
+		<item id="8922" name="wand of voodoo" chance="2093" />
+		<item id="2475" name="warrior helmet" chance="1291" />
+		<item id="2497" name="crusader helmet" chance="801" />
+		<item id="2479" name="strange helmet" chance="356" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Loricate Orger" nameDescription="a loricate orger" experience="570" speed="230" manacost="0">
+<monster name="Loricate Orger" nameDescription="a loricate orger" race="blood" experience="570" speed="230" manacost="0">
 	<health now="750" max="750" />
 	<look type="1255" head="79" body="6" legs="94" feet="2" addons="1" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,29 +30,29 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<defenses armor="37" defense="37" />
 	<loot>
 		<item id="2152" name="platinum coin" chance="100000" countmax="3" />
-		<item id="2460" name="brass helmet" chance="9787" />
-		<item id="2463" name="plate armor" chance="8867" />
-		<item id="2530" name="copper shield" chance="7579" />
-		<item id="2481" name="soldier helmet" chance="6770" />
-		<item id="2526" name="studded shield" chance="4010" />
-		<item id="6300" name="death ring" chance="3974" />
+		<item id="2460" name="brass helmet" chance="9943" />
+		<item id="2463" name="plate armor" chance="8675" />
+		<item id="2530" name="copper shield" chance="7741" />
+		<item id="2481" name="soldier helmet" chance="6773" />
+		<item id="6300" name="death ring" chance="4104" />
+		<item id="2526" name="studded shield" chance="4071" />
 		<item id="2465" name="brass armor" chance="3937" />
-		<item id="2541" name="bone shield" chance="3495" />
-		<item id="2416" name="crowbar" chance="2980" />
-		<item id="2484" name="studded armor" chance="2649" />
-		<item id="2473" name="viking helmet" chance="2575" />
+		<item id="2541" name="bone shield" chance="3303" />
+		<item id="2416" name="crowbar" chance="3003" />
+		<item id="2473" name="viking helmet" chance="2569" />
+		<item id="2484" name="studded armor" chance="2536" />
 	</loot>
 </monster>

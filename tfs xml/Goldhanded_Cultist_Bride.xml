@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Goldhanded Cultist Bride" nameDescription="a goldhanded cultist bride" experience="2000" speed="300" manacost="0">
+<monster name="Goldhanded Cultist Bride" nameDescription="a goldhanded cultist bride" race="blood" experience="2000" speed="300" manacost="0">
 	<health now="3000" max="3000" />
 	<look type="140" head="114" body="79" legs="62" feet="94" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="17" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="15" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="15" />
 	</elements>
 	<defenses armor="30" defense="30" />
 	<voices interval="5000" chance="10">
@@ -50,6 +50,7 @@
 		<item id="27617" name="tiger eye" chance="17073" />
 		<item id="24850" name="opal" chance="9669" />
 		<item id="2154" name="yellow gem" chance="4878" />
+		<item id="2157" name="gold nugget" chance="4000" />
 		<item id="1997" name="golden bag" chance="3310" />
 		<item id="2004" name="golden backpack" chance="3223" />
 		<item id="9971" name="gold ingot" chance="1481" />

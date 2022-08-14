@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Lost Basher" nameDescription="a lost basher" experience="1800" speed="260" manacost="0">
+<monster name="Lost Basher" nameDescription="a lost basher" race="blood" experience="1800" speed="260" manacost="0">
 	<health now="2600" max="2600" />
 	<look type="538" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,54 +30,49 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="5" />
+		<element earthPercent="100" />
+		<element firePercent="25" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="20" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="15" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-350" />
-	</attacks>
-	<defenses armor="57" defense="57">
-		<defense name="healing" interval="2000" chance="20" min="250" max="500" />
-	</defenses>
+	<defenses armor="57" defense="57" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Yhouuuu!" yell="false" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="99992" countmax="100" />
-		<item id="2152" name="platinum coin" chance="69855" />
-		<item id="13757" name="coal" chance="20285" />
-		<item id="20107" name="bloody dwarven beard" chance="17318" />
-		<item id="20106" name="lost basher's spike" chance="15204" />
-		<item id="2789" name="brown mushroom" chance="14892" countmax="2" />
-		<item id="7590" name="great mana potion" chance="12171" />
-		<item id="20135" name="red hair dye" chance="11950" />
-		<item id="20127" name="wimp tooth chain" chance="11876" />
-		<item id="20137" name="basalt figurine" chance="10220" />
-		<item id="9970" name="small topaz" chance="10130" />
-		<item id="20110" name="bonecarving knife" chance="9966" />
-		<item id="8473" name="ultimate health potion" chance="9688" />
-		<item id="20136" name="basalt fetish" chance="8180" />
-		<item id="20111" name="bone fetish" chance="7475" />
-		<item id="5880" name="iron ore" chance="4901" />
-		<item id="2114" name="piggy bank" chance="3910" />
-		<item id="2529" name="black shield" chance="3418" />
-		<item id="2213" name="dwarven ring" chance="2434" />
-		<item id="20108" name="pair of iron fists" chance="1508" />
-		<item id="18413" name="blue crystal shard" chance="1402" />
-		<item id="20109" name="buckle" chance="1156" />
-		<item id="2430" name="knight axe" chance="910" />
-		<item id="7886" name="terra boots" chance="787" />
-		<item id="2477" name="knight legs" chance="541" />
-		<item id="7452" name="spiked squelcher" chance="369" />
-		<item id="2432" name="fire axe" chance="295" />
-		<item id="7427" name="chaos mace" chance="205" />
-		<item id="2454" name="war axe" chance="66" />
+		<item id="2152" name="platinum coin" chance="69903" />
+		<item id="13757" name="coal" chance="20228" />
+		<item id="20107" name="bloody dwarven beard" chance="17377" />
+		<item id="20106" name="lost basher's spike" chance="15129" />
+		<item id="2789" name="brown mushroom" chance="14936" countmax="2" />
+		<item id="7590" name="great mana potion" chance="12198" />
+		<item id="20135" name="red hair dye" chance="11925" />
+		<item id="20127" name="wimp tooth chain" chance="11861" />
+		<item id="20137" name="basalt figurine" chance="10206" />
+		<item id="9970" name="small topaz" chance="10134" />
+		<item id="20110" name="bonecarving knife" chance="9982" />
+		<item id="8473" name="ultimate health potion" chance="9612" />
+		<item id="20136" name="basalt fetish" chance="8175" />
+		<item id="20111" name="bone fetish" chance="7412" />
+		<item id="5880" name="iron ore" chance="4874" />
+		<item id="2114" name="piggy bank" chance="3943" />
+		<item id="2529" name="black shield" chance="3453" />
+		<item id="2213" name="dwarven ring" chance="2449" />
+		<item id="20108" name="pair of iron fists" chance="1518" />
+		<item id="18413" name="blue crystal shard" chance="1381" />
+		<item id="20109" name="buckle" chance="1172" />
+		<item id="2430" name="knight axe" chance="907" />
+		<item id="7886" name="terra boots" chance="803" />
+		<item id="2477" name="knight legs" chance="554" />
+		<item id="7452" name="spiked squelcher" chance="377" />
+		<item id="2432" name="fire axe" chance="289" />
+		<item id="7427" name="chaos mace" chance="209" />
+		<item id="2454" name="war axe" chance="64" />
 	</loot>
 </monster>

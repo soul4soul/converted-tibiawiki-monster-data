@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Blue Djinn" nameDescription="a blue djinn" experience="215" speed="220" manacost="0">
+<monster name="Blue Djinn" nameDescription="a blue djinn" race="blood" experience="215" speed="220" manacost="0">
 	<health now="330" max="330" />
 	<look type="80" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,29 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
+		<element energyPercent="50" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="80" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-10" />
+		<element holyPercent="20" />
+		<element deathPercent="-13" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-110" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-100" />
+		<attack name="fire" interval="2000" chance="15" min="-45" max="-75" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="-55" max="-105" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="death" />
+		</attack>
+		<attack name="drunk" interval="2000" chance="15" drunkenness="50" duration="15000" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="teleport" />
+		</attack>
+		<attack name="outfit" interval="2000" chance="15" monster="rabbit" duration="5000" />
 	</attacks>
 	<defenses armor="20" defense="20" />
 	<voices interval="5000" chance="10">
@@ -51,16 +62,16 @@
 		<voice sentence="Be careful what you wish for." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="87112" countmax="115" />
-		<item id="2684" name="carrot" chance="24170" />
-		<item id="7378" name="royal spear" chance="4673" countmax="2" />
-		<item id="2146" name="small sapphire" chance="2549" countmax="4" />
-		<item name="book (blue)" chance="2494" />
-		<item id="5912" name="blue piece of cloth" chance="1927" />
-		<item id="12412" name="dirty turban" chance="1803" />
-		<item id="7620" name="mana potion" chance="815" />
-		<item id="2063" name="small oil lamp" chance="746" />
-		<item id="2745" name="blue rose" chance="485" />
+		<item id="2148" name="gold coin" chance="87148" countmax="115" />
+		<item id="2684" name="carrot" chance="24173" />
+		<item id="7378" name="royal spear" chance="4654" countmax="2" />
+		<item id="2146" name="small sapphire" chance="2559" countmax="4" />
+		<item name="book (blue)" chance="2491" />
+		<item id="5912" name="blue piece of cloth" chance="1936" />
+		<item id="12412" name="dirty turban" chance="1808" />
+		<item id="7620" name="mana potion" chance="811" />
+		<item id="2063" name="small oil lamp" chance="751" />
+		<item id="2745" name="blue rose" chance="483" />
 		<item id="2663" name="mystic turban" chance="82" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Deepling Scout" nameDescription="a deepling scout" experience="160" speed="130" manacost="0">
+<monster name="Deepling Scout" nameDescription="a deepling scout" race="blood" experience="160" speed="130" manacost="0">
 	<health now="240" max="240" />
 	<look type="413" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="1" />
@@ -30,18 +30,22 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="-10" />
+		<element firePercent="100" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
-		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element drownPercent="100" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-105" />
+		<attack name="physical" interval="2000" chance="15" min="0" max="-110" range="3" radius="1" target="1">
+			<attribute key="shootEffect" value="spear" />
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
 	</attacks>
 	<defenses armor="7" defense="7" />
 	<voices interval="5000" chance="10">
@@ -51,11 +55,11 @@
 		<voice sentence="Ljeave this sjacred pljace while you cjan" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75928" countmax="50" />
-		<item id="3965" name="hunting spear" chance="15003" countmax="3" />
+		<item id="2148" name="gold coin" chance="75930" countmax="50" />
+		<item id="3965" name="hunting spear" chance="14998" countmax="3" />
 		<item id="2168" name="life ring" chance="2028" />
 		<item id="9809" name="rusted armor" chance="959" />
-		<item id="13838" name="heavy trident" chance="482" />
+		<item id="13838" name="heavy trident" chance="481" />
 		<item id="13870" name="eye of a deepling" chance="301" />
 		<item id="5895" name="fish fin" chance="297" />
 		<item id="2149" name="small emerald" chance="123" />

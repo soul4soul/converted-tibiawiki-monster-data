@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Dworc Fleshhunter" nameDescription="a dworc fleshhunter" experience="40" speed="148" manacost="0">
+<monster name="Dworc Fleshhunter" nameDescription="a dworc fleshhunter" race="blood" experience="40" speed="148" manacost="0">
 	<health now="85" max="85" />
 	<look type="215" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,20 +31,17 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-8" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-10" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="-13" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-25" />
-		<attack name="physical" interval="2000" chance="100" min="0" max="-15" range="7">
-			<attribute key="shootEffect" value="throwingknife" />
-		</attack>
+		<attack name="melee" interval="2000" chance="100" min="0" max="-25" poison="14" />
 	</attacks>
 	<defenses armor="3" defense="3" />
 	<voices interval="5000" chance="10">
@@ -53,15 +50,15 @@
 		<voice sentence="Prek tars, dekklep zurk." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="74874" countmax="13" />
-		<item id="2467" name="leather armor" chance="10815" />
+		<item id="2148" name="gold coin" chance="74885" countmax="13" />
+		<item id="2467" name="leather armor" chance="10822" />
 		<item id="2568" name="cleaver" chance="8992" />
-		<item name="torch" chance="5552" />
-		<item id="2229" name="skull (item)" chance="3028" countmax="3" />
-		<item id="2411" name="poison dagger" chance="2061" />
-		<item id="3965" name="hunting spear" chance="1950" />
-		<item id="2541" name="bone shield" chance="1035" />
-		<item id="3967" name="tribal mask" chance="479" />
+		<item name="torch" chance="5546" />
+		<item id="2229" name="skull (item)" chance="3027" countmax="3" />
+		<item id="2411" name="poison dagger" chance="2063" />
+		<item id="3965" name="hunting spear" chance="1951" />
+		<item id="2541" name="bone shield" chance="1036" />
+		<item id="3967" name="tribal mask" chance="480" />
 		<item id="3964" name="ripper lance" chance="97" />
 	</loot>
 </monster>

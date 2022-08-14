@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Orc Warrior" nameDescription="an orc warrior" experience="50" speed="190" manacost="360">
+<monster name="Orc Warrior" nameDescription="an orc warrior" race="blood" experience="50" speed="190" manacost="360">
 	<health now="125" max="125" />
 	<look type="7" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,15 +30,15 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
+		<element energyPercent="30" />
+		<element earthPercent="-10" />
 		<element firePercent="0" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="10" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-60" />
@@ -50,15 +50,15 @@
 		<voice sentence="Grow truk grrrr." yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64346" countmax="15" />
-		<item id="2666" name="meat" chance="15269" />
-		<item id="12409" name="broken helmet" chance="9619" />
-		<item id="2464" name="chain armor" chance="7618" />
-		<item id="12435" name="orc leather" chance="3662" />
-		<item id="26642" name="heavy old tome" chance="1771" />
-		<item id="12436" name="skull belt" chance="973" />
-		<item id="11113" name="orc tooth" chance="656" />
-		<item id="2530" name="copper shield" chance="503" />
-		<item id="2411" name="poison dagger" chance="44" />
+		<item id="2148" name="gold coin" chance="64397" countmax="15" />
+		<item id="2666" name="meat" chance="15377" />
+		<item id="12409" name="broken helmet" chance="9669" />
+		<item id="2464" name="chain armor" chance="7474" />
+		<item id="12435" name="orc leather" chance="3678" />
+		<item id="26642" name="heavy old tome" chance="1766" />
+		<item id="12436" name="skull belt" chance="1024" />
+		<item id="11113" name="orc tooth" chance="663" />
+		<item id="2530" name="copper shield" chance="488" />
+		<item id="2411" name="poison dagger" chance="39" />
 	</loot>
 </monster>

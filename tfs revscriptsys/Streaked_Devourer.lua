@@ -5,7 +5,7 @@ monster.name = "Streaked Devourer"
 monster.description = "a streaked devourer"
 monster.experience = 6300
 monster.outfit = {
-	lookType = 0,
+	lookType = 1398,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = true,
 	canWalkOnFire = true,
@@ -68,17 +68,16 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = -15},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -550}
 }
 
 monster.defenses = {
@@ -87,22 +86,22 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 24},
-	{id = 9971, chance = 13303},
-	{id = 39429, chance = 11651},
-	{id = 39428, chance = 8716},
-	{id = 2156, chance = 6239},
-	{id = 39430, chance = 5688},
-	{id = 2154, chance = 3119},
-	{id = 2445, chance = 1560},
-	{id = 7386, chance = 1284},
-	{id = 7456, chance = 1284},
-	{id = 15644, chance = 1101},
-	{id = 7383, chance = 1009},
-	{id = 2427, chance = 917},
-	{id = 15451, chance = 917},
-	{id = 2393, chance = 826},
-	{id = 2454, chance = 642}
+	{id = 2152, chance = 100000, maxCount = 28},
+	{id = 9971, chance = 13321},
+	{id = 39429, chance = 12181},
+	{id = 39428, chance = 10493},
+	{id = 2156, chance = 7710},
+	{id = 39430, chance = 6022},
+	{id = 2154, chance = 4106},
+	{id = 7386, chance = 2099},
+	{id = 7383, chance = 1414},
+	{id = 2445, chance = 1323},
+	{id = 15451, chance = 1277},
+	{id = 2454, chance = 1141},
+	{id = 2393, chance = 1095},
+	{id = 2427, chance = 1049},
+	{id = 7456, chance = 1004},
+	{id = 15644, chance = 1004}
 }
 
 mType:register(monster)

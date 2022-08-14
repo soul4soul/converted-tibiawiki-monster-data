@@ -71,19 +71,23 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 65},
+	{type = COMBAT_EARTHDAMAGE, percent = -20},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 65},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -30, maxDamage = -75, effect = CONST_ME_FIREATTACK},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -80, maxDamage = -170, effect = CONST_ME_HITBYFIRE},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -140, maxDamage = -200, length = 5, spread = 0, effect = CONST_ME_FIREATTACK},
+	{name ="speed", interval = 2000, chance = 15, speed = {min = -400, max = -400}, duration = 20000, range = 3, radius = 1, target = true}
 }
 
 monster.defenses = {
@@ -93,14 +97,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 96000, maxCount = 178},
-	{id = 2152, chance = 34000, maxCount = 2},
-	{id = 7588, chance = 7016},
-	{id = 7589, chance = 6730},
-	{id = 2147, chance = 6190, maxCount = 5},
-	{id = 2789, chance = 5302},
-	{id = 2167, chance = 1365},
-	{id = 2187, chance = 952},
+	{id = 2148, chance = 96004, maxCount = 178},
+	{id = 2152, chance = 33999, maxCount = 2},
+	{id = 7588, chance = 7009},
+	{id = 7589, chance = 6755},
+	{id = 2147, chance = 6185, maxCount = 5},
+	{id = 2789, chance = 5297},
+	{id = 2167, chance = 1364},
+	{id = 2187, chance = 951},
 	{id = 5904, chance = 476},
 	{id = 7443, chance = 381},
 	{id = 2645, chance = 159},

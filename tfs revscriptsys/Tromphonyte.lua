@@ -78,24 +78,22 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = 0}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 300, maxDamage = 750}
+	armor = 10
 }
 
 monster.loot = {
-	{id = 13301, chance = 100000},
-	{id = 2476, chance = 100000},
 	{id = 2152, chance = 100000, maxCount = 13},
 	{id = 9970, chance = 100000, maxCount = 5},
-	{id = 13299, chance = 100000},
-	{id = 13300, chance = 100000},
 	{id = 7588, chance = 100000, maxCount = 2},
 	{id = 7589, chance = 100000, maxCount = 2},
+	{id = 13301, chance = 100000},
+	{id = 13299, chance = 100000},
+	{id = 13300, chance = 100000},
+	{id = 2476, chance = 100000},
 	{id = 7452, chance = 50877}
 }
 

@@ -68,20 +68,20 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -1},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
+	{type = COMBAT_EARTHDAMAGE, percent = 1},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -50}
+	{name ="outfit", interval = 2000, chance = 15, monster = "Green Frog", duration = 5000}
 }
 
 monster.defenses = {
@@ -91,16 +91,17 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2654, chance = 68000},
-	{id = 2324, chance = 64000},
 	{id = 2687, chance = 64000, maxCount = 8},
+	{id = 2324, chance = 64000},
 	{id = 2148, chance = 32000, maxCount = 74},
 	{id = 2129, chance = 24000},
 	{id = 2800, chance = 20000},
+	{id = 13537, chance = 20000},
 	{id = 2651, chance = 8000},
 	{id = 2199, chance = 8000},
 	{id = 8902, chance = 8000},
-	{id = 2185, chance = 4000},
-	{id = 2402, chance = 4000}
+	{id = 2402, chance = 4000},
+	{id = 2185, chance = 4000}
 }
 
 mType:register(monster)

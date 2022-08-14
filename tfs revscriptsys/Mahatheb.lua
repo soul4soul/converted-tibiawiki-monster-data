@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Mahatheb")
 local monster = {}
 
 monster.name = "Mahatheb"
-monster.description = ""
+monster.description = "Mahatheb"
 monster.experience = 600
 monster.outfit = {
 	lookType = 0,
@@ -78,17 +78,22 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 60}
+	armor = 10
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 52}
+	{id = 2148, chance = 100000, maxCount = 52},
+	{id = 12422, chance = 20000},
+	{id = 10566, chance = 20000},
+	{id = 2162, chance = 20000},
+	{id = 3976, chance = 20000, maxCount = 3},
+	{id = 2161, chance = 20000},
+	{id = 2134, chance = 20000},
+	{id = 2124, chance = 20000}
 }
 
 mType:register(monster)

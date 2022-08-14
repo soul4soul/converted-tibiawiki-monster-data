@@ -67,19 +67,19 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = -20},
+	{type = COMBAT_EARTHDAMAGE, percent = 20},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
 	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250, condition = {type = CONDITION_POISON, startDamage = 158, interval = }}
 }
 
 monster.defenses = {
@@ -90,23 +90,23 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 197},
-	{id = 7589, chance = 14970},
-	{id = 2463, chance = 9939},
+	{id = 7589, chance = 15013},
+	{id = 2463, chance = 9906},
 	{id = 7364, chance = 5865, maxCount = 6},
-	{id = 3351, chance = 5163},
-	{id = 7441, chance = 4906},
-	{id = 7449, chance = 2516},
-	{id = 5879, chance = 1988},
-	{id = 2125, chance = 1638},
-	{id = 2124, chance = 1585},
-	{id = 2169, chance = 1485},
-	{id = 2477, chance = 747},
-	{id = 7290, chance = 719},
-	{id = 7902, chance = 666},
-	{id = 2476, chance = 558},
-	{id = 7437, chance = 142},
+	{id = 3351, chance = 5174},
+	{id = 7441, chance = 4903},
+	{id = 7449, chance = 2514},
+	{id = 5879, chance = 1983},
+	{id = 2125, chance = 1640},
+	{id = 2124, chance = 1588},
+	{id = 2169, chance = 1480},
+	{id = 2477, chance = 752},
+	{id = 7290, chance = 724},
+	{id = 7902, chance = 667},
+	{id = 2476, chance = 553},
+	{id = 7437, chance = 141},
 	{id = 2171, chance = 121},
-	{id = 5801, chance = 83}
+	{id = 5801, chance = 82}
 }
 
 mType:register(monster)

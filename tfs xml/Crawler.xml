@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Crawler" nameDescription="a crawler" experience="1000" speed="250" manacost="0">
+<monster name="Crawler" nameDescription="a crawler" race="blood" experience="1000" speed="250" manacost="0">
 	<health now="1450" max="1450" />
 	<look type="456" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -31,17 +31,17 @@
 	<elements>
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="100" />
+		<element firePercent="-8" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="-7" />
+		<element holyPercent="-5" />
+		<element deathPercent="5" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-120" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-120" poison="75" />
 	</attacks>
 	<defenses armor="38" defense="38">
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
@@ -50,15 +50,15 @@
 	</defenses>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="190" />
-		<item id="2152" name="platinum coin" chance="50328" />
-		<item id="15482" name="crawler head plating" chance="17967" />
-		<item id="15486" name="compound eye" chance="14666" />
-		<item id="9970" name="small topaz" chance="10076" countmax="2" />
-		<item id="7590" name="great mana potion" chance="8927" />
-		<item id="7591" name="great health potion" chance="6176" />
-		<item id="2391" name="war hammer" chance="1864" />
-		<item id="8912" name="springsprout rod" chance="614" />
-		<item id="2154" name="yellow gem" chance="464" />
-		<item id="15490" name="grasshopper legs" chance="93" />
+		<item id="2152" name="platinum coin" chance="50364" />
+		<item id="15482" name="crawler head plating" chance="17997" />
+		<item id="15486" name="compound eye" chance="14647" />
+		<item id="9970" name="small topaz" chance="10070" countmax="2" />
+		<item id="7590" name="great mana potion" chance="8924" />
+		<item id="7591" name="great health potion" chance="6148" />
+		<item id="2391" name="war hammer" chance="1854" />
+		<item id="8912" name="springsprout rod" chance="608" />
+		<item id="2154" name="yellow gem" chance="463" />
+		<item id="15490" name="grasshopper legs" chance="91" />
 	</loot>
 </monster>

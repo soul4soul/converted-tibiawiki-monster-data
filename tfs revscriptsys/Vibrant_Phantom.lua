@@ -5,11 +5,11 @@ monster.name = "Vibrant Phantom"
 monster.description = "a vibrant phantom"
 monster.experience = 19700
 monster.outfit = {
-	lookType = 0,
-	lookHead = 0,
-	lookBody = 0,
-	lookLegs = 0,
-	lookFeet = 0,
+	lookType = 1298,
+	lookHead = 85,
+	lookBody = 85,
+	lookLegs = 88,
+	lookFeet = 91,
 	lookAddons = 0,
 	lookMount = 0
 }
@@ -67,16 +67,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = -10},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = 10},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
@@ -88,22 +88,23 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 54390},
-	{id = 8473, chance = 26399, maxCount = 5},
-	{id = 2181, chance = 9004},
-	{id = 9971, chance = 7901},
-	{id = 2153, chance = 7166},
-	{id = 7633, chance = 5860},
-	{id = 2183, chance = 4675},
-	{id = 36799, chance = 3736},
-	{id = 2155, chance = 3491},
-	{id = 2158, chance = 2572},
-	{id = 8910, chance = 2266},
-	{id = 36800, chance = 2123},
-	{id = 18413, chance = 1940},
-	{id = 8912, chance = 1940},
-	{id = 18414, chance = 1715},
-	{id = "ring of blue plasma", chance = 1245}
+	{id = 2160, chance = 54384},
+	{id = 8473, chance = 26505, maxCount = 5},
+	{id = 2181, chance = 8877},
+	{id = 9971, chance = 7774},
+	{id = 2153, chance = 7087},
+	{id = 7633, chance = 5930},
+	{id = 2183, chance = 4683},
+	{id = 36765, chance = 4000},
+	{id = 36799, chance = 3779},
+	{id = 2155, chance = 3526},
+	{id = 2158, chance = 2567},
+	{id = 8910, chance = 2206},
+	{id = 8912, chance = 2115},
+	{id = 36800, chance = 2097},
+	{id = 18413, chance = 1971},
+	{id = 18414, chance = 1627},
+	{id = "ring of blue plasma", chance = 1302}
 }
 
 mType:register(monster)

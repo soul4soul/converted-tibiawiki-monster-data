@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Fleshcrawler")
 local monster = {}
 
 monster.name = "Fleshcrawler"
-monster.description = ""
+monster.description = "Fleshcrawler"
 monster.experience = 1000
 monster.outfit = {
 	lookType = 0,
@@ -68,17 +68,16 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = -15},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -330}
 }
 
 monster.defenses = {
@@ -88,19 +87,19 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 10548, chance = 100000},
-	{id = 2152, chance = 99153, maxCount = 15},
-	{id = 2159, chance = 99153, maxCount = 2},
-	{id = 2149, chance = 89407, maxCount = 3},
-	{id = 2150, chance = 88559, maxCount = 4},
-	{id = 8912, chance = 75847},
-	{id = 2135, chance = 51271},
-	{id = 2142, chance = 48729},
-	{id = 2540, chance = 45339},
-	{id = 7588, chance = 43220},
-	{id = 2476, chance = 41525},
-	{id = 7426, chance = 29237},
-	{id = 12424, chance = 13136},
-	{id = 7884, chance = 10169}
+	{id = 2152, chance = 99163, maxCount = 15},
+	{id = 2159, chance = 99163, maxCount = 2},
+	{id = 2149, chance = 89540, maxCount = 3},
+	{id = 2150, chance = 88285, maxCount = 4},
+	{id = 8912, chance = 75732},
+	{id = 2135, chance = 51464},
+	{id = 2142, chance = 48536},
+	{id = 2540, chance = 45607},
+	{id = 7588, chance = 43515},
+	{id = 2476, chance = 41423},
+	{id = 7426, chance = 28870},
+	{id = 12424, chance = 12971},
+	{id = 7884, chance = 10042}
 }
 
 mType:register(monster)

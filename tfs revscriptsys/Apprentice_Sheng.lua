@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Apprentice Sheng")
 local monster = {}
 
 monster.name = "Apprentice Sheng"
-monster.description = ""
+monster.description = "Apprentice Sheng"
 monster.experience = 150
 monster.outfit = {
 	lookType = 0,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
@@ -70,7 +70,7 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 100},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 0},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
@@ -82,24 +82,27 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100}
 }
 
 monster.defenses = {
 	defense = 5,
-	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 9, maxDamage = 23}
+	armor = 10
 }
 
 monster.loot = {
 	{id = 5878, chance = 100000},
-	{id = 2162, chance = 82222},
-	{id = 2148, chance = 71111, maxCount = 10},
-	{id = "torch", chance = 24444, maxCount = 2},
-	{id = 2649, chance = 13333},
-	{id = 2403, chance = 11111},
-	{id = 2684, chance = 6667, maxCount = 7},
-	{id = 2461, chance = 6667}
+	{id = 2162, chance = 84314},
+	{id = 2148, chance = 68627, maxCount = 10},
+	{id = "torch", chance = 23529, maxCount = 2},
+	{id = 2666, chance = 20000},
+	{id = "dead snake (item)", chance = 20000, maxCount = 2},
+	{id = 2120, chance = 20000},
+	{id = 2554, chance = 20000},
+	{id = 12428, chance = 20000},
+	{id = 2649, chance = 15686},
+	{id = 2403, chance = 9804},
+	{id = 2684, chance = 5882, maxCount = 7},
+	{id = 2461, chance = 5882}
 }
 
 mType:register(monster)

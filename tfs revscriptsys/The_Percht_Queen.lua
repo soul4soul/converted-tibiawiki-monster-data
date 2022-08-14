@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("The Percht Queen")
 local monster = {}
 
 monster.name = "The Percht Queen"
-monster.description = ""
+monster.description = "The Percht Queen"
 monster.experience = 500
 monster.outfit = {
 	lookType = 0,
@@ -65,16 +65,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 90},
+	{type = COMBAT_ENERGYDAMAGE, percent = 80},
+	{type = COMBAT_EARTHDAMAGE, percent = 80},
+	{type = COMBAT_FIREDAMAGE, percent = 70},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_HOLYDAMAGE , percent = 80},
+	{type = COMBAT_DEATHDAMAGE , percent = 90}
 }
 
 monster.attacks = {
@@ -88,8 +88,8 @@ monster.defenses = {
 monster.loot = {
 	{id = 2114, chance = 100000},
 	{id = 2152, chance = 100000, maxCount = 5},
-	{id = 26191, chance = 99167},
 	{id = 26165, chance = 99167},
+	{id = 26191, chance = 99167},
 	{id = 26029, chance = 61667, maxCount = 20},
 	{id = 26031, chance = 56667, maxCount = 20},
 	{id = 2155, chance = 47500, maxCount = 2},
@@ -102,36 +102,44 @@ monster.loot = {
 	{id = 32848, chance = 25000},
 	{id = 2160, chance = 23333, maxCount = 3},
 	{id = 7440, chance = 21667, maxCount = 10},
+	{id = 32932, chance = 20000},
+	{id = 32851, chance = 20000},
+	{id = 32938, chance = 20000},
+	{id = 32940, chance = 20000},
+	{id = 32931, chance = 20000},
+	{id = 32975, chance = 20000},
+	{id = 7632, chance = 20000},
 	{id = 2436, chance = 20000},
+	{id = 7633, chance = 20000},
 	{id = 9971, chance = 19167},
 	{id = 2158, chance = 16667, maxCount = 2},
-	{id = 26199, chance = 12500},
 	{id = "giant shimmering pearl", chance = 12500},
+	{id = 26199, chance = 12500},
 	{id = 7443, chance = 10833, maxCount = 10},
-	{id = 7427, chance = 10833},
 	{id = 5904, chance = 10833},
+	{id = 7427, chance = 10833},
+	{id = 32934, chance = 10000},
 	{id = "collar of blue plasma", chance = 10000},
 	{id = 26200, chance = 10000},
-	{id = 32934, chance = 10000},
-	{id = "ring of blue plasma", chance = 9167},
-	{id = "ring of red plasma", chance = 9167},
 	{id = 2153, chance = 9167},
+	{id = "ring of red plasma", chance = 9167},
+	{id = "ring of blue plasma", chance = 9167},
 	{id = 35433, chance = 6667},
-	{id = 32977, chance = 5000},
 	{id = 32935, chance = 5000},
-	{id = "ring of green plasma", chance = 5000},
 	{id = 2123, chance = 5000},
+	{id = "ring of green plasma", chance = 5000},
+	{id = 32977, chance = 5000},
 	{id = 32939, chance = 2500},
 	{id = 32936, chance = 2500},
 	{id = 2453, chance = 1667},
-	{id = 32974, chance = 1667},
-	{id = 32976, chance = 1667},
-	{id = 32978, chance = 1667},
-	{id = 5809, chance = 1667},
 	{id = "the crown of the percht queen", chance = 1667},
-	{id = 7414, chance = 833},
+	{id = 32974, chance = 1667},
+	{id = 32978, chance = 1667},
+	{id = 32976, chance = 1667},
+	{id = 5809, chance = 1667},
 	{id = 32937, chance = 833},
-	{id = 32941, chance = 833}
+	{id = 32941, chance = 833},
+	{id = 7414, chance = 833}
 }
 
 mType:register(monster)

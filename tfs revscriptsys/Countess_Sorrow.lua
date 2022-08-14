@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Countess Sorrow")
 local monster = {}
 
 monster.name = "Countess Sorrow"
-monster.description = ""
+monster.description = "Countess Sorrow"
 monster.experience = 13000
 monster.outfit = {
 	lookType = 0,
@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 3,
+	color = 203
 }
 
 monster.voices = {
@@ -69,16 +69,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 100},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 100},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 50},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
@@ -88,22 +88,27 @@ monster.attacks = {
 monster.defenses = {
 	defense = 5,
 	armor = 10,
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 416, maxDamage = 625},
 	{name ="speed", interval = 2000, chance = 15, speed = {min = 300, max = 300}, duration = 7000, effect = CONST_ME_MAGIC_RED}
+}
+
+monster.maxSummons = 6
+monster.summons = {
+	{name = "Phantasm", chance = 15, interval = 2000, max = 3},
+	{name = "Phantasm (Weak)", chance = 15, interval = 2000, max = 3}
 }
 
 monster.loot = {
 	{id = 6536, chance = 100000},
-	{id = 5944, chance = 88095},
-	{id = 2148, chance = 85714, maxCount = 169},
-	{id = 2152, chance = 59524, maxCount = 4},
-	{id = 3123, chance = 45238},
-	{id = 6500, chance = 35714},
-	{id = 2656, chance = 30952},
-	{id = 2200, chance = 30952},
-	{id = 2424, chance = 19048},
-	{id = 2647, chance = 9524},
-	{id = 2165, chance = 7143}
+	{id = 5944, chance = 88372},
+	{id = 2148, chance = 86047, maxCount = 179},
+	{id = 2152, chance = 60465, maxCount = 4},
+	{id = 3123, chance = 44186},
+	{id = 6500, chance = 37209},
+	{id = 2200, chance = 30233},
+	{id = 2656, chance = 30233},
+	{id = 2424, chance = 18605},
+	{id = 2647, chance = 11628},
+	{id = 2165, chance = 9302}
 }
 
 mType:register(monster)

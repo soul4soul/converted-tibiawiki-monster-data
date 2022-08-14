@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Big Boss Trolliver")
 local monster = {}
 
 monster.name = "Big Boss Trolliver"
-monster.description = ""
+monster.description = "Big Boss Trolliver"
 monster.experience = 105
 monster.outfit = {
 	lookType = 0,
@@ -88,12 +88,16 @@ monster.defenses = {
 
 monster.maxSummons = 5
 monster.summons = {
-	{name = "Troll Champion", chance = 15, interval = 2000, max = 1}
+	{name = "Troll Champion", chance = 15, interval = 2000, max = 5}
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 33},
-	{id = 2170, chance = 100000}
+	{id = 2148, chance = 100000, maxCount = 64},
+	{id = 2170, chance = 66667},
+	{id = 2666, chance = 20000, maxCount = 3},
+	{id = 2389, chance = 20000},
+	{id = 2448, chance = 20000},
+	{id = 2643, chance = 20000}
 }
 
 mType:register(monster)

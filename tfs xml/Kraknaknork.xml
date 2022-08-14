@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Kraknaknork" nameDescription="" experience="300" speed="0" manacost="0">
+<monster name="Kraknaknork" nameDescription="" race="blood" experience="300" speed="0" manacost="0">
 	<health now="80" max="80" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -15,7 +15,7 @@
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag staticattack="90" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag healthhidden="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -41,7 +41,7 @@
 		<element deathPercent="0" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="0" />
+		<attack name="outfit" interval="2000" chance="15" monster="Sheep" duration="5000" />
 	</attacks>
 	<defenses armor="10" defense="5" />
 	<voices interval="5000" chance="10">
@@ -49,7 +49,11 @@
 		<voice sentence="???!!!" yell="false" />
 		<voice sentence="Grak brrretz gulu." yell="false" />
 	</voices>
+	<summons maxSummons="1">
+		<voice name="Weakened Demon" interval="2000" chance="15" max="1" />
+	</summons>
 	<loot>
 		<item id="2148" name="gold coin" chance="95455" countmax="15" />
+		<item id="12435" name="orc leather" chance="20000" />
 	</loot>
 </monster>

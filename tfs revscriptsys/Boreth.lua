@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Boreth")
 local monster = {}
 
 monster.name = "Boreth"
-monster.description = ""
+monster.description = "Boreth"
 monster.experience = 1800
 monster.outfit = {
 	lookType = 0,
@@ -68,14 +68,14 @@ monster.immunities = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
 }
 
 monster.attacks = {
@@ -90,18 +90,19 @@ monster.defenses = {
 
 monster.maxSummons = 4
 monster.summons = {
-	{name = "Vampire", chance = 15, interval = 2000, max = 1}
+	{name = "Vampire", chance = 15, interval = 2000, max = 4}
 }
 
 monster.loot = {
 	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 12405, chance = 84762},
-	{id = 7588, chance = 17143},
-	{id = 2152, chance = 9524, maxCount = 5},
-	{id = 2214, chance = 9524},
-	{id = 2534, chance = 1905},
-	{id = 2144, chance = 952},
-	{id = 8873, chance = 952}
+	{id = 12405, chance = 86709},
+	{id = 7588, chance = 19620},
+	{id = 2214, chance = 12025},
+	{id = 2152, chance = 10443, maxCount = 5},
+	{id = 2144, chance = 1899},
+	{id = 2534, chance = 1266},
+	{id = 7419, chance = 633},
+	{id = 8873, chance = 316}
 }
 
 mType:register(monster)

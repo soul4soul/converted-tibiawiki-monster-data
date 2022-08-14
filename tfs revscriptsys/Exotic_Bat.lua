@@ -5,7 +5,7 @@ monster.name = "Exotic Bat"
 monster.description = "an exotic bat"
 monster.experience = 1200
 monster.outfit = {
-	lookType = 0,
+	lookType = 1373,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
@@ -47,8 +47,8 @@ monster.flags = {
 }
 
 monster.light = {
-	level = 0,
-	color = 0
+	level = 2,
+	color = 103
 }
 
 monster.voices = {
@@ -66,19 +66,18 @@ monster.immunities = {
 
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 5},
+	{type = COMBAT_EARTHDAMAGE, percent = 1},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 5},
+	{type = COMBAT_HOLYDAMAGE , percent = 5},
+	{type = COMBAT_DEATHDAMAGE , percent = 5}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -80}
 }
 
 monster.defenses = {
@@ -88,12 +87,12 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 2152, chance = 100000, maxCount = 4},
-	{id = 7590, chance = 29477},
-	{id = 2792, chance = 14940, maxCount = 6},
-	{id = 2796, chance = 10530, maxCount = 5},
-	{id = 7887, chance = 6047},
-	{id = 2199, chance = 5216},
-	{id = 5894, chance = 4874, maxCount = 2}
+	{id = 7590, chance = 29466, maxCount = 2},
+	{id = 2792, chance = 14954, maxCount = 6},
+	{id = 2796, chance = 10294, maxCount = 5},
+	{id = 7887, chance = 6027},
+	{id = 2199, chance = 5172},
+	{id = 5894, chance = 4877, maxCount = 2}
 }
 
 mType:register(monster)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Memory Of A Lizard" nameDescription="a memory of a lizard" experience="0" speed="0" manacost="0">
-	<health now="0" max="0" />
+<monster name="Memory Of A Lizard" nameDescription="a memory of a lizard" race="blood" experience="1450" speed="0" manacost="0">
+	<health now="3520" max="3520" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -42,16 +42,16 @@
 	</elements>
 	<defenses armor="10" defense="5" />
 	<loot>
-		<item id="2148" name="gold coin" chance="97002" countmax="206" />
-		<item id="7588" name="strong health potion" chance="10582" />
-		<item id="7591" name="great health potion" chance="6173" />
-		<item id="37531" name="candy floss (large)" chance="5467" />
-		<item id="2152" name="platinum coin" chance="5115" countmax="2" />
-		<item id="11245" name="bunch of ripe rice" chance="4233" />
-		<item id="2149" name="small emerald" chance="2646" countmax="4" />
-		<item id="37468" name="special fx box" chance="1058" />
-		<item id="2528" name="tower shield" chance="705" />
-		<item id="11304" name="zaoan legs" chance="529" />
-		<item id="11303" name="zaoan shoes" chance="353" />
+		<item id="2148" name="gold coin" chance="92308" countmax="128" />
+		<item id="2152" name="platinum coin" chance="23077" countmax="2" />
+		<item id="7591" name="great health potion" chance="23077" />
+		<item id="11304" name="zaoan legs" chance="20000" />
+		<item id="37468" name="special fx box" chance="20000" />
+		<item id="2528" name="tower shield" chance="20000" />
+		<item id="2149" name="small emerald" chance="20000" />
+		<item id="11303" name="zaoan shoes" chance="20000" />
+		<item id="37531" name="candy floss (large)" chance="20000" />
+		<item id="7588" name="strong health potion" chance="15385" />
+		<item id="11245" name="bunch of ripe rice" chance="7692" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Orchid Frog" nameDescription="an orchid frog" experience="20" speed="320" manacost="0">
+<monster name="Orchid Frog" nameDescription="an orchid frog" race="blood" experience="20" speed="320" manacost="305">
 	<health now="60" max="60" />
 	<look type="226" head="71" body="14" legs="71" feet="70" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -32,11 +32,11 @@
 		<element physicalPercent="0" />
 		<element energyPercent="0" />
 		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="10" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
@@ -49,7 +49,7 @@
 		<voice sentence="Ribbit! Ribbit!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="75248" countmax="10" />
-		<item id="3976" name="worm" chance="9974" />
+		<item id="2148" name="gold coin" chance="75367" countmax="10" />
+		<item id="3976" name="worm" chance="10028" />
 	</loot>
 </monster>

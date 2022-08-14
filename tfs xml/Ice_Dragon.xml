@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Ice Dragon" nameDescription="an ice dragon" experience="2300" speed="212" manacost="0">
+<monster name="Ice Dragon" nameDescription="an ice dragon" race="blood" experience="2300" speed="212" manacost="0">
 	<health now="2500" max="2500" />
 	<look type="947" head="0" body="9" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,23 +29,18 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
+		<element physicalPercent="-5" />
 		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element earthPercent="50" />
+		<element firePercent="-30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="100" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
-	</attacks>
-	<defenses armor="41" defense="41">
-		<defense name="healing" interval="2000" chance="20" min="100" max="200" />
-	</defenses>
+	<defenses armor="41" defense="41" />
 	<loot>
 		<item id="2148" name="gold coin" chance="96552" countmax="219" />
 		<item id="2672" name="dragon ham" chance="78796" />

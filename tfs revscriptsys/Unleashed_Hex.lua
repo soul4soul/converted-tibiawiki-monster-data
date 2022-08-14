@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Unleashed Hex")
 local monster = {}
 
 monster.name = "Unleashed Hex"
-monster.description = ""
+monster.description = "unleashed hex"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,

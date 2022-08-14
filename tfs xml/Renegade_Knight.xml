@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Renegade Knight" nameDescription="a renegade knight" experience="1200" speed="270" manacost="0">
+<monster name="Renegade Knight" nameDescription="a renegade knight" race="blood" experience="1200" speed="270" manacost="0">
 	<health now="1450" max="1450" />
 	<look type="268" head="97" body="113" legs="76" feet="98" addons="2" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="15" />
+		<element energyPercent="35" />
+		<element earthPercent="20" />
+		<element firePercent="20" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="50" />
+		<element deathPercent="-10" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-245" />
@@ -57,21 +57,21 @@
 		<voice sentence="A challenge at last!" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99986" countmax="100" />
-		<item id="2152" name="platinum coin" chance="25511" countmax="2" />
-		<item id="2666" name="meat" chance="9373" />
-		<item id="7591" name="great health potion" chance="7259" />
-		<item id="12466" name="scroll of heroic deeds" chance="5962" />
-		<item id="2377" name="two handed sword" chance="5180" />
-		<item id="2147" name="small ruby" chance="3629" />
-		<item id="5911" name="red piece of cloth" chance="1811" />
-		<item id="12406" name="small notebook" chance="1564" />
-		<item id="2391" name="war hammer" chance="965" />
-		<item id="2488" name="crown legs" chance="648" />
-		<item id="2487" name="crown armor" chance="613" />
-		<item id="2491" name="crown helmet" chance="606" />
-		<item id="2392" name="fire sword" chance="543" />
-		<item id="2519" name="crown shield" chance="204" />
-		<item id="2114" name="piggy bank" chance="113" />
+		<item id="2148" name="gold coin" chance="99987" countmax="100" />
+		<item id="2152" name="platinum coin" chance="25455" countmax="2" />
+		<item id="2666" name="meat" chance="9313" />
+		<item id="7591" name="great health potion" chance="7138" />
+		<item id="12466" name="scroll of heroic deeds" chance="6083" />
+		<item id="2377" name="two handed sword" chance="5190" />
+		<item id="2147" name="small ruby" chance="3626" />
+		<item id="5911" name="red piece of cloth" chance="1779" />
+		<item id="12406" name="small notebook" chance="1544" />
+		<item id="2391" name="war hammer" chance="980" />
+		<item id="2488" name="crown legs" chance="631" />
+		<item id="2487" name="crown armor" chance="604" />
+		<item id="2491" name="crown helmet" chance="604" />
+		<item id="2392" name="fire sword" chance="537" />
+		<item id="2519" name="crown shield" chance="208" />
+		<item id="2114" name="piggy bank" chance="114" />
 	</loot>
 </monster>

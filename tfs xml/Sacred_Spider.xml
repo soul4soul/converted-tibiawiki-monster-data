@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Sacred Spider" nameDescription="a sacred spider" experience="330" speed="244" manacost="0">
+<monster name="Sacred Spider" nameDescription="a sacred spider" race="blood" experience="330" speed="244" manacost="0">
 	<health now="550" max="550" />
 	<look type="219" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,25 +30,22 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-15" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="-10" />
 		<element holyPercent="0" />
 		<element deathPercent="0" />
 	</elements>
-	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-156" />
-	</attacks>
 	<defenses armor="27" defense="27" />
 	<loot>
-		<item id="2148" name="gold coin" chance="89646" countmax="119" />
-		<item id="8859" name="spider fangs" chance="25134" />
-		<item id="2159" name="scarab coin" chance="6652" countmax="4" />
-		<item id="2463" name="plate armor" chance="4732" />
-		<item id="9971" name="gold ingot" chance="64" />
+		<item id="2148" name="gold coin" chance="89648" countmax="119" />
+		<item id="8859" name="spider fangs" chance="25103" />
+		<item id="2159" name="scarab coin" chance="6599" countmax="4" />
+		<item id="2463" name="plate armor" chance="4735" />
+		<item id="9971" name="gold ingot" chance="62" />
 	</loot>
 </monster>

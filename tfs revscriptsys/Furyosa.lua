@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Furyosa")
 local monster = {}
 
 monster.name = "Furyosa"
-monster.description = ""
+monster.description = "Furyosa"
 monster.experience = 11500
 monster.outfit = {
 	lookType = 0,
@@ -71,16 +71,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
-	{type = COMBAT_ENERGYDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
+	{type = COMBAT_ENERGYDAMAGE, percent = 10},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 40},
+	{type = COMBAT_HOLYDAMAGE , percent = 40},
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.attacks = {
@@ -95,15 +95,38 @@ monster.defenses = {
 
 monster.maxSummons = 4
 monster.summons = {
-	{name = "Fury", chance = 15, interval = 2000, max = 1}
+	{name = "Fury", chance = 15, interval = 2000, max = 4}
 }
 
 monster.loot = {
-	{id = 2124, chance = 100000},
 	{id = 2148, chance = 100000, maxCount = 200},
-	{id = 7590, chance = 100000, maxCount = 5},
 	{id = 8844, chance = 100000, maxCount = 5},
-	{id = 5944, chance = 100000}
+	{id = 2124, chance = 100000},
+	{id = 7590, chance = 100000, maxCount = 5},
+	{id = 5944, chance = 100000},
+	{id = 6558, chance = 66667},
+	{id = 5909, chance = 66667},
+	{id = 2152, chance = 66667, maxCount = 28},
+	{id = 2146, chance = 66667, maxCount = 5},
+	{id = 18409, chance = 33333},
+	{id = 7404, chance = 33333},
+	{id = 21725, chance = 33333},
+	{id = 8472, chance = 33333, maxCount = 5},
+	{id = 8473, chance = 33333, maxCount = 5},
+	{id = 7456, chance = 33333},
+	{id = 2539, chance = 20000},
+	{id = 5914, chance = 20000},
+	{id = 9970, chance = 20000, maxCount = 5},
+	{id = 2147, chance = 20000, maxCount = 5},
+	{id = 7899, chance = 20000},
+	{id = 7894, chance = 20000},
+	{id = 6500, chance = 20000},
+	{id = 6300, chance = 20000},
+	{id = 5911, chance = 20000},
+	{id = 9971, chance = 20000},
+	{id = 7368, chance = 20000, maxCount = 10},
+	{id = 2145, chance = 20000, maxCount = 5},
+	{id = 21400, chance = 20000}
 }
 
 mType:register(monster)

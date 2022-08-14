@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Plaguesmith" nameDescription="a plaguesmith" experience="3555" speed="320" manacost="0">
+<monster name="Plaguesmith" nameDescription="a plaguesmith" race="blood" experience="3555" speed="320" manacost="0">
 	<health now="8250" max="8250" />
 	<look type="247" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -30,18 +30,27 @@
 	</immunities>
 	<elements>
 		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element energyPercent="-10" />
+		<element earthPercent="100" />
+		<element firePercent="30" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element icePercent="20" />
+		<element holyPercent="-10" />
+		<element deathPercent="10" />
 	</elements>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="0" max="-400" />
+		<attack name="melee" interval="2000" chance="100" min="0" max="-400" poison="196" />
+		<attack name="earth" interval="2000" chance="15" min="-60" max="-114" radius="4" target="0">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" minspeedchange="-400" maxspeedchange="-400" duration="20000" radius="4" target="0">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="-100" max="-350" length="5" spread="3">
+			<attribute key="areaEffect" value="yellowbubble" />
+		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
@@ -56,32 +65,32 @@
 		<voice sentence="Cough Cough" yell="false" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="96077" countmax="263" />
-		<item id="2237" name="dirty cape" chance="49530" />
-		<item id="2235" name="mouldy cheese" chance="40470" />
-		<item id="2394" name="morning star" chance="24088" />
-		<item id="2225" name="piece of iron" chance="16823" />
-		<item id="2509" name="steel shield" chance="16685" />
-		<item id="2417" name="battle hammer" chance="16271" />
-		<item id="2377" name="two handed sword" chance="15193" />
-		<item id="5944" name="soul orb" chance="10110" />
-		<item id="7591" name="great health potion" chance="7762" />
-		<item id="7365" name="onyx arrow" chance="7238" countmax="4" />
-		<item id="6500" name="demonic essence" chance="6657" />
-		<item id="2152" name="platinum coin" chance="6381" countmax="2" />
-		<item id="9810" name="slightly rusted armor" chance="6022" />
-		<item id="2477" name="knight legs" chance="5856" />
-		<item id="2208" name="axe ring" chance="4006" />
-		<item id="2150" name="small amethyst" chance="4006" countmax="3" />
-		<item id="2209" name="club ring" chance="3564" />
-		<item id="2391" name="war hammer" chance="1713" />
-		<item id="2645" name="steel boots" chance="1409" />
-		<item id="2134" name="silver brooch" chance="1160" />
-		<item id="5888" name="piece of hell steel" chance="912" />
-		<item id="5889" name="piece of draconian steel" chance="801" />
-		<item id="2444" name="hammer of wrath" chance="635" />
-		<item id="5887" name="piece of royal steel" chance="635" />
-		<item id="2127" name="emerald bangle" chance="276" />
-		<item id="2079" name="war horn" chance="83" />
+		<item id="2148" name="gold coin" chance="96249" countmax="287" />
+		<item id="2237" name="dirty cape" chance="48808" />
+		<item id="2235" name="mouldy cheese" chance="40563" />
+		<item id="2394" name="morning star" chance="23662" />
+		<item id="2225" name="piece of iron" chance="16686" />
+		<item id="2417" name="battle hammer" chance="16354" />
+		<item id="2509" name="steel shield" chance="16237" />
+		<item id="2377" name="two handed sword" chance="15807" />
+		<item id="5944" name="soul orb" chance="10180" />
+		<item id="7591" name="great health potion" chance="7776" />
+		<item id="7365" name="onyx arrow" chance="7073" countmax="4" />
+		<item id="6500" name="demonic essence" chance="6995" />
+		<item id="9810" name="slightly rusted armor" chance="6155" />
+		<item id="2152" name="platinum coin" chance="6057" countmax="2" />
+		<item id="2477" name="knight legs" chance="5959" />
+		<item id="2208" name="axe ring" chance="4123" />
+		<item id="2209" name="club ring" chance="3947" />
+		<item id="2150" name="small amethyst" chance="3869" countmax="3" />
+		<item id="2391" name="war hammer" chance="1758" />
+		<item id="2134" name="silver brooch" chance="1270" />
+		<item id="2645" name="steel boots" chance="1250" />
+		<item id="5889" name="piece of draconian steel" chance="860" />
+		<item id="5888" name="piece of hell steel" chance="782" />
+		<item id="5887" name="piece of royal steel" chance="625" />
+		<item id="2444" name="hammer of wrath" chance="547" />
+		<item id="2127" name="emerald bangle" chance="293" />
+		<item id="2079" name="war horn" chance="59" />
 	</loot>
 </monster>

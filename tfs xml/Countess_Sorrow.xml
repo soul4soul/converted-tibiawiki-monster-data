@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Countess Sorrow" nameDescription="" experience="13000" speed="400" manacost="0">
+<monster name="Countess Sorrow" nameDescription="Countess Sorrow" race="blood" experience="13000" speed="400" manacost="0">
 	<health now="6500" max="6500" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,22 +29,21 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="100" />
+		<element energyPercent="10" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="100" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
-		<element icePercent="0" />
+		<element icePercent="50" />
 		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element deathPercent="100" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-828" />
 	</attacks>
 	<defenses armor="10" defense="5">
-		<defense name="healing" interval="2000" chance="20" min="416" max="625" />
 		<defense name="speed" interval="2000" chance="15" minspeedchange="300" maxspeedchange="300" duration="7000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
@@ -55,17 +54,21 @@
 		<voice sentence="Sleep ... for eternity!" yell="false" />
 		<voice sentence="Dreams can come true. As my dream of killing you." yell="false" />
 	</voices>
+	<summons maxSummons="6">
+		<voice name="Phantasm" interval="2000" chance="15" max="3" />
+		<voice name="Phantasm (Weak)" interval="2000" chance="15" max="3" />
+	</summons>
 	<loot>
 		<item id="6536" name="countess sorrow's frozen tear" chance="100000" />
-		<item id="5944" name="soul orb" chance="88095" />
-		<item id="2148" name="gold coin" chance="85714" countmax="169" />
-		<item id="2152" name="platinum coin" chance="59524" countmax="4" />
-		<item id="3123" name="worn leather boots" chance="45238" />
-		<item id="6500" name="demonic essence" chance="35714" />
-		<item id="2656" name="blue robe" chance="30952" />
-		<item id="2200" name="protection amulet" chance="30952" />
-		<item id="2424" name="silver mace" chance="19048" />
-		<item id="2647" name="plate legs" chance="9524" />
-		<item id="2165" name="stealth ring" chance="7143" />
+		<item id="5944" name="soul orb" chance="88372" />
+		<item id="2148" name="gold coin" chance="86047" countmax="179" />
+		<item id="2152" name="platinum coin" chance="60465" countmax="4" />
+		<item id="3123" name="worn leather boots" chance="44186" />
+		<item id="6500" name="demonic essence" chance="37209" />
+		<item id="2200" name="protection amulet" chance="30233" />
+		<item id="2656" name="blue robe" chance="30233" />
+		<item id="2424" name="silver mace" chance="18605" />
+		<item id="2647" name="plate legs" chance="11628" />
+		<item id="2165" name="stealth ring" chance="9302" />
 	</loot>
 </monster>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Energy Pulse")
 local monster = {}
 
 monster.name = "Energy Pulse"
-monster.description = ""
+monster.description = "a energy pulse"
 monster.experience = 0
 monster.outfit = {
 	lookType = 0,
@@ -39,7 +39,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 4,
+	targetDistance = 1,
 	healthHidden = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,

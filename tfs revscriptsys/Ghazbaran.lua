@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Ghazbaran")
 local monster = {}
 
 monster.name = "Ghazbaran"
-monster.description = ""
+monster.description = "Ghazbaran"
 monster.experience = 15000
 monster.outfit = {
 	lookType = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 60000
-monster.maxHealth = 60000
+monster.health = 77000
+monster.maxHealth = 77000
 monster.runHealth = 0
 monster.race = "blood"
 monster.corpse = 0
@@ -41,9 +41,9 @@ monster.flags = {
 	staticAttackChance = 90,
 	targetDistance = 1,
 	healthHidden = false,
-	canWalkOnEnergy = false,
-	canWalkOnFire = false,
-	canWalkOnPoison = false
+	canWalkOnEnergy = true,
+	canWalkOnFire = true,
+	canWalkOnPoison = true
 }
 
 monster.light = {
@@ -69,16 +69,16 @@ monster.immunities = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 30},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 0},
-	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = 100},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
-	{type = COMBAT_ICEDAMAGE, percent = 0},
-	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 0}
+	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_HOLYDAMAGE , percent = -5},
+	{type = COMBAT_DEATHDAMAGE , percent = 1}
 }
 
 monster.attacks = {
@@ -93,70 +93,85 @@ monster.defenses = {
 
 monster.maxSummons = 4
 monster.summons = {
-	{name = "Deathslicer", chance = 15, interval = 2000, max = 1}
+	{name = "Deathslicer", chance = 15, interval = 2000, max = 4}
 }
 
 monster.loot = {
-	{id = 6500, chance = 100000},
-	{id = 2152, chance = 100000, maxCount = 69},
-	{id = 5954, chance = 32609, maxCount = 2},
-	{id = 2145, chance = 30435, maxCount = 5},
-	{id = 6300, chance = 28261},
-	{id = 7591, chance = 26087},
-	{id = 8472, chance = 26087},
-	{id = 8904, chance = 26087},
-	{id = 8473, chance = 26087},
-	{id = 2143, chance = 26087, maxCount = 15},
-	{id = 2178, chance = 23913},
-	{id = 2214, chance = 23913},
-	{id = 2150, chance = 23913, maxCount = 17},
-	{id = 2149, chance = 23913, maxCount = 10},
-	{id = 1984, chance = 21739},
-	{id = 7590, chance = 21739},
-	{id = 2155, chance = 21739},
-	{id = 2176, chance = 21739},
-	{id = 2146, chance = 21739, maxCount = 10},
-	{id = 8918, chance = 21739},
-	{id = 8901, chance = 21739},
-	{id = 2179, chance = 19565},
-	{id = 7405, chance = 17391},
-	{id = 8884, chance = 17391},
-	{id = 8903, chance = 17391},
-	{id = 7368, chance = 15217, maxCount = 44},
-	{id = 2158, chance = 15217},
-	{id = 7433, chance = 15217},
-	{id = 6553, chance = 15217},
-	{id = 2112, chance = 15217},
-	{id = 2520, chance = 13043},
-	{id = 2177, chance = 13043},
-	{id = 2164, chance = 13043},
-	{id = 2165, chance = 13043},
-	{id = 2151, chance = 13043, maxCount = 7},
-	{id = 2144, chance = 10870, maxCount = 14},
-	{id = 2124, chance = 10870},
-	{id = 7896, chance = 10870},
-	{id = 8902, chance = 10870},
-	{id = 2174, chance = 10870},
-	{id = 2447, chance = 10870},
-	{id = 8887, chance = 8696},
-	{id = 2466, chance = 8696},
-	{id = 2646, chance = 8696},
-	{id = 2472, chance = 8696},
-	{id = 8866, chance = 8696},
-	{id = 7428, chance = 6522},
-	{id = 8878, chance = 6522},
-	{id = 7454, chance = 6522},
-	{id = 9971, chance = 6522},
-	{id = 2470, chance = 6522},
-	{id = 2033, chance = 6522},
-	{id = 2162, chance = 6522},
-	{id = 7455, chance = 6522},
-	{id = 2192, chance = 4348},
-	{id = 2167, chance = 4348},
-	{id = 2393, chance = 4348},
-	{id = 2123, chance = 4348},
-	{id = 2514, chance = 2174},
-	{id = 7365, chance = 2174, maxCount = 30}
+	{id = 2152, chance = 100000, maxCount = 73},
+	{id = 7838, chance = 66667, maxCount = 90},
+	{id = 2164, chance = 66667},
+	{id = 7364, chance = 33333, maxCount = 54},
+	{id = 2033, chance = 33333},
+	{id = 2178, chance = 33333},
+	{id = 8473, chance = 33333},
+	{id = 7590, chance = 33333, maxCount = 2},
+	{id = 6500, chance = 33333, maxCount = 500},
+	{id = 7428, chance = 33333},
+	{id = 2150, chance = 33333, maxCount = 15},
+	{id = 2144, chance = 33333, maxCount = 15},
+	{id = 2112, chance = 20000},
+	{id = 7839, chance = 20000},
+	{id = 2466, chance = 20000},
+	{id = 2470, chance = 20000},
+	{id = 2646, chance = 20000},
+	{id = 2231, chance = 20000},
+	{id = 2174, chance = 20000},
+	{id = 7455, chance = 20000},
+	{id = 2162, chance = 20000},
+	{id = 2170, chance = 20000},
+	{id = 2200, chance = 20000},
+	{id = 2171, chance = 20000},
+	{id = 2142, chance = 20000},
+	{id = 2123, chance = 20000},
+	{id = 7433, chance = 20000},
+	{id = 2179, chance = 20000},
+	{id = 6300, chance = 20000},
+	{id = 7431, chance = 20000},
+	{id = 2165, chance = 20000},
+	{id = 2124, chance = 20000},
+	{id = 6553, chance = 20000},
+	{id = 8472, chance = 20000},
+	{id = 7591, chance = 20000},
+	{id = 1984, chance = 20000},
+	{id = 7588, chance = 20000},
+	{id = 7439, chance = 20000},
+	{id = 2167, chance = 20000},
+	{id = 2214, chance = 20000},
+	{id = 7454, chance = 20000},
+	{id = 2447, chance = 20000},
+	{id = 2160, chance = 20000, maxCount = 2},
+	{id = 2149, chance = 20000, maxCount = 6},
+	{id = 2145, chance = 20000, maxCount = 5},
+	{id = 2146, chance = 20000, maxCount = 4},
+	{id = 2151, chance = 20000, maxCount = 4},
+	{id = 2143, chance = 20000, maxCount = 15},
+	{id = 5954, chance = 20000, maxCount = 2},
+	{id = 7365, chance = 20000, maxCount = 82},
+	{id = 7368, chance = 20000, maxCount = 47},
+	{id = 9971, chance = 20000},
+	{id = 2192, chance = 20000},
+	{id = 2155, chance = 20000},
+	{id = 2158, chance = 20000},
+	{id = 2177, chance = 20000},
+	{id = 2176, chance = 20000},
+	{id = 2472, chance = 20000},
+	{id = 8884, chance = 20000},
+	{id = 2436, chance = 20000},
+	{id = 2387, chance = 20000},
+	{id = 2520, chance = 20000},
+	{id = 7896, chance = 20000},
+	{id = 8902, chance = 20000},
+	{id = 8903, chance = 20000},
+	{id = 7405, chance = 20000},
+	{id = 8918, chance = 20000},
+	{id = 8904, chance = 20000},
+	{id = 2393, chance = 20000},
+	{id = 2514, chance = 20000},
+	{id = 8878, chance = 20000},
+	{id = 8887, chance = 20000},
+	{id = 8866, chance = 20000},
+	{id = 8901, chance = 20000},
+	{id = 2148, chance = 20000, maxCount = 200}
 }
 
 mType:register(monster)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Grorlam" nameDescription="" experience="2400" speed="0" manacost="0">
+<monster name="Grorlam" nameDescription="" race="blood" experience="2400" speed="0" manacost="0">
 	<health now="3000" max="3000" />
 	<look type="0" head="0" body="0" legs="0" feet="0" addons="0" mount="0" corpse="0" />
 	<targetchange interval="2000" chance="0" />
@@ -29,16 +29,16 @@
 		<immunity bleed="0" />
 	</immunities>
 	<elements>
-		<element physicalPercent="0" />
-		<element energyPercent="0" />
-		<element earthPercent="0" />
-		<element firePercent="0" />
+		<element physicalPercent="30" />
+		<element energyPercent="20" />
+		<element earthPercent="100" />
+		<element firePercent="-10" />
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 		<element drownPercent="0" />
 		<element icePercent="0" />
-		<element holyPercent="0" />
-		<element deathPercent="0" />
+		<element holyPercent="20" />
+		<element deathPercent="-1" />
 	</elements>
 	<attacks>
 		<attack name="melee" interval="2000" chance="100" min="0" max="-300" />
@@ -50,16 +50,19 @@
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="98" />
-		<item id="2152" name="platinum coin" chance="100000" countmax="6" />
 		<item id="11227" name="shiny stone" chance="100000" />
-		<item id="2150" name="small amethyst" chance="73077" countmax="2" />
-		<item id="2509" name="steel shield" chance="65385" />
-		<item id="11232" name="sulphurous stone" chance="65385" />
-		<item id="2156" name="red gem" chance="57692" />
-		<item id="2166" name="power ring" chance="42308" />
-		<item id="2645" name="steel boots" chance="11538" />
-		<item id="2124" name="crystal ring" chance="3846" />
-		<item id="1294" name="small stone" chance="3846" countmax="3" />
+		<item id="2148" name="gold coin" chance="100000" countmax="100" />
+		<item id="2152" name="platinum coin" chance="100000" countmax="6" />
+		<item id="2150" name="small amethyst" chance="68966" countmax="2" />
+		<item id="2509" name="steel shield" chance="68966" />
+		<item id="11232" name="sulphurous stone" chance="65517" />
+		<item id="2156" name="red gem" chance="55172" />
+		<item id="2166" name="power ring" chance="48276" />
+		<item id="5880" name="iron ore" chance="20000" />
+		<item id="2483" name="scale armor" chance="20000" />
+		<item id="2395" name="carlin sword" chance="20000" />
+		<item id="2645" name="steel boots" chance="10345" />
+		<item id="1294" name="small stone" chance="3448" countmax="20" />
+		<item id="2124" name="crystal ring" chance="3448" />
 	</loot>
 </monster>
